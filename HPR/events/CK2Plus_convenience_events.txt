@@ -1,0 +1,855 @@
+
+namespace = Plus
+
+#reserved: Plus.970 to Plus.999
+
+#######################################
+# NHV CONVENIENCE EVENTS
+# Written by Rylock
+#######################################
+
+### NO HASSLES VASSALS
+
+narrative_event = { # Begin
+	id = Plus.970
+	title = EVTNAME_Plus_970
+	desc = EVTDESC_Plus_970
+	picture = GFX_evt_council
+	border = GFX_event_narrative_frame_diplomacy
+	
+	is_triggered_only = yes
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Plus_970
+	}
+}
+
+character_event = { # Flag Province (Marshal)
+	id = Plus.972
+	desc = EVTDESC_Plus_972
+	picture = "GFX_evt_carriage"
+	border = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = EVTOPTA_Plus_972
+		trigger = {
+			job_marshal = {
+				location = {
+					ROOT = {
+						any_demesne_title = {
+							tier = baron
+							is_capital = yes
+							location = { province_id = PREVPREVPREV }
+						}
+					}
+				}
+			}
+		}
+		job_marshal = {
+			location = {
+				set_province_flag = keep_it
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_972
+		trigger = {
+			job_marshal = {
+				location = {
+					ROOT = {
+						any_demesne_title = {
+							tier = baron
+							is_capital = no
+							location = { province_id = PREVPREVPREV }
+						}
+					}
+				}
+			}
+		}
+		job_marshal = {
+			location = {
+				set_province_flag = keep_it
+				set_province_flag = keep_baronies
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_972
+	}
+}
+
+character_event = { # Unflag Province (Marshal)
+	id = Plus.973
+	desc = EVTDESC_Plus_973
+	picture = "GFX_evt_carriage"
+	border = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = EXCELLENT
+		job_marshal = {
+			location = {
+				clr_province_flag = keep_it
+				clr_province_flag = keep_baronies
+			}
+		}
+	}
+}
+
+character_event = { # Vassalize All Titles
+	id = Plus.974
+	desc = EVTDESC_Plus_974
+	picture = "GFX_evt_council"
+	
+	is_triggered_only = yes
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Plus_974
+		hidden_tooltip = {
+			if = {
+				limit = {
+					NOT = {
+						any_demesne_title = {
+							tier = baron
+							is_capital = no
+							is_patrician = no
+							location = { NOT = { has_province_flag = keep_baronies } }
+						}
+					}
+					any_demesne_title = {
+						tier = baron
+						is_capital = yes
+						is_patrician = no
+						location = { NOT = { has_province_flag = keep_it } }
+					}
+				}
+				character_event = { id = Plus.990 }
+			}
+			if = {
+				limit = {
+					any_demesne_title = {
+						tier = baron
+						is_capital = no
+						is_patrician = no
+						location = { NOT = { has_province_flag = keep_baronies } }
+					}
+				}
+				character_event = { id = Plus.989 }
+			}
+		}
+	}
+}
+
+character_event = { # Vassalize Baronies
+	id = Plus.975
+	desc = EVTDESC_Plus_975
+	picture = "GFX_evt_council"
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = EVTOPTA_Plus_975
+		hidden_tooltip = {
+			set_character_flag = baronies_only
+			if = {
+				limit = {
+					any_demesne_title = {
+						tier = baron
+						is_capital = no
+						is_patrician = no
+						location = { NOT = { has_province_flag = keep_baronies } }
+					}
+				}
+				character_event = { id = Plus.989 }
+			}
+		}
+	}
+}
+
+### RANSOM ALL
+
+character_event = { #Prisoner receives ransom demand
+	id = Plus.985
+	desc = EVTDESC_Plus_985
+	picture = GFX_evt_into_the_dungeon
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_Plus_985 # Will pay
+		
+		ai_chance = { factor = 100 }
+				
+		#require money for ransom
+		if = {
+            limit = {
+				tier = emperor
+				wealth = 385
+			} 
+
+			wealth = -385
+			host = {
+				wealth = 385
+			}
+			prisoner = no
+        }
+                
+		if = {
+            limit = {
+				tier = king
+				wealth = 250
+			} 
+		
+			wealth = -250
+			host = {
+				wealth = 250
+			}
+			prisoner = no
+        }
+		
+        if = {
+            limit = {
+				tier = duke
+				mercenary = no
+				wealth = 145
+			} 
+			
+			wealth = -145
+			host = {
+				wealth = 145
+			}
+			prisoner = no
+        }
+		
+		if = {
+            limit = {
+				tier = duke
+				mercenary = yes
+			} 
+			
+			wealth = -145
+			host = {
+				wealth = 145
+			}
+			prisoner = no
+        }
+				
+        if = {
+            limit = {
+				tier = count
+				wealth = 70
+			} 
+		
+			wealth = -70
+			host = {
+				wealth = 70
+			}
+			prisoner = no
+        }
+				
+        if = {
+            limit = {
+				tier = baron
+				wealth = 25
+			} 
+		
+			wealth = -25
+			host = {
+				wealth = 25
+			}
+			prisoner = no
+        }
+				
+        if = {
+            limit = {
+				is_ruler = no
+				wealth = 10
+			} 
+
+			wealth = -10
+			host = {
+				wealth = 10
+			}
+			prisoner = no
+        }
+        if = {
+            limit = {
+				is_ruler = no
+				NOT = { wealth = 10 }
+				NOT = { liege = { character = FROM } }
+			} 
+			liege = { character_event = { id = Plus.986 } }
+        }
+		
+	}
+	
+	option = {
+		name = EVTOPTB_Plus_985 # will not pay
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+character_event = { #Liege of landless prisoner receives ransom demand
+	id = Plus.986
+	desc = EVTDESC_Plus_986
+	picture = GFX_evt_into_the_dungeon
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_Plus_986 # Will pay
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 2 
+				trait = charitable
+			}
+			modifier = {
+				factor = 2 
+				trait = kind
+			}
+			modifier = {
+				factor = 2 
+				trait = just
+			}
+			modifier = {
+				factor = 1.25 
+				wealth = 200
+			}
+			modifier = {
+				factor = 1.5 
+				wealth = 250
+			}
+			modifier = {
+				factor = 2 
+				wealth = 300
+			}
+			modifier = {
+				factor = 50 
+				wealth = 400
+			}
+			modifier = {
+				factor = 100 
+				wealth = 500
+			}
+			modifier = {
+				factor = 100 
+				FROM = { is_close_relative = ROOT } 
+			}	
+		}
+		ROOT = { wealth = -10 }
+		FROMFROM = { wealth = 10 }
+		FROM = { prisoner = no }
+	}
+	option = {
+		name = EVTOPTB_Plus_986 #will not
+
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 2 
+				trait = greedy
+			}
+			modifier = {
+				factor = 2 
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.5 
+				trait = cruel
+			}
+			modifier = {
+				factor = 2.5 
+				NOT = { wealth = 75 } 
+			}
+			modifier = {
+				factor = 5 
+				NOT = { wealth = 50 } 
+			}
+			modifier = {
+				factor = 10 
+				NOT = { wealth = 25} 
+			}
+		}
+		FROMFROM = { character_event = { id = Plus.987 } }
+	}
+}
+
+character_event = { #Jailer is informed of denied ransom
+	id = Plus.987
+	desc = EVTDESC_Plus_987
+	picture = GFX_evt_into_the_dungeon
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_Plus_987 # denied
+	}
+}
+
+# Assign rulers to baronies
+character_event = {
+	id = Plus.989
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		random_demesne_title = {
+			limit = {
+				tier = baron
+				is_capital = no
+				is_patrician = no
+				location = { NOT = { has_province_flag = keep_baronies } }
+			}
+			if = {
+				limit = {
+					ROOT = {
+						primary_title = { has_law = true_cognatic_succession }
+					}
+					is_theocracy = no
+				}
+				random_list = {
+					75 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					25 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						primary_title = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+					}
+					is_theocracy = no
+				}
+				random_list = {
+					30 = {
+						create_random_diplomat = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					30 = {
+						create_random_intriguer = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					30 = {
+						create_random_steward = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					10 = {
+						create_random_soldier = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						primary_title = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+					}
+					is_theocracy = no
+				}
+				random_list = {
+					50 = {
+						create_random_soldier = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					50 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_theocracy = yes
+					ROOT = {
+						religion_allows_female_temple_holders = no
+					}
+				}
+				random_list = {
+					75 = {
+						create_random_priest = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					25 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_theocracy = yes
+					ROOT = {
+						religion_allows_female_temple_holders = yes
+					}
+				}
+				random_list = {
+					40 = {
+						create_random_priest = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					40 = {
+						create_random_priest = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					20 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			new_character = {
+				set_defacto_liege = ROOT
+				grant_title = PREV
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_character_flag = baronies_only }
+				NOT = {
+					any_demesne_title = {
+						tier = baron
+						is_capital = no
+						is_patrician = no
+						location = { NOT = { has_province_flag = keep_baronies } }
+					}
+				}
+				any_demesne_title = {
+					tier = baron
+					is_capital = yes
+					is_patrician = no
+					location = { NOT = { has_province_flag = keep_it } }
+				}
+			}
+			character_event = { id = Plus.990 }
+		}
+		if = {
+			limit = {
+				has_character_flag = baronies_only
+				NOT = {
+					any_demesne_title = {
+						tier = baron
+						is_capital = no
+						is_patrician = no
+						location = { NOT = { has_province_flag = keep_baronies } }
+					}
+				}
+			}
+			clr_character_flag = baronies_only
+		}
+		if = {
+			limit = {
+				any_demesne_title = {
+					tier = baron
+					is_capital = no
+					is_patrician = no
+					location = { NOT = { has_province_flag = keep_baronies } }
+				}
+			}
+			character_event = { id = Plus.989 }
+		}
+	}
+}
+
+# Assign rulers to counties
+character_event = {
+	id = Plus.990
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		random_demesne_title = {
+			limit = {
+				tier = baron
+				is_capital = yes
+				is_patrician = no
+				location = { NOT = { has_province_flag = keep_it } }
+			}
+			if = {
+				limit = {
+					ROOT = {
+						primary_title = { has_law = true_cognatic_succession }
+					}
+					is_theocracy = no
+				}
+				random_list = {
+					75 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					25 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						primary_title = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+					}
+					is_theocracy = no
+				}
+				random_list = {
+					30 = {
+						create_random_diplomat = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					30 = {
+						create_random_intriguer = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					30 = {
+						create_random_steward = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					10 = {
+						create_random_soldier = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						primary_title = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+					}
+					is_theocracy = no
+				}
+				random_list = {
+					50 = {
+						create_random_soldier = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					50 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_theocracy = yes
+					ROOT = {
+						religion_allows_female_temple_holders = no
+					}
+				}
+				random_list = {
+					75 = {
+						create_random_priest = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					25 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_theocracy = yes
+					ROOT = {
+						religion_allows_female_temple_holders = yes
+					}
+				}
+				random_list = {
+					40 = {
+						create_random_priest = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					40 = {
+						create_random_priest = {
+							random_traits = yes
+							dynasty = random
+							female = yes
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+					20 = {
+						create_character = {
+							random_traits = yes
+							dynasty = random
+							female = no
+							religion = ROOT
+							culture = ROOT
+						}
+					}
+				}
+			}
+			new_character = {
+				set_defacto_liege = ROOT
+				grant_title = PREV
+			}
+		}
+		if = {
+			limit = {
+				any_demesne_title = {
+					tier = baron
+					is_capital = yes
+					is_patrician = no
+					location = { NOT = { has_province_flag = keep_it } }
+				}
+			}
+			character_event = { id = Plus.990 }
+		}
+	}
+}
+

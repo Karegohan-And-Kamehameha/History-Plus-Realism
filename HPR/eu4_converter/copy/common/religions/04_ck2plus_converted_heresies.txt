@@ -1,0 +1,46 @@
+pagan = {
+	egyptian_pagan_heresy = {
+		color = { 0.2 0.2 0}
+		icon = 41
+		country = {
+			heir_chance = 1.5
+			tolerance_heathens = 1
+		}
+	}
+}
+zoroastrian_group = {
+	zurvanist = {
+		icon = 38
+		color = { 0.3 0.65 0.25 }
+		province = {
+			local_missionary_strength = -0.01
+		}
+		country = {
+			heir_chance = 1.0
+			stability_cost_modifier = -0.2
+		}
+		
+		heretic = { ZOROASTRIAN MAZDAKI }
+	}	
+}
+christian = {
+	apostolic_heresy = {
+
+		flags_with_emblem_percentage = 20
+		flag_emblem_index_range = { 1 4 }
+
+		color = { 0.5 0 0.3 }
+		icon = 44
+		country = {
+			defensiveness = 0.2
+			tolerance_own = 1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { APOSTOLIC }
+		
+		misguided_heretic = yes		# Other christians hate them less (?)
+	}
+}

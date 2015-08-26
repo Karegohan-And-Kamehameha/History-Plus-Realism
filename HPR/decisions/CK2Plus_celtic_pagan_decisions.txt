@@ -1,0 +1,791 @@
+decisions = {
+	hold_an_aonach_tailteann  = {
+		is_high_prio = yes
+		potential = {
+			independent = yes
+			higher_tier_than = COUNT
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			NOT = {
+				any_demesne_title = { is_occupied = yes }
+				has_character_flag = aonach_tailteann
+				has_character_modifier = do_not_disturb
+			}
+		}
+		allow = {
+			war = no
+			is_ill = no
+			has_regent = no
+			ruled_years = 5
+			prestige = 500
+			wealth = 200
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+				hidden_tooltip = {
+					NOT = { has_character_modifier = do_not_disturb }
+					in_command = no
+					is_abroad = no
+				}
+			}
+			custom_tooltip = {
+				text = HAS_BARD_AVAILABLE
+				hidden_tooltip = {
+					OR = {
+						any_vassal = {
+							has_minor_title = title_court_bard
+							prisoner = no
+							NOT = { trait = incapable }
+							NOT = { has_character_modifier = do_not_disturb }
+						}
+						any_courtier = {
+							has_minor_title = title_court_bard
+							prisoner = no
+							NOT = { trait = incapable }
+							NOT = { has_character_modifier = do_not_disturb }
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			set_character_flag = aonach_tailteann
+			clr_character_flag = tailteann_has_ended
+			wealth = -200
+			prestige = 100
+			character_event = { id = ancrel.1193 tooltip = "tailteann_invite" }
+			hidden_tooltip = {
+				add_character_modifier = {
+					name = "holding_epic_tournament"
+					duration = 210
+				}			
+				add_character_modifier = {
+					name = do_not_disturb
+					days = 210
+					hidden = yes
+				}
+				character_event = { id = ancrel.1191 days = 60 } # Aonach starts
+				clr_character_flag = tailteann_has_ended
+				any_realm_character = {
+					limit = {
+						is_adult = yes
+						NOT = { trait = incapable }
+						prisoner = no
+					}
+					clr_character_flag = tailteann_has_ended
+					character_event = { id = ancrel.1190 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						wealth = 1000
+						scaled_wealth = 3.0
+					}
+				}
+			}
+		}
+	}
+
+	hold_divination = {
+		potential = {
+			has_dlc = "The Old Gods"
+			is_ruler = yes
+			OR = {
+				religion = celtic_pagan_reformed
+				religion = celtic_pagan
+			}
+			NOT = {
+				any_demesne_title = { is_occupied = yes }
+				has_character_flag = planning_divination
+				has_character_modifier = held_divination_timer
+				has_character_modifier = do_not_disturb
+			}
+		}
+		allow = {
+			war = no
+			has_regent = no
+			custom_tooltip = {
+				text = HAS_COURT_DRUID_AVAILABLE
+				hidden_tooltip = {
+					any_courtier = {
+						has_minor_title = title_court_druid
+						prisoner = no
+						NOT = { trait = incapable }
+						NOT = { has_character_modifier = do_not_disturb }
+					}
+				}
+			}
+			scaled_wealth = 0.20
+		}
+		effect = {
+			custom_tooltip = {
+				text = prepare_divination			
+				scaled_wealth = -0.20				
+				hidden_tooltip = {
+					set_character_flag = planning_divination
+					character_event = { id = ancrel.20 }
+				}
+			}	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = { month = 5 }
+					month = 11
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 3.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					martial = 8
+				}
+			}
+		}
+	}
+
+	organize_gwydion = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = count
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			has_regent = no
+			NOT = { has_global_flag = gwydion_founded }
+		}
+		allow = {
+			OR = {
+				has_landed_title = k_wales
+				has_landed_title = k_brittany
+				tier = emperor
+			}
+			OR = {
+				AND = {
+					tier = king
+					NOT = { is_title_active = d_fianna }
+				}				
+				tier = emperor			
+			}
+			prestige = 300
+			wealth = 300
+		}
+		effect = {
+			set_global_flag = gwydion_founded
+			prestige = -300
+			wealth = -300
+			activate_title = { title = d_gwydion status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = ancrel.110 }
+				create_character = {
+					random_traits = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = NONE
+					female = no
+					age = 34
+					trait = skilled_tactician
+					trait = wolf
+				}
+				new_character = {
+					d_gwydion = {
+						grant_title = PREV
+					}
+					if = {
+						limit = { ROOT = { ai = no } }
+						ROOT = {
+							chronicle = {
+								entry = CHRONICLE_SONS_OF_GWYDION
+								portrait = [Prev.GetID]
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	expel_gwydion = {
+		potential = {
+			ai = no
+			has_dlc = "Sons of Abraham"
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			higher_tier_than = DUKE
+			independent = yes
+			is_title_active = d_gwydion
+			NOT = { has_character_modifier = expelled_d_gwydion }		
+			any_realm_province = {
+				any_province_lord = {
+					d_gwydion = {
+						holder_scope = {
+							OR = {
+								character = PREVPREV
+								is_vassal_or_below = PREVPREV
+							}
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			piety = 1000
+		}		
+		effect = {
+			piety = -1000		
+			religion_authority = {
+				modifier = holy_order_expelled
+				years = 20
+			}
+			hidden_tooltip = {
+				d_gwydion = {
+					holder_scope = {
+						character_event = {
+							id = Plus.2060
+						}
+					}
+				}
+				add_character_modifier = {
+					name = expelled_d_gwydion
+					duration = -1
+					inherit = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	donate_money_to_gwydion = {
+		potential = {
+			has_dlc = "Sons of Abraham"
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			is_title_active = d_gwydion
+			NOT = { has_character_modifier = expelled_d_army_lucifer }
+			d_gwydion = {
+				holder_scope = {
+					liege = {
+						NOT = { character = ROOT }
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 300
+		}
+		effect = {
+			wealth = -300
+			piety = 300
+			if = {
+				limit = { 
+					NOT = { has_character_modifier = donated_to_holy_order }
+				}
+				add_character_modifier = {
+					name = donated_to_holy_order
+					duration = -1
+				}
+			}
+			hidden_tooltip = {
+				d_gwydion = {
+					holder_scope = {
+						character_event = {
+							id = Plus.2058
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					trait = greedy
+					piety = 1000
+					NOT = { wealth = 1000 }
+				}
+			}
+			modifier = {
+				factor = 10
+				trait = zealous
+			}
+			modifier = {
+				factor = 10
+				NOT = { piety = 100 }
+			}
+			modifier = {
+				factor = 0.002 # Slow it down
+			}
+			modifier = {
+				factor = 0
+				has_character_modifier = ai_austerity
+			}
+		}
+	}	
+	
+	organize_fianna = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = count
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}				
+			has_regent = no
+			NOT = { has_global_flag = fianna_founded }
+		}
+		allow = {
+			OR = {
+				has_landed_title = k_scotland
+				has_landed_title = k_ireland
+				tier = emperor
+			}
+			OR = {
+				AND = {
+					tier = king
+					NOT = { is_title_active = d_gwydion }
+				}				
+				tier = emperor			
+			}
+			prestige = 300
+			wealth = 300
+			
+		}
+		effect = {
+			set_global_flag = fianna_founded
+			prestige = -300
+			wealth = -300
+			activate_title = { title = d_fianna status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = ancrel.1150 }
+				create_character = {
+					random_traits = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = NONE
+					female = no
+					age = 34
+					trait = skilled_tactician
+					trait = fian
+				}
+				new_character = {
+					d_fianna = {
+						grant_title = PREV
+					}
+					if = {
+						limit = { ROOT = { ai = no } }
+						ROOT = {
+							chronicle = {
+								entry = CHRONICLE_FIANNA
+								portrait = [Prev.GetID]
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	expel_fianna = {
+		potential = {
+			ai = no
+			has_dlc = "Sons of Abraham"
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			higher_tier_than = DUKE
+			independent = yes
+			is_title_active = d_fianna
+			NOT = { has_character_modifier = expelled_d_gwydion }		
+			any_realm_province = {
+				any_province_lord = {
+					d_fianna = {
+						holder_scope = {
+							OR = {
+								character = PREVPREV
+								is_vassal_or_below = PREVPREV
+							}
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			piety = 1000
+		}		
+		effect = {
+			piety = -1000		
+			religion_authority = {
+				modifier = holy_order_expelled
+				years = 20
+			}
+			hidden_tooltip = {
+				d_fianna = {
+					holder_scope = {
+						character_event = {
+							id = Plus.2060
+						}
+					}
+				}
+				add_character_modifier = {
+					name = expelled_d_fianna
+					duration = -1
+					inherit = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	donate_money_to_fianna = {
+		potential = {
+			has_dlc = "Sons of Abraham"
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			is_title_active = d_fianna
+			NOT = { has_character_modifier = expelled_d_army_lucifer }
+			d_fianna = {
+				holder_scope = {
+					liege = {
+						NOT = { character = ROOT }
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 300
+		}
+		effect = {
+			wealth = -300
+			piety = 300
+			if = {
+				limit = { 
+					NOT = { has_character_modifier = donated_to_holy_order }
+				}
+				add_character_modifier = {
+					name = donated_to_holy_order
+					duration = -1
+				}
+			}
+			hidden_tooltip = {
+				d_fianna = {
+					holder_scope = {
+						character_event = {
+							id = Plus.2058
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					trait = greedy
+					piety = 1000
+					NOT = { wealth = 1000 }
+				}
+			}
+			modifier = {
+				factor = 10
+				trait = zealous
+			}
+			modifier = {
+				factor = 10
+				NOT = { piety = 100 }
+			}
+			modifier = {
+				factor = 0.002 # Slow it down
+			}
+			modifier = {
+				factor = 0
+				has_character_modifier = ai_austerity
+			}
+		}
+	}	
+	
+	invite_druid_to_court = { #Invite a Druid to court
+		potential = {
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+		}
+		allow = {
+			NOT = { has_character_modifier = new_druid_in_court }
+			NOT = { has_character_flag = inviting_druid_over }
+			primary_title = { higher_tier_than = BARON }
+			NOT = {
+				any_courtier = {
+					has_minor_title = title_court_druid
+				}
+			}
+			scaled_wealth = 0.5
+		}
+		effect = {
+			scaled_wealth = -0.5		
+			set_character_flag = inviting_druid_over
+			hidden_tooltip = {
+				character_event = {
+					id = ancrel.246
+					days = 3
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.3 #Decrease chance AI will do this
+				always = yes
+			}
+			modifier = {
+				factor = 0.1
+				any_courtier = {
+					has_minor_title = title_court_druid
+				}
+			}
+			modifier = {
+				factor = 0.1
+				any_courtier = {
+					trait = druid
+				}
+			}
+			modifier = {
+				factor = 2
+				trait = diligent
+			}	
+			modifier = {
+				factor = 0.5
+				trait = slothful
+			}	
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}	
+			modifier = {
+				factor = 0.5
+				trait = imbecile
+			}		
+			modifier = {
+				factor = 2
+				trait = zealous
+			}	
+			modifier = {
+				factor = 0.5
+				trait = cynical
+			}			
+			modifier = {
+				factor = 2
+				primary_title = { higher_tier_than = DUKE }
+			}	
+			modifier = {
+				factor = 0.5
+				trait = slow
+			}	
+		}
+	}	
+
+	assign_druid = { # For the AI, because they are dumb enough not to hand out minor titles
+		potential = {
+			ai = yes
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			NOT = { 
+				any_courtier = {
+					has_minor_title = title_court_druid
+				}
+			}
+		}
+		allow = {
+			primary_title = { higher_tier_than = BARON }
+			any_courtier = {
+				trait = druid
+				is_female = no
+				is_adult = yes
+			}
+		}
+		effect = {
+			random_courtier = {
+				limit = {
+					is_adult = yes
+					is_female = no
+					trait = druid
+				}
+				give_minor_title = title_court_druid
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.75 #Decrease chance AI will do this
+				always = yes
+			}
+		}
+	}
+	
+	assign_bard = { # For the AI, because they are dumb enough not to hand out minor titles
+		potential = {
+			ai = yes
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			NOT = { 
+				any_courtier = {
+					has_minor_title = title_court_bard
+				}
+				any_vassal = {
+					has_minor_title = title_court_bard
+				}
+			}
+		}
+		allow = {
+			primary_title = { higher_tier_than = BARON }
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+			}
+			any_courtier = {
+				trait = poet
+				is_female = no
+				is_adult = yes
+				NOT = { has_minor_title = title_court_druid }
+				NOT = { has_minor_title = title_champion }
+				NOT = { has_minor_title = title_vates }
+				NOT = { has_minor_title = title_uchelwr }
+				NOT = { has_minor_title = title_laoch }
+			}
+		}
+		effect = {
+			random_courtier = {
+				limit = {
+					is_adult = yes
+					is_female = no
+					trait = poet
+					NOT = { has_minor_title = title_court_druid }
+					NOT = { has_minor_title = title_champion }
+					NOT = { has_minor_title = title_vates }
+					NOT = { has_minor_title = title_uchelwr }
+					NOT = { has_minor_title = title_laoch }
+				}
+				give_minor_title = title_court_bard
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.75 #Decrease chance AI will do this
+				always = yes
+			}
+		}
+	}
+
+	give_offerings_sidhe = {
+		potential = {
+			has_dlc = "The Old Gods"
+			is_ruler = yes
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+			NOT = {
+				any_demesne_title = { is_occupied = yes }
+				has_character_modifier = sidhe_offerings_bad
+				has_character_modifier = sidhe_offerings_neutral
+				has_character_modifier = sidhe_offerings_good
+				has_character_flag = sidhe_offerings_giving
+			}
+		}
+		allow = {
+			war = no
+			has_regent = no
+			custom_tooltip = {
+				text = HAS_COURT_DRUID_AVAILABLE
+				hidden_tooltip = {
+					any_courtier = {
+						has_minor_title = title_court_druid
+						prisoner = no
+						NOT = { trait = incapable }
+						NOT = { has_character_modifier = do_not_disturb }
+					}
+				}
+			}
+			scaled_wealth = 0.30
+		}
+		effect = {
+			custom_tooltip = {
+				text = prepare_offerings
+				scaled_wealth = -0.15
+				set_character_flag = sidhe_offerings_giving
+				hidden_tooltip = {
+					character_event = { id = ancrel.248 }
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 3.0
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0
+				trait = craven
+			}
+			modifier = {
+				factor = 0
+				trait = paranoid
+			}
+		}
+	}
+}

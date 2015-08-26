@@ -1,0 +1,1371 @@
+# Demesne type (de facto) laws (set for the PRIMARY title in a demesne but affects the whole demesne)
+
+laws = {
+	# Taxation Freedom Laws
+	##############################
+
+	tax_privileges_2 = {
+		group = tax_privileges_group
+		vassal_opinion = 5
+		
+		potential = {
+			higher_tier_than = duke
+			holder_scope = {
+				is_nomadic = no
+				is_tribal = no
+			}
+		}
+		allow = {
+			holder_scope = { war = no }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { NOT = { ruled_years = 10 } }
+			}
+			modifier = {
+				factor = 0
+				has_law = tax_privileges_0
+			}
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						NOT = {
+							AND = {
+								trait = charitable
+								OR = {
+									trait = humble
+									trait = content
+								}
+							}
+						}
+						stewardship = 12
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = tax_privileges_2
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = tax_privileges_0
+			revoke_law = tax_privileges_1
+			hidden_tooltip = { holder_scope = { character_event = { id = PlusFaction.200 days = 3 } } } #recalculate faction moods
+		}
+		castle_vassal_tax_modifier = -0.1
+		tribal_vassal_tax_modifier = -0.1
+		city_vassal_tax_modifier = -0.2
+		temple_vassal_tax_modifier = -0.2
+	}
+
+	tax_privileges_1 = {
+		group = tax_privileges_group
+		default = yes
+		potential = {
+			higher_tier_than = duke
+			holder_scope = {
+				is_nomadic = no
+				is_tribal = no
+			}
+		}
+		allow = {
+			holder_scope = { war = no }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { NOT = { ruled_years = 10 } }
+			}
+			modifier = {
+				factor = 0
+				has_law = tax_privileges_0
+				holder_scope = {
+					OR = {
+						trait = greedy
+						trait = arbitrary
+						stewardship = 12
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = tax_privileges_2
+				holder_scope = {
+					OR = {
+						trait = charitable
+						trait = just
+						NOT = { stewardship = 12 }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = tax_privileges_1
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = tax_privileges_0
+			revoke_law = tax_privileges_2
+			hidden_tooltip = { holder_scope = { character_event = { id = PlusFaction.200 days = 3 } } } #recalculate faction moods
+		}
+	}
+
+	tax_privileges_0 = {
+		group = tax_privileges_group
+		vassal_opinion = -5
+		
+		potential = {
+			higher_tier_than = duke
+			holder_scope = {
+				is_nomadic = no
+				is_tribal = no
+			}
+		}
+		allow = {
+			holder_scope = { war = no }
+			has_crown_law_title = yes
+			OR = {
+				crownlaw_title = { has_law = crown_authority_1 }
+				crownlaw_title = { has_law = crown_authority_2 }
+				crownlaw_title = { has_law = crown_authority_3 }
+				crownlaw_title = { has_law = crown_authority_4 }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { NOT = { ruled_years = 10 } }
+			}
+			modifier = {
+				factor = 0
+				has_law = tax_privileges_2
+			}
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						NOT = {
+							trait = greedy
+						}
+						NOT = { stewardship = 12 }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = tax_privileges_0
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = tax_privileges_1
+			revoke_law = tax_privileges_2
+			hidden_tooltip = { holder_scope = { character_event = { id = PlusFaction.200 days = 1 } } } #recalculate faction moods
+		}
+		castle_vassal_tax_modifier = 0.1
+		tribal_vassal_tax_modifier = 0.1
+		city_vassal_tax_modifier = 0.2
+		temple_vassal_tax_modifier = 0.2
+	}
+
+	
+	# Levy Freedom Laws
+	##############################
+
+	levy_privileges_1 = {
+		group = levy_privileges_group
+		default = yes
+		potential = {
+			higher_tier_than = duke
+			holder_scope = {
+				is_nomadic = no
+				is_tribal = no
+			}
+		}
+		allow = {
+			holder_scope = { war = no }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = {
+					NOT = {
+						OR = {
+							trait = content
+							trait = humble
+						}
+						martial = 12
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = levy_privileges_1
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = levy_privileges_0
+			holder_scope = { clr_character_flag = max_levies }
+		}
+	}
+
+	levy_privileges_0 = {
+		group = levy_privileges_group
+		vassal_opinion = -5
+		
+		potential = {
+			higher_tier_than = duke
+			holder_scope = {
+				is_nomadic = no
+				is_tribal = no
+			}
+		}
+		allow = {
+			holder_scope = { war = no }
+			has_crown_law_title = yes
+			OR = {
+				crownlaw_title = { has_law = crown_authority_1 }
+				crownlaw_title = { has_law = crown_authority_2 }
+				crownlaw_title = { has_law = crown_authority_3 }
+				crownlaw_title = { has_law = crown_authority_4 }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { NOT = { ruled_years = 10 } }
+			}
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						NOR = {
+							trait = ambitious
+							trait = proud
+						}
+						NOT = { martial = 12 }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = levy_privileges_0
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = levy_privileges_1
+			holder_scope = { set_character_flag = max_levies }
+		}
+		castle_vassal_min_levy = 0.4
+		city_vassal_min_levy = 0.4
+		temple_vassal_min_levy = 0.4
+	}
+
+
+	# Council Freedom Laws
+	##############################
+
+	council_privileges_1 = {
+		group = council_privileges_group
+		potential = {
+			higher_tier_than = count
+		}
+		allow = {
+			holder_scope = { war = no }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = council_privileges_0
+			holder_scope = { set_character_flag = lifetime_appointments }
+			holder_scope = {
+				job_chancellor = { opinion = { who = PREV modifier = grateful_council_term months = 12 } }
+				job_marshal = { opinion = { who = PREV modifier = grateful_council_term months = 12 } }
+				job_treasurer = { opinion = { who = PREV modifier = grateful_council_term months = 12 } }
+				job_spymaster = { opinion = { who = PREV modifier = grateful_council_term months = 12 } }
+				job_spiritual = { opinion = { who = PREV modifier = grateful_council_term months = 12 } }
+			}
+		}
+	}
+
+	council_privileges_0 = {
+		group = council_privileges_group
+		default = yes
+		potential = {
+			higher_tier_than = count
+		}
+		allow = {
+			holder_scope = { war = no }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { NOT = { ruled_years = 10 } }
+			}
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						NOR = {
+							trait = ambitious
+							trait = proud
+						}
+						NOT = { diplomacy = 12 }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = council_privileges_0
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = council_privileges_1
+			holder_scope = { clr_character_flag = lifetime_appointments }
+		}
+	}
+
+
+	# Demesne Laws
+	##############################	
+	
+	demesne_laws_0 = {
+		group = demesne_laws
+		default = yes
+		
+		potential = {
+			higher_tier_than = BARON
+		}
+		allow = {
+			custom_tooltip = {
+				text = AUTOMATIC_LEGALISM
+				always = no
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = demesne_laws_1
+			revoke_law = demesne_laws_2
+			revoke_law = demesne_laws_3
+			revoke_law = demesne_laws_4
+		}
+	}
+	
+	demesne_laws_1 = {
+		group = demesne_laws
+		
+		potential = {
+			higher_tier_than = BARON
+		}
+		allow = {
+			custom_tooltip = {
+				text = AUTOMATIC_LEGALISM
+				always = no
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = demesne_laws_0
+			revoke_law = demesne_laws_2
+			revoke_law = demesne_laws_3
+			revoke_law = demesne_laws_4
+		}
+		demesne_size = 1
+	}
+	
+	demesne_laws_2 = {
+		group = demesne_laws
+		
+		potential = {
+			higher_tier_than = BARON
+		}
+		allow = {
+			custom_tooltip = {
+				text = AUTOMATIC_LEGALISM
+				always = no
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = demesne_laws_0
+			revoke_law = demesne_laws_1
+			revoke_law = demesne_laws_3
+			revoke_law = demesne_laws_4
+		}
+		demesne_size = 2
+	}
+	
+	demesne_laws_3 = {
+		group = demesne_laws
+		
+		potential = {
+			higher_tier_than = BARON
+		}
+		allow = {
+			custom_tooltip = {
+				text = AUTOMATIC_LEGALISM
+				always = no
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = demesne_laws_0
+			revoke_law = demesne_laws_1
+			revoke_law = demesne_laws_2
+			revoke_law = demesne_laws_4
+		}
+		demesne_size = 3
+	}
+	
+	demesne_laws_4 = {
+		group = demesne_laws
+		
+		potential = {
+			higher_tier_than = BARON
+		}
+		allow = {
+			custom_tooltip = {
+				text = AUTOMATIC_LEGALISM
+				always = no
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			revoke_law = demesne_laws_0
+			revoke_law = demesne_laws_1
+			revoke_law = demesne_laws_2
+			revoke_law = demesne_laws_3
+		}
+		demesne_size = 4
+	}
+
+
+	# Kingdom Lockout
+	##############################
+	kingdom_lockout_0 = {
+		show_as_title = yes
+		group = kingdom_lockout_group
+		default = yes
+		
+		potential = {
+			OR = {
+				title = e_byzantium
+				title = e_roman_empire
+				title = e_hre
+			}
+		}
+		allow = { 
+			NOT = { has_law = kingdom_lockout_1 }
+		}
+		revoke_allowed = { always = no }
+
+		vassal_limit = 10
+	}
+	
+	kingdom_lockout_1 = {
+		show_as_title = yes
+		group = kingdom_lockout_group
+		
+		potential = {
+			OR = {
+				title = e_byzantium
+				title = e_roman_empire
+				title = e_hre
+			}
+		}
+		allow = { 
+			has_law = crown_authority_4
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		revoke_allowed = { always = no }
+		effect = {
+			hidden_tooltip = {
+				revoke_law = kingdom_lockout_0
+			}
+		}
+	}
+
+
+	# Bureaucratic Infighting
+	##############################	
+	infighting_0 = {
+		group = bureaucratic_infighting
+		default = yes
+		potential = {
+			holder_scope = { trait = court_anarchy }
+		}
+		allow = {
+			always = yes
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 0
+		}
+		vassal_limit = -20
+	}
+	
+	infighting_1 = {
+		group = bureaucratic_infighting
+		potential = {
+			holder_scope = { trait = court_anarchy }
+		}
+		allow = {
+			holder_scope = {
+				NOT = { trait = court_anarchy }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = infighting_0
+			}
+		}
+	}
+
+
+	# Waldensian Charity
+	##############################
+	wald_charity_0 = {  #Optional
+		group = waldensian_charity_law
+		default = yes
+		temple_opinion = -20
+		feudal_opinion = 10
+		
+		potential = {
+			holder_scope = {
+				religion = waldensian 
+				higher_tier_than = BARON
+			}
+		}
+		allow = {
+			holder_scope = {
+				war = no
+				piety = 250
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = {
+					NOR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				holder_scope = { trait = charitable }
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -250
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = wald_charity_1
+			}
+		}
+		levy_size = -0.2
+	}
+	
+	wald_charity_1 = {  #Enforced
+		group = waldensian_charity_law
+		feudal_opinion = -10
+		temple_opinion = 20
+		
+		potential = {
+			holder_scope = { 
+				religion = waldensian 
+				higher_tier_than = BARON
+			}
+		}
+		allow = {
+			holder_scope = {
+				war = no
+			}
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = 250
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						trait = greedy
+						trait = cynical
+						NOT = { piety = 500 }
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = wald_charity_0
+			}
+		}
+		levy_size = 0.2
+		global_tax_modifier = -0.2
+	}
+
+
+	# Fraticelli Priesthood
+	##############################
+	frat_priest_0 = { #Monastic
+		group = frat_priesthood
+		default = yes
+		temple_opinion = 25
+		
+		potential = {
+			holder_scope = { 
+				religion = fraticelli 
+				independent = yes
+			}
+		}
+		allow = {
+			holder_scope = {
+				war = no
+				piety = 250
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -250
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = frat_priest_1
+				revoke_law = frat_priest_2
+			}
+		}
+		global_tax_modifier = -0.1
+	}
+
+	frat_priest_1 = { #Apostolic
+		group = frat_priesthood
+		feudal_opinion = -10
+		
+		potential = {
+			holder_scope = { 
+				religion = fraticelli 
+				independent = yes
+			}
+		}
+		allow = {
+			holder_scope = {
+				war = no
+				piety = 250
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -250
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = frat_priest_0
+				revoke_law = frat_priest_2
+			}
+		}
+		levy_size = 0.2
+		global_revolt_risk = -0.01
+	}
+
+	frat_priest_2 = { #Bureaucratic
+		group = frat_priesthood
+		temple_opinion = -25
+
+		potential = {
+			holder_scope = { 
+				religion = fraticelli 
+				independent = yes
+			}
+		}
+		allow = {
+			holder_scope = {
+				war = no
+				piety = 250
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -250
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = frat_priest_0
+				revoke_law = frat_priest_1
+			}
+		}
+		vassal_limit = 10
+		temple_levy_size = 0.1
+	}
+
+
+	# Mazdaki Wealth Sharing
+	##############################
+	
+	mazdaki_wealth_0 = {
+		group = maz_wealth_group
+		default = yes
+		
+		temple_opinion = -10
+
+		potential = {
+			holder_scope = { 
+				religion = mazdaki
+				higher_tier_than = BARON
+			}
+		}
+		allow = {
+			holder_scope = {
+				war = no
+				has_law = mazdaki_wealth_1
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = {
+					NOR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -100
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = mazdaki_wealth_1
+				revoke_law = mazdaki_wealth_2
+				revoke_law = mazdaki_wealth_3
+				revoke_law = mazdaki_wealth_4
+			}
+		}
+	}
+
+	mazdaki_wealth_1 = {
+		group = maz_wealth_group
+		
+		global_revolt_risk = -0.02
+		feudal_opinion = -5
+		global_tax_modifier = -0.05
+		
+		potential = {
+			holder_scope = { 
+				religion = mazdaki 
+				higher_tier_than = BARON
+			}
+		}
+		allow = {
+			holder_scope = {
+				piety = 100
+				OR = {
+					has_law = mazdaki_wealth_0
+					has_law = mazdaki_wealth_2
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = mazdaki_wealth_0
+				holder_scope = {
+					OR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = mazdaki_wealth_2
+				holder_scope = {
+					NOR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -100
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = mazdaki_wealth_0
+				revoke_law = mazdaki_wealth_2
+				revoke_law = mazdaki_wealth_3
+				revoke_law = mazdaki_wealth_4
+			}
+		}
+	}
+
+	mazdaki_wealth_2 = {
+		group = maz_wealth_group
+		
+		global_revolt_risk = -0.04
+		feudal_opinion = -10
+		city_opinion = 5
+		temple_opinion = 5
+		global_tax_modifier = -0.1
+		vassal_limit = -3
+		
+		potential = {
+			holder_scope = { 
+				religion = mazdaki 
+				higher_tier_than = BARON
+			}
+		}
+		allow = {
+			holder_scope = {
+				piety = 250
+				OR = {
+					has_law = mazdaki_wealth_1
+					has_law = mazdaki_wealth_3
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = mazdaki_wealth_1
+				holder_scope = {
+					OR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = mazdaki_wealth_3
+				holder_scope = {
+					NOR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -250
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = mazdaki_wealth_0
+				revoke_law = mazdaki_wealth_1
+				revoke_law = mazdaki_wealth_3
+				revoke_law = mazdaki_wealth_4
+			}
+		}
+	}	
+
+	mazdaki_wealth_3 = {
+		group = maz_wealth_group
+		
+		global_revolt_risk = -0.06
+		feudal_opinion = -20
+		city_opinion = 10
+		temple_opinion = 10
+		global_tax_modifier = -0.2
+		demesne_size = 1
+		vassal_limit = -5
+		
+		potential = {
+			holder_scope = { 
+				religion = mazdaki 
+				higher_tier_than = BARON
+			}
+		}
+		allow = {
+			holder_scope = {
+				piety = 500
+				OR = {
+					has_law = mazdaki_wealth_2
+					has_law = mazdaki_wealth_4
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = mazdaki_wealth_2
+				holder_scope = {
+					OR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = mazdaki_wealth_4
+				holder_scope = {
+					NOR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -500
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = mazdaki_wealth_0
+				revoke_law = mazdaki_wealth_1
+				revoke_law = mazdaki_wealth_2
+				revoke_law = mazdaki_wealth_4
+			}
+		}
+	}
+
+	mazdaki_wealth_4 = {
+		group = maz_wealth_group
+		
+		global_revolt_risk = -0.1
+		feudal_opinion = -30
+		city_opinion = 20
+		temple_opinion = 20
+		global_tax_modifier = -0.3
+		demesne_size = 2
+		vassal_limit = -10
+		
+		potential = {
+			holder_scope = { 
+				religion = mazdaki 
+				higher_tier_than = BARON
+			}
+		}
+		allow = {
+			holder_scope = {
+				piety = 1000
+				has_law = mazdaki_wealth_3
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						trait = greedy
+						trait = cynical
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				piety = -1000
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = mazdaki_wealth_0
+				revoke_law = mazdaki_wealth_1
+				revoke_law = mazdaki_wealth_2
+				revoke_law = mazdaki_wealth_3
+			}
+		}
+	}
+
+	
+	# Bogomilist Church Organization
+	##############################
+
+	bogomilist_church_0 = { #Default
+		group = bogomilist_church_group
+		default = yes
+		
+		feudal_opinion = -5
+		castle_levy_size = -0.1
+		city_levy_size = -0.1
+		temple_levy_size = -0.1
+		castle_tax_modifier = -0.1
+		temple_tax_modifier = -0.1
+		city_tax_modifier = -0.1
+		
+		potential = {
+			holder_scope = { 
+				religion = bogomilist
+			}
+		}
+		allow = {
+			always = no
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = bogomilist_church_1
+				revoke_law = bogomilist_church_2
+				revoke_law = bogomilist_church_3
+				revoke_law = bogomilist_church_4
+			}
+		}
+	}
+
+	bogomilist_church_1 = {
+		group = bogomilist_church_group
+
+		castle_tax_modifier = -0.1
+		temple_tax_modifier = -0.1
+		city_tax_modifier = -0.1
+		
+		potential = {
+			holder_scope = { 
+				religion = bogomilist
+			}
+		}
+		allow = {
+			has_law = bogomilist_church_0
+			holder_scope = { piety = 250 }
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = { piety = -250 }
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = bogomilist_church_0
+				revoke_law = bogomilist_church_2
+				revoke_law = bogomilist_church_3
+				revoke_law = bogomilist_church_4
+			}
+		}
+	}
+
+	bogomilist_church_2 = { #Organized
+		group = bogomilist_church_group
+
+		feudal_opinion = 5
+		castle_levy_size = 0.05
+		
+		potential = {
+			holder_scope = { 
+				religion = bogomilist
+			}
+		}
+		allow = {
+			has_law = bogomilist_church_1
+			custom_tooltip = {
+				text = BY_DECISION
+				hidden_tooltip = { always = no }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = bogomilist_church_0
+				revoke_law = bogomilist_church_1
+				revoke_law = bogomilist_church_3
+				revoke_law = bogomilist_church_4
+			}
+		}
+	}	
+
+	bogomilist_church_3 = { #Formalized
+		group = bogomilist_church_group
+
+		feudal_opinion = 10
+		temple_opinion = 10
+		castle_levy_size = 0.1
+		temple_levy_size = 0.1
+		castle_tax_modifier = 0.05
+		temple_tax_modifier = 0.05
+		city_tax_modifier = 0.05
+
+		potential = {
+			holder_scope = { 
+				religion = bogomilist
+			}
+		}
+		allow = {
+			has_law = bogomilist_church_2
+			custom_tooltip = {
+				text = BY_DECISION
+				hidden_tooltip = { always = no }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = bogomilist_church_0
+				revoke_law = bogomilist_church_1
+				revoke_law = bogomilist_church_2
+				revoke_law = bogomilist_church_4
+			}
+		}
+	}
+
+	bogomilist_church_4 = { #Church
+		group = bogomilist_church_group
+		
+		vassal_limit = 5
+		feudal_opinion = 10
+		temple_opinion = 20
+		castle_levy_size = 0.1
+		temple_levy_size = 0.25
+		castle_tax_modifier = 0.1
+		temple_tax_modifier = 0.1
+		city_tax_modifier = 0.1
+		
+		potential = {
+			holder_scope = { 
+				religion = bogomilist
+			}
+		}
+		allow = {
+			has_law = bogomilist_church_3
+			custom_tooltip = {
+				text = BY_DECISION
+				hidden_tooltip = { always = no }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = bogomilist_church_0
+				revoke_law = bogomilist_church_1
+				revoke_law = bogomilist_church_2
+				revoke_law = bogomilist_church_3
+			}
+		}
+	}	
+}
+

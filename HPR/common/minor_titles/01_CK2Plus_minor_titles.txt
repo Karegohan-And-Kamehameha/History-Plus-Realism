@@ -1,0 +1,1037 @@
+########################################################
+# CK2Plus MINOR TITLES
+########################################################
+
+title_favored_son = {
+	grant_limit = 1
+	opinion_effect = 10
+	monthly_salary = 0
+	monthly_prestige = 0
+	allowed_to_grant = {
+		any_child = {
+			is_female = no
+			is_adult = no
+			NOR = {
+				trait = bastard
+				trait = incapable
+				trait = inbred
+			}
+		}
+	}
+	allowed_to_hold = {
+		is_female = no
+		is_adult = no
+		martial = 3
+		diplomacy = 3
+		stewardship = 3
+		intrigue = 3
+		learning = 3
+		NOR = {
+			trait = bastard
+			trait = incapable
+			trait = inbred
+		}
+		is_child_of = FROM
+		dynasty = FROM
+		is_liege_or_above = FROM
+	}
+	gain_effect = {
+		add_trait = favored_son
+	}
+	lose_effect = {
+		remove_trait = favored_son
+	}
+	message = yes
+}
+
+title_ladys_champion = {
+	dignity = 0.2
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 20
+	
+	monthly_salary = 0.1
+	monthly_prestige = 0.075
+	
+	allowed_to_hold = {
+		is_adult = yes
+		is_female = no
+		prisoner = no
+		NOR = {
+			trait = incapable
+			health_traits = 1
+			has_character_flag = retired_champion
+		}
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+		OR = {
+			FROM = { ai = no }
+			AND = {
+				opinion = { who = FROM value = 0 }
+				reverse_opinion = { who = FROM value = 0 }
+			}
+		}		
+	}
+	
+	allowed_to_grant = {
+		is_feudal = yes
+		is_adult = yes
+		is_female = yes
+		NOR = { # already have a Champion title
+			religion = baltic_pagan_reformed
+			religion = baltic_pagan
+			religion = finnish_pagan_reformed
+			religion = finnish_pagan
+			religion = slavic_pagan_reformed
+			religion = slavic_pagan
+			religion = west_african_pagan_reformed
+			religion = west_african_pagan
+			religion = aztec
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_lord = {
+	dignity = 0.1
+	show_as_title = yes
+	realm_in_name = yes
+	grant_limit = 1000
+	revoke_allowed = no
+	opinion_effect = 0
+	
+	allowed_to_hold = {
+		has_minor_title = title_lord
+	}
+	
+	allowed_to_grant = {
+		always = no
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+	
+	message = no
+}
+
+title_pagan_wizard = {
+	dignity = 0.01
+	grant_limit = 1
+	opinion_effect = 10
+
+	monthly_salary = 0.01
+	monthly_prestige = 0.01
+	
+	allowed_to_hold = {
+		is_adult = yes
+		is_female = no
+		is_ruler = no
+		trait = mystic
+		religion_group = pagan_group		
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+		}
+		OR = {
+			has_character_flag = seeks_pagan_knowledge
+			trait = mystic
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+### ZOROASTRIAN TITLES
+
+title_dregvant = {
+	dignity = 0.01
+	grant_limit = 1
+	opinion_effect = -15
+	
+	monthly_prestige = -0.02
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		OR = {
+			trait = cruel
+			trait = kinslayer
+			trait = slothful
+			trait = wroth
+			trait = deceitful
+		}		
+	}
+	
+	allowed_to_grant = {
+		religion_group = zoroastrian_group
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		primary_title = {
+			OR = {
+				tier = king
+				tier = emperor
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_ashavan = {
+	dignity = 0.01
+	grant_limit = 1
+	opinion_effect = 15
+	
+	monthly_prestige = 0.02
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		OR = {
+			trait = kind
+			trait = diligent
+			trait = patient
+			trait = honest
+		}
+	}
+	
+	allowed_to_grant = {
+		religion_group = zoroastrian_group
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		primary_title = {
+			OR = {
+				tier = king
+				tier = emperor
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_sraoshavarez = {
+	dignity = 0.01
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 15
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.01
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		OR = {
+			is_female = no
+			AND = {
+				religion_allows_female_temple_holders = yes
+				ROOT = { religion_allows_female_temple_holders = yes }
+			}
+		}
+		religion_group = zoroastrian_group		
+	}
+	
+	allowed_to_grant = {
+		religion_group = zoroastrian_group
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		primary_title = {
+			OR = {
+				tier = king
+				tier = emperor
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_shapsheraz = {
+	dignity = 0.01
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.01
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		OR = {
+			is_female = no
+			AND = {
+				is_feminist_trigger = yes
+				ROOT = { is_feminist_trigger = yes }
+			}
+			ROOT = { has_law = true_cognatic_succession }
+		}		
+	}
+	
+	allowed_to_grant = {
+		religion_group = zoroastrian_group
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		primary_title = {
+			OR = {
+				tier = duke
+				tier = king
+				tier = emperor
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+### CELTIC TITLES
+
+title_court_druid = {
+	dignity = 0.2
+	grant_limit = 1
+	opinion_effect = 15
+
+	monthly_salary = 0.05
+	monthly_prestige = 0.01
+	monthly_piety = 0.01
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes		
+		is_ruler = no
+		OR = {
+			trait = druid
+			trait = bad_druid
+		}
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}		
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+	}
+	
+	gain_effect = {	
+	}
+	lose_effect = {	
+	}
+
+	message = yes
+}
+
+title_uchelwr = {
+	dignity = 0.075
+	grant_limit = 4
+	opinion_effect = 10
+	
+	monthly_salary = 0.005
+	monthly_prestige = 0.005
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		tooltip = {
+			OR = {
+				is_female = no
+				can_hold_title = job_marshal
+			}
+		}
+		hidden_tooltip = {
+			OR = {
+				is_female = no
+				is_decision_allowed = check_marshal
+			}
+		}
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_laoch = {
+	dignity = 0.075
+	grant_limit = 4
+	opinion_effect = 10
+	
+	monthly_salary = 0.005
+	monthly_prestige = 0.005
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		tooltip = {
+			OR = {
+				is_female = no
+				can_hold_title = job_marshal
+			}
+		}
+		hidden_tooltip = {
+			OR = {
+				is_female = no
+				is_decision_allowed = check_marshal
+			}
+		}
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_royal_champion = {
+	dignity = 0.2
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 20
+	
+	monthly_salary = 0.1
+	monthly_prestige = 0.075
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes		
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+		OR = {
+			trait = head1
+			trait = head2
+			trait = head3
+			trait = head4
+			trait = head5
+		}
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		OR = {
+			primary_title = {
+				higher_tier_than = duke		# is a king or emperor
+			}
+			AND = {
+				primary_title = {
+					tier = duke
+				}
+				independent = yes
+			}
+		}
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_vates = {
+	dignity = 0.1
+	realm_in_name = yes
+	grant_limit = 2
+	opinion_effect = 10
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.015
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes		
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_court_bard = {
+	dignity = 0.15
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 15
+	
+	monthly_salary = 0.075
+	monthly_prestige = 0.075
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes		
+		trait = poet
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+	}
+
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+### HELLENIC TITLES
+
+title_censor = {
+	realm_in_name = yes
+	dignity = 0.20
+	grant_limit = 1
+	opinion_effect = 20
+
+	monthly_salary = 0.010
+	monthly_prestige = 0.075
+	
+	is_unique = yes
+
+	allowed_to_hold = {
+		is_adult = yes
+		tooltip = {
+			OR = {
+				is_female = no
+				can_hold_title = job_treasurer
+			}
+		}
+		hidden_tooltip = {
+			OR = {
+				is_female = no
+				is_decision_allowed = check_treasurer
+			}
+		}
+		religion = hellenic_pagan
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		independent = yes
+		religion = hellenic_pagan
+	}
+
+	gain_effect = {
+		remove_title = title_cupbearer
+		remove_title = title_aedile
+		remove_title = title_magister_equitum
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_aedile = {
+	realm_in_name = yes
+	dignity = 0.10
+	grant_limit = 2
+	opinion_effect = 15
+
+	monthly_salary = 0.075
+	monthly_prestige = 0.075
+	
+	is_unique = yes
+
+	allowed_to_hold = {
+		is_adult = yes
+		tooltip = {
+			OR = {
+				is_female = no
+				can_hold_title = job_treasurer
+			}
+		}
+		hidden_tooltip = {
+			OR = {
+				is_female = no
+				is_decision_allowed = check_treasurer
+			}
+		}
+		religion = hellenic_pagan
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		independent = yes
+		religion = hellenic_pagan
+	}
+
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_magister_equitum = {
+	dignity = 0.06
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.004
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		tooltip = { can_hold_title = job_marshal }
+		hidden_tooltip = { is_decision_allowed = check_marshal }
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}		
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}		
+		religion = hellenic_pagan
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_vestalis = {
+	dignity = 0.91
+	grant_limit = 5
+	opinion_effect = 10
+
+	monthly_salary = 0.005
+	monthly_prestige = 0.300
+	monthly_piety = 0.100
+	
+	revoke_allowed = no
+
+	allowed_to_hold = {
+		is_female = yes
+		is_landed = no
+		is_betrothed = no
+		prisoner = no
+		religion = hellenic_pagan
+		OR = {
+			has_minor_title = title_vestalis
+			AND = {
+				age = 6
+				NOR = {
+					age = 10
+					trait = incapable
+					trait = inbred
+					trait = bastard
+					trait = legit_bastard
+					trait = child_of_consort
+				}
+				father_even_if_dead = { religion = hellenic_pagan }
+				mother = { religion = hellenic_pagan }
+			}
+		}		
+	}
+	
+	allowed_to_grant = { has_landed_title = d_hellenic_pagan }
+
+	gain_effect = {
+		remove_trait = hedonist
+		add_trait = celibate
+		add_trait = vestalis
+		recalc_succession = yes
+		set_character_flag = flag_vestalis
+		496 = { hidden_tooltip = { change_variable = { which = "num_vestales" value = 1 } } }
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_vestalis_maxima = {
+	dignity = 0.92
+	grant_limit = 1
+	opinion_effect = 15
+
+	monthly_salary = 0.010
+	monthly_prestige = 0.500
+	monthly_piety = 0.200
+	
+	is_unique = yes
+
+	allowed_to_hold = {
+		is_adult = yes
+		is_female = yes
+		is_landed = no
+		religion = hellenic_pagan
+		OR = {
+			has_minor_title = title_vestalis
+			has_minor_title = title_vestalis_maxima
+		}		
+	}
+
+	allowed_to_grant = { has_landed_title = d_hellenic_pagan }
+	
+	gain_effect = {
+		remove_title = title_vestalis
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_flamen_dialis = {
+	dignity = 0.15
+	grant_limit = 1
+	opinion_effect = 15
+
+	monthly_salary = 0.005
+	monthly_prestige = 0.015
+	monthly_piety = 0.005
+
+	allowed_to_hold = {
+		is_adult = yes
+		is_female = no		
+		OR = {
+			spouse = { religion = hellenic_pagan }
+			# We want to remove the title by event if his wife dies or converts
+			has_minor_title = title_flamen_dialis
+		}
+		religion = hellenic_pagan
+		NOT = { has_minor_title = title_court_jester }
+		NOT = { has_minor_title = title_censor }
+	}
+	
+	allowed_to_grant = { has_landed_title = d_hellenic_pagan }
+
+	gain_effect = {
+		remove_title = title_cupbearer
+		remove_title = title_aedile
+		remove_title = title_magister_equitum
+
+		remove_title = title_flamen_martialis
+		remove_title = title_flamen_quirinalis
+		remove_character_modifier = modifier_flamen_martialis
+		remove_character_modifier = modifier_flamen_quirinalis
+
+		spouse = { give_minor_title = title_flaminica_dialis }
+		add_character_modifier = {
+			name = modifier_flamen_dialis
+			hidden = yes
+			duration = -1
+		}
+	}
+	lose_effect = {
+		remove_character_modifier = modifier_flamen_dialis
+	}
+
+	message = yes
+}
+
+title_flaminica_dialis = {
+	dignity = 0.10
+	grant_limit = 1
+
+	monthly_salary = 0.000
+	monthly_prestige = 0.005
+	monthly_piety = 0.005
+
+	allowed_to_hold = {
+		spouse = { has_minor_title = title_flamen_dialis }
+	}
+	
+	allowed_to_grant = {
+		always = no
+	}
+
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = no
+}
+
+
+title_flamen_martialis = {
+	dignity = 0.14
+	grant_limit = 1
+	opinion_effect = 10
+
+	monthly_salary = 0.005
+	monthly_prestige = 0.010
+	monthly_piety = 0.005
+
+	allowed_to_hold = {
+		is_adult = yes
+		is_female = no		
+		OR = {
+			spouse = { religion = hellenic_pagan }
+			# We want to remove the title by event if his wife dies or converts
+			has_minor_title = title_flamen_martialis
+		}
+		religion = hellenic_pagan
+		NOT = { has_minor_title = title_court_jester }
+		NOT = { has_minor_title = title_censor }
+		NOT = { has_minor_title = title_flamen_dialis }
+		NOT = { has_minor_title = title_flamen_quirinalis }
+	}
+	
+	allowed_to_grant = { has_landed_title = d_hellenic_pagan }
+
+	gain_effect = {
+		remove_title = title_cupbearer
+		remove_title = title_aedile
+		remove_title = title_magister_equitum
+
+		spouse = { give_minor_title = title_flaminica_martialis }
+		add_character_modifier = {
+			name = modifier_flamen_martialis
+			hidden = yes
+			duration = -1
+		}
+	}
+	lose_effect = {
+		remove_character_modifier = modifier_flamen_martialis
+	}
+
+	message = yes
+}
+
+title_flaminica_martialis = {
+	dignity = 0.09
+	grant_limit = 1
+
+	monthly_salary = 0.000
+	monthly_prestige = 0.005
+	monthly_piety = 0.005
+
+	allowed_to_hold = {
+		spouse = { has_minor_title = title_flamen_martialis }
+	}
+	
+	allowed_to_grant = {
+		always = no
+	}
+
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = no
+}
+
+
+title_flamen_quirinalis = {
+	dignity = 0.13
+	grant_limit = 1
+	opinion_effect = 10
+
+	monthly_salary = 0.005
+	monthly_prestige = 0.010
+	monthly_piety = 0.005
+
+	allowed_to_hold = {
+		is_adult = yes
+		is_female = no
+		OR = {
+			is_theocracy = yes
+			is_ruler = no
+		}		
+		OR = {
+			spouse = { religion = hellenic_pagan }
+			# We want to remove the title by event if his wife dies or converts
+			has_minor_title = title_flamen_quirinalis
+		}
+		religion = hellenic_pagan
+		NOT = { has_minor_title = title_court_jester }
+		NOT = { has_minor_title = title_censor }
+		NOT = { has_minor_title = title_flamen_dialis }
+		NOT = { has_minor_title = title_flamen_martialis }
+	}
+	
+	allowed_to_grant = { has_landed_title = d_hellenic_pagan }
+
+	gain_effect = {
+		remove_title = title_cupbearer
+		remove_title = title_aedile
+		remove_title = title_magister_equitum
+
+		spouse = { give_minor_title = title_flaminica_quirinalis }
+		add_character_modifier = {
+			name = modifier_flamen_quirinalis
+			hidden = yes
+			duration = -1
+		}
+	}
+	lose_effect = {
+		remove_character_modifier = modifier_flamen_quirinalis
+	}
+
+	message = yes
+}
+
+title_flaminica_quirinalis = {
+	dignity = 0.08
+	grant_limit = 1
+
+	monthly_salary = 0.000
+	monthly_prestige = 0.005
+	monthly_piety = 0.005
+
+	allowed_to_hold = {
+		spouse = { has_minor_title = title_flamen_martialis }
+	}
+	
+	allowed_to_grant = {
+		always = no
+	}
+
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = no
+}

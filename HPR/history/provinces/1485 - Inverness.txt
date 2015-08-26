@@ -1,0 +1,27 @@
+# 984 - Inverness
+
+# County Title
+title = c_inverness
+
+# Settlements
+max_settlements = 4
+b_inverness = tribal
+
+#b_lochardil = castle
+#b_culloden = city
+#b_dalneigh = city
+#b_kirkhill = temple
+#b_kiltarlity = temple
+
+# Misc
+culture = pictish
+religion = catholic
+
+# History
+848.1.1={
+	culture = scottish
+}
+1000.1.1 = {
+	b_inverness = castle
+	b_culloden = city
+}

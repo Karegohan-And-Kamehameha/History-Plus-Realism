@@ -1,0 +1,575 @@
+##########################################
+# COUNCILOR TITLES
+##########################################
+
+#	attribute: This attribute is added to the ruler's for governance purposes
+#	viceroy: This is the Viceroy title for de jure Kingdoms
+#	allow: conditions for the character to hold the title
+#	gain_effect: fires when the title is granted
+#	lose_effect: fires when a title is lost if dismissal_trigger evaluates to false
+#	The other fields are all character modifiers.
+
+job_chancellor = {
+	is_chancellor = yes
+	attribute = diplomacy
+	dignity = 0.25
+	opinion_effect = 15
+
+	monthly_salary = 0.2
+	monthly_prestige = 0.025
+
+	allow = {
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
+		NOT = { has_character_modifier = planning_claimant_adventure }
+		OR = {
+			is_female = no
+			NOT = { liege = { spouse = { character = ROOT } } }
+			liege = { ai = no }
+		}
+		OR = {
+			is_female = no
+			AND = {
+				culture = basque
+				liege = {
+					culture = basque
+					NOT = { has_law = agnatic_succession }
+				}
+			}
+			AND = {
+				is_feminist_trigger = yes
+				liege = { is_feminist_trigger = yes }
+			}
+			liege = {
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+			AND = {
+				independent = yes
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+			has_character_flag = special_chancellor
+		}
+		OR = {
+			NOT = { religion = waldensian }
+			is_theocracy = no
+			is_ruler = no
+		}
+		OR = {
+			NOT = { religion = bogomilist }
+			NOR = {
+				trait = perfecti
+				is_theocracy = yes
+			}
+			liege = {
+				religion = bogomilist
+				OR = {
+					has_law = bogomilist_church_2
+					has_law = bogomilist_church_3
+					has_law = bogomilist_church_4
+				}
+			}
+		}
+	}
+	gain_effect = {
+		remove_opinion = { who = FROM modifier = opinion_fired_from_council }
+		if = {
+			limit = { FROM = { primary_title = { has_law = council_privileges_1 } } }
+			opinion = { who = FROM modifier = grateful_council_term months = 12 }
+		}
+	}
+	dismiss_trigger = {
+		tooltip = { FROM = { primary_title = { NOT = { has_law = council_privileges_1 } } } }
+		hidden_tooltip = { OR = { trait = incapable trait = in_hiding FROM = { NOT = { has_character_flag = lifetime_appointments } } } }
+	}
+	lose_effect = {
+		opinion = { who = FROM modifier = opinion_fired_from_council }
+		remove_opinion = { who = FROM modifier = grateful_council_term }
+	}
+
+	action = action_improve_relations
+	action = action_fabricate_claims
+	action = action_clan_sentiment # Replaces Fabricate Claims for Nomads
+	action = action_sow_dissent
+
+	lift_fow = yes
+}
+
+# NOTE: The allow trigger for this job also determines who can command armies!
+job_marshal = {
+	is_marshal = yes
+	attribute = martial
+	dignity = 0.25
+	opinion_effect = 15
+
+	monthly_salary = 0.2
+	monthly_prestige = 0.025
+
+	allow = {
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
+		NOT = { trait = desert_father }
+		NOT = { trait = desert_mother }
+		NOT = { has_character_flag = guru }
+		NOT = { has_character_modifier = planning_claimant_adventure }
+		OR = {
+			NOT = { religion = hindu }
+			trait = kshatriya
+		}		
+		OR = {
+			is_female = no
+			NOT = { liege = { spouse = { character = ROOT } } }
+			liege = { ai = no }
+		}
+		OR = {
+			is_female = no
+			AND = {
+				religion = norse_pagan
+				liege = { religion = norse_pagan }
+				trait = shield_maiden
+			}
+			AND = {
+				religion = norse_pagan_reformed
+				liege = { religion = norse_pagan_reformed }
+				trait = shield_maiden
+			}
+			AND = {
+				religion = german_pagan
+				liege = { religion = german_pagan_reformed }
+				trait = shield_maiden
+			}
+			AND = {
+				religion = german_pagan_reformed
+				liege = { religion = german_pagan_reformed }
+				trait = shield_maiden
+			}
+			AND = {
+				religion_group = zoroastrian_group
+				culture_group = iranian
+				any_dynasty_member = { higher_tier_than = baron }
+				trait = martial_lady_tengri
+				OR = {
+					AND = {
+						liege = { religion_group = zoroastrian_group }
+						liege = {culture_group = iranian }
+					}
+					independent = yes
+				}
+			}
+			AND = {
+				is_ruler = yes
+				independent = yes
+				OR = {
+					trait = martial_lady
+					trait = martial_lady_tengri
+					trait = shield_maiden
+					martial = 12
+				}
+			}
+			liege = {
+				OR = {
+					has_law = true_cognatic_succession 
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+			AND = {
+				independent = yes
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+			has_character_flag = special_marshal
+		}
+		OR = {
+			NOT = { religion = bogomilist }
+			NOR = {
+				trait = perfecti
+				is_theocracy = yes
+			}
+			liege = {
+				religion = bogomilist
+				OR = {
+					has_law = bogomilist_church_2
+					has_law = bogomilist_church_3
+					has_law = bogomilist_church_4
+				}
+			}
+		}
+	}
+	gain_effect = {
+		remove_opinion = { who = FROM modifier = opinion_fired_from_council }
+		if = {
+			limit = { FROM = { primary_title = { has_law = council_privileges_1 } } }
+			opinion = { who = FROM modifier = grateful_council_term months = 12 }
+		}
+	}
+	dismiss_trigger = {
+		tooltip = { FROM = { primary_title = { NOT = { has_law = council_privileges_1 } } } }
+		hidden_tooltip = { OR = { trait = incapable trait = in_hiding FROM = { NOT = { has_character_flag = lifetime_appointments } } } }
+	}
+	lose_effect = {
+		opinion = { who = FROM modifier = opinion_fired_from_council }
+		remove_opinion = { who = FROM modifier = grateful_council_term }
+	}
+	action = action_assist_arrest
+	action = action_train_troops
+	action = action_train_troops_nomadic
+	action = action_advance_mil_tech
+	action = action_organize_raid # Replaces action_advance_mil_tech for Tribes
+
+	lift_fow = yes
+}
+
+job_treasurer = {
+	is_treasurer = yes
+	attribute = stewardship
+	dignity = 0.25
+	opinion_effect = 15
+	
+	monthly_salary = 0.2
+	monthly_prestige = 0.025
+	
+	allow = {
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
+		NOT = { trait = desert_father }
+		NOT = { trait = desert_mother }
+		NOT = { has_character_flag = guru }
+		NOT = { has_character_modifier = planning_claimant_adventure }
+		OR = {
+			is_female = no
+			NOT = { liege = { spouse = { character = ROOT } } }
+			liege = { ai = no }
+		}
+		OR = {
+			is_female = no
+			is_ruler = yes
+			AND = {
+				culture = basque
+				liege = {
+					culture = basque
+					NOT = { has_law = agnatic_succession }
+				}
+			}
+			AND = {
+				is_feminist_trigger = yes
+				liege = { is_feminist_trigger = yes }
+			}
+			liege = {
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+			AND = {
+				independent = yes
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+			liege = {
+				OR ={
+					dynasty = ROOT 
+					mother = { character = ROOT }
+				}				
+			}
+			has_character_flag = special_treasurer
+		}
+		OR = {
+			NOT = { religion = waldensian }
+			is_theocracy = no
+			is_ruler = no
+		}
+		OR = {
+			NOT = { religion = bogomilist }
+			NOR = {
+				trait = perfecti
+				is_theocracy = yes
+			}
+			liege = {
+				religion = bogomilist
+				OR = {
+					has_law = bogomilist_church_2
+					has_law = bogomilist_church_3
+					has_law = bogomilist_church_4
+				}
+			}
+		}
+	}
+	gain_effect = {
+		remove_opinion = { who = FROM modifier = opinion_fired_from_council }
+		if = {
+			limit = { FROM = { primary_title = { has_law = council_privileges_1 } } }
+			opinion = { who = FROM modifier = grateful_council_term months = 12 }
+		}
+	}
+	dismiss_trigger = {
+		tooltip = { FROM = { primary_title = { NOT = { has_law = council_privileges_1 } } } }
+		hidden_tooltip = { OR = { trait = incapable trait = in_hiding FROM = { NOT = { has_character_flag = lifetime_appointments } } } }
+	}
+	lose_effect = {
+		opinion = { who = FROM modifier = opinion_fired_from_council }
+		remove_opinion = { who = FROM modifier = grateful_council_term }
+	}
+
+	action = action_squeeze_peasants
+	action = action_collect_tribute # Replaces action_squeeze_peasants for Nomads
+	action = action_settle_tribe # Replaces action_squeeze_peasants for Tribes
+	action = action_oversee_construction
+	action = action_advance_eco_tech
+	action = action_build_legend # Replaces action_advance_eco_tech for Tribes
+
+
+	lift_fow = yes
+}
+
+job_spymaster = {
+	is_spymaster = yes
+	attribute = intrigue
+	dignity = 0.25
+	opinion_effect = 15
+
+	monthly_salary = 0.2
+	monthly_prestige = 0.025
+
+	allow = {
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
+		NOT = { trait = desert_father }
+		NOT = { trait = desert_mother }
+		NOT = { has_character_flag = guru }
+		NOT = { has_character_modifier = planning_claimant_adventure }
+		OR = {
+			is_female = no
+			NOT = { liege = { spouse = { character = ROOT } } }
+			liege = { ai = no }
+		}
+		OR = {
+			is_female = no
+			AND = {
+				culture = basque
+				liege = {
+					culture = basque
+					NOT = { has_law = agnatic_succession }
+				}
+			}
+			AND = {
+				religion_group = pagan_group
+				liege = { religion_group = pagan_group }
+			}
+			liege = { dynasty = ROOT }
+			liege = { mother = { character = ROOT } }
+			liege = { spouse = { character = ROOT } }
+			AND = {
+				is_feminist_trigger = yes
+				liege = { is_feminist_trigger = yes }
+			}
+		}
+		OR = {
+			intrigue = 10
+			trait = amateurish_plotter
+			trait = flamboyant_schemer
+			trait = intricate_webweaver
+			trait = elusive_shadow
+		}
+		OR = {
+			NOT = { religion = bogomilist }
+			NOR = {
+				trait = perfecti
+				is_theocracy = yes
+			}
+			liege = {
+				religion = bogomilist
+				OR = {
+					has_law = bogomilist_church_2
+					has_law = bogomilist_church_3
+					has_law = bogomilist_church_4
+				}
+			}
+		}
+	}
+	gain_effect = {
+		remove_opinion = { who = FROM modifier = opinion_fired_from_council }
+		if = {
+			limit = { FROM = { primary_title = { has_law = council_privileges_1 } } }
+			opinion = { who = FROM modifier = grateful_council_term months = 12 }
+		}
+	}
+	dismiss_trigger = {
+		tooltip = { FROM = { primary_title = { NOT = { has_law = council_privileges_1 } } } }
+		hidden_tooltip = { OR = { trait = incapable trait = in_hiding FROM = { NOT = { has_character_flag = lifetime_appointments } } } }
+	}
+	lose_effect = {
+		opinion = { who = FROM modifier = opinion_fired_from_council }
+		remove_opinion = { who = FROM modifier = grateful_council_term }
+	}
+
+	action = action_uncover_plots
+	action = action_organize_spies
+	action = action_study_technology
+
+	lift_neighbor_fow = yes
+}
+
+job_spiritual = {
+	is_spiritual = yes
+	attribute = learning
+	dignity = 0.25
+	opinion_effect = 15
+	
+	monthly_salary = 0.2
+	monthly_piety = 0.025
+	
+	allow = {
+		prisoner = no
+		liege = { religion = ROOT }
+		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
+		NOT = { has_character_modifier = planning_claimant_adventure }
+		OR = {
+			is_female = no
+			NOT = { liege = { is_married = ROOT } }
+			liege = { ai = no }
+		}
+		OR = {
+			AND = {
+				is_adult = yes
+				OR = {
+					NOT = { religion = hindu }
+					trait = brahmin
+				}
+				OR = {
+					is_female = no
+					religion_allows_female_temple_holders = yes
+				}
+			}
+			has_character_flag = special_spiritual
+		}
+		OR = {
+			is_theocracy = yes
+			trait = monk
+			trait = nun
+			liege = { religion_group = muslim }
+			AND = {
+				clan = yes
+				liege = { is_nomadic = yes }
+			}
+			AND = {
+				religion = lollard
+				liege = { religion = lollard }
+			}
+			AND = {
+				is_ruler = no
+				has_autocephaly = no
+				OR = {
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			AND = {
+				religion = miaphysite
+				liege = { religion = miaphysite }
+				OR = {
+					trait = desert_father
+					trait = desert_mother
+				}
+			}
+			AND = {
+				religion = monophysite
+				liege = { religion = monophysite }
+				OR = {
+					trait = desert_father
+					trait = desert_mother
+				}
+			}
+			AND = {
+				religion = cathar
+				liege = { religion = cathar }
+				trait = perfecti
+			}
+			AND = {
+				religion = bogomilist
+				liege = { religion = cathar }
+				trait = perfecti
+			}
+		}
+		OR = {
+			NOT = { religion_group = muslim }
+			NOT = { liege = { religion_group = muslim } }
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			trait = druze_uqqal
+			trait = druze_ajawid
+		}
+		OR = {
+			NOT = { religion = bogomilist }
+			NOR = {
+				trait = perfecti
+				is_theocracy = yes
+			}
+			liege = {
+				religion = bogomilist
+				OR = {
+					has_law = bogomilist_church_3
+					has_law = bogomilist_church_4
+				}
+			}
+		}
+	}
+	gain_effect = {
+		remove_opinion = { who = FROM modifier = opinion_fired_from_council }
+		if = {
+			limit = { FROM = { primary_title = { has_law = council_privileges_1 } } }
+			opinion = { who = FROM modifier = grateful_council_term months = 12 }
+		}
+	}
+	dismiss_trigger = {
+		tooltip = { FROM = { primary_title = { NOT = { has_law = council_privileges_1 } } } }
+		hidden_tooltip = {
+			OR = {
+				FROM = { NOT = { has_character_flag = lifetime_appointments } }
+				NOT = { religion = FROM }
+				trait = incapable
+				trait = in_hiding
+			}
+		}
+	}
+	lose_effect = {
+		opinion = { who = FROM modifier = opinion_fired_from_council }
+		remove_opinion = { who = FROM modifier = grateful_council_term }
+	}
+
+	action = action_inquisition
+	action = action_advance_cul_tech
+	action = action_improve_rel_relations
+	action = action_charity
+	action = action_build_zeal # Tribal replacement for 'action_advance_cul_tech'
+
+	lift_fow = yes
+}
+

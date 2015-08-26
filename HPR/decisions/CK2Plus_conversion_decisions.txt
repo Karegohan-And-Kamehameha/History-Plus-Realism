@@ -1,0 +1,1533 @@
+decisions = {
+	convert_to_capital_religion = {
+		potential = {
+			is_playable = yes
+			controls_religion = no
+			is_nomadic = no
+			mercenary = no
+			capital_scope = {
+				NOT = { religion = ROOT }
+				religion_group = ROOT
+				NOT = {
+					ROOT = {
+						liege = {
+							religion = PREVPREV
+						}
+					}
+				}
+			}
+			NOT = { has_character_flag = converted_religion }
+			NOT = {
+				AND = {
+					has_dlc = "Charlemagne"
+					has_landed_title = e_byzantium  # May instead renounce iconoclasm
+					has_landed_title = c_byzantion
+					religion = iconoclast
+					capital_scope = { religion = orthodox }
+				}
+			}
+		}
+		allow = {
+			NOT = { trait = zealous }
+		}
+		effect = {
+			piety = -100
+			if = {
+				limit = { higher_tier_than = BARON }
+				religion_authority = {
+					modifier = ruler_converted_from
+				}
+			}
+			capital_scope = {
+				reverse_religion = ROOT
+			}
+			if = {
+				limit = { higher_tier_than = BARON }
+				hidden_tooltip = {
+					religion_authority = {
+						modifier = ruler_converted_to
+					}
+				}
+			}
+			hidden_tooltip = {
+				any_courtier = {
+					limit = {
+						is_adult = no
+						is_ruler = no
+						dynasty = ROOT
+					}
+					religion = ROOT
+				}
+			}
+			set_character_flag = converted_religion
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	convert_to_capital_culture = {
+		potential = {
+			ai = no
+			is_nomadic = no
+			mercenary = no
+			capital_scope = {
+				NOT = { culture = ROOT }
+				NOT = {
+					ROOT = {
+						liege = {
+							culture = PREVPREV
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { culture = norse }
+				capital_scope = {
+					NOT = {
+						culture = swedish
+						culture = norwegian
+						culture = danish
+						culture = icelandic
+						culture = norman
+					}
+				}
+			}
+			NOT = { has_character_flag = converted_culture }
+		}
+		allow = {
+			prestige = 100
+		}
+		effect = {
+			prestige = -100
+			capital_scope = {
+				reverse_culture = ROOT
+			}
+			hidden_tooltip = {
+				any_courtier = {
+					limit = {
+						is_ruler = no
+						dynasty = ROOT
+					}
+					culture = ROOT
+				}
+			}
+			set_character_flag = converted_culture
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	convert_to_roman = {
+		is_high_prio = yes
+		potential = {
+			NOT = { culture = roman }
+			has_landed_title = e_roman_empire
+		}
+		allow = {
+			ruled_years = 5
+		}
+		effect = {
+			culture = roman
+			any_courtier = {
+				limit = {
+					is_ruler = no
+					dynasty = ROOT
+				}
+				culture = roman
+			}
+			capital_scope = {
+				culture = roman
+				add_province_modifier = {
+					name = recent_culture_change
+					duration = -1
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.2 # Slow it down a bit
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 2
+					culture = roman
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 4
+					culture = roman
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 6
+					culture = roman
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 8
+					culture = roman
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 10
+					culture = roman
+				}
+			}
+		}
+	}
+
+	convert_to_icelandic = {
+		potential = {
+			culture = norse
+			is_ruler = yes
+			capital_scope = {
+				region = custom_north_sea
+			}
+			any_realm_province = {
+				culture = icelandic
+			}
+		}
+		allow = {
+			culture = norse
+		}
+		effect = {
+			culture = icelandic
+			any_courtier = {
+				limit = {
+					culture = norse
+					is_ruler = no
+					dynasty = ROOT
+				}
+				culture = icelandic
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.2 # Slow it down a bit
+			}
+			modifier = {
+				factor = 0.1
+				capital_scope = {
+					NOT = { region = custom_north_sea }
+				}
+			}
+			modifier = { # Do not flip if we're in a huge Norse empire
+				factor = 0
+				top_liege = { culture = norse }
+				top_liege = { tier = emperor }
+			}
+			modifier = {
+				factor = 0.01
+				capital_scope = {
+					NOT = { culture = icelandic }
+				}
+			}
+			modifier = {
+				factor = 2.0
+				liege = { culture = icelandic }
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 2
+					culture = icelandic
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 4
+					culture = icelandic
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 6
+					culture = icelandic
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 8
+					culture = icelandic
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					num = 10
+					culture = icelandic
+				}
+			}
+		}
+	}
+
+	gone_pagan_zoroastrian = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "The Old Gods"
+			}
+			OR = {
+				culture = persian
+				culture = kurdish
+				culture = baloch
+			}
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_zoroastrianism
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion = zoroastrian }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = { religion_group = zoroastrian_group }
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}
+	
+	gone_pagan_celtic_norse = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "The Old Gods"
+			}
+			OR = {
+				culture_group = celtic
+				culture_group = north_germanic
+				culture_group = west_germanic
+				culture_group = central_germanic
+				culture_group = iberian
+				culture = frankish
+				culture = occitan
+				culture = norman
+			}
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_pagans
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion_group = pagan_group }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = {
+							OR = { # Make sure only the culturally relevant religion lowers the MA cost
+								AND = {
+									religion = celtic_pagan
+									ROOT = {
+										OR = {
+											culture_group = celtic
+											culture = frankish
+											culture = occitan
+										}
+									}
+								}
+								AND = {
+									religion = norse_pagan
+									ROOT = {
+										OR = {
+											culture_group = north_germanic
+											culture_group = west_germanic
+											culture = norman
+										}
+									}
+								}
+								AND = {
+									religion = german_pagan
+									ROOT = {
+										OR = {
+											culture_group = iberian
+											culture_group = central_germanic
+										}
+									}
+								}
+							}
+						}
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}
+	
+	gone_pagan_baltic_finnic = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "The Old Gods"
+			}
+			OR = {
+				 culture_group = baltic
+				 culture_group = finno_ugric
+			}
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_pagans
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion_group = pagan_group }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }  
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = {
+							OR = {
+								AND = {
+									religion = baltic_pagan
+									ROOT = {
+										OR = {
+											culture_group = baltic
+											culture = ugricbaltic
+										}
+									}
+								}
+								AND = {
+									religion = finnish_pagan
+									ROOT = { culture_group = finno_ugric }
+								}
+							}
+						}
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}
+	
+	gone_pagan_tengri = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "The Old Gods"
+			}
+			OR = {
+				culture_group = altaic
+				culture_group = magyar
+			}
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}		
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_pagans
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion_group = pagan_group }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = { religion = tengri_pagan }
+						ROOT = {
+							OR = {
+								AND = {
+									culture_group = altaic
+									NOT = { culture = turkish }
+								}
+								culture = hungarian
+							}
+						}
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}	
+
+	gone_pagan_slavic = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "The Old Gods"
+			}
+			OR = {
+				culture_group = east_slavic
+				culture_group = west_slavic
+				culture_group = south_slavic
+			}
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_pagans
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion_group = pagan_group }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = { religion = slavic_pagan }
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}
+
+	gone_pagan_african = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "The Old Gods"
+			}
+			OR = {
+				culture = bedouin_arabic
+				culture = maghreb_arabic
+				culture = levantine_arabic
+				culture = andalusian_arabic
+				culture = sicilian_arabic
+				culture_group = east_african
+				culture_group = west_african
+			}
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_pagans
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion_group = pagan_group }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }  
+		}
+				
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					culture = bedouin_arabic
+					culture = maghreb_arabic
+					culture = levantine_arabic
+					culture = andalusian_arabic
+					culture = sicilian_arabic
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						any_demesne_province = {
+							OR = {
+								AND = {	
+									religion = west_african_pagan
+									ROOT = { culture_group = west_african }
+								}
+								AND = {	
+									religion = pagan
+									ROOT = { NOT = { culture_group = west_african } }
+								}
+							}
+						}
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}
+
+	gone_pagan_egyptian = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "The Old Gods"
+			}
+			culture = egyptian_arabic
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}			
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_pagans
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion_group = pagan_group }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = { religion = egyptian_pagan }
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}
+	
+	gone_pagan_judaic = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "Sons of Abraham"
+			}
+			culture_group = israelite
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}			
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_judaism
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion = jewish }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = { religion_group = jewish_group }
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}	
+	
+	gone_pagan_hellenic = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				has_dlc = "The Old Gods"
+			}
+			OR = {
+				culture = roman
+				culture = italian
+				culture = sicilian
+				culture = sicilian_greek
+				culture_group = byzantine
+				culture_group = crusader_group
+			}
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}			
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_pagans
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion_group = pagan_group }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = { religion = hellenic_pagan }
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}
+
+	gone_pagan_zun = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				ai = yes
+				AND = {
+					has_dlc = "The Old Gods"
+					has_dlc = "Charlemagne"
+				}
+			}
+			culture = afghan
+			is_adult = yes
+			is_heretic = no
+			controls_religion = no
+			OR = {
+				is_ruler = no
+				NOT = { capital_holding = { holding_type = temple } }
+			}
+			OR = {
+				ai = yes
+				has_character_flag = seeks_pagan_knowledge
+			}
+			NOT = {
+				religion = zoroastrian
+				religion = jewish
+				religion_group = pagan_group
+				has_character_modifier = voice_of_jesus
+				has_character_modifier = voice_of_satan
+				has_character_modifier = do_not_disturb
+				has_character_flag = gone_pagan
+			}			
+		}
+		
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			trait = sympathy_pagans
+			OR = {
+				custom_tooltip = {
+					text = RECEIVED_INSTRUCTION_MYSTIC
+					hidden_tooltip = { has_character_flag = may_go_pagan }
+				}
+				any_liege = { religion_group = pagan_group }
+			}
+			OR = {
+				trait = mystic
+				trait = cynical
+			}
+			NOT = {
+				trait = zealous
+				trait = incapable
+			}
+		}
+		
+		effect = {
+			set_character_flag = gone_pagan
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				religion_authority = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						any_demesne_province = { religion = egyptian_pagan }
+						NOT = { religion_authority = 0.20 }
+					}
+					NOT = { religion_authority = 0.10 }
+					AND = {
+						NOT = { religion_authority = 0.40 }
+						trait = lunatic
+					}
+				}
+			}
+		}
+	}
+}
+
+targetted_decisions = {
+	attempt_conversion = {
+		filter = court
+		ai_target_filter = court
+		
+		from_potential = {
+			ai = yes
+			has_dlc = "Sons of Abraham"
+			is_ruler = no
+			is_adult = yes
+			prisoner = no
+			diplomacy = 8
+			NOT = {
+				trait = incapable
+				trait = in_hiding
+				trait = shy
+				trait = cynical
+				trait = paranoid
+				has_character_modifier = conversion_attempted_timer
+			}
+		}
+		potential = {
+			is_adult = yes
+			prisoner = no
+			mercenary = no
+			holy_order = no
+			controls_religion = no
+			OR = {
+				same_sex = FROM
+				is_married = FROM
+				is_lover = FROM
+				is_consort = FROM
+			}
+			OR = {
+				is_priest = no
+				FROM = { is_priest = yes }
+			}
+			OR = {
+				trait = cynical
+				personal_opinion = { who = FROM value = 0 }
+				AND = {
+					FROM = { trait = zealous }
+					personal_opinion = { who = FROM value = -25 }
+				}
+			}
+			NOT = {
+				religion = FROM
+				religion_authority = 0.8
+				is_rival = FROM
+				trait = incapable
+				trait = in_hiding
+				trait = zealous
+				trait = shiite_claimant
+				father = { trait = shiite_claimant }
+				any_sibling = { trait = shiite_claimant }
+				has_character_modifier = conversion_attempt_timer
+			}
+		}
+		allow = {
+			at_location = FROM
+		}
+		effect = {
+			FROM = {
+				add_character_modifier = {
+					name = conversion_attempted_timer
+					duration = 365
+					hidden = yes
+				}
+				character_event = { id = SoA.4030 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.005
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				FROM = { religion_group = indian_group }
+				location = {
+					NOT = { region = world_india }
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = { religion_group = jewish_group }
+				OR = {
+					has_character_modifier = expelled_jewish
+					any_liege = { has_character_modifier = expelled_jewish }
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					AND = {
+						trait = sympathy_christendom
+						FROM = { religion_group = christian }
+					}
+					AND = {
+						trait = sympathy_islam
+						FROM = { religion_group = muslim }
+					}
+					AND = {
+						trait = sympathy_pagans
+						FROM = { religion_group = pagan_group }
+					}
+					AND = {
+						trait = sympathy_zoroastrianism
+						FROM = { religion_group = zoroastrian_group }
+					}
+					AND = {
+						trait = sympathy_judaism
+						FROM = { religion_group = jewish_group }
+					}
+					AND = {
+						trait = sympathy_indian
+						FROM = { religion_group = indian_group }
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				trait = cynical
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					is_friend = FROM
+					is_close_relative = FROM
+				}
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = FROM value = 25 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = FROM value = 75 }
+			}
+			modifier = {
+				factor = 0.5
+				is_ruler = yes
+			}
+			modifier = {
+				factor = 0.75
+				NOT = { religion_group = FROM }
+			}
+			modifier = {
+				factor = 1.25
+				religion_group = FROM
+			}
+			modifier = {
+				factor = 20
+				FROM = { trait = perfecti }
+			}
+			modifier = {
+				factor = 10
+				FROM = { trait = zealous }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = theologian }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = diligent }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = gregarious }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { trait = patient }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { trait = humble }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = craven }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = slothful }
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_priest = yes }
+			}
+			modifier = {
+				factor = 2
+				liege = { religion = FROM }
+			}
+			modifier = {
+				factor = 0.5
+				liege = { NOT = { religion = FROM } }
+			}
+			modifier = {
+				factor = 2
+				location = { religion = FROM }
+			}
+			modifier = {
+				factor = 0.5
+				location = { NOT = { religion = FROM } }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { NOT = { diplomacy = 10 } }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { NOT = { diplomacy = 12 } }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { diplomacy = 16 }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { diplomacy = 20 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { NOT = { religion_authority = 0.2 } }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { NOT = { religion_authority = 0.4 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { religion_authority = 0.6 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { religion_authority = 0.8 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { religion_authority = 0.2 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { religion_authority = 0.4 }
+			}
+			modifier = {
+				factor = 0.75
+				religion_authority = 0.6
+			}
+			modifier = {
+				factor = 0.75
+				religion_authority = 0.8
+			}
+		}
+	}
+}

@@ -1,0 +1,135 @@
+scandinavian = {
+	icelandic = {
+		primary = NOR
+		dynasty_names = $icelandic$
+	}
+}
+british = {
+	anglo_norse = {
+		primary = ENG
+		dynasty_names = $anglo_norse$
+	}
+}
+french = {
+	outremer = {
+		primary = KOJ
+		dynasty_names = $outremer$
+	}
+}
+gaelic = {
+	cornish = {
+		primary = CRN
+		dynasty_names = $cornish$
+	}
+	gallawa =
+		primary = SCO
+		dynasty_names = $gallawa$
+	}
+	pictish =
+		primary = SCO
+		dynasty_names = $pictish$
+	}	
+}
+latin = {
+	c_latin = {
+		primary = BYZ
+		dynasty_names = $c_latin$
+	}
+}
+east_slavic = {
+	ilmenian = {
+		primary = NOV
+		dynasty_names = $ilmenian$
+	}
+	volhynian = {
+		primary = KIE
+		dynasty_names = $volhynian$
+	}
+	severian = {
+		primary = MOS
+		dynasty_names = $severian$
+	}
+}
+altaic = {
+	pecheneg = {
+		dynasty_names = {
+			$pecheneg$
+		}
+	}
+	cuman = {
+		dynasty_names = {
+			$cuman$
+		}
+	}
+	khazar = {
+		dynasty_names = {
+			$khazar$
+		}
+	}
+	bolghar = {
+		dynasty_names = {
+			$bolghar$
+		}
+	}
+	avar = {
+		dynasty_names = {
+			$avar$
+		}
+	}
+	karluk = {
+		dynasty_names = {
+			$karluk$
+		}
+	}
+	magyar = {
+		dynasty_names = {
+			$magyar$
+		}
+	}
+}
+finno_ugric = {
+	lappish = {
+		dynasty_names = {
+			$lappish$
+		}
+	}
+	komi = {
+		dynasty_names = {
+			$komi$
+		}
+	}
+	mordvin = {
+		dynasty_names = {
+			$mordvin$
+		}
+	}
+	khanty = {
+		dynasty_names = {
+			$khanty$
+		}
+	}	
+}
+caucasian = {
+	alan = {
+		dynasty_names = {
+			$alan$
+		}
+	}	
+}
+turko_semitic = {
+	graphical_culture = muslimgfx
+	levantine_arabic = {
+		primary = SYR
+		dynasty_names = {
+			$levantine_arabic$
+		}
+	}
+}
+cushitic = {
+	coptic = {
+		primary = ETH
+		dynasty_names = {
+			$coptic$
+		}
+	}
+}

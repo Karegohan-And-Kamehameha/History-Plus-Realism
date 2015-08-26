@@ -1,0 +1,6 @@
+name = "History Plus Realism"
+path = "mod/HPR"
+replace_path="history/provinces"
+replace_path="history/titles"
+replace_path="history/wars"
+user_dir = "HPR"

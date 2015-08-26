@@ -1,0 +1,314 @@
+decisions = {
+
+	organise_herculeans = {
+		is_high_prio = yes
+		
+		potential = {
+			higher_tier_than = count
+			religion = hellenic_pagan
+			has_regent = no
+			NOT = { has_global_flag = herculeans_founded }
+		}
+		allow = {
+			higher_tier_than = duke
+			d_hellenic_pagan = { owner = { always = yes } } # There is currently a Pontifex Maximus
+			prestige = 300
+			wealth = 300
+		}
+		effect = {
+			set_global_flag = herculeans_founded
+			prestige = -300
+			wealth = -300
+			activate_title = { title = d_herculean status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = ancrel.2565 }
+				create_character = {
+					random_traits = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = NONE
+					female = no
+					age = 34
+					trait = skilled_tactician
+				}
+				new_character = {
+					d_herculean = {
+						grant_title = PREV
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organise_sacred_band = {
+		is_high_prio = yes
+		
+		potential = {
+			higher_tier_than = count
+			religion = hellenic_pagan
+			has_regent = no
+			NOT = { has_global_flag = sacred_band_founded }
+		}
+		allow = {
+			tier = emperor
+			d_hellenic_pagan = { owner = { always = yes } } # There is currently a Pontifex Maximus
+			prestige = 300
+			wealth = 300
+		}
+		effect = {
+			set_global_flag = sacred_band_founded
+			prestige = -300
+			wealth = -300
+			activate_title = { title = d_sacred_band status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = ancrel.2567 }
+				create_character = {
+					random_traits = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = NONE
+					female = no
+					age = 34
+					trait = skilled_tactician
+				}
+				new_character = {
+					d_sacred_band = {
+						grant_title = PREV
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	restore_the_pontifex = {
+		is_high_prio = yes
+		icon_religion = hellenic_pagan
+		
+		potential = {
+			religion = hellenic_pagan
+			higher_tier_than = duke
+			has_regent = no
+			NOT = { is_title_active = d_hellenic_pagan }
+		}
+		allow = {
+			num_of_holy_sites = 3
+			religion_authority = 0.6
+			piety = 500
+			wealth = 300
+			prestige = 300
+		}
+		effect = {
+			prestige = -300
+			wealth = -300			
+			activate_title = { title = d_hellenic_pagan status = yes }
+			d_hellenic_pagan = { grant_title = ROOT }
+			e_roman_empire = {
+				owner = {
+					if = {
+						limit = {
+							religion = hellenic_pagan
+						}
+						character_event = { id = ancrel.2102 days = 1 }
+					}
+				}
+			}
+			e_byzantium = {
+				owner = {
+					if = {
+						limit = {
+							religion = hellenic_pagan
+							NOT = { has_landed_title = e_roman_empire }
+						}
+						character_event = { id = ancrel.2102 days = 1 }
+					}
+				}
+			}
+			e_latin_empire = {
+				owner = {
+					if = {
+						limit = {
+							religion = hellenic_pagan
+							NOT = { has_landed_title = e_roman_empire }
+							NOT = { has_landed_title = e_byzantium }
+						}
+						character_event = { id = ancrel.2102 days = 1 }
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mithras_promotion = {
+		is_high_prio = yes
+		
+		potential = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			religion = hellenic_pagan
+			OR = {
+				trait = mystery_mithras_corax
+				trait = mystery_mithras_nymphus
+				trait = mystery_mithras_leo
+				trait = mystery_mithras_perses
+				trait = mystery_mithras_miles
+				trait = mystery_mithras_heliodromus
+			}
+		}
+		allow = {
+			in_command = no
+			is_abroad = no
+			prisoner = no
+			custom_tooltip = {
+				text = can_be_promoted_mithras
+				hidden_tooltip = {
+					OR = {
+						trait = mystery_mithras_corax
+						trait = mystery_mithras_nymphus
+						trait = mystery_mithras_leo
+						trait = mystery_mithras_perses
+						trait = mystery_mithras_miles
+						trait = mystery_mithras_heliodromus
+					}
+				}
+			}
+			NOT = { has_character_modifier = recent_mithras_promotion }
+		}
+		effect = {
+			hidden_tooltip = {
+				add_character_modifier = {
+					name = recent_mithras_promotion
+					duration = 1825
+					hidden = yes
+				}
+			}
+			narrative_event = { id = ancrel.2583 days = 1 tooltip = asks_mithras_promotion }
+		}
+	}
+}
+
+targetted_decisions = {
+	nominate_vestalis_decision = {
+		filter = court
+		ai_target_filter = court
+		
+		from_potential = {
+			religion = hellenic_pagan
+			NOT = { has_landed_title = d_hellenic_pagan }
+			d_hellenic_pagan = { has_holder = yes }
+			496 = { NOT = { check_variable = { which = "num_vestales" value = 5 } } } # The Collesge of the Vestales has a seat open
+		}
+		potential = {
+			age = 6
+			NOT = { age = 10 }
+			religion = hellenic_pagan
+			is_female = yes
+			is_landed = no
+			is_betrothed = no
+			prisoner = no
+			host = { character = FROM }
+			NOT = {
+				trait = vestalis
+				trait = retired_vestalis
+				has_minor_title = title_vestalis
+				has_minor_title = title_vestalis_maxima
+				has_character_flag = flag_nominated_as_vestalis
+			}
+			d_hellenic_pagan = {
+				holder_scope = {
+					OR = {
+						ai = yes
+						NOT = { has_character_flag = received_vestalis_nomination }
+						had_character_flag = { flag = received_vestalis_nomination days = 365 }
+					}
+				}
+			}
+		}
+		allow = {
+			NOT = {
+				trait = incapable
+				trait = inbred
+				trait = bastard
+				trait = legit_bastard
+				trait = child_of_consort
+			}
+			father_even_if_dead = { religion = hellenic_pagan }
+			mother = { religion = hellenic_pagan }
+		}
+		effect = {
+			set_character_flag = flag_nominated_as_vestalis
+			d_hellenic_pagan = {
+				holder_scope = {
+					set_character_flag = received_vestalis_nomination
+					character_event = { id = ancrel.2124 days = 1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					any_heir_title = { always = yes }
+					any_pretender_title = { always = yes }
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { is_close_relative = FROM }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = cynical }
+			}
+			modifier = {
+				factor = 2.5
+				FROM = { trait = zealous }
+			}
+			modifier = {
+				factor = 0.5
+				d_hellenic_pagan = {
+					holder_scope = {
+						NOT = { reverse_opinion = { who = FROM value = 0 } }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				d_hellenic_pagan = {
+					holder_scope = {
+						NOT = { reverse_opinion = { who = FROM value = -25 } }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				d_hellenic_pagan = {
+					holder_scope = {
+						reverse_opinion = { who = FROM value = 25 }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				d_hellenic_pagan = {
+					holder_scope = {
+						reverse_opinion = { who = FROM value = 50 }
+					}
+				}
+			}
+		}
+	}
+}
+

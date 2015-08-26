@@ -1,0 +1,16 @@
+# 943 - Montbéliard
+
+# County Title
+title = c_montbeliard
+
+# Settlements
+max_settlements = 2
+b_montbeliard = castle
+
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = frankish }

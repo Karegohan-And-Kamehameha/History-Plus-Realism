@@ -1,0 +1,114 @@
+#EAST AFRICA
+
+technology = {
+	titles = {
+		d_eritrea
+		d_asosa
+		d_axum
+		d_sennar
+		d_gondar
+		d_harer
+		d_berbera		
+		d_tripolitania
+		d_cyrenaica		
+		d_nobatia
+		d_nubia
+		d_alodia
+		d_hayya
+	}
+
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		
+	}
+	
+	1337 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+
+#EGYPT
+
+technology = {
+	titles = {
+		d_kufra
+		d_alexandria
+		d_damietta
+		d_cairo
+		d_sinai
+	}
+
+	769 = {
+		military = 0.5
+		economy = 1.3
+		culture = 1.3
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+
+#TUNIS + TANGIER
+
+technology = {
+	titles = {
+		d_tangiers
+		d_tunis
+	}
+
+	769 = {
+		military = 0.5
+		economy = 1.1
+		culture = 1.1
+	}
+		
+	1337 = {
+		military = 4
+		economy = 4
+		culture = 4
+	}
+}
+
+#WEST AFRICA
+
+technology = {
+	titles = {
+		d_atlas
+		d_kabylia
+		d_alger
+		d_tlemcen
+		d_kangaba
+		d_diafanu
+		d_susu
+		d_jeno
+		d_takrur
+		d_jolof
+		d_songhay
+		d_kumbee-tenga
+		d_ifni
+		d_laayoune
+		d_marrakech		
+		d_fes
+		d_taghaza
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		
+	}
+	
+	1337 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}

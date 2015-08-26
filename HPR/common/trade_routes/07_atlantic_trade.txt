@@ -1,0 +1,100 @@
+atlantic_trade = {
+	wealth = 40			# Total base wealth of Atlantic Trade
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.025
+		city_tax_modifier = 0.05
+		temple_tax_modifier = 0.025
+		trade_route_value = 0.5
+	}
+
+	start = {				# Start provinces of trade route
+		165 # Cadiz
+		841 # Tangiers
+		843 # Marrakech
+	}
+
+	path = {	# Tangiers-Atlantic
+		841 953 981
+	}
+	path = {	# Marrakech-Atlantic-Tangiers
+		843 844 953
+	}	
+	path = {	# Cadiz-Atlantic-Faro-Lisboa-Santiago-Oviedo-Bordeaux-Nantes
+		165 981 980 970 1014 974 1015 106 107 141
+	}
+	path = {	# Lisboa
+		981 160
+	}
+	path = {	# Faro
+		981 163
+	}		
+	path = {	# Santiago
+		980 157
+	}	
+	path = {	# Oviedo
+		1014 155
+	}	
+	path = {	#
+		974 149
+	}	
+	path = {	# Nantes-French Leon-Caen
+		1015 977 1010 100
+	}
+	path = {	# French Leon
+		1010 103
+	}	
+	path = {	# French Leon-Caen-Winchester
+		1010 966 26
+	}
+	path = {	# French Leon-Brugge
+		1010 1009 965 78
+	}
+	path = {	# French Leon-Cornwall-Bangor Fawr-Isle of Man-Innse Gall-Fife-Northumberland-Moray
+		1010 967 968 64 1019 45 992 993 994
+	} 
+	path = {	# Orkney-Moray
+		993 40 41 43
+	}	
+	path = {	# Cornwall
+		967 31
+	}	
+	path = {	# Isle of Man
+		1019 54
+	}
+	path = {	# Dublin
+		1019 11
+	}		
+	path = {	# Fife-Northumberland
+		994 52
+	}	
+	path = {	# Normandy-London
+		965 32
+	}	
+	path = {	# Fife-Norfolk
+		996 70
+	}
+	
+	path = {	# Ireland-Iceland, Part 1. Split into 3 parts for more obvious directional cue
+		993 990
+	}
+	path = {	# Ireland-Iceland, Part 2
+		990 960
+	}	
+	path = {	# Ireland-Iceland, Part 3
+		960 982 1
+	}	
+
+	path = {	# Shetland-Bergenshus, Part 1 Split into 2 parts for more obvious directional cue
+		990 989
+	}
+	path = {	# Shetland-Bergenshus, Part 2 Split into 2 parts for more obvious directional cue
+		989 986 274
+	}	
+	path = {	# Fife-York-Brugge
+		994 995 996 78
+	}
+	path = {	# York
+		995 57
+	}	
+}

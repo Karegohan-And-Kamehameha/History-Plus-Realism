@@ -1,0 +1,18 @@
+# 936 - Chiny
+# County Title
+title = c_chiny
+
+# Settlements
+max_settlements = 3
+b_chiny = castle
+b_orval = temple
+
+#b_tintigny = city
+#b_virton = castle
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = frankish }

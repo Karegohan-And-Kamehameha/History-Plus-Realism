@@ -1,0 +1,24 @@
+# 912 - Stavelot
+
+# County Title
+title = c_zutphen
+
+# Settlements
+max_settlements = 4
+
+b_zutphen = castle
+b_doesburg = city
+b_lohn = temple
+
+#b_borculo = castle
+#b_lochem = castle
+#b_bredevoort = castle
+#b_heekeren = castle
+
+
+# Misc
+culture = frisian
+religion = catholic
+
+# History
+867.1.1 = { culture = german }

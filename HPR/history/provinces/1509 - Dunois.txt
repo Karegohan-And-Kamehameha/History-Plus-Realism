@@ -1,0 +1,19 @@
+# 924 Dunois
+
+# County Title
+title = c_dunois
+
+# Settlements
+max_settlements = 3
+
+b_chateaudun = castle
+b_bonneval = temple
+#b_freteval = castle
+b_cloyes = city
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = frankish }

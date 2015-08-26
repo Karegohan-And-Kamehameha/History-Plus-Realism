@@ -1,0 +1,63 @@
+600.1.1 = {
+	holder = 0 # to Mercia
+	law = agnatic_succession
+	law = succ_feudal_elective
+	effect = { reset_coa = THIS }
+}
+758.1.1={
+	holder = 205072
+}
+852.1.1 = {
+	holder = 163102
+}
+995.1.1 = {
+	holder = 5640
+	liege = "k_england"
+}
+1066.1.1 = {
+	holder = 5644 #Eadwin
+}
+1066.10.14 = {
+	liege = "k_england"
+    de_jure_liege = k_england
+	law = succ_primogeniture
+	effect = { set_coa = d_hereford_norman }
+}
+1072.1.1 = {
+	liege = 0
+	holder = 0
+}
+1141.1.1 = {
+	liege = "k_england"
+	holder = 204622 #Miles of Gloucester
+}
+1143.12.23 = {
+	liege = 0
+	holder = 7461 #Roger of Gloucester
+}
+1153.8.1 = {
+	liege = "k_england"
+}
+1155.9.22 = {
+	liege = 0
+	holder = 0
+}
+1199.6.1 = {
+	liege = "k_england"
+	holder = 204600 #Henry de Bohun
+}
+1220.6.1 = {
+	holder = 7462 #Humphrey de Bohun
+}
+1275.9.24 = {
+	holder = 7463 #Humphrey de Bohun
+}
+1298.12.31 = {
+	holder = 454561 #Humphrey de Bohun
+}
+1321.11.6 = {
+	holder = 7464 #John of Bohun
+}
+1335.1.20 = {
+	holder = 454560 #Humphrey de Bohun
+}

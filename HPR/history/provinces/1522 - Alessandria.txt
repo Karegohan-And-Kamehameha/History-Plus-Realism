@@ -1,0 +1,17 @@
+# 940 - Alessandria
+
+# County Title
+title = c_alessandria
+
+# Settlements
+max_settlements = 2
+
+b_alessandria = castle
+b_solero = temple
+
+# Misc
+culture = lombard
+religion = catholic
+
+# History
+869.1.1 = { culture = italian }

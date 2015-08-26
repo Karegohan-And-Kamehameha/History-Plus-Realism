@@ -1,0 +1,5914 @@
+namespace = Plus
+
+#reserved: Plus.300 to Plus.399
+
+#######################################
+# CK2Plus Maintenance Events
+#######################################
+
+character_event = { # AI plot check
+	id = Plus.300
+	is_triggered_only = yes
+	hide_window = yes
+	
+	ai = yes
+	prisoner = no
+	capable_only = yes
+	is_part_of_plot = yes
+	min_age = 16
+
+	trigger = {
+		ai = yes
+		NOT = { has_character_flag = plot_check }
+		has_plot = yes
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	immediate = {
+		set_character_flag = plot_check
+		plot_target_char = {
+			any_courtier = {
+				limit = { NOT = { is_plot_target_of = ROOT } }
+				remove_opinion = {
+					who = ROOT
+					modifier = opinion_plot_help
+				}
+				opinion = {
+					who = ROOT
+					modifier = opinion_plot_help
+					years = 5
+				}
+			}
+			any_vassal = {
+				limit = { NOT = { is_plot_target_of = ROOT } }
+				remove_opinion = {
+					who = ROOT
+					modifier = opinion_plot_help
+				}
+				opinion = {
+					who = ROOT
+					modifier = opinion_plot_help
+					years = 5
+				}
+			}
+			liege = {
+				any_courtier = {
+					limit = { NOT = { is_plot_target_of = ROOT } }
+					remove_opinion = {
+						who = ROOT
+						modifier = opinion_plot_help
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_plot_help
+						years = 5
+					}
+				}
+				any_vassal = {
+					limit = { NOT = { is_plot_target_of = ROOT } }
+					remove_opinion = {
+						who = ROOT
+						modifier = opinion_plot_help
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_plot_help
+						years = 5
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = { # Cancel AI plot if too few helpers and has taken too long
+	id = Plus.301
+	hide_window = yes
+	is_triggered_only = yes
+
+	ai = yes
+	has_character_flag = plot_check
+	
+	trigger = {
+		ai = yes
+		OR = {
+			has_plot = no
+			had_character_flag = { flag = plot_check days = 1095 }
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	immediate = {
+		if = {
+			limit = { has_plot = no }
+			clr_character_flag = plot_check
+		}
+		if = {
+			limit = {
+				OR = {
+					NOT = { num_of_plot_backers = 1 }
+					had_character_flag = { flag = plot_check days = 1095 }
+				}
+				OR = {
+					NOT = { num_of_plot_backers = 2 }
+					had_character_flag = { flag = plot_check days = 1825 }
+				}
+			}
+			set_character_flag = abort_plot
+		}
+	}
+}
+
+character_event = { # Allow AI plotting
+	id = Plus.302
+	is_triggered_only = yes
+	hide_window = yes
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	ai = yes
+
+	trigger = {
+		ai = yes
+		NOR = {
+			trait = in_hiding
+			has_plot = yes
+			has_character_flag = allow_plotting
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			is_ruler = no
+			is_councillor = no
+		}
+		modifier = {
+			factor = 2
+			is_ruler = yes
+			tier = COUNT
+		}
+		modifier = {
+			factor = 5
+			is_ruler = yes
+			tier = DUKE
+		}
+		modifier = {
+			factor = 10
+			is_ruler = yes
+			higher_tier_than = DUKE
+		}
+		modifier = {
+			factor = 3
+			has_job_title = job_spymaster
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { intrigue = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { intrigue = 10 }
+		}
+		modifier = {
+			factor = 1.25
+			trait = amateurish_plotter
+		}
+		modifier = {
+			factor = 1.5
+			trait = flamboyant_schemer
+		}
+		modifier = {
+			factor = 2
+			trait = intricate_webweaver
+		}
+		modifier = {
+			factor = 3
+			trait = elusive_shadow
+		}
+		modifier = {
+			factor = 2
+			intrigue = 10
+		}
+		modifier = {
+			factor = 2
+			intrigue = 15
+		}
+		modifier = {
+			factor = 2
+			intrigue = 20
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				trait = content
+				trait = honest
+				trait = kind
+				trait = just
+			}
+		}
+		modifier = {
+			factor = 10
+			OR = {
+				trait = lunatic
+				trait = possessed
+			}
+		}
+	}
+
+	immediate = {
+		set_character_flag = allow_plotting
+	}
+}
+
+character_event = { # Shatter Empire if too small
+	id = Plus.303 #formerly 1000182859
+	desc = "EVTDESC_Plus_303"
+	picture = "GFX_evt_council"
+	
+	is_triggered_only = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		war = no
+		is_ruler = yes
+		is_nomadic = no
+		tier = emperor
+		NOT = { realm_size = 100 }
+		any_demesne_title = {
+			tier = EMPEROR
+			is_landless_type_title = no
+			NOR = {
+				title = e_timurids
+				title = e_mexikha
+				title = e_byzantium
+				title = e_roman_empire
+				title = e_latin_empire
+				title = e_karling
+			}
+		}
+	}
+
+	immediate = {
+		#attempt to form a kingdom so we don't lose all our dukes
+		character_event = { id = Plus.304 }
+	}
+
+	option = {
+		name = "EVTOPTA_Plus_303"
+		prestige = -1000
+		any_demesne_title = {
+			limit = {
+				tier = EMPEROR
+				is_landless_type_title = no
+				NOR = {
+					title = e_timurids
+					title = e_mexikha
+					title = e_byzantium
+					title = e_roman_empire
+					title = e_latin_empire
+					title = e_karling
+				}
+			}
+			destroy_landed_title = THIS
+		}
+	}
+}
+
+character_event = { # Fix Laws if CA differs from max law level for the CA
+	id = Plus.304 #formerly 1000182857
+	desc = "EVTDESC_Plus_304"
+	picture = "GFX_evt_council"
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+
+	trigger = {
+		war = no
+		is_ruler = yes
+		higher_tier_than = BARON
+		primary_title = {
+			OR = {
+				#no crown law or autonomous vassals: allows 0
+				AND = {
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_1 }
+						crownlaw_title = { has_law = crown_authority_2 }
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+					OR = {
+						has_law = iqta_tax_1
+						has_law = iqta_tax_2
+						has_law = feudal_tax_1
+						has_law = feudal_tax_2
+						has_law = city_tax_1
+						has_law = city_tax_2
+						has_law = temple_tax_1
+						has_law = temple_tax_2
+						has_law = tax_privileges_0
+						has_law = levy_privileges_0
+					}
+				}
+				#low & medium crown authority: allows 0-1
+				AND = {
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+					OR = {
+						has_law = iqta_tax_2
+						has_law = feudal_tax_2
+						has_law = city_tax_2
+						has_law = temple_tax_2
+					}
+				}
+			}
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	option = {
+		name = "OK"
+		primary_title = {
+			if = {
+				limit = {
+					has_law = tax_privileges_0
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_1 }
+						crownlaw_title = { has_law = crown_authority_2 }
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				add_law = tax_privileges_1
+			}
+			if = {
+				limit = {
+					has_law = levy_privileges_0
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_1 }
+						crownlaw_title = { has_law = crown_authority_2 }
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				add_law = levy_privileges_1
+			}
+			if = {
+				limit = {
+					has_law = iqta_tax_1
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_1 }
+						crownlaw_title = { has_law = crown_authority_2 }
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				add_law = iqta_tax_0
+			}
+			if = {
+				limit = {
+					has_law = iqta_tax_2
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				if = {
+					limit = {
+						NOR = {
+							crownlaw_title = { has_law = crown_authority_1 }
+							crownlaw_title = { has_law = crown_authority_2 }
+							crownlaw_title = { has_law = crown_authority_3 }
+							crownlaw_title = { has_law = crown_authority_4 }
+						}
+					}
+					add_law = iqta_tax_0
+				}
+				if = {
+					limit = {
+						OR = {
+							crownlaw_title = { has_law = crown_authority_1 }
+							crownlaw_title = { has_law = crown_authority_2 }
+						}
+					}
+					add_law = iqta_tax_1
+				}
+			}
+			if = {
+				limit = {
+					has_law = feudal_tax_1
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_1 }
+						crownlaw_title = { has_law = crown_authority_2 }
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				add_law = feudal_tax_0
+			}
+			if = {
+				limit = {
+					has_law = feudal_tax_2
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				if = {
+					limit = {
+						NOR = {
+							crownlaw_title = { has_law = crown_authority_1 }
+							crownlaw_title = { has_law = crown_authority_2 }
+							crownlaw_title = { has_law = crown_authority_3 }
+							crownlaw_title = { has_law = crown_authority_4 }
+						}
+					}
+					add_law = feudal_tax_0
+				}
+				if = {
+					limit = {
+						OR = {
+							crownlaw_title = { has_law = crown_authority_1 }
+							crownlaw_title = { has_law = crown_authority_2 }
+						}
+					}
+					add_law = feudal_tax_1
+				}
+			}
+			if = {
+				limit = {
+					has_law = city_tax_1
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_1 }
+						crownlaw_title = { has_law = crown_authority_2 }
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				add_law = city_tax_0
+			}
+			if = {
+				limit = {
+					has_law = city_tax_2
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				if = {
+					limit = {
+						NOR = {
+							crownlaw_title = { has_law = crown_authority_1 }
+							crownlaw_title = { has_law = crown_authority_2 }
+							crownlaw_title = { has_law = crown_authority_3 }
+							crownlaw_title = { has_law = crown_authority_4 }
+						}
+					}
+					add_law = city_tax_0
+				}
+				if = {
+					limit = {
+						OR = {
+							crownlaw_title = { has_law = crown_authority_1 }
+							crownlaw_title = { has_law = crown_authority_2 }
+						}
+					}
+					add_law = city_tax_1
+				}
+			}
+			if = {
+				limit = {
+					has_law = temple_tax_1
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_1 }
+						crownlaw_title = { has_law = crown_authority_2 }
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				add_law = temple_tax_0
+			}
+			if = {
+				limit = {
+					has_law = temple_tax_2
+					NOR = {
+						crownlaw_title = { has_law = crown_authority_3 }
+						crownlaw_title = { has_law = crown_authority_4 }
+					}
+				}
+				if = {
+					limit = {
+						NOR = {
+							crownlaw_title = { has_law = crown_authority_1 }
+							crownlaw_title = { has_law = crown_authority_2 }
+							crownlaw_title = { has_law = crown_authority_3 }
+							crownlaw_title = { has_law = crown_authority_4 }
+						}
+					}
+					add_law = temple_tax_0
+				}
+				if = {
+					limit = {
+						OR = {
+							crownlaw_title = { has_law = crown_authority_1 }
+							crownlaw_title = { has_law = crown_authority_2 }
+						}
+					}
+					add_law = temple_tax_1
+				}
+			}
+		}
+	}
+}
+
+character_event = { # Remove Crowned by Pope or Crowned or Uncrowned if not a ruler
+	id = Plus.305
+	
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		war = no
+		OR = {
+			AND = {
+				OR = {
+					trait = crowned
+					trait = uncrowned
+				}
+				OR = {
+					is_ruler = no
+					lower_real_tier_than = KING
+					primary_title = { is_vice_royalty = yes }
+				}
+			}
+			AND = {
+				trait = crowned_by_pope
+				NOR = {
+					has_landed_title = e_hre
+					has_landed_title = e_karling
+				}
+			}
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				trait = crowned_by_pope
+				higher_real_tier_than = DUKE
+			}
+			remove_trait = crowned_by_pope
+			add_trait = crowned
+		}
+		if = {
+			limit = {
+				trait = crowned_by_pope
+				NOT = { higher_real_tier_than = DUKE }
+			}
+			remove_trait = crowned_by_pope
+		}
+		if = {
+			limit = {
+				trait = crowned
+				OR = {
+					is_ruler = no
+					lower_real_tier_than = KING
+					primary_title = { is_vice_royalty = yes }
+				}
+			}
+			remove_trait = crowned
+		}
+		if = {
+			limit = {
+				trait = uncrowned
+				OR = {
+					is_ruler = no
+					lower_real_tier_than = KING
+					primary_title = { is_vice_royalty = yes }
+				}
+			}
+			remove_trait = uncrowned
+		}
+	}
+}
+
+character_event = { # Inherit Half of Dishonourable and Tyrant
+	id = Plus.306 #formerly 1000182861
+
+	hide_window = yes
+	is_triggered_only = yes
+	ai = no
+	
+	trigger = {
+		ai = no
+		OR = {
+			trait = dishonorable2
+			trait = dishonorable3
+			trait = dishonorable4
+			trait = dishonorable5
+			trait = dishonorable6
+			trait = dishonorable7
+			trait = dishonorable8
+			trait = dishonorable9
+			trait = dishonorable10
+			trait = tyrant3
+			trait = tyrant4
+			trait = tyrant5
+			trait = tyrant6
+			trait = tyrant7
+			trait = tyrant8
+			trait = tyrant9
+			trait = tyrant10
+			trait = tyrant11
+			trait = tyrant12
+			trait = tyrant13
+			trait = tyrant14
+			trait = tyrant15
+			trait = tyrant16
+			trait = tyrant17
+			trait = tyrant18
+			trait = tyrant19
+			trait = tyrant20
+		}
+	}
+	
+	immediate = {
+		hidden_tooltip = {
+			#tyrant
+			if = {
+				limit = {
+					OR = {
+						trait = tyrant3
+						trait = tyrant4
+						trait = tyrant5
+						trait = tyrant6
+						trait = tyrant7
+						trait = tyrant8
+						trait = tyrant9
+						trait = tyrant10
+						trait = tyrant11
+						trait = tyrant12
+						trait = tyrant13
+						trait = tyrant14
+						trait = tyrant15
+						trait = tyrant16
+						trait = tyrant17
+						trait = tyrant18
+						trait = tyrant19
+						trait = tyrant20
+					}
+				}
+				if = {
+					limit = {
+						trait = tyrant3
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 1 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant4
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 2 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant5
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 3 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant6
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 4 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant7
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 5 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant8
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 6 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant9
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 7 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant10
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 8 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant11
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 9 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant12
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 10 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant13
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 11 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant14
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 12 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant15
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 13 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant16
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 14 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant17
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 15 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant18
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 16 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant19
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 17 } }
+				}
+				if = {
+					limit = {
+						trait = tyrant20
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 18 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant1 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 1 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant2 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 2 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant3 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 3 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant4 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 4 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant5 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 5 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant6 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 6 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant7 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 7 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant8 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 8 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant9 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 9 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant10 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 10 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant11 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 11 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant12 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 12 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant13 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 13 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant14 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 14 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant15 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 15 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant16 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 16 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant17 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 17 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant18 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 18 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant19 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 19 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant20 }
+					}
+					hidden_tooltip = { change_variable = { which = "tyrant" value = 20 } }
+				}
+				remove_trait = tyrant1
+				remove_trait = tyrant2
+				remove_trait = tyrant3
+				remove_trait = tyrant4
+				remove_trait = tyrant5
+				remove_trait = tyrant6
+				remove_trait = tyrant7
+				remove_trait = tyrant8
+				remove_trait = tyrant9
+				remove_trait = tyrant10
+				remove_trait = tyrant11
+				remove_trait = tyrant12
+				remove_trait = tyrant13
+				remove_trait = tyrant14
+				remove_trait = tyrant15
+				remove_trait = tyrant16
+				remove_trait = tyrant17
+				remove_trait = tyrant18
+				remove_trait = tyrant19
+				remove_trait = tyrant20
+				current_heir = {
+					remove_trait = tyrant1
+					remove_trait = tyrant2
+					remove_trait = tyrant3
+					remove_trait = tyrant4
+					remove_trait = tyrant5
+					remove_trait = tyrant6
+					remove_trait = tyrant7
+					remove_trait = tyrant8
+					remove_trait = tyrant9
+					remove_trait = tyrant10
+					remove_trait = tyrant11
+					remove_trait = tyrant12
+					remove_trait = tyrant13
+					remove_trait = tyrant14
+					remove_trait = tyrant15
+					remove_trait = tyrant16
+					remove_trait = tyrant17
+					remove_trait = tyrant18
+					remove_trait = tyrant19
+					remove_trait = tyrant20
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 0.9 }
+						NOT = { check_variable = { which = "tyrant" value = 1.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant1
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 1.9 }
+						NOT = { check_variable = { which = "tyrant" value = 2.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant2
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 2.9 }
+						NOT = { check_variable = { which = "tyrant" value = 3.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant3
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 3.9 }
+						NOT = { check_variable = { which = "tyrant" value = 4.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant4
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 4.9 }
+						NOT = { check_variable = { which = "tyrant" value = 5.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant5
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 5.9 }
+						NOT = { check_variable = { which = "tyrant" value = 6.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant6
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 6.9 }
+						NOT = { check_variable = { which = "tyrant" value = 7.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant7
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 7.9 }
+						NOT = { check_variable = { which = "tyrant" value = 8.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant8
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 8.9 }
+						NOT = { check_variable = { which = "tyrant" value = 9.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant9
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 9.9 }
+						NOT = { check_variable = { which = "tyrant" value = 10.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant10
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 10.9 }
+						NOT = { check_variable = { which = "tyrant" value = 11.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant11
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 11.9 }
+						NOT = { check_variable = { which = "tyrant" value = 12.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant12
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 12.9 }
+						NOT = { check_variable = { which = "tyrant" value = 13.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant13
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 13.9 }
+						NOT = { check_variable = { which = "tyrant" value = 14.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant14
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 14.9 }
+						NOT = { check_variable = { which = "tyrant" value = 15.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant15
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 15.9 }
+						NOT = { check_variable = { which = "tyrant" value = 16.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant16
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 16.9 }
+						NOT = { check_variable = { which = "tyrant" value = 17.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant17
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 17.9 }
+						NOT = { check_variable = { which = "tyrant" value = 18.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant18
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 18.9 }
+						NOT = { check_variable = { which = "tyrant" value = 19.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant19
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 19.9 }
+					}
+					current_heir = {
+						add_trait = tyrant20
+					}
+				}
+			}
+			#dishonorable
+			if = {
+				limit = {
+					OR = {
+						trait = dishonorable2
+						trait = dishonorable3
+						trait = dishonorable4
+						trait = dishonorable5
+						trait = dishonorable6
+						trait = dishonorable7
+						trait = dishonorable8
+						trait = dishonorable9
+						trait = dishonorable10
+					}
+				}
+				if = {
+					limit = {
+						trait = dishonorable2
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 1 } }
+				}
+				if = {
+					limit = {
+						trait = dishonorable3
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 2 } }
+				}
+				if = {
+					limit = {
+						trait = dishonorable4
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 3 } }
+				}
+				if = {
+					limit = {
+						trait = dishonorable5
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 4 } }
+				}
+				if = {
+					limit = {
+						trait = dishonorable6
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 5 } }
+				}
+				if = {
+					limit = {
+						trait = dishonorable7
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 6 } }
+				}
+				if = {
+					limit = {
+						trait = dishonorable8
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 7 } }
+				}
+				if = {
+					limit = {
+						trait = dishonorable9
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 8 } }
+				}
+				if = {
+					limit = {
+						trait = dishonorable10
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 9 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable1 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 1 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable2 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 2 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable3 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 3 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable4 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 4 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable5 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 5 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable6 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 6 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable7 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 7 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable8 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 8 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable9 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 9 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable10 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 10 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable1 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 1 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable2 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 2 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable3 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 3 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable4 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 4 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable5 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 5 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable6 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 6 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable7 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 7 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable8 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 8 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable9 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 9 } }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable10 }
+					}
+					hidden_tooltip = { change_variable = { which = "dishonorable" value = 10 } }
+				}
+				remove_trait = dishonorable1
+				remove_trait = dishonorable2
+				remove_trait = dishonorable3
+				remove_trait = dishonorable4
+				remove_trait = dishonorable5
+				remove_trait = dishonorable6
+				remove_trait = dishonorable7
+				remove_trait = dishonorable8
+				remove_trait = dishonorable9
+				remove_trait = dishonorable10
+				remove_trait = dyn_dishonorable1
+				remove_trait = dyn_dishonorable2
+				remove_trait = dyn_dishonorable3
+				remove_trait = dyn_dishonorable4
+				remove_trait = dyn_dishonorable5
+				remove_trait = dyn_dishonorable6
+				remove_trait = dyn_dishonorable7
+				remove_trait = dyn_dishonorable8
+				remove_trait = dyn_dishonorable9
+				remove_trait = dyn_dishonorable10
+				current_heir = {
+					remove_trait = dishonorable1
+					remove_trait = dishonorable2
+					remove_trait = dishonorable3
+					remove_trait = dishonorable4
+					remove_trait = dishonorable5
+					remove_trait = dishonorable6
+					remove_trait = dishonorable7
+					remove_trait = dishonorable8
+					remove_trait = dishonorable9
+					remove_trait = dishonorable10
+					remove_trait = dyn_dishonorable1
+					remove_trait = dyn_dishonorable2
+					remove_trait = dyn_dishonorable3
+					remove_trait = dyn_dishonorable4
+					remove_trait = dyn_dishonorable5
+					remove_trait = dyn_dishonorable6
+					remove_trait = dyn_dishonorable7
+					remove_trait = dyn_dishonorable8
+					remove_trait = dyn_dishonorable9
+					remove_trait = dyn_dishonorable10
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 0.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 1.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable1
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 1.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 2.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable2
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 2.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 3.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable3
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 3.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 4.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable4
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 4.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 5.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable5
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 5.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 6.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable6
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 6.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 7.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable7
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 7.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 8.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable8
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 8.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 9.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable9
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 9.9 }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable10
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = { # Contingent Territory Check Part 1
+	id = Plus.307
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		any_independent_ruler = {
+			any_realm_province = {
+				clr_province_flag = contingent_territory
+				remove_province_modifier = province_isolated
+			}
+		}
+		any_realm_province = {
+			clr_province_flag = contingent_territory
+			remove_province_modifier = province_isolated
+		}
+		any_independent_ruler = {
+			limit = { num_of_count_titles = 1 }
+			capital_scope = { set_province_flag = contingent_territory }
+			character_event = { id = Plus.308 }
+		}
+		if = {
+			limit = { num_of_count_titles = 1 }
+			capital_scope = { set_province_flag = contingent_territory }
+			character_event = { id = Plus.308 }
+		}
+	}
+}
+
+character_event = { # Contingent Territory Check Part 2
+	id = Plus.308
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		any_realm_province = {
+			NOR = {
+				has_province_flag = contingent_territory
+				has_province_modifier = province_chaos
+				has_province_modifier = province_isolated
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				any_realm_province = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+						has_province_flag = contingent_territory
+					}
+				}
+			}
+			any_realm_province = {
+				limit = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+						has_province_flag = contingent_territory
+					}
+				}
+				set_province_flag = contingent_territory
+			}
+		}
+		if = {
+			limit = {
+				any_realm_province = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+						has_province_flag = contingent_territory
+					}
+				}
+			}
+			any_realm_province = {
+				limit = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+						has_province_flag = contingent_territory
+					}
+				}
+				set_province_flag = contingent_territory
+			}
+		}
+		if = {
+			limit = {
+				any_realm_province = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						NOT = { is_land = yes }
+						ROOT = {
+							any_realm_province = {
+								owner = { same_realm = ROOT }
+								has_province_flag = contingent_territory
+								any_neighbor_province = { province_id = PREVPREVPREV }
+							}
+						}
+					}
+				}
+			}
+			any_realm_province = {
+				limit = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						NOT = { is_land = yes }
+						ROOT = {
+							any_realm_province = {
+								owner = { same_realm = ROOT }
+								has_province_flag = contingent_territory
+								any_neighbor_province = { province_id = PREVPREVPREV }
+							}
+						}
+					}
+				}
+				set_province_flag = contingent_territory
+			}
+		}
+		if = {
+			limit = {
+				any_realm_province = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						NOT = { is_land = yes }
+						ROOT = {
+							any_realm_province = {
+								owner = { same_realm = ROOT }
+								has_province_flag = contingent_territory
+								any_neighbor_province = { province_id = PREVPREVPREV }
+							}
+						}
+					}
+				}
+			}
+			any_realm_province = {
+				limit = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						NOT = { is_land = yes }
+						ROOT = {
+							any_realm_province = {
+								owner = { same_realm = ROOT }
+								has_province_flag = contingent_territory
+								any_neighbor_province = { province_id = PREVPREVPREV }
+							}
+						}
+					}
+				}
+				set_province_flag = contingent_territory
+			}
+		}
+		if = {
+			limit = {
+				any_realm_province = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+						has_province_flag = contingent_territory
+					}
+				}
+			}
+			any_realm_province = {
+				limit = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+						has_province_flag = contingent_territory
+					}
+				}
+				set_province_flag = contingent_territory
+			}
+		}
+		if = {
+			limit = {
+				any_realm_province = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+						has_province_flag = contingent_territory
+					}
+				}
+			}
+			any_realm_province = {
+				limit = {
+					NOT = { has_province_flag = contingent_territory }
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+						has_province_flag = contingent_territory
+					}
+				}
+				set_province_flag = contingent_territory
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					any_realm_province = {
+						NOT = { has_province_flag = contingent_territory }
+						any_neighbor_province = {
+							owner = { same_realm = ROOT }
+							has_province_flag = contingent_territory
+						}
+					}
+					any_realm_province = {
+						NOT = { has_province_flag = contingent_territory }
+						any_neighbor_province = {
+							NOT = { is_land = yes }
+							ROOT = {
+								any_realm_province = {
+									owner = { same_realm = ROOT }
+									has_province_flag = contingent_territory
+									any_neighbor_province = { province_id = PREVPREVPREV }
+								}
+							}
+						}
+					}
+				}
+				any_realm_province = {
+					NOR = {
+						has_province_flag = contingent_territory
+						has_province_modifier = province_chaos
+						has_province_modifier = province_isolated
+					}
+				}
+			}
+			any_realm_province = {
+				limit = {
+					NOR = {
+						has_province_flag = contingent_territory
+						has_province_modifier = province_chaos
+						has_province_modifier = province_isolated
+					}
+				}
+				add_province_modifier = {
+					name = province_isolated
+					hidden = yes
+					duration = -1
+				}
+			}
+		}
+		character_event = { id = Plus.308 }
+	}
+}
+
+character_event = { # Remove Tyrant Trait on non-rulers
+	id = Plus.309
+	
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		is_ruler = no
+		OR = {
+			trait = tyrant1
+			trait = tyrant2
+			trait = tyrant3
+			trait = tyrant4
+			trait = tyrant5
+			trait = tyrant6
+			trait = tyrant7
+			trait = tyrant8
+			trait = tyrant9
+			trait = tyrant10
+			trait = tyrant11
+			trait = tyrant12
+			trait = tyrant13
+			trait = tyrant14
+			trait = tyrant15
+			trait = tyrant16
+			trait = tyrant17
+			trait = tyrant18
+			trait = tyrant19
+			trait = tyrant20
+		}
+	}
+
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	immediate = {
+		remove_trait = tyrant1
+		remove_trait = tyrant2
+		remove_trait = tyrant3
+		remove_trait = tyrant4
+		remove_trait = tyrant5
+		remove_trait = tyrant6
+		remove_trait = tyrant7
+		remove_trait = tyrant8
+		remove_trait = tyrant9
+		remove_trait = tyrant10
+		remove_trait = tyrant11
+		remove_trait = tyrant12
+		remove_trait = tyrant13
+		remove_trait = tyrant14
+		remove_trait = tyrant15
+		remove_trait = tyrant16
+		remove_trait = tyrant17
+		remove_trait = tyrant18
+		remove_trait = tyrant19
+		remove_trait = tyrant20
+	}
+}
+
+character_event = { # Copies empire's Crown Laws to de jure kingdoms
+	id = Plus.310
+	desc = "EVTDESC_Plus_310"
+	picture = "GFX_evt_council"
+
+	is_triggered_only = yes
+	
+	only_playable = yes
+
+	trigger = {	
+		primary_title = { tier = EMPEROR }
+		any_demesne_title = {
+			tier = KING
+			empire = { holder_scope = { character = ROOT } }
+			OR = {
+				AND = {
+					empire = { has_law = investiture_law_0 }
+					NOT = { has_law = investiture_law_0 }
+				}
+				AND = {
+					empire = { has_law = investiture_law_1 }
+					NOT = { has_law = investiture_law_1 }
+				}
+				AND = {
+					empire = { has_law = crown_authority_0 }
+					NOT = { has_law = crown_authority_0 }
+				}
+				AND = {
+					empire = { has_law = crown_authority_1 }
+					NOT = { has_law = crown_authority_1 }
+				}
+				AND = {
+					empire = { has_law = crown_authority_2 }
+					NOT = { has_law = crown_authority_2 }
+				}
+				AND = {
+					empire = { has_law = crown_authority_3 }
+					NOT = { has_law = crown_authority_3 }
+				}
+				AND = {
+					empire = { has_law = crown_authority_4 }
+					NOT = { has_law = crown_authority_4 }
+				}
+			}
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	option = {
+		name = "EXCELLENT"
+		set_character_flag = centralize_without_penalties
+		any_demesne_title = {
+			limit = {
+				tier = KING
+				empire = { holder_scope = { character = ROOT } }
+				OR = {
+					AND = {
+						empire = { has_law = investiture_law_0 }
+						NOT = { has_law = investiture_law_0 }
+					}
+					AND = {
+						empire = { has_law = investiture_law_1 }
+						NOT = { has_law = investiture_law_1 }
+					}
+					AND = {
+						empire = { has_law = crown_authority_0 }
+						NOT = { has_law = crown_authority_0 }
+					}
+					AND = {
+						empire = { has_law = crown_authority_1 }
+						NOT = { has_law = crown_authority_1 }
+					}
+					AND = {
+						empire = { has_law = crown_authority_2 }
+						NOT = { has_law = crown_authority_2 }
+					}
+					AND = {
+						empire = { has_law = crown_authority_3 }
+						NOT = { has_law = crown_authority_3 }
+					}
+					AND = {
+						empire = { has_law = crown_authority_4 }
+						NOT = { has_law = crown_authority_4 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					empire = { has_law = crown_authority_0 }
+				}
+				add_law = crown_authority_0
+			}
+			if = {
+				limit = {
+					empire = { has_law = crown_authority_1 }
+				}
+				add_law = crown_authority_1
+			}
+			if = {
+				limit = {
+					empire = { has_law = crown_authority_2 }
+				}
+				add_law = crown_authority_2
+			}
+			if = {
+				limit = {
+					empire = { has_law = crown_authority_3 }
+				}
+				add_law = crown_authority_3
+			}
+			if = {
+				limit = {
+					empire = { has_law = crown_authority_4 }
+				}
+				add_law = crown_authority_4
+			}
+			if = {
+				limit = {
+					empire = { has_law = investiture_law_0 }
+				}
+				add_law = investiture_law_0
+			}
+			if = {
+				limit = {
+					empire = { has_law = investiture_law_1 }
+				}
+				add_law = investiture_law_1
+			}
+		}
+		clr_character_flag = centralize_without_penalties
+	}
+}
+
+character_event = { # AI Spouse finder
+	id = Plus.312
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	ai = yes
+	min_age = 18
+	max_age = 60
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		ai = yes
+		is_married = no
+		is_betrothed = no
+		is_patrician = no
+		mercenary = no
+		is_ill = no
+		can_marry = yes
+		OR = {
+			is_consort = no
+			is_ruler = yes
+		}
+		OR = {
+			is_female = no
+			NOT = { age = 40 }
+		}
+		NOR = {
+			trait = eunuch
+			trait = celibate
+			trait = infirm
+			trait = in_hiding
+			religion = paulician
+		}
+		OR = {
+			liege = {
+				ai = no
+				religion = ROOT
+			}
+			is_ruler = yes
+		}
+		OR = {
+			is_ruler = yes
+			is_female = no
+		}
+		OR = {
+			is_ruler = yes
+			liege = { NOT = { dynasty = ROOT } }
+		}
+		OR = {
+			is_ruler = no
+			primary_title = {
+				holy_order = no
+				is_primary_type_title = no
+				temporary = no
+			}
+		}
+		OR = {
+			is_ruler = no
+			NOT = {
+				any_child = {
+					is_female = no
+					NOT = { trait = bastard }
+				}
+			}
+		}
+		OR = {
+			higher_tier_than = BARON
+			is_feudal = yes
+			is_tribal = yes
+			is_ruler = no
+		}
+		OR = {
+			is_ruler = yes
+			wealth = 10
+		}
+	}
+
+	weight_multiplier = {
+		months = 1
+		modifier = {
+			factor = 5
+			is_ruler = no
+		}
+		modifier = {
+			factor = 5
+			is_ruler = yes
+			ruled_years = 1
+		}
+		modifier = {
+			factor = 0.5
+			num_of_children = 2
+		}
+		modifier = {
+			factor = 0.1
+			num_of_children = 3
+		}
+		modifier = {
+			factor = 10
+			has_ambition = obj_get_married
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = { is_female = no }
+			if = {
+				limit = { is_ruler = no }
+				liege = {
+					#go for younger women first (want to have kids)
+					random_courtier = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = yes
+							is_female = yes
+							is_ruler = no
+							fertility = 0.33
+							NOR = {
+								age = 20
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								any_liege = { dynasty = PREV }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { any_lover = { character = PREVPREV } }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						add_spouse = ROOT
+						break = yes
+					}
+					random_courtier = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = yes
+							is_female = yes
+							is_ruler = no
+							fertility = 0.33
+							NOR = {
+								age = 30
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { dynasty = PREV }
+								liege = { is_close_relative = PREV }
+								any_liege = { any_lover = { character = PREVPREV } }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						add_spouse = ROOT
+						break = yes
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = random
+						female = yes
+						age = 17
+						culture = THIS
+						religion = THIS
+					}
+					new_character = {
+						add_spouse = ROOT
+						if = {
+							limit = { religion_group = indian_group }
+							add_trait = kshatriya
+							character_event = { id = RoI.30121 }
+						}
+					}
+					break = yes
+				}
+			}
+			if = {
+				limit = { is_ruler = yes }
+				#go for younger women first (want to have kids)
+				random_courtier = {
+					limit = {
+						is_adult = yes
+						prisoner = no
+						is_married = no
+						is_betrothed = no
+						is_consort = no
+						can_marry = yes
+						is_female = yes
+						is_ruler = no
+						fertility = 0.33
+						NOR = {
+							age = 20
+							dynasty = none
+							trait = eunuch
+							trait = celibate
+							trait = infirm
+							trait = incapable
+							is_close_relative = ROOT
+							any_liege = { dynasty = PREV }
+							any_liege = { is_close_relative = PREV }
+							any_liege = { any_lover = { character = PREVPREV } }
+							any_heir_title = { always = yes }
+							any_pretender_title = { always = yes }
+						}
+					}
+					add_spouse = ROOT
+					break = yes
+				}
+				random_courtier = {
+					limit = {
+						is_adult = yes
+						prisoner = no
+						is_married = no
+						is_betrothed = no
+						is_consort = no
+						can_marry = yes
+						is_female = yes
+						is_ruler = no
+						fertility = 0.33
+						NOR = {
+							age = 30
+							dynasty = none
+							trait = eunuch
+							trait = celibate
+							trait = infirm
+							trait = incapable
+							is_close_relative = ROOT
+							any_liege = { dynasty = PREV }
+							any_liege = { is_close_relative = PREV }
+							any_liege = { any_lover = { character = PREVPREV } }
+							any_heir_title = { always = yes }
+							any_pretender_title = { always = yes }
+						}
+					}
+					add_spouse = ROOT
+					break = yes
+				}
+				create_character = {
+					random_traits = yes
+					dynasty = random
+					female = yes
+					age = 17
+					culture = ROOT
+					religion = ROOT
+				}
+				new_character = {
+					add_spouse = ROOT
+					if = {
+						limit = { religion_group = indian_group }
+						add_trait = kshatriya
+						character_event = { id = RoI.30121 }
+					}
+				}
+				break = yes
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+				is_ruler = yes
+			}
+			random_courtier = {
+				limit = {
+					is_adult = yes
+					prisoner = no
+					is_married = no
+					is_betrothed = no
+					is_consort = no
+					can_marry = yes
+					is_female = no
+					is_ruler = no
+					fertility = 0.33
+					NOR = {
+						age = 30
+						dynasty = none
+						trait = eunuch
+						trait = celibate
+						trait = infirm
+						trait = incapable
+						is_close_relative = ROOT
+						any_liege = { dynasty = PREV }
+						any_liege = { is_close_relative = PREV }
+						any_liege = { any_lover = { character = PREVPREV } }
+						any_heir_title = { always = yes }
+						any_pretender_title = { always = yes }
+					}
+				}
+				add_spouse_matrilineal = ROOT
+				break = yes
+			}	
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				age = 20
+				culture = ROOT
+				religion = ROOT
+			}
+			new_character = {
+				add_spouse_matrilineal = ROOT
+				if = {
+					limit = { religion_group = indian_group }
+					add_trait = kshatriya
+					character_event = { id = RoI.30121 }
+				}
+			}
+			break = yes
+		}
+	}
+}
+
+character_event = { # Remove Loyalist & Neutral
+	id = Plus.314
+	
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			trait = loyalist
+			trait = neutral
+		}
+		war = no
+		OR = {
+			independent = yes
+			liege = { war = no }
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	immediate = {
+		remove_trait = loyalist
+		remove_trait = neutral
+	}
+}
+
+character_event = { # Remove Rebel and set opinion modifiers
+	id = Plus.315
+	
+	hide_window = yes
+
+	trigger = {
+		trait = rebel
+		war = no
+		OR = {
+			independent = yes
+			liege = { war = no }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		remove_trait = rebel
+		any_opinion_modifier_target = {
+			limit = { reverse_has_opinion_modifier = { who = ROOT modifier = revolting_against } }
+			reverse_remove_opinion = { who = ROOT modifier = revolting_against }
+			if = {
+				limit = { higher_tier_than = ROOT }
+				set_defacto_vassal = ROOT
+			}
+		}
+	}
+}
+
+character_event = { # Independent baron opinion modifiers
+	id = Plus.316
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		tier = baron
+		independent = yes
+		is_ruler = yes
+		is_patrician = no
+		controls_religion = no
+		mercenary = no
+		primary_title = { holy_order = no }
+		war = no
+		ai = yes
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	immediate = {
+		primary_title = {
+			location = {
+				county = {
+					holder_scope = {
+						ROOT = {
+							remove_opinion = {
+								who = PREV
+								modifier = opinion_independent
+							}
+							reverse_remove_opinion = {
+								who = PREV
+								modifier = opinion_independent
+							}
+							set_defacto_liege = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = { # AI Non-holy orders surrender baronies in different realms
+	id = Plus.317
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	only_rulers = yes
+
+	trigger = {
+		is_ruler = yes
+		is_patrician = no
+		controls_religion = no
+		mercenary = no
+		war = no
+		ai = yes
+		NOT = { any_liege = { ai = no } }
+		primary_title = { holy_order = no }
+		any_demesne_title = {
+			tier = baron
+			dejure_liege_title = {
+				holder_scope = {
+					NOT = { same_realm = ROOT }
+				}
+			}
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	immediate = {
+		any_demesne_title = {
+			limit = {
+				tier = baron
+				dejure_liege_title = {
+					holder_scope = {
+						NOT = { same_realm = ROOT }
+					}
+				}
+			}
+			dejure_liege_title = {
+				holder_scope = {
+					set_character_flag = is_holder
+					ROOT = {
+						random_demesne_title = {
+							limit = {
+								tier = baron
+								dejure_liege_title = {
+									holder_scope = {
+										has_character_flag = is_holder
+									}
+								}
+							}
+							gain_title = PREVPREV
+						}
+					}
+					clr_character_flag = is_holder
+				}
+			}
+		}
+	}
+}
+
+character_event = { # Add Bloodlust trait
+	id = Plus.319
+	
+	hide_window = yes
+	is_triggered_only = yes
+
+	min_age = 16
+	capable_only = yes
+	only_playable = yes
+	ai = yes
+
+	trigger = {
+		OR = {
+			culture = mongol
+			culture = nahuatl
+		}
+		OR = {
+			religion = tengri_pagan
+			religion = aztec
+			has_landed_title = e_timurids
+		}
+		ai = yes
+		NOT = { trait = bloodlust }
+		primary_title = {
+			OR = {
+				title = e_golden_horde
+				title = e_il-khanate
+				title = e_timurids
+				title = e_mongol_empire
+				title = e_mexikha
+			}
+		}	
+	}
+	
+	immediate = {
+		add_trait = bloodlust
+	}	
+
+	weight_multiplier = {
+		days = 1
+	}
+}
+
+character_event = { # Remove Bloodlust trait
+	id = Plus.320
+
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {		
+		NOT = { has_global_flag = shattered_realm }
+		trait = bloodlust
+		OR = {
+			ai = no
+			independent = no
+			trait = incapable
+			AND = {
+				OR = {
+					culture = mongol
+					culture = nahuatl
+				}
+				NOR = { 
+					religion = tengri_pagan 
+					religion = aztec
+					has_landed_title = e_timurids
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		remove_trait = bloodlust
+	}	
+
+	weight_multiplier = {
+		days = 1
+	}
+	
+}
+
+character_event = { # Remove Favored Son trait on death
+	id = Plus.321
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		any_child = { trait = favored_son }
+	}
+
+	immediate = {
+		any_child = {
+			if = {
+				limit = {trait = favored_son}
+				remove_trait = favored_son
+			}
+		}
+	}
+}
+
+character_event = { # Initial Startup event
+	id = Plus.322
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+		NOT = { has_global_flag = startup }
+	}
+
+	weight_multiplier = {
+		days = 1
+	}
+
+	immediate = {
+		set_global_flag = startup
+		if = {
+			limit = { has_dlc = "Charlemagne" }
+			set_global_flag = titular_titles_turned_off
+			turn_off_titles_effect = yes
+		}
+		if = {
+			limit = { NOT = { has_global_flag = secondary_startup } }
+			character_event = { id = Plus.347 }
+		}
+	}
+}
+
+character_event = { # Remove unwanted claims
+	id = Plus.323 #formerly 1000182863
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			any_claim = {
+				has_holder = no
+				controls_religion = no
+			}
+			AND = {
+				is_female = yes
+				is_ruler = no
+				any_claim = {
+					has_law = agnatic_succession
+					OR = {
+						is_tribal = yes
+						is_nomadic = yes
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		any_claim = {
+			limit = {
+				has_holder = no
+				controls_religion = no
+			}
+			ROOT = { remove_claim = PREV }
+		}
+		if = {
+			limit = {
+				is_female = yes
+				is_ruler = no
+			}
+			any_claim = {
+				limit = {
+					has_law = agnatic_succession
+					OR = {
+						is_tribal = yes
+						is_nomadic = yes
+					}
+				}
+				ROOT = { remove_claim = PREV }
+			}
+		}
+	}
+}
+
+character_event = { # Passes on various traits at birth (plus father/uncle/aunt opinion fix)
+	id = Plus.324
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		NOT = { has_character_flag = genetics_check }
+	}
+
+	immediate = {
+		set_character_flag = genetics_check
+		set_character_flag = yehudi_check
+		
+		#chance for genius or quick
+		if = {
+			limit = {
+				NOT = { trait = genius }
+				NOT = { trait = quick }
+				NOT = { trait = slow }
+				NOT = { trait = imbecile }
+			}
+			if = {
+				limit = {
+					OR = {
+						mother_even_if_dead = { trait = genius }
+						mother_even_if_dead = { trait = quick }
+					}
+					OR = {
+						father_even_if_dead = { trait = genius }
+						father_even_if_dead = { trait = quick }
+					}
+					NOR = {
+						mother_even_if_dead = { trait = imbecile }
+						mother_even_if_dead = { trait = slow }
+						father_even_if_dead = { trait = imbecile}
+						father_even_if_dead = { trait = slow }
+					}
+				}
+				random_list = {
+					70 = { }
+					20 = { add_trait = quick }
+					10 = { add_trait = genius }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						mother_even_if_dead = { trait = genius }
+						mother_even_if_dead = { trait = quick }
+						father_even_if_dead = { trait = genius }
+						father_even_if_dead = { trait = quick }
+					}
+					OR = {
+						NOR = {
+							mother_even_if_dead = { trait = genius }
+							mother_even_if_dead = { trait = quick }
+						}
+						NOR = {
+							father_even_if_dead = { trait = genius }
+							father_even_if_dead = { trait = quick }
+						}
+					}
+					NOR = {
+						mother_even_if_dead = { trait = imbecile }
+						mother_even_if_dead = { trait = slow }
+						father_even_if_dead = { trait = imbecile}
+						father_even_if_dead = { trait = slow }
+					}
+				}
+				random_list = {
+					85 = { }
+					12 = { add_trait = quick }
+					3 = { add_trait = genius }
+				}
+			}
+		}
+
+		#chance for slow or imbecile
+		if = {
+			limit = {
+				NOT = { trait = genius }
+				NOT = { trait = quick }
+				NOT = { trait = slow }
+				NOT = { trait = imbecile }
+			}
+			if = {
+				limit = {
+					OR = {
+						mother_even_if_dead = { trait = imbecile }
+						mother_even_if_dead = { trait = slow }
+					}
+					OR = {
+						father_even_if_dead = { trait = imbecile }
+						father_even_if_dead = { trait = slow }
+					}
+					NOR = {
+						mother_even_if_dead = { trait = genius }
+						mother_even_if_dead = { trait = quick }
+						father_even_if_dead = { trait = genius }
+						father_even_if_dead = { trait = quick }
+					}
+				}
+				random_list = {
+					70 = { }
+					20 = { add_trait = slow }
+					10 = { add_trait = imbecile }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						mother_even_if_dead = { trait = imbecile }
+						mother_even_if_dead = { trait = slow }
+						father_even_if_dead = { trait = imbecile }
+						father_even_if_dead = { trait = slow }
+					}
+					OR = {
+						NOR = {
+							mother_even_if_dead = { trait = imbecile }
+							mother_even_if_dead = { trait = slow }
+						}
+						NOR = {
+							father_even_if_dead = { trait = imbecile }
+							father_even_if_dead = { trait = slow }
+						}
+					}
+					NOR = {
+						mother_even_if_dead = { trait = genius }
+						mother_even_if_dead = { trait = quick }
+						father_even_if_dead = { trait = genius }
+						father_even_if_dead = { trait = quick }
+					}
+				}
+				random_list = {
+					85 = { }
+					12 = { add_trait = slow }
+					3 = { add_trait = imbecile }
+				}
+			}
+		}
+		
+		#pass on divine blood
+		if = {
+			limit = {
+				NOT = { trait = divine_blood }
+				father_even_if_dead = {
+					dynasty = ROOT
+					trait = divine_blood
+				}
+			}
+			add_trait = divine_blood
+		}
+		if = {
+			limit = {
+				NOT = { trait = divine_blood }
+				mother_even_if_dead = {
+					dynasty = ROOT
+					trait = divine_blood
+				}
+			}
+			add_trait = divine_blood
+		}
+		
+		#pass on yehudi trait
+		if = {
+			limit = {
+				has_character_flag = start_of_game_character
+				religion_group = jewish_group
+			}
+			add_trait = yehudi
+		}
+		if = {
+			limit = { 
+				mother_even_if_dead = { trait = yehudi }
+			}
+			add_trait = yehudi
+		}
+		
+		#chance of being barren or infertile
+		if = {
+			limit = {
+				NOT = { has_character_flag = start_of_game_character }
+				trait = inbred
+			}
+			random_list = {
+				20 = { }
+				50 = {
+					add_character_modifier = {
+						name = infertile
+						hidden = yes
+						duration = -1
+					}
+				}
+				30 = {
+					add_character_modifier = {
+						name = infertile
+						hidden = yes
+						duration = -1
+					}
+					set_character_flag = is_barren
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = weak
+				NOT = { has_character_modifier = infertile }
+				NOT = { has_character_modifier = barren }
+				NOT = { has_character_flag = start_of_game_character }
+			}
+			random_list = {
+				70 = { }
+				25 = {
+					add_character_modifier = {
+						name = infertile
+						hidden = yes
+						duration = -1
+					}
+				}
+				15 = {
+					add_character_modifier = {
+						name = infertile
+						hidden = yes
+						duration = -1
+					}
+					set_character_flag = is_barren
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = weak }
+				NOT = { trait = strong }
+				NOT = { has_character_modifier = infertile }
+				NOT = { has_character_modifier = barren }
+				NOT = { has_character_flag = start_of_game_character }
+			}
+			random_list = {
+				85 = { }
+				12 = {
+					add_character_modifier = {
+						name = infertile
+						hidden = yes
+						duration = -1
+					}
+				}
+				3 = {
+					add_character_modifier = {
+						name = infertile
+						hidden = yes
+						duration = -1
+					}
+					set_character_flag = is_barren
+				}
+			}
+		}
+
+		#add indian caste if not possessed
+		if = {
+			limit = {
+				religion_group = indian_group
+				NOR = {
+					trait = brahmin
+					trait = kshatriya
+					trait = vaishya
+				}
+			}
+			if = {
+				limit = {
+					is_feudal = yes
+				}
+				add_trait = kshatriya
+			}
+			if = {
+				limit = {
+					is_feudal = no
+					OR = {
+						is_theocracy = yes
+						is_priest = yes
+					}
+				}
+				add_trait = brahmin
+			}
+			if = {
+				limit = {
+					is_feudal = no
+					is_theocracy = no
+					is_priest = no
+				}
+				add_trait = vaishya
+			}
+		}
+		
+		#add opinion for father & uncle & aunts & cousins
+		father_even_if_dead = {
+			reverse_opinion = { who = ROOT modifier = opinion_father_fix years = 100 }
+			any_sibling = {
+				limit = { is_female = no }
+				reverse_opinion = { who = ROOT modifier = opinion_uncle_fix years = 100 }
+			}
+			any_sibling = {
+				limit = { is_female = yes }
+				reverse_opinion = { who = ROOT modifier = opinion_aunt years = 100 }
+			}
+			any_sibling = {
+				any_child = {
+					reverse_opinion = { who = ROOT modifier = opinion_cousin years = 100 }
+					opinion = { who = ROOT modifier = opinion_cousin years = 100 }
+				}
+			}
+		}
+		mother_even_if_dead = {
+			any_sibling = {
+				limit = { is_female = no }
+				reverse_opinion = { who = ROOT modifier = opinion_uncle_fix years = 100 }
+			}
+			any_sibling = {
+				limit = { is_female = yes }
+				reverse_opinion = { who = ROOT modifier = opinion_aunt years = 100 }
+			}
+			any_sibling = {
+				any_child = {
+					reverse_opinion = { who = ROOT modifier = opinion_cousin years = 100 }
+					opinion = { who = ROOT modifier = opinion_cousin years = 100 }
+				}
+			}
+		}		
+	}
+}
+
+character_event = { # Removes Just trait
+	id = Plus.325 #formerly 1000182865
+	desc = "EVTDESC_Plus_325"
+	picture = "GFX_evt_emissary"
+	
+	is_triggered_only = yes
+
+	trigger = {
+		trait = just
+	}
+
+	immediate = {
+		remove_trait = just
+	}
+
+	option = {
+		name = "EVTOPTA_Plus_325"
+		tooltip = { remove_trait = just }
+	}
+}
+
+character_event = { # Byzantium is reclaimed by an Orthodox/Hellenic ruler
+	id = Plus.326
+	desc = "EVTDESC_Plus_326"
+	picture = "GFX_evt_council"
+	
+	only_rulers = yes
+	only_independent = yes
+	culture_group = byzantine
+
+	trigger = {
+		NOT = { has_global_flag = shattered_realm }
+		war = no
+		OR = {
+			religion = orthodox
+			religion = bogomilist
+			religion = monothelite
+			religion = iconoclast
+			religion = hellenic_pagan
+		}
+		c_byzantion = { holder_scope = { same_realm = ROOT } }
+		NOT = { tier = emperor }
+		e_byzantium = { has_holder = no }
+		e_roman_empire = { has_holder = no }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA_Plus_326"
+		set_character_flag = centralize_without_penalties
+		e_byzantium = {
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+				revoke_law = investiture_law_1
+				add_law = crown_authority_2
+				add_law = city_tax_0
+				add_law = temple_tax_0
+				add_law = tax_privileges_1
+				add_law = levy_privileges_1
+				add_law = council_privileges_0
+				add_law = feudal_tax_0
+				add_law = succ_primogeniture
+				add_law = cognatic_succession
+			}
+			gain_title = ROOT
+		}
+		clr_character_flag = centralize_without_penalties
+	}
+}
+
+character_event = { # Convert Latin Empire to Byzantine Empire if the holder is no longer Catholic
+	id = Plus.327
+	desc = "EVTDESC_Plus_327"
+	picture = "GFX_evt_council"
+	
+	only_playable = yes
+
+	trigger = {
+		has_landed_title = e_latin_empire
+		NOR = {
+			religion = catholic
+			religion = cathar
+			religion = fraticelli
+			religion = waldensian
+			religion = lollard
+			religion = adoptionist
+		}
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "OK"
+		if = {
+			limit = {
+				OR = {
+					religion = orthodox
+					religion = bogomilist
+					religion = monothelite
+					religion = iconoclast
+					religion = hellenic_pagan
+				}
+				e_byzantium = { has_holder = no }
+			}
+			set_character_flag = centralize_without_penalties
+			e_byzantium = {
+				hidden_tooltip = {
+					copy_title_laws = e_latin_empire
+				}
+				gain_title = ROOT
+			}
+			clr_character_flag = centralize_without_penalties
+			any_realm_character = {
+				if = {
+					limit = { has_weak_claim = e_latin_empire }
+					add_weak_pressed_claim = e_byzantium
+					remove_claim = e_latin_empire
+				}
+				if = {
+					limit = { has_strong_claim = e_latin_empire }
+					add_pressed_claim = e_byzantium
+					remove_claim = e_latin_empire
+				}
+			}
+			any_independent_ruler = {
+				if = {
+					limit = { has_weak_claim = e_latin_empire }
+					add_weak_pressed_claim = e_byzantium
+					remove_claim = e_latin_empire
+				}
+				if = {
+					limit = { has_strong_claim = e_latin_empire }
+					add_pressed_claim = e_byzantium
+					remove_claim = e_latin_empire
+				}
+				any_realm_character = {
+					if = {
+						limit = { has_weak_claim = e_latin_empire }
+						add_weak_pressed_claim = e_byzantium
+						remove_claim = e_latin_empire
+					}
+					if = {
+						limit = { has_strong_claim = e_latin_empire }
+						add_pressed_claim = e_byzantium
+						remove_claim = e_latin_empire
+					}
+				}
+			}
+		}
+		e_latin_empire = {
+			destroy_landed_title = yes
+		}
+		hidden_tooltip = {
+			any_vassal = {
+				limit = { NOT = { has_character_flag = considered_for_independence } }
+				character_event = { id = Plus.430 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = { # Byzantium Auto-Destroy Mechanic. Destroys Byzantium if the title holder is not Orthodox or Hellenic
+	id = Plus.328
+	desc = "EVTDESC_Plus_328"
+	picture = "GFX_evt_council"
+	
+	only_playable = yes
+
+	trigger = {
+		has_landed_title = e_byzantium
+		NOR = {
+			religion = orthodox
+			religion = bogomilist
+			religion = monothelite
+			religion = iconoclast
+			religion = hellenic_pagan
+		}
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "OK"
+		if = {
+			limit = {
+				OR = {
+					religion = catholic
+					religion = cathar
+					religion = fraticelli
+					religion = waldensian
+					religion = lollard
+					religion = adoptionist
+				}
+				e_latin_empire = { has_holder = no }
+			}
+			set_character_flag = centralize_without_penalties
+			e_latin_empire = {
+				hidden_tooltip = {
+					copy_title_laws = e_byzantium
+				}
+				gain_title = ROOT
+			}
+			hidden_tooltip = {
+				any_realm_character = {
+					if = {
+						limit = { has_weak_claim = e_byzantium }
+						add_weak_pressed_claim = e_latin_empire
+						remove_claim = e_byzantium
+					}
+					if = {
+						limit = { has_strong_claim = e_byzantium }
+						add_pressed_claim = e_latin_empire
+						remove_claim = e_byzantium
+					}
+				}
+				any_independent_ruler = {
+					if = {
+						limit = { has_weak_claim = e_byzantium }
+						add_weak_pressed_claim = e_latin_empire
+						remove_claim = e_byzantium
+					}
+					if = {
+						limit = { has_strong_claim = e_byzantium }
+						add_pressed_claim = e_latin_empire
+						remove_claim = e_byzantium
+					}
+					any_realm_character = {
+						if = {
+							limit = { has_weak_claim = e_byzantium }
+							add_weak_pressed_claim = e_latin_empire
+							remove_claim = e_byzantium
+						}
+						if = {
+							limit = { has_strong_claim = e_byzantium }
+							add_pressed_claim = e_latin_empire
+							remove_claim = e_byzantium
+						}
+					}
+				}
+			}
+			clr_character_flag = centralize_without_penalties
+		}
+		e_byzantium = {
+			destroy_landed_title = yes
+		}
+		hidden_tooltip = {
+			any_vassal = {
+				limit = { NOT = { has_character_flag = considered_for_independence } }
+				character_event = { id = Plus.430 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = { # Norman conquest of England cleanup - Victory: France loses claims
+	id = Plus.329
+
+	hide_window = yes
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = k_france
+		has_global_flag = bm_stamford
+		has_global_flag = witan_abolished
+		any_claim = {
+			OR = {
+				location = { region = custom_england }
+				capital_scope = { region = custom_england }
+				title = d_normandy
+				de_jure_liege_or_above = d_normandy
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_global_flag = bm_stamford
+		any_claim = {
+			limit = {
+				OR = {
+					location = { region = custom_england }
+					capital_scope = { region = custom_england }
+					title = d_normandy
+					de_jure_liege_or_above = d_normandy
+				}
+			}
+			ROOT = { remove_claim = PREV }
+		}
+	}
+}
+
+character_event = { # Norman conquest of England cleanup - Loss: English provinces (back) to England
+	id = Plus.330
+
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = d_normandy
+		has_global_flag = bm_stamford
+		k_england = { holder_scope = { culture = saxon } }
+		is_ruler = yes
+		war = no
+		any_realm_title = {
+			OR = {
+				location = { region = custom_england }
+				capital_scope = { region = custom_england }
+			}
+		}
+		NOT = { has_global_flag = witan_abolished }
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_global_flag = bm_stamford
+		k_england = {
+			holder_scope = {
+				k_england = {
+					any_de_jure_vassal_title = {
+						limit = {
+							holder_scope = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+								}
+							}
+						}
+						gain_title = PREVPREV
+					}
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { has_claim = k_england } }
+			add_claim = k_england
+		}
+	}
+}
+
+province_event = { # Stops construction of the Third Temple if it is underway
+	id = Plus.332
+	
+	hide_window = yes
+	
+	trigger = {
+		province_id = 774
+		has_province_flag = building_third_temple
+		has_province_modifier = third_temple_builder
+		OR = {
+			NOT = { religion = jewish }
+			owner = { top_liege = { NOT = { religion = jewish } } }
+			owner = { top_liege = { NOT = { completely_controls = c_jerusalem } } }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_province_flag = building_third_temple
+		remove_province_modifier = third_temple_builder
+	}
+}
+
+province_event = { # Finishes construction of the Third Temple
+	id = Plus.333
+	
+	hide_window = yes
+	
+	trigger = {
+		province_id = 774
+		religion = jewish
+		has_province_flag = building_third_temple
+		NOT = { has_province_modifier = third_temple_builder }
+		owner = {
+			war = no
+			top_liege = {
+				war = no
+				religion = jewish
+				completely_controls = c_jerusalem
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_province_flag = building_third_temple
+		set_province_flag = third_temple_built
+		owner = {
+			top_liege = { narrative_event = { id = SoA.101 } }
+		}
+	}
+}
+
+character_event = { # Adds the flag for the 'Civilize a Province' ambition
+	id = Plus.334 #formerly 1000182009
+	desc = EVTDESC_Plus_334
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = EXCELLENT
+		hidden_tooltip = {
+			set_character_flag = civilized_province
+		}
+	}
+}
+
+character_event = { # Adds the Yehudi trait to Jews and children of Jews
+	id = Plus.335
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		religion_group = jewish_group
+		NOT = { trait = yehudi }
+		NOT = { has_character_flag = yehudi_check }
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = yehudi_check
+		if = {
+			limit = {
+				is_ruler = yes
+				primary_title = { is_theocracy = yes }
+			}
+			add_trait = yehudi
+		}
+		if = {
+			limit = { 
+				is_ruler = no
+			}
+			random = {
+				chance = 70
+				add_trait = yehudi
+			}
+		}
+	}
+}
+
+character_event = { # Tell family to come out of hiding once the war is done
+	id = Plus.336
+
+	hide_window = yes
+	
+	only_rulers = yes
+	
+	trigger = {
+		war = no
+		in_siege = no
+		OR = {
+			has_character_modifier = stalwart_defender
+			has_character_modifier = left_at_siege
+			has_character_modifier = escaped_siege
+			has_character_flag = defending_the_castle
+			any_courtier = {
+				OR = {
+					has_character_modifier = stalwart_defender
+					has_character_modifier = left_at_siege
+					has_character_modifier = escaped_siege
+					has_character_flag = defending_the_castle
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	immediate = {	
+		remove_character_modifier = stalwart_defender
+		remove_character_modifier = left_at_siege
+		remove_character_modifier = escaped_siege
+		clr_character_flag = defending_the_castle
+		any_courtier = {
+			remove_character_modifier = stalwart_defender
+			remove_character_modifier = left_at_siege
+			remove_character_modifier = escaped_siege
+			clr_character_flag = defending_the_castle
+		}
+	}
+}
+
+character_event = { # Clear siege modifiers/hiding trait if imprisoned
+	id = Plus.337
+	
+	hide_window = yes
+	
+	prisoner = yes
+	
+	trigger = {
+		prisoner = yes
+		OR = {
+			trait = in_hiding
+			has_character_modifier = stalwart_defender
+			has_character_modifier = left_at_siege
+			has_character_modifier = escaped_siege
+			has_character_flag = defending_the_castle
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		remove_trait = in_hiding
+		remove_character_modifier = stalwart_defender
+		remove_character_modifier = left_at_siege
+		remove_character_modifier = escaped_siege
+		clr_character_flag = defending_the_castle
+		clr_character_flag = in_hiding_murder
+		clr_character_flag = in_hiding_siege
+	}
+}
+
+character_event = { # HRE Auto-Destroy Mechanic. Destroys the HRE if the ruler is no longer Catholic (or replacement heresy)
+	id = Plus.338
+	desc = "EVTDESC_Plus_338"
+	picture = "GFX_evt_council"
+	
+	only_playable = yes
+
+	trigger = {
+		has_landed_title = e_hre
+		NOR = {
+			religion = catholic
+			religion = cathar
+			religion = fraticelli
+			religion = waldensian
+			religion = lollard
+			religion = adoptionist
+		}
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "OK"
+		if = {
+			limit = { trait = crowned_by_pope }
+			remove_trait = crowned_by_pope
+		}
+		if = {
+			limit = {
+				culture = german
+				e_germany = { has_holder = no }
+			}
+			if = {
+				limit = {
+					NOT = { is_title_active = e_germany }
+				}
+				activate_title = { title = e_germany status = yes }
+			}
+			set_character_flag = centralize_without_penalties
+			e_germany = {
+				hidden_tooltip = {
+					copy_title_laws = e_hre
+				}
+				gain_title = ROOT
+			}
+			hidden_tooltip = {
+				any_realm_character = {
+					if = {
+						limit = { has_weak_claim = e_hre }
+						add_weak_pressed_claim = e_germany
+						remove_claim = e_hre
+					}
+					if = {
+						limit = { has_strong_claim = e_hre }
+						add_pressed_claim = e_germany
+						remove_claim = e_hre
+					}
+				}
+				any_independent_ruler = {
+					if = {
+						limit = { has_weak_claim = e_hre }
+						add_weak_pressed_claim = e_germany
+						remove_claim = e_hre
+					}
+					if = {
+						limit = { has_strong_claim = e_hre }
+						add_pressed_claim = e_germany
+						remove_claim = e_hre
+					}
+					any_realm_character = {
+						if = {
+							limit = { has_weak_claim = e_hre }
+							add_weak_pressed_claim = e_germany
+							remove_claim = e_hre
+						}
+						if = {
+							limit = { has_strong_claim = e_hre }
+							add_pressed_claim = e_germany
+							remove_claim = e_hre
+						}
+					}
+				}
+			}
+			clr_character_flag = centralize_without_penalties
+		}
+		e_hre = {
+			destroy_landed_title = yes
+		}
+		hidden_tooltip = {
+			any_vassal = {
+				limit = { NOT = { has_character_flag = considered_for_independence } }
+				character_event = { id = Plus.430 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = { # Change scarred/beauty trait on females
+	id = Plus.339
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	only_women = yes
+	
+	trigger = {
+		OR = {
+			trait = scarred
+			AND = {
+				trait = beauty
+				age = 45
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	immediate = {
+		if = {
+			limit = { trait = scarred }
+			remove_trait = scarred
+			add_trait = scarred_female
+		}
+		if = {
+			limit = {
+				trait = beauty
+				age = 45
+			}
+			remove_trait = beauty
+		}
+	}
+}
+
+character_event = { # Clean up 'children serving in holy orders' chains upon appropriate parent death
+	id = Plus.340
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = { #should be fired from the highest ranking parent
+		has_dlc = "The Old Gods"
+		OR = {
+			any_child = { 
+				father = { 
+					character = ROOT
+					any_child = {	
+						character = PREVPREV
+						mother = { 
+							OR = {
+								is_alive = no
+								NOT = { higher_tier_than = ROOT }
+							}
+						}
+					}
+				}
+			}
+			any_child = { 
+				mother = { 
+					character = ROOT
+					any_child = {	
+						character = PREVPREV
+						father = { 
+							OR = {
+								is_alive = no
+								lower_tier_than = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+		any_child = {
+			OR = {
+				has_character_flag = serving_gwydion
+				has_character_flag = wants_gwydion
+				has_character_flag = wants_varangian
+				has_character_flag = serving_varangian
+				has_character_flag = serving_fianna
+				has_character_flag = wants_fianna
+			}
+		}
+	}
+	
+	immediate = {
+		any_child = {
+			limit = {				
+				is_primary_heir = ROOT
+				OR = {
+					has_character_flag = wants_gwydion
+					has_character_flag = serving_gwydion
+				}
+			}
+			character_event = { id = ancrel.144 days = 3 }
+		}			
+		any_child = {
+			limit = {				
+				is_primary_heir = no
+				OR = {
+					has_character_flag = wants_gwydion
+					has_character_flag = serving_gwydion
+				}
+			}
+			character_event = { id = ancrel.145 days = 3 }
+		}
+		any_child = {
+			limit = {				
+				is_primary_heir = ROOT
+				OR = {
+					has_character_flag = wants_fianna
+					has_character_flag = serving_fianna
+				}
+			}
+			character_event = { id = ancrel.1184 days = 3 }
+		}			
+		any_child = {
+			limit = {				
+				is_primary_heir = no
+				OR = {
+					has_character_flag = wants_fianna
+					has_character_flag = serving_fianna
+				}
+			}
+			character_event = { id = ancrel.1185 days = 3 }
+		}
+		any_child = {
+			limit = {				
+				is_primary_heir = ROOT
+				OR = {
+					has_character_flag = wants_varangian
+					has_character_flag = serving_varangian
+				}
+			}
+			character_event = { id = TOG.3134 days = 3 }
+		}			
+		any_child = {
+			limit = {				
+				is_primary_heir = no
+				OR = {
+					has_character_flag = wants_varangian
+					has_character_flag = serving_varangian
+				}
+			}
+			character_event = { id = TOG.3135 days = 3 }
+		}
+	}
+}
+
+character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
+	id = Plus.341		
+
+	is_triggered_only = yes		
+	
+	hide_window = yes
+
+	immediate = {
+		character_event = { id = Plus.342 days = 3 }
+	}	
+}
+
+character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
+	id = Plus.342
+	desc = "EVTDESC_Plus_341"
+	picture = "GFX_evt_council"
+
+	is_triggered_only = yes
+	
+	trigger = {	
+		FROMFROM = {			
+			is_primary_holder_title_tier = yes
+			any_vassal = {								
+				has_opinion_modifier = { who = ROOT modifier = overthrown_ruler }
+				relative_power = { who = ROOT power = 0.25 }
+			}		
+		}
+	}	
+	
+	immediate = {
+		#assess power of demanders
+		hidden_tooltip = {
+			set_variable = { which = "ultimatum_power" value = "0" }			
+			any_vassal = {
+				limit = {
+					de_jure_liege = FROMFROM
+					has_opinion_modifier = { who = ROOT modifier = overthrown_ruler }
+				}
+				if = {
+					limit = {
+						relative_power = { who = ROOT power = 0.25 }
+						NOT = { relative_power = { who = ROOT power = 0.5 } }
+					}
+					ROOT = { change_variable = { which = "ultimatum_power" value = "0.25" } }
+				}
+				if = {
+					limit = {
+						relative_power = { who = ROOT power = 0.5 }
+						NOT = { relative_power = { who = ROOT power = 0.75 } }
+					}
+					ROOT = { change_variable = { which = "ultimatum_power" value = "0.5" } }
+				}
+				if = {
+					limit = {
+						relative_power = { who = ROOT power = 0.75 }
+						NOT = { relative_power = { who = ROOT power = 1 } }
+					}
+					ROOT = { change_variable = { which = "ultimatum_power" value = "0.75" } }
+				}
+				if = {
+					limit = {
+						relative_power = { who = ROOT power = 1 }							
+					}
+					ROOT = { change_variable = { which = "ultimatum_power" value = "1" } }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTDEMANDYES"
+		#abdicate to next in line		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.25
+				trait = weak
+			}
+			modifier = {
+				factor = 1.25
+				trait = craven
+			}
+			modifier = {
+				factor = 1.25
+				trait = humble
+			}
+			modifier = {
+				factor = 1.25
+				trait = kind
+			}
+			modifier = {
+				factor = 1.25
+				trait = charitable
+			}
+			modifier = {
+				factor = 1.25
+				trait = patient
+			}
+			modifier = {
+				factor = 1.25
+				trait = content
+			}
+		}
+		abdicate = yes
+	}
+	
+	option = {
+		name = "EVTDEMANDNO" #reject demand		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.25
+				trait = strong
+			}
+			modifier = {
+				factor = 1.25
+				trait = brave
+			}
+			modifier = {
+				factor = 1.25
+				trait = proud
+			}
+			modifier = {
+				factor = 1.25
+				trait = envious
+			}
+			modifier = {
+				factor = 1.25
+				trait = greedy
+			}
+			modifier = {
+				factor = 1.25
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.25
+				trait = ambitious
+			}
+			modifier = {
+				factor = 5.0
+				NOT = { check_variable = { which = "ultimatum_power" value = "1" } }
+			}
+			modifier = {
+				factor = 0.75
+				check_variable = { which = "ultimatum_power" value = "1" }
+			}
+		}
+		#a direct-vassal demander with sufficient power declares war, other demanders follow suit		
+		random_vassal = {
+			limit = {
+				de_jure_liege = FROMFROM
+				has_opinion_modifier = { who = ROOT modifier = overthrown_ruler }
+				relative_power = { who = ROOT power = 0.25 }
+			}
+			war = {
+				target = ROOT
+				casus_belli = overthrow_ruler
+			}
+			FROMFROM = {
+				any_vassal = {
+					limit = {													
+						has_opinion_modifier = { who = ROOT modifier = overthrown_ruler }
+					}
+					join_attacker_wars = PREVPREV
+				}
+			}
+		}
+	}
+}
+
+character_event = { # Adds Uncrowned trait to all new independent kings and emperors
+	id = Plus.344
+	
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		war = no
+		is_feudal = yes
+		higher_real_tier_than = DUKE
+		has_horde_culture = no
+		is_nomadic = no
+		primary_title = { is_vice_royalty = no }
+		NOR = {
+			trait = crowned
+			trait = uncrowned
+			trait = crowned_by_pope
+			trait = strong_basileus
+			trait = weak_basileus
+		}
+		has_global_flag = secondary_startup
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = uncrowned
+	}
+}
+
+character_event = { # Removes In Hiding trait from characters who no longer have someone to remove it
+	id = Plus.345
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		trait = in_hiding
+		is_ruler = no
+		NOT = {
+			liege = {
+				OR = {
+					any_spouse = { character = ROOT }
+					any_child = { character = ROOT }
+				}
+			}
+			AND = {
+				has_character_flag = in_hiding_siege
+				liege = { is_close_relative = ROOT }
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	immediate = {
+		remove_trait = in_hiding
+		clr_character_flag = in_hiding_murder
+		clr_character_flag = in_hiding_siege
+	}
+}
+
+character_event = { # Removes austerity modifier from non-AI characters
+	id = Plus.346
+	
+	hide_window = yes
+	is_triggered_only = yes
+	ai = no
+	
+	trigger = {
+		has_character_modifier = ai_austerity
+		ai = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	immediate = {
+		remove_character_modifier = ai_austerity
+	}
+}
+
+character_event = { # Secondary Startup event
+	id = Plus.347
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		set_global_flag = secondary_startup
+		
+		# remove undesireable claims and perform genetics check
+		set_character_flag = start_of_game_character
+		character_event = { id = Plus.323 } #remove undesirable claims
+		if = {
+			limit = { NOT = { has_character_flag = genetics_check } }
+			character_event = { id = Plus.324 } # pass on traits they would have had at birth
+		}
+		any_independent_ruler = {
+			set_character_flag = start_of_game_character
+			character_event = { id = Plus.323 } #remove undesirable claims
+			if = {
+				limit = { NOT = { has_character_flag = genetics_check } }
+				character_event = { id = Plus.324 } # pass on traits they would have had at birth
+			}
+			any_realm_character = {
+				set_character_flag = start_of_game_character
+				character_event = { id = Plus.323 } #remove undesirable claims
+				if = {
+					limit = { NOT = { has_character_flag = genetics_check } }
+					character_event = { id = Plus.324 } # pass on traits they would have had at birth
+				}
+			}
+		}
+		
+		# set appropriate demesne laws level
+		if = {
+			limit = { higher_tier_than = BARON }
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = { TECH_LEGALISM = 2 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_0 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_0 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 2
+						NOT = { TECH_LEGALISM = 4 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_1 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_1 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 4
+						NOT = { TECH_LEGALISM = 6 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_2 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_2 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 6
+						NOT = { TECH_LEGALISM = 8 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_3 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_3 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 8
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_4 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_4 }
+			}
+		}
+		any_independent_ruler = {
+			limit = { higher_tier_than = BARON }
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = { TECH_LEGALISM = 2 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_0 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_0 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 2
+						NOT = { TECH_LEGALISM = 4 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_1 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_1 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 4
+						NOT = { TECH_LEGALISM = 6 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_2 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_2 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 6
+						NOT = { TECH_LEGALISM = 8 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_3 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_3 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 8
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_4 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_4 }
+			}
+			any_realm_lord = {
+				limit = { higher_tier_than = BARON }
+				if = {
+					limit = {
+						capital_scope = {
+							NOT = { TECH_LEGALISM = 2 }
+						}
+						primary_title = {
+							NOT = { has_law = demesne_laws_0 }
+						}
+					}
+					primary_title = { add_law = demesne_laws_0 }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							TECH_LEGALISM = 2
+							NOT = { TECH_LEGALISM = 4 }
+						}
+						primary_title = {
+							NOT = { has_law = demesne_laws_1 }
+						}
+					}
+					primary_title = { add_law = demesne_laws_1 }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							TECH_LEGALISM = 4
+							NOT = { TECH_LEGALISM = 6 }
+						}
+						primary_title = {
+							NOT = { has_law = demesne_laws_2 }
+						}
+					}
+					primary_title = { add_law = demesne_laws_2 }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							TECH_LEGALISM = 6
+							NOT = { TECH_LEGALISM = 8 }
+						}
+						primary_title = {
+							NOT = { has_law = demesne_laws_3 }
+						}
+					}
+					primary_title = { add_law = demesne_laws_3 }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							TECH_LEGALISM = 8
+						}
+						primary_title = {
+							NOT = { has_law = demesne_laws_4 }
+						}
+					}
+					primary_title = { add_law = demesne_laws_4 }
+				}
+			}
+		}
+		
+		# mark titles that start at CA 0 and should not be destroyed if reduced
+		any_demesne_title = {
+			limit = {
+				higher_tier_than = DUKE
+				has_law = crown_authority_0
+			}
+			set_title_flag = do_not_destroy
+		}
+		any_independent_ruler = {
+			any_demesne_title = {
+				limit = {
+					higher_tier_than = DUKE
+					has_law = crown_authority_0
+				}
+				set_title_flag = do_not_destroy
+			}
+			any_vassal = {
+				any_demesne_title = {
+					limit = {
+						higher_tier_than = DUKE
+						has_law = crown_authority_0
+					}
+					set_title_flag = do_not_destroy
+				}
+			}
+		}
+		
+		# give crowned trait to all existing kings and emperors
+		if = {
+			limit = {
+				higher_real_tier_than = DUKE
+				is_adult = yes
+				is_feudal = yes
+				has_horde_culture = no
+				is_nomadic = no
+				primary_title = { is_vice_royalty = no }
+				NOR = {
+					trait = crowned
+					trait = uncrowned
+					has_landed_title = e_hre
+					has_landed_title = e_karling
+					has_landed_title = e_byzantium
+				}
+			}
+			add_trait = crowned
+		}
+		any_playable_ruler = {
+			limit = {
+				higher_real_tier_than = DUKE
+				is_adult = yes
+				is_feudal = yes
+				has_horde_culture = no
+				is_nomadic = no
+				primary_title = { is_vice_royalty = no }
+				NOR = {
+					trait = crowned
+					trait = uncrowned
+					has_landed_title = e_hre
+					has_landed_title = e_karling
+					has_landed_title = e_byzantium
+				}
+			}
+			add_trait = crowned
+		}
+		
+		# give uncrowned trait to everyone else
+		if = {
+			limit = {
+				higher_real_tier_than = DUKE
+				is_feudal = yes
+				has_horde_culture = no
+				is_nomadic = no
+				primary_title = { is_vice_royalty = no }
+				NOR = {
+					trait = crowned
+					trait = uncrowned
+					trait = crowned_by_pope
+					trait = strong_basileus
+					trait = weak_basileus
+				}
+			}
+			add_trait = uncrowned
+		}
+		any_playable_ruler = {
+			limit = {
+				higher_real_tier_than = DUKE
+				is_feudal = yes
+				has_horde_culture = no
+				is_nomadic = no
+				primary_title = { is_vice_royalty = no }
+				NOR = {
+					trait = crowned
+					trait = uncrowned
+					trait = crowned_by_pope
+					trait = strong_basileus
+					trait = weak_basileus
+				}
+			}
+			add_trait = uncrowned
+		}
+
+		# fire appropriate startup event for Byzantium
+		if = {
+			limit = { has_landed_title = e_byzantium }
+			narrative_event = { id = Plus.1300 days = 1 }
+			narrative_event = { id = Plus.1301 days = 1 }
+			narrative_event = { id = Plus.1302 days = 1 }
+			narrative_event = { id = Plus.1303 days = 1 }
+		}
+		any_independent_ruler = {
+			limit = { has_landed_title = e_byzantium }
+			narrative_event = { id = Plus.1300 days = 1 }
+			narrative_event = { id = Plus.1301 days = 1 }
+			narrative_event = { id = Plus.1302 days = 1 }
+			narrative_event = { id = Plus.1303 days = 1 }
+		}
+		
+		# fire decadence modifier for other emperors
+		if = {
+			limit = {
+				NOT = { has_landed_title = e_byzantium }
+				NOT = { uses_decadence = yes }
+				is_nomadic = no
+				real_tier = EMPEROR
+			}
+			character_event = { id = Plus.1852 days = 1 }
+		}
+		any_independent_ruler = {
+			limit = {
+				NOT = { has_landed_title = e_byzantium }
+				NOT = { uses_decadence = yes }
+				is_nomadic = no
+				real_tier = EMPEROR
+			}
+			character_event = { id = Plus.1852 days = 1 }
+		}
+		
+		# give more money to merchant republics
+		if = {
+			limit = { is_merchant_republic = yes }
+			scaled_wealth = 2.0
+			any_vassal = {
+				limit = { is_patrician = yes }
+				scaled_wealth = 1.0
+			}
+		}
+		if = {
+			limit = { NOT = { has_global_flag = secondary_startup } }
+			any_independent_ruler = {
+				if = {
+					limit = { is_merchant_republic = yes }
+					scaled_wealth = 2.0
+					any_vassal = {
+						limit = { is_patrician = yes }
+						scaled_wealth = 1.0
+					}
+				}
+				any_realm_lord = {
+					limit = { is_merchant_republic = yes }
+					scaled_wealth = 2.0
+					any_vassal = {
+						limit = { is_patrician = yes }
+						scaled_wealth = 1.0
+					}
+				}
+			}
+		}
+
+		# warning for ironman games
+		if = {
+			limit = { is_ironman = yes }
+			if = {
+				limit = { ai = no }
+				character_event = { id = Plus.1752 }
+			}
+			any_playable_ruler = {
+				limit = { ai = no }
+				character_event = { id = Plus.1752 }
+			}
+		}
+	}
+}
+
+character_event = { # Viceroys will try to pass on wealth to a relative instead of their liege
+	id = Plus.348
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		primary_title = { is_vice_royalty = yes }
+	}
+	
+	immediate = {
+		random_child = {
+			limit = {
+				any_heir_title = {
+					holder = ROOT
+					is_vice_royalty = no
+				}
+				ROOT = { NOT = { has_character_flag = found_viceroy_heir } }
+			}
+			save_event_target_as = target_viceroy_heir
+			ROOT = { set_character_flag = found_viceroy_heir }
+		}
+		random_dynasty_member = {
+			limit = {
+				any_heir_title = {
+					holder = ROOT
+					is_vice_royalty = no
+				}
+				ROOT = { NOT = { has_character_flag = found_viceroy_heir } }
+			}
+			save_event_target_as = target_viceroy_heir
+			ROOT = { set_character_flag = found_viceroy_heir }
+		}
+		random_child = {
+			limit = {
+				is_female = no
+				NOT = { trait = bastard }
+				ROOT = {
+					NOR = {
+						has_character_flag = found_viceroy_heir
+						any_child = {
+							is_female = no
+							NOT = { trait = bastard }
+							is_older_than = PREVPREV
+						}
+					}
+				}
+			}
+			save_event_target_as = target_viceroy_heir
+			ROOT = { set_character_flag = found_viceroy_heir }
+		}
+		random_child = {
+			limit = {
+				is_female = yes
+				NOT = { trait = bastard }
+				ROOT = {
+					NOR = {
+						has_character_flag = found_viceroy_heir
+						any_child = {
+							is_female = yes
+							NOT = { trait = bastard }
+							is_older_than = PREVPREV
+						}
+					}
+				}
+			}
+			save_event_target_as = target_viceroy_heir
+			ROOT = { set_character_flag = found_viceroy_heir }
+		}
+		random_dynasty_member = {
+			limit = {
+				is_female = no
+				sibling = ROOT
+				NOT = { trait = bastard }
+				ROOT = {
+					NOR = {
+						has_character_flag = found_viceroy_heir
+						any_dynasty_member = {
+							is_female = no
+							sibling = ROOT
+							NOT = { trait = bastard }
+							is_older_than = PREVPREV
+						}
+					}
+				}
+			}
+			save_event_target_as = target_viceroy_heir
+			ROOT = { set_character_flag = found_viceroy_heir }
+		}
+		random_dynasty_member = {
+			limit = {
+				is_female = yes
+				sibling = ROOT
+				NOT = { trait = bastard }
+				ROOT = {
+					NOR = {
+						has_character_flag = found_viceroy_heir
+						any_dynasty_member = {
+							is_female = yes
+							sibling = ROOT
+							NOT = { trait = bastard }
+							is_older_than = PREVPREV
+						}
+					}
+				}
+			}
+			save_event_target_as = target_viceroy_heir
+			ROOT = { set_character_flag = found_viceroy_heir }
+		}
+		random_spouse = {
+			limit = {
+				is_main_spouse = yes
+				ROOT = { NOT = { has_character_flag = found_viceroy_heir } }
+			}
+			save_event_target_as = target_viceroy_heir
+			ROOT = { set_character_flag = found_viceroy_heir }
+		}
+		clear_wealth = event_target:target_viceroy_heir
+		if = {
+			limit = { has_character_flag = loan_taken }
+			if = {
+				limit = { has_character_modifier = loan_50 }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_50
+						duration = 730
+						inherit = yes						
+					}
+				}
+				remove_character_modifier = loan_50
+			}
+			if = {
+				limit = { has_character_modifier = loan_50_hidden }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_50_hidden
+						duration = -1
+						inherit = yes
+						hidden = yes
+					}
+				}
+				remove_character_modifier = loan_50_hidden
+			}
+			if = {
+				limit = { has_character_modifier = loan_100 }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_100
+						duration = 730
+						inherit = yes						
+					}
+				}
+				remove_character_modifier = loan_100
+			}
+			if = {
+				limit = { has_character_modifier = loan_100_hidden }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_100_hidden
+						duration = -1
+						inherit = yes
+						hidden = yes
+					}
+				}
+				remove_character_modifier = loan_100_hidden
+			}
+			if = {
+				limit = { has_character_modifier = loan_200 }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_200
+						duration = 730
+						inherit = yes						
+					}
+				}
+				remove_character_modifier = loan_200
+			}
+			if = {
+				limit = { has_character_modifier = loan_200_hidden }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_200_hidden
+						duration = -1
+						inherit = yes
+						hidden = yes
+					}
+				}
+				remove_character_modifier = loan_200_hidden
+			}
+			if = {
+				limit = { has_character_modifier = loan_400 }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_400
+						duration = 730
+						inherit = yes						
+					}
+				}
+				remove_character_modifier = loan_400
+			}
+			if = {
+				limit = { has_character_modifier = loan_400_hidden }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_400_hidden
+						duration = -1
+						inherit = yes
+						hidden = yes
+					}
+				}
+				remove_character_modifier = loan_400_hidden
+			}
+			if = {
+				limit = { has_character_modifier = loan_600 }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_600
+						duration = 730
+						inherit = yes						
+					}
+				}
+				remove_character_modifier = loan_600
+			}
+			if = {
+				limit = { has_character_modifier = loan_600_hidden }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_600_hidden
+						duration = -1
+						inherit = yes
+						hidden = yes
+					}
+				}
+				remove_character_modifier = loan_600_hidden
+			}
+			if = {
+				limit = { has_character_modifier = loan_800 }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_800
+						duration = 730
+						inherit = yes						
+					}
+				}
+				remove_character_modifier = loan_800
+			}
+			if = {
+				limit = { has_character_modifier = loan_800_hidden }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_800_hidden
+						duration = -1
+						inherit = yes
+						hidden = yes
+					}
+				}
+				remove_character_modifier = loan_800_hidden
+			}
+			if = {
+				limit = { has_character_modifier = loan_1000 }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_1000
+						duration = 730
+						inherit = yes						
+					}
+				}
+				remove_character_modifier = loan_1000
+			}
+			if = {
+				limit = { has_character_modifier = loan_1000_hidden }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = loan_1000_hidden
+						duration = -1
+						inherit = yes
+						hidden = yes
+					}
+				}
+				remove_character_modifier = loan_1000_hidden
+			}
+			if = {
+				limit = { has_character_modifier = loan_timer_jews }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = "loan_timer_jews"
+						duration = 730
+						inherit = yes
+					}
+				}
+				remove_character_modifier = loan_timer_jews
+			}
+			if = {
+				limit = { has_character_modifier = borrowed_from_jews }
+				event_target:target_viceroy_heir = {
+					add_character_modifier = {
+						name = "borrowed_from_jews"
+						duration = -1
+						inherit = yes
+						hidden = yes
+					}
+				}
+				remove_character_modifier = borrowed_from_jews
+			}
+		}
+		clr_character_flag = found_viceroy_heir
+	}
+}
+
+character_event = { # Annual maintenance fixes
+	id = Plus.349
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = { is_ruler = yes }
+	
+	immediate = {
+		#track years_of_peace variable for the ambition
+		if = {
+			limit = { war = yes }
+			set_variable = { which = "years_of_peace" value = 0 }
+		}
+		if = {
+			limit = { war = no }
+			change_variable = { which = "years_of_peace" value = 1 }
+		}
+		
+		#fix titles that have become inactive
+		if = {
+			limit = {
+				primary_title = { NOT = { is_title_active = THIS } }
+			}
+			primary_title = { activate_title = { title = THIS status = yes } }
+		}
+		
+		#remove 'do not destroy' flag on titles that have raised crown authority
+		any_demesne_title = {
+			limit = {
+				has_title_flag = do_not_destroy
+				NOT = { has_law = crown_authority_0 }
+			}
+			clr_title_flag = do_not_destroy
+		}
+		
+		#remove 'destroy' flag on titles which were not destroyed
+		any_demesne_title = {
+			limit = { had_title_flag = { flag = destroy_title days = 7 } }
+			clr_title_flag = destroy_title
+		}
+		
+		#add crown law if they should have it
+		any_demesne_title = {
+			limit = {
+				higher_tier_than = DUKE
+				NOR = {
+					has_law = crown_authority_0
+					has_law = crown_authority_1
+					has_law = crown_authority_2
+					has_law = crown_authority_3
+					has_law = crown_authority_4
+				}
+				holder_scope = {
+					is_tribal = no
+					is_nomadic = no
+				}
+			}
+			add_law = crown_authority_0
+		}
+
+		#fix patrician succession laws
+		any_demesne_title = {
+			limit = {
+				holder_scope = { is_patrician = yes }
+				OR = {
+					NOT = { has_law = succ_seniority }
+					NOT = { has_law = agnatic_succession }
+				}
+				OR = {
+					is_primary_holder_title = no
+					holder_scope = { is_merchant_republic = no }
+				}
+			}
+			if = {
+				limit = { NOT = { has_law = succ_seniority } }
+				add_law = succ_seniority
+			}
+			if = {
+				limit = { NOT = { has_law = agnatic_succession } }
+				add_law = agnatic_succession
+			}
+		}
+		any_demesne_title = {
+			limit = {
+				holder_scope = {
+					is_patrician = yes
+					is_merchant_republic = yes
+				}
+				OR = {
+					NOT = { has_law = succ_patrician_elective }
+					NOT = { has_law = agnatic_succession }
+				}
+				is_primary_holder_title = yes
+			}
+			if = {
+				limit = { NOT = { has_law = succ_patrician_elective } }
+				add_law = succ_patrician_elective
+			}
+			if = {
+				limit = { NOT = { has_law = agnatic_succession } }
+				add_law = agnatic_succession
+			}
+		}
+		
+		#fix non-patrician succession laws
+		any_demesne_title = {
+			limit = {
+				holder_scope = { is_patrician = no }
+				OR = {
+					is_primary_holder_title = yes
+					higher_tier_than = duke
+				}
+			}
+			#nomads
+			if = {
+				limit = {
+					holder_scope = {
+						has_dlc = "Horse Lords"
+						is_nomadic = yes
+					}
+					NOT = { has_law = succ_nomad_succession }
+				}
+				add_law = succ_nomad_succession
+			}
+			#celtic pagans
+			if = {
+				limit = {
+					holder_scope = {
+						OR = {
+							is_tribal = yes
+							is_feudal = yes
+						}
+						religion = celtic_pagan
+						NOT = { has_law = succ_tanistry }
+					}
+				}
+				add_law = succ_tanistry
+			}
+			#feudal/tribal non-reformed pagans
+			if = {
+				limit = {
+					is_primary_type_title = no
+					holder_scope = {
+						OR = {
+							is_tribal = yes
+							is_feudal = yes
+						}
+						religion_group = pagan_group
+						is_reformed_religion = no
+						NOT = { has_global_flag = ancient_religions }
+					}
+					NOT = { has_law = succ_gavelkind }
+					NOT = { has_law = succ_elective_gavelkind }
+					NOT = { has_law = succ_tanistry }
+				}
+				add_law = succ_gavelkind
+			}
+			#feudal non-muslim, non-unreformed pagans
+			if = {
+				limit = {
+					is_primary_type_title = no
+					holder_scope = {
+						OR = {
+							is_feudal = yes
+							is_tribal = yes
+						}
+						NOT = { religion_group = muslim }
+						OR = {
+							NOT = { religion_group = pagan_group }
+							is_reformed_religion = yes
+						}
+					}
+					NOR = {
+						has_law = succ_primogeniture
+						has_law = succ_gavelkind
+						has_law = succ_feudal_elective
+						has_law = succ_seniority
+						has_law = succ_tanistry
+						has_law = succ_ultimogeniture
+						has_law = succ_elective_gavelkind
+					}
+				}
+				add_law = succ_primogeniture
+			}
+			#feudal/tribal muslims
+			if = {
+				limit = {
+					is_primary_type_title = no
+					OR = {
+						is_landless_type_title = no
+						is_tribal_type_title = yes
+						temporary = yes
+					}
+					holder_scope = {
+						religion_group = muslim
+						is_republic = no
+						is_merchant_republic = no
+						is_nomadic = no
+						OR = {
+							independent = yes
+							NOT = { any_liege = { holy_order = yes } }
+						}
+					}
+					NOT = { has_law = succ_turkish_succession }
+				}
+				add_law = succ_turkish_succession
+			}
+			#catholic investiture
+			if = {
+				limit = {
+					higher_tier_than = DUKE
+					holder_scope = {
+						OR = {
+							religion = catholic
+							religion = fraticelli
+						}
+					}
+					NOR = {
+						has_law = investiture_law_0
+						has_law = investiture_law_1
+					}
+				}
+				add_law = investiture_law_0
+			}
+			#non-catholic no investiture
+			if = {
+				limit = {
+					higher_tier_than = DUKE
+					holder_scope = {
+						NOR = {
+							religion = catholic
+							religion = fraticelli
+						}
+					}
+					OR = {
+						has_law = investiture_law_0
+						has_law = investiture_law_1
+					}
+				}
+				if = {
+					limit = { has_law = investiture_law_0 }
+					revoke_law = investiture_law_0
+				}
+				if = {
+					limit = { has_law = investiture_law_1 }
+					revoke_law = investiture_law_1
+				}
+			}
+		}		
+		
+		#set appropriate demesne laws level
+		if = {
+			limit = { higher_real_tier_than = BARON }
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = { TECH_LEGALISM = 2 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_0 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_0 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 2
+						NOT = { TECH_LEGALISM = 4 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_1 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_1 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 4
+						NOT = { TECH_LEGALISM = 6 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_2 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_2 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 6
+						NOT = { TECH_LEGALISM = 8 }
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_3 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_3 }
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						TECH_LEGALISM = 8
+					}
+					primary_title = {
+						NOT = { has_law = demesne_laws_4 }
+					}
+				}
+				primary_title = { add_law = demesne_laws_4 }
+			}
+		}
+		
+		#set laws for secondary titles
+		any_demesne_title = {
+			limit = {
+				higher_tier_than = baron
+				is_primary_holder_title = no
+				OR = {
+					is_primary_holder_title_tier = yes
+					higher_tier_than = duke
+				}
+			}
+			#copy primary title's laws to the secondary titles
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = feudal_tax_0 }
+					}
+					NOT = { has_law = feudal_tax_0 }
+				}
+				add_law = feudal_tax_0
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = feudal_tax_1 }
+					}
+					NOT = { has_law = feudal_tax_1 }
+				}
+				add_law = feudal_tax_1
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = feudal_tax_2 }
+					}
+					NOT = { has_law = feudal_tax_2 }
+				}
+				add_law = feudal_tax_2
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = city_tax_0 }
+					}
+					NOT = { has_law = city_tax_0 }
+				}
+				add_law = city_tax_0
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = city_tax_1 }
+					}
+					NOT = { has_law = city_tax_1 }
+				}
+				add_law = city_tax_1
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = city_tax_2 }
+					}
+					NOT = { has_law = city_tax_2 }
+				}
+				add_law = city_tax_2
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = temple_tax_0 }
+					}
+					NOT = { has_law = temple_tax_0 }
+				}
+				add_law = temple_tax_0
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = temple_tax_1 }
+					}
+					NOT = { has_law = temple_tax_1 }
+				}
+				add_law = temple_tax_1
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = temple_tax_2 }
+					}
+					NOT = { has_law = temple_tax_2 }
+				}
+				add_law = temple_tax_2
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = tax_privileges_0 }
+					}
+					NOT = { has_law = tax_privileges_0 }
+				}
+				add_law = tax_privileges_0
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = tax_privileges_1 }
+					}
+					NOT = { has_law = tax_privileges_1 }
+				}
+				add_law = tax_privileges_1
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = tax_privileges_2 }
+					}
+					NOT = { has_law = tax_privileges_2 }
+				}
+				add_law = tax_privileges_2
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = levy_privileges_0 }
+					}
+					NOT = { has_law = levy_privileges_0 }
+				}
+				add_law = levy_privileges_0
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = levy_privileges_1 }
+					}
+					NOT = { has_law = levy_privileges_1 }
+				}
+				add_law = levy_privileges_1
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = council_privileges_0 }
+					}
+					NOT = { has_law = council_privileges_0 }
+				}
+				add_law = council_privileges_0
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						primary_title = { has_law = council_privileges_1 }
+					}
+					NOT = { has_law = council_privileges_1 }
+				}
+				add_law = council_privileges_1
+			}
+		}
+		
+		#check title flags
+		any_demesne_title = {
+			if = {
+				limit = {
+					has_title_flag = former_gavelkind
+					has_law = succ_gavelkind
+				}
+				clr_title_flag = former_gavelkind
+			}
+			if = {
+				limit = {
+					has_title_flag = former_seniority
+					has_law = succ_seniority
+				}
+				clr_title_flag = former_seniority
+			}
+			if = {
+				limit = {
+					has_title_flag = former_primogeniture
+					has_law = succ_primogeniture
+				}
+				clr_title_flag = former_primogeniture
+			}
+			if = {
+				limit = {
+					has_title_flag = former_gavelkind
+					has_law = succ_gavelkind
+				}
+				clr_title_flag = former_gavelkind
+			}
+			if = {
+				limit = {
+					has_title_flag = former_feudal_elective
+					has_law = succ_feudal_elective
+				}
+				clr_title_flag = former_feudal_elective
+			}
+			if = {
+				limit = {
+					has_title_flag = former_tanistry
+					has_law = succ_tanistry
+				}
+				clr_title_flag = former_tanistry
+			}
+			if = {
+				limit = {
+					has_title_flag = former_ultimogeniture
+					has_law = succ_ultimogeniture
+				}
+				clr_title_flag = former_ultimogeniture
+			}
+			if = {
+				limit = {
+					has_title_flag = former_cognatic_succession
+					has_law = cognatic_succession
+				}
+				clr_title_flag = former_cognatic_succession
+			}
+			if = {
+				limit = {
+					has_title_flag = former_agnatic_succession
+					has_law = agnatic_succession
+				}
+				clr_title_flag = former_agnatic_succession
+			}
+			if = {
+				limit = {
+					has_title_flag = former_true_cognatic_succession
+					has_law = true_cognatic_succession
+				}
+				clr_title_flag = former_true_cognatic_succession
+			}
+		}
+
+		#adjust flags and modifiers based on laws
+		if = {
+			limit = {
+				primary_title = { has_law = council_privileges_0 }
+				has_character_flag = lifetime_appointments
+			}
+			clr_character_flag = lifetime_appointments
+		}
+		if = {
+			limit = {
+				primary_title = { has_law = council_privileges_1 }
+				NOT = { has_character_flag = lifetime_appointments }
+			}
+			set_character_flag = lifetime_appointments
+		}
+		if = {
+			limit = {
+				primary_title = { has_law = levy_privileges_1 }
+				has_character_flag = max_levies
+			}
+			clr_character_flag = max_levies
+		}
+		if = {
+			limit = {
+				primary_title = { has_law = levy_privileges_0 }
+				NOT = { has_character_flag = max_levies }
+			}
+			set_character_flag = max_levies
+		}
+		if = {
+			limit = {
+				independent = yes
+				OR = {
+					has_character_modifier = tax_privileges_0_vassal
+					has_character_modifier = tax_privileges_2_vassal
+				}
+			}
+			remove_character_modifier = tax_privileges_0_vassal
+			remove_character_modifier = tax_privileges_2_vassal
+		}
+		if = {
+			limit = {
+				primary_title = { has_law = tax_privileges_0 }
+			}
+			any_vassal = {
+				limit = {
+					OR = {
+						NOT = { has_character_modifier = tax_privileges_0_vassal }
+						has_character_modifier = tax_privileges_2_vassal
+					}
+				}
+				add_character_modifier = { name = "tax_privileges_0_vassal" duration = -1 }
+				remove_character_modifier = tax_privileges_2_vassal
+			}
+		}
+		if = {
+			limit = {
+				primary_title = { has_law = tax_privileges_1 }
+			}
+			any_vassal = {
+				limit = {
+					OR = {
+						has_character_modifier = tax_privileges_0_vassal
+						has_character_modifier = tax_privileges_2_vassal
+					}
+				}
+				remove_character_modifier = tax_privileges_0_vassal
+				remove_character_modifier = tax_privileges_2_vassal
+			}
+		}
+		if = {
+			limit = {
+				primary_title = { has_law = tax_privileges_2 }
+			}
+			any_vassal = {
+				limit = {
+					OR = {
+						has_character_modifier = tax_privileges_0_vassal
+						NOT = { has_character_modifier = tax_privileges_2_vassal }
+					}
+				}
+				remove_character_modifier = tax_privileges_0_vassal
+				add_character_modifier = { name = "tax_privileges_2_vassal" duration = -1 }
+			}
+		}
+
+		#the dishonorable reduction timer exists, and the character is not dishonorable, reset it
+		if = {
+			limit = {
+				check_variable = { which = "dishonorable_reduction" value = 0.5 }
+				NOR = {
+					trait = dishonorable1
+					trait = dishonorable2
+					trait = dishonorable3
+					trait = dishonorable4
+					trait = dishonorable5
+					trait = dishonorable6
+					trait = dishonorable7
+					trait = dishonorable8
+					trait = dishonorable9
+					trait = dishonorable10
+					trait = dyn_dishonorable1
+					trait = dyn_dishonorable2
+					trait = dyn_dishonorable3
+					trait = dyn_dishonorable4
+					trait = dyn_dishonorable5
+					trait = dyn_dishonorable6
+					trait = dyn_dishonorable7
+					trait = dyn_dishonorable8
+					trait = dyn_dishonorable9
+					trait = dyn_dishonorable10
+				}
+			}
+			set_variable = { which = "dishonorable_reduction" value = 0 }
+		}
+		#advance the dishonorable reduction timer by +1
+		if = {
+			limit = {
+				NOT = { check_variable = { which = "dishonorable_reduction" value = 19.5 } }
+				OR = {
+					trait = dishonorable1
+					trait = dishonorable2
+					trait = dishonorable3
+					trait = dishonorable4
+					trait = dishonorable5
+					trait = dishonorable6
+					trait = dishonorable7
+					trait = dishonorable8
+					trait = dishonorable9
+					trait = dishonorable10
+					trait = dyn_dishonorable1
+					trait = dyn_dishonorable2
+					trait = dyn_dishonorable3
+					trait = dyn_dishonorable4
+					trait = dyn_dishonorable5
+					trait = dyn_dishonorable6
+					trait = dyn_dishonorable7
+					trait = dyn_dishonorable8
+					trait = dyn_dishonorable9
+					trait = dyn_dishonorable10
+				}
+			}
+			change_variable = { which = "dishonorable_reduction" value = 1 }
+		}
+		#the dishonorable reduction timer has hit 20, reduce dishonorable by 1
+		if = {
+			limit = {
+				check_variable = { which = "dishonorable_reduction" value = 19.5 }
+				OR = {
+					trait = dishonorable1
+					trait = dishonorable2
+					trait = dishonorable3
+					trait = dishonorable4
+					trait = dishonorable5
+					trait = dishonorable6
+					trait = dishonorable7
+					trait = dishonorable8
+					trait = dishonorable9
+					trait = dishonorable10
+					trait = dyn_dishonorable1
+					trait = dyn_dishonorable2
+					trait = dyn_dishonorable3
+					trait = dyn_dishonorable4
+					trait = dyn_dishonorable5
+					trait = dyn_dishonorable6
+					trait = dyn_dishonorable7
+					trait = dyn_dishonorable8
+					trait = dyn_dishonorable9
+					trait = dyn_dishonorable10
+				}
+			}
+			set_variable = { which = "dishonorable_reduction" value = 0 }
+			if = {
+				limit = {
+					trait = dishonorable1
+				}
+				remove_trait = dishonorable1
+			}
+			if = {
+				limit = {
+					trait = dishonorable2
+				}
+				remove_trait = dishonorable2
+				add_trait = dishonorable1
+			}
+			if = {
+				limit = {
+					trait = dishonorable3
+				}
+				remove_trait = dishonorable3
+				add_trait = dishonorable2
+			}
+			if = {
+				limit = {
+					trait = dishonorable4
+				}
+				remove_trait = dishonorable4
+				add_trait = dishonorable3
+			}
+			if = {
+				limit = {
+					trait = dishonorable5
+				}
+				remove_trait = dishonorable5
+				add_trait = dishonorable4
+			}
+			if = {
+				limit = {
+					trait = dishonorable6
+				}
+				remove_trait = dishonorable6
+				add_trait = dishonorable5
+			}
+			if = {
+				limit = {
+					trait = dishonorable7
+				}
+				remove_trait = dishonorable7
+				add_trait = dishonorable6
+			}
+			if = {
+				limit = {
+					trait = dishonorable8
+				}
+				remove_trait = dishonorable8
+				add_trait = dishonorable7
+			}
+			if = {
+				limit = {
+					trait = dishonorable9
+				}
+				remove_trait = dishonorable9
+				add_trait = dishonorable8
+			}
+			if = {
+				limit = {
+					trait = dishonorable10
+				}
+				remove_trait = dishonorable10
+				add_trait = dishonorable9
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable1
+				}
+				remove_trait = dyn_dishonorable1
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable2
+				}
+				remove_trait = dyn_dishonorable2
+				add_trait = dyn_dishonorable1
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable3
+				}
+				remove_trait = dyn_dishonorable3
+				add_trait = dyn_dishonorable2
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable4
+				}
+				remove_trait = dyn_dishonorable4
+				add_trait = dyn_dishonorable3
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable5
+				}
+				remove_trait = dyn_dishonorable5
+				add_trait = dyn_dishonorable4
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable6
+				}
+				remove_trait = dyn_dishonorable6
+				add_trait = dyn_dishonorable5
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable7
+				}
+				remove_trait = dyn_dishonorable7
+				add_trait = dyn_dishonorable6
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable8
+				}
+				remove_trait = dyn_dishonorable8
+				add_trait = dyn_dishonorable7
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable9
+				}
+				remove_trait = dyn_dishonorable9
+				add_trait = dyn_dishonorable8
+			}
+			if = {
+				limit = {
+					trait = dyn_dishonorable10
+				}
+				remove_trait = dyn_dishonorable10
+				add_trait = dyn_dishonorable9
+			}
+		}
+		#the tyrany reduction timer exists, and the character is not a tyrant, reset it
+		if = {
+			limit = {
+				check_variable = { which = "tyranny_reduction" value = 0.5 }
+				NOR = {
+					trait = tyrant1
+					trait = tyrant2
+					trait = tyrant3
+					trait = tyrant4
+					trait = tyrant5
+					trait = tyrant6
+					trait = tyrant7
+					trait = tyrant8
+					trait = tyrant9
+					trait = tyrant10
+					trait = tyrant11
+					trait = tyrant12
+					trait = tyrant13
+					trait = tyrant14
+					trait = tyrant15
+					trait = tyrant16
+					trait = tyrant17
+					trait = tyrant18
+					trait = tyrant19
+					trait = tyrant20
+				}
+			}
+			set_variable = { which = "tyranny_reduction" value = 0 }
+		}
+		#advance the tyranny reduction timer by +1
+		if = {
+			limit = {
+				NOT = { check_variable = { which = "tyranny_reduction" value = 4.5 } }
+				OR = {
+					trait = tyrant1
+					trait = tyrant2
+					trait = tyrant3
+					trait = tyrant4
+					trait = tyrant5
+					trait = tyrant6
+					trait = tyrant7
+					trait = tyrant8
+					trait = tyrant9
+					trait = tyrant10
+					trait = tyrant11
+					trait = tyrant12
+					trait = tyrant13
+					trait = tyrant14
+					trait = tyrant15
+					trait = tyrant16
+					trait = tyrant17
+					trait = tyrant18
+					trait = tyrant19
+					trait = tyrant20
+				}
+			}
+			change_variable = { which = "tyranny_reduction" value = 1 }
+		}
+		#the tyranny reduction timer has hit 5, reduce tyrant by 1
+		if = {
+			limit = {
+				check_variable = { which = "tyranny_reduction" value = 4.5 }
+				OR = {
+					trait = tyrant1
+					trait = tyrant2
+					trait = tyrant3
+					trait = tyrant4
+					trait = tyrant5
+					trait = tyrant6
+					trait = tyrant7
+					trait = tyrant8
+					trait = tyrant9
+					trait = tyrant10
+					trait = tyrant11
+					trait = tyrant12
+					trait = tyrant13
+					trait = tyrant14
+					trait = tyrant15
+					trait = tyrant16
+					trait = tyrant17
+					trait = tyrant18
+					trait = tyrant19
+					trait = tyrant20
+				}
+			}
+			set_variable = { which = "tyranny_reduction" value = 0 }
+			if = {
+				limit = {
+					trait = tyrant1
+				}
+				remove_trait = tyrant1
+			}
+			if = {
+				limit = {
+					trait = tyrant2
+				}
+				remove_trait = tyrant2
+				add_trait = tyrant1
+			}
+			if = {
+				limit = {
+					trait = tyrant3
+				}
+				remove_trait = tyrant3
+				add_trait = tyrant2
+			}
+			if = {
+				limit = {
+					trait = tyrant4
+				}
+				remove_trait = tyrant4
+				add_trait = tyrant3
+			}
+			if = {
+				limit = {
+					trait = tyrant5
+				}
+				remove_trait = tyrant5
+				add_trait = tyrant4
+			}
+			if = {
+				limit = {
+					trait = tyrant6
+				}
+				remove_trait = tyrant6
+				add_trait = tyrant5
+			}
+			if = {
+				limit = {
+					trait = tyrant7
+				}
+				remove_trait = tyrant7
+				add_trait = tyrant6
+			}
+			if = {
+				limit = {
+					trait = tyrant8
+				}
+				remove_trait = tyrant8
+				add_trait = tyrant7
+			}
+			if = {
+				limit = {
+					trait = tyrant9
+				}
+				remove_trait = tyrant9
+				add_trait = tyrant8
+			}
+			if = {
+				limit = {
+					trait = tyrant10
+				}
+				remove_trait = tyrant10
+				add_trait = tyrant9
+			}
+			if = {
+				limit = {
+					trait = tyrant11
+				}
+				remove_trait = tyrant11
+				add_trait = tyrant10
+			}
+			if = {
+				limit = {
+					trait = tyrant12
+				}
+				remove_trait = tyrant12
+				add_trait = tyrant11
+			}
+			if = {
+				limit = {
+					trait = tyrant13
+				}
+				remove_trait = tyrant13
+				add_trait = tyrant12
+			}
+			if = {
+				limit = {
+					trait = tyrant14
+				}
+				remove_trait = tyrant14
+				add_trait = tyrant13
+			}
+			if = {
+				limit = {
+					trait = tyrant15
+				}
+				remove_trait = tyrant15
+				add_trait = tyrant14
+			}
+			if = {
+				limit = {
+					trait = tyrant16
+				}
+				remove_trait = tyrant16
+				add_trait = tyrant15
+			}
+			if = {
+				limit = {
+					trait = tyrant17
+				}
+				remove_trait = tyrant17
+				add_trait = tyrant16
+			}
+			if = {
+				limit = {
+					trait = tyrant18
+				}
+				remove_trait = tyrant18
+				add_trait = tyrant17
+			}
+			if = {
+				limit = {
+					trait = tyrant19
+				}
+				remove_trait = tyrant19
+				add_trait = tyrant18
+			}
+			if = {
+				limit = {
+					trait = tyrant20
+				}
+				remove_trait = tyrant20
+				add_trait = tyrant19
+			}
+		}
+	}
+}
+
+character_event = { # Fixing antipope removal
+	id = Plus.350
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		remove_claim = k_papal_state
+		remove_claim = d_fraticelli
+	}
+}
+
+character_event = { # Prevents quick rebellions in newly-conquered provinces
+	id = Plus.351
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		FROM = { tier = COUNT }
+		OR = {
+			has_character_modifier = victory_timer
+			has_character_modifier = new_land_timer
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			location = {
+				if = {
+					limit = { has_province_modifier = province_chaos }
+					remove_province_modifier = province_chaos
+				}
+				add_province_modifier = {
+					name = province_chaos
+					duration = 730
+				}
+			}
+		}
+	}
+}
+
+character_event = { # refills levy holdings after switching to feudal
+	id = Plus.352
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		any_demesne_title = {
+			limit = { has_title_flag = refill_levy }
+			clr_title_flag = refill_levy
+			refill_holding_levy = yes
+		}
+	}
+}
+
+character_event = { # adds Away From Court modifier when leading armies away from the capital
+	id = Plus.353
+	
+	hide_window = yes
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	
+	trigger = {
+		in_command = yes
+		higher_tier_than = BARON
+		OR = {
+			war = yes
+			any_liege = { war = yes }
+		}
+		NOT = { has_character_modifier = away_from_court }
+		capital_scope = {
+			ROOT = {
+				location = {
+					NOT = { province_id = PREVPREV }
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = away_from_court
+		add_character_modifier = {
+			name = away_from_court
+			duration = -1
+		}
+	}
+}
+
+character_event = { # removes Away From Court modifier
+	id = Plus.354
+	
+	hide_window = yes
+	
+	has_character_flag = away_from_court
+	
+	trigger = {
+		has_character_modifier = away_from_court
+		OR = {
+			in_command = no
+			NOR = {
+				war = yes
+				any_liege = { war = yes }
+			}
+			NOR = {
+				AND = {
+					is_ruler = yes
+					higher_tier_than = BARON
+					capital_scope = {
+						ROOT = {
+							location = {
+								NOT = { province_id = PREVPREV }
+							}
+						}
+					}
+				}
+				AND = {
+					is_ruler = yes
+					tier = BARON
+					primary_title = {
+						location = {
+							ROOT = {
+								location = {
+									NOT = { province_id = PREVPREV }
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					is_ruler = no
+					liege = {
+						capital_scope = {
+							ROOT = {
+								location = {
+									NOT = { province_id = PREVPREV }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		remove_character_modifier = away_from_court
+		clr_character_flag = away_from_court
+	}
+}
+

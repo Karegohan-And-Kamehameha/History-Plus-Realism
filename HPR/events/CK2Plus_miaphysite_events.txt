@@ -1,0 +1,395 @@
+namespace = Plus
+
+#reserved: Plus.2300 to Plus.2350
+
+#############################################
+# MIAPHYSITE EVENTS
+# Adapted from Bad Copt, Good Copt by Rylock
+#############################################
+
+### COPTIC CULTURE
+
+# Miaphysite Egyptian becomes Coptic
+character_event = {
+	id = Plus.2300
+	desc = EVTDESC_Plus_2300
+	picture = GFX_evt_courtiers_talking
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	culture = egyptian_arabic
+	
+	trigger = {
+		OR = {
+			religion = miaphysite
+			religion = monophysite
+		}
+		OR = {
+			independent = yes
+			liege = {
+				NAND = {
+					religion = miaphysite
+					culture = egyptian_arabic
+				}
+			}
+		}
+		is_nomadic = no
+		mercenary = no
+		NOT = { has_character_flag = no_melting_pot }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.5
+			liege = { culture = coptic }
+		}
+		modifier = {
+			factor = 0.5
+			location = { culture = coptic }
+		}
+		modifier = {
+			factor = 2
+			location = { NOT = { region = world_africa } }
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Plus_2300
+		culture = coptic
+		if = {
+			limit = { is_ruler = no }
+			any_spouse = {
+				limit = {
+					is_adult = no
+					is_ruler = no
+					religion = ROOT
+					culture = egyptian_arabic
+				}
+				culture = ROOT
+			}
+			any_child = {
+				limit = {
+					is_adult = no
+					is_ruler = no
+					religion = ROOT
+					culture = egyptian_arabic
+				}
+				culture = ROOT
+			}
+			set_character_flag = converted_culture
+		}
+		if = {
+			limit = { is_ruler = yes }
+			hidden_tooltip = {
+				any_courtier = {
+					limit = {
+						is_ruler = no
+						religion = ROOT
+						culture = egyptian_arabic
+						dynasty = ROOT
+					}
+					culture = ROOT
+				}
+			}
+			set_character_flag = converted_culture
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2300
+		trigger = { ai = no }
+		set_character_flag = no_melting_pot
+	}
+}
+
+# Miaphysite Egyptian province becomes Coptic
+province_event = {
+	id = Plus.2301
+	desc = EVTDESC_Plus_2301
+	picture = GFX_evt_courtiers_talking
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		culture = egyptian_arabic
+		OR = {
+			religion = miaphysite
+			religion = monophysite
+		}
+		OR = {
+			region = world_africa
+			any_neighbor_province = { culture = coptic }
+		}
+		owner = {
+			NAND = {
+				religion = miaphysite
+				culture = egyptian_arabic
+			}
+			NOT = { has_character_flag = no_melting_pot }
+		}
+		owner = {
+			top_liege = {
+				NAND = {
+					religion = miaphysite
+					culture = egyptian_arabic
+				}
+				NOT = { has_character_flag = no_melting_pot }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 900
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = coptic }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { culture = coptic }
+		}
+	}
+	
+	option = {
+		name = OK
+		culture = coptic
+		add_province_modifier = {
+			name = recent_culture_change
+			duration = -1
+		}
+	}
+}
+
+# Coptic character stops being Miaphysite
+character_event = {
+	id = Plus.2302
+	desc = EVTDESC_Plus_2302
+	picture = GFX_evt_courtiers_talking
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	culture = coptic
+	
+	trigger = {
+		NOR = {
+			religion = miaphysite
+			religion = monophysite
+		}
+		OR = {
+			independent = yes
+			liege = {
+				NAND = {
+					NOR = {
+						religion = miaphysite
+						religion = monophysite
+					}
+					culture = coptic
+				}
+			}
+		}
+		is_nomadic = no
+		mercenary = no
+		NOT = { has_character_flag = no_melting_pot }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			liege = { culture = coptic }
+		}
+		modifier = {
+			factor = 2
+			location = { culture = coptic }
+		}
+		modifier = {
+			factor = 0.5
+			liege = { NOT = { culture = coptic } }
+		}
+		modifier = {
+			factor = 0.5
+			location = { NOT = { culture = coptic } }
+		}
+		modifier = {
+			factor = 0.5
+			location = { NOT = { region = world_africa } }
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Plus_2302
+		culture = egyptian_arabic
+		if = {
+			limit = { is_ruler = no }
+			any_spouse = {
+				limit = {
+					is_adult = no
+					is_ruler = no
+					religion = ROOT
+					culture = coptic
+				}
+				culture = ROOT
+			}
+			any_child = {
+				limit = {
+					is_adult = no
+					is_ruler = no
+					religion = ROOT
+					culture = coptic
+				}
+				culture = ROOT
+			}
+			set_character_flag = converted_culture
+		}
+		if = {
+			limit = { is_ruler = yes }
+			hidden_tooltip = {
+				any_courtier = {
+					limit = {
+						is_ruler = no
+						religion = ROOT
+						culture = coptic
+						dynasty = ROOT
+					}
+					culture = ROOT
+				}
+			}
+			set_character_flag = converted_culture
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2302
+		trigger = { ai = no }
+		set_character_flag = no_melting_pot
+	}
+}
+
+# Coptic province stops being Miaphysite
+province_event = {
+	id = Plus.2303
+	desc = EVTDESC_Plus_2303
+	picture = GFX_evt_courtiers_talking
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		culture = coptic
+		NOR = {
+			religion = miaphysite
+			religion = monophysite
+		}
+		any_neighbor_province = { 
+			is_land = yes
+			NOT = { culture = coptic }
+		}
+		owner = {
+			NAND = {
+				NOR = {
+					religion = miaphysite
+					religion = monophysite
+				}
+				culture = coptic
+			}
+			NOT = { has_character_flag = no_melting_pot }
+		}
+		owner = {
+			top_liege = {
+				NAND = {
+					NOR = {
+						religion = miaphysite
+						religion = monophysite
+					}
+					culture = coptic
+				}
+				NOT = { has_character_flag = no_melting_pot }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 900
+		modifier = {
+			factor = 0.5
+			NOT = { any_neighbor_province = { culture = coptic } }
+		}
+		modifier = {
+			factor = 2
+			owner = { religion = miaphysite }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { NOT = { culture = coptic } }
+		}
+	}
+	
+	option = {
+		name = OK
+		culture = egyptian_arabic
+		add_province_modifier = {
+			name = recent_culture_change
+			duration = -1
+		}
+	}
+}
+
+# Desert Mother/Father moves on after staying a while
+character_event = {
+	id = Plus.2304
+	
+	hide_window = yes
+	capable_only = yes
+	prisoner = no
+	religion_group = christian
+	has_character_flag = is_desert_mother_father
+	
+	trigger = {
+		ai = yes
+		war = no
+		is_ill = no
+		OR = {
+			trait = desert_mother
+			trait = desert_father
+		}
+		NOR = {
+			any_liege = { war = yes }
+			trait = wounded
+			trait = maimed
+			trait = infirm
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 72
+		modifier = {
+			factor = 1.5
+			is_councillor = yes
+		}
+		modifier = {
+			factor = 2
+			is_ruler = yes
+		}
+		modifier = {
+			factor = 1.5
+			liege = { reverse_opinion = { who = ROOT value = 25 } }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { liege = { reverse_opinion = { who = ROOT value = 0 } } }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { liege = { opinion = { who = ROOT value = 0 } } }
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { is_ruler = yes }
+			abdicate = yes
+		}
+		banish = yes
+	}
+}
+

@@ -1,0 +1,823 @@
+#############################
+# CK2Plus Opinion Modifiers #
+#############################
+
+abdicated_for_me = {
+	opinion = 50
+}
+
+agreed_to_convert = {
+	opinion = 50
+}
+
+appreciates_support = {
+	opinion = 10
+}
+
+arbitrary_disinheritance = {
+	opinion = -10
+}
+
+asked_holy_sanction = {
+	opinion = 0
+}
+
+asked_to_support_heir = {
+	opinion = -10
+}
+
+attempted_kidnapping = {
+	opinion = -100
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	execute_reason = yes # This one gives righteous cause to revoke ONE title
+	crime = yes
+}
+
+attempted_kidnapping_of_kin = {
+	opinion = -50
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	execute_reason = yes # This one gives righteous cause to revoke ONE title
+}
+
+attempted_kidnapping_of_vassal = {
+	opinion = -10
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	execute_reason = yes # This one gives righteous cause to revoke ONE title
+}
+
+attempted_murder_of_close_kin = {
+	opinion = -100
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	execute_reason = yes # This one gives righteous cause to revoke ONE title
+	crime = yes
+}
+
+attempted_poach_faction = {
+	opinion = -20
+}
+
+attending_coronation = {
+	opinion = 5
+}
+
+backed_adventurer = {
+	opinion = 50
+}
+
+bad_speech = {
+	opinion = -20
+}
+
+betrayed_adventurer = {
+	opinion = -50
+	crime = yes
+}
+
+converted_me = {
+	opinion = 50
+}
+
+convinced_to_support_liege = {
+	opinion = 10
+}
+
+coronation_duel = {
+	opinion = -10
+}
+
+coronation_friends = {
+	opinion = 25
+}
+
+coronation_rivals = {
+	opinion = -25
+}
+
+coronation_rejected = {
+	opinion = -30
+}
+
+covets_inheritance = {
+	opinion = -25
+}
+
+declined_ransom = {
+	opinion = -10
+}
+
+devious_plotter = {
+	opinion = -50
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	execute_reason = yes # This one gives righteous cause to revoke ONE title	
+}
+
+disinherited_me = {
+	opinion = -25
+	crime = yes
+}
+
+dissent_sowed = {
+	opinion = -25
+	months = 60
+}
+
+executed_kin = {
+	opinion = -50
+}
+
+faction_agree_liege = {
+	opinion = 25
+}
+
+faction_approve_CA = {
+	opinion = 5
+}
+
+faction_approve_council = {
+	opinion = 5
+}
+
+faction_approve_council_term = {
+	opinion = 5
+}
+
+faction_approve_levy_privilege = {
+	opinion = 5
+}
+
+faction_approve_peace = {
+	opinion = 5
+}
+
+faction_approve_piety = {
+	opinion = 5
+}
+
+faction_approve_prestige = {
+	opinion = 5
+}
+
+faction_approve_tax_privilege = {
+	opinion = 5
+}
+
+faction_approve_title_grant = {
+	opinion = 5
+}
+
+faction_approve_TO = {
+	opinion = 5
+}
+
+faction_approve_wealth = {
+	opinion = 5
+}
+
+faction_disagree_liege = {
+	opinion = -25
+}
+
+faction_disapprove_CA = {
+	opinion = -5
+}
+
+faction_disapprove_council = {
+	opinion = -5
+}
+
+faction_disapprove_debt = {
+	opinion = -5
+}
+
+faction_disapprove_decadence = {
+	opinion = -5
+}
+
+faction_disapprove_levy_privilege = {
+	opinion = -5
+}
+
+faction_disapprove_peace = {
+	opinion = -5
+}
+
+faction_disapprove_piety = {
+	opinion = -5
+}
+
+faction_disapprove_prestige = {
+	opinion = -5
+}
+
+faction_disapprove_tax_privilege = {
+	opinion = -5
+}
+
+faction_disapprove_taxes = {
+	opinion = -5
+}
+
+faction_disapprove_title_grant = {
+	opinion = -5
+}
+
+faction_disapprove_TO = {
+	opinion = -5
+}
+
+faction_displeased = {
+	opinion = -5
+}
+
+faction_pleased = {
+	opinion = 5
+}
+
+failed_to_claim_my_title = {
+	opinion = -25
+}
+
+favoured_heiress = {
+	opinion = 50
+}
+
+force_vassalized = {
+	opinion = 50
+	months = 120
+}
+
+former_champion = {
+	opinion = 10
+}
+
+good_speech = {
+	opinion = 20
+}
+
+grateful_council_term = {
+	opinion = 15
+}
+
+great_speech = {
+	opinion = 40
+}
+
+guelf = {
+	opinion = -30
+	inherit = yes
+}
+
+holy_war_sanction = {
+	opinion = -50
+}
+
+husband_usurped_me = {
+	opinion = -50
+	crime = yes
+}
+
+jealous = {
+	opinion = -30
+}
+
+kidnapped_me = {
+	opinion = -100
+	months = 1200
+}
+
+killed_vassal = {
+	opinion = -20
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	execute_reason = yes # This one gives righteous cause to revoke ONE title
+}
+
+knows_barren = {
+	opinion = -25
+}
+
+left_behind = {
+	opinion = -25
+}
+
+left_to_rot = {
+	opinion = -40
+}
+
+legitimized_me = {
+	opinion = 20
+	months = 1200
+}
+
+let_adventurer_stay = {
+	opinion = 25
+}
+
+liberated = {
+	opinion = 20
+}
+
+loot_sacrifice = {
+	opinion = 10
+}
+
+loyal_vassal = {
+	opinion = 100
+	months = 1200
+}
+
+mad_heretic = {
+	opinion = -50
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	revoke_reason = yes # This one gives righteous cause to revoke ONE title
+}
+
+made_ultimatum = {
+	opinion = -25
+}
+
+my_champion = {
+	opinion = 100
+}
+
+not_allowed_to_loot = {
+	opinion = -10
+}
+
+okay_speech = {
+	opinion = 10
+}
+
+opinion_abandoned_dynasty = {
+	opinion = -20
+}
+
+opinion_adopted_hellenic_state_religion = {
+	opinion = 10
+	months = 60
+}
+
+opinion_aggressive_republic = {
+	opinion = -50
+}
+
+opinion_appointed_patriarch = {
+	opinion = 30
+}
+
+opinion_approved_law = {
+	opinion = 15
+}
+
+opinion_approved_succession_law = {
+	opinion = 25
+}
+
+opinion_attended_ceremony = {
+	opinion = 10
+}
+
+opinion_bad_succ_law_change = {
+	opinion = -50
+	months = 360
+}
+
+opinion_barbarian = {
+	opinion = -20
+}
+
+opinion_basileus_claimant = {
+	opinion = -20
+}
+
+opinion_basileus_granting = {
+	opinion = 30
+}
+
+opinion_basileus_patr_revoking = {
+	opinion = -25
+}
+
+opinion_basileus_usurping = {
+	opinion = -20
+} 
+
+opinion_basileus_weak = {
+	opinion = -5
+}
+
+opinion_battle_duel_target = {
+	opinion = 10
+	months = 2400
+}
+
+opinion_civil_war_loser = {
+	opinion = -25
+	months = 120
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	revoke_reason = yes # This one gives righteous cause to revoke ONE title
+	execute_reason = yes
+}
+
+opinion_civil_war_supporter = {
+	opinion = 25
+	months = 120
+}
+
+opinion_claimant_basileus = {
+	opinion = -20
+}
+
+opinion_cousin = {
+	opinion = 5
+}
+
+opinion_denied_estates = {
+	opinion = -25
+	months = 240
+}
+
+opinion_dispute = {
+	opinion = -20
+}
+
+opinion_estates_obj = {
+	opinion = 15
+}
+
+opinion_failed_blackmail = {
+	opinion = -30
+}
+
+opinion_father_fix = {
+	opinion = 50
+}
+
+opinion_forced_hellenic_state_religion = {
+	opinion = -10
+	months = 60
+}
+
+opinion_good_succ_law_change = {
+	opinion = 25
+	months = 240
+}
+
+opinion_granted_minor_estate = {
+	opinion = 10
+	months = 2400
+}
+
+opinion_held_divination = {
+	opinion = 15
+	months = 12
+}
+
+opinion_held_bad_divination = {
+	opinion = -5
+	months = 12
+}
+
+opinion_hellenic_state_religion = {
+	opinion = 10
+	months = 60
+}
+
+opinion_helped_temple = {
+	opinion = 20
+}
+
+opinion_honorary_title = {
+	opinion = 15
+}
+
+opinion_ignored_law = {
+	opinion = -15
+}
+
+opinion_ignored_succession_law = {
+	opinion = -25
+}
+
+opinion_independent = {
+	opinion = -100
+}
+
+opinion_kidnapped_kin = {
+	opinion = -50
+	prison_reason = yes # This one gives righteous cause to imprison a character
+	execute_reason = yes # This one gives righteous cause to revoke ONE title
+}
+
+opinion_kidnapper = {
+	opinion = -100
+	months = 1200
+	crime = yes
+}
+
+opinion_lowered_decadence_neg = {
+	opinion = -20
+}
+
+opinion_lowered_decadence_pos = {
+	opinion = 20
+}
+
+opinion_neutral_antipope = {
+	opinion = -10
+}
+
+opinion_new_courtier = {
+	opinion = 10
+}
+
+opinion_no_hellenic_state_religion = {
+	opinion = -10
+	months = 60
+}
+opinion_no_forced_hellenic_state_religion = {
+	opinion = 10
+	months = 60
+}
+
+opinion_nominated_vestalis = {
+	opinion = 10
+	months = 120
+}
+
+opinion_opposed_in_meeting = {
+	opinion = -15
+}
+
+opinion_opposes_antipope = {
+	opinion = 20
+}
+
+opinion_opposes_me_antipope = {
+	opinion = -20
+}
+
+opinion_outraged = {
+	opinion = -50
+	months = 120
+}
+
+opinion_pagan_advisor = {
+	opinion = 50
+}
+
+opinion_patron = {
+	opinion = 30
+}
+
+opinion_performed_coronation = {
+	opinion = 30
+}
+
+opinion_plot_help = {
+	opinion = 25
+}
+
+opinion_rebuffed_recruitment = {
+	opinion = -20
+}
+
+opinion_recent_plot = {
+	opinion = 0
+	months = 60
+}
+
+opinion_refused_divination = {
+	opinion = -15
+	months = 12
+}
+
+opinion_refused_legit_request = {
+	opinion = -25
+}
+
+opinion_refused_temple = {
+	opinion = -20
+}
+
+opinion_rejected_hellenic_state_religion = {
+	opinion = -10
+	months = 60
+}
+
+opinion_resentful = {
+	opinion = -10
+}
+
+opinion_scandal = {
+	opinion = -20
+}
+
+opinion_settled_jews = {
+	opinion = -10
+}
+
+opinion_spy_discovered_father = {
+	opinion = 0
+	months = 600
+}
+
+opinion_spy_discovered_lover = {
+	opinion = 0
+	months = 120
+}
+
+opinion_spy_enflamed_rivalry = {
+	opinion = 0
+	months = 120
+}
+
+opinion_spy_rumors = {
+	opinion = 0
+	months = 120
+}
+
+opinion_succ_law_change = {
+	opinion = -20
+	months = 120
+}
+
+opinion_support_claimant = {
+	opinion = 20
+}
+
+opinion_supported_in_meeting = {
+	opinion = 15
+}
+
+opinion_supports_antipope = {
+	opinion = -20
+}
+
+opinion_supports_me_antipope = {
+	opinion = 20
+}
+
+opinion_tailteann_participant = {
+	opinion = 10
+}
+
+opinion_tailteann_athlete = {
+	opinion = 20
+}
+
+opinion_tailteann_fighter = {
+	opinion = 20
+}
+
+opinion_tailteann_craftsman = {
+	opinion = 20
+}
+
+opinion_thankful = {
+	opinion = 10
+}
+
+opinion_tolerant = {
+	opinion = 5
+	months = 60
+}
+
+opinion_tolerant_muslims = {
+	opinion = 10
+	months = 60
+}
+
+opinion_tournament_spectator = {
+	opinion = 20
+}
+
+opinion_uncle_fix = {
+	opinion = 10
+}
+
+opinion_uncovered_plot = {
+	opinion = 25
+}
+
+outraged_disinheritance = {
+	opinion = -25
+}
+
+outraged_usurpation = {
+	opinion = -25
+}
+
+overthrew_me = {
+	opinion = -50
+	months = 2400
+}
+
+overthrown_ruler = {
+	opinion = -50
+	months = 2400
+}
+
+papal_champion = {
+	opinion = 100
+}
+
+pleasant_meeting = {
+	opinion = 10
+}
+
+poached_faction_member = {
+	opinion = -20
+}
+
+rallied_against_liege = {
+	opinion = -10
+}
+
+refused_adventurer = {
+	opinion = -10
+}
+
+refused_revolt_call = {
+	opinion = -20
+}
+
+refused_to_give_up_title = {
+	opinion = -25
+}
+
+refused_to_support_heir = {
+	opinion = -25
+}
+
+revolting_against = {
+	opinion = -10
+}
+
+sent_druidic_training = {
+	opinion = 10
+}
+
+spoke_on_lieges_behalf = {
+	opinion = 10
+}
+
+succ_law_disinherit = {
+	opinion = -100
+	crime = yes
+}
+
+supported_adventurer_against_me = {
+	opinion = -20
+}
+
+supported_civil_war = {
+	opinion = 25
+}
+
+supported_in_succession = {
+	opinion = 25
+}
+
+sworn_to_support_heir = {
+	opinion = 50
+}
+
+sympathetic_disinheritance = {
+	opinion = 25
+}
+
+sympathetic_to_cause = {
+	opinion = 25
+}
+
+temperate_pleaser = {
+	opinion = 10
+}
+
+tried_to_convert_me = {
+	opinion = -20
+}
+
+turned_adventurer_away = {
+	opinion = -25
+}
+
+turned_against_liege = {
+	opinion = -10
+}
+
+terrible_speech = {
+	opinion = -40
+}
+
+ultimatum_refused = {
+	opinion = -25
+}
+
+unpleasant_meeting = {
+	opinion = -10
+}
+
+upset_faction_decision = {
+	opinion = -20
+}

@@ -1,0 +1,856 @@
+decisions = {
+	ai_austerity = {
+		potential = {
+			ai = yes
+			is_ruler = yes
+			is_playable = yes
+			higher_tier_than = BARON
+			NOT = {
+				has_character_modifier = ai_austerity
+				has_character_modifier = ai_austerity_timer
+			}
+		}
+		allow = {
+			OR = {
+				#has a loan
+				check_variable = { which = "loan_amount" value = 49.5 }
+				#needs to get crowned
+				AND = {
+					trait = uncrowned
+					is_adult = yes
+				}
+				#is excommunicated
+				AND = {
+					OR = {
+						NOT = { has_character_flag = ask_for_repentance }
+						had_character_flag = { flag = ask_for_repentance days = 1825 }
+					}
+					rightful_religious_head_scope = {
+						ROOT = { excommunicated_for = PREV }
+					}
+				}
+				#any part of the realm is occupied
+				any_realm_title = { is_occupied = yes }
+				#losing a war
+				any_war = {
+					OR = {
+						attacker = {
+							character = ROOT
+							NOT = { war_score = -15 }
+						}
+						defender = {
+							character = ROOT
+							war_score = 15
+						}
+					}
+				}				
+				#king with enough titles to become emperor
+				AND = {
+					tier = KING
+					num_of_king_titles = 3
+					realm_size = 150
+				}
+				#duke with enough titles to become king
+				AND = {
+					tier = DUKE
+					num_of_duke_titles = 3
+				}
+				#has all the counties in a duchy and can create or usurp it
+				any_realm_province = {
+					duchy = {
+						OR = {
+							has_holder = no
+							holder_scope = {
+								NOT = { character = ROOT }
+								NOT = { is_liege_or_above = ROOT }
+								NOT = { is_vassal_or_below = ROOT }
+							}
+						}
+						NOT = {
+							any_playable_ruler = {
+								NOT = { character = ROOT }
+								NOT = { is_liege_or_above = ROOT }
+								any_demesne_province = {
+									duchy = {
+										title = PREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_character_modifier = {
+				name = ai_austerity
+				duration = 3650
+				hidden = yes
+			}
+			add_character_modifier = {
+				name = ai_austerity_timer
+				duration = 5475
+				hidden = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ai_austerity_baron = {
+		potential = {
+			ai = yes
+			is_ruler = yes
+			primary_title = { tier = BARON }
+			is_republic = yes
+			is_patrician = no
+			is_merchant_republic = no
+			independent = no
+			liege = {
+				NOT = { is_father = ROOT }
+				NOT = { is_mother = ROOT }
+			}
+			primary_title = {
+				location = {
+					port = yes
+					TECH_TRADE_PRACTICES = 1
+				}
+			}
+			OR = {
+				primary_title = { title = b_amalfi }
+				primary_title = { title = b_venezia }
+				primary_title = { title = b_genoa }
+				primary_title = { title = b_pisa }
+				primary_title = { title = b_ancona }
+				primary_title = { title = b_gaeta }
+				primary_title = { title = b_novgorod }
+				primary_title = { title = b_noli }
+				primary_title = { title = b_lubeck }
+				dejure_liege_title = { title = c_hamburg }
+				dejure_liege_title = { title = c_gotland }
+				primary_title = {
+					location = {
+						NOT = {
+							duchy = { capital_scope = { province_id = PREVPREV } }
+							kingdom = { capital_scope = { province_id = PREVPREV } }
+						}
+					}
+					OR = {
+						has_building = ct_port_3
+						has_building = ct_port_4
+						has_building = ct_port_5
+					}
+				}
+			}
+			NOT = {
+				has_character_modifier = ai_austerity
+				has_character_modifier = ai_austerity_timer
+			}
+		}
+		allow = {
+			wealth = 50
+			prisoner = no
+			is_adult = yes			
+			trait = ambitious
+			NOT = {
+				trait = incapable
+				trait = imbecile
+				trait = slow
+				trait = humble
+				trait = craven
+			}
+			liege = {
+				ai = yes
+				is_feudal = yes
+				ROOT = {
+					primary_title = {
+						dejure_liege_title = {
+							current_heir = { NOT = { character = PREVPREVPREV } }
+							holder_scope = { character = PREVPREVPREVPREV }
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_character_modifier = {
+				name = ai_austerity
+				duration = 3650
+				hidden = yes
+			}
+			add_character_modifier = {
+				name = ai_austerity_timer
+				duration = 5475
+				hidden = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ai_austerity_end = {
+		potential = {
+			ai = yes
+			is_ruler = yes
+			higher_tier_than = BARON
+			has_character_modifier = ai_austerity
+		}
+		allow = {
+			NOT = {
+				#has a loan
+				check_variable = { which = "loan_amount" value = 49.5 }
+				#needs to get crowned
+				AND = {
+					trait = uncrowned
+					is_adult = yes
+				}
+				#is excommunicated
+				AND = {
+					OR = {
+						NOT = { has_character_flag = ask_for_repentance }
+						had_character_flag = { flag = ask_for_repentance days = 1825 }
+					}
+					rightful_religious_head_scope = {
+						ROOT = { excommunicated_for = PREV }
+					}
+				}
+				#any part of the realm is occupied
+				any_realm_title = { is_occupied = yes }
+				#losing a war
+				any_war = {
+					OR = {
+						attacker = {
+							character = ROOT
+							NOT = { war_score = -15 }
+						}
+						defender = {
+							character = ROOT
+							war_score = 15
+						}
+					}
+				}				
+				#king with enough titles to become emperor
+				AND = {
+					tier = KING
+					num_of_king_titles = 3
+					realm_size = 150
+				}
+				#duke with enough titles to become king
+				AND = {
+					tier = DUKE
+					num_of_duke_titles = 3
+				}
+				#has all the counties in a duchy and can create or usurp it
+				any_realm_province = {
+					duchy = {
+						OR = {
+							has_holder = no
+							holder_scope = {
+								NOT = { character = ROOT }
+								NOT = { is_liege_or_above = ROOT }
+								NOT = { is_vassal_or_below = ROOT }
+							}
+						}
+						NOT = {
+							any_playable_ruler = {
+								NOT = { character = ROOT }
+								NOT = { is_liege_or_above = ROOT }
+								any_demesne_province = {
+									duchy = {
+										title = PREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			remove_character_modifier = ai_austerity
+			remove_character_modifier = ai_austerity_timer
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ai_maintenance = {
+		potential = {
+			has_landed_title = k_papal_state
+			OR = {
+				NOT = { has_global_flag = maintenance_pulse }
+				had_global_flag = { flag = maintenance_pulse days = 365 }
+			}
+		}
+		allow = { }
+		effect = {
+			clr_global_flag = maintenance_pulse
+			set_global_flag = maintenance_pulse
+			
+			# re-evaluate the contingent territory for each independent nation
+			character_event = { id = Plus.307 }
+			
+			# remove ai loan variable if now on a player
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					check_variable = { which = "loan_amount" value = 0.1 }
+				}
+				set_variable = { which = "loan_amount" value = 0 }
+				remove_character_modifier = loan_timer
+			}
+			
+			# misc fixes
+			if = {
+				limit = { is_ruler = yes }
+				character_event = { id = Plus.349 days = 1 random = 30 }
+				if = {
+					limit = { tier = emperor }
+					character_event = { id = Plus.303 } # Shatter empire if too small
+				}
+			}
+			any_independent_ruler = {
+				character_event = { id = Plus.349 days = 1 random = 30 }
+				if = {
+					limit = { tier = emperor }
+					character_event = { id = Plus.303 } # Shatter empire if too small
+				}
+				any_realm_lord = {
+					character_event = { id = Plus.349 }
+				}
+			}
+
+			# titular titles
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+					NOT = { has_global_flag = titular_titles_turned_off }
+				}
+				set_global_flag = titular_titles_turned_off
+				turn_off_titles_effect = yes
+			}
+			if = {
+				limit = {
+					NOT = { has_dlc = "Charlemagne" }
+					has_global_flag = titular_titles_turned_off
+				}
+				clr_global_flag = titular_titles_turned_off
+				turn_on_titles_effect = yes
+			}
+			
+			# de jure empire fix
+			any_title = {
+				limit = {
+					tier = KING
+					is_titular = no
+					NOT = { empire = { always = yes } }
+				}
+				de_jure_liege = e_placeholder
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ai_faction_maintenance = {
+		potential = {
+			has_landed_title = k_papal_state
+			OR = {
+				NOT = { has_global_flag = faction_maintenance_pulse }
+				had_global_flag = { flag = faction_maintenance_pulse days = 365 }
+			}
+		}
+		allow = { }
+		effect = {
+			clr_global_flag = faction_maintenance_pulse
+			set_global_flag = faction_maintenance_pulse
+			
+			#clean up flags
+			if = {
+				limit = { is_ruler = yes }
+				if = {
+					limit = {
+						war = no
+						OR = {
+							has_character_flag = faction_court_war
+							has_character_flag = faction_prosperity_war
+							has_character_flag = faction_glory_war
+							has_character_flag = faction_tradition_war
+							has_character_flag = faction_pretender_war
+							has_character_flag = faction_separatist_war
+							has_character_flag = faction_religious_war
+						}
+					}
+					clr_character_flag = faction_court_war
+					clr_character_flag = faction_prosperity_war
+					clr_character_flag = faction_glory_war
+					clr_character_flag = faction_tradition_war
+					clr_character_flag = faction_pretender_war
+					clr_character_flag = faction_separatist_war
+					clr_character_flag = faction_religious_war
+				}
+				if = {
+					limit = {
+						NOT = {
+							leads_faction = faction_court
+							leads_faction = faction_prosperity
+							leads_faction = faction_glory
+							leads_faction = faction_tradition
+						}
+						OR = {
+							has_character_flag = faction_meeting
+							has_character_flag = faction_meeting_called
+							has_character_flag = faction_meeting_begun
+							has_character_flag = faction_meeting_postponed
+							has_character_flag = faction_leadership_challenge
+						}
+					}
+					clr_character_flag = faction_meeting
+					clr_character_flag = can_make_demand
+					clr_character_flag = faction_meeting_called
+					clr_character_flag = faction_meeting_begun
+					clr_character_flag = faction_meeting_postponed
+					clr_character_flag = faction_leadership_challenge
+					clr_character_flag = faction_is_happy
+					clr_character_flag = faction_is_content
+					clr_character_flag = faction_is_unhappy
+					clr_character_flag = faction_is_angry
+					clr_character_flag = made_great_speech
+					clr_character_flag = made_good_speech
+					clr_character_flag = made_fair_speech
+					clr_character_flag = made_poor_speech
+					clr_character_flag = made_terrible_speech
+					clr_character_flag = liege_opinion_increased
+					clr_character_flag = liege_opinion_slightly_increased
+					clr_character_flag = liege_opinion_slightly_decreased
+					clr_character_flag = liege_opinion_decreased
+					clr_character_flag = demand_money_liege
+					clr_character_flag = demand_support_liege
+					clr_character_flag = faction_demand_refused
+				}
+				if = {
+					limit = {
+						OR = {
+							had_character_flag = { flag = faction_meeting_called days = 365 }
+							had_character_flag = { flag = faction_meeting_begun days = 365 }
+							had_character_flag = { flag = faction_leadership_challenge days = 365 }
+						}
+					}
+					clr_character_flag = can_make_demand
+					clr_character_flag = faction_meeting_called
+					clr_character_flag = faction_meeting_begun
+					clr_character_flag = faction_meeting_postponed
+					clr_character_flag = faction_leadership_challenge
+					clr_character_flag = faction_is_happy
+					clr_character_flag = faction_is_content
+					clr_character_flag = faction_is_unhappy
+					clr_character_flag = faction_is_angry
+					clr_character_flag = made_great_speech
+					clr_character_flag = made_good_speech
+					clr_character_flag = made_fair_speech
+					clr_character_flag = made_poor_speech
+					clr_character_flag = made_terrible_speech
+					clr_character_flag = liege_opinion_increased
+					clr_character_flag = liege_opinion_slightly_increased
+					clr_character_flag = liege_opinion_slightly_decreased
+					clr_character_flag = liege_opinion_decreased
+					clr_character_flag = demand_money_liege
+					clr_character_flag = demand_support_liege
+					clr_character_flag = faction_demand_refused
+				}
+				if = {
+					limit = { had_character_flag = { flag = former_faction_leader days = 7 } }
+					clr_character_flag = former_faction_leader
+				}
+				if = {
+					limit = { had_character_flag = { flag = faction_reboot days = 7 } }
+					clr_character_flag = faction_reboot
+				}
+				any_realm_lord = {
+					limit = { NOT = { character = ROOT } }
+					if = {
+						limit = {
+							war = no
+							OR = {
+								has_character_flag = faction_court_war
+								has_character_flag = faction_prosperity_war
+								has_character_flag = faction_glory_war
+								has_character_flag = faction_tradition_war
+								has_character_flag = faction_pretender_war
+								has_character_flag = faction_separatist_war
+								has_character_flag = faction_religious_war
+							}
+						}
+						clr_character_flag = faction_court_war
+						clr_character_flag = faction_prosperity_war
+						clr_character_flag = faction_glory_war
+						clr_character_flag = faction_tradition_war
+						clr_character_flag = faction_pretender_war
+						clr_character_flag = faction_separatist_war
+						clr_character_flag = faction_religious_war
+					}
+					if = {
+						limit = {
+							NOT = {
+								leads_faction = faction_court
+								leads_faction = faction_prosperity
+								leads_faction = faction_glory
+								leads_faction = faction_tradition
+							}
+							OR = {
+								has_character_flag = faction_meeting
+								has_character_flag = faction_meeting_called
+								has_character_flag = faction_meeting_begun
+								has_character_flag = faction_meeting_postponed
+								has_character_flag = faction_leadership_challenge
+							}
+						}
+						clr_character_flag = faction_meeting
+						clr_character_flag = can_make_demand
+						clr_character_flag = faction_meeting_called
+						clr_character_flag = faction_meeting_begun
+						clr_character_flag = faction_meeting_postponed
+						clr_character_flag = faction_leadership_challenge
+						clr_character_flag = faction_is_happy
+						clr_character_flag = faction_is_content
+						clr_character_flag = faction_is_unhappy
+						clr_character_flag = faction_is_angry
+						clr_character_flag = made_great_speech
+						clr_character_flag = made_good_speech
+						clr_character_flag = made_fair_speech
+						clr_character_flag = made_poor_speech
+						clr_character_flag = made_terrible_speech
+						clr_character_flag = liege_opinion_increased
+						clr_character_flag = liege_opinion_slightly_increased
+						clr_character_flag = liege_opinion_slightly_decreased
+						clr_character_flag = liege_opinion_decreased
+						clr_character_flag = demand_money_liege
+						clr_character_flag = demand_support_liege
+						clr_character_flag = faction_demand_refused
+					}
+					if = {
+						limit = {
+							OR = {
+								had_character_flag = { flag = faction_meeting_called days = 365 }
+								had_character_flag = { flag = faction_meeting_begun days = 365 }
+								had_character_flag = { flag = faction_leadership_challenge days = 365 }
+							}
+						}
+						clr_character_flag = can_make_demand
+						clr_character_flag = faction_meeting_called
+						clr_character_flag = faction_meeting_begun
+						clr_character_flag = faction_meeting_postponed
+						clr_character_flag = faction_leadership_challenge
+						clr_character_flag = faction_is_happy
+						clr_character_flag = faction_is_content
+						clr_character_flag = faction_is_unhappy
+						clr_character_flag = faction_is_angry
+						clr_character_flag = made_great_speech
+						clr_character_flag = made_good_speech
+						clr_character_flag = made_fair_speech
+						clr_character_flag = made_poor_speech
+						clr_character_flag = made_terrible_speech
+						clr_character_flag = liege_opinion_increased
+						clr_character_flag = liege_opinion_slightly_increased
+						clr_character_flag = liege_opinion_slightly_decreased
+						clr_character_flag = liege_opinion_decreased
+						clr_character_flag = demand_money_liege
+						clr_character_flag = demand_support_liege
+						clr_character_flag = faction_demand_refused
+					}
+					if = {
+						limit = { had_character_flag = { flag = former_faction_leader days = 7 } }
+						clr_character_flag = former_faction_leader
+					}
+					if = {
+						limit = { had_character_flag = { flag = faction_reboot days = 7 } }
+						clr_character_flag = faction_reboot
+					}
+				}
+			}
+			any_independent_ruler = {
+				limit = { NOT = { character = ROOT } }
+				if = {
+					limit = {
+						war = no
+						OR = {
+							has_character_flag = faction_court_war
+							has_character_flag = faction_prosperity_war
+							has_character_flag = faction_glory_war
+							has_character_flag = faction_tradition_war
+							has_character_flag = faction_pretender_war
+							has_character_flag = faction_separatist_war
+							has_character_flag = faction_religious_war
+						}
+					}
+					clr_character_flag = faction_court_war
+					clr_character_flag = faction_prosperity_war
+					clr_character_flag = faction_glory_war
+					clr_character_flag = faction_tradition_war
+					clr_character_flag = faction_pretender_war
+					clr_character_flag = faction_separatist_war
+					clr_character_flag = faction_religious_war
+				}
+				if = {
+					limit = {
+						NOT = {
+							leads_faction = faction_court
+							leads_faction = faction_prosperity
+							leads_faction = faction_glory
+							leads_faction = faction_tradition
+						}
+						OR = {
+							has_character_flag = faction_meeting
+							has_character_flag = faction_meeting_called
+							has_character_flag = faction_meeting_begun
+							has_character_flag = faction_meeting_postponed
+							has_character_flag = faction_leadership_challenge
+						}
+					}
+					clr_character_flag = faction_meeting
+					clr_character_flag = can_make_demand
+					clr_character_flag = faction_meeting_called
+					clr_character_flag = faction_meeting_begun
+					clr_character_flag = faction_meeting_postponed
+					clr_character_flag = faction_leadership_challenge
+					clr_character_flag = faction_is_happy
+					clr_character_flag = faction_is_content
+					clr_character_flag = faction_is_unhappy
+					clr_character_flag = faction_is_angry
+					clr_character_flag = made_great_speech
+					clr_character_flag = made_good_speech
+					clr_character_flag = made_fair_speech
+					clr_character_flag = made_poor_speech
+					clr_character_flag = made_terrible_speech
+					clr_character_flag = liege_opinion_increased
+					clr_character_flag = liege_opinion_slightly_increased
+					clr_character_flag = liege_opinion_slightly_decreased
+					clr_character_flag = liege_opinion_decreased
+					clr_character_flag = demand_money_liege
+					clr_character_flag = demand_support_liege
+					clr_character_flag = faction_demand_refused
+				}
+				if = {
+					limit = {
+						OR = {
+							had_character_flag = { flag = faction_meeting_called days = 365 }
+							had_character_flag = { flag = faction_meeting_begun days = 365 }
+							had_character_flag = { flag = faction_leadership_challenge days = 365 }
+						}
+					}
+					clr_character_flag = can_make_demand
+					clr_character_flag = faction_meeting_called
+					clr_character_flag = faction_meeting_begun
+					clr_character_flag = faction_meeting_postponed
+					clr_character_flag = faction_leadership_challenge
+					clr_character_flag = faction_is_happy
+					clr_character_flag = faction_is_content
+					clr_character_flag = faction_is_unhappy
+					clr_character_flag = faction_is_angry
+					clr_character_flag = made_great_speech
+					clr_character_flag = made_good_speech
+					clr_character_flag = made_fair_speech
+					clr_character_flag = made_poor_speech
+					clr_character_flag = made_terrible_speech
+					clr_character_flag = liege_opinion_increased
+					clr_character_flag = liege_opinion_slightly_increased
+					clr_character_flag = liege_opinion_slightly_decreased
+					clr_character_flag = liege_opinion_decreased
+					clr_character_flag = demand_money_liege
+					clr_character_flag = demand_support_liege
+					clr_character_flag = faction_demand_refused
+				}
+				if = {
+					limit = { had_character_flag = { flag = former_faction_leader days = 7 } }
+					clr_character_flag = former_faction_leader
+				}
+				if = {
+					limit = { had_character_flag = { flag = faction_reboot days = 7 } }
+					clr_character_flag = faction_reboot
+				}
+				any_realm_lord = {
+					limit = { NOT = { character = PREV } }
+					if = {
+						limit = {
+							war = no
+							OR = {
+								has_character_flag = faction_court_war
+								has_character_flag = faction_prosperity_war
+								has_character_flag = faction_glory_war
+								has_character_flag = faction_tradition_war
+								has_character_flag = faction_pretender_war
+								has_character_flag = faction_separatist_war
+								has_character_flag = faction_religious_war
+							}
+						}
+						clr_character_flag = faction_court_war
+						clr_character_flag = faction_prosperity_war
+						clr_character_flag = faction_glory_war
+						clr_character_flag = faction_tradition_war
+						clr_character_flag = faction_pretender_war
+						clr_character_flag = faction_separatist_war
+						clr_character_flag = faction_religious_war
+					}
+					if = {
+						limit = {
+							NOT = {
+								leads_faction = faction_court
+								leads_faction = faction_prosperity
+								leads_faction = faction_glory
+								leads_faction = faction_tradition
+							}
+							OR = {
+								has_character_flag = faction_meeting
+								has_character_flag = faction_meeting_called
+								has_character_flag = faction_meeting_begun
+								has_character_flag = faction_meeting_postponed
+								has_character_flag = faction_leadership_challenge
+							}
+						}
+						clr_character_flag = faction_meeting
+						clr_character_flag = can_make_demand
+						clr_character_flag = faction_meeting_called
+						clr_character_flag = faction_meeting_begun
+						clr_character_flag = faction_meeting_postponed
+						clr_character_flag = faction_leadership_challenge
+						clr_character_flag = faction_is_happy
+						clr_character_flag = faction_is_content
+						clr_character_flag = faction_is_unhappy
+						clr_character_flag = faction_is_angry
+						clr_character_flag = made_great_speech
+						clr_character_flag = made_good_speech
+						clr_character_flag = made_fair_speech
+						clr_character_flag = made_poor_speech
+						clr_character_flag = made_terrible_speech
+						clr_character_flag = liege_opinion_increased
+						clr_character_flag = liege_opinion_slightly_increased
+						clr_character_flag = liege_opinion_slightly_decreased
+						clr_character_flag = liege_opinion_decreased
+						clr_character_flag = demand_money_liege
+						clr_character_flag = demand_support_liege
+						clr_character_flag = faction_demand_refused
+					}
+					if = {
+						limit = {
+							OR = {
+								had_character_flag = { flag = faction_meeting_called days = 365 }
+								had_character_flag = { flag = faction_meeting_begun days = 365 }
+								had_character_flag = { flag = faction_leadership_challenge days = 365 }
+							}
+						}
+						clr_character_flag = can_make_demand
+						clr_character_flag = faction_meeting_called
+						clr_character_flag = faction_meeting_begun
+						clr_character_flag = faction_meeting_postponed
+						clr_character_flag = faction_leadership_challenge
+						clr_character_flag = faction_is_happy
+						clr_character_flag = faction_is_content
+						clr_character_flag = faction_is_unhappy
+						clr_character_flag = faction_is_angry
+						clr_character_flag = made_great_speech
+						clr_character_flag = made_good_speech
+						clr_character_flag = made_fair_speech
+						clr_character_flag = made_poor_speech
+						clr_character_flag = made_terrible_speech
+						clr_character_flag = liege_opinion_increased
+						clr_character_flag = liege_opinion_slightly_increased
+						clr_character_flag = liege_opinion_slightly_decreased
+						clr_character_flag = liege_opinion_decreased
+						clr_character_flag = demand_money_liege
+						clr_character_flag = demand_support_liege
+						clr_character_flag = faction_demand_refused
+					}
+					if = {
+						limit = { had_character_flag = { flag = former_faction_leader days = 7 } }
+						clr_character_flag = former_faction_leader
+					}
+					if = {
+						limit = { had_character_flag = { flag = faction_reboot days = 7 } }
+						clr_character_flag = faction_reboot
+					}
+				}
+			}
+			
+			#faction system
+			if = {
+				limit = {
+					is_nomadic = no
+					higher_tier_than = COUNT
+					num_of_vassals = 1
+					any_vassal = {
+						OR = {
+							leads_faction = faction_court
+							leads_faction = faction_prosperity
+							leads_faction = faction_glory
+							leads_faction = faction_tradition
+						}
+					}
+				}
+				set_character_flag = annual_faction_maintenance
+				character_event = { id = PlusFaction.200 days = 5 random = 55 } #faction maintenance event
+				any_realm_lord = {
+					limit = {
+						NOT = { character = ROOT }
+						is_nomadic = no
+						higher_tier_than = COUNT
+						num_of_vassals = 1
+						any_vassal = {
+							OR = {
+								leads_faction = faction_court
+								leads_faction = faction_prosperity
+								leads_faction = faction_glory
+								leads_faction = faction_tradition
+							}
+						}
+					}
+					set_character_flag = annual_faction_maintenance
+					character_event = { id = PlusFaction.200 days = 5 random = 55 } #faction maintenance event
+				}
+			}
+			any_independent_ruler = {
+				limit = {
+					NOT = { character = ROOT }
+					is_nomadic = no
+					higher_tier_than = COUNT
+					num_of_vassals = 1
+					any_vassal = {
+						OR = {
+							leads_faction = faction_court
+							leads_faction = faction_prosperity
+							leads_faction = faction_glory
+							leads_faction = faction_tradition
+						}
+					}
+				}
+				set_character_flag = annual_faction_maintenance
+				character_event = { id = PlusFaction.200 days = 5 random = 55 } #faction maintenance event
+				any_realm_lord = {
+					limit = {
+						NOT = { character = PREV }
+						is_nomadic = no
+						higher_tier_than = COUNT
+						num_of_vassals = 1
+						any_vassal = {
+							OR = {
+								leads_faction = faction_court
+								leads_faction = faction_prosperity
+								leads_faction = faction_glory
+								leads_faction = faction_tradition
+							}
+						}
+					}
+					set_character_flag = annual_faction_maintenance
+					character_event = { id = PlusFaction.200 days = 5 random = 55 } #faction maintenance event
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
+
