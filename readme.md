@@ -3,6 +3,16 @@ This mod is based on both of them and the goal of this mod is to implement the b
 
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
+<b>Changelog:</b><br>
+<b>v0.1.1:</b><br>
+-Decreased child mortality, still much larger than vanilla, but 60% of children will no longer die.<br>
+-Removed some of the most ridiculous and pointless events from VIET (toothbrushing and cocks).<br>
+-Decreased revolt risk, caused by angered peasants event.<br>
+-Fixed display of modified religions.<br>
+-Removed overlap of music files.<br>
+<b>v0.1:</b><br>
+Initial release.<br>
+
 <b>Current changes, compared to CK2+:</b><br>
 -Centralization law system from EMF.<br>
 -Negative tax modifier on buildings from EMF and rebalanced tax of buildings, but no levy modifier. The logic behind this is that buildings require maintanence, hence the tax penalty. The levy modifier was not logical and destroyed the balance by giving rulers with many buildings too many levies, de facto creating a regular army way before it started to exist historically.<br>
@@ -24,5 +34,5 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 -Testing and debugging.<br>
 -Clean up unused scripts and assets.<br>
 
-<b>Known issues:</b>
-No issues found at the moment.
+<b>Known issues:</b><br>
+-Display of religions is not perfect due to the modified religion icon strip, but it's tolerable and no longer produces glitches with new CK2+ religions.

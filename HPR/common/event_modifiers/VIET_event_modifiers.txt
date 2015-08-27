@@ -15,9 +15,9 @@
 #  7 - Prestige 			- 25
 #  8 - Piety 				- 26
 #  9 - Titles 				- 27
-# 10 - Council 				- 28 
+# 10 - Council 				- 28
 # 11 - Laws 				- 29
-# 12 - Tech 				- 30 
+# 12 - Tech 				- 30
 # 13 - Military 			- 31
 # 14 - Plots 				- 32
 # 15 - Messages 			- 33
@@ -103,12 +103,12 @@ best_meal_in_ages = {
 	icon = 3
 }
 paranoid_coward = {
-	monthly_character_prestige = -0.02	
+	monthly_character_prestige = -0.02
 	intrigue = 1
 	icon = 23
 }
 reminiscing = {
-	monthly_character_prestige = 0.01	
+	monthly_character_prestige = 0.01
 	diplomacy = 1
 	icon = 18
 }
@@ -583,7 +583,7 @@ VIET_loves_own_children = { #I'm not talking about incest you sickos
 	monthly_character_piety = 0.05
 	icon = 18
 }
-VIET_practical_ruler = { 
+VIET_practical_ruler = {
 	intrigue = 1
 	icon = 5
 }
@@ -770,7 +770,7 @@ VIET_im_curious = { #cf chitanda
 }
 VIET_leader_angered_peasants = {
 	monthly_character_prestige = -0.05
-	global_revolt_risk = 0.1
+	global_revolt_risk = 0.03
 	icon = 31
 }
 VIET_pun_lover = {

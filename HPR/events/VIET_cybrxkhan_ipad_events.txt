@@ -15,7 +15,6 @@
 # 2040-2044: Sogdian/Silk Road
 # 2045-2049: Time
 # 2050-2099: Really Generic Stuff
-# 2100-2109: Toothbrush
 # 2110-2119: Eye Candy!
 # 2120-2139: Incest Mmm
 # 2140-2159: Hummus
@@ -59,7 +58,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
         }
         weight_multiplier = {
                 days = 1
@@ -141,7 +140,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no                        
+                is_abroad = no
         }
         weight_multiplier = {
                 days = 1
@@ -208,7 +207,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
                 any_courtier = {
                             NOT = { trait = incapable }
                         war = no
@@ -348,7 +347,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
         }
         weight_multiplier = {
                 days = 1
@@ -420,7 +419,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
                 OR = {
                         culture_group = central_germanic
                         culture_group = west_slavic
@@ -487,7 +486,7 @@ character_event = {
                 random_list = {
                         80 = {}
                         20 = { add_trait = paranoid }
-                }                
+                }
         }
         option = {
                 name = VIETmisc.2004.b
@@ -501,7 +500,7 @@ character_event = {
                 random_list = {
                         70 = {}
                         30 = { add_trait = cynical }
-                }                
+                }
         }
 }
 
@@ -518,7 +517,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
                 OR = {
                         culture_group = central_african
                         culture_group = west_african
@@ -582,7 +581,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
                 OR = {
                         culture = greek
                         culture = griko
@@ -690,7 +689,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
         }
         weight_multiplier = {
         		days = 1
@@ -754,7 +753,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
         }
         weight_multiplier = {
         		days = 1
@@ -826,7 +825,7 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		is_abroad = no        
+		is_abroad = no
         }
         weight_multiplier = {
         		days = 1
@@ -906,7 +905,7 @@ character_event = {
                 war = no
                 in_command = no
                 is_abroad = no
-		culture_group = central_germanic        
+		culture_group = central_germanic
         }
 
         weight_multiplier = {
@@ -978,18 +977,18 @@ character_event = {
                 war = no
                 in_command = no
                 is_abroad = no
-		NOT = { 
+		NOT = {
 			OR = {
 				culture = greek
 				culture = griko
-			} 
+			}
 		}
 		any_realm_province = {
 			OR = {
 				culture = greek
 				culture = griko
-			} 
-		}		
+			}
+		}
         }
 
         weight_multiplier = {
@@ -1041,14 +1040,14 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_tried_something_new
 			duration = 365
-		}              
+		}
         }
         option = {
                 name = VIETmisc.2011.b
 		random_list = {
 			75 = {}
 			25 = { add_trait = proud }
-		}          
+		}
         }
 }
 
@@ -1082,7 +1081,7 @@ character_event = {
 				}
 			}
 		}
-		year = 1000        
+		year = 1000
         }
 
         weight_multiplier = {
@@ -1167,7 +1166,7 @@ character_event = {
 			culture_group = gallic
 			culture_group = iberian
 			culture_group = north_african
-		}     
+		}
         }
 
         weight_multiplier = {
@@ -1236,7 +1235,7 @@ character_event = {
                 war = no
                 in_command = no
                 is_abroad = no
-		religion_group = christian        
+		religion_group = christian
         }
 
         weight_multiplier = {
@@ -1340,7 +1339,7 @@ character_event = {
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
         }
 
         weight_multiplier = {
@@ -1389,8 +1388,8 @@ character_event = {
 
         option = {
                 name = VIETmisc.2015.a
-		add_character_modifier = { 
-			name = VIET_spinach_popeye 
+		add_character_modifier = {
+			name = VIET_spinach_popeye
 			duration = -1
 			hidden = yes
 		}
@@ -1419,9 +1418,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			culture_group = israelite
@@ -1462,7 +1461,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious 
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -1542,10 +1541,10 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		OR = {
 			is_patrician = yes
 			is_merchant_republic = yes
@@ -1580,7 +1579,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = greedy 
+			trait = greedy
 		}
 		modifier = {
 			factor = 0.5
@@ -1642,10 +1641,10 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		religion_group = christian
 	}
 
@@ -1677,7 +1676,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = charitable 
+			trait = charitable
 		}
 		modifier = {
 			factor = 0.5
@@ -1743,10 +1742,10 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		any_vassal = {
 			is_adult = yes
 			NOT = { trait = incapable }
@@ -1782,7 +1781,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = charitable 
+			trait = charitable
 		}
 		modifier = {
 			factor = 0.5
@@ -1869,10 +1868,10 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 	}
 
 	weight_multiplier = {
@@ -1895,7 +1894,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = trusting 
+			trait = trusting
 		}
 		modifier = {
 			factor = 0.5
@@ -2014,9 +2013,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		religion = dulcinian
 	}
@@ -2041,7 +2040,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = just 
+			trait = just
 		}
 		modifier = {
 			factor = 0.5
@@ -2089,12 +2088,12 @@ character_event = {
 		name = VIETmisc.2021.b
 		random_list = {
 			50 = { piety = 5 }
-			50 = { piety = -5 }			
+			50 = { piety = -5 }
 		}
 		random_list = {
 			70 = { }
-			30 = { add_trait = kind }			
-		}			
+			30 = { add_trait = kind }
+		}
 	}
 	option = {#dont be a hypocrite
 		name = VIETmisc.2021.c
@@ -2119,9 +2118,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		religion = dulcinian
 	}
@@ -2146,7 +2145,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = just 
+			trait = just
 		}
 		modifier = {
 			factor = 0.5
@@ -2195,8 +2194,8 @@ character_event = {
 		piety = -4
 		random_list = {
 			70 = { }
-			30 = { add_trait = cynical }			
-		}			
+			30 = { add_trait = cynical }
+		}
 	}
 }
 
@@ -2217,9 +2216,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		religion = dulcinian
 		any_vassal = {
@@ -2232,7 +2231,7 @@ character_event = {
 			NOT = { trait = charitable }
 			NOT = { trait = temperate }
 			NOT = { trait = kind }
-			NOT = { trait = just }			
+			NOT = { trait = just }
 		}
 	}
 
@@ -2256,7 +2255,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = just 
+			trait = just
 		}
 		modifier = {
 			factor = 0.5
@@ -2294,16 +2293,16 @@ character_event = {
 			NOT = { trait = charitable }
 			NOT = { trait = temperate }
 			NOT = { trait = kind }
-			NOT = { trait = just }	
+			NOT = { trait = just }
 			}
 			wealth = -50
 			opinion = {
 				modifier = opinion_angry
 				who = ROOT
 				years = 5
-			}					
+			}
 		}
-		
+
 	}
 	option = {#its an ideal
 		name = VIETmisc.2023.b
@@ -2319,14 +2318,14 @@ character_event = {
 			NOT = { trait = charitable }
 			NOT = { trait = temperate }
 			NOT = { trait = kind }
-			NOT = { trait = just }	
+			NOT = { trait = just }
 			}
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT
 				years = 1
-			}					
-		}	
+			}
+		}
 	}
 }
 
@@ -2347,9 +2346,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		religion = dulcinian
 	}
@@ -2374,7 +2373,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = just 
+			trait = just
 		}
 		modifier = {
 			factor = 0.5
@@ -2445,9 +2444,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		religion = dulcinian
 		any_demesne_province = {
@@ -2475,7 +2474,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 4
-			trait = slothful 
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -2540,9 +2539,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = breton
 		NOT = { has_character_flag = VIET_met_ankou }
@@ -2568,7 +2567,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious 
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -2608,10 +2607,10 @@ character_event = {
 		random_list = {
 			70 = { }
 			20 = { add_trait = craven }
-			10 = { add_trait = paranoid }			
-		}			
+			10 = { add_trait = paranoid }
+		}
 	}
-	option = {#ignore 
+	option = {#ignore
 		name = VIETmisc.2026.c
 		set_character_flag = VIET_met_ankou
 	}
@@ -2663,9 +2662,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = breton
 		any_courtier = {
@@ -2697,7 +2696,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious 
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -2779,9 +2778,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = breton
 	}
@@ -2806,7 +2805,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious 
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -2889,9 +2888,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = cornish
 		capital_scope = {
@@ -2920,7 +2919,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = wroth 
+			trait = wroth
 		}
 		modifier = {
 			factor = 0.5
@@ -2980,9 +2979,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = cornish
 		any_demesne_province = {
@@ -3011,7 +3010,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble 
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -3099,9 +3098,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = cornish
 		religion_group = christian
@@ -3127,7 +3126,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble 
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -3222,9 +3221,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			culture = breton
@@ -3242,7 +3241,7 @@ character_event = {
 				culture = norsebriton
 			}
 			NOT = { has_province_modifier = VIET_rowan_tree }
-		}			
+		}
 	}
 
 	weight_multiplier = {
@@ -3265,7 +3264,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gardener 
+			trait = gardener
 		}
 		modifier = {
 			factor = 0.5
@@ -3341,9 +3340,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			culture = breton
@@ -3367,7 +3366,7 @@ character_event = {
 				kingdom = { title = k_brittany }
 				kingdom = { title = k_britain }
 			}
-		}			
+		}
 	}
 
 	weight_multiplier = {
@@ -3390,7 +3389,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious 
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -3464,9 +3463,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			culture = breton
@@ -3474,7 +3473,7 @@ character_event = {
 			culture = welsh
 			culture = cumbric
 			culture = norsebriton
-		}	
+		}
 	}
 
 	weight_multiplier = {
@@ -3497,7 +3496,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = shy 
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -3572,9 +3571,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			any_demesne_province = {
@@ -3702,9 +3701,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			capital_scope = {
@@ -3725,7 +3724,7 @@ character_event = {
 					OR = {
 						province_id = 479
 						province_id = 480
-					}					
+					}
 				}
 			}
 		}
@@ -3809,9 +3808,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		any_demesne_province = {
 			OR = {
@@ -3913,9 +3912,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			capital_scope = {
@@ -3932,10 +3931,10 @@ character_event = {
 					OR = {
 						province_id = 479
 						province_id = 480
-					}					
+					}
 				}
 			}
-		}		
+		}
 	}
 
 	weight_multiplier = {
@@ -3958,7 +3957,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = shy 
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -4013,7 +4012,7 @@ character_event = {
 					modifier = opinion_happy
 					who = ROOT
 					years = 5
-			}		
+			}
 		}
 	}
 	option = {#ok
@@ -4032,7 +4031,7 @@ character_event = {
 					modifier = opinion_happy
 					who = ROOT
 					years = 5
-			}		
+			}
 		}
 	}
 }
@@ -4056,9 +4055,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture_group = serindian
 	}
@@ -4183,9 +4182,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = sogdian
 	}
@@ -4288,9 +4287,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = sogdian
 	}
@@ -4385,9 +4384,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = sogdian
 	}
@@ -4463,9 +4462,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		culture = soghdian
 		NOT = { has_character_flag = VIET_sogdian_child_learns }
@@ -4540,24 +4539,24 @@ character_event = {
 	id = VIETmisc.10050
 	desc = VIETmisc.10050.desc
 	picture = GFX_evt_monastery_monks
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
 		in_command = no
 		religion = fraticelli
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -4565,7 +4564,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = zealous
@@ -4573,7 +4572,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = cynical
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = charitable
@@ -4581,7 +4580,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = greedy
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = diligent
@@ -4589,7 +4588,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = slothful
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = just
@@ -4597,7 +4596,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = arbitrary
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = humble
@@ -4607,15 +4606,15 @@ character_event = {
 			trait = proud
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.10050.a"  #ok
 		piety = 2
-	}		
+	}
 	option = {
 		name = "VIETmisc.10050.b"  #ok
 		prestige = 2
-	}	
+	}
 }
 
 
@@ -4624,14 +4623,14 @@ character_event = {
 	id = VIETmisc.10051
 	desc = VIETmisc.10051.desc
 	picture = GFX_evt_monastery_monks
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
@@ -4644,10 +4643,10 @@ character_event = {
 		}
 		NOT ={ has_character_flag = VIET_fraticelli_preacher_learning }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -4655,7 +4654,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = scholar
@@ -4663,7 +4662,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = hedonist
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = charitable
@@ -4671,7 +4670,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = greedy
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = diligent
@@ -4679,7 +4678,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = slothful
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = just
@@ -4687,7 +4686,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = arbitrary
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = humble
@@ -4697,7 +4696,7 @@ character_event = {
 			trait = proud
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.10051.a"  #ok
 		set_character_flag = VIET_fraticelli_preacher_learning
@@ -4719,7 +4718,7 @@ character_event = {
 			20 = { change_intrigue = 1 }
 			20 = { change_learning = 1 }
 		}
-	}	
+	}
 }
 
 # Dirty Fraticelli
@@ -4727,14 +4726,14 @@ character_event = {
 	id = VIETmisc.10052
 	desc = VIETmisc.10052.desc
 	picture = GFX_evt_heretic
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
@@ -4750,10 +4749,10 @@ character_event = {
 			religion = fraticelli
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = wroth
@@ -4761,7 +4760,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = patient
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = diligent
@@ -4769,7 +4768,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = slothful
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = just
@@ -4777,7 +4776,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = arbitrary
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = proud
@@ -4785,7 +4784,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = humble
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -4795,7 +4794,7 @@ character_event = {
 			trait = shy
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.10052.a"  #ok
 		piety = -5
@@ -4815,7 +4814,7 @@ character_event = {
 				years = 1
 			}
 		}
-	}	
+	}
 	option = {
 		name = "VIETmisc.10052.b"  #ok
 		prestige = -5
@@ -4834,7 +4833,7 @@ character_event = {
 				years = 1
 			}
 		}
-	}	
+	}
 }
 
 # Fraticelli Preachers Passing by
@@ -4842,14 +4841,14 @@ character_event = {
 	id = VIETmisc.10053
 	desc = VIETmisc.10053.desc
 	picture = GFX_evt_monastery_monks
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
@@ -4860,10 +4859,10 @@ character_event = {
 			religion = fraticelli
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 3
 			trait = charitable
@@ -4871,7 +4870,7 @@ character_event = {
 		modifier = {
 			factor = 0.25
 			trait = greedy
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = kind
@@ -4879,7 +4878,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = cruel
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = diligent
@@ -4887,7 +4886,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = slothful
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = just
@@ -4895,7 +4894,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = arbitrary
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = proud
@@ -4903,7 +4902,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = humble
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -4913,12 +4912,12 @@ character_event = {
 			trait = shy
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.10053.a"  #ok
 		piety = 5
 		wealth = -2
-	}	
+	}
 }
 
 
@@ -4931,14 +4930,14 @@ character_event = {
 	id = VIETmisc.2045
 	desc = VIETmisc.2045.desc
 	picture = GFX_evt_courtiers_talking
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
@@ -4946,10 +4945,10 @@ character_event = {
 		year = 1200
 		NOT = { has_character_flag = VIET_has_hourglass }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = charitable
@@ -4957,7 +4956,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = greedy
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = kind
@@ -4965,7 +4964,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = cruel
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = slothful
@@ -4973,7 +4972,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = diligent
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = ambitious
@@ -4981,7 +4980,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = content
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -4989,7 +4988,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = patient
@@ -4997,7 +4996,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = wroth
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = scholar
@@ -5011,7 +5010,7 @@ character_event = {
 			NOT = { year = 1350 }
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.2045.a"  #ok
 		set_character_flag = VIET_has_hourglass
@@ -5019,7 +5018,7 @@ character_event = {
 			name = VIET_efficient_time
 			duration = 1111
 		}
-	}	
+	}
 }
 
 # Overslept
@@ -5027,23 +5026,23 @@ character_event = {
 	id = VIETmisc.2046
 	desc = VIETmisc.2046.desc
 	picture = GFX_evt_bad_news
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
 		in_command = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 4
 			trait = slothful
@@ -5051,7 +5050,7 @@ character_event = {
 		modifier = {
 			factor = 0.25
 			trait = diligent
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = content
@@ -5059,7 +5058,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = ambitious
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = shy
@@ -5067,7 +5066,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = gregarious
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = lustful
@@ -5075,7 +5074,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = chaste
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = patient
@@ -5083,7 +5082,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = wroth
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = arbitrary
@@ -5093,11 +5092,11 @@ character_event = {
 			trait = just
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.2046.a"  #ok
 		prestige = -3
-	}	
+	}
 }
 
 # Diligent servant
@@ -5105,23 +5104,23 @@ character_event = {
 	id = VIETmisc.2047
 	desc = VIETmisc.2047.desc
 	picture = GFX_evt_courtiers_talking
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
 		in_command = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = slothful
@@ -5129,7 +5128,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = diligent
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = content
@@ -5137,7 +5136,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = ambitious
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -5145,7 +5144,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = kind
@@ -5153,7 +5152,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = cruel
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = patient
@@ -5161,7 +5160,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = wroth
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = just
@@ -5171,14 +5170,14 @@ character_event = {
 			trait = arbitrary
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.2047.a"  #ok
 		add_character_modifier = {
 			name = VIET_efficient_time
 			duration = 2222
 		}
-	}	
+	}
 }
 
 # Fire in village
@@ -5186,24 +5185,24 @@ character_event = {
 	id = VIETmisc.2048
 	desc = VIETmisc.2048.desc
 	picture = GFX_evt_courtiers_talking
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
 		in_command = no
 		religion_group = christian
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = slothful
@@ -5211,7 +5210,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = diligent
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = content
@@ -5219,7 +5218,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = ambitious
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -5227,7 +5226,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = kind
@@ -5235,7 +5234,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = cruel
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = patient
@@ -5243,7 +5242,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = wroth
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = just
@@ -5253,11 +5252,11 @@ character_event = {
 			trait = arbitrary
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.2048.a"  #ok
 		piety = 2
-	}	
+	}
 	option = {
 		name = "VIETmisc.2048.b"  #help
 		wealth = -12
@@ -5268,7 +5267,7 @@ character_event = {
 			10 = { add_trait = humble }
 			60 = {}
 		}
-	}	
+	}
 }
 
 # Noontime hijinks
@@ -5276,14 +5275,14 @@ character_event = {
 	id = VIETmisc.2049
 	desc = VIETmisc.2049.desc
 	picture = GFX_evt_skyrim_forest
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		is_ruler = yes
 		war = no
@@ -5291,10 +5290,10 @@ character_event = {
 		month = 4
 		NOT = { month = 9 }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = diligent
@@ -5302,7 +5301,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = slothful
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = ambitious
@@ -5310,7 +5309,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = content
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -5318,7 +5317,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = wroth
@@ -5326,7 +5325,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = patient
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = humble
@@ -5334,7 +5333,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = proud
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = gardener
@@ -5344,7 +5343,7 @@ character_event = {
 			trait = scholar
 		}
 	}
-	
+
 	option = {
 		name = "VIETmisc.2049.a"  #ok
 		random = {
@@ -5360,7 +5359,7 @@ character_event = {
 				remove_trait = diligent
 			}
 		}
-	}		
+	}
 	option = {
 		name = "VIETmisc.2049.b"  #ok
 		tooltip_info = diligent
@@ -5371,7 +5370,7 @@ character_event = {
 			chance = 20
 			add_trait = ill
 		}
-	}	
+	}
 }
 
 
@@ -5390,14 +5389,14 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { trait = perceptive }
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -5496,7 +5495,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -5506,7 +5505,7 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -5560,7 +5559,7 @@ character_event = {
 		random_courtier = {
 			limit = {
 				is_adult = yes
-				NOT = { trait = incapable }			
+				NOT = { trait = incapable }
 			}
 			opinion = {
 				modifier = opinion_comforted_me
@@ -5577,7 +5576,7 @@ character_event = {
 		random_courtier = {
 			limit = {
 				is_adult = yes
-				NOT = { trait = incapable }			
+				NOT = { trait = incapable }
 			}
 			opinion = {
 				modifier = opinion_angry
@@ -5603,14 +5602,14 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		trait = depressed
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -5672,14 +5671,14 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		trait = depressed
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -5760,10 +5759,10 @@ character_event = {
 	picture = GFX_evt_child_play
 
 	is_triggered_only = yes
-	
+
 	#min_age = 0 #lol stoopid cybrxkhan
 	max_age = 3
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -5771,7 +5770,7 @@ character_event = {
 		independent = no
 		NOT = { has_character_modifier = VIET_vomitted_on_someone }
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -5877,13 +5876,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6068,7 +6067,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_ridiculous_greed
 			duration = 365
-		}		
+		}
 	}
 	option = {#ok...
 		name = VIETmisc.2060.b
@@ -6085,16 +6084,16 @@ character_event = {
 	picture = GFX_evt_hyouka
 
 	is_triggered_only = yes
-	
+
 	min_age = 3
 	max_age = 11
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6137,7 +6136,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_childlike_wonder
 			duration = 365
-		}		
+		}
 	}
 }
 
@@ -6153,13 +6152,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6244,7 +6243,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -6258,7 +6257,7 @@ character_event = {
 		NOT = { trait = kind }
 		NOT = { trait = just }
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6308,7 +6307,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_enjoys_others_suffering
 			duration = 365
-		}		
+		}
 	}
 }
 
@@ -6323,14 +6322,14 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { has_character_modifier = VIET_sunset_watcher }
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6411,14 +6410,14 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		has_character_modifier = VIET_sunset_watcher
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6496,7 +6495,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -6506,7 +6505,7 @@ character_event = {
 			NOT = { has_character_modifier = VIET_sunset_watcher }
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6577,12 +6576,12 @@ character_event = {
 				modifier = opinion_sexy_times
 				who = ROOT
 				years = 1
-			}	
+			}
 			reverse_opinion = {
 				modifier = opinion_sexy_times
 				who = ROOT
 				years = 1
-			}			
+			}
 		}
 	}
 }
@@ -6598,7 +6597,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -6616,7 +6615,7 @@ character_event = {
 		}
 		NOT = { has_character_flag = sunset_watching_buddy }
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6708,13 +6707,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6768,7 +6767,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_navel_gazing
 			duration = 365
-		}	
+		}
 	}
 }
 
@@ -6783,13 +6782,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6859,7 +6858,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -6876,7 +6875,7 @@ character_event = {
 			culture_group = israelite
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -6954,13 +6953,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7045,7 +7044,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -7055,7 +7054,7 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7130,13 +7129,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7229,7 +7228,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -7243,7 +7242,7 @@ character_event = {
 			culture = serbian
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7308,13 +7307,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7397,13 +7396,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7466,7 +7465,7 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -7477,7 +7476,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7520,7 +7519,7 @@ character_event = {
 			add_province_modifier = {
 				name = VIET_supernatural_happenings
 				duration = 888
-			}		
+			}
 		}
 	}
 }
@@ -7537,7 +7536,7 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -7551,7 +7550,7 @@ character_event = {
 			num_of_settlements = 4
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7594,7 +7593,7 @@ character_event = {
 			add_province_modifier = {
 				name = VIET_supernatural_happenings
 				duration = 12580
-			}		
+			}
 		}
 	}
 }
@@ -7610,13 +7609,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7678,7 +7677,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -7687,7 +7686,7 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7785,7 +7784,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -7799,7 +7798,7 @@ character_event = {
 			culture = serbian
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7861,7 +7860,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -7871,7 +7870,7 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -7949,14 +7948,14 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		has_lover = yes
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8024,7 +8023,7 @@ character_event = {
 				modifier = opinion_sexy_times
 				who = ROOT
 				years = 2
-			}	
+			}
 			reverse_opinion = {
 				modifier = opinion_sexy_times
 				who = ROOT
@@ -8034,7 +8033,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_virile_ruler
 			duration = 999
-		}	
+		}
 	}
 }
 
@@ -8050,14 +8049,14 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { culture_group = sinic }
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8146,7 +8145,7 @@ character_event = {
 				modifier = opinion_happy
 				who = ROOT
 				years = 1
-			}	
+			}
 			reverse_opinion = {
 				modifier = opinion_happy
 				who = ROOT
@@ -8198,14 +8197,14 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { trait = celibate }
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8278,7 +8277,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -8287,7 +8286,7 @@ character_event = {
 			NOT = { has_province_modifier = VIET_kaiki_best_girl_was_here }
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8366,7 +8365,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -8382,7 +8381,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8467,7 +8466,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_sex_failure
 			duration = 555
-		}		
+		}
 	}
 	option = {#no regrets!
 		name = VIETmisc.2088.b
@@ -8497,7 +8496,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_virile_ruler
 			duration = 777
-		}		
+		}
 	}
 }
 
@@ -8514,7 +8513,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -8530,7 +8529,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8622,7 +8621,7 @@ character_event = {
 			10 = { add_trait = scarred }
 			50 = { add_trait = wounded }
 			25 = { add_trait = maimed }
-			5 = { 			
+			5 = {
 				death = {
 					death_reason = death_accident
 				}
@@ -8645,13 +8644,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8713,13 +8712,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8795,13 +8794,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8872,14 +8871,14 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		has_lover = yes
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -8939,7 +8938,7 @@ character_event = {
 					modifier = opinion_amused
 					who = ROOT
 					years = 1
-			}		
+			}
 		}
 	}
 }
@@ -8956,7 +8955,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -8965,7 +8964,7 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -9052,12 +9051,12 @@ character_event = {
 					modifier = disagrees_with_me
 					who = ROOT
 					years = 2
-			}	
+			}
 			reverse_opinion = {
 					modifier = disagrees_with_me
 					who = ROOT
 					years = 2
-			}		
+			}
 		}
 	}
 }
@@ -9074,13 +9073,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -9189,7 +9188,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -9204,7 +9203,7 @@ character_event = {
 		diplomacy = 8
 		intrigue = 8
 	}
-	
+
 	weight_multiplier = {
 			days = 1
 			modifier = {
@@ -9270,7 +9269,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_shaft_head_tilt
 			duration = 2222
-		}		
+		}
 	}
 	option = {#No head tilts
 		name = VIETmisc.2098.b
@@ -9293,13 +9292,13 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -9350,1063 +9349,6 @@ character_event = {
 	}
 }
 
-############################################################################################
-# TOOTHBRUSH (No Nisemonogatari references, surprisingly, but hopefully it'll probably be on your mind.)
-############################################################################################
-
-
-# Miswak usage is encouraged by scripture
-character_event = {
-	id = VIETmisc.2100
-	desc = VIETmisc.2100.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		religion_group = muslim
-		any_courtier = {
-			is_adult = yes
-			NOT = { trait = incapable }
-			religion_group = muslim
-			OR = {
-				trait = slothful
-				trait = content
-				NOT = { health = 3 }
-				trait = ugly
-				trait = cynical
-				trait = depressed
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
-			trait = wroth
-		}
-		modifier = {
-			factor = 0.5
-			trait = patient
-		}
-		modifier = {
-			factor = 2
-			trait = zealous
-		}
-		modifier = {
-			factor = 0.5
-			trait = cynical
-		}
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-		modifier = {
-			factor = 2
-			trait = scholar
-		}
-		modifier = {
-			factor = 0.5
-			trait = hedonist
-		}
-	}
-
-	option = {#Ok
-		name = VIETmisc.2100.a
-		add_character_modifier = {
-			name = advice_giver
-			duration = 365
-		}
-		random_courtier = {
-			limit = {
-				is_adult = yes
-				NOT = { trait = incapable }
-				religion_group = muslim
-				OR = {
-					trait = slothful
-					trait = content
-					NOT = { health = 3 }
-					trait = ugly
-					trait = cynical
-					trait = depressed
-				}
-			}
-			opinion = {
-				modifier = opinion_helped_me
-				who = ROOT
-				years = 1
-			}
-		}
-	}
-}
-
-# Miswak usage is encouraged by scripture
-character_event = {
-	id = VIETmisc.2101
-	desc = VIETmisc.2101.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		religion_group = muslim
-		NOT = { has_character_modifier = VIET_loves_toothbrushing }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = just
-		}
-		modifier = {
-			factor = 0.5
-			trait = arbitrary
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = zealous
-		}
-		modifier = {
-			factor = 0.5
-			trait = cynical
-		}
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-		modifier = {
-			factor = 2
-			trait = scholar
-		}
-		modifier = {
-			factor = 0.5
-			trait = hedonist
-		}
-	}
-
-	option = {#Ok
-		name = VIETmisc.2101.a
-		add_character_modifier = {
-			name = VIET_loves_toothbrushing
-			duration = -1
-		}
-		piety = 5
-	}
-	option = {#Nay
-		name = VIETmisc.2101.b
-		if = {
-			limit = {
-				NOT = { trait = cynical }
-				NOT = { trait = zealous }
-			}
-			random_list = {
-				40 = { add_trait = cynical }
-				60 = {}
-			}
-		}
-		if = {
-			limit = {
-				trait = zealous
-			}
-			random_list = {
-				50 = { remove_trait = zealous }
-				50 = {}
-			}
-		}		
-	}
-}
-
-# The gold toothpick
-character_event = {
-	id = VIETmisc.2102
-	desc = VIETmisc.2102.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		diplomacy = 11
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = greedy
-		}
-		modifier = {
-			factor = 0.5
-			trait = charitable
-		}
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-		modifier = {
-			factor = 2
-			trait = kind
-		}
-		modifier = {
-			factor = 0.5
-			trait = cruel
-		}
-	}
-
-	option = {#Ok
-		name = VIETmisc.2102.a
-		prestige = 4		
-	}
-}
-
-# Silly Chinese toothbrushes
-character_event = {
-	id = VIETmisc.2103
-	desc = VIETmisc.2103.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = humble
-		}
-		modifier = {
-			factor = 0.5
-			trait = proud
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-		modifier = {
-			factor = 2
-			trait = kind
-		}
-		modifier = {
-			factor = 0.5
-			OR = {
-				religion_group = christian
-				religion_group = pagan_group
-			}
-		}
-	}
-
-	option = {#Ok
-		name = VIETmisc.2103.a
-		prestige = 1
-	}
-	option = {#Ok
-		name = VIETmisc.2103.b
-		piety = 1
-	}
-}
-
-# Toothbrush sexy times
-character_event = {
-	id = VIETmisc.2104
-	desc = VIETmisc.2104.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		any_courtier = {
-			is_adult = yes
-			OR = {
-				trait = lustful
-				trait = gregarious
-				trait = hedonist
-				has_lover = yes
-			}
-			NOT = { trait = celibate }
-			NOT = { trait = shy }
-			NOT = { trait = incapable }
-		}
-		NOT = { has_global_flag = VIET_anime_references_off }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 3
-			has_character_flag = VIET_koyomi
-		}
-		modifier = {
-			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = lustful
-		}
-		modifier = {
-			factor = 0.5
-			trait = chaste
-		}
-		modifier = {
-			factor = 2
-			trait = kind
-		}
-		modifier = {
-			factor = 0.5
-			trait = envious
-		}
-		modifier = {
-			factor = 2
-			trait = humble
-		}
-		modifier = {
-			factor = 0.5
-			trait = proud
-		}
-		modifier = {
-			factor = 2
-			trait = slothful
-		}
-		modifier = {
-			factor = 0.5
-			trait = diligent
-		}
-		modifier = {
-			factor = 2
-			trait = content
-		}
-		modifier = {
-			factor = 0.5
-			trait = ambitious
-		}
-	}
-
-	option = {#run away
-		name = VIETmisc.2104.a
-		piety = 3
-		random_courtier = {
-			limit = {
-				is_adult = yes
-				OR = {
-					trait = lustful
-					trait = gregarious
-					trait = hedonist
-					has_lover = yes
-				}
-				NOT = { trait = celibate }
-				NOT = { trait = shy }
-				NOT = { trait = incapable }
-			}
-			piety = -3
-		}
-	}
-	option = {#Ok
-		name = VIETmisc.2104.b
-		prestige = 3
-		random_courtier = {
-			limit = {
-				is_adult = yes
-				OR = {
-					trait = lustful
-					trait = gregarious
-					trait = hedonist
-					has_lover = yes
-				}
-				NOT = { trait = celibate }
-				NOT = { trait = shy }
-				NOT = { trait = incapable }
-			}
-			piety = -3
-		}
-	}
-	option = {#Ok
-		name = VIETmisc.2104.c
-		random_list = {
-			85 = { }
-			15 = { add_trait = lustful }
-		}
-		random_courtier = {
-			limit = {
-				is_adult = yes
-				OR = {
-					trait = lustful
-					trait = gregarious
-					trait = hedonist
-					has_lover = yes
-				}
-				NOT = { trait = celibate }
-				NOT = { trait = shy }
-				NOT = { trait = incapable }
-			}
-			piety = -3
-		}
-	}
-	option = {#Ok
-		name = VIETmisc.2104.d
-		trigger = {
-			has_character_flag = VIET_koyomi
-		}
-		random_courtier = {
-			limit = {
-				is_adult = yes
-				OR = {
-					trait = lustful
-					trait = gregarious
-					trait = hedonist
-					has_lover = yes
-				}
-				NOT = { trait = celibate }
-				NOT = { trait = shy }
-				NOT = { trait = incapable }
-			}
-			piety = -3
-		}
-		add_character_modifier = {
-			name = lustful_ruler
-			duration = 365
-		}
-		custom_tooltip = { text = VIET_toothbrush_sexy_times_amateurs }
-	}
-}
-
-# Clean your tongue as well
-character_event = {
-	id = VIETmisc.2105
-	desc = VIETmisc.2105.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = humble
-		}
-		modifier = {
-			factor = 0.5
-			trait = proud
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = just
-		}
-		modifier = {
-			factor = 0.5
-			trait = arbitrary
-		}
-		modifier = {
-			factor = 2
-			trait = kind
-		}
-		modifier = {
-			factor = 0.5
-			trait = cruel
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2105.a
-		health = 0.2
-	}
-}
-
-# Jewish mouthwash
-character_event = {
-	id = VIETmisc.2106
-	desc = VIETmisc.2106.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		NOT = { religion_group = jewish_group }
-		NOT = { culture_group = israelite }
-		any_courtier = {
-			is_adult = yes
-			NOT = { trait = incapable }
-			religion_group = jewish_group
-			culture_group = israelite
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = humble
-		}
-		modifier = {
-			factor = 0.5
-			trait = proud
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = just
-		}
-		modifier = {
-			factor = 0.5
-			trait = arbitrary
-		}
-		modifier = {
-			factor = 2
-			trait = kind
-		}
-		modifier = {
-			factor = 0.5
-			trait = cruel
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2106.a
-		health = 0.1
-		random_courtier = {
-			limit = {
-				is_adult = yes
-				NOT = { trait = incapable }
-				religion_group = jewish_group
-				culture_group = israelite
-			}
-			opinion = {
-				modifier = opinion_respectful_of_jewish_customs 
-				who = ROOT
-				years = 1
-			}
-		}
-	}
-	option = {#be a bigot
-		name = VIETmisc.2106.b
-		prestige = 3
-		random_courtier = {
-			limit = {
-				is_adult = yes
-				NOT = { trait = incapable }
-				religion_group = jewish_group
-				culture_group = israelite
-			}
-			opinion = {
-				modifier = opinion_angry
-				who = ROOT
-				years = 1
-			}
-		}
-	}
-}
-
-# Old people bad teeth scare me
-character_event = {
-	id = VIETmisc.2107
-	desc = VIETmisc.2107.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	max_age = 35
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = paranoid
-		}
-		modifier = {
-			factor = 0.5
-			trait = trusting
-		}
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = just
-		}
-		modifier = {
-			factor = 0.5
-			trait = arbitrary
-		}
-		modifier = {
-			factor = 2
-			trait = kind
-		}
-		modifier = {
-			factor = 0.5
-			trait = cruel
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2107.a
-		add_character_modifier = {
-			name = VIET_loves_toothbrushing
-			duration = -1
-		}
-	}
-}
-
-# Bloody teeth
-character_event = {
-	id = VIETmisc.2108
-	desc = VIETmisc.2108.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			has_character_modifier = VIET_loves_toothbrushing
-		}
-		modifier = {
-			factor = 2
-			trait = paranoid
-		}
-		modifier = {
-			factor = 0.5
-			trait = trusting
-		}
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = wroth
-		}
-		modifier = {
-			factor = 0.5
-			trait = patient
-		}
-		modifier = {
-			factor = 2
-			trait = lustful
-		}
-		modifier = {
-			factor = 0.5
-			trait = chaste
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2108.a
-		prestige = -2
-	}
-	option = {#ok
-		name = VIETmisc.2108.a
-		tooltip_info = fair
-		trigger = {
-			trait = fair
-		}
-	}
-	option = {#ok
-		name = VIETmisc.2108.a
-		tooltip_info = imposing
-		trigger = {
-			trait = imposing
-		}
-		prestige = 2
-	}
-}
-
-# prankster?
-character_event = {
-	id = VIETmisc.2109
-	desc = VIETmisc.2109.desc
-	picture = GFX_evt_toothbrush
-
-	is_triggered_only = yes
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		any_courtier = {
-			is_adult = yes
-			NOT = { trait = incapable }
-			AND = {
-				trait = gregarious
-				trait = cruel
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = paranoid
-		}
-		modifier = {
-			factor = 0.5
-			trait = trusting
-		}
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = patient
-		}
-		modifier = {
-			factor = 0.5
-			trait = wroth
-		}
-		modifier = {
-			factor = 2
-			trait = shy
-		}
-		modifier = {
-			factor = 0.5
-			trait = gregarious
-		}
-		modifier = {
-			factor = 2
-			trait = content
-		}
-		modifier = {
-			factor = 0.5
-			trait = ambitious
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2109.a
-		random_courtier = {
-			limit = {
-				is_adult = yes
-				NOT = { trait = incapable }
-				AND = {
-					trait = gregarious
-					trait = cruel
-				}
-			}
-			reverse_opinion = {
-				modifier = opinion_afraid
-				who = ROOT
-				years = 1
-			}
-		}
-		random_list = {
-			90 = { }
-			3 = { add_trait = paranoid }
-			7 = { add_trait = ill }
-		}
-	}
-}
-
 ###################################
 # Eye Candy!
 ###################################
@@ -10419,19 +9361,19 @@ character_event = {
 	picture = GFX_evt_tropicana
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -10540,13 +9482,13 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -10573,7 +9515,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -10681,13 +9623,13 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	only_women = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -10714,7 +9656,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -10822,12 +9764,12 @@ character_event = {
 	picture = GFX_evt_toothbrush
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -10847,7 +9789,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -10941,18 +9883,18 @@ character_event = {
 	picture = GFX_evt_bad_news_female
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11042,8 +9984,8 @@ character_event = {
 							modifier = opinion_sexy_times
 							who = ROOT
 							years = 3
-					}		
-				}			
+					}
+				}
 			}
 			50 = {
 				any_lover = {
@@ -11051,8 +9993,8 @@ character_event = {
 							modifier = opinion_disturbing_fetish
 							who = ROOT
 							years = 3
-					}		
-				}			
+					}
+				}
 			}
 		}
 	}
@@ -11070,19 +10012,19 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11164,18 +10106,18 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11257,12 +10199,12 @@ character_event = {
 	picture = GFX_evt_snow_in_winter
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -11284,7 +10226,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11344,12 +10286,12 @@ character_event = {
 					modifier = opinion_happy
 					who = ROOT
 					years = 1
-			}	
+			}
 			reverse_opinion = {
 					modifier = opinion_happy
 					who = ROOT
 					years = 1
-			}		
+			}
 		}
 		add_character_modifier = {
 			name = VIET_romantic_ruler
@@ -11365,14 +10307,14 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	max_age = 45
 	only_rulers = yes
 	only_women = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -11417,7 +10359,7 @@ character_event = {
 			has_lover = no
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11485,24 +10427,24 @@ character_event = {
 				NOT = { trait = lustful }
 				NOT = { trait = cruel }
 				NOT = { trait = lunatic }
-				has_lover = no			
+				has_lover = no
 			}
 			opinion = {
 				modifier = opinion_eye_candy
 				who = ROOT
 				years = 3
-			}	
+			}
 			reverse_opinion = {
 				modifier = opinion_angry
 				who = ROOT
 				years = 2
-			}		
+			}
 		}
 	}
 	option = {#seduce
 		name = VIETmisc.2118.b
 		trigger = {
-			NOT = { num_of_lovers = 5 } 
+			NOT = { num_of_lovers = 5 }
 		}
 		random_courtier = {
 			limit = {
@@ -11525,9 +10467,9 @@ character_event = {
 				NOT = { trait = lustful }
 				NOT = { trait = cruel }
 				NOT = { trait = lunatic }
-				has_lover = no			
+				has_lover = no
 			}
-			add_lover = ROOT	
+			add_lover = ROOT
 		}
 		custom_tooltip = { text = VIET_cougar_har_har }
 	}
@@ -11554,13 +10496,13 @@ character_event = {
 				NOT = { trait = lustful }
 				NOT = { trait = cruel }
 				NOT = { trait = lunatic }
-				has_lover = no			
+				has_lover = no
 			}
 			opinion = {
 				modifier = opinion_eye_candy
 				who = ROOT
 				years = 3
-			}	
+			}
 		}
 		random_list = {
 			80 = {}
@@ -11590,13 +10532,13 @@ character_event = {
 				NOT = { trait = lustful }
 				NOT = { trait = cruel }
 				NOT = { trait = lunatic }
-				has_lover = no			
+				has_lover = no
 			}
 			opinion = {
 				modifier = opinion_eye_candy
 				who = ROOT
 				years = 3
-			}	
+			}
 		}
 		random_list = {
 			85 = {}
@@ -11612,18 +10554,18 @@ character_event = {
 	picture = GFX_evt_market
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11681,14 +10623,14 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_admiring_eye_candy
 			duration = 285
-		}		
+		}
 	}
 	option = {#ignore temptation!
 		name = VIETmisc.2119.b
 		add_character_modifier = {
 			name = VIET_resists_temptation
 			duration = 456
-		}		
+		}
 	}
 }
 
@@ -11704,12 +10646,12 @@ character_event = {
 	picture = GFX_evt_lovers
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -11727,7 +10669,7 @@ character_event = {
 			opinion = { who = ROOT value = 25 }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11778,7 +10720,7 @@ character_event = {
 			limit = {
 				sibling = ROOT
 				religion = ROOT
-				opinion = { who = ROOT value = 25 }			
+				opinion = { who = ROOT value = 25 }
 			}
 			add_lover = ROOT
 		}
@@ -11792,12 +10734,12 @@ character_event = {
 	picture = GFX_evt_marriage_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -11816,7 +10758,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11888,12 +10830,12 @@ character_event = {
 	picture = GFX_evt_busy_trading_dock_republic_muslim
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -11909,7 +10851,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -11975,12 +10917,12 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -11996,7 +10938,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12062,12 +11004,12 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12083,7 +11025,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12148,8 +11090,8 @@ character_event = {
 				random = {
 					chance = 25
 					impregnate = ROOT
-				}	
-			}		
+				}
+			}
 		}
 	}
 }
@@ -12161,12 +11103,12 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12182,7 +11124,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12257,12 +11199,12 @@ character_event = {
 	picture = GFX_evt_lovers
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12278,7 +11220,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12353,12 +11295,12 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12394,7 +11336,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12501,12 +11443,12 @@ character_event = {
 	picture = GFX_evt_holy_light_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12518,7 +11460,7 @@ character_event = {
 		}
 		NOT = { has_character_flag = VIET_incest_kills_demons }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12655,12 +11597,12 @@ character_event = {
 	picture = GFX_evt_travel_arabic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12672,7 +11614,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12742,12 +11684,12 @@ character_event = {
 	picture = GFX_evt_holy_light
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12759,7 +11701,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12821,12 +11763,12 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12838,7 +11780,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12904,12 +11846,12 @@ character_event = {
 	picture = GFX_evt_marriage_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -12921,7 +11863,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -12998,12 +11940,12 @@ character_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13015,7 +11957,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13112,12 +12054,12 @@ character_event = {
 	picture = GFX_evt_marriage_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13129,7 +12071,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13226,12 +12168,12 @@ character_event = {
 	picture = GFX_evt_icon
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13243,7 +12185,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13320,12 +12262,12 @@ character_event = {
 	picture = GFX_evt_library
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13337,7 +12279,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13415,12 +12357,12 @@ character_event = {
 	picture = GFX_evt_emissary_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13432,7 +12374,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13502,12 +12444,12 @@ character_event = {
 	picture = GFX_evt_icon_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13519,7 +12461,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13591,12 +12533,12 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13609,7 +12551,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13684,12 +12626,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13702,7 +12644,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13763,12 +12705,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13781,7 +12723,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13871,12 +12813,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13889,7 +12831,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -13950,12 +12892,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -13969,7 +12911,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14065,12 +13007,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14083,7 +13025,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14149,12 +13091,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14167,7 +13109,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14233,12 +13175,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14252,7 +13194,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14311,12 +13253,12 @@ character_event = {
 	picture = GFX_evt_travel
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14329,7 +13271,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14390,12 +13332,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14408,7 +13350,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14481,12 +13423,12 @@ character_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14499,7 +13441,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14576,12 +13518,12 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14606,7 +13548,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14690,7 +13632,7 @@ province_event = {
 	id = VIETmisc.2152
 	desc = VIETmisc.2152.desc
 	picture = GFX_evt_hummus
-	
+
 	trigger = {
 		OR = {
 			culture_group = arabic
@@ -14702,14 +13644,14 @@ province_event = {
 		NOT = { has_province_modifier = VIET_hummus_producing_region }
 		NOT = { has_province_flag = VIET_hummus_producing_region_counter }
 		NOT = {
-			kingdom = { 
+			kingdom = {
 				any_realm_province = {
 					has_province_modifier = VIET_hummus_producing_region
 				}
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3456
 	}
@@ -14729,12 +13671,12 @@ province_event = {
 	id = VIETmisc.2153
 	desc = VIETmisc.2153.desc
 	picture = GFX_evt_hummus
-	
+
 	trigger = {
 		has_province_modifier = VIET_hummus_producing_region
-		had_province_flag = { flag = VIET_hummus_producing_region_counter days = 7300 } 
+		had_province_flag = { flag = VIET_hummus_producing_region_counter days = 7300 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1234
 	}
@@ -14755,12 +13697,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14773,7 +13715,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14874,12 +13816,12 @@ character_event = {
 	picture = GFX_evt_tropicana
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14892,7 +13834,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -14962,12 +13904,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -14978,7 +13920,7 @@ character_event = {
 		NOT = { culture_group = byzantine }
 		NOT = { culture = turkish }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15062,12 +14004,12 @@ character_event = {
 	picture = GFX_evt_hummus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15080,7 +14022,7 @@ character_event = {
 			culture = bedouin_arabic
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15101,7 +14043,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = content 
+			trait = content
 		}
 		modifier = {
 			factor = 0.5
@@ -15157,12 +14099,12 @@ character_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15174,7 +14116,7 @@ character_event = {
 			culture = turkish
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15206,7 +14148,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = content 
+			trait = content
 		}
 		modifier = {
 			factor = 0.5
@@ -15254,14 +14196,14 @@ province_event = {
 	id = VIETmisc.2159
 	desc = VIETmisc.2159.desc
 	picture = GFX_evt_hummus
-	
+
 	trigger = {
 		has_province_modifier = VIET_hummus_producing_region
 		owner = {
 			NOT = { set_character_flag = VIET_given_hummus_gift }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 	}
@@ -15293,12 +14235,12 @@ character_event = {
 	picture = GFX_evt_library
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15310,7 +14252,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15376,12 +14318,12 @@ character_event = {
 	picture = GFX_evt_heretic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15399,7 +14341,7 @@ character_event = {
 			#NOT = { religion = zunist_reformed }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15468,7 +14410,7 @@ character_event = {
 				NOT = { religion_group = zoroastrian_group }
 				NOT = { religion = messalian }
 				#NOT = { religion = zunist }
-				#NOT = { religion = zunist_reformed }			
+				#NOT = { religion = zunist_reformed }
 			}
 			add_province_modifier = {
 				name = VIET_enforcing_incest
@@ -15504,12 +14446,12 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15521,7 +14463,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15590,12 +14532,12 @@ character_event = {
 	picture = GFX_evt_hyouka
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15611,7 +14553,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15701,12 +14643,12 @@ character_event = {
 	picture = GFX_evt_holy_light
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15718,7 +14660,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15786,12 +14728,12 @@ character_event = {
 	picture = GFX_evt_comet
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15808,7 +14750,7 @@ character_event = {
 			opinion = { who = ROOT value = 50 }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15876,12 +14818,12 @@ character_event = {
 	picture = GFX_evt_icon
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -15893,7 +14835,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -15952,19 +14894,19 @@ character_event = {
 	picture = GFX_evt_moorish_decor
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		religion_group = zoroastrian_group
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16025,12 +14967,12 @@ character_event = {
 	picture = GFX_evt_lovers
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16047,7 +14989,7 @@ character_event = {
 			opinion = { who = ROOT value = 50 }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16099,7 +15041,7 @@ character_event = {
 			limit = {
 				sibling = ROOT
 				religion = ROOT
-				opinion = { who = ROOT value = 50 }			
+				opinion = { who = ROOT value = 50 }
 			}
 			piety = 10
 		}
@@ -16114,12 +15056,12 @@ character_event = {
 	picture = GFX_evt_lovers
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16136,7 +15078,7 @@ character_event = {
 			opinion = { who = ROOT value = 50 }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16188,7 +15130,7 @@ character_event = {
 			limit = {
 				sibling = ROOT
 				religion = ROOT
-				opinion = { who = ROOT value = 50 }			
+				opinion = { who = ROOT value = 50 }
 			}
 			piety = 10
 		}
@@ -16203,12 +15145,12 @@ character_event = {
 	picture = GFX_evt_lovers
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16226,7 +15168,7 @@ character_event = {
 		}
 		NOT = { num_of_lovers = 5 }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16281,7 +15223,7 @@ character_event = {
 			limit = {
 				sibling = ROOT
 				religion = ROOT
-				opinion = { who = ROOT value = 50 }			
+				opinion = { who = ROOT value = 50 }
 			}
 			piety = 5
 			if = {
@@ -16306,7 +15248,7 @@ character_event = {
 			limit = {
 				sibling = ROOT
 				religion = ROOT
-				opinion = { who = ROOT value = 50 }			
+				opinion = { who = ROOT value = 50 }
 			}
 			piety = 5
 			if = {
@@ -16330,12 +15272,12 @@ character_event = {
 	picture = GFX_evt_marriage_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16346,7 +15288,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16404,12 +15346,12 @@ character_event = {
 	picture = GFX_evt_marriage_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16421,7 +15363,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16472,7 +15414,7 @@ character_event = {
 			limit = {
 				is_adult = yes
 				NOT = { trait = incapable }
-				religion = ROOT			
+				religion = ROOT
 			}
 			opinion = {
 				modifier = agrees_with_me
@@ -16491,7 +15433,7 @@ character_event = {
 			limit = {
 				is_adult = yes
 				NOT = { trait = incapable }
-				religion = ROOT			
+				religion = ROOT
 			}
 			opinion = {
 				modifier = disagrees_with_me
@@ -16509,12 +15451,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16524,7 +15466,7 @@ character_event = {
 			religion = messalian
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16608,12 +15550,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16625,7 +15567,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16710,12 +15652,12 @@ character_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16727,7 +15669,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16809,12 +15751,12 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16826,7 +15768,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16895,12 +15837,12 @@ character_event = {
 	picture = GFX_evt_throne_room
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16912,7 +15854,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -16981,12 +15923,12 @@ character_event = {
 	picture = GFX_evt_silk_road
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -16998,7 +15940,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -17069,12 +16011,12 @@ character_event = {
 	picture = GFX_evt_child_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -17102,7 +16044,7 @@ character_event = {
 			ai = yes
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -17153,7 +16095,7 @@ character_event = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
 			#NOT = { religion = zunist }
-			#NOT = { religion = zunist_reformed }			
+			#NOT = { religion = zunist_reformed }
 		}
 		add_character_modifier = {
 			name = VIET_loves_own_children
@@ -17175,7 +16117,7 @@ character_event = {
 				religion = messalian
 				#religion = zunist
 				#religion = zunist_reformed
-			}		
+			}
 		}
 		random_child = {
 			limit = {
@@ -17211,12 +16153,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -17244,7 +16186,7 @@ character_event = {
 			opinion = { who = ROOT value = 25 }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -17328,7 +16270,7 @@ character_event = {
 					opinion = { who = ROOT value = 25 }
 				}
 				set_character_flag = VIET_incest_intervention_courtier
-			}	
+			}
 		}
 		character_event = { id = VIETmisc.2181 tooltip = "VIETmisc.2181.tooltip" days = 3 random = 3 }
 	}
@@ -17405,12 +16347,12 @@ character_event = {
 	picture = GFX_evt_quarrel
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -17426,7 +16368,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -17489,7 +16431,7 @@ character_event = {
 		random_spouse = {
 			limit = {
 				sibling = ROOT
-				religion = ROOT			
+				religion = ROOT
 			}
 			opinion = {
 				modifier = fun_killer
@@ -17512,7 +16454,7 @@ character_event = {
 		random_spouse = {
 			limit = {
 				sibling = ROOT
-				religion = ROOT			
+				religion = ROOT
 			}
 			opinion = {
 				modifier = respected_opinion
@@ -17532,12 +16474,12 @@ character_event = {
 	picture = GFX_evt_trade_post_republic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -17549,7 +16491,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -17624,12 +16566,12 @@ character_event = {
 	picture = GFX_evt_lovers
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -17647,7 +16589,7 @@ character_event = {
 		}
 		NOT = { num_of_lovers = 5 }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -17699,7 +16641,7 @@ character_event = {
 			limit = {
 				sibling = ROOT
 				religion = ROOT
-				opinion = { who = ROOT value = 50 }			
+				opinion = { who = ROOT value = 50 }
 			}
 			piety = 5
 			if = {
@@ -17724,12 +16666,12 @@ character_event = {
 	picture = GFX_evt_hyouka
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -17754,7 +16696,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -17841,7 +16783,7 @@ character_event = {
 				OR = {
 					trait = lunatic
 					trait = possessed
-				}			
+				}
 			}
 			if = {
 				limit = {
@@ -17867,12 +16809,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -17885,7 +16827,7 @@ character_event = {
 		}
 		NOT = {
 			any_courtier = {
-				has_character_modifier = VIET_obsessed_with_incest			
+				has_character_modifier = VIET_obsessed_with_incest
 			}
 		}
 		any_courtier = {
@@ -17913,7 +16855,7 @@ character_event = {
 			NOT = { has_character_modifier = VIET_obsessed_with_incest }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18008,12 +16950,12 @@ character_event = {
 	picture = GFX_evt_market
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -18031,7 +16973,7 @@ character_event = {
 			#NOT = { religion = zunist_reformed }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18108,12 +17050,12 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -18125,7 +17067,7 @@ character_event = {
 			#religion = zunist_reformed
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18204,12 +17146,12 @@ character_event = {
 	picture = GFX_evt_market_sinic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -18225,7 +17167,7 @@ character_event = {
 			religion = ROOT
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18292,19 +17234,19 @@ character_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		religion_group = christian
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18403,12 +17345,12 @@ character_event = {
 	picture = GFX_evt_monastery_monks
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -18416,7 +17358,7 @@ character_event = {
 		religion_group = christian
 		health = 6.5
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18482,18 +17424,18 @@ character_event = {
 	picture = GFX_evt_recovery
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18575,7 +17517,7 @@ character_event = {
 		random = {
 			add_trait = ill
 			chance = 15
-		}		
+		}
 	}
 }
 
@@ -18586,12 +17528,12 @@ character_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -18609,7 +17551,7 @@ character_event = {
 			trait = brilliant_strategist
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18668,23 +17610,23 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = gregarious  
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -18716,7 +17658,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = arbitrary 
+			trait = arbitrary
 		}
 		modifier = {
 			factor = 0.5
@@ -18724,7 +17666,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = deceitful 
+			trait = deceitful
 		}
 		modifier = {
 			factor = 0.5
@@ -18746,12 +17688,12 @@ character_event = {
 	picture = GFX_evt_garden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -18760,7 +17702,7 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18773,7 +17715,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious 
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -18844,19 +17786,19 @@ character_event = {
 	picture = GFX_evt_library
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { has_character_flag = VIET_bread_learning }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18868,7 +17810,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = shy 
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -18937,12 +17879,12 @@ character_event = {
 	picture = GFX_evt_small_town_sinic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -18954,7 +17896,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -18967,7 +17909,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous 
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -19041,7 +17983,7 @@ character_event = {
 			NOT = { trait = imbecile }
 		}
 		add_character_modifier = {
-			name = VIET_feeling_sexy 
+			name = VIET_feeling_sexy
 			duration = 582
 		}
 		random = {
@@ -19063,18 +18005,18 @@ character_event = {
 	picture = GFX_evt_VIET_food
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19087,7 +18029,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous 
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -19132,7 +18074,7 @@ character_event = {
 		add_character_modifier = {
 			name = eating_good_food
 			duration = 365
-		}		
+		}
 	}
 }
 
@@ -19143,19 +18085,19 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		has_global_flag = aztec_food
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19168,7 +18110,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = just 
+			trait = just
 		}
 		modifier = {
 			factor = 0.5
@@ -19213,14 +18155,14 @@ character_event = {
 		add_character_modifier = {
 			name = highly_amused_ruler
 			duration = 365
-		}		
+		}
 	}
 	option = {#ok
 		name = VIETmisc.2201.b
 		add_character_modifier = {
 			name = the_prude
 			duration = 365
-		}		
+		}
 	}
 }
 
@@ -19231,19 +18173,19 @@ character_event = {
 	picture = GFX_evt_autumn_harvest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		has_global_flag = aztec_food
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19256,7 +18198,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = charitable 
+			trait = charitable
 		}
 		modifier = {
 			factor = 0.5
@@ -19301,7 +18243,7 @@ character_event = {
 		add_character_modifier = {
 			name = eating_good_food
 			duration = 567
-		}		
+		}
 	}
 }
 
@@ -19312,12 +18254,12 @@ character_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -19336,7 +18278,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19349,7 +18291,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = greedy 
+			trait = greedy
 		}
 		modifier = {
 			factor = 0.5
@@ -19403,7 +18345,7 @@ character_event = {
 				who = ROOT
 				years = 1
 			}
-		}	
+		}
 	}
 }
 
@@ -19415,18 +18357,18 @@ character_event = {
 	picture = GFX_evt_VIET_food
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19455,7 +18397,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = greedy 
+			trait = greedy
 		}
 		modifier = {
 			factor = 0.5
@@ -19502,7 +18444,7 @@ character_event = {
 				add_trait = gluttonous
 				chance = 10
 			}
-		}		
+		}
 	}
 }
 
@@ -19517,19 +18459,19 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { has_global_flag = VIET_blatant_TES }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19558,7 +18500,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = greedy 
+			trait = greedy
 		}
 		modifier = {
 			factor = 0.5
@@ -19613,12 +18555,12 @@ character_event = {
 	picture = GFX_evt_book_carolingian_script
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -19627,7 +18569,7 @@ character_event = {
 		learning = 8
 		NOT = { has_global_flag = VIET_blatant_TES }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19656,7 +18598,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = poet 
+			trait = poet
 		}
 		modifier = {
 			factor = 0.5
@@ -19742,19 +18684,19 @@ character_event = {
 	picture = GFX_evt_VIET_food
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { has_global_flag = VIET_blatant_TES }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19783,7 +18725,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = greedy 
+			trait = greedy
 		}
 		modifier = {
 			factor = 0.5
@@ -19822,7 +18764,7 @@ character_event = {
 		}
 		random = {
 			add_trait = content
-			chance = 25			
+			chance = 25
 		}
 	}
 }
@@ -19834,12 +18776,12 @@ character_event = {
 	picture = GFX_evt_large_army
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		OR = {
@@ -19868,7 +18810,7 @@ character_event = {
 		#is_abroad = no
 		NOT = { has_global_flag = VIET_blatant_TES }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19881,7 +18823,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = trusting 
+			trait = trusting
 		}
 		modifier = {
 			factor = 0.5
@@ -19897,7 +18839,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious 
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -19929,12 +18871,12 @@ character_event = {
 	picture = GFX_evt_holy_light_zoroastrian_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -19943,7 +18885,7 @@ character_event = {
 		NOT = { has_global_flag = VIET_blatant_TES }
 		NOT = { has_global_flag = saoshyant_appears }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -19956,7 +18898,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = trusting 
+			trait = trusting
 		}
 		modifier = {
 			factor = 0.5
@@ -19972,7 +18914,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = shy 
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -19980,7 +18922,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = patient 
+			trait = patient
 		}
 		modifier = {
 			factor = 0.5
@@ -19988,7 +18930,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = deceitful 
+			trait = deceitful
 		}
 		modifier = {
 			factor = 0.5
@@ -20001,11 +18943,11 @@ character_event = {
 		add_character_modifier = {
 			name = highly_amused_ruler
 			duration = 441
-		}		
+		}
 	}
 	option = {#ok
 		name = VIETmisc.2210.b
-		piety = 2	
+		piety = 2
 	}
 }
 
@@ -20016,12 +18958,12 @@ character_event = {
 	picture = GFX_evt_lunatic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -20042,7 +18984,7 @@ character_event = {
 		}
 		NOT = { has_global_flag = VIET_blatant_TES }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -20063,7 +19005,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid 
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -20079,7 +19021,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = shy 
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -20087,7 +19029,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = patient 
+			trait = patient
 		}
 		modifier = {
 			factor = 0.5
@@ -20095,7 +19037,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = deceitful 
+			trait = deceitful
 		}
 		modifier = {
 			factor = 0.5
@@ -20125,7 +19067,7 @@ character_event = {
 				who = ROOT
 				years = 3
 			}
-		}	
+		}
 	}
 }
 
@@ -20136,12 +19078,12 @@ character_event = {
 	picture = GFX_evt_heretic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -20149,7 +19091,7 @@ character_event = {
 		is_reformed_religion = yes
 		NOT = { has_global_flag = VIET_blatant_TES }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -20170,7 +19112,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = trusting  
+			trait = trusting
 		}
 		modifier = {
 			factor = 0.5
@@ -20186,7 +19128,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious  
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -20194,7 +19136,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = deceitful 
+			trait = deceitful
 		}
 		modifier = {
 			factor = 0.5
@@ -20218,12 +19160,12 @@ character_event = {
 	picture = GFX_evt_market
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -20236,7 +19178,7 @@ character_event = {
 		NOT = { has_global_flag = VIET_blatant_TES }
 		NOT = { tier = baron }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -20257,7 +19199,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = trusting  
+			trait = trusting
 		}
 		modifier = {
 			factor = 0.5
@@ -20273,7 +19215,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious  
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -20281,7 +19223,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = deceitful 
+			trait = deceitful
 		}
 		modifier = {
 			factor = 0.5
@@ -20289,7 +19231,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = patient 
+			trait = patient
 		}
 		modifier = {
 			factor = 0.5
@@ -20309,7 +19251,7 @@ character_event = {
 				modifier = opinion_angry
 				who = ROOT
 				years = 5
-			}			
+			}
 		}
 		add_character_modifier = {
 			name = VIET_annoyed_ruler
@@ -20338,18 +19280,18 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		NOT = { trait = maimed }
 		is_alive = yes
 		NOT = { has_global_flag = VIET_blatant_TES }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -20442,11 +19384,11 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			trait = has_small_pox
-		}			
+		}
 	}
 
 	option = {#ok
@@ -20462,18 +19404,18 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		NOT = { trait = maimed }
 		is_alive = yes
 		NOT = { has_global_flag = VIET_blatant_TES }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -20566,11 +19508,11 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			trait = has_small_pox
-		}			
+		}
 	}
 
 	option = {#ok
@@ -20587,12 +19529,12 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -20606,7 +19548,7 @@ character_event = {
 			learning = 15
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -20627,7 +19569,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = just  
+			trait = just
 		}
 		modifier = {
 			factor = 0.5
@@ -20643,7 +19585,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious  
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -20651,7 +19593,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = brave 
+			trait = brave
 		}
 		modifier = {
 			factor = 0.5
@@ -20716,7 +19658,7 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 
 	option = {#ok
 		name = VIETmisc.2217.a
@@ -20739,7 +19681,7 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 
 	option = {#ok
 		name = VIETmisc.2218.a
@@ -20757,436 +19699,13 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 
 	option = {#ok
 		name = VIETmisc.2219.a
 		random = {
 			add_trait = paranoid
 			chance = 2
-		}
-	}
-}
-
-###############################################
-# COCKS (or, VIET gets very bawdy)
-###############################################
-
-
-
-# visiting a farmer
-character_event = {
-	id = VIETmisc.2220
-	desc = VIETmisc.2220.desc
-	picture = GFX_evt_small_town
-
-	is_triggered_only = yes
-	
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		NOT = { has_global_flag = VIET_cock_events_off }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = humble
-		}
-		modifier = {
-			factor = 0.5
-			trait = proud
-		}
-		modifier = {
-			factor = 2
-			trait = kind
-		}
-		modifier = {
-			factor = 0.5
-			trait = envious
-		}
-		modifier = {
-			factor = 2
-			trait = just  
-		}
-		modifier = {
-			factor = 0.5
-			trait = arbitrary
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = gregarious  
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2220.a
-		add_character_modifier = {
-			name = eating_good_food
-			duration = 444
-		}		
-	}
-	option = {#ok
-		name = VIETmisc.2220.b
-		add_character_modifier = {
-			name = advice_giver
-			duration = 444
-		}		
-	}
-}
-
-# cock egg
-character_event = {
-	id = VIETmisc.2221
-	desc = VIETmisc.2221.desc
-	picture = GFX_evt_VIET_food
-
-	is_triggered_only = yes
-	
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		NOT = { has_global_flag = VIET_cock_events_off }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-		modifier = {
-			factor = 2
-			trait = brave
-		}
-		modifier = {
-			factor = 0.5
-			trait = craven
-		}
-		modifier = {
-			factor = 2
-			trait = slothful  
-		}
-		modifier = {
-			factor = 0.5
-			trait = diligent
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = gluttonous  
-		}
-		modifier = {
-			factor = 0.5
-			trait = temperate
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2221.a
-		add_character_modifier = {
-			name = eating_good_food
-			duration = 333
-		}		
-	}
-}
-
-# big meaty cock
-character_event = {
-	id = VIETmisc.2222
-	desc = VIETmisc.2222.desc
-	picture = GFX_evt_VIET_food
-
-	is_triggered_only = yes
-	
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		NOT = { has_global_flag = VIET_cock_events_off }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = charitable
-		}
-		modifier = {
-			factor = 0.5
-			trait = greedy
-		}
-		modifier = {
-			factor = 2
-			trait = just
-		}
-		modifier = {
-			factor = 0.5
-			trait = arbitrary
-		}
-		modifier = {
-			factor = 2
-			trait = diligent  
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = gluttonous  
-		}
-		modifier = {
-			factor = 0.5
-			trait = temperate
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2222.a
-		add_character_modifier = {
-			name = best_meal_in_ages
-			duration = 468
-		}
-		any_courtier = {
-			limit = {
-				OR = {
-					trait = gluttonous
-					trait = gregarious
-					trait = trusting
-				}
-			}
-			add_character_modifier = {
-				name = best_meal_in_ages
-				duration = 468
-			}
-		}
-	}
-}
-
-# cock a doodle doo
-character_event = {
-	id = VIETmisc.2223
-	desc = VIETmisc.2223.desc
-	picture = GFX_evt_hyouka
-
-	is_triggered_only = yes
-	
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		NOT = { has_global_flag = VIET_cock_events_off }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = stressed
-		}
-		modifier = {
-			factor = 0.5
-			trait = depressed
-		}
-		modifier = {
-			factor = 2
-			trait = wroth
-		}
-		modifier = {
-			factor = 0.5
-			trait = patient
-		}
-		modifier = {
-			factor = 2
-			trait = diligent  
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = paranoid
-		}
-		modifier = {
-			factor = 0.5
-			trait = trusting
-		}
-		modifier = {
-			factor = 2
-			trait = humble  
-		}
-		modifier = {
-			factor = 0.5
-			trait = proud
-		}
-		modifier = {
-			factor = 2
-			trait = deceitful  
-		}
-		modifier = {
-			factor = 0.5
-			trait = honest
-		}
-		modifier = {
-			factor = 2
-			trait = zealous
-		}
-		modifier = {
-			factor = 0.5
-			trait = cynical
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2223.a
-		add_character_modifier = {
-			name = stressed_life
-			duration = 390
-		}
-	}
-}
-
-# cock fight
-character_event = {
-	id = VIETmisc.2224
-	desc = VIETmisc.2224.desc
-	picture = GFX_evt_skyrim_forest
-
-	is_triggered_only = yes
-	
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		is_abroad = no
-		NOT = { has_global_flag = VIET_cock_events_off }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 2
-			trait = content
-		}
-		modifier = {
-			factor = 0.5
-			trait = ambitious
-		}
-		modifier = {
-			factor = 2
-			trait = diligent  
-		}
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = trusting
-		}
-		modifier = {
-			factor = 0.5
-			trait = paranoid
-		}
-		modifier = {
-			factor = 2
-			trait = humble  
-		}
-		modifier = {
-			factor = 0.5
-			trait = proud
-		}
-		modifier = {
-			factor = 2
-			trait = brave  
-		}
-		modifier = {
-			factor = 0.5
-			trait = craven
-		}
-		modifier = {
-			factor = 2
-			trait = patient
-		}
-		modifier = {
-			factor = 0.5
-			trait = wroth
-		}
-	}
-
-	option = {#ok
-		name = VIETmisc.2224.a
-		prestige = 1
-	}
-	option = {#ok
-		name = VIETmisc.2224.b
-		piety = 1
-	}
-	option = {#ok
-		name = VIETmisc.2224.c
-		add_character_modifier = {
-			name = highly_amused_ruler
-			duration = 123
 		}
 	}
 }
@@ -21202,16 +19721,16 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 	}
-	
+
 	option = {
 		name = VIETmisc.2225.a
 		prestige = 5
@@ -21226,17 +19745,17 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 		NOT = { has_character_flag = VIET_raid_child_kill }
 	}
-	
+
 	option = {
 		name = VIETmisc.2226.a
 		random = {
@@ -21244,7 +19763,7 @@ character_event = {
 			chance = 5
 		}
 		set_character_flag = VIET_raid_child_kill
-	}	
+	}
 	option = {
 		name = VIETmisc.2226.b
 		random = {
@@ -21258,7 +19777,7 @@ character_event = {
 			remove_trait = kind
 		}
 		set_character_flag = VIET_raid_child_kill
-	}	
+	}
 	option = {
 		name = VIETmisc.2226.c
 		random = {
@@ -21267,7 +19786,7 @@ character_event = {
 		}
 		piety = 5
 		set_character_flag = VIET_raid_child_kill
-	}	
+	}
 	option = {
 		name = VIETmisc.2226.d
 		random_list = {
@@ -21287,16 +19806,16 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 	}
-	
+
 	option = {
 		name = VIETmisc.2227.a
 		prestige = 10
@@ -21310,12 +19829,12 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 		location = {
@@ -21323,11 +19842,11 @@ character_event = {
 			num_of_settlements = 3
 		}
 	}
-	
+
 	option = {
 		name = VIETmisc.2228.a
 		prestige = 15
-	}	
+	}
 	option = {
 		name = VIETmisc.2228.b
 		random_list = {
@@ -21357,16 +19876,16 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 	}
-	
+
 	option = {
 		name = VIETmisc.2229.a
 		prestige = 10
@@ -21379,7 +19898,7 @@ character_event = {
 				chance = 25
 			}
 		}
-	}	
+	}
 	option = {
 		name = VIETmisc.2229.b
 		prestige = 5
@@ -21391,7 +19910,7 @@ character_event = {
 			add_trait = patient
 			chance = 15
 		}
-	}	
+	}
 	option = {
 		name = VIETmisc.2229.c
 		if = {
@@ -21405,7 +19924,7 @@ character_event = {
 			add_trait = diligent
 			chance = 35
 		}
-	}	
+	}
 	option = {
 		name = VIETmisc.2229.d
 		if = {
@@ -21435,16 +19954,16 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 	}
-	
+
 	option = {
 		name = VIETmisc.2230.a
 		add_character_modifier = {
@@ -21461,16 +19980,16 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 	}
-	
+
 	option = {
 		name = VIETmisc.2231.a
 		random = {
@@ -21487,16 +20006,16 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 	}
-	
+
 	option = {
 		name = VIETmisc.2231.a
 		random = {
@@ -21517,16 +20036,16 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 	}
-	
+
 	option = {
 		name = VIETmisc.2233.a
 		random = {
@@ -21539,7 +20058,7 @@ character_event = {
 			}
 			remove_trait = arbitrary
 		}
-	}	
+	}
 	option = {
 		name = VIETmisc.2233.b
 		random = {
@@ -21569,19 +20088,19 @@ character_event = {
 	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		wealth = 10
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -21594,7 +20113,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -21602,7 +20121,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = proud  
+			trait = proud
 		}
 		modifier = {
 			factor = 0.5
@@ -21610,7 +20129,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous  
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -21664,19 +20183,19 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		wealth = 10
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -21689,7 +20208,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -21697,7 +20216,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -21705,7 +20224,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous  
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -21750,19 +20269,19 @@ character_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		wealth = 10
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -21775,7 +20294,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -21783,7 +20302,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -21791,7 +20310,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous  
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -21836,12 +20355,12 @@ character_event = {
 	picture = GFX_evt_book_carolingian_script
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -21850,7 +20369,7 @@ character_event = {
 		diplomacy = 7
 		stewardship = 7
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -21863,7 +20382,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -21871,7 +20390,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = content  
+			trait = content
 		}
 		modifier = {
 			factor = 0.5
@@ -21879,7 +20398,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = absentminded  
+			trait = absentminded
 		}
 		modifier = {
 			factor = 0.5
@@ -21939,16 +20458,16 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 	}
-	
+
 	option = {
 		name = VIETmisc.2238.a
 		random = {
@@ -21966,12 +20485,12 @@ character_event = {
 	picture = GFX_evt_vikings_arriving_oldgods
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 		is_married = yes
@@ -21983,7 +20502,7 @@ character_event = {
 			ai = yes
 		}
 	}
-	
+
 	option = {
 		name = VIETmisc.2239.a
 		add_character_modifier = {
@@ -21999,9 +20518,9 @@ character_event = {
 			add_character_modifier = {
 				name = VIET_feeling_sexy
 				duration = 480
-			}			
-		}		
-	}	
+			}
+		}
+	}
 	option = {
 		name = VIETmisc.2239.b
 		random_list = {
@@ -22024,12 +20543,12 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -22041,7 +20560,7 @@ character_event = {
 		NOT = { religion = ajareda }
 		NOT = { has_global_flag = VIET_anime_references_off }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -22054,7 +20573,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -22062,7 +20581,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -22070,7 +20589,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = deceitful  
+			trait = deceitful
 		}
 		modifier = {
 			factor = 0.5
@@ -22114,19 +20633,19 @@ character_event = {
 	picture = GFX_evt_coming_home
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { has_global_flag = VIET_anime_references_off }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -22139,7 +20658,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -22147,7 +20666,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = ambitious  
+			trait = ambitious
 		}
 		modifier = {
 			factor = 0.5
@@ -22155,7 +20674,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = charitable  
+			trait = charitable
 		}
 		modifier = {
 			factor = 0.5
@@ -22184,21 +20703,21 @@ character_event = {
 		add_character_modifier = {
 			name = highly_amused_ruler
 			duration = 373
-		}		
+		}
 	}
 	option = {#ok
 		name = VIETmisc.2241.b
 		add_character_modifier = {
 			name = VIET_skeptical_ruler
 			duration = 373
-		}		
+		}
 	}
 	option = {#ok
 		name = VIETmisc.2241.c
 		trigger = {
 			NOT = { religion_group = pagan_group }
 		}
-		piety = 5	
+		piety = 5
 	}
 }
 
@@ -22209,13 +20728,13 @@ character_event = {
 	picture = GFX_evt_joust
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -22223,12 +20742,12 @@ character_event = {
 		OR = {
 			trait = strong
 			trait = poor_warrior
-			trait = trained_warrior 
-			trait = skilled_warrior 
-			trait = master_warrior 
-			trait = misguided_warrior 
-			trait = tough_soldier 
-			trait = skilled_tactician 
+			trait = trained_warrior
+			trait = skilled_warrior
+			trait = master_warrior
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
 			trait = brilliant_strategist
 			martial = 11
 		}
@@ -22250,7 +20769,7 @@ character_event = {
 		}
 		NOT = { has_global_flag = VIET_anime_references_off }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -22263,7 +20782,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -22271,7 +20790,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = ambitious  
+			trait = ambitious
 		}
 		modifier = {
 			factor = 0.5
@@ -22279,7 +20798,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = charitable  
+			trait = charitable
 		}
 		modifier = {
 			factor = 0.5
@@ -22325,7 +20844,7 @@ character_event = {
 				who = ROOT
 				years = 1
 			}
-		}		
+		}
 	}
 }
 
@@ -22336,12 +20855,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -22361,7 +20880,7 @@ character_event = {
 		}
 		NOT = { has_global_flag = VIET_anime_references_off }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -22374,7 +20893,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -22382,7 +20901,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = trusting  
+			trait = trusting
 		}
 		modifier = {
 			factor = 0.5
@@ -22390,7 +20909,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = kind  
+			trait = kind
 		}
 		modifier = {
 			factor = 0.5
@@ -22435,7 +20954,7 @@ character_event = {
 				who = ROOT
 				years = 1
 			}
-		}		
+		}
 	}
 }
 
@@ -22446,13 +20965,13 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	only_women = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -22476,7 +20995,7 @@ character_event = {
 		}
 		NOT = { has_global_flag = VIET_anime_references_off }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -22489,7 +21008,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -22497,7 +21016,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = trusting  
+			trait = trusting
 		}
 		modifier = {
 			factor = 0.5
@@ -22505,7 +21024,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = kind  
+			trait = kind
 		}
 		modifier = {
 			factor = 0.5
@@ -22557,7 +21076,7 @@ character_event = {
 				who = ROOT
 				years = 1
 			}
-		}		
+		}
 	}
 	option = {# slap 'em
 		name = VIETmisc.2244.b
@@ -22586,7 +21105,7 @@ character_event = {
 				who = ROOT
 				years = 2
 			}
-		}		
+		}
 	}
 	option = {# walk away
 		name = VIETmisc.2244.c
@@ -22615,7 +21134,7 @@ character_event = {
 				who = ROOT
 				years = 2
 			}
-		}		
+		}
 	}
 	option = {# ignore
 		name = VIETmisc.2244.d
@@ -22645,7 +21164,7 @@ character_event = {
 				who = ROOT
 				years = 1
 			}
-		}		
+		}
 	}
 }
 
@@ -22661,23 +21180,23 @@ character_event = {
 	picture = GFX_evt_nightmare
 
 	is_triggered_only = yes
-	
+
 	min_age = 2
 	max_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = shy 
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -22685,7 +21204,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -22693,7 +21212,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -22701,7 +21220,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = wroth  
+			trait = wroth
 		}
 		modifier = {
 			factor = 0.5
@@ -22782,18 +21301,18 @@ character_event = {
 	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -22806,7 +21325,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -22814,7 +21333,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = trusting  
+			trait = trusting
 		}
 		modifier = {
 			factor = 0.5
@@ -22822,7 +21341,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = absentminded  
+			trait = absentminded
 		}
 		modifier = {
 			factor = 0.5
@@ -22867,19 +21386,19 @@ character_event = {
 	picture = GFX_evt_toothbrush
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { has_character_flag = VIET_urine_mouthwash }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -22892,7 +21411,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -22900,7 +21419,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = patient  
+			trait = patient
 		}
 		modifier = {
 			factor = 0.5
@@ -22908,7 +21427,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious  
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -22963,7 +21482,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_skeptical_ruler
 			duration = 410
-		}	
+		}
 	}
 }
 
@@ -22974,23 +21493,23 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -23006,7 +21525,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous  
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -23054,23 +21573,23 @@ character_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -23086,7 +21605,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous  
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -23171,23 +21690,23 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -23195,7 +21714,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -23251,23 +21770,23 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -23275,7 +21794,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -23332,23 +21851,23 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -23356,7 +21875,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -23438,23 +21957,23 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -23462,7 +21981,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -23530,12 +22049,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
@@ -23551,12 +22070,12 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent   
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -23564,7 +22083,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -23614,7 +22133,7 @@ character_event = {
 					martial = 10
 					trait = genius
 					trait = quick
-				}			
+				}
 			}
 			opinion = {
 				modifier = agrees_with_me
@@ -23637,7 +22156,7 @@ character_event = {
 					martial = 10
 					trait = genius
 					trait = quick
-				}			
+				}
 			}
 			opinion = {
 				modifier = disagrees_with_me
@@ -23655,7 +22174,7 @@ character_event = {
 			trait = genius
 			NOT = { trait = quick }
 			NOT = { martial = 11 }
-		}		
+		}
 		random_courtier = {
 			limit = {
 				age = 10
@@ -23664,7 +22183,7 @@ character_event = {
 					martial = 10
 					trait = genius
 					trait = quick
-				}			
+				}
 			}
 			opinion = {
 				modifier = opinion_impressed
@@ -23678,10 +22197,10 @@ character_event = {
 		name = VIETmisc.2256.c
 		tooltip_info = quick
 		trigger = {
-			trait = quick 
+			trait = quick
 			NOT = { trait = genius }
 			NOT = { martial = 11 }
-		}		
+		}
 		random_courtier = {
 			limit = {
 				age = 10
@@ -23690,7 +22209,7 @@ character_event = {
 					martial = 10
 					trait = genius
 					trait = quick
-				}			
+				}
 			}
 			opinion = {
 				modifier = opinion_impressed
@@ -23707,7 +22226,7 @@ character_event = {
 			martial = 11
 			NOT = { trait = quick }
 			NOT = { trait = genius }
-		}		
+		}
 		random_courtier = {
 			limit = {
 				age = 10
@@ -23716,7 +22235,7 @@ character_event = {
 					martial = 10
 					trait = genius
 					trait = quick
-				}			
+				}
 			}
 			opinion = {
 				modifier = opinion_impressed
@@ -23735,23 +22254,23 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent   
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -23759,7 +22278,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -23842,12 +22361,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
@@ -23882,12 +22401,12 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent   
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -23895,7 +22414,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -23983,24 +22502,24 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		#NOT = { has_character_modifier = VIET_war_ideas }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent   
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24008,7 +22527,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -24056,24 +22575,24 @@ character_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		#NOT = { has_character_modifier = VIET_war_ideas }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent   
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24081,7 +22600,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -24148,24 +22667,24 @@ character_event = {
 	picture = GFX_evt_council
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		NOT = { has_character_modifier = VIET_war_ideas }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent   
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24173,7 +22692,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -24221,24 +22740,24 @@ character_event = {
 	picture = GFX_evt_bandits
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		NOT = { has_character_modifier = VIET_war_problems }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful    
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -24246,7 +22765,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -24303,24 +22822,24 @@ character_event = {
 	picture = GFX_evt_nightmare
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		NOT = { has_character_modifier = VIET_war_problems }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful    
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -24328,7 +22847,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -24384,24 +22903,24 @@ character_event = {
 	picture = GFX_evt_shadowy_cabal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		#NOT = { has_character_modifier = VIET_war_problems }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent    
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24409,7 +22928,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -24465,24 +22984,24 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		#NOT = { has_character_modifier = VIET_war_problems }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent    
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24490,7 +23009,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -24547,24 +23066,24 @@ character_event = {
 	picture = GFX_evt_shadow
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		NOT = { has_character_modifier = VIET_war_ideas }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent    
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24572,7 +23091,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -24620,24 +23139,24 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		#NOT = { has_character_modifier = VIET_war_ideas }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent    
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24645,7 +23164,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -24709,24 +23228,24 @@ character_event = {
 	picture = GFX_evt_hyouka
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		#NOT = { has_character_modifier = VIET_war_ideas }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent    
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24734,7 +23253,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -24791,24 +23310,24 @@ character_event = {
 	picture = GFX_evt_cathedral
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
 		#is_abroad = no
 		#NOT = { has_character_modifier = VIET_war_ideas }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent    
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -24816,7 +23335,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid  
+			trait = paranoid
 		}
 		modifier = {
 			factor = 0.5
@@ -24882,12 +23401,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -24896,12 +23415,12 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -24909,7 +23428,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious  
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -24970,23 +23489,23 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -24994,7 +23513,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = shy  
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -25051,23 +23570,23 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -25075,7 +23594,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious   
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -25141,23 +23660,23 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -25165,7 +23684,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			learning = 15   
+			learning = 15
 		}
 		modifier = {
 			factor = 0.5
@@ -25232,23 +23751,23 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -25311,7 +23830,7 @@ character_event = {
 		any_child = {
 			limit = {
 				NOT = { is_adult = yes }
-				NOT = { trait = incapable }			
+				NOT = { trait = incapable }
 			}
 			opinion = {
 				modifier = VIET_opinion_great_gift
@@ -25329,12 +23848,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -25350,16 +23869,16 @@ character_event = {
 					empire = { title = e_bengal }
 					empire = { title = e_deccan }
 					empire = { title = e_india }
-				}				
+				}
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -25367,7 +23886,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			learning = 15   
+			learning = 15
 		}
 		modifier = {
 			factor = 0.5
@@ -25430,12 +23949,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -25444,12 +23963,12 @@ character_event = {
 			culture_group = central_germanic
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -25494,12 +24013,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -25511,12 +24030,12 @@ character_event = {
 		}
 		NOT = { culture_group = iranian }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = gregarious  
+			trait = gregarious
 		}
 		modifier = {
 			factor = 0.5
@@ -25588,23 +24107,23 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = shy  
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -25690,12 +24209,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -25705,12 +24224,12 @@ character_event = {
 			culture_group = dravidian_group
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = shy  
+			trait = shy
 		}
 		modifier = {
 			factor = 0.5
@@ -25791,12 +24310,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -25806,12 +24325,12 @@ character_event = {
 			culture_group = dravidian_group
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = kind  
+			trait = kind
 		}
 		modifier = {
 			factor = 0.5
@@ -25819,7 +24338,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = humble  
+			trait = humble
 		}
 		modifier = {
 			factor = 0.5
@@ -25875,12 +24394,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -25890,12 +24409,12 @@ character_event = {
 			culture_group = dravidian_group
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = proud  
+			trait = proud
 		}
 		modifier = {
 			factor = 0.5
@@ -25965,12 +24484,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -25998,12 +24517,12 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = proud  
+			trait = proud
 		}
 		modifier = {
 			factor = 0.5
@@ -26076,12 +24595,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -26092,12 +24611,12 @@ character_event = {
 		#}
 		religion = hindu
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = proud  
+			trait = proud
 		}
 		modifier = {
 			factor = 0.5
@@ -26177,12 +24696,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -26198,15 +24717,15 @@ character_event = {
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
 				empire = { title = e_india }
-			}				
-		}		
+			}
+		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = proud  
+			trait = proud
 		}
 		modifier = {
 			factor = 0.5
@@ -26265,12 +24784,12 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -26282,12 +24801,12 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = just  
+			trait = just
 		}
 		modifier = {
 			factor = 0.5
@@ -26349,7 +24868,7 @@ character_event = {
 			add_province_modifier = {
 				name = VIET_santa_claus_visiting
 				duration = 1441
-			}		
+			}
 		}
 	}
 }
@@ -26361,24 +24880,24 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		religion_group = christian
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = just  
+			trait = just
 		}
 		modifier = {
 			factor = 0.5
@@ -26456,24 +24975,24 @@ character_event = {
 	picture = GFX_evt_bad_news
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		has_lover = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = lustful  
+			trait = lustful
 		}
 		modifier = {
 			factor = 0.5
@@ -26546,24 +25065,24 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		religion_group = christian
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -26645,12 +25164,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -26663,12 +25182,12 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -26788,13 +25307,13 @@ character_event = {
 	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	max_age = 50
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -26802,12 +25321,12 @@ character_event = {
 		NOT = { trait = infirm }
 		health = 5
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -26889,12 +25408,12 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -26914,12 +25433,12 @@ character_event = {
 			culture_group = east_slavic
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent  
+			trait = diligent
 		}
 		modifier = {
 			factor = 0.5
@@ -26996,12 +25515,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -27009,12 +25528,12 @@ character_event = {
 		NOT = { trait = infirm }
 		health = 4
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -27101,18 +25620,18 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -27208,18 +25727,18 @@ character_event = {
 	picture = GFX_evt_garden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -27292,7 +25811,7 @@ character_event = {
 		add_character_modifier = {
 			name = VIET_annoyed_ruler
 			duration = 225
-		}		
+		}
 	}
 	option = {#yes
 		name = VIETmisc.2295.b
@@ -27300,7 +25819,7 @@ character_event = {
 		add_character_modifier = {
 			name = highly_amused_ruler
 			duration = 315
-		}		
+		}
 	}
 }
 
@@ -27311,12 +25830,12 @@ character_event = {
 	picture = GFX_evt_busy_trading_dock_republic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -27326,7 +25845,7 @@ character_event = {
 			religion_group = christian
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -27419,18 +25938,18 @@ character_event = {
 	picture = GFX_evt_travel
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -27507,18 +26026,18 @@ character_event = {
 	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -27587,12 +26106,12 @@ character_event = {
 	picture = GFX_evt_small_town_indo_aryan_group
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -27609,11 +26128,11 @@ character_event = {
 					culture_group = iranian
 					culture_group = serindian
 					religion_group = indian_group
-				}				
+				}
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -27674,12 +26193,12 @@ character_event = {
 	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -27696,11 +26215,11 @@ character_event = {
 				kingdom = { title = k_armenia }
 				kingdom = { title = k_georgia }
 				kingdom = { title = k_aquitaine }
-			}				
+			}
 		}
 		NOT = { has_character_flag = VIET_geckos_removed }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -27801,7 +26320,7 @@ character_event = {
 			random = {
 				add_trait = ill
 				chance = 15
-			}			
+			}
 		}
 	}
 }
@@ -27813,18 +26332,18 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -27893,18 +26412,18 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -27968,7 +26487,7 @@ character_event = {
 			add_character_modifier = {
 				name = highly_amused_ruler
 				duration = 365
-			}		
+			}
 		}
 	}
 	option = {#yes
@@ -28050,12 +26569,12 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -28065,7 +26584,7 @@ character_event = {
 			ai = yes
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -28150,23 +26669,23 @@ character_event = {
 	picture = GFX_evt_garden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -28242,23 +26761,23 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful  
+			trait = slothful
 		}
 		modifier = {
 			factor = 0.5
@@ -28365,12 +26884,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -28388,7 +26907,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -28453,11 +26972,11 @@ province_event = {
 	id = VIETmisc.2308
 	desc = VIETmisc.2308.desc
 	picture = GFX_evt_stone_church
-	
+
 	trigger = {
 		NOT = { has_province_modifier = VIET_province_wolf_attacks }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2250
 	}
@@ -28476,12 +26995,12 @@ province_event = {
 	id = VIETmisc.2309
 	desc = VIETmisc.2309.desc
 	picture = GFX_evt_busy_trading_dock_republic
-	
+
 	trigger = {
 		NOT = { has_province_modifier = VIET_province_fishing_boom }
 		port = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 	}
@@ -28507,12 +27026,12 @@ character_event = {
 	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -28525,7 +27044,7 @@ character_event = {
 		#	NOT = { health = 4 }
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -28583,12 +27102,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -28601,7 +27120,7 @@ character_event = {
 		#	has_focus = focus_carousing
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -28666,12 +27185,12 @@ character_event = {
 	picture = GFX_evt_columbus
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -28689,7 +27208,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -28800,12 +27319,12 @@ character_event = {
 	picture = GFX_evt_bad_news
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -28818,7 +27337,7 @@ character_event = {
 		#	has_focus = focus_family
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -28871,7 +27390,7 @@ character_event = {
 			}
 			chance = 30
 		}
-	
+
 	}
 }
 
@@ -28882,12 +27401,12 @@ character_event = {
 	picture = GFX_evt_bad_news
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -28905,7 +27424,7 @@ character_event = {
 		#	has_focus = focus_intrigue
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -28960,7 +27479,7 @@ character_event = {
 			}
 			add_trait = ill
 		}
-	
+
 	}
 }
 

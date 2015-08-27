@@ -95,7 +95,7 @@ spriteTypes = {
 		noOfFrames = 1
 		norefcount = yes
 	}
-	
+
 ###BUILD NEW VIEW
 	spriteType = {
 		name = "GFX_build_settlement_banniere_arko"
@@ -151,7 +151,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_lobby_left_loadsave"
 		texturefile = "gfx\\interface\\lobby_left_loadsave.dds"
-	}	
+	}
 ##VUE PERSO
 	spriteType = {
 		name = "GFX_opinion_bg_rond"
@@ -235,7 +235,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_religion_icon_strip_decorated"
 		texturefile = "gfx\\interface\\religion_icon_strip_decorated.tga"
-		noOfFrames = 60
+		noOfFrames = 74
 	}
 	spriteType = {
 		name = "GFX_charview_label_bg_alt"

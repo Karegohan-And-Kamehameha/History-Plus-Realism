@@ -386,35 +386,6 @@ VIETmisc.2098.a;My neck is very flexible! Now fear me!;;;;;;;;;;;;;x
 VIETmisc.2098.b;That said, I don’t want to partake in this stupid fad.;;;;;;;;;;;;;x
 VIETmisc.2099.desc;I accidentally bit my tongue.;;;;;;;;;;;x
 VIETmisc.2099.a;Ouch!;;;;;;;;;;;;;x
-VIETmisc.2100.desc;One of my courtiers' has rather bad teeth, even though we have the tools available to maintain acceptable standards of oral hygiene, such as the miswak, the teeth-cleaning twig. I decide to discuss the matter with my courtier one day, and quote a Hadith: "Make a regular practice of Miswak for verily it is the purification for the mouth and a means of the pleasure of the Lord.";;;;;;;;;;;x
-VIETmisc.2100.a;Your bad breath offends the Prophets and Allah!;;;;;;;;;;;;;x
-VIETmisc.2101.desc;In one Hadith, the Prophet (peace be upon him) was quoted as saying that "were it not that I might overburdened the Believers I would have ordained them to use Miswak at the time of every prayer." Usage of miswak, the teeth-cleaning twig, is surely a sign of piety! It may be a good idea to vow that I'll use the miswak before every prayer as much as I can.;;;;;;;;;;;x
-VIETmisc.2101.a;A good idea!;;;;;;;;;;;;;x
-VIETmisc.2101.b;Nay, even the Prophet thinks this is too much a burden.;;;;;;;;;;;;;x
-VIETmisc.2102.desc;A noble visiting from afar has gifted me with a very beautiful toothpick, crafted from the purest gold. It is encrusted with precious stones, and expertly carved into lovely, artistic shapes. Then again, there’s not much a point in wasting this toothpick for cleaning my teeth.;;;;;;;;;;;x
-VIETmisc.2102.a;It will do as a decoration in my bathroom.;;;;;;;;;;;;;x
-VIETmisc.2103.desc;Today while talking with a visiting dignitary I learned from him that the men of Cathay prefer toothbrushes with harder, harsher bristles.;;;;;;;;;;;x
-VIETmisc.2103.a;What a brave people, those Chinese!;;;;;;;;;;;;;x
-VIETmisc.2103.b;Such stubbornness in their obsession to clean their teeth. Oh my.;;;;;;;;;;;;;x
-VIETmisc.2104.desc;I have such a lewd-minded courtier. Why, today, this fool has the audacity to explain the morally dubious things of a "romantic" nature one could do with a toothbrush! What sickening, horrific, disgusting, disgraceful, shameful, barbaric, animalistic, repulsive, vulgar ideas I am forced to listen to!;;;;;;;;;;;x
-VIETmisc.2104.a;Run out of the room before it's too late!;;;;;;;;;;;;;x
-VIETmisc.2104.b;Listen out of politeness.;;;;;;;;;;;;;x
-VIETmisc.2104.c;Why... such ideas aren't half bad...;;;;;;;;;;;;;x
-VIETmisc.2104.d;Haha, what an amateur. An absolute amateur.;;;;;;;;;;;;;x
-VIET_toothbrush_sexy_times_amateurs;If only they knew the sort of things I did with my sister…;;;;;;;;;;;x
-VIETmisc.2105.desc;One of my older servants told me interesting advice pertaining to oral hygiene that he heard from some learned men. Apparently, it seems that one should clean not only one's teeth, but one's tongue as well. After all, disgusting things accumulate on the tongue as well, so why should we not give it as much focus as we do our teeth?;;;;;;;;;;;x
-VIETmisc.2105.a;Excellent advice. Thank you!;;;;;;;;;;;;;x
-VIETmisc.2106.desc;I noticed one of my Jewish courtiers tends to rinse their mouth with a strange concoction every now and then. Questioning them on the matter, I learned that this liquid was a mixture of dough water and olive oil, which the Talmhd advises as a cure for gum ailments.;;;;;;;;;;;x
-VIETmisc.2106.a;Interesting. I should try it.;;;;;;;;;;;;;x
-VIETmisc.2106.b;Disgusting Jewish tricks, I will not fall for it!;;;;;;;;;;;;;x
-VIETmisc.2107.desc;Seeing all the older people with their horrid gums and decaying teeth makes me fear about how my mouth could end up like in the future. Therefore, I vow to take every step I can to improve my oral hygiene! I will eat and drink things beneficial to my teeth, for instance, and learn the best techniques for brushing my teeth.;;;;;;;;;;;x
-VIETmisc.2107.a;Even when I’m old and feeble, I WILL have good teeth.;;;;;;;;;;;;;x
-VIETmisc.2108.desc;I was a little too fixated with cleaning my teeth earlier today, and brushed with too much intensity, resulting in some slight bleeding from my gums. As a result, my teeth are covered in blood. Unfortunately, I have to meet with my court soon, even though I look like a man-eating bloodthirsty monster.;;;;;;;;;;;x
-VIETmisc.2108.a;Here goes…;;;;;;;;;;;;;x
-VIETmisc.2108.b;Thankfully, I look beautiful no matter what.;;;;;;;;;;;;;x
-VIETmisc.2108.c;This will only enhance my fearsome looks.;;;;;;;;;;;;;x
-VIETmisc.2109.desc;“By the way, [Root.GetTitledFirstName], I accidentally dropped your toothbrush in the chamber pot,” a courtier know for their pranks tells you. After you halt in shock, the courtier says, “I was just joking. Haha! You should’ve seen your face. Don’t worry, your toothbrush is fine.” Further investigation suggests that your toothbrush is clean as ever, but still…;;;;;;;;;;;x
-VIETmisc.2109.a;I feel uneasy. But… alright.;;;;;;;;;;;;;x
 VIETmisc.2110.desc;I'm dreaming of a beautiful place... warm, sunny, peaceful.... And there stands the most beautiful woman I have ever seen. She approaches me, in this tropical paradise, and caresses my face like the ocean breeze, pushes onto me like the waves onto the sand...;;;;;;;;;;;x
 VIETmisc.2110.a;I like this beach very much, in more ways than one.;;;;;;;;;;;;;x
 VIETmisc.2110.b;Bah! I prefer the cold. Much more romantic.;;;;;;;;;;;;;x
@@ -709,19 +680,6 @@ VIETmisc.2218.desc;"Here? Right here? What about, say... over there? No? Right h
 VIETmisc.2218.a;You and your entourage run away from the lunatic as fast as you can.;;;;;;;;;;;;;x
 VIETmisc.2219.desc;"Aw gee! You sure? Okay, well, I'll be hanging around [Root.Location.GetName] if you need someone to worship the ground you walk on. Bye!";;;;;;;;;;;x
 VIETmisc.2219.a;You and your entourage run away from the lunatic as fast as you can.;;;;;;;;;;;;;x
-VIETmisc.2220.desc;You visit a farmer in an effort to get to understand the commoners better. The man shows you around his farm, and the two of you come across his large cock. 'My hens love this cock, but unfortunately I'm thinking of eating this big, juicy, nice cock later today.”;;;;;;;;;;;x
-VIETmisc.2220.a;Would you mind if I join you in eating that big, juicy, nice cock?;;;;;;;;;;;;;x
-VIETmisc.2220.b;Wouldn’t it be wiser to let the hens have their big cock instead?;;;;;;;;;;;;;x
-VIETmisc.2221.desc;You realize the egg you’re eating is a cock egg, that is, an egg without yolk. The peasants say such eggs are laid by cocks, hence their lack of yolk. They say if the cock egg were to hatch, it would hatch a great evil monster, the cockatrice, a gigantic, fearsome, big cock-monster.;;;;;;;;;;;x
-VIETmisc.2221.a;Cocks are very strange.;;;;;;;;;;;;;x
-VIETmisc.2222.desc;A local peasant happened to have one of the biggest cocks ever seen in these parts. Out of respect, he has presented it to you as a gift. Thus, today, you and some your courtiers are enjoying this big, delicious, meaty cock.;;;;;;;;;;;x
-VIETmisc.2222.a;Mmmm!;;;;;;;;;;;;;x
-VIETmisc.2223.desc;Cock a doodle doo!;;;;;;;;;;;x
-VIETmisc.2223.a;Will that rooster shut up! I’m awake, alright, I’m awake!;;;;;;;;;;;;;x
-VIETmisc.2224.desc;On the side of the road, you notice a monstrous, vicious cock attacking a smaller, weaker, flabbier cock. It looks like one nasty mess of cocks.;;;;;;;;;;;x
-VIETmisc.2224.a;The stronger cock deserves to beat the weaker one!;;;;;;;;;;;;;x
-VIETmisc.2224.b;I’m rooting for the weaker cock to win against the odds!;;;;;;;;;;;;;x
-VIETmisc.2224.c;These cocks are ridiculous.;;;;;;;;;;;;;x
 VIETmisc.2225.desc;In the midst of our raid this time we captured a few healthy men, women, and children. They will be sold for a nice profit elsewhere.;;;;;;;;;;;x
 VIETmisc.2225.a;Good profits indeed.;;;;;;;;;;;;;x
 VIETmisc.2226.desc;While pillaging the settlement you come across two small children. As you raise your weapon, ready to kill the miserable little runt, one child, who looks to be the older one, begs for mercy, asking that you spare their younger sibling. For some reason, you start to feel bad...;;;;;;;;;;;x
