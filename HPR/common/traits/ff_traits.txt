@@ -1,0 +1,2040 @@
+######################################################################################################
+#############################################               FRIENDS&FOES MOD       ###################
+############################################# LIST OF TRAITS ADDED                 ###################
+######################################################################################################
+
+									#### ADDED BY ASH
+
+
+phlegmblood = {
+	personality = yes
+	opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmybile
+		bloodybile
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		ybilephlegm
+	 }
+	}
+
+						### ADDED BY ASH
+phlegmbbile = {
+	personality = yes
+	opposites =  {
+		bbileblood
+		phlegmblood
+		ybileblood
+		phlegmybile
+		bloodybile
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		ybilephlegm
+	 }
+	}
+							### ADDED BY ASH
+	ybileblood = {
+		personality = yes
+		opposites =  {
+		bbileblood
+		phlegmbbile
+		bloodybile
+		phlegmybile
+		phlegmblood
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		ybilephlegm
+	  }
+	}
+								### ADDED BY ASH
+	phlegmybile = {
+		personality = yes
+		opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmblood
+		bloodybile
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		ybilephlegm
+	}
+		}
+									### ADDED BY ASH
+bloodybile = {
+		personality = yes
+		opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmybile
+		phlegmblood
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		ybilephlegm
+	  }
+	}
+									### ADDED BY ASH
+	bloodbbile = {
+		personality = yes
+		opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmblood
+		bloodybile
+		phlegmybile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		ybilephlegm
+	}
+		}
+									### ADDED BY ASH
+	ybilebbile = {
+		personality = yes
+		opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmblood
+		bloodybile
+		bloodbbile
+		phlegmybile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		ybilephlegm
+	}
+		}
+									### ADDED BY ASH
+	bbilephlegm = {
+		personality = yes
+		opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmblood
+		bloodybile
+		bloodbbile
+		ybilebbile
+		phlegmybile
+		bloodphlegm
+		bbileybile
+		ybilephlegm
+	}
+		}
+							### ADDED BY ASH
+bloodphlegm = {
+	personality = yes
+	opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmybile
+		bloodybile
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		phlegmblood
+		bbileybile
+		ybilephlegm
+	}
+		}
+								### ADDED BY ASH
+	bbileybile = {
+		personality = yes
+		opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmybile
+		bloodybile
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		phlegmblood
+		ybilephlegm
+	}
+		}
+							### ADDED BY ASH
+ybilephlegm = {
+		personality = yes
+	opposites =  {
+		bbileblood
+		phlegmbbile
+		ybileblood
+		phlegmybile
+		bloodybile
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		phlegmblood
+	}
+		}
+							### ADDED BY ASH
+	bbileblood = {
+		personality = yes
+	opposites =  {
+		ybilephlegm
+		phlegmbbile
+		ybileblood
+		phlegmybile
+		bloodybile
+		bloodbbile
+		ybilebbile
+		bbilephlegm
+		bloodphlegm
+		bbileybile
+		phlegmblood
+	}
+		}
+
+
+
+
+
+
+##############################################BBILEBLOOD ARCHETYPE#################################
+
+
+
+					### ADDED BY ASH
+disciplined = {
+opposites =  {
+		slothful
+	 }
+
+	martial = 1
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_defence = 0.05
+	}
+}
+
+					### ADDED BY ASH
+reserved = {
+	opposites =  {
+		tattler
+		gregarious
+	 }
+
+	diplomacy = -1
+	intrigue = 1
+
+}
+
+					### ADDED BY ASH
+rigid = {
+
+	diplomacy = -1
+	stewardship = -1
+
+	command_modifier = { ### COMMAND MODIFIER
+		random = -0.05
+	}
+
+}
+
+					### ADDED BY ASH
+unfriendly = {
+	opposites =  {
+		gregarious
+		friendly
+		lively
+		quipster
+		funny
+		kind
+		trusting
+	 }
+
+	diplomacy = -2
+
+	same_opinion = -5
+	vassal_opinion = -3
+	sex_appeal_opinion = -5
+	opposite_opinion = -20
+
+}
+
+					### ADDED BY ASH
+calm = {
+	opposites =  {
+		wroth
+		loud
+		bloodthirsty
+		irrational
+	 }
+
+	martial = -1
+	diplomacy = 1
+
+	health = 0.1
+
+	same_opinion = 5
+	opposite_opinion = -10
+
+	command_modifier = { ### COMMAND MODIFIER
+		damage = -0.05
+		defence = 0.1
+	}
+}
+
+					### ADDED BY ASH
+authoritative = {
+
+	martial = 1
+
+	vassal_opinion = 5
+	dynasty_opinion = 3
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_offence = 0.05
+		morale_defence = 0.05
+	}
+
+}
+
+					### ADDED BY ASH
+plain = {
+	opposites =  {
+		fanciful
+		pompous
+		genius
+	 }
+
+	diplomacy = -1
+	martial = 1
+	learning = -1
+
+	same_opinion = 5
+	opposite_opinion = -10
+	sex_appeal_opinion = -5
+
+	monthly_character_prestige = -0.05
+
+	command_modifier = { ### COMMAND MODIFIER
+		cavalry = -0.1
+	}
+
+}
+
+					### ADDED BY ASH
+carefulplanner = {
+	opposites =  {
+		slothful
+		careless
+		impulsive
+		impatient
+		procrastinator
+	 }
+
+	intrigue = 1
+	martial = 2
+
+	opposite_opinion = -10
+
+	ai_greed = 5
+	ai_rationality = 30
+
+	command_modifier = { ### COMMAND MODIFIER
+		random = 0.1
+		damage = 0.05
+		defence = 0.05
+	}
+
+}
+
+
+
+
+
+###########################################PHLEGMBLOOD ARCHETYPE#################################
+
+
+						### ADDED BY ASH
+books = {
+	learning = 1
+	stewardship = 1
+
+	church_opinion = 5
+	same_opinion = 10
+	sex_appeal_opinion = -5
+}
+
+					### ADDED BY ASH
+aloof = {
+	opposites =  {
+		envious
+		gregarious
+		deceitful
+		}
+	intrigue = -1
+	diplomacy = -1
+	learning = 1
+
+	same_opinion = 10
+	dynasty_opinion = -3
+
+}
+
+					### ADDED BY ASH
+stoic = {
+	opposites =  {
+		craven
+		}
+
+	martial = 1
+
+	vassal_opinion = 5
+
+monthly_character_prestige = 0.2
+
+command_modifier = { ### COMMAND MODIFIER
+		morale_offence = 0.05
+		center = 0.05
+	}
+
+}
+
+					### ADDED BY ASH
+eccentric = {
+	diplomacy = -2
+	martial = -1
+
+	dynasty_opinion = -5
+	church_opinion = -5
+	spouse_opinion = -5
+
+monthly_character_prestige = -0.1
+
+	ai_rationality = -10
+	ai_honor = -5
+
+}
+					### ADDED BY ASH
+loyal = {
+	opposites =  {
+		ambitious
+		arrogant
+		rebellious
+		deceitful
+	 }
+
+	dynasty_opinion = 5
+	church_opinion = 5
+	liege_opinion = 25
+	same_opinion = 10
+	opposite_opinion = -10
+
+	ai_honor = 20
+	ai_ambition = -15
+}
+					### ADDED BY ASH
+rude = {
+	opposites = {
+	chaste
+	zealous
+	spiritual
+	bible
+	humble
+	}
+
+	martial = 1
+	diplomacy = -1
+
+	church_opinion = -5
+	spouse_opinion = -5
+	sex_appeal_opinion = -5
+	opposite_opinion = -10
+
+    monthly_character_piety = -0.2
+}
+					### ADDED BY ASH
+unpredictable = {
+
+	intrigue = 1
+
+	ai_honor = -5
+	ai_rationality = -20
+
+	command_modifier = { ### COMMAND MODIFIER
+		random = 0.1
+	}
+}
+
+					### ADDED BY ASH
+clever = {
+	opposites =  {
+		slow
+		quick
+		imbecile
+		genius
+		inbred
+	 }
+
+	diplomacy = 1
+	stewardship = 2
+	learning = 1
+
+	vassal_opinion = 5
+
+	ai_ambition = 5
+	ai_rationality = 20
+
+	command_modifier = { ### COMMAND MODIFIER
+		defence = 0.05
+	}
+}
+
+
+
+
+###############################################PLHEGMBBILE ARCHETYPE#################################
+
+
+
+					### ADDED BY ASH
+bible = {
+
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+
+	opposites =  {
+		cynical
+		rude
+	 }
+
+	diplomacy = 1
+	learning = 1
+
+	same_religion_opinion = 3
+	opposite_opinion = -5
+	same_opinion_if_same_religion = 5
+	church_opinion = 5
+
+	monthly_character_piety = 0.5
+
+	ai_honor = 5
+	ai_zeal = 30
+}
+
+
+					### ADDED BY ASH
+indecisive = {
+	opposites =  {
+		confident
+		authorative
+	 }
+
+	martial = -2
+	stewardship = -1
+
+	vassal_opinion = -3
+	opposite_opinion = -5
+
+	monthly_character_prestige = -0.05
+
+	ai_rationality = -5
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_offence = -0.05
+		morale_defence = -0.05
+		damage = -0.1
+	}
+
+}
+
+					### ADDED BY ASH
+idealistic = {
+
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+
+	opposites =  {
+		cynical
+		deceitful
+		practical
+		arbitrary
+	 }
+
+	intrigue = -1
+	stewardship = -1
+	diplomacy = 1
+
+	same_opinion_if_same_religion = 10
+	infidel_opinion = -10
+	church_opinion = 10
+	opposite_opinion = -10
+
+	monthly_character_piety = 0.5
+
+	ai_honor = 20
+	ai_zeal = 20
+
+}
+					### ADDED BY ASH
+secretive = {
+	opposites =  {
+		trusting
+		tattler
+	 }
+
+	intrigue = 1
+
+	same_opinion = 10
+
+	ai_ambition = 5
+
+}
+
+					### ADDED BY ASH
+moody = {
+	opposites =  {
+		constant
+	 }
+
+	stewardship = -1
+
+	same_opinion = 5
+	opposite_opinion = -5
+
+}
+
+					### ADDED BY ASH
+spiritual = {
+
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+
+	opposites =  {
+		cynical
+		rude
+		arbitrary
+	 }
+
+	learning = 2
+
+	same_opinion_if_same_religion = 5
+	same_religion_opinion = 3
+	church_opinion = 10
+	opposite_opinion = -10
+
+	monthly_character_piety = 1
+
+	ai_zeal = 30
+}
+
+					### ADDED BY ASH
+familyperson = {
+	opposites =  {
+		selfish
+		cynical
+	 }
+
+	same_opinion = 10
+	church_opinion = 5
+	dynasty_opinion = 5
+	opposite_opinion = -10
+	spouse_opinion = 5
+
+	ai_greed = -10
+	ai_ambition = -10
+
+}
+
+					### ADDED BY ASH
+procrastinator = {
+	opposites =  {
+		energetic
+		diligent
+		efficient
+	 }
+
+	stewardship = -1
+
+	opposite_opinion = -5
+
+	build_time_modifier = 0.15
+
+	command_modifier = { ### COMMAND MODIFIER
+		speed = -0.05
+		pursue = -0.1
+	}
+
+}
+
+#########################################################YBILEBLOOD ARCHETYPE#################################
+
+		### ADDED BY ASH
+energetic = {
+	opposites =  {
+		slothful
+	 }
+
+	martial = 1
+	stewardship = 1
+
+	health = 1
+	fertility = 0.1
+
+	same_opinion = 10
+	opposite_opinion = -10
+
+	build_time_modifier = -0.1
+
+	command_modifier = { ### COMMAND MODIFIER
+		speed = 0.1
+		pursue = 0.05
+	}
+
+}
+
+					### ADDED BY ASH
+confident = {
+	opposites =  {
+		shy
+		humble
+		craven
+	 }
+
+	martial = 1
+
+	monthly_character_prestige = 0.05
+
+	vassal_opinion = 3
+
+}
+
+					### ADDED BY ASH
+impulsive = {
+	opposites =  {
+		patient
+		cautious
+	 }
+
+	diplomacy = -1
+
+	opposite_opinion = -5
+
+	ai_rationality = -10
+
+	command_modifier = { ### COMMAND MODIFIER
+		pursue = 0.05
+		defence = -0.05
+	}
+}
+
+					### ADDED BY ASH
+efficient = {
+	opposites =  {
+		procrastinator
+		slothful
+		arbitrary
+	 }
+
+	stewardship = 2
+
+	same_opinion = 10
+	opposite_opinion = -5
+
+	global_tax_modifier = 0.05
+
+}
+
+					### ADDED BY ASH
+arrogant = {
+	opposites =  {
+		proud
+		humble
+		kind
+	 }
+
+	learning = -1
+	diplomacy = -1
+
+	vassal_opinion = -3
+	liege_opinion = -10
+	same_opinion = -5
+	opposite_opinion = -5
+
+	ai_ambition = 10
+}
+
+					### ADDED BY ASH
+selfish = {
+	opposites =  {
+		charitable
+		kind
+		just
+	 }
+
+	diplomacy = -2
+
+	spouse_opinion = -5
+	dynasty_opinion = -5
+
+	ai_greed = 10
+	ai_zeal = -30
+}
+
+					### ADDED BY ASH
+loud = {
+	opposites =  {
+		shy
+	 }
+
+	martial = 1
+	diplomacy = -1
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_offence = 0.05
+	}
+}
+
+					### ADDED BY ASH
+restless = {
+	opposites =  {
+		patient
+		procrastinator
+	 }
+
+	intrigue = -1
+	stewardship = 1
+
+	opposite_opinion = -5
+
+	command_modifier = { ### COMMAND MODIFIER
+		speed = 0.1
+	}
+}
+
+
+
+
+
+#########################################################PHLEGMYBILE ARCHETYPE#################################
+
+
+
+
+					### ADDED BY ASH
+constant = {
+	opposites =  {
+		arbitrary
+		wroth
+	 }
+
+	diplomacy = 1
+
+	same_opinion = 5
+	vassal_opinion = 3
+}
+
+					### ADDED BY ASH
+predictable = {
+	opposites =  {
+		unpredictable
+	 }
+
+	intrigue = -2
+
+	opposite_opinion = -10
+
+	ai_rationality = 20
+
+	command_modifier = { ### COMMAND MODIFIER
+		random = -0.1
+	}
+}
+
+					### ADDED BY ASH
+dull = {
+	opposites =  {
+		eccentric
+		unpredictable
+	 }
+
+	diplomacy = -2
+
+	sex_appeal_opinion = -5
+	opposite_opinion = -5
+	spouse_opinion = -5
+
+}
+
+					### ADDED BY ASH
+practical = {
+	opposites =  {
+		idealistic
+		fanciful
+	 }
+
+	stewardship = 2
+
+	same_opinion = 10
+	opposite_opinion = -10
+
+}
+
+					### ADDED BY ASH
+resentful = {
+	opposites =  {
+		unreliable
+	 }
+
+	opposite_opinion = -10
+	liege_opinion = -5
+
+	ai_honor = -10
+	ai_zeal = 20
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_offence = 0.1
+	}
+}
+
+					### ADDED BY ASH
+stubborn = {
+	opposites =  {
+		obstinate
+	 }
+
+	intrigue = -1
+	martial = -1
+	learning = 1
+
+
+	ai_honor = -10
+	ai_zeal = 20
+}
+
+					### ADDED BY ASH
+money = {
+	opposites =  {
+		frivolous
+		careless
+		imbecile
+		pompous
+		vain
+	 }
+
+	stewardship = 1
+
+	opposite_opinion = -10
+
+	global_tax_modifier = 0.1
+
+}
+
+					### ADDED BY ASH
+oldfashioned = {
+	diplomacy = 1
+
+	vassal_opinion = 5
+	liege_opinion = 5
+	same_opinion_if_same_religion = 10
+	same_religion_opinion = 3
+	monthly_character_prestige = 0.1
+
+	ai_honor = 5
+	ai_zeal = 10
+
+}
+
+
+
+
+
+
+
+#########################################################BLOODYBILE ARCHETYPE#################################
+
+
+
+					### ADDED BY ASH
+lively = {
+	opposites =  {
+		aloof
+		unfriendly
+		shy
+		reserved
+		envious
+	 }
+
+	martial = 1
+	diplomacy = 1
+
+	same_opinion = 10
+	opposite_opinion = -5
+}
+
+					### ADDED BY ASH
+eloquent = {
+	opposites =  {
+		plain
+		dull
+	 }
+
+	diplomacy = 2
+
+	same_opinion = 5
+	opposite_opinion = -5
+
+monthly_character_prestige = 0.1
+
+}
+
+					### ADDED BY ASH
+nervous = {
+	opposites =  {
+		patient
+		calm
+	 }
+
+	martial = -1
+
+	opposite_opinion = -5
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_offence = -0.05
+		center = -0.1
+	}
+}
+
+					### ADDED BY ASH
+shallow = {
+	opposites =  {
+		analytical
+		genius
+		quick
+		scholar
+	 }
+
+	intrigue = -1
+	learning = -1
+
+	same_opinion = 5
+	opposite_opinion = -5
+
+}
+
+					### ADDED BY ASH
+impatient = {
+	opposites =  {
+		patient
+		calm
+		cautious
+		dull
+		meticulous
+	 }
+
+	stewardship = -1
+
+	same_opinion = 5
+	opposite_opinion = -10
+
+
+	build_time_modifier = -0.1
+	global_tax_modifier = -0.1
+
+	ai_greed = 5
+
+	command_modifier = { ### COMMAND MODIFIER
+		speed = 0.1
+	}
+}
+
+					### ADDED BY ASH
+fickle = {
+
+	diplomacy = -2
+	martial = -1
+
+	vassal_opinion = -3
+	dynasty_opinion = -3
+
+	command_modifier = { ### COMMAND MODIFIER
+		damage = -0.1
+	}
+}
+
+					### ADDED BY ASH
+friendly = {
+	opposites =  {
+		unfriendly
+		stoic
+		envious
+		cruel
+	 }
+
+	intrigue = -1
+	diplomacy = 2
+
+	same_opinion = 10
+	liege_opinion = 10
+	vassal_opinion = 5
+	sex_appeal_opinion = 3
+	opposite_opinion = -5
+	spouse_opinion = 5
+	dynasty_opinion = 3
+
+	ai_rationality = 10
+	ai_ambition = -10
+
+
+}
+
+					### ADDED BY ASH
+tattler = {
+	opposites =  {
+		secretive
+		unfriendly
+	 }
+
+	intrigue = -1
+	diplomacy = 1
+
+	same_opinion = 5
+	opposite_opinion = -10
+
+}
+
+
+
+
+#############################################BLOODBBILE ARCHETYPE#################################
+
+
+
+					### ADDED BY ASH
+cautious = {
+	opposites =  {
+		risktaker
+		impulsive
+		arbitrary
+	 }
+
+	intrigue = 1
+
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_rationality = 20
+
+	command_modifier = { ### COMMAND MODIFIER
+		defence = 0.05
+	}
+
+}
+
+					### ADDED BY ASH
+irrational = {
+	opposites =  {
+		patient
+		carefulplanner
+		just
+	 }
+
+	stewardship = -2
+	diplomacy = -1
+
+	vassal_opinion = -5
+	opposite_opinion = -10
+
+	ai_rationality = -20
+	ai_honor = -10
+	ai_ambition = 10
+
+}
+
+					### ADDED BY ASH
+selfpitying = {
+	opposites =  {
+		stoic
+		ambitious
+		diligent
+	 }
+
+	martial = -1
+
+	opposite_opinion = -5
+
+	ai_honor = -10
+
+}
+
+					### ADDED BY ASH
+goodintuition = {
+
+	diplomacy = 1
+	intrigue = 2
+
+	same_opinion = 5
+
+	command_modifier = { ### COMMAND MODIFIER
+		retreat = 0.1
+	}
+
+}
+
+					### ADDED BY ASH
+overimaginative = {
+
+	stewardship = -1
+	intrigue = 1
+
+}
+
+					### ADDED BY ASH
+obstinate = {
+	opposites =  {
+		stubborn
+	 }
+
+	martial = 1
+	learning = 1
+
+	same_opinion = 5
+	opposite_opinion = -10
+
+	ai_zeal = 10
+
+
+}
+
+					### ADDED BY ASH
+manipulative = {
+	opposites =  {
+		trusting
+	 }
+
+	intrigue = 1
+
+	dynasty_opinion = -4
+
+	ai_greed = 10
+
+}
+
+					### ADDED BY ASH
+frivolous = {
+	opposites =  {
+		money
+		temperate
+		worrier
+		humble
+	 }
+
+	martial = -1
+	stewardship = -1
+
+	same_opinion = 5
+	opposite_opinion = -10
+
+	monthly_character_wealth = -0.02
+
+	global_tax_modifier = -0.05
+
+}
+
+
+
+
+
+
+##################################### YBILEBBILE ARCHETYPE#################################
+
+
+					### ADDED BY ASH
+dogmatic = {
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+	opposites =  {
+		cynical
+		tolerant
+	 }
+
+	diplomacy = -1
+
+	same_opinion_if_same_religion = 10
+	infidel_opinion = -5
+	opposite_opinion = -10
+	church_opinion = 5
+
+	global_revolt_risk = 0.05
+	monthly_character_piety = 0.5
+
+	ai_zeal = 30
+
+	command_modifier = {   ### COMMAND MODIFIER
+		religious_enemy = 0.3
+	}
+
+}
+
+					### ADDED BY ASH
+pompous = {
+	opposites =  {
+		temperate
+		humble
+		plain
+	 }
+
+	diplomacy = -1
+
+	opposite_opinion = -5
+
+	monthly_character_wealth = -0.03
+
+}
+
+					### ADDED BY ASH
+hardworking = {
+	opposites =  {
+		slothful
+		procrastinator
+	 }
+
+	stewardship = 2
+	learning = 1
+
+	same_opinion = 5
+	opposite_opinion = -5
+
+}
+
+					### ADDED BY ASH
+callous = {
+	opposites =  {
+		kind
+		charitable
+		selfpitying
+	 }
+
+	diplomacy = -1
+	martial = 1
+
+	opposite_opinion = -5
+	dynasty_opinion = -3
+}
+
+					### ADDED BY ASH
+noblespirit = {
+	opposites =  {
+		cynical
+		arbitrary
+		deceitful
+		cruel
+		craven
+		envious
+		greedy
+	 }
+
+	martial = 1
+	diplomacy = 2
+	intrigue = -1
+
+	same_opinion = 5
+	opposite_opinion = -10
+	same_religion_opinion = 3
+
+	monthly_character_prestige = 0.5
+
+	ai_honor = 20
+	ai_zeal = 10
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_defence = 0.2
+		morale_offence = 0.1
+		religious_enemy = 0.1
+	}
+
+}
+
+					### ADDED BY ASH
+naturalleader = {
+
+	martial = 3
+	diplomacy = 1
+
+	vassal_opinion = 10
+	liege_opinion = -5
+
+	ai_ambition = 10
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_offence = 0.1
+		morale_defence = 0.1
+		center = 0.2
+	}
+}
+
+					### ADDED BY ASH
+gullible = {
+	opposites =  {
+		paranoid
+		genius
+		deceitful
+		cynical
+	 }
+
+	diplomacy = -1
+	intrigue = -2
+
+	ai_greed = -5
+	ai_honor = 10
+
+}
+
+					### ADDED BY ASH
+firstinline = {
+	opposites =  {
+		craven
+		cautious
+	 }
+
+	martial = 1
+	intrigue = -1
+
+	opposite_opinion = -10
+
+	land_morale = 0.1
+
+	command_modifier = { ### COMMAND MODIFIER
+		morale_offence = 0.2
+		morale_defence = 0.1
+		center = 0.1
+		damage = 0.1
+	}
+}
+
+
+
+
+
+
+
+
+##############################################BBILEPLHEGM ARCHETYPE#################################
+
+
+
+
+					### ADDED BY ASH
+analytical = {
+	opposites =  {
+		manipulative
+		slow
+		inbred
+		trusting
+		imbecile
+	 }
+
+	intrigue = 1
+	stewardship = 2
+
+	same_opinion = 5
+	opposite_opinion = -10
+
+	ai_rationality = 20
+
+	command_modifier = { ### COMMAND MODIFIER
+		defence = 0.1
+	}
+
+}
+
+					### ADDED BY ASH
+meticulous = {
+	opposites =  {
+		slothful
+		impulsive
+	 }
+
+	stewardship = 1
+	diplomacy = -1
+
+	same_opinion = 10
+	opposite_opinion = -10
+
+}
+
+					### ADDED BY ASH
+haggler = {
+
+	diplomacy = -1
+
+	monthly_character_wealth = 0.1
+
+	global_tax_modifier = 0.05
+
+	ai_greed = 10
+}
+
+					### ADDED BY ASH
+demanding = {
+	opposites =  {
+		trusting
+	 }
+
+	 vassal_opinion = -3
+	 land_morale = 0.10
+
+	stewardship = 1
+
+	command_modifier = { ### COMMAND MODIFIER
+		pursue = 0.1
+		damage = 0.1
+	}
+
+}
+
+					### ADDED BY ASH
+reliable = {
+	opposites =  {
+		deceitful
+		manipulative
+		unreliable
+	 }
+
+	diplomacy = 1
+	stewardship = 1
+	intrigue = -1
+
+	vassal_opinion = 5
+	opposite_opinion = -5
+	liege_opinion = 10
+
+	ai_honor = 20
+	ai_ambition = -10
+
+}
+
+					### ADDED BY ASH
+harsh = {
+	opposites =  {
+		kind
+	 }
+
+	diplomacy = -2
+
+	vassal_opinion = -5
+
+}
+
+					### ADDED BY ASH
+worrier = {
+	opposites =  {
+		careless
+		optimistic
+	 }
+
+	martial = -1
+
+	health = -1
+
+	same_opinion = 5
+	opposite_opinion = -10
+
+}
+
+					### ADDED BY ASH
+frugal = {
+	opposites =  {
+		pompous
+		frivolous
+	 }
+
+	stewardship = 1
+	diplomacy = -1
+
+	same_opinion = 10
+	opposite_opinion = -10
+	church_opinion = 5
+	muslim_opinion = 5		### for Islamic characters
+
+	monthly_character_piety = 0.5
+
+}
+
+
+######################################################## BLOODPHLEGM ARCHETYPE#################################
+
+
+
+					### ADDED BY ASH
+graceful = {
+	opposites =  {
+		plain
+		imbecile
+	 }
+
+	diplomacy = 1
+
+	vassal_opinion = 3
+	same_opinion = 5
+	sex_appeal_opinion = 5
+	opposite_opinion = -5
+	dynasty_opinion = 3
+
+	ai_honor = 5
+
+}
+
+					### ADDED BY ASH
+quipster = {
+	opposites =  {
+		unfriendly
+		stoic
+		imbecile
+		slow
+	 }
+
+	diplomacy = 1
+
+	opposite_opinion = -5
+	vassal_opinion = 3
+}
+
+					### ADDED BY ASH
+fanciful = {
+	opposites =  {
+		plain
+		humble
+		temperate
+		frugal
+	 }
+
+	martial = -1
+
+	opposite_opinion = -5
+
+	monthly_character_wealth = -0.1					### DOES IT WORK? DOESN'T SEEM SO... I'll add a province_modifier to correct this - BY ASH
+
+	ai_greed = 10
+
+}
+
+					### ADDED BY ASH
+unreliable = {
+	opposites =  {
+		just
+	 }
+
+	martial = -1
+	diplomacy = -2
+	intrigue = 1
+
+	vassal_opinion = -5
+	#liege_opinion = -10 (this is the character's opinion of his/her liege! - by Ash)
+	dynasty_opinion = -3
+
+	ai_honor = -20
+	ai_greed = 10
+	ai_rationality = -10
+	ai_zeal = -20
+
+	command_modifier = { ### COMMAND MODIFIER
+		center = -0.1
+		defence = -0.1
+	}
+
+}
+
+					### ADDED BY ASH
+weakwilled = {
+	opposites =  {
+		just
+	 }
+
+	martial = -1
+	diplomacy = -1
+
+	vassal_opinion = -3
+
+	ai_rationality = -10
+	ai_zeal = -10
+
+	command_modifier = { ### COMMAND MODIFIER
+		retreat = 0.05
+		pursue = -0.1
+	}
+
+}
+
+					### ADDED BY ASH
+submissive = {
+	opposites =  {
+		proud
+		arrogant
+		ambitious
+	 }
+
+	martial = -1
+	intrigue = 1
+
+	opposite_opinion = -10
+	vassal_opinion = -3
+	liege_opinion = 10
+
+	ai_ambition = 10
+
+}
+
+					### ADDED BY ASH
+cunning = {
+	opposites =  {
+		genius
+		slow
+		inbred
+		imbecile
+		manipulative
+		trusting
+		honest
+	 }
+
+	diplomacy = 1
+	intrigue = 3
+
+	opposite_opinion = -5
+
+	ai_ambition = 10
+	ai_rationality = 40
+	ai_greed = 5
+
+
+	command_modifier = { ### COMMAND MODIFIER
+		random = 0.1
+		damage = 0.1
+	}
+
+}
+
+					### ADDED BY ASH
+romantic = {
+	opposites =  {
+		practical
+		cynical
+		analytical
+	 }
+
+	martial = -1
+
+	opposite_opinion = -10
+	sex_appeal_opinion = 15
+
+	ai_ambition = -10
+
+	ai_honor = 10
+	ai_rationality = -10
+}
+
+
+
+
+################################## BBILEYBILE ARCHETYPE#################################
+
+
+					### ADDED BY ASH
+magnetic = {
+
+	diplomacy = 3
+
+	sex_appeal_opinion = 5
+	vassal_opinion = 3
+}
+
+
+					### ADDED BY ASH
+sensual = {
+	opposites =  {
+		chaste
+		dwarf
+		hunchback
+		harelip
+		inbred
+	 }
+
+	intrigue = 1
+
+	fertility = 0.1
+
+	sex_appeal_opinion = 10
+	church_opinion = -3
+}
+
+
+					### ADDED BY ASH
+tolerant = {
+	opposites =  {
+		dogmatic
+		zealous
+	 }
+
+	diplomacy = 1
+	learning = 1
+
+	opposite_opinion = -5
+	infidel_opinion = 10
+	church_opinion = -5
+	same_religion_opinion = -3
+
+	ai_honor = 10
+	ai_zeal = -30
+}
+
+
+					### ADDED BY ASH
+suspicious = {
+	opposites =  {
+		trusting
+		honest
+		manipulative
+		paranoid
+		unreliable
+	 }
+
+	intrigue = 1
+
+	opposite_opinion = -10
+
+}
+
+
+					### ADDED BY ASH
+pessimistic = {
+	opposites =  {
+		optimistic
+	 }
+
+	martial = -1
+
+	opposite_opinion = -10
+	same_opinion = 5
+
+}
+
+
+					### ADDED BY ASH
+judgemental = {
+	opposites =  {
+		kind
+		just
+	 }
+
+	diplomacy = -1
+
+	same_opinion = 10
+}
+
+					### ADDED BY ASH
+bloodthirsty = {
+	opposites =  {
+		kind
+	 }
+
+	martial = 1
+
+	global_revolt_risk = 0.03
+
+	monthly_character_piety = -0.2
+
+	ai_honor = -10
+
+	command_modifier = { ### COMMAND MODIFIER
+		pursue = 0.2
+		damage = 0.1
+	}
+}
+
+					### ADDED BY ASH
+vain = {
+
+	martial = -1
+
+	vassal_opinion = -5
+
+	monthly_character_wealth = -0.05
+}
+
+
+
+##########################################YBILEPHLEGM ARCHETYPE#################################
+
+
+
+					### ADDED BY ASH
+philosophical = {
+	opposites =  {
+		practical
+		dull
+	 }
+	diplomacy = 1
+	learning = 2
+
+	opposite_opinion = -5
+
+	ai_rationality = 30
+}
+
+					### ADDED BY ASH
+optimistic = {
+	opposites =  {
+		pessimistic
+	 }
+
+	diplomacy = 1
+
+	same_opinion = 5
+	opposite_opinion = -10
+}
+
+					### ADDED BY ASH
+careless = {
+	opposites =  {
+		worrier
+		patient
+		carefulplanner
+		meticulous
+	 }
+
+	martial = -1
+	intrigue = -1
+	stewardship = -2
+
+	opposite_opinion = -5
+
+	ai_greed = -20
+	ai_rationality = -10
+
+	command_modifier = { ### COMMAND MODIFIER
+		flank = -0.1
+		defence = -0.1
+	}
+}
+
+					### ADDED BY ASH
+tactless = {
+	opposites =  {
+		kind
+	 }
+
+	diplomacy = -1
+
+	vassal_opinion = -5
+	dynasty_opinion = -3
+	spouse_opinion = -4
+}
+
+					### ADDED BY ASH
+risktaker = {
+	opposites =  {
+		content
+	 }
+
+	martial = 1
+
+	opposite_opinion = -5
+
+	ai_ambition = 5
+	ai_greed = 5
+
+	command_modifier = { ### COMMAND MODIFIER
+		damage = 0.1
+		defence = -0.1
+		retreat = -0.1
+	}
+}
+
+					### ADDED BY ASH
+funny = {
+	opposites =  {
+		unfriendly
+		stoic
+		harsh
+	 }
+
+	diplomacy = 2
+
+	opposite_opinion = -5
+	vassal_opinion = 3
+	dynasty_opinion = 5
+}
+
+					### ADDED BY ASH
+rebellious = {
+	opposites =  {
+		content
+		loyal
+		submissive
+	 }
+
+	intrigue = 1
+
+	opposite_opinion = -15
+	same_opinion = 10
+
+	ai_honor = -20
+	ai_greed = 10
+	ai_ambition = 20
+
+	command_modifier = { ### COMMAND MODIFIER
+		damage = 0.1
+		morale_offence = 0.1
+	}
+}
+
+					### ADDED BY ASH
+curious = {
+	opposites =  {
+		secretive
+		unfriendly
+	 }
+
+	learning = 1
+	intrigue = 1
+
+	opposite_opinion = -10
+	dynasty_opinion = -5
+	same_opinion = 5
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

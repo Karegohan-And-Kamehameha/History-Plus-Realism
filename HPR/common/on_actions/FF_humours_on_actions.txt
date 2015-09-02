@@ -1,0 +1,26 @@
+on_yearly_pulse = {
+	random_events = {
+
+	#Humours Events
+		2500 = ffhumours.25       #################### ADDED EVENTS FROM ffhumours.25 TO ffhumours.36 (gain 1 random among 8 traits)  --- BY ASH
+		2500 = ffhumours.26
+		2500 = ffhumours.27
+		2500 = ffhumours.28
+		2500 = ffhumours.29
+		2500 = ffhumours.30
+		2500 = ffhumours.31
+		2500 = ffhumours.32
+		2500 = ffhumours.33
+		2500 = ffhumours.34
+		2500 = ffhumours.35
+		2500 = ffhumours.36
+		2500 = ffhumours.40		### for non-christian groups
+		2500 = ffhumours.41		### for non-christian groups
+	}
+}
+
+on_yearly_childhood_pulse = {
+	random_events = {
+		1000 = ffhumours.0      ######### ADDED BY ASH (12 archetypes)
+	}
+}

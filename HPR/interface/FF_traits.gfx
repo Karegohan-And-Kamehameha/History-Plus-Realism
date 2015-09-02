@@ -1,0 +1,979 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_trait_phlegmblood"
+		texturefile = "gfx/traits/phlegmblood.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_phlegmbbile"
+		texturefile = "gfx/traits/phlegmbbile.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_ybileblood"
+		texturefile = "gfx/traits/ybileblood.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_phlegmybile"
+		texturefile = "gfx/traits/phlegmybile.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_bloodybile"
+		texturefile = "gfx/traits/bloodybile.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bloodbbile"
+		texturefile = "gfx/traits/bloodbbile.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_ybilebbile"
+		texturefile = "gfx/traits/ybilebbile.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+ spriteType = {
+		name = "GFX_trait_bbilephlegm"
+		texturefile = "gfx/traits/bbilephlegm.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+ spriteType = {
+		name = "GFX_trait_bloodphlegm"
+		texturefile = "gfx/traits/bloodphlegm.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bbileybile"
+		texturefile = "gfx/traits/bbileybile.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_ybilephlegm"
+		texturefile = "gfx/traits/ybilephlegm.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bbileblood"
+		texturefile = "gfx/traits/bbileblood.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_books"
+		texturefile = "gfx/traits/books.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_aloof"
+		texturefile = "gfx/traits/aloof.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+	spriteType = {
+		name = "GFX_trait_stoic"
+		texturefile = "gfx/traits/stoic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_eccentric"
+		texturefile = "gfx/traits/eccentric.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_loyal"
+		texturefile = "gfx/traits/loyal.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_rude"
+		texturefile = "gfx/traits/rude.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_unpredictable"
+		texturefile = "gfx/traits/unpredictable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_clever"
+		texturefile = "gfx/traits/clever.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+
+
+
+
+
+####################################################
+
+
+spriteType = {
+		name = "GFX_trait_bible"
+		texturefile = "gfx/traits/bible.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_indecisive"
+		texturefile = "gfx/traits/indecisive.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_idealistic"
+		texturefile = "gfx/traits/idealistic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_secretive"
+		texturefile = "gfx/traits/secretive.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_moody"
+		texturefile = "gfx/traits/moody.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_spiritual"
+		texturefile = "gfx/traits/spiritual.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_familyperson"
+		texturefile = "gfx/traits/familyperson.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_procrastinator"
+		texturefile = "gfx/traits/procrastinator.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+
+
+
+
+
+###############################################################
+
+
+
+
+spriteType = {
+		name = "GFX_trait_energetic"
+		texturefile = "gfx/traits/energetic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_confident"
+		texturefile = "gfx/traits/confident.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_impulsive"
+		texturefile = "gfx/traits/impulsive.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_efficient"
+		texturefile = "gfx/traits/efficient.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_arrogant"
+		texturefile = "gfx/traits/arrogant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_selfish"
+		texturefile = "gfx/traits/selfish.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_loud"
+		texturefile = "gfx/traits/loud.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_restless"
+		texturefile = "gfx/traits/restless.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+
+
+###############################################################
+
+
+
+
+spriteType = {
+		name = "GFX_trait_constant"
+		texturefile = "gfx/traits/constant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_predictable"
+		texturefile = "gfx/traits/predictable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_dull"
+		texturefile = "gfx/traits/dull.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_practical"
+		texturefile = "gfx/traits/practical.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_resentful"
+		texturefile = "gfx/traits/resentful.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_stubborn"
+		texturefile = "gfx/traits/stubborn.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_money"
+		texturefile = "gfx/traits/money.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_oldfashioned"
+		texturefile = "gfx/traits/oldfashioned.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+###############################################################
+
+
+
+
+spriteType = {
+		name = "GFX_trait_lively"
+		texturefile = "gfx/traits/lively.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_eloquent"
+		texturefile = "gfx/traits/eloquent.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_nervous"
+		texturefile = "gfx/traits/nervous.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_shallow"
+		texturefile = "gfx/traits/shallow.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_impatient"
+		texturefile = "gfx/traits/impatient.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_fickle"
+		texturefile = "gfx/traits/fickle.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_friendly"
+		texturefile = "gfx/traits/friendly.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_tattler"
+		texturefile = "gfx/traits/tattler.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+
+###############################################################
+
+
+
+
+spriteType = {
+		name = "GFX_trait_cautious"
+		texturefile = "gfx/traits/cautious.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_irrational"
+		texturefile = "gfx/traits/irrational.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_selfpitying"
+		texturefile = "gfx/traits/selfpitying.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_goodintuition"
+		texturefile = "gfx/traits/goodintuition.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_overimaginative"
+		texturefile = "gfx/traits/overimaginative.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_obstinate"
+		texturefile = "gfx/traits/obstinate.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_manipulative"
+		texturefile = "gfx/traits/manipulative.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_frivolous"
+		texturefile = "gfx/traits/frivolous.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+###########################################################
+
+
+
+spriteType = {
+		name = "GFX_trait_dogmatic"
+		texturefile = "gfx/traits/dogmatic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_pompous"
+		texturefile = "gfx/traits/pompous.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_hardworking"
+		texturefile = "gfx/traits/hardworking.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_callous"
+		texturefile = "gfx/traits/callous.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_noblespirit"
+		texturefile = "gfx/traits/noblespirit.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_naturalleader"
+		texturefile = "gfx/traits/naturalleader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_gullible"
+		texturefile = "gfx/traits/gullible.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_firstinline"
+		texturefile = "gfx/traits/firstinline.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+##############################################################
+
+
+
+spriteType = {
+		name = "GFX_trait_analytical"
+		texturefile = "gfx/traits/analytical.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_meticulous"
+		texturefile = "gfx/traits/meticulous.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_haggler"
+		texturefile = "gfx/traits/haggler.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_demanding"
+		texturefile = "gfx/traits/demanding.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_reliable"
+		texturefile = "gfx/traits/reliable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_harsh"
+		texturefile = "gfx/traits/harsh.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_worrier"
+		texturefile = "gfx/traits/worrier.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_frugal"
+		texturefile = "gfx/traits/frugal.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+##############################################################
+
+
+
+spriteType = {
+		name = "GFX_trait_graceful"
+		texturefile = "gfx/traits/graceful.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_quipster"
+		texturefile = "gfx/traits/quipster.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_fanciful"
+		texturefile = "gfx/traits/fanciful.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_unreliable"
+		texturefile = "gfx/traits/unreliable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_weakwilled"
+		texturefile = "gfx/traits/weakwilled.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_submissive"
+		texturefile = "gfx/traits/submissive.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_cunning"
+		texturefile = "gfx/traits/cunning.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_romantic"
+		texturefile = "gfx/traits/romantic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+
+###########################################################
+
+
+
+spriteType = {
+		name = "GFX_trait_magnetic"
+		texturefile = "gfx/traits/magnetic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+spriteType = {
+		name = "GFX_trait_sensual"
+		texturefile = "gfx/traits/sensual.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_tolerant"
+		texturefile = "gfx/traits/tolerant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_suspicious"
+		texturefile = "gfx/traits/suspicious.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_pessimistic"
+		texturefile = "gfx/traits/pessimistic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_judgemental"
+		texturefile = "gfx/traits/judgemental.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_bloodthirsty"
+		texturefile = "gfx/traits/bloodthirsty.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_vain"
+		texturefile = "gfx/traits/vain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+
+#############################################################
+
+
+
+spriteType = {
+		name = "GFX_trait_philosophical"
+		texturefile = "gfx/traits/philosophical.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_optimistic"
+		texturefile = "gfx/traits/optimistic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_careless"
+		texturefile = "gfx/traits/careless.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_tactless"
+		texturefile = "gfx/traits/tactless.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_risktaker"
+		texturefile = "gfx/traits/risktaker.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_funny"
+		texturefile = "gfx/traits/funny.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_rebellious"
+		texturefile = "gfx/traits/rebellious.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_curious"
+		texturefile = "gfx/traits/curious.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+
+
+
+##############################################################
+
+
+spriteType = {
+		name = "GFX_trait_disciplined"
+		texturefile = "gfx/traits/disciplined.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_reserved"
+		texturefile = "gfx/traits/reserved.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+
+spriteType = {
+		name = "GFX_trait_rigid"
+		texturefile = "gfx/traits/rigid.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_unfriendly"
+		texturefile = "gfx/traits/unfriendly.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_calm"
+		texturefile = "gfx/traits/calm.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_authoritative"
+		texturefile = "gfx/traits/authoritative.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_plain"
+		texturefile = "gfx/traits/plain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_carefulplanner"
+		texturefile = "gfx/traits/carefulplanner.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+spriteType = {
+		name = "GFX_trait_tall"
+		texturefile = "gfx/traits/tall.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
