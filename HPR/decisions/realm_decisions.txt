@@ -528,6 +528,12 @@ decisions = {
 			completely_controls = d_croatia
 		}
 		effect = {
+			if = {
+				limit = { NOT = { is_title_active = e_roman_empire } }
+				hidden_tooltip = {
+					activate_title = { title = e_roman_empire status = yes }
+				}
+			}	
 			narrative_event = { id = LoR.20 tooltip = EVTTOOLTIPLoR.20 }
 		}
 		ai_will_do = {
@@ -2185,7 +2191,7 @@ decisions = {
 					}
 				}
 				if = {
-					limit = { trait = exalted }
+					limit = { trait = exalted4 }
 					any_vassal = {
 						opinion = {
 							modifier = opinion_exalted
@@ -2196,8 +2202,8 @@ decisions = {
 					}
 				}
 				if = {
-					limit = { NOT = { trait = exalted } }
-					add_trait = exalted
+					limit = { NOT = { trait = exalted4 } }
+					add_trait = exalted4
 				}
 				if = {
 					limit = { ai = yes }

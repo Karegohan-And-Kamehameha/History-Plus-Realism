@@ -1586,13 +1586,261 @@ druze_ajawid = {
 	female_compliment_adj = COMPL_LEARNED
 }
 
-exalted = {
+paragon = {
 	religious = yes
 	customizer = no
 	random = no
 
-	same_religion_opinion = 25
+	church_opinion = 20
+	same_religion_opinion = 10
 	monthly_character_prestige = 1.0
+	ai_zeal = 40
+
+	male_compliment_adj = COMPL_HOLY
+	female_compliment_adj = COMPL_HOLY
+}
+
+koasasa_taus = {
+	potential = {
+		religion = yazidi
+	}
+	religious = yes
+	customizer = no
+	random = no
+	cached = yes
+
+    monthly_character_piety = 0.5
+	same_religion_opinion = 50
+	diplomacy = 5
+	martial = 5
+	learning = 5
+	command_modifier = {
+		religious_enemy = 0.5
+	}
+	ai_zeal = 50
+
+	male_compliment = COMPL_KOASASA
+	male_compliment_adj = COMPL_HOLY
+	male_insult_adj = INSULT_DEMONIC
+}
+
+koasasa_israfel = {
+	potential = {
+		religion = yazidi
+	}
+	religious = yes
+	customizer = no
+	random = no
+	cached = yes
+
+    monthly_character_piety = 0.5
+	same_religion_opinion = 25
+	diplomacy = 5
+	learning = 3
+	health = 2
+	ai_zeal = 50
+
+	male_compliment = COMPL_KOASASA
+	male_compliment_adj = COMPL_HOLY
+	male_insult_adj = INSULT_DEMONIC
+}
+
+koasasa_azrael = {
+	potential = {
+		religion = yazidi
+	}
+	religious = yes
+	customizer = no
+	random = no
+	cached = yes
+
+    monthly_character_piety = 0.5
+	same_religion_opinion = 25
+	intrigue = 5
+	combat_rating = 8
+	ai_zeal = 50
+
+	male_compliment = COMPL_KOASASA
+	male_compliment_adj = COMPL_HOLY
+	male_insult_adj = INSULT_DEMONIC
+}
+
+koasasa_mihael = {
+	potential = {
+		religion = yazidi
+	}
+	religious = yes
+	customizer = no
+	random = no
+	cached = yes
+
+    monthly_character_piety = 0.5
+	same_religion_opinion = 25
+	martial = 5
+	command_modifier = {
+		morale_offence = 0.25
+		morale_defence = 0.25
+	}
+	ai_zeal = 50
+
+	male_compliment = COMPL_KOASASA
+	male_compliment_adj = COMPL_HOLY
+	male_insult_adj = INSULT_DEMONIC
+}
+
+koasasa_dardael = {
+	potential = {
+		religion = yazidi
+	}
+	religious = yes
+	customizer = no
+	random = no
+	cached = yes
+
+    monthly_character_piety = 0.5
+	same_religion_opinion = 25
+	diplomacy = 3
+	stewardship = 3
+	ai_zeal = 50
+
+	male_compliment = COMPL_KOASASA
+	male_compliment_adj = COMPL_HOLY
+	male_insult_adj = INSULT_DEMONIC
+}
+
+koasasa_samael = {
+	potential = {
+		religion = yazidi
+	}
+	religious = yes
+	customizer = no
+	random = no
+	cached = yes
+
+    monthly_character_piety = 0.5
+	same_religion_opinion = 25
+	intrigue = 5
+	learning = 3
+	command_modifier = {
+		damage = 0.25
+	}
+	ai_zeal = 50
+
+	male_compliment = COMPL_KOASASA
+	male_compliment_adj = COMPL_HOLY
+	male_insult_adj = INSULT_DEMONIC
+}
+
+koasasa_nurael = {
+	potential = {
+		religion = yazidi
+	}
+	religious = yes
+	customizer = no
+	random = no
+	cached = yes
+
+    monthly_character_piety = 0.5
+	same_religion_opinion = 25
+	diplomacy = 2
+	stewardship = 2
+	intrigue = 2
+	ai_zeal = 50
+
+	male_compliment = COMPL_KOASASA
+	male_compliment_adj = COMPL_HOLY
+	male_insult_adj = INSULT_DEMONIC
+}
+
+yazidi_pilgrim = {
+	potential = {
+		religion = yazidi
+		is_adult = yes
+	}
+	religious = yes
+	same_religion_opinion = 5
+	monthly_character_piety = 0.1
+}
+
+exalted1 = {
+	customizer = no
+	random = no
+
+	opposites = {
+		exalted2
+		exalted3
+		exalted4
+	}
+
+	general_opinion = 10
+	command_modifier = {
+		morale_offence = 0.05
+		morale_defence = 0.05
+	}
+	ai_ambition = 10
+
+	male_compliment_adj = COMPL_GREAT
+	female_compliment_adj = COMPL_GREAT
+}
+
+exalted2 = {
+	customizer = no
+	random = no
+
+	opposites = {
+		exalted1
+		exalted3
+		exalted4
+	}
+
+	general_opinion = 15
+	command_modifier = {
+		morale_offence = 0.10
+		morale_defence = 0.10
+	}
+	ai_ambition = 20
+
+	male_compliment_adj = COMPL_GREAT
+	female_compliment_adj = COMPL_GREAT
+}
+
+exalted3 = {
+	customizer = no
+	random = no
+
+	opposites = {
+		exalted1
+		exalted2
+		exalted4
+	}
+
+	general_opinion = 20
+	command_modifier = {
+		morale_offence = 0.15
+		morale_defence = 0.15
+	}
+	ai_ambition = 30
+
+	male_compliment_adj = COMPL_GREAT
+	female_compliment_adj = COMPL_GREAT
+}
+
+exalted4 = {
+	customizer = no
+	random = no
+
+	opposites = {
+		exalted1
+		exalted2
+		exalted3
+	}
+
+	general_opinion = 25
+	command_modifier = {
+		morale_offence = 0.20
+		morale_defence = 0.20
+	}
+	ai_ambition = 40
 
 	male_compliment_adj = COMPL_GREAT
 	female_compliment_adj = COMPL_GREAT

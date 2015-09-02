@@ -105,8 +105,9 @@ christian = {
 			SATAN LUCIFER THE_DEVIL
 		}
 		character_modifier = {
-			learning = 1
+			learning = 2
 			stewardship = -1
+			temple_tax_modifier = -0.5
 		}
 		
 		allow_rivermovement = yes
@@ -139,6 +140,9 @@ christian = {
 		evil_god_names = {
 			SATAN LUCIFER THE_DEVIL
 		}
+		character_modifier = {
+			temple_tax_modifier = -0.5
+		}
 		allow_rivermovement = yes
 		can_retire_to_monastery = yes
 		priests_can_inherit = yes
@@ -170,6 +174,9 @@ christian = {
 		}
 		evil_god_names = {
 			SATAN LUCIFER THE_DEVIL
+		}
+		character_modifier = {
+			temple_tax_modifier = -0.5
 		}
 		allow_rivermovement = yes
 		can_retire_to_monastery = yes
@@ -1936,6 +1943,103 @@ pagan_group = {
 		intermarry = zoroastrian_group
 	}
 
+	titan_pagan = {
+		graphical_culture = westerngfx
+
+		icon = 42
+		heresy_icon = 43
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+		color = { 0.6 0.25 0.25 }
+		
+		parent = hellenic_pagan
+		pre_reformed = yes
+
+		high_god_name = GOD_KRONOS
+		god_names = {
+			GOD_KRONOS GOD_OCEANUS GOD_TETHYS GOD_HYPERION GOD_THEIA GOD_RHEA GOD_ATLAS GOD_KOIOS GOD_PHOEBE GOD_MNEMOSYNE GOD_THEMIS GOD_KRIUS GOD_IAPETUS
+		}
+		evil_god_names = {
+			GOD_JUNO GOD_VESTA GOD_MINERVA GOD_CERES GOD_DIANA GOD_VENUS GOD_MARS GOD_MERCURY GOD_JUPITER GOD_NEPTUNE GOD_VULCAN GOD_APOLLO	GOD_PROMETHEUS GOD_EPIMETHEUS	
+		}
+		character_modifier = {
+			combat_rating = 2
+			ai_zeal = 25
+			ai_rationality = -10
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_STONES
+		priest_title = AUGUR
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = no
+		max_consorts = 3
+		psc_marriage = yes
+		bs_marriage = yes   # brother + sister
+		pc_marriage = no   # parent + child
+		cousin_marriage = yes
+		
+		allow_looting = yes
+		can_call_crusade = yes
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+
+		aggression = 2.0 # AI aggression factor
+		short_reign_opinion_year_mult = 4 # The default is 2
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+
+		allow_in_ruler_designer = no
+	}
+
+	promethean_pagan = {
+		graphical_culture = westerngfx
+
+		icon = 42
+		heresy_icon = 43
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+		color = { 0.6 0 0 }
+		
+		parent = hellenic_pagan
+		pre_reformed = yes
+
+		high_god_name = GOD_PROMETHEUS
+		god_names = {
+			GOD_PROMETHEUS GOD_EPIMETHEUS
+		}
+		evil_god_names = {
+			GOD_OLYMPIANS		
+		}
+		character_modifier = {
+			learning = 1
+			ai_zeal = 25
+			ai_rationality = 10
+		}
+		can_call_crusade = no
+		scripture_name = THE_DIALOGUES
+		priest_title = PHILOSOPHER
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		psc_marriage = yes
+		bs_marriage = yes   # brother + sister
+		pc_marriage = no   # parent + child
+		cousin_marriage = yes
+
+		allow_looting = no
+		peace_piety_gain = 1.0
+		aggression = 0.75
+		short_reign_opinion_year_mult = 1 # The default is 2
+		has_heir_designation = yes
+		feminist = yes
+
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+
+		allow_in_ruler_designer = no
+	}	
+	
 	pagan = { # Use for misc other pagans
 		graphical_culture = westerngfx
 		allow_in_ruler_designer = no
@@ -2045,6 +2149,11 @@ zoroastrian_group = {
 			camel_cavalry_DEFENSIVE = 0.3
 			war_elephants_DEFENSIVE = 0.3
 			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		character_modifier = {
+			castle_tax_modifier = -0.25
+			city_tax_modifier = -0.25
+			temple_tax_modifier = -0.25
 		}
 		allow_rivermovement = yes
 		can_grant_divorce = yes
@@ -2160,7 +2269,7 @@ zoroastrian_group = {
 
 	yazidi = {
 		parent = sunni
-		color = { 0.1 0.7 0.1 }
+		color = { 0.2 0.2 0.7 }
 		graphical_culture = muslimgfx
 		secondary_event_pictures = zoroastrian
 
@@ -2170,7 +2279,7 @@ zoroastrian_group = {
 		scripture_name = THE_BOOK_OF_ILLUMINATION
 		priest_title = SHEIKH_PRIEST
 		
-		high_god_name = GOD_SHAYTAN
+		high_god_name = GOD_TAWUSE_MELEK
 		
 		god_names = {
 			GOD_THE_PEACOCK_ANGEL GOD_TAWUSE_MELEK GOD_SHAYTAN
@@ -2182,13 +2291,14 @@ zoroastrian_group = {
 		can_call_crusade = yes
 		priests_can_marry = yes
 		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
-		can_excommunicate = yes
 		max_wives = 4
 		matrilineal_marriages = no
 		landed_kin_prestige_bonus = yes
 		attacking_same_religion_piety_loss = yes
 		uses_decadence = yes
-		uses_jizya_tax = yes
+		uses_jizya_tax = no
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
 	}
 }
 

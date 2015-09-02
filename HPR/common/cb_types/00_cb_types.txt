@@ -3098,8 +3098,15 @@ tribal_invasion = {
 		}
 		modifier = {
 			factor = 0.1
-			ROOT = { has_horde_culture = yes }
-			FROM = { culture = ROOT }
+			ROOT = {
+				OR = {
+					primary_title = { title = e_mongol_empire }
+					primary_title = { title = e_chagatai }
+					primary_title = { title = e_golden_horde }
+					primary_title = { title = e_il-khanate }
+				}
+				PREV = { FROM = { culture = PREVPREV } }
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4597,8 +4604,12 @@ holy_war = {
 		}
 		modifier = {
 			factor = 2.0
-			ROOT = {
-				has_opinion_modifier = { who = FROM modifier = holy_war_sanction }
+			FROM = {
+				PREV = {
+					ROOT = {
+						has_opinion_modifier = { who = PREVPREV modifier = holy_war_sanction }
+					}
+				}
 			}
 		}
 		modifier = {
@@ -4771,7 +4782,12 @@ holy_war = {
 		}
 		modifier = {
 			factor = 0.1
-			ROOT = { has_landed_title = e_byzantium }
+			ROOT = {
+				OR = {
+					has_landed_title = e_byzantium
+					any_liege = { has_landed_title = e_byzantium }
+				}
+			}
 			capital_scope = {
 				OR = {
 					region = custom_cuman
@@ -4787,6 +4803,8 @@ holy_war = {
 				OR = {
 					has_landed_title = e_hre
 					has_landed_title = e_karling
+					any_liege = { has_landed_title = e_hre }
+					any_liege = { has_landed_title = e_karling }
 				}
 			}
 			capital_scope = {
@@ -4797,7 +4815,7 @@ holy_war = {
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2.0
 			ROOT = {
 				OR = {
 					has_character_flag = is_charlemagne
@@ -4812,7 +4830,7 @@ holy_war = {
 			}
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.1
 			ROOT = { culture = hungarian }
 			capital_scope = {
 				OR = {
@@ -8118,6 +8136,31 @@ embargo_cb = {
 				}
 			}
 		}
+		#the AI needs at least three trade posts to attack
+		OR = {
+			ROOT = { ai = no }
+			FROM = {
+				OR = {
+					AND = {
+						is_merchant_republic = yes
+						any_trade_post = {
+							count = 3
+							owner = { same_realm = ROOT }
+						}
+					}
+					AND = {
+						higher_tier_than = DUKE
+						any_realm_lord = {
+							is_merchant_republic = yes
+							any_trade_post = {
+								count = 3
+								owner = { same_realm = ROOT }
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 
 	is_valid = {
@@ -8274,38 +8317,17 @@ embargo_cb = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 0
-			#AI will not use CB unless there are at least 3 trade posts in their realm
-			FROM = {
-				NOR = {
-					AND = {
-						is_merchant_republic = yes
-						any_trade_post = {
-							count = 3
-							owner = { same_realm = ROOT }
-						}
-					}
-					AND = {
-						higher_tier_than = DUKE
-						any_realm_lord = {
-							is_merchant_republic = yes
-							any_trade_post = {
-								count = 3
-								owner = { same_realm = ROOT }
-							}
-						}
-					}
-				}
-			}
-		}
-		modifier = {
 			factor = 0.9
 			always = yes
 		}		
 		modifier = {
 			factor = 0.5
-			ROOT = {
-				opinion = { who = FROM value = -25 }
+			FROM = {
+				PREV = {
+					ROOT = {
+						opinion = { who = PREVPREV value = -25 }
+					}
+				}
 			}
 		}
 	}
@@ -8577,8 +8599,12 @@ seize_trade_post = {
 		factor = 1
 		modifier = {
 			factor = 0.25
-			ROOT = {
-				NOT = { same_realm = FROM }
+			FROM = {
+				PREV = {
+					ROOT = {
+						NOT = { same_realm = PREVPREV }
+					}
+				}
 			}
 		}
 	}
@@ -8934,6 +8960,7 @@ pagan_subjugation = {
 					religion_group = pagan_group
 					is_reformed_religion = no
 				}
+				religion = titan_pagan
 				AND = {
 					religion_group = indian_group
 					OR = {
@@ -9251,7 +9278,7 @@ pagan_subjugation = {
 		modifier = {
 			factor = 0
 			FROM = {
-				has_landed_title = k_magyar
+				culture = hungarian
 				has_global_flag = magyar_1066_invasion
 			}
 		}
@@ -9266,13 +9293,12 @@ pagan_subjugation = {
 				}
 			}
 			OR = {
-				empire = {
-					NOT = {
-						OR = {
-							title = e_persia
-							title = e_byzantium
-							title = e_arabia
-						}
+				location = {
+					NOR = {
+						region = world_europe_south_east
+						region = world_asia_minor
+						region = world_middle_east
+						region = world_persia
 					}
 				}
 				FROM = {
@@ -10633,7 +10659,10 @@ pagan_county_conquest = {
 			AND = {
 				ROOT = {
 					religion_group = pagan_group
-					is_reformed_religion = no
+					OR = {
+						is_reformed_religion = no
+						religion = titan_pagan
+					}
 					NOT = { same_realm = FROM }
 				}
 				FROM = {
@@ -10727,7 +10756,10 @@ pagan_county_conquest = {
 			AND = {
 				ROOT = {
 					religion_group = pagan_group
-					is_reformed_religion = no
+					OR = {
+						is_reformed_religion = no
+						religion = titan_pagan
+					}
 					NOT = { same_realm = FROM }
 				}
 				FROM = {
@@ -10922,7 +10954,7 @@ pagan_county_conquest = {
 		modifier = {
 			factor = 0
 			FROM = {
-				has_landed_title = k_magyar
+				culture = hungarian
 				has_global_flag = magyar_1066_invasion
 			}
 		}
@@ -13204,8 +13236,8 @@ tributary_cb = {
 		}
 		FROM = {
 			independent = yes
-			lower_tier_than = ROOT
 			NOR = {
+				higher_tier_than = ROOT
 				pays_tribute_to = ROOT
 				any_liege = {
 					pays_tribute_to = ROOT
@@ -14752,13 +14784,12 @@ nomad_invasion = {
 				}
 			}
 			OR = {
-				empire = {
-					NOT = {
-						OR = {
-							title = e_persia
-							title = e_byzantium
-							title = e_arabia
-						}
+				capital_scope = {
+					NOR = {
+						region = world_europe_south_east
+						region = world_asia_minor
+						region = world_middle_east
+						region = world_persia
 					}
 				}
 				FROM = {
@@ -14773,11 +14804,12 @@ nomad_invasion = {
 				primary_title = { title = e_golden_horde }
 			}
 			OR = {
-				empire = {
+				capital_scope = {
 					OR = {
-						title = e_persia
-						title = e_byzantium
-						title = e_arabia
+						region = world_europe_south_east
+						region = world_asia_minor
+						region = world_middle_east
+						region = world_persia
 					}
 				}
 				FROM = {
@@ -14787,20 +14819,26 @@ nomad_invasion = {
 			}
 		}
 		modifier = {
-			factor = 0.1
-			ROOT = {
-				culture = hungarian
-				primary_title = {
-					OR = {
-						title = k_hungary
-						title = e_carpathia
-					}
+			factor = 0
+			ROOT = { culture = hungarian }
+			capital_scope = {
+				OR = {
+					region = custom_cuman
+					region = custom_volga
+					region = custom_alania
+					region = custom_novgorod
+					region = custom_muscovy
+					region = custom_rus
 				}
 			}
-			empire = {
+		}
+		modifier = {
+			factor = 2.0
+			ROOT = { culture = hungarian }
+			capital_scope = {
 				OR = {
-					title = e_tartaria
-					title = e_russia
+					region = custom_bulgaria
+					region = custom_carpathia
 				}
 			}
 		}
@@ -15008,13 +15046,12 @@ nomad_expansion = {
 				}
 			}
 			OR = {
-				empire = {
-					NOT = {
-						OR = {
-							title = e_persia
-							title = e_byzantium
-							title = e_arabia
-						}
+				capital_scope = {
+					NOR = {
+						region = world_europe_south_east
+						region = world_asia_minor
+						region = world_middle_east
+						region = world_persia
 					}
 				}
 				FROM = {
@@ -15029,11 +15066,12 @@ nomad_expansion = {
 				primary_title = { title = e_golden_horde }
 			}
 			OR = {
-				empire = {
+				capital_scope = {
 					OR = {
-						title = e_persia
-						title = e_byzantium
-						title = e_arabia
+						region = world_europe_south_east
+						region = world_asia_minor
+						region = world_middle_east
+						region = world_persia
 					}
 				}
 				FROM = {
@@ -15050,10 +15088,34 @@ nomad_expansion = {
 				culture = afghan
 				culture = turkish
 			}
-			empire = {
+			capital_scope = {
 				OR = {
-					title = e_persia
-					title = e_rajastan
+					region = world_persia
+					region = world_india_rajastan
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			ROOT = { culture = hungarian }
+			capital_scope = {
+				OR = {
+					region = custom_cuman
+					region = custom_volga
+					region = custom_alania
+					region = custom_novgorod
+					region = custom_muscovy
+					region = custom_rus
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			ROOT = { culture = hungarian }
+			capital_scope = {
+				OR = {
+					region = custom_bulgaria
+					region = custom_carpathia
 				}
 			}
 		}

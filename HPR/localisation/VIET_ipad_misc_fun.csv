@@ -739,36 +739,6 @@ VIETmisc.2244.a;...;;;;;;;;;;;;;x
 VIETmisc.2244.b;Slap him in the face;;;;;;;;;;;;;x
 VIETmisc.2244.c;Walk away;;;;;;;;;;;;;x
 VIETmisc.2244.d;Pretend he didn't ask that and talk about something else;;;;;;;;;;;;;x
-VIETmisc.2245.desc;When I woke up, I realized I wet my bed!;;;;;;;;;;;x
-VIETmisc.2245.a;Uh-oh!;;;;;;;;;;;;;x
-VIETmisc.2245.b;I’m too old for this!;;;;;;;;;;;;;x
-VIETmisc.2245.c;Oh wait, this isn’t urine...;;;;;;;;;;;;;x
-VIETmisc.2245.d;Wasn’t I dreaming of my sister last night?;;;;;;;;;;;;;x
-VIETmisc.2246.desc;I was urinating, trying to aim my piss in such and such way, but I miscalculated and sprayed some of it on my legs.;;;;;;;;;;;x
-VIETmisc.2246.a;Ew.;;;;;;;;;;;;;x
-VIETmisc.2247.desc;Learned men tell me that the civilized peoples of antiquity rinsed their teeth with their own urine, in order to keep it white.;;;;;;;;;;;x
-VIETmisc.2247.a;This is a good idea! I should do often.;;;;;;;;;;;;;x
-VIETmisc.2247.b;That's ridiculous.;;;;;;;;;;;;;x
-VIETmisc.2248.desc;I noticed that lately my urine has a strange color...;;;;;;;;;;;x
-VIETmisc.2248.a;Probably just something I ate.;;;;;;;;;;;;;x
-VIETmisc.2249.desc;I can barely hold it in! I'm in the middle of an important meeting with a foreign dignitary, and this man keeps going on and on without stopping, so I can't just excuse myself so rudely, but I really need to urinate really badly!;;;;;;;;;;;x
-VIETmisc.2249.a;Screw politeness! Gotta go, gotta go, gotta go right now!;;;;;;;;;;;;;x
-VIETmisc.2249.b;Just bear through it, just bear through it...;;;;;;;;;;;;;x
-VIET_gotta_go_1;I run to the chamber pot to urinate before it's too late!;;;;;;;;;;;x
-VIET_gotta_go_2;Oh my oh my oh my I can barely hold it!;;;;;;;;;;;x
-VIETmisc.2250.desc;Yes! The meeting with the foreign dignitary ended, the fellow finally shut up. ;;;;;;;;;;;x
-VIETmisc.2250.a;I quickly make a run for the chamber pot.;;;;;;;;;;;;;x
-VIETmisc.2251.desc;Oh no! I can’t hold it in anymore! Must… hold… it… in….\n\nDammit! I wet my clothes in front of everyone!;;;;;;;;;;;x
-VIETmisc.2251.a;Er...;;;;;;;;;;;;;x
-VIETmisc.2252.desc;While making my way to a nearby village, I pass by a peasant relieving himself in a nearby field. He notices me and waves hello while he is still relieving himself.;;;;;;;;;;;x
-VIETmisc.2252.a;Wave back (this is awkward);;;;;;;;;;;;;x
-VIETmisc.2252.b;Walk away (this is still awkward);;;;;;;;;;;;;x
-VIETmisc.2253.desc;Sometimes I wonder how people of the other gender urinate. I mean, I know where it comes out of - I’m not a child, I’m aware of these things - but I’m talking about how they do it. For instance, do they stand up? How do they aim it? Does it come out at a different speed?;;;;;;;;;;;x
-VIETmisc.2253.a;Such important questions.;;;;;;;;;;;;;x
-VIETmisc.2254.desc;You encounter a stream. Since you’re feeling thirsty, you decide to drink some water from it. As you savor the refreshing taste of the water, you remember that upstream is a small village. You suddenly wonder if the locals dispose of their urine into this stream…;;;;;;;;;;;x
-VIETmisc.2254.a;Probably not… right? Right…?;;;;;;;;;;;;;x
-VIETmisc.2254.b;I’ll just enjoy this water.;;;;;;;;;;;;;x
-VIETmisc.2254.c;Unlikely, though, now that I think about it. Generally, the peasants would...;;;;;;;;;;;;;x
 VIETmisc.2255.desc;War. War never changes.;;;;;;;;;;;x
 VIETmisc.2255.a;It doesn't, [Root.Religion.GetRandomGodName] save us all!;;;;;;;;;;;;;x
 VIETmisc.2255.b;Our cause is true in this war, though.;;;;;;;;;;;;;x

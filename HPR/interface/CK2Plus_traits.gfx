@@ -329,8 +329,29 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
-		name = "GFX_trait_exalted"
-		texturefile = "gfx/new_traits/exalted.dds"
+		name = "GFX_trait_exalted1"
+		texturefile = "gfx/new_traits/exalted1.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_exalted2"
+		texturefile = "gfx/new_traits/exalted1.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_exalted3"
+		texturefile = "gfx/new_traits/exalted1.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_exalted4"
+		texturefile = "gfx/new_traits/exalted1.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -448,6 +469,55 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_koasasa_taus"
+		texturefile = "gfx/new_traits/yazidi_koasasa.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_koasasa_israfel"
+		texturefile = "gfx/new_traits/yazidi_koasasa.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_koasasa_azrael"
+		texturefile = "gfx/new_traits/yazidi_koasasa.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_koasasa_mihael"
+		texturefile = "gfx/new_traits/yazidi_koasasa.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_koasasa_dardael"
+		texturefile = "gfx/new_traits/yazidi_koasasa.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_koasasa_samael"
+		texturefile = "gfx/new_traits/yazidi_koasasa.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_koasasa_nurael"
+		texturefile = "gfx/new_traits/yazidi_koasasa.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_learning_druidic_arts"
 		texturefile = "gfx/new_traits/learning_druidic_arts.dds"
 		noOfFrames = 1
@@ -548,6 +618,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_novellani"
 		texturefile = "gfx/new_traits/novellani.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_paragon"
+		texturefile = "gfx/new_traits/paragon.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -933,6 +1010,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_wolf"
 		texturefile = "gfx/new_traits/wolf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_yazidi_pilgrim"
+		texturefile = "gfx/traits/hajjaj.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

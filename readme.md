@@ -4,6 +4,10 @@ This mod is based on both of them and the goal of this mod is to implement the b
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
 <b>Changelog:</b><br>
+<b>v0.2:</b><br>
+-Updated CK2+ base to v3.11.2.<br>
+-Removed some more silly VIET events (urine)<br>
+-Added the humours trait system from Friends & Foes mod (includes personality type traits and subtraits, as well as events related to them).<br>
 <b>v0.1.1:</b><br>
 -Decreased child mortality, still much larger than vanilla, but 60% of children will no longer die.<br>
 -Removed some of the most ridiculous and pointless events from VIET (toothbrushing and cocks).<br>
@@ -23,10 +27,12 @@ Initial release.<br>
 -ARKO interface.<br>
 -Viet traits.<br>
 -Viet events.<br>
+-Friends & Foes personality traits.<br>
 -Dorimi music pack.<br>
 -Various other small tweaks and changes.<br>
 
 <b>TODO:</b><br>
+-Fear system from FF or a different one.<br>
 -Rebalance traits and focuses.<br>
 -General balance tweaks.<br>
 -Moar music.<br>

@@ -1397,6 +1397,7 @@ laws = {
 		potential = {
 			NOT = { tier = baron }
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { religion = fraticelli } }
 		}
 		allow = {
 			holder_scope = { war = no }
@@ -1724,6 +1725,9 @@ laws = {
 		potential = {
 			NOT = { tier = baron }
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { religion = fraticelli } }
+			NOT = { holder_scope = { religion = lollard } }
+			NOT = { holder_scope = { religion = waldensian } }
 		}
 		allow = {
 			holder_scope = { war = no }

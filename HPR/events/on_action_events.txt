@@ -6539,16 +6539,16 @@ province_event = {
 					create_random_soldier = {
 						random_traits = yes
 						dynasty = random
-						religion = prev
-						culture = prev
+						religion = ROOT
+						culture = ROOT
 						female = no
 						age = 30
 						employer = e_rebels
 					}
 					new_character = {
 						spawn_unit = {
-							province = prev
-							home = prev
+							province = ROOT
+							home = ROOT
 							scaled_by_biggest_garrison = 1.0
 							troops = {
 								archers = { 10 10 }
@@ -6561,16 +6561,16 @@ province_event = {
 					create_random_soldier = {
 						random_traits = yes
 						dynasty = random
-						religion = prev
-						culture = prev
+						religion = ROOT
+						culture = ROOT
 						female = no
 						age = 30
 						employer = e_rebels
 					}
 					new_character = {
 						spawn_unit = {
-							province = prev
-							home = prev
+							province = ROOT
+							home = ROOT
 							scaled_by_biggest_garrison = 2
 							troops = {
 								archers = { 10 10 }
@@ -6584,16 +6584,16 @@ province_event = {
 					create_random_soldier = {
 						random_traits = yes
 						dynasty = random
-						religion = prev
-						culture = prev
+						religion = ROOT
+						culture = ROOT
 						female = no
 						age = 30
 						employer = e_rebels
 					}
 					new_character = {
 						spawn_unit = {
-							province = prev
-							home = prev
+							province = ROOT
+							home = ROOT
 							scaled_by_biggest_garrison = 3
 							troops = {
 								archers = { 10 10 }
@@ -6607,16 +6607,16 @@ province_event = {
 					create_random_soldier = {
 						random_traits = yes
 						dynasty = random
-						religion = prev
-						culture = prev
+						religion = ROOT
+						culture = ROOT
 						female = no
 						age = 30
 						employer = e_rebels
 					}
 					new_character = {
 						spawn_unit = {
-							province = prev
-							home = prev
+							province = ROOT
+							home = ROOT
 							scaled_by_biggest_garrison = 4
 							troops = {
 								archers = { 15 15 }
@@ -6630,16 +6630,16 @@ province_event = {
 					create_random_soldier = {
 						random_traits = yes
 						dynasty = random
-						religion = prev
-						culture = prev
+						religion = ROOT
+						culture = ROOT
 						female = no
 						age = 30
 						employer = e_rebels
 					}
 					new_character = {
 						spawn_unit = {
-							province = prev
-							home = prev
+							province = ROOT
+							home = ROOT
 							scaled_by_biggest_garrison = 5
 							troops = {
 								archers = { 15 15 }
@@ -6997,16 +6997,6 @@ narrative_event = {
 			set_global_flag = norse_reformation
 		}
 		if = {
-			limit = { religion = celtic_pagan_reformed }
-			d_fianna = {
-				religion = celtic_pagan_reformed # This Holy Order now changes religion
-			}
-			d_gwydion	 = {
-				religion = celtic_pagan_reformed # This Holy Order now changes religion
-			}			
-			set_global_flag = celtic_reformation
-		}
-		if = {
 			limit = { religion = tengri_pagan_reformed }
 			d_great_host = {
 				religion = tengri_pagan_reformed # This Holy Order now changes religion
@@ -7063,6 +7053,88 @@ narrative_event = {
 				religion = zun_pagan_reformed # This Holy Order now changes religion
 			}
 			set_global_flag = zun_reformation
+		}	
+		if = {
+			limit = { religion = celtic_pagan_reformed }
+			d_fianna = {
+				religion = celtic_pagan_reformed # This Holy Order now changes religion
+			}
+			d_gwydion = {
+				religion = celtic_pagan_reformed # This Holy Order now changes religion
+			}
+			set_global_flag = celtic_reformation
+			
+			# Make sure the Arch-druid owns a holy site (without hardcoding them...)
+			# Prefer reformer culture and culture_group, due to papal suitability bonus to religious head culture
+			# Also granting title to another character kicks off the cardinal seat nominations (vanilla bug)
+
+			# Find a new holy_site holder of reformer's culture
+			random_realm_title = {
+				limit = {
+					is_holy_site = ROOT
+					is_theocracy = yes
+					holder_scope = {
+						NOT = { character = ROOT }
+						is_theocracy = yes
+						religion = celtic_pagan_reformed
+						controls_religion = no
+						culture = ROOT
+					}
+				}
+				holder_scope = {
+					d_celtic_pagan_reformed = {
+						usurp_title_only = PREV
+					}
+				}
+				break = yes
+			}
+			
+			# Find a new holy_site holder of reformer's culture group
+			random_realm_title = {
+				limit = {
+					is_holy_site = ROOT
+					is_theocracy = yes
+					holder_scope = {
+						NOT = { character = ROOT }
+						is_theocracy = yes
+						religion = celtic_pagan_reformed
+						controls_religion = no
+						culture_group = ROOT
+					}
+				}
+				holder_scope = {
+					d_celtic_pagan_reformed = {
+						usurp_title_only = PREV
+					}
+				}
+				break = yes
+			}
+			
+			# Fallback - any culture will do
+			# Note: there should always be one eligible character, otherwise it's a game over even before on_reform fires.
+			random_realm_title = {
+				limit = {
+					is_holy_site = ROOT
+					is_theocracy = yes
+					holder_scope = {
+						NOT = { character = ROOT }
+						is_theocracy = yes
+						religion = celtic_pagan_reformed
+						controls_religion = no
+					}
+				}
+				holder_scope = {
+					d_celtic_pagan_reformed = {
+						usurp_title_only = PREV
+					}
+				}
+				break = yes
+			}
+			
+			# Just in case
+			d_celtic_pagan_reformed = {
+				holder_scope = { abdicate = yes }
+			}
 		}
 	}
 

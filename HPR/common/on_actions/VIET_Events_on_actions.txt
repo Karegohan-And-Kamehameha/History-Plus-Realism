@@ -254,12 +254,12 @@ on_yearly_pulse = {
 		#100 = VIETmisc.2223
 		#100 = VIETmisc.2224
 		#Urine
-		100 = VIETmisc.2246
-		100 = VIETmisc.2248
-		100 = VIETmisc.2249
-		100 = VIETmisc.2252
-		100 = VIETmisc.2253
-		100 = VIETmisc.2254
+		#100 = VIETmisc.2246
+		#100 = VIETmisc.2248
+		#100 = VIETmisc.2249
+		#100 = VIETmisc.2252
+		#100 = VIETmisc.2253
+		#100 = VIETmisc.2254
 		#Furniture
 		100 = VIETmisc.2234
 		100 = VIETmisc.2235

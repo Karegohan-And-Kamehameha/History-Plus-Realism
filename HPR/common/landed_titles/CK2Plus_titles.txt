@@ -2387,8 +2387,7 @@ d_baltic_pagan_reformed = {
 	short_name = yes
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 
-	primary = yes
-	dignity = 100 # Never want the Baltic High Priest to change titles
+	dignity = 1000 # Never want the Baltic High Priest to change titles
 	
 	# Controls a religion
 	controls_religion = baltic_pagan_reformed
@@ -2555,6 +2554,7 @@ d_celtic_pagan_reformed = {
 	color = { 122 165 70 }
 	color2 = { 220 220 0 }
 	capital = 64 # Gwynedd
+	creation_requires_capital = no
 	title = "ARCH_DRUID"
 	title_female = "ARCH_DRUID"
 	foa = "ARCH_DRUID_FOA"
@@ -2571,7 +2571,8 @@ d_celtic_pagan_reformed = {
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
 	allow = {
-		religion = celtic_pagan_reformed
+		religion = celtic_pagan
+		FROM = { has_holder = yes }
 		is_theocracy = yes
 		is_adult = yes
 		has_regent = no
@@ -2675,8 +2676,7 @@ d_finnish_pagan_reformed = {
 	short_name = yes
 	
 	# Always exists
-	primary = yes
-	dignity = 100
+	dignity = 1000
 	
 	# Controls a religion
 	controls_religion = finnish_pagan_reformed
@@ -2754,9 +2754,8 @@ d_german_pagan_reformed = {
 	}
 	
 	short_name = yes
-	primary = yes
 	
-	dignity = 100 # Counted as having this many more counties than it does
+	dignity = 1000 # Counted as having this many more counties than it does
 	
 	# Controls a religion
 	controls_religion = german_pagan_reformed
@@ -2779,6 +2778,7 @@ d_hellenic_pagan = {
 	allow = {
 		religion = hellenic_pagan
 		FROM = { has_holder = yes }
+		is_theocracy = yes
 		is_adult = yes
 		has_regent = no
 		war = no
@@ -3376,8 +3376,7 @@ d_norse_pagan_reformed = {
 	}
 	
 	short_name = yes
-	primary = yes
-	dignity = 100 # Counted as having this many more counties than it does
+	dignity = 1000 # Counted as having this many more counties than it does
 	
 	# Controls a religion
 	controls_religion = norse_pagan_reformed
@@ -3421,6 +3420,29 @@ d_paulician = {
 		Neophytos Nephon Nikephoros Niketas Nikolaos Paul Pavlos Petros Photios Polykarpos Sergius Silvanus Stephanos 
 		Sophronios Theodoros Theodosios Theodotos Theophylaktos Thomas Timotheos Titus
 	}
+}
+
+d_promethean_pagan = {
+	color = { 100 44 201 }
+	color2 = { 201 97 108 }
+
+	capital = 482 # Athens, location of Plato's Academy
+	creation_requires_capital = yes
+	
+	title = "SCHOLARCH"
+	title_female = "SCHOLARCH"
+
+	allow = {
+		religion = promethean_pagan
+		num_of_holy_sites = 3
+		piety = 500
+	}
+
+	dignity = 100
+	controls_religion = promethean_pagan
+	religion = promethean_pagan
+
+	dynasty_title_names = no
 }
 
 d_qarmatian = {
@@ -3767,8 +3789,7 @@ d_slavic_pagan_reformed = {
 	short_name = yes
 	
 	# Always exists
-	primary = yes
-	dignity = 100
+	dignity = 1000
 	
 	# Controls a religion
 	controls_religion = slavic_pagan_reformed
@@ -3915,7 +3936,6 @@ d_tengri_pagan_reformed = {
 	short_name = yes
 	
 	# Always exists
-	primary = yes
 	dignity = 100
 	
 	# Controls a religion
@@ -3947,8 +3967,7 @@ d_west_african_pagan_reformed = {
 	short_name = yes
 	
 	# Always exists
-	primary = yes
-	dignity = 100
+	dignity = 1000
 	
 	# Controls a religion
 	controls_religion = west_african_pagan_reformed
@@ -3969,94 +3988,28 @@ d_west_african_pagan_reformed = {
 }
 
 d_yazidi = {
-	color = { 60 190 60 }
+	color = { 20 50 160 }
 	color2 = { 220 220 0 }
-	capital = 719 # Mecca
+	capital = 697 # Mosul
 	
-	creation_requires_capital = no
+	title = "BABA_SHEIKH"
+	foa = "POPE_FOA"
 	
-	dignity = 100 # Counted as having this many more counties than it does
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-	caliphate = yes
-	title = "CALIPH"
-	title_female = "CALIPHA"
-	foa = "CALIPH_FOA"
 	short_name = yes
-	
-	religion = yazidi
+
+	# Always exists
+	landless = yes
 	
 	# Controls a religion
 	controls_religion = yazidi
+	dignity = 80 # Counted as having this many more counties than it does
 	
-	allow = {
-		religion = yazidi
-		is_heretic = no
-		is_adult = yes
-		has_regent = no
-		war = no
-		OR = {
-			trait = mirza
-			trait = sayyid
-			piety = 1000
-		}
-		NOT = { has_global_flag = shia_caliphate_revolt_ongoing }
-		OR = {
-			AND = {
-				trait = sayyid
-				piety = 1000
-			}
-			custom_tooltip = {
-				text = controls_mecca_medina
-				hidden_tooltip = {
-					719 = { # Mecca
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					718 = { # Medina
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-				}
-			}
-			custom_tooltip = {
-				text = controls_jerusalem_damascus_baghdad
-				hidden_tooltip = {
-					774 = { # Jerusalem
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					728 = { # Damascus
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					693 = { # Baghdad
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+	religion = yazidi
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 
 d_zikri = {
@@ -4177,8 +4130,8 @@ d_zoroastrian = {
 }
 
 d_zun_pagan_reformed = {
-	color={ 220 255 0 }
-	color2={ 220 220 0 }
+	color = { 220 255 0 }
+	color2 = { 220 220 0 }
 	
 	capital = 1183 #	Bost
 	
@@ -4194,8 +4147,7 @@ d_zun_pagan_reformed = {
 	religion = zun_pagan_reformed
 	
 	# Cannot be held as a secondary title
-	primary = yes
-	dignity = 100
+	dignity = 1000
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
@@ -5276,6 +5228,38 @@ d_knights_templar = {
 
 	strength_growth_per_century = 1
 	dignity = 10
+}
+
+d_red_dragons = {
+
+	color = { 75 0 75 }
+	color2 = { 255 255 255 }
+	
+	capital = 64 #Gwynedd
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = celtic_pagan_reformed
+	
+	culture = welsh
+	
+	monthly_income = 4
+	
+	# Cannot be held as a secondary title
+	primary = yes
+
+	mercenary_type = red_dragons_composition
+
+	strength_growth_per_century = 1.0	
+
+	dynasty_title_names = no	
 }
 
 d_sacred_band = {

@@ -47,7 +47,7 @@ castle = {
 	ca_culture_roman_1 = {
 		desc = ca_culture_roman_1_desc
 		potential = {
-			FROMFROM = {
+			FROMFROM = { 
 				OR = {
 					location = { culture = roman }
 					has_building = ca_culture_roman_1
@@ -73,13 +73,13 @@ castle = {
 		heavy_infantry = 30
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
-		tax_income = -0.1
+
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_roman_2 = {
 		desc = ca_culture_roman_1_desc
 		potential = {
-			FROMFROM = {
+			FROMFROM = { 
 				OR = {
 					location = { culture = roman }
 					has_building = ca_culture_roman_2
@@ -105,13 +105,13 @@ castle = {
 		heavy_infantry = 40
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
-		tax_income = -0.1
+
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_roman_3 = {
 		desc = ca_culture_roman_1_desc
 		potential = {
-			FROMFROM = {
+			FROMFROM = { 
 				OR = {
 					location = { culture = roman }
 					has_building = ca_culture_roman_3
@@ -137,13 +137,13 @@ castle = {
 		heavy_infantry = 50
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
-		tax_income = -0.1
+
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_roman_4 = {
 		desc = ca_culture_roman_1_desc
 		potential = {
-			FROMFROM = {
+			FROMFROM = { 
 				OR = {
 					location = { culture = roman }
 					has_building = ca_culture_roman_4
@@ -169,7 +169,7 @@ castle = {
 		heavy_infantry = 60
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
-		tax_income = -0.1
+
 		extra_tech_building_start = 0.8
 	}
 
@@ -234,7 +234,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		heavy_infantry = 60
 		ai_creation_factor = 101
-		tax_income = -0.1
+		
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_2 = {
@@ -266,7 +266,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		heavy_infantry = 80
 		ai_creation_factor = 100
-		tax_income = -0.1
+		
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_3 = {
@@ -298,7 +298,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		heavy_infantry = 100
 		ai_creation_factor = 99
-		tax_income = -0.1
+		
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_4 = {
@@ -330,7 +330,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		heavy_infantry = 120
 		ai_creation_factor = 98
-		tax_income = -0.1
+		
 		extra_tech_building_start = 0.8
 	}
 }
@@ -413,11 +413,1103 @@ temple = {
 
 		tech_growth_modifier = 0.3
 		culture_techpoints = 0.05
-
+		
 		ai_creation_factor = 92
 		add_number_to_name = no
 
-
+		
 		extra_tech_building_start = 0.2
+	}
+}
+
+trade_post = {
+	tr_generic_road_1 = {	# Generic Road Improvement Stage 1
+		potential = {
+			NOR = { # These are not allowed to have roads
+				AND = {
+					trade_route = silk_road # This trade route is not allowed to have roads
+					NOR = { # The following provinces are exceptions
+						province = 496 # Constantinople
+						province = 764 # Antioch
+					}
+				}
+				AND = {
+					trade_route = mediterranean_trade # This trade route is not allowed to have roads
+					NOR = { # The following provinces are exceptions
+						province = 496 # Constantinople
+						province = 764 # Antioch
+						province = 468 # Dubrovnik
+						province = 356 # Venice
+						province = 333 # Rome
+						province = 233 # Genoa
+						province = 221 # Provence
+						province = 204 # Barcelona
+						province = 165 # Cadiz/Qadis
+					}
+				}
+				AND = {
+					trade_route = atlantic_trade # This trade route is not allowed to have roads
+					NOR = { # The following provinces are exceptions
+						province = 843 # Marrakech
+						province = 157 # Santiago
+						province = 155 # Asturias de Oviedo
+						province = 149 # Bordeaux
+						province = 141 # Poitiers
+						province = 100 # Avranches
+						province = 78 # Brugge
+						province = 32 # London
+						province = 26 # Winchester
+						province = 100 # Avranches
+						province = 43 # Moray
+						province = 57 # York/Deira
+						province = 52 # Northumberland/Northumbria						
+					}
+				}
+				AND = {
+					trade_route = baltic_sea # This trade route is not allowed to have roads
+					NOR = { # The following provinces are exceptions
+						province = 261 # Hamburg
+						province = 262 # Lubeck
+						province = 368 # Danzig
+						province = 373 # Kurs
+						province = 378 # Reval					
+					}
+				}				
+			}
+		}
+		desc = tr_generic_road_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 1
+		}
+		gold_cost = 100
+		build_time = 150
+		ai_creation_factor = 95
+		
+		tradevalue = 3
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_generic_road_2 = {	# Generic Road Improvement Stage 2
+		potential = {
+		}
+		desc = tr_generic_road_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 3
+		}
+		gold_cost = 150
+		build_time = 300
+		upgrades_from = tr_generic_road_1
+		ai_creation_factor = 95
+		
+		trade_route_value = 1
+		tradevalue = 3
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_generic_road_3 = {	# Generic Road Improvement Stage 3
+		potential = {
+		}
+		desc = tr_generic_road_3_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 6
+		}
+		gold_cost = 300
+		build_time = 600
+		upgrades_from = tr_generic_road_2
+		ai_creation_factor = 95
+		
+		trade_route_value = 3
+		tradevalue = 5
+		monthly_character_prestige = 0.10
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_generic_toll_booth_1 = {	# Generic Toll Booth Stage 1
+		potential = {
+			NOR = { # These are not allowed to have toll booths
+				AND = {
+					trade_route = silk_road # This trade route is not allowed to have toll booths
+					NOR = { # The following provinces are exceptions
+						province = 496 # Constantinople
+						province = 764 # Antioch
+					}
+				}
+				AND = {
+					trade_route = mediterranean_trade # This trade route is not allowed to have toll booths
+					NOR = { # The following provinces are exceptions
+						province = 496 # Constantinople
+						province = 764 # Antioch
+						province = 468 # Dubrovnik
+						province = 356 # Venice
+						province = 333 # Rome
+						province = 233 # Genoa
+						province = 221 # Provence
+						province = 204 # Barcelona
+						province = 165 # Cadiz/Qadis
+					}
+				}
+				AND = {
+					trade_route = atlantic_trade # This trade route is not allowed to have toll booths
+					NOR = { # The following provinces are exceptions
+						province = 843 # Marrakech
+						province = 157 # Santiago
+						province = 155 # Asturias de Oviedo
+						province = 149 # Bordeaux
+						province = 141 # Poitiers
+						province = 100 # Avranches
+						province = 78 # Brugge
+						province = 32 # London
+						province = 26 # Winchester
+						province = 100 # Avranches
+						province = 43 # Moray
+						province = 57 # York/Deira
+						province = 52 # Northumberland/Northumbria						
+					}
+				}
+				AND = {
+					trade_route = baltic_sea # This trade route is not allowed to have toll booths
+					NOR = { # The following provinces are exceptions
+						province = 261 # Hamburg
+						province = 262 # Lubeck
+						province = 368 # Danzig
+						province = 373 # Kurs
+						province = 378 # Reval					
+					}
+				}				
+			}
+		}
+		desc = tr_generic_toll_booth_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 1
+		}
+		gold_cost = 100
+		build_time = 150
+		ai_creation_factor = 95
+		
+		tax_income = 2
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_generic_toll_booth_2 = {	# Generic Toll Booth Stage 2
+		potential = {
+		}
+		desc = tr_generic_toll_booth_2
+		trigger = {
+			TECH_TRADE_PRACTICES = 3
+		}
+		gold_cost = 200
+		build_time = 200
+		upgrades_from = tr_generic_toll_booth_1
+		ai_creation_factor = 95
+		
+		tax_income = 2
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_generic_toll_booth_3 = {	# Generic Toll Booth Stage 3
+		potential = {
+		}
+		desc = tr_generic_toll_booth_3
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+		}
+		gold_cost = 300
+		build_time = 300
+		upgrades_from = tr_generic_toll_booth_2
+		ai_creation_factor = 95
+		
+		tax_income = 3
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_customs_house_1 = {	# Customs House Stage 1
+		potential = {
+			port = yes
+			OR = { 
+				trade_route = mediterranean_trade
+				trade_route = atlantic_trade
+				trade_route = baltic_sea
+			}
+		}
+		desc = tr_customs_house_1
+		trigger = {
+			TECH_TRADE_PRACTICES = 1
+		}
+		gold_cost = 100
+		build_time = 150
+		ai_creation_factor = 95
+		
+		tax_income = 2
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_customs_house_2 = {	# Customs House Stage 2
+		potential = {
+		}
+		desc = tr_customs_house_2
+		trigger = {
+			TECH_TRADE_PRACTICES = 3
+		}
+		gold_cost = 200
+		build_time = 200
+		upgrades_from = tr_customs_house_1
+		ai_creation_factor = 95
+		
+		tax_income = 2
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_customs_house_3 = {	#Customs House Stage 3
+		potential = {
+		}
+		desc = tr_customs_house_3
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+		}
+		gold_cost = 300
+		build_time = 300
+		upgrades_from = tr_customs_house_2
+		ai_creation_factor = 95
+		
+		tax_income = 3
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tr_amber_road_trade_guild_1 = {	# Amber Trade Guild Stage 1
+		potential = {
+			trade_route = amber_road
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_amber_road_trade_guild_1
+							trade_post_has_building = tr_amber_road_trade_guild_2
+						}
+					}				
+				}
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_atlantic_trade_guild_1
+					trade_post_has_building = tr_atlantic_trade_guild_2	
+					trade_post_has_building = tr_balkan_road_trade_guild_1
+					trade_post_has_building = tr_balkan_road_trade_guild_2
+					trade_post_has_building = tr_baltic_trade_guild_1
+					trade_post_has_building = tr_baltic_trade_guild_2
+					trade_post_has_building = tr_british_trade_guild_1
+					trade_post_has_building = tr_british_trade_guild_2
+					trade_post_has_building = tr_french_trade_guild_1
+					trade_post_has_building = tr_french_trade_guild_2
+					trade_post_has_building = tr_iberian_trade_guild_1
+					trade_post_has_building = tr_iberian_trade_guild_2
+					trade_post_has_building = tr_mediterranean_trade_guild_1
+					trade_post_has_building = tr_mediterranean_trade_guild_2
+					trade_post_has_building = tr_salt_road_trade_guild_1
+					trade_post_has_building = tr_salt_road_trade_guild_2					
+				}
+			}			
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_amber_road_trade_guild_2 = {	# Amber Trade Guild Stage 2
+		potential = {
+			trade_route = amber_road
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 7
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_amber_road_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_amber_road_trade_guild_3 = {	# Amber Trade Guild Stage 3
+		potential = {
+			trade_route = amber_road
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_amber_road_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
+	}
+	tr_balkan_road_trade_guild_1 = {	# Balkan Trade Guild Stage 1
+		potential = {
+			trade_route = balkan_road
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_balkan_road_trade_guild_1
+							trade_post_has_building = tr_balkan_road_trade_guild_2
+						}
+					}				
+				}
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_amber_road_trade_guild_1
+					trade_post_has_building = tr_amber_road_trade_guild_2
+					trade_post_has_building = tr_atlantic_trade_guild_1
+					trade_post_has_building = tr_atlantic_trade_guild_2				
+					trade_post_has_building = tr_baltic_trade_guild_1
+					trade_post_has_building = tr_baltic_trade_guild_2
+					trade_post_has_building = tr_british_trade_guild_1
+					trade_post_has_building = tr_british_trade_guild_2
+					trade_post_has_building = tr_french_trade_guild_1
+					trade_post_has_building = tr_french_trade_guild_2
+					trade_post_has_building = tr_iberian_trade_guild_1
+					trade_post_has_building = tr_iberian_trade_guild_2
+					trade_post_has_building = tr_mediterranean_trade_guild_1
+					trade_post_has_building = tr_mediterranean_trade_guild_2
+					trade_post_has_building = tr_salt_road_trade_guild_1
+					trade_post_has_building = tr_salt_road_trade_guild_2					
+				}
+			}			
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_balkan_road_trade_guild_2 = {	# Balkan Trade Guild Stage 2
+		potential = {
+			trade_route = balkan_road
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 7		
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_balkan_road_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_balkan_road_trade_guild_3 = {	# Balkan Trade Guild Stage 3
+		potential = {
+			trade_route = balkan_road
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_balkan_road_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
+	}
+	tr_french_trade_guild_1 = {	# French Trade Guild Stage 1
+		potential = {
+			trade_route = french_trade
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_french_trade_guild_1
+							trade_post_has_building = tr_french_trade_guild_2
+						}
+					}				
+				}			
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_amber_road_trade_guild_1
+					trade_post_has_building = tr_amber_road_trade_guild_2
+					trade_post_has_building = tr_atlantic_trade_guild_1
+					trade_post_has_building = tr_atlantic_trade_guild_2
+					trade_post_has_building = tr_balkan_road_trade_guild_1
+					trade_post_has_building = tr_balkan_road_trade_guild_2
+					trade_post_has_building = tr_baltic_trade_guild_1
+					trade_post_has_building = tr_baltic_trade_guild_2
+					trade_post_has_building = tr_british_trade_guild_1
+					trade_post_has_building = tr_british_trade_guild_2
+					trade_post_has_building = tr_iberian_trade_guild_1
+					trade_post_has_building = tr_iberian_trade_guild_2
+					trade_post_has_building = tr_mediterranean_trade_guild_1
+					trade_post_has_building = tr_mediterranean_trade_guild_2
+					trade_post_has_building = tr_salt_road_trade_guild_1
+					trade_post_has_building = tr_salt_road_trade_guild_2					
+				}
+			}
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_french_trade_guild_2 = {	# French Trade Guild Stage 2
+		potential = {
+			trade_route = french_trade
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 7			
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_french_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_french_trade_guild_3 = {	# French Trade Guild Stage 3
+		potential = {
+			trade_route = french_trade
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_french_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
+	}
+	tr_iberian_trade_guild_1 = {	# Iberian Trade Guild Stage 1
+		potential = {
+			trade_route = iberian_trade
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_iberian_trade_guild_1
+							trade_post_has_building = tr_iberian_trade_guild_2
+						}
+					}	
+				}
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_amber_road_trade_guild_1
+					trade_post_has_building = tr_amber_road_trade_guild_2
+					trade_post_has_building = tr_atlantic_trade_guild_1
+					trade_post_has_building = tr_atlantic_trade_guild_2
+					trade_post_has_building = tr_balkan_road_trade_guild_1
+					trade_post_has_building = tr_balkan_road_trade_guild_2
+					trade_post_has_building = tr_baltic_trade_guild_1
+					trade_post_has_building = tr_baltic_trade_guild_2
+					trade_post_has_building = tr_british_trade_guild_1
+					trade_post_has_building = tr_british_trade_guild_2
+					trade_post_has_building = tr_french_trade_guild_1
+					trade_post_has_building = tr_french_trade_guild_2				
+					trade_post_has_building = tr_mediterranean_trade_guild_1
+					trade_post_has_building = tr_mediterranean_trade_guild_2
+					trade_post_has_building = tr_salt_road_trade_guild_1
+					trade_post_has_building = tr_salt_road_trade_guild_2					
+				}
+			}			
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_iberian_trade_guild_2 = {	# Iberian Trade Guild Stage 2
+		potential = {
+			trade_route = iberian_trade
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+				TECH_TRADE_PRACTICES = 7		
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_iberian_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_iberian_trade_guild_3 = {	# Iberian Trade Guild Stage 3
+		potential = {
+			trade_route = iberian_trade
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_iberian_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
+	}	
+	tr_british_trade_guild_1 = {	# British Trade Guild Stage 1
+		potential = {
+			trade_route = british_trade
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_british_trade_guild_1
+							trade_post_has_building = tr_british_trade_guild_2
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_amber_road_trade_guild_1
+					trade_post_has_building = tr_amber_road_trade_guild_2
+					trade_post_has_building = tr_atlantic_trade_guild_1
+					trade_post_has_building = tr_atlantic_trade_guild_2
+					trade_post_has_building = tr_balkan_road_trade_guild_1
+					trade_post_has_building = tr_balkan_road_trade_guild_2
+					trade_post_has_building = tr_baltic_trade_guild_1
+					trade_post_has_building = tr_baltic_trade_guild_2				
+					trade_post_has_building = tr_french_trade_guild_1
+					trade_post_has_building = tr_french_trade_guild_2
+					trade_post_has_building = tr_iberian_trade_guild_1
+					trade_post_has_building = tr_iberian_trade_guild_2
+					trade_post_has_building = tr_mediterranean_trade_guild_1
+					trade_post_has_building = tr_mediterranean_trade_guild_2
+					trade_post_has_building = tr_salt_road_trade_guild_1
+					trade_post_has_building = tr_salt_road_trade_guild_2					
+				}
+			}			
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_british_trade_guild_2 = {	# British Trade Guild Stage 2
+		potential = {
+			trade_route = british_trade
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 7		
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_british_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_british_trade_guild_3 = {	# British Trade Guild Stage 3
+		potential = {
+			trade_route = british_trade
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_british_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
+	}
+	tr_atlantic_trade_guild_1 = {	# Atlantic Trade Guild Stage 1
+		potential = {
+			trade_route = atlantic_trade
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_atlantic_trade_guild_1
+							trade_post_has_building = tr_atlantic_trade_guild_2
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_amber_road_trade_guild_1
+					trade_post_has_building = tr_amber_road_trade_guild_2
+					trade_post_has_building = tr_balkan_road_trade_guild_1
+					trade_post_has_building = tr_balkan_road_trade_guild_2
+					trade_post_has_building = tr_baltic_trade_guild_1
+					trade_post_has_building = tr_baltic_trade_guild_2
+					trade_post_has_building = tr_british_trade_guild_1
+					trade_post_has_building = tr_british_trade_guild_2
+					trade_post_has_building = tr_french_trade_guild_1
+					trade_post_has_building = tr_french_trade_guild_2
+					trade_post_has_building = tr_iberian_trade_guild_1
+					trade_post_has_building = tr_iberian_trade_guild_2
+					trade_post_has_building = tr_mediterranean_trade_guild_1
+					trade_post_has_building = tr_mediterranean_trade_guild_2
+					trade_post_has_building = tr_salt_road_trade_guild_1
+					trade_post_has_building = tr_salt_road_trade_guild_2					
+				}
+			}			
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_atlantic_trade_guild_2 = {	# Atlantic Trade Guild Stage 2
+		potential = {
+			trade_route = atlantic_trade
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 7		
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_atlantic_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_atlantic_trade_guild_3 = {	# Atlantic Trade Guild Stage 3
+		potential = {
+			trade_route = atlantic_trade
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_atlantic_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
+	}
+	tr_baltic_trade_guild_1 = {	# Baltic Trade Guild Stage 1
+		potential = {
+			trade_route = baltic_sea
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_baltic_trade_guild_1
+							trade_post_has_building = tr_baltic_trade_guild_2
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_amber_road_trade_guild_1
+					trade_post_has_building = tr_amber_road_trade_guild_2
+					trade_post_has_building = tr_atlantic_trade_guild_1
+					trade_post_has_building = tr_atlantic_trade_guild_2
+					trade_post_has_building = tr_balkan_road_trade_guild_1
+					trade_post_has_building = tr_balkan_road_trade_guild_2				
+					trade_post_has_building = tr_british_trade_guild_1
+					trade_post_has_building = tr_british_trade_guild_2
+					trade_post_has_building = tr_french_trade_guild_1
+					trade_post_has_building = tr_french_trade_guild_2
+					trade_post_has_building = tr_iberian_trade_guild_1
+					trade_post_has_building = tr_iberian_trade_guild_2
+					trade_post_has_building = tr_mediterranean_trade_guild_1
+					trade_post_has_building = tr_mediterranean_trade_guild_2
+					trade_post_has_building = tr_salt_road_trade_guild_1
+					trade_post_has_building = tr_salt_road_trade_guild_2					
+				}
+			}			
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_baltic_trade_guild_2 = {	# Baltic Trade Guild Stage 2
+		potential = {
+			trade_route = baltic_sea
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 7		
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_baltic_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_baltic_trade_guild_3 = {	# Baltic Trade Guild Stage 3
+		potential = {
+			trade_route = baltic_sea
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_baltic_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
+	}
+	tr_mediterranean_trade_guild_1 = {	# Mediterranean Trade Guild Stage 1
+		potential = {
+			trade_route = mediterranean_trade
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_mediterranean_trade_guild_1
+							trade_post_has_building = tr_mediterranean_trade_guild_2
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_amber_road_trade_guild_1
+					trade_post_has_building = tr_amber_road_trade_guild_2
+					trade_post_has_building = tr_atlantic_trade_guild_1
+					trade_post_has_building = tr_atlantic_trade_guild_2
+					trade_post_has_building = tr_balkan_road_trade_guild_1
+					trade_post_has_building = tr_balkan_road_trade_guild_2
+					trade_post_has_building = tr_baltic_trade_guild_1
+					trade_post_has_building = tr_baltic_trade_guild_2
+					trade_post_has_building = tr_british_trade_guild_1
+					trade_post_has_building = tr_british_trade_guild_2
+					trade_post_has_building = tr_french_trade_guild_1
+					trade_post_has_building = tr_french_trade_guild_2
+					trade_post_has_building = tr_iberian_trade_guild_1
+					trade_post_has_building = tr_iberian_trade_guild_2
+					trade_post_has_building = tr_salt_road_trade_guild_1
+					trade_post_has_building = tr_salt_road_trade_guild_2					
+				}
+			}			
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_mediterranean_trade_guild_2 = {	# Mediterranean Guild Stage 2
+		potential = {
+			trade_route = mediterranean_trade
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 7		
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_mediterranean_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_mediterranean_trade_guild_3 = {	# Mediterranean Trade Guild Stage 3
+		potential = {
+			trade_route = mediterranean_trade
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_mediterranean_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
+	}
+	tr_salt_road_trade_guild_1 = {	# Salt Road Trade Guild Stage 1
+		potential = {
+			trade_route = salt_road
+		}
+		desc = tr_trade_guild_1_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 5
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_3_OTHER_PROVINCES_CONDITION # May only have 1 of the same type of guild every 300 range
+				NOT = {
+					any_trade_route_province = {
+						NOT = {
+							distance = {
+								where = ROOT
+								value = 300
+							}
+						}
+						OR = {
+							trade_post_has_building = tr_salt_road_trade_guild_1
+							trade_post_has_building = tr_salt_road_trade_guild_2
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
+				NOR = {
+					trade_post_has_building = tr_amber_road_trade_guild_1
+					trade_post_has_building = tr_amber_road_trade_guild_2
+					trade_post_has_building = tr_atlantic_trade_guild_1
+					trade_post_has_building = tr_atlantic_trade_guild_2
+					trade_post_has_building = tr_balkan_road_trade_guild_1
+					trade_post_has_building = tr_balkan_road_trade_guild_2
+					trade_post_has_building = tr_baltic_trade_guild_1
+					trade_post_has_building = tr_baltic_trade_guild_2
+					trade_post_has_building = tr_british_trade_guild_1
+					trade_post_has_building = tr_british_trade_guild_2
+					trade_post_has_building = tr_french_trade_guild_1
+					trade_post_has_building = tr_french_trade_guild_2
+					trade_post_has_building = tr_iberian_trade_guild_1
+					trade_post_has_building = tr_iberian_trade_guild_2
+					trade_post_has_building = tr_mediterranean_trade_guild_1
+					trade_post_has_building = tr_mediterranean_trade_guild_2
+				}
+			}			
+		}
+		gold_cost = 300
+		build_time = 300
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 6.0
+	}
+	tr_salt_road_trade_guild_2 = {	# Salt Road Guild Stage 2
+		potential = {
+			trade_route = salt_road
+		}
+		desc = tr_trade_guild_2_desc
+		trigger = {
+			TECH_TRADE_PRACTICES = 7		
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_salt_road_trade_guild_1
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 4	# Affects your cut of the trade route income
+		tradevalue = 20
+		
+		extra_tech_building_start = 8
+	}
+	tr_salt_road_trade_guild_3 = {	# Salt Road Trade Guild Stage 3
+		potential = {
+			trade_route = salt_road
+		}
+		desc = tr_trade_guild_3_desc
+		trigger = {
+			has_province_modifier = trade_guild_hq # Only one guild headquarters in the world per route
+		}
+		gold_cost = 600
+		build_time = 400
+		upgrades_from = tr_salt_road_trade_guild_2
+		ai_creation_factor = 95
+		
+		tax_income = 8
+		trade_route_value = 4	# Affects your cut of the trade route income
+		
+		extra_tech_building_start = 8
 	}
 }

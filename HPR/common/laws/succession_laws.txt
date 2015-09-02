@@ -552,8 +552,13 @@ succession_laws = {
 	
 	succ_papal_succession = {
 		potential = {
-			title = k_papal_state
-		}	
+			OR = {
+				title = k_papal_state
+				title = d_celtic_pagan_reformed
+				title = d_hellenic_pagan
+				title = d_manichean
+			}
+		}
 		effect = {
 			succession = papal_succession
 		}
@@ -582,6 +587,9 @@ succession_laws = {
 	succ_open_elective = {
 		potential = {
 			NOT = { title = k_papal_state }
+			NOT = { title = d_celtic_pagan_reformed }
+			NOT = { title = d_hellenic_pagan }
+			NOT = { title = d_manichean }
 			OR = {
 				is_primary_type_title = yes
 				holy_order = yes

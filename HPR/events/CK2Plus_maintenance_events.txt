@@ -3590,108 +3590,65 @@ character_event = { # Clean up 'children serving in holy orders' chains upon app
 	
 	trigger = { #should be fired from the highest ranking parent
 		has_dlc = "The Old Gods"
-		OR = {
-			any_child = { 
-				father = { 
-					character = ROOT
-					any_child = {	
-						character = PREVPREV
-						mother = { 
-							OR = {
-								is_alive = no
-								NOT = { higher_tier_than = ROOT }
-							}
-						}
-					}
-				}
-			}
-			any_child = { 
-				mother = { 
-					character = ROOT
-					any_child = {	
-						character = PREVPREV
-						father = { 
-							OR = {
-								is_alive = no
-								lower_tier_than = ROOT
-							}
-						}
-					}
-				}
-			}
-		}
 		any_child = {
+			is_alive = yes
+			has_opinion_modifier = { who = ROOT modifier = allowed_to_serve_holy_order }
 			OR = {
 				has_character_flag = serving_gwydion
-				has_character_flag = wants_gwydion
-				has_character_flag = wants_varangian
 				has_character_flag = serving_varangian
 				has_character_flag = serving_fianna
-				has_character_flag = wants_fianna
 			}
 		}
 	}
 	
 	immediate = {
 		any_child = {
-			limit = {				
-				is_primary_heir = ROOT
-				OR = {
-					has_character_flag = wants_gwydion
-					has_character_flag = serving_gwydion
-				}
+			limit = {
+				is_alive = yes
+				has_opinion_modifier = { who = ROOT modifier = allowed_to_serve_holy_order }
+				has_character_flag = serving_fianna
 			}
-			character_event = { id = ancrel.144 days = 3 }
-		}			
-		any_child = {
-			limit = {				
-				is_primary_heir = no
-				OR = {
-					has_character_flag = wants_gwydion
-					has_character_flag = serving_gwydion
-				}
+			if = {
+				limit = { any_heir_title = { holder = ROOT } }
+				move_character = ROOT
+				character_event = { id = ancrel.1184 }
 			}
-			character_event = { id = ancrel.145 days = 3 }
+			if = {
+				limit = { NOT = { any_heir_title = { holder = ROOT } } }
+				character_event = { id = ancrel.1185 }
+			}
 		}
 		any_child = {
-			limit = {				
-				is_primary_heir = ROOT
-				OR = {
-					has_character_flag = wants_fianna
-					has_character_flag = serving_fianna
-				}
+			limit = {
+				is_alive = yes
+				has_opinion_modifier = { who = ROOT modifier = allowed_to_serve_holy_order }
+				has_character_flag = serving_gwydion
 			}
-			character_event = { id = ancrel.1184 days = 3 }
-		}			
-		any_child = {
-			limit = {				
-				is_primary_heir = no
-				OR = {
-					has_character_flag = wants_fianna
-					has_character_flag = serving_fianna
-				}
+			if = {
+				limit = { any_heir_title = { holder = ROOT } }
+				move_character = ROOT
+				character_event = { id = ancrel.144 }
 			}
-			character_event = { id = ancrel.1185 days = 3 }
+			if = {
+				limit = { NOT = { any_heir_title = { holder = ROOT } } }
+				character_event = { id = ancrel.145 }
+			}
 		}
 		any_child = {
-			limit = {				
-				is_primary_heir = ROOT
-				OR = {
-					has_character_flag = wants_varangian
-					has_character_flag = serving_varangian
-				}
+			limit = {
+				is_alive = yes
+				has_opinion_modifier = { who = ROOT modifier = allowed_to_serve_holy_order }
+				has_character_flag = serving_varangian
 			}
-			character_event = { id = TOG.3134 days = 3 }
-		}			
-		any_child = {
-			limit = {				
-				is_primary_heir = no
-				OR = {
-					has_character_flag = wants_varangian
-					has_character_flag = serving_varangian
-				}
+			if = {
+				limit = { any_heir_title = { holder = ROOT } }
+				move_character = ROOT
+				character_event = { id = TOG.3134 }
 			}
-			character_event = { id = TOG.3135 days = 3 }
+			if = {
+				limit = { NOT = { any_heir_title = { holder = ROOT } } }
+				character_event = { id = TOG.3135 }
+			}
 		}
 	}
 }
@@ -4728,6 +4685,7 @@ character_event = { # Annual maintenance fixes
 		#fix patrician succession laws
 		any_demesne_title = {
 			limit = {
+				is_primary_type_title = no
 				holder_scope = { is_patrician = yes }
 				OR = {
 					NOT = { has_law = succ_seniority }
@@ -4758,6 +4716,7 @@ character_event = { # Annual maintenance fixes
 					NOT = { has_law = agnatic_succession }
 				}
 				is_primary_holder_title = yes
+				is_primary_type_title = no
 			}
 			if = {
 				limit = { NOT = { has_law = succ_patrician_elective } }
@@ -4781,6 +4740,7 @@ character_event = { # Annual maintenance fixes
 			#nomads
 			if = {
 				limit = {
+					is_primary_type_title = no
 					holder_scope = {
 						has_dlc = "Horse Lords"
 						is_nomadic = yes
@@ -4792,6 +4752,7 @@ character_event = { # Annual maintenance fixes
 			#celtic pagans
 			if = {
 				limit = {
+					is_primary_type_title = no
 					holder_scope = {
 						OR = {
 							is_tribal = yes
@@ -4871,6 +4832,38 @@ character_event = { # Annual maintenance fixes
 					NOT = { has_law = succ_turkish_succession }
 				}
 				add_law = succ_turkish_succession
+			}
+			#holy orders
+			if = {
+				limit = {
+					holy_order = yes
+					holder_scope = {
+						is_theocracy = no
+						is_patrician = no
+						is_merchant_republic = no
+						OR = {
+							independent = yes
+							is_feudal = no
+							NOT = { any_liege = { holy_order = yes } }
+						}
+					}
+					NOT = { has_law = succ_open_elective }
+				}
+				add_law = succ_open_elective
+			}
+			#manichean papal succession
+			if = {
+				limit = {
+					OR = {
+						title = d_manichean
+						title = d_celtic_pagan_reformed
+						title = d_hellenic_pagan
+					}
+					NOT = { has_law = succ_papal_succession }
+					holder_scope = { any_demesne_title = { controls_religion = no } }
+				}
+				add_law = succ_papal_succession
+				holder_scope = { abdicate = yes }
 			}
 			#catholic investiture
 			if = {

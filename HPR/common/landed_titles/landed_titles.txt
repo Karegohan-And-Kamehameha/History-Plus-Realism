@@ -3832,9 +3832,6 @@ e_placeholder = {
 				color = { 198 136 138 }
 				color2 = { 255 255 255 }
 				
-				holy_site = celtic_pagan
-				holy_site = celtic_pagan_reformed
-				
 				b_chateaudun = {}
 				b_bonneval = {}
 				b_freteval = {}
@@ -13054,6 +13051,14 @@ e_placeholder = {
 				}
 				b_hundhamra = {}
 			}
+		}
+		d_halsingland = {
+			color = { 189 40 245 }
+			color2 = { 255 255 255 }
+			norwegian = "Helsingland"
+			danish = "Helsingland"
+			norse = "Helsingland"
+			
 			c_medelpad = {
 				color = { 189 40 245 }
 				color2 = { 255 255 255 }
@@ -16522,6 +16527,9 @@ e_placeholder = {
 				norse = "Dyflinn"
 				english_norse = "Dyflinn"
 				saxon = "Difelin"
+				
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 				
 				b_dublin = {
 					norwegian = "Dyflinn"

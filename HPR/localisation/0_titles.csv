@@ -1400,6 +1400,8 @@ d_gwynedd;Gwynedd;Gwynedd;Gwynedd;;Gwynedd;;;;;;;;x
 d_gwynedd_adj_english;North Welsh;Nord-Gallois;North Welsh;;North Welsh;;;;;;;;x
 d_gwynedd_adj_norman;North Welsh;Nord-Gallois;North Welsh;;North Welsh;;;;;;;;x
 d_gwynedd_adj_saxon;North Welsh;Nord-Gallois;North Welsh;;North Welsh;;;;;;;;x
+d_halsingland;Hälsingland;Hälsingland;Hälsingland;;Hälsingland
+d_halsingland_adj;Hälsinglander;Hälsinglandaise;Hälsinglandischer;;Halsinglandés;;;;;;;;;x
 d_hamadan;Hamadan;Hamadan;Hamadan;;Hamadan;;;;;;;;x
 d_hamburg;Hamburg;Hambourg;Hamburg;;Hamburgo;;;;;;;;x
 d_hamburg_adj;Hamburger;Hambourgeois;Hamburgischer;;Hamburgués;;;;;;;;x
@@ -1678,6 +1680,8 @@ d_porto;Porto;Porto;Porto;;Oporto;;;;;;;;x
 d_powys;Powys;Powys;Powys;;Powys;;;;;;;;x
 d_powys_adj;Powysian;Powysien;Powyser;;Powysiano;;;;;;;;x
 d_pressburg;Pressburg;Presbourg;Pressburg;;Pressburg;;;;;;;;x
+d_promethean_pagan;First Academy;First Academy;First Academy;;First Academy;;;;;;;;x
+d_promethean_pagan_desc;Academician;Academician;Academician;;Academician;;;;;;;;x
 d_pronsk;Pronsk;Pronsk;Pronsk;;Pronsk;;;;;;;;x
 d_provence;Provence;Provence;Provence;;Provenza;;;;;;;;x
 d_prussia;Prussia;Prusse;Preußen;;Prusia;;;;;;;;x
@@ -1697,6 +1701,8 @@ d_raguse_adj;Ragusa;Ragusien;Ragusa;;Ragusa;;;;;;;;x
 d_rashka;Rashka;Rashka;Rashka;;Rashka;;;;;;;;x
 d_ravenna;Ravenna;Ravenne;Ravenna;;Rávena;;;;;;;;x
 d_ravenna_adj;Ravennian;Ravennate;Ravennischer;;Ravenés;;;;;;;;x
+d_red_dragons;Red Dragon Knights;Red Dragon Knights;Red Dragon Knights;;Red Dragon Knights;;;;;;;;x
+d_red_dragons_adj;Draconic;Draconic;Draconic;;Draconic;;;;;;;;x
 d_riyadh;Riyadh;Riyadh;Riyadh;;Riyadh;;;;;;;;x
 d_riyadh_adj;Riyadh;Riyadh;Riyadh;;Riyadh;;;;;;;;x
 d_roaming_regiment;Roaming Regiment;Régiment Errant;Wanderndes Regiment;;Roaming Regiment;;;;;;;;x
@@ -1891,7 +1897,7 @@ d_zhayedan_2;2nd Vasht of Zhayedan Immortals;2ème Vasht des Immortels Zhayedan;2
 d_zhayedan_2_adj;Immortal;Immortel;Immortal;;Immortal;;;;;;;;x
 d_zikri;The Mu'tazilite Caliphate;Le Caliphat Mu'tazilite;The Mu'tazilite Caliphate;;The Mu'tazilite Caliphate;;;;;;;;x
 d_zikri_adj;Mu'tazilite;Mu'tazilite;Mu'tazilite;;Mu'tazilite;;;;;;;;x
-e_abyssinia;Abyssinia;Abyssinie;Abyssinien;;Abyssinia;;;;;;;;x
+e_abyssinia;Abyssinian Empire;Abyssin Empire;Abessinier Kaiserreich;;Imperio de Abisinia;;;;;;;;x
 e_abyssinia_adj;Abyssinian;Abyssinien;Abessinier;;Abisinio;;;;;;;;x
 e_alan;Alan Empire;Empire Alain;Alanisches Kaiserreich;;Imperio Alano;;;;;;;;x
 e_alan_adj;Alan;Alain;Alanisch;;Alano;;;;;;;;x
