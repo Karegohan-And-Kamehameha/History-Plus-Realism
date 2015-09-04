@@ -7,22 +7,22 @@
 # Fired from on actions
 #
 ###################################
-
+namespace = VIETnam
 
 # Vegetarian Hindu
 character_event = {
 	id = VIETnam.141
 	desc = "EVTDESC1000109314"
 	picture = GFX_evt_indian_market
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
-		NOT = { trait = incapable } 
-		NOT = { trait = vegetarian } 
+		NOT = { trait = incapable }
+		NOT = { trait = vegetarian }
 		NOT = { religion = indian_group }
 		any_courtier = {
 			religion_group = indian_group
@@ -32,13 +32,13 @@ character_event = {
 				culture_group = dravidian_group
 			}
 			is_female = no
-			is_ruler = no		
-		}	
+			is_ruler = no
+		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -68,7 +68,7 @@ character_event = {
 			trait = envious
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109314"  # Eat meat
 		random_courtier = {
@@ -76,7 +76,7 @@ character_event = {
 				OR = {
 					religion = hindu
 					is_heresy_of = hindu
-				} 
+				}
 				culture_group = indo_aryan_group
 				is_female = no
 				is_ruler = no
@@ -88,7 +88,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB1000109314"  # Respect customs
 		random_courtier = {
@@ -96,7 +96,7 @@ character_event = {
 				OR = {
 					religion = hindu
 					is_heresy_of = hindu
-				} 
+				}
 				culture_group = indo_aryan_group
 				is_female = no
 				is_ruler = no
@@ -116,14 +116,14 @@ character_event = {
 	id = VIETnam.142
 	desc = "EVTDESC1000109315"
 	picture = GFX_evt_indian_market
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
-		NOT = { trait = incapable } 
+		NOT = { trait = incapable }
 		NOT = { religion_group = indian_group }
 		OR = {
 			is_republic = yes
@@ -136,13 +136,13 @@ character_event = {
 				culture_group = dravidian_group
 			}
 			is_female = no
-			is_ruler = no		
-		}	
+			is_ruler = no
+		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -172,7 +172,7 @@ character_event = {
 			trait = proud
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109315"  # Bad person
 		random_courtier = {
@@ -180,7 +180,7 @@ character_event = {
 				OR = {
 					religion = hindu
 					is_heresy_of = hindu
-				} 
+				}
 				culture_group = indo_aryan_group
 				is_female = no
 				is_ruler = no
@@ -197,7 +197,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB1000109315"  # Respect customs
 		random_courtier = {
@@ -205,7 +205,7 @@ character_event = {
 				OR = {
 					religion = hindu
 					is_heresy_of = hindu
-				} 
+				}
 				culture_group = indo_aryan_group
 				is_female = no
 				is_ruler = no
@@ -225,14 +225,14 @@ character_event = {
 	id = VIETnam.143
 	desc = "EVTDESC1000109316"
 	picture = GFX_evt_indian_market
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
-		NOT = { trait = incapable } 
+		NOT = { trait = incapable }
 		NOT = { culture_group = indo_aryan_group }
 		NOT = { culture_group = dravidian_group }
 		NOT = { religion_group = indian_group }
@@ -246,13 +246,13 @@ character_event = {
 				culture_group = dravidian_group
 			}
 			is_female = no
-			is_ruler = no		
-		}	
+			is_ruler = no
+		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -282,12 +282,12 @@ character_event = {
 			trait = proud
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109316"  # Spicy!
 		piety = 3
 	}
-	
+
 	option = {
 		name = "EVTOPTB1000109316"  # Try to like
 		random_list = {
@@ -296,20 +296,20 @@ character_event = {
 				add_character_modifier = {
 					name = best_meal_in_ages
 					duration = 365
-				}			
+				}
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTC1000109316"  # Eat it all
 		tooltip_info = gluttonous
-		trigger = { 
+		trigger = {
 			trait = gluttonous
 		}
 		add_character_modifier = {
 			name = best_meal_in_ages
 			duration = 365
-		}			
+		}
 	}
 }

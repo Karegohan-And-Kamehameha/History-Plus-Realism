@@ -4,6 +4,14 @@ This mod is based on both of them and the goal of this mod is to implement the b
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
 <b>Changelog:</b><br>
+<b>v0.3:</b><br>
+-Updated CK2+ base to v3.11.3.<br>
+-Blinding can now be done to all prisoners, castration can now be done by all characters to all male prisoners.<br>
+-Added fear mechanics, still very raw and require testing.<br>
+-Tweaked birth and child mortality a bit up again, it's really hard to get these numbers right, since there's so little information available on the topic
+(http://www.sarahwoodbury.com/life-expectancy-in-the-middle-ages/ is the only article with solid numbers I've found).<br>
+-Restored Dance of Death events for now, will decide what to do with it later.<br>
+-Fixes to VIET namespace.<br>
 <b>v0.2:</b><br>
 -Updated CK2+ base to v3.11.2.<br>
 -Removed some more silly VIET events (urine)<br>
@@ -29,10 +37,11 @@ Initial release.<br>
 -Viet events.<br>
 -Friends & Foes personality traits.<br>
 -Dorimi music pack.<br>
+-Fear mechanics that are unique to this mod and work in a way similar to the tyrrany system from CK2+, except striking fear in the hearts of men works in a positive way, making them respect you more. Oderint dum metuant.<br>
+Fear is currently accumulated through acts of cruelty, such as torturing, blinding and castrating prisoners, as well as executing nobles after capturing them in a siege. In the future I plan to implement fear accumulation in a variety of events.<br>
 -Various other small tweaks and changes.<br>
 
 <b>TODO:</b><br>
--Fear system from FF or a different one.<br>
 -Rebalance traits and focuses.<br>
 -General balance tweaks.<br>
 -Moar music.<br>

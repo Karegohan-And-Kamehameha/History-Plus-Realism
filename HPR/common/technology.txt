@@ -84,8 +84,6 @@ TECH_GROUP_MILITARY = {
 TECH_GROUP_ECONOMY = {
 	TECH_CASTLE_CONSTRUCTION = { #castle buildings
 
-		modifier = {
-			CASTLE_TAX_MODIFIER = 0.5
 		}
 		1 = {
 			add_building = ca_militia_barracks_2
@@ -183,9 +181,6 @@ TECH_GROUP_ECONOMY = {
 	}
 	TECH_CITY_CONSTRUCTION = { #city buildings
 
-		modifier = {
-			CITY_TAX_MODIFIER = 0.5
-		}
 		1 = {
 			add_building = ct_marketplace_3
 			add_building = ct_barracks_3
@@ -210,7 +205,6 @@ TECH_GROUP_ECONOMY = {
 		}
 		2 = {
 			add_building = ct_guard_2
-			add_building = ct_university_1
 			add_building = ct_training_grounds_3
 			add_building = no_airag_producer_3
 			add_building = no_airag_producer_4
@@ -231,6 +225,7 @@ TECH_GROUP_ECONOMY = {
 			add_building = no_gathering_hall_6
 		}
 		3 = {
+			add_building = ct_university_1
 			add_building = ct_marketplace_4
 			add_building = ct_barracks_4
 			add_building = no_airag_producer_5
@@ -249,7 +244,6 @@ TECH_GROUP_ECONOMY = {
 		}
 		4 = {
 			add_building = ct_guard_3
-			add_building = ct_university_2
 			add_building = ct_training_grounds_4
 			add_building = no_airag_producer_6
 			add_building = no_ox_wagon_7
@@ -269,6 +263,7 @@ TECH_GROUP_ECONOMY = {
 			add_building = no_ger_crafter_7
 		}
 		6 = {
+			add_building = ct_university_2
 			add_building = ct_guard_4
 			add_building = ct_training_grounds_5
 			add_building = no_airag_producer_8
@@ -287,9 +282,6 @@ TECH_GROUP_ECONOMY = {
 	}
 	TECH_TEMPLE_CONSTRUCTION = { #temple buildings
 
-		modifier = {
-			TEMPLE_TAX_MODIFIER = 0.5
-		}
 		1 = {
 			add_building = tp_barracks_3
 			add_building = tp_town_3

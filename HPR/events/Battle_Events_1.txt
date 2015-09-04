@@ -7,14 +7,14 @@
 # Fired from on actions
 #
 ###################################
-
+namespace = VIETnam
 # It's the most obvious Skyrim reference ever
 character_event = {
 	id = VIETnam.228
 	desc = EVTDESC1000109401
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -24,7 +24,7 @@ character_event = {
 		NOT = { has_global_flag = VIET_blatant_TES }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -55,7 +55,7 @@ character_event = {
 		modifier = {
 			trait = dwarf
 			factor = 1.25
-		}		
+		}
 		modifier = {
 			trait = genius
 			factor = 0.9
@@ -63,12 +63,12 @@ character_event = {
 		modifier = {
 			trait = quick
 			factor = 0.9
-		}	
+		}
 		modifier = {
 			trait = slow
 			factor = 2.0
 		}
-		
+
 		modifier = {
 			trait = imbecile
 			factor = 3.0
@@ -84,8 +84,8 @@ character_event = {
 		modifier = {
 			trait = weak
 			factor = 2.5
-		}		
-		
+		}
+
 		modifier = {
 			factor = 1.25
 			trait = stressed
@@ -153,14 +153,14 @@ character_event = {
 		modifier = {
 			factor = 1.1
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 1.1
 			trait = has_small_pox
-		}		
-		
+		}
+
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109401
 		add_trait = wounded
@@ -173,7 +173,7 @@ character_event = {
 	desc = EVTDESC1000109402
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -181,7 +181,7 @@ character_event = {
 		NOT = { has_global_flag = VIET_blatant_TES }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -209,9 +209,9 @@ character_event = {
 			factor = 0.5
 			trait = slothful
 		}
-		
+
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109402
 		prestige = 1
@@ -224,14 +224,14 @@ character_event = {
 	desc = EVTDESC1000109403
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		NOT = { trait = maimed }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -324,17 +324,17 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			trait = has_small_pox
-		}			
+		}
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109403
 		prestige = 3
-	}	
+	}
 	option = {
 		name = EVTOPTB1000109403
 		prestige = 3
@@ -347,7 +347,7 @@ character_event = {
 	desc = EVTDESC1000109404
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -355,7 +355,7 @@ character_event = {
 		NOT = { has_global_flag = VIET_blatant_TES }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -383,9 +383,9 @@ character_event = {
 			factor = 0.5
 			trait = slothful
 		}
-		
+
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109404
 		prestige = 2
@@ -398,7 +398,7 @@ character_event = {
 	desc = EVTDESC1000109405
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -406,7 +406,7 @@ character_event = {
 		NOT = { has_global_flag = VIET_blatant_TES }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -434,9 +434,9 @@ character_event = {
 			factor = 2
 			trait = slothful
 		}
-		
+
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109405
 		prestige = 2
@@ -445,7 +445,7 @@ character_event = {
 			18 = { add_trait = wounded }
 			2 = { add_trait = maimed }
 		}
-	}	
+	}
 	option = {
 		name = EVTOPTB1000109405
 		prestige = 2
@@ -464,14 +464,14 @@ character_event = {
 	desc = EVTDESC1000109406
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		NOT = { trait = maimed }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -502,7 +502,7 @@ character_event = {
 		modifier = {
 			trait = dwarf
 			factor = 1.25
-		}		
+		}
 		modifier = {
 			trait = genius
 			factor = 0.9
@@ -510,12 +510,12 @@ character_event = {
 		modifier = {
 			trait = quick
 			factor = 0.9
-		}	
+		}
 		modifier = {
 			trait = slow
 			factor = 2.0
 		}
-		
+
 		modifier = {
 			trait = imbecile
 			factor = 3.0
@@ -531,8 +531,8 @@ character_event = {
 		modifier = {
 			trait = weak
 			factor = 2.5
-		}		
-		
+		}
+
 		modifier = {
 			factor = 1.25
 			trait = stressed
@@ -600,13 +600,13 @@ character_event = {
 		modifier = {
 			factor = 1.1
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 1.1
 			trait = has_small_pox
-		}			
+		}
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109406
 		prestige = 2
@@ -619,14 +619,14 @@ character_event = {
 	desc = EVTDESC1000109407
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		NOT = { trait = maimed }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -654,9 +654,9 @@ character_event = {
 			factor = 0.5
 			NOT = { martial = 14 }
 		}
-		
+
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109407 #Spare them
 		prestige = 2
@@ -684,7 +684,7 @@ character_event = {
 			10 = { add_trait = paranoid }
 		}
 	}
-	
+
 }
 
 # Advice to young squire
@@ -693,7 +693,7 @@ character_event = {
 	desc = EVTDESC1000109408
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -702,7 +702,7 @@ character_event = {
 		age = 24
 		martial = 8
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -754,9 +754,9 @@ character_event = {
 			factor = 0.5
 			trait = paranoid
 		}
-		
+
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109408 #Nothing wrong with fear
 		piety = 4
@@ -802,7 +802,7 @@ character_event = {
 		}
 		prestige = 4
 	}
-	
+
 }
 
 
@@ -813,14 +813,14 @@ character_event = {
 	desc = EVTDESC1000109409
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		NOT = { trait = maimed }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -851,7 +851,7 @@ character_event = {
 		modifier = {
 			trait = dwarf
 			factor = 1.25
-		}		
+		}
 		modifier = {
 			trait = genius
 			factor = 0.9
@@ -859,12 +859,12 @@ character_event = {
 		modifier = {
 			trait = quick
 			factor = 0.9
-		}	
+		}
 		modifier = {
 			trait = slow
 			factor = 2.0
 		}
-		
+
 		modifier = {
 			trait = imbecile
 			factor = 3.0
@@ -880,8 +880,8 @@ character_event = {
 		modifier = {
 			trait = weak
 			factor = 2.5
-		}		
-		
+		}
+
 		modifier = {
 			factor = 1.25
 			trait = stressed
@@ -949,13 +949,13 @@ character_event = {
 		modifier = {
 			factor = 1.1
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 1.1
 			trait = has_small_pox
-		}			
+		}
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109409
 		prestige = 2
@@ -968,14 +968,14 @@ character_event = {
 	desc = EVTDESC1000109410
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		NOT = { trait = maimed }
 		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -1006,7 +1006,7 @@ character_event = {
 		modifier = {
 			trait = dwarf
 			factor = 1.25
-		}		
+		}
 		modifier = {
 			trait = genius
 			factor = 0.9
@@ -1014,12 +1014,12 @@ character_event = {
 		modifier = {
 			trait = quick
 			factor = 0.9
-		}	
+		}
 		modifier = {
 			trait = slow
 			factor = 2.0
 		}
-		
+
 		modifier = {
 			trait = imbecile
 			factor = 3.0
@@ -1035,8 +1035,8 @@ character_event = {
 		modifier = {
 			trait = weak
 			factor = 2.5
-		}		
-		
+		}
+
 		modifier = {
 			factor = 1.25
 			trait = stressed
@@ -1104,13 +1104,13 @@ character_event = {
 		modifier = {
 			factor = 1.1
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 1.1
 			trait = has_small_pox
-		}			
+		}
 	}
-	
+
 	option = {
 		name = EVTOPTA1000109410
 		prestige = 2

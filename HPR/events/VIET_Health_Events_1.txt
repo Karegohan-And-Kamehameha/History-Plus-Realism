@@ -9,19 +9,19 @@
 # Fired from on actions
 #
 ###################################
-
+namespace = VIETnam
 # Vassal has to visit sick liege
 character_event = {
 	id = VIETnam.96
 	desc = "EVTDESC1000109125"
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -32,7 +32,7 @@ character_event = {
 			trait = ill
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when ill (for liege)
@@ -40,7 +40,7 @@ character_event = {
 			liege = {
 				trait = ill
 			}
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = diligent
@@ -66,7 +66,7 @@ character_event = {
 			trait = gluttonous
 		}
 	}
-	
+
 	option = { #Let's go visit the sick liege
 		name = "EVTOPTA1000109125"
 		random_list = {
@@ -74,7 +74,7 @@ character_event = {
 			25 = { character_event = { id = 6060 days = 2 tooltip = "EVTTOOLTIP1000109126" } }
 		}
 	}
-	
+
 	option = { #Don't want to get near sick liege
 		name = "EVTOPTB1000109125"
 		liege = {
@@ -93,24 +93,24 @@ character_event = {
 	id = VIETnam.97
 	desc = "EVTDESC1000109127"
 	picture = GFX_evt_tuscan_country
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		in_command = no
 		trait = ill
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when ill
 			factor = 3
 			trait = ill
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = diligent
@@ -152,7 +152,7 @@ character_event = {
 			trait = gluttonous
 		}
 	}
-	
+
 	option = { #Grrrr
 		name = "EVTOPTA1000109127"
 		prestige = 2
@@ -170,7 +170,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #Pray
 		name = "EVTOPTB1000109127"
 		piety = 5
@@ -186,11 +186,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #Excuse to slack off
 		name = "EVTOPTC1000109127"
 		tooltip_info = slothful
-		trigger = { 
+		trigger = {
 			trait = slothful
 		}
 		ai_chance = {
@@ -202,11 +202,11 @@ character_event = {
 			25 = { add_trait = content }
 		}
 	}
-	
+
 	option = { #Must try to work
 		name = "EVTOPTD1000109127"
 		tooltip_info = diligent
-		trigger = { 
+		trigger = {
 			trait = diligent
 		}
 		ai_chance = {
@@ -218,11 +218,11 @@ character_event = {
 			50 = { add_trait = stressed }
 		}
 	}
-	
+
 	option = { #Don't have to deal with people
 		name = "EVTOPTE1000109127"
 		tooltip_info = cynical
-		trigger = { 
+		trigger = {
 			trait = cynical
 		}
 		ai_chance = {
@@ -240,19 +240,19 @@ character_event = {
 	id = VIETnam.98
 	desc = "EVTDESC1000109128"
 	picture = GFX_evt_illness
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		trait = ill
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when ill
@@ -308,7 +308,7 @@ character_event = {
 			trait = craven
 		}
 	}
-	
+
 	option = { #Weakness
 		name = "EVTOPTA1000109128"
 		trigger = {
@@ -321,11 +321,11 @@ character_event = {
 			25 = { character_event = { id = 6061 days = 2 tooltip = "EVTTOOLTIP1000109128" } } #Gets well
 		}
 	}
-	
+
 	option = { #Faints
 		name = "EVTOPTB1000109128"
 		tooltip_info = weak
-		trigger = { 
+		trigger = {
 			trait = weak
 		}
 		random_list = {
@@ -334,11 +334,11 @@ character_event = {
 		}
 		prestige = -5
 	}
-	
+
 	option = { #Strong
 		name = "EVTOPTC1000109128"
 		tooltip_info = strong
-		trigger = { 
+		trigger = {
 			trait = strong
 		}
 		random_list = {
@@ -347,11 +347,11 @@ character_event = {
 		}
 		prestige = 5
 	}
-	
+
 	option = { #Possessed
 		name = "EVTOPTD1000109128"
 		tooltip_info = possessed
-		trigger = { 
+		trigger = {
 			trait = possessed
 		}
 		random_list = {
@@ -359,11 +359,11 @@ character_event = {
 			25 = { character_event = { id = 6061 days = 2 tooltip = "EVTTOOLTIP1000109128" } } #Gets well
 		}
 	}
-	
+
 	option = { #Corrects Physician
 		name = "EVTOPTE1000109128"
 		tooltip_info = scholar
-		trigger = { 
+		trigger = {
 			trait = scholar
 		}
 		ai_chance = {
@@ -381,23 +381,23 @@ character_event = {
 	id = VIETnam.99
 	desc = "EVTDESC1000109129"
 	picture = GFX_evt_feast
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		trait = ill
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when ill
 			factor = 4
 			trait = ill
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = gluttonous
@@ -423,7 +423,7 @@ character_event = {
 			trait = strong
 		}
 	}
-	
+
 	option = { #Gruel!
 		name = "EVTOPTA1000109129"
 		add_character_modifier = {
@@ -431,7 +431,7 @@ character_event = {
 			duration = 30
 		}
 	}
-		
+
 	option = { #Must eat real food
 		name = "EVTOPTB1000109129"
 		ai_chance = {
@@ -443,7 +443,7 @@ character_event = {
 		}
 		#tooltip = "EVTTOOLTIP1000109129"
 	}
-		
+
 	option = { #Lots of Gruel (Oliver Twist reference in localization, by the way)
 		name = "EVTOPTC1000109129"
 		ai_chance = {
@@ -466,23 +466,23 @@ character_event = {
 	id = VIETnam.100
 	desc = "EVTDESC1000109130"
 	picture = GFX_evt_scandal
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		trait = leper
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when leper
 			factor = 4
 			trait = leper
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = depressed
@@ -518,13 +518,13 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = kind
-		}		
+		}
 		modifier = {
 			factor = 0.5
 			trait = diligent
 		}
 	}
-	
+
 	option = { #Woe is me
 		name = "EVTOPTA1000109130"
 		piety = 5
@@ -534,12 +534,12 @@ character_event = {
 			10 = { add_trait = depressed }
 		}
 	}
-		
+
 	option = { #Getting used to it
 		name = "EVTOPTB1000109130"
 		prestige = 2
 	}
-		
+
 	option = { #Shy
 		name = "EVTOPTC1000109130"
 		ai_chance = {
@@ -552,8 +552,8 @@ character_event = {
 		change_diplomacy = -1
 		piety = 10
 	}
-	
-		
+
+
 	option = { #No more sin
 		name = "EVTOPTD1000109130"
 		ai_chance = {
@@ -568,8 +568,8 @@ character_event = {
 		piety = 5
 		random_list = {
 			50 = { piety = 5 }
-			50 = { 
-				remove_trait = lustful 
+			50 = {
+				remove_trait = lustful
 				piety = 5
 			}
 		}
@@ -582,26 +582,26 @@ character_event = {
 	id = VIETnam.101
 	desc = "EVTDESC1000109131"
 	picture = GFX_evt_knight_kneeling
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		trait = leper
 		NOT = { religion_group = pagan_group }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when leper
 			factor = 4
 			trait = leper
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = zealous
@@ -627,7 +627,7 @@ character_event = {
 			trait = hedonist
 		}
 	}
-	
+
 	option = { #Live a pure life
 		name = "EVTOPTA1000109131"
 		piety = 5
@@ -638,7 +638,7 @@ character_event = {
 			25 = { piety = 5 }
 		}
 	}
-		
+
 	option = { #Devote itme to studying spiritual matters
 		name = "EVTOPTB1000109131"
 		piety = 5
@@ -656,25 +656,25 @@ character_event = {
 	id = VIETnam.102
 	desc = "EVTDESC1000109132"
 	picture = GFX_evt_tuscan_country
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		trait = leper
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when leper
 			factor = 4
 			trait = leper
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = depressed
@@ -704,7 +704,7 @@ character_event = {
 			trait = kind
 		}
 	}
-	
+
 	option = { #Pray
 		name = "EVTOPTA1000109132"
 		piety = 5
@@ -715,7 +715,7 @@ character_event = {
 			5 = { add_trait = depressed }
 		}
 	}
-		
+
 	option = { #Must still work
 		name = "EVTOPTB1000109132"
 		ai_chance = {
@@ -728,7 +728,7 @@ character_event = {
 		piety = 5
 		prestige = 5
 	}
-		
+
 	option = { #A friend in need is a friend indeed
 		name = "EVTOPTC1000109132"
 		ai_chance = {
@@ -749,25 +749,25 @@ character_event = {
 	id = VIETnam.103
 	desc = "EVTDESC1000109133"
 	picture = GFX_evt_castle_construction
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		trait = blinded
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when leper
 			factor = 4
 			trait = blinded
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = imbecile
@@ -809,7 +809,7 @@ character_event = {
 			trait = perceptive
 		}
 	}
-	
+
 	option = { #Ouch
 		name = "EVTOPTA1000109133"
 		trigger = {
@@ -832,7 +832,7 @@ character_event = {
 			}
 		}
 	}
-		
+
 	option = { #Strong
 		name = "EVTOPTB1000109133"
 		tooltip_info = strong
@@ -855,26 +855,26 @@ character_event = {
 	id = VIETnam.104
 	desc = "EVTDESC1000109134"
 	picture = GFX_evt_whispers
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		trait = blinded
 		is_married = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when leper
 			factor = 4
 			trait = blinded
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = paranoid
@@ -904,7 +904,7 @@ character_event = {
 			trait = kind
 		}
 	}
-	
+
 	option = { #Paranoia
 		name = "EVTOPTA1000109134"
 		random_list = {
@@ -913,7 +913,7 @@ character_event = {
 			25 = { add_trait = paranoid }
 		}
 	}
-		
+
 	option = { #Friends
 		name = "EVTOPTB1000109134"
 		trigger = {
@@ -925,7 +925,7 @@ character_event = {
 			25 = { add_trait = trusting	}
 		}
 	}
-		
+
 	option = { #God will deliver
 		name = "EVTOPTC1000109134"
 		ai_chance = {
@@ -937,7 +937,7 @@ character_event = {
 		}
 		piety = 10
 	}
-		
+
 	option = { #All fear me
 		name = "EVTOPTD1000109134"
 		ai_chance = {
@@ -956,23 +956,23 @@ character_event = {
 	id = VIETnam.105
 	desc = "EVTDESC1000109135"
 	picture = GFX_evt_tuscan_country
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		trait = blinded
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = { #slightly increase the chance when leper
 			factor = 3
 			trait = blinded
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = depressed
@@ -1010,7 +1010,7 @@ character_event = {
 			trait = chaste
 		}
 	}
-	
+
 	option = { #Sad
 		name = "EVTOPTA1000109135"
 		random_list = {
@@ -1018,7 +1018,7 @@ character_event = {
 			25 = { add_trait = depressed }
 		}
 	}
-		
+
 	option = { #Brain fry
 		name = "EVTOPTB1000109135"
 		random_list = {
@@ -1026,7 +1026,7 @@ character_event = {
 			25 = { add_trait = stressed	}
 		}
 	}
-		
+
 	option = { #Poetry
 		name = "EVTOPTC1000109135"
 		ai_chance = {

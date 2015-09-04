@@ -6,19 +6,19 @@
 #
 #
 ###################################
-
+namespace = VIETmisc
 # Family member marries childhood friend (AI)
 character_event = {
 	id = VIETmisc.3100
 	hide_window = yes
-	
+
 	ai = yes
 	capable_only = yes
 	prisoner = no
 	min_age = 18
 	max_age = 30
 	only_men = yes
-	
+
 	trigger = {
 		is_married = no
 		is_betrothed = no
@@ -31,11 +31,11 @@ character_event = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 250
 	}
-	
+
 	immediate = {
 		random_list = {
 			33 = {
@@ -55,7 +55,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -66,9 +66,9 @@ character_event = {
 	id = VIETmisc.3101
 	desc = VIETmisc.3101.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3101.a
 		FROM = {
@@ -94,9 +94,9 @@ character_event = {
 	id = VIETmisc.3102
 	desc = VIETmisc.3102.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3102.a
 		if = {
@@ -208,9 +208,9 @@ character_event = {
 	id = VIETmisc.3103
 	desc = VIETmisc.3103.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3103.a
 		if = {
@@ -319,14 +319,14 @@ character_event = {
 character_event = {
 	id = VIETmisc.3104
 	hide_window = yes
-	
+
 	ai = yes
 	capable_only = yes
 	prisoner = no
 	min_age = 16
 	max_age = 40
 	only_men = yes
-	
+
 	trigger = {
 		is_married = no
 		is_betrothed = no
@@ -339,11 +339,11 @@ character_event = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 250
 	}
-	
+
 	immediate = {
 		random_list = {
 			25 = {
@@ -368,7 +368,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -379,9 +379,9 @@ character_event = {
 	id = VIETmisc.3105
 	desc = VIETmisc.3105.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3105.a
 		FROM = {
@@ -411,9 +411,9 @@ character_event = {
 	id = VIETmisc.3106
 	desc = VIETmisc.3106.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3106.a
 		FROM = {
@@ -455,9 +455,9 @@ character_event = {
 	id = VIETmisc.3107
 	desc = VIETmisc.3107.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3107.a
 		FROM = {
@@ -489,9 +489,9 @@ character_event = {
 	id = VIETmisc.3108
 	desc = VIETmisc.3108.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3108.a
 		FROM = {
@@ -544,14 +544,14 @@ character_event = {
 character_event = {
 	id = VIETmisc.3109
 	hide_window = yes
-	
+
 	ai = yes
 	capable_only = yes
 	prisoner = no
 	min_age = 16
 	max_age = 40
 	only_men = yes
-	
+
 	trigger = {
 		is_married = no
 		is_betrothed = no
@@ -564,11 +564,11 @@ character_event = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	immediate = {
 		random_list = {
 			25 = {
@@ -593,7 +593,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -605,9 +605,9 @@ character_event = {
 	id = VIETmisc.3110
 	desc = VIETmisc.3110.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3110.a
 		FROM = {
@@ -635,9 +635,9 @@ character_event = {
 	id = VIETmisc.3111
 	desc = VIETmisc.3111.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3111.a
 		FROM = {
@@ -665,9 +665,9 @@ character_event = {
 	id = VIETmisc.3112
 	desc = VIETmisc.3112.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3112.a
 		FROM = {
@@ -708,9 +708,9 @@ character_event = {
 	id = VIETmisc.3113
 	desc = VIETmisc.3113.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3112.a
 		FROM = {
@@ -744,14 +744,14 @@ character_event = {
 character_event = {
 	id = VIETmisc.3127
 	hide_window = yes
-	
+
 	ai = yes
 	capable_only = yes
 	prisoner = no
 	min_age = 16
 	max_age = 40
 	only_men = yes
-	
+
 	trigger = {
 		is_married = no
 		is_betrothed = no
@@ -764,11 +764,11 @@ character_event = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	immediate = {
 		random_list = {
 			33 = {
@@ -788,7 +788,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -800,9 +800,9 @@ character_event = {
 	id = VIETmisc.3114
 	desc = VIETmisc.3114.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3114.a
 		FROM = {
@@ -852,9 +852,9 @@ character_event = {
 	id = VIETmisc.3115
 	desc = VIETmisc.3115.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3115.a
 		FROM = {
@@ -916,9 +916,9 @@ character_event = {
 	id = VIETmisc.3116
 	desc = VIETmisc.3116.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3116.a
 		FROM = {
@@ -956,14 +956,14 @@ character_event = {
 character_event = {
 	id = VIETmisc.3117
 	hide_window = yes
-	
+
 	ai = yes
 	capable_only = yes
 	prisoner = no
 	min_age = 16
 	max_age = 40
 	only_men = yes
-	
+
 	trigger = {
 		is_married = no
 		is_betrothed = no
@@ -980,17 +980,17 @@ character_event = {
 			religion_group = zoroastrian_group
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	immediate = {
 			liege = {
 				character_event = { id = VIETmisc.3118 }
 			}
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -1002,9 +1002,9 @@ character_event = {
 	id = VIETmisc.3118
 	desc = VIETmisc.3118.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3118.a
 		FROM = {
@@ -1017,7 +1017,7 @@ character_event = {
 				culture = FROM
 				attributes = {
 					learning = 8
-				}				
+				}
 			}
 			new_character = {
 				add_spouse = PREV
@@ -1040,14 +1040,14 @@ character_event = {
 character_event = {
 	id = VIETmisc.3119
 	hide_window = yes
-	
+
 	ai = yes
 	capable_only = yes
 	prisoner = no
 	min_age = 16
 	max_age = 40
 	only_men = yes
-	
+
 	trigger = {
 		is_married = no
 		is_betrothed = no
@@ -1069,11 +1069,11 @@ character_event = {
 		}
 		has_global_flag = VIET_Immersion_On
 	}
-	
+
 	mean_time_to_happen = {
 		months = 400
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = { #Indian
@@ -1081,7 +1081,7 @@ character_event = {
 					factor = 0
 					OR = {
 						culture_group = indo_aryan_group
-						culture_group = dravidian_group					
+						culture_group = dravidian_group
 					}
 				}
 				liege = {
@@ -1114,7 +1114,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -1126,9 +1126,9 @@ character_event = {
 	id = VIETmisc.3120
 	desc = VIETmisc.3120.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3120.a
 		random_list = {
@@ -1140,13 +1140,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = gujurati				
+						culture = gujurati
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			20 = {
 				FROM = {
@@ -1156,13 +1156,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = sindhi 				
+						culture = sindhi
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			20 = {
 				FROM = {
@@ -1172,13 +1172,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = sinhala		
+						culture = sinhala
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			20 = {
 				FROM = {
@@ -1188,16 +1188,16 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = tamil 
+						culture = tamil
 						attributes = {
 							learning = 8
-						}				
+						}
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			20 = {
 				FROM = {
@@ -1207,13 +1207,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = telugu			
+						culture = telugu
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -1224,9 +1224,9 @@ character_event = {
 	id = VIETmisc.3121
 	desc = VIETmisc.3121.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3121.a
 		random_list = {
@@ -1238,13 +1238,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = sunni
-						culture = persian				
+						culture = persian
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1254,13 +1254,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = sunni
-						culture = baloch				
+						culture = baloch
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1270,13 +1270,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = sunni
-						culture = kurdish				
+						culture = kurdish
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1286,13 +1286,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = sunni
-						culture = afghan				
+						culture = afghan
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1302,13 +1302,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = sunni
-						culture = khorasani				
+						culture = khorasani
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1318,13 +1318,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = shiite
-						culture = persian				
+						culture = persian
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1334,13 +1334,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = shiite
-						culture = baloch				
+						culture = baloch
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1350,13 +1350,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = shiite
-						culture = kurdish				
+						culture = kurdish
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1366,13 +1366,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = shiite
-						culture = afghan				
+						culture = afghan
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1382,13 +1382,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = shiite
-						culture = khorasani				
+						culture = khorasani
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1398,13 +1398,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = zoroastrian
-						culture = persian				
+						culture = persian
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1414,13 +1414,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = zoroastrian
-						culture = baloch				
+						culture = baloch
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1430,13 +1430,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = zoroastrian
-						culture = kurdish				
+						culture = kurdish
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1446,13 +1446,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = zoroastrian
-						culture = afghan				
+						culture = afghan
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1462,13 +1462,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = zoroastrian
-						culture = khorasani				
+						culture = khorasani
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -1479,9 +1479,9 @@ character_event = {
 	id = VIETmisc.3122
 	desc = VIETmisc.3122.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3122.a
 		random_list = {
@@ -1493,13 +1493,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = chinese				
+						culture = chinese
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			5 = {
 				FROM = {
@@ -1509,13 +1509,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = manichean
-						culture = chinese				
+						culture = chinese
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			5 = {
 				FROM = {
@@ -1525,13 +1525,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = sunni
-						culture = chinese				
+						culture = chinese
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			5 = {
 				FROM = {
@@ -1541,13 +1541,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = jewish
-						culture = chinese_jewish				
+						culture = chinese_jewish
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			15 = {
 				FROM = {
@@ -1557,13 +1557,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = khitan				
+						culture = khitan
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -1574,9 +1574,9 @@ character_event = {
 	id = VIETmisc.3123
 	desc = VIETmisc.3123.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3123.a
 		random_list = {
@@ -1588,13 +1588,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = malay				
+						culture = malay
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1604,13 +1604,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = malay				
+						culture = malay
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1620,13 +1620,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = javanese				
+						culture = javanese
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1636,13 +1636,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = javanese				
+						culture = javanese
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1652,13 +1652,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = moluccan				
+						culture = moluccan
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1668,13 +1668,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = moluccan				
+						culture = moluccan
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -1685,9 +1685,9 @@ character_event = {
 	id = VIETmisc.3124
 	desc = VIETmisc.3124.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3124.a
 		random_list = {
@@ -1699,13 +1699,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = khmer				
+						culture = khmer
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1715,13 +1715,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = vietnamese				
+						culture = vietnamese
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1731,13 +1731,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = cham				
+						culture = cham
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 			10 = {
 				FROM = {
@@ -1747,13 +1747,13 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = khmer				
+						culture = khmer
 					}
 					new_character = {
 						add_spouse = PREV
 						# Her traits aren't that random
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -1765,14 +1765,14 @@ character_event = {
 character_event = {
 	id = VIETmisc.3125
 	hide_window = yes
-	
+
 	ai = yes
 	capable_only = yes
 	prisoner = no
 	min_age = 16
 	max_age = 40
 	only_men = yes
-	
+
 	trigger = {
 		is_married = no
 		is_betrothed = no
@@ -1808,7 +1808,7 @@ character_event = {
 			has_global_flag = silk_road_forever
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -1816,7 +1816,7 @@ character_event = {
 			trait = lustful
 		}
 	}
-	
+
 	immediate = {
 		random_list = {
 			liege = {
@@ -1824,7 +1824,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -1835,9 +1835,9 @@ character_event = {
 	id = VIETmisc.3126
 	desc = VIETmisc.3126.desc
 	picture = GFX_evt_marriage
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = VIETmisc.3126.a
 		random_list = {
@@ -1850,7 +1850,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = soghdian				
+						culture = soghdian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1867,7 +1867,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = manichean
-						culture = soghdian				
+						culture = soghdian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1884,7 +1884,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = zoroastrian
-						culture = soghdian				
+						culture = soghdian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1901,7 +1901,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = khotanese				
+						culture = khotanese
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1918,7 +1918,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = tokharian				
+						culture = tokharian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1935,7 +1935,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = manichean
-						culture = tokharian				
+						culture = tokharian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1944,7 +1944,7 @@ character_event = {
 				}
 			}
 		}
-				
+
 	}
 }
 

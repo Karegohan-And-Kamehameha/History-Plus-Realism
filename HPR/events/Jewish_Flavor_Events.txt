@@ -1,16 +1,16 @@
 #Jewish Flavor events VIETnam.22 - VIETnam.29
 
 #FLAVOR EVENTS
-
+namespace = VIETnam
 #A bigoted courtier questions why we must have Jews in the court
 character_event = {
 	id = VIETnam.22
 	desc = "EVTDESC1000109021"
 	picture = GFX_evt_moorish_decor
-	
+
 	is_triggered_only = yes
 	capable_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_ruler = yes
@@ -22,41 +22,41 @@ character_event = {
 			culture_group = israelite
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			trait = shy
 		}
-		
+
 		modifier = {
 			factor = 2
 			trait = patient
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			trait = zealous
 		}
-		
+
 		modifier = {
 			factor = 2
 			trait = cynical
 		}
-		
+
 	}
 
 	option = { #need educated people
 		name = "EVTOPTA1000109021"
 		prestige = 5
-		
+
 	}
 
 	option = { #I hate them too
@@ -67,9 +67,9 @@ character_event = {
 				add_trait = zealous
 			}
 		}
-		
+
 	}
-	
+
 
 	option = { #Respect for diverse peoples and cultures!
 		name = "EVTOPTC1000109021"
@@ -82,7 +82,7 @@ character_event = {
 				add_trait = patient
 			}
 		}
-		
+
 	}
 }
 
@@ -91,10 +91,10 @@ character_event = {
 	id = VIETnam.23
 	desc = "EVTDESC1000109022"
 	picture = GFX_evt_moorish_decor
-	
+
 	is_triggered_only = yes
 	capable_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_ruler = yes
@@ -115,56 +115,56 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
 		}
-		
+
 		modifier = {
 			factor = 2
 			trait = zealous
 		}
-		
+
 		modifier = {
 			factor = 2
 			trait = cynical
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			trait = shy
 		}
-		
+
 		modifier = {
 			factor = 0.3
 			trait = slow
 		}
-		
+
 		modifier = {
 			factor = 0.2
 			trait = imbecile
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			trait = envious
 		}
-		
-		
+
+
 		modifier = {
 			factor = 2
 			trait = scholar
 		}
-		
+
 	}
 
 	option = { #Start the debate
 		name = "EVTOPTA1000109022"
-		
+
 		piety = 1
 		random_list = {
 			50 = {
@@ -258,62 +258,62 @@ character_event = {
 	id = VIETnam.26
 	desc = "EVTDESC1000109026"
 	picture = GFX_evt_moorish_decor
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
-		NOT = { trait = incapable } 
+		NOT = { trait = incapable }
 		NOT = { religion_group = jewish_group }
 		NOT = { culture_group = israelite }
 		any_courtier = {
 			religion_group = jewish_group
 			culture_group = israelite
 			is_female = yes
-			is_ruler = no		
+			is_ruler = no
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = gregarious
-		}		
+		}
 		modifier = {
 			factor = 0.5
 			trait = zealous
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = cynical
-		}		
+		}
 		modifier = {
 			factor = 0.5
 			trait = diligent
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = slothful
-		}		
+		}
 		modifier = {
 			factor = 0.5
 			trait = envious
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = kind
 		}
-						
+
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109026"  # Nice song
 		random_courtier = {
@@ -321,7 +321,7 @@ character_event = {
 				religion_group = jewish_group
 				culture_group = israelite
 				is_female = yes
-				is_ruler = no	
+				is_ruler = no
 			}
 			opinion = {
 				modifier = opinion_flattered
@@ -335,7 +335,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB1000109026"  # Song is terrible
 		random_courtier = {
@@ -343,7 +343,7 @@ character_event = {
 				religion_group = jewish_group
 				culture_group = israelite
 				is_female = yes
-				is_ruler = no	
+				is_ruler = no
 			}
 			opinion = {
 				modifier = opinion_sad
@@ -357,7 +357,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTC1000109026"  # Jewish music is bad
 		trigger = {
@@ -368,7 +368,7 @@ character_event = {
 				religion_group = jewish_group
 				culture_group = israelite
 				is_female = yes
-				is_ruler = no	
+				is_ruler = no
 			}
 			opinion = {
 				modifier = opinion_angry
@@ -383,7 +383,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTD1000109026"  # I understand Hebrew
 		tooltip_info = learning
@@ -393,7 +393,7 @@ character_event = {
 				religion_group = jewish_group
 				culture_group = israelite
 				is_female = yes
-				is_ruler = no	
+				is_ruler = no
 			}
 			opinion = {
 				modifier = opinion_interest_in_music
@@ -424,27 +424,27 @@ character_event = {
 	id = VIETnam.27
 	desc = "EVTDESC1000109028"
 	picture = GFX_evt_moorish_decor
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
-		NOT = { trait = incapable } 
+		NOT = { trait = incapable }
 		religion_group = muslim
 		NOT = { culture_group = israelite }
 		any_courtier = {
 			religion_group = jewish_group
 			culture_group = israelite
 			is_female = no
-			is_ruler = no		
-		}	
+			is_ruler = no
+		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -490,25 +490,25 @@ character_event = {
 			trait = zealous
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109028"  # Fine
 		add_character_modifier = {
 			name = the_merciful
 			duration = 365
 		}
-		capital_scope = { 
-			add_province_modifier = { 
-				name = lowered_jizya_tax 
-				duration = 365 
-			} 
+		capital_scope = {
+			add_province_modifier = {
+				name = lowered_jizya_tax
+				duration = 365
+			}
 		}
 		random_courtier = {
 			limit = {
 				religion_group = jewish_group
 				culture_group = israelite
 				is_female = no
-				is_ruler = no	
+				is_ruler = no
 			}
 			opinion = {
 				modifier = opinion_relieved
@@ -522,7 +522,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB1000109028"  # No
 		random_courtier = {
@@ -530,7 +530,7 @@ character_event = {
 				religion_group = jewish_group
 				culture_group = israelite
 				is_female = no
-				is_ruler = no	
+				is_ruler = no
 			}
 			opinion = {
 				modifier = opinion_sad
@@ -546,10 +546,10 @@ character_event = {
 	id = VIETnam.28
 	desc = "EVTDESC1000109029"
 	picture = GFX_evt_moorish_decor
-	
+
 	is_triggered_only = yes
 	capable_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_adult = yes
@@ -561,48 +561,48 @@ character_event = {
 			culture_group = israelite
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = kind
 		}
-		
+
 		modifier = {
 			factor = 2
 			trait = charitable
 		}
-		
+
 		modifier = {
 			factor = 2
 			trait = patient
 		}
-		
+
 		modifier = {
 			factor = 2
 			trait = content
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			trait = envious
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			trait = cruel
 		}
-		
+
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109029"  # No I will not
 		piety = 1
-		
+
 	}
-	
+
 	option = {
 		name = "EVTOPTB1000109029"  # Perhaps shouldn't be too hardheaded
 		piety = 1
@@ -612,9 +612,9 @@ character_event = {
 				remove_trait = zealous
 			}
 		}
-		
+
 	}
-	
+
 	option = {
 		name = "EVTOPTC1000109029"  # Everybody children of God yay kumbaya
 		tooltip_info = kind
@@ -630,7 +630,7 @@ character_event = {
 				modifier = opinion_pleased
 				who = ROOT
 				years = 1
-			}			
+			}
 		}
 		random_list = {
 			20 = { }
@@ -638,9 +638,9 @@ character_event = {
 				remove_trait = zealous
 			}
 		}
-		
+
 	}
-	
+
 	option = {
 		name = "EVTOPTD1000109029"  # Just ruler respects everybody
 		tooltip_info = just
@@ -656,7 +656,7 @@ character_event = {
 				modifier = opinion_glad
 				who = ROOT
 				years = 1
-			}			
+			}
 		}
 		random_list = {
 			25 = { }
@@ -681,17 +681,17 @@ character_event = {
 	picture = GFX_evt_moorish_decor
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_global_flag = VIET_Immersion_On
 		is_adult = yes
-		NOT = { trait = incapable } 
+		NOT = { trait = incapable }
 		NOT = { religion_group = jewish_group }
 		NOT = { culture_group = israelite }
 		any_courtier = {
 			religion_group = jewish_group
 			culture_group = israelite
-		}	
+		}
 	}
 
 	option = { #Comfort the courtier
@@ -708,7 +708,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #CONVERT!
 		name = "EVTOPTB1000109037"
 		random_list = {
@@ -727,8 +727,8 @@ character_event = {
 			}
 		}
 	}
-	
-	
+
+
 	option = { #Jewish sayings
 		name = "EVTOPTC1000109037"
 		tooltip_info = learning

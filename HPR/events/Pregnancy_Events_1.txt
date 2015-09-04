@@ -7,25 +7,25 @@
 # Fired from on actions
 #
 ###################################
-
+namespace = VIETnam
 # Baby kicking in stomach
 character_event = {
 	id = VIETnam.138
 	desc = "EVTDESC1000109311"
 	picture = GFX_evt_pregnancy
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 
 	trigger = {
 		trait = pregnant
 		is_female = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -55,7 +55,7 @@ character_event = {
 			trait = shy
 		}
 	}
-	
+
 	option = { #Cute
 		name = "EVTOPTA1000109311"
 		trigger = {
@@ -63,7 +63,7 @@ character_event = {
 		}
 		piety = 1
 	}
-	
+
 	option = { #It hurts
 		name = "EVTOPTB1000109311"
 		trigger = {
@@ -71,7 +71,7 @@ character_event = {
 		}
 		piety = 1
 	}
-	
+
 	option = { #stop it
 		name = "EVTOPTC1000109311"
 		tooltip_info = wroth
@@ -88,9 +88,9 @@ character_event = {
 	id = VIETnam.139
 	desc = "EVTDESC1000109312"
 	picture = GFX_evt_pregnancy
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -107,7 +107,7 @@ character_event = {
 		NOT = { trait = has_measles }
 		NOT = { trait = has_small_pox }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -130,7 +130,7 @@ character_event = {
 			trait = strong
 		}
 	}
-	
+
 	option = { #High
 		name = "EVTOPTA1000109312"
 		trigger = {
@@ -141,7 +141,7 @@ character_event = {
 			15 = { character_event = { id = 6060 days = 2 tooltip = "EVTTOOLTIP1000109312" } }
 		}
 	}
-	
+
 	option = { #Medium
 		name = "EVTOPTA1000109312"
 		trigger = {
@@ -153,7 +153,7 @@ character_event = {
 			30 = { character_event = { id = 6060 days = 2 tooltip = "EVTTOOLTIP1000109312" } }
 		}
 	}
-	
+
 	option = { #Low
 		name = "EVTOPTA1000109312"
 		trigger = {
@@ -172,9 +172,9 @@ character_event = {
 	id = VIETnam.140
 	desc = "EVTDESC1000109313"
 	picture = GFX_evt_pregnancy
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -188,7 +188,7 @@ character_event = {
 			age = 2
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -224,7 +224,7 @@ character_event = {
 			trait = wroth
 		}
 	}
-	
+
 	option = { #It's gonna be a boy
 		name = "EVTOPTA1000109313"
 		prestige = 5
@@ -237,10 +237,10 @@ character_event = {
 				modifier = opinion_happy
 				who = ROOT
 				years = 1
-			}		
+			}
 		}
 	}
-	
+
 	option = { #It's gonna be a girl
 		name = "EVTOPTB1000109313"
 		piety = 5
@@ -253,7 +253,7 @@ character_event = {
 				modifier = opinion_happy
 				who = ROOT
 				years = 1
-			}		
+			}
 		}
 	}
 }

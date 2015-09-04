@@ -2307,7 +2307,7 @@ invasion = {
 	on_success = {
 		#change imperial decadence
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -2317,7 +2317,7 @@ invasion = {
 			}
 		}
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -2442,7 +2442,7 @@ invasion = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -2452,7 +2452,7 @@ invasion = {
 			}
 		}
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -2667,7 +2667,7 @@ tribal_invasion = {
 	on_success = {
 		#change imperial decadence
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -2677,7 +2677,7 @@ tribal_invasion = {
 			}
 		}
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -2792,7 +2792,7 @@ tribal_invasion = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -2802,7 +2802,7 @@ tribal_invasion = {
 			}
 		}
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -3304,7 +3304,7 @@ crusade = {
 		log = "[Root.GetBestName] succeeded with their crusade for the [This.GetFullName] against [From.GetBestName]"
 		#change imperial decadence
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_2 }
 				hidden_tooltip = {
@@ -3314,7 +3314,7 @@ crusade = {
 			}
 		}
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_2 }
 				hidden_tooltip = {
@@ -3678,7 +3678,7 @@ crusade = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_2 }
 				hidden_tooltip = {
@@ -3688,7 +3688,7 @@ crusade = {
 			}
 		}
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_2 }
 				hidden_tooltip = {
@@ -3965,7 +3965,7 @@ holy_war = {
 							NOT = {
 								distance = { 
 									where = PREVPREV
-									value = 125
+									value = 75
 								}
 							}
 						}
@@ -4257,7 +4257,7 @@ holy_war = {
 	on_success = {
 		#change imperial decadence
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -4267,7 +4267,7 @@ holy_war = {
 			}
 		}
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -4440,7 +4440,7 @@ holy_war = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -4450,7 +4450,7 @@ holy_war = {
 			}
 		}
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -4593,7 +4593,7 @@ holy_war = {
 								NOT = {
 									distance = { 
 										where = PREVPREV
-										value = 125
+										value = 75
 									}
 								}
 							}
@@ -7479,7 +7479,7 @@ cb_faction_independence = {
 		log = "[Root.GetBestName] succeeded with their cb_faction_independence against [From.GetBestName]"
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -7712,7 +7712,7 @@ cb_faction_independence = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -7895,7 +7895,7 @@ imperial_reconquest = {
 	on_success = {
 		#change imperial decadence
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -7905,7 +7905,7 @@ imperial_reconquest = {
 			}
 		}
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -7972,7 +7972,7 @@ imperial_reconquest = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -7982,7 +7982,7 @@ imperial_reconquest = {
 			}
 		}
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -8664,7 +8664,7 @@ viking_invasion = {
 	on_success = {
 		#change imperial decadence
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -8674,7 +8674,7 @@ viking_invasion = {
 			}
 		}
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -8808,7 +8808,7 @@ viking_invasion = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -8818,7 +8818,7 @@ viking_invasion = {
 			}
 		}
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -9051,7 +9051,7 @@ pagan_subjugation = {
 								NOT = {
 									distance = { 
 										where = PREVPREV
-										value = 100
+										value = 75
 									}
 								}
 							}
@@ -9729,7 +9729,7 @@ liberation_revolt = {
 	on_success = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -9865,6 +9865,25 @@ liberation_revolt = {
 			}
 			any_de_jure_vassal_title = {
 				limit = {
+					tier = BARON
+					holder_scope = { same_realm = FROM }
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							OR = {
+								character = FROM
+								culture = FROM
+								NOT = { culture_group = ROOT }
+								NOT = { capital_scope = { kingdom = { title = PREVPREVPREVPREV } } }
+							}
+						}
+					}
+					usurp_title = { target = ROOT type = revolt }
+				}
+			}
+			any_de_jure_vassal_title = {
+				limit = {
 					tier = COUNT
 					holder_scope = { same_realm = FROM }
 				}
@@ -9976,6 +9995,43 @@ liberation_revolt = {
 					limit = { temporary = yes }
 					unsafe_destroy_landed_title = THIS
 				}
+				if = {
+					limit = {
+						has_character_flag = began_revolt
+						is_feudal = no
+						is_tribal = no
+					}
+					if = {
+						limit = {
+							FROM = { is_tribal = yes }
+						}
+						set_government_type = tribal_government
+					}
+					if = {
+						limit = {
+							FROM = { is_tribal = no }
+							religion_group = muslim
+						}
+						set_government_type = muslim_government
+					}
+					if = {
+						limit = {
+							FROM = { is_tribal = no }
+							NOT = { religion_group = muslim }
+							religion = bogomilist
+						}
+						set_government_type = bogomilist_government
+					}
+					if = {
+						limit = {
+							FROM = { is_tribal = no }
+							NOT = { religion_group = muslim }
+							NOT = { religion = bogomilist }
+						}
+						set_government_type = feudal_government
+					}
+				}
+				clr_character_flag = began_revolt
 			}
 		}
 	}
@@ -10639,6 +10695,7 @@ pagan_county_conquest = {
 		ROOT = {
 			mercenary = no
 			NOR = {
+				has_character_modifier = county_conquest_timer
 				pays_tribute_to = FROM
 				any_liege = {
 					OR = {
@@ -10649,7 +10706,6 @@ pagan_county_conquest = {
 					}
 				}
 			}
-			NOT = { has_character_modifier = county_conquest_timer }
 		}
 		OR = {
 			ROOT = {
@@ -10719,30 +10775,57 @@ pagan_county_conquest = {
 			}
 		}
 		
-		location = {
-			OR = {
-				any_neighbor_province = {
-				#target borders attacker
-					owner = {
-						OR = {
-							character = ROOT
-							is_liege_or_above = ROOT
-						}
+		OR = {
+			#either a seafaring culture targeting a port in the same sea zone area
+			AND = {
+				ROOT = { is_seafarer = yes }
+				location = { port = yes }
+				has_global_flag = viking_age_started
+				OR = {
+					AND = {
+						ROOT = { any_realm_province = { region = custom_baltic_sea_zone } }
+						location = { region = custom_baltic_sea_zone }
+					}
+					AND = {
+						ROOT = { any_realm_province = { region = custom_north_sea_zone } }
+						location = { region = custom_north_sea_zone }
+					}
+					AND = {
+						ROOT = { any_realm_province = { region = custom_atlantic_zone } }
+						location = { region = custom_atlantic_zone }
+					}
+					AND = {
+						ROOT = { any_realm_province = { region = custom_west_med_zone } }
+						location = { region = custom_west_med_zone }
+					}
+					AND = {
+						ROOT = { any_realm_province = { region = custom_east_med_zone } }
+						location = { region = custom_east_med_zone }
+					}
+					AND = {
+						ROOT = { any_realm_province = { region = custom_black_sea_zone } }
+						location = { region = custom_black_sea_zone }
 					}
 				}
-				AND = {
-					#target is coastal and nearby but requires a narrow crossing
-					port = yes
-					ROOT = {
-						any_realm_province = {
-							NOT = {
-								distance = { 
-										where = PREVPREV
-										value = 75
-								}
+			}
+			#or it's a port within a fairly close range
+			location = {
+				port = yes
+				ROOT = {
+					any_realm_province = {
+						NOT = {
+							distance = {
+								where = PREVPREV
+								value = 75
 							}
 						}
 					}
+				}
+			}
+			#or it's neighboring
+			location = {
+				any_neighbor_province = {
+					owner = { same_realm = ROOT }
 				}
 			}
 		}
@@ -10951,6 +11034,52 @@ pagan_county_conquest = {
 	
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0
+			location = {
+				NOT = {
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+					}
+				}
+				OR = {
+					region = custom_perm
+					duchy = { title = d_kola }
+					duchy = { title = d_karelia }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			ROOT = {
+				is_seafarer = yes
+				PREV = {
+					FROM = { religion_group = PREVPREV }
+				}
+			}
+			location = {
+				NOR = {
+					region = custom_novgorod
+					region = custom_muscovy
+					region = custom_livonia
+					region = custom_rus
+					any_neighbor_province = {
+						owner = { same_realm = ROOT }
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			ROOT = { is_seafarer = yes }
+			location = {
+				OR = {
+					region = custom_novgorod
+					region = custom_livonia
+					region = custom_rus
+				}
+			}
+		}
 		modifier = {
 			factor = 0
 			FROM = {
@@ -11913,7 +12042,7 @@ shia_caliphate_rising = {
 	on_success = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_2 }
 				hidden_tooltip = {
@@ -12032,7 +12161,7 @@ shia_caliphate_rising = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_2 }
 				hidden_tooltip = {
@@ -12450,7 +12579,7 @@ cb_install_antiking = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -12617,7 +12746,7 @@ manifest_destiny_invasion = {
 	on_success = {
 		#change imperial decadence
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -12627,7 +12756,7 @@ manifest_destiny_invasion = {
 			}
 		}
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -12738,7 +12867,7 @@ manifest_destiny_invasion = {
 	on_reverse_demand = {
 		#change imperial decadence
 		if = {
-			limit = { FROM = { real_tier = EMPEROR } }
+			limit = { FROM = { uses_imperial_decadence_trigger = yes } }
 			FROM = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_MINUS_1 }
 				hidden_tooltip = {
@@ -12748,7 +12877,7 @@ manifest_destiny_invasion = {
 			}
 		}
 		if = {
-			limit = { ROOT = { real_tier = EMPEROR } }
+			limit = { ROOT = { uses_imperial_decadence_trigger = yes } }
 			ROOT = {
 				custom_tooltip = { text = IMPERIAL_DECADENCE_PLUS_1 }
 				hidden_tooltip = {
@@ -12870,10 +12999,9 @@ cb_decadence_usurption = {
 		}	
 	
 		FROM = {
-			religion_group = muslim
+			religion = ROOT
 			trait = decadent
 			dynasty = ROOT
-			
 			OR = {
 				liege = {
 					character = PREV # either independent
@@ -12885,14 +13013,15 @@ cb_decadence_usurption = {
 				}
 			}
 		}
-		
 		ROOT = {
+			holy_order = no
 			mercenary = no
 		}
 	}
 	
 	is_valid = {
 		FROM = {
+			trait = decadent
 			OR = {
 				liege = {
 					character = PREV # either independent
@@ -12904,6 +13033,10 @@ cb_decadence_usurption = {
 				}
 			}
 		}
+	}
+	
+	is_valid_title = {
+		ROOT = { has_landed_title = PREV }
 	}
 	
 	on_success = {
@@ -13293,8 +13426,7 @@ tributary_cb = {
 		
 		# The defender is not in any tributary war
 		FROM = {
-			NOT =
-			{
+			NOT = {
 				any_war = {
 					using_cb = tributary_cb
 				}
@@ -13580,14 +13712,36 @@ tributary_cb = {
 		}
 		modifier = {
 			factor = 0.1 # Nomads are the only ones who like using the CB
-			ROOT = {
-				is_nomadic = no
-			}
+			ROOT = { is_nomadic = no }
 		}
 		modifier = {
 			factor = 4
+			ROOT = { trait = greedy }
+		}
+		modifier = {
+			factor = 0
 			ROOT = {
-				trait = greedy
+				is_nomadic = no
+				NOR = {
+					AND = {
+						tier = EMPEROR
+						PREV = { FROM = { lower_tier_than = EMPEROR } }
+					}
+					AND = {
+						OR = {
+							trait = greedy
+							trait = ambitious
+							martial = 15
+						}
+						NOR = {
+							trait = charitable
+							trait = content
+							NOT = { martial = 8 }
+						}
+						realm_size = 100
+						PREV = { FROM = { NOT = { realm_size = 50 } } }
+					}
+				}
 			}
 		}
 	}

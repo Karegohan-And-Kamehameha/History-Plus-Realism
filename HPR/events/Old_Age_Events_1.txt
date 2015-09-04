@@ -7,19 +7,19 @@
 # Fired from on actions
 #
 ###################################
-
+namespace = VIETnam
 # Hunting in old age
 character_event = {
 	id = VIETnam.106
 	desc = "EVTDESC1000109136"
 	picture = GFX_evt_hunt
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 55
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -29,10 +29,10 @@ character_event = {
 			age = 65
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = weak
@@ -70,7 +70,7 @@ character_event = {
 			has_character_flag = holding_grand_hunt
 		}
 	}
-	
+
 	option = { #I'll be fine
 		name = "EVTOPTA1000109136"
 		prestige = 10
@@ -91,7 +91,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #Watch old age
 		name = "EVTOPTB1000109136"
 		piety = 5
@@ -100,7 +100,7 @@ character_event = {
 			25 = { add_trait = humble }
 		}
 	}
-	
+
 	option = { #Don't participate as much
 		name = "EVTOPTC1000109136"
 		prestige = 5
@@ -118,7 +118,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #God will protect
 		name = "EVTOPTD1000109136"
 		tooltip_info = zealous
@@ -151,13 +151,13 @@ character_event = {
 	id = VIETnam.107
 	desc = "EVTDESC1000109137"
 	picture = GFX_evt_courtiers_talking
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 55
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		in_command = no
 		is_ruler = yes
@@ -166,10 +166,10 @@ character_event = {
 			age = 65
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = envious
@@ -203,7 +203,7 @@ character_event = {
 			trait = kind
 		}
 	}
-	
+
 	option = { #I was like that once
 		name = "EVTOPTA1000109137"
 		random_list = {
@@ -216,12 +216,12 @@ character_event = {
 			duration = 100
 		}
 	}
-	
+
 	option = { #Kids don't understand hardship
 		name = "EVTOPTB1000109137"
 		prestige = 10
 	}
-	
+
 	option = { #Pray God gives strength to young folks
 		name = "EVTOPTC1000109137"
 		prestige = 5
@@ -231,7 +231,7 @@ character_event = {
 			15 = { add_trait = temperate }
 		}
 	}
-	
+
 	option = { #Kids are useless crud these days
 		name = "EVTOPTD1000109137"
 		random_list = {
@@ -248,23 +248,23 @@ character_event = {
 	id = VIETnam.108
 	desc = "EVTDESC1000109138"
 	picture = GFX_evt_knight_kneeling
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 55
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		OR = {
 			has_character_modifier = old_age
 			age = 65
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = zealous
@@ -306,24 +306,24 @@ character_event = {
 			trait = brave
 		}
 	}
-	
+
 	option = { #Pray
 		name = "EVTOPTA1000109138"
 		piety = 10
 	}
-	
+
 	option = { #Don't care
 		name = "EVTOPTB1000109138"
 		ai_chance = {
 			factor = 5
 		}
 		tooltip_info = cynical
-		trigger = { 
+		trigger = {
 			trait = cynical
 		}
 		prestige = 10
 	}
-	
+
 	option = { #Lived a good life
 		name = "EVTOPTC1000109138"
 		trigger = {
@@ -355,13 +355,13 @@ character_event = {
 	id = VIETnam.109
 	desc = "EVTDESC1000109139"
 	picture = GFX_evt_courtiers_talking
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 55
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -370,10 +370,10 @@ character_event = {
 			age = 65
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = shy
@@ -431,7 +431,7 @@ character_event = {
 			trait = scholar
 		}
 	}
-	
+
 	option = { #Make an effort to learn new slang
 		name = "EVTOPTA1000109139"
 		prestige = 1
@@ -441,7 +441,7 @@ character_event = {
 			50 = { }
 		}
 	}
-	
+
 	option = { #Should worry about more important things
 		name = "EVTOPTB1000109139"
 		piety = 1
@@ -459,27 +459,27 @@ character_event = {
 	id = VIETnam.110
 	desc = "EVTDESC1000109140"
 	picture = GFX_evt_tuscan_country
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 55
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		OR = {
 			has_character_modifier = old_age
 			age = 65
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
 		modifier = {
 			factor = 3
 			age = 80
-		}		
+		}
 		modifier = {
 			factor = 2
 			trait = weak
@@ -526,19 +526,19 @@ character_event = {
 			trait = strong
 		}
 	}
-	
+
 	option = { #It's nothing
 		name = "EVTOPTA1000109140"
 		ai_chance = {
 			factor = 100
 		}
 		tooltip_info = strong
-		trigger = { 
+		trigger = {
 			trait = strong
 		}
 		prestige = 10
 	}
-	
+
 	option = { #Can't work much
 		name = "EVTOPTB1000109140"
 		prestige = -5
@@ -547,7 +547,7 @@ character_event = {
 			90 = { }
 		}
 	}
-	
+
 	option = { #Work harder
 		name = "EVTOPTC1000109140"
 		prestige = 10
@@ -559,7 +559,7 @@ character_event = {
 			50 = { }
 		}
 	}
-	
+
 	option = { #Get help from others
 		name = "EVTOPTD1000109140"
 		prestige = -25

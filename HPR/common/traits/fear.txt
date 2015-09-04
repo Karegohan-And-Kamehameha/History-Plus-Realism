@@ -1,0 +1,84 @@
+feared1 = {
+	vassal_opinion = 5
+	monthly_character_piety = -0.05
+	customizer = no
+	random = no
+}
+
+feared2 = {
+	vassal_opinion = 10
+	monthly_character_piety = -0.1
+	customizer = no
+	random = no
+}
+
+feared3 = {
+	vassal_opinion = 15
+	monthly_character_piety = -0.15
+	customizer = no
+	random = no
+}
+
+feared4 = {
+	vassal_opinion = 20
+	monthly_character_piety = -0.2
+	customizer = no
+	random = no
+}
+
+feared5 = {
+	monthly_character_prestige = 0.05
+	vassal_opinion = 25
+	general_opinion = 5
+	monthly_character_piety = -0.25
+	customizer = no
+	random = no
+}
+
+feared6 = {
+	monthly_character_prestige = 0.10
+	vassal_opinion = 30
+	general_opinion = 10
+	monthly_character_piety = -0.3
+	customizer = no
+	random = no
+}
+
+feared7 = {
+	monthly_character_prestige = 0.15
+	vassal_opinion = 35
+	general_opinion = 15
+	monthly_character_piety = -0.35
+	customizer = no
+	random = no
+}
+
+feared8 = {
+	monthly_character_prestige = 0.20
+	vassal_opinion = 40
+	general_opinion = 20
+	land_morale = 0.05
+	monthly_character_piety = -0.4
+	customizer = no
+	random = no
+}
+
+feared9 = {
+	monthly_character_prestige = 0.25
+	vassal_opinion = 45
+	general_opinion = 25
+	land_morale = 0.1
+	monthly_character_piety = -0.45
+	customizer = no
+	random = no
+}
+
+feared10 = {
+	monthly_character_prestige = 0.30
+	vassal_opinion = 50
+	general_opinion = 30
+	land_morale = 0.15
+	monthly_character_piety = -0.5
+	customizer = no
+	random = no
+}

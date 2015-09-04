@@ -3,7 +3,7 @@
 # Seasonal events written by chatnoir17							 #
 #                                                                #
 ##################################################################
-
+namespace = VIETnam
 ## Bad crops event chain
 
 # long rain
@@ -115,7 +115,7 @@ province_event = {
 		name = "EVTOPTA1000053008"
 		ai_chance = {
 			factor = 5
-#	Modifier with owner's wealth			
+#	Modifier with owner's wealth
 			modifier = {
 				factor = 20
 				owner = { treasury = 100 }
@@ -136,19 +136,19 @@ province_event = {
 			modifier = {
 				factor = 10
 				owner = { trait = diligent }
-			}				
+			}
 		}
-		owner = { 
+		owner = {
 			treasury = -50
 			piety = 10
 		}
 	}
-	
+
 	option = { # Let them eat cake!
 		name = "EVTOPTB1000053008"
 		ai_chance = {
 			factor = 5
-#	Modifier with owner's wealth			
+#	Modifier with owner's wealth
 			modifier = {
 				factor = 20
 				owner = {
@@ -171,13 +171,13 @@ province_event = {
 			modifier = {
 				factor = 10
 				owner = { trait = slothful }
-			}			
+			}
 		}
 		add_province_modifier = {
 			name = serious_famine
 			duration = 365
 		}
-		owner = { 
+		owner = {
 			piety = -10
 		}
 	}

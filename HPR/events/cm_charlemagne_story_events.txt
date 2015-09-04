@@ -1132,9 +1132,7 @@ character_event = {
 		name = EVTOPTA_CM_1077
 		FROM = {
 			primary_title = {
-				ROOT = {
-					add_claim = PREV
-				}
+				add_claim = ROOT
 			}
 		}
 	}
@@ -1927,6 +1925,11 @@ character_event = {
 			has_global_flag = hre_formed
 			has_global_flag = carolingian_empire_formed
 			has_character_modifier = do_not_disturb
+		}
+		OR = {
+			has_landed_title = k_saxony
+			any_vassal = { has_landed_title = k_saxony }
+			year = 774
 		}
 		any_independent_ruler = {
 			religion = ROOT
@@ -3724,9 +3727,7 @@ character_event = {
 		}
 		FROM = {
 			primary_title = {
-				ROOT = {
-					add_claim = PREV
-				}
+				add_claim = ROOT
 			}
 		}
 	}
@@ -3737,9 +3738,7 @@ character_event = {
 		}
 		FROM = {
 			primary_title = {
-				ROOT = {
-					add_claim = PREV
-				}
+				add_claim = ROOT
 			}
 		}
 	}

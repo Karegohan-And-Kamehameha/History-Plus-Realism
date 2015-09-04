@@ -1,7 +1,7 @@
 abdicated = {
 	customizer = no
 	random = no
-
+	
 	cannot_inherit = yes
 	general_opinion = -20
 	monthly_character_prestige = -0.5
@@ -14,7 +14,7 @@ adopted = {
 
     customizer = no
     random = no
-
+	
 	male_insult = INSULT_PEASANT
 	male_insult_adj = INSULT_BASEBORN
 	female_insult = INSULT_PEASANT
@@ -24,7 +24,7 @@ adopted = {
 beauty = {
 	random = no
 	customizer = no
-
+	
 	diplomacy = 1
 	sex_appeal_opinion = 10
 	fertility = 0.05
@@ -47,17 +47,17 @@ changeling = {
 			religion = celtic_pagan_reformed
 		}
 	}
-	customizer = no
-	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger
+	customizer = no	
+	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger 	
 
-	health = 3
+	health = 3	
 	same_religion_opinion = 5
-	same_opinion = -10
+	same_opinion = -10	
 	command_modifier = {
 		morale_offence = 0.2
 		defence = -0.1
 	}
-
+	
 	ai_rationality = -15
 	ai_ambition = 30
 }
@@ -79,7 +79,7 @@ court_anarchy  = {
 	stewardship = -2
 	intrigue = -2
 	health = -2
-
+	
     customizer = no
     random = no
 }
@@ -151,7 +151,7 @@ cult_of_lucifer = {
 	monthly_character_piety = 0.05
 	monthly_character_prestige = 0.05
 	religious_branch = messalian
-
+	
 	religious = yes
     customizer = no
     random = no
@@ -205,73 +205,73 @@ dishonorable1 = {
 	general_opinion = -10
 	monthly_character_piety = -0.1
 	customizer = no
-
+	
 	male_insult = INSULT_DISHONORABLE
 	female_insult = INSULT_DISHONORABLE
 	male_insult_adj = INSULT_DISHONORABLE
-	female_insult_adj = INSULT_DISHONORABLE
+	female_insult_adj = INSULT_DISHONORABLE	
 }
 
 dishonorable2 = {
 	general_opinion = -20
 	monthly_character_piety = -0.2
 	customizer = no
-
+	
 	male_insult = INSULT_DISHONORABLE
 	female_insult = INSULT_DISHONORABLE
 	male_insult_adj = INSULT_DISHONORABLE
-	female_insult_adj = INSULT_DISHONORABLE
+	female_insult_adj = INSULT_DISHONORABLE	
 }
 
 dishonorable3 = {
 	general_opinion = -30
 	monthly_character_piety = -0.3
 	customizer = no
-
+	
 	male_insult = INSULT_DISHONORABLE
 	female_insult = INSULT_DISHONORABLE
 	male_insult_adj = INSULT_DISHONORABLE
-	female_insult_adj = INSULT_DISHONORABLE
+	female_insult_adj = INSULT_DISHONORABLE	
 }
 
 dishonorable4 = {
 	general_opinion = -40
 	monthly_character_piety = -0.4
 	customizer = no
-
+	
 	male_insult = INSULT_DISHONORABLE
 	female_insult = INSULT_DISHONORABLE
 	male_insult_adj = INSULT_DISHONORABLE
-	female_insult_adj = INSULT_DISHONORABLE
+	female_insult_adj = INSULT_DISHONORABLE	
 }
 
 dishonorable5 = {
 	general_opinion = -50
 	monthly_character_piety = -0.5
 	customizer = no
-
+	
 	male_insult = INSULT_DISHONORABLE
 	female_insult = INSULT_DISHONORABLE
 	male_insult_adj = INSULT_DISHONORABLE
-	female_insult_adj = INSULT_DISHONORABLE
+	female_insult_adj = INSULT_DISHONORABLE	
 }
 
 dishonorable6 = {
 	general_opinion = -60
 	monthly_character_piety = -0.6
 	customizer = no
-
+	
 	male_insult = INSULT_DESPICABLE
 	female_insult = INSULT_DESPICABLE
 	male_insult_adj = INSULT_HONORLESS
-	female_insult_adj = INSULT_HONORLESS
+	female_insult_adj = INSULT_HONORLESS	
 }
 
 dishonorable7 = {
 	general_opinion = -70
 	monthly_character_piety = -0.7
 	customizer = no
-
+	
 	male_insult = INSULT_DESPICABLE
 	female_insult = INSULT_DESPICABLE
 	male_insult_adj = INSULT_HONORLESS
@@ -282,7 +282,7 @@ dishonorable8 = {
 	general_opinion = -80
 	monthly_character_piety = -0.8
 	customizer = no
-
+	
 	male_insult = INSULT_DESPICABLE
 	female_insult = INSULT_DESPICABLE
 	male_insult_adj = INSULT_HONORLESS
@@ -293,7 +293,7 @@ dishonorable9 = {
 	general_opinion = -90
 	monthly_character_piety = -0.9
 	customizer = no
-
+	
 	male_insult = INSULT_DESPICABLE
 	female_insult = INSULT_DESPICABLE
 	male_insult_adj = INSULT_HONORLESS
@@ -304,7 +304,7 @@ dishonorable10 = {
 	general_opinion = -100
 	monthly_character_piety = -1.0
 	customizer = no
-
+	
 	male_insult = INSULT_DESPICABLE
 	female_insult = INSULT_DESPICABLE
 	male_insult_adj = INSULT_HONORLESS
@@ -314,7 +314,7 @@ dishonorable10 = {
 disinherited = {
 	customizer = no
 	random = no
-
+	
 	cannot_inherit = yes
 	general_opinion = -10
 	monthly_character_prestige = -0.5
@@ -336,7 +336,7 @@ doctores = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.1
 	religious = yes
-
+	
     customizer = no
     random = no
 }
@@ -351,15 +351,15 @@ druid = {
 	opposites =  {
 		bad_druid
 	}
-
+	
 	religious = no # Cleared manually on religious conversion, to avoid losing it on reformation
-
+	
 	monthly_character_piety = 0.5
 	learning = 3
 	diplomacy = 2
-
+	
 	customizer = no
-
+	
 	cannot_inherit = yes
 }
 
@@ -374,18 +374,18 @@ bad_druid = {
 	opposites =  {
 		druid
 	}
-
+	
 	religious = no # Cleared manually on religious conversion, to avoid losing it on reformation
-
+	
 	opposite_opinion = -10
 	church_opinion = -20
 	same_opinion_if_same_religion = 50
-
+	
 	monthly_character_piety = -1
 
 	customizer = no
 	random = no
-
+	
 	cannot_inherit = yes
 }
 
@@ -454,14 +454,14 @@ fian = {
 	}
 	martial = 2
 	learning = 1
-
+	
 	same_religion_opinion = 5
-
+	
 	same_opinion = 20
-
+	
 	customizer = no
 	random = no
-
+	
 	command_modifier = {
 		religious_enemy = 0.2
 		morale_offence = 0.1
@@ -507,7 +507,7 @@ head3 = {
 		}
 	}
 	monthly_character_prestige = 0.4
-	command_modifier = {
+	command_modifier = {	
 		religious_enemy = 0.1
 		morale_offence = 0.1
 	}
@@ -542,7 +542,7 @@ head5 = {
 	customizer = no
 	random = no
 	same_religion_opinion = 10
-	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger
+	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger 	
 	command_modifier = {
 		center = 0.1
 		religious_enemy = 0.3
@@ -572,7 +572,7 @@ holy_crusader = {
 
 	ai_zeal = 10
 	religious = yes # Lost immediately on religion change
-
+	
 	male_compliment = COMPL_HOLY_WARRIOR
 	female_compliment = COMPL_HOLY_WARRIOR
 }
@@ -587,10 +587,10 @@ hurufi_diwan = {
 	muslim_opinion = 10
 	sex_appeal_opinion = 20
 	fertility = 0.1
-
+	
 	religious = yes
 	ai_rationality = 10
-
+	
 	male_compliment = COMPL_POET
 }
 
@@ -603,11 +603,11 @@ hurufi_mystic_a = {
 	monthly_character_piety = 0.1
 	same_religion_opinion = 10
 	infidel_opinion = -10
-
+	
 	same_opinion = 20
 	religious = yes
 	ai_zeal = 10
-
+	
 	male_compliment = COMPL_HMYST
 	male_insult = INSULT_HMYST
 	male_compliment_adj = COMPL_KNOW
@@ -622,11 +622,11 @@ hurufi_mystic_b = {
 	monthly_character_piety = 0.2
 	same_religion_opinion = 20
 	infidel_opinion = -20
-
+	
 	same_opinion = 20
 	religious = yes
 	ai_zeal = 10
-
+	
 	male_compliment = COMPL_HMYST
 	male_insult = INSULT_HMYST
 	male_compliment_adj = COMPL_KNOW
@@ -641,11 +641,11 @@ hurufi_mystic_c = {
 	monthly_character_piety = 0.3
 	same_religion_opinion = 30
 	infidel_opinion = -30
-
+	
 	same_opinion = 20
 	religious = yes
 	ai_zeal = 10
-
+	
 	male_compliment = COMPL_HMYST
 	male_insult = INSULT_HMYST
 	male_compliment_adj = COMPL_KNOW
@@ -666,7 +666,7 @@ iconoclast_trait = {
 	muslim_opinion = 30
 	christian_church_opinion = -20
 	religious = yes
-
+	
     customizer = no
     random = no
 }
@@ -680,7 +680,7 @@ kharijite_kafir = {
     potential = {
         religion = kharijite
     }
-
+	
 	same_religion_opinion = -100
 	monthly_character_piety = -0.5
 	monthly_character_prestige = -0.5
@@ -688,7 +688,7 @@ kharijite_kafir = {
     customizer = no
     random = no
 	religious = yes
-
+	
 	male_insult = INSULT_KAFIR
 	female_insult = INSULT_KAFIR
 }
@@ -700,16 +700,16 @@ learning_druidic_arts = {
 			religion = celtic_pagan_reformed
 		}
 	}
-
+	
 	customizer = no
-
+	
 	monthly_character_piety = 0.5
 	same_religion_opinion = 10
-	fertility = -50.0
+	fertility = -50.0	
 	stewardship = -2
 	intrigue = -2
 	diplomacy = -2
-
+	
 	pilgrimage = yes # Will need a regent, but can still be guardian to children
 }
 
@@ -724,11 +724,11 @@ martial_lady = {
 	martial = 1
 	combat_rating = 1
 	fertility = -0.15
-
+	
 	sex_appeal_opinion = -5
 	same_opinion = 10
 	monthly_character_piety = -0.05
-
+	
 	random = no
 	customizer = no
 }
@@ -737,14 +737,14 @@ martial_lady_tengri = {
 	martial = 1
 	combat_rating = 1
 	fertility = -0.15
-
+	
 	command_modifier = {
 		cavalry = 0.10
 	}
-
+	
 	same_opinion = 10
 	vassal_opinion = 5
-
+	
 	random = no
 	customizer = no
 }
@@ -769,12 +769,12 @@ messalian_master = {
     potential = {
         religion = messalian
     }
-
+	
 	learning = 3
 	same_religion_opinion = 50
 	monthly_character_piety = 0.1
 	monthly_character_prestige = 0.1
-
+	
 	religious = yes
     customizer = no
     random = no
@@ -927,7 +927,7 @@ novellani = {
 	monthly_character_prestige = -0.1
 	monthly_character_piety = 0.1
 	religious = yes
-
+	
     customizer = no
     random = no
 }
@@ -949,7 +949,7 @@ perfecti = {
 		seducer
 		seductress
 	}
-
+	
 	same_religion_opinion = 20
 	opposite_opinion = -20
 	fertility = -10
@@ -984,13 +984,13 @@ poor_warrior = {
 raider = {
 	random = no
 	customizer = no
-
+	
 	religious = yes
 	martial = 1
 	combat_rating = 1
 	monthly_character_prestige = 0.3
 	same_religion_opinion = 15
-
+	
 	male_insult = COMPL_PIRATE
 	female_insult = COMPL_PIRATE
 }
@@ -998,11 +998,11 @@ raider = {
 raider_not_pagan = {
 	random = no
 	customizer = no
-
+	
 	martial = 1
 	combat_rating = 1
 	monthly_character_prestige = 0.1
-
+	
 	male_insult = COMPL_PIRATE
 	female_insult = COMPL_PIRATE
 }
@@ -1044,7 +1044,7 @@ sandaliati = {
 	diplomacy = -1
 	monthly_character_prestige = -0.1
 	religious = yes
-
+	
     customizer = no
     random = no
 }
@@ -1053,10 +1053,10 @@ scarred_female = {
 	potential = {
 		is_female = yes
 	}
-
+	
 	monthly_character_prestige = 0.05
 	sex_appeal_opinion = -5
-
+	
 	random = no
 }
 
@@ -1064,11 +1064,11 @@ shield_maiden = {
 	martial = 1
 	combat_rating = 1
 	fertility = -0.15
-
+	
 	sex_appeal_opinion = 10
 	same_opinion = 10
 	monthly_character_prestige = 0.05
-
+	
 	random = no
 	customizer = no
 }
@@ -1076,7 +1076,7 @@ shield_maiden = {
 shiite_claimant = {
 	same_religion_opinion = 25
 	monthly_character_piety = 0.5
-
+	
 	cached = yes
 	random = no
 	customizer = no
@@ -1126,9 +1126,7 @@ tall = {
 
 	sex_appeal_opinion = 5
 	vassal_opinion = 5
-
-	male_compliment = COMPL_GIANT
-	female_compliment = COMPL_GIANT
+	
 	male_compliment_adj = COMPL_TALL
 	female_compliment_adj = COMPL_STATUESQUE
 }
@@ -1136,7 +1134,7 @@ tall = {
 teaching_daughter = {
 	vassal_opinion = 5 #partial offset for female heir penalty
 	same_opinion = 50 # primarily so vassals in the same situation don't help to set a bad precedent
-
+	
 	random = no
 	customizer = no
 }
@@ -1144,7 +1142,7 @@ teaching_daughter = {
 tournament_winner = {
 	random = no
 	customizer = no
-
+	
 	monthly_character_prestige = 0.1
 	martial = 1
 	combat_rating = 1
@@ -1192,7 +1190,7 @@ tyrant5 = {
 	general_opinion = -25
 	global_revolt_risk = 0.01
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1204,7 +1202,7 @@ tyrant6 = {
 	general_opinion = -30
 	global_revolt_risk = 0.01
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1216,7 +1214,7 @@ tyrant7 = {
 	general_opinion = -35
 	global_revolt_risk = 0.01
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1228,7 +1226,7 @@ tyrant8 = {
 	general_opinion = -40
 	global_revolt_risk = 0.01
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1240,7 +1238,7 @@ tyrant9 = {
 	general_opinion = -45
 	global_revolt_risk = 0.02
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1253,7 +1251,7 @@ tyrant10 = {
 	global_revolt_risk = 0.02
 	land_morale = -0.1
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1266,7 +1264,7 @@ tyrant11 = {
 	global_revolt_risk = 0.02
 	land_morale = -0.2
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1279,7 +1277,7 @@ tyrant12 = {
 	global_revolt_risk = 0.02
 	land_morale = -0.3
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1292,7 +1290,7 @@ tyrant13 = {
 	global_revolt_risk = 0.03
 	land_morale = -0.4
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1305,7 +1303,7 @@ tyrant14 = {
 	global_revolt_risk = 0.03
 	land_morale = -0.5
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1319,7 +1317,7 @@ tyrant15 = {
 	land_morale = -0.6
 	global_tax_modifier = -0.1
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1333,7 +1331,7 @@ tyrant16 = {
 	land_morale = -0.7
 	global_tax_modifier = -0.2
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1347,7 +1345,7 @@ tyrant17 = {
 	land_morale = -0.8
 	global_tax_modifier = -0.3
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1361,7 +1359,7 @@ tyrant18 = {
 	land_morale = -0.9
 	global_tax_modifier = -0.4
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1375,7 +1373,7 @@ tyrant19 = {
 	land_morale = -1.0
 	global_tax_modifier = -0.5
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1389,7 +1387,7 @@ tyrant20 = {
 	land_morale = -1.5
 	global_tax_modifier = -0.75
 	customizer = no
-
+	
 	male_insult = INSULT_TYRANT
 	female_insult = INSULT_TYRANT
 	male_insult_adj = INSULT_TYRANNICAL
@@ -1439,13 +1437,13 @@ wolf = {
 	}
 	martial = 2
 	learning = 1
-
+	
 	same_religion_opinion = 5
-
+	
 	same_opinion = 20
-
+	
 	customizer = no
-
+	
 	command_modifier = {
 		religious_enemy = 0.2
 		morale_offence = 0.1
@@ -1459,7 +1457,7 @@ yehudi = {
 	}
 
 	random = no
-
+	
 	same_religion_opinion = 5
 	monthly_character_piety = 0.10
 }
@@ -1528,17 +1526,17 @@ druze_juhhal = {
 	religious = yes
 	customizer = no
 	random = no
-
+	
 	opposites = {
 		druze_uqqal
 		druze_ajawid
 	}
-
+	
 	same_religion_opinion = 5
 	tolerates_christian = yes
 	tolerates_jewish_group = yes
 	ai_zeal = -40
-
+	
 	male_insult_adj = INSULT_IGNORANT
 	female_insult_adj = INSULT_IGNORANT
 }
@@ -1547,17 +1545,17 @@ druze_uqqal = {
 	religious = yes
 	customizer = no
 	random = no
-
+	
 	opposites = {
 		druze_juhhal
 		druze_ajawid
 	}
-
+	
 	learning = 2
 	monthly_character_piety = 0.1
 	same_religion_opinion = 10
 	same_opinion = 10
-
+	
 	male_compliment_adj = COMPL_WISE
 	female_compliment_adj = COMPL_WISE
 }
@@ -1566,12 +1564,12 @@ druze_ajawid = {
 	religious = yes
 	customizer = no
 	random = no
-
+	
 	opposites = {
 		druze_uqqal
 		druze_juhhal
 	}
-
+	
 	intrigue = 2
 	diplomacy = 2
 	learning = 4
@@ -1581,7 +1579,7 @@ druze_ajawid = {
 	ai_zeal = 20
 
 	male_compliment = COMPL_AJAWID
-	female_compliment = COMPL_AJAWID_F
+	female_compliment = COMPL_AJAWID_F	
 	male_compliment_adj = COMPL_LEARNED
 	female_compliment_adj = COMPL_LEARNED
 }
@@ -1590,12 +1588,12 @@ paragon = {
 	religious = yes
 	customizer = no
 	random = no
-
+	
 	church_opinion = 20
 	same_religion_opinion = 10
 	monthly_character_prestige = 1.0
 	ai_zeal = 40
-
+	
 	male_compliment_adj = COMPL_HOLY
 	female_compliment_adj = COMPL_HOLY
 }
@@ -1765,20 +1763,20 @@ yazidi_pilgrim = {
 exalted1 = {
 	customizer = no
 	random = no
-
+	
 	opposites = {
 		exalted2
 		exalted3
 		exalted4
 	}
-
+	
 	general_opinion = 10
 	command_modifier = {
 		morale_offence = 0.05
 		morale_defence = 0.05
 	}
 	ai_ambition = 10
-
+	
 	male_compliment_adj = COMPL_GREAT
 	female_compliment_adj = COMPL_GREAT
 }
@@ -1786,20 +1784,20 @@ exalted1 = {
 exalted2 = {
 	customizer = no
 	random = no
-
+	
 	opposites = {
 		exalted1
 		exalted3
 		exalted4
 	}
-
+	
 	general_opinion = 15
 	command_modifier = {
 		morale_offence = 0.10
 		morale_defence = 0.10
 	}
 	ai_ambition = 20
-
+	
 	male_compliment_adj = COMPL_GREAT
 	female_compliment_adj = COMPL_GREAT
 }
@@ -1807,20 +1805,20 @@ exalted2 = {
 exalted3 = {
 	customizer = no
 	random = no
-
+	
 	opposites = {
 		exalted1
 		exalted2
 		exalted4
 	}
-
+	
 	general_opinion = 20
 	command_modifier = {
 		morale_offence = 0.15
 		morale_defence = 0.15
 	}
 	ai_ambition = 30
-
+	
 	male_compliment_adj = COMPL_GREAT
 	female_compliment_adj = COMPL_GREAT
 }
@@ -1828,289 +1826,47 @@ exalted3 = {
 exalted4 = {
 	customizer = no
 	random = no
-
+	
 	opposites = {
 		exalted1
 		exalted2
 		exalted3
 	}
-
+	
 	general_opinion = 25
 	command_modifier = {
 		morale_offence = 0.20
 		morale_defence = 0.20
 	}
 	ai_ambition = 40
-
+	
 	male_compliment_adj = COMPL_GREAT
 	female_compliment_adj = COMPL_GREAT
 }
 
-#VIET traits
-
-agile = {
-	birth = 100
-	inherit_chance = 25
-
-	martial = 1
-	intrigue = 1
-
-	health = 0.5
-
-	combat_rating = 1
-
-	male_compliment = COMPL_FLEET_FOOT
-	female_compliment = COMPL_FLEET_FOOT
-	male_compliment_adj = COMPL_SWIFT
-	female_compliment_adj = COMPL_SWIFT
-	male_insult = INSULT_TWINKLE_TOES
-	male_insult_adj = INSULT_TWINKLE_TOED
-	female_insult = INSULT_TWINKLE_TOES
-	female_insult_adj = INSULT_TWINKLE_TOED
-
+dynasty_decadence_low = {
+	customizer = no
+	random = no
+	
+	muslim_opinion = -10
+	monthly_character_prestige = -0.5
+	monthly_character_piety = -0.25
 }
 
-perceptive = {
-	birth = 100
-	inherit_chance = 25
-
-	opposites =  {
-		absentminded
-	}
-
-	martial = 1
-	intrigue = 2
-
-	combat_rating = 1
-
-	male_compliment_adj = COMPL_SHARP
-	female_compliment_adj = COMPL_SHARP
-
-}
-melodious_voice = {
-	birth = 100
-	inherit_chance = 25
-
-	opposites =  {
-		powerful_voice
-		calm_voice
-	}
-
-	diplomacy = 2
-
-	sex_appeal_opinion = 5
-
-	male_compliment_adj = COMPL_HONEY_VOICE
-	female_compliment_adj = COMPL_HONEY_VOICE
-
-}
-powerful_voice = {
-	birth = 100
-	inherit_chance = 25
-
-	opposites =  {
-		melodious_voice
-		calm_voice
-	}
-
-	diplomacy = 1
-	martial = 1
-
-	combat_rating = 1
-
-	sex_appeal_opinion = 5
-
-	male_compliment_adj = COMPL_MIGHTY_VOICE
-	female_compliment_adj = COMPL_MIGHTY_VOICE
-
-}
-ambidextrous = {
-	birth = 50
-	inherit_chance = 25
-
-	opposites =  {
-		lefthanded
-	}
-
-	martial = 1
-	stewardship = 1
-	learning = 1
-
-	combat_rating = 2
-
-	male_compliment_adj = COMPL_DEFT
-	female_compliment_adj = COMPL_DEFT
-	male_insult_adj = INSULT_DOUBLE_HANDED
-	female_insult_adj = INSULT_DOUBLE_HANDED
-
-}
-lefthanded = {
-	birth = 250
-	inherit_chance = 25
-
-	opposites =  {
-		ambidextrous
-	}
-
-	church_opinion = -10
-	diplomacy = -1
-	martial = 1
-	intrigue = 1
-
-	combat_rating = 1
-
-	male_insult = INSULT_LEFT_HANDED_FREAK
-	female_insult = INSULT_LEFT_HANDED_FREAK
-	male_insult_adj = INSULT_LEFT_HANDED
-	female_insult_adj = INSULT_LEFT_HANDED
-
-}
-wrymouth = {
-	birth = 50
-	inherit_chance = 25
-
-	health = -0.2
-	diplomacy = -1
-
-	sex_appeal_opinion = -10
-
-	male_insult_adj = INSULT_DROOLING
-	female_insult_adj = INSULT_DROOLING
-
-}
-deaf = {
-	birth = 50
-	inherit_chance = 25
-
-	same_opinion = 5
-
-	combat_rating = -2
-
-	diplomacy = -1
-	martial = -1
-	intrigue = -2
-
-	male_insult_adj = INSULT_DEAF
-	female_insult_adj = INSULT_DEAF
-
-}
-absentminded = {
-	birth = 100
-	inherit_chance = 25
-
-	opposites =  {
-		perceptive
-	}
-
-	same_opinion = 5
-
-	combat_rating = -1
-
-	diplomacy = -1
-	martial = -1
-	intrigue = -1
-
-	male_compliment = COMPL_DAYDREAMER
-	female_compliment = COMPL_DAYDREAMER
-	male_insult = INSULT_CUCKOOHEAD
-	male_insult_adj = INSULT_OBLIVIOUS
-	female_insult = INSULT_CUCKOOHEAD
-	female_insult_adj = INSULT_OBLIVIOUS
-
-}
-calm_voice = {
-	birth = 100
-	inherit_chance = 25
-
-	opposites =  {
-		melodious_voice
-		powerful_voice
-	}
-
-	sex_appeal_opinion = 5
-
-	diplomacy = 1
-	intrigue = 1
-
-}
-fertile = {
-	birth = 100
-	inherit_chance = 25
-
-	sex_appeal_opinion = 5
-
-	fertility = 0.1
-
-	male_compliment_adj = COMPL_WELL_ENDOWED
-	female_compliment_adj = COMPL_WELL_ENDOWED
-	male_insult = INSULT_PHALLUS
-	male_insult_adj = INSULT_COCKY
-	female_insult = INSULT_TITS
-	female_insult_adj = INSULT_WANTON
-
-}
-imposing = {
-	birth = 50
-	inherit_chance = 25
-
-	martial = 1
-
-	vassal_opinion = 5
-
-	combat_rating = 1
-
-	male_compliment_adj = COMPL_IMPOSING
-	female_compliment_adj = COMPL_IMPOSING
-	male_insult = INSULT_CREEP
-	male_insult_adj = INSULT_SCARY
-	female_insult = INSULT_CREEP
-	female_insult_adj = INSULT_SCARY
+dynasty_decadence_med = {
+	customizer = no
+	random = no
+	
+	muslim_opinion = -20
+	monthly_character_prestige = -1.0
+	monthly_character_piety = -0.5
 }
 
-loremaster = {
-
-	opposites =  {
-		herbalist
-	}
-
-	potential = {
-		religion_group = pagan_group
-	}
-
-	lifestyle = yes
-
-	diplomacy = 1
-	learning = 1
-
-	same_opinion = 10
-	tribal_opinion = 10
-
-	command_modifier = {
-		morale_defence = 0.01
-		morale_offence = 0.01
-	}
-
-}
-herbalist = {
-
-	opposites =  {
-		herbalist
-	}
-
-	potential = {
-		religion_group = pagan_group
-	}
-
-	lifestyle = yes
-
-	intrigue = 1
-	learning = 1
-
-	same_opinion = 10
-	tribal_opinion = 10
-
-	command_modifier = {
-		speed = 0.02
-	}
-
+dynasty_decadence_high = {
+	customizer = no
+	random = no
+	
+	muslim_opinion = -30
+	monthly_character_prestige = -1.5
+	monthly_character_piety = -0.75
 }

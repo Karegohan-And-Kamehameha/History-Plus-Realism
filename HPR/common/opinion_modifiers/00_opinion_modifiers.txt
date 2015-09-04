@@ -2779,8 +2779,8 @@ opinion_sacrilege = {
 
 opinion_takfir = {
 	opinion = -40
+	banish_reason = yes
 	prison_reason = yes
-	execute_reason = yes
 }
 
 opinion_straightened_up = {

@@ -1,2 +1,0 @@
-#VIETnam.32 <--
-# Removed due to obsolete code

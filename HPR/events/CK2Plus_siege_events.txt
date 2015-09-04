@@ -12,10 +12,10 @@ namespace = Plus
 # On start of siege, send an event to the defender
 character_event = {
 	id = Plus.1000 #formerly 1100099991
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	trigger = {
 		siege = { is_attacker = yes }
 		location = {
@@ -47,7 +47,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		location = {
 			any_province_lord = {
@@ -114,8 +114,8 @@ character_event = {
 	border = "GFX_event_normal_frame_war"
 
 	is_triggered_only = yes
-	
-	option = {	
+
+	option = {
 		name = "EVTOPTA_Plus_1001" #We remain and defend the castle
 		trigger = {
 			OR = {
@@ -128,8 +128,8 @@ character_event = {
 				intrigue = 12
 			}
 		}
-		ai_chance = { 
-			factor = 0.5 
+		ai_chance = {
+			factor = 0.5
 			modifier = {
 				factor = 0
 				OR = {
@@ -210,7 +210,7 @@ character_event = {
 			}
 		}
 		any_courtier = {
-			limit = { 
+			limit = {
 				at_location = FROM
 				is_close_relative = ROOT
 				in_command = no
@@ -239,7 +239,7 @@ character_event = {
 			NOT = { has_character_flag = personally_present_at_siege }
 			has_character_flag = family_present_at_siege
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 5
@@ -287,9 +287,9 @@ character_event = {
 					remove_trait = cruel
 				}
 			}
-		}	
+		}
 		any_courtier = {
-			limit = { 
+			limit = {
 				at_location = FROM
 				is_close_relative = ROOT
 				in_command = no
@@ -317,7 +317,7 @@ character_event = {
 			has_character_flag = personally_present_at_siege
 			has_character_flag = family_present_at_siege
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 0.25
 			modifier = {
 				factor = 20
@@ -338,7 +338,7 @@ character_event = {
 				factor = 2
 				trait = diligent
 			}
-		}			
+		}
 		scaled_wealth = -0.75
 		hidden_tooltip = {
 			remove_character_modifier = stalwart_defender
@@ -393,7 +393,7 @@ character_event = {
 			set_character_flag = in_hiding_siege
 		}
 		any_courtier = {
-			limit = { 
+			limit = {
 				at_location = FROM
 				is_close_relative = ROOT
 				in_command = no
@@ -421,7 +421,7 @@ character_event = {
 			has_character_flag = personally_present_at_siege
 			has_character_flag = family_present_at_siege
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 0
@@ -539,7 +539,7 @@ character_event = {
 			}
 		}
 		any_courtier = {
-			limit = { 
+			limit = {
 				at_location = FROM
 				is_close_relative = ROOT
 				in_command = no
@@ -567,7 +567,7 @@ character_event = {
 			has_character_flag = personally_present_at_siege
 			NOT = { has_character_flag = family_present_at_siege }
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 0.25
 			modifier = {
 				factor = 20
@@ -584,7 +584,7 @@ character_event = {
 				factor = 2
 				trait = paranoid
 			}
-		}			
+		}
 		scaled_wealth = -0.5
 		hidden_tooltip = {
 			remove_character_modifier = stalwart_defender
@@ -627,7 +627,7 @@ character_event = {
 			NOT = { has_character_flag = personally_present_at_siege }
 			has_character_flag = family_present_at_siege
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 5
@@ -675,9 +675,9 @@ character_event = {
 					remove_trait = cruel
 				}
 			}
-		}	
+		}
 		any_courtier = {
-			limit = { 
+			limit = {
 				at_location = FROM
 				is_close_relative = ROOT
 				in_command = no
@@ -704,7 +704,7 @@ character_event = {
 			has_character_flag = personally_present_at_siege
 			has_character_flag = family_present_at_siege
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 0.25
 			modifier = {
 				factor = 20
@@ -725,7 +725,7 @@ character_event = {
 				factor = 2
 				trait = diligent
 			}
-		}			
+		}
 		tooltip_info = intrigue
 		hidden_tooltip = {
 			remove_character_modifier = stalwart_defender
@@ -780,7 +780,7 @@ character_event = {
 			set_character_flag = in_hiding_siege
 		}
 		any_courtier = {
-			limit = { 
+			limit = {
 				at_location = FROM
 				is_close_relative = ROOT
 				in_command = no
@@ -807,7 +807,7 @@ character_event = {
 			has_character_flag = personally_present_at_siege
 			has_character_flag = family_present_at_siege
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 0
@@ -925,7 +925,7 @@ character_event = {
 			}
 		}
 		any_courtier = {
-			limit = { 
+			limit = {
 				at_location = FROM
 				is_close_relative = ROOT
 				in_command = no
@@ -952,7 +952,7 @@ character_event = {
 			has_character_flag = personally_present_at_siege
 			NOT = { has_character_flag = family_present_at_siege }
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 0.25
 			modifier = {
 				factor = 20
@@ -969,7 +969,7 @@ character_event = {
 				factor = 2
 				trait = paranoid
 			}
-		}			
+		}
 		tooltip_info = intrigue
 		hidden_tooltip = {
 			remove_character_modifier = stalwart_defender
@@ -1005,7 +1005,7 @@ character_event = {
 		clr_character_flag = personally_present_at_siege
 		clr_character_flag = family_present_at_siege
 	}
-	option = {	
+	option = {
 		name = "EVTOPTF_Plus_1001" #There is nothing to be done. It is in the hands of God.
 		trigger = {
 			OR = {
@@ -1021,9 +1021,9 @@ character_event = {
 				}
 			}
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 0.5
-		}		
+		}
 		if = {
 			limit = {
 				has_character_flag = personally_present_at_siege
@@ -1062,7 +1062,7 @@ character_event = {
 			}
 		}
 		any_courtier = {
-			limit = { 
+			limit = {
 				at_location = FROM
 				is_close_relative = ROOT
 				in_command = no
@@ -1085,7 +1085,7 @@ character_event = {
 	}
 }
 
-# Escape from a siege where you have not hidden						
+# Escape from a siege where you have not hidden
 character_event = {
 	id = Plus.1005 #formerly 1100099992
 	title = "EVTNAME_Plus_1005"
@@ -1094,7 +1094,7 @@ character_event = {
 	border = "GFX_event_normal_frame_war"
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		siege = {
 			is_attacker = no
@@ -1117,53 +1117,53 @@ character_event = {
 		had_character_flag = { flag = defending_the_castle days = 20 random = 20 }
 	}
 
-	option = { 
+	option = {
 		name = "EVTOPTA_Plus_1005" #Slip out a postern door at midnight.
-		ai_chance = { 
-			factor = 0.75 
+		ai_chance = {
+			factor = 0.75
 			modifier = {
 				factor = 0.5
-				trait = craven 
+				trait = craven
 			}
 			modifier = {
 				factor = 2
-				trait = brave 
+				trait = brave
 			}
 			modifier = {
 				factor = 1.5
-				trait = ambitious 
+				trait = ambitious
 			}
 			modifier = {
 				factor = 0.75
-				trait = slothful 
+				trait = slothful
 			}
 		}
-		
+
 		hidden_tooltip = {
 			clr_character_flag = defending_the_castle
-			random = { 
+			random = {
 				chance = 25
 				if = {
 					limit = { trait = craven }
 					remove_trait = craven
 				}
-				add_trait = brave 
+				add_trait = brave
 				character_event = { id = 38270 }
 			}
-			random = { 
+			random = {
 				chance = 10
 				if = {
 					limit = { trait = slothful }
 					remove_trait = slothful
-					character_event = { id = 38298 }	
+					character_event = { id = 38298 }
 				}
 			}
-			random = { 
+			random = {
 				chance = 10
 				if = {
 					limit = { trait = content }
 					remove_trait = content
-					character_event = { id = 38299 }	
+					character_event = { id = 38299 }
 				}
 			}
 		}
@@ -1177,95 +1177,95 @@ character_event = {
 					}
 			}
 			66 = {
-				ROOT = { 
+				ROOT = {
 					custom_tooltip = {
-						text = EVTTOOLTIPsiegecapturedenemy 
+						text = EVTTOOLTIPsiegecapturedenemy
 					}
-					set_character_flag = captured 
+					set_character_flag = captured
 				}
 				hidden_tooltip = {
-					ROOT = { character_event = { id = Plus.1006 } }		
+					ROOT = { character_event = { id = Plus.1006 } }
 					siege = { enemy = { leader = { character_event = { id = Plus.1010 } } } }
 				}
-			}	
+			}
 		}
 	}
-	option = { 
+	option = {
 		name = "EVTOPTB_Plus_1005" #Brave the sewers.
-		ai_chance = { 
-			factor = 0.5 
+		ai_chance = {
+			factor = 0.5
 			modifier = {
 				factor = 5
-				trait = ambitious 
+				trait = ambitious
 			}
 			modifier = {
 				factor = 20
-				trait = brave 
+				trait = brave
 			}
 			modifier = {
 				factor = 20
-				trait = humble 
+				trait = humble
 			}
 			modifier = {
 				factor = 0.5
-				trait = craven 
+				trait = craven
 			}
 			modifier = {
 				factor = 0.75
-				trait = slothful 
+				trait = slothful
 			}
-		}		
+		}
 		hidden_tooltip = {
 			clr_character_flag = defending_the_castle
-			random = { 
+			random = {
 				chance = 25
-				if = { 
+				if = {
 					limit = { trait = craven }
 					remove_trait = craven
 				}
 				add_trait = brave
 				character_event = { id = 38270 }
 			}
-			random = { 
+			random = {
 				chance = 25
-				if = { 
+				if = {
 					limit = { trait = proud }
 					remove_trait = proud
 				}
 				add_trait = humble
-				character_event = { id = 38260 }				
+				character_event = { id = 38260 }
 			}
-			random = { 
+			random = {
 				chance = 10
 				remove_trait = slothful
 				character_event = { id = 38298 }
 			}
-			random = { 
+			random = {
 				chance = 10
 				remove_trait = content
 				character_event = { id = 38299 }
 			}
-			random = { 
+			random = {
 				chance = 10
 				add_trait = ill
 				character_event = { id = 38290 }
 			}
-			random = { 
+			random = {
 				chance = 5
 				add_trait = wounded
 				character_event = { id = 38280 }
 			}
-			random = { 
+			random = {
 				chance = 5
 				add_trait = pneumonic
 				character_event = { id = 38290 }
 			}
-			random = { 
+			random = {
 				chance = 5
 				add_trait = infirm
 				character_event = { id = 38284 }
 			}
-			random = { 
+			random = {
 				chance = 1
 				add_trait = maimed
 				character_event = { id = 38281 }
@@ -1273,31 +1273,31 @@ character_event = {
 		}
 		custom_tooltip = { text = "dis_chance" }
 		hidden_tooltip = {
-			random = { 
+			random = {
 				chance = 1
 				add_trait = has_tuberculosis
 			}
-			random = { 
+			random = {
 				chance = 1
 				add_trait = has_bubonic_plague
 			}
-			random = { 
+			random = {
 				chance = 1
 				add_trait = has_typhoid_fever
 			}
-			random = { 
+			random = {
 				chance = 1
 				add_trait = has_typhus
 			}
-			random = { 
+			random = {
 				chance = 1
 				add_trait = has_small_pox
 			}
-			random = { 
+			random = {
 				chance = 1
 				add_trait = has_measles
 			}
-			random = { 
+			random = {
 				chance = 1
 				add_trait = leper
 			}
@@ -1312,21 +1312,21 @@ character_event = {
 				}
 			}
 			25 = {
-				ROOT = { 
-					custom_tooltip = { 
-						text = EVTTOOLTIPsiegecapturedenemy 
+				ROOT = {
+					custom_tooltip = {
+						text = EVTTOOLTIPsiegecapturedenemy
 					}
-					set_character_flag = captured 
+					set_character_flag = captured
 				}
 				hidden_tooltip = {
 					ROOT = { character_event = { id = Plus.1006 } }
-					siege = { enemy = { leader = { character_event = { id = Plus.1010 } } } } 
+					siege = { enemy = { leader = { character_event = { id = Plus.1010 } } } }
 				}
-		 
+
 			}
 		}
 	}
-	option = { 
+	option = {
 		name = "EVTOPTC_Plus_1005" #Just give me a rope...
 		trigger = {
 			NOR = {
@@ -1334,31 +1334,31 @@ character_event = {
 				is_ill = yes
 			}
 		}
-		ai_chance = { 
-			factor = 0.1 
+		ai_chance = {
+			factor = 0.1
 			modifier = {
 				factor = 5
-				trait = ambitious 
+				trait = ambitious
 			}
 			modifier = {
 				factor = 20
-				trait = lunatic 
+				trait = lunatic
 			}
 			modifier = {
 				factor = 20
-				trait = possessed 
+				trait = possessed
 			}
 			modifier = {
 				factor = 10
-				trait = brave 
+				trait = brave
 			}
 			modifier = {
 				factor = 0.5
-				trait = craven 
+				trait = craven
 			}
 			modifier = {
 				factor = 0.5
-				trait = slothful 
+				trait = slothful
 			}
 			modifier = {
 				factor = 0.1
@@ -1367,13 +1367,13 @@ character_event = {
 		}
 		clr_character_flag = defending_the_castle
 		hidden_tooltip = {
-			random = { 
+			random = {
 				chance = 50
 				if = {
 					limit = { trait = craven }
 					remove_trait = craven
 				}
-				add_trait = brave 
+				add_trait = brave
 				character_event = { id = 38270 }
 			}
 			random = {
@@ -1382,15 +1382,15 @@ character_event = {
 					limit = { trait = humble }
 					remove_trait = humble
 				}
-				add_trait = proud 
+				add_trait = proud
 				character_event = { id = 38261 }
 			}
-			random = { 
+			random = {
 				chance = 20
 				add_trait = lunatic
 				character_event = { id = 38304 }
 			}
-			random = { 
+			random = {
 				chance = 20
 					if = {
 						limit = { trait = paranoid }
@@ -1399,7 +1399,7 @@ character_event = {
 					add_trait = trusting
 					character_event = { id = 38250 }
 			}
-			random = { 
+			random = {
 				chance = 20
 				if = {
 					limit = { trait = slothful }
@@ -1412,12 +1412,12 @@ character_event = {
 					character_event = { id = 38299 }
 				}
 			}
-			random = { 
+			random = {
 				chance = 5
 				add_trait = wounded
 				character_event = { id = 38280 }
 			}
-			random = { 
+			random = {
 				chance = 10
 				add_trait = maimed
 				character_event = { id = 38281 }
@@ -1425,7 +1425,7 @@ character_event = {
 		}
 		random_list = {
 			70 = {
-				custom_tooltip = { 
+				custom_tooltip = {
 					text = EVTTOOLTIPsiegeescaped
 				}
 				hidden_tooltip = {
@@ -1433,12 +1433,12 @@ character_event = {
 				}
 			}
 			20 = {
-				ROOT = { 
-					custom_tooltip = { 
+				ROOT = {
+					custom_tooltip = {
 						text = EVTTOOLTIPsiegecapturedenemy
 					}
-					set_character_flag = captured 
-				}		
+					set_character_flag = captured
+				}
 				hidden_tooltip = {
 					ROOT = { character_event = { id = Plus.1006 } }
 					siege = { enemy = { leader = { character_event = { id = Plus.1010 } } } }
@@ -1452,22 +1452,22 @@ character_event = {
 	option = {
 		name = "EVTOPTD_Plus_1005" #I think it's better we wait.
 		ai_chance = {
-			factor = 5 
+			factor = 5
 			modifier = {
 				factor = 2
-				trait = content 
+				trait = content
 			}
 			modifier = {
 				factor = 2
-				trait = patient 
+				trait = patient
 			}
 			modifier = {
 				factor = 2
-				trait = craven 
+				trait = craven
 			}
 			modifier = {
 				factor = 0.5
-				trait = ambitious 
+				trait = ambitious
 			}
 			modifier = {
 				factor = 0.1
@@ -1475,12 +1475,12 @@ character_event = {
 			}
 			modifier = {
 				factor = 2
-				trait = slothful 
+				trait = slothful
 			}
 		}
 		hidden_tooltip = {
 			clr_character_flag = defending_the_castle
-			random = { 
+			random = {
 				chance = 25
 				if = {
 					limit = { trait = wroth }
@@ -1489,12 +1489,12 @@ character_event = {
 				add_trait = patient
 				character_event = { id = 38264 }
 			}
-			random = { 
+			random = {
 				chance = 25
 				add_trait = stressed
 				character_event = { id = 38282 }
 			}
-			random = { 
+			random = {
 				chance = 5
 				if = {
 					limit = { trait = brave }
@@ -1503,7 +1503,7 @@ character_event = {
 				add_trait = craven
 				character_event = { id = 38257 }
 			}
-			random = { 
+			random = {
 				chance = 5
 				if = {
 					limit = { trait = greedy }
@@ -1512,7 +1512,7 @@ character_event = {
 				add_trait = temperate
 				character_event = { id = 38276 }
 			}
-			random = { 
+			random = {
 				chance = 5
 				if = {
 					limit = { trait = trusting }
@@ -1524,7 +1524,7 @@ character_event = {
 		}
 	}
 }
-		
+
 # Captured by the enemy while trying to flee the castle
 character_event = {
 	id = Plus.1006 #formerly 1100099993
@@ -1532,17 +1532,17 @@ character_event = {
 	desc = "EVTDESC_Plus_1006"
 	picture = "GFX_evt_into_the_dungeon"
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "CURSES"
 		remove_character_modifier = stalwart_defender
 		ROOT = {
-			custom_tooltip = { 
+			custom_tooltip = {
 				text = EVTTOOLWAYfamilyhatesyou
 			}
-		}		
+		}
 	}
 }
 
@@ -1553,9 +1553,9 @@ character_event = {
 	desc = "EVTDESC_Plus_1007"
 	picture = "GFX_evt_escape_siege"
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = { is_alive = yes }
 
 	option = {
@@ -1565,7 +1565,7 @@ character_event = {
 		hidden_tooltip = {
 			remove_character_modifier = left_at_siege
 			remove_character_modifier = stalwart_defender
-		}		
+		}
 		add_character_modifier = {
 			name = escaped_siege
 			duration = 365
@@ -1593,9 +1593,9 @@ character_event = {
 	desc = "EVTDESC_Plus_1008"
 	picture = "GFX_evt_escape_siege"
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = { is_alive = yes }
 
 	option = {
@@ -1633,9 +1633,9 @@ character_event = {
 	desc = "EVTDESC_Plus_1009"
 	picture = "GFX_evt_escape_siege"
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = { is_alive = yes }
 
 	option = {
@@ -1665,7 +1665,7 @@ character_event = {
 		}
 	}
 }
-	
+
 # Notify siege leader that ruler was captured
 character_event = {
 	id = Plus.1010 #formerly 1100099997
@@ -1673,20 +1673,20 @@ character_event = {
 	desc = "EVTDESC_Plus_1010"
 	picture = "GFX_evt_into_the_dungeon"
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1010"
 		siege = {
 			enemy = {
 				leader = {
 					if = {
-						limit = { 
-							has_character_flag = captured 
+						limit = {
+							has_character_flag = captured
 							NOT = { trait = in_hiding }
 						}
-						imprison = ROOT 
+						imprison = ROOT
 						clr_character_flag = captured
 						hidden_tooltip = {
 							remove_character_modifier = left_at_siege
@@ -1708,7 +1708,7 @@ character_event = {
 					}
 				}
 			}
-		}	
+		}
 	}
 }
 
@@ -1717,10 +1717,10 @@ character_event = {
 # Unit leader at the siege gets the main imprisonment event (if not unreformed pagan)
 character_event = {
 	id = Plus.1020
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	trigger = {
 		rebel = no
 		NOR = {
@@ -1747,7 +1747,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -1889,21 +1889,21 @@ character_event = {
 
 	hide_from = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1021" #Take him prisoner at once
 		ai_chance = {
 			factor = 10
 			modifier = {
-				factor = 50  
+				factor = 50
 				FROMFROM = { holder_scope = { primary_title = { higher_tier_than = COUNT } } }
 			}
 			modifier = {
-				factor = 100  
+				factor = 100
 				FROMFROM = { holder_scope = { primary_title = { higher_tier_than = DUKE } } }
 			}
 			modifier = {
-				factor = 0.25  
+				factor = 0.25
 				FROMFROM = { holder_scope = { primary_title = { lower_tier_than = COUNT } } }
 			}
 			modifier = {
@@ -1956,7 +1956,7 @@ character_event = {
 						}
 					}
 				}
-				random = { 
+				random = {
 					chance = 5
 					if = {
 						limit = {
@@ -1969,7 +1969,7 @@ character_event = {
 					if = {
 						limit = { trait = arbitrary }
 						remove_trait = arbitrary
-					}				
+					}
 				}
 			}
 		}
@@ -2061,12 +2061,12 @@ character_event = {
 			}
 			modifier = {
 				factor = 40
-				FROMFROM = { holder_scope = { 
+				FROMFROM = { holder_scope = {
 					any_dynasty_member = { primary_title = { higher_tier_than = COUNT } } } }
 			}
 			modifier = {
 				factor = 100
-				FROMFROM = { holder_scope = { 
+				FROMFROM = { holder_scope = {
 					any_dynasty_member = { primary_title = { higher_tier_than = DUKE } } } }
 			}
 			modifier = {
@@ -2088,12 +2088,12 @@ character_event = {
 			modifier = {
 				factor = 20
 				trait = wroth
-			}	
+			}
 		}
 		hidden_tooltip = {
 			if = {
 				limit = { NOT = { trait = greedy } }
-				random = { 			
+				random = {
 					chance = 10
 					if = {
 						limit = {
@@ -2320,7 +2320,7 @@ character_event = {
 		hidden_tooltip = {
 			if = {
 				limit = { NOT = { trait = cruel } }
-				random = { 			
+				random = {
 					chance = 50
 					add_trait = cruel
 					hidden_tooltip = { character_event = { id = 38259 } } # notify cruel
@@ -2328,7 +2328,7 @@ character_event = {
 			}
 			if = {
 				limit = { NOT = { trait = arbitrary } }
-				random = { 			
+				random = {
 					chance = 20
 					add_trait = arbitrary
 					hidden_tooltip = { character_event = { id = 38266 } } # notify arbitrary
@@ -2486,6 +2486,67 @@ character_event = {
 			}
 			add_trait = dishonorable1
 		}
+					#Fear cuts deeper than swords
+				if = {
+					limit = { trait = feared9}
+					add_trait = feared10
+					remove_trait = feared9
+				}
+				if = {
+					limit = { trait = feared8}
+					add_trait = feared9
+					remove_trait = feared8
+				}
+				if = {
+					limit = { trait = feared7}
+					add_trait = feared8
+					remove_trait = feared7
+				}
+				if = {
+					limit = { trait = feared6}
+					add_trait = feared7
+					remove_trait = feared6
+				}
+				if = {
+					limit = { trait = feared5}
+					add_trait = feared6
+					remove_trait = feared5
+				}
+				if = {
+					limit = { trait = feared4}
+					add_trait = feared5
+					remove_trait = feared4
+				}
+				if = {
+					limit = { trait = feared3}
+					add_trait = feared4
+					remove_trait = feared3
+				}
+				if = {
+					limit = { trait = feared2}
+					add_trait = feared3
+					remove_trait = feared2
+				}
+				if = {
+					limit = { trait = feared1}
+					add_trait = feared2
+					remove_trait = feared1
+				}
+				if = {
+					limit = {
+					NOT = { trait = feared1}
+					NOT = { trait = feared2}
+					NOT = { trait = feared3}
+					NOT = { trait = feared4}
+					NOT = { trait = feared5}
+					NOT = { trait = feared6}
+					NOT = { trait = feared7}
+					NOT = { trait = feared8}
+					NOT = { trait = feared9}
+					NOT = { trait = feared10}
+					}
+					add_trait = feared1
+				}
 		FROMFROM = {
 			holder_scope = {
 				top_liege = {
@@ -2668,12 +2729,12 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				trait = cruel
-			}	
+			}
 		}
 		hidden_tooltip = {
 			if = {
 				limit = { NOT = { trait = kind } }
-				random = { 			
+				random = {
 					chance = 10
 					if = {
 						limit = {
@@ -2691,7 +2752,7 @@ character_event = {
 			}
 			if = {
 				limit = { NOT = { trait = charitable } }
-				random = { 			
+				random = {
 					chance = 10
 					if = {
 						limit = {
@@ -2740,7 +2801,7 @@ character_event = {
 								is_alive = yes
 							}
 						}
-					}			
+					}
 					opinion = {
 						who = ROOT
 						modifier = opinion_relieved
@@ -2761,21 +2822,21 @@ character_event = {
 
 	hide_from = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1022" #Find him -- he's the only one we want
 		ai_chance = {
 			factor = 10
 			modifier = {
-				factor = 50  
+				factor = 50
 				FROMFROM = { holder_scope = { primary_title = { higher_tier_than = COUNT } } }
 			}
 			modifier = {
-				factor = 100  
+				factor = 100
 				FROMFROM = { holder_scope = { primary_title = { higher_tier_than = DUKE } } }
 			}
 			modifier = {
-				factor = 0.25  
+				factor = 0.25
 				FROMFROM = { holder_scope = { primary_title = { lower_tier_than = COUNT } } }
 			}
 			modifier = {
@@ -2834,7 +2895,7 @@ character_event = {
 						}
 					}
 				}
-				random = { 
+				random = {
 					chance = 5
 					if = {
 						limit = {
@@ -2847,7 +2908,7 @@ character_event = {
 					if = {
 						limit = { trait = arbitrary }
 						remove_trait = arbitrary
-					}				
+					}
 				}
 			}
 		}
@@ -2927,12 +2988,12 @@ character_event = {
 			}
 			modifier = {
 				factor = 40
-				FROMFROM = { holder_scope = { 
+				FROMFROM = { holder_scope = {
 					any_dynasty_member = { primary_title = { higher_tier_than = COUNT } } } }
 			}
 			modifier = {
 				factor = 100
-				FROMFROM = { holder_scope = { 
+				FROMFROM = { holder_scope = {
 					any_dynasty_member = { primary_title = { higher_tier_than = DUKE } } } }
 			}
 			modifier = {
@@ -2954,12 +3015,12 @@ character_event = {
 			modifier = {
 				factor = 20
 				trait = wroth
-			}	
+			}
 		}
 		hidden_tooltip = {
 			if = {
 				limit = { NOT = { trait = greedy } }
-				random = { 			
+				random = {
 					chance = 10
 					if = {
 						limit = {
@@ -3174,7 +3235,7 @@ character_event = {
 		hidden_tooltip = {
 			if = {
 				limit = { NOT = { trait = cruel } }
-				random = { 			
+				random = {
 					chance = 50
 					add_trait = cruel
 					hidden_tooltip = { character_event = { id = 38259 } } # I am cruel!
@@ -3182,7 +3243,7 @@ character_event = {
 			}
 			if = {
 				limit = { NOT = { trait = arbitrary } }
-				random = { 			
+				random = {
 					chance = 20
 					add_trait = arbitrary
 					hidden_tooltip = { character_event = { id = 38266 } } # I am arbitrary!
@@ -3340,6 +3401,67 @@ character_event = {
 			}
 			add_trait = dishonorable1
 		}
+					#Fear cuts deeper than swords
+				if = {
+					limit = { trait = feared9}
+					add_trait = feared10
+					remove_trait = feared9
+				}
+				if = {
+					limit = { trait = feared8}
+					add_trait = feared9
+					remove_trait = feared8
+				}
+				if = {
+					limit = { trait = feared7}
+					add_trait = feared8
+					remove_trait = feared7
+				}
+				if = {
+					limit = { trait = feared6}
+					add_trait = feared7
+					remove_trait = feared6
+				}
+				if = {
+					limit = { trait = feared5}
+					add_trait = feared6
+					remove_trait = feared5
+				}
+				if = {
+					limit = { trait = feared4}
+					add_trait = feared5
+					remove_trait = feared4
+				}
+				if = {
+					limit = { trait = feared3}
+					add_trait = feared4
+					remove_trait = feared3
+				}
+				if = {
+					limit = { trait = feared2}
+					add_trait = feared3
+					remove_trait = feared2
+				}
+				if = {
+					limit = { trait = feared1}
+					add_trait = feared2
+					remove_trait = feared1
+				}
+				if = {
+					limit = {
+					NOT = { trait = feared1}
+					NOT = { trait = feared2}
+					NOT = { trait = feared3}
+					NOT = { trait = feared4}
+					NOT = { trait = feared5}
+					NOT = { trait = feared6}
+					NOT = { trait = feared7}
+					NOT = { trait = feared8}
+					NOT = { trait = feared9}
+					NOT = { trait = feared10}
+					}
+					add_trait = feared1
+				}
 		FROMFROM = {
 			holder_scope = {
 				top_liege = {
@@ -3459,7 +3581,7 @@ character_event = {
 				}
 			}
 		}
-	}	 
+	}
 	option = {
 		name = "EVTOPTD_Plus_1021" #Leave them be.
 		ai_chance = {
@@ -3487,12 +3609,12 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				trait = cruel
-			}	
+			}
 		}
 		hidden_tooltip = {
 			if = {
 				limit = { NOT = { trait = kind } }
-				random = { 			
+				random = {
 					chance = 10
 					if = {
 						limit = {
@@ -3510,7 +3632,7 @@ character_event = {
 			}
 			if = {
 				limit = { NOT = { trait = charitable } }
-				random = { 			
+				random = {
 					chance = 10
 					if = {
 						limit = {
@@ -3547,7 +3669,7 @@ character_event = {
 								is_alive = yes
 							}
 						}
-					}			
+					}
 					opinion = {
 						who = ROOT
 						modifier = opinion_relieved
@@ -3568,7 +3690,7 @@ character_event = {
 
 	hide_from = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1023" #Grab anyone of importance we can find
 		ai_chance = {
@@ -3579,12 +3701,12 @@ character_event = {
 			}
 			modifier = {
 				factor = 40
-				FROMFROM = { holder_scope = { 
+				FROMFROM = { holder_scope = {
 					any_dynasty_member = { primary_title = { higher_tier_than = COUNT } } } }
 			}
 			modifier = {
 				factor = 100
-				FROMFROM = { holder_scope = { 
+				FROMFROM = { holder_scope = {
 					any_dynasty_member = { primary_title = { higher_tier_than = DUKE } } } }
 			}
 			modifier = {
@@ -3606,11 +3728,11 @@ character_event = {
 			modifier = {
 				factor = 20
 				trait = wroth
-			}	
+			}
 		}
 		if = {
 			limit = { NOT = { trait = greedy } }
-			random = { 			
+			random = {
 				chance = 10
 				if = {
 					limit = {
@@ -3804,10 +3926,10 @@ character_event = {
 		if = {
 			limit = { NOT  = { lifestyle_traits = 1 } }
 			add_trait = impaler
-		}		
+		}
 		if = {
 			limit = { NOT = { trait = cruel } }
-			random = { 			
+			random = {
 				chance = 50
 				add_trait = cruel
 				hidden_tooltip = { character_event = { id = 38259 } } # I am cruel!
@@ -3815,7 +3937,7 @@ character_event = {
 		}
 		if = {
 			limit = { NOT = { trait = arbitrary } }
-			random = { 			
+			random = {
 				chance = 20
 				add_trait = arbitrary
 				hidden_tooltip = { character_event = { id = 38266 } } # I am arbitrary!
@@ -3972,6 +4094,67 @@ character_event = {
 			}
 			add_trait = dishonorable1
 		}
+					#Fear cuts deeper than swords
+				if = {
+					limit = { trait = feared9}
+					add_trait = feared10
+					remove_trait = feared9
+				}
+				if = {
+					limit = { trait = feared8}
+					add_trait = feared9
+					remove_trait = feared8
+				}
+				if = {
+					limit = { trait = feared7}
+					add_trait = feared8
+					remove_trait = feared7
+				}
+				if = {
+					limit = { trait = feared6}
+					add_trait = feared7
+					remove_trait = feared6
+				}
+				if = {
+					limit = { trait = feared5}
+					add_trait = feared6
+					remove_trait = feared5
+				}
+				if = {
+					limit = { trait = feared4}
+					add_trait = feared5
+					remove_trait = feared4
+				}
+				if = {
+					limit = { trait = feared3}
+					add_trait = feared4
+					remove_trait = feared3
+				}
+				if = {
+					limit = { trait = feared2}
+					add_trait = feared3
+					remove_trait = feared2
+				}
+				if = {
+					limit = { trait = feared1}
+					add_trait = feared2
+					remove_trait = feared1
+				}
+				if = {
+					limit = {
+					NOT = { trait = feared1}
+					NOT = { trait = feared2}
+					NOT = { trait = feared3}
+					NOT = { trait = feared4}
+					NOT = { trait = feared5}
+					NOT = { trait = feared6}
+					NOT = { trait = feared7}
+					NOT = { trait = feared8}
+					NOT = { trait = feared9}
+					NOT = { trait = feared10}
+					}
+					add_trait = feared1
+				}
 		FROMFROM = {
 			holder_scope = {
 				any_courtier = {
@@ -4075,7 +4258,7 @@ character_event = {
 				}
 			}
 		}
-	}	 
+	}
 	option = {
 		name = "EVTOPTC_Plus_1023" #Leave them be.
 		ai_chance = {
@@ -4103,11 +4286,11 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				trait = cruel
-			}	
+			}
 		}
 		if = {
 			limit = { NOT = { trait = kind } }
-			random = { 			
+			random = {
 				chance = 10
 				if = {
 					limit = {
@@ -4125,7 +4308,7 @@ character_event = {
 		}
 		if = {
 			limit = { NOT = { trait = charitable } }
-			random = { 			
+			random = {
 				chance = 10
 				if = {
 					limit = {
@@ -4178,10 +4361,10 @@ character_event = {
 	desc = EVTDESC_Plus_1024
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_war
-	
+
 	hide_from = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_1024 #Release all prisoners
 		trigger = {
@@ -4192,7 +4375,7 @@ character_event = {
 				}
 			}
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 0.25
 			modifier = {
 				factor = 2
@@ -4258,7 +4441,7 @@ character_event = {
 		}
 		FROMFROM = {
 			holder_scope = {
-				any_courtier = {	
+				any_courtier = {
 					limit = {
 						at_location = FROMFROM
 						prisoner = yes
@@ -4266,7 +4449,7 @@ character_event = {
 					prisoner = no
 				}
 			}
-		}	
+		}
 	}
 	option = {
 		name = EVTOPTB_Plus_1024 #Transfer them to my dungeon!
@@ -4287,8 +4470,8 @@ character_event = {
 				}
 			}
 		}
-		ai_chance = { 
-			factor = 0.1 
+		ai_chance = {
+			factor = 0.1
 			modifier = {
 				factor = 0
 				OR = {
@@ -4323,7 +4506,7 @@ character_event = {
 			modifier = {
 				factor = 5
 				trait = paranoid
-			} 
+			}
 		}
 		random = {
 			chance = 10
@@ -4357,7 +4540,7 @@ character_event = {
 		}
 		FROMFROM = {
 			holder_scope = {
-				any_courtier = {	
+				any_courtier = {
 					limit = {
 						at_location = FROMFROM
 						prisoner = yes
@@ -4376,7 +4559,7 @@ character_event = {
 					}
 				}
 			}
-		}	
+		}
 	}
 	option = {
 		name = EVTOPTC_Plus_1024 #Release anyone within whom we have common cause
@@ -4395,8 +4578,8 @@ character_event = {
 				}
 			}
 		}
-		ai_chance = { 
-			factor = 1.5 
+		ai_chance = {
+			factor = 1.5
 			modifier = {
 				factor = 2
 				trait = kind
@@ -4424,10 +4607,10 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				trait = paranoid
-			} 
+			}
 		}
 		hidden_tooltip = {
-			random = { 		
+			random = {
 				chance = 10
 				if = {
 					limit = {
@@ -4445,7 +4628,7 @@ character_event = {
 		}
 		FROMFROM = {
 			holder_scope = {
-				any_courtier = {	
+				any_courtier = {
 					limit = {
 						prisoner = yes
 						war_with = PREV
@@ -4476,7 +4659,7 @@ character_event = {
 				}
 			}
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 0.75
 			modifier = {
 				factor = 0.9
@@ -4508,7 +4691,7 @@ character_event = {
 			}
 		}
 		hidden_tooltip = {
-			random = { 			
+			random = {
 				chance = 10
 				if = {
 					limit = {
@@ -4526,7 +4709,7 @@ character_event = {
 		}
 		FROMFROM = {
 			holder_scope = {
-				any_courtier = {	
+				any_courtier = {
 					limit = {
 						prisoner = yes
 						OR = {
@@ -4540,7 +4723,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTE_Plus_1024 #Leave them	
+		name = EVTOPTE_Plus_1024 #Leave them
 		trigger = {
 			FROMFROM = {
 				holder_scope = {
@@ -4549,8 +4732,8 @@ character_event = {
 				}
 			}
 		}
-		ai_chance = { 
-			factor = 0.01 
+		ai_chance = {
+			factor = 0.01
 			modifier = {
 				factor = 0.1
 				trait = kind
@@ -4578,10 +4761,10 @@ character_event = {
 			modifier = {
 				factor = 10
 				trait = paranoid
-			} 
-		}	
+			}
+		}
 		hidden_tooltip = {
-			random = { 			
+			random = {
 				chance = 20
 				if = {
 					limit = {
@@ -4599,7 +4782,7 @@ character_event = {
 		}
 		FROMFROM = {
 			holder_scope = {
-				any_courtier = {	
+				any_courtier = {
 					limit = {
 						at_location = FROMFROM
 						prisoner = yes
@@ -4618,10 +4801,10 @@ character_event = {
 # When liberating a friendly castle
 character_event = {
 	id = Plus.1025
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	trigger = {
 		rebel = no
 		is_looting = no
@@ -4637,10 +4820,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		prestige = 10
-		FROM = { 
+		FROM = {
 			holder_scope = {
 				if = {
 					limit = { at_location = ROOT }
@@ -4652,10 +4835,10 @@ character_event = {
 					remove_character_modifier = stalwart_defender
 					remove_character_modifier = left_at_siege
 				}
-				any_courtier = { 
+				any_courtier = {
 					if = {
-						limit = { 
-							at_location = ROOT 
+						limit = {
+							at_location = ROOT
 							NOT = { war_with = ROOT }
 						}
 						opinion = {
@@ -4678,9 +4861,9 @@ character_event = {
 	desc = "EVTDESC_Plus_1026"
 	picture = "GFX_evt_siege"
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1026"
 		death = { death_reason = death_battle killer = FROM }
@@ -4693,14 +4876,6 @@ character_event = {
 						NOT = { trait = immortal }
 					}
 					add_trait = kinslayer
-				}
-				if = {
-					limit = {
-						dynasty = ROOT
-						religion_group = muslim
-						dynasty_head = { character = FROM }
-					}
-					decadence = 1
 				}
 				if = {
 					limit = {
@@ -4780,7 +4955,7 @@ character_event = {
 	border = "GFX_event_normal_frame_war"
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "CURSES"
 		imprison = FROM
@@ -4824,7 +4999,7 @@ character_event = {
 						primary_title = { tier = BARON }
 						NOT = { num_of_baron_titles = 2 }
 					}
-				}		
+				}
 			}
 		}
 		NOT = {
@@ -5006,13 +5181,13 @@ character_event = {
 	desc = "EVTDESC_Plus_1029"
 	picture = "GFX_evt_siege"
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
 
 	notification = yes
-	
-	ai = no	
-	
+
+	ai = no
+
 	option = {
 		name = EVTOPTA62101
 		tooltip = {
@@ -5026,10 +5201,10 @@ character_event = {
 # Unit leader at the siege gets the main imprisonment event (if unreformed pagan)
 character_event = {
 	id = Plus.1030
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	trigger = {
 		rebel = no
 		NOR = {
@@ -5054,7 +5229,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -5139,7 +5314,7 @@ character_event = {
 
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_1031 #I want prisoners
 		trigger = {
@@ -5601,10 +5776,71 @@ character_event = {
 				trait = cynical
 			}
 		}
+		#Fear cuts deeper than swords
+				if = {
+					limit = { trait = feared9}
+					add_trait = feared10
+					remove_trait = feared9
+				}
+				if = {
+					limit = { trait = feared8}
+					add_trait = feared9
+					remove_trait = feared8
+				}
+				if = {
+					limit = { trait = feared7}
+					add_trait = feared8
+					remove_trait = feared7
+				}
+				if = {
+					limit = { trait = feared6}
+					add_trait = feared7
+					remove_trait = feared6
+				}
+				if = {
+					limit = { trait = feared5}
+					add_trait = feared6
+					remove_trait = feared5
+				}
+				if = {
+					limit = { trait = feared4}
+					add_trait = feared5
+					remove_trait = feared4
+				}
+				if = {
+					limit = { trait = feared3}
+					add_trait = feared4
+					remove_trait = feared3
+				}
+				if = {
+					limit = { trait = feared2}
+					add_trait = feared3
+					remove_trait = feared2
+				}
+				if = {
+					limit = { trait = feared1}
+					add_trait = feared2
+					remove_trait = feared1
+				}
+				if = {
+					limit = {
+					NOT = { trait = feared1}
+					NOT = { trait = feared2}
+					NOT = { trait = feared3}
+					NOT = { trait = feared4}
+					NOT = { trait = feared5}
+					NOT = { trait = feared6}
+					NOT = { trait = feared7}
+					NOT = { trait = feared8}
+					NOT = { trait = feared9}
+					NOT = { trait = feared10}
+					}
+					add_trait = feared1
+				}
 		piety = 20
 		custom_tooltip = {
 			text = MEN_ARE_PLEASED
-			hidden_tooltip = {	
+			hidden_tooltip = {
 				top_liege = {
 					any_realm_character = {
 						limit = { has_character_flag = wants_to_loot }
@@ -5817,7 +6053,7 @@ character_event = {
 	border = "GFX_event_normal_frame_war"
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1032"
 		random_list = {
@@ -5878,9 +6114,9 @@ character_event = {
 	desc = "EVTDESC_Plus_1033"
 	picture = "GFX_evt_viking_battle_oldgods"
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1026"
 		death = {

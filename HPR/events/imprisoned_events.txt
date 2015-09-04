@@ -683,6 +683,67 @@ character_event = {
 				}
 			}
 		}
+#Fear cuts deeper than swords
+		if = {
+			limit = { trait = feared9}
+			add_trait = feared10
+			remove_trait = feared9
+		}
+		if = {
+			limit = { trait = feared8}
+			add_trait = feared9
+			remove_trait = feared8
+		}
+		if = {
+			limit = { trait = feared7}
+			add_trait = feared8
+			remove_trait = feared7
+		}
+		if = {
+			limit = { trait = feared6}
+			add_trait = feared7
+			remove_trait = feared6
+		}
+		if = {
+			limit = { trait = feared5}
+			add_trait = feared6
+			remove_trait = feared5
+		}
+		if = {
+			limit = { trait = feared4}
+			add_trait = feared5
+			remove_trait = feared4
+		}
+		if = {
+			limit = { trait = feared3}
+			add_trait = feared4
+			remove_trait = feared3
+		}
+		if = {
+			limit = { trait = feared2}
+			add_trait = feared3
+			remove_trait = feared2
+		}
+		if = {
+			limit = { trait = feared1}
+			add_trait = feared2
+			remove_trait = feared1
+		}
+		if = {
+			limit = {
+			NOT = { trait = feared1}
+			NOT = { trait = feared2}
+			NOT = { trait = feared3}
+			NOT = { trait = feared4}
+			NOT = { trait = feared5}
+			NOT = { trait = feared6}
+			NOT = { trait = feared7}
+			NOT = { trait = feared8}
+			NOT = { trait = feared9}
+			NOT = { trait = feared10}
+			}
+			add_trait = feared1
+		}
 		random_courtier = {
 			limit = {
 				age = 14

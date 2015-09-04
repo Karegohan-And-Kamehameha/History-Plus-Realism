@@ -5,25 +5,29 @@ targetted_decisions = {
 	vassal_fatwa_decision = {
 		filter = vassals
 		ai_target_filter = vassals
-		
+
 		from_potential = {
 			is_ruler = yes
 			higher_tier_than = BARON
-			uses_decadence = yes
+			religion_group = muslim
 			any_courtier = {
 				has_job_title = job_spiritual
 			}
 		}
-		
+
 		potential = {
 			age = 16
 			is_ruler = yes
 			is_landed = yes
 			prisoner = no
 			vassal_of = FROM
-			uses_decadence = yes
+			religion = FROM
 			dynasty_head = { character = FROM }
-			decadence = 40
+			OR = {
+				trait = dynasty_decadence_med
+				trait = dynasty_decadence_high
+				trait = decadent
+			}
 			NOT = { piety = 100 }
 			NOT = { dynasty = FROM }
 			NOT = { has_job_title = job_spiritual }
@@ -31,9 +35,16 @@ targetted_decisions = {
 		}
 		allow = {
 			FROM = {
-				dynasty_head = { NOT = { decadence = 40 } }
+				piety = 100
+				NOT = { trait = decadent }
+				dynasty_head = {
+					NOR = {
+						trait = dynasty_decadence_med
+						trait = dynasty_decadence_high
+						trait = decadent
+					}
+				}
 			}
-			FROM = { piety = 100 }
 		}
 		effect = {
 			FROM = {
@@ -68,36 +79,20 @@ targetted_decisions = {
 				factor = 0.5
 				reverse_opinion = { who = FROM value = 0 }
 			}
-			modifier = {
-				factor = 0.5
-				NOT = { decadence = 50 }
-			}
-			modifier = {
-				factor = 0.5
-				NOT = { decadence = 60 }
-			}
-			modifier = {
-				factor = 0.75
-				NOT = { decadence = 70 }
-			}
-			modifier = {
-				factor = 0.75
-				NOT = { decadence = 80 }
-			}
 		}
 	}
-	
+
 	vassal_castrate_decision = {
-		filter = home_court
-		ai_target_filter = home_court
-		
+		filter = all
+		ai_target_filter = all
+
 		from_potential = {
 			has_dlc = "Legacy of Rome"
 			is_ruler = yes
-			OR = {
-				culture_group = byzantine
-				religion_group = muslim
-			}
+		#	OR = {
+		#		culture_group = byzantine
+		#		religion_group = muslim
+		#	}
 		}
 
 		potential = {
@@ -143,6 +138,68 @@ targetted_decisions = {
 						}
 					}
 				}
+				#Fear cuts deeper than swords
+			FROM = {	if = {
+					limit = { trait = feared9}
+					add_trait = feared10
+					remove_trait = feared9
+				}
+				if = {
+					limit = { trait = feared8}
+					add_trait = feared9
+					remove_trait = feared8
+				}
+				if = {
+					limit = { trait = feared7}
+					add_trait = feared8
+					remove_trait = feared7
+				}
+				if = {
+					limit = { trait = feared6}
+					add_trait = feared7
+					remove_trait = feared6
+				}
+				if = {
+					limit = { trait = feared5}
+					add_trait = feared6
+					remove_trait = feared5
+				}
+				if = {
+					limit = { trait = feared4}
+					add_trait = feared5
+					remove_trait = feared4
+				}
+				if = {
+					limit = { trait = feared3}
+					add_trait = feared4
+					remove_trait = feared3
+				}
+				if = {
+					limit = { trait = feared2}
+					add_trait = feared3
+					remove_trait = feared2
+				}
+				if = {
+					limit = { trait = feared1}
+					add_trait = feared2
+					remove_trait = feared1
+				}
+				if = {
+					limit = {
+					NOT = { trait = feared1}
+					NOT = { trait = feared2}
+					NOT = { trait = feared3}
+					NOT = { trait = feared4}
+					NOT = { trait = feared5}
+					NOT = { trait = feared6}
+					NOT = { trait = feared7}
+					NOT = { trait = feared8}
+					NOT = { trait = feared9}
+					NOT = { trait = feared10}
+					}
+					add_trait = feared1
+				}
+			}
 				piety = -10
 			}
 			hidden_tooltip = {
@@ -247,9 +304,9 @@ targetted_decisions = {
 	}
 
 	vassal_blinding_decision = {
-		filter = home_court
-		ai_target_filter = home_court
-		
+		filter = all
+		ai_target_filter = all
+
 		from_potential = {
 			has_dlc = "Legacy of Rome"
 			is_ruler = yes
@@ -288,6 +345,69 @@ targetted_decisions = {
 						}
 					}
 				}
+				}
+				#Fear cuts deeper than swords
+			FROM = {
+				if = {
+					limit = { trait = feared9}
+					add_trait = feared10
+					remove_trait = feared9
+				}
+				if = {
+					limit = { trait = feared8}
+					add_trait = feared9
+					remove_trait = feared8
+				}
+				if = {
+					limit = { trait = feared7}
+					add_trait = feared8
+					remove_trait = feared7
+				}
+				if = {
+					limit = { trait = feared6}
+					add_trait = feared7
+					remove_trait = feared6
+				}
+				if = {
+					limit = { trait = feared5}
+					add_trait = feared6
+					remove_trait = feared5
+				}
+				if = {
+					limit = { trait = feared4}
+					add_trait = feared5
+					remove_trait = feared4
+				}
+				if = {
+					limit = { trait = feared3}
+					add_trait = feared4
+					remove_trait = feared3
+				}
+				if = {
+					limit = { trait = feared2}
+					add_trait = feared3
+					remove_trait = feared2
+				}
+				if = {
+					limit = { trait = feared1}
+					add_trait = feared2
+					remove_trait = feared1
+				}
+				if = {
+					limit = {
+					NOT = { trait = feared1}
+					NOT = { trait = feared2}
+					NOT = { trait = feared3}
+					NOT = { trait = feared4}
+					NOT = { trait = feared5}
+					NOT = { trait = feared6}
+					NOT = { trait = feared7}
+					NOT = { trait = feared8}
+					NOT = { trait = feared9}
+					NOT = { trait = feared10}
+					}
+					add_trait = feared1
+			}
 				piety = -10
 			}
 			hidden_tooltip = {
@@ -344,7 +464,7 @@ targetted_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0.1 # Less likely to do it
-				always = yes 
+				always = yes
 			}
 			modifier = {
 				factor = 0
@@ -403,11 +523,11 @@ targetted_decisions = {
 			}
 		}
 	}
-	
+
 	vassal_zun_judgement_decision = {
 		filter = home_court
 		ai_target_filter = home_court
-	
+
 		from_potential = {
 			is_ruler = yes
 			OR = {
@@ -415,7 +535,7 @@ targetted_decisions = {
 				religion = zun_pagan_reformed
 			}
 		}
-	
+
 		potential = {
 			prisoner = yes
 			vassal_of = FROM
@@ -433,7 +553,7 @@ targetted_decisions = {
 		}
 		ai_will_do = {
 			factor = 10000000
-			
+
 			modifier = {
 				factor = 0
 				reverse_opinion = { who = FROM value = 40 }
@@ -469,7 +589,7 @@ targetted_decisions = {
 		from_potential = {
 			ai = no
 		}
-	
+
 		potential = {
 			host = { character = FROM }
 			prisoner = yes
@@ -479,7 +599,7 @@ targetted_decisions = {
 			prisoner = yes
 		}
 		effect = {
-			add_character_modifier = { 
+			add_character_modifier = {
 				name = the_oubliette
 				duration = -1
 			}
@@ -488,16 +608,16 @@ targetted_decisions = {
 				remove_character_modifier = house_arrest
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	prisoner_to_dungeon = {
 		filter = court
 		ai_target_filter = court
@@ -505,7 +625,7 @@ targetted_decisions = {
 		from_potential = {
 			ai = no
 		}
-	
+
 		potential = {
 			host = { character = FROM }
 			prisoner = yes
@@ -518,7 +638,7 @@ targetted_decisions = {
 			prisoner = yes
 		}
 		effect = {
-			add_character_modifier = { 
+			add_character_modifier = {
 				name = the_dungeon
 				duration = -1
 			}
@@ -527,16 +647,16 @@ targetted_decisions = {
 				remove_character_modifier = house_arrest
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	prisoner_to_suite = {
 		filter = court
 		ai_target_filter = court
@@ -544,7 +664,7 @@ targetted_decisions = {
 		from_potential = {
 			ai = no
 		}
-	
+
 		potential = {
 			host = { character = FROM }
 			prisoner = yes
@@ -554,7 +674,7 @@ targetted_decisions = {
 			prisoner = yes
 		}
 		effect = {
-			add_character_modifier = { 
+			add_character_modifier = {
 				name = house_arrest
 				duration = -1
 			}
@@ -563,11 +683,11 @@ targetted_decisions = {
 				remove_character_modifier = the_dungeon
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}

@@ -8,19 +8,19 @@
 # Fired from on actions
 #
 ###################################
-
+namespace = VIETnam
 # Lazy Byzantine Cook
 character_event = {
 	id = VIETnam.191
 	desc = "EVTDESC1000109364"
 	picture = GFX_evt_VIET_food
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -29,10 +29,10 @@ character_event = {
 			has_landed_title = e_byzantium
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 0.5
 			trait = temperate
@@ -74,7 +74,7 @@ character_event = {
 			trait = paranoid
 		}
 	}
-	
+
 	option = { #Don't be lazy
 		name = "EVTOPTA1000109364"
 		trigger = {
@@ -113,7 +113,7 @@ character_event = {
 			duration = 90
 		}
 	}
-	
+
 	option = { #It's fine
 		name = "EVTOPTB1000109364"
 		trigger = {
@@ -143,7 +143,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #Different varieties
 		name = "EVTOPTC1000109364"
 		if = {
@@ -175,13 +175,13 @@ character_event = {
 	id = VIETnam.192
 	desc = "EVTDESC1000109365"
 	picture = GFX_evt_VIET_food
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -195,10 +195,10 @@ character_event = {
 			culture_group = west_germanic
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gregarious
@@ -224,7 +224,7 @@ character_event = {
 			trait = humble
 		}
 	}
-	
+
 	option = { #Mark of pride
 		name = "EVTOPTA1000109365"
 		ai_chance = {
@@ -266,7 +266,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #Respect customs
 		name = "EVTOPTB1000109365"
 		ai_chance = {
@@ -298,13 +298,13 @@ character_event = {
 	id = VIETnam.193
 	desc = "EVTDESC1000109366"
 	picture = GFX_evt_VIET_food
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -316,10 +316,10 @@ character_event = {
 			culture_group = east_slavic
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gluttonous
@@ -345,13 +345,13 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = { 
+			OR = {
 				tier = king
 				tier = emperor
 			}
 		}
 	}
-	
+
 	option = { #My stomach hurts!
 		name = "EVTOPTA1000109366"
 		trigger = {
@@ -365,7 +365,7 @@ character_event = {
 			20 = { add_trait = ill }
 		}
 	}
-	
+
 	option = { #Killer
 		name = "EVTOPTB1000109366"
 		tooltip_info = paranoid
@@ -386,13 +386,13 @@ character_event = {
 	id = VIETnam.194
 	desc = "EVTDESC1000109367"
 	picture = GFX_evt_VIET_food
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -415,10 +415,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = gluttonous
@@ -452,7 +452,7 @@ character_event = {
 			trait = greedy
 		}
 	}
-	
+
 	option = { #Heha
 		name = "EVTOPTA1000109367"
 		prestige = 1
@@ -465,7 +465,7 @@ character_event = {
 					culture = andalusian_arabic
 					culture = siculo_arabic
 					culture = egyptian_arabic
-				}		
+				}
 			}
 			opinion = {
 				who = ROOT
@@ -482,13 +482,13 @@ character_event = {
 	id = VIETnam.195
 	desc = "EVTDESC1000109368"
 	picture = GFX_evt_VIET_food
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -503,10 +503,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 3
 			culture = mongol
@@ -536,7 +536,7 @@ character_event = {
 			trait = content
 		}
 	}
-	
+
 	option = { #Horse meat
 		name = "EVTOPTA1000109368"
 		add_character_modifier = {

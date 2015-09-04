@@ -754,6 +754,10 @@ obj_find_lover = {
 			factor = 2.0
 			trait = hedonist
 		}
+		modifier = {
+			factor = 2.0
+			trait = decadent
+		}
 	}
 	creation_effect = {
 		if = {
@@ -4055,6 +4059,7 @@ obj_go_jihad = {
 		religion_group = muslim
 		NOT = { has_character_flag = obj_go_crusade }
 		NOT = { trait = mujahid }
+		NOT = { trait = decadent }
 	}
 
 	allow = {
@@ -4074,6 +4079,7 @@ obj_go_jihad = {
 			prisoner = yes
 			is_ruler = no
 			trait = incapable
+			trait = decadent
 			NOT = {
 				religion_head = { has_called_crusade = yes }
 			}
@@ -4542,7 +4548,6 @@ obj_gain_honorary_title = {
 			has_minor_title = title_royal_champion
 			has_minor_title = title_vates
 			has_minor_title = title_court_bard
-			has_minor_title = title_favored_son
 		}
 	}
 
@@ -4651,7 +4656,6 @@ obj_gain_honorary_title = {
 				has_minor_title = title_royal_champion
 				has_minor_title = title_vates
 				has_minor_title = title_court_bard
-				has_minor_title = title_favored_son
 			}
 		}
 	}
@@ -4777,6 +4781,10 @@ obj_gain_estates_1 = {
 			liege = {
 				is_close_relative = ROOT
 			}
+		}
+		modifier = {
+			factor = 5.0
+			trait = decadent
 		}
 		modifier = {
 			factor = 2.0
@@ -4909,6 +4917,10 @@ obj_gain_estates_2 = {
 			is_primary_heir = yes
 		}
 		modifier = {
+			factor = 5.0
+			trait = decadent
+		}
+		modifier = {
 			factor = 2.0
 			trait = ambitious
 		}
@@ -5035,6 +5047,10 @@ obj_gain_estates_3 = {
 		modifier = {
 			factor = 0
 			is_primary_heir = yes
+		}
+		modifier = {
+			factor = 5.0
+			trait = decadent
 		}
 		modifier = {
 			factor = 2.0
@@ -5164,6 +5180,10 @@ obj_gain_estates_4 = {
 			is_primary_heir = yes
 		}
 		modifier = {
+			factor = 5.0
+			trait = decadent
+		}
+		modifier = {
 			factor = 2.0
 			trait = ambitious
 		}
@@ -5287,6 +5307,10 @@ obj_gain_estates_5 = {
 		modifier = {
 			factor = 0
 			is_primary_heir = yes
+		}
+		modifier = {
+			factor = 5.0
+			trait = decadent
 		}
 		modifier = {
 			factor = 2.0
@@ -6046,6 +6070,7 @@ obj_known_for_virtue = {
 		NOT = { trait = cruel }
 		NOT = { trait = impaler }
 		NOT = { trait = incapable }
+		NOT = { trait = decadent }
 	}
 	chance = {
 		factor = 50
@@ -6101,6 +6126,7 @@ obj_known_for_virtue = {
 			trait = cruel
 			trait = impaler
 			trait = incapable
+			trait = decadent
 			religion_group = indian_group
 			AND = {
 				ai = yes
@@ -6124,97 +6150,6 @@ obj_known_for_virtue = {
 		change_learning = 1
 		piety = 50
 		set_character_flag = known_for_virtue
-	}
-}
-
-obj_raise_worthy_son = {
-	type = character
-	
-	potential = {
-		ai = no
-		any_child = {
-			trait = favored_son
-			is_alive = yes
-			is_adult = no
-		}
-	}
-	
-	allow = {
-		any_child = {
-			trait = favored_son
-			is_alive = yes
-			is_adult = no
-		}
-	}
-	chance = {
-		factor = 0
-	}
-	success = {
-		any_child ={
-			is_alive = yes
-			is_adult = yes
-			trait = favored_son
-			OR = {
-				martial = 12
-				diplomacy = 12
-				stewardship = 12
-				intrigue = 12
-				learning = 12
-			}
-			martial = 3
-			diplomacy = 3
-			stewardship = 3
-			intrigue = 3
-			learning = 3
-			NOT = { trait = incapable }
-			NOT = { trait = inbred }
-		}
-	}
-	abort = {
-		OR = {
-			NOT = { any_child = { trait = favored_son } }
-			any_child = { trait = favored_son is_alive = no }
-			any_child = {
-				trait = favored_son
-				is_adult = yes
-				OR = {
-					trait = incapable
-					trait = inbred
-					NOT = { martial = 3 }
-					NOT = { diplomacy = 3 }
-					NOT = { stewardship = 3 }
-					NOT = { intrigue = 3 }
-					NOT = { learning = 3 }
-					AND = {
-						NOT = { martial = 12 }
-						NOT = { diplomacy = 12 }
-						NOT = { stewardship = 12 }
-						NOT = { intrigue = 12 }
-						NOT = { learning = 12 }
-					}
-				}
-			}
-		}
-	}
-	abort_effect = {
-		any_child = {
-			if = {
-				limit = { trait = favored_son}
-				remove_title = title_favored_son
-				remove_trait = favored_son
-			}
-		}
-	}
-	effect = {
-		prestige = 100
-		any_child = {
-			if = {
-				limit = { trait = favored_son}
-				prestige = 100
-				remove_title = title_favored_son
-				remove_trait = favored_son
-			}
-		 }
 	}
 }
 
@@ -7119,6 +7054,10 @@ obj_be_legitimized = {
 		modifier = {
 			factor = 0.5
 			trait = trusting
+		}
+		modifier = {
+			factor = 2.0
+			trait = decadent
 		}
 		modifier = {
 			factor = 0.5

@@ -9,25 +9,25 @@
 # Fired from on actions
 #
 ###################################
-
+namespace = VIETnam
 # Coffee arrives in character's city
 character_event = {
 	id = VIETnam.128
 	desc = "EVTDESC1000109301"
 	picture = GFX_evt_bazaar
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		NOT = { religion_group = christian }
-		NOT = { religion_group = pagan_group }		
+		NOT = { religion_group = pagan_group }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -52,11 +52,11 @@ character_event = {
 			trait = zealous
 		}
 	}
-	
+
 	option = { #Wine's better
 		name = "EVTOPTA1000109301"
 		tooltip_info = drunkard
-		trigger = { 
+		trigger = {
 			trait = drunkard
 		}
 		ai_chance = {
@@ -74,7 +74,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #Coffee as an alternative to alcohol
 		name = "EVTOPTB1000109301"
 		piety = 5
@@ -111,19 +111,19 @@ character_event = {
 	id = VIETnam.129
 	desc = "EVTDESC1000109302"
 	picture = GFX_evt_moorish_decor
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		NOT = { religion_group = christian }
-		NOT = { religion_group = pagan_group }		
+		NOT = { religion_group = pagan_group }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -160,7 +160,7 @@ character_event = {
 			trait = slothful
 		}
 	}
-	
+
 	option = { #Thanks for the story
 		name = "EVTOPTA1000109302"
 		random_list = {
@@ -178,10 +178,10 @@ character_event = {
 			random_list = {
 				80 = { }
 				20 = { decadence = 1 }
-			}			
+			}
 		}
 	}
-	
+
 }
 
 
@@ -191,18 +191,18 @@ character_event = {
 	id = VIETnam.130
 	desc = "EVTDESC1000109303"
 	picture = GFX_evt_moorish_decor
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
-		religion_group = muslim		
+		religion_group = muslim
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -247,7 +247,7 @@ character_event = {
 			trait = greedy
 		}
 	}
-	
+
 	option = { #Donates
 		name = "EVTOPTA1000109303"
 		decadence = -1
@@ -259,7 +259,7 @@ character_event = {
 			5 = { decadence = -2 }
 		}
 	}
-	
+
 	option = { #Doesn't donate
 		name = "EVTOPTB1000109303"
 		trigger = {
@@ -271,7 +271,7 @@ character_event = {
 			20 = { decadence = 1 }
 		}
 	}
-	
+
 }
 
 
@@ -280,19 +280,19 @@ character_event = {
 	id = VIETnam.131
 	desc = "EVTDESC1000109304"
 	picture = GFX_evt_kraken
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		NOT = { religion_group = christian }
-		NOT = { religion_group = pagan_group }		
+		NOT = { religion_group = pagan_group }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -317,7 +317,7 @@ character_event = {
 			NOT = { wealth = 1000 }
 		}
 	}
-	
+
 	option = { #Meet them
 		name = "EVTOPTA1000109304"
 		prestige = 20
@@ -328,7 +328,7 @@ character_event = {
 			random_list = {
 				80 = { }
 				20 = { decadence = 1 }
-			}			
+			}
 		}
 	}
 }
@@ -340,19 +340,19 @@ character_event = {
 	id = VIETnam.132
 	desc = "EVTDESC1000109305"
 	picture = GFX_evt_baklava
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		NOT = { religion_group = christian }
-		NOT = { religion_group = pagan_group }		
+		NOT = { religion_group = pagan_group }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -379,14 +379,14 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			AND = {
-				NOT = { culture_group = arabic }			
-				NOT = { culture_group = iranian }				
-				NOT = { culture_group = byzantine }				
-				NOT = { culture = turkish }				
+				NOT = { culture_group = arabic }
+				NOT = { culture_group = iranian }
+				NOT = { culture_group = byzantine }
+				NOT = { culture = turkish }
 			}
 		}
 	}
-	
+
 	option = { #Thank you
 		name = "EVTOPTA1000109305"
 		add_character_modifier = {
@@ -409,7 +409,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { decadence = -1 }
-			}			
+			}
 		}
 		add_character_modifier = {
 			name = best_meal_in_ages
@@ -419,7 +419,7 @@ character_event = {
 	option = { #MOAR
 		name = "EVTOPTC1000109305"
 		tooltip_info = gluttonous
-		trigger = { 
+		trigger = {
 			trait = gluttonous
 		}
 		add_character_modifier = {
@@ -436,19 +436,19 @@ character_event = {
 	id = VIETnam.133
 	desc = "EVTDESC1000109306"
 	picture = GFX_evt_moorish_decor
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		NOT = { religion_group = christian }
-		NOT = { religion_group = pagan_group }		
+		NOT = { religion_group = pagan_group }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -477,7 +477,7 @@ character_event = {
 			trait = shy
 		}
 	}
-	
+
 	option = { #Prestige
 		name = "EVTOPTA1000109306"
 		prestige = 10
@@ -503,19 +503,19 @@ character_event = {
 	id = VIETnam.134
 	desc = "EVTDESC1000109307"
 	picture = GFX_evt_bazaar
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		NOT = { religion_group = christian }
-		NOT = { religion_group = pagan_group }		
+		NOT = { religion_group = pagan_group }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -548,13 +548,13 @@ character_event = {
 			trait = shy
 		}
 	}
-	
+
 	option = { #Silk and Porcelain
 		name = "EVTOPTA1000109307"
 		prestige = 10
 		wealth = -2
 	}
-	
+
 	option = { #Spices
 		name = "EVTOPTB1000109307"
 		prestige = 2
@@ -564,7 +564,7 @@ character_event = {
 			duration = 365
 		}
 	}
-	
+
 	option = { #Nothing
 		name = "EVTOPTC1000109307"
 		piety = 1
@@ -578,21 +578,21 @@ character_event = {
 	id = VIETnam.135
 	desc = "EVTDESC1000109308"
 	picture = GFX_evt_bazaar
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
 	only_men = yes
-	
+
 	trigger = {
 		NOT = { religion_group = christian }
 		NOT = { religion_group = pagan_group }
 		NOT = { has_character_flag = VIET_pickpocket_event }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -641,14 +641,14 @@ character_event = {
 			trait = quick
 		}
 	}
-	
+
 	option = { #After him!
 		name = "EVTOPTA1000109308"
 		wealth = -1
 		character_event = { id = VIETnam.136 tooltip = "EVTTOOLTIP1000109309" }
 		set_character_flag = VIET_pickpocket_event
 	}
-	
+
 	option = { #Whatever
 		name = "EVTOPTB1000109308"
 		trigger = {
@@ -663,8 +663,8 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { decadence = 1 }
-			}			
-		}	
+			}
+		}
 		random_list = {
 			80 = { }
 			10 = { add_trait = slothful }
@@ -678,16 +678,16 @@ character_event = {
 	id = VIETnam.136
 	desc = "EVTDESC1000109309"
 	picture = GFX_evt_bazaar
-	
+
 	is_triggered_only = yes
-	
+
 
 	option = { #Give me that back!
 		name = "EVTOPTA1000109309"
 		wealth = 1
 		prestige = 10
 	}
-	
+
 	option = { #Talk to him about living a virtuous life
 		name = "EVTOPTB1000109309"
 		wealth = 1
@@ -702,9 +702,9 @@ character_event = {
 	id = VIETnam.137
 	desc = "EVTDESC1000109310"
 	picture = GFX_evt_bazaar
-	
+
 	is_triggered_only = yes
-	
+
 
 	option = { #Give a bit of money
 		name = "EVTOPTA1000109310"
@@ -715,7 +715,7 @@ character_event = {
 			20 = { add_trait = charitable }
 		}
 	}
-	
+
 	option = { #Adopt
 		name = "EVTOPTB1000109310"
 		trigger = {
@@ -852,7 +852,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #Pray
 		name = "EVTOPTC1000109310"
 		trigger = {
@@ -870,18 +870,18 @@ character_event = {
 	id = VIETnam.148
 	desc = "EVTDESC1000109321"
 	picture = GFX_evt_market
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		in_command = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -918,7 +918,7 @@ character_event = {
 			trait = genius
 		}
 	}
-	
+
 	option = { #Bad luck
 		name = "EVTOPTA1000109321"
 		random_list = {
@@ -928,11 +928,11 @@ character_event = {
 			25 = { wealth = -4 }
 		}
 	}
-	
+
 	option = { #Hope he finds good use for it
 		name = "EVTOPTB1000109321"
 		tooltip_info = kind
-		trigger = { 
+		trigger = {
 			trait = kind
 		}
 		ai_chance = {
@@ -958,7 +958,7 @@ character_event = {
 	option = { #GARRRRRRRRRRRRRRRR
 		name = "EVTOPTC1000109321"
 		tooltip_info = wroth
-		trigger = { 
+		trigger = {
 			trait = wroth
 		}
 		ai_chance = {
@@ -984,7 +984,7 @@ character_event = {
 	option = { #Whatever
 		name = "EVTOPTD1000109321"
 		tooltip_info = slothful
-		trigger = { 
+		trigger = {
 			trait = slothful
 			NOT = { trait = content }
 		}
@@ -1014,7 +1014,7 @@ character_event = {
 	option = { #Whatever 2
 		name = "EVTOPTD1000109321"
 		tooltip_info = content
-		trigger = { 
+		trigger = {
 			trait = content
 		}
 		ai_chance = {
@@ -1046,18 +1046,18 @@ character_event = {
 	id = VIETnam.149
 	desc = "EVTDESC1000109322"
 	picture = GFX_evt_doge_republic
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		in_command = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -1094,7 +1094,7 @@ character_event = {
 			trait = humble
 		}
 	}
-	
+
 	option = { #Wait
 		name = "EVTOPTA1000109322"
 		ai_chance = {
@@ -1123,11 +1123,11 @@ character_event = {
 			90 = { }
 		}
 	}
-	
+
 	option = { #Content
 		name = "EVTOPTB1000109322"
 		tooltip_info = content
-		trigger = { 
+		trigger = {
 			trait = content
 		}
 		ai_chance = {
@@ -1151,7 +1151,7 @@ character_event = {
 	option = { #Get something now
 		name = "EVTOPTC1000109322"
 		tooltip_info = proud
-		trigger = { 
+		trigger = {
 			trait = proud
 		}
 		ai_chance = {
@@ -1210,18 +1210,18 @@ character_event = {
 	id = VIETnam.150
 	desc = "EVTDESC1000109323"
 	picture = GFX_evt_trade_post_republic
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		in_command = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -1246,7 +1246,7 @@ character_event = {
 			stewardship = 13
 		}
 	}
-	
+
 	option = { #Get what we can
 		name = "EVTOPTA1000109323"
 		ai_chance = {
@@ -1280,11 +1280,11 @@ character_event = {
 			5 = { scaled_wealth = -0.5 }
 		}
 	}
-	
+
 	option = { #Get useful stuff
 		name = "EVTOPTB1000109323"
 		tooltip_info = stewardship
-		trigger = { 
+		trigger = {
 			stewardship = 13
 		}
 		ai_chance = {
@@ -1323,18 +1323,18 @@ character_event = {
 	id = VIETnam.151
 	desc = "EVTDESC1000109324"
 	picture = GFX_evt_busy_trading_dock_republic
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		in_command = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -1363,7 +1363,7 @@ character_event = {
 			trait = deceitful
 		}
 	}
-	
+
 	option = { #Why not?
 		name = "EVTOPTA1000109324"
 		ai_chance = {
@@ -1402,7 +1402,7 @@ character_event = {
 			10 = { add_trait = greedy }
 		}
 	}
-	
+
 	option = { #Reject deal
 		name = "EVTOPTB1000109324"
 		ai_chance = {
@@ -1440,18 +1440,18 @@ character_event = {
 	id = VIETnam.152
 	desc = "EVTDESC1000109325"
 	picture = GFX_evt_busy_trading_dock_republic
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		in_command = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -1480,7 +1480,7 @@ character_event = {
 			trait = arbitrary
 		}
 	}
-	
+
 	option = { #Help
 		name = "EVTOPTA1000109325"
 		ai_chance = {
@@ -1569,7 +1569,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { #Don't bother
 		name = "EVTOPTB1000109325"
 		ai_chance = {
@@ -1593,9 +1593,9 @@ character_event = {
 	id = VIETnam.153
 	desc = "EVTDESC1000109326"
 	picture = GFX_evt_family_feud_republic
-	
+
 	is_triggered_only = yes
-	
+
 	option = { #Dammit
 		name = "EVTOPTA1000109326"
 		ai_chance = {
@@ -1624,7 +1624,7 @@ character_event = {
 			40 = { scaled_wealth = -0.2 }
 			15 = { scaled_wealth = -0.4 }
 			5 = { scaled_wealth = -0.8 }
-		}	
+		}
 	}
 	option = { #DAMMIT
 		name = "EVTOPTB1000109326"
@@ -1646,7 +1646,7 @@ character_event = {
 			40 = { scaled_wealth = -0.2 }
 			15 = { scaled_wealth = -0.4 }
 			5 = { scaled_wealth = -0.8 }
-		}	
+		}
 	}
 	option = { #Try to alleviate losses
 		name = "EVTOPTC1000109326"
@@ -1684,9 +1684,9 @@ character_event = {
 	id = VIETnam.154
 	desc = "EVTDESC1000109327"
 	picture = GFX_evt_busy_trading_dock_republic
-	
+
 	is_triggered_only = yes
-	
+
 	option = { #Caution is good
 		name = "EVTOPTA1000109327"
 		ai_chance = {
@@ -1710,7 +1710,7 @@ character_event = {
 			40 = { scaled_wealth = 0.3 }
 			15 = { scaled_wealth = 0.4 }
 			5 = { scaled_wealth = 0.5 }
-		}	
+		}
 	}
 	option = { #Risk is awesome
 		name = "EVTOPTB1000109327"
@@ -1747,18 +1747,18 @@ character_event = {
 	id = VIETnam.155
 	desc = "EVTDESC1000109328"
 	picture = GFX_evt_merchant_ship_at_sea_republic
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	is_patrician = yes
-	
+
 	trigger = {
 		in_command = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -1799,7 +1799,7 @@ character_event = {
 			trait = patient
 		}
 	}
-	
+
 	option = { #Nooooooo
 		name = "EVTOPTA1000109328"
 		ai_chance = {
@@ -1813,11 +1813,11 @@ character_event = {
 			5 = { scaled_wealth = -0.5 }
 		}
 	}
-	
+
 	option = { #Convince others to buy at lower prices
 		name = "EVTOPTB1000109328"
 		tooltip_info = diplomacy
-		trigger = { 
+		trigger = {
 			diplomacy = 13
 		}
 		ai_chance = {

@@ -7,20 +7,20 @@
 # Fired from on actions
 #
 ###################################
-
+namespace = VIETnam
 # Meek child considers confessing love to another child
 character_event = {
 	id = VIETnam.164
 	desc = "EVTDESC1000109337"
 	picture = GFX_evt_maiden
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 9
 	max_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		NOT = { trait = homosexual }
 		has_lover = no
@@ -51,7 +51,7 @@ character_event = {
 						trait = paranoid
 					}
 					NOT = { trait = brave }
-					NOT = { trait = gregarious }					
+					NOT = { trait = gregarious }
 				}
 				AND = {
 					ROOT = {
@@ -86,9 +86,9 @@ character_event = {
 				age = 16
 			}
 			opinion = { who = ROOT value = 40 }
-		}		
+		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -125,7 +125,7 @@ character_event = {
 			trait = ugly
 		}
 	}
-	
+
 	option = { #Spit it out
 		name = "EVTOPTA1000109337"
 		ai_chance = {
@@ -170,8 +170,8 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = shy }
-			}			
-		}			
+			}
+		}
 		if = {
 			limit = {
 				trait = craven
@@ -179,7 +179,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = craven }
-			}			
+			}
 		}
 		if = {
 			limit = {
@@ -189,7 +189,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { add_trait = brave }
-			}			
+			}
 		}
 		random_courtier = {
 			limit = {
@@ -219,7 +219,7 @@ character_event = {
 							trait = paranoid
 						}
 						NOT = { trait = brave }
-						NOT = { trait = gregarious }					
+						NOT = { trait = gregarious }
 					}
 					AND = {
 						ROOT = {
@@ -253,12 +253,12 @@ character_event = {
 				NOT = {
 					age = 16
 				}
-				opinion = { who = ROOT value = 40 }				
+				opinion = { who = ROOT value = 40 }
 			}
 			add_lover = ROOT
 		}
 	}
-	
+
 	option = { #Can't spit it out
 		name = "EVTOPTB1000109337"
 		ai_chance = {
@@ -303,8 +303,8 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { add_trait = chaste }
-			}			
-		}	
+			}
+		}
 		if = {
 			limit = {
 				NOT = { trait = shy }
@@ -313,8 +313,8 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { add_trait = shy }
-			}			
-		}	
+			}
+		}
 		if = {
 			limit = {
 				trait = gregarious
@@ -322,7 +322,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = gregarious }
-			}			
+			}
 		}
 		if = {
 			limit = {
@@ -331,7 +331,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = brave }
-			}			
+			}
 		}
 	}
 }
@@ -341,13 +341,13 @@ character_event = {
 	id = VIETnam.165
 	desc = "EVTDESC1000109338"
 	picture = GFX_evt_lovers
-	
+
 	capable_only = yes
 	only_rulers = yes
 	prisoner = no
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		in_command = no
 		war = no
@@ -365,7 +365,7 @@ character_event = {
 			NOT = { trait = celibate }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -393,7 +393,7 @@ character_event = {
 			trait = ugly
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109338" #Try harder
 		ai_chance = {
@@ -438,7 +438,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = chaste }
-			}			
+			}
 		}
 		random_lover = {
 			limit = {
@@ -461,7 +461,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB1000109338" #Nice and easy
 		tooltip_info = patient
-		trigger = { 
+		trigger = {
 			trait = patient
 		}
 		ai_chance = {
@@ -490,7 +490,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = chaste }
-			}			
+			}
 		}
 		random_lover = {
 			limit = {
@@ -513,7 +513,7 @@ character_event = {
 	option = {
 		name = "EVTOPTC1000109338" #Exotica
 		tooltip_info = learning
-		trigger = { 
+		trigger = {
 			learning = 13
 		}
 		ai_chance = {
@@ -558,7 +558,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = chaste }
-			}			
+			}
 		}
 		random_lover = {
 			limit = {
@@ -587,13 +587,13 @@ character_event = {
 	id = VIETnam.166
 	desc = "EVTDESC1000109339"
 	picture = GFX_evt_maiden
-	
+
 	capable_only = yes
 	only_rulers = yes
 	prisoner = no
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		in_command = no
 		war = no
@@ -622,7 +622,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -650,7 +650,7 @@ character_event = {
 			trait = gregarious
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109339" #A little more physical?
 		ai_chance = {
@@ -695,7 +695,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = chaste }
-			}			
+			}
 		}
 		prestige = 5
 		random_lover = {
@@ -721,7 +721,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB1000109339" #Happy with how things are
 		tooltip_info = content
-		trigger = { 
+		trigger = {
 			trait = content
 		}
 		ai_chance = {
@@ -768,7 +768,7 @@ character_event = {
 	option = {
 		name = "EVTOPTC1000109339" #Spread rumors
 		tooltip_info = intrigue
-		trigger = { 
+		trigger = {
 			intrigue = 13
 		}
 		ai_chance = {
@@ -809,7 +809,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = honest }
-			}			
+			}
 		}
 		if = {
 			limit = {
@@ -818,7 +818,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { add_trait = deceitful }
-			}			
+			}
 		}
 		prestige = 10
 		piety = -5
@@ -832,20 +832,20 @@ character_event = {
 	id = VIETnam.167
 	desc = "EVTDESC1000109340"
 	picture = GFX_evt_maiden
-	
+
 	capable_only = yes
 	only_rulers = yes
 	prisoner = no
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		in_command = no
 		war = no
 		is_abroad = no
 		has_lover = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -881,7 +881,7 @@ character_event = {
 			trait = gregarious
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109340" # Pretty
 		ai_chance = {
@@ -974,7 +974,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { add_trait = lustful }
-			}			
+			}
 		}
 	}
 	option = {
@@ -1053,7 +1053,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { add_trait = kind }
-			}			
+			}
 		}
 		 random_lover = {
 			opinion = {
@@ -1073,13 +1073,13 @@ character_event = {
 	id = VIETnam.168
 	desc = "EVTDESC1000109341"
 	picture = GFX_evt_scandal
-	
+
 	capable_only = yes
 	only_rulers = yes
 	prisoner = no
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		in_command = no
 		war = no
@@ -1096,7 +1096,7 @@ character_event = {
 			NOT = { trait = humble }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1136,7 +1136,7 @@ character_event = {
 			trait = arbitrary
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1000109341" # Fine we'll stop
 		ai_chance = {
@@ -1165,7 +1165,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { add_trait = chaste }
-			}			
+			}
 		}
 		random_lover = {
 			limit = {
@@ -1224,7 +1224,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = lustful }
-			}			
+			}
 		}
 		piety = 1
 		prestige = 1
@@ -1257,7 +1257,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = lustful }
-			}			
+			}
 		}
 		random_lover = {
 			limit = {
@@ -1281,14 +1281,14 @@ character_event = {
 	id = VIETnam.169
 	desc = "EVTDESC1000109342"
 	picture = GFX_evt_maiden
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	max_age = 40
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		NOT = { trait = homosexual }
 		has_lover = no
@@ -1334,7 +1334,7 @@ character_event = {
 					NOT = { trait = slothful }
 					NOT = { trait = envious }
 					NOT = { trait = wroth }
-					NOT = { trait = proud }					
+					NOT = { trait = proud }
 				}
 				AND = {
 					ROOT = {
@@ -1380,9 +1380,9 @@ character_event = {
 			}
 			is_adult = yes
 			NOT = { age = 40 }
-		}		
+		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 
@@ -1427,7 +1427,7 @@ character_event = {
 			trait = craven
 		}
 	}
-	
+
 	option = { #Rather not
 		name = "EVTOPTA1000109342"
 		ai_chance = {
@@ -1460,11 +1460,11 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { add_trait = chaste }
-			}			
+			}
 		}
 		piety = 2
 	}
-	
+
 	option = { #Friendship
 		name = "EVTOPTC1000109342"
 		ai_chance = {
@@ -1509,7 +1509,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = shy }
-			}			
+			}
 		}
 		random_courtier = {
 			limit = {
@@ -1553,7 +1553,7 @@ character_event = {
 						NOT = { trait = slothful }
 						NOT = { trait = envious }
 						NOT = { trait = wroth }
-						NOT = { trait = proud }					
+						NOT = { trait = proud }
 					}
 					AND = {
 						ROOT = {
@@ -1598,7 +1598,7 @@ character_event = {
 					sibling = ROOT
 				}
 				is_adult = yes
-				NOT = { age = 40 }				
+				NOT = { age = 40 }
 			}
 			opinion = {
 				modifier = opinion_friend
@@ -1612,7 +1612,7 @@ character_event = {
 			}
 		}
 		prestige = 1
-	}	
+	}
 	option = { #LOVE!
 		name = "EVTOPTC1000109342"
 		ai_chance = {
@@ -1657,7 +1657,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = { remove_trait = shy }
-			}			
+			}
 		}
 		random_courtier = {
 			limit = {
@@ -1701,7 +1701,7 @@ character_event = {
 						NOT = { trait = slothful }
 						NOT = { trait = envious }
 						NOT = { trait = wroth }
-						NOT = { trait = proud }					
+						NOT = { trait = proud }
 					}
 					AND = {
 						ROOT = {
@@ -1746,7 +1746,7 @@ character_event = {
 					sibling = ROOT
 				}
 				is_adult = yes
-				NOT = { age = 40 }				
+				NOT = { age = 40 }
 			}
 			add_lover = ROOT
 			add_character_modifier = {
