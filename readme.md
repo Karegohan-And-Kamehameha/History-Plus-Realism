@@ -7,7 +7,7 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 <b>v0.3:</b><br>
 -Updated CK2+ base to v3.11.3.<br>
 -Blinding can now be done to all prisoners, castration can now be done by all characters to all male prisoners.<br>
--Added fear mechanics, still very raw and require testing.<br>
+-Added fear mechanics, still very raw and requires testing.<br>
 -Tweaked birth and child mortality a bit up again, it's really hard to get these numbers right, since there's so little information available on the topic
 (http://www.sarahwoodbury.com/life-expectancy-in-the-middle-ages/ is the only article with solid numbers I've found).<br>
 -Restored Dance of Death events for now, will decide what to do with it later.<br>
