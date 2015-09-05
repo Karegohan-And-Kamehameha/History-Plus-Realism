@@ -3,11 +3,20 @@ This mod is based on both of them and the goal of this mod is to implement the b
 
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
+<b>NEW:</b> the music mod is now available for download at https://mega.nz/#!gxt1xSRB!7YgAoQUS-iCiN6C_Ghr3bzbVnXYhqa0QmcMiGy2szB4 <br>
+
 <b>Changelog:</b><br>
+<b>v0.3.1:</b><br>
+-Updated ARKO interface to 2015-08-20.<br>
+-Added missing VIET lifestyle trait related events.<br>
+-Started modifying VIET event results to make them matter.<br>
+-Added music from "Songs from the four corners" mod (with account for additional CK2+ culture groups).<br>
+-Due to the music folder getting too bloated, split off music into a separate mod. Misc. music fixes.<br>
+-Some minor bugfixes.<br>
 <b>v0.3:</b><br>
 -Updated CK2+ base to v3.11.3.<br>
 -Blinding can now be done to all prisoners, castration can now be done by all characters to all male prisoners.<br>
--Added fear mechanics, still very raw and require testing.<br>
+-Added fear mechanics, still very raw and requires testing.<br>
 -Tweaked birth and child mortality a bit up again, it's really hard to get these numbers right, since there's so little information available on the topic
 (http://www.sarahwoodbury.com/life-expectancy-in-the-middle-ages/ is the only article with solid numbers I've found).<br>
 -Restored Dance of Death events for now, will decide what to do with it later.<br>
@@ -37,6 +46,7 @@ Initial release.<br>
 -Viet events.<br>
 -Friends & Foes personality traits.<br>
 -Dorimi music pack.<br>
+-Songs from the four corners music pack.<br>
 -Fear mechanics that are unique to this mod and work in a way similar to the tyrrany system from CK2+, except striking fear in the hearts of men works in a positive way, making them respect you more. Oderint dum metuant.<br>
 Fear is currently accumulated through acts of cruelty, such as torturing, blinding and castrating prisoners, as well as executing nobles after capturing them in a siege. In the future I plan to implement fear accumulation in a variety of events.<br>
 -Various other small tweaks and changes.<br>
@@ -44,7 +54,6 @@ Fear is currently accumulated through acts of cruelty, such as torturing, blindi
 <b>TODO:</b><br>
 -Rebalance traits and focuses.<br>
 -General balance tweaks.<br>
--Moar music.<br>
 -Tweaking more numbers for historical accuracy.<br>
 -Testing and debugging.<br>
 -Clean up unused scripts and assets.<br>

@@ -107,7 +107,7 @@ character_event = {
 				trait = shy
 			}
 		}
-		prestige = 1
+		prestige = 10
 		add_character_modifier = {
 			name = advice_giver
 			duration = 90
@@ -246,7 +246,7 @@ character_event = {
 				trait = shy
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = humble }
@@ -288,7 +288,7 @@ character_event = {
 				trait = proud
 			}
 		}
-		prestige = 5
+		prestige = 25
 	}
 }
 
@@ -455,7 +455,7 @@ character_event = {
 
 	option = { #Heha
 		name = "EVTOPTA1000109367"
-		prestige = 1
+		prestige = 10
 		random_vassal = {
 			limit = {
 				is_adult = yes
@@ -541,21 +541,21 @@ character_event = {
 		name = "EVTOPTA1000109368"
 		add_character_modifier = {
 			name = best_meal_in_ages
-			duration = 30
+			duration = 90
 		}
 	}
 	option = { #Mutton
 		name = "EVTOPTB1000109368"
 		add_character_modifier = {
 			name = best_meal_in_ages
-			duration = 30
+			duration = 90
 		}
 	}
 	option = { #Goat testicles
 		name = "EVTOPTC1000109368"
 		add_character_modifier = {
 			name = best_meal_in_ages
-			duration = 30
+			duration = 90
 		}
 	}
 }

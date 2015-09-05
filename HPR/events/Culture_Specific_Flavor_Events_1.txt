@@ -74,8 +74,8 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109343"  #Aaahh...
-		prestige = 2
-		piety = 2
+		prestige = 15
+		piety = 15
 	}
 }
 
@@ -163,8 +163,8 @@ character_event = {
 				trait = proud
 			}
 		}
-		prestige = 3
-		piety = 2
+		prestige = 15
+		piety = 10
 	}
 	option = {
 		name = "EVTOPTB1000109344"  #Giraffe
@@ -175,8 +175,8 @@ character_event = {
 		ai_chance = {
 			factor = 100
 		}
-		prestige = 3
-		piety = 2
+		prestige = 15
+		piety = 10
 	}
 	option = {
 		name = "EVTOPTC1000109344"  #Gazelle
@@ -207,7 +207,7 @@ character_event = {
 				trait = zealous
 			}
 		}
-		piety = 5
+		piety = 25
 	}
 	option = {
 		name = "EVTOPTD1000109344"  #Cheetah
@@ -238,7 +238,7 @@ character_event = {
 				trait = wroth
 			}
 		}
-		prestige = 5
+		prestige = 25
 	}
 }
 
@@ -344,8 +344,8 @@ character_event = {
 				30 = { add_trait = cynical }
 			}
 		}
-		piety = -5
-		prestige = 5
+		piety = -25
+		prestige = 25
 	}
 	option = {
 		name = "EVTOPTB1000109345"  #Admirable
@@ -368,7 +368,7 @@ character_event = {
 				trait = kind
 			}
 		}
-		piety = 3
+		piety = 15
 	}
 	option = {
 		name = "EVTOPTC1000109345"  #TRUE PIETY
@@ -403,7 +403,7 @@ character_event = {
 				trait = diligent
 			}
 		}
-		piety = 5
+		piety = 25
 	}
 	option = {
 		name = "EVTOPTD1000109345"  #Modesty!
@@ -439,8 +439,8 @@ character_event = {
 				trait = proud
 			}
 			random_list = {
-				70 = { }
-				30 = { remove_trait = proud }
+				60 = { }
+				40 = { remove_trait = proud }
 			}
 		}
 		if = {
@@ -448,8 +448,8 @@ character_event = {
 				NOT = { trait = humble }
 			}
 			random_list = {
-				70 = { }
-				30 = { add_trait = humble }
+				60 = { }
+				40 = { add_trait = humble }
 			}
 		}
 	}
@@ -568,7 +568,7 @@ character_event = {
 				30 = { add_trait = just }
 			}
 		}
-		prestige = 5
+		prestige = 25
 		random_vassal = {
 			limit = {
 				culture_group = east_african
@@ -614,7 +614,7 @@ character_event = {
 				trait = arbitrary
 			}
 		}
-		prestige = -10
+		prestige = -50
 		random_vassal = {
 			limit = {
 				culture_group = east_african
@@ -828,7 +828,7 @@ character_event = {
 					religion_group = christian
 				}
 			}
-			piety = -20
+			piety = -50
 		}
 		if = {
 			limit = {
@@ -877,7 +877,7 @@ character_event = {
 					religion_group = christian
 				}
 			}
-			piety = 10
+			piety = 30
 		}
 		if = {
 			limit = {
@@ -914,7 +914,7 @@ character_event = {
 			10 = { add_trait = ill }
 			70 = { }
 		}
-		piety = 20
+		piety = 50
 	}
 }
 
@@ -985,14 +985,14 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109389"  #Aaahh...
-		prestige = 1
+		prestige = 10
 		if = {
 			limit = {
 				trait = stressed
 			}
 			random_list = {
-				90 = { }
-				10 = { remove_trait = stressed }
+				70 = { }
+				30 = { remove_trait = stressed }
 			}
 		}
 	}
@@ -1064,7 +1064,7 @@ character_event = {
 		ai_chance = {
 			factor = 2
 		}
-		prestige = 3
+		prestige = 30
 	}
 	option = {
 		name = "EVTOPTB1000109381"  #Greedy
@@ -1091,18 +1091,12 @@ character_event = {
 				trait = just
 			}
 		}
-		prestige = -5
+		prestige = -50
 		random_list = {
 			40 = { wealth = 5 }
 			30 = { wealth = 10 }
 			20 = { wealth = 20 }
 			10 = { wealth = 40 }
-		}
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			decadence = 2
 		}
 		if = {
 			limit = {
@@ -1244,7 +1238,7 @@ character_event = {
 				trait = deceitful
 			}
 		}
-		prestige = -2
+		prestige = -20
 		if = {
 			limit = {
 				NOT = { trait = gregarious }
@@ -1301,7 +1295,7 @@ character_event = {
 				trait = deceitful
 			}
 		}
-		prestige = -2
+		prestige = -20
 		if = {
 			limit = {
 				NOT = { trait = wroth }
@@ -1339,13 +1333,7 @@ character_event = {
 				trait = arbitrary
 			}
 		}
-		prestige = 2
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			decadence = 1
-		}
+		prestige = 20
 		if = {
 			limit = {
 				NOT = { trait = cruel }
@@ -1447,7 +1435,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		prestige = 2
+		prestige = 20
 		character_event = { #Turkish reward
 			id = VIETnam.211
 			tooltip = "EVTTOOLTIP1000109384"
@@ -1467,7 +1455,7 @@ character_event = {
 				trait = proud
 			}
 		}
-		prestige = 2
+		prestige = 20
 		character_event = { #Greek reward
 			id = VIETnam.212
 			tooltip = "EVTTOOLTIP1000109385"
@@ -1487,7 +1475,7 @@ character_event = {
 		name = "EVTOPTA1000109383"  #Turkish pride
 		add_character_modifier = {
 			name = best_meal_in_ages
-			duration = 30
+			duration = 90
 		}
 	}
 }
@@ -1504,7 +1492,7 @@ character_event = {
 		name = "EVTOPTA1000109385"  #Greek humility
 		add_character_modifier = {
 			name = best_meal_in_ages
-			duration = 30
+			duration = 90
 		}
 	}
 }
@@ -1696,7 +1684,7 @@ character_event = {
 				trait = zealous
 			}
 		}
-		piety = 3
+		piety = 15
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -1732,8 +1720,8 @@ character_event = {
 				trait = patient
 			}
 		}
-		piety = 10
-		prestige = -5
+		piety = 50
+		prestige = -25
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -1778,7 +1766,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		prestige = 3
+		prestige = 15
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -1827,8 +1815,8 @@ character_event = {
 				trait = envious
 			}
 		}
-		prestige = 1
-		piety = 1
+		prestige = 10
+		piety = 10
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -1847,8 +1835,8 @@ character_event = {
 				NOT = { trait = humble }
 			}
 			random_list = {
-				85 = { }
-				15 = { add_trait = humble }
+				80 = { }
+				20 = { add_trait = humble }
 			}
 		}
 	}
@@ -1949,7 +1937,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		prestige = 4
+		prestige = 20
 		if = {
 			limit = {
 				NOT = { trait = proud }
@@ -1974,7 +1962,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		piety = 4
+		piety = 20
 		if = {
 			limit = {
 				NOT = { trait = humble }
@@ -2057,7 +2045,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109411
-		piety = 5
+		piety = 25
 	}
 }
 
@@ -2120,7 +2108,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109412
-		prestige = 5
+		prestige = 25
 	}
 }
 
@@ -2245,7 +2233,7 @@ character_event = {
 				trait = shy
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = charitable }
@@ -2253,15 +2241,6 @@ character_event = {
 			random_list = {
 				80 = { }
 				20 = { add_trait = charitable }
-			}
-		}
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			random_list = {
-				50 = { decadence = -1 }
-				50 = { }
 			}
 		}
 		any_courtier = {
@@ -2307,7 +2286,7 @@ character_event = {
 				trait = shy
 			}
 		}
-		prestige = 5
+		prestige = 25
 		any_courtier = {
 			limit = {
 				is_adult = yes
@@ -2349,18 +2328,18 @@ character_event = {
 
 	option = { # ok
 		name = "EVTOPTA1000109415"
-		prestige = 5
+		prestige = 25
 		any_courtier = {
 			limit = {
 				has_minor_title = title_court_griot
 			}
-			prestige = 5
+			prestige = 25
 		}
 		any_vassal = {
 			limit = {
 				has_minor_title = title_court_griot
 			}
-			prestige = 5
+			prestige = 25
 		}
 		random_list = {
 			20 = {
@@ -2522,10 +2501,10 @@ character_event = {
 				trait = greedy
 			}
 		}
-		prestige = 5
+		prestige = 25
 		add_character_modifier = {
 			name = best_meal_in_ages
-			duration = 30
+			duration = 90
 		}
 	}
 	option = {
@@ -2674,16 +2653,7 @@ character_event = {
 				trait = slothful
 			}
 		}
-		prestige = 3
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			random_list = {
-				50 = { decadence = -1 }
-				50 = { }
-			}
-		}
+		prestige = 15
 	}
 	option = {
 		name = "EVTOPTB1000109417"  #Execute
@@ -2706,7 +2676,7 @@ character_event = {
 				trait = arbitrary
 			}
 		}
-		prestige = 5
+		prestige = 25
 	}
 	option = {
 		name = "EVTOPTC1000109417"  #Release
@@ -2729,7 +2699,7 @@ character_event = {
 				trait = paranoid
 			}
 		}
-		piety = 3
+		piety = 15
 		if = {
 			limit = {
 				NOT = { trait = trusting }
@@ -2841,7 +2811,7 @@ character_event = {
 				trait = slothful
 			}
 		}
-		prestige = 5
+		prestige = 25
 		add_character_modifier = {
 			name = enlightening_conversation
 			duration = 500
@@ -2931,7 +2901,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		prestige = 5
+		prestige = 25
 		if = {
 			limit = {
 				trait = humble
@@ -2964,7 +2934,7 @@ character_event = {
 				trait = greedy
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = kind }
@@ -2997,7 +2967,7 @@ character_event = {
 				trait = deceitful
 			}
 		}
-		prestige = 5
+		prestige = 25
 		if = {
 			limit = {
 				trait = arbitrary
@@ -3030,7 +3000,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				trait = cynical
@@ -3137,7 +3107,7 @@ character_event = {
 			#	trait = humble
 			#}
 		}
-		piety = 3
+		piety = 15
 		scaled_wealth = 0.05
 		set_character_flag = sankore_scholar
 	}
@@ -3167,7 +3137,7 @@ character_event = {
 			}
 		}
 		set_character_flag = sankore_scholar
-		piety = 5
+		piety = 25
 		scaled_wealth = -0.1
 		random_list = {
 			22 = { military_techpoints = 30 }
@@ -3321,7 +3291,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109423"  # ok
-		piety = 5
+		piety = 25
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -3359,7 +3329,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109424"  # ok
-		prestige = 5
+		prestige = 25
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -3487,8 +3457,8 @@ character_event = {
 				trait = charitable
 			}
 		}
-		piety = 2
-		prestige = 2
+		piety = 10
+		prestige = 10
 	}
 	option = {
 		name = "EVTOPTB1000109425"  # Scholastic pursuits
@@ -3507,7 +3477,7 @@ character_event = {
 				trait = cynical
 			}
 		}
-		piety = 2
+		piety = 10
 		add_character_modifier = {
 			name = illumination
 			duration = 365
@@ -3538,7 +3508,7 @@ character_event = {
 				years = 2
 			}
 		}
-		piety = 5
+		piety = 25
 	}
 }
 
@@ -3620,7 +3590,7 @@ character_event = {
 		ai_chance = {
 			factor = 3
 		}
-		piety = 2
+		piety = 20
 	}
 	option = {
 		name = "EVTOPTB1000109426"  # Give to wife
@@ -3666,7 +3636,7 @@ character_event = {
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT
-				years = 1
+				years = 2
 			}
 		}
 	}
@@ -3723,7 +3693,7 @@ character_event = {
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT
-				years = 1
+				years = 2
 			}
 		}
 	}
@@ -3792,7 +3762,7 @@ character_event = {
 		ai_chance = {
 			factor = 3
 		}
-		prestige = 4
+		prestige = 20
 	}
 	option = {
 		name = "EVTOPTB1000109427"  # Imprison!
@@ -3986,7 +3956,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109430"  #ok
-		prestige = 5
+		prestige = 25
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -4208,7 +4178,7 @@ character_event = {
 				trait = diligent
 			}
 		}
-		piety = 2
+		piety = 20
 	}
 }
 
@@ -4332,7 +4302,7 @@ character_event = {
 				trait = diligent
 			}
 		}
-		piety = 5
+		piety = 25
 	}
 }
 
@@ -4428,7 +4398,7 @@ character_event = {
 				trait = diligent
 			}
 		}
-		piety = -2
+		piety = -20
 	}
 }
 
@@ -4522,7 +4492,7 @@ character_event = {
 				trait = diligent
 			}
 		}
-		prestige = 3
+		prestige = 20
 		set_character_flag = finnish_knife
 	}
 }
@@ -4720,7 +4690,7 @@ character_event = {
 				trait = diligent
 			}
 		}
-		piety = 3
+		piety = 20
 	}
 }
 
@@ -4828,7 +4798,7 @@ character_event = {
 				trait = paranoid
 			}
 		}
-		prestige = 3
+		prestige = 20
 	}
 	option = {
 		name = "EVTOPTB1000109454"  # Haltija are always angry about something
@@ -4851,7 +4821,7 @@ character_event = {
 				trait = patient
 			}
 		}
-		prestige = 3
+		prestige = 20
 		if = {
 			limit = {
 				NOT = { trait = zealous }
@@ -4894,7 +4864,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		piety = 3
+		piety = 20
 	}
 }
 

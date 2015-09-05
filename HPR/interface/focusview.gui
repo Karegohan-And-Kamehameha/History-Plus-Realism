@@ -74,6 +74,7 @@ guiTypes = {
 			position = { x = 92 y = 540 }
 			buttonFont = "vic_18"
 			buttonText = "SELECT"
+			shortcut = "ENTER"
 		}
 		
 		guiButtonType = {

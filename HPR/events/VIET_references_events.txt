@@ -7,7 +7,7 @@
 # 2500-2511 Anime
 # 2512 Name of the Rose
 # 2513 Calling The Avatar
-#	
+#
 #
 ###############################################
 
@@ -15,7 +15,7 @@
 #Anime Set 1
 ###############################################
 
-
+namespace = VIETmisc
 
 # Senjougahara
 character_event = {
@@ -30,9 +30,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		NOT = { trait = trusting }
 		has_lover = yes
@@ -47,7 +47,7 @@ character_event = {
 				trait = genius
 				trait = depressed
 			}
-		}				
+		}
 	}
 
 	weight_multiplier = {
@@ -70,7 +70,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = wroth 
+			trait = wroth
 		}
 		modifier = {
 			factor = 0.5
@@ -221,15 +221,15 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		any_courtier = {
 			trait = slothful
 			NOT = { trait = incapable }
 			is_adult = yes
-		}			
+		}
 	}
 
 	weight_multiplier = {
@@ -252,7 +252,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = wroth 
+			trait = wroth
 		}
 		modifier = {
 			factor = 0.5
@@ -318,9 +318,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		any_courtier = {
 			trait = slothful
@@ -336,7 +336,7 @@ character_event = {
 				}
 			}
 			is_adult = yes
-		}			
+		}
 	}
 
 	weight_multiplier = {
@@ -359,7 +359,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = wroth 
+			trait = wroth
 		}
 		modifier = {
 			factor = 0.5
@@ -444,9 +444,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		trait = lunatic
 	}
@@ -471,7 +471,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = proud 
+			trait = proud
 		}
 		modifier = {
 			factor = 0.5
@@ -510,7 +510,7 @@ character_event = {
 		}
 
 		custom_tooltip = { text = dn_lunatic_a }
-		
+
                 add_character_modifier = {
                         name = lustful_ruler
                         duration = 365
@@ -518,12 +518,12 @@ character_event = {
 
 				random = {
 						chance = 20
-						
+
 						spouse = {
 								impregnate = ROOT
 						}
 				}
-		
+
 	}
 
 	option = {# potato chips
@@ -662,9 +662,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			trait = depressed
@@ -694,7 +694,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = proud 
+			trait = proud
 		}
 		modifier = {
 			factor = 0.5
@@ -786,9 +786,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		is_patrician = yes
 		has_lover = yes
@@ -814,7 +814,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = greedy 
+			trait = greedy
 		}
 		modifier = {
 			factor = 0.5
@@ -905,10 +905,10 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		always = no 
-		war = no 
-		in_command = no 
+	trigger = {
+		always = no
+		war = no
+		in_command = no
 		is_abroad = no
 		any_courtier = {
 			OR = {
@@ -946,7 +946,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous 
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -1042,55 +1042,55 @@ character_event = {
 
 	option = {#ok...
 		name = VIETmisc.2508.a
-		trigger = { has_character_flag = VIETzumangadaioh_1 }		
+		trigger = { has_character_flag = VIETzumangadaioh_1 }
 		clr_character_flag = VIETzumangadaioh_1
 		set_character_flag = VIETzumangadaioh_2
-		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_no_angry } }			
+		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_no_angry } }
 	}
 
 
 	option = {#ok...
 		name = VIETmisc.2508.b
-		trigger = { has_character_flag = VIETzumangadaioh_2 }		
+		trigger = { has_character_flag = VIETzumangadaioh_2 }
 		clr_character_flag = VIETzumangadaioh_2
 		set_character_flag = VIETzumangadaioh_3
-		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_no_angry } }			
+		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_no_angry } }
 	}
 
 
 	option = {#ok...
 		name = VIETmisc.2508.c
-		trigger = { has_character_flag = VIETzumangadaioh_3 }		
+		trigger = { has_character_flag = VIETzumangadaioh_3 }
 		clr_character_flag = VIETzumangadaioh_3
 		set_character_flag = VIETzumangadaioh_4
-		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_no_angry } }			
+		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_no_angry } }
 	}
 
 
 	option = {#ok...
 		name = VIETmisc.2508.d
-		trigger = { has_character_flag = VIETzumangadaioh_4 }		
+		trigger = { has_character_flag = VIETzumangadaioh_4 }
 		clr_character_flag = VIETzumangadaioh_4
 		set_character_flag = VIETzumangadaioh_5
-		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_no_angry } }			
+		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_no_angry } }
 	}
 
 
 	option = {#ok...
 		name = VIETmisc.2508.e
-		trigger = { has_character_flag = VIETzumangadaioh_5 }		
+		trigger = { has_character_flag = VIETzumangadaioh_5 }
 		clr_character_flag = VIETzumangadaioh_5
 		set_character_flag = VIETzumangadaioh_6
-		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_yes_angry } }			
+		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_yes_angry } }
 	}
 
 
 	option = {#ok...
 		name = VIETmisc.2508.f
-		trigger = { has_character_flag = VIETzumangadaioh_6 }		
+		trigger = { has_character_flag = VIETzumangadaioh_6 }
 		clr_character_flag = VIETzumangadaioh_6
 		set_character_flag = VIETzumangadaioh_7
-		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_yes_angry } }		
+		FROM = { character_event = { id = VIETmisc.2507 tooltip = VIET_yes_angry } }
 	}
 
 }
@@ -1122,7 +1122,7 @@ character_event = {
                                 years = 1
                         }
 		}
-		
+
 	}
 }
 
@@ -1142,9 +1142,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		any_child = {
 			OR = {
@@ -1183,7 +1183,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gluttonous 
+			trait = gluttonous
 		}
 		modifier = {
 			factor = 0.5
@@ -1218,7 +1218,7 @@ character_event = {
 	option = {#ok...
 		name = VIETmisc.2510.a
 		random_child = {
-			limit = {	
+			limit = {
 			OR = {
 				trait = lunatic
 				trait = imbecile
@@ -1252,7 +1252,7 @@ character_event = {
 	option = {#ok...
 		name = VIETmisc.2511.a
 		random_child = {
-			limit = {	
+			limit = {
 			OR = {
 				trait = lunatic
 				trait = imbecile
@@ -1277,7 +1277,7 @@ character_event = {
 	option = {#ok...
 		name = VIETmisc.2511.b
 		random_child = {
-			limit = {	
+			limit = {
 			OR = {
 				trait = lunatic
 				trait = imbecile
@@ -1306,7 +1306,7 @@ character_event = {
 			add_trait = proud
 		}
 		random_child = {
-			limit = {	
+			limit = {
 			OR = {
 				trait = lunatic
 				trait = imbecile
@@ -1335,9 +1335,9 @@ character_event = {
 			10 = { add_trait = content }
 			10 = { add_trait = arbitrary }
 			60 = {}
-		}			
+		}
 		random_child = {
-			limit = {	
+			limit = {
 			OR = {
 				trait = lunatic
 				trait = imbecile
@@ -1379,9 +1379,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		religion = dulcinian
 		any_courtier = {
@@ -1421,7 +1421,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = honest 
+			trait = honest
 		}
 		modifier = {
 			factor = 0.5
@@ -1503,7 +1503,7 @@ character_event = {
                                 who = ROOT
                                 years = 1
                         }
-		}		
+		}
 	}
 
 
@@ -1531,7 +1531,7 @@ character_event = {
                                 who = ROOT
                                 years = 1
                         }
-		}		
+		}
 	}
 }
 
@@ -1544,17 +1544,17 @@ character_event = {
 	id = VIETmisc.2513
 	desc = VIETmisc.2513.desc
 	picture = GFX_evt_throne_room
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		NOT = { has_character_modifier = ultima_silliness_screw_EA }
 		OR = {
@@ -1682,7 +1682,7 @@ narrative_event = {
 	}
 	option = {
 		name = VIETmisc.2514.b
-	}	
+	}
 }
 
 #Now you play hopscotch
@@ -1699,7 +1699,7 @@ character_event = {
 	}
 	option = {
 		name = VIETmisc.2515.b
-	}	
+	}
 }
 
 #Now you play hopscotch
@@ -1716,7 +1716,7 @@ character_event = {
 	}
 	option = {
 		name = VIETmisc.2516.b
-	}	
+	}
 }
 
 #I hope there are no monsters and pirates around
@@ -1733,7 +1733,7 @@ character_event = {
 	}
 	option = {
 		name = VIETmisc.2517.b
-	}	
+	}
 }
 
 #Nope, no passage to Britannia for you ...Avatar...
@@ -1751,7 +1751,7 @@ narrative_event = {
 			name = ultima_silliness_screw_EA
 			duration = -1
 		}
-		
+
 	}
 }
 
@@ -1763,9 +1763,9 @@ character_event = {
 
 	is_triggered_only = yes
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		has_character_modifier = ultima_silliness_screw_EA
 		OR = {
@@ -1898,17 +1898,17 @@ character_event = {
 	id = VIETmisc.2520
 	desc = VIETmisc.2520.desc
 	picture = GFX_evt_feast
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		OR = {
 			culture = welsh
@@ -2051,6 +2051,6 @@ character_event = {
 				who = ROOT
 				years = 2
 			}
-		}					
+		}
 	}
 }

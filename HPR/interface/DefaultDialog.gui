@@ -823,18 +823,18 @@ guiTypes = {
 			pdx_tooltip = "CHARACTER_TOOLTIP"
 			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
-		iconType = {
-			name ="portrait_frame_deco"
-			spriteType ="GFX_charframe_50_chronicle"
-			position = { x= 385 y = -6 }
+#		iconType = {
+#			name ="portrait_frame_deco"
+#			spriteType ="GFX_charframe_50_chronicle"
+#			position = { x= 385 y = -6 }
 			#pdx_tooltip = "CHARACTER_TOOLTIP"
 			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
-		}
+#		}
 		
 		guiButtonType =
 		{
 			name ="portrait_frame"
-			quadTextureSprite = "GFX_charframe_50"
+			quadTextureSprite = "GFX_charframe_50_chronicle"
 			position = { x= 388 y = -3 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
 			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"

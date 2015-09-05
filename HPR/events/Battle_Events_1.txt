@@ -214,7 +214,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109402
-		prestige = 1
+		prestige = 10
 	}
 }
 
@@ -333,11 +333,11 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109403
-		prestige = 3
+		prestige = 30
 	}
 	option = {
 		name = EVTOPTB1000109403
-		prestige = 3
+		prestige = 30
 	}
 }
 
@@ -388,7 +388,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109404
-		prestige = 2
+		prestige = 20
 	}
 }
 
@@ -439,20 +439,20 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109405
-		prestige = 2
+		prestige = 20
 		random_list = {
-			80 = { }
-			18 = { add_trait = wounded }
-			2 = { add_trait = maimed }
+			70 = { }
+			25 = { add_trait = wounded }
+			5 = { add_trait = maimed }
 		}
 	}
 	option = {
 		name = EVTOPTB1000109405
-		prestige = 2
+		prestige = 20
 		random_list = {
-			80 = { }
-			18 = { add_trait = wounded }
-			2 = { add_trait = maimed }
+			70 = { }
+			25 = { add_trait = wounded }
+			5 = { add_trait = maimed }
 		}
 	}
 }
@@ -609,7 +609,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109406
-		prestige = 2
+		prestige = 20
 	}
 }
 
@@ -659,7 +659,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109407 #Spare them
-		prestige = 2
+		prestige = 20
 		random_list = {
 			70 = { }
 			20 = { add_trait = kind }
@@ -668,7 +668,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB1000109407 #Imprison them
-		prestige = 2
+		prestige = 20
 		random_list = {
 			85 = { }
 			10 = { add_trait = just }
@@ -677,7 +677,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTC1000109407 #Kill them
-		prestige = 2
+		prestige = 20
 		random_list = {
 			70 = { }
 			20 = { add_trait = cruel }
@@ -759,11 +759,11 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109408 #Nothing wrong with fear
-		piety = 4
+		piety = 40
 	}
 	option = {
 		name = EVTOPTB1000109408 #Blood blood everywhere
-		prestige = 4
+		prestige = 40
 	}
 	option = {
 		name = EVTOPTC1000109408 #Fight honorably
@@ -772,8 +772,8 @@ character_event = {
 			NOT = { trait = arbitrary }
 			NOT = { trait = cruel }
 		}
-		prestige = 2
-		piety = 2
+		prestige = 20
+		piety = 20
 	}
 	option = {
 		name = EVTOPTD1000109408 #Kill or be killed
@@ -783,7 +783,7 @@ character_event = {
 			NOT = { trait = wroth }
 			NOT = { trait = cruel }
 		}
-		prestige = 4
+		prestige = 40
 	}
 	option = {
 		name = EVTOPTD1000109408 #Kill or be killed
@@ -792,7 +792,7 @@ character_event = {
 			trait = cruel
 			NOT = { trait = cynical }
 		}
-		prestige = 4
+		prestige = 40
 	}
 	option = {
 		name = EVTOPTD1000109408 #Kill or be killed
@@ -800,7 +800,7 @@ character_event = {
 		trigger = {
 			trait = wroth
 		}
-		prestige = 4
+		prestige = 40
 	}
 
 }
@@ -958,7 +958,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109409
-		prestige = 2
+		prestige = 20
 	}
 }
 
@@ -1113,6 +1113,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000109410
-		prestige = 2
+		prestige = 20
 	}
 }

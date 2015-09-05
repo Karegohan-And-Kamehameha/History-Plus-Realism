@@ -217,12 +217,7 @@ guiTypes = {
 			pdx_tooltip = "BARBER_TOOLTIP"
 		}
 		
-		guiButtonType =	{
-			name ="toggle_forbidden_to_lead_armies"
-			quadTextureSprite ="GFX_toggle_allow_as_leader"
-			position = { x= 133 y = 89 }
-			clicksound = generic_click_01
-		}
+
 		
 		### BARBER
 		windowType = {
@@ -345,7 +340,7 @@ guiTypes = {
 			guiButtonType =	{
 				name ="heir_portrait"
 				quadTextureSprite= "GFX_char_50"
-				position = { x= 92 y = 12 }
+				position = { x= 93 y = 12 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
 				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
@@ -1039,7 +1034,7 @@ guiTypes = {
 		}
 		guiButtonType =	{
 			name = "button_realmtree"
-			position = { x= 346 y = -1 }
+			position = { x= 341 y = -6 }
 			quadTextureSprite ="GFX_the_realm_ARKO"
 			#quadTextureSprite ="GFX_charview_goto_hierarchy"	
 			Orientation = "UPPER_LEFT"
@@ -1775,6 +1770,14 @@ guiTypes = {
 			quadTextureSprite ="GFX_charview_quick_plot_button"
 			clicksound = generic_click_02
 		}
+		guiButtonType =	{
+			name ="toggle_forbidden_to_lead_armies"
+			quadTextureSprite ="GFX_toggle_allow_as_leader"
+			#position = { x= 133 y = 89 } behing portraits, baaad !
+			position = { x= 133 y = 189 }
+			clicksound = generic_click_01
+		}
+		
 	}
 	###ENTRIES
 	## char entry

@@ -154,7 +154,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB1000109318"  # Don't cry
 		random_list = {
-			20 = { prestige = 5 }
+			20 = { prestige = 25 }
 			20 = { add_trait = brave }
 			20 = { add_trait = proud }
 			40 = { }
@@ -224,29 +224,29 @@ character_event = {
 	option = {
 		name = "EVTOPTA1000109319"  # Music
 		random_list = {
-			50 = { change_diplomacy = 1 }
-			50 = {  }
+			30 = { change_diplomacy = 1 }
+			70 = {  }
 		}
 	}
 	option = {
 		name = "EVTOPTB1000109319"  # Dragons
 		random_list = {
-			50 = { change_martial = 1 }
-			50 = {  }
+			30 = { change_martial = 1 }
+			70 = {  }
 		}
 	}
 	option = {
 		name = "EVTOPTC1000109319"  # Buying stuff
 		random_list = {
-			50 = { change_stewardship = 1 }
-			50 = {  }
+			30 = { change_stewardship = 1 }
+			70 = {  }
 		}
 	}
 	option = {
 		name = "EVTOPTD1000109319"  # God
 		random_list = {
-			50 = { change_learning = 1 }
-			50 = {  }
+			30 = { change_learning = 1 }
+			70 = {  }
 		}
 	}
 
