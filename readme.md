@@ -7,9 +7,9 @@ The music mod is now available for download at<br> https://mega.nz/#!gxt1xSRB!7Y
 
 <b>Changelog:</b><br>
 <b>v0.4:</b><br>
--Major events overhaul. Bonuses of VIET events have been increased drastically (from 5 to 10 times in most cases). Now these events actually matter, not just display some text and because they matter, their frequency of appearance has been decreased (yearly pulse events are now bi yearly, bi yearly are five yearly and five yearly are decade pulse).
--Fixed over 500 event related bugs, according to the Validator.
--Dulcinian heresy added.
+-Major events overhaul. Bonuses of VIET events have been increased drastically (from 5 to 10 times in most cases). Now these events actually matter, not just display some text and because they matter, their frequency of appearance has been decreased (yearly pulse events are now bi yearly, bi yearly are five yearly and five yearly are decade pulse).<br>
+-Fixed over 500 event related bugs, according to the Validator.<br>
+-Dulcinian heresy added.<br>
 <b>v0.3.1:</b><br>
 -Updated ARKO interface to 2015-08-20.<br>
 -Added missing VIET lifestyle trait related events.<br>
