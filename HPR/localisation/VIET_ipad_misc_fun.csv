@@ -260,11 +260,6 @@ VIETmisc.2052.desc;My life is terrible.;;;;;;;;;;;x
 VIETmisc.2052.a;Why?;;;;;;;;;;;;;x
 VIETmisc.2053.desc;I feel exhausted...;;;;;;;;;;;x
 VIETmisc.2053.a;So exhausted...;;;;;;;;;;;;;x
-VIETmisc.2054.desc;I threw up on someone!;;;;;;;;;;;x
-VIETmisc.2054.a;Heehee.;;;;;;;;;;;;;x
-VIETmisc.2055.tooltip;Uh-oh...;;;;;;;;;;;x
-VIETmisc.2055.desc;That little brat [From.GetFirstName] threw up on me while we were dining.;;;;;;;;;;;x
-VIETmisc.2055.a;Ew.;;;;;;;;;;;;;x
 VIETmisc.2056.desc;Thankfully, I've discovered where I misplaced my ring. It was under my bed.;;;;;;;;;;;x
 VIETmisc.2056.a;What good fortune.;;;;;;;;;;;;;x
 VIETmisc.2057.desc;While traveling to a nearby town on official business you come across a corpse on the side of the road. Upon further inspection, it appears to be a beggar who died of who knows what.;;;;;;;;;;;x
@@ -407,7 +402,7 @@ VIETmisc.2116.desc;The servant stutters, “Um… my [Root.GetTitle], I can see your
 VIETmisc.2116.a;The servant mumbles “impressive” or something like that.;;;;;;;;;;;;;x
 VIETmisc.2117.desc;It's unusual cold today and snowing. While I sit outside with my lover, admiring the scenery, the tempting curves of their body is pressed against me to keep warm.\n\nBeing outside in the snow like this immerses me in a special feeling. ;;;;;;;;;;;x
 VIETmisc.2117.a;I like it!;;;;;;;;;;;;;x
-VIETmisc.2118.desc;I notice one of my courtiers - a sweet, innocent, somewhat awkward young man - is staring at my ample bosom while we talk. As the conversation dies down, he tries to awkwardly compliment me. "I admire your... large tracts of land.";;;;;;;;;;;x
+VIETmisc.2118.desc;I notice one of my courtiers - a sweet, innocent, somewhat awkward young thing - is staring at my ample bosom while we talk. As the conversation dies down, they try to awkwardly compliment me. "I admire your... large tracts of land.";;;;;;;;;;;x
 VIETmisc.2118.a;How dare you! Never speak like that!;;;;;;;;;;;;;x
 VIETmisc.2118.b;Sweetie... are you interested in something?;;;;;;;;;;;;;x
 VIETmisc.2118.c;I’ll just ignore that.;;;;;;;;;;;;;x
@@ -622,10 +617,6 @@ VIETmisc.2197.a;Can I join in?;;;;;;;;;;;;;x
 VIETmisc.2197.b;It’s of no interest to me.;;;;;;;;;;;;;x
 VIETmisc.2198.desc;I came across an old book on food from across the world. Most of it was damaged save for one section that discussed bread. There are so many types of breads, that can be cooked in a variety of ways. This information is really useful, and I see many applications for it - what bread is best used on military marches, for instance, or what types go with what food at feasts.;;;;;;;;;;;x
 VIETmisc.2198.a;I’m glad I found out about this.;;;;;;;;;;;;;x
-VIETmisc.2199.desc;The young, attractive, shapely vendor offers you a taste of her big melonpan. They look so round, so cushiony, so creamy and beautiful. What man wouldn’t want something so tempting?;;;;;;;;;;;x
-VIETmisc.2199.a;I’ll buy some! Japanese sweet buns!;;;;;;;;;;;;;x
-VIETmisc.2199.b;Not interested.;;;;;;;;;;;;;x
-VIETmisc.2199.c;Oh, you meant that kind of melonpan… the bread, I mean, haha...;;;;;;;;;;;;;x
 VIETmisc.2200.desc;A local confectioner has developed a special new candy, which he calls “candy apples.” These apples are covered in an entire layer of hard sugar, and people say they are quite a tasty treat! The confectioner has given you some samples, free of charge.;;;;;;;;;;;x
 VIETmisc.2200.a;Yes, thanks!;;;;;;;;;;;;;x
 VIETmisc.2201.desc;With the Aztec invasions, pumpkins have been introduced as a food crop. This year, some creative peasants have figured out something to do with pumpkins after they extract the edible part inside - carve faces on them. These carved pumpkins are both amusing yet frightening all the while.;;;;;;;;;;;x
@@ -1287,3 +1278,13 @@ VIETmisc.2498.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2499.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2499.a;Xxxxxxffff;;;;;;;;;;;;;x
 #boobooboopp;I think there's a VIETmisc.2500 somewhere, this is just a reminder;;;;;;;;;;;;;x
+VIETmisc.10050.desc;Today some monks spoke to me about my frivolous lifestyle and encourage me to refrain from earthly pleasures.;;;;;;;;;;;;;x
+VIETmisc.10050.a;They are right, I shall restrict myself from this day onwards.;;;;;;;;;;;;;x
+VIETmisc.10050.b;I live how I see fit.;;;;;;;;;;;;;x
+VIETmisc.10051.desc;A wandering hermit has appeared at my court today. He told me wonderous tales about distant lands and foreign cultures.;;;;;;;;;;;;;x
+VIETmisc.10051.a;There's something new to learn every day.;;;;;;;;;;;;;x
+VIETmisc.10052.desc;One of my smellier courtiers suggested that washing oneself is an earthly pleasure and is therefore sinfull by nature.;;;;;;;;;;;;;x
+VIETmisc.10052.a;What a fool. Water is a gift from God.;;;;;;;;;;;;;x
+VIETmisc.10052.b;Maybe I should stop washing too?;;;;;;;;;;;;;x
+VIETmisc.10053.desc;A passing Fraticelli preacher has asked to stay the night at my court.;;;;;;;;;;;;;x
+VIETmisc.10053.a;Of course I will help a brother in need!;;;;;;;;;;;;;x

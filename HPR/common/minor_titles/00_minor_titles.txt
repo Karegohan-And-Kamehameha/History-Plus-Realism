@@ -82,7 +82,7 @@ title_tanist = {
 	show_as_title = yes
 	realm_in_name = yes
 	revoke_allowed = no
-	
+
 	monthly_salary = 0.07
 	monthly_prestige = 0.02
 
@@ -119,7 +119,7 @@ title_prince = {
 
 	monthly_salary = 0.025
 	monthly_prestige = 0.01
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -133,10 +133,10 @@ title_courtesan = {
 	dignity = 0.05
 	realm_in_name = yes
 	revoke_allowed = no
-	
+
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -148,25 +148,25 @@ title_courtesan = {
 # Commander, granted via its own interaction, so very special
 title_commander = {
 	is_high_prio = yes
-	
+
 	attribute = martial
 	dignity = 0.05
 	opinion_effect = 10
 	realm_in_name = yes
-	
+
 	monthly_salary = 0.05
 	monthly_prestige = 0.005
-	
+
 	allowed_to_hold = {
 		tooltip = { can_hold_title = job_marshal }
 		hidden_tooltip = { is_decision_allowed = check_marshal }
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
 	}
-	
+
 	message = yes
 }
 
@@ -179,15 +179,15 @@ title_court_eunuch = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-	
+
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	allowed_to_hold = {
 		is_adult = yes
-		trait = eunuch		
+		trait = eunuch
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -202,7 +202,7 @@ title_court_eunuch = {
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 	}
-	
+
 	gain_effect = {
 		FROM = {
 			prestige = 10
@@ -222,7 +222,7 @@ title_court_dwarf = {
 
 	monthly_salary = 0.025
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -231,9 +231,9 @@ title_court_dwarf = {
 			prisoner = no
 			host = { NOT = { is_liege_of = ROOT } }
 		}
-		trait = dwarf		
+		trait = dwarf
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -273,7 +273,7 @@ title_court_jester = {
 
 	monthly_salary = 0.025
 	monthly_prestige = -0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -281,10 +281,10 @@ title_court_jester = {
 		OR = {
 			prisoner = no
 			host = { NOT = { is_liege_of = ROOT } }
-		}		
+		}
 		NOT = { has_character_flag = guru }
 	}
-	
+
 	allowed_to_grant = {
 		is_feudal = yes
 		primary_title = {
@@ -318,7 +318,7 @@ title_keeper_of_swans = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -326,9 +326,9 @@ title_keeper_of_swans = {
 		OR = {
 			prisoner = no
 			host = { NOT = { is_liege_of = ROOT } }
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -364,7 +364,7 @@ title_master_of_the_horse = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -386,7 +386,7 @@ title_master_of_the_horse = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -417,7 +417,7 @@ title_master_of_the_hunt = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -437,10 +437,10 @@ title_master_of_the_hunt = {
 				is_female = no
 				is_decision_allowed = check_marshal
 			}
-		}	
+		}
 		NOT = { has_character_flag = guru }
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -472,7 +472,7 @@ title_high_almoner = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -480,9 +480,9 @@ title_high_almoner = {
 		OR = {
 			prisoner = no
 			host = { NOT = { is_liege_of = ROOT } }
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -512,7 +512,7 @@ title_cupbearer = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.02
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -531,7 +531,7 @@ title_cupbearer = {
 		}
 		NOT = { has_character_flag = guru }
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -561,7 +561,7 @@ title_seneschal = {
 
 	monthly_salary = 0.03
 	monthly_prestige = 0.015
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -577,10 +577,10 @@ title_seneschal = {
 				ROOT = { is_feminist_trigger = yes }
 			}
 			ROOT = { has_law = true_cognatic_succession }
-		}	
+		}
 		NOT = { has_character_flag = guru }
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -604,7 +604,7 @@ title_seneschal = {
 
 title_paramount_knight = {
 	dignity = 0.8
-	grant_limit = 0 
+	grant_limit = 0
 	opinion_effect = 0
 
 	monthly_prestige = 0.5
@@ -623,14 +623,14 @@ title_despot = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 25
-	
+
 	monthly_salary = 0.1
 	monthly_prestige = 0.01
-	
+
 	counts_as_purple_born = yes
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		OR = {
 			is_female = no
@@ -640,9 +640,9 @@ title_despot = {
 			}
 			ROOT = { has_law = true_cognatic_succession }
 		}
-		is_close_relative = FROM		
+		is_close_relative = FROM
 	}
-	
+
 	allowed_to_grant = {
 		is_feudal = yes
 		OR = {
@@ -672,7 +672,7 @@ title_sebastokrator = {
 
 	monthly_salary = 0.05
 	monthly_prestige = 0.025
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -684,9 +684,9 @@ title_sebastokrator = {
 				ROOT = { is_feminist_trigger = yes }
 			}
 			ROOT = { has_law = true_cognatic_succession }
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		is_feudal = yes
 		OR = {
@@ -716,13 +716,13 @@ title_caesar = {
 
 	monthly_salary = 0.05
 	monthly_prestige = 0.025
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
 		always = yes
 	}
-	
+
 	allowed_to_grant = {
 		is_feudal = yes
 		OR = {
@@ -752,7 +752,7 @@ title_kouropalates = {
 
 	monthly_salary = 0.05
 	monthly_prestige = 0.05
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -768,9 +768,9 @@ title_kouropalates = {
 				ROOT = { is_feminist_trigger = yes }
 			}
 			ROOT = { has_law = true_cognatic_succession }
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		is_feudal = yes
 		OR = {
@@ -800,7 +800,7 @@ title_anthypatos = {
 
 	monthly_salary = 0.025
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -816,9 +816,9 @@ title_anthypatos = {
 				ROOT = { is_feminist_trigger = yes }
 			}
 			ROOT = { has_law = true_cognatic_succession }
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		is_feudal = yes
 		OR = {
@@ -847,15 +847,15 @@ title_imperial_eunuch = {
 
 	monthly_salary = 0.025
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
-		trait = eunuch		
+		trait = eunuch
 	}
-	
+
 	allowed_to_grant = {
 		is_feudal = yes
 		OR = {
@@ -887,7 +887,7 @@ title_food_taster = {
 
 	monthly_salary = 0.025
 	monthly_prestige = -0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -896,9 +896,9 @@ title_food_taster = {
 			prisoner = no
 			host = { NOT = { is_liege_of = ROOT } }
 		}
-		is_female = no		
+		is_female = no
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -929,7 +929,7 @@ title_court_calligrapher = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -938,9 +938,9 @@ title_court_calligrapher = {
 			prisoner = no
 			host = { NOT = { is_liege_of = ROOT } }
 		}
-		is_female = no		
+		is_female = no
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -971,7 +971,7 @@ title_court_musician = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -981,7 +981,7 @@ title_court_musician = {
 			host = { NOT = { is_liege_of = ROOT } }
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -991,7 +991,7 @@ title_court_musician = {
 			religion_group = muslim
 			religion_group = indian_group
 		}
-	}		
+	}
 
 	gain_effect = {
 	}
@@ -1009,7 +1009,7 @@ title_court_poet = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -1018,15 +1018,19 @@ title_court_poet = {
 			prisoner = no
 			host = { NOT = { is_liege_of = ROOT } }
 		}
-		is_female = no		
+		is_female = no
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
-		}		
-		religion_group = muslim
+		}
+		OR = {
+			religion_group = muslim
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+		}
 	}
 
 	gain_effect = {
@@ -1045,7 +1049,7 @@ title_chief_architect = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -1054,14 +1058,14 @@ title_chief_architect = {
 			prisoner = no
 			host = { NOT = { is_liege_of = ROOT } }
 		}
-		is_female = no		
+		is_female = no
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
-		}		
+		}
 		religion_group = muslim
 	}
 
@@ -1081,12 +1085,12 @@ title_chief_qadi = {
 
 	monthly_salary = 0.05
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
 		is_adult = yes
-		is_female = no		
+		is_female = no
 		religion_group = muslim
 		OR = {
 			trait = detached_priest
@@ -1095,7 +1099,7 @@ title_chief_qadi = {
 			trait = mastermind_theologian
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1130,7 +1134,7 @@ title_state_inquisitor = {
 
 	monthly_salary = 0.025
 	monthly_prestige = 0.005
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -1141,9 +1145,9 @@ title_state_inquisitor = {
 				is_feminist_trigger = yes
 				ROOT = { is_feminist_trigger = yes }
 			}
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		is_merchant_republic = yes
 	}
@@ -1164,7 +1168,7 @@ title_high_admiral = {
 
 	monthly_salary = 0.05
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -1182,7 +1186,7 @@ title_high_admiral = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		is_merchant_republic = yes
 	}
@@ -1203,7 +1207,7 @@ title_high_judge = {
 
 	monthly_salary = 0.05
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -1214,9 +1218,9 @@ title_high_judge = {
 				is_feminist_trigger = yes
 				ROOT = { is_feminist_trigger = yes }
 			}
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		is_merchant_republic = yes
 	}
@@ -1244,9 +1248,9 @@ title_patrician_heir = {
 	allowed_to_hold = {
 		is_female = no
 		dynasty = FROM
-		NOT = { trait = bastard }		
+		NOT = { trait = bastard }
 	}
-	
+
 	allowed_to_grant = {
 		is_patrician = yes
 	}
@@ -1268,7 +1272,7 @@ title_volva = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -1278,9 +1282,9 @@ title_volva = {
 		OR = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			religion = norse_pagan
@@ -1304,11 +1308,11 @@ title_lawspeaker = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.02
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes		
+		is_adult = yes
 		OR = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
@@ -1316,7 +1320,7 @@ title_lawspeaker = {
 			religion = german_pagan_reformed
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1346,13 +1350,13 @@ title_drottseti = {
 
 	monthly_salary = 0.015
 	monthly_prestige = 0.03
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes		
+		is_adult = yes
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1381,14 +1385,14 @@ title_court_skald = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes		
+		is_adult = yes
 		trait = poet
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1418,7 +1422,7 @@ title_marksman = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -1436,7 +1440,7 @@ title_marksman = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1465,7 +1469,7 @@ title_hirdman = {
 
 	monthly_salary = 0.005
 	monthly_prestige = 0.005
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -1483,7 +1487,7 @@ title_hirdman = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1515,14 +1519,14 @@ title_baghatur = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.02
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes		
+		is_adult = yes
 	}
-	
-	allowed_to_grant = {		
+
+	allowed_to_grant = {
 		OR = {
 			AND = {
 				is_nomadic = yes
@@ -1532,7 +1536,7 @@ title_baghatur = {
 				OR = {
 					is_feudal = yes
 					is_tribal = yes
-				}				
+				}
 				OR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
@@ -1558,13 +1562,13 @@ title_cherbi = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes		
+		is_adult = yes
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			AND = {
@@ -1601,13 +1605,13 @@ title_darkhan = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes		
+		is_adult = yes
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			AND = {
@@ -1643,14 +1647,14 @@ title_noyan = {
 
 	monthly_salary = 0.005
 	monthly_prestige = 0.005
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
 		is_adult = yes
-		is_ruler = no		
+		is_ruler = no
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			AND = {
@@ -1685,12 +1689,12 @@ title_shahrwaraz = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 20
-	
+
 	monthly_salary = 0.1
 	monthly_prestige = 0.075
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
 		tooltip = {
@@ -1705,9 +1709,9 @@ title_shahrwaraz = {
 				is_decision_allowed = check_marshal
 			}
 		}
-		martial = 15		
+		martial = 15
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1715,7 +1719,7 @@ title_shahrwaraz = {
 		}
 		religion_group = zoroastrian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1729,12 +1733,12 @@ title_kardarigan = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 15
-	
+
 	monthly_salary = 0.075
 	monthly_prestige = 0.075
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
 		tooltip = {
@@ -1749,9 +1753,9 @@ title_kardarigan = {
 				is_decision_allowed = check_marshal
 			}
 		}
-		martial = 15		
+		martial = 15
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1759,7 +1763,7 @@ title_kardarigan = {
 		}
 		religion_group = zoroastrian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1773,12 +1777,12 @@ title_shahin = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 15
-	
+
 	monthly_salary = 0.075
 	monthly_prestige = 0.075
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
 		tooltip = {
@@ -1793,9 +1797,9 @@ title_shahin = {
 				is_decision_allowed = check_marshal
 			}
 		}
-		martial = 15		
+		martial = 15
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1803,7 +1807,7 @@ title_shahin = {
 		}
 		religion_group = zoroastrian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1817,12 +1821,12 @@ title_pushtigban_salar = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 15
-	
+
 	monthly_salary = 0.1
 	monthly_prestige = 0.05
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
 		tooltip = {
@@ -1838,7 +1842,7 @@ title_pushtigban_salar = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1846,7 +1850,7 @@ title_pushtigban_salar = {
 		}
 		religion_group = zoroastrian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1860,12 +1864,12 @@ title_spahbod = {
 	realm_in_name = yes
 	grant_limit = 4
 	opinion_effect = 15
-	
+
 	monthly_salary = 0.075
 	monthly_prestige = 0.075
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
 		tooltip = {
@@ -1881,7 +1885,7 @@ title_spahbod = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		higher_tier_than = DUKE
 		OR = {
@@ -1890,7 +1894,7 @@ title_spahbod = {
 		}
 		religion_group = zoroastrian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1903,16 +1907,16 @@ title_eran_ambaragbed = {
 	dignity = 0.075
 	grant_limit = 1
 	opinion_effect = 10
-	
+
 	monthly_salary = 0.005
 	monthly_prestige = 0.005
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
-		is_adult = yes		
+		is_adult = yes
 	}
-	
+
 	allowed_to_grant = {
 		higher_tier_than = DUKE
 		OR = {
@@ -1921,7 +1925,7 @@ title_eran_ambaragbed = {
 		}
 		religion_group = zoroastrian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1937,10 +1941,10 @@ title_champion = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 20
-	
+
 	monthly_salary = 0.1
 	monthly_prestige = 0.075
-	
+
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
@@ -1962,9 +1966,9 @@ title_champion = {
 				opinion = { who = FROM value = 0 }
 				reverse_opinion = { who = FROM value = 0 }
 			}
-		}		
+		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1980,7 +1984,7 @@ title_champion = {
 				religion = tengri_pagan_reformed
 			}
 		}
-		OR = {			
+		OR = {
 			is_nomadic = yes
 			religion = baltic_pagan_reformed
 			religion = baltic_pagan
@@ -1990,12 +1994,12 @@ title_champion = {
 			religion = slavic_pagan
 			religion = west_african_pagan_reformed
 			religion = west_african_pagan
-			religion = aztec			
+			religion = aztec
 			religion = zun_pagan
 			religion = zun_pagan_reformed
 		}
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2009,12 +2013,12 @@ title_master_of_the_blade = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 15
-	
+
 	monthly_salary = 0.075
 	monthly_prestige = 0.075
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
 		tooltip = {
@@ -2030,7 +2034,7 @@ title_master_of_the_blade = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2056,12 +2060,12 @@ title_master_of_the_blade = {
 			religion = slavic_pagan
 			religion = west_african_pagan_reformed
 			religion = west_african_pagan
-			religion = aztec			
+			religion = aztec
 			religion = zun_pagan
 			religion = zun_pagan_reformed
 		}
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2075,12 +2079,12 @@ title_master_of_the_bow = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 15
-	
+
 	monthly_salary = 0.075
 	monthly_prestige = 0.075
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
 		tooltip = {
@@ -2096,7 +2100,7 @@ title_master_of_the_bow = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2122,12 +2126,12 @@ title_master_of_the_bow = {
 			religion = slavic_pagan
 			religion = west_african_pagan_reformed
 			religion = west_african_pagan
-			religion = aztec			
+			religion = aztec
 			religion = zun_pagan
 			religion = zun_pagan_reformed
 		}
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2141,10 +2145,10 @@ title_venerable_elder = {
 	realm_in_name = yes
 	grant_limit = 4
 	opinion_effect = 15
-	
+
 	monthly_salary = 0.075
 	monthly_prestige = 0.075
-	
+
 	allowed_to_hold = {
 		tooltip = {
 			OR = {
@@ -2158,9 +2162,9 @@ title_venerable_elder = {
 				is_decision_allowed = check_chancellor
 			}
 		}
-		age = 50		
+		age = 50
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2191,7 +2195,7 @@ title_venerable_elder = {
 			religion = zun_pagan_reformed
 		}
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2210,7 +2214,7 @@ title_yabgu = {
 
 	monthly_salary = 0.05
 	monthly_prestige = 0.05
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -2223,21 +2227,21 @@ title_yabgu = {
 			}
 			ROOT = { has_law = true_cognatic_succession }
 		}
-		is_close_relative = FROM		
+		is_close_relative = FROM
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
 			is_nomadic = yes
 		}
-		NOT = { culture = mongol }		
+		NOT = { culture = mongol }
 		NOR = {
 			has_landed_title = e_mongol_empire
 			has_landed_title = e_golden_horde
 			has_landed_title = e_il-khanate
-		}		
+		}
 		OR = {
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
@@ -2268,7 +2272,7 @@ title_ishad = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.02
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
@@ -2286,7 +2290,7 @@ title_ishad = {
 			}
 		}
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2329,20 +2333,20 @@ title_kundur = {
 
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
-	
+
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes		
+		is_adult = yes
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
 			is_nomadic = yes
 		}
-		NOT = { culture = mongol }		
+		NOT = { culture = mongol }
 		NOR = {
 			has_landed_title = e_mongol_empire
 			has_landed_title = e_golden_horde
@@ -2376,18 +2380,18 @@ title_master_of_the_royal_elephants = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-	
+
 	monthly_salary = 0.02
 	monthly_prestige = 0.004
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
-		is_female = no		
+		is_female = no
 		NOT = { has_character_flag = guru }
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2403,7 +2407,7 @@ title_master_of_the_royal_elephants = {
 		NOT = { has_landed_title = e_roman_empire }
 		religion_group = indian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2417,18 +2421,18 @@ title_royal_builder = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-	
+
 	monthly_salary = 0.02
 	monthly_prestige = 0.004
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
-		is_female = no		
+		is_female = no
 		NOT = { has_character_flag = guru }
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2444,7 +2448,7 @@ title_royal_builder = {
 		NOT = { has_landed_title = e_roman_empire }
 		religion_group = indian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2458,26 +2462,26 @@ title_court_poet_india = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-	
+
 	monthly_salary = 0.02
 	monthly_prestige = 0.004
-	
+
 	is_unique = yes
-	
+
 	allowed_to_hold = {
 		is_adult = yes
-		is_female = no		
+		is_female = no
 		NOT = { has_character_flag = guru }
 	}
-	
+
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
-		}		
+		}
 		religion_group = indian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2490,25 +2494,25 @@ title_guru = {
 	dignity = 0.050
 	grant_limit = 1
 	opinion_effect = 15
-	
+
 	monthly_salary = 0.02
 	monthly_prestige = 0.1
 
 	revoke_allowed = no
-	
+
 	allowed_to_hold = {
 		OR = {
 			has_character_flag = guru
 			has_character_flag = fake_guru
 		}
 		is_adult = yes
-		religion_group = indian_group		
+		religion_group = indian_group
 	}
-	
-	allowed_to_grant = { 
-		religion_group = indian_group 
+
+	allowed_to_grant = {
+		religion_group = indian_group
 	}
-	
+
 	gain_effect = {
 	}
 	lose_effect = {

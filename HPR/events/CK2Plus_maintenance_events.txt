@@ -10,7 +10,7 @@ character_event = { # AI plot check
 	id = Plus.300
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	ai = yes
 	prisoner = no
 	capable_only = yes
@@ -91,7 +91,7 @@ character_event = { # Cancel AI plot if too few helpers and has taken too long
 
 	ai = yes
 	has_character_flag = plot_check
-	
+
 	trigger = {
 		ai = yes
 		OR = {
@@ -129,7 +129,7 @@ character_event = { # Allow AI plotting
 	id = Plus.302
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	min_age = 16
 	prisoner = no
 	capable_only = yes
@@ -233,11 +233,11 @@ character_event = { # Shatter Empire if too small
 	id = Plus.303 #formerly 1000182859
 	desc = "EVTDESC_Plus_303"
 	picture = "GFX_evt_council"
-	
+
 	is_triggered_only = yes
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		war = no
 		is_ruler = yes
@@ -288,9 +288,9 @@ character_event = { # Fix Laws if CA differs from max law level for the CA
 	id = Plus.304 #formerly 1000182857
 	desc = "EVTDESC_Plus_304"
 	picture = "GFX_evt_council"
-	
+
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
 
 	trigger = {
@@ -538,7 +538,7 @@ character_event = { # Fix Laws if CA differs from max law level for the CA
 
 character_event = { # Remove Crowned by Pope or Crowned or Uncrowned if not a ruler
 	id = Plus.305
-	
+
 	is_triggered_only = yes
 	hide_window = yes
 
@@ -617,7 +617,7 @@ character_event = { # Inherit Half of Dishonourable and Tyrant
 	hide_window = yes
 	is_triggered_only = yes
 	ai = no
-	
+
 	trigger = {
 		ai = no
 		current_heir = { is_close_relative = ROOT }
@@ -651,7 +651,7 @@ character_event = { # Inherit Half of Dishonourable and Tyrant
 			trait = tyrant20
 		}
 	}
-	
+
 	immediate = {
 		hidden_tooltip = {
 			#tyrant
@@ -1498,7 +1498,7 @@ character_event = { # Contingent Territory Check Part 2
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -1703,7 +1703,7 @@ character_event = { # Contingent Territory Check Part 2
 
 character_event = { # Remove Tyrant Trait on non-rulers
 	id = Plus.309
-	
+
 	is_triggered_only = yes
 	hide_window = yes
 
@@ -1768,10 +1768,10 @@ character_event = { # Copies empire's Crown Laws to de jure kingdoms
 	picture = "GFX_evt_council"
 
 	is_triggered_only = yes
-	
+
 	only_playable = yes
 
-	trigger = {	
+	trigger = {
 		primary_title = { tier = EMPEROR }
 		any_demesne_title = {
 			tier = KING
@@ -1900,10 +1900,10 @@ character_event = { # Copies empire's Crown Laws to de jure kingdoms
 
 character_event = { # AI Spouse finder
 	id = Plus.312
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	ai = yes
 	min_age = 18
 	max_age = 60
@@ -2175,7 +2175,7 @@ character_event = { # AI Spouse finder
 				}
 				add_spouse_matrilineal = ROOT
 				break = yes
-			}	
+			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
@@ -2199,12 +2199,12 @@ character_event = { # AI Spouse finder
 
 character_event = { # Player Councillors Spouse Finder
 	id = Plus.313
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	ai = no
-	
+
 	trigger = {
 		ai = no
 		any_courtier = {
@@ -2231,11 +2231,11 @@ character_event = { # Player Councillors Spouse Finder
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		months = 1
 	}
-	
+
 	immediate = {
 		random_courtier = {
 			limit = {
@@ -2342,7 +2342,7 @@ character_event = { # Player Councillors Spouse Finder
 
 character_event = { # Remove Loyalist & Neutral
 	id = Plus.314
-	
+
 	is_triggered_only = yes
 	hide_window = yes
 
@@ -2370,7 +2370,7 @@ character_event = { # Remove Loyalist & Neutral
 
 character_event = { # Remove Rebel and set opinion modifiers
 	id = Plus.315
-	
+
 	hide_window = yes
 
 	trigger = {
@@ -2446,10 +2446,10 @@ character_event = { # Independent baron opinion modifiers
 
 character_event = { # AI Non-holy orders surrender baronies in different realms
 	id = Plus.317
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	only_rulers = yes
 
 	trigger = {
@@ -2510,7 +2510,7 @@ character_event = { # AI Non-holy orders surrender baronies in different realms
 
 character_event = { # Add Bloodlust trait
 	id = Plus.319
-	
+
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -2539,12 +2539,12 @@ character_event = { # Add Bloodlust trait
 				title = e_mongol_empire
 				title = e_mexikha
 			}
-		}	
+		}
 	}
-	
+
 	immediate = {
 		add_trait = bloodlust
-	}	
+	}
 
 	weight_multiplier = {
 		days = 1
@@ -2556,8 +2556,8 @@ character_event = { # Remove Bloodlust trait
 
 	hide_window = yes
 	is_triggered_only = yes
-	
-	trigger = {		
+
+	trigger = {
 		NOT = { has_global_flag = shattered_realm }
 		trait = bloodlust
 		OR = {
@@ -2569,23 +2569,23 @@ character_event = { # Remove Bloodlust trait
 					culture = mongol
 					culture = nahuatl
 				}
-				NOR = { 
-					religion = tengri_pagan 
+				NOR = {
+					religion = tengri_pagan
 					religion = aztec
 					has_landed_title = e_timurids
 				}
 			}
 		}
 	}
-	
+
 	immediate = {
 		remove_trait = bloodlust
-	}	
+	}
 
 	weight_multiplier = {
 		days = 1
 	}
-	
+
 }
 
 character_event = { # Remove Favored Son trait on death
@@ -2703,7 +2703,7 @@ character_event = { # Passes on various traits at birth (plus father/uncle/aunt 
 	immediate = {
 		set_character_flag = genetics_check
 		set_character_flag = yehudi_check
-		
+
 		#chance for genius or quick
 		if = {
 			limit = {
@@ -2831,7 +2831,7 @@ character_event = { # Passes on various traits at birth (plus father/uncle/aunt 
 				}
 			}
 		}
-		
+
 		#pass on divine blood
 		if = {
 			limit = {
@@ -2853,7 +2853,7 @@ character_event = { # Passes on various traits at birth (plus father/uncle/aunt 
 			}
 			add_trait = divine_blood
 		}
-		
+
 		#pass on yehudi trait
 		if = {
 			limit = {
@@ -2863,12 +2863,12 @@ character_event = { # Passes on various traits at birth (plus father/uncle/aunt 
 			add_trait = yehudi
 		}
 		if = {
-			limit = { 
+			limit = {
 				mother_even_if_dead = { trait = yehudi }
 			}
 			add_trait = yehudi
 		}
-		
+
 		#chance of being barren or infertile
 		if = {
 			limit = {
@@ -2983,7 +2983,7 @@ character_event = { # Passes on various traits at birth (plus father/uncle/aunt 
 				add_trait = vaishya
 			}
 		}
-		
+
 		#add opinion for father & uncle & aunts & cousins
 		father_even_if_dead = {
 			reverse_opinion = { who = ROOT modifier = opinion_father_fix years = 100 }
@@ -3017,7 +3017,7 @@ character_event = { # Passes on various traits at birth (plus father/uncle/aunt 
 					opinion = { who = ROOT modifier = opinion_cousin years = 100 }
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -3025,7 +3025,7 @@ character_event = { # Removes Just trait
 	id = Plus.325 #formerly 1000182865
 	desc = "EVTDESC_Plus_325"
 	picture = "GFX_evt_emissary"
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -3046,7 +3046,7 @@ character_event = { # Byzantium is reclaimed by an Orthodox/Hellenic ruler
 	id = Plus.326
 	desc = "EVTDESC_Plus_326"
 	picture = "GFX_evt_council"
-	
+
 	only_rulers = yes
 	only_independent = yes
 	culture_group = byzantine
@@ -3098,7 +3098,7 @@ character_event = { # Convert Latin Empire to Byzantine Empire if the holder is 
 	id = Plus.327
 	desc = "EVTDESC_Plus_327"
 	picture = "GFX_evt_council"
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -3192,7 +3192,7 @@ character_event = { # Byzantium Auto-Destroy Mechanic. Destroys Byzantium if the
 	id = Plus.328
 	desc = "EVTDESC_Plus_328"
 	picture = "GFX_evt_council"
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -3289,9 +3289,9 @@ character_event = { # Norman conquest of England cleanup - Victory: France loses
 
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	only_rulers = yes
-	
+
 	trigger = {
 		has_landed_title = k_france
 		has_global_flag = bm_stamford
@@ -3305,11 +3305,11 @@ character_event = { # Norman conquest of England cleanup - Victory: France loses
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 	}
-	
+
 	immediate = {
 		clr_global_flag = bm_stamford
 		any_claim = {
@@ -3331,7 +3331,7 @@ character_event = { # Norman conquest of England cleanup - Loss: English provinc
 
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_landed_title = d_normandy
 		has_global_flag = bm_stamford
@@ -3346,11 +3346,11 @@ character_event = { # Norman conquest of England cleanup - Loss: English provinc
 		}
 		NOT = { has_global_flag = witan_abolished }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 	}
-	
+
 	immediate = {
 		clr_global_flag = bm_stamford
 		k_england = {
@@ -3379,9 +3379,9 @@ character_event = { # Norman conquest of England cleanup - Loss: English provinc
 
 province_event = { # Stops construction of the Third Temple if it is underway
 	id = Plus.332
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		province_id = 774
 		has_province_flag = building_third_temple
@@ -3392,11 +3392,11 @@ province_event = { # Stops construction of the Third Temple if it is underway
 			owner = { top_liege = { NOT = { completely_controls = c_jerusalem } } }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		clr_province_flag = building_third_temple
 		remove_province_modifier = third_temple_builder
@@ -3405,9 +3405,9 @@ province_event = { # Stops construction of the Third Temple if it is underway
 
 province_event = { # Finishes construction of the Third Temple
 	id = Plus.333
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		province_id = 774
 		religion = jewish
@@ -3422,11 +3422,11 @@ province_event = { # Finishes construction of the Third Temple
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		clr_province_flag = building_third_temple
 		set_province_flag = third_temple_built
@@ -3454,20 +3454,20 @@ character_event = { # Adds the flag for the 'Civilize a Province' ambition
 
 character_event = { # Adds the Yehudi trait to Jews and children of Jews
 	id = Plus.335
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		religion_group = jewish_group
 		NOT = { trait = yehudi }
 		NOT = { has_character_flag = yehudi_check }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 	}
-	
+
 	immediate = {
 		set_character_flag = yehudi_check
 		if = {
@@ -3478,7 +3478,7 @@ character_event = { # Adds the Yehudi trait to Jews and children of Jews
 			add_trait = yehudi
 		}
 		if = {
-			limit = { 
+			limit = {
 				is_ruler = no
 			}
 			random = {
@@ -3493,9 +3493,9 @@ character_event = { # Tell family to come out of hiding once the war is done
 	id = Plus.336
 
 	hide_window = yes
-	
+
 	only_rulers = yes
-	
+
 	trigger = {
 		war = no
 		in_siege = no
@@ -3514,12 +3514,12 @@ character_event = { # Tell family to come out of hiding once the war is done
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 10
 	}
-	
-	immediate = {	
+
+	immediate = {
 		remove_character_modifier = stalwart_defender
 		remove_character_modifier = left_at_siege
 		remove_character_modifier = escaped_siege
@@ -3535,11 +3535,11 @@ character_event = { # Tell family to come out of hiding once the war is done
 
 character_event = { # Clear siege modifiers/hiding trait if imprisoned
 	id = Plus.337
-	
+
 	hide_window = yes
-	
+
 	prisoner = yes
-	
+
 	trigger = {
 		prisoner = yes
 		OR = {
@@ -3550,11 +3550,11 @@ character_event = { # Clear siege modifiers/hiding trait if imprisoned
 			has_character_flag = defending_the_castle
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		remove_trait = in_hiding
 		remove_character_modifier = stalwart_defender
@@ -3570,7 +3570,7 @@ character_event = { # HRE Auto-Destroy Mechanic. Destroys the HRE if the ruler i
 	id = Plus.338
 	desc = "EVTDESC_Plus_338"
 	picture = "GFX_evt_council"
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -3668,12 +3668,12 @@ character_event = { # HRE Auto-Destroy Mechanic. Destroys the HRE if the ruler i
 
 character_event = { # Change scarred/beauty trait on females
 	id = Plus.339
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	only_women = yes
-	
+
 	trigger = {
 		OR = {
 			trait = scarred
@@ -3683,11 +3683,11 @@ character_event = { # Change scarred/beauty trait on females
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { trait = scarred }
@@ -3706,10 +3706,10 @@ character_event = { # Change scarred/beauty trait on females
 
 character_event = { # Clean up 'children serving in holy orders' chains upon appropriate parent death
 	id = Plus.340
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = { #should be fired from the highest ranking parent
 		has_dlc = "The Old Gods"
 		any_child = {
@@ -3722,7 +3722,7 @@ character_event = { # Clean up 'children serving in holy orders' chains upon app
 			}
 		}
 	}
-	
+
 	immediate = {
 		any_child = {
 			limit = {
@@ -3776,15 +3776,15 @@ character_event = { # Clean up 'children serving in holy orders' chains upon app
 }
 
 character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
-	id = Plus.341		
+	id = Plus.341
 
-	is_triggered_only = yes		
-	
+	is_triggered_only = yes
+
 	hide_window = yes
 
 	immediate = {
 		character_event = { id = Plus.342 days = 3 }
-	}	
+	}
 }
 
 character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
@@ -3793,21 +3793,21 @@ character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
 	picture = "GFX_evt_council"
 
 	is_triggered_only = yes
-	
-	trigger = {	
-		FROMFROM = {			
+
+	trigger = {
+		FROMFROM = {
 			is_primary_holder_title_tier = yes
-			any_vassal = {								
+			any_vassal = {
 				has_opinion_modifier = { who = ROOT modifier = overthrown_ruler }
 				relative_power = { who = ROOT power = 0.25 }
-			}		
+			}
 		}
-	}	
-	
+	}
+
 	immediate = {
 		#assess power of demanders
 		hidden_tooltip = {
-			set_variable = { which = "ultimatum_power" value = "0" }			
+			set_variable = { which = "ultimatum_power" value = "0" }
 			any_vassal = {
 				limit = {
 					de_jure_liege = FROMFROM
@@ -3836,7 +3836,7 @@ character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
 				}
 				if = {
 					limit = {
-						relative_power = { who = ROOT power = 1 }							
+						relative_power = { who = ROOT power = 1 }
 					}
 					ROOT = { change_variable = { which = "ultimatum_power" value = "1" } }
 				}
@@ -3846,7 +3846,7 @@ character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
 
 	option = {
 		name = "EVTDEMANDYES"
-		#abdicate to next in line		
+		#abdicate to next in line
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -3880,9 +3880,9 @@ character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
 		}
 		abdicate = yes
 	}
-	
+
 	option = {
-		name = "EVTDEMANDNO" #reject demand		
+		name = "EVTDEMANDNO" #reject demand
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -3922,7 +3922,7 @@ character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
 				check_variable = { which = "ultimatum_power" value = "1" }
 			}
 		}
-		#a direct-vassal demander with sufficient power declares war, other demanders follow suit		
+		#a direct-vassal demander with sufficient power declares war, other demanders follow suit
 		random_vassal = {
 			limit = {
 				de_jure_liege = FROMFROM
@@ -3935,7 +3935,7 @@ character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
 			}
 			FROMFROM = {
 				any_vassal = {
-					limit = {													
+					limit = {
 						has_opinion_modifier = { who = ROOT modifier = overthrown_ruler }
 					}
 					join_attacker_wars = PREVPREV
@@ -3947,11 +3947,11 @@ character_event = { # Ultimatum to overthrown rulers who re-inherit the throne
 
 character_event = { # Adds Uncrowned trait to all new independent kings and emperors
 	id = Plus.344
-	
+
 	hide_window = yes
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		war = no
 		is_feudal = yes
@@ -3968,11 +3968,11 @@ character_event = { # Adds Uncrowned trait to all new independent kings and empe
 		}
 		has_global_flag = secondary_startup
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		add_trait = uncrowned
 	}
@@ -3980,10 +3980,10 @@ character_event = { # Adds Uncrowned trait to all new independent kings and empe
 
 character_event = { # Removes In Hiding trait from characters who no longer have someone to remove it
 	id = Plus.345
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		trait = in_hiding
 		is_ruler = no
@@ -4000,11 +4000,11 @@ character_event = { # Removes In Hiding trait from characters who no longer have
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 	}
-	
+
 	immediate = {
 		remove_trait = in_hiding
 		clr_character_flag = in_hiding_murder
@@ -4014,20 +4014,20 @@ character_event = { # Removes In Hiding trait from characters who no longer have
 
 character_event = { # Removes austerity modifier from non-AI characters
 	id = Plus.346
-	
+
 	hide_window = yes
 	is_triggered_only = yes
 	ai = no
-	
+
 	trigger = {
 		has_character_modifier = ai_austerity
 		ai = no
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 	}
-	
+
 	immediate = {
 		remove_character_modifier = ai_austerity
 	}
@@ -4035,13 +4035,13 @@ character_event = { # Removes austerity modifier from non-AI characters
 
 character_event = { # Secondary Startup event
 	id = Plus.347
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		set_global_flag = secondary_startup
-		
+
 		# remove undesireable claims and perform genetics check
 		set_character_flag = start_of_game_character
 		character_event = { id = Plus.323 } #remove undesirable claims
@@ -4065,7 +4065,7 @@ character_event = { # Secondary Startup event
 				}
 			}
 		}
-		
+
 		# set appropriate demesne laws level
 		if = {
 			limit = { higher_tier_than = BARON }
@@ -4250,7 +4250,7 @@ character_event = { # Secondary Startup event
 				}
 			}
 		}
-		
+
 		# mark titles that start at CA 0 and should not be destroyed if reduced
 		any_demesne_title = {
 			limit = {
@@ -4277,7 +4277,7 @@ character_event = { # Secondary Startup event
 				}
 			}
 		}
-		
+
 		# give crowned trait to all existing kings and emperors
 		if = {
 			limit = {
@@ -4315,7 +4315,7 @@ character_event = { # Secondary Startup event
 			}
 			add_trait = crowned
 		}
-		
+
 		# give uncrowned trait to everyone else
 		if = {
 			limit = {
@@ -4367,7 +4367,7 @@ character_event = { # Secondary Startup event
 			narrative_event = { id = Plus.1302 days = 1 }
 			narrative_event = { id = Plus.1303 days = 1 }
 		}
-		
+
 		# fire decadence modifier for other emperors
 		if = {
 			limit = {
@@ -4387,7 +4387,7 @@ character_event = { # Secondary Startup event
 			}
 			character_event = { id = Plus.1852 days = 1 }
 		}
-		
+
 		# give more money to merchant republics
 		if = {
 			limit = { is_merchant_republic = yes }
@@ -4418,32 +4418,19 @@ character_event = { # Secondary Startup event
 				}
 			}
 		}
-
-		# warning for ironman games
-		if = {
-			limit = { is_ironman = yes }
-			if = {
-				limit = { ai = no }
-				character_event = { id = Plus.1752 }
-			}
-			any_playable_ruler = {
-				limit = { ai = no }
-				character_event = { id = Plus.1752 }
-			}
-		}
 	}
 }
 
 character_event = { # Viceroys will try to pass on wealth to a relative instead of their liege
 	id = Plus.348
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	trigger = {
 		any_demesne_title = { is_vice_royalty = yes }
 	}
-	
+
 	immediate = {
 		any_demesne_title = {
 			limit = { is_vice_royalty = yes }
@@ -4525,7 +4512,7 @@ character_event = { # Viceroys will try to pass on wealth to a relative instead 
 						add_character_modifier = {
 							name = loan_50
 							duration = 730
-							inherit = yes						
+							inherit = yes
 						}
 					}
 					remove_character_modifier = loan_50
@@ -4548,7 +4535,7 @@ character_event = { # Viceroys will try to pass on wealth to a relative instead 
 						add_character_modifier = {
 							name = loan_100
 							duration = 730
-							inherit = yes						
+							inherit = yes
 						}
 					}
 					remove_character_modifier = loan_100
@@ -4571,7 +4558,7 @@ character_event = { # Viceroys will try to pass on wealth to a relative instead 
 						add_character_modifier = {
 							name = loan_200
 							duration = 730
-							inherit = yes						
+							inherit = yes
 						}
 					}
 					remove_character_modifier = loan_200
@@ -4594,7 +4581,7 @@ character_event = { # Viceroys will try to pass on wealth to a relative instead 
 						add_character_modifier = {
 							name = loan_400
 							duration = 730
-							inherit = yes						
+							inherit = yes
 						}
 					}
 					remove_character_modifier = loan_400
@@ -4617,7 +4604,7 @@ character_event = { # Viceroys will try to pass on wealth to a relative instead 
 						add_character_modifier = {
 							name = loan_600
 							duration = 730
-							inherit = yes						
+							inherit = yes
 						}
 					}
 					remove_character_modifier = loan_600
@@ -4640,7 +4627,7 @@ character_event = { # Viceroys will try to pass on wealth to a relative instead 
 						add_character_modifier = {
 							name = loan_800
 							duration = 730
-							inherit = yes						
+							inherit = yes
 						}
 					}
 					remove_character_modifier = loan_800
@@ -4663,7 +4650,7 @@ character_event = { # Viceroys will try to pass on wealth to a relative instead 
 						add_character_modifier = {
 							name = loan_1000
 							duration = 730
-							inherit = yes						
+							inherit = yes
 						}
 					}
 					remove_character_modifier = loan_1000
@@ -4710,12 +4697,12 @@ character_event = { # Viceroys will try to pass on wealth to a relative instead 
 
 character_event = { # Annual maintenance fixes
 	id = Plus.349
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = { is_ruler = yes }
-	
+
 	immediate = {
 		#track years_of_peace variable for the ambition
 		if = {
@@ -4726,7 +4713,7 @@ character_event = { # Annual maintenance fixes
 			limit = { war = no }
 			change_variable = { which = "years_of_peace" value = 1 }
 		}
-		
+
 		#fix titles that have become inactive
 		if = {
 			limit = {
@@ -4734,7 +4721,7 @@ character_event = { # Annual maintenance fixes
 			}
 			primary_title = { activate_title = { title = THIS status = yes } }
 		}
-		
+
 		#remove 'do not destroy' flag on titles that have raised crown authority
 		any_demesne_title = {
 			limit = {
@@ -4743,13 +4730,13 @@ character_event = { # Annual maintenance fixes
 			}
 			clr_title_flag = do_not_destroy
 		}
-		
+
 		#remove 'destroy' flag on titles which were not destroyed
 		any_demesne_title = {
 			limit = { had_title_flag = { flag = destroy_title days = 7 } }
 			clr_title_flag = destroy_title
 		}
-		
+
 		#add crown law if they should have it
 		any_demesne_title = {
 			limit = {
@@ -4814,7 +4801,7 @@ character_event = { # Annual maintenance fixes
 				add_law = agnatic_succession
 			}
 		}
-		
+
 		#fix non-patrician succession laws
 		any_demesne_title = {
 			limit = {
@@ -4993,8 +4980,8 @@ character_event = { # Annual maintenance fixes
 					revoke_law = investiture_law_1
 				}
 			}
-		}		
-		
+		}
+
 		#set appropriate demesne laws level
 		if = {
 			limit = { higher_real_tier_than = BARON }
@@ -5057,7 +5044,7 @@ character_event = { # Annual maintenance fixes
 				primary_title = { add_law = demesne_laws_4 }
 			}
 		}
-		
+
 		#set laws for secondary titles
 		any_demesne_title = {
 			limit = {
@@ -5214,7 +5201,7 @@ character_event = { # Annual maintenance fixes
 				add_law = council_privileges_1
 			}
 		}
-		
+
 		#check title flags
 		any_demesne_title = {
 			if = {
@@ -5831,10 +5818,10 @@ character_event = { # Annual maintenance fixes
 
 character_event = { # Fixing antipope removal
 	id = Plus.350
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		remove_claim = k_papal_state
 		remove_claim = d_fraticelli
@@ -5843,10 +5830,10 @@ character_event = { # Fixing antipope removal
 
 character_event = { # Prevents quick rebellions in newly-conquered provinces
 	id = Plus.351
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { tier = COUNT }
 		OR = {
@@ -5854,7 +5841,7 @@ character_event = { # Prevents quick rebellions in newly-conquered provinces
 			has_character_modifier = new_land_timer
 		}
 	}
-	
+
 	immediate = {
 		FROM = {
 			location = {
@@ -5873,10 +5860,10 @@ character_event = { # Prevents quick rebellions in newly-conquered provinces
 
 character_event = { # refills levy holdings after switching to feudal
 	id = Plus.352
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_demesne_title = {
 			limit = { has_title_flag = refill_levy }
@@ -5888,14 +5875,14 @@ character_event = { # refills levy holdings after switching to feudal
 
 character_event = { # adds Away From Court modifier when leading armies away from the capital
 	id = Plus.353
-	
+
 	hide_window = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	only_playable = yes
-	
+
 	trigger = {
 		in_command = yes
 		higher_tier_than = BARON
@@ -5912,11 +5899,11 @@ character_event = { # adds Away From Court modifier when leading armies away fro
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		set_character_flag = away_from_court
 		add_character_modifier = {
@@ -5928,11 +5915,11 @@ character_event = { # adds Away From Court modifier when leading armies away fro
 
 character_event = { # removes Away From Court modifier
 	id = Plus.354
-	
+
 	hide_window = yes
-	
+
 	has_character_flag = away_from_court
-	
+
 	trigger = {
 		has_character_modifier = away_from_court
 		OR = {
@@ -5981,11 +5968,11 @@ character_event = { # removes Away From Court modifier
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		remove_character_modifier = away_from_court
 		clr_character_flag = away_from_court
@@ -5996,16 +5983,16 @@ character_event = { # removes child's strong claim to viceroyalty
 	id = Plus.355
 	desc = AI_EVENT
 	picture = GFX_evt_council
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		event_target:lose_strong = {
 			ROOT = { has_strong_claim = PREV }
 		}
 	}
-	
+
 	option = {
 		name = OK
 		event_target:lose_strong = {
@@ -6014,5 +6001,4 @@ character_event = { # removes child's strong claim to viceroyalty
 		}
 	}
 }
-	
-	
+

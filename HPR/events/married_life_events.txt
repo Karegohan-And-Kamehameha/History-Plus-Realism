@@ -357,7 +357,7 @@ character_event = {
 	immediate = {
 		save_event_target_as = poisoner_wife
 	}
-	
+
 	option = {
 		name = "EVTOPTA30004" #Poison!
 		if = {
@@ -594,7 +594,7 @@ character_event = {
 	picture = "GFX_evt_shadow"
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		spouse = {
 			random_courtier = {
@@ -766,7 +766,7 @@ character_event = {
 	picture = "GFX_evt_emissary"
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		spouse = {
 			random_courtier = {
@@ -883,7 +883,7 @@ character_event = {
 	picture = "GFX_evt_into_the_dungeon"
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		imprison = FROM
 	}
@@ -1635,7 +1635,6 @@ character_event = {
 letter_event = {
 	id = 30036
 	desc = "EVTDESC30036"
-	picture = "GFX_evt_into_the_dungeon"
 
 	is_triggered_only = yes
 
@@ -1722,13 +1721,13 @@ character_event = {
 	desc = "EVTDESC30040"
 	picture = "GFX_evt_council"
 	border = GFX_event_normal_frame_intrigue
-	
+
 	only_women = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_married = yes
 		NOT = { demesne_size = 1 }
@@ -1745,7 +1744,7 @@ character_event = {
 				NOT = { opinion = { who = ROOT  value = 30 } }
 				OR = {
 					trait = envious
-					trait = wroth 
+					trait = wroth
 					trait = paranoid
 					trait = deceitful
 					trait = arbitrary
@@ -1755,15 +1754,15 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			trait = wroth
 		}
-		
+
 		modifier = {
 			factor = 1.5
 			trait = ambitious
@@ -1773,7 +1772,7 @@ character_event = {
 			trait = cruel
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA30040"
 		trigger = {
@@ -1781,7 +1780,7 @@ character_event = {
 		}
 		add_trait = humble
 	}
-	
+
 	option = {
 		name = "EVTOPTB30040"
 		ai_chance = {
@@ -1799,7 +1798,7 @@ character_event = {
 					NOT = { opinion = { who = ROOT  value = 30 } }
 					OR = {
 						trait = envious
-						trait = wroth 
+						trait = wroth
 						trait = paranoid
 						trait = deceitful
 						trait = arbitrary
@@ -1815,7 +1814,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTC30040"
 		spouse = {
@@ -1826,7 +1825,7 @@ character_event = {
 					NOT = { opinion = { who = ROOT  value = 30 } }
 					OR = {
 						trait = envious
-						trait = wroth 
+						trait = wroth
 						trait = paranoid
 						trait = deceitful
 						trait = arbitrary
@@ -1858,7 +1857,7 @@ character_event = {
 	border = GFX_event_normal_frame_intrigue
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30041"
 		random_courtier = {
@@ -1885,7 +1884,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB30041"
 		FROM = {
@@ -1904,7 +1903,7 @@ character_event = {
 	desc = "EVTDESC30042"
 	picture = "GFX_evt_quarrel"
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -1928,7 +1927,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB30042"
 		spouse = {
@@ -2939,15 +2938,15 @@ character_event = {
 	id = 30060
 	desc = "EVTDESC30060"
 	picture = GFX_evt_council
-	
+
 	age = 20
 	only_rulers = no
 	only_women = yes
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		independent = no
 		NOT = {
@@ -2993,10 +2992,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 0.5
 			spouse = {
@@ -3010,7 +3009,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA30060"
 		random_courtier = {
@@ -3052,9 +3051,9 @@ character_event = {
 	id = 30061
 	desc = "EVTDESC30061"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30061"
 		job_chancellor = {
@@ -3096,9 +3095,9 @@ character_event = {
 	id = 30062
 	desc = "EVTDESC30062"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30062"
 		trigger = {
@@ -3111,7 +3110,7 @@ character_event = {
 				who = ROOT
 				years = 5
 			}
-		}				
+		}
 	}
 	option = {
 		name = "EVTOPTB30062"
@@ -3125,7 +3124,7 @@ character_event = {
 				who = ROOT
 				years = 5
 			}
-		}				
+		}
 	}
 }
 
@@ -3134,15 +3133,15 @@ character_event = {
 	id = 30063
 	desc = "EVTDESC30063"
 	picture = GFX_evt_council
-	
+
 	age = 20
 	only_rulers = no
 	only_women = yes
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = {
 			demesne_size = 1
@@ -3186,10 +3185,10 @@ character_event = {
 			NOT = {	character = ROOT }
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 0.5
 			spouse = {
@@ -3203,7 +3202,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA30063"
 		random_courtier = {
@@ -3245,9 +3244,9 @@ character_event = {
 	id = 30064
 	desc = "EVTDESC30064"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30064"
 		job_marshal = {
@@ -3289,9 +3288,9 @@ character_event = {
 	id = 30065
 	desc = "EVTDESC30065"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30065"
 		trigger = {
@@ -3304,7 +3303,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag = husband_accepted_marshal				
+		clr_character_flag = husband_accepted_marshal
 	}
 	option = {
 		name = "EVTOPTB30065"
@@ -3318,7 +3317,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag = husband_declined_marshal			
+		clr_character_flag = husband_declined_marshal
 	}
 }
 
@@ -3327,15 +3326,15 @@ character_event = {
 	id = 30066
 	desc = "EVTDESC30066"
 	picture = GFX_evt_council
-	
+
 	age = 20
 	only_rulers = no
 	only_women = yes
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = {
 			demesne_size = 1
@@ -3381,10 +3380,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 0.5
 			spouse = {
@@ -3398,7 +3397,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA30066"
 		random_courtier = {
@@ -3440,9 +3439,9 @@ character_event = {
 	id = 30067
 	desc = "EVTDESC30067"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30067"
 		job_treasurer = {
@@ -3484,9 +3483,9 @@ character_event = {
 	id = 30068
 	desc = "EVTDESC30068"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30068"
 		trigger = {
@@ -3497,7 +3496,7 @@ character_event = {
 			who = FROM
 			years = 5
 		}
-		clr_character_flag = husband_accepted_steward		
+		clr_character_flag = husband_accepted_steward
 	}
 	option = {
 		name = "EVTOPTB30068"
@@ -3511,7 +3510,7 @@ character_event = {
 				who = ROOT
 				years = 5
 			}
-		}				
+		}
 	}
 }
 
@@ -3520,15 +3519,15 @@ character_event = {
 	id = 30069
 	desc = "EVTDESC30069"
 	picture = GFX_evt_council
-	
+
 	age = 20
 	only_rulers = no
 	only_women = yes
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = {
 			demesne_size = 1
@@ -3574,10 +3573,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 0.5
 			spouse = {
@@ -3591,7 +3590,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA30069"
 		random_courtier = {
@@ -3633,9 +3632,9 @@ character_event = {
 	id = 30070
 	desc = "EVTDESC30070"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30070"
 		job_spymaster = {
@@ -3677,9 +3676,9 @@ character_event = {
 	id = 30071
 	desc = "EVTDESC30071"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30071"
 		trigger = {
@@ -3692,7 +3691,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag = husband_accepted_spymaster	
+		clr_character_flag = husband_accepted_spymaster
 	}
 	option = {
 		name = "EVTOPTB30071"
@@ -3706,7 +3705,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag = husband_declined_spymaster			
+		clr_character_flag = husband_declined_spymaster
 	}
 }
 
@@ -3715,15 +3714,15 @@ character_event = {
 	id = 30072
 	desc = "EVTDESC30072"
 	picture = GFX_evt_council
-	
+
 	age = 20
 	only_rulers = no
 	only_women = yes
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = {
 			demesne_size = 1
@@ -3777,10 +3776,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 0.5
 			spouse = {
@@ -3794,7 +3793,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA30072"
 		random_courtier = {
@@ -3836,9 +3835,9 @@ character_event = {
 	id = 30073
 	desc = "EVTDESC30073"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30073"
 		job_spiritual = {
@@ -3880,9 +3879,9 @@ character_event = {
 	id = 30074
 	desc = "EVTDESC30074"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA30074"
 		trigger = {
@@ -5008,7 +5007,7 @@ character_event = {
 	desc = "EVTDESC30096"
 	picture = GFX_evt_courtiers_talking
 
-	is_triggered_only = yes	
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTA30096"

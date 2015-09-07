@@ -3,9 +3,13 @@ This mod is based on both of them and the goal of this mod is to implement the b
 
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
-<b>NEW:</b> the music mod is now available for download at https://mega.nz/#!gxt1xSRB!7YgAoQUS-iCiN6C_Ghr3bzbVnXYhqa0QmcMiGy2szB4 <br>
+The music mod is now available for download at<br> https://mega.nz/#!gxt1xSRB!7YgAoQUS-iCiN6C_Ghr3bzbVnXYhqa0QmcMiGy2szB4 <br>
 
 <b>Changelog:</b><br>
+<b>v0.4:</b><br>
+-Major events overhaul. Bonuses of VIET events have been increased drastically (from 5 to 10 times in most cases). Now these events actually matter, not just display some text and because they matter, their frequency of appearance has been decreased (yearly pulse events are now bi yearly, bi yearly are five yearly and five yearly are decade pulse).
+-Fixed over 500 event related bugs, according to the Validator.
+-Dulcinian heresy added.
 <b>v0.3.1:</b><br>
 -Updated ARKO interface to 2015-08-20.<br>
 -Added missing VIET lifestyle trait related events.<br>

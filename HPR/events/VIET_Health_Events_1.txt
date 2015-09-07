@@ -155,7 +155,7 @@ character_event = {
 
 	option = { #Grrrr
 		name = "EVTOPTA1000109127"
-		prestige = 2
+		prestige = 20
 		if = {
 			limit = {
 				NOT = {
@@ -173,7 +173,7 @@ character_event = {
 
 	option = { #Pray
 		name = "EVTOPTB1000109127"
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = {
@@ -332,7 +332,7 @@ character_event = {
 			80 = {}
 			20 = { character_event = { id = 6061 days = 2 tooltip = "EVTTOOLTIP1000109128" } } #Gets well
 		}
-		prestige = -5
+		prestige = -25
 	}
 
 	option = { #Strong
@@ -345,7 +345,7 @@ character_event = {
 			60 = {}
 			40 = { character_event = { id = 6061 days = 2 tooltip = "EVTTOOLTIP1000109128" } } #Gets well
 		}
-		prestige = 5
+		prestige = 25
 	}
 
 	option = { #Possessed
@@ -428,7 +428,7 @@ character_event = {
 		name = "EVTOPTA1000109129"
 		add_character_modifier = {
 			name = eating_gruel
-			duration = 30
+			duration = 90
 		}
 	}
 
@@ -455,7 +455,7 @@ character_event = {
 		}
 		add_character_modifier = {
 			name = eating_lots_of_gruel
-			duration = 30
+			duration = 90
 		}
 	}
 }
@@ -527,7 +527,7 @@ character_event = {
 
 	option = { #Woe is me
 		name = "EVTOPTA1000109130"
-		piety = 5
+		piety = 25
 		random_list = {
 			80 = { }
 			10 = { add_trait = zealous }
@@ -537,7 +537,7 @@ character_event = {
 
 	option = { #Getting used to it
 		name = "EVTOPTB1000109130"
-		prestige = 2
+		prestige = 10
 	}
 
 	option = { #Shy
@@ -550,7 +550,7 @@ character_event = {
 			trait = shy
 		}
 		change_diplomacy = -1
-		piety = 10
+		piety = 50
 	}
 
 
@@ -565,12 +565,12 @@ character_event = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion_group = pagan_group }
 		}
-		piety = 5
+		piety = 25
 		random_list = {
-			50 = { piety = 5 }
+			50 = { piety = 25 }
 			50 = {
 				remove_trait = lustful
-				piety = 5
+				piety = 25
 			}
 		}
 	}
@@ -630,23 +630,23 @@ character_event = {
 
 	option = { #Live a pure life
 		name = "EVTOPTA1000109131"
-		piety = 5
+		piety = 25
 		random_list = {
 			25 = { add_trait = kind }
 			25 = { add_trait = chaste }
 			25 = { add_trait = temperate }
-			25 = { piety = 5 }
+			25 = { piety = 25 }
 		}
 	}
 
 	option = { #Devote itme to studying spiritual matters
 		name = "EVTOPTB1000109131"
-		piety = 5
+		piety = 25
 		random_list = {
 			25 = { add_trait = zealous }
 			25 = { add_trait = diligent }
 			25 = { change_learning = 1 }
-			25 = { piety = 5}
+			25 = { piety = 25}
 		}
 	}
 }
@@ -707,7 +707,7 @@ character_event = {
 
 	option = { #Pray
 		name = "EVTOPTA1000109132"
-		piety = 5
+		piety = 25
 		random_list = {
 			80 = { }
 			10 = { add_trait = zealous }
@@ -725,8 +725,8 @@ character_event = {
 		trigger = {
 			trait = diligent
 		}
-		piety = 5
-		prestige = 5
+		piety = 25
+		prestige = 25
 	}
 
 	option = { #A friend in need is a friend indeed
@@ -738,8 +738,8 @@ character_event = {
 		trigger = {
 			trait = trusting
 		}
-		piety = 5
-		prestige = 5
+		piety = 25
+		prestige = 25
 	}
 }
 
@@ -840,8 +840,8 @@ character_event = {
 			trait = strong
 		}
 		random_list = {
-			95 = { }
-			5 = {
+			90 = { }
+			10 = {
 				add_trait = wounded
 				hidden_tooltip = { character_event = { id = 38280 } }
 			}
@@ -935,7 +935,7 @@ character_event = {
 		trigger = {
 			trait = zealous
 		}
-		piety = 10
+		piety = 50
 	}
 
 	option = { #All fear me
@@ -945,9 +945,18 @@ character_event = {
 		}
 		tooltip_info = martial
 		trigger = {
-			martial = 13
+			OR = {
+				trait = feared3
+				trait = feared4
+				trait = feared5
+				trait = feared6
+				trait = feared7
+				trait = feared8
+				trait = feared9
+				trait = feared10
+			}
 		}
-		prestige = 10
+		prestige = 50
 	}
 }
 
@@ -1036,6 +1045,6 @@ character_event = {
 		trigger = {
 			trait = poet
 		}
-		prestige = 10
+		prestige = 50
 	}
 }

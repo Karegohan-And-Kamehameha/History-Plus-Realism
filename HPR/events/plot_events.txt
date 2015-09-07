@@ -59,10 +59,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
-		
+
 		modifier = {
 			factor = 0.85
 			any_plot_backer = {
@@ -133,16 +133,15 @@ character_event = {
 letter_event = {
 	id = 7255
 	desc = "EVTDESC7255"
-	picture = GFX_evt_whispers
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROM = { reveal_plot = ROOT }
 	}
-	
+
 	option = {
 		name = "EVTOPTA7255" #A little blackmail can't hurt
 		ai_chance = {
@@ -280,10 +279,10 @@ letter_event = {
 # Bounce event (when blackmail done by diplo-action)
 character_event = {
 	id = 7259
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROM = { letter_event = { id = 7260 } }
 	}
@@ -293,9 +292,9 @@ character_event = {
 letter_event = {
 	id = 7260
 	desc = "EVTDESC7260"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7260" #Give in
 		ai_chance = {
@@ -409,7 +408,7 @@ letter_event = {
 letter_event = {
 	id = 7265
 	desc = "EVTDESC7265"
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -423,7 +422,7 @@ letter_event = {
 letter_event = {
 	id = 7270
 	desc = "EVTDESC7270"
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -444,11 +443,11 @@ character_event = {
 	desc = "EVTDESC7040"
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			has_plot = yes
@@ -471,10 +470,10 @@ character_event = {
 			trait = genius
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
-		
+
 		modifier = {
 			factor = 0.5
 			trait = drunkard
@@ -528,7 +527,7 @@ character_event = {
 			intrigue = 20
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7040"
 		random_backed_character = {
@@ -566,9 +565,9 @@ character_event = {
 	desc = "EVTDESC7045"
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7045"
 		if = {
@@ -627,11 +626,11 @@ character_event = {
 	desc = EVTDESC7040
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -653,7 +652,7 @@ character_event = {
 			trait = genius
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 600
 
@@ -710,7 +709,7 @@ character_event = {
 			intrigue = 20
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA7040
 		random_backed_character = {
@@ -746,12 +745,12 @@ character_event = {
 	desc = EVTDESC7045
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA7045
-		
+
 		clr_character_flag = event7041
 		if = {
 			limit = {
@@ -819,23 +818,23 @@ character_event = {
 letter_event = {
 	id = 8036
 	desc = "EVTDESC8036"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { leads_faction = faction_pretender }
 	}
-	
+
 	immediate = {
 		FROM = {
-			diplomatic_immunity = yes 
+			diplomatic_immunity = yes
 			any_faction_backer = {
 				faction = faction_pretender
 				diplomatic_immunity = yes
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA8000"
 		ai_chance = {
@@ -857,7 +856,7 @@ letter_event = {
 				}
 			}
 			modifier = {
-				factor = 0			
+				factor = 0
 				NOT = {
 					FROM = {
 						faction_power = {
@@ -991,7 +990,7 @@ letter_event = {
 						power = 3.0
 					}
 				}
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				FROM = {
@@ -1017,23 +1016,23 @@ letter_event = {
 letter_event = {
 	id = 8037
 	desc = "EVTDESC8037"
-	
+
 	is_triggered_only = yes
-	
+
 	ai = no
-	
+
 	option = {
 		name = "EVTOPTA8037"
-	}	
+	}
 }
 
 # Demand accepted - Install Claimant
 letter_event = {
 	id = 8061
 	desc = "EVTDESC8061"
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		clr_character_flag = faction_independence_ultimatum_taken
 		supported_claimant = {
@@ -1049,7 +1048,7 @@ letter_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EXCELLENT"
 		supported_claimant = {
@@ -1113,7 +1112,7 @@ letter_event = {
 								if = {
 									limit = { has_law = crown_authority_4 }
 									add_law_w_cooldown = crown_authority_3
-								}									
+								}
 							}
 							any_demesne_title = {
 								limit = {
@@ -1152,7 +1151,7 @@ letter_event = {
 								usurp_title_plus_barony_if_unlanded = { target = PREVPREVPREVPREV type = faction_demand }
 								hidden_tooltip = { make_primary_title = yes }
 							}
-							set_defacto_liege = PREVPREVPREV		
+							set_defacto_liege = PREVPREVPREV
 						}
 						hidden_tooltip = {
 							if = {
@@ -1160,8 +1159,8 @@ letter_event = {
 									FROM = {
 										ROOT = {
 											supported_claimant = {
-												primary_title = { 
-													NOT = { has_law = succ_feudal_elective } 
+												primary_title = {
+													NOT = { has_law = succ_feudal_elective }
 													FROM = {
 														capital_scope = {
 															de_jure_liege_or_above = PREVPREV
@@ -1187,16 +1186,16 @@ letter_event = {
 										}
 									}
 								}
-							}	
+							}
 						}
 						hidden_tooltip = {
-							FROM = { 
-								set_defacto_liege = PREVPREVPREV 
+							FROM = {
+								set_defacto_liege = PREVPREVPREV
 								any_vassal = {
 									limit = {
 										NOT = { primary_title = { de_jure_liege_or_above = PREVPREV } }
 									}
-									set_defacto_liege = PREVPREVPREVPREV 
+									set_defacto_liege = PREVPREVPREVPREV
 								}
 							}
 						}
@@ -1251,7 +1250,7 @@ letter_event = {
 						limit = {
 							is_primary_holder_title = no
 						}
-						usurp_title_plus_barony_if_unlanded_and_vassals_no_adj = { target = PREVPREV type = faction_demand }					
+						usurp_title_plus_barony_if_unlanded_and_vassals_no_adj = { target = PREVPREV type = faction_demand }
 					}
 				}
 			}
@@ -1263,11 +1262,11 @@ letter_event = {
 letter_event = {
 	id = 8098
 	desc = "EVTDESC8098"
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		supported_claimant = {
 			opinion = {
@@ -1282,7 +1281,7 @@ letter_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "GOOD"
 	}
@@ -1291,14 +1290,14 @@ letter_event = {
 # Inform other vassals - Claimant Installed
 character_event = {
 	id = 8099
-	desc = "EVTDESC8099"	
+	desc = "EVTDESC8099"
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_intrigue
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "I_SEE"
 	}
@@ -1310,9 +1309,9 @@ character_event = {
 letter_event = {
 	id = 8111
 	desc = "EVTDESC8100"
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		clr_character_flag = faction_independence_ultimatum_taken
 		diplomatic_immunity = no
@@ -1352,7 +1351,7 @@ letter_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA8100"
 		hidden_tooltip = {
@@ -1418,9 +1417,9 @@ letter_event = {
 letter_event = {
 	id = 8120
 	desc = "EVTDESC8120"
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -1454,11 +1453,11 @@ character_event = {
 	desc = "EVTDESC8150"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -1473,13 +1472,13 @@ character_event = {
 			NOT = { trait = in_hiding }
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -1636,7 +1635,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA8150" # The conspirators provide the poison
 		trigger = {
@@ -1648,7 +1647,7 @@ character_event = {
 				character_event = { id = 8162 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 8155 days = 30 tooltip = "EVTTOOLTIP8155" } }
 	}
@@ -1660,14 +1659,14 @@ character_event = {
 			scaled_wealth = 1.0
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 8162 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 8155 days = 30 tooltip = "EVTTOOLTIP8155" } }
 	}
@@ -1680,14 +1679,14 @@ character_event = {
 			scaled_wealth = 0.5
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 8162 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 8155 days = 30 tooltip = "EVTTOOLTIP8155" } }
 	}
@@ -1698,14 +1697,14 @@ character_event = {
 			plot_power = 0.5
 			learning = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 8162 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 8155 days = 30 tooltip = "EVTTOOLTIP8155" } }
 	}
@@ -1725,11 +1724,11 @@ character_event = {
 	desc = EVTDESC8151
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -1746,7 +1745,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -1754,7 +1753,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -2099,7 +2098,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA8150" # The conspirators provide the poison
 		trigger = {
@@ -2196,7 +2195,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -2235,9 +2234,9 @@ character_event = {
 	desc = "EVTDESC8152"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8152"
 		transfer_scaled_wealth = {
@@ -2250,7 +2249,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 8155 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 8154 tooltip = "EVTTOOLTIP8154" } }
@@ -2263,9 +2262,9 @@ character_event = {
 	desc = "EVTDESC8153"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -2277,9 +2276,9 @@ character_event = {
 	desc = "EVTDESC8154"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -2292,14 +2291,14 @@ character_event = {
 	desc = EVTDESC8155
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		prisoner = no
-		
+
 		# Is the plot still in motion?
 		FROM = {
 			OR = {
@@ -2312,11 +2311,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8155" # Drinks the wine
 		trigger = {
@@ -2409,9 +2408,9 @@ character_event = {
 	desc = EVTDESC8156
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA8156
 		death = {
@@ -2427,14 +2426,14 @@ character_event = {
 	desc = "EVTDESC8157"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8157"
-		
+
 		death = {
 			death_reason = death_murder_unknown
 			killer = FROMFROM
@@ -2448,9 +2447,9 @@ character_event = {
 	desc = "EVTDESC8158"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8158"
 	}
@@ -2462,11 +2461,11 @@ character_event = {
 	desc = "EVTDESC8159"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8159"
 	}
@@ -2478,9 +2477,9 @@ character_event = {
 	desc = "EVTDESC8160"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8160"
 		FROM = { character_event = { id = 8161 tooltip = "EVTTOOLTIP8161" } }
@@ -2502,9 +2501,9 @@ character_event = {
 	desc = "EVTDESC8161"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -2516,9 +2515,9 @@ character_event = {
 	desc = "EVTDESC8162"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -2530,14 +2529,14 @@ character_event = {
 	desc = EVTDESC8163
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -2562,9 +2561,9 @@ character_event = {
 	desc = "EVTDESC8164"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8164"
 		if = {
@@ -2588,18 +2587,18 @@ character_event = {
 	desc = "EVTDESC8165"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8165"
 		if = {
-			limit = { 
+			limit = {
 				plot_target_char = {
 					character = FROM
 				}
@@ -2621,14 +2620,14 @@ character_event = {
 	desc = "EVTDESC8166"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
-		
+
 		if = {
-			limit = { 
+			limit = {
 				plot_target_char = {
 					character = FROM
 				}
@@ -2652,11 +2651,11 @@ character_event = {
 	desc = "EVTDESC8170"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -2672,13 +2671,13 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -2834,7 +2833,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA8170" # The conspirators provide the poison
 		trigger = {
@@ -2846,7 +2845,7 @@ character_event = {
 				character_event = { id = 8182 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 8175 days = 30 tooltip = "EVTTOOLTIP8175" } }
 	}
@@ -2857,14 +2856,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 8182 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 8175 days = 30 tooltip = "EVTTOOLTIP8175" } }
 	}
@@ -2876,14 +2875,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 8182 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 8175 days = 30 tooltip = "EVTTOOLTIP8175" } }
 	}
@@ -2894,14 +2893,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 8182 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 8175 days = 30 tooltip = "EVTTOOLTIP8175" } }
 	}
@@ -2921,11 +2920,11 @@ character_event = {
 	desc = "EVTDESC8171"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -2943,7 +2942,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -2951,7 +2950,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -3393,7 +3392,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -3432,9 +3431,9 @@ character_event = {
 	desc = "EVTDESC8172"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8172"
 		transfer_scaled_wealth = {
@@ -3447,7 +3446,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 8175 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 8174 tooltip = "EVTTOOLTIP8154" } }
@@ -3460,9 +3459,9 @@ character_event = {
 	desc = "EVTDESC8173"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -3474,9 +3473,9 @@ character_event = {
 	desc = "EVTDESC8174"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -3489,18 +3488,18 @@ character_event = {
 	desc = "EVTDESC8175"
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		prisoner = no
-		
+
 		# Is the plot still in motion?
 		FROM = {
 			OR = {
@@ -3513,7 +3512,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA8175" # Falls
 		trigger = {
@@ -3596,9 +3595,9 @@ character_event = {
 	desc = "EVTDESC8176"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8176"
 		death = {
@@ -3606,7 +3605,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Falling Accident - Dies, murderer NOT discovered
@@ -3615,13 +3614,13 @@ character_event = {
 	desc = "EVTDESC8176"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
-		name = "EVTOPTA8177"		
+		name = "EVTOPTA8177"
 		death = {
 			death_reason = death_murder_unknown
 			killer = FROMFROM
@@ -3635,9 +3634,9 @@ character_event = {
 	desc = "EVTDESC8178"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8178"
 	}
@@ -3649,11 +3648,11 @@ character_event = {
 	desc = "EVTDESC8179"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8179"
 		if = {
@@ -3684,9 +3683,9 @@ character_event = {
 	desc = "EVTDESC8180"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8180"
 		set_character_flag = murder_in_motion
@@ -3709,9 +3708,9 @@ character_event = {
 	desc = "EVTDESC8181"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -3723,9 +3722,9 @@ character_event = {
 	desc = "EVTDESC8182"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8180"
 	}
@@ -3737,14 +3736,14 @@ character_event = {
 	desc = "EVTDESC8183"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -3769,9 +3768,9 @@ character_event = {
 	desc = "EVTDESC8184"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8184"
 		if = {
@@ -3795,18 +3794,18 @@ character_event = {
 	desc = "EVTDESC8185"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8185"
 		if = {
-			limit = { 
+			limit = {
 				plot_target_char = {
 					character = FROM
 				}
@@ -3828,14 +3827,14 @@ character_event = {
 	desc = "EVTDESC8186"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
-		
+
 		if = {
-			limit = { 
+			limit = {
 				plot_target_char = {
 					character = FROM
 				}
@@ -3857,11 +3856,11 @@ character_event = {
 	desc = "EVTDESC7700"
 	picture = GFX_evt_longbowman
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -3877,13 +3876,13 @@ character_event = {
 			prisoner = no
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -4040,7 +4039,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7700" # The conspirators provide the archers
 		trigger = {
@@ -4052,7 +4051,7 @@ character_event = {
 				character_event = { id = 7712 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7705 days = 30 tooltip = "EVTTOOLTIP7705" } }
 	}
@@ -4063,14 +4062,14 @@ character_event = {
 			NOT = { martial = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7712 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7705 days = 30 tooltip = "EVTTOOLTIP7705" } }
 	}
@@ -4082,14 +4081,14 @@ character_event = {
 			NOT = { martial = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7712 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7705 days = 30 tooltip = "EVTTOOLTIP7705" } }
 	}
@@ -4100,14 +4099,14 @@ character_event = {
 			plot_power = 0.5
 			martial = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7712 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7705 days = 30 tooltip = "EVTTOOLTIP7705" } }
 	}
@@ -4127,11 +4126,11 @@ character_event = {
 	desc = "EVTDESC7701"
 	picture = GFX_evt_longbowman
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -4149,7 +4148,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -4157,7 +4156,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -4501,7 +4500,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7700" # The conspirators provide the archers
 		trigger = {
@@ -4554,7 +4553,7 @@ character_event = {
 			character_event = { id = 7702 days = 3 tooltip = "EVTTOOLTIP8152" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTB7700" # Hire archers
 		trigger = {
@@ -4598,7 +4597,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -4611,7 +4610,7 @@ character_event = {
 			character_event = { id = 7710 days = 3 tooltip = "EVTTOOLTIP8160" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -4637,9 +4636,9 @@ character_event = {
 	desc = "EVTDESC7702"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7702"
 		transfer_scaled_wealth = {
@@ -4652,7 +4651,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7705 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7704 tooltip = "EVTTOOLTIP8154" } }
@@ -4665,9 +4664,9 @@ character_event = {
 	desc = "EVTDESC7703"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -4679,9 +4678,9 @@ character_event = {
 	desc = "EVTDESC7704"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -4694,15 +4693,15 @@ character_event = {
 	desc = "EVTDESC7705"
 	picture = GFX_evt_longbowman
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -4716,7 +4715,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7705" # Hit by arrows
 		trigger = {
@@ -4809,9 +4808,9 @@ character_event = {
 	desc = "EVTDESC7706"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7706"
 		death = {
@@ -4819,7 +4818,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Archer Ambush - Dies, murderer NOT discovered
@@ -4828,11 +4827,11 @@ character_event = {
 	desc = "EVTDESC7706"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7707"
 		death = {
@@ -4848,9 +4847,9 @@ character_event = {
 	desc = "EVTDESC7708"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7708"
 	}
@@ -4862,11 +4861,11 @@ character_event = {
 	desc = "EVTDESC7708"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7709"
 	}
@@ -4878,9 +4877,9 @@ character_event = {
 	desc = "EVTDESC7710"
 	picture = GFX_evt_longbowman
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7710"
 		set_character_flag = murder_in_motion
@@ -4903,9 +4902,9 @@ character_event = {
 	desc = "EVTDESC7711"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -4917,9 +4916,9 @@ character_event = {
 	desc = "EVTDESC7712"
 	picture = GFX_evt_longbowman
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -4931,9 +4930,9 @@ character_event = {
 	desc = "EVTDESC7713"
 	picture = GFX_evt_longbowman
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
@@ -4963,9 +4962,9 @@ character_event = {
 	desc = "EVTDESC7714"
 	picture = GFX_evt_longbowman
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7714"
 		if = {
@@ -4989,9 +4988,9 @@ character_event = {
 	desc = "EVTDESC7715"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
@@ -5000,7 +4999,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA7715"
 		if = {
-			limit = { 
+			limit = {
 				plot_target_char = {
 					character = FROM
 				}
@@ -5022,9 +5021,9 @@ character_event = {
 	desc = "EVTDESC7716"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -5050,11 +5049,11 @@ character_event = {
 	desc = "EVTDESC7720"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -5069,13 +5068,13 @@ character_event = {
 			prisoner = no
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -5244,7 +5243,7 @@ character_event = {
 				character_event = { id = 7732 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7725 days = 30 tooltip = "EVTTOOLTIP7725" } }
 	}
@@ -5255,14 +5254,14 @@ character_event = {
 			NOT = { stewardship = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7732 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7725 days = 30 tooltip = "EVTTOOLTIP7725" } }
 	}
@@ -5274,14 +5273,14 @@ character_event = {
 			NOT = { stewardship = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7732 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7725 days = 30 tooltip = "EVTTOOLTIP7725" } }
 	}
@@ -5292,14 +5291,14 @@ character_event = {
 			plot_power = 0.5
 			stewardship = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7732 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7725 days = 30 tooltip = "EVTTOOLTIP7725" } }
 	}
@@ -5319,11 +5318,11 @@ character_event = {
 	desc = "EVTDESC7721"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -5340,7 +5339,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -5348,7 +5347,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -5693,7 +5692,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7720" # The conspirators provide the manure
 		trigger = {
@@ -5746,7 +5745,7 @@ character_event = {
 			character_event = { id = 7722 days = 3 tooltip = "EVTTOOLTIP8152" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTB7720" # Buy the manure
 		trigger = {
@@ -5790,7 +5789,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -5803,7 +5802,7 @@ character_event = {
 			character_event = { id = 7730 days = 3 tooltip = "EVTTOOLTIP8160" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -5829,9 +5828,9 @@ character_event = {
 	desc = "EVTDESC7722"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7722"
 		transfer_scaled_wealth = {
@@ -5844,7 +5843,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7725 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7724 tooltip = "EVTTOOLTIP8154" } }
@@ -5857,9 +5856,9 @@ character_event = {
 	desc = "EVTDESC7723"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -5871,9 +5870,9 @@ character_event = {
 	desc = "EVTDESC7724"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -5886,15 +5885,15 @@ character_event = {
 	desc = "EVTDESC7725"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -5908,7 +5907,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7725" # Blown up
 		trigger = {
@@ -6001,9 +6000,9 @@ character_event = {
 	desc = "EVTDESC7726"
 	picture = GFX_evt_burning_house
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7726"
 		death = {
@@ -6011,7 +6010,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Manure Explosion - Dies, murderer NOT discovered
@@ -6020,11 +6019,11 @@ character_event = {
 	desc = "EVTDESC7726"
 	picture = GFX_evt_burning_house
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7727"
 		death = {
@@ -6040,9 +6039,9 @@ character_event = {
 	desc = "EVTDESC7728"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7728"
 	}
@@ -6054,11 +6053,11 @@ character_event = {
 	desc = "EVTDESC7729"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7729"
 	}
@@ -6070,9 +6069,9 @@ character_event = {
 	desc = "EVTDESC7730"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7730"
 		set_character_flag = murder_in_motion
@@ -6095,9 +6094,9 @@ character_event = {
 	desc = "EVTDESC7731"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -6109,9 +6108,9 @@ character_event = {
 	desc = "EVTDESC7732"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -6123,9 +6122,9 @@ character_event = {
 	desc = "EVTDESC7733"
 	picture = GFX_evt_burning_house
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
@@ -6155,9 +6154,9 @@ character_event = {
 	desc = "EVTDESC7734"
 	picture = GFX_evt_burning_house
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7734"
 		if = {
@@ -6181,9 +6180,9 @@ character_event = {
 	desc = "EVTDESC7735"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
@@ -6202,9 +6201,9 @@ character_event = {
 	desc = "EVTDESC7736"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -6230,11 +6229,11 @@ character_event = {
 	desc = "EVTDESC7740"
 	picture = GFX_evt_birth
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -6247,13 +6246,13 @@ character_event = {
 			NOT = { trait = in_hiding }
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -6421,7 +6420,7 @@ character_event = {
 				character_event = { id = 7752 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7745 days = 30 tooltip = "EVTTOOLTIP7745" } }
 	}
@@ -6432,14 +6431,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7752 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7745 days = 30 tooltip = "EVTTOOLTIP7745" } }
 	}
@@ -6451,14 +6450,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7752 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7745 days = 30 tooltip = "EVTTOOLTIP7745" } }
 	}
@@ -6469,14 +6468,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7752 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7745 days = 30 tooltip = "EVTTOOLTIP7745" } }
 	}
@@ -6496,11 +6495,11 @@ character_event = {
 	desc = "EVTDESC7741"
 	picture = GFX_evt_birth
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -6515,7 +6514,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -6523,7 +6522,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -6867,7 +6866,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7740" # The conspirators bribe the maid
 		trigger = {
@@ -6964,7 +6963,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -6977,7 +6976,7 @@ character_event = {
 			character_event = { id = 7750 days = 3 tooltip = "EVTTOOLTIP8160" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -7003,9 +7002,9 @@ character_event = {
 	desc = "EVTDESC7742"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7742"
 		transfer_scaled_wealth = {
@@ -7018,7 +7017,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7745 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7744 tooltip = "EVTTOOLTIP8154" } }
@@ -7031,9 +7030,9 @@ character_event = {
 	desc = "EVTDESC7743"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 		FROM = { plot_target_char = { character_event = { id = 7745 days = 27 tooltip = "EVTTOOLTIP7745" } } }
@@ -7046,9 +7045,9 @@ character_event = {
 	desc = "EVTDESC7744"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -7061,15 +7060,15 @@ character_event = {
 	desc = "EVTDESC7745"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -7083,7 +7082,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7745" # Smothered
 		trigger = {
@@ -7176,9 +7175,9 @@ character_event = {
 	desc = "EVTDESC7746"
 	picture = GFX_evt_family
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7746"
 		death = {
@@ -7186,7 +7185,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Infanticide - Dies, murderer NOT discovered
@@ -7195,11 +7194,11 @@ character_event = {
 	desc = "EVTDESC7746"
 	picture = GFX_evt_family
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7747"
 		death = {
@@ -7215,9 +7214,9 @@ character_event = {
 	desc = "EVTDESC7748"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7748"
 	}
@@ -7229,11 +7228,11 @@ character_event = {
 	desc = "EVTDESC7748"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7749"
 	}
@@ -7245,9 +7244,9 @@ character_event = {
 	desc = "EVTDESC7750"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7750"
 		set_character_flag = murder_in_motion
@@ -7270,9 +7269,9 @@ character_event = {
 	desc = "EVTDESC7751"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -7284,9 +7283,9 @@ character_event = {
 	desc = "EVTDESC7752"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -7298,14 +7297,14 @@ character_event = {
 	desc = "EVTDESC7753"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -7330,9 +7329,9 @@ character_event = {
 	desc = "EVTDESC7754"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7754"
 		if = {
@@ -7356,14 +7355,14 @@ character_event = {
 	desc = "EVTDESC7755"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7755"
 		set_character_flag = abort_plot
@@ -7377,9 +7376,9 @@ character_event = {
 	desc = "EVTDESC7756"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -7405,11 +7404,11 @@ character_event = {
 	desc = "EVTDESC7760"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -7422,13 +7421,13 @@ character_event = {
 			prisoner = yes
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -7584,7 +7583,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7760" # The conspirators get the man inside
 		trigger = {
@@ -7596,7 +7595,7 @@ character_event = {
 				character_event = { id = 7772 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7765 days = 30 tooltip = "EVTTOOLTIP7765" } }
 	}
@@ -7607,14 +7606,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7772 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7765 days = 30 tooltip = "EVTTOOLTIP7765" } }
 	}
@@ -7626,14 +7625,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7772 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7765 days = 30 tooltip = "EVTTOOLTIP7765" } }
 	}
@@ -7644,14 +7643,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7772 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7765 days = 30 tooltip = "EVTTOOLTIP7765" } }
 	}
@@ -7671,11 +7670,11 @@ character_event = {
 	desc = "EVTDESC7761"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -7690,7 +7689,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -7698,7 +7697,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -8042,7 +8041,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7760" # The conspirators get the man inside
 		trigger = {
@@ -8095,7 +8094,7 @@ character_event = {
 			character_event = { id = 7762 days = 3 tooltip = "EVTTOOLTIP8152" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTB7760" # Hire killer
 		trigger = {
@@ -8139,7 +8138,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -8178,9 +8177,9 @@ character_event = {
 	desc = "EVTDESC7762"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7762"
 		transfer_scaled_wealth = {
@@ -8193,7 +8192,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7765 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7764 tooltip = "EVTTOOLTIP8154" } }
@@ -8206,9 +8205,9 @@ character_event = {
 	desc = "EVTDESC7763"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -8220,9 +8219,9 @@ character_event = {
 	desc = "EVTDESC7764"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -8235,15 +8234,15 @@ character_event = {
 	desc = "EVTDESC7765"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -8257,7 +8256,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7765" # Tries to escape
 		trigger = {
@@ -8350,9 +8349,9 @@ character_event = {
 	desc = "EVTDESC7766"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7766"
 		death = {
@@ -8360,7 +8359,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Prison Break - Dies, murderer NOT discovered
@@ -8369,11 +8368,11 @@ character_event = {
 	desc = "EVTDESC7766"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7767"
 		death = {
@@ -8389,9 +8388,9 @@ character_event = {
 	desc = "EVTDESC7768"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7768"
 	}
@@ -8403,11 +8402,11 @@ character_event = {
 	desc = "EVTDESC7769"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7769"
 	}
@@ -8419,9 +8418,9 @@ character_event = {
 	desc = "EVTDESC7770"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7770"
 		set_character_flag = murder_in_motion
@@ -8444,9 +8443,9 @@ character_event = {
 	desc = "EVTDESC7771"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -8458,9 +8457,9 @@ character_event = {
 	desc = "EVTDESC7772"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -8472,14 +8471,14 @@ character_event = {
 	desc = "EVTDESC7773"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -8504,9 +8503,9 @@ character_event = {
 	desc = "EVTDESC7774"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7774"
 		if = {
@@ -8530,14 +8529,14 @@ character_event = {
 	desc = "EVTDESC7775"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7775"
 		set_character_flag = abort_plot
@@ -8551,9 +8550,9 @@ character_event = {
 	desc = "EVTDESC7776"
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -8567,11 +8566,11 @@ character_event = {
 	desc = "EVTDESC7780"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -8586,13 +8585,13 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -8748,7 +8747,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7780" # The conspirators bribe the servants
 		trigger = {
@@ -8760,7 +8759,7 @@ character_event = {
 				character_event = { id = 7792 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7785 days = 30 tooltip = "EVTTOOLTIP7785" } }
 	}
@@ -8771,14 +8770,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7792 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7785 days = 30 tooltip = "EVTTOOLTIP7785" } }
 	}
@@ -8790,14 +8789,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7792 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7785 days = 30 tooltip = "EVTTOOLTIP7785" } }
 	}
@@ -8808,14 +8807,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7792 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7785 days = 30 tooltip = "EVTTOOLTIP7785" } }
 	}
@@ -8835,11 +8834,11 @@ character_event = {
 	desc = "EVTDESC7781"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -8856,7 +8855,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -8864,7 +8863,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -9208,7 +9207,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7780" # The conspirators bribe servants
 		trigger = {
@@ -9305,7 +9304,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -9318,7 +9317,7 @@ character_event = {
 			character_event = { id = 7790 days = 3 tooltip = "EVTTOOLTIP8160" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -9344,9 +9343,9 @@ character_event = {
 	desc = "EVTDESC7782"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7782"
 		transfer_scaled_wealth = {
@@ -9359,7 +9358,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7785 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7784 tooltip = "EVTTOOLTIP8154" } }
@@ -9372,9 +9371,9 @@ character_event = {
 	desc = "EVTDESC7783"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -9386,9 +9385,9 @@ character_event = {
 	desc = "EVTDESC7784"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -9401,15 +9400,15 @@ character_event = {
 	desc = "EVTDESC7785"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -9423,7 +9422,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7785" # Drowns
 		trigger = {
@@ -9516,9 +9515,9 @@ character_event = {
 	desc = "EVTDESC7786"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7786"
 		death = {
@@ -9526,7 +9525,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Bathtub Drowning - Dies, murderer NOT discovered
@@ -9535,11 +9534,11 @@ character_event = {
 	desc = "EVTDESC7786"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7787"
 		death = {
@@ -9555,9 +9554,9 @@ character_event = {
 	desc = "EVTDESC7788"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7788"
 	}
@@ -9569,11 +9568,11 @@ character_event = {
 	desc = "EVTDESC7789"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7789"
 	}
@@ -9585,9 +9584,9 @@ character_event = {
 	desc = "EVTDESC7790"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7790"
 		set_character_flag = murder_in_motion
@@ -9610,9 +9609,9 @@ character_event = {
 	desc = "EVTDESC7791"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -9624,9 +9623,9 @@ character_event = {
 	desc = "EVTDESC7792"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -9638,14 +9637,14 @@ character_event = {
 	desc = "EVTDESC7793"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -9670,9 +9669,9 @@ character_event = {
 	desc = "EVTDESC7794"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7794"
 		if = {
@@ -9696,14 +9695,14 @@ character_event = {
 	desc = "EVTDESC7795"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7795"
 		set_character_flag = abort_plot
@@ -9717,9 +9716,9 @@ character_event = {
 	desc = "EVTDESC7796"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -9733,11 +9732,11 @@ character_event = {
 	desc = "EVTDESC7800"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -9753,13 +9752,13 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -9915,7 +9914,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7800" # The conspirators bribe the servants
 		trigger = {
@@ -9927,7 +9926,7 @@ character_event = {
 				character_event = { id = 7812 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7805 days = 30 tooltip = "EVTTOOLTIP7805" } }
 	}
@@ -9938,14 +9937,14 @@ character_event = {
 			NOT = { learning = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7812 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7805 days = 30 tooltip = "EVTTOOLTIP7805" } }
 	}
@@ -9957,14 +9956,14 @@ character_event = {
 			NOT = { learning = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7812 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7805 days = 30 tooltip = "EVTTOOLTIP7805" } }
 	}
@@ -9975,14 +9974,14 @@ character_event = {
 			plot_power = 0.5
 			learning = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7812 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7805 days = 30 tooltip = "EVTTOOLTIP7805" } }
 	}
@@ -10002,11 +10001,11 @@ character_event = {
 	desc = "EVTDESC7801"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -10024,7 +10023,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -10032,7 +10031,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -10376,7 +10375,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7800" # The conspirators bribe servants
 		trigger = {
@@ -10429,7 +10428,7 @@ character_event = {
 			character_event = { id = 7802 days = 3 tooltip = "EVTTOOLTIP8152" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTB7800" # Bribe servants
 		trigger = {
@@ -10473,7 +10472,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -10486,7 +10485,7 @@ character_event = {
 			character_event = { id = 7810 days = 3 tooltip = "EVTTOOLTIP8160" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -10512,9 +10511,9 @@ character_event = {
 	desc = "EVTDESC7802"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7802"
 		transfer_scaled_wealth = {
@@ -10527,7 +10526,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7805 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7804 tooltip = "EVTTOOLTIP8154" } }
@@ -10540,9 +10539,9 @@ character_event = {
 	desc = "EVTDESC7803"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -10554,7 +10553,7 @@ character_event = {
 	desc = "EVTDESC7804"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -10569,15 +10568,15 @@ character_event = {
 	desc = "EVTDESC7805"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -10591,7 +10590,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7805" # Drowns
 		trigger = {
@@ -10684,9 +10683,9 @@ character_event = {
 	desc = "EVTDESC7806"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7806"
 		death = {
@@ -10694,7 +10693,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Boating Accident - Dies, murderer NOT discovered
@@ -10703,11 +10702,11 @@ character_event = {
 	desc = "EVTDESC7806"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7807"
 		death = {
@@ -10723,9 +10722,9 @@ character_event = {
 	desc = "EVTDESC7808"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7808"
 	}
@@ -10737,11 +10736,11 @@ character_event = {
 	desc = "EVTDESC7808"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7809"
 	}
@@ -10753,9 +10752,9 @@ character_event = {
 	desc = "EVTDESC7810"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7810"
 		set_character_flag = murder_in_motion
@@ -10778,9 +10777,9 @@ character_event = {
 	desc = "EVTDESC7811"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -10792,9 +10791,9 @@ character_event = {
 	desc = "EVTDESC7812"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -10806,14 +10805,14 @@ character_event = {
 	desc = "EVTDESC7813"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -10838,9 +10837,9 @@ character_event = {
 	desc = "EVTDESC7814"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7814"
 		if = {
@@ -10864,14 +10863,14 @@ character_event = {
 	desc = "EVTDESC7815"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7815"
 		set_character_flag = abort_plot
@@ -10885,9 +10884,9 @@ character_event = {
 	desc = "EVTDESC7816"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -10901,11 +10900,11 @@ character_event = {
 	desc = "EVTDESC7820"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -10920,13 +10919,13 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -11082,7 +11081,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7820" # The conspirators bribe the servants
 		trigger = {
@@ -11094,7 +11093,7 @@ character_event = {
 				character_event = { id = 7832 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7825 days = 30 tooltip = "EVTTOOLTIP7825" } }
 	}
@@ -11105,14 +11104,14 @@ character_event = {
 			NOT = { learning = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7832 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7825 days = 30 tooltip = "EVTTOOLTIP7825" } }
 	}
@@ -11124,14 +11123,14 @@ character_event = {
 			NOT = { learning = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7832 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7825 days = 30 tooltip = "EVTTOOLTIP7825" } }
 	}
@@ -11142,14 +11141,14 @@ character_event = {
 			plot_power = 0.5
 			learning = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7832 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7825 days = 30 tooltip = "EVTTOOLTIP7825" } }
 	}
@@ -11169,11 +11168,11 @@ character_event = {
 	desc = "EVTDESC7821"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -11190,7 +11189,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -11198,7 +11197,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -11542,7 +11541,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7820" # The conspirators bribe servants
 		trigger = {
@@ -11596,7 +11595,7 @@ character_event = {
 			set_character_flag = murder_in_motion
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB7820" # Bribe servants
 		trigger = {
@@ -11640,7 +11639,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -11654,7 +11653,7 @@ character_event = {
 			set_character_flag = murder_in_motion
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -11680,9 +11679,9 @@ character_event = {
 	desc = "EVTDESC7822"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7822"
 		transfer_scaled_wealth = {
@@ -11695,7 +11694,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7825 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7824 tooltip = "EVTTOOLTIP8154" } }
@@ -11708,9 +11707,9 @@ character_event = {
 	desc = "EVTDESC7823"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -11722,9 +11721,9 @@ character_event = {
 	desc = "EVTDESC7824"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -11737,15 +11736,15 @@ character_event = {
 	desc = "EVTDESC7825"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -11759,7 +11758,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7825" # Drowns
 		trigger = {
@@ -11852,9 +11851,9 @@ character_event = {
 	desc = "EVTDESC7826"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7826"
 		death = {
@@ -11862,7 +11861,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Poisonous Snake - Dies, murderer NOT discovered
@@ -11871,11 +11870,11 @@ character_event = {
 	desc = "EVTDESC7826"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7827"
 		death = {
@@ -11891,9 +11890,9 @@ character_event = {
 	desc = "EVTDESC7828"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7828"
 	}
@@ -11905,11 +11904,11 @@ character_event = {
 	desc = "EVTDESC7828"
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7829"
 	}
@@ -11921,9 +11920,9 @@ character_event = {
 	desc = "EVTDESC7830"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7830"
 		set_character_flag = murder_in_motion
@@ -11946,9 +11945,9 @@ character_event = {
 	desc = "EVTDESC7831"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -11960,9 +11959,9 @@ character_event = {
 	desc = "EVTDESC7832"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -11974,14 +11973,14 @@ character_event = {
 	desc = "EVTDESC7833"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -12006,9 +12005,9 @@ character_event = {
 	desc = "EVTDESC7834"
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7834"
 		if = {
@@ -12032,14 +12031,14 @@ character_event = {
 	desc = "EVTDESC7835"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7835"
 		set_character_flag = abort_plot
@@ -12053,9 +12052,9 @@ character_event = {
 	desc = "EVTDESC7836"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -12069,11 +12068,11 @@ character_event = {
 	desc = "EVTDESC7840"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -12088,13 +12087,13 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -12250,7 +12249,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7840" # The conspirators bribe the servants
 		trigger = {
@@ -12262,7 +12261,7 @@ character_event = {
 				character_event = { id = 7852 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7845 days = 30 tooltip = "EVTTOOLTIP7845" } }
 	}
@@ -12273,14 +12272,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7852 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7845 days = 30 tooltip = "EVTTOOLTIP7845" } }
 	}
@@ -12292,14 +12291,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7852 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7845 days = 30 tooltip = "EVTTOOLTIP7845" } }
 	}
@@ -12310,14 +12309,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7852 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7845 days = 30 tooltip = "EVTTOOLTIP7845" } }
 	}
@@ -12337,11 +12336,11 @@ character_event = {
 	desc = "EVTDESC7841"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -12358,7 +12357,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -12366,7 +12365,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -12710,7 +12709,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7840" # The conspirators bribe servants
 		trigger = {
@@ -12763,7 +12762,7 @@ character_event = {
 			character_event = { id = 7842 days = 3 tooltip = "EVTTOOLTIP8152" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTB7840" # Bribe servants
 		trigger = {
@@ -12807,7 +12806,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -12820,7 +12819,7 @@ character_event = {
 			character_event = { id = 7850 days = 3 tooltip = "EVTTOOLTIP8160" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -12846,9 +12845,9 @@ character_event = {
 	desc = "EVTDESC7842"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7842"
 		transfer_scaled_wealth = {
@@ -12861,7 +12860,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7845 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7844 tooltip = "EVTTOOLTIP8154" } }
@@ -12874,9 +12873,9 @@ character_event = {
 	desc = "EVTDESC7843"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -12888,9 +12887,9 @@ character_event = {
 	desc = "EVTDESC7844"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -12903,15 +12902,15 @@ character_event = {
 	desc = "EVTDESC7845"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -12925,7 +12924,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7845" # Drowns
 		trigger = {
@@ -13018,9 +13017,9 @@ character_event = {
 	desc = "EVTDESC7846"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7846"
 		death = {
@@ -13028,7 +13027,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Balcony Plummet - Dies, murderer NOT discovered
@@ -13037,11 +13036,11 @@ character_event = {
 	desc = "EVTDESC7846"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7847"
 		death = {
@@ -13057,9 +13056,9 @@ character_event = {
 	desc = "EVTDESC7848"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7848"
 	}
@@ -13071,11 +13070,11 @@ character_event = {
 	desc = "EVTDESC7848"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7849"
 	}
@@ -13087,9 +13086,9 @@ character_event = {
 	desc = "EVTDESC7850"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7850"
 		set_character_flag = murder_in_motion
@@ -13112,9 +13111,9 @@ character_event = {
 	desc = "EVTDESC7851"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -13126,9 +13125,9 @@ character_event = {
 	desc = "EVTDESC7852"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -13140,14 +13139,14 @@ character_event = {
 	desc = "EVTDESC7853"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -13172,9 +13171,9 @@ character_event = {
 	desc = "EVTDESC7854"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7854"
 		if = {
@@ -13198,14 +13197,14 @@ character_event = {
 	desc = "EVTDESC7855"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7855"
 		set_character_flag = abort_plot
@@ -13219,9 +13218,9 @@ character_event = {
 	desc = "EVTDESC7856"
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -13235,11 +13234,11 @@ character_event = {
 	desc = "EVTDESC7860"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -13255,13 +13254,13 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -13417,7 +13416,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7860" # The conspirators bribe the servants
 		trigger = {
@@ -13429,7 +13428,7 @@ character_event = {
 				character_event = { id = 7872 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7865 days = 30 tooltip = "EVTTOOLTIP7865" } }
 	}
@@ -13440,14 +13439,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7872 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7865 days = 30 tooltip = "EVTTOOLTIP7865" } }
 	}
@@ -13459,14 +13458,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7872 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7865 days = 30 tooltip = "EVTTOOLTIP7865" } }
 	}
@@ -13477,14 +13476,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7872 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7865 days = 30 tooltip = "EVTTOOLTIP7865" } }
 	}
@@ -13504,11 +13503,11 @@ character_event = {
 	desc = "EVTDESC7861"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -13526,7 +13525,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -13534,7 +13533,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -13878,7 +13877,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7860" # The conspirators bribe servants
 		trigger = {
@@ -13932,7 +13931,7 @@ character_event = {
 			set_character_flag = murder_in_motion
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB7860" # Bribe servants
 		trigger = {
@@ -13976,7 +13975,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -13990,7 +13989,7 @@ character_event = {
 			set_character_flag = murder_in_motion
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -14016,9 +14015,9 @@ character_event = {
 	desc = "EVTDESC7862"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7862"
 		transfer_scaled_wealth = {
@@ -14031,7 +14030,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7865 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7864 tooltip = "EVTTOOLTIP8154" } }
@@ -14044,9 +14043,9 @@ character_event = {
 	desc = "EVTDESC7863"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 		FROM = { plot_target_char = { character_event = { id = 7865 days = 27 tooltip = "EVTTOOLTIP7865" } } }
@@ -14059,9 +14058,9 @@ character_event = {
 	desc = "EVTDESC7864"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -14074,15 +14073,15 @@ character_event = {
 	desc = "EVTDESC7865"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -14096,7 +14095,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7865" # Drowns
 		trigger = {
@@ -14189,9 +14188,9 @@ character_event = {
 	desc = "EVTDESC7866"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7866"
 		death = {
@@ -14199,7 +14198,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Hunting Accident - Dies, murderer NOT discovered
@@ -14208,11 +14207,11 @@ character_event = {
 	desc = "EVTDESC7866"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7867"
 		death = {
@@ -14228,9 +14227,9 @@ character_event = {
 	desc = "EVTDESC7868"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7868"
 	}
@@ -14242,11 +14241,11 @@ character_event = {
 	desc = "EVTDESC7868"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7869"
 	}
@@ -14258,9 +14257,9 @@ character_event = {
 	desc = "EVTDESC7870"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7870"
 		set_character_flag = murder_in_motion
@@ -14283,9 +14282,9 @@ character_event = {
 	desc = "EVTDESC7871"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -14297,9 +14296,9 @@ character_event = {
 	desc = "EVTDESC7872"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -14311,9 +14310,9 @@ character_event = {
 	desc = "EVTDESC7873"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
@@ -14343,9 +14342,9 @@ character_event = {
 	desc = "EVTDESC7874"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7874"
 		if = {
@@ -14369,14 +14368,14 @@ character_event = {
 	desc = "EVTDESC7875"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7875"
 		set_character_flag = abort_plot
@@ -14390,9 +14389,9 @@ character_event = {
 	desc = "EVTDESC7876"
 	picture = GFX_evt_hunt
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -14406,11 +14405,11 @@ character_event = {
 	desc = "EVTDESC7880"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -14425,13 +14424,13 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -14587,7 +14586,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7880" # The conspirators bribe the servants
 		trigger = {
@@ -14599,7 +14598,7 @@ character_event = {
 				character_event = { id = 7892 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7885 days = 30 tooltip = "EVTTOOLTIP7885" } }
 	}
@@ -14610,14 +14609,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7892 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7885 days = 30 tooltip = "EVTTOOLTIP7885" } }
 	}
@@ -14629,14 +14628,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7892 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7885 days = 30 tooltip = "EVTTOOLTIP7885" } }
 	}
@@ -14647,14 +14646,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7892 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7885 days = 30 tooltip = "EVTTOOLTIP7885" } }
 	}
@@ -14674,11 +14673,11 @@ character_event = {
 	desc = "EVTDESC7881"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -14695,7 +14694,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -14703,7 +14702,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -15047,7 +15046,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7880" # The conspirators bribe servants
 		trigger = {
@@ -15101,7 +15100,7 @@ character_event = {
 			set_character_flag = murder_in_motion
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB7880" # Bribe servants
 		trigger = {
@@ -15145,7 +15144,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -15159,7 +15158,7 @@ character_event = {
 			set_character_flag = murder_in_motion
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -15185,9 +15184,9 @@ character_event = {
 	desc = "EVTDESC7882"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7882"
 		transfer_scaled_wealth = {
@@ -15200,7 +15199,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7885 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7884 tooltip = "EVTTOOLTIP8154" } }
@@ -15213,9 +15212,9 @@ character_event = {
 	desc = "EVTDESC7883"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 		FROM = { plot_target_char = { character_event = { id = 7885 days = 27 tooltip = "EVTTOOLTIP7885" } } }
@@ -15228,9 +15227,9 @@ character_event = {
 	desc = "EVTDESC7884"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -15243,15 +15242,15 @@ character_event = {
 	desc = "EVTDESC7885"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -15265,7 +15264,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7885" # Drowns
 		trigger = {
@@ -15358,9 +15357,9 @@ character_event = {
 	desc = "EVTDESC7886"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7886"
 		death = {
@@ -15368,7 +15367,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Disguised Highwaymen - Dies, murderer NOT discovered
@@ -15377,11 +15376,11 @@ character_event = {
 	desc = "EVTDESC7886"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7887"
 		death = {
@@ -15397,9 +15396,9 @@ character_event = {
 	desc = "EVTDESC7888"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7888"
 	}
@@ -15411,11 +15410,11 @@ character_event = {
 	desc = "EVTDESC7888"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7889"
 	}
@@ -15427,9 +15426,9 @@ character_event = {
 	desc = "EVTDESC7890"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7890"
 		set_character_flag = murder_in_motion
@@ -15452,9 +15451,9 @@ character_event = {
 	desc = "EVTDESC7891"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -15466,9 +15465,9 @@ character_event = {
 	desc = "EVTDESC7892"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -15480,14 +15479,14 @@ character_event = {
 	desc = "EVTDESC7893"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -15512,9 +15511,9 @@ character_event = {
 	desc = "EVTDESC7894"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7894"
 		if = {
@@ -15538,14 +15537,14 @@ character_event = {
 	desc = "EVTDESC7895"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7895"
 		set_character_flag = abort_plot
@@ -15559,9 +15558,9 @@ character_event = {
 	desc = "EVTDESC7896"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -15575,11 +15574,11 @@ character_event = {
 	desc = "EVTDESC7900"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -15594,13 +15593,13 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -15756,7 +15755,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7900" # The conspirators bribe the servants
 		trigger = {
@@ -15768,7 +15767,7 @@ character_event = {
 				character_event = { id = 7912 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7905 days = 30 tooltip = "EVTTOOLTIP7905" } }
 	}
@@ -15779,14 +15778,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7912 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7905 days = 30 tooltip = "EVTTOOLTIP7905" } }
 	}
@@ -15798,14 +15797,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7912 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7905 days = 30 tooltip = "EVTTOOLTIP7905" } }
 	}
@@ -15816,14 +15815,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7912 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7905 days = 30 tooltip = "EVTTOOLTIP7905" } }
 	}
@@ -15843,11 +15842,11 @@ character_event = {
 	desc = "EVTDESC7901"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -15864,7 +15863,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -15872,7 +15871,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -16216,7 +16215,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7900" # The conspirators bribe servants
 		trigger = {
@@ -16269,7 +16268,7 @@ character_event = {
 			character_event = { id = 7902 days = 3 tooltip = "EVTTOOLTIP8152" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTB7900" # Bribe servants
 		trigger = {
@@ -16313,7 +16312,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -16326,7 +16325,7 @@ character_event = {
 			character_event = { id = 7910 days = 3 tooltip = "EVTTOOLTIP8160" }
 			set_character_flag = murder_in_motion
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTD8150" # I cannot afford this
 		trigger = {
@@ -16352,9 +16351,9 @@ character_event = {
 	desc = "EVTDESC7902"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7902"
 		transfer_scaled_wealth = {
@@ -16367,7 +16366,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7905 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7904 tooltip = "EVTTOOLTIP8154" } }
@@ -16380,9 +16379,9 @@ character_event = {
 	desc = "EVTDESC7903"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -16394,9 +16393,9 @@ character_event = {
 	desc = "EVTDESC7904"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -16409,15 +16408,15 @@ character_event = {
 	desc = "EVTDESC7905"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -16431,7 +16430,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7905" # Drowns
 		trigger = {
@@ -16524,9 +16523,9 @@ character_event = {
 	desc = "EVTDESC7906"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7906"
 		death = {
@@ -16534,7 +16533,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Carriage Accident - Dies, murderer NOT discovered
@@ -16543,11 +16542,11 @@ character_event = {
 	desc = "EVTDESC7906"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7907"
 		death = {
@@ -16563,9 +16562,9 @@ character_event = {
 	desc = "EVTDESC7908"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7908"
 	}
@@ -16577,11 +16576,11 @@ character_event = {
 	desc = "EVTDESC7908"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7909"
 	}
@@ -16593,9 +16592,9 @@ character_event = {
 	desc = "EVTDESC7910"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7910"
 		set_character_flag = murder_in_motion
@@ -16618,9 +16617,9 @@ character_event = {
 	desc = "EVTDESC7911"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -16632,9 +16631,9 @@ character_event = {
 	desc = "EVTDESC7912"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -16646,14 +16645,14 @@ character_event = {
 	desc = "EVTDESC7913"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA8163"
 		tooltip = { add_trait = dishonorable1 }
@@ -16678,9 +16677,9 @@ character_event = {
 	desc = "EVTDESC7914"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7914"
 		if = {
@@ -16704,14 +16703,14 @@ character_event = {
 	desc = "EVTDESC7915"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7915"
 		set_character_flag = abort_plot
@@ -16725,9 +16724,9 @@ character_event = {
 	desc = "EVTDESC7916"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -16741,11 +16740,11 @@ character_event = {
 	desc = "EVTDESC7950"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		OR = {
 			has_plot = plot_kill_character
@@ -16762,13 +16761,13 @@ character_event = {
 			dynasty = ROOT
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
+		plot_power_contribution =
 		{
 			plotter = ROOT
 			power = 0.025
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -16842,10 +16841,10 @@ character_event = {
 		modifier = {
 			factor = 0.66
 			plot_power = 10.0
-		}		
+		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.10
@@ -16853,7 +16852,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.20
@@ -16861,7 +16860,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.30
@@ -16869,7 +16868,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.40
@@ -16877,7 +16876,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.50
@@ -16885,7 +16884,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.60
@@ -16893,7 +16892,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.70
@@ -16901,7 +16900,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.80
@@ -16909,7 +16908,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 0.90
@@ -16917,13 +16916,13 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
+			plot_power_contribution =
 			{
 				plotter = ROOT
 				power = 1.5
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.33
 			any_backed_character = {
@@ -16958,7 +16957,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7950" # The conspirators bribe the servants
 		trigger = {
@@ -16970,7 +16969,7 @@ character_event = {
 				character_event = { id = 7962 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7955 days = 30 tooltip = "EVTTOOLTIP7955" } }
 	}
@@ -16981,14 +16980,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -1.0
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7962 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7955 days = 30 tooltip = "EVTTOOLTIP7955" } }
 	}
@@ -17000,14 +16999,14 @@ character_event = {
 			NOT = { intrigue = 10 }
 		}
 		scaled_wealth = -0.5
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7962 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7955 days = 30 tooltip = "EVTTOOLTIP7955" } }
 	}
@@ -17018,14 +17017,14 @@ character_event = {
 			plot_power = 0.5
 			intrigue = 10
 		}
-		
+
 		hidden_tooltip = {
 			any_plot_backer = {
 				limit = { ai = no }
 				character_event = { id = 7962 days = 1 }
 			}
 		}
-		
+
 		set_character_flag = murder_in_motion
 		plot_target_char = { character_event = { id = 7955 days = 30 tooltip = "EVTTOOLTIP7955" } }
 	}
@@ -17045,11 +17044,11 @@ character_event = {
 	desc = "EVTDESC7951"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	capable_only = yes
 	prisoner = no
 	is_part_of_plot = yes
-	
+
 	trigger = {
 		any_backed_character = {
 			OR = {
@@ -17068,7 +17067,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
+				plot_power_contribution =
 				{
 					plotter = PREV
 					power = 0.025
@@ -17076,7 +17075,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -17420,7 +17419,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7950" # The conspirators bribe servants
 		trigger = {
@@ -17517,7 +17516,7 @@ character_event = {
 				plot_power = 0.5
 			}
 		}
-		
+
 		random_backed_character = {
 			limit = {
 				OR = {
@@ -17556,7 +17555,7 @@ character_event = {
 	desc = "EVTDESC8152"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -17571,7 +17570,7 @@ character_event = {
 			plot_target_char = { character_event = { id = 7955 days = 27 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8152"
 		FROM = { character_event = { id = 7954 tooltip = "EVTTOOLTIP8154" } }
@@ -17584,9 +17583,9 @@ character_event = {
 	desc = "EVTDESC7953"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 	}
@@ -17598,9 +17597,9 @@ character_event = {
 	desc = "EVTDESC7954"
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTB8154" # Screw this
 		FROM = { clr_character_flag = murder_in_motion }
@@ -17613,15 +17612,15 @@ character_event = {
 	desc = "EVTDESC7955"
 	picture = GFX_evt_jugglers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = target_victim
 	}
-	
+
 	trigger = {
 		# Is the plot still in motion?
 		FROM = {
@@ -17635,7 +17634,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA7955" # Dies
 		trigger = {
@@ -17758,9 +17757,9 @@ character_event = {
 	desc = "EVTDESC7956"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7956"
 		death = {
@@ -17768,7 +17767,7 @@ character_event = {
 			killer = FROMFROM
 		}
 	}
-	
+
 }
 
 # Decadent Debauchery - Dies, murderer NOT discovered
@@ -17777,11 +17776,11 @@ character_event = {
 	desc = "EVTDESC7956"
 	picture = GFX_evt_death
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7957"
 		death = {
@@ -17797,9 +17796,9 @@ character_event = {
 	desc = "EVTDESC7958"
 	picture = GFX_evt_jugglers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7958"
 	}
@@ -17811,11 +17810,11 @@ character_event = {
 	desc = "EVTDESC7959"
 	picture = GFX_evt_jugglers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7959"
 	}
@@ -17827,9 +17826,9 @@ character_event = {
 	desc = "EVTDESC7960"
 	picture = GFX_evt_jugglers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7960"
 		set_character_flag = murder_in_motion
@@ -17852,9 +17851,9 @@ character_event = {
 	desc = "EVTDESC7961"
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8161"
 	}
@@ -17866,9 +17865,9 @@ character_event = {
 	desc = "EVTDESC7962"
 	picture = GFX_evt_jugglers
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8162"
 	}
@@ -17880,14 +17879,14 @@ character_event = {
 	desc = "EVTDESC7963"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 10 } # Consequences of discovery
 		clear_event_target = target_victim
 	}
-	
+
 	option = {
 		name = "EVTOPTA7963"
 		tooltip = { add_trait = dishonorable1 }
@@ -17912,9 +17911,9 @@ character_event = {
 	desc = "EVTDESC7964"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7964"
 		if = {
@@ -17938,9 +17937,9 @@ character_event = {
 	desc = "EVTDESC7965"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		character_event = { id = 11 } # Consequences of discovery
 		clear_event_target = target_victim
@@ -17959,9 +17958,9 @@ character_event = {
 	desc = "EVTDESC7966"
 	picture = GFX_evt_shadowy_cabal
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8166"
 		clr_character_flag = murder_in_motion
@@ -17972,19 +17971,19 @@ character_event = {
 # Plot to cut down another vassal to size #
 ###########################################
 
-	
+
 # Liege is approached by Plotter
 letter_event = {
 	id = 7500
 	desc = "EVTDESC7500"
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_liege_of = FROM
 		FROM = { has_plot = plot_weaken_fellow_vassal }
 	}
-	
+
 	option = { #Yes
 		name = "EVTOPTA7500"
 		FROM = {
@@ -18040,19 +18039,19 @@ letter_event = {
 		}
 	}
 }
-	
+
 # Plotter informed Liege agrees
 letter_event = {
 	id = 7501
 	desc = "EVTDESC7501"
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { is_liege_of = ROOT }
 		has_plot = plot_weaken_fellow_vassal
 	}
-	
+
 	option = {
 		name = "EVTOPTA7501"
 		ROOT = { set_character_flag = weaken_vassal_plotter }
@@ -18068,19 +18067,19 @@ letter_event = {
 		}
 	}
 }
-	
+
 # Plotter informed Liege disagrees
 letter_event = {
 	id = 7502
 	desc = "EVTDESC7502"
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { is_liege_of = ROOT }
 		has_plot = plot_weaken_fellow_vassal
 	}
-	
+
 	option = {
 		name = "EVTOPTA7502"
 		reveal_plot = yes
@@ -18100,12 +18099,12 @@ letter_event = {
 	desc = "EVTDESC7504"
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { is_liege_of = ROOT }
 		FROMFROM = { has_plot = plot_weaken_fellow_vassal }
 	}
-	
+
 	option = { #Take it!
 		name = "EVTOPTA7504"
 		trigger = {
@@ -18153,7 +18152,7 @@ letter_event = {
 		}
 		hidden_tooltip = {
 			liege = {
-				letter_event = { 
+				letter_event = {
 					id = 7508
 				}
 			}
@@ -18162,7 +18161,7 @@ letter_event = {
 	option = { #Never
 		name = "EVTOPTB7504"
 		liege = {
-			letter_event = { 
+			letter_event = {
 				id = 7509
 				tooltip = "EVTTOOLTIP7509"
 			}
@@ -18176,11 +18175,11 @@ letter_event = {
 	desc = "EVTDESC7505"
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { has_plot = plot_weaken_fellow_vassal }
-	}			
-	
+	}
+
 	option = { #Take it!
 		name = "EVTOPTA7505"
 		trigger = {
@@ -18284,7 +18283,7 @@ letter_event = {
 	desc = "EVTDESC7506"
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7506"
 		FROM = {
@@ -18293,7 +18292,7 @@ letter_event = {
 				who = ROOT
 				years = 6
 			}
-		}	
+		}
 	}
 }
 
@@ -18303,7 +18302,7 @@ letter_event = {
 	desc = "EVTDESC7507"
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7507"
 		ai_chance = { factor = 100 }
@@ -18340,7 +18339,7 @@ letter_event = {
 	desc = "EVTDESC7508"
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7508"
 		hidden_tooltip = {
@@ -18370,7 +18369,7 @@ letter_event = {
 	desc = "EVTDESC7509"
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7509"
 		opinion = {
@@ -18405,7 +18404,7 @@ character_event = {
 	picture = GFX_evt_council
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7510"
 		clr_character_flag = weaken_vassal_plotter
@@ -18419,11 +18418,11 @@ character_event = {
 	picture = GFX_evt_council
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_plot = plot_weaken_fellow_vassal
 	}
-	
+
 	option = {
 		name = "EVTOPTA7511" #So be it
 		clr_character_flag = weaken_vassal_plotter
@@ -18450,7 +18449,7 @@ character_event = {
 	picture = GFX_evt_council
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7515"
 	}
@@ -18461,9 +18460,9 @@ character_event = {
 	id = 7517
 	desc = "EVTDESC7517"
 	picture = GFX_evt_knight_kneeling
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7502"
 	}
@@ -18480,9 +18479,9 @@ character_event = {
 	id = 7600
 	desc = "EVTDESC7600"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7600"
 		plot_target_title = {
@@ -18496,9 +18495,9 @@ character_event = {
 	id = 7601
 	desc = "EVTDESC7601"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7601"
 		set_character_flag = abort_plot
@@ -18517,9 +18516,9 @@ character_event = {
 	id = 7602
 	desc = "EVTDESC7601"
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA7601"
 		set_character_flag = abort_plot
@@ -18541,23 +18540,23 @@ character_event = {
 letter_event = {
 	id = 8200
 	desc = EVTDESC8200
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { in_faction = faction_antiking }
 	}
-	
+
 	immediate = {
 		FROM = {
-			diplomatic_immunity = yes 
+			diplomatic_immunity = yes
 			any_faction_backer = {
 				faction = faction_antiking
 				diplomatic_immunity = yes
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA8000
 		ai_chance = {
@@ -18566,7 +18565,7 @@ letter_event = {
 				factor = 0
 				NOT = {
 					FROM = {
-						faction_power = 
+						faction_power =
 						{
 							faction = faction_antiking
 							power = 1.0
@@ -18603,7 +18602,7 @@ letter_event = {
 				trait = content
 			}
 		}
-		
+
 		hidden_tooltip = {
 			any_vassal = {
 				limit = {
@@ -18668,12 +18667,12 @@ letter_event = {
 				remove_claim = d_fraticelli
 			}
 		}
-		
+
 		primary_title = {
 			usurp_title = FROM
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8000"
 		ai_chance = {
@@ -18709,7 +18708,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_antiking
 						power = 1.5
@@ -18719,7 +18718,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_antiking
 						power = 1.0
@@ -18729,7 +18728,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_antiking
 						power = 2.0
@@ -18739,17 +18738,17 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_antiking
 						power = 3.0
 					}
 				}
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_antiking
 						power = 4.0
@@ -18816,11 +18815,11 @@ letter_event = {
 letter_event = {
 	id = 8201
 	desc = EVTDESC8201
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "GOOD"
 		reverse_opinion = {
@@ -18828,7 +18827,7 @@ letter_event = {
 			who = FROMFROM
 			years = 5
 		}
-		
+
 		add_character_modifier = {
 			name = faction_antiking_ultimatum_timer
 			hidden = yes
@@ -18841,14 +18840,14 @@ letter_event = {
 character_event = {
 	id = 8202
 	desc = EVTDESC8202
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_intrigue
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "I_SEE"
 	}
@@ -18858,13 +18857,13 @@ character_event = {
 letter_event = {
 	id = 8203
 	desc = EVTDESC8203
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 		clr_character_flag = faction_install_antiking_ultimatum_taken
-		
+
 		add_character_modifier = {
 			name = faction_antiking_ultimatum_timer
 			hidden = yes
@@ -18877,14 +18876,14 @@ letter_event = {
 letter_event = {
 	id = 8204
 	desc = EVTDESC8100
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA8100
-		
+
 		clr_character_flag = faction_install_antiking_ultimatum_taken
-		
+
 		faction_antiking = { # The target (title) of the faction
 			reverse_war = {
 				target = ROOT
@@ -18900,23 +18899,23 @@ letter_event = {
 letter_event = {
 	id = 8210
 	desc = EVTDESC8210
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { in_faction = faction_overthrow }
 	}
-	
+
 	immediate = {
 		FROM = {
-			diplomatic_immunity = yes 
+			diplomatic_immunity = yes
 			any_faction_backer = {
 				faction = faction_overthrow
 				diplomatic_immunity = yes
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA8000
 		ai_chance = {
@@ -18925,7 +18924,7 @@ letter_event = {
 				factor = 0
 				NOT = {
 					FROM = {
-						faction_power = 
+						faction_power =
 						{
 							faction = faction_overthrow
 							power = 1.0
@@ -18942,7 +18941,7 @@ letter_event = {
 				trait = craven
 			}
 		}
-		
+
 		custom_tooltip = { text = khagan_overthrow_execution_warning_tooltip }
 		hidden_tooltip = {
 			any_vassal = {
@@ -18962,12 +18961,12 @@ letter_event = {
 				diplomatic_immunity = no
 			}
 		}
-		
+
 		primary_title = {
 			gain_title = { target = FROM type = faction_demand }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB8000"
 		ai_chance = {
@@ -18991,7 +18990,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_overthrow
 						power = 1.5
@@ -19001,7 +19000,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_overthrow
 						power = 1.0
@@ -19011,7 +19010,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_overthrow
 						power = 2.0
@@ -19021,17 +19020,17 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_overthrow
 						power = 3.0
 					}
 				}
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
+					faction_power =
 					{
 						faction = faction_overthrow
 						power = 4.0
@@ -19054,11 +19053,11 @@ letter_event = {
 letter_event = {
 	id = 8211
 	desc = EVTDESC8211
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "GOOD"
 		reverse_opinion = {
@@ -19073,14 +19072,14 @@ letter_event = {
 character_event = {
 	id = 8212
 	desc = EVTDESC8212
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_intrigue
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "I_SEE"
 	}
@@ -19090,9 +19089,9 @@ character_event = {
 letter_event = {
 	id = 8213
 	desc = EVTDESC8213
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA8213"
 		clr_character_flag = faction_overthrow_ultimatum_taken
@@ -19114,14 +19113,14 @@ letter_event = {
 letter_event = {
 	id = 8214
 	desc = EVTDESC8100
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA8100
-		
+
 		clr_character_flag = faction_overthrow_ultimatum_taken
-		
+
 		faction_overthrow = { # The target (title) of the faction
 			reverse_war = {
 				target = ROOT

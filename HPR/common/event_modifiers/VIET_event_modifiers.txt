@@ -27,14 +27,6 @@
 # 37 - Prison 				- 38
 # 39 - Love 				- 40
 
-old_age = {
-	martial = -2
-	intrigue = -1
-	learning = 1
-	health = -2
-	fertility = -0.15
-	icon = 26
-}
 performing_sacrifice = {
 	monthly_character_piety = 0.1
 	icon = 8
@@ -262,6 +254,10 @@ having_stomachaches = {
 }
 highly_amused_ruler = {
         diplomacy = 1
+        icon = 15
+}
+VIET_bored_ruler = {
+        fertility = 0.2
         icon = 15
 }
 eating_good_food = {

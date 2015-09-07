@@ -5,13 +5,13 @@ namespace = Plus
 #######################################
 # SHATTERED REALM EVENTS
 #######################################
-		
+
 #Makes everyone an independent count, creating titles where needed
 character_event = {
 	id = Plus.1450
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		set_global_flag = shattered_realm
 		any_independent_ruler = {
@@ -34,9 +34,9 @@ character_event = {
 				}
 				any_demesne_title = {
 					limit = { # Don't do this to players unless they have more than 1 county
-						holder_scope = { 
+						holder_scope = {
 							OR = {
-								ai = yes 
+								ai = yes
 								num_of_count_titles = 2
 							}
 						}
@@ -152,9 +152,9 @@ character_event = {
 				}
 				any_demesne_title = {
 					limit = { # Don't do this to players unless they have more than 1 county
-						holder_scope = { 
+						holder_scope = {
 							OR = {
-								ai = yes 
+								ai = yes
 								num_of_count_titles = 2
 							}
 						}
@@ -168,7 +168,7 @@ character_event = {
 					}
 					new_character = {
 						usurp_title_plus_barony_if_unlanded = PREV
-						set_defacto_liege = THIS					
+						set_defacto_liege = THIS
 						if = {
 							limit = {
 								has_dlc = "Horse Lords"
@@ -180,7 +180,7 @@ character_event = {
 								NOT = { has_dlc = "Horse Lords" }
 							}
 							set_government_type = tribal_government
-						}						
+						}
 					}
 				}
 				any_claim = {
@@ -226,13 +226,13 @@ character_event = {
 							NOT = { has_dlc = "Horse Lords" }
 						}
 						set_government_type = tribal_government
-					}					
+					}
 				}
 			}
 			# This removes all claims from landholders
 			any_claim = {
 				remove_claim = PREV
-				
+
 			}
 			# This removes all claims from courtiers
 			any_courtier = {
@@ -250,7 +250,7 @@ character_event = {
 	id = Plus.1451
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		set_global_flag = reign_ancients
 		any_independent_ruler = {
@@ -272,24 +272,24 @@ character_event = {
 				}
 				any_demesne_title = {
 					limit = { # Don't do this to players unless they have more than 1 county
-						holder_scope = { 
+						holder_scope = {
 							OR = {
-								ai = yes 
+								ai = yes
 								num_of_count_titles = 2
 							}
 						}
 						higher_tier_than = baron
-					}				
+					}
 					if = {
 						limit = {
 							location = {
 								OR = {
-									region = custom_france 
-									region = custom_aquitaine 
-									region = custom_aragon 
-									region = custom_navarra 
-									region = custom_castille 
-									region = custom_asturias 
+									region = custom_france
+									region = custom_aquitaine
+									region = custom_aragon
+									region = custom_navarra
+									region = custom_castille
+									region = custom_asturias
 									region = custom_andalusia
 									region = custom_ireland
 									region = custom_brittany
@@ -308,18 +308,18 @@ character_event = {
 						new_character = {
 							usurp_title_plus_barony_if_unlanded = PREV
 							set_defacto_liege = THIS
-						}						
+						}
 					}
 					if = {
 						limit = {
-							location = { 
+							location = {
 								OR = {
 									region = custom_germany
 									region = custom_frisia
 									region = custom_lotharingia
 									region = custom_burgundy
 								}
-							} 
+							}
 						}
 						create_character = {
 							random_traits = yes
@@ -330,17 +330,17 @@ character_event = {
 						new_character = {
 							usurp_title_plus_barony_if_unlanded = PREV
 							set_defacto_liege = THIS
-						}						
-					}					
+						}
+					}
 					if = {
 						limit = {
 							OR = {
 								location = {
 									OR = {
-										region = custom_croatia 
-										region = custom_serbia 
-										region = custom_bulgaria 
-										region = custom_byzantium 
+										region = custom_croatia
+										region = custom_serbia
+										region = custom_bulgaria
+										region = custom_byzantium
 										region = custom_nikaea
 										region = custom_trebizond
 										region = custom_armenia
@@ -369,8 +369,8 @@ character_event = {
 						limit = {
 							location = {
 								OR = {
-									region = custom_england 
-									region = custom_norway 
+									region = custom_england
+									region = custom_norway
 									region = custom_sweden
 									region = custom_denmark
 								}
@@ -391,9 +391,9 @@ character_event = {
 						limit = {
 							location = {
 								OR = {
-									region = custom_persia 
-									region = custom_afghanistan 
-									region = custom_baluchistan 
+									region = custom_persia
+									region = custom_afghanistan
+									region = custom_baluchistan
 								}
 							}
 						}
@@ -436,7 +436,7 @@ character_event = {
 									region = custom_wallachia
 									region = custom_crimea
 									region = custom_carpathia
-									region = custom_volga		
+									region = custom_volga
 								}
 							}
 						}
@@ -487,7 +487,7 @@ character_event = {
 							usurp_title_plus_barony_if_unlanded = PREV
 							set_defacto_liege = THIS
 						}
-					}						
+					}
 					if = {
 						limit = {
 							location = {
@@ -511,7 +511,7 @@ character_event = {
 							usurp_title_plus_barony_if_unlanded = PREV
 							set_defacto_liege = THIS
 						}
-					}					
+					}
 					if = {
 						limit = {
 							location = {
@@ -596,7 +596,7 @@ character_event = {
 							usurp_title_plus_barony_if_unlanded = PREV
 							set_defacto_liege = THIS
 						}
-					}	
+					}
 					if = {
 						limit = {
 							location = {
@@ -652,9 +652,7 @@ character_event = {
 					if = {
 						limit = {
 							location = {
-								OR = {
 									region = world_africa_west
-								}
 							}
 						}
 						create_character = {
@@ -667,8 +665,8 @@ character_event = {
 							usurp_title_plus_barony_if_unlanded = PREV
 							set_defacto_liege = THIS
 						}
-					}					
-				}				
+					}
+				}
 				any_claim = {
 					PREV = { remove_claim = PREV }
 				}
@@ -688,7 +686,7 @@ character_event = {
 				limit = {
 					tier = count
 					location = { is_capital = no }
-				}				
+				}
 				create_character = {
 					random_traits = yes
 					religion = THIS
@@ -724,7 +722,7 @@ character_event = {
 			}
 			add_trait = yehudi
 			set_character_flag = yehudi_check
-		}		
+		}
 		k_papal_state = { # Clear papal vassals, as the first check won't check the papacy
 			holder_scope = {
 				any_vassal = {
@@ -736,22 +734,22 @@ character_event = {
 		# Set Provinces to the correct religions
 		any_independent_ruler = {
 			any_realm_province = {
-				if = {	
+				if = {
 					limit = { # Set these regions to be Celtic
 						OR = {
-							region = custom_france 
-							region = custom_aquitaine 
-							region = custom_aragon 
-							region = custom_navarra 
-							region = custom_castille 
-							region = custom_asturias 
+							region = custom_france
+							region = custom_aquitaine
+							region = custom_aragon
+							region = custom_navarra
+							region = custom_castille
+							region = custom_asturias
 							region = custom_andalusia
 							region = custom_ireland
 							region = custom_brittany
 							region = custom_scotland
 							region = custom_portugal
 							region = custom_wales
-						}						
+						}
 					}
 					county = {
 						holder_scope = {
@@ -759,7 +757,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = celtic_pagan
@@ -773,7 +771,7 @@ character_event = {
 							region = custom_frisia
 							region = custom_lotharingia
 							region = custom_burgundy
-						}						
+						}
 					}
 					county = {
 						holder_scope = {
@@ -781,7 +779,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = german_pagan
@@ -791,10 +789,10 @@ character_event = {
 				if = {
 					limit = { # Set these regions to be Hellenic
 						OR = {
-							region = custom_croatia 
-							region = custom_serbia 
-							region = custom_bulgaria 
-							region = custom_byzantium 
+							region = custom_croatia
+							region = custom_serbia
+							region = custom_bulgaria
+							region = custom_byzantium
 							region = custom_nikaea
 							region = custom_trebizond
 							region = custom_armenia
@@ -804,7 +802,7 @@ character_event = {
 							duchy = {
 								title = d_carinthia
 							}
-						}						
+						}
 					}
 					county = {
 						holder_scope = {
@@ -813,7 +811,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = hellenic_pagan
@@ -832,12 +830,12 @@ character_event = {
 				if = {
 					limit = { # Set these regions to be Nordic
 						OR = {
-							region = custom_england 
-							region = custom_norway 
+							region = custom_england
+							region = custom_norway
 							region = custom_sweden
 							region = custom_denmark
 							region = custom_north_sea
-						}						
+						}
 					}
 					county = {
 						holder_scope = {
@@ -845,7 +843,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = norse_pagan
@@ -855,10 +853,10 @@ character_event = {
 				if = {
 					limit = { # Set these regions to be Zoroastrian
 						OR = {
-							region = custom_persia 
-							region = custom_afghanistan 
-							region = custom_baluchistan 
-						}						
+							region = custom_persia
+							region = custom_afghanistan
+							region = custom_baluchistan
+						}
 					}
 					county = {
 						holder_scope = {
@@ -866,7 +864,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = zoroastrian
@@ -875,7 +873,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Kemetic
-						region = custom_egypt				
+						region = custom_egypt
 					}
 					county = {
 						holder_scope = {
@@ -883,7 +881,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = egyptian_pagan
@@ -895,7 +893,7 @@ character_event = {
 						OR = {
 							region = custom_finland
 							region = custom_perm
-						}						
+						}
 					}
 					county = {
 						holder_scope = {
@@ -903,7 +901,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = finnish_pagan
@@ -917,8 +915,8 @@ character_event = {
 							region = custom_wallachia
 							region = custom_crimea
 							region = custom_carpathia
-							region = custom_volga	
-						}						
+							region = custom_volga
+						}
 					}
 					county = {
 						holder_scope = {
@@ -926,7 +924,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = tengri_pagan
@@ -935,7 +933,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Sunni
-						region = custom_mesopotamia					
+						region = custom_mesopotamia
 					}
 					county = {
 						holder_scope = {
@@ -943,7 +941,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = sunni
@@ -952,7 +950,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Zikri
-						region = custom_arabia					
+						region = custom_arabia
 					}
 					county = {
 						holder_scope = {
@@ -960,7 +958,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = zikri
@@ -969,7 +967,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Manichean
-						region = custom_khwarizm					
+						region = custom_khwarizm
 					}
 					county = {
 						holder_scope = {
@@ -977,7 +975,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = manichean
@@ -986,7 +984,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Miaphysite
-						region = custom_nubia					
+						region = custom_nubia
 					}
 					county = {
 						holder_scope = {
@@ -994,7 +992,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = miaphysite
@@ -1003,7 +1001,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Monophysite
-						region = custom_abyssinia					
+						region = custom_abyssinia
 					}
 					county = {
 						holder_scope = {
@@ -1011,7 +1009,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = monophysite
@@ -1031,7 +1029,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = shiite
@@ -1040,7 +1038,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Bektashi
-						region = custom_morocco					
+						region = custom_morocco
 					}
 					county = {
 						holder_scope = {
@@ -1048,7 +1046,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = bektashi
@@ -1057,7 +1055,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Messalian
-						region = custom_azerbaijan					
+						region = custom_azerbaijan
 					}
 					county = {
 						holder_scope = {
@@ -1065,7 +1063,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = messalian
@@ -1077,7 +1075,7 @@ character_event = {
 						OR = {
 							region = custom_baluchistan
 							region = custom_afghanistan
-						}				
+						}
 					}
 					county = {
 						holder_scope = {
@@ -1085,7 +1083,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = zun_pagan
@@ -1094,7 +1092,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Jewish
-						region = custom_jerusalem		
+						region = custom_jerusalem
 					}
 					county = {
 						holder_scope = {
@@ -1102,7 +1100,7 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = jewish
@@ -1111,7 +1109,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set this region to be Karaite
-						region = custom_syria		
+						region = custom_syria
 					}
 					county = {
 						holder_scope = {
@@ -1119,13 +1117,13 @@ character_event = {
 							any_courtier = {
 								religion = PREV
 								culture = PREV
-							}					
+							}
 						}
 						PREV = {
 							religion = karaite
 						}
 					}
-				}				
+				}
 			}
 		}
 		# Nestorian has no region to use, default to the duchies that make up the target area
@@ -1137,7 +1135,7 @@ character_event = {
 						religion = PREV
 						culture = PREV
 					}
-				}			
+				}
 				location = {
 					religion = nestorian
 				}
@@ -1151,12 +1149,12 @@ character_event = {
 						religion = PREV
 						culture = PREV
 					}
-				}			
+				}
 				location = {
 					religion = nestorian
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -1164,7 +1162,7 @@ character_event = { # Make dukes out of capital holders
 	id = Plus.1452
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		any_independent_ruler = {
 			limit = { # Give the ducal title to the one holding the capital
@@ -1195,7 +1193,7 @@ character_event = { # Make dukes out of capital holders
 						num_of_duke_titles = 1
 					}
 				}
-				primary_title = { is_primary_type_title = no } # Prevent it from targeting Mercenaries, Holy Orders and Religious Leaders				
+				primary_title = { is_primary_type_title = no } # Prevent it from targeting Mercenaries, Holy Orders and Religious Leaders
 			}
 			capital_scope = { # Centralize all counties to the new dukes
 				duchy = {
@@ -1213,7 +1211,7 @@ character_event = { # Make dukes out of capital holders
 							tier = count
 						}
 						set_defacto_liege = PREVPREVPREV
-					}					
+					}
 				}
 			}
 		}
@@ -1224,7 +1222,7 @@ character_event = { #Make kings out of capital holder
 	id = Plus.1453
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		any_independent_ruler = { # Hand out Kingdom titles to the capital holders
 			limit = {
@@ -1242,7 +1240,7 @@ character_event = { #Make kings out of capital holder
 					grant_title = PREVPREV
 				}
 			}
-		}		
+		}
 		any_independent_ruler = {
 			limit = {
 				primary_title = { is_primary_type_title = no } # Prevent it from targeting Mercenaries, Holy Orders and Religious Leaders
@@ -1254,7 +1252,7 @@ character_event = { #Make kings out of capital holder
 					any_de_jure_vassal = {
 						limit = {
 							higher_tier_than = baron
-						}					
+						}
 						set_defacto_liege = PREVPREVPREV
 					}
 				}
@@ -1272,13 +1270,13 @@ character_event = { #Make kings out of capital holder
 						limit = {
 							higher_tier_than = baron
 							owner = { ai = yes}
-						}					
+						}
 						grant_title = PREVPREVPREV
 					}
 					any_de_jure_vassal_title = { # make any players not lose their title
 						limit = {
 							owner = { ai = no}
-						}					
+						}
 						set_defacto_liege = PREVPREVPREV
 					}
 				}
@@ -1289,8 +1287,8 @@ character_event = { #Make kings out of capital holder
 				primary_title = { is_primary_type_title = no } # Prevent it from targeting Mercenaries, Holy Orders and Religious Leaders
 				is_nomadic = yes
 				NOT = { tier = emperor }
-			}			
-			capital_scope = { 
+			}
+			capital_scope = {
 				create_title = {
 					tier = EMPEROR
 					landless = yes
@@ -1310,8 +1308,8 @@ character_event = { #Make kings out of capital holder
 						destroy_settlement = THIS
 					}
 				}
-			}			
-		}	
+			}
+		}
 	}
 }
 
@@ -1320,10 +1318,10 @@ character_event = { # This event introduces the player to shattered realm and gi
 	desc = EVTDESC_Plus.1454
 	picture = GFX_evt_book_carolingian_script
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus.1454
 		custom_tooltip = { text = SHATTERED_REALM_BEGIN2 }
@@ -1345,9 +1343,9 @@ character_event = { #This event gives the player the option between ancient reli
 	desc = EVTDESC_Plus.1455
 	picture = GFX_evt_book_carolingian_script
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = { #Standard religions
 		name = EVTOPTA_Plus.1455
 		custom_tooltip = { text = SHATTERED_REALM_STANDARD_RELIGIONS }
@@ -1356,7 +1354,7 @@ character_event = { #This event gives the player the option between ancient reli
 				limit = { is_landed = no }
 				character_event = { id = Plus.1450 } # All counts
 			}
-			character_event = { id = Plus.1456 }			
+			character_event = { id = Plus.1456 }
 		}
 	}
 	option = { #Ancient Religions
@@ -1371,7 +1369,7 @@ character_event = { #This event gives the player the option between ancient reli
 				character_event = { id = Plus.1451 } # All old-religion counts
 			}
 			set_global_flag = ancient_religions #This version gets much more lax inheritance law rules
-			character_event = { id = Plus.1456 }			
+			character_event = { id = Plus.1456 }
 		}
 	}
 	option = { #Last chance to change mind
@@ -1380,7 +1378,7 @@ character_event = { #This event gives the player the option between ancient reli
 		hidden_tooltip = {
 			clr_global_flag = shattered_realm
 		}
-	}	
+	}
 }
 
 character_event = { #This event allows the player to choose all counts, all duke or all kings
@@ -1388,9 +1386,9 @@ character_event = { #This event allows the player to choose all counts, all duke
 	desc = EVTDESC_Plus.1456
 	picture = GFX_evt_book_carolingian_script
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = { #All counts
 		name = EVTOPTA_Plus.1456
 		custom_tooltip = { text = SHATTERED_REALM_COUNTS }
@@ -1404,7 +1402,7 @@ character_event = { #This event allows the player to choose all counts, all duke
 				limit = { is_landed = no }
 				character_event = { id = Plus.1452 }
 			}
-			character_event = { id = Plus.1457 }			
+			character_event = { id = Plus.1457 }
 		}
 	}
 	option = { #All Kings
@@ -1415,9 +1413,9 @@ character_event = { #This event allows the player to choose all counts, all duke
 				limit = { is_landed = no }
 				character_event = { id = Plus.1453 }
 			}
-			character_event = { id = Plus.1457 }			
+			character_event = { id = Plus.1457 }
 		}
-	}	
+	}
 }
 
 character_event = { #This event finalizes the setup, adding any flags that are needed
@@ -1425,14 +1423,14 @@ character_event = { #This event finalizes the setup, adding any flags that are n
 	desc = EVTDESC_Plus.1457
 	picture = GFX_evt_book_carolingian_script
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_courtier = {
 			limit = {
 				is_landed = no
-				NOR = { 
+				NOR = {
 					dynasty = PREV
 					dynasty = 0
 					is_mother = ROOT
@@ -1443,13 +1441,13 @@ character_event = { #This event finalizes the setup, adding any flags that are n
 			}
 			death = {
 				death_reason = death_natural
-			}					
-		}								
+			}
+		}
 		any_playable_ruler = {
 			any_courtier = {
 				limit = {
 					is_landed = no
-					NOR = { 
+					NOR = {
 						dynasty = PREV
 						dynasty = 0
 						is_mother = ROOT
@@ -1460,16 +1458,16 @@ character_event = { #This event finalizes the setup, adding any flags that are n
 				}
 				death = {
 					death_reason = death_natural
-				}					
+				}
 			}
 		}
-	}	
-	
+	}
+
 	option = {
 		name = EVTOPTA_Plus.1457
 		hidden_tooltip = {
 			set_global_flag = shattered_realm
-			remove_character_modifier = shattered_realm_mod	
+			remove_character_modifier = shattered_realm_mod
 			add_character_modifier = { name = shattered_realm_cb_timer duration = 21900 inherit = yes }
 			if = {
 				limit = {
@@ -1490,12 +1488,12 @@ character_event = { #This event finalizes the setup, adding any flags that are n
 					NOT = { wealth = 200 }
 				}
 				wealth = -100
-			}				
-			wealth = 500			
+			}
+			wealth = 500
 			any_playable_ruler = {
 				limit = { ai = no }
 				remove_character_modifier = shattered_realm_mod
-				add_character_modifier = { name = shattered_realm_cb_timer duration = 21900 inherit = yes }		
+				add_character_modifier = { name = shattered_realm_cb_timer duration = 21900 inherit = yes }
 			}
 			any_playable_ruler = {
 				# Start every ruler with a starting budget. For all counts it is 500, all dukes it is 750 and all kings 1500.
@@ -1520,22 +1518,22 @@ character_event = { #This event finalizes the setup, adding any flags that are n
 						NOT = { wealth = 200 }
 					}
 					wealth = -100
-				}					
+				}
 				wealth = 500
 				if = {
 					limit = {
 						tier = duke
 					}
 					wealth = 250
-				}					
+				}
 				if = {
 					limit = {
 						tier = KING
 					}
 					wealth = 1000
-				}					
-			}			
+				}
+			}
 		}
-	}	
+	}
 }
 

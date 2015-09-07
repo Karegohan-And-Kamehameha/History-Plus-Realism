@@ -28,24 +28,24 @@ character_event = {
         desc = VIETmisc.5000.desc
         picture = GFX_evt_baklava
         is_triggered_only = yes
-		
+
 		min_age = 16
 		only_rulers = yes
 		capable_only = yes
 		prisoner = no
 		ai = no
-		
+
         trigger = {
                 war = no
                 in_command = no
-                is_abroad = no        
+                is_abroad = no
                 NOT = { has_character_modifier =  VIET_cinnamon_toast_crunch_addict }
 				NOT = { has_global_flag =  VIET_cinnamon_toast_crunch_yeah }
                 wealth = 100
 				NOT = { trait = temperate }
-        
+
         }
-		
+
         weight_multiplier = {
                 days = 1
                 modifier = {
@@ -79,8 +79,8 @@ character_event = {
                                         empire = { title = e_france }
                                         empire = { title = e_carpathia }
                                         empire = { title = e_russia }
-                                        empire = { title = e_poland_lithuania }
-                                        empire = { title = e_wendish_empire }
+                                        empire = { title = e_common }
+                                        empire = { title = e_finland }
                                         empire = { title = e_bulgaria }
                                  }
                         }
@@ -91,7 +91,7 @@ character_event = {
                         capital_scope = {
                                 OR = {
                                         empire = { title = e_spain }
-                                        empire = { title = e_italia }
+                                        empire = { title = e_roman_empire }
                                         empire = { title = e_italy }
                                  }
                         }
@@ -107,8 +107,8 @@ character_event = {
                                         empire = { title = e_france }
                                         empire = { title = e_carpathia }
                                         empire = { title = e_russia }
-                                        empire = { title = e_poland_lithuania }
-                                        empire = { title = e_wendish_empire }
+                                        empire = { title = e_common }
+                                        empire = { title = e_finland }
                                         empire = { title = e_bulgaria }
                                  }
                         }
@@ -119,7 +119,7 @@ character_event = {
                         capital_scope = {
                                 OR = {
                                         empire = { title = e_spain }
-                                        empire = { title = e_italia }
+                                        empire = { title = e_roman_empire }
                                         empire = { title = e_italy }
                                  }
                         }
@@ -132,7 +132,7 @@ character_event = {
                         name = VIET_cinnamon_toast_crunch_addict
                         duration = -1
                 }
-                character_event = { id = VIETmisc.5001 tooltip = VIETmisc.5001.tooltip days = 90 random = 30  }
+                narrative_event = { id = VIETmisc.5001 tooltip = VIETmisc.5001.tooltip days = 90 random = 30  }
         }
 }
 #Preparing for a cinnamon feast
@@ -144,8 +144,8 @@ narrative_event = {
         is_triggered_only = yes
         option = {
                 name = VIETmisc.5001.a
-                scaled_wealth = -0.3
-                character_event = { id = VIETmisc.5002 tooltip = VIETmisc.5002.tooltip days = 10 random = 10 }
+                scaled_wealth = -0.6
+                narrative_event = { id = VIETmisc.5002 tooltip = VIETmisc.5002.tooltip days = 10 random = 10 }
         }
 }
 #enjoying the cinnamon feast
@@ -157,7 +157,7 @@ narrative_event = {
         is_triggered_only = yes
         option = {
                 name = VIETmisc.5002.a
-                character_event = { id = VIETmisc.5003 tooltip = VIETmisc.5003.tooltip days = 10 random = 25 }
+                narrative_event = { id = VIETmisc.5003 tooltip = VIETmisc.5003.tooltip days = 10 random = 25 }
         }
 }
 #concerned courtiers
@@ -183,7 +183,7 @@ narrative_event = {
                                 years = 1
                         }
                 }
-                character_event = { id = VIETmisc.5004 tooltip = VIETmisc.5004.tooltip days = 2 random = 3 }
+                narrative_event = { id = VIETmisc.5004 tooltip = VIETmisc.5004.tooltip days = 2 random = 3 }
         }
 }
 #sticky buns, sticky fingers
@@ -195,7 +195,7 @@ narrative_event = {
         is_triggered_only = yes
         option = {
                 name = VIETmisc.5004.a
-                character_event = { id = VIETmisc.5005 tooltip = VIETmisc.5005.tooltip days = 2 random = 3 }
+                narrative_event = { id = VIETmisc.5005 tooltip = VIETmisc.5005.tooltip days = 2 random = 3 }
         }
 }
 #council meeting
@@ -207,8 +207,8 @@ narrative_event = {
         is_triggered_only = yes
         option = {
                 name = VIETmisc.5005.a
-                prestige = -5
-                character_event = { id = VIETmisc.5006 tooltip = VIETmisc.5006.tooltip days = 2 random = 3 }
+                prestige = -25
+                narrative_event = { id = VIETmisc.5006 tooltip = VIETmisc.5006.tooltip days = 2 random = 3 }
         }
 }
 #the taste you can see
@@ -233,7 +233,7 @@ narrative_event = {
                 add_character_modifier = {
                         name = VIET_ignored_disapproval_and_mockery
                         duration = 365
-                }                
+                }
         }
 }
 
@@ -260,10 +260,10 @@ character_event = {
 	prisoner = no
 	ai = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		NOT = { has_global_flag =  VIET_veggie_omelette }
 		martial = 14
 		OR = {
@@ -352,17 +352,17 @@ character_event = {
 				NOT = { culture = turkish }
 				NOT = { culture = levantine_arabic }
 			}
-			character_event = { id = VIETmisc.5008 tooltip = VIETmisc.5008.tooltip.unbyzantine days = 2 random = 2  }
+			narrative_event = { id = VIETmisc.5008 tooltip = VIETmisc.5008.tooltip.unbyzantine days = 2 random = 2  }
 		}
 		if = {
 			limit = {
-				OR = { 
+				OR = {
 					culture_group = byzantine
 					culture = turkish
 					culture = levantine_arabic
 				}
 			}
-			character_event = { id = VIETmisc.5008 tooltip = VIETmisc.5008.tooltip.byzantine days = 2 random = 2  }
+			narrative_event = { id = VIETmisc.5008 tooltip = VIETmisc.5008.tooltip.byzantine days = 2 random = 2  }
 		}
 	}
 }
@@ -380,7 +380,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5008.a
-		character_event = { id = VIETmisc.5009 tooltip = VIETmisc.5009.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5009 tooltip = VIETmisc.5009.tooltip days = 1 random = 2 }
 		add_character_modifier = {
 			name = best_meal_in_ages
 			duration = 825
@@ -400,7 +400,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5009.a
-		character_event = { id = VIETmisc.5010 tooltip = VIETmisc.5010.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5010 tooltip = VIETmisc.5010.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -416,7 +416,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5010.a
-		character_event = { id = VIETmisc.5011 tooltip = VIETmisc.5011.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5011 tooltip = VIETmisc.5011.tooltip days = 1 random = 2 }
 		random_list = {
 			80 = { }
 			20 = { add_trait = wounded }
@@ -437,7 +437,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5011.a
-		character_event = { id = VIETmisc.5012 tooltip = VIETmisc.5012.tooltip days = 2 random = 2 }
+		narrative_event = { id = VIETmisc.5012 tooltip = VIETmisc.5012.tooltip days = 2 random = 2 }
 	}
 }
 
@@ -453,8 +453,8 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5012.a
-		character_event = { id = VIETmisc.5013 tooltip = VIETmisc.5013.tooltip days = 1 random = 2 }
-		prestige = 10
+		narrative_event = { id = VIETmisc.5013 tooltip = VIETmisc.5013.tooltip days = 1 random = 2 }
+		prestige = 50
 		add_character_modifier = {
 			name = VIET_leader_who_cares
 			duration = 365
@@ -474,7 +474,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5013.a
-		character_event = { id = VIETmisc.5014 tooltip = VIETmisc.5002.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5014 tooltip = VIETmisc.5002.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -497,16 +497,14 @@ narrative_event = {
 		any_courtier = {
 			limit = {
 				is_adult = yes
-				AND = { 
-					OR = { 
-						trait = proud
-						trait = wroth 
-					}
-					NOT = { trait = kind }
-					NOT = { trait = humble }
-					NOT = { trait = imbecile }
-					NOT = { trait = content }
+				OR = {
+					trait = proud
+					trait = wroth
 				}
+				NOT = { trait = kind }
+				NOT = { trait = humble }
+				NOT = { trait = imbecile }
+				NOT = { trait = content }
 			}
 			opinion = {
 				modifier = opinion_ugly_omelette_cook
@@ -560,10 +558,10 @@ character_event = {
 	prisoner = no
 	ai = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		NOT = { has_global_flag =  VIET_minotaur }
 		NOT = { has_character_flag =  VIET_minotaur_failure }
 		OR = {
@@ -581,7 +579,7 @@ character_event = {
 					OR = {
 						province_id = 479
 						province_id = 480
-					}					
+					}
 				}
 			}
 		}
@@ -658,7 +656,7 @@ character_event = {
 			NOT = {
 				OR = {
 					culture = greek
-					culture = griko
+					culture = sicilian_greek
 				}
 			}
 		}
@@ -667,7 +665,7 @@ character_event = {
 	option = {
 		name = VIETmisc.5015.a
 		set_global_flag =  VIET_minotaur
-		character_event = { id = VIETmisc.5016 tooltip = VIETmisc.5016.tooltip days = 5 random = 5  }
+		narrative_event = { id = VIETmisc.5016 tooltip = VIETmisc.5016.tooltip days = 5 random = 5  }
 	}
 }
 
@@ -683,7 +681,7 @@ narrative_event = {
 	option = {
 		name = VIETmisc.5016.a
 		set_global_flag =  VIET_minotaur
-		character_event = { id = VIETmisc.5018 tooltip = VIETmisc.5018.tooltip days = 3 random = 3  }
+		narrative_event = { id = VIETmisc.5018 tooltip = VIETmisc.5018.tooltip days = 3 random = 3  }
 	}
 	option = {
 		name = VIETmisc.5016.b
@@ -716,7 +714,7 @@ character_event = {
 		add_character_modifier = {
 				name = VIET_cretan_bat_bones
 				duration = 1460
-		}  
+		}
 	}
 }
 
@@ -731,7 +729,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5018.a
-		character_event = { id = VIETmisc.5019 tooltip = VIETmisc.5019.tooltip days = 2 }
+		narrative_event = { id = VIETmisc.5019 tooltip = VIETmisc.5019.tooltip days = 2 }
 	}
 }
 
@@ -746,7 +744,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5019.a
-		character_event = { id = VIETmisc.5020 tooltip = VIETmisc.5020.tooltip days = 2 random = 2  }
+		narrative_event = { id = VIETmisc.5020 tooltip = VIETmisc.5020.tooltip days = 2 random = 2  }
 	}
 }
 
@@ -761,8 +759,8 @@ narrative_event = {
 
 	option = { #MINOTAUR
 		name = VIETmisc.5020.a
-		prestige = 5
-		piety = 5
+		prestige = 25
+		piety = 25
 		add_character_modifier = {
 				name = VIET_cretan_bat_bones
 				duration = 3650
@@ -807,12 +805,12 @@ character_event = {
 	prisoner = no
 	ai = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		NOT = { has_character_flag =  VIET_serindian_document }
-		culture_group = serindian
+		#culture_group = serindian
 		OR = {
 			learning = 10
 			trait = scholar
@@ -888,14 +886,14 @@ character_event = {
 		name = VIETmisc.5021.a
 		set_global_flag =  VIET_serindian_ancient_doc
 		set_character_flag =  VIET_serindian_document
-		character_event = { id = VIETmisc.5022 tooltip = VIETmisc.5022.tooltip days = 4 }
+		narrative_event = { id = VIETmisc.5022 tooltip = VIETmisc.5022.tooltip days = 4 }
 		hidden_tooltip = {
 			random_list = {
-				20 = { character_event = { id = VIETmisc.5023 tooltip = VIETmisc.5023.tooltip days = 2 } }
-				20 = { character_event = { id = VIETmisc.5024 tooltip = VIETmisc.5024.tooltip days = 2 } }
-				20 = { character_event = { id = VIETmisc.5025 tooltip = VIETmisc.5025.tooltip days = 2 } }
-				20 = { character_event = { id = VIETmisc.5026 tooltip = VIETmisc.5026.tooltip days = 2 } }
-				20 = { character_event = { id = VIETmisc.5027 tooltip = VIETmisc.5027.tooltip days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5023 days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5024 days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5025 days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5026 days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5027 days = 2 } }
 			}
 		}
 	}
@@ -1052,22 +1050,22 @@ narrative_event = {
 		trigger = {
 			religion = buddhist
 		}
-		piety = 4
+		piety = 25
 	}
 	option = {
 		name = VIETmisc.5026.d
 		trigger = {
 			NOT = { religion = buddhist }
 		}
-		prestige = 4
+		prestige = 25
 	}
 	option = {
 		name = VIETmisc.5026.e
 		trigger = {
 			NOT = { religion = buddhist }
 		}
-		prestige = 2
-		piety = 2
+		prestige = 10
+		piety = 10
 		if = {
 			limit = {
 				trait = zealous
@@ -1110,7 +1108,7 @@ narrative_event = {
 			trait = gluttonous
 			NOT = { religion = hindu }
 			NOT = { religion = jain }
-			NOT = { trait = vegetarian }
+			#NOT = { trait = vegetarian }
 		}
 		add_character_modifier = {
 			name = best_meal_in_ages
@@ -1118,433 +1116,6 @@ narrative_event = {
 		}
 	}
 }
-
-
-########################################
-# IMOVTO TOOTHBRVSHING (see Nisemonogatari, second half of episode 8)
-########################################
-
-
-# Imouto and onii-chan
-character_event = {
-	id = VIETmisc.5028
-	desc = VIETmisc.5028.desc
-	picture = GFX_evt_marriage_zoroastrian_group
-
-	is_triggered_only = yes
-
-	min_age = 14
-	max_age = 20
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	ai = no
-	only_men = yes
-
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
-		NOT = { has_global_flag =  VIET_nisemonogatari }
-		NOT = { has_character_flag =  VIET_koyomi }
-		OR = {
-			religion_group = zoroastrian_group
-			religion = messalian
-		}
-		OR = {
-			trait = gregarious
-			trait = lustful
-			trait = arbitrary
-			trait = brave
-			trait = lunatic
-			trait = cruel
-			trait = patient
-			trait = fair
-			trait = proud
-		}
-		NOT = { trait = chaste } #araragi isn't not a pervert
-		NOT = { trait = homosexual } #no yaoi
-		NOT = { has_character_flag = do_not_disturb }
-		NOT = {	health_traits = 1 }
-		has_lover = no
-		is_married = no
-		any_sibling = {
-			age = 14
-			NOT = { age = 20 }
-			is_female = yes
-			NOT = { trait = homosexual }
-			NOT = { trait = ugly }
-			NOT = { trait = hunchback }
-			NOT = { has_character_flag = do_not_disturb }
-			NOT = {	health_traits = 1 }
-			NOT = { has_character_flag =  VIET_karen }
-			NOT = {
-				is_rival = ROOT
-			}
-			NOT = {
-				is_friend = ROOT
-			}
-			has_lover = no
-			is_married = no
-			OR = {
-				religion_group = zoroastrian_group
-				religion = messalian
-			}
-		}		
-	}
-
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 5
-			trait = lustful
-		}
-		modifier = {
-			factor = 2
-			trait = patient
-		}
-		modifier = {
-			factor = 0.5
-			trait = wroth
-		}
-		modifier = {
-			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
-			trait = arbitrary
-		}
-		modifier = {
-			factor = 0.5
-			trait = craven
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-	}
-
-	option = {
-		name = VIETmisc.5028.a
-		set_global_flag =  VIET_nisemonogatari
-		set_character_flag =  VIET_koyomi
-		random_sibling = {
-			limit = {
-				age = 14
-				NOT = { age = 18 }
-				is_female = yes
-				NOT = { trait = ugly }
-				NOT = { trait = hunchback }
-				NOT = { has_character_flag = do_not_disturb }
-				NOT = {	health_traits = 1 }
-				NOT = { has_character_flag =  VIET_karen }
-				NOT = {
-					is_rival = ROOT
-				}
-				NOT = {
-					is_friend = ROOT
-				}
-				has_lover = no
-				is_married = no
-				OR = {
-					religion_group = zoroastrian_group
-					religion = messalian
-				}
-			}
-			set_character_flag = VIET_karen
-			character_event = { id = VIETmisc.5029 tooltip = VIETmisc.5029.tooltip days = 3 random = 3 }
-		}	
-	}
-}
-
-#Finding Karen
-character_event = {
-	id = VIETmisc.5029
-	desc = VIETmisc.5029.desc
-	picture = GFX_evt_courtiers_talking
-
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		FROM = { 
-			character_event = { id = VIETmisc.5030 }
-		}
-	}
-
-}
-
-
-# Let's have a contest
-narrative_event = {
-	id = VIETmisc.5030
-	title = VIETmisc.5030.title
-	desc = VIETmisc.5030.desc
-	picture = GFX_evt_courtiers_talking
-
-	is_triggered_only = yes
-
-	option = {
-		name = VIETmisc.5030.a
-		FROM = {
-			character_event = { id = VIETmisc.5031 tooltip = VIETmisc.5031.tooltip days = 2 random = 2 }
-		}
-	}
-}
-
-
-#Karen
-character_event = {
-	id = VIETmisc.5031
-	desc = VIETmisc.5031.desc
-	picture = GFX_evt_courtiers_talking
-
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		FROM = {
-			character_event = { id = VIETmisc.5032 }
-		}
-	}
-
-}
-
-# Toothbrush
-narrative_event = {
-	id = VIETmisc.5032
-	title = VIETmisc.5032.title
-	desc = VIETmisc.5032.desc
-	picture = GFX_evt_whispers
-
-	is_triggered_only = yes
-
-	option = {
-		name = VIETmisc.5032.a
-		FROM = {
-			character_event = { id = VIETmisc.5033 tooltip = VIETmisc.5033.tooltip days = 1 }
-		}
-	}
-}
-
-#Karen
-character_event = {
-	id = VIETmisc.5033
-	desc = VIETmisc.5033.desc
-	picture = GFX_evt_courtiers_talking
-
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		FROM = {
-			character_event = { id = VIETmisc.5034 }
-		}
-	}
-
-}
-
-# Are?
-narrative_event = {
-	id = VIETmisc.5034
-	title = VIETmisc.5034.title
-	desc = VIETmisc.5034.desc
-	picture = GFX_evt_toothbrush
-	
-	is_triggered_only = yes
-
-	option = {
-		name = VIETmisc.5034.a
-		FROM = {
-			character_event = { id = VIETmisc.5035 tooltip = VIETmisc.5035.tooltip days = 1 }
-		}
-	}
-}
-
-#Karen
-character_event = {
-	id = VIETmisc.5035
-	desc = VIETmisc.5035.desc
-	picture = GFX_evt_courtiers_talking
-
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		FROM = {
-			character_event = { id = VIETmisc.5036 }
-		}
-	}
-
-}
-
-# Almost Sex
-narrative_event = {
-	id = VIETmisc.5036
-	title = VIETmisc.5036.title
-	desc = VIETmisc.5036.desc
-	picture = GFX_evt_hyouka
-
-	is_triggered_only = yes
-
-	option = {
-		name = VIETmisc.5036.a
-		FROM = {
-			character_event = { id = VIETmisc.5037 tooltip = VIETmisc.5037.tooltip days = 1 }
-		}
-	}
-}
-
-#Karen
-character_event = {
-	id = VIETmisc.5037
-	desc = VIETmisc.5037.desc
-	picture = GFX_evt_courtiers_talking
-
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		FROM = {
-			character_event = { id = VIETmisc.5038 }
-		}
-	}
-
-}
-
-#Interrupted!
-narrative_event = {
-	id = VIETmisc.5038
-	title = VIETmisc.5038.title
-	desc = VIETmisc.5038.desc
-	picture = GFX_evt_castle_construction
-
-	is_triggered_only = yes
-
-	option = {
-		name = VIETmisc.5038.a
-		FROM = {
-			character_event = { id = VIETmisc.5039 tooltip = VIETmisc.5039.tooltip days = 1 random = 2 }
-		}
-	}
-
-}
-
-#Karen
-character_event = {
-	id = VIETmisc.5039
-	desc = VIETmisc.5039.desc
-	picture = GFX_evt_courtiers_talking
-
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		FROM = {
-			character_event = { id = VIETmisc.5040 }
-		}
-	}
-
-}
-
-#Rematch?
-narrative_event = {
-	id = VIETmisc.5040
-	title = VIETmisc.5040.title
-	desc = VIETmisc.5040.desc
-	picture = GFX_evt_lovers
-
-	is_triggered_only = yes
-
-	option = {
-		name = VIETmisc.5040.a
-		FROM = {
-			character_event = { id = VIETmisc.5041 tooltip = VIETmisc.5041.tooltip }
-		}
-	}
-}
-
-#Karen
-character_event = {
-	id = VIETmisc.5041
-	desc = VIETmisc.5041.desc
-	picture = GFX_evt_courtiers_talking
-
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		FROM = {
-			character_event = { id = VIETmisc.5042 }
-		}
-	}
-
-}
-
-#Getting Along
-character_event = {
-	id = VIETmisc.5042
-	title = VIETmisc.5042.title
-	desc = VIETmisc.5042.desc
-	picture = GFX_evt_hyouka
-
-	is_triggered_only = yes
-
-	option = {
-		name = VIETmisc.5042.a
-		if = {
-			limit = {
-				OR = {
-					religion_group = zoroastrian_group
-					religion = messalian
-				}
-			}
-			add_lover = FROM
-			add_friend = FROM
-		}
-		if = {
-			limit = {
-				NOT = {
-					OR = {
-						religion_group = zoroastrian_group
-						religion = messalian
-					}
-				}
-			}
-			add_friend = FROM
-			random = {
-				add_lover = FROM
-				chance = 5
-			}
-		}
-	}
-}
-
-
 
 ########################################
 # BURNT (based on Alfred the Great legend)
@@ -1565,10 +1136,10 @@ character_event = {
 	prisoner = no
 	only_men = yes
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		OR = {
 			NOT = { has_dynasty_flag =  VIET_alfred_bread_burn }
 			ai = yes
@@ -1661,7 +1232,7 @@ character_event = {
 			}
 			set_dynasty_flag =  VIET_alfred_bread_burn
 		}
-		character_event = { id = VIETmisc.5044 tooltip = VIETmisc.5044.tooltip days = 2 random = 2 }
+		narrative_event = { id = VIETmisc.5044 tooltip = VIETmisc.5044.tooltip days = 2 random = 2 }
 	}
 }
 
@@ -1680,7 +1251,7 @@ narrative_event = {
 			name = VIET_contemplating_diplomacy
 			duration = 555
 		}
-		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
 	}
 	option = { #martial
 		name = VIETmisc.5044.b
@@ -1688,7 +1259,7 @@ narrative_event = {
 			name = VIET_contemplating_martial
 			duration = 555
 		}
-		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
 	}
 	option = { #stewardship
 		name = VIETmisc.5044.c
@@ -1696,7 +1267,7 @@ narrative_event = {
 			name = VIET_contemplating_stewardship
 			duration = 555
 		}
-		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
 	}
 	option = { #intrigue
 		name = VIETmisc.5044.d
@@ -1704,7 +1275,7 @@ narrative_event = {
 			name = VIET_contemplating_intrigue
 			duration = 555
 		}
-		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1719,7 +1290,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5045.a
-		character_event = { id = VIETmisc.5046 tooltip = VIETmisc.5046.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5046 tooltip = VIETmisc.5046.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1734,32 +1305,32 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5046.a
-		piety = 3
+		piety = 15
 		custom_tooltip = { text = VIET_bready_thinking }
 		hidden_tooltip = {
 			if = {
 				limit = {
 					has_character_modifier = VIET_contemplating_diplomacy
 				}
-				character_event = { id = VIETmisc.5047 days = 2 random = 2 }
+				narrative_event = { id = VIETmisc.5047 days = 2 random = 2 }
 			}
 			if = {
 				limit = {
 					has_character_modifier = VIET_contemplating_martial
 				}
-				character_event = { id = VIETmisc.5048 days = 2 random = 2 }
+				narrative_event = { id = VIETmisc.5048 days = 2 random = 2 }
 			}
 			if = {
 				limit = {
 					has_character_modifier = VIET_contemplating_stewardship
 				}
-				character_event = { id = VIETmisc.5049 days = 2 random = 2 }
+				narrative_event = { id = VIETmisc.5049 days = 2 random = 2 }
 			}
 			if = {
 				limit = {
 					has_character_modifier = VIET_contemplating_intrigue
 				}
-				character_event = { id = VIETmisc.5050 days = 2 random = 2 }
+				narrative_event = { id = VIETmisc.5050 days = 2 random = 2 }
 			}
 		}
 	}
@@ -1776,7 +1347,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5047.a
-		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1791,7 +1362,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5047.a
-		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1806,7 +1377,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5047.a
-		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1821,7 +1392,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5047.a
-		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1836,8 +1407,8 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5051.a
-		piety = -3
-		character_event = { id = VIETmisc.5052 tooltip = VIETmisc.5052.tooltip days = 1 random = 2 }
+		piety = -15
+		narrative_event = { id = VIETmisc.5052 tooltip = VIETmisc.5052.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1858,7 +1429,7 @@ narrative_event = {
 			}
 			remove_trait = stressed
 		}
-		character_event = { id = VIETmisc.5053 tooltip = VIETmisc.5053.tooltip days = 2 random = 2 }
+		narrative_event = { id = VIETmisc.5053 tooltip = VIETmisc.5053.tooltip days = 2 random = 2 }
 	}
 }
 
@@ -1873,8 +1444,8 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5053.a
-		prestige = 20
-		piety = 20
+		prestige = 100
+		piety = 100
 		random_list = {
 			25 = { add_trait = humble }
 			25 = { add_trait = patient }
@@ -1911,10 +1482,10 @@ character_event = {
 	prisoner = no
 	only_men = yes
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		OR = {
 			NOT = { has_dynasty_flag =  VIET_succubus_seduction_death }
 			ai = yes
@@ -1993,7 +1564,7 @@ character_event = {
 			}
 			set_dynasty_flag =  VIET_succubus_seduction_death
 		}
-		character_event = { id = VIETmisc.5055 tooltip = VIETmisc.5055.tooltip days = 2 random = 2 }
+		narrative_event = { id = VIETmisc.5055 tooltip = VIETmisc.5055.tooltip days = 2 random = 2 }
 	}
 	option = { #Feel compelled
 		name = VIETmisc.5054.b
@@ -2003,7 +1574,7 @@ character_event = {
 			}
 			set_dynasty_flag =  VIET_succubus_seduction_death
 		}
-		character_event = { id = VIETmisc.5055 tooltip = VIETmisc.5055.tooltip days = 2 random = 2 }
+		narrative_event = { id = VIETmisc.5055 tooltip = VIETmisc.5055.tooltip days = 2 random = 2 }
 	}
 	option = { #Chastey
 		name = VIETmisc.5054.c
@@ -2033,7 +1604,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5055.a
-		character_event = { id = VIETmisc.5056 tooltip = VIETmisc.5056.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5056 tooltip = VIETmisc.5056.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -2048,7 +1619,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5056.a
-		character_event = { id = VIETmisc.5057 tooltip = VIETmisc.5057.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5057 tooltip = VIETmisc.5057.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -2063,7 +1634,7 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5057.a
-		character_event = { id = VIETmisc.5058 tooltip = VIETmisc.5058.tooltip days = 1 random = 2 }
+		narrative_event = { id = VIETmisc.5058 tooltip = VIETmisc.5058.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -2078,23 +1649,23 @@ narrative_event = {
 
 	option = {
 		name = VIETmisc.5058.a
-		piety = 5
+		piety = 25
 		custom_tooltip = { text = VIET_succubus_piety }
 		hidden_tooltip = {
 			random_list = {
-				95 = { character_event = { id = VIETmisc.5059 days = 1} }
-				5 = { death = { death_reason = death_accident } }
+				90 = { narrative_event = { id = VIETmisc.5059 days = 1} }
+				10 = { death = { death_reason = death_accident } }
 			}
 		}
 	}
 	option = {
 		name = VIETmisc.5058.b
-		prestige = 5
+		prestige = 25
 		custom_tooltip = { text = VIET_succubus_prestige }
 		hidden_tooltip = {
 			random_list = {
-				90 = { character_event = { id = VIETmisc.5059 days = 1} }
-				10 = { death = { death_reason = death_accident } }
+				80 = { narrative_event = { id = VIETmisc.5059 days = 1} }
+				20 = { death = { death_reason = death_accident } }
 			}
 		}
 	}
@@ -2128,191 +1699,9 @@ narrative_event = {
 			40 = { add_trait = chaste }
 			20 = { add_trait = paranoid }
 		}
-		piety = 20
+		piety = 100
 	}
 }
-
-############################################
-# Imouto Toothbrushing non-Incest Alternative (for religions following the incest-hating lies of Angra Mainyu)
-############################################
-
-
-
-# Imouto and onii-chan
-character_event = {
-	id = VIETmisc.5060
-	desc = VIETmisc.5060.desc
-	picture = GFX_evt_small_town
-
-	is_triggered_only = yes
-
-	min_age = 14
-	max_age = 20
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	ai = no
-	only_men = yes
-
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
-		NOT = { has_global_flag =  VIET_nisemonogatari }
-		NOT = { has_character_flag =  VIET_koyomi }
-		OR = {
-			trait = gregarious
-			trait = lustful
-			trait = arbitrary
-			trait = brave
-			trait = lunatic
-			trait = cruel
-			trait = patient
-			trait = fair
-			trait = proud
-		}
-		NOT = { trait = chaste } #araragi isn't not a pervert
-		NOT = { trait = homosexual } #no yaoi
-		NOT = { has_character_flag = do_not_disturb }
-		NOT = {	health_traits = 1 }
-		has_lover = no
-		#is_married = no
-		any_sibling = {
-			age = 14
-			NOT = { age = 20 }
-			is_female = yes
-			NOT = { trait = homosexual }
-			NOT = { trait = ugly }
-			NOT = { trait = hunchback }
-			NOT = { has_character_flag = do_not_disturb }
-			NOT = {	health_traits = 1 }
-			NOT = { has_character_flag =  VIET_karen }
-			NOT = {
-				is_rival = ROOT
-			}
-			NOT = {
-				is_friend = ROOT
-			}
-			has_lover = no
-			is_married = no
-		}		
-	}
-
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 5
-			trait = lustful
-		}
-		modifier = {
-			factor = 0.25
-			is_married = yes
-		}
-		modifier = {
-			factor = 2
-			trait = patient
-		}
-		modifier = {
-			factor = 0.5
-			trait = wroth
-		}
-		modifier = {
-			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
-			trait = arbitrary
-		}
-		modifier = {
-			factor = 0.5
-			trait = craven
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-		modifier = {
-			factor = 2
-			trait = proud
-		}
-		modifier = {
-			factor = 0.5
-			trait = humble
-		}
-	}
-
-	option = {
-		name = VIETmisc.5028.a
-		set_global_flag =  VIET_nisemonogatari
-		set_character_flag =  VIET_koyomi
-		random_sibling = {
-			limit = {
-				age = 14
-				NOT = { age = 18 }
-				is_female = yes
-				NOT = { trait = ugly }
-				NOT = { trait = hunchback }
-				NOT = { has_character_flag = do_not_disturb }
-				NOT = {	health_traits = 1 }
-				NOT = { has_character_flag =  VIET_karen }
-				NOT = {
-					is_rival = ROOT
-				}
-				NOT = {
-					is_friend = ROOT
-				}
-				has_lover = no
-				is_married = no
-			}
-			set_character_flag = VIET_karen
-			character_event = { id = VIETmisc.5029 tooltip = VIETmisc.5029.tooltip days = 3 random = 3 }
-		}	
-	}
-}
-
-########################################################################################
-# Kogarashi Sentiment/Fast Love
-#
-# (It's an affectionate parody/po-mo take on 80s/90s shoujo OPs)
-#
-# Romaji and Commiesubs' translation:
-#
-# Riyuu sae mo wasureteta namida de / My memories are still beautiful despite a sheet of frozen tears,
-# Kooritsuita omoide ha kirei de / and I don’t remember why I shed them
-#
-# Ano kisetsu to onaji kogarashi ga / Now the winter winds of yesteryear
-# Futari no jikan wo ima makimodosu / turn back the clock for us
-#
-# Kanchigai ichiji no ki no mayoi / A misunderstanding, a moment’s hesitation
-# Arifureta SENCHIMENTARIRIZUMU / Cliched sentimentalism
-# eien ni / The perfect moment,
-# Mitsukaranai setsuna / lost forever
-#
-# Mou ichido / Once more
-# Mou nidoto / Never again
-# ienai kotoba ha / I remain young and trusting
-# Osanai mama yasashii mama / with my unspoken love
-# Kajikanda kioku / and numb memories
-#
-# Mouichido / Once more
-# Mou nidoto / Never again
-# iwanai kotae mo / I never gave an answer, 
-# Kanashii mama / which pains me
-# Kawaii mama / but I remain beautiful
-# Nukumori dake okiwasurete / the warmth of your skin.
-#
-########################################################################################
-
-
 
 # Wintry Wind Sentiment Introduce
 character_event = {
@@ -2330,9 +1719,9 @@ character_event = {
 	ai = no
 	only_men = yes
 
-	trigger = { 
-		war = no 
-		in_command = no 
+	trigger = {
+		war = no
+		in_command = no
 		is_abroad = no
 		NOT = { has_global_flag = VIET_kogarashi_sentiment }
 	}
@@ -2749,7 +2138,7 @@ character_event = {
 
 	option = {
 		name = VIETmisc.5082.a
-		piety = 50
+		piety = 100
 		add_trait = kind
 		add_trait = humble
 		add_trait = chaste

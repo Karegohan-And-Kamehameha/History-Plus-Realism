@@ -14,7 +14,7 @@ character_event = {
 		desc = ordepmarriage.1000.desc
 		picture = GFX_evt_tuscan_country
 		is_triggered_only = yes
-		min_age = 16
+		min_age = 14
 		only_rulers = yes
 		only_men = yes
 		capable_only = yes
@@ -29,7 +29,7 @@ character_event = {
 						at_location = ROOT
 				}
 		}
-		
+
 		weight_multiplier = {
 				days = 1
 				modifier = {
@@ -87,10 +87,10 @@ character_event = {
 						}
 				}
 		}
-		
+
 		option = {
 				name = ordepmarriage.1000.a
-				prestige = -2
+				prestige = -20
 				spouse = {
 						opinion = {
 								modifier = flower_gift
@@ -110,7 +110,7 @@ character_event = {
 		desc = ordepmarriage.1001.desc
 		picture = GFX_evt_quarrel
 		is_triggered_only = yes
-		min_age = 16
+		min_age = 14
 		only_rulers = yes
 		only_men = yes
 		capable_only = yes
@@ -124,7 +124,7 @@ character_event = {
 						at_location = ROOT
 				}
 		}
-		
+
 		weight_multiplier = {
 				days = 1
 				modifier = {
@@ -222,7 +222,7 @@ character_event = {
 						}
 				}
 		}
-		
+
 		option = {
 				name = ordepmarriage.1001.a
 				spouse = {
@@ -238,7 +238,7 @@ character_event = {
 		}
 		option = {
 				name = ordepmarriage.1001.c
-				prestige = -5
+				prestige = -25
 				spouse = {
 						opinion = {
 								modifier = shown_regret
@@ -255,7 +255,7 @@ character_event = {
 		desc = ordepmarriage.1002.desc
 		picture = GFX_evt_maiden
 		is_triggered_only = yes
-		min_age = 16
+		min_age = 14
 		only_rulers = yes
 		only_men = yes
 		capable_only = yes
@@ -269,7 +269,7 @@ character_event = {
 						at_location = ROOT
 				}
 		}
-		
+
 		weight_multiplier = {
 				days = 1
 				modifier = {
@@ -395,7 +395,7 @@ character_event = {
 		}
 		option = {
 				name = ordepmarriage.1002.a
-				prestige = -5
+				prestige = -25
 				spouse = {
 						opinion = {
 								modifier = respected_opinion
@@ -442,7 +442,7 @@ character_event = {
 		desc = ordepmarriage.1003.desc
 		picture = GFX_evt_scandal
 		is_triggered_only = yes
-		min_age = 16
+		min_age = 14
 		only_rulers = yes
 		only_men = yes
 		capable_only = yes
@@ -464,7 +464,7 @@ character_event = {
 						}
 				}
 		}
-		
+
 		weight_multiplier = {
 				days = 1
 				modifier = {
@@ -626,7 +626,7 @@ character_event = {
 		}
 		option = {
 				name = ordepmarriage.1003.a
-				prestige = -10
+				prestige = -50
 				spouse = {
 						opinion = {
 								modifier = sparring_partner
@@ -641,7 +641,7 @@ character_event = {
 								}
 								war = no
 								prisoner = no
-								age = 16
+								age = 12
 								in_command = no
 								is_abroad = no
 						}
@@ -670,12 +670,12 @@ character_event = {
 		desc = ordepmarriage.1004.desc
 		picture = GFX_evt_whispers
 		is_triggered_only = yes
-		
+
 		option = {
 				name = ordepmarriage.1004.a
 				random = {
 						chance = 50
-						
+
 						spouse = {
 								impregnate = ROOT
 						}
@@ -689,7 +689,7 @@ character_event = {
 		desc = ordepmarriage.1005.desc
 		picture = GFX_evt_hunt
 		is_triggered_only = yes
-		min_age = 16
+		min_age = 14
 		only_rulers = yes
 		only_men = yes
 		capable_only = yes
@@ -703,7 +703,7 @@ character_event = {
 						at_location = ROOT
 				}
 		}
-		
+
 		weight_multiplier = {
 				days = 1
 				modifier = {
@@ -831,7 +831,7 @@ character_event = {
 						}
 				}
 		}
-		
+
 		option = {
 				name = ordepmarriage.1005.a
 				spouse = {
@@ -892,7 +892,7 @@ character_event = {
 		desc = ordepmarriage.1006.desc
 		picture = GFX_evt_tuscan_country
 		is_triggered_only = yes
-		
+
 		option = {
 				name = ordepmarriage.1006.a
 		}
@@ -904,7 +904,7 @@ character_event = {
 		desc = ordepmarriage.1007.desc
 		picture = GFX_evt_hunt
 		is_triggered_only = yes
-		
+
 		option = {
 				name = ordepmarriage.1007.a
 				random_list = {
@@ -933,7 +933,7 @@ character_event = {
 		desc = ordepmarriage.1008.desc
 		picture = GFX_evt_hunt
 		is_triggered_only = yes
-		
+
 		option = {
 				name = ordepmarriage.1008.a
 				random_list = {
@@ -951,7 +951,7 @@ character_event = {
 		desc = ordepmarriage.1009.desc
 		picture = GFX_evt_feast
 		is_triggered_only = yes
-		min_age = 16
+		min_age = 14
 		only_rulers = yes
 		only_men = yes
 		capable_only = yes
@@ -965,7 +965,7 @@ character_event = {
 						at_location = ROOT
 				}
 		}
-		
+
 		weight_multiplier = {
 				days = 1
 				modifier = {
@@ -1069,12 +1069,12 @@ character_event = {
 						}
 				}
 		}
-		
+
 		option = {
 				name = ordepmarriage.1009.a
 				random = {
 						chance = 50
-						
+
 						spouse = {
 								impregnate = ROOT
 						}
@@ -1098,7 +1098,7 @@ character_event = {
 		desc = ordepmarriage.1010.desc
 		picture = GFX_evt_lovers
 		is_triggered_only = yes
-		min_age = 16
+		min_age = 14
 		only_rulers = yes
 		only_men = yes
 		capable_only = yes
@@ -1112,7 +1112,7 @@ character_event = {
 						at_location = ROOT
 				}
 		}
-		
+
 		weight_multiplier = {
 				days = 1
 				modifier = {
@@ -1216,12 +1216,12 @@ character_event = {
 						}
 				}
 		}
-		
+
 		option = {
 				name = ordepmarriage.1010.a
 				random = {
 						chance = 50
-						
+
 						spouse = {
 								impregnate = ROOT
 						}

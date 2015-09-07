@@ -24,10 +24,6 @@ character_event = {
 		war = no
 		in_command = no
 		is_ruler = yes
-		OR = {
-			has_character_modifier = old_age
-			age = 65
-		}
 	}
 
 	weight_multiplier = {
@@ -73,18 +69,18 @@ character_event = {
 
 	option = { #I'll be fine
 		name = "EVTOPTA1000109136"
-		prestige = 10
+		prestige = 50
 		random_list = {
-			75 = {}
-			20 = {
+			55 = {}
+			30 = {
 				add_trait = wounded
 				hidden_tooltip = { character_event = { id = 38280 } }
 			}
-			4 = {
+			10 = {
 				add_trait = maimed
 				hidden_tooltip = { character_event = { id = 38281 } }
 			}
-			1 = {
+			5 = {
 				death = {
 					death_reason = death_accident
 				}
@@ -94,7 +90,7 @@ character_event = {
 
 	option = { #Watch old age
 		name = "EVTOPTB1000109136"
-		piety = 5
+		piety = 25
 		random_list = {
 			75 = { }
 			25 = { add_trait = humble }
@@ -103,16 +99,16 @@ character_event = {
 
 	option = { #Don't participate as much
 		name = "EVTOPTC1000109136"
-		prestige = 5
+		prestige = 25
 		random_list = {
-			40 = {}
+			35 = {}
 			30 = { add_trait = gregarious }
 			20 = { add_trait = humble }
-			9 = {
+			10 = {
 				add_trait = wounded
 				hidden_tooltip = { character_event = { id = 38280 } }
 			}
-			1 = {
+			5 = {
 				add_trait = maimed
 				hidden_tooltip = { character_event = { id = 38281 } }
 			}
@@ -125,18 +121,18 @@ character_event = {
 		trigger = {
 			trait = zealous
 		}
-		piety = 15
+		piety = 50
 		random_list = {
-			85 = {}
-			12 = {
+			70 = {}
+			15 = {
 				add_trait = wounded
 				hidden_tooltip = { character_event = { id = 38280 } }
 			}
-			2 = {
+			10 = {
 				add_trait = maimed
 				hidden_tooltip = { character_event = { id = 38281 } }
 			}
-			1 = {
+			5 = {
 				death = {
 					death_reason = death_accident
 				}
@@ -161,10 +157,6 @@ character_event = {
 	trigger = {
 		in_command = no
 		is_ruler = yes
-		OR = {
-			has_character_modifier = old_age
-			age = 65
-		}
 	}
 
 	weight_multiplier = {
@@ -207,9 +199,9 @@ character_event = {
 	option = { #I was like that once
 		name = "EVTOPTA1000109137"
 		random_list = {
-			80 = { }
-			10 = { add_trait = humble }
-			10 = { add_trait = patient }
+			60 = { }
+			20 = { add_trait = humble }
+			20 = { add_trait = patient }
 		}
 		add_character_modifier = {
 			name = reminiscing
@@ -219,25 +211,25 @@ character_event = {
 
 	option = { #Kids don't understand hardship
 		name = "EVTOPTB1000109137"
-		prestige = 10
+		prestige = 50
 	}
 
 	option = { #Pray God gives strength to young folks
 		name = "EVTOPTC1000109137"
-		prestige = 5
+		prestige = 25
 		random_list = {
-			70 = {}
-			15 = { add_trait = zealous }
-			15 = { add_trait = temperate }
+			50 = {}
+			25 = { add_trait = zealous }
+			25 = { add_trait = temperate }
 		}
 	}
 
 	option = { #Kids are useless crud these days
 		name = "EVTOPTD1000109137"
 		random_list = {
-			70 = { prestige = 5 }
-			20 = { add_trait = proud }
-			10 = { add_trait = wroth }
+			50 = { prestige = 25 }
+			30 = { add_trait = proud }
+			20 = { add_trait = wroth }
 		}
 	}
 }
@@ -251,15 +243,12 @@ character_event = {
 
 	is_triggered_only = yes
 
-	min_age = 55
+	min_age = 50
 	capable_only = yes
 	prisoner = no
 
 	trigger = {
-		OR = {
-			has_character_modifier = old_age
-			age = 65
-		}
+			age = 55
 	}
 
 	weight_multiplier = {
@@ -309,7 +298,7 @@ character_event = {
 
 	option = { #Pray
 		name = "EVTOPTA1000109138"
-		piety = 10
+		piety = 50
 	}
 
 	option = { #Don't care
@@ -321,7 +310,7 @@ character_event = {
 		trigger = {
 			trait = cynical
 		}
-		prestige = 10
+		prestige = 50
 	}
 
 	option = { #Lived a good life
@@ -344,8 +333,8 @@ character_event = {
 				trait = impaler
 			}
 		}
-		prestige = 5
-		piety = 5
+		prestige = 25
+		piety = 25
 	}
 }
 
@@ -365,10 +354,6 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		OR = {
-			has_character_modifier = old_age
-			age = 65
-		}
 	}
 
 	weight_multiplier = {
@@ -434,7 +419,7 @@ character_event = {
 
 	option = { #Make an effort to learn new slang
 		name = "EVTOPTA1000109139"
-		prestige = 1
+		prestige = 10
 		random_list = {
 			25 = { change_diplomacy = 1 }
 			25 = { change_intrigue = 1 }
@@ -444,7 +429,7 @@ character_event = {
 
 	option = { #Should worry about more important things
 		name = "EVTOPTB1000109139"
-		piety = 1
+		piety = 10
 		random_list = {
 			25 = { change_learning = 1 }
 			25 = { change_stewardship = 1 }
@@ -462,15 +447,12 @@ character_event = {
 
 	is_triggered_only = yes
 
-	min_age = 55
+	min_age = 50
 	capable_only = yes
 	prisoner = no
 
 	trigger = {
-		OR = {
-			has_character_modifier = old_age
-			age = 65
-		}
+			age = 55
 	}
 
 	weight_multiplier = {
@@ -536,21 +518,21 @@ character_event = {
 		trigger = {
 			trait = strong
 		}
-		prestige = 10
+		prestige = 50
 	}
 
 	option = { #Can't work much
 		name = "EVTOPTB1000109140"
-		prestige = -5
+		prestige = -25
 		random_list = {
-			10 = { add_trait = ill }
-			90 = { }
+			20 = { add_trait = ill }
+			80 = { }
 		}
 	}
 
 	option = { #Work harder
 		name = "EVTOPTC1000109140"
-		prestige = 10
+		prestige = 50
 		random_list = {
 			15 = { add_trait = stressed }
 			10 = { add_trait = stressed add_trait = diligent }
@@ -562,7 +544,7 @@ character_event = {
 
 	option = { #Get help from others
 		name = "EVTOPTD1000109140"
-		prestige = -25
+		prestige = -125
 		random_list = {
 			25 = { }
 			15 = { add_trait = gregarious }

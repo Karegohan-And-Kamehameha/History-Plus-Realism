@@ -28,9 +28,9 @@ character_event = {
 	max_age = 14
 
 	is_triggered_only = yes
-	
+
 	trigger = {
-		NOT = { 
+		NOT = {
 		trait = phlegmblood
 		trait = phlegmbbile
 		trait = ybileblood
@@ -45,17 +45,12 @@ character_event = {
 		trait = bbileblood
 			}
 		}
-	
 
-	mean_time_to_happen = {
-		days = 1
-	}
 
-	
 option = {
 		name = "EVTOPTAffhumours.0"
 
-		
+
 		random_list = {
 			1 = {
 				add_trait = phlegmblood
@@ -63,7 +58,7 @@ option = {
 				character_event = {
 					id = ffhumours.1
 	}
-	
+
 	father = {
 			character_event = {
 				id = ffhumours.2
@@ -130,7 +125,7 @@ option = {
 				days = 3
 			}
 		}
-	}	
+	}
 }
 			2 = {
 				add_trait = bloodbbile
@@ -149,7 +144,7 @@ option = {
 }
 			2 = {
 				add_trait = ybilebbile
-			hidden_tooltip = {		
+			hidden_tooltip = {
 				character_event = {
 					id = ffhumours.13
 	}
@@ -164,7 +159,7 @@ option = {
 }
 			2 = {
 				add_trait = bbilephlegm
-			hidden_tooltip = {		
+			hidden_tooltip = {
 				character_event = {
 					id = ffhumours.15
 	}
@@ -179,7 +174,7 @@ option = {
 }
 			2 = {
 				add_trait = bloodphlegm
-				hidden_tooltip = {		
+				hidden_tooltip = {
 				character_event = {
 					id = ffhumours.17
 	}
@@ -237,7 +232,7 @@ option = {
 			}
 		}
 	}
-			
+
 		}
 	}
 }
@@ -259,11 +254,11 @@ character_event = {
 	id = ffhumours.25
 	desc = "EVTDESCffhumours.25"
 	picture = "GFX_evt_poetry"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		trait = phlegmblood
 		NOT = { num_traits = 7 }
@@ -285,22 +280,16 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
-	
 option = {
 		name = "EVTOPTAffhumours.25"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = books
 				character_event = {
 					id = ffnotific.2
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = aloof
 				hidden_tooltip = {
 				remove_trait = envious
@@ -310,8 +299,8 @@ option = {
 				character_event = {
 					id = ffnotific.3
 					}
-					}
-				12.5 = {
+				}
+			12 = {
 				add_trait = stoic
 				hidden_tooltip = {
 				remove_trait = craven
@@ -319,14 +308,14 @@ option = {
 				character_event = {
 					id = ffnotific.4
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = eccentric
 				character_event = {
 					id = ffnotific.5
 					}
-					}
-			12.5 = {
+				}
+			12 = {
 				add_trait = loyal
 				hidden_tooltip = {
 				remove_trait = deceitful
@@ -338,7 +327,7 @@ option = {
 					id = ffnotific.6
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = rude
 				hidden_tooltip = {
 				remove_trait = chaste
@@ -349,13 +338,13 @@ option = {
 					id = ffnotific.7
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = unpredictable
 				character_event = {
 					id = ffnotific.8
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = clever
 				hidden_tooltip = {
 				remove_trait = slow
@@ -365,10 +354,11 @@ option = {
 				}
 				character_event = {
 					id = ffnotific.9
-					}		
-			}
+					}
+				}
+			4 = {}
 		}
-	
+
 
     }
 
@@ -383,17 +373,17 @@ character_event = {
 	id = ffhumours.26
 	desc = "EVTDESCffhumours.26"
 	picture = "GFX_evt_poetry"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = phlegmbbile
-		
+
 		religion_group = christian		#### Muslims and pagans don't get BIBLE and IDEALISTIC
-		
+
 		NOT = { trait = bible
 			}
 		NOT = { trait = indecisive
@@ -412,16 +402,10 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
-	
 option = {
 		name = "EVTOPTAffhumours.26"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = bible
 				hidden_tooltip = {
 				remove_trait = cynical
@@ -430,7 +414,7 @@ option = {
 					id = ffnotific.10
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = familyperson
 				hidden_tooltip = {
 				remove_trait = cynical
@@ -441,7 +425,7 @@ option = {
 					id = ffnotific.11
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = spiritual
 				hidden_tooltip = {
 				remove_trait = cynical
@@ -450,14 +434,14 @@ option = {
 				character_event = {
 					id = ffnotific.12
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = indecisive
 				character_event = {
 					id = ffnotific.13
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = procrastinator
 				hidden_tooltip = {
 				remove_trait = diligent
@@ -466,13 +450,13 @@ option = {
 					id = ffnotific.14
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = moody
 				character_event = {
 					id = ffnotific.15
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = idealistic
 				hidden_tooltip = {
 				remove_trait = cynical
@@ -483,17 +467,18 @@ option = {
 					id = ffnotific.16
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = secretive
 				hidden_tooltip = {
 				remove_trait = trusting
 				}
 				character_event = {
 					id = ffnotific.17
-					}		
+					}
 			}
+			4 ={}
 		}
-	
+
     }
 }
 
@@ -505,11 +490,11 @@ character_event = {			#### MODIFYING RANDOM CHANCE BY ASH -- TRYING TO GET THE B
 	id = ffhumours.27
 	desc = "EVTDESCffhumours.27"
 	picture = "GFX_evt_wildhorse"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = ybileblood
@@ -531,12 +516,6 @@ character_event = {			#### MODIFYING RANDOM CHANCE BY ASH -- TRYING TO GET THE B
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
-	
 option = {
 		name = "EVTOPTAffhumours.27"
 		random_list = {
@@ -544,48 +523,48 @@ option = {
 				add_trait = energetic
 				hidden_tooltip = {
 				remove_trait = slothful
-				}
+						}
 				character_event = {
 					id = ffnotific.18
 					}
 				}
-				2 = {
+			2 = {
 				add_trait = confident
 				hidden_tooltip = {
 				remove_trait = shy
 				remove_trait = humble
-				}
+						}
 				character_event = {
 					id = ffnotific.19
 					}
 					}
-				2 = {
+			2 = {
 				add_trait = efficient
 				hidden_tooltip = {
 				remove_trait = slothful
 				remove_trait = arbitrary
-				}
+						}
 				character_event = {
 					id = ffnotific.20
 					}
-				}					
+				}
 			2 = {
 				add_trait = selfish
 				hidden_tooltip = {
 				remove_trait = charitable
 				remove_trait = kind
 				remove_trait = just
-				}
+						}
 				character_event = {
 					id = ffnotific.21
 					}
-					}
+				}
 			2 = {
 				add_trait = arrogant
 				hidden_tooltip = {
 				remove_trait = humble
 				remove_trait = kind
-				}
+						}
 				character_event = {
 					id = ffnotific.22
 					}
@@ -594,7 +573,7 @@ option = {
 				add_trait = impulsive
 				hidden_tooltip = {
 				remove_trait = patient
-				}
+						}
 				character_event = {
 					id = ffnotific.23
 					}
@@ -603,7 +582,7 @@ option = {
 				add_trait = loud
 				hidden_tooltip = {
 				remove_trait = shy
-				}
+						}
 				character_event = {
 					id = ffnotific.24
 					}
@@ -612,13 +591,13 @@ option = {
 				add_trait = restless
 				hidden_tooltip = {
 				remove_trait = patient
-				}
+						}
 				character_event = {
 					id = ffnotific.25
-					}		
+					}
 			}
 		}
-	
+
 
     }
 
@@ -628,11 +607,11 @@ character_event = {
 	id = ffhumours.28
 	desc = "EVTDESCffhumours.28"
 	picture = "GFX_evt_stories"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = phlegmybile
@@ -654,16 +633,10 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-
-	
 option = {
 		name = "EVTOPTAffhumours.28"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = constant
 				hidden_tooltip = {
 				remove_trait = arbitrary
@@ -672,7 +645,7 @@ option = {
 					id = ffnotific.26
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = predictable
 				hidden_tooltip = {
 				remove_trait = arbitrary
@@ -682,47 +655,48 @@ option = {
 					id = ffnotific.27
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = dull
 				character_event = {
 					id = ffnotific.28
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = practical
 				character_event = {
 					id = ffnotific.29
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = resentful
 				character_event = {
 					id = ffnotific.30
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = stubborn
 				character_event = {
-					id = ffffnotific.31
+					id = ffnotific.31
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = money
 				character_event = {
 					id = ffnotific.32
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = oldfashioned
 				hidden_tooltip = {
 				remove_trait = cynical
 				}
 				character_event = {
 					id = ffnotific.33
-					}		
+					}
 			}
+			4 ={}
 		}
-	
+
     }
 }
 
@@ -736,11 +710,11 @@ character_event = {
 	id = ffhumours.29
 	desc = "EVTDESCffhumours.29"
 	picture = "GFX_evt_banquet"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = bloodybile
@@ -762,15 +736,10 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
 option = {
 		name = "EVTOPTAffhumours.29"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = lively
 				hidden_tooltip = {
 				remove_trait = shy
@@ -779,13 +748,13 @@ option = {
 					id = ffnotific.34
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = eloquent
 				character_event = {
 					id = ffnotific.35
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = nervous
 				hidden_tooltip = {
 				remove_trait = patient
@@ -793,14 +762,14 @@ option = {
 				character_event = {
 					id = ffnotific.36
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = shallow
 				character_event = {
 					id = ffnotific.37
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = impatient
 				hidden_tooltip = {
 				remove_trait = patient
@@ -809,13 +778,13 @@ option = {
 					id = ffnotific.38
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = fickle
 				character_event = {
 					id = ffnotific.39
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = friendly
 				hidden_tooltip = {
 				remove_trait = shy
@@ -824,14 +793,15 @@ option = {
 					id =ffnotific.40
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = tattler
 				character_event = {
 					id = ffnotific.41
-					}		
+					}
 			}
+			4 = {}
 		}
-	
+
 	}
 }
 
@@ -845,11 +815,11 @@ character_event = {
 	id = ffhumours.30
 	desc = "EVTDESCffhumours.30"
 	picture = "GFX_evt_banquet"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = bloodbbile
@@ -871,16 +841,10 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-
-	
 option = {
 		name = "EVTOPTAffhumours.30"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = frivolous
 				hidden_tooltip = {
 				remove_trait = temperate
@@ -889,7 +853,7 @@ option = {
 					id = ffnotific.42
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = manipulative
 				hidden_tooltip = {
 				remove_trait = trusting
@@ -898,25 +862,25 @@ option = {
 					id = ffnotific.43
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = obstinate
 				character_event = {
 					id = ffnotific.44
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = overimaginative
 				character_event = {
 					id = ffnotific.45
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = goodintuition
 				character_event = {
 					id = ffnotific.46
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = selfpitying
 				hidden_tooltip = {
 				remove_trait = ambitious
@@ -926,7 +890,7 @@ option = {
 					id =ffnotific.47
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = irrational
 				hidden_tooltip = {
 				remove_trait = patient
@@ -937,7 +901,7 @@ option = {
 					id = ffnotific.48
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = cautious
 				hidden_tooltip = {
 				remove_trait = brave
@@ -945,10 +909,11 @@ option = {
 				}
 				character_event = {
 					id = ffnotific.49
-					}		
+					}
 			}
+			4 = {}
 		}
-	
+
 	}
 }
 
@@ -961,17 +926,17 @@ character_event = {
 	id = ffhumours.31
 	desc = "EVTDESCffhumours.31"
 	picture = "GFX_evt_wildhorse"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = ybilebbile
-		
+
 		religion_group = christian			#### Muslims and pagans don't get NOBLESPIRIT and DOGMATIC
-		
+
 		NOT = {trait = dogmatic
 			}
 		NOT = {trait = pompous
@@ -990,15 +955,10 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
 option = {
 		name = "EVTOPTAffhumours.31"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = dogmatic
 				hidden_tooltip = {
 				remove_trait = cynical
@@ -1007,7 +967,7 @@ option = {
 					id = ffnotific.50
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = pompous
 				hidden_tooltip = {
 				remove_trait = temperate
@@ -1017,7 +977,7 @@ option = {
 					id = ffnotific.51
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = hardworking
 				hidden_tooltip = {
 				remove_trait = slothful
@@ -1025,8 +985,8 @@ option = {
 				character_event = {
 					id = ffnotific.52
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = callous
 				hidden_tooltip = {
 				remove_trait = kind
@@ -1036,7 +996,7 @@ option = {
 					id = ffnotific.53
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = noblespirit
 				hidden_tooltip = {
 				remove_trait = cynical
@@ -1051,7 +1011,7 @@ option = {
 					id = ffnotific.54
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = naturalleader
 				hidden_tooltip = {
 				remove_trait = shy
@@ -1063,7 +1023,7 @@ option = {
 					id = ffnotific.55
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = gullible
 				hidden_tooltip = {
 				remove_trait = paranoid
@@ -1074,17 +1034,18 @@ option = {
 					id = ffnotific.56
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = firstinline
 				hidden_tooltip = {
 				remove_trait = craven
 				}
 				character_event = {
 					id = ffnotific.57
-					}		
+					}
 			}
+			4 = {}
 		}
-	
+
 	}
 }
 
@@ -1098,11 +1059,11 @@ character_event = {
 	id = ffhumours.32
 	desc = "EVTDESCffhumours.32"
 	picture = "GFX_evt_dream"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = bbilephlegm
@@ -1124,12 +1085,6 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-
-	
 option = {
 		name = "EVTOPTAffhumours.32"			### MODIFYING RANDOM CHANCE BY ASH -- TRYING TO GET THE BALANCE RIGHT
 		random_list = {
@@ -1153,7 +1108,7 @@ option = {
 				character_event = {
 					id = ffnotific.60
 					}
-				}					
+				}
 			2 = {
 				add_trait = reliable
 				hidden_tooltip = {
@@ -1201,7 +1156,7 @@ option = {
 				}
 				character_event = {
 					id = ffnotific.65
-					}		
+					}
 			}
 		}
 	}
@@ -1219,11 +1174,11 @@ character_event = {
 	id = ffhumours.33
 	desc = "EVTDESCffhumours.33"
 	picture = "GFX_evt_banquet"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = bloodphlegm
@@ -1245,27 +1200,22 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
 option = {
 		name = "EVTOPTAffhumours.33"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = graceful
 				character_event = {
 					id = ffnotific.66
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = quipster
 				character_event = {
 					id = ffnotific.67
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = fanciful
 				hidden_tooltip = {
 				remove_trait = humble
@@ -1274,8 +1224,8 @@ option = {
 				character_event = {
 					id = ffnotific.68
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = unreliable
 				hidden_tooltip = {
 				remove_trait = honest
@@ -1285,7 +1235,7 @@ option = {
 					id = ffnotific.69
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = weakwilled
 				hidden_tooltip = {
 				remove_trait = just
@@ -1294,7 +1244,7 @@ option = {
 					id = ffnotific.70
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = submissive
 				hidden_tooltip = {
 				remove_trait = proud
@@ -1304,7 +1254,7 @@ option = {
 					id = ffnotific.71
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = cunning
 				hidden_tooltip = {
 				remove_trait = trusting
@@ -1314,15 +1264,16 @@ option = {
 					id = ffnotific.72
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = romantic
 				hidden_tooltip = {
 				remove_trait = cynical
 				}
 				character_event = {
 					id = ffnotific.73
-					}		
+					}
 			}
+			4 = {}
 		}
 	}
 
@@ -1336,11 +1287,11 @@ character_event = {
 	id = ffhumours.34
 	desc = "EVTDESCffhumours.34"
 	picture = "GFX_evt_dream"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = bbileybile
@@ -1362,21 +1313,16 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
 option = {
 		name = "EVTOPTAffhumours.34"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = magnetic
 				character_event = {
 					id = ffnotific.74
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = sensual
 				hidden_tooltip = {
 				remove_trait = chaste
@@ -1385,7 +1331,7 @@ option = {
 					id = ffnotific.75
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = tolerant
 				hidden_tooltip = {
 				remove_trait = zealous
@@ -1393,8 +1339,8 @@ option = {
 				character_event = {
 					id = ffnotific.76
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = suspicious
 				hidden_tooltip = {
 				remove_trait = trusting
@@ -1404,13 +1350,13 @@ option = {
 					id = ffnotific.77
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = pessimistic
 				character_event = {
 					id = ffnotific.78
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = judgemental
 				hidden_tooltip = {
 				remove_trait = kind
@@ -1419,7 +1365,7 @@ option = {
 					id = ffnotific.79
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = bloodthirsty
 				hidden_tooltip = {
 				remove_trait = kind
@@ -1428,12 +1374,13 @@ option = {
 					id = ffnotific.80
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = vain
 				character_event = {
 					id = ffnotific.81
-					}		
+					}
 			}
+			4 = {}
 		}
 	}
 
@@ -1444,11 +1391,11 @@ character_event = {
 	id = ffhumours.35
 	desc = "EVTDESCffhumours.35"
 	picture = "GFX_evt_wildhorse"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = ybilephlegm
@@ -1470,27 +1417,22 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
 option = {
 		name = "EVTOPTAffhumours.35"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = philosophical
 				character_event = {
 					id = ffnotific.82
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = optimistic
 				character_event = {
 					id = ffnotific.83
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = careless
 				hidden_tooltip = {
 				remove_trait = patient
@@ -1498,8 +1440,8 @@ option = {
 				character_event = {
 					id = ffnotific.84
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = tactless
 				hidden_tooltip = {
 				remove_trait = kind
@@ -1508,7 +1450,7 @@ option = {
 					id = ffnotific.85
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = risktaker
 				hidden_tooltip = {
 				remove_trait = content
@@ -1517,13 +1459,13 @@ option = {
 					id = ffnotific.86
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = funny
 				character_event = {
 					id = ffnotific.87
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = rebellious
 				hidden_tooltip = {
 				remove_trait = content
@@ -1532,12 +1474,13 @@ option = {
 					id = ffnotific.88
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = curious
 				character_event = {
 					id = ffnotific.89
-					}		
+					}
 			}
+			4 = {}
 		}
 	}
 
@@ -1548,11 +1491,11 @@ character_event = {
 	id = ffhumours.36
 	desc = "EVTDESCffhumours.36"
 	picture = "GFX_evt_battlecharge"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = bbileblood
@@ -1574,15 +1517,10 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
 option = {
 		name = "EVTOPTAffhumours.36"
 		random_list = {
-			12.5 = {
+			12 = {
 				add_trait = disciplined
 				hidden_tooltip = {
 				remove_trait = slothful
@@ -1591,7 +1529,7 @@ option = {
 					id = ffnotific.90
 					}
 				}
-				12.5 = {
+			12 = {
 				add_trait = reserved
 				hidden_tooltip = {
 				remove_trait = gregarious
@@ -1600,13 +1538,13 @@ option = {
 					id = ffnotific.91
 					}
 					}
-				12.5 = {
+			12 = {
 				add_trait = rigid
 				character_event = {
 					id = ffnotific.92
 					}
-				}					
-			12.5 = {
+				}
+			12 = {
 				add_trait = unfriendly
 				hidden_tooltip = {
 				remove_trait = gregarious
@@ -1617,7 +1555,7 @@ option = {
 					id = ffnotific.93
 					}
 					}
-			12.5 = {
+			12 = {
 				add_trait = calm
 				hidden_tooltip = {
 				remove_trait = wroth
@@ -1626,27 +1564,28 @@ option = {
 					id = ffnotific.94
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = authoritative
 				character_event = {
 					id = ffnotific.95
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = plain
 				character_event = {
 					id = ffnotific.96
 					}
 				}
-			12.5 = {
+			12 = {
 				add_trait = carefulplanner
 				hidden_tooltip = {
 				remove_trait = slothful
 				}
 				character_event = {
 					id = ffnotific.97
-					}		
+					}
 			}
+			4 = {}
 		}
 	}
 
@@ -1666,18 +1605,18 @@ character_event = {
 	id = ffhumours.40
 	desc = "EVTDESCffhumours.26"
 	picture = "GFX_evt_poetry"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = phlegmbbile
-		
+
 		NOT = { religion_group = christian }		#### Muslims and pagans don't get BIBLE, SPIRITUAL and IDEALISTIC
-		
-		
+
+
 		NOT = { trait = indecisive
 			}
 		NOT = { trait = secretive
@@ -1690,12 +1629,6 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
-	
 option = {
 		name = "EVTOPTAffhumours.26"
 		random_list = {
@@ -1709,7 +1642,7 @@ option = {
 				character_event = {
 					id = ffnotific.11
 					}
-					}			
+					}
 			20 = {
 				add_trait = indecisive
 				character_event = {
@@ -1738,10 +1671,10 @@ option = {
 				}
 				character_event = {
 					id = ffnotific.17
-					}		
+					}
 			}
 		}
-	
+
     }
 }
 
@@ -1751,17 +1684,17 @@ character_event = {
 	id = ffhumours.41
 	desc = "EVTDESCffhumours.31"
 	picture = "GFX_evt_wildhorse"
-	min_age = 16               #####  BY ASH 
-	max_age = 26               #####  BY ASH 
+	min_age = 16               #####  BY ASH
+	max_age = 26               #####  BY ASH
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { num_traits = 7 }
 		trait = ybilebbile
-		
+
 		NOT = { religion_group = christian }			#### Muslims and pagans don't get NOBLESPIRIT and DOGMATIC
-		
+
 		NOT = {trait = pompous
 			}
 		NOT = {trait = hardworking
@@ -1776,15 +1709,10 @@ character_event = {
 			}
 	}
 
-	mean_time_to_happen = {
-		days = 1
-		}
-
-	
 option = {
 		name = "EVTOPTAffhumours.31"
 		random_list = {
-				16 = {
+			16 = {
 				add_trait = pompous
 				hidden_tooltip = {
 				remove_trait = temperate
@@ -1794,7 +1722,7 @@ option = {
 					id = ffnotific.51
 					}
 					}
-				12.5 = {
+			16 = {
 				add_trait = hardworking
 				hidden_tooltip = {
 				remove_trait = slothful
@@ -1802,7 +1730,7 @@ option = {
 				character_event = {
 					id = ffnotific.52
 					}
-				}					
+				}
 			16 = {
 				add_trait = callous
 				hidden_tooltip = {
@@ -1843,10 +1771,11 @@ option = {
 				}
 				character_event = {
 					id = ffnotific.57
-					}		
+					}
 			}
+			4 = {}
 		}
-	
+
 	}
 }
 

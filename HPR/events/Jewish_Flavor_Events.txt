@@ -12,7 +12,7 @@ character_event = {
 	capable_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
 		NOT = { religion_group = jewish_group }
@@ -55,15 +55,15 @@ character_event = {
 
 	option = { #need educated people
 		name = "EVTOPTA1000109021"
-		prestige = 5
+		prestige = 25
 
 	}
 
 	option = { #I hate them too
 		name = "EVTOPTB1000109021"
 		random_list = {
-			90 = {}
-			10 = {
+			80 = {}
+			20 = {
 				add_trait = zealous
 			}
 		}
@@ -74,11 +74,11 @@ character_event = {
 	option = { #Respect for diverse peoples and cultures!
 		name = "EVTOPTC1000109021"
 		random_list = {
-			70 = {}
-			15 = {
+			40 = {}
+			30 = {
 				add_trait = kind
 			}
-			15 = {
+			30 = {
 				add_trait = patient
 			}
 		}
@@ -96,7 +96,7 @@ character_event = {
 	capable_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
 
@@ -165,7 +165,7 @@ character_event = {
 	option = { #Start the debate
 		name = "EVTOPTA1000109022"
 
-		piety = 1
+		piety = 10
 		random_list = {
 			50 = {
 				character_event = {
@@ -262,7 +262,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
 		NOT = { trait = incapable }
@@ -428,7 +428,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
 		NOT = { trait = incapable }
@@ -551,7 +551,7 @@ character_event = {
 	capable_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_adult = yes
 		trait = zealous
 		NOT = { religion_group = jewish_group }
@@ -599,13 +599,13 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109029"  # No I will not
-		piety = 1
+		piety = 10
 
 	}
 
 	option = {
 		name = "EVTOPTB1000109029"  # Perhaps shouldn't be too hardheaded
-		piety = 1
+		piety = 10
 		random_list = {
 			60 = { }
 			40 = {
@@ -683,7 +683,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_adult = yes
 		NOT = { trait = incapable }
 		NOT = { religion_group = jewish_group }

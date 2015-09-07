@@ -939,7 +939,6 @@ character_event = {
 letter_event = {
 	id = 20010
 	desc = "EVTDESC20010"
-	picture = GFX_evt_heretic
 	border = GFX_event_letter_frame_religion
 	is_triggered_only = yes
 
@@ -2067,7 +2066,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	min_age = 16
-	capable_only = yes	
+	capable_only = yes
 	prisoner = no
 
 	trigger = {
@@ -2085,10 +2084,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-	}	
+	}
 
 	option = {
 		name = EVTOPTA39650
@@ -2108,7 +2107,7 @@ character_event = {
 	desc = EVTDESC39651
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -2187,7 +2186,7 @@ character_event = {
 				owner = { culture = ROOT }
 			}
 		}
-		
+
 		modifier = {
 			factor = 1.25
 			NOT = { realm_learning = 15 }
@@ -2825,22 +2824,22 @@ character_event = {
 character_event = {
 	id = 39654
 	hide_window = yes
-	
+
 	min_age = 16
-	
+
 	trigger = {
 		has_character_flag = preacher_arrives
 		NOT = { has_job_action = action_inquisition }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		clr_character_flag = preacher_arrives
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -3765,14 +3764,14 @@ character_event = {
 	id = 20271
 	desc = "EVTDESC927"
 	picture = GFX_evt_heretic
-	border = GFX_event_normal_frame_religion	
-	
+	border = GFX_event_normal_frame_religion
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		heresy_character_effect = yes
 	}
-	
+
 	option = {
 		name = OK
 		liege = { letter_event = { id = 20270 days = 2 } }
@@ -4614,7 +4613,7 @@ character_event = {
 
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		liege = {
 			is_adult = yes
@@ -4649,17 +4648,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
-		
+
 		modifier = {
 			factor = 3.0
 			liege = {
 				tier = count
 			}
 		}
-		
+
 		modifier = {
 			factor = 1.25
 			NOT = { learning = 2 }
@@ -4697,10 +4696,10 @@ character_event = {
 			learning = 13
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA20218
-		
+
 		piety = 25
 		hidden_tooltip  = {
 			liege = { character_event = { id = 20219 } }
@@ -4714,9 +4713,9 @@ character_event = {
 	desc = EVTDESC20219
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		capital_scope = {
 			ROOT = {
@@ -4761,13 +4760,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		clr_character_flag = tribal_build_zeal_troops
 		set_character_flag = tribal_build_zeal_troops
-		
+
 		character_event = { id = 20220 days = 365 random = 90 }
 	}
-	
+
 	option = {
 		name = EVTOPTA20219
 		opinion = {
@@ -4784,9 +4783,9 @@ character_event = {
 	desc = EVTDESC20220
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_earmarked_regiments = tribal_build_zeal
 		NOT = {
@@ -4800,7 +4799,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA20220
 		piety = -25

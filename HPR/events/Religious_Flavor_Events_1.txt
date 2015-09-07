@@ -36,11 +36,11 @@ character_event = {
 		OR = {
 			OR = {
 				any_war = {
-					using_cb = religious
+					using_cb = holy_war
 				}
 				any_liege = {
 					any_war = {
-						using_cb = religious
+						using_cb = holy_war
 					}
 				}
 			}
@@ -117,8 +117,8 @@ character_event = {
 				trait = just
 			}
 		}
-		wealth = -1
-		piety = 5
+		wealth = -10
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = charitable }
@@ -178,7 +178,7 @@ character_event = {
 				trait = zealous
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = cruel }
@@ -205,7 +205,7 @@ character_event = {
 		ai_chance = {
 			factor = 1
 		}
-		prestige = 5
+		prestige = 25
 	}
 }
 
@@ -242,7 +242,7 @@ character_event = {
 				trait = zealous
 			}
 		}
-		wealth = -5
+		wealth = -25
 		set_character_flag = infidel_joins_court
 		if = {
 			limit = {
@@ -685,7 +685,7 @@ character_event = {
 		ai_chance = {
 			factor = 2
 		}
-		prestige = 5
+		prestige = 25
 	}
 }
 
@@ -708,11 +708,11 @@ character_event = {
 		OR = {
 			OR = {
 				any_war = {
-					using_cb = religious
+					using_cb = holy_war
 				}
 				any_liege = {
 					any_war = {
-						using_cb = religious
+						using_cb = holy_war
 					}
 				}
 			}
@@ -791,7 +791,7 @@ character_event = {
 				trait = just
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				trait = paranoid
@@ -860,7 +860,7 @@ character_event = {
 				trait = just
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = kind }
@@ -926,7 +926,7 @@ character_event = {
 				trait = wroth
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = cruel }
@@ -958,11 +958,11 @@ character_event = {
 		OR = {
 			OR = {
 				any_war = {
-					using_cb = religious
+					using_cb = holy_war
 				}
 				any_liege = {
 					any_war = {
-						using_cb = religious
+						using_cb = holy_war
 					}
 				}
 			}
@@ -1029,7 +1029,7 @@ character_event = {
 				trait = wroth
 			}
 		}
-		prestige = 10
+		prestige = 50
 		if = {
 			limit = {
 				trait = brave
@@ -1074,8 +1074,8 @@ character_event = {
 				trait = diligent
 			}
 		}
-		piety = 5
-		prestige = 5
+		piety = 25
+		prestige = 25
 		if = {
 			limit = {
 				NOT = { trait = just }
@@ -1131,7 +1131,7 @@ character_event = {
 				trait = trusting
 			}
 		}
-		piety = 10
+		piety = 50
 		if = {
 			limit = {
 				trait = arbitrary
@@ -1178,15 +1178,77 @@ character_event = {
 				trait = trusting
 			}
 		}
-		piety = 5
-		prestige = 5
+		piety = 25
+		prestige = 25
 		if = {
 			limit = {
 				NOT = { trait = brave }
 				NOT = { trait = craven }
 			}
 			random_list = {
-				70 = { }
+				70 = {
+#Fear cuts deeper than swords
+		if = {
+			limit = { trait = feared9}
+			add_trait = feared10
+			remove_trait = feared9
+		}
+		if = {
+			limit = { trait = feared8}
+			add_trait = feared9
+			remove_trait = feared8
+		}
+		if = {
+			limit = { trait = feared7}
+			add_trait = feared8
+			remove_trait = feared7
+		}
+		if = {
+			limit = { trait = feared6}
+			add_trait = feared7
+			remove_trait = feared6
+		}
+		if = {
+			limit = { trait = feared5}
+			add_trait = feared6
+			remove_trait = feared5
+		}
+		if = {
+			limit = { trait = feared4}
+			add_trait = feared5
+			remove_trait = feared4
+		}
+		if = {
+			limit = { trait = feared3}
+			add_trait = feared4
+			remove_trait = feared3
+		}
+		if = {
+			limit = { trait = feared2}
+			add_trait = feared3
+			remove_trait = feared2
+		}
+		if = {
+			limit = { trait = feared1}
+			add_trait = feared2
+			remove_trait = feared1
+		}
+		if = {
+			limit = {
+			NOT = { trait = feared1}
+			NOT = { trait = feared2}
+			NOT = { trait = feared3}
+			NOT = { trait = feared4}
+			NOT = { trait = feared5}
+			NOT = { trait = feared6}
+			NOT = { trait = feared7}
+			NOT = { trait = feared8}
+			NOT = { trait = feared9}
+			NOT = { trait = feared10}
+			}
+			add_trait = feared1
+		}
+				 }
 				30 = { add_trait = brave }
 			}
 		}
@@ -1195,7 +1257,69 @@ character_event = {
 				trait = craven
 			}
 			random_list = {
-				70 = { }
+				70 = {
+#Fear cuts deeper than swords
+		if = {
+			limit = { trait = feared9}
+			add_trait = feared10
+			remove_trait = feared9
+		}
+		if = {
+			limit = { trait = feared8}
+			add_trait = feared9
+			remove_trait = feared8
+		}
+		if = {
+			limit = { trait = feared7}
+			add_trait = feared8
+			remove_trait = feared7
+		}
+		if = {
+			limit = { trait = feared6}
+			add_trait = feared7
+			remove_trait = feared6
+		}
+		if = {
+			limit = { trait = feared5}
+			add_trait = feared6
+			remove_trait = feared5
+		}
+		if = {
+			limit = { trait = feared4}
+			add_trait = feared5
+			remove_trait = feared4
+		}
+		if = {
+			limit = { trait = feared3}
+			add_trait = feared4
+			remove_trait = feared3
+		}
+		if = {
+			limit = { trait = feared2}
+			add_trait = feared3
+			remove_trait = feared2
+		}
+		if = {
+			limit = { trait = feared1}
+			add_trait = feared2
+			remove_trait = feared1
+		}
+		if = {
+			limit = {
+			NOT = { trait = feared1}
+			NOT = { trait = feared2}
+			NOT = { trait = feared3}
+			NOT = { trait = feared4}
+			NOT = { trait = feared5}
+			NOT = { trait = feared6}
+			NOT = { trait = feared7}
+			NOT = { trait = feared8}
+			NOT = { trait = feared9}
+			NOT = { trait = feared10}
+			}
+			add_trait = feared1
+		}
+				}
 				30 = { remove_trait = craven }
 			}
 		}
@@ -1292,8 +1416,8 @@ character_event = {
 				trait = patient
 			}
 		}
-		prestige = 5
-		piety = 5
+		prestige = 25
+		piety = 25
 		if = {
 			limit = {
 				trait = ambitious
@@ -1340,7 +1464,7 @@ character_event = {
 				trait = trusting
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = just }
@@ -1388,7 +1512,7 @@ character_event = {
 				trait = gregarious
 			}
 		}
-		prestige = 10
+		prestige = 50
 		if = {
 			limit = {
 				trait = content
@@ -1422,7 +1546,7 @@ character_event = {
 
 	option = { #Praise be God
 		name = "EVTOPTA1000109334"
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				trait = proud
@@ -1502,7 +1626,7 @@ character_event = {
 
 	option = { #Thanks for advice
 		name = "EVTOPTA1000109335"
-		prestige = 5
+		prestige = 25
 		if = {
 			limit = {
 				trait = proud
@@ -1591,11 +1715,11 @@ character_event = {
 		OR = {
 			OR = {
 				any_war = {
-					using_cb = religious
+					using_cb = holy_war
 				}
 				any_liege = {
 					any_war = {
-						using_cb = religious
+						using_cb = holy_war
 					}
 				}
 			}
@@ -1670,8 +1794,8 @@ character_event = {
 				trait = impaler
 			}
 		}
-		wealth = -1
-		piety = 5
+		wealth = -10
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = zealous }
@@ -1717,7 +1841,7 @@ character_event = {
 				trait = cynical
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				NOT = { trait = just }
@@ -1748,8 +1872,8 @@ character_event = {
 		ai_chance = {
 			factor = 20
 		}
-		piety = -1
-		prestige = 5
+		piety = -10
+		prestige = 25
 	}
 }
 
@@ -1820,10 +1944,6 @@ character_event = {
 			factor = 0.5
 			trait = deceitful
 		}
-		modifier = {
-			factor = 3
-			has_ambition = obj_follow_truth
-		}
 	}
 
 	option = {
@@ -1831,7 +1951,7 @@ character_event = {
 			NOT = { trait = honest }
 		}
 		name = "EVTOPTA1000109397"  #ok
-		piety = 2
+		piety = 20
 		random_list = {
 			80 = { }
 			20 = { add_trait = honest }
@@ -1843,7 +1963,7 @@ character_event = {
 			trait = honest
 		}
 		name = "EVTOPTB1000109397"  #ok
-		piety = 5
+		piety = 25
 	}
 }
 # The Baklava Thief
@@ -1914,10 +2034,6 @@ character_event = {
 			factor = 0.5
 			trait = honest
 		}
-		modifier = {
-			factor = 3
-			has_ambition = obj_follow_truth
-		}
 	}
 
 	option = {
@@ -1949,7 +2065,7 @@ character_event = {
 				trait = envious
 			}
 		}
-		piety = 2
+		piety = 20
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -2002,8 +2118,8 @@ character_event = {
 				trait = humble
 			}
 		}
-		piety = 2
-		prestige = 2
+		piety = 20
+		prestige = 20
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -2065,7 +2181,7 @@ character_event = {
 				trait = charitable
 			}
 		}
-		piety = -3
+		piety = -30
 		if = {
 			limit = {
 				NOT = { trait = deceitful }
@@ -2077,7 +2193,7 @@ character_event = {
 		}
 		add_character_modifier = {
 			name = best_meal_in_ages
-			duration = 30
+			duration = 90
 		}
 	}
 }
@@ -2136,10 +2252,6 @@ character_event = {
 			factor = 0.5
 			trait = strong
 		}
-		modifier = {
-			factor = 3
-			has_ambition = obj_follow_truth
-		}
 	}
 
 	option = {
@@ -2171,8 +2283,8 @@ character_event = {
 				trait = proud
 			}
 		}
-		piety = 5
-		prestige = -5
+		piety = 25
+		prestige = -25
 		if = {
 			limit = {
 				NOT = { trait = honest }
@@ -2212,7 +2324,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		prestige = -8
+		prestige = -50
 		if = {
 			limit = {
 				NOT = { trait = deceitful }
@@ -2291,8 +2403,8 @@ character_event = {
 	option = {
 		name = "EVTOPTA1000109399"  #Get rid of it!
 		random_list = {
-			50 = { piety = 1 }
-			50 = { prestige = 1 }
+			50 = { piety = 10 }
+			50 = { prestige = 10 }
 		}
 	}
 }
@@ -2375,7 +2487,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109462"  #ok
-		piety = 4
+		piety = 25
 	}
 }
 
@@ -2455,7 +2567,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109463"  #Stop arguing
-		prestige = 5
+		prestige = 25
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -2493,7 +2605,7 @@ character_event = {
 				trait = quick
 			}
 		}
-		piety = 5
+		piety = 25
 		random_courtier = {
 			limit = {
 				is_adult = yes
@@ -2580,7 +2692,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109464"  #Punish
-		piety = 5
+		piety = 25
 		any_courtier = {
 			limit = {
 				religion = ROOT
@@ -2600,7 +2712,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB1000109464"  #Whatever
-		piety = -5
+		piety = -25
 		random_list = {
 			70 = { }
 			30 = { add_trait = arbitrary }
@@ -2691,7 +2803,7 @@ character_event = {
 			limit = {
 				NOT = { learning = 12 }
 			}
-			piety = 4
+			piety = 20
 			random_list = {
 				60 = { }
 				40 = { change_learning = 1 }
@@ -2701,7 +2813,7 @@ character_event = {
 			limit = {
 				learning = 12
 			}
-			piety = 4
+			piety = 20
 		}
 	}
 }
@@ -2772,7 +2884,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109466"
-		piety = -4
+		piety = -25
 	}
 }
 
@@ -2870,8 +2982,8 @@ character_event = {
 				trait = kind
 			}
 		}
-		piety = -2
-		prestige = 4
+		piety = -20
+		prestige = 25
 	}
 	option = {
 		name = "EVTOPTB1000109493" #Hmm...
@@ -2894,7 +3006,7 @@ character_event = {
 				trait = cynical
 			}
 		}
-		piety = 5
+		piety = 25
 		if = {
 			limit = {
 				trait = hunter
@@ -3029,7 +3141,7 @@ character_event = {
 				trait = wroth
 			}
 		}
-		piety = 4
+		piety = 20
 		if = {
 			limit = {
 				trait = wroth
@@ -3059,10 +3171,6 @@ character_event = {
 		war = no
 		in_command = no
 		religion = buddhist
-		OR = {
-			trait = retreat_veteran
-			trait = retreat_master
-		}
 	}
 
 	weight_multiplier = {
@@ -3100,10 +3208,6 @@ character_event = {
 			factor = 0.5
 			trait = wroth
 		}
-		modifier = {
-			factor = 3
-			trait = retreat_master
-		}
 	}
 
 	option = {
@@ -3119,7 +3223,7 @@ character_event = {
 				trait = shy
 			}
 		}
-		piety = 5
+		piety = 25
 	}
 }
 
@@ -3200,7 +3304,7 @@ character_event = {
 				trait = shy
 			}
 		}
-		prestige = 2
+		prestige = 15
 		if = {
 			limit = {
 				NOT = { trait = depressed }
@@ -3232,7 +3336,7 @@ character_event = {
 				trait = wroth
 			}
 		}
-		piety = 2
+		piety = 15
 	}
 }
 
@@ -3321,7 +3425,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		prestige = 3
+		prestige = 15
 	}
 	option = {
 		name = "EVTOPTB1000109497" #Oh!
@@ -3336,7 +3440,7 @@ character_event = {
 				trait = proud
 			}
 		}
-		piety = 5
+		piety = 25
 	}
 }
 
@@ -3417,7 +3521,7 @@ character_event = {
 				trait = humble
 			}
 		}
-		piety = 2
+		piety = 15
 		if = {
 			limit = {
 				NOT = { trait = kind }
@@ -3523,7 +3627,7 @@ character_event = {
 				trait = kind
 			}
 		}
-		piety = -5
+		piety = -25
 		add_character_modifier = {
 			name = the_greedy
 			duration = 365
@@ -3551,8 +3655,8 @@ character_event = {
 				trait = greedy
 			}
 		}
-		piety = 3
-		wealth = -1
+		piety = 20
+		wealth = -5
 		if = {
 			limit = {
 				trait = greedy
@@ -3592,8 +3696,8 @@ character_event = {
 				trait = arbitrary
 			}
 		}
-		piety = 7
-		wealth = -10
+		piety = 40
+		wealth = -20
 		if = {
 			limit = {
 				trait = greedy
@@ -3720,7 +3824,7 @@ character_event = {
 				trait = just
 			}
 		}
-		prestige = 4
+		prestige = 20
 		spouse = {
 			opinion = {
 				modifier = opinion_unhappy
@@ -3751,8 +3855,8 @@ character_event = {
 				trait = zealous
 			}
 		}
-		piety = 2
-		prestige = 2
+		piety = 10
+		prestige = 10
 		if = {
 			limit = {
 				spouse = {
@@ -3807,7 +3911,7 @@ character_event = {
 				trait = just
 			}
 		}
-		prestige = -2
+		prestige = -10
 		if = {
 			limit = {
 				NOT = { trait = arbitrary }

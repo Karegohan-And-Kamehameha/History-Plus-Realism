@@ -16,22 +16,22 @@ character_event = {
 	desc = OK
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	hide_window = yes # Only fires for unplayable landless characters
-	
+
 	min_age = 16
 	max_age = 50
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "Horse Lords"
-		
+
 		is_ruler = no
-		
+
 #		year = 867
-		
+
 		is_allowed_to_loot = yes
 		health = 4
 
@@ -42,7 +42,7 @@ character_event = {
 			martial = 15
 			diplomacy = 15
 		}
-		
+
 		NOR = {
 			trait = content
 			trait = craven
@@ -60,7 +60,7 @@ character_event = {
 			any_spouse = { is_ruler = yes }
 			any_heir_title = { always = yes }
 		}
-		
+
 		OR = {
 			AND = {
 				any_liege = {
@@ -71,7 +71,7 @@ character_event = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
 		}
-		
+
 		NOT = { # Handled by event TOG.1200
 			any_claim = {
 				has_holder = yes
@@ -98,7 +98,7 @@ character_event = {
 						ROOT = { trait = ambitious }
 						NOT = { has_law = agnatic_succession }
 					}
-				}		
+				}
 				holder_scope = {
 					independent = yes
 					demesne_size = 1
@@ -132,7 +132,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		OR = {
 			father_even_if_dead = {
 				OR = {
@@ -158,7 +158,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 30
 		modifier = {
@@ -222,7 +222,7 @@ character_event = {
 #			}
 #		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { trait = in_hiding	}
@@ -296,7 +296,7 @@ character_event = {
 						limit = {
 							is_seafarer = yes
 						}
-						
+
 						# Create a fleet, just to be sure
 						spawn_fleet = {
 							province = closest # closest sea zone
@@ -320,11 +320,11 @@ character_event = {
 	desc = EVTDESC_HL_101
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_TOG_1203"
 	}
@@ -334,7 +334,7 @@ character_event = {
 	id = HL.102
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_list = {
 			30 = { #3
@@ -447,7 +447,7 @@ character_event = {
 	id = HL.103
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_list = {
 			30 = { #250
@@ -545,7 +545,7 @@ character_event = {
 						heavy_infantry = { 15 15 }
 					}
 				}
-				
+
 			}
 			30 = { #420
 				modifier = {
@@ -667,7 +667,7 @@ character_event = {
 	id = HL.104
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_list = {
 			30 = { #250
@@ -765,7 +765,7 @@ character_event = {
 						heavy_infantry = { 15 15 }
 					}
 				}
-				
+
 			}
 			30 = { #420
 				modifier = {
@@ -887,7 +887,7 @@ character_event = {
 	id = HL.105
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_list = {
 			30 = { #3
@@ -1000,7 +1000,7 @@ character_event = {
 	id = HL.106
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_list = {
 			30 = { #180
@@ -1094,7 +1094,7 @@ character_event = {
 						horse_archers = { 130 130 }
 					}
 				}
-				
+
 			}
 			30 = { #315
 				modifier = {
@@ -1210,7 +1210,7 @@ character_event = {
 	id = HL.107
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_list = {
 			30 = { #180
@@ -1306,7 +1306,7 @@ character_event = {
 						horse_archers = { 130 130 }
 					}
 				}
-				
+
 			}
 			30 = { #315
 				modifier = {
@@ -1425,16 +1425,16 @@ character_event = {
 	id = HL.110
 	is_triggered_only = yes
 	hide_window = yes
-	
-	
+
+
 	has_character_flag = raiding_adventurer
-	
+
 	trigger = {
 		primary_title = {
 			temporary = yes
 		}
 	}
-	
+
 	immediate = {
 		log = "Ping event for raiding adventurer: [Root.GetBestName]."
 		if = {
@@ -1510,7 +1510,7 @@ character_event = {
 		# Check for stagnant raider
 		if = {
 			limit = {
-				had_character_flag = { flag = raiding_adventurer days = 10950 }	
+				had_character_flag = { flag = raiding_adventurer days = 10950 }
 			}
 			character_event = { id = HL.198 }
 			break = yes
@@ -1525,7 +1525,7 @@ character_event = {
 	id = HL.111
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		any_army = {
 			set_can_toggle_looting = yes
@@ -1584,7 +1584,7 @@ character_event = {
 					break = yes
 				}
 			}
-			
+
 			random_realm_province = {
 				ROOT = {
 					unsafe_war = {
@@ -1615,7 +1615,7 @@ character_event = {
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
 	desc = EVTDESC_HL_112
-	
+
 	option = {
 		name = EVTOPTA_HL_112
 	}
@@ -1625,7 +1625,7 @@ character_event = {
 	id = HL.113
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		any_army = {
 			set_can_toggle_looting = yes
@@ -1652,7 +1652,7 @@ character_event = {
 	id = HL.120
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		event_target:target_ruler = {
 			letter_event = { id = HL.121 }
@@ -1663,9 +1663,8 @@ character_event = {
 letter_event = {
 	id = HL.121
 	is_triggered_only = yes
-	picture = GFX_evt_crusaders
 	desc = EVTDESC_HL_121
-	
+
 	option = {
 		name = EVTOPTA_HL_121
 		ai_chance = { factor = 1 }
@@ -1689,7 +1688,7 @@ letter_event = {
 		}
 		wealth = 150
 	}
-	
+
 	option = {
 		name = ANSWER_NO
 		ai_chance = { factor = 0 }
@@ -1709,14 +1708,14 @@ character_event = {
 		prisoner = no
 		NOT = { trait = incapable }
 	}
-	
+
 	immediate = {
 		log = "HL.130 fired for [Root.GetBestName]"
-		
+
 		clan_title = {
 			capital_scope = {
 				save_event_target_as = last_province
-				
+
 				holder_scope = {
 					top_liege = {
 						reverse_opinion = {
@@ -1733,7 +1732,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		liege = {
 			ROOT = {
 				any_vassal = {
@@ -1741,7 +1740,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		if = {
 			limit = {
 				independent = yes
@@ -1768,28 +1767,28 @@ character_event = {
 			}
 		}
 		set_defacto_liege = THIS
-			
+
 		clan_title = {
 			set_title_adventurer = { title = THIS status = yes }
 			set_title_landless = { title = THIS status = yes }
 			set_defacto_liege = THIS
 		}
-		
+
 		set_character_flag = raiding_adventurer
-		
+
 		any_army = {
 			set_can_toggle_looting = yes
 			set_looting = yes
 			set_can_toggle_looting = no
 		}
-		
+
 		if = {
 			limit = {
 				NOT = { unused_manpower = 250 }
 			}
 			manpower = 250
 		}
-		
+
 		character_event = { id = HL.132 }
 		character_event = { id = HL.110 days = 1095 } # Ping to see if he's ready to settle, repeating every 3 years.
 	}
@@ -1799,7 +1798,7 @@ character_event = {
 	id = HL.132
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		log = "HL.132 fired for [Root.GetBestName]"
 		if = {
@@ -1836,11 +1835,11 @@ character_event = {
 	id = HL.140
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	trigger = {
 		has_character_flag = raiding_adventurer
 	}
-	
+
 	immediate = {
 		clr_character_flag = raiding_adventurer
 		any_army = {
@@ -1855,15 +1854,15 @@ character_event = {
 	id = HL.180
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	only_rulers = yes
-	
+
 	trigger = {
 		has_character_flag = raiding_adventurer
 		has_regiments = no
 		war = no
 	}
-	
+
 	immediate = {
 		character_event = { id = HL.199 }
 	}
@@ -1874,12 +1873,12 @@ character_event = {
 	id = HL.190
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	trigger = {
 		has_character_flag = raiding_adventurer
 		war = no
 	}
-	
+
 	immediate = {
 		log = "[Root.GetTitledFirstName] got imprisoned while being a raiding adventurer."
 		character_event = { id = HL.199 }
@@ -1891,12 +1890,12 @@ character_event = {
 	id = HL.191
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	trigger = {
 		has_character_flag = raiding_adventurer
 		war = no
 	}
-	
+
 	immediate = {
 		log = "[Root.GetTitledFirstName] stopped raiding while being a raiding adventurer."
 		character_event = { id = HL.199 }
@@ -1908,7 +1907,7 @@ character_event = {
 	id = HL.198
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_independent_ruler = {
 			limit = {
@@ -1961,7 +1960,7 @@ character_event = {
 					break = yes
 				}
 			}
-			
+
 			random_realm_province = {
 				ROOT = {
 					war = {
@@ -1989,11 +1988,11 @@ character_event = {
 # Clean-up
 character_event = {
 	id = HL.199
-	
+
 	is_triggered_only = yes
-	
+
 	hide_window = yes
-	
+
 	immediate = {
 		log = "Cleaning up adventurer: [Root.GetTitledFirstName]."
 		clr_character_flag = raiding_adventurer

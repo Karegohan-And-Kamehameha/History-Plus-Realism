@@ -62,44 +62,71 @@ character_event = {
 		ai_chance = {
 			factor = 20
 		}
-		piety = -5
-		prestige = 10
+		piety = -25
+		prestige = 50
 		if = {
 			limit = {
 				religion_group = muslim
 			}
 			random_list = {
-				50 = { }
-				50 = { decadence = -1 }
+				75 = { }
+				25 = {
+					if = {
+						limit = { any_vassal = { leads_faction = faction_tradition } }
+						custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+						hidden_tooltip = {
+							random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 1 } }
+							character_event = { id = PlusFaction.200 days = 1 }
+						}
+					}
+				 }
 			}
 		}
 	}
 
 	option = { #Coffee as an alternative to alcohol
 		name = "EVTOPTB1000109301"
-		piety = 5
-		prestige = 5
+		piety = 25
+		prestige = 25
 		if = {
 			limit = {
 				religion_group = muslim
 			}
 			random_list = {
-				50 = { }
-				50 = { decadence = -1 }
+				75 = { }
+				25 = {
+					if = {
+						limit = { any_vassal = { leads_faction = faction_tradition } }
+						custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+						hidden_tooltip = {
+							random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 1 } }
+							character_event = { id = PlusFaction.200 days = 1 }
+						}
+					}
+				 }
 			}
 		}
 	}
 
 	option = { #Coffee is a drink of sinners
 		name = "EVTOPTC1000109301"
-		piety = 10
+		piety = 50
 		if = {
 			limit = {
 				religion_group = muslim
 			}
 			random_list = {
-				50 = { }
-				50 = { decadence = -1 }
+				75 = { }
+				25 = {
+					if = {
+						limit = { any_vassal = { leads_faction = faction_tradition } }
+						custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+						hidden_tooltip = {
+							random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 1 } }
+							character_event = { id = PlusFaction.200 days = 1 }
+						}
+					}
+				 }
 			}
 		}
 	}
@@ -164,7 +191,7 @@ character_event = {
 	option = { #Thanks for the story
 		name = "EVTOPTA1000109302"
 		random_list = {
-			50 = { prestige = 10 }
+			50 = { prestige = 50 }
 			10 = { change_diplomacy = 1 }
 			10 = { change_martial = 1 }
 			10 = { change_stewardship = 1 }
@@ -177,7 +204,16 @@ character_event = {
 			}
 			random_list = {
 				80 = { }
-				20 = { decadence = 1 }
+				20 = {
+					if = {
+						limit = { any_vassal = { leads_faction = faction_tradition } }
+						custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+						hidden_tooltip = {
+							random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 1 } }
+							character_event = { id = PlusFaction.200 days = 1 }
+						}
+					}
+				}
 			}
 		}
 	}
@@ -250,13 +286,20 @@ character_event = {
 
 	option = { #Donates
 		name = "EVTOPTA1000109303"
-		decadence = -1
 		scaled_wealth = -0.1
-		piety = 10
+		piety = 50
 		random_list = {
-			70 = { }
-			25 = { decadence = -1 }
-			5 = { decadence = -2 }
+			75 = { }
+			25 = {
+				if = {
+					limit = { any_vassal = { leads_faction = faction_tradition } }
+					custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+					hidden_tooltip = {
+						random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 1 } }
+						character_event = { id = PlusFaction.200 days = 1 }
+					}
+				}
+			}
 		}
 	}
 
@@ -265,10 +308,18 @@ character_event = {
 		trigger = {
 			NOT = { trait = charitable }
 		}
-		decadence = -1
 		random_list = {
 			80 = { }
-			20 = { decadence = 1 }
+			20 = {
+				if = {
+					limit = { any_vassal = { leads_faction = faction_tradition } }
+					custom_tooltip = { text = TRADITIONFACTIONMOODMINUS }
+					hidden_tooltip = {
+						random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_decrease" value = 1 } }
+						character_event = { id = PlusFaction.200 days = 1 }
+					}
+				}
+			}
 		}
 	}
 
@@ -320,14 +371,23 @@ character_event = {
 
 	option = { #Meet them
 		name = "EVTOPTA1000109304"
-		prestige = 20
+		prestige = 100
 		if = {
 			limit = {
 				religion_group = muslim
 			}
 			random_list = {
 				80 = { }
-				20 = { decadence = 1 }
+				20 = {
+					if = {
+						limit = { any_vassal = { leads_faction = faction_tradition } }
+						custom_tooltip = { text = TRADITIONFACTIONMOODMINUS }
+						hidden_tooltip = {
+							random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_decrease" value = 1 } }
+							character_event = { id = PlusFaction.200 days = 1 }
+						}
+					}
+				}
 			}
 		}
 	}
@@ -378,12 +438,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			AND = {
 				NOT = { culture_group = arabic }
 				NOT = { culture_group = iranian }
 				NOT = { culture_group = byzantine }
 				NOT = { culture = turkish }
-			}
 		}
 	}
 
@@ -408,7 +466,16 @@ character_event = {
 			}
 			random_list = {
 				70 = { }
-				30 = { decadence = -1 }
+				30 = {
+					if = {
+						limit = { any_vassal = { leads_faction = faction_tradition } }
+						custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+						hidden_tooltip = {
+							random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 1 } }
+							character_event = { id = PlusFaction.200 days = 1 }
+						}
+					}
+				}
 			}
 		}
 		add_character_modifier = {
@@ -480,18 +547,18 @@ character_event = {
 
 	option = { #Prestige
 		name = "EVTOPTA1000109306"
-		prestige = 10
+		prestige = 50
 		random_list = {
-			95 = { }
-			5 = { add_trait = proud }
+			90 = { }
+			10 = { add_trait = proud }
 		}
 	}
 	option = { #Pious
 		name = "EVTOPTB1000109306"
-		piety = 10
+		piety = 50
 		random_list = {
-			95 = { }
-			5 = { add_trait = proud }
+			90 = { }
+			10 = { add_trait = proud }
 		}
 	}
 }
@@ -551,14 +618,14 @@ character_event = {
 
 	option = { #Silk and Porcelain
 		name = "EVTOPTA1000109307"
-		prestige = 10
-		wealth = -2
+		prestige = 50
+		wealth = -10
 	}
 
 	option = { #Spices
 		name = "EVTOPTB1000109307"
-		prestige = 2
-		wealth = -2
+		prestige = 20
+		wealth = -10
 		add_character_modifier = {
 			name = best_meal_in_ages
 			duration = 365
@@ -567,8 +634,8 @@ character_event = {
 
 	option = { #Nothing
 		name = "EVTOPTC1000109307"
-		piety = 1
-		prestige = 1
+		piety = 10
+		prestige = 10
 	}
 }
 
@@ -644,7 +711,7 @@ character_event = {
 
 	option = { #After him!
 		name = "EVTOPTA1000109308"
-		wealth = -1
+		wealth = -10
 		character_event = { id = VIETnam.136 tooltip = "EVTTOOLTIP1000109309" }
 		set_character_flag = VIET_pickpocket_event
 	}
@@ -655,14 +722,23 @@ character_event = {
 			NOT = { trait = greedy }
 			NOT = { trait = wroth }
 		}
-		wealth = -1
+		wealth = -10
 		if = {
 			limit = {
 				religion_group = muslim
 			}
 			random_list = {
 				70 = { }
-				30 = { decadence = 1 }
+				30 = {
+					if = {
+						limit = { any_vassal = { leads_faction = faction_tradition } }
+						custom_tooltip = { text = TRADITIONFACTIONMOODMINUS }
+						hidden_tooltip = {
+							random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_decrease" value = 1 } }
+							character_event = { id = PlusFaction.200 days = 1 }
+						}
+					}
+				}
 			}
 		}
 		random_list = {
@@ -684,14 +760,14 @@ character_event = {
 
 	option = { #Give me that back!
 		name = "EVTOPTA1000109309"
-		wealth = 1
-		prestige = 10
+		wealth = 9
+		prestige = 50
 	}
 
 	option = { #Talk to him about living a virtuous life
 		name = "EVTOPTB1000109309"
-		wealth = 1
-		piety = 10
+		wealth = 9
+		piety = 50
 		character_event = { id = VIETnam.137 tooltip = "EVTTOOLTIP1000109310" }
 	}
 }
@@ -708,8 +784,8 @@ character_event = {
 
 	option = { #Give a bit of money
 		name = "EVTOPTA1000109310"
-		wealth = -1
-		piety = 1
+		wealth = -10
+		piety = 10
 		random_list = {
 			80 = { }
 			20 = { add_trait = charitable }
@@ -858,7 +934,7 @@ character_event = {
 		trigger = {
 			NOT = { trait = cynical }
 		}
-		piety = 10
+		piety = 50
 	}
 }
 
@@ -922,10 +998,10 @@ character_event = {
 	option = { #Bad luck
 		name = "EVTOPTA1000109321"
 		random_list = {
-			25 = { wealth = -1 }
-			25 = { wealth = -2 }
-			25 = { wealth = -3 }
-			25 = { wealth = -4 }
+			25 = { wealth = -10 }
+			25 = { wealth = -20 }
+			25 = { wealth = -30 }
+			25 = { wealth = -40 }
 		}
 	}
 
@@ -946,12 +1022,12 @@ character_event = {
 				trait = wroth
 			}
 		}
-		piety = 1
+		piety = 10
 		random_list = {
-			25 = { wealth = -1 }
-			25 = { wealth = -2 }
-			25 = { wealth = -3 }
-			25 = { wealth = -4 }
+			25 = { wealth = -10 }
+			25 = { wealth = -20 }
+			25 = { wealth = -30 }
+			25 = { wealth = -40 }
 		}
 	}
 
@@ -972,12 +1048,12 @@ character_event = {
 				trait = content
 			}
 		}
-		prestige = 1
+		prestige = 10
 		random_list = {
-			25 = { wealth = -1 }
-			25 = { wealth = -2 }
-			25 = { wealth = -3 }
-			25 = { wealth = -4 }
+			25 = { wealth = -10 }
+			25 = { wealth = -20 }
+			25 = { wealth = -30 }
+			25 = { wealth = -40 }
 		}
 	}
 
@@ -1000,14 +1076,14 @@ character_event = {
 			}
 		}
 		random_list = {
-			50 = { prestige = 1 }
-			50 = { piety = 1 }
+			50 = { prestige = 10 }
+			50 = { piety = 10 }
 		}
 		random_list = {
-			25 = { wealth = -1 }
-			25 = { wealth = -2 }
-			25 = { wealth = -3 }
-			25 = { wealth = -4 }
+			25 = { wealth = -10 }
+			25 = { wealth = -20 }
+			25 = { wealth = -30 }
+			25 = { wealth = -40 }
 		}
 	}
 
@@ -1029,14 +1105,14 @@ character_event = {
 			}
 		}
 		random_list = {
-			50 = { prestige = 1 }
-			50 = { piety = 1 }
+			50 = { prestige = 10 }
+			50 = { piety = 10 }
 		}
 		random_list = {
-			25 = { wealth = -1 }
-			25 = { wealth = -2 }
-			25 = { wealth = -3 }
-			25 = { wealth = -4 }
+			25 = { wealth = -10 }
+			25 = { wealth = -20 }
+			25 = { wealth = -30 }
+			25 = { wealth = -40 }
 		}
 	}
 }
@@ -1116,8 +1192,8 @@ character_event = {
 				trait = proud
 			}
 		}
-		wealth = -1
-		prestige = 5
+		wealth = -10
+		prestige = 25
 		random_list = {
 			10 = { add_trait = patient }
 			90 = { }
@@ -1145,7 +1221,7 @@ character_event = {
 				trait = ambitious
 			}
 		}
-		piety = 3
+		piety = 25
 	}
 
 	option = { #Get something now
@@ -1193,12 +1269,12 @@ character_event = {
 				trait = humble
 			}
 		}
-		prestige = 10
+		prestige = 50
 		random_list = {
-			25 = { wealth = -1 }
-			25 = { wealth = -2 }
-			25 = { wealth = -3 }
-			25 = { wealth = -4 }
+			25 = { wealth = -10 }
+			25 = { wealth = -20 }
+			25 = { wealth = -30 }
+			25 = { wealth = -40 }
 		}
 	}
 }
@@ -1272,12 +1348,12 @@ character_event = {
 				trait = slow
 			}
 		}
-		prestige = -5
+		prestige = -50
 		random_list = {
-			40 = { scaled_wealth = -0.1 }
-			40 = { scaled_wealth = -0.15 }
-			15 = { scaled_wealth = -0.3 }
-			5 = { scaled_wealth = -0.5 }
+			40 = { scaled_wealth = -0.2 }
+			40 = { scaled_wealth = -0.3 }
+			15 = { scaled_wealth = -0.6 }
+			5 = { scaled_wealth = -1}
 		}
 	}
 
@@ -1306,12 +1382,12 @@ character_event = {
 				trait = greedy
 			}
 		}
-		prestige = -1
+		prestige = -10
 		random_list = {
-			40 = { scaled_wealth = -0.04 }
 			40 = { scaled_wealth = -0.08 }
-			15 = { scaled_wealth = -0.15 }
-			5 = { scaled_wealth = -0.2 }
+			40 = { scaled_wealth = -0.16 }
+			15 = { scaled_wealth = -0.3 }
+			5 = { scaled_wealth = -0.4 }
 		}
 	}
 }
@@ -1386,10 +1462,10 @@ character_event = {
 			}
 		}
 		random_list = {
-			40 = { piety = -20 }
-			40 = { piety = -25 }
-			15 = { piety = -30 }
-			5 = { piety = -40 }
+			40 = { piety = -60 }
+			40 = { piety = -75 }
+			15 = { piety = -90 }
+			5 = { piety = -120 }
 		}
 		random_list = {
 			40 = { scaled_wealth = 0.2 }
@@ -1424,12 +1500,12 @@ character_event = {
 				trait = greedy
 			}
 		}
-		piety = 15
+		piety = 75
 		random_list = {
-			40 = { scaled_wealth = -0.04 }
 			40 = { scaled_wealth = -0.08 }
-			15 = { scaled_wealth = -0.15 }
-			5 = { scaled_wealth = -0.2 }
+			40 = { scaled_wealth = -0.16 }
+			15 = { scaled_wealth = -0.3 }
+			5 = { scaled_wealth = -0.4 }
 		}
 	}
 }
@@ -1499,10 +1575,10 @@ character_event = {
 			}
 		}
 		random_list = {
-			40 = { scaled_wealth = -0.05 }
 			40 = { scaled_wealth = -0.1 }
-			15 = { scaled_wealth = -0.15 }
-			5 = { scaled_wealth = -0.25 }
+			40 = { scaled_wealth = -0.2 }
+			15 = { scaled_wealth = -0.3 }
+			5 = { scaled_wealth = -0.5 }
 		}
 		if = {
 			limit = {
@@ -1614,16 +1690,16 @@ character_event = {
 			}
 		}
 		random_list = {
-			40 = { prestige = -5 }
-			30 = { prestige = -10 }
-			20 = { prestige = -20 }
-			10 = { prestige = -40 }
+			40 = { prestige = -25 }
+			30 = { prestige = -50 }
+			20 = { prestige = -100 }
+			10 = { prestige = -200 }
 		}
 		random_list = {
-			40 = { scaled_wealth = -0.1 }
 			40 = { scaled_wealth = -0.2 }
-			15 = { scaled_wealth = -0.4 }
-			5 = { scaled_wealth = -0.8 }
+			40 = { scaled_wealth = -0.4 }
+			15 = { scaled_wealth = -0.8 }
+			5 = { scaled_wealth = -1.6 }
 		}
 	}
 	option = { #DAMMIT
@@ -1636,16 +1712,16 @@ character_event = {
 			factor = 10
 		}
 		random_list = {
-			40 = { prestige = -5 }
-			30 = { prestige = -10 }
-			20 = { prestige = -20 }
-			10 = { prestige = -40 }
+			40 = { prestige = -25 }
+			30 = { prestige = -50 }
+			20 = { prestige = -100 }
+			10 = { prestige = -200 }
 		}
 		random_list = {
-			40 = { scaled_wealth = -0.1 }
 			40 = { scaled_wealth = -0.2 }
-			15 = { scaled_wealth = -0.4 }
-			5 = { scaled_wealth = -0.8 }
+			40 = { scaled_wealth = -0.4 }
+			15 = { scaled_wealth = -0.8 }
+			5 = { scaled_wealth = -1.6 }
 		}
 	}
 	option = { #Try to alleviate losses
@@ -1658,16 +1734,16 @@ character_event = {
 			factor = 1000
 		}
 		random_list = {
-			40 = { prestige = -2 }
-			30 = { prestige = -5 }
-			20 = { prestige = -10 }
-			10 = { prestige = -20 }
+			40 = { prestige = -10 }
+			30 = { prestige = -25 }
+			20 = { prestige = -50 }
+			10 = { prestige = -100 }
 		}
 		random_list = {
-			40 = { scaled_wealth = -0.04 }
 			40 = { scaled_wealth = -0.08 }
-			15 = { scaled_wealth = -0.15 }
-			5 = { scaled_wealth = -0.25 }
+			40 = { scaled_wealth = -0.16 }
+			15 = { scaled_wealth = -0.3 }
+			5 = { scaled_wealth = -2.5 }
 		}
 		random_list = {
 			25 = { change_stewardship = 1 }
@@ -1704,12 +1780,12 @@ character_event = {
 				trait = paranoid
 			}
 		}
-		piety = 5
+		piety = 25
 		random_list = {
-			40 = { scaled_wealth = 0.2 }
-			40 = { scaled_wealth = 0.3 }
-			15 = { scaled_wealth = 0.4 }
-			5 = { scaled_wealth = 0.5 }
+			40 = { scaled_wealth = 0.4 }
+			40 = { scaled_wealth = 0.6 }
+			15 = { scaled_wealth = 0.8 }
+			5 = { scaled_wealth = 1 }
 		}
 	}
 	option = { #Risk is awesome
@@ -1729,12 +1805,12 @@ character_event = {
 				trait = brave
 			}
 		}
-		prestige = 5
+		prestige = 25
 		random_list = {
-			40 = { scaled_wealth = 0.2 }
-			40 = { scaled_wealth = 0.3 }
-			15 = { scaled_wealth = 0.4 }
-			5 = { scaled_wealth = 0.5 }
+			40 = { scaled_wealth = 0.4 }
+			40 = { scaled_wealth = 0.6 }
+			15 = { scaled_wealth = 0.8 }
+			5 = { scaled_wealth = 1 }
 		}
 	}
 }
@@ -1805,12 +1881,12 @@ character_event = {
 		ai_chance = {
 			factor = 1
 		}
-		prestige = -10
+		prestige = -50
 		random_list = {
-			40 = { scaled_wealth = -0.2 }
-			40 = { scaled_wealth = -0.3 }
-			15 = { scaled_wealth = -0.4 }
-			5 = { scaled_wealth = -0.5 }
+			40 = { scaled_wealth = -0.4 }
+			40 = { scaled_wealth = -0.6 }
+			15 = { scaled_wealth = -0.8 }
+			5 = { scaled_wealth = -1 }
 		}
 	}
 
@@ -1823,12 +1899,12 @@ character_event = {
 		ai_chance = {
 			factor = 100
 		}
-		prestige = -5
+		prestige = -25
 		random_list = {
+			25 = { scaled_wealth = 0.16 }
 			25 = { scaled_wealth = 0.08 }
-			25 = { scaled_wealth = 0.04 }
-			25 = { scaled_wealth = -0.1 }
 			25 = { scaled_wealth = -0.2 }
+			25 = { scaled_wealth = -0.4 }
 		}
 	}
 }

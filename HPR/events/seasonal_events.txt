@@ -140,7 +140,7 @@ province_event = {
 		}
 		owner = {
 			treasury = -50
-			piety = 10
+			piety = 20
 		}
 	}
 
@@ -178,7 +178,7 @@ province_event = {
 			duration = 365
 		}
 		owner = {
-			piety = -10
+			piety = -50
 		}
 	}
 }

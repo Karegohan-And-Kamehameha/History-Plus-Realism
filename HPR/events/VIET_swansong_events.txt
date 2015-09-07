@@ -22,12 +22,12 @@ character_event = {
 	picture = GFX_evt_scarborough_fair
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -40,7 +40,7 @@ character_event = {
 		#	has_focus = focus_scholarship
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -87,17 +87,17 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.0.a
-		piety = 1
+		piety = 10
 	}
 	option = {#yes
 		name = VIETScarboroughFair.0.b
-		prestige = 1
+		prestige = 10
 	}
 	option = {#yes
 		name = VIETScarboroughFair.0.c
 		random_list = {
-			50 = { prestige = 1 }
-			50 = { piety = 1 }
+			50 = { prestige = 10 }
+			50 = { piety = 10 }
 		}
 	}
 	option = {#yes
@@ -116,12 +116,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -134,7 +134,7 @@ character_event = {
 		#	has_focus = focus_hunting
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -181,7 +181,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.1.a
-		prestige = -1
+		prestige = -10
 	}
 }
 
@@ -190,11 +190,11 @@ province_event = {
 	id = VIETScarboroughFair.2
 	desc = VIETScarboroughFair.2.desc
 	picture = GFX_evt_apocalypto
-	
+
 	trigger = {
 		NOT = { has_province_modifier = VIET_province_landslide }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3000
 		modifier = {
@@ -254,32 +254,32 @@ province_event = {
 				add_trait = charitable
 				chance = 10
 			}
+		scaled_wealth = -3
 		}
-		wealth = -30
 		random_list = {
 			40 = {
 				add_province_modifier = {
 					name = VIET_province_landslide
 					duration = 1200
-				}			
+				}
 			}
 			30 = {
 				add_province_modifier = {
 					name = VIET_province_landslide
 					duration = 800
-				}			
+				}
 			}
 			20 = {
 				add_province_modifier = {
 					name = VIET_province_landslide
 					duration = 600
-				}			
+				}
 			}
 			10 = {
 				add_province_modifier = {
 					name = VIET_province_landslide
 					duration = 365
-				}			
+				}
 			}
 		}
 	}
@@ -290,11 +290,11 @@ province_event = {
 	id = VIETScarboroughFair.3
 	desc = VIETScarboroughFair.3.desc
 	picture = GFX_evt_apocalypto
-	
+
 	trigger = {
 		NOT = { has_province_modifier = VIET_province_strong_lads }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2500
 		modifier = {
@@ -303,7 +303,7 @@ province_event = {
 			}
 			factor = 0.8
 		}
-		
+
 	}
 
 	option = {#yes
@@ -322,12 +322,12 @@ character_event = {
 	picture = GFX_evt_shaman_personal_advice
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -340,7 +340,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -408,12 +408,12 @@ character_event = {
 	picture = GFX_evt_whispers
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -426,7 +426,7 @@ character_event = {
 		#	has_focus = focus_carousing
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -473,10 +473,10 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.5.a
-		prestige = -1
+		prestige = -10
 		random = {
 			add_trait = paranoid
-			chance = 1
+			chance = 10
 		}
 	}
 }
@@ -488,12 +488,12 @@ character_event = {
 	picture = GFX_evt_scarborough_fair
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -507,7 +507,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -568,7 +568,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.7.a
-		prestige = 1
+		prestige = 10
 	}
 }
 
@@ -579,12 +579,12 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -598,7 +598,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -645,7 +645,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.8.a
-		prestige = -2
+		prestige = -20
 	}
 }
 
@@ -656,13 +656,13 @@ character_event = {
 	picture = GFX_evt_shaman_social_advice
 
 	is_triggered_only = yes
-	
+
 	#min_age = 16
 	min_age = 45
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -675,7 +675,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -714,7 +714,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.9.a
-		piety = 1
+		piety = 10
 		if = {
 			limit = {
 				NOT = { trait = depressed }
@@ -734,12 +734,12 @@ character_event = {
 	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -752,7 +752,7 @@ character_event = {
 		#	has_focus = focus_carousing
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -805,7 +805,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.11.a
-		prestige = 1
+		prestige = 10
 	}
 }
 
@@ -816,12 +816,12 @@ character_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -834,13 +834,13 @@ character_event = {
 		#	has_focus = focus_carousing
 		#}
 		any_courtier = {
-			NOT = { trait = incapable }	
+			NOT = { trait = incapable }
 			trait = gregarious
 			in_command = no
 			is_abroad = no
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -889,7 +889,7 @@ character_event = {
 		name = VIETScarboroughFair.12.a
 		random_courtier = {
 			limit = {
-				NOT = { trait = incapable }	
+				NOT = { trait = incapable }
 				trait = gregarious
 				in_command = no
 				is_abroad = no
@@ -899,7 +899,7 @@ character_event = {
 				who = ROOT
 				years = 1
 			}
-		}		
+		}
 	}
 }
 
@@ -910,12 +910,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -928,7 +928,7 @@ character_event = {
 		#	has_focus = focus_hunting
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1004,12 +1004,12 @@ character_event = {
 	picture = GFX_evt_bad_news
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1023,7 +1023,7 @@ character_event = {
 		#	has_focus = focus_hunting
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1070,7 +1070,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.14.a
-		prestige = -1
+		prestige = -10
 	}
 }
 
@@ -1081,12 +1081,12 @@ character_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1099,7 +1099,7 @@ character_event = {
 		#	has_focus = focus_carousing
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 	}
@@ -1119,12 +1119,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1136,7 +1136,7 @@ character_event = {
 		#	has_focus = focus_intrigue
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1183,8 +1183,8 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.16.a
-		prestige = -1
-		piety = 1
+		prestige = -10
+		piety = 10
 	}
 	option = {#yes
 		name = VIETScarboroughFair.16.b
@@ -1205,12 +1205,12 @@ character_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1223,7 +1223,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1262,7 +1262,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.17.a
-		prestige = 5
+		prestige = 50
 	}
 }
 
@@ -1273,12 +1273,12 @@ character_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1290,7 +1290,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1307,7 +1307,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = diligent 
+			trait = diligent
 		}
 		modifier = {
 			factor = 2
@@ -1351,12 +1351,12 @@ character_event = {
 	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1372,7 +1372,7 @@ character_event = {
 		#	has_focus = focus_business
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1389,7 +1389,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = trusting 
+			trait = trusting
 		}
 		modifier = {
 			factor = 2
@@ -1423,7 +1423,7 @@ character_event = {
 				modifier = opinion_thankful
 				who = ROOT
 				years = 5
-			}			
+			}
 		}
 	}
 	option = {#yes
@@ -1459,12 +1459,12 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1485,7 +1485,7 @@ character_event = {
 		#	has_focus = focus_family
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1502,7 +1502,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = chaste 
+			trait = chaste
 		}
 		modifier = {
 			factor = 2
@@ -1573,13 +1573,13 @@ character_event = {
 	picture = GFX_evt_her_smile
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1594,7 +1594,7 @@ character_event = {
 		#	has_focus = focus_family
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1611,7 +1611,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = wroth 
+			trait = wroth
 		}
 		modifier = {
 			factor = 2
@@ -1631,10 +1631,8 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			AND = {
-				is_married = yes
-				NOT = { trait = lustful }
-			}
+			is_married = yes
+			NOT = { trait = lustful }
 		}
 		modifier = {
 			factor = 0.5
@@ -1644,7 +1642,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.21.a
-		piety = 5
+		piety = 50
 		random = {
 			add_trait = chaste
 			chance = 25
@@ -1717,12 +1715,12 @@ character_event = {
 	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1735,7 +1733,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1752,7 +1750,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = wroth 
+			trait = wroth
 		}
 		modifier = {
 			factor = 2
@@ -1786,6 +1784,67 @@ character_event = {
 			name = VIET_leader_angered_peasants
 			duration = 911
 		}
+#Fear cuts deeper than swords
+		if = {
+			limit = { trait = feared9}
+			add_trait = feared10
+			remove_trait = feared9
+		}
+		if = {
+			limit = { trait = feared8}
+			add_trait = feared9
+			remove_trait = feared8
+		}
+		if = {
+			limit = { trait = feared7}
+			add_trait = feared8
+			remove_trait = feared7
+		}
+		if = {
+			limit = { trait = feared6}
+			add_trait = feared7
+			remove_trait = feared6
+		}
+		if = {
+			limit = { trait = feared5}
+			add_trait = feared6
+			remove_trait = feared5
+		}
+		if = {
+			limit = { trait = feared4}
+			add_trait = feared5
+			remove_trait = feared4
+		}
+		if = {
+			limit = { trait = feared3}
+			add_trait = feared4
+			remove_trait = feared3
+		}
+		if = {
+			limit = { trait = feared2}
+			add_trait = feared3
+			remove_trait = feared2
+		}
+		if = {
+			limit = { trait = feared1}
+			add_trait = feared2
+			remove_trait = feared1
+		}
+		if = {
+			limit = {
+			NOT = { trait = feared1}
+			NOT = { trait = feared2}
+			NOT = { trait = feared3}
+			NOT = { trait = feared4}
+			NOT = { trait = feared5}
+			NOT = { trait = feared6}
+			NOT = { trait = feared7}
+			NOT = { trait = feared8}
+			NOT = { trait = feared9}
+			NOT = { trait = feared10}
+			}
+			add_trait = feared1
+		}
 	}
 }
 
@@ -1796,12 +1855,12 @@ character_event = {
 	picture = GFX_evt_library
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1821,7 +1880,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1838,7 +1897,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = wroth 
+			trait = wroth
 		}
 		modifier = {
 			factor = 2
@@ -1874,12 +1933,12 @@ character_event = {
 	picture = GFX_evt_peasants
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1893,7 +1952,7 @@ character_event = {
 		#	has_focus = focus_rulership
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1910,7 +1969,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = wroth 
+			trait = wroth
 		}
 		modifier = {
 			factor = 2
@@ -1944,7 +2003,7 @@ character_event = {
 			name = VIET_leader_who_cares
 			duration = 666
 		}
-		prestige = -10
+		prestige = -50
 		random_list = {
 			20 = { add_trait = arbitrary }
 			20 = { add_trait = paranoid }
@@ -1974,12 +2033,12 @@ character_event = {
 	picture = GFX_evt_VIET_food
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -1998,7 +2057,7 @@ character_event = {
 		#	has_focus = focus_intrigue
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -2015,7 +2074,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = just 
+			trait = just
 		}
 		modifier = {
 			factor = 2
@@ -2050,15 +2109,15 @@ character_event = {
 				is_adult = yes
 				NOT = { trait = incapable }
 				NOT = { trait = zealous }
-				trait = gregarious			
+				trait = gregarious
 			}
 			opinion = {
 				modifier = opinion_amused
 				who = ROOT
 				years = 1
-			}	
+			}
 		}
-		prestige = -5
+		prestige = -25
 		add_character_modifier = {
 			name = VIET_pun_lover
 			duration = 777
@@ -2074,15 +2133,15 @@ character_event = {
 				is_adult = yes
 				NOT = { trait = incapable }
 				NOT = { trait = zealous }
-				trait = gregarious			
+				trait = gregarious
 			}
 			opinion = {
 				modifier = fun_killer
 				who = ROOT
 				years = 2
-			}	
+			}
 		}
-		piety = 5
+		piety = 25
 		add_character_modifier = {
 			name = VIET_annoyed_ruler
 			duration = 555
@@ -2095,15 +2154,15 @@ character_event = {
 				is_adult = yes
 				NOT = { trait = incapable }
 				NOT = { trait = zealous }
-				trait = gregarious			
+				trait = gregarious
 			}
 			opinion = {
 				modifier = fun_killer
 				who = ROOT
 				years = 3
-			}	
+			}
 		}
-		prestige = 5
+		prestige = 25
 		add_character_modifier = {
 			name = VIET_annoyed_ruler
 			duration = 555
@@ -2122,12 +2181,12 @@ character_event = {
 	picture = GFX_evt_baklava
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -2140,7 +2199,7 @@ character_event = {
 		#	has_focus = focus_business
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -2157,7 +2216,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate 
+			trait = temperate
 		}
 		modifier = {
 			factor = 2
@@ -2189,7 +2248,7 @@ character_event = {
 		name = VIETScarboroughFair.26.a
 		add_character_modifier = {
 			name = eating_good_food
-			duration = 200
+			duration = 365
 		}
 	}
 }
@@ -2202,12 +2261,12 @@ character_event = {
 	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -2219,7 +2278,7 @@ character_event = {
 		#	has_focus = focus_seduction
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -2236,7 +2295,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate 
+			trait = temperate
 		}
 		modifier = {
 			factor = 2
@@ -2258,11 +2317,11 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.27.a
-		prestige = -1
+		prestige = -10
 	}
 	option = {#yes
 		name = VIETScarboroughFair.27.b
-		prestige = -1
+		prestige = -10
 	}
 }
 
@@ -2274,12 +2333,12 @@ character_event = {
 	picture = GFX_evt_busy_trading_dock_republic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -2291,7 +2350,7 @@ character_event = {
 		#	has_focus = focus_business
 		#}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -2308,7 +2367,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate 
+			trait = temperate
 		}
 		modifier = {
 			factor = 2
@@ -2345,7 +2404,7 @@ character_event = {
 	}
 	option = {#yes
 		name = VIETScarboroughFair.28.b
-		prestige = 3
+		prestige = 30
 		random = {
 			add_trait = proud
 			chance = 30
@@ -2359,20 +2418,20 @@ province_event = {
 	id = VIETScarboroughFair.29
 	desc = VIETScarboroughFair.29.desc
 	picture = GFX_evt_brothel
-	
+
 	trigger = {
 		NOT = { has_province_modifier = VIET_province_good_whores }
-		ai = no
+		is_ai = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3500
 		modifier = {
 			OR = {
-				culture_group = serindian
-				culture = tokharian
-				culture = soghdian
-				culture = khotanese
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture = sogdian
+				culture = uyghur
 				culture = kirghiz
 				port = yes
 			}
@@ -2387,7 +2446,7 @@ province_event = {
 				name = lustful_ruler
 				duration = 365
 			}
-			piety = -5
+			piety = -25
 		}
 		add_province_modifier = {
 			name = VIET_province_good_whores
@@ -2404,11 +2463,11 @@ province_event = {
 	option = {#yes
 		name = VIETScarboroughFair.29.c
 		owner = {
-			piety = 5
+			piety = 25
 			add_character_modifier = {
 				name = the_prude
 				duration = 365
-			}		
+			}
 		}
 		add_province_modifier = {
 			name = VIET_province_good_whores
@@ -2423,11 +2482,11 @@ province_event = {
 	id = VIETScarboroughFair.30
 	desc = VIETScarboroughFair.30.desc
 	picture = GFX_evt_pagan
-	
+
 	trigger = {
 		num_of_settlements = 2
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3200
 	}
@@ -2445,14 +2504,14 @@ province_event = {
 	option = {#yes
 		name = VIETScarboroughFair.30.b
 		owner = {
-			piety = 40
+			piety = 80
 		}
 	}
 	option = {#yes
 		name = VIETScarboroughFair.30.c
 		owner = {
-			piety = 20
-			prestige = 20
+			piety = 40
+			prestige = 40
 		}
 	}
 	option = {#yes
@@ -2461,7 +2520,7 @@ province_event = {
 			add_character_modifier = {
 				name = VIET_leader_who_cares
 				duration = 1000
-			}			
+			}
 		}
 			add_province_modifier = {
 				name = VIET_province_using_old_stones
@@ -2476,15 +2535,15 @@ province_event = {
 	id = VIETScarboroughFair.31
 	desc = VIETScarboroughFair.31.desc
 	picture = GFX_evt_peasants
-	
+
 	trigger = {
 		NOT = { has_province_flag = VIET_rapist }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5000
 	}
-	
+
 	immediate = {
 		set_province_flag = VIET_rapist
 	}
@@ -2501,7 +2560,7 @@ province_event = {
 				25 = { add_trait = proud }
 				25 = { add_trait = cruel }
 				25 = { }
-			}	
+			}
 		}
 
 	}
@@ -2512,7 +2571,7 @@ province_event = {
 				name = VIET_leader_who_cares
 				duration = 1000
 			}
-			wealth = 30
+			scaled_wealth = 2
 			random_list = {
 				25 = { add_trait = just }
 				75 = { }
@@ -2550,7 +2609,7 @@ province_event = {
 				}
 				remove_trait = just
 			}
-			wealth = 50
+			scaled_wealth = 4
 		}
 		custom_tooltip = { text = VIET_bribed_jerk }
 	}
@@ -2565,12 +2624,12 @@ character_event = {
 	picture = GFX_evt_small_town_sinic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -2581,9 +2640,9 @@ character_event = {
 		#	trait = diligent
 		#	has_focus = focus_business
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -2600,7 +2659,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = slothful 
+			trait = slothful
 		}
 		modifier = {
 			factor = 2
@@ -2623,7 +2682,7 @@ character_event = {
 				10 = { health = 1 }
 				10 = { health = 1.5 }
 				5 = { health = 2 }
-			}		
+			}
 		}
 	}
 	option = {#yes
@@ -2643,12 +2702,12 @@ character_event = {
 	picture = GFX_evt_travel
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		in_command = no
@@ -2659,9 +2718,9 @@ character_event = {
 		#	trait = patient
 		#	has_focus = focus_rulership
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -2678,7 +2737,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = slothful 
+			trait = slothful
 		}
 		modifier = {
 			factor = 2
@@ -2708,7 +2767,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.33.a
-		prestige = 2
+		prestige = 20
 	}
 	option = {#yes
 		name = VIETScarboroughFair.33.b
@@ -2728,11 +2787,11 @@ character_event = {
 	}
 	option = {#yes
 		name = VIETScarboroughFair.33.d
-		wealth = -25
+		scaled_wealth =  -3
 		random_list = {
-			40 = { add_trait = charitable }			
-			30 = { add_trait = kind }			
-			30 = { }			
+			40 = { add_trait = charitable }
+			30 = { add_trait = kind }
+			30 = { }
 		}
 	}
 }
@@ -2745,12 +2804,12 @@ character_event = {
 	picture = GFX_evt_shadow
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		#in_command = no
@@ -2762,9 +2821,9 @@ character_event = {
 		#	trait = gregarious
 		#	has_focus = focus_intrigue
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -2781,7 +2840,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = slothful 
+			trait = slothful
 		}
 		modifier = {
 			factor = 2
@@ -2826,12 +2885,12 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = yes
 		#in_command = no
@@ -2844,9 +2903,9 @@ character_event = {
 		#	has_focus = focus_theology
 		#}
 		NOT = { trait = maimed }
-		is_alive = yes		
+		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -2929,16 +2988,16 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			trait = has_small_pox
-		}		
+		}
 	}
 
 	option = {#yes
 		name = VIETScarboroughFair.35.a
-		prestige = 1
+		prestige = 10
 		random = {
 			add_trait = wroth
 			chance = 5
@@ -2964,7 +3023,7 @@ character_event = {
 	}
 	option = {#yes
 		name = VIETScarboroughFair.35.d
-		piety = 5
+		piety = 50
 		random = {
 			add_trait = depressed
 			chance = 5
@@ -2979,12 +3038,12 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = yes
 		#in_command = no
@@ -2997,9 +3056,9 @@ character_event = {
 		#	has_focus = focus_theology
 		#}
 		NOT = { trait = maimed }
-		is_alive = yes		
+		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3082,17 +3141,17 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			trait = has_small_pox
-		}		
+		}
 	}
 
 	option = {#yes
 		name = VIETScarboroughFair.36.a
-		prestige = 1
-		piety = 1
+		prestige = 10
+		piety = 10
 	}
 }
 
@@ -3103,12 +3162,12 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = yes
 		#in_command = no
@@ -3121,9 +3180,9 @@ character_event = {
 		#	has_focus = focus_theology
 		#}
 		NOT = { trait = maimed }
-		is_alive = yes		
+		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3206,16 +3265,16 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			trait = has_small_pox
-		}		
+		}
 	}
 
 	option = {#yes
 		name = VIETScarboroughFair.37.a
-		prestige = 5
+		prestige = 25
 	}
 }
 
@@ -3226,12 +3285,12 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = yes
 		#in_command = no
@@ -3244,9 +3303,9 @@ character_event = {
 		#	has_focus = focus_theology
 		#}
 		NOT = { trait = maimed }
-		is_alive = yes		
+		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3329,16 +3388,16 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			trait = has_small_pox
-		}		
+		}
 	}
 
 	option = {#yes
 		name = VIETScarboroughFair.38.a
-		prestige = 5
+		prestige = 25
 	}
 }
 
@@ -3350,12 +3409,12 @@ character_event = {
 	picture = GFX_evt_battle
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = yes
 		#in_command = no
@@ -3368,9 +3427,9 @@ character_event = {
 		#	has_focus = focus_theology
 		#}
 		NOT = { trait = maimed }
-		is_alive = yes		
+		is_alive = yes
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3453,16 +3512,16 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = has_measles
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			trait = has_small_pox
-		}		
+		}
 	}
 
 	option = {#yes
 		name = VIETScarboroughFair.39.a
-		prestige = 5
+		prestige = 25
 	}
 }
 
@@ -3475,12 +3534,12 @@ character_event = {
 	picture = GFX_evt_moorish_decor
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -3491,9 +3550,9 @@ character_event = {
 		#	trait = proud
 		#	has_focus = focus_business
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3510,7 +3569,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble 
+			trait = humble
 		}
 		modifier = {
 			factor = 2
@@ -3522,7 +3581,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = lusful
+			trait = lustful
 		}
 		modifier = {
 			factor = 0.5
@@ -3586,7 +3645,7 @@ character_event = {
 					trait = gregarious
 					trait = lustful
 					trait = trusting
-				}			
+				}
 			}
 			opinion = {
 				modifier = VIET_opinion_great_gift
@@ -3609,12 +3668,12 @@ character_event = {
 	picture = GFX_evt_journey_to_spirit_world_tengri_pagan
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -3625,9 +3684,9 @@ character_event = {
 		#	trait = wroth
 		#	has_focus = focus_hunting
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3652,7 +3711,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble 
+			trait = humble
 		}
 		modifier = {
 			factor = 2
@@ -3682,7 +3741,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.41.a
-		prestige = -5
+		prestige = -50
 		random_list = {
 			10 = { add_trait = paranoid }
 			5 = { add_trait = lunatic }
@@ -3699,12 +3758,12 @@ character_event = {
 	picture = GFX_evt_skyrim_forest
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -3715,9 +3774,9 @@ character_event = {
 		#	trait = wroth
 		#	has_focus = focus_business
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3742,7 +3801,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble 
+			trait = humble
 		}
 		modifier = {
 			factor = 2
@@ -3764,7 +3823,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.42.a
-		prestige = 5
+		prestige = 25
 	}
 	option = {#yes
 		name = VIETScarboroughFair.42.b
@@ -3778,13 +3837,13 @@ character_event = {
 		tooltip_info = learning
 		trigger = {
 			learning = 13
-		}		
+		}
 		random_list = {
 			80 = {
 				add_character_modifier = {
 					name = VIET_im_curious
 					duration = 365
-				}			
+				}
 			}
 			20 = {
 				change_learning = 1
@@ -3800,12 +3859,12 @@ character_event = {
 	picture = GFX_evt_busy_trading_dock_republic
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		#war = no
 		in_command = no
@@ -3816,9 +3875,9 @@ character_event = {
 		#	trait = wroth
 		#	has_focus = focus_business
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3843,7 +3902,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble 
+			trait = humble
 		}
 		modifier = {
 			factor = 2
@@ -3873,7 +3932,7 @@ character_event = {
 	option = {#yes
 		name = VIETScarboroughFair.43.b
 		random = {
-			piety = 25
+			piety = 100
 			chance = 25
 		}
 	}
@@ -3886,13 +3945,13 @@ character_event = {
 	picture = GFX_evt_scarborough_fair
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -3907,9 +3966,9 @@ character_event = {
 		#	trait = lustful
 		#	has_focus = focus_seduction
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -3926,7 +3985,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble 
+			trait = humble
 		}
 		modifier = {
 			factor = 2
@@ -3948,7 +4007,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.44.a
-		wealth = -10
+		scaled_wealth =  -1
 		add_character_modifier = {
 			name = VIET_good_exercise
 			duration = 250
@@ -3964,12 +4023,12 @@ character_event = {
 	picture = GFX_evt_moorish_decor
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -3986,9 +4045,9 @@ character_event = {
 		#	trait = paranoid
 		#	has_focus = focus_theology
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -4005,7 +4064,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble 
+			trait = humble
 		}
 		modifier = {
 			factor = 2
@@ -4047,7 +4106,7 @@ character_event = {
 				years = 1
 			}
 		}
-		piety = 4
+		piety = 25
 		if = {
 			limit = {
 				trait = proud
@@ -4061,7 +4120,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.45.b
-		piety = 2
+		piety = 15
 		random_list = {
 			35 = { add_trait = humble }
 			15 = { add_trait = content }
@@ -4078,28 +4137,29 @@ character_event = {
 	picture = GFX_evt_maiden
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { culture_group = west_african }
 		NOT = { culture_group = east_african }
-		NOT = { culture_group = central_african }
+		NOT = { culture_group = indo_aryan_group}
+		NOT = { culture_group = dravidian_group}
 		#OR = {
 		#	trait = humble
 		#	trait = lustful
 		#	trait = cynical
 		#	has_focus = focus_theology
 		#}
-		
+
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -4116,7 +4176,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = proud 
+			trait = proud
 		}
 		modifier = {
 			factor = 2
@@ -4138,7 +4198,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.46.a
-		prestige = 3
+		prestige = 30
 	}
 	option = {#yes
 		name = VIETScarboroughFair.46.b
@@ -4147,7 +4207,7 @@ character_event = {
 				add_character_modifier = {
 					name = the_prude
 					duration = 365
-				}				
+				}
 			}
 			20 = {
 				add_trait = humble
@@ -4183,13 +4243,13 @@ province_event = {
 	id = VIETScarboroughFair.47
 	desc = VIETScarboroughFair.47.desc
 	picture = GFX_evt_scarborough_fair
-	
+
 	trigger = {
 		NOT = { has_province_modifier = VIET_province_incest_couple }
 		NOT = { religion_group = zoroastrian_group }
 		NOT = { religion = messalian }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10000
 	}
@@ -4197,7 +4257,7 @@ province_event = {
 	option = {#yes
 		name = VIETScarboroughFair.47.a
 		owner = {
-			piety = 5
+			piety = 25
 		}
 		add_province_modifier = {
 			name = VIET_province_incest_couple
@@ -4208,12 +4268,12 @@ province_event = {
 		name = VIETScarboroughFair.47.b
 		owner = {
 			random_list = {
-				30 = { trait = kind }
-				20 = { trait = patient }
-				10 = { trait = content }
+				30 = { add_trait = kind }
+				20 = { add_trait = patient }
+				10 = { add_trait = content }
 				40 = { }
 			}
-			piety = -5
+			piety = -25
 			add_character_modifier = {
 				name = VIET_deviant_opinion
 				duration = 730
@@ -4227,11 +4287,11 @@ province_event = {
 	option = {#yes
 		name = VIETScarboroughFair.47.c
 		owner = {
-			piety = -5
+			piety = -25
 			add_character_modifier = {
 				name = VIET_feeling_sexy
 				duration = 365
-			}		
+			}
 		}
 		add_province_modifier = {
 			name = VIET_province_incest_couple
@@ -4250,20 +4310,19 @@ character_event = {
 	picture = GFX_evt_scarborough_fair
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	ai = no
-	
+
 	trigger = {
 		war = no
 		in_command = no
 		is_abroad = no
 		OR = {
 			culture_group = west_germanic
-			culture_group = gallic
 			culture_group = latin
 			culture_group = celtic
 			culture_group = north_germanic
@@ -4293,9 +4352,9 @@ character_event = {
 		NOT = { trait = gluttonous }
 		NOT = { trait = slothful }
 		NOT = { trait = arbitrary }
-		NOT = { trait = cruel }		
+		NOT = { trait = cruel }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -4306,13 +4365,13 @@ character_event = {
 			factor = 0.5
 			NOT = {
 				OR = {
-					culture_group = west_germanic 
-					culture = norman 
-					culture = scottish 
+					culture_group = west_germanic
+					culture = norman
+					culture = scottish
 					culture = welsh
 					any_realm_province = {
 						province_id = 57
-					}					
+					}
 				}
 			}
 		}
@@ -4328,7 +4387,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.48.a
-		character_event = { id = VIETScarboroughFair.49 tooltip = VIETScarboroughFair.49.tooltip }
+		narrative_event = { id = VIETScarboroughFair.49 tooltip = VIETScarboroughFair.49.tooltip }
 	}
 }
 
@@ -4399,12 +4458,12 @@ character_event = {
 	prisoner = no
 	ai = no
 
-	trigger = { 
-		war = no 
-		in_command = no 
-		is_abroad = no	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
 		NOT = { has_global_flag =  VIET_xwedodah_preacher }
-		religion_group = zoroastrian_group	
+		religion_group = zoroastrian_group
 	}
 
 	weight_multiplier = {
@@ -4466,7 +4525,7 @@ character_event = {
 	option = {
 		name = VIETScarboroughFair.100.a
 		set_global_flag =  VIET_xwedodah_preacher
-		character_event = { id = VIETScarboroughFair.101 tooltip = VIETScarboroughFair.101.tooltip days = 3 random = 3 }
+		narrative_event = { id = VIETScarboroughFair.101 tooltip = VIETScarboroughFair.101.tooltip days = 3 random = 3 }
 	}
 }
 
@@ -4481,7 +4540,7 @@ narrative_event = {
 
 	option = {
 		name = VIETScarboroughFair.101.a
-		character_event = { id = VIETScarboroughFair.102 tooltip = VIETScarboroughFair.102.tooltip days = 3 random = 3 }
+		narrative_event = { id = VIETScarboroughFair.102 tooltip = VIETScarboroughFair.102.tooltip days = 3 random = 3 }
 	}
 }
 
@@ -4496,7 +4555,7 @@ narrative_event = {
 
 	option = {
 		name = VIETScarboroughFair.102.a
-		character_event = { id = VIETScarboroughFair.103 tooltip = VIETScarboroughFair.103.tooltip days = 3 random = 3 }
+		narrative_event = { id = VIETScarboroughFair.103 tooltip = VIETScarboroughFair.103.tooltip days = 3 random = 3 }
 	}
 }
 
@@ -4511,7 +4570,7 @@ narrative_event = {
 
 	option = {
 		name = VIETScarboroughFair.103.a
-		character_event = { id = VIETScarboroughFair.104 tooltip = VIETScarboroughFair.104.tooltip days = 3 random = 3 }
+		narrative_event = { id = VIETScarboroughFair.104 tooltip = VIETScarboroughFair.104.tooltip days = 3 random = 3 }
 	}
 }
 
@@ -4526,7 +4585,7 @@ narrative_event = {
 
 	option = {
 		name = VIETScarboroughFair.104.a
-		character_event = { id = VIETScarboroughFair.105 tooltip = VIETScarboroughFair.105.tooltip days = 3 random = 3 }
+		narrative_event = { id = VIETScarboroughFair.105 tooltip = VIETScarboroughFair.105.tooltip days = 3 random = 3 }
 	}
 }
 
@@ -4571,16 +4630,16 @@ narrative_event = {
 				years = 100
 			}
 			random_list = {  # Small chance of having some unusual memorable trait
-				1 = { add_trait = blinded }
-				1 = { add_trait = dwarf }
-				1 = { add_trait = fair }
-				1 = { add_trait = tall }
-				1 = { add_trait = imposing }
-				1 = { add_trait = maimed }
-				1 = { add_trait = genius }
-				1 = { add_trait = quick }
-				1 = { add_trait = strong }
-				50 = {}
+				5 = { add_trait = blinded }
+				5 = { add_trait = dwarf }
+				5 = { add_trait = fair }
+				5 = { add_trait = tall }
+				5 = { add_trait = imposing }
+				5 = { add_trait = maimed }
+				5 = { add_trait = genius }
+				5 = { add_trait = quick }
+				5 = { add_trait = strong }
+				55 = {}
 			}
 			add_character_modifier = {
 				name = VIET_obsessed_with_incest

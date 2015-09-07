@@ -24,7 +24,7 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		is_abroad = no        
+		is_abroad = no
 		capital_scope = {
 			OR = {
 				empire = { title = e_france }
@@ -91,7 +91,7 @@ character_event = {
 					empire = { title = e_france }
 				}
 			}
-			character_event = { id = ordepchains.1001 tooltip = ordepchains.1000.tooltip }
+			narrative_event = { id = ordepchains.1001 }
 		}
 		if = {
 			limit = {
@@ -99,7 +99,7 @@ character_event = {
 					duchy = { title = d_krete }
 				}
 			}
-			character_event = { id = ordepchains.1016 tooltip = ordepchains.1000.tooltip }
+			narrative_event = { id = ordepchains.1016 }
 		}
 	}
 }
@@ -121,7 +121,7 @@ narrative_event = {
 			NOT = { trait = slothful }
 			NOT = { trait = craven }
 		}
-		character_event = { id = ordepchains.1002 tooltip = ordepchains.1001.a.tooltip }
+		character_event = { id = ordepchains.1002 }
 	}
 	option = {
 		name = ordepchains.1001.b
@@ -137,13 +137,13 @@ narrative_event = {
 		hidden_tooltip = {
 			random_list = {
 				40 = {
-					character_event = { id = ordepchains.1010 }
+					narrative_event = { id = ordepchains.1010 }
 				}
 				40 = {
 					character_event = { id = ordepchains.1011 }
 				}
 				20 = {
-					character_event = { id = ordepchains.1012 }
+					narrative_event = { id = ordepchains.1012 }
 				}
 			}
 		}
@@ -178,7 +178,7 @@ narrative_event = {
 		hidden_tooltip = {
 			random_list = {
 				50 = {
-					character_event = { id = ordepchains.1013 }
+					narrative_event = { id = ordepchains.1013 }
 				}
 				50 = {
 					character_event = { id = ordepchains.1014 }
@@ -195,7 +195,7 @@ narrative_event = {
 				martial = 13
 			}
 		}
-		character_event = { id = ordepchains.1024 tooltip = ordepchains.1001.d.tooltip }
+		narrative_event = { id = ordepchains.1024 }
 	}
 	option  = {
 		name = ordepchains.1001.e
@@ -222,7 +222,7 @@ character_event = {
 						character_event = { id = ordepchains.1003 }
 					}
 					10 = {
-						character_event = { id = ordepchains.1004 }
+						narrative_event = { id = ordepchains.1004 }
 					}
 					15 = {
 						character_event = { id = ordepchains.1005 }
@@ -243,7 +243,7 @@ character_event = {
 						character_event = { id = ordepchains.1017 }
 					}
 					10 = {
-						character_event = { id = ordepchains.1018 }
+						narrative_event = { id = ordepchains.1018 }
 					}
 					15 = {
 						character_event = { id = ordepchains.1005 }
@@ -324,39 +324,37 @@ character_event = {
 			}
 			random_list = {
 				60 = {
-					character_event = { id = ordepchains.1007 tooltip = ordepchains.1007.tooltip }
+					narrative_event = { id = ordepchains.1007 }
 				}
 				30 = {
-					character_event = { id = ordepchains.1008 tooltip = ordepchains.1008.tooltip }
+					narrative_event = { id = ordepchains.1008 }
 				}
 				10 = {
-					character_event = { id = ordepchains.1009 tooltip = ordepchains.1009.tooltip }
+					narrative_event = { id = ordepchains.1009 }
 				}
 			}
 		}
 		if = {
 			limit = {
-				AND = {
 					NOT = { trait = strong }
 					NOT = { trait = agile }
-				}
 			}
 			random_list = {
 				40 = {
-					character_event = { id = ordepchains.1007 tooltip = ordepchains.1007.tooltip }
+					narrative_event = { id = ordepchains.1007 }
 				}
 				45 = {
-					character_event = { id = ordepchains.1008 tooltip = ordepchains.1008.tooltip }
+					narrative_event = { id = ordepchains.1008 }
 				}
 				15 = {
-					character_event = { id = ordepchains.1009 tooltip = ordepchains.1009.tooltip }
+					narrative_event = { id = ordepchains.1009 }
 				}
 			}
 		}
 	}
 	option = {
 		name = ordepchains.1006.b
-		prestige = -15
+		prestige = -75
 	}
 }
 
@@ -369,7 +367,7 @@ narrative_event = {
 	is_triggered_only = yes
 	option = {
 		name = ordepchains.1007.a
-		prestige = 20
+		prestige = 100
 	}
 }
 
@@ -383,7 +381,7 @@ narrative_event = {
 	option = {
 		name = ordepchains.1008.a
 		add_trait = wounded
-		prestige = 10
+		prestige = 50
 	}
 }
 
@@ -458,16 +456,15 @@ narrative_event = {
 		random_courtier = {
 			limit = {
 				is_female = yes
-				NOT = { is_close_relative = ROOT }
 				NOT = {
 					trait = homosexual
 				}
 				NOT = {
 					trait = celibate
 				}
-				is_adult = yes
+				age = 12
 				NOT = {
-					age = 50
+					age = 35
 				}
 				has_epidemic = no
 				is_ill = no
@@ -496,9 +493,9 @@ character_event = {
 				NOT = {
 					trait = celibate
 				}
-				is_adult = yes
+				age = 12
 				NOT = {
-					age = 50
+					age = 35
 				}
 				has_epidemic = no
 				is_ill = no
@@ -566,7 +563,7 @@ narrative_event = {
 			NOT = { trait = slothful }
 			NOT = { trait = craven }
 		}
-		character_event = { id = ordepchains.1002 tooltip = ordepchains.1001.a.tooltip }
+		character_event = { id = ordepchains.1002 }
 	}
 	option = {
 		name = ordepchains.1001.b
@@ -582,13 +579,13 @@ narrative_event = {
 		hidden_tooltip = {
 			random_list = {
 				40 = {
-					character_event = { id = ordepchains.1010 }
+					narrative_event = { id = ordepchains.1010 }
 				}
 				40 = {
 					character_event = { id = ordepchains.1011 }
 				}
 				20 = {
-					character_event = { id = ordepchains.1012 }
+					narrative_event = { id = ordepchains.1012 }
 				}
 			}
 		}
@@ -596,7 +593,6 @@ narrative_event = {
 	option = {
 		name = ordepchains.1001.c
 		trigger = {
-			is_female = no
 			has_lover = no
 			OR = {
 				trait = lustful
@@ -611,9 +607,9 @@ narrative_event = {
 				NOT = {
 					trait = celibate
 				}
-				is_adult = yes
+				age = 12
 				NOT = {
-					age = 50
+					age = 35
 				}
 				has_epidemic = no
 				is_ill = no
@@ -623,7 +619,7 @@ narrative_event = {
 		hidden_tooltip = {
 			random_list = {
 				50 = {
-					character_event = { id = ordepchains.1013 }
+					narrative_event = { id = ordepchains.1013 }
 				}
 				50 = {
 					character_event = { id = ordepchains.1014 }
@@ -642,7 +638,7 @@ narrative_event = {
 				}
 			}
 		}
-		character_event = { id = ordepchains.1024 tooltip = ordepchains.1016.d.tooltip }
+		narrative_event = { id = ordepchains.1024 }
 	}
 	option  = {
 		name = ordepchains.1001.e
@@ -713,20 +709,18 @@ character_event = {
 		}
 		if = {
 			limit = {
-				AND = {
 					NOT = { trait = brave }
 					NOT = { trait = agile }
-				}
 			}
 			random_list = {
 				40 = {
-					character_event = { id = ordepchains.1020 tooltip = ordepchains.1020.tooltip }
+					character_event = { id = ordepchains.1020 }
 				}
 				45 = {
-					character_event = { id = ordepchains.1021 tooltip = ordepchains.1021.tooltip }
+					character_event = { id = ordepchains.1021 }
 				}
 				15 = {
-					character_event = { id = ordepchains.1022 tooltip = ordepchains.1022.tooltip }
+					character_event = { id = ordepchains.1022 }
 				}
 			}
 		}
@@ -747,7 +741,7 @@ character_event = {
 					character_event = { id = ordepchains.1017 }
 				}
 				20 = {
-					character_event = { id = ordepchains.1018 }
+					narrative_event = { id = ordepchains.1018 }
 				}
 				25 = {
 					character_event = { id = ordepchains.1005 }
@@ -768,14 +762,14 @@ character_event = {
 	is_triggered_only = yes
 	option = {
 		name = ordepchains.1021.a
-		prestige = -15
+		prestige = -30
 		hidden_tooltip = {
 			random_list = {
 				35 = {
 					character_event = { id = ordepchains.1017 }
 				}
 				20 = {
-					character_event = { id = ordepchains.1018 }
+					narrative_event = { id = ordepchains.1018 }
 				}
 				25 = {
 					character_event = { id = ordepchains.1005 }
@@ -803,7 +797,7 @@ character_event = {
 					character_event = { id = ordepchains.1017 }
 				}
 				20 = {
-					character_event = { id = ordepchains.1018 }
+					narrative_event = { id = ordepchains.1018 }
 				}
 				25 = {
 					character_event = { id = ordepchains.1005 }
@@ -830,7 +824,7 @@ character_event = {
 		}
 	}
 }
-		
+
 #You think about ancient history - Minoan Version
 narrative_event = {
 	id = ordepchains.1024

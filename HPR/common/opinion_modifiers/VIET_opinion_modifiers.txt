@@ -196,3 +196,11 @@ opinion_is_mordred = {
 VIET_opinion_great_gift = {
 	opinion = 30
 }
+
+opinion_dont_care = {
+	opinion = -30
+}
+
+opinion_fun_banter = {
+	opinion = 25
+}

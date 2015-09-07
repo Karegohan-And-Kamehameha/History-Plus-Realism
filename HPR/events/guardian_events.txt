@@ -16,9 +16,9 @@ character_event = {
 	id = 2000
 	desc = EVTDESC2000
 	picture = GFX_evt_child_play
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA2000 # Encourage Gluttony
 		ai_chance = {
@@ -40,7 +40,7 @@ character_event = {
 				trait = temperate
 			}
 		}
-		
+
 		if = {
 			limit = {
 				trait = temperate
@@ -85,7 +85,7 @@ character_event = {
 				trait = gluttonous
 			}
 		}
-		
+
 		if = {
 			limit = { religion = jain }
 			piety = -20
@@ -108,7 +108,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC2000 # Talk to Him about moderation.
 		trigger = {
@@ -199,12 +199,12 @@ character_event = {
 	id = 2010
 	desc = EVTDESC2010
 	picture = GFX_evt_child_play
-	
+
 	is_triggered_only = yes
 
 	option = {
 		name = EVTOPTA2010 # Encourage
-		ai_chance = { 
+		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 5
@@ -440,7 +440,7 @@ character_event = {
 				trait = greedy
 			}
 		}
-		
+
 		if = {
 			limit = { religion = jain }
 			piety = -20
@@ -784,7 +784,7 @@ character_event = {
 				trait = slothful
 			}
 		}
-		
+
 		if = {
 			limit = { religion = jain }
 			piety = -20
@@ -1158,7 +1158,7 @@ character_event = {
 				trait = slothful
 			}
 		}
-		
+
 		if = {
 			limit = { religion = jain }
 			piety = -20
@@ -1726,7 +1726,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				90 = { }
-				10 = {	
+				10 = {
 					add_trait = wroth
 					hidden_tooltip = {
 						ROOT = {
@@ -2159,7 +2159,7 @@ character_event = {
 				trait = wroth
 			}
 		}
-		
+
 		if = {
 			limit = { religion = jain }
 			piety = -20
@@ -2955,7 +2955,7 @@ character_event = {
 				trait = shy
 			}
 		}
-		
+
 		if = {
 			limit = { religion = jain }
 			piety = -20
@@ -2977,7 +2977,7 @@ character_event = {
 	}
 
 	option = {
-		name = EVTOPTC2170 # Talk to him 
+		name = EVTOPTC2170 # Talk to him
 		trigger = {
 			NOT = { trait = shy }
 		}
@@ -3621,7 +3621,7 @@ character_event = {
 				trait = greedy
 			}
 		}
-		
+
 		if = {
 			limit = { religion = jain }
 			piety = -20
@@ -3772,9 +3772,9 @@ character_event = {
 	id = 2484
 	desc = EVTDESC2484
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA2484
 	}
@@ -3935,11 +3935,9 @@ character_event = {
 		}
 		NOT = {
 			AND = {
-				OR = {
-					guardian = {
-						culture = saxon
-						location = { region = custom_england }
-					}
+				guardian = {
+					culture = saxon
+					location = { region = custom_england }
 				}
 				OR = {
 					culture_group = north_germanic
@@ -4519,7 +4517,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA38206 # Friends are overvalued commodity anyway 
+		name = EVTOPTA38206 # Friends are overvalued commodity anyway
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -4584,7 +4582,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA38207 # He can play only after school 
+		name = EVTOPTA38207 # He can play only after school
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -4655,7 +4653,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA38208 # Heathens are people just like us 
+		name = EVTOPTA38208 # Heathens are people just like us
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -4724,7 +4722,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA38209 # Let the child play, what harm could there be? 
+		name = EVTOPTA38209 # Let the child play, what harm could there be?
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -7409,7 +7407,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA38235 #the goal justifies the means. 
+		name = EVTOPTA38235 #the goal justifies the means.
 		ai_chance= {
 			factor = 1
 

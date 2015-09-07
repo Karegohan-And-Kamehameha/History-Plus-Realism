@@ -23,8 +23,6 @@ character_event = {
 	desc = VIETmisc.2500.desc
 	picture = GFX_evt_maiden
 
-	is_triggered_only = yes
-
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -214,8 +212,6 @@ character_event = {
 	desc = VIETmisc.2501.desc
 	picture = GFX_evt_recovery
 
-	is_triggered_only = yes
-
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -311,8 +307,6 @@ character_event = {
 	desc = VIETmisc.2502.desc
 	picture = GFX_evt_maiden
 
-	is_triggered_only = yes
-
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -326,14 +320,12 @@ character_event = {
 			trait = slothful
 			NOT = { trait = incapable }
 			NOT = { age = 35 }
-			AND = {
-				trait = humble
-				OR = {
-					trait = genius
-					trait = quick
-					trait = scholar
-					learning = 15
-				}
+			trait = humble
+			OR = {
+				trait = genius
+				trait = quick
+				trait = scholar
+				learning = 15
 			}
 			is_adult = yes
 		}
@@ -389,8 +381,7 @@ character_event = {
 			limit = {
 				trait = slothful
 				NOT = { trait = incapable }
-			NOT = { age = 35 }
-			AND = {
+				NOT = { age = 35 }
 				trait = humble
 				OR = {
 					trait = genius
@@ -398,7 +389,6 @@ character_event = {
 					trait = scholar
 					learning = 15
 				}
-			}
 				is_adult = yes
 			}
                      opinion = {
@@ -419,11 +409,11 @@ character_event = {
 			chance = 25
 			add_trait = humble
 		}
-		prestige = 2
+		prestige = 20
 	}
 	option = {#long live the patriarchy
 		name = VIETmisc.2502.c
-		piety = 1
+		piety = 10
 	}
 }
 
@@ -436,8 +426,6 @@ character_event = {
 	id = VIETmisc.2503
 	desc = VIETmisc.2503.desc
 	picture = GFX_evt_monk
-
-	is_triggered_only = yes
 
 	min_age = 16
 	only_rulers = yes
@@ -613,14 +601,14 @@ character_event = {
 		name = VIETmisc.2503.g
 
 		custom_tooltip = { text = dn_lunatic_g }
-              prestige = 3
+              prestige = 15
 	}
 
 	option = {# sweetrolls
 		name = VIETmisc.2503.h
 
 		custom_tooltip = { text = dn_lunatic_h }
-              prestige = 3
+              prestige = 15
 
                 add_character_modifier = {
                         name = eating_good_food
@@ -633,7 +621,7 @@ character_event = {
 		name = VIETmisc.2503.i
 
 		custom_tooltip = { text = dn_lunatic_i }
-              piety = 5
+              piety = 25
 
 	}
 
@@ -641,7 +629,7 @@ character_event = {
 		name = VIETmisc.2503.j
 
 		custom_tooltip = { text = dn_lunatic_j }
-              prestige = 5
+              prestige = 25
 
 	}
 
@@ -654,8 +642,6 @@ character_event = {
 	id = VIETmisc.2504
 	desc = VIETmisc.2504.desc
 	picture = GFX_evt_bad_news
-
-	is_triggered_only = yes
 
 	min_age = 16
 	only_rulers = yes
@@ -741,11 +727,11 @@ character_event = {
 				}
 			}
 		}
-		prestige = -3
+		prestige = -15
 	}
 	option = {#ok
 		name = VIETmisc.2504.b
-		prestige = -3
+		prestige = -15
 	}
 	option = {#ok
 		name = VIETmisc.2504.c
@@ -758,15 +744,15 @@ character_event = {
 				}
 			}
 		}
-		prestige = -3
+		prestige = -15
 	}
 	option = {#ok
 		name = VIETmisc.2504.d
-		prestige = -3
+		prestige = -15
 	}
 	option = {#ok
 		name = VIETmisc.2504.e
-		prestige = -3
+		prestige = -15
 	}
 }
 
@@ -778,8 +764,6 @@ character_event = {
 	id = VIETmisc.2505
 	desc = VIETmisc.2505.desc
 	picture = GFX_evt_busy_trading_dock_republic
-
-	is_triggered_only = yes
 
 	min_age = 16
 	only_rulers = yes
@@ -897,8 +881,6 @@ character_event = {
 	id = VIETmisc.2506
 	desc = VIETmisc.2506.desc
 	picture = GFX_evt_courtiers_talking
-
-	is_triggered_only = yes
 
 	min_age = 16
 	only_rulers = yes
@@ -1135,8 +1117,6 @@ character_event = {
 	desc = VIETmisc.2510.desc
 	picture = GFX_evt_nightmare
 
-	is_triggered_only = yes
-
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -1234,7 +1214,7 @@ character_event = {
 			is_female = yes
 			}
 		}
-		character_event = { id = VIETmisc.2511 tooltip = AAAARRRRGGGGHHHHHH }
+		character_event = { id = VIETmisc.2511 tooltip = VIETmisc.2511.tooltip }
 	}
 }
 
@@ -1372,8 +1352,6 @@ character_event = {
 	desc = VIETmisc.2512.desc
 	picture = GFX_evt_lunatic
 
-	is_triggered_only = yes
-
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -1481,7 +1459,7 @@ character_event = {
 
 	option = {#ok...
 		name = VIETmisc.2512.b
-		piety = 3
+		piety = 15
 		random_courtier = {
 			limit = {
 			religion = dulcinian
@@ -1509,7 +1487,7 @@ character_event = {
 
 	option = {#ok...
 		name = VIETmisc.2512.c
-		piety = 3
+		piety = 15
 		random_courtier = {
 			limit = {
 			religion = dulcinian
@@ -1560,9 +1538,9 @@ character_event = {
 		OR = {
 			culture = welsh
 			culture = cornish
-			culture = cumbrian
+			culture = pictish
 			culture = breton
-			culture = norsebriton
+			culture = gallawa
 		}
 	}
 
@@ -1660,7 +1638,7 @@ character_event = {
 
 	option = {
 		name = VIETmisc.2513.a
-		character_event = { id = VIETmisc.2514 days = 2 }
+		narrative_event = { id = VIETmisc.2514 days = 2 }
 	}
 	option = {
 		name = VIETmisc.2513.b
@@ -1729,7 +1707,7 @@ character_event = {
 
 	option = {
 		name = VIETmisc.2517.a
-		character_event = { id = VIETmisc.2518 days = 6 }
+		narrative_event = { id = VIETmisc.2518 days = 6 }
 	}
 	option = {
 		name = VIETmisc.2517.b
@@ -1771,9 +1749,9 @@ character_event = {
 		OR = {
 			culture = welsh
 			culture = cornish
-			culture = cumbrian
+			culture = pictish
 			culture = breton
-			culture = norsebriton
+			culture = gallawa
 		}
 	}
 
@@ -1885,7 +1863,7 @@ character_event = {
 	}
 	option = {
 		name = VIETmisc.2519.b
-		prestige = -5
+		prestige = -25
 	}
 }
 
@@ -1913,9 +1891,9 @@ character_event = {
 		OR = {
 			culture = welsh
 			culture = cornish
-			culture = cumbrian
+			culture = pictish
 			culture = breton
-			culture = norsebriton
+			culture = gallawa
 		}
 	}
 
@@ -2017,10 +1995,8 @@ character_event = {
 				is_adult = yes
 				prisoner = no
 				culture = saxon
-				AND = {
-					NOT = { trait = craven }
-					NOT = { trait = humble }
-				}
+				NOT = { trait = craven }
+				NOT = { trait = humble }
 			}
 			opinion = {
 				modifier = remove_kebal_insult
@@ -2039,12 +2015,10 @@ character_event = {
 					culture = cornish
 					culture = breton
 					culture = welsh
-					culture = cumbrian
+					culture = pictish
 				}
-				AND = {
-					NOT = { trait = just }
-					NOT = { trait = kind }
-				}
+				NOT = { trait = just }
+				NOT = { trait = kind }
 			}
 			opinion = {
 				modifier = remove_kebal_insult

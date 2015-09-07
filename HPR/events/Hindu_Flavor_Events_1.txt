@@ -18,15 +18,14 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
 		NOT = { trait = incapable }
-		NOT = { trait = vegetarian }
-		NOT = { religion = indian_group }
+		#NOT = { trait = vegetarian }
+		NOT = { religion_group = indian_group }
 		any_courtier = {
 			religion_group = indian_group
-			trait = vegetarian
 			OR = {
 				culture_group = indo_aryan_group
 				culture_group = dravidian_group
@@ -120,7 +119,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
 		NOT = { trait = incapable }
@@ -229,7 +228,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_global_flag = VIET_Immersion_On
+		#has_global_flag = VIET_Immersion_On
 		is_ruler = yes
 		is_adult = yes
 		NOT = { trait = incapable }
@@ -285,7 +284,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000109316"  # Spicy!
-		piety = 3
+		piety = 30
 	}
 
 	option = {

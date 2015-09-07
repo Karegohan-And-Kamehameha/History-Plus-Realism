@@ -16,7 +16,7 @@ character_event = {
 
 	is_triggered_only = yes
 
-	min_age = 16
+	min_age = 12
 
 	trigger = {
 		trait = pregnant
@@ -61,7 +61,7 @@ character_event = {
 		trigger = {
 			NOT = { trait = weak }
 		}
-		piety = 1
+		piety = 10
 	}
 
 	option = { #It hurts
@@ -69,7 +69,7 @@ character_event = {
 		trigger = {
 			trait = weak
 		}
-		piety = 1
+		piety = 10
 	}
 
 	option = { #stop it
@@ -78,7 +78,7 @@ character_event = {
 		trigger = {
 			trait = wroth
 		}
-		prestige = 1
+		prestige = 10
 	}
 }
 
@@ -91,7 +91,7 @@ character_event = {
 
 	is_triggered_only = yes
 
-	min_age = 16
+	min_age = 12
 	capable_only = yes
 	prisoner = no
 
@@ -175,7 +175,7 @@ character_event = {
 
 	is_triggered_only = yes
 
-	min_age = 16
+	min_age = 12
 	capable_only = yes
 	prisoner = no
 
@@ -185,7 +185,7 @@ character_event = {
 		num_of_children = 1
 		any_child = {
 			is_adult = no
-			age = 2
+			age = 4
 		}
 	}
 
@@ -227,11 +227,11 @@ character_event = {
 
 	option = { #It's gonna be a boy
 		name = "EVTOPTA1000109313"
-		prestige = 5
+		prestige = 25
 		random_child = {
 			limit = {
 				is_adult = no
-				age = 2
+				age = 4
 			}
 			opinion = {
 				modifier = opinion_happy
@@ -243,11 +243,11 @@ character_event = {
 
 	option = { #It's gonna be a girl
 		name = "EVTOPTB1000109313"
-		piety = 5
+		piety = 25
 		random_child = {
 			limit = {
 				is_adult = no
-				age = 2
+				age = 4
 			}
 			opinion = {
 				modifier = opinion_happy

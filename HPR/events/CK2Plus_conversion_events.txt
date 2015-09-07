@@ -17,12 +17,12 @@ character_event = {
 	desc = EVTDESC_GoPagan_125
 	picture = GFX_evt_library
 	border = GFX_event_normal_frame_religion
-	
+
 	only_playable = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "Way of Life"
 		has_focus = focus_scholarship
@@ -49,7 +49,7 @@ character_event = {
 			has_character_flag = refused_pagan_knowledge
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 		modifier = {
@@ -113,7 +113,7 @@ character_event = {
 			trait = slothful
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_125 # Pursue it
 		set_character_flag = seeks_pagan_knowledge
@@ -213,7 +213,7 @@ character_event = {
 	desc = EVTDESC_GoPagan_126
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
-	
+
 	only_playable = yes
 	min_age = 16
 	capable_only = yes
@@ -299,7 +299,7 @@ character_event = {
 				trait = sympathy_pagans
 			}
 		}
-		
+
 		set_character_flag = received_pagan_mystic
 		create_random_priest = {
 			random_traits = yes
@@ -521,7 +521,7 @@ character_event = {
 	desc = EVTDESC_GoPagan_127
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
-	
+
 	only_playable = yes
 	min_age = 16
 	capable_only = yes
@@ -580,7 +580,7 @@ character_event = {
 			has_character_flag = refused_pagan_knowledge
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -596,7 +596,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_opinion_modifier_target = {
 			limit = {
@@ -629,7 +629,7 @@ character_event = {
 			save_event_target_as = target_pagan_advisor
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_127 # Tell me more...
 		ai_chance = {
@@ -822,12 +822,12 @@ character_event = {
 	desc = EVTDESC_GoPagan_128
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	only_playable = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		OR = {
 			has_focus = focus_scholarship
@@ -887,7 +887,7 @@ character_event = {
 					capital_holding = { holding_type = temple }
 				}
 			}
-		}		
+		}
 		NOR = {
 			trait = cynical
 			religion = zoroastrian
@@ -902,11 +902,11 @@ character_event = {
 			has_character_flag = refused_pagan_knowledge
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	immediate = {
 		# liege first
 		if = {
@@ -1044,7 +1044,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_128 # I am not one of your faithful
 		trigger = {
@@ -1214,9 +1214,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_100
 	picture = GFX_evt_book_carolingian_script
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-		
+
 	option = {
 		name = EVTOPTA_GoPagan_100 #Zoroaster will lead us to enlightenment!
 		trigger = {
@@ -1656,9 +1656,9 @@ character_event = {
 #AI allowed to use the decision
 character_event = {
 	id = GoPagan.120
-	
+
 	hide_window = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -1684,7 +1684,7 @@ character_event = {
 			is_married = no
 			is_married_matrilineally = yes
 			spouse = { NOT = { religion = ROOT } }
-		}	
+		}
 		OR = {
 			is_ruler = no
 			NOT = { capital_holding = { holding_type = temple } }
@@ -1713,7 +1713,7 @@ character_event = {
 			has_character_flag = gone_pagan
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 200
 		modifier = {
@@ -1820,9 +1820,9 @@ character_event = {
 			factor = 5
 			independent = no
 			liege = { religion = ROOT }
-		}		
+		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -1889,9 +1889,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_130
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_130 # Convince him
 		trigger = { FROM = { prisoner = no } }
@@ -2151,14 +2151,12 @@ character_event = {
 			}
 			if = {
 				limit = {
-					AND = {
-						is_ruler = no
-						OR = {
-							is_married = ROOT
-							any_spouse = { is_father = ROOT }
-							any_spouse = { is_mother = ROOT }
-							any_spouse = { is_child_of = ROOT }
-						}
+					is_ruler = no
+					OR = {
+						is_married = ROOT
+						any_spouse = { is_father = ROOT }
+						any_spouse = { is_mother = ROOT }
+						any_spouse = { is_child_of = ROOT }
 					}
 					OR = {
 						is_close_relative = ROOT
@@ -3144,9 +3142,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_131
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		clr_character_flag = considering_conversion
 	}
@@ -3448,13 +3446,13 @@ character_event = {
 				add_trait = zealous
 				hidden_tooltip = { character_event = { id = 38269 } } #notification
 			}
-		}	
+		}
 		if = {
 			limit = { trait = cynical }
 			remove_trait = cynical
 		}
 		reverse_opinion = { who = FROM modifier = agreed_to_convert years = 20 }
-		hidden_tooltip = { 
+		hidden_tooltip = {
 			if = {
 				limit = { religion_group = indian_group }
 				set_character_flag = india_converted
@@ -3743,9 +3741,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_132
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 		reverse_opinion = { who = FROM modifier = converted_me years = 20 }
@@ -3758,9 +3756,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_133
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_133
 		reverse_opinion = { who = FROM modifier = opinion_mutual_respect multiplier = 2 years = 10 }
@@ -3772,7 +3770,7 @@ character_event = {
 	id = GoPagan.134
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	desc = {
 		trigger = {
 			FROM = {
@@ -3790,9 +3788,9 @@ character_event = {
 		trigger = { FROM = { has_character_flag = debate_failed } }
 		text = EVTDESC_GoPagan_134C
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_134 # Accept his decision
 		ai_chance = {
@@ -4249,13 +4247,13 @@ character_event = {
 	desc = EVTDESC_GoPagan_135
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		clr_character_flag = considering_conversion
 	}
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_135 # Agree
 		ai_chance = {
@@ -5039,9 +5037,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_136
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_136
 		if = {
@@ -5146,13 +5144,13 @@ character_event = {
 				add_trait = zealous
 				hidden_tooltip = { character_event = { id = 38269 } } #notification
 			}
-		}	
+		}
 		if = {
 			limit = { trait = cynical }
 			remove_trait = cynical
 		}
 		reverse_opinion = { who = FROMFROM modifier = agreed_to_convert years = 20 }
-		hidden_tooltip = { 
+		hidden_tooltip = {
 			if = {
 				limit = { religion_group = indian_group }
 				set_character_flag = india_converted
@@ -5179,9 +5177,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_137
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_137
 		reverse_opinion = { who = FROM modifier = converted_me years = 20 }
@@ -5194,9 +5192,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_138
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_138
 		if = {
@@ -5241,9 +5239,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_139
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_139
 		reverse_opinion = { who = FROM modifier = opinion_mutual_respect multiplier = 2 years = 10 }
@@ -5256,9 +5254,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_140
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_136
 		reverse_opinion = { who = FROMFROM modifier = opinion_mutual_respect years = 10 }
@@ -5271,9 +5269,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_141
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_141
 		piety = -100
@@ -5319,9 +5317,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_142
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_142
 		reverse_opinion = { who = FROMFROM modifier = opinion_failed_conversion years = 10 }
@@ -5334,13 +5332,13 @@ character_event = {
 	desc = EVTDESC_GoPagan_143
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		clr_character_flag = considering_conversion
 	}
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_143 # Agree
 		ai_chance = {
@@ -5528,7 +5526,7 @@ character_event = {
 		}
 		religion = FROM
 		reverse_opinion = { who = FROM modifier = DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ON_ACCEPT years = 10 }
-		hidden_tooltip = { 
+		hidden_tooltip = {
 			if = {
 				limit = { religion_group = indian_group }
 				set_character_flag = india_converted
@@ -5621,9 +5619,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_144
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 		reverse_opinion = { who = FROM modifier = opinion_demanded_conversion years = 20 }
@@ -5636,9 +5634,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_145
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_145 # Let it slide
 		ai_chance = {
@@ -5960,9 +5958,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_146
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		clr_character_flag = considering_conversion
 	}
@@ -6042,7 +6040,7 @@ character_event = {
 		religion = FROM
 		prisoner = no
 		opinion = { who = FROM modifier = opinion_demanded_conversion multiplier = 2 years = 20 }
-		hidden_tooltip = { 
+		hidden_tooltip = {
 			if = {
 				limit = { religion_group = indian_group }
 				set_character_flag = india_converted
@@ -6060,9 +6058,9 @@ character_event = {
 	desc = EVTDESC_GoPagan_150
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_adult = yes
 		prisoner = no
@@ -6094,7 +6092,7 @@ character_event = {
 			has_character_flag = sympathy_challenged
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -6114,7 +6112,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_courtier = {
 			limit = {
@@ -6133,7 +6131,7 @@ character_event = {
 			save_event_target_as = zealous_courtier
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_GoPagan_150 #Maybe our faith should be questioned
 		trigger = { NOT = { trait = cynical } }
@@ -6225,7 +6223,7 @@ character_event = {
 	id = GoPagan.155
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	desc = {
 		text = EVTDESC_GoPagan_155_manichean
 		trigger = { religion = manichean }
@@ -6242,9 +6240,9 @@ character_event = {
 		text = EVTDESC_GoPagan_155_cathar
 		trigger = { religion = cathar }
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 		hidden_tooltip = {
@@ -6291,7 +6289,7 @@ character_event = {
 		text = EVTDESC_GoPagan_156_cathar
 		trigger = { religion = cathar }
 	}
-	
+
 	is_triggered_only = yes
 	notification = yes
 
@@ -6321,7 +6319,7 @@ character_event = {
 		text = EVTDESC_GoPagan_157_cathar
 		trigger = { religion = cathar }
 	}
-	
+
 	is_triggered_only = yes
 	notification = yes
 

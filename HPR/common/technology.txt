@@ -83,8 +83,6 @@ TECH_GROUP_MILITARY = {
 
 TECH_GROUP_ECONOMY = {
 	TECH_CASTLE_CONSTRUCTION = { #castle buildings
-
-		}
 		1 = {
 			add_building = ca_militia_barracks_2
 			add_building = ca_barracks_3

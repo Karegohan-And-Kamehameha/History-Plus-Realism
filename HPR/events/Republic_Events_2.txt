@@ -15,7 +15,7 @@ character_event = {
 	ai = yes
 	capable_only = yes
 	prisoner = no
-	min_age = 18
+	min_age = 16
 	max_age = 30
 	only_men = yes
 
@@ -108,7 +108,7 @@ character_event = {
 					random_traits = yes
 					dynasty = random
 					female = yes
-					age = 17
+					age = 13
 					religion = FROM
 					culture = FROM
 				}
@@ -160,7 +160,7 @@ character_event = {
 					random_traits = yes
 					dynasty = random
 					female = yes
-					age = 21
+					age = 16
 					religion = FROM
 					culture = FROM
 				}
@@ -215,14 +215,14 @@ character_event = {
 		name = VIETmisc.3103.a
 		if = {
 			limit = {
-				NOT = { FROM = { age = 25 } }
+				NOT = { FROM = { age = 20 } }
 			}
 			FROM = {
 				create_character = {
 					random_traits = yes
 					dynasty = random
 					female = yes
-					age = 26
+					age = 21
 					religion = FROM
 					culture = FROM
 				}
@@ -264,7 +264,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				FROM = { age = 25 }
+				FROM = { age = 20 }
 			}
 			FROM = {
 				create_character = {
@@ -923,10 +923,7 @@ character_event = {
 		name = VIETmisc.3116.a
 		FROM = {
 			create_character = {
-				add_trait = lustful
-				add_trait = hedonist
-				add_trait = honest
-				add_trait = gregarious
+
 				random_traits = yes
 				dynasty = random
 				female = yes
@@ -940,6 +937,22 @@ character_event = {
 				random = {
 					chance = 25
 					add_trait = brave
+				}
+				random = {
+					chance = 25
+					add_trait = lustful
+				}
+				random = {
+					chance = 25
+					add_trait = hedonist
+				}
+				random = {
+					chance = 25
+					add_trait = honest
+				}
+				random = {
+					chance = 25
+					add_trait = gregarious
 				}
 				remove_trait = shy
 				remove_trait = craven
@@ -1061,7 +1074,7 @@ character_event = {
 		}
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			#culture_group = serindian
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
 			culture = bedouin_arabic
@@ -1091,7 +1104,7 @@ character_event = {
 			50 = { #Iranian
 				modifier = {
 					factor = 0
-					culture = iranian
+					culture_group = iranian
 				}
 				liege = {
 					character_event = { id = VIETmisc.3121 }
@@ -1302,7 +1315,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = sunni
-						culture = khorasani
+						culture = persian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1382,7 +1395,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = shiite
-						culture = khorasani
+						culture = persian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1462,7 +1475,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = zoroastrian
-						culture = khorasani
+						culture = persian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1493,7 +1506,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = chinese
+						culture = uyghur
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1509,7 +1522,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = manichean
-						culture = chinese
+						culture = uyghur
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1525,7 +1538,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = sunni
-						culture = chinese
+						culture = uyghur
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1541,7 +1554,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = jewish
-						culture = chinese_jewish
+						culture = uyghur
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1588,7 +1601,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = malay
+						culture = kannada
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1604,7 +1617,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = malay
+						culture = kannada
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1620,7 +1633,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = javanese
+						culture = kannada
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1636,7 +1649,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = javanese
+						culture = kannada
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1652,7 +1665,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = moluccan
+						culture = kannada
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1668,7 +1681,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = moluccan
+						culture = kannada
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1699,7 +1712,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = khmer
+						culture = tamil
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1715,7 +1728,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = vietnamese
+						culture = telugu
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1731,7 +1744,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = cham
+						culture = kannada
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1747,7 +1760,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = hindu
-						culture = khmer
+						culture = tamil
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1786,7 +1799,7 @@ character_event = {
 		}
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			#culture_group = serindian
 			culture_group = indo_aryan_group
 			liege = {
 				capital_scope = {
@@ -1794,11 +1807,11 @@ character_event = {
 						empire = { title = e_persia }
 						empire = { title = e_rajastan }
 						empire = { title = e_india }
-						empire = { title = e_turkestan }
+						empire = { title = e_ottoman }
 						kingdom = { title = k_mesopotamia }
 						kingdom = { title = k_oman }
 						kingdom = { title = k_persia }
-						kingdom = { title = k_sogdiana }
+						kingdom = { title = k_khwarizm }
 					}
 				}
 			}
@@ -1818,11 +1831,9 @@ character_event = {
 	}
 
 	immediate = {
-		random_list = {
 			liege = {
 				character_event = { id = VIETmisc.3126 }
 			}
-		}
 	}
 
 	option = {
@@ -1850,7 +1861,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = soghdian
+						culture = sogdian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1867,7 +1878,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = manichean
-						culture = soghdian
+						culture = sogdian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1884,7 +1895,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = zoroastrian
-						culture = soghdian
+						culture = sogdian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1901,7 +1912,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = khotanese
+						culture = uyghur
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1918,7 +1929,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = buddhist
-						culture = tokharian
+						culture = tocharian
 					}
 					new_character = {
 						add_spouse = PREV
@@ -1935,7 +1946,7 @@ character_event = {
 						female = yes
 						# age = FROM
 						religion = manichean
-						culture = tokharian
+						culture = tocharian
 					}
 					new_character = {
 						add_spouse = PREV

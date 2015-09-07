@@ -16,8 +16,8 @@ character_event = {
 
 	is_triggered_only = yes
 
-	min_age = 9
-	max_age = 16
+	min_age = 8
+	max_age = 12
 	capable_only = yes
 	prisoner = no
 
@@ -81,9 +81,9 @@ character_event = {
 			NOT = {
 				sibling = ROOT
 			}
-			age = 9
+			age = 8
 			NOT = {
-				age = 16
+				age = 12
 			}
 			opinion = { who = ROOT value = 40 }
 		}
@@ -249,9 +249,9 @@ character_event = {
 				NOT = {
 					sibling = ROOT
 				}
-				age = 9
+				age = 8
 				NOT = {
-					age = 16
+					age = 12
 				}
 				opinion = { who = ROOT value = 40 }
 			}
@@ -697,7 +697,7 @@ character_event = {
 				30 = { remove_trait = chaste }
 			}
 		}
-		prestige = 5
+		prestige = 25
 		random_lover = {
 			limit = {
 				NOT = { trait = celibate }
@@ -743,8 +743,8 @@ character_event = {
 				trait = lustful
 			}
 		}
-		prestige = -5
-		piety = 10
+		prestige = -25
+		piety = 50
 		random_lover = {
 			limit = {
 				NOT = { trait = celibate }
@@ -820,8 +820,8 @@ character_event = {
 				30 = { add_trait = deceitful }
 			}
 		}
-		prestige = 10
-		piety = -5
+		prestige = 50
+		piety = -25
 	}
 }
 
@@ -1180,8 +1180,8 @@ character_event = {
 				years = 1
 			}
 		}
-		prestige = 3
-		piety = 3
+		prestige = 20
+		piety = 20
 	}
 	option = {
 		name = "EVTOPTB1000109341" #Act more modestly
@@ -1226,8 +1226,8 @@ character_event = {
 				30 = { remove_trait = lustful }
 			}
 		}
-		piety = 1
-		prestige = 1
+		piety = 10
+		prestige = 10
 	}
 	option = {
 		name = "EVTOPTC1000109341" #NO
@@ -1284,7 +1284,7 @@ character_event = {
 
 	is_triggered_only = yes
 
-	min_age = 16
+	min_age = 14
 	max_age = 40
 	capable_only = yes
 	prisoner = no
@@ -1375,10 +1375,7 @@ character_event = {
 					NOT = { trait = proud }
 				}
 			}
-			NOT = {
-				sibling = ROOT
-			}
-			is_adult = yes
+			age = 12
 			NOT = { age = 40 }
 		}
 	}
@@ -1462,7 +1459,7 @@ character_event = {
 				30 = { add_trait = chaste }
 			}
 		}
-		piety = 2
+		piety = 20
 	}
 
 	option = { #Friendship
@@ -1594,10 +1591,7 @@ character_event = {
 						NOT = { trait = proud }
 					}
 				}
-				NOT = {
-					sibling = ROOT
-				}
-				is_adult = yes
+				age = 12
 				NOT = { age = 40 }
 			}
 			opinion = {
@@ -1611,7 +1605,7 @@ character_event = {
 				years = 100
 			}
 		}
-		prestige = 1
+		prestige = 10
 	}
 	option = { #LOVE!
 		name = "EVTOPTC1000109342"
@@ -1742,10 +1736,7 @@ character_event = {
 						NOT = { trait = proud }
 					}
 				}
-				NOT = {
-					sibling = ROOT
-				}
-				is_adult = yes
+				age = 12
 				NOT = { age = 40 }
 			}
 			add_lover = ROOT

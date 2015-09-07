@@ -493,7 +493,6 @@ character_event = {
 letter_event = {
 	id = 20392
 	desc = "EVTDESC20392"
-	picture = GFX_evt_large_army
 
 	is_triggered_only = yes
 
@@ -542,7 +541,7 @@ character_event = {
 
 	mean_time_to_happen = {
 		months = 480
-		
+
 		modifier = {
 			factor = 1.33
 			has_global_flag = hardcore_mode
@@ -710,7 +709,7 @@ character_event = {
 		}
 		location = {
 			any_province_lord = {
-				NOR = { 
+				NOR = {
 					is_liege_of = ROOT
 					character = ROOT
 				}
@@ -953,7 +952,7 @@ character_event = {
 
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		liege = {
 			is_adult = yes
@@ -977,17 +976,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
-		
+
 		modifier = {
 			factor = 3.0
 			liege = {
 				tier = count
 			}
 		}
-		
+
 		modifier = {
 			factor = 1.25
 			NOT = { martial = 2 }
@@ -1025,10 +1024,10 @@ character_event = {
 			martial = 13
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA20221
-		
+
 		prestige = 50
 		hidden_tooltip  = {
 			liege = { character_event = { id = 20222 } }
@@ -1042,9 +1041,9 @@ character_event = {
 	desc = EVTDESC20222
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		capital_scope = {
 			ROOT = {
@@ -1092,13 +1091,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		clr_character_flag = tribal_organize_raid_troops
 		set_character_flag = tribal_organize_raid_troops
-		
+
 		character_event = { id = 20223 days = 182 random = 30 }
 	}
-	
+
 	option = {
 		name = EVTOPTA20222
 		opinion = {
@@ -1112,11 +1111,11 @@ character_event = {
 # 20223: Hidden ping event to check the status of the raiders
 character_event = {
 	id = 20223
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -1144,9 +1143,9 @@ character_event = {
 	desc = EVTDESC20224
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA20224
 		scaled_wealth = -0.5
