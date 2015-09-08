@@ -1,31 +1,3 @@
-#GENERAL;;;;;;;;;;;;;;x
-traveling;Traveling;;;;;;;;;;;;;x
-traveling_desc;This character is currently away from home, traveling for business or pleasure;;;;;;;;;;;;;x
-prepare_for_traveling;Prepare for some traveling;;;;;;;;;;;;;x
-survey_realm;Survey Realm;;;;;;;;;;;;;x
-survey_realm_desc;Travel around the realm and see how it is doing;;;;;;;;;;;;;x
-claim_byzantine_empire;Claim the Byzantine Empire;;;;;;;;;;;;;x
-claim_byzantine_empire_desc;Receive a weak claim on the Byzantine Empire.;;;;;;;;;;;;;x
-employ_soldier;Invite Soldier to Court;;;;;;;;;;;;;x
-employ_soldier_desc;Invite a promising soldier to court, to aid with military matters.;;;;;;;;;;;;;x
-employ_spy;Invite Spy to Court;;;;;;;;;;;;;x
-employ_spy_desc;Invite a promising spy to court, to aid with matters of intrigue.;;;;;;;;;;;;;x
-employ_diplomat;Invite Diplomat to Court;;;;;;;;;;;;;x
-employ_diplomat_desc;Invite a promising diplomat to court, to aid with diplomatic matters.;;;;;;;;;;;;;x
-employ_eunuch;Employ an Eunuch;Employ an Eunuch;Employ an Eunuch;;Employ an Eunuch;;;;;;;;;x
-employ_eunuch_desc;Promote one of your eunuch servants to one of your courtiers.;Promote one of your eunuch servants to one of your courtiers.;Promote one of your eunuch servants to one of your courtiers.;;Promote one of your eunuch servants to one of your courtiers.;;;;;;;;;x
-change_primary_wife;Change Primary Wife;Change Primary Wife;Change Primary Wife;;Change Primary Wife;;;;;;;;;x
-change_primary_wife_desc;Change your primary wife if you don't like your current one.;Change your primary wife if you don't like your current one.;Change your primary wife if you don't like your current one.;;Change your primary wife if you don't like your current one.;;;;;;;;;x
-perform_sacrifice;Perform a Great Sacrifice to the Gods;Perform a Great Sacrifice to the Gods;Perform a Great Sacrifice to the Gods;;Perform a Great Sacrifice to the Gods;;;;;;;;;x
-perform_sacrifice_desc;Offer a sacrifice to the deities in a days-long ceremony, in the hope of receiving great blessings from the gods.;Offer a sacrifice to the deities in a days-long ceremony, in the hope of receiving great blessings from the gods.;Offer a sacrifice to the deities in a days-long ceremony, in the hope of receiving great blessings from the gods.;;Offer a sacrifice to the deities in a days-long ceremony, in the hope of receiving great blessings from the gods.;;;;;;;;;x
-sacrifice_to_deities;Let us perform the proper ceremonies and rituals!;Let us perform the proper ceremonies and rituals!;Let us perform the proper ceremonies and rituals!;;Let us perform the proper ceremonies and rituals!;;;;;;;;;x
-take_courtier_as_concubine;Take a Concubine;;;;;;;;;;;;;x
-take_courtier_as_concubine_desc;Take a concubine for whatever purposes;;;;;;;;;;;;;x
-already_adopted_local_pagan_beliefs;Never adopted local pagan beliefs before (i.e. can only do once in a lifetime);;;;;;;;;;;;;x
-adopt_local_pagan_beliefs;Adopt Local Pagan Beliefs;;;;;;;;;;;;;x
-adopt_local_pagan_beliefs_desc;You currently worship different spirits and deities than the ones that reside in your realm. Perhaps it's time to placate and appease these local spirits and deities instead.;;;;;;;;;;;;;x
-adopt_a_child;Adopt a Child;;;;;;;;;;;;;x
-adopt_a_child_desc;Since you don't have any heirs, you can adopt an orphaned noble child as your own.;;;;;;;;;;;;;x
 #MISC DECISION EVENTS;;;;;;;;;;;;;;x
 VIETmisc.3.desc;I am fearful for the future of my dynasty, as I have no heirs. As such, I've decided to adopt an orphan child from a local noble family as my own.;;;;;;;;;;;;;x
 VIETmisc.3.a;I will adopt a boy.;;;;;;;;;;;;;x

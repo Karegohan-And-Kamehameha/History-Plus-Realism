@@ -6,6 +6,11 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 The music mod is now available for download at<br> https://mega.nz/#!gxt1xSRB!7YgAoQUS-iCiN6C_Ghr3bzbVnXYhqa0QmcMiGy2szB4 <br>
 
 <b>Changelog:</b><br>
+<b>v0.4.1:</b><br>
+-Trait tweaks and changes.<br>
+-Focuses rebalance. Now focuses also have negative effects (results of neglecting areas outside the focus) and include bonuses to various modifiers instead of just stats.<br>
+-Increased piety hit for castration and blinding of prisoners to 100 (up from 10).<br>
+-Misc. bugfixes.<br>
 <b>v0.4:</b><br>
 -Major events overhaul. Bonuses of VIET events have been increased drastically (from 5 to 10 times in most cases). Now these events actually matter, not just display some text and because they matter, their frequency of appearance has been decreased (yearly pulse events are now bi yearly, bi yearly are five yearly and five yearly are decade pulse).<br>
 -Fixed over 500 event related bugs, according to the Validator.<br>
@@ -56,11 +61,11 @@ Fear is currently accumulated through acts of cruelty, such as torturing, blindi
 -Various other small tweaks and changes.<br>
 
 <b>TODO:</b><br>
--Rebalance traits and focuses.<br>
 -General balance tweaks.<br>
 -Tweaking more numbers for historical accuracy.<br>
 -Testing and debugging.<br>
 -Clean up unused scripts and assets.<br>
 
 <b>Known issues:</b><br>
--Display of religions is not perfect due to the modified religion icon strip, but it's tolerable and no longer produces glitches with new CK2+ religions.
+-Display of religions is not perfect due to the modified religion icon strip, but it's tolerable and no longer produces glitches with new CK2+ religions.<br>
+-Due to the increased amount of focus modifiers, the "Select" button no longer fits into the focus selection window. Some other minor focus display issues exist as well.

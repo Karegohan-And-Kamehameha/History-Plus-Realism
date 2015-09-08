@@ -10,19 +10,19 @@
 
 focus_rulership = {
 	type = character
-	
+
 	modifier_name = "RULERSHIP_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
 		prisoner = no
 		NOT = { trait = incapable }
 	}
-	
+
 	# AI Pick chance - based on personality, not needs!
 	chance = {
 		factor = 100
@@ -65,12 +65,12 @@ focus_rulership = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
@@ -78,29 +78,32 @@ focus_rulership = {
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	stewardship = 3
+	martial = -1
+	intrigue = -1
+	global_tax_modifier = 0.1
 }
 
 focus_business = {
 	type = character
-	
+
 	modifier_name = "BUSINESS_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
 		prisoner = no
 		NOT = { trait = incapable }
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
@@ -160,12 +163,12 @@ focus_business = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
@@ -173,20 +176,22 @@ focus_business = {
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	stewardship = 2
+	martial = -1
 	town_opinion = 20
+	global_tradevalue = 20
 }
 
 focus_seduction = {
 	type = character
-	
+
 	modifier_name = "SEDUCTION_FOCUS"
-	
+
 	potential = {
 		OR = {
 			NAND = {
@@ -196,7 +201,7 @@ focus_seduction = {
 			trait = bad_priest_christian
 		}
 	}
-	
+
 	allow = {
 		is_adult = yes
 		prisoner = no
@@ -217,11 +222,11 @@ focus_seduction = {
 			}
 		}
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 75
-		
+
 		modifier = {
 			factor = 0
 			trait = chaste
@@ -372,12 +377,12 @@ focus_seduction = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			trait = incapable
@@ -393,35 +398,36 @@ focus_seduction = {
 			}
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	intrigue = 2
+	learning = -1
 	fertility = 0.25
 	sex_appeal_opinion = 10
 }
 
 focus_intrigue = {
 	type = character
-	
+
 	modifier_name = "INTRIGUE_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
 		NOT = { trait = incapable }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
-		
+
 		modifier = {
 			factor = 0
 			trait = honest
@@ -512,12 +518,12 @@ focus_intrigue = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
@@ -525,23 +531,27 @@ focus_intrigue = {
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	intrigue = 3
+	stewardship = -1
+	learning = -1
+	plot_power_modifier = 0.1
+	plot_discovery_chance = 0.05
 }
 
 focus_hunting = {
 	type = character
-	
+
 	modifier_name = "HUNTING_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
 		prisoner = no
@@ -551,11 +561,11 @@ focus_hunting = {
 		NOT = { trait = incapable }
 		NOT = { trait = infirm }
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
-		
+
 		modifier = {
 			factor = 0.2
 			is_female = yes
@@ -593,12 +603,12 @@ focus_hunting = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
@@ -608,35 +618,36 @@ focus_hunting = {
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	martial = 2
+	intrigue = -1
 	health = 1
 }
 
 focus_war = {
 	type = character
-	
+
 	modifier_name = "WAR_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
 		NOT = { trait = incapable }
 		prisoner = no
 		NOT = { trait = infirm }
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
-		
+
 		modifier = {
 			factor = 0
 			OR = {
@@ -710,12 +721,12 @@ focus_war = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
@@ -724,19 +735,23 @@ focus_war = {
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	martial = 3
+	intrigue = -1
+	diplomacy = -1
+	land_morale = 0.1
+	land_organisation = 0.1
 }
 
 focus_carousing = {
 	type = character
-	
+
 	modifier_name = "CAROUSING_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 		OR = {
@@ -747,7 +762,7 @@ focus_carousing = {
 			trait = bad_priest_christian
 		}
 	}
-	
+
 	allow = {
 		OR = {
 			NOT = { religion_group = muslim }
@@ -768,7 +783,7 @@ focus_carousing = {
 		NOT = { trait = incapable }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
@@ -808,12 +823,12 @@ focus_carousing = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
@@ -826,23 +841,25 @@ focus_carousing = {
 			}
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	diplomacy = 3
+	martial = -2
+	general_opinion = 10
 }
 
 focus_family = {
 	type = character
-	
+
 	modifier_name = "FAMILY_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
 		prisoner = no
@@ -851,7 +868,7 @@ focus_family = {
 		NOT = { trait = perfecti }
 		NOT = { has_character_modifier = messalian_prayer }
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
@@ -933,12 +950,12 @@ focus_family = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
@@ -946,31 +963,32 @@ focus_family = {
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	diplomacy = 2
+	martial = -1
 	health = 1
 	fertility = 0.25
 }
 
 focus_scholarship = {
 	type = character
-	
+
 	modifier_name = "SCHOLARSHIP_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
 		NOT = { trait = incapable }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
@@ -1056,45 +1074,48 @@ focus_scholarship = {
 			NOT = { trait = cynical }
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			trait = incapable
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	learning = 3
+	intrigue = -1
+	martial = -1
+	tech_growth_modifier = 0.1
 }
 
 focus_theology = {
 	type = character
-	
+
 	modifier_name = "THEOLOGY_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
 		NOT = { trait = incapable }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
-		
+
 		modifier = {
 			factor = 0
 			trait = imbecile
@@ -1177,23 +1198,25 @@ focus_theology = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			trait = incapable
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	learning = 2
+	martial = -1
 	church_opinion = 20
+	monthly_character_piety = 0.1
 }

@@ -12,12 +12,12 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "UPPER_LEFT"
 		click_to_front = yes
-		
+
 		guiButtonType = {
 			name ="background_fv"
 			quadTextureSprite = "GFX_focusview_bg_area"
 			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"	
+			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="focusview_bg"
@@ -60,23 +60,23 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "label_text"
-			position = { x = 40 y = 400 }
+			position = { x = 30 y = 390 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 255
+			maxWidth = 300
 			text = ""
 			format = left
 		}
 		guiButtonType = {
 			name ="select_button"
 			quadTextureSprite = "GFX_standard_button_164"
-			position = { x = 92 y = 540 }
+			position = { x = 92 y = 600 }
 			buttonFont = "vic_18"
 			buttonText = "SELECT"
 			shortcut = "ENTER"
 		}
-		
+
 		guiButtonType = {
 			name ="Exit"
 			quadTextureSprite = "GFX_main_close_button"
@@ -84,7 +84,7 @@ guiTypes = {
 			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 		}
-		
+
 		# selected focus indicator
 		iconType = {
 			name ="focusicon_1_selected"
@@ -137,7 +137,7 @@ guiTypes = {
 			position = { x = 23 y = 154 }
 		}
 	}
-	
+
 	guiButtonType =
 	{
 		name = "focusicon"
@@ -145,7 +145,7 @@ guiTypes = {
 		position = { x= 0 y = 0 }
 		Orientation = "UPPER_LEFT"
 	}
-	
+
 	positionType = {
 		name = "focusicon_1"
 		position = { x = 180 y = 70 }

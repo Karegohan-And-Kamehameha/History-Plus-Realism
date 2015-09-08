@@ -22,7 +22,7 @@ character_event = {
 	id = VIETmisc.2500
 	desc = VIETmisc.2500.desc
 	picture = GFX_evt_maiden
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -211,7 +211,7 @@ character_event = {
 	id = VIETmisc.2501
 	desc = VIETmisc.2501.desc
 	picture = GFX_evt_recovery
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -306,7 +306,7 @@ character_event = {
 	id = VIETmisc.2502
 	desc = VIETmisc.2502.desc
 	picture = GFX_evt_maiden
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -426,7 +426,7 @@ character_event = {
 	id = VIETmisc.2503
 	desc = VIETmisc.2503.desc
 	picture = GFX_evt_monk
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -642,7 +642,7 @@ character_event = {
 	id = VIETmisc.2504
 	desc = VIETmisc.2504.desc
 	picture = GFX_evt_bad_news
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -764,7 +764,7 @@ character_event = {
 	id = VIETmisc.2505
 	desc = VIETmisc.2505.desc
 	picture = GFX_evt_busy_trading_dock_republic
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -881,7 +881,7 @@ character_event = {
 	id = VIETmisc.2506
 	desc = VIETmisc.2506.desc
 	picture = GFX_evt_courtiers_talking
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -1116,7 +1116,7 @@ character_event = {
 	id = VIETmisc.2510
 	desc = VIETmisc.2510.desc
 	picture = GFX_evt_nightmare
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes
@@ -1351,7 +1351,7 @@ character_event = {
 	id = VIETmisc.2512
 	desc = VIETmisc.2512.desc
 	picture = GFX_evt_lunatic
-
+	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
 	capable_only = yes

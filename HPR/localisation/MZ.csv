@@ -1,30 +1,3 @@
-emperor_iranian;Shahanshah;Shahanshah;Shahanshah;;Shahanshah;;;;;;;;;x
-king_iranian;Shah;Shah;Shah;;Shah;;;;;;;;;x
-king_female_iranian;Banebshen;Banebshen;Banebshen;;Banebshen;;;;;;;;;x
-duke_iranian;Satrap;Satrape;Satrap;;Sátrapa;;;;;;;;;x
-count_iranian;Marzban;Marzban;Marzban;;Marzban;;;;;;;;;x
-baron_iranian;Argbadh;Argbadh;Argbadh;;Argbadh;;;;;;;;;x
-barony_iranian;Arg;Arg;Arg;;Arg;;;;;;;;;x
-barony_of_iranian;Arg of;Arg de;Arg von;;Arg de;;;;;;;;;x
-county_iranian;Marzpanate;Marzpanat;Marzpanat;;Marzpanate;;;;;;;;;x
-county_of_iranian;Marzpanate of;Marzpanat de;Marzpanat von;;Marzpanate de;;;;;;;;;x
-duchy_iranian;Satrapy;Satrapie;Satrapy;;Satrapía;;;;;;;;;x
-duchy_of_iranian;Satrapy of;Satrapie de;Satrap von;;Satrapía de;;;;;;;;;x
-kingdom_iranian;Shahdom;Shahdom;Shahdom;;Shahdom;;;;;;;;;x
-kingdom_of_iranian;Shahdom of;Shahdom de;Shahdom von;;Shahdom de;;;;;;;;;x
-temple_baron_zoroastrian;Mobad;Mobad;Mobad;;Mobad;;;;;;;;;x
-temple_barony_zoroastrian;Atashkada;Atashkada;Atashkada;;Atashkada;;;;;;;;;x
-temple_barony_of_zoroastrian;Atashkada of;Atashkada de;Atashkada von;;Atashkada de;;;;;;;;;x
-job_spiritual_zoroastrian_group;Dastur;Dastur;Dastur;;Dastur;;;;;;;;;x
-job_spiritual_zoroastrian;Dastur;Dastur;Dastur;;Dastur;;;;;;;;;x
-job_spymaster_zoroastrian;Spasaka;Spasaka;Spasaka;;Spasaka;;;;;;;;;x
-job_chancellor_zoroastrian_group;Vuzorg Farmadar;Vuzorg Farmadar;Vuzorg Farmadar;;Vuzorg Farmadar;;;;;;;;;x
-job_marshal_zoroastrian_group;Eran Spahbod;Eran Spahbod;Eran Spahbod;;Eran Spahbod;;;;;;;;;x
-job_treasurer_zoroastrian_group;Ho Tokhshan Bod;Ho Tokhshan Bod;Ho Tokhshan Bod;;Ho Tokhshan Bod;;;;;;;;;x
-undergo_cleansing_ritual;Undergo Cleansing ritual (Bareshnum);;;;;;;;;;;;;x
-undergo_cleansing_ritual_desc;Pure body leads to pure heart which leads to pure spirit.;;;;;;;;;;;;;x
-convert_to_zoroastrianism;Convert to Zoroastrianism;;;;;;;;;;;;;x
-convert_to_zoroastrianism_desc;Convert to the faith of my ancestral forefathers!;;;;;;;;;;;;;x
 EVTNAME1000094001;Help in fighting the local bandits;;;;;;;;;;;;;x
 EVTDESC1000094001;You find yourself touring an impoverished province, when word reaches you of a band of ruffians terrorizing local farmers. You remember Zarathustra preaching not only to live righteously but to actively fight evil whenever one can.;;;;;;;;;;;;;x
 EVTOPTA1000094001;Hunt them down yourself;;;;;;;;;;;;;x

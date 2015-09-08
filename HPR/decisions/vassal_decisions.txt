@@ -200,7 +200,7 @@ targetted_decisions = {
 					add_trait = feared1
 				}
 			}
-				piety = -10
+				piety = -100
 			}
 			hidden_tooltip = {
 				mother = {
@@ -408,7 +408,7 @@ targetted_decisions = {
 					}
 					add_trait = feared1
 			}
-				piety = -10
+				piety = -100
 			}
 			hidden_tooltip = {
 				mother = {

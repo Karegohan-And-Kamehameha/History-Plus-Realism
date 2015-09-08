@@ -1,29 +1,5 @@
 EVTDESCjewmod.100;Some of our Jewish subjects have expressed a desire to serve at court.;;;;;;;;;;;;;x
 EVTOPTAjewmod.100;We'll find jobs for them.;;;;;;;;;;;;;x
-judaic;Judaic;Judaic;Judaic;;Judaic;;;;;;;;;x
-judaism;Jewish;Juif;Jewish;;Jewish;;;;;;;;;x
-judaism_group;Jewish;Juif;Jewish;;Jewish;;;;;;;;;x
-karaite;Karaite;Karaite;Karaite;;Karaite;;;;;;;;;x
-sephardic;Sephardic;Sephardic;Sephardic;;Sephardic;;;;;;;;;x
-ashkenazi;Ashkenazi;Ashkenazi;Ashkenazi;;Ashkenazi;;;;;;;;;x
-mizrahi;Mizrahi;Mizrahi;Mizrahi;;Mizrahi;;;;;;;;;x
-romaniote;Romaniote;Romaniote;Romaniote;;Romaniote;;;;;;;;;x
-israel_restorer;Restorer of Israel;;;;;;;;;;;;;x
-israel_restorer_desc;This character has, against all odds, reclaimed the promised land, Israel, to Jewish rule.;;;;;;;;;;;;;x
-jewishmarriage.1;I'm about to get married. Hopefully this girl won't be as forceful as my dear mother!;;;;;;;;;;;;;x
-jewishmarriage.1a;Oy vey!;;;;;;;;;;;;;x
-jewishmarriage.2;One of your Jewish courtiers, [From.GetFirstName], is no longer a bachelor. After a traditional Jewish wedding, he is now married to lovely young Jewish woman, who will now join your court.;;;;;;;;;;;;;x
-jewishmarriage.2a;Mazel tov!;;;;;;;;;;;;;x
-W_L_1000052002;http://www.jewishencyclopedia.com/articles/1554-annas;;;;;;;;;;;;x;
-W_L_1000052006;http://www.jewishencyclopedia.com/articles/3903-caiaphas;;;;;;;;;;;;x;
-W_L_1000052007;http://www.jewishencyclopedia.com/articles/8765-jonathan-b-anan;;;;;;;;;;;;x;
-W_L_1000052009;http://www.jewishencyclopedia.com/articles/3984-cantheras;;;;;;;;;;;;x;
-d_exilarch;The Exilarchy;;;;;;;;;;;;;x
-d_exilarch_karaite;The Karaite Exilarchy;;;;;;;;;;;;;x
-claim_descent_from_david;Claim Descent of David;;;;;;;;;;;;;x
-claim_descent_from_david_desc;Perhaps I should strengthen my legitimacy as King of Israel by claiming descent from this illustrious figure...;;;;;;;;;;;;;x
-house_of_david;House of David;;;;;;;;;;;;;x
-house_of_david_desc;This character is supposedly descended from the great king of Israel, David.;;;;;;;;;;;;;x
 #Israel and Aliyah;;;;;;;;;;;;;;x
 VIETjewish.0.desc;You have done the impossible and restored the holy land to Jewish rule. Someday, perhaps soon, Jews all over the world will speak your name in awe and honor you as a hero in the vein of Moses, David, or Judah Maccabee. The future of this new Kingdom of Israel is far from certain, for we are surrounded by enemeies near and far, but at least we know that today, [Root.Religion.GetRandomGodName] has delivered.;;;;;;;;;;;;;x
 VIETjewish.0.name;Israel Restored;;;;;;;;;;;;;x
@@ -110,12 +86,6 @@ exilarch.9.desc;Altough the exilarchy has been extinguished for one reason or an
 exilarch.9.a;I am the exilarch!;;;;;;;;;;;;;x
 exilarch.10.desc;Altough the exilarchy has been extinguished for one reason or another, my birthright as a member of the house of David, my eloquent speeches and my mastery of the Torah have won me many supporters who claim I should take the mantle of karaite exilarch. Clearly a great future awaits me!;;;;;;;;;;;;;x
 exilarch.10.a;I am the exilarch!;;;;;;;;;;;;;x
-#Israel Special Unit;;;;;;;;;;;;;;x
-d_israel_defense;Shield of the Third Temple;;;;;;;;;;;;;x
-israel_aliyah_can_now_recruit;Can now form a special holy order vassalized to the Kingdom of Israel via decision;;;;;;;;;;;;;x
-organize_israel_defense;Recruit Elite Israelite Unit;;;;;;;;;;;;;x
-organize_israel_defense;Recruit a group of experienced Jewish warriors from around the world into an elite unit, answerable only to the ruler of Israel;;;;;;;;;;;;;x
-israel_aliyah_are_coming;Has sufficient numbers of capable military men from aliyah (i.e. has seen relevent event);;;;;;;;;;;;;x
 VIETjewish.3.name;Defenders of Israel?;;;;;;;;;;;;;x
 VIETjewish.3.desc;Some Jews ‘making aliyah,’ or returning to Israel, have considerable military experience. Some of these men wish to form a special military unit, the "Shield of the Third Temple" - utilizing their diverse backgrounds and abilities, this ragtag band of unlikely heroes can defend Israel from its enemies. They now simply need our support.;;;;;;;;;;;;;x
 VIETjewish.3.a;We will set aside some funding and support as soon as we can!;;;;;;;;;;;;;x
@@ -219,51 +189,7 @@ EVTDESC1000109037;One of my Jewish courtiers has just returned from the funeral 
 EVTOPTA1000109037;I am sorry for your loss.;;;;;;;;;;;x
 EVTOPTB1000109037;You should think about converting now, before it’s too late!;;;;;;;;;;;x
 EVTOPTC1000109037;You should have no more tza’ar and only have simchas.;;;;;;;;;;;x
-#Frostschaden's Judaism mod;;;;;;;;;;;;;;x
-judaic;Judaic;;;;;;;;;;;;;x
-jewish;Rabbinic;;;;;;;;;;;;;x
-judaism;Jewish;Juif;Jewish;;Jewish;;;;;;;;;x
-karaite;Karaite;;;;;;;;;;;;;x
-judaeochristian;Judaeo-Christian;;;;;;;;;;;;;x
-messianist;Messianist;;;;;;;;;;;;;x
-samaritan;Samaritan;;;;;;;;;;;;;x
-sephardim;Sephardim;;;;;;;;;;;;;x
-ashkenazim;Ashkenazim;;;;;;;;;;;;;x
-mizrahim;Mizrahim;;;;;;;;;;;;;x
-falashim;Falashim;;;;;;;;;;;;;x
-khazar;Khazar;;;;;;;;;;;;;x
-romaniote;Romaniote;Romaniote;Romaniote;;Romaniote;;;;;;;;;x
-k_israel;Israel;;;;;;;;;;;;;x
-job_spiritual_jewish_group;Chief Rabbi;;;;;;;;;;;;;x
-temple_baron_jewish_group;Rabbi;;;;;;;;;;;;;x
-temple_count_jewish_group;Grand Rabbi;;;;;;;;;;;;;x
-temple_duke_jewish_group;Nagid;;;;;;;;;;;;;x
-temple_king_jewish_group;Grand Nagid;;;;;;;;;;;;;x
-king_judaic;Melekh;;;;;;;;;;;;;x
-kingdom_of_judaic;Mamlekhet of;;;;;;;;;;;;;x
-temple_kingdom_of_jewish_group;Grand Sanhedrin of;;;;;;;;;;;;;x
-temple_duchy_of_jewish_group;Sanhedrin of;;;;;;;;;;;;;x
-temple_county_of_jewish_group;Beit Din of;;;;;;;;;;;;;x
-temple_barony_of_jewish_group;Synagogue of;;;;;;;;;;;;;x
-KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
-KOHEN_GADOL_FOA;Your Holiness;;;;;;;;;;;;;x
-EXILARCH;Exilarch;;;;;;;;;;;;;x
-#d_exilarch;Karaite Jewry;;;;;;;;;;;;;x
-d_kohen_gadol;The Temple;;;;;;;;;;;;;x
-d_kohen_gadol_adj;High Priestly;;;;;;;;;;;;;x
-d_kohen_gadol_samaritan;Ar-Garizim;;;;;;;;;;;;;x
-d_kohen_gadol_samaritan_adj;High Priestly;;;;;;;;;;;;;x
-HOLY_WAR_JEWISH;Milkhemet Reshut;;;;;;;;;;;;;x
-THE_TORAH;The Torah;;;;;;;;;;;;;x
-GOD_HASHEM;HaShem;;;;;;;;;;;;;x
-GOD_SHEMA;Shema;;;;;;;;;;;;;x
-GOD_ADONAI;Adonai;;;;;;;;;;;;;x
 EVTDESC1000109107;You are not a descendant of David, and your claim is not recognized. With the end of the exilarchs the Karaites now look to different leaders.;;;;;;;;;x
 EVTOPTA1000109107;They will regret this!;;;;;;;;;x
-jewish_DESC;Mainstream Judaism.;;;;;;;;;;;;;x
-judaeochristian_DESC;A generic heresy encompassing the judaeochristians.;;;;;;;;;;;;;x
-karaite_DESC;Karaism only recognizes the Tanakh, and not the Oral Thora. It is led by the secular exilarch.;;;;;;;;;;;;;x
-messianist_DESC;A generic heresy encompassing the followers of different messiah claimants.;;;;;;;;;;;;;x
-samaritan_DESC;Closely related to Judaism, yet also quite distinct. Samaritans claim that they represent the proper Israelite worship before the Babylonian Exile.;;;;;;;;;;;;;x
 restore_temple;Restore the Temple.;;;;;;;;;;;;;x
 restore_temple_desc;The Jewish High Priesthood will be reestablished as the Temple is restored.;;;;;;;;;;;;;x
