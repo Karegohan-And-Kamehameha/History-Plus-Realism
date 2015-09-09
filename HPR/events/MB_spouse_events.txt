@@ -1,0 +1,4503 @@
+namespace = DAMO
+#Husband is informed that wife divorced him
+character_event = {
+	id = DAMO.94
+	desc = DAMO94EVTDESC
+	picture = "GFX_DAMO_queen"
+
+	is_triggered_only = yes
+
+	option = {
+	name = CURSES
+
+		piety = -100
+		prestige = -100
+	}
+}
+#Husband decides to usurp; wife is ROOT, husband is FROM
+character_event = {
+	id = DAMO.100
+	desc = DAMO100EVTDESC
+	picture = GFX_DAMO_queen
+	border = GFX_event_normal_frame_intrigue
+	#major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DAMO100OPTADESC
+		ai_chance = {
+			factor = 100
+		}
+		trigger = {
+			is_ruler = yes
+			has_lover = yes
+			any_lover = {
+				NOT = {
+					character = FROM
+				}
+				is_female = no
+				is_priest = no
+				is_alive = yes
+				is_adult = yes
+				prisoner = no
+				NOT = {
+					trait = slothful
+					trait = content
+					trait = incapable
+					trait = craven
+					health_traits = 1
+				}
+			}
+		}
+		random_lover = {
+			limit = {
+				NOT = {
+					character = FROM
+				}
+				is_female = no
+				is_priest = no
+				is_alive = yes
+				is_adult = yes
+				prisoner = no
+				NOT = {
+					trait = slothful
+					trait = content
+					trait = incapable
+					trait = craven
+					health_traits = 1
+				}
+			}
+			character_event = {
+				id = DAMO.200
+				#tooltip = DAMO200TP
+			}
+		}
+	}
+
+	option = {
+		name = DAMO100OPTBDESC
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			any_dynasty_member = {
+				is_close_relative = ROOT
+				age = 16
+				prisoner = no
+				NOT = {
+					trait = incapable
+					health_traits = 1
+					trait = craven
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				any_dynasty_member = {
+					is_ruler = yes
+					is_adult = yes
+					prisoner = no
+					is_close_relative = ROOT
+					higher_tier_than = count
+					NOT = {
+						trait = incapable
+						health_traits = 1
+					}
+				}
+			}
+			set_character_flag = usurping_husband
+			random_dynasty_member = {
+				limit = {
+					is_ruler = yes
+					is_adult = yes
+					prisoner = no
+					is_close_relative = ROOT
+					higher_tier_than = count
+					NOT = {
+						trait = incapable
+						health_traits = 1
+					}
+				}
+				character_event = {
+					id = DAMO.210
+					tooltip = DAMO210TP
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = {
+					has_character_flag = usurping_husband
+				}
+				is_alive = yes
+				is_ruler = yes
+				any_dynasty_member = {
+					is_ruler = yes
+					is_adult = yes
+					prisoner = no
+					is_close_relative = ROOT
+					dynasty = ROOT
+					OR = {
+						is_female = no
+						AND = {
+							martial = 8
+							intrigue = 8
+							OR = {
+								AND = {
+									trait = proud
+									trait = brave
+								}
+								AND = {
+									trait = diligent
+									trait = brave
+								}
+								AND = {
+									trait = diligent
+									trait = proud
+								}
+								AND = {
+									trait = cruel
+									trait = wroth
+								}
+								AND = {
+									trait = cruel
+									trait = paranoid
+								}
+								AND = {
+									trait = paranoid
+									trait = wroth
+								}
+							}
+						}
+						trait = ambitious
+						trait = brilliant_strategist
+						trait = elusive_shadow
+						trait = grey_eminence
+						trait = quick
+						trait = genius
+						trait = strong
+					}
+					NOT = {
+						trait = craven
+						trait = slow
+						trait = imbecile
+						trait = incapable
+						health_traits = 1
+					}
+				}
+			}
+			set_character_flag = usurping_husband
+			random_dynasty_member = {
+				limit = {
+					is_ruler = yes
+					is_adult = yes
+					prisoner = no
+					is_close_relative = ROOT
+					dynasty = ROOT
+					OR = {
+						is_female = no
+						AND = {
+							martial = 8
+							intrigue = 8
+							OR = {
+								AND = {
+									trait = proud
+									trait = brave
+								}
+								AND = {
+									trait = diligent
+									trait = brave
+								}
+								AND = {
+									trait = diligent
+									trait = proud
+								}
+								AND = {
+									trait = cruel
+									trait = wroth
+								}
+								AND = {
+									trait = cruel
+									trait = paranoid
+								}
+								AND = {
+									trait = paranoid
+									trait = wroth
+								}
+							}
+						}
+						trait = ambitious
+						trait = brilliant_strategist
+						trait = elusive_shadow
+						trait = grey_eminence
+						trait = quick
+						trait = genius
+						trait = strong
+					}
+					NOT = {
+						trait = craven
+						trait = slow
+						trait = imbecile
+						trait = incapable
+						health_traits = 1
+					}
+				}
+				character_event = {
+					id = DAMO.210
+					tooltip = DAMO210TP
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { has_character_flag = usurping_husband }
+				father = {
+					NOT = {
+						dynasty = FROM
+					}
+					prisoner = no
+					NOT = {
+						trait = incapable
+						health_traits = 1
+						trait = craven
+					}
+				}
+			}
+			set_character_flag = usurping_husband
+			father = {
+				character_event = {
+					id = DAMO.210
+					#tooltip = DAMO210TP
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_character_flag = usurping_husband
+				}
+				any_child = {
+					is_female = no
+					is_adult = yes
+					prisoner = no
+					dynasty = ROOT
+					father = {
+						NOT = {
+							character = FROM
+						}
+					}
+					NOT = {
+						trait = incapable
+						trait = content
+						trait = craven
+						trait = slow
+						trait = imbecile
+						health_traits = 1
+					}
+				}
+			}
+			set_character_flag = usurping_husband
+			random_child = {
+				limit = {
+					is_female = no
+					is_adult = yes
+					prisoner = no
+					father = {
+						NOT = {
+							character = FROM
+						}
+					}
+					NOT = {
+						trait = incapable
+						trait = content
+						trait = craven
+						trait = slow
+						trait = imbecile
+						health_traits = 1
+					}
+				}
+				character_event = {
+					id = DAMO.210
+					#tooltip = DAMO210TP
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_character_flag = usurping_husband
+				}
+				any_sibling = {
+					is_female = no
+					is_adult = yes
+					prisoner = no
+					dynasty = ROOT
+					NOT = {
+						trait = craven
+						trait = incapable
+						health_traits = 1
+					}
+				}
+			}
+			set_character_flag = usurping_husband
+			random_sibling = {
+				limit = {
+					is_female = no
+					is_adult = yes
+					prisoner = no
+					dynasty = ROOT
+					NOT = { trait = incapable }
+					NOT = { trait = craven }
+					NOT = { health_traits = 1 }
+				}
+				character_event = {
+					id = DAMO.210
+					#tooltip = DAMO210TP
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_character_flag = usurping_husband }
+				is_ruler = yes
+				any_dynasty_member = {
+					is_female = no
+					is_ruler = no
+					is_adult = yes
+					prisoner = no
+					dynasty = ROOT
+					NOT = {
+						any_sibling = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						trait = craven
+						trait = incapable
+						health_traits = 1
+					}
+				}
+			}
+			set_character_flag = usurping_husband
+			random_dynasty_member = {
+				limit = {
+					is_female = no
+					is_adult = yes
+					prisoner = no
+					dynasty = ROOT
+					NOT = {
+						any_sibling = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						trait = incapable
+						trait = craven
+						health_traits = 1
+					}
+				}
+				character_event = {
+					id = DAMO.210
+					#tooltip = DAMO210TP
+				}
+			}
+		}
+		clr_character_flag = usurping_husband
+	}
+
+	option = {
+		name = DAMO100OPTCDESC # faithful councillor
+		ai_chance = {
+			factor = 25
+		}
+		trigger = {
+			any_courtier = {
+				NOT = {
+					character = FROM
+					any_lover = {
+						character = ROOT
+					}
+				}
+				is_female = no
+				is_alive = yes
+				is_adult = yes
+				is_councillor = yes
+				prisoner = no
+				lower_tier_than = count # they are primarily reliant on the wife's dynasty
+				opinion = {
+					who = liege
+					value = 70
+				}
+				NOT = {
+					trait = incapable
+					trait = craven
+					health_traits = 1
+				}
+			}
+		}
+		random_courtier = {
+			limit = {
+				NOT = {
+					character = FROM
+					any_lover = {
+						character = ROOT
+					}
+				}
+				is_councillor = yes
+				is_female = no
+				is_alive = yes
+				is_adult = yes
+				prisoner = no
+				lower_tier_than = count
+				opinion = {
+					who = liege
+					value = 70
+				}
+				NOT = {
+					trait = incapable
+					trait = craven
+					health_traits = 1
+				}
+			}
+			character_event = {
+				id = DAMO.209
+				tooltip = DAMO209TP
+			}
+		}
+	}
+
+	option = {
+		name = DAMO100OPTFDESC	#Friend
+		ai_chance = {
+			factor = 25
+		}
+		trigger = {
+			any_friend = {
+				NOT = {
+					character = FROM
+					any_lover = {
+						character = ROOT
+					}
+				}
+				is_female = no
+				is_alive = yes
+				is_adult = yes
+				is_councillor = yes
+				prisoner = no
+				opinion = {
+					who = ROOT
+					value = 70
+				}
+				NOT = {
+					trait = incapable
+					trait = craven
+					health_traits = 1
+				}
+			}
+		}
+		random_friend = {
+			limit = {
+				NOT = {
+					character = FROM
+					any_lover = {
+						character = ROOT
+					}
+				}
+				is_councillor = yes
+				is_female = no
+				is_alive = yes
+				is_adult = yes
+				prisoner = no
+				opinion = {
+					who = ROOT
+					value = 70
+				}
+				NOT = {
+					trait = incapable
+					trait = craven
+					health_traits = 1
+				}
+			}
+			character_event = {
+				id = DAMO.236
+			}
+		}
+	}
+
+	option = {
+		name = DAMO100OPTGDESC	#Husband's rival
+		ai_chance = {
+			factor = 25
+		}
+		trigger = {
+			FROM = {
+				any_rival = {
+					is_female = no
+					is_alive = yes
+					is_adult = yes
+					is_councillor = yes
+					prisoner = no
+					opinion = {
+						who = ROOT
+						value = 25
+					}
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -50
+						}
+						trait = incapable
+						trait = craven
+						health_traits = 1
+					}
+				}
+			}
+		}
+		random_friend = {
+			limit = {
+				FROM = {
+					any_rival = {
+						is_female = no
+						is_alive = yes
+						is_adult = yes
+						is_councillor = yes
+						prisoner = no
+						opinion = {
+							who = ROOT
+							value = 25
+						}
+						NOT = {
+							opinion = {
+								who = FROM
+								value = -50
+							}
+							trait = incapable
+							trait = craven
+							health_traits = 1
+						}
+					}
+				}
+			}
+			character_event = {
+				id = DAMO.237
+			}
+		}
+	}
+
+	option = {
+		name = DAMO100OPTEDESC
+		ai_chance = {
+			factor = 1
+		}
+
+		any_dynasty_member = {
+			limit = {
+				ai = no
+				NOT = {
+					character = ROOT
+				}
+			}
+			character_event = {
+				id = DAMO.217
+			}
+		}
+
+		set_character_flag = usurped_by_husband
+
+		FROM = {
+			character_event = {
+				id = DAMO.216
+				tooltip = DAMO216TP
+			}
+		}
+	}
+}
+
+#Asked lover for aid with husband attempting to usurp. Wife is FROM, husband is FROMFROM
+character_event = {
+	id = DAMO.200
+	desc = DAMO200EVTDESC
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+
+	option = {
+		name = DAMO200OPTADESC # I shall go alone
+		ai_chance = {
+			factor = 1
+		}
+
+		trigger = {
+			NOT = {
+				trait = wroth
+				trait = impaler
+				trait = slow
+				trait = lunatic
+				trait = ambitious
+			}
+			OR = {
+				trait = just
+				trait = patient
+				trait = kind
+				trait = charitable
+				trait = shy
+				trait = humble
+			}
+		}
+
+		FROM = {
+			character_event = {
+				id = DAMO.214
+				tooltip = DAMO212TP
+			}
+		}
+
+		random_list = {
+			15 = {
+				add_trait = kind
+			}
+			30 = {
+				add_trait = brave
+			}
+			55 = {
+				prestige = 5
+			}
+		}
+	}
+
+	option = {
+		name = DAMO200OPTBDESC #"Do something rash"
+		ai_chance = {
+			factor = 1
+		}
+
+		trigger = {
+			is_female = no
+			is_priest = no
+			NOT = {
+				trait = just
+			}
+			OR = {
+				trait = lunatic
+				trait = wroth
+				trait = impaler
+				trait = duelist
+				trait = ambitious
+				trait = possessed
+				trait = slow
+				AND = {
+					trait = cruel
+					trait = paranoid
+				}
+				AND = {
+					trait = cruel
+					trait = envious
+				}
+				AND = {
+					trait = cruel
+					trait = greedy
+				}
+				AND = {
+					trait = cruel
+					trait = lustful
+				}
+				AND = {
+					trait = brave
+					trait = lustful
+				}
+				AND = {
+					trait = cruel
+					trait = brave
+				}
+			}
+		}
+
+		FROM = {
+			character_event = {
+				id = DAMO.201
+				tooltip = DAMO201TP
+			}
+		}
+
+		random_list = {
+			25 = {
+				add_trait = ambitious
+			}
+			25 = {
+				add_trait = wroth
+			}
+			50 = {
+			}
+		}
+	}
+}
+
+#Lover does something rash. Husband is FROMFROMFROM, wife is ROOT/FROMFROM, lover is FROM
+character_event = {
+	id = DAMO.201
+	desc = DAMO201EVTDESC # lover is rash
+	picture = GFX_DAMO_fierceknight
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+
+
+	option = {
+		name = DAMO201OPTADESC # This wasn't what I wanted
+		ai_chance = {
+			factor = 1
+		}
+
+		FROM = {
+			reverse_opinion = {
+				modifier = opinion_irritated
+				who = ROOT
+				years = 1
+			}
+		}
+		FROMFROMFROM = {
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							martial = 6
+						}
+					}
+				}
+				random_list = {
+					5 = {
+						character_event = {
+							id = DAMO.202
+							tooltip = DAMO202TP
+						}
+					}
+					95 = {
+						character_event = {
+							id = DAMO.203
+							tooltip = DAMO203TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						martial = 6
+						NOT = {
+							martial = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = { martial = 4 }
+					}
+					random_list = {
+						50 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						50 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 4
+						NOT = {
+							martial = 12
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 12
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						martial = 12
+						NOT = {
+							martial = 17
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							martial = 8
+						}
+					}
+					random_list = {
+						55 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						45 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 8
+						NOT = {
+							martial = 17
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 17
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						martial = 17
+						NOT = {
+							martial = 23
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							martial = 12
+						}
+					}
+					random_list = {
+						60 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						40 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 12
+						NOT = {
+							martial = 23
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 23
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						martial = 23
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							martial = 15
+						}
+					}
+					random_list = {
+						65 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						35 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 15
+						NOT = {
+							martial = 20
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 20
+					}
+					random_list = {
+						20 = {
+							character_event = {
+								id = DAMO.202
+								tooltip = DAMO202TP
+							}
+						}
+						80 = {
+							character_event = {
+								id = DAMO.203
+								tooltip = DAMO203TP
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#Husband is ambushed and killed. husband is ROOT, wife is FROM, lover is FROMFROM
+character_event = {
+	id = DAMO.202 # Wife's lover ambushes you
+	desc = DAMO202EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+		option = {
+		name = DAMO202OPTADESC
+
+		any_dynasty_member = {
+			limit = {
+				is_alive = yes
+				is_close_relative = ROOT
+			}
+			opinion = {
+				modifier = opinion_angry
+				who = FROMFROM
+				years = 15
+			}
+
+			opinion = {
+				modifier = opinion_killed_close_kin
+				who = FROMFROM
+			}
+		}
+
+		FROMFROM = {
+			character_event = {
+				id = DAMO.204
+				#tooltip = DAMO204TP
+			}
+		}
+
+		prestige = -50
+
+		death = {
+			death_reason = death_murder
+			killer = FROMFROM
+		}
+	}
+}
+
+#Lover's ambush failed. Husband is ROOT, wife is FROM, lover is FROMFROM
+character_event = {
+	id = DAMO.203 # wife's lover's ambush failed
+	desc = DAMO203EVTDESC
+	picture = GFX_DAMO_clash
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO203OPTADESC
+
+		set_character_flag = usurped_my_wife
+
+		FROMFROM = {
+			character_event = {
+				id = DAMO.205
+				#tooltip = DAMO205TP
+			}
+		}
+
+		random = {
+			chance = 33
+			add_trait = wounded
+		}
+
+		FROMFROM = {
+			opinion = {
+				modifier = opinion_hatred
+				who = ROOT
+				years = 10
+			}
+
+			reverse_opinion = {
+				modifier = opinion_murder_attempt
+				who = ROOT
+			}
+			add_trait = wounded
+			random = {
+				chance = 75
+				add_trait = maimed
+			}
+			imprison = ROOT
+		}
+	}
+}
+
+#Ambush succeeded. Lover is ROOT, husband is FROM, wife is FROMFROM
+character_event = {
+	id = DAMO.204 # Wife's lover is successful
+	desc = DAMO204EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO204OPTADESC
+		ai_chance = {
+			factor = 1
+		}
+		trigger = {
+			NOT = {
+				trait = possessed
+				trait = lunatic
+				AND = {
+					NOT = {
+						trait = kind
+						trait = just
+						trait = charitable
+						trait = humble
+						trait = shy
+					}
+					OR = {
+						AND = {
+							trait = ambitious
+							trait = wroth
+						}
+						AND = {
+							trait = cruel
+							trait = greedy
+						}
+						AND = {
+							trait = cruel
+							trait = envious
+						}
+						AND = {
+							trait = cruel
+							trait = wroth
+						}
+						AND = {
+							trait = ambitious
+							trait = greedy
+						}
+						AND = {
+							trait = ambitious
+							trait = cruel
+						}
+					}
+				}
+			}
+		}
+
+		FROMFROM = {		#wife
+			character_event = {
+				id = DAMO.206
+				tooltip = DAMO206TP
+			}
+		}
+
+	}
+
+	option = {
+		name = DAMO204OPTBDESC
+		ai_chance = {
+			factor = 1
+		}
+		trigger = {
+			OR = {
+				trait = possessed
+				trait = lunatic
+				AND = {
+					NOT = {
+						trait = kind
+						trait = just
+						trait = charitable
+						trait = humble
+						trait = shy
+					}
+					OR = {
+						AND = {
+							trait = ambitious
+							trait = wroth
+						}
+						AND = {
+							trait = cruel
+							trait = greedy
+						}
+						AND = {
+							trait = cruel
+							trait = envious
+						}
+						AND = {
+							trait = ambitious
+							trait = greedy
+						}
+						AND = {
+							trait = ambitious
+							trait = cruel
+						}
+					}
+				}
+			}
+		}
+		FROMFROM = {		#wife
+			character_event = {
+				id = DAMO.207
+				#tooltip = DAMO207TP
+			}
+		}
+	}
+}
+#Ambush failed. Lover is ROOT, husband is FROM, wife is FROMFROM
+character_event = {
+	id = DAMO.205 # Wife's lover failed
+	desc = DAMO205EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO205OPTADESC
+
+		FROMFROM = {		#wife
+			character_event = {
+				id = DAMO.208
+				#tooltip = DAMO208TP
+			}
+		}
+	}
+}
+#Ambush successful, husband dead, lover does not force himself on wife. Wife is ROOT, lover is FROM, husband is FROMFROM
+character_event = {
+	id = DAMO.206 # Wife's response to 204A
+	desc = DAMO206EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO206OPTADESC
+
+		FROMFROM = {
+			any_dynasty_member = {
+				limit = {
+					is_close_relative = PREV
+				}
+				opinion = {
+					modifier = opinion_angry
+					who = ROOT
+					years = 15
+				}
+			}
+		}
+
+		any_dynasty_member = {
+			limit = {
+				ai = no
+				NOT = {
+					character = ROOT
+				}
+			}
+			character_event = {
+				id = DAMO.218
+			}
+		}
+	}
+}
+#Ambush successful, lover forces himself on wife
+character_event = {
+	id = DAMO.207 # Wife's response to 204B
+	desc = DAMO207EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO207OPTADESC
+
+		FROMFROM = {
+			any_dynasty_member = {
+				limit = {
+					is_close_relative = PREV
+				}
+				opinion = {
+					modifier = opinion_hatred
+					who = ROOT
+					years = 15
+				}
+			}
+		}
+
+		any_dynasty_member = {
+			limit = {
+				is_close_relative = ROOT
+			}
+			opinion = {
+				modifier = opinion_angry
+				who = FROM
+				years = 10
+			}
+		}
+
+		add_spouse = FROM
+		remove_lover = FROM
+
+		any_dynasty_member = {
+			limit = {
+				ai = no
+				NOT = {
+					character = ROOT
+				}
+			}
+			character_event = {
+				id = DAMO.218
+			}
+		}
+	}
+}
+# Ambush failed. Wife is ROOT, lover is FROM, husband is FROMFROM
+character_event = {
+	id = DAMO.208 # Wife's response to failure
+	desc = DAMO208EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+		option = {
+		name = DAMO208OPTADESC
+
+		set_character_flag = usurped_by_husband
+
+		prestige = -25
+
+		any_dynasty_member = {
+			limit = {
+				ai = no
+				NOT = {
+					character = ROOT
+				}
+			}
+			character_event = {
+				id = DAMO.217
+			}
+		}
+
+		FROMFROM = {
+			character_event = {
+				id = DAMO.216
+				tooltip = DAMO216TP
+			}
+		}
+	}
+}
+
+#Councilor is asked to help. Councilor is ROOT, wife is FROM, husband is FROMFROM
+character_event = {
+	id = DAMO.209
+	desc = DAMO209EVTDESC
+	picture = GFX_DAMO_content_wife
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+
+
+	option = {
+		name = DAMO209OPTADESC # At your service, mistress.
+		ai_chance = {
+			factor = 1
+		}
+		trigger = {
+			is_councillor = yes
+		}
+
+		FROM = {
+			character_event = {
+				id = DAMO.214
+				tooltip = DAMO212TP
+			}
+		}
+	}
+}
+#Family member is asked to help. Family member is ROOT, wife is FROM, husband is FROMFROM
+character_event = {
+	id = DAMO.210
+	desc = DAMO210EVTDESC
+	picture = GFX_DAMO_content_wife
+	is_triggered_only = yes
+
+	option = {
+		name = DAMO210OPTADESC #"Send immediate assistance"
+		ai_chance = {
+			factor = 100
+		}
+
+		trigger = {
+			is_ruler = yes
+			scaled_wealth = 1.0
+		}
+
+		FROM = {
+			character_event = {
+				id = DAMO.212
+				tooltip = DAMO212TP
+			}
+		}
+
+		scaled_wealth = -0.5
+
+	}
+
+	option = {
+		name = DAMO210OPTBDESC # I shall go alone
+		ai_chance = {
+			factor = 100
+		}
+
+		trigger = {
+			is_female = no
+			is_ruler = no
+		}
+
+		FROM = {
+			character_event = {
+				id = DAMO.214
+				tooltip = DAMO212TP
+			}
+		}
+
+		random_list = {
+			15 = {
+				add_trait = proud }
+			10 = {
+				add_trait = kind
+			}
+			20 = {
+				add_trait= brave
+			}
+			55 = {
+				prestige = 5
+			}
+		}
+	}
+
+	option = {
+		name = DAMO210OPTCDESC #"sounds good to me"
+		ai_chance = {
+			factor = 1
+		}
+		FROM = {
+			character_event = {
+				id = DAMO.211
+				tooltip = DAMO211TP
+			}
+		}
+
+		random_list = {
+			20 = {
+				add_trait = humble
+			}
+			20 = {
+				add_trait = craven
+			}
+			60 = {
+				prestige = -10
+			}
+		}
+	}
+}
+
+#No help from family. ROOT is wife, family member is FROM, husband is FROMFROMFROM
+character_event = {
+	id = DAMO.211 # No help received
+	desc = DAMO211EVTDESC
+	picture = GFX_DAMO_lonelygirl
+	is_triggered_only = yes
+
+	option = {
+		name = DAMO211OPTADESC
+
+		set_character_flag = usurped_by_husband
+
+		any_dynasty_member = {
+			limit = {
+				ai = no
+				NOT = {
+					character = ROOT
+				}
+			}
+			character_event = {
+				id = DAMO.217
+			}
+		}
+
+		FROMFROMFROM = {
+			character_event = {
+				id = DAMO.215
+				tooltip = DAMO215TP
+			}
+		}
+	}
+}
+#Landed family member sends aid. ROOT is wife, family member is FROM, husband is FROMFROMFROM
+character_event = {
+	id = DAMO.212 # RE: Send Immediate Aid
+	desc = DAMO212EVTDESC
+	picture = "GFX_evt_courier"
+	is_triggered_only = yes
+
+	option = {
+		name = DAMO212OPTADESC # Oh yes
+
+		FROM = {
+			reverse_opinion = {
+				modifier = opinion_happy
+				who = ROOT
+				years = 5
+			}
+
+			character_event = {
+				id = DAMO.213
+				#tooltip = "Secured"
+			}
+		}
+
+		FROMFROMFROM = {
+			character_event = {
+				id = DAMO.219
+				tooltip = DAMO219TP
+			}
+		}
+	}
+}
+
+#Landed family member sends aid. Family member is ROOT, wife is FROM
+character_event = {
+	id = DAMO.213 # Secured my relative
+	desc = DAMO213EVTDESC
+	picture = "GFX_evt_courier"
+	is_triggered_only = yes
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO213OPTADESC
+
+		prestige = 25
+		random = {
+			chance = 25
+			add_trait = proud
+		}
+	}
+}
+
+#Lover/councilor/unlanded family member/friend acts as lone knight. Wife is ROOT, lone knight is FROM, husband is FROMFROMFROM
+character_event = {
+	id = DAMO.214 # lone knight arrives
+	desc = DAMO214EVTDESC
+	picture = GFX_evt_knight_kneeling
+	is_triggered_only = yes
+
+	option = {
+		name = DAMO214OPTADESC # Oh yes...I guess?
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				FROM = {
+					martial = 17
+				}
+				FROMFROMFROM = {
+					NOT = { martial = 8 }
+				}
+			}
+
+			modifier = {
+				factor = 0
+				FROM = {
+					NOT = {
+						martial = 12
+					}
+					OR = {
+						intrigue = 17
+						diplomacy = 17
+						stewardship = 17
+						learning = 17
+					}
+				}
+				FROMFROMFROM = {
+					martial = 4
+				}
+			}
+		}
+
+		trigger = {
+			FROM = {
+				OR = {
+					trait = misguided_warrior
+					trait = tough_soldier
+					trait = skilled_tactician
+					trait = brilliant_strategist
+					martial = 17
+				}
+			}
+		}
+
+		FROM = {
+			reverse_opinion = {
+				modifier = opinion_happy
+				who = ROOT
+				years = 5
+			}
+		}
+		FROMFROMFROM = {
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							martial = 6
+						}
+					}
+				}
+				random_list = {
+					5 = {
+						character_event = {
+							id = DAMO.230
+							tooltip = DAMO230TP
+						}
+					}
+					95 = {
+						character_event = {
+							id = DAMO.231
+							tooltip = DAMO231TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						martial = 6
+						NOT = {
+							martial = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							martial = 4
+						}
+					}
+					random_list = {
+						50 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						50 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 4
+						NOT = {
+							martial = 12
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 12
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						martial = 12
+						NOT = {
+							martial = 17
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							martial = 8
+						}
+					}
+					random_list = {
+						55 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						45 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 8
+						NOT = {
+							martial = 17
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 17
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						martial = 17
+						NOT = {
+							martial = 23
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							martial = 12
+						}
+					}
+					random_list = {
+						60 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						40 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 12
+						NOT = {
+							martial = 23
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 23
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						martial = 23
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							martial = 15
+						}
+					}
+					random_list = {
+						65 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						35 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 15
+						NOT = {
+							martial = 20
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						martial = 20
+					}
+					random_list = {
+						20 = {
+							character_event = {
+								id = DAMO.230
+								tooltip = DAMO230TP
+							}
+						}
+						80 = {
+							character_event = {
+								id = DAMO.231
+								tooltip = DAMO231TP
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = DAMO214OPTBDESC # Oh yes...I guess?
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				FROM = {
+					OR = {
+						intrigue = 17
+						stewardship = 17
+					}
+				}
+				FROMFROMFROM = {
+					NOT = {
+						intrigue = 8
+						stewardship = 8
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					NOT = { intrigue = 12 }
+					NOT = { stewardship = 12 }
+					OR = {
+						martial = 17
+						diplomacy = 17
+						learning = 17
+					}
+				}
+				FROMFROMFROM = {
+					OR = {
+						intrigue = 4
+						stewardship = 4
+					}
+				}
+			}
+		}
+
+		trigger = {
+			FROM = {
+				OR = {
+					trait = amateurish_plotter
+					trait = flamboyant_schemer
+					trait = intricate_webweaver
+					trait = elusive_shadow
+					trait = indulgent_wastrel
+					trait = thrifty_clerk
+					trait = fortune_builder
+					trait = midas_touched
+					intrigue = 17
+					stewardship = 17
+				}
+			}
+		}
+		FROM = {
+			reverse_opinion = {
+				modifier = opinion_happy
+				who = ROOT
+				years = 5
+			}
+		}
+		FROMFROMFROM = {
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							intrigue = 6
+							stewardship = 6
+						}
+					}
+				}
+				random_list = {
+					5 = {
+						character_event = {
+							id = DAMO.232
+							tooltip = DAMO232TP
+						}
+					}
+					95 = {
+						character_event = {
+							id = DAMO.233
+							tooltip = DAMO233TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							intrigue = 12
+							stewardship = 12
+						}
+						OR = {
+							intrigue = 6
+							stewardship = 6
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							intrigue = 4
+							stewardship = 4
+						}
+					}
+					random_list = {
+						50 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						50 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							intrigue = 12
+							stewardship = 12
+						}
+						OR = {
+							intrigue = 4
+							stewardship = 4
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							intrigue = 12
+							stewardship = 12
+						}
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							intrigue = 17
+							stewardship = 17
+						}
+						OR = {
+							intrigue = 12
+							stewardship = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							intrigue = 8
+							stewardship = 8
+						}
+					}
+					random_list = {
+						55 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						45 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							intrigue = 17
+							stewardship = 17
+						}
+						OR = {
+							intrigue = 8
+							stewardship = 8
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							intrigue = 17
+							stewardship = 17
+						}
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							intrigue = 23
+							stewardship = 23
+						}
+						OR = {
+							intrigue = 17
+							stewardship = 17
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							intrigue = 12
+							stewardship = 12
+						}
+					}
+					random_list = {
+						60 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						40 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							intrigue = 23
+							stewardship = 23
+						}
+						OR = {
+							intrigue = 12
+							stewardship = 12
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							intrigue = 23
+							stewardship = 23
+						}
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							intrigue = 23
+							stewardship = 23
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							intrigue = 15
+							stewardship = 15
+						}
+					}
+					random_list = {
+						65 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						35 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							intrigue = 20
+							stewardship = 20
+						}
+						OR = {
+							intrigue = 15
+							stewardship = 15
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							intrigue = 20
+							stewardship = 20
+						}
+					}
+					random_list = {
+						20 = {
+							character_event = {
+								id = DAMO.232
+								tooltip = DAMO232TP
+							}
+						}
+						80 = {
+							character_event = {
+								id = DAMO.233
+								tooltip = DAMO233TP
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = DAMO214OPTCDESC # Oh yes...I guess?
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				FROM = {
+					OR = {
+						diplomacy = 17
+						learning = 17
+					}
+					FROMFROMFROM = {
+						NOT = {
+							diplomacy = 8
+							learning = 8
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					NOT = {
+						diplomacy = 12
+						learning = 12
+					}
+					OR = {
+						martial = 17
+						intrigue = 17
+						stewardship = 17
+					}
+				}
+				FROMFROMFROM = {
+					diplomacy = 4
+					learning = 4
+				}
+			}
+		}
+		trigger = {
+			FROM = {
+				OR = {
+					trait = naive_appeaser
+					trait = underhanded_rogue
+					trait = charismatic_negotiator
+					trait = grey_eminence
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+					diplomacy = 17
+					learning = 17
+				}
+			}
+		}
+
+		FROM = {
+			reverse_opinion = {
+				modifier = opinion_happy
+				who = ROOT
+				years = 5
+			}
+		}
+		FROMFROMFROM = {
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							diplomacy = 6
+							learning = 6
+						}
+					}
+				}
+				random_list = {
+					5 = {
+						character_event = {
+							id = DAMO.234
+							tooltip = DAMO234TP
+						}
+					}
+					95 = {
+						character_event = {
+							id = DAMO.235
+							tooltip = DAMO235TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							diplomacy = 12
+							learning = 12
+						}
+						OR = {
+							diplomacy = 6
+							learning = 6
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							diplomacy = 4
+							learning = 4
+						}
+					}
+					random_list = {
+						50 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						50 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							diplomacy = 12
+							learning = 12
+						}
+						OR = {
+							diplomacy = 4
+							learning = 4
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							diplomacy = 12
+							learning = 12
+						}
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							diplomacy = 12
+							learning = 12
+						}
+						NOT = {
+							diplomacy = 17
+							learning = 17
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							diplomacy = 8
+							learning = 8
+						}
+					}
+					random_list = {
+						55 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						45 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							diplomacy = 8
+							learning = 8
+						}
+						NOT = {
+							diplomacy = 17
+							learning = 17
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							diplomacy = 17
+							learning = 17
+						}
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							diplomacy = 17
+							learning = 17
+						}
+						NOT = {
+							diplomacy = 23
+							learning = 23
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							diplomacy = 12
+							learning = 12
+						}
+					}
+					random_list = {
+						60 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						40 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							diplomacy = 12
+							learning = 12
+						}
+						NOT = {
+							diplomacy = 23
+							learning = 23
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							diplomacy = 23
+							learning = 23
+						}
+					}
+					random_list = {
+						10 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						90 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							diplomacy = 23
+							learning = 23
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							diplomacy = 15
+							learning = 15
+						}
+					}
+					random_list = {
+						65 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						35 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							diplomacy = 15
+							learning = 15
+						}
+						NOT = {
+							diplomacy = 20
+							learning = 20
+						}
+					}
+					random_list = {
+						30 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						70 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							diplomacy = 20
+							learning = 20
+						}
+					}
+					random_list = {
+						20 = {
+							character_event = {
+								id = DAMO.234
+								tooltip = DAMO234TP
+							}
+						}
+						80 = {
+							character_event = {
+								id = DAMO.235
+								tooltip = DAMO235TP
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Family didn't help. Root is husband, FROM is wife
+character_event = {
+	id = DAMO.215 # Relative declines to intercede
+	desc = DAMO215EVTDESC
+	picture = GFX_DAMO_content_wife
+	is_triggered_only = yes
+	#major = no
+	#is_friendly = yes
+
+	immediate = {
+		if = {
+			limit = {
+				any_liege = {
+					character = FROM
+				}
+			}
+			set_character_flag = vassal_husband
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+
+		set_character_flag = usurped_my_wife
+
+		trigger = {
+			is_ruler = yes
+			higher_tier_than = FROM
+		}
+		FROM = {
+			set_defacto_liege = ROOT
+		}
+	}
+	option = {
+		name = EXCELLENT
+
+		set_character_flag = usurped_my_wife
+
+		trigger = {
+			NOT = {
+				higher_tier_than = FROM
+			}
+		}
+
+		FROM = {
+			primary_title = {
+				ROOT = {
+					primary_title = {
+						FROM = {
+							any_vassal = {
+								set_character_flag = usurped_by_liege_husband
+								set_defacto_liege = ROOT
+							}
+							any_demesne_title = {
+								limit = {
+									tier = PREVPREVPREVPREV
+									NOT = {
+										title = PREVPREVPREVPREV
+									}
+								}
+								usurp_title_plus_barony_if_unlanded = ROOT
+							}
+							primary_title = {
+								copy_title_laws = PREVPREVPREVPREV
+							}
+						}
+						ROOT = {
+							primary_title = {
+								copy_title_laws = PREVPREV
+							}
+						}
+					}
+				}
+			}
+			set_defacto_liege = ROOT
+		}
+	}
+}
+#Wife gives in; husband is ROOT, wife is FROM
+character_event = {
+	id = DAMO.216 # wife gives in
+	desc = DAMO216EVTDESC
+	picture = GFX_DAMO_content_wife
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				any_liege = {
+					character = FROM
+				}
+			}
+			set_character_flag = vassal_husband
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+		trigger = {
+			NOT = { higher_tier_than = FROM }
+		}
+		FROM = {
+			primary_title = {
+				ROOT = {
+					primary_title = {
+						FROM = {
+							any_vassal = {
+								set_character_flag = usurped_by_liege_husband
+								set_defacto_liege = ROOT
+							}
+							any_demesne_title = {
+								limit = {
+									tier = PREVPREVPREVPREV
+									NOT = {
+										title = PREVPREVPREVPREV
+									}
+								}
+								usurp_title_plus_barony_if_unlanded = ROOT
+							}
+							primary_title = {
+								copy_title_laws = PREVPREVPREVPREV
+							}
+						}
+					}
+				}
+				ROOT = {
+					primary_title = {
+						copy_title_laws = PREVPREV
+					}
+				}
+			}
+			set_defacto_liege = ROOT
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+
+		trigger = {
+			is_ruler = yes
+			higher_tier_than = FROM
+		}
+
+		set_character_flag = usurped_my_wife
+
+		FROM = {
+			set_defacto_liege = ROOT
+		}
+	}
+
+}
+#Player character is informed of relative's being usurped. Wife is FROM
+character_event = {
+	id = DAMO.217 # Relative failed
+	desc = DAMO217EVTDESC
+	picture = GFX_evt_scandal
+	is_triggered_only = yes
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO217OPTADESC
+	}
+}
+#Player character is informed of relative's fending off of usurpation attempt. Wife is FROM
+character_event = {
+	id = DAMO.218  # Relative defended her lands
+	desc = DAMO218EVTDESC
+	picture = GFX_evt_courtiers_talking
+	is_triggered_only = yes
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = EXCELLENT
+
+	}
+}
+#Landed family member sent aid. Husband is ROOT, wife is FROM, family member is FROMFROM
+character_event = {
+	id = DAMO.219 # Husband stymied by retainers.
+	desc = DAMO219EVTDESC
+	picture = GFX_evt_shadowy_cabal
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO219OPTADESC # "Damn it."
+		ai_chance = {
+			factor = 1
+		}
+
+		add_character_modifier = {
+			name = failed_to_usurp_spouse
+			duration = 	1825
+		}
+		FROM = {
+			opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 5
+			}
+			character_event = {
+				id = DAMO.227
+			}
+		}
+	}
+
+	option = {
+		name = DAMO219OPTBDESC # "She dares..."
+		ai_chance = {
+			factor = 1
+		}
+		trigger = {
+			NOT = {
+				trait = content
+				trait = humble
+				trait = craven
+				trait = kind
+				trait = shy
+			}
+			#prestige = 25
+			OR = {
+				trait = arbitrary
+				trait = brave
+				trait = ambitious
+				trait = strong
+				trait = genius
+				trait = quick
+				trait = cruel
+				trait = wroth
+				trait = impaler
+				trait = misguided_warrior
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
+				trait = greedy
+				trait = envious
+				trait = lunatic
+				trait = possessed
+			}
+		}
+
+		prestige = -50
+		random = {
+			chance = 30
+			add_trait = wroth
+		}
+
+		FROMFROM = {
+			reverse_opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 5
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { martial = 2 }
+			}
+			random_list = {
+				10 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				90 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO225TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 2
+				NOT = {
+					martial = 5
+				}
+			}
+			random_list = {
+				20 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				80 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO223TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 5
+				NOT = {
+					martial = 8
+				}
+			}
+			random_list = {
+				30 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				70 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO225TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 8
+				NOT = {
+					martial = 12
+				}
+			}
+			random_list = {
+				40 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				60 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO225TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 12
+				NOT = {
+					martial = 15
+				}
+			}
+			random_list = {
+				50 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				50 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO225TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 15
+				NOT = {
+					martial = 18
+				}
+			}
+			random_list = {
+				65 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				35 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO225TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 18
+				NOT = {
+					martial = 20
+				}
+			}
+			random_list = {
+				75 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				25 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO225TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 20
+				NOT = {
+					martial = 22
+				}
+			}
+			random_list = {
+				85 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				15 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO225TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 22
+			}
+			random_list = {
+				95 = {
+					character_event = {
+						id = DAMO.224
+						tooltip = DAMO224TP
+					}
+				}
+				5 = {
+					character_event = {
+						id = DAMO.225
+						tooltip = DAMO225TP
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = DAMO219OPTCDESC # "Attempt to subvert them."
+		ai_chance = {
+			factor = 1
+		}
+
+		trigger = {
+			NOT = {
+				trait = honest
+				trait = trusting
+				trait = brave
+			}
+			#wealth = 25
+			OR = {
+				trait = weak
+				trait = ambitious
+				trait = deceitful
+				trait = cynical
+				trait = genius
+				trait = quick
+				trait = elusive_shadow
+				trait = intricate_webweaver
+				trait = midas_touched
+				trait = flamboyant_schemer
+				trait = underhanded_rogue
+				trait = paranoid
+				trait = craven
+			}
+		}
+
+		wealth = -50
+
+		FROMFROM = {
+			reverse_opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 5
+			}
+		}
+
+		random = {
+			chance = 30
+			add_trait = deceitful
+		}
+
+		if = {
+			limit = {
+				NOT = { intrigue = 2 }
+			}
+
+			random_list = {
+				10 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				90 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				intrigue = 2
+				NOT = {
+					intrigue = 5
+				}
+			}
+
+			random_list = {
+				20 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				80 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				intrigue = 5
+				NOT = {
+					intrigue = 8
+				}
+			}
+
+			random_list = {
+				30 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				70 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				intrigue = 8
+				NOT = {
+					intrigue = 12
+				}
+			}
+
+			random_list = {
+				40 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				60 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				intrigue = 12
+				NOT = {
+					intrigue = 15
+				}
+			}
+
+			random_list = {
+				50 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				50 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				intrigue = 15
+				NOT = {
+					intrigue = 18
+				}
+			}
+
+			random_list = {
+				65 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				35 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				intrigue = 18
+				NOT = {
+					intrigue = 20
+				}
+			}
+
+			random_list = {
+				75 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				25 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				intrigue = 20
+				NOT = {
+					intrigue = 22
+				}
+			}
+
+			random_list = {
+				85 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				15 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				intrigue = 22
+			}
+			random_list = {
+				95 = {
+					character_event = {
+						id = DAMO.220
+						tooltip = DAMO220TP
+					}
+				}
+				5 = {
+					character_event = {
+						id = DAMO.221
+						tooltip = DAMO221TP
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = DAMO219OPTDDESC # "Attempt to win them over."
+		ai_chance = {
+			factor = 1
+		}
+
+		trigger = {
+			NOT = {
+				trait = shy
+				trait = paranoid
+				trait = arbitrary
+				trait = excommunicated
+				trait = kinslayer
+				trait = stutter
+				trait = lisp
+				trait = hunchback
+				trait = dwarf
+				trait = harelip
+				trait = ugly
+				trait = greedy
+				trait = clubfooted
+				trait = bastard
+				trait = slow
+			}
+			#prestige = 25
+			OR = {
+				trait = ambitious
+				trait = scholar
+				trait = genius
+				trait = quick
+				trait = strong
+				trait = fair
+				trait = just
+				trait = kind
+				trait = charitable
+				trait = crusader
+				trait = gregarious
+				trait = grey_eminence
+				trait = mastermind_theologian
+				trait = midas_touched
+				trait = brilliant_strategist
+			}
+		}
+
+		prestige = -25
+		wealth = -25
+
+		random = {
+			chance = 30
+			add_trait = gregarious
+		}
+
+		FROMFROM = {
+			reverse_opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 5
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = {
+					diplomacy = 2
+				}
+			}
+			random_list = {
+				10 = {
+					character_event = {
+						id = DAMO.222
+						tooltip = DAMO222TP
+					}
+				}
+				90 = {
+					character_event = {
+						id = DAMO.223
+						tooltip = DAMO223TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				diplomacy = 2
+				NOT = {
+					diplomacy = 5
+				}
+			}
+
+			random_list = {
+				20 = {
+					character_event = {
+						id = DAMO.222
+						tooltip = DAMO222TP
+					}
+				}
+				80 = {
+					character_event = {
+						id = DAMO.223
+						tooltip = DAMO223TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				diplomacy = 5
+				NOT = {
+					diplomacy = 8
+				}
+			}
+			random_list = {
+				30 = {
+					character_event = {
+						id = DAMO.222
+						tooltip = DAMO222TP
+					}
+				}
+				70 = {
+					character_event = {
+						id = DAMO.223
+						tooltip = DAMO223TP
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					martial = 10
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 8
+					NOT = {
+						diplomacy = 12
+					}
+				}
+				random_list = {
+					40 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					60 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 12
+					NOT = {
+						diplomacy = 15
+					}
+				}
+				random_list = {
+					50 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					50 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 15
+					NOT = {
+						diplomacy = 18
+					}
+				}
+				random_list = {
+					65 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					35 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 18
+					NOT = {
+						diplomacy = 20
+					}
+				}
+				random_list = {
+					75 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					25 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 20
+					NOT = {
+						diplomacy = 22
+					}
+				}
+				random_list = {
+					85 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					15 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 22
+				}
+				random_list = {
+					95 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					5 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 10
+			}
+			if = {
+				limit = {
+					diplomacy = 8
+					NOT = {
+						diplomacy = 12
+					}
+				}
+				random_list = {
+					50 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					50 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 12
+					NOT = {
+						diplomacy = 15
+					}
+				}
+				random_list = {
+					60 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					40 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 15
+					NOT = {
+						diplomacy = 18
+					}
+				}
+				random_list = {
+					75 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					25 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 18
+					NOT = {
+						diplomacy = 20
+					}
+				}
+				random_list = {
+					85 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					15 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 20
+					NOT = {
+						diplomacy = 22
+					}
+				}
+				random_list = {
+					95 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					5 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					diplomacy = 22
+				}
+				random_list = {
+					99 = {
+						character_event = {
+							id = DAMO.222
+							tooltip = DAMO222TP
+						}
+					}
+					1 = {
+						character_event = {
+							id = DAMO.223
+							tooltip = DAMO223TP
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#Husband succeeded in subverting family retainers, Husband is ROOT, Wife is FROMFROM
+character_event = {
+	id = DAMO.220 # Subvert Succeeded
+	desc = DAMO220EVTDESC
+	picture = GFX_loyal_veteran
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO220OPTADESC
+
+		set_character_flag = usurped_my_wife
+		create_character = {
+			random_traits = yes
+			dynasty = none
+			religion = FROMFROM
+			culture = FROMFROM
+			female = no
+			age = 49
+			attributes = {
+				martial = 9
+			}
+			trait = tough_soldier
+			trait = scarred
+		}
+		FROMFROM = {
+			character_event = {
+				id = DAMO.226
+				#tooltip = DAMO226TP
+			}
+		}
+	}
+}
+#Failed to subvert family retainers. Husband is ROOT, wife is FROMFROM
+character_event = {
+	id = DAMO.221 # Subvert Failed
+	desc = DAMO221EVTDESC
+	picture = GFX_loyal_veteran
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO221OPTADESC
+
+		FROMFROM = {
+			character_event = {
+				id = DAMO.227
+				#tooltip = DAMO227TP
+			}
+		}
+
+		prestige = -50
+
+		add_character_modifier = {
+			name = failed_to_usurp_spouse
+			duration = 	1825
+		}
+
+		random = {
+			chance = 25
+			add_trait = craven
+		}
+
+		random = {
+			chance = 25
+			add_trait = wounded
+		}
+	}
+}
+#Impress family retainers succeeded. Husband is ROOT, wife is FROMFROM
+character_event = {
+	id = DAMO.222 # Impress Succeeded
+	desc = DAMO222EVTDESC
+	picture = GFX_DAMO_nobleruler
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO222OPTADESC
+
+		set_character_flag = usurped_my_wife
+
+		prestige = 25
+
+		FROMFROM = {
+			character_event = {
+				id = DAMO.226
+				#tooltip = DAMO226TP
+			}
+		}
+	}
+}
+#Failed to impress family retainers. Husband is ROOT, wife is FROMFROM
+character_event = {
+	id = DAMO.223 # Impress Failed
+	desc = DAMO223EVTDESC
+	picture = GFX_loyal_veteran
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO223OPTADESC
+
+		FROMFROM = {
+			character_event = {
+				id = DAMO.227
+				#tooltip = DAMO227TP
+			}
+		}
+
+		prestige = -50
+
+		add_character_modifier = {
+			name = failed_to_usurp_spouse
+			duration = 	1825
+		}
+
+		random = {
+			chance = 25
+			add_trait = envious
+		}
+	}
+}
+#Angry succeeded. Husband is ROOT, wife is FROMFROM
+character_event = {
+	id = DAMO.224 # Angry Succeeded
+	desc = DAMO224EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO224OPTADESC
+
+		set_character_flag = usurped_my_wife
+
+		random = {
+			chance = 15
+			add_trait = wounded
+		}
+
+		random = {
+			chance = 25
+			add_trait = cruel
+		}
+
+		FROMFROM = {
+			opinion = {
+				modifier = opinion_hatred
+				who = ROOT
+				years = 20
+			}
+			character_event = {
+				id = DAMO.226
+				#tooltip = DAMO226TP
+			}
+		}
+	}
+}
+#Angry failed. Husband is ROOT, wife is FROMFROM
+character_event = {
+	id = DAMO.225 # Angry Failed
+	desc = DAMO225EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO225OPTADESC
+
+		prestige = -100
+
+		FROMFROM = {
+			character_event = {
+				id = DAMO.227
+				#tooltip = DAMO227TP
+			}
+		}
+
+		add_character_modifier = {
+			name = failed_to_usurp_spouse
+			duration = 	1825
+		}
+
+		random_list = {
+			50 = {
+				add_trait = wounded
+			}
+
+			10 = {
+				add_trait = maimed
+			}
+			40 = {
+			}
+		}
+	}
+}
+#Family retainers nullified. Wife is ROOT, husband is FROM
+character_event = {
+	id = DAMO.226 # Wife receives fait accompli
+	desc = DAMO226EVTDESC
+	picture = GFX_DAMO_content_wife
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO226OPTADESC
+
+		prestige = -25
+
+		set_character_flag = usurped_by_husband
+
+		any_dynasty_member = {
+			limit = {
+				ai = no
+				NOT = {
+					character = ROOT
+				}
+			}
+			character_event = {
+				id = DAMO.217
+			}
+		}
+		FROM = {
+			character_event = {
+				id = DAMO.216
+				tooltip = DAMO216TP
+			}
+		}
+	}
+}
+#Husband failed to nullify retainers. Wife is ROOT, husband is FROM
+character_event = {
+	id = DAMO.227 # Wife receives the good news
+	desc = DAMO227EVTDESC
+	picture = GFX_DAMO_queen
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO227OPTADESC
+
+		prestige = 25
+
+		any_dynasty_member = {
+			limit = {
+				ai = no
+				NOT = {
+					character = ROOT
+				}
+			}
+			character_event = {
+				id = DAMO.218
+			}
+		}
+	}
+}
+#Lone knight succeeded (martial). Husband is ROOT, wife is FROM, lone knight is FROMFROM
+character_event = {
+	id = DAMO.230 # Wife's friend martial succeeded
+	desc = DAMO230EVTDESC
+	picture = GFX_evt_longbowman
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+		option = {
+		name = DAMO230OPTADESC
+
+		FROMFROM = {
+			reverse_opinion = {
+				modifier = opinion_hatred
+				who = ROOT
+				years = 10
+			}
+		}
+
+		FROM = {
+			character_event = {
+				id = DAMO.227
+				#tooltip = DAMO227TP
+			}
+		}
+
+		prestige = -50
+
+		add_character_modifier = {
+			name = failed_to_usurp_spouse
+			duration = 	1095
+		}
+
+		random = {
+			chance = 15
+			add_trait = envious
+		}
+	}
+}
+#Lone knight failed (martial). Husband is ROOT, wife is FROM, lone knight is FROMFROM
+character_event = {
+	id = DAMO.231 # wife's friend martial failed
+	desc = DAMO231EVTDESC
+	picture = GFX_DAMO_clash
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO231OPTADESC
+		FROMFROM = {
+			opinion = {
+				modifier = opinion_hatred
+				who = ROOT
+				years = 10
+			}
+
+			random = {
+				chance = 50
+				add_trait = wounded
+			}
+		}
+
+		set_character_flag = usurped_my_wife
+
+		FROM = {
+			character_event = {
+				id = DAMO.226
+				#tooltip = DAMO226TP
+			}
+		}
+	}
+}
+#Lone knight succeeded (intrigue/stewardship) Husband is ROOT, wife is FROM, lone knight is FROMFROM
+character_event = {
+	id = DAMO.232 # wife's Intrigue/Stewardship succeeded
+	desc = DAMO232EVTDESC
+	picture = GFX_evt_spymaster
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO232OPTADESC
+
+		FROMFROM = {
+			reverse_opinion = {
+				modifier = opinion_hatred
+				who = ROOT
+				years = 10
+			}
+		}
+
+		FROM = {
+			character_event = {
+				id = DAMO.227
+				#tooltip = DAMO227TP
+			}
+		}
+
+		prestige = -50
+
+		add_character_modifier = {
+			name = failed_to_usurp_spouse
+			duration = 	1095
+		}
+
+		random = {
+			chance = 15
+			add_trait = envious
+		}
+	}
+}
+#Lone knight failed (intrigue/stewardship) Husband is ROOT, wife is FROM, lone knight is FROMFROM
+character_event = {
+	id = DAMO.233 # wife's Intrigue/Stewardship failed
+	desc = DAMO233EVTDESC
+	picture = GFX_DAMO_violence
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO233OPTADESC
+
+		FROMFROM = {
+			opinion = {
+				modifier = opinion_hatred
+				who = ROOT
+				years = 10
+			}
+		}
+
+		set_character_flag = usurped_my_wife
+
+		prestige = 25
+
+		FROM = {
+			character_event = {
+				id = DAMO.226
+				#tooltip = DAMO226TP
+			}
+		}
+	}
+}
+#Lone knight succeeded (diplomacy/learning) Husband is ROOT, wife is FROM, lone knight is FROMFROM
+character_event = {
+	id = DAMO.234 # wife's Diplomacy/Learning succeeded
+	desc = DAMO234EVTDESC
+	picture = GFX_evt_peasants
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO234OPTADESC
+
+		FROMFROM = {
+			reverse_opinion = {
+				modifier = opinion_hatred
+				who = ROOT
+				years = 10
+			}
+		}
+
+		FROM = {
+			character_event = {
+				id = DAMO.227
+				#tooltip = DAMO227TP
+			}
+		}
+
+		prestige = -50
+
+		add_character_modifier = {
+			name = failed_to_usurp_spouse
+			duration = 	1095
+		}
+
+		random = {
+			chance = 15
+			add_trait = envious
+		}
+	}
+}
+#Lone knight failed (diplomacy/learning) Husband is ROOT, wife is FROM, lone knight is FROMFROM
+character_event = {
+	id = DAMO.235 # Diplomacy/Learning Failed
+	desc = DAMO235EVTDESC
+	picture = GFX_evt_courtiers_talking
+	is_triggered_only = yes
+	border = GFX_event_normal_frame_intrigue
+	#major = no
+	#is_friendly = yes
+
+	option = {
+		name = DAMO235OPTADESC
+
+		FROMFROM = {
+			opinion = {
+				modifier = opinion_hatred
+				who = ROOT
+				years = 10
+			}
+		}
+
+		set_character_flag = usurped_my_wife
+
+		prestige = 25
+
+		FROM = {
+			character_event = {
+				id = DAMO.226
+				#tooltip = DAMO226TP
+			}
+		}
+	}
+}
+#Friend is asked to aid wife. Friend is ROOT, wife is FROM, husband is FROMFROM
+character_event = {
+	id = DAMO.236
+	desc = DAMO236EVTDESC
+	picture = GFX_DAMO_content_wife
+	border = GFX_event_normal_frame_intrigue
+	is_triggered_only = yes
+
+	option = {
+		name = DAMO236OPTADESC
+		trigger = {
+			lower_tier_than = count
+		}
+		character_event = {
+			id = DAMO.214	#Act as lone knight
+		}
+	}
+	option = {
+		name = DAMO236OPTBDESC
+		trigger = {
+			higher_tier_than = baron
+		}
+		character_event = {
+			id = DAMO.210
+		}
+	}
+}
+#Husband's rival is asked to aid wife. Rival is ROOT, wife is FROM, husband is FROMFROM
+character_event = {
+	id = DAMO.237
+	desc = DAMO237EVTDESC
+	picture = GFX_DAMO_content_wife
+	border = GFX_event_normal_frame_intrigue
+	is_triggered_only = yes
+
+	option = {
+		name = DAMO237OPTADESC
+		trigger = {
+			lower_tier_than = count
+		}
+		character_event = {
+			id = DAMO.214	#Act as lone knight
+		}
+	}
+	option = {
+		name = DAMO237OPTBDESC
+		trigger = {
+			higher_tier_than = baron
+		}
+		character_event = {
+			id = DAMO.210
+		}
+	}
+}

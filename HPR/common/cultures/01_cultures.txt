@@ -17,7 +17,7 @@ crusader_group = {
 			Eudes_Otto Eufemïen Érard Eustache_Eustace Estienne_Stephen Éracles Eduard_Edward
 			Frotlaic Faramond_Faramond Frédéric_Frederick Folques_Folke Florent_Florentius
 			Guillaume_William Guy_Guy Gefreid_Godfrey Gerin Gerers Giselbert_Gilbert Galbert Gavéras Gabriel_Gabriel Guibert Godefroy_Godfrey Gauthier_Walther Georges_George Gédéon Garnier Gualon
-			Hugbert_Hubert Humfroy Hugues_Hugh Henry_Henry Hercules_Heracles 
+			Hugbert_Hubert Humfroy Hugues_Hugh Henry_Henry Hercules_Heracles
 			Isaac_Isaac
 			Jehan_John Jaques_Jacob Janus Jocelin Joseph_Joseph
 			Louys_Louis Lazare_Lazarus Lambert_Lambert Luc_Lucas Levon_Leo Léonce_Leontius
@@ -71,8 +71,8 @@ crusader_group = {
 		mat_grm_name_chance = 60
 		mother_name_chance = 10
 	}
-	
-	latin = { # 
+
+	latin = { #
 		graphical_cultures = { southerngfx occitangfx } # Fallback type
 
 		color = { 0.8 0.8 0.1 }
@@ -145,14 +145,14 @@ coptic_group = {
 	coptic = {
 		graphical_cultures = { copticgfx arabicgfx }
 		secondary_event_pictures = egyptian_arabic
-		
+
 		color = { 0.35 0.55 0.25 }
 
 		male_names = {
-			Aharon_Aaron Abanoub Abraam_Abraham Alexander_Alexander Athanasios_Athanasius Boutros_Peter Guirguis_George Aharon_Aaron Ilyas_Elijah Kedron
+			Aharon_Aaron Abanoub Abraam_Abraham Alexander_Alexander Athanasios_Athanasius Boutros_Peter Guirguis_George Ilyas_Elijah Kedron
 			Matta_Matthew Markos_Mark Mikail_Michael Mikhael_Michael Milad_Milad Menas_Menas Musa_Moses Petros_Peter Tadros_Theodore Yared Yoannis_John Youssef_Joseph
 			Ahmod Aiai Aha Akhom Amon Amakhte An Apanoub Apahour Apamon Aretee Apas Beet Bertouet Ennikeran Erhu Gerges Hanouf Jinti Jori Keloj Shenouti Shosi Sok Mareten Mei Mina Nakat Nahdi Nishde Nai
-			Naui Nishti Nofr Noub Ounouf Ourot Ouini Ounisht Panous Pakhom Papnouti Pishoui Pisha-eneh Pimen Pimoue Pimoui Psote Rashad Rashi Rami Ruweis Payom Pishai Pikhit Pijimi Pijoul Pasnadi 
+			Naui Nishti Nofr Noub Ounouf Ourot Ouini Ounisht Panous Pakhom Papnouti Pishoui Pisha-eneh Pimen Pimoue Pimoui Psote Rashad Rashi Rami Ruweis Payom Pishai Pikhit Pijimi Pijoul Pasnadi
 			Pajro Pakat Patape Pashnona Taio
 		}
 		female_names = {
@@ -166,7 +166,7 @@ coptic_group = {
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 50
 		father_name_chance = 0
-		
+
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 50
 		mat_grm_name_chance = 50

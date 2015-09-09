@@ -1,0 +1,11 @@
+ASK_FOR_DIVORCE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		jus_uxoris.20
+	}
+}
+on_death = {
+	events = {
+		jus_uxoris.1
+		jus_uxoris.4
+	}
+}

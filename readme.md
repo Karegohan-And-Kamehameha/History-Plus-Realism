@@ -6,6 +6,11 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 The music mod is now available for download at<br> https://mega.nz/#!gxt1xSRB!7YgAoQUS-iCiN6C_Ghr3bzbVnXYhqa0QmcMiGy2szB4 <br>
 
 <b>Changelog:</b><br>
+<b>v0.4.2:</b><br>
+-Jus Uxoris mod integrated.<br>
+-ARKO Armories mod integrated (sans the flags that were already modified by CK2+).<br>
+-Cleaned up some unused junk.<br>
+-Minor bugfixes.<br>
 <b>v0.4.1:</b><br>
 -Trait tweaks and changes.<br>
 -Focuses rebalance. Now focuses also have negative effects (results of neglecting areas outside the focus) and include bonuses to various modifiers instead of just stats.<br>
@@ -51,6 +56,7 @@ Initial release.<br>
 -Dramatically increased number of stillbirths and infant deaths for historical accuracy. Also decreased the average life span of characters by ~10 years, before the change many characters used to live long into their 60s and even 70s, which is ahistorical. Some characters will still survive till that age, but it will be a lot less common. This doesn't mean characters in their 40s will all suddenly start to die for no reason, it just means that the world has become a lot more deadly and staying in good health matters.<br>
 -Warscore with an emphasis on battles and sieges of capitals and contested territory.<br>
 -ARKO interface.<br>
+-ARKO armories.<br>
 -Viet traits.<br>
 -Viet events.<br>
 -Friends & Foes personality traits.<br>
@@ -58,6 +64,8 @@ Initial release.<br>
 -Songs from the four corners music pack.<br>
 -Fear mechanics that are unique to this mod and work in a way similar to the tyrrany system from CK2+, except striking fear in the hearts of men works in a positive way, making them respect you more. Oderint dum metuant.<br>
 Fear is currently accumulated through acts of cruelty, such as torturing, blinding and castrating prisoners, as well as executing nobles after capturing them in a siege. In the future I plan to implement fear accumulation in a variety of events.<br>
+-Jux Uxoris spouse title usurpation mechanics.<br>
+-More detailed focuses with various penalties and bonuses.<br>
 -Various other small tweaks and changes.<br>
 
 <b>TODO:</b><br>

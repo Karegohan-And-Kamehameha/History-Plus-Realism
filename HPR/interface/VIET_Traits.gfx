@@ -1,112 +1,105 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_trait_tall"
-		texturefile = "gfx/more_congenital_traits_gfx/tall.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	spriteType = {
 		name = "GFX_trait_agile"
-		texturefile = "gfx/more_congenital_traits_gfx/agile.tga"
+		texturefile = "gfx/new_traits/agile.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_perceptive"
-		texturefile = "gfx/more_congenital_traits_gfx/perceptive.tga"
+		texturefile = "gfx/new_traits/perceptive.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_ambidextrous"
-		texturefile = "gfx/more_congenital_traits_gfx/ambidextrous.tga"
+		texturefile = "gfx/new_traits/ambidextrous.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_melodious_voice"
-		texturefile = "gfx/more_congenital_traits_gfx/melodious_voice.tga"
+		texturefile = "gfx/new_traits/melodious_voice.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_powerful_voice"
-		texturefile = "gfx/more_congenital_traits_gfx/powerful_voice.tga"
+		texturefile = "gfx/new_traits/powerful_voice.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
-	}	
+	}
 	spriteType = {
 		name = "GFX_trait_lefthanded"
-		texturefile = "gfx/more_congenital_traits_gfx/lefthanded.tga"
+		texturefile = "gfx/new_traits/lefthanded.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_wrymouth"
-		texturefile = "gfx/more_congenital_traits_gfx/wrymouth.tga"
+		texturefile = "gfx/new_traits/wrymouth.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
-	}	
+	}
 	spriteType = {
 		name = "GFX_trait_deaf"
-		texturefile = "gfx/more_congenital_traits_gfx/deaf.tga"
+		texturefile = "gfx/new_traits/deaf.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
-	}	
+	}
 	spriteType = {
 		name = "GFX_trait_absentminded"
-		texturefile = "gfx/more_congenital_traits_gfx/absentminded.tga"
+		texturefile = "gfx/new_traits/absentminded.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_creative"
-		texturefile = "gfx/more_congenital_traits_gfx/creative.tga"
+		texturefile = "gfx/new_traits/creative.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_calm_voice"
-		texturefile = "gfx/more_congenital_traits_gfx/calm_voice.tga"
+		texturefile = "gfx/new_traits/calm_voice.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_fertile"
-		texturefile = "gfx/more_congenital_traits_gfx/fertile.tga"
+		texturefile = "gfx/new_traits/fertile.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_imposing"
-		texturefile = "gfx/more_congenital_traits_gfx/imposing.tga"
+		texturefile = "gfx/new_traits/imposing.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_herbalist"
-		texturefile = "gfx/more_congenital_traits_gfx/herbalist.tga"
+		texturefile = "gfx/new_traits/herbalist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_loremaster"
-		texturefile = "gfx/more_congenital_traits_gfx/loremaster.tga"
+		texturefile = "gfx/new_traits/loremaster.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
