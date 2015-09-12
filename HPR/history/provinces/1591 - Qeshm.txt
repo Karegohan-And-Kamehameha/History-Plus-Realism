@@ -1,0 +1,19 @@
+# 1591 - Qeshm
+
+# County Title
+title = c_qeshm
+
+# Settlements
+max_settlements = 4
+b_laft = city
+b_qeshm = castle
+b_larak = temple
+#b_kishqeshmi = city
+
+# Misc
+culture = persian
+religion = sunni
+
+# History
+1056.1.1 = { trade_post = b_diramku }
+1056.1.1 = { b_kishqeshmi = city }

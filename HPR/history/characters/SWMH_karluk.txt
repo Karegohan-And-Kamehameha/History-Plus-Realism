@@ -1,0 +1,849 @@
+
+#1000230250 - 1000230299
+#Characters 2nd: 1000231600 - 1000231649
+
+######################################
+#vanilla Qarakhanids moved to file called like vanilla.
+
+#SWMH Karluks
+
+1000230250 = {
+	name="Bilge Kül"
+	# AKA: Bilge Kul Khadir Khan
+	dynasty=1000101789
+	martial=7
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="tengri_pagan"
+	culture="karluk"
+	821.1.2={
+		birth="821.1.2"
+	}
+	893.1.2={
+		death="893.1.2"
+	}
+}
+1000230251 = {
+	name="Bazir Arslan"
+	dynasty=1000101789
+	religion="tengri_pagan"
+	culture="karluk"
+	father=1000230250
+	866.1.2={
+		birth="866.1.2"
+	}
+	920.1.2={
+		death="920.1.2"
+	}
+}
+1000230252 = {
+	name="Toghan Tegin"
+	dynasty=1000101789
+	religion="tengri_pagan"
+	culture="karluk"
+	father=1000230251
+	890.1.2={
+		birth="890.1.2"
+	}
+	940.1.2={
+		death="940.1.2"
+	}
+}
+1000230253 = {
+	name="Satuq Bughra"
+	dynasty=1000101791
+	religion="tengri_pagan"
+	culture="karluk"
+	father=1000230252
+	920.1.2={
+		birth="920.1.2"
+	}
+	932.1.2={
+		religion="sunni"
+	}
+	958.1.2={
+		death="958.1.2"
+	}
+}
+1000230254 = {
+	name="Musa Bughra"
+	dynasty=1000101791
+	religion="tengri_pagan"
+	culture="karluk"
+	father=1000230253
+	937.1.2={
+		birth="937.1.2"
+	}
+	958.1.2={
+		death="958.1.2"
+	}
+}
+1000230255 = {
+	name="Suleyman Bughra"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230253
+	945.1.2={
+		birth="945.1.2"
+	}
+	990.1.2={
+		death="990.1.2"
+	}
+}
+1000230259 = {
+	name="Baytash"   #Son of Satuq, in 960 converted the Qarluqs to Islam
+	dynasty=1000101791
+	religion="tengri_pagan"
+	culture="karluk"
+	father=1000230253
+	943.1.2={
+		birth="943.1.2"
+	}
+	988.1.2={
+		death="988.1.2"
+	}
+}
+
+
+#Chigil leaders
+
+1000230256 = {
+	name="Tutuq"  #perhaps lived earlier in the 8th century, but is the only character available, so I moved him 100 years later.
+	dynasty=1000101799
+	religion="tengri_pagan"
+	culture="karluk"
+	832.1.2={
+		birth="832.1.2"
+	}
+	870.1.2={
+		death="870.1.2"
+	}
+}
+
+#Tukhsí chieftan
+1000230257 = {
+	name="Yinal"
+	dynasty=1000101798
+	religion="tengri_pagan"
+	culture="karluk"
+	842.1.2={
+		birth="842.1.2"
+	}
+	880.1.2={
+		death="880.1.2"
+	}
+}
+#Yaghma chieftan
+1000230258 = {
+	name="Yaghma Tutuq"
+	dynasty=1000101790
+	religion="tengri_pagan"
+	culture="karluk"
+	842.1.2={
+		birth="842.1.2"
+	}
+	880.1.2={
+		death="880.1.2"
+	}
+}
+
+#Simjurids
+1000230260 = {
+	name="Simjur" #Abu Imrán
+	dynasty=1000101780
+	religion="sunni"
+	culture="karluk"
+	880.1.1={
+		birth="880.1.1"
+	}
+	937.1.1={
+		death="937.1.1"
+	}
+}
+1000230261 = {
+	name="Ibráhím" #Abu Esháq
+	dynasty=1000101780
+	religion="sunni"
+	culture="karluk"
+  father=1000230260
+	905.1.1={
+		birth="905.1.1"
+	}
+	948.1.1={
+		death="948.1.1"
+	}
+}
+1000230262 = {
+	name="Muhammad" #Abu'l-Hasan
+	dynasty=1000101780
+	religion="sunni"
+	culture="karluk"
+  father=1000230261
+	930.1.1={
+		birth="930.1.1"
+	}
+	989.1.1={
+		death="989.1.1"
+	}
+}
+1000230263 = {
+	name="Ibráhím" #Abu 'Alí
+	dynasty=1000101780
+	religion="sunni"
+	culture="karluk"
+  father=1000230262
+	955.1.1={
+		birth="955.1.1"
+	}
+	1000.1.1={
+		death="1000.1.1"
+	}
+}
+
+#SWMH Qarakhanids
+1000230264 = {
+	name="Nasr Ilek"
+	# AKA: NasrTegin, conqueror of Samarqand, Bukhara and Ferghana
+	dynasty=1000101791
+	martial=6
+	diplomacy=7
+	intrigue=4
+	stewardship=4
+	religion="sunni"
+	culture="karluk"
+	trait="tough_soldier"
+	father=3000
+	973.1.2={
+		birth = yes
+	}
+	1012.1.2={
+		death = yes
+	}
+}
+1000230265 = {
+	name="Muhammad Ilek"
+	# AKA: Muhammad, governor in Akhsikath
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=3000
+	980.1.2={
+		birth = yes
+	}
+	1024.1.2={
+		death = yes
+	}
+}
+1000230266 = {
+	name="Hasan Bughra"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230255
+	965.1.2={
+		birth = yes
+	}
+	992.8.8={
+		death = yes
+	}
+}
+1000230267 = {
+	name="'Abbás"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=3012
+	1019.1.2={
+		birth = yes
+	}
+	1040.1.2={
+		death = yes
+	}
+}
+1000230268 = {
+	name="Muhammad Toghan"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230266
+	990.1.2={
+		birth = yes
+	}
+	1038.1.2={
+		death = yes
+	}
+}
+1000230269 = {
+	name="'Abd al-Mu'min"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230285 #originaly I (wrongly?) supposed him to be son of 144107 Hasan b.Sulayman b.Yusuf Kadir 
+	1053.1.1={
+		birth = yes
+	}
+	1105.1.1={
+		death = yes
+	}
+}
+1000230270 = {
+	name="'Ali"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230269
+	1075.1.1={
+		birth="1075.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+1000230271 = {
+	name="Hasan"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230270
+	1095.1.1={
+		birth="1095.1.1"
+	}
+	1140.1.1={
+		death="1140.1.1"
+	}
+}
+1000230272 = {
+	name="'Ali"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230271
+	1112.1.1={
+		birth = yes
+	}
+	1158.1.1={
+		death = yes
+	}
+}
+1000230273 = {
+	name="Mas'úd"  #1164 Nakhsheb, Tirmidh, Chaghaniyán
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230271
+	1115.1.1={
+		birth="1115.1.1"
+	}
+	1171.1.1={
+		death="1171.1.1"
+	}
+}
+1000230274 = {
+	name="Husayn"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230271
+	1118.1.1={
+		birth="1118.1.1"
+	}
+	1167.1.1={
+		death="1167.1.1"
+	}
+}
+1000230275 = {
+	name="Muhammad"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230272
+	1140.1.1={
+		birth="1140.1.1"
+	}
+	1192.1.1={
+		death="1192.1.1"
+	}
+}
+1000230276 = {
+	name="Mahmúd"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230274
+	1138.1.1={
+		birth="1138.1.1"
+	}
+	1189.1.1={
+		death="1189.1.1"
+	}
+}
+1000230277 = {
+	name="Ibrahím"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230274
+	1141.1.1={
+		birth="1141.1.1"
+	}
+	1195.1.1={
+		death="1195.1.1"
+	}
+}
+1000230278 = {
+	name="Ahmad"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230277
+	1162.1.1={
+		birth="1162.1.1"
+	}
+	1193.1.1={
+		death="1193.1.1"
+	}
+}
+1000230279 = {
+	name="Mahmúd"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230278
+	1185.1.1={
+		birth="1185.1.1"
+	}
+	1213.1.1={
+		death="1213.1.1"
+	}
+}
+1000230280 = {
+	name="'Uthmán"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230277
+	1169.1.1={
+		birth = yes
+	}
+	1212.1.1={
+		death = yes
+	}
+}
+1000230281 = {
+	name="Kadir Khan"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230277
+	1180.1.1={
+		birth="1180.1.1"
+	}
+	1211.1.1={
+		death="1211.1.1"
+	}
+}
+#Abbasid general in Persian Iraq
+1000230290 = {
+	name="Musá Bughá"
+	dynasty=1000101781
+	martial=7
+	religion="sunni"
+	culture="karluk"
+	trait="tough_soldier"
+	840.1.2={
+		birth = yes
+	}
+	866.1.1={
+		employer=163029
+		effect = {
+			give_job_title=job_marshal
+		}
+	}
+#	866.1.1={
+#		add_rival=1000230538
+#	}
+	866.1.1={
+		add_claim="d_jebal"
+	}
+	893.1.2={
+		death = yes
+	}
+}
+1000230282 = {
+	name="Muhammad"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230273
+	1135.1.1={
+		birth = yes
+	}
+	1171.1.1={
+		death = yes
+	}
+}
+# More Karakhanids
+1000230283 = {
+	name="Hárún"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=3008
+	1028.1.1={
+		birth = yes
+	}
+	1102.1.1={
+		death = yes
+	}
+}
+1000230284 = {
+	name="Ya'qúb"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=3008
+	1029.1.1={
+		birth = yes
+	}
+	1108.1.1={
+		death = yes
+	}
+}
+1000230285 = {
+	name="Hasan" #fantasy - a connection between Ali Tegin and Ferghanian branch
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=3010
+	1025.1.1={
+		birth = yes
+	}
+	1080.1.1={
+		death = yes
+	}
+}
+1000230286 = {
+	name="Toghril Yusuf"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=3008
+	1020.1.1={
+		birth = yes
+	}
+	1075.1.1={
+		death = yes
+	}
+}
+1000230287 = {
+	name="Toghril Tegin"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=1000230286
+	1042.1.1={
+		birth = yes
+	}
+	1075.3.3={
+		death = yes
+	}
+}
+1000230288 = {
+	name="Husayn"
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=144103
+	1030.1.1={
+		birth = yes
+	}
+	1059.1.1={
+		death = yes
+	}
+}
+
+#SWMH Karluks - chieftans of remaining nomads
+#eastern branch
+
+1000230289 = {
+	name="Begluk"
+	dynasty=1000101789
+	religion="tengri_pagan"
+	culture="karluk"
+	father=1000230252
+	927.1.2={
+		birth = yes
+	}
+	960.1.2={
+		religion="sunni"
+	}
+	980.1.2={
+		death = yes
+	}
+}
+1000230291 = {
+	name="Bazir"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230289
+	961.1.2={
+		birth = yes
+	}
+	1020.1.2={
+		death = yes
+	}
+}
+1000230292 = {
+	name="Uzluk"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230291
+	993.1.2={
+		birth = yes
+	}
+	1050.1.2={
+		death = yes
+	}
+}
+1000230293 = {
+	name="Yinal"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230292
+	1030.1.2={
+		birth = yes
+	}
+	1084.1.2={
+		death = yes
+	}
+}
+1000230294 = {
+	name="Toghril"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230293
+	1062.1.2={
+		birth = yes
+	}
+	1117.1.2={
+		death = yes
+	}
+}
+1000230295 = {
+	name="Togli"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230294
+	1095.1.2={
+		birth = yes
+	}
+	1150.1.2={
+		death = yes
+	}
+}
+1000230296 = {
+	name="Satuq"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230295
+	1128.1.2={
+		birth = yes
+	}
+	1183.1.2={
+		death = yes
+	}
+}
+1000230297 = {
+	name="Toghan"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230296
+	1160.1.2={
+		birth = yes
+	}
+	1225.1.2={
+		death = yes
+	}
+}
+1000230298 = {
+	name="Tamghach"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230297
+	1193.1.2={
+		birth = yes
+	}
+	1258.1.2={
+		death = yes
+	}
+}
+1000230299 = {
+	name="Bilge"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230298
+	1230.1.2={
+		birth = yes
+	}
+	1297.1.2={
+		death = yes
+	}
+}
+
+#western branch - all placeholders
+
+1000231600 = {
+	name="Bilge"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000230291
+	995.1.2={
+		birth = yes
+	}
+	1059.1.2={
+		death = yes
+	}
+}
+1000231601 = {
+	name="Boghra"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231600
+	1029.1.2={
+		birth = yes
+	}
+	1084.1.2={
+		death = yes
+	}
+}
+1000231602 = {
+	name="Togli"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231601
+	1063.1.2={
+		birth = yes
+	}
+	1118.1.2={
+		death = yes
+	}
+}
+1000231603 = {
+	name="Begluk"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231602
+	1092.1.2={
+		birth = yes
+	}
+	1149.1.2={
+		death = yes
+	}
+}
+1000231604 = {
+	name="Tolun"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231603
+	1120.1.2={
+		birth = yes
+	}
+	1178.1.2={
+		death = yes
+	}
+}
+1000231605 = {
+	name="Saru"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231604
+	1152.1.2={
+		birth = yes
+	}
+	1208.1.2={
+		death = yes
+	}
+}
+1000231606 = {
+	name="Kubasar"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231605
+	1185.1.2={
+		birth = yes
+	}
+	1244.1.2={
+		death = yes
+	}
+}
+1000231607 = {
+	name="Itlar"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231606
+	1219.1.2={
+		birth = yes
+	}
+	1272.1.2={
+		death = yes
+	}
+}
+1000231608 = {
+	name="Etrek"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231607
+	1254.1.2={
+		birth = yes
+	}
+	1305.1.2={
+		death = yes
+	}
+}
+1000231609 = {
+	name="Kutan"
+	dynasty=1000101789
+	religion="sunni"
+	culture="karluk"
+	father=1000231608
+	1289.1.2={
+		birth = yes
+	}
+	1345.1.2={
+		death = yes
+	}
+}
+1000231610 = {
+	name="Kamâl-al-Dîn" #1130-1141 Mavarannahr
+	dynasty=1000101791
+	religion="sunni"
+	culture="karluk"
+	father=144118
+	1122.1.1={
+		birth=yes
+	}
+	1160.1.1={
+		death=yes
+	}
+} #still free for Karakhanids
+#last free ID 1000231649

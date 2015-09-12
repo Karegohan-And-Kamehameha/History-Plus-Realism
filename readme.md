@@ -6,6 +6,10 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 The music mod is now available for download at<br> https://mega.nz/#!gxt1xSRB!7YgAoQUS-iCiN6C_Ghr3bzbVnXYhqa0QmcMiGy2szB4 <br>
 
 <b>Changelog:</b><br>
+<b>v0.5:</b><br>
+-SWMH Map integrated. This is a huge change, probably the largest one since the initial release, and it may cause some issues, especially where events are concerned, even though I'm trying to fix them as best I can, some bugs are bound to go unnoticed. The historical accuracy of the map, however is much higher than that of Vanilla and CK2+, so this change benefits the mod greatly.<br>
+At this point the integration of the two big mods mentioned above can be considered complete and HPR has grown from just a tune up of CK2+ to a mod that merges changes from a whole scope of different projects.<br>
+-Excommunication has become a much more serious issue. Subjects will now really hate an excommunicated ruler, just like they did historically, they will revolt, refuse to serve and vassals can refuse to provide levies. And there's a piety penalty on top of that.<br>
 <b>v0.4.2:</b><br>
 -Jus Uxoris mod integrated.<br>
 -ARKO Armories mod integrated (sans the flags that were already modified by CK2+).<br>
@@ -59,6 +63,7 @@ Initial release.<br>
 -ARKO armories.<br>
 -Viet traits.<br>
 -Viet events.<br>
+-SWMH Map.<br>
 -Friends & Foes personality traits.<br>
 -Dorimi music pack.<br>
 -Songs from the four corners music pack.<br>
@@ -76,4 +81,5 @@ Fear is currently accumulated through acts of cruelty, such as torturing, blindi
 
 <b>Known issues:</b><br>
 -Display of religions is not perfect due to the modified religion icon strip, but it's tolerable and no longer produces glitches with new CK2+ religions.<br>
--Due to the increased amount of focus modifiers, the "Select" button no longer fits into the focus selection window. Some other minor focus display issues exist as well.
+-Due to the increased amount of focus modifiers, the "Select" button no longer fits into the focus selection window. Some other minor focus display issues exist as well.<br>
+-Roman Empire restoration events are a bit of a mess, with provinces not always accurately placed within Roman province borders and variations between files.

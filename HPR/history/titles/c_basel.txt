@@ -1,0 +1,15 @@
+842.1.1={
+	liege = "k_lotharingia"
+}
+912.1.1={
+	liege="k_burgundy"
+}
+#1032.1.1={
+#	liege="e_hre"
+#}
+1032.1.1={
+	liege="d_swabia"
+}
+1268.10.29={
+	liege="e_hre"
+}

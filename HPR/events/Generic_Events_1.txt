@@ -7904,16 +7904,14 @@ character_event = {
 		OR = {
 			has_landed_title = k_persia
 			has_landed_title = k_qarakhnid
-			has_landed_title = d_khorasan
-			has_landed_title = d_baluchistan
+			has_landed_title = k_khorasan
 			AND = {
 				culture_group = iranian
 				liege = {
 					OR = {
 						has_landed_title = k_persia
 						has_landed_title = k_qarakhnid
-						has_landed_title = d_khorasan
-						has_landed_title = d_baluchistan
+						has_landed_title = k_khorasan
 					}
 				}
 			}
@@ -7923,8 +7921,7 @@ character_event = {
 					OR = {
 						has_landed_title = k_persia
 						has_landed_title = k_qarakhnid
-						has_landed_title = d_khorasan
-						has_landed_title = d_baluchistan
+						has_landed_title = k_khorasan
 					}
 				}
 			}

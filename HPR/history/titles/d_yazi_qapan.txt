@@ -1,0 +1,44 @@
+#Yazi-Qapan
+864.1.1={
+	liege=k_pechenegs
+	holder=1000231820 # Yazi, chief of Yazi-Qapan at the time of the 893 expulsion
+}
+893.1.1={
+	liege="0" # expulsion from Yaik
+}
+902.1.1={
+	holder=1000231822
+}
+943.1.1={
+	holder=1000231824
+}
+968.1.1={
+	holder=1000231826
+}
+990.1.1={
+	holder=1000231828
+}
+1018.1.1={
+	holder=1000231830
+}
+1046.1.1={
+	liege=k_pechenegs
+}
+1049.1.1={
+	holder=1000231832
+}
+1060.1.1={
+	holder=1000231834 # Osul
+}
+#Tugorkan and Boniak subdue the north of the danube.
+1094.1.1={
+	holder=1000231836
+	liege="k_cuman"
+}
+#Qipchaq loses the war against the Russians. Pechenegs in the west brakes free.
+1103.4.1={
+	liege="0"
+}
+1123.1.1={
+	holder=0 # last invasion of the byzzies, Pechenegs wiped out.
+}

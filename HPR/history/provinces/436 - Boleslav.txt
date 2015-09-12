@@ -5,26 +5,24 @@ title = c_boleslav
 
 # Settlements
 max_settlements = 4
-b_glatz = tribal
+b_glatz = castle
+b_jicin = city
 
-#b_jicin = city
 #b_nachod = castle
 #b_kamieniec = castle
-#b_trutnov = castle
-#b_jaromer = castle
 #b_turnov = castle
+#b_neurodekladsko = city
+#b_wunschelburgkladsko = city
+#b_broumovkladsko = temple
+
 
 # Misc
 culture = bohemian
 religion = slavic_pagan
+terrain = hills
 
 # History
-800.1.1 = {
-	b_glatz = castle
-	b_jicin = city
-	b_hradiste = temple
-}
-864.1.1 = { religion = catholic }
 
+883.1.1 = { religion = catholic }
 #german colonists invited
 1254.1.1 = { culture = german }

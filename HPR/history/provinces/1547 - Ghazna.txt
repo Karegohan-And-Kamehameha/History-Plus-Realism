@@ -1,0 +1,22 @@
+# 1547 - Ghazna
+
+# County Title
+title = c_ghazna
+
+# Settlements
+max_settlements = 6
+b_ghazna = castle
+b_nawabad = city
+b_arus-al-falak = temple
+b_bamiyan = castle
+
+#b_gardiz = temple
+#b_sukawand = city
+
+# Misc
+culture = khalaj
+religion = buddhist
+
+# History
+947.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = pashtun }

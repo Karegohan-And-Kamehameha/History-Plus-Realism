@@ -1,0 +1,24 @@
+# 1284 - Ostrog
+
+# County Title
+title = c_ostrog
+
+# Settlements
+max_settlements = 4
+
+b_ostroh = tribal
+#b_shumsk = city
+#b_izyaslav = temple
+#b_rovno = city
+#b_peresopnytsya = temple
+#b_dorohobuzh = city
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1005.1.1 = {religion = orthodox }
+1005.1.1 = {b_ostroh = castle
+b_shumsk = city
+b_izyaslav = temple }

@@ -1,19 +1,9 @@
 712.1.1={
 	liege=e_arabia
-	# holder = # Muhammad bin Qasim
-}
-716.1.1={
-	liege=0
 }
 
-# ca 716-767: Independent Muslim overlords
-
-768.6.1={
-	liege=k_sindh # reconquest by Hisham ibn 'Amr al-Taghlibi
-	holder=188551 # fictitious deputy of al-Multan
-}
-
-# 769-863: Abbasid governors
+# 712-750: Umayyad governors
+# 750-863: Abbasid governors
 
 863.1.1={
 	liege = 0
@@ -29,7 +19,7 @@
 # 985-1008: Soomra rule
 
 1008.4.1={
-	liege=k_afghanistan
+	liege=k_kafarestan
 	# holder = Sukhpal, Ghaznavid governor
 }
 1040.1.1={ # renewed Ismaili independence (date is an estimate)
@@ -52,7 +42,7 @@
 	holder = 188543 # ? Karmatia
 }
 1178.1.1={ # Ghurid conquest, massacre of Ismaili sultans
-	liege=k_afghanistan
+	liege=k_kafarestan
 	holder=144142 
 }
 1186.1.1={
@@ -62,8 +52,8 @@
 	liege=k_sindh
 	holder=170300 # Nasir-ud-Din Qabacha
 }
-1218.1.1 = {
-	holder = 194188
+1210.1.1={
+	liege=0 # Nasir's independence
 }
 1228.5.30={
 	liege=e_rajastan

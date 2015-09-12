@@ -1,0 +1,6 @@
+835.1.1 = {
+	de_jure_liege = e_russia
+}
+1000.12.25 = {
+	de_jure_liege = e_poland
+}

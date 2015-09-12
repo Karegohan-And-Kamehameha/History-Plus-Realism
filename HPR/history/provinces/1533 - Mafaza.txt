@@ -1,0 +1,25 @@
+# 1533 - Mafáza
+
+# County Title
+title = c_mafaza
+
+# Settlements
+max_settlements = 5
+b_djarmaq = temple
+
+#b_saghand = castle
+#b_bihabad = city
+#b_zarand = temple
+#b_nain = castle
+
+
+# Misc
+culture = baloch
+religion = sunni
+
+# History
+
+970.1.1 = { religion = sunni }
+970.1.1 = { culture = persian }
+970.1.1 = { b_saghand = castle }
+970.1.1 = { b_bihabad = city }

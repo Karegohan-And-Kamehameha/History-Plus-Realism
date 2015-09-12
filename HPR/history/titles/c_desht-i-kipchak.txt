@@ -1,116 +1,83 @@
-691.1.1={
+825.1.1={
+	liege="k_pechenegs"
+}
+825.1.1={
+	holder=1000231704
+}
+830.1.1={
+	holder=1000231706
+}
+#Yazi-Qapan
+864.1.1={
+        liege="d_yazi_qapan"
+	holder=1000231820 # Yazi, chief of Yazi-Qapan at the time of the 893 expulsion
+}
+#Pechengs expulsed by Khazars.
+895.1.1={
 	liege="k_khazaria"
-	holder=74007
+	holder=1000233421
 }
-715.1.1={
-	holder=74008
+930.1.1={
+	holder=1000233423
 }
-731.1.1={
-	holder=74009
+#Sarkel destroyed, goes to oghuz turks.
+966.1.1={
+	holder=1000231869
+	liege="k_uzes"
 }
-749.1.1={
-	holder=74012
+1010.1.1={
+	holder=1000231871
 }
-#761.1.1={
-#	holder=146204
-#}
-763.1.1={
-	holder=146203
+1035.1.1={
+	holder=1000231873
+} 
+#Cumans arrive
+#Qongurogli
+1050.1.1={
+	liege=d_qongurogli
+	holder=1000233183
 }
-793.1.1={
-	holder=74018
+#Yimek
+1060.1.1={
+	liege=d_yimek
+	holder=1000233015
 }
-802.1.1={
-	holder=74019
+1065.1.1={
+	holder=1000233017 # Esen
 }
-818.1.1={
-	holder=74020
+1082.1.1={
+	holder=1000233019 # Aepa
 }
-829.1.1={
-	holder=74021
+1117.1.1={
+	holder=1000233021
 }
-831.1.1={
-	holder=74022
+1140.1.1={
+	holder=1000233024 # Amurat
 }
-833.1.1={
-	liege=d_sarkel
+1165.1.1={
+	holder=1000233026
 }
-847.1.1={
-	holder=74023
+1205.1.1={
+	holder=1000233028
 }
-852.1.1={
-	holder=74024
-}
-864.1.1 = {
-	liege = d_sarkel
-	holder = 180226
-}
-889.1.1={
-	holder=74026
-}
-899.1.1={
-	holder=146187
-}
-916.1.1={
-	holder=146188
-}
-920.1.1={
-	holder=146189
-}
-928.1.1={
-	holder=146190
-}
-945.1.1={
-	holder=146191
-}
-969.1.1={
-	liege=0
-}
-
-1000.1.1 = {
-	holder = 1000254401
-	liege = "d_sarkel"
-}
-1030.1.1={
+# Mongols put down revolt
+1239.1.1={
 liege="d_sarkel"
-holder=90142
+holder=34851
 }
-1060.1.1 = {
-liege = "d_sarkel"
+1262.1.13=
+{
+holder=34903
 }
-1060.1.1 = {
-holder = 806
+1280.1.1=
+{
+holder=34904
 }
-1110.1.1 = {
-holder = 90143
+1285.1.1=
+{
+holder=34906
 }
-1120.1.1 = {
-holder = 125401
-}
-1146.1.1 = {
-holder = 125402
-}
-1183.1.1 = {
-holder = 228030
-}
-1203.1.1 = {
-holder = 125403
-}
-1223.1.1 = {
-holder = 125404
-}
-1238.1.1 = {
-holder = 34851
-}
-1262.1.13 = {
-holder = 34903
-}
-1280.1.1 = {
-holder = 34904
-}
-1285.1.1 = {
-holder = 34906
-}
-1305.1.1 = {
-holder = 34908
+1305.1.1=
+{
+holder=34908
 }

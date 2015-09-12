@@ -4,30 +4,24 @@
 title = c_castelo_branco
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_castelobranco = castle
-b_covilha = city
-b_guarda = temple
-#b_acores = castle
-#b_trancoso = castle
-#b_sabugal = city
-#b_pinhel = castle
-#b_almeida = castle
+#b_covilha = city
+#b_belmonte = temple
+#b_oleiros = castle
+#b_idanha_a_nova = castle
+#b_penamacor = castle
+#b_proenca_a_nova = castle
+#b_vila_velha_de_rodao = castle
+#b_vila_de_rei = castle
 
 # Misc
-culture = suebi
-religion = catholic
+culture = andalusian_arabic
+religion = sunni
 
 # History
 
-931.1.1={
-	culture = portuguese
-}
-1000.1.1 = { #For Millenium Bookmark
-	b_castelobranco = ca_wall_1
-}
-
 1066.1.1 = { 
-	# b_castelobranco = ca_wall_1
+	b_castelobranco = ca_wall_1
 	b_castelobranco = ca_wall_2
 }

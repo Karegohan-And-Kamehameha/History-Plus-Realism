@@ -24,7 +24,7 @@
 }
 
 790.1.1 = {
-	liege = k_bengal
+	liege = 0
 	}
 
 800.1.1={
@@ -96,9 +96,6 @@
 1203.1.1={
 	holder = 188054 # Trailokyavarma
 	liege = 0
-}
-1211.1.1={
-	liege = k_gondwana
 }
 1245.1.1={
 	holder = 188056 # Viravarma I

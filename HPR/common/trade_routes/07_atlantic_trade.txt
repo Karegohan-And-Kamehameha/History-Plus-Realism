@@ -15,86 +15,86 @@ atlantic_trade = {
 	}
 
 	path = {	# Tangiers-Atlantic
-		841 953 981
+		841 1726 1754
 	}
 	path = {	# Marrakech-Atlantic-Tangiers
 		843 844 953
-	}	
+	}
 	path = {	# Cadiz-Atlantic-Faro-Lisboa-Santiago-Oviedo-Bordeaux-Nantes
-		165 981 980 970 1014 974 1015 106 107 141
+		165 1754 1753 1743 1787 1747 1788 106 107 141
 	}
 	path = {	# Lisboa
-		981 160
+		1754 160
 	}
 	path = {	# Faro
-		981 163
-	}		
+		1754 163
+	}
 	path = {	# Santiago
-		980 157
-	}	
+		1753 157
+	}
 	path = {	# Oviedo
-		1014 155
-	}	
+		1787 155
+	}
 	path = {	#
-		974 149
-	}	
+		1747 149
+	}
 	path = {	# Nantes-French Leon-Caen
-		1015 977 1010 100
+		1788 1750 1740 100
 	}
 	path = {	# French Leon
-		1010 103
-	}	
+		1740 103
+	}
 	path = {	# French Leon-Caen-Winchester
-		1010 966 26
+		1740 1739 26
 	}
 	path = {	# French Leon-Brugge
-		1010 1009 965 78
+		1740 1783 1738 78
 	}
 	path = {	# French Leon-Cornwall-Bangor Fawr-Isle of Man-Innse Gall-Fife-Northumberland-Moray
-		1010 967 968 64 1019 45 992 993 994
-	} 
+		1740 1741 64 1797 45 1765 1765 1766
+	}
 	path = {	# Orkney-Moray
-		993 40 41 43
-	}	
+		1765 40 41 43
+	}
 	path = {	# Cornwall
-		967 31
-	}	
+		1740 31
+	}
 	path = {	# Isle of Man
-		1019 54
+		1797 54
 	}
 	path = {	# Dublin
-		1019 11
-	}		
-	path = {	# Fife-Northumberland
-		994 52
-	}	
-	path = {	# Normandy-London
-		965 32
-	}	
-	path = {	# Fife-Norfolk
-		996 70
+		1797 11
 	}
-	
+	path = {	# Fife-Northumberland
+		1767 52
+	}
+	path = {	# Normandy-London
+		1738 32
+	}
+	path = {	# Fife-Norfolk
+		1769 70
+	}
+
 	path = {	# Ireland-Iceland, Part 1. Split into 3 parts for more obvious directional cue
-		993 990
+		1766 1763
 	}
 	path = {	# Ireland-Iceland, Part 2
-		990 960
-	}	
+		1763 1733
+	}
 	path = {	# Ireland-Iceland, Part 3
-		960 982 1
-	}	
+		1733 1791 1
+	}
 
 	path = {	# Shetland-Bergenshus, Part 1 Split into 2 parts for more obvious directional cue
-		990 989
+		1763 1771
 	}
 	path = {	# Shetland-Bergenshus, Part 2 Split into 2 parts for more obvious directional cue
-		989 986 274
-	}	
+		1771 1760 274
+	}
 	path = {	# Fife-York-Brugge
-		994 995 996 78
+		1767 1768 1769 78
 	}
 	path = {	# York
-		995 57
-	}	
+		1768 57
+	}
 }

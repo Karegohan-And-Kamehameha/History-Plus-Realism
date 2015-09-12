@@ -1,22 +1,23 @@
-# 635 - Qohistan
+# 635 - Qohistan #Qohestán
 
 # County Title
 title = c_qohistan
 
 # Settlements
-max_settlements = 4
-b_torshiz = castle
-b_beyhaq = city
-b_gonabad = temple
+max_settlements = 6
 
-#b_torbatjam = temple
-#b_kalat = castle
-#b_bardaskan = castle
-#b_mahvalat = castle
-#b_fariman = castle
+b_kain = castle
+b_birjand = city
+b_tun = temple
+b_khur = city
+#b_khusb = castle
+#b_naband_qohistan = temple
+#b_kuri = castle
 
 # Misc
-culture = persian
-religion = zoroastrian
+culture = baloch
+religion = kharijite
 
 # History
+970.1.1 = { religion = sunni }
+970.1.1 = { culture = khorasani }

@@ -1,0 +1,21 @@
+# 1023 - Orkanger/Orkdœlafylki
+
+# County Title
+title = c_orkanger
+
+# Settlements
+max_settlements = 3
+
+b_gytting = tribal # Grýting
+#b_bones = city # Búnes
+#b_melhus = tribal # Meðalhusar
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+998.1.1 = { religion = catholic } # Olav Tryggvason
+1015.1.1 = { b_gytting = castle 
+b_melhus = castle} #Fat Olav
+1047.10.25 = { culture = norwegian } 

@@ -120,7 +120,8 @@ guiTypes = {
 		### era windows
 		windowType = {
 			name = "dark_ages_window"
-			position = { x=75 y=121 }
+			#position = { x=75 y=121 }
+			position = { x=75 y=-1121 }
 			moveable = 0
 			fullScreen = no
 			Orientation = "UPPER_LEFT"
@@ -150,7 +151,7 @@ guiTypes = {
 				font = "vic_18"
 				text = "DARK_AGES"
 				maxWidth = 150
-				maxHeight = 20
+				maxHeight = 60
 				fixedsize = yes
 				format = centre
 			}

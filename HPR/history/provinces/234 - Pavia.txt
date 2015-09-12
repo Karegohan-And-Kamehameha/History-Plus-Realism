@@ -5,21 +5,28 @@ title = c_pavia
 
 # Settlements
 max_settlements = 5
-b_pavia = castle
-b_piacenza = city
-b_bobbio = temple
-#b_voghera = castle
-#b_alessandria = castle
-#b_casteggio = castle
-#b_colorno = castle
+
+b_lomello = castle
+b_pavia = city
+b_vigevano = city
+b_monasterodisanpietroincieldoro = temple
+
+#b_castellodizavattarello = castle
+#b_zavattarello = city
+#b_voghera = temple
+#b_casteggio = city
 #b_montebello = castle
+#b_castellovisconteodipavia = castle
+#b_castelnuovoscrivia = castle
+#b_sancolombanoallambro = castle
+
+
 
 # Misc
-culture = lombard
+culture = italian
 religion = catholic
 
 # History
-869.1.1 = { culture = italian }
-1128.12.15 = { capital = b_piacenza }
-1220.1.1 = { capital = b_pavia }
-1337.1.1 = { b_voghera = castle }
+
+1128.12.15 = { capital = b_pavia }
+1240.1.1 = { capital = b_lomello }

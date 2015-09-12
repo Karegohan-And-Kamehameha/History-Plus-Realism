@@ -1,72 +1,34 @@
-650.1.1={
-	liege=d_khorasan
+866.1.1={
+	liege="k_khorasan"
 }
-768.1.1={
-	holder = 188602 # Homayd ibn Qahtaba
-}
-864.1.1 = {
-	liege = "d_khiva"
-}
-864.1.1 = {
-	holder = 163099
-}
-999.1.1 = {
-	holder = 1000255905
-	liege = 0
-}
-1066.1.1 = {
-	liege = "d_zabulistan"
-}
-1066.1.1 = {
-	holder = 144134
-}
-1074.1.1 = {
-	liege = "d_dihistan"
-}
-1074.1.1 = {
-	holder = 93123
-}
-1078.1.1 = {
-	holder = 93125
-}
-1098.1.1 = {
-	holder = 93128
-}
-1100.1.1 = {
-	holder = 93129
-}
-1110.1.1 = {
-	holder = 93126
-}
-1152.1.1 = {
-	holder = 93127
-}
-1161.1.1 = {
-	holder = 144101
-}
- 
-1172.3.1 = {
-	holder = 230000
+866.1.1={
+	holder=163161
 }
 
-1200.1.1 = {
-	holder = 93052
+
+1037.1.1={
+	liege=0
+  holder = 3038
 }
-1220.1.1 = {
-	holder = 194303
+1040.5.5={
+	liege="d_merv"
+  holder=1000229901
 }
-1221.1.1 = {
-	holder = 125501
+1066.1.1={
+	holder=3042
 }
-1227.12.2 = {
-	holder = 93057
+1072.11.1={
+  holder = 93129
 }
-1250.1.1 = {
-	holder = 93058
+1073.1.1={
+	holder=93130
 }
-1280.1.1 = {
-	holder = 93059
+
+1181.1.1={
+	liege="d_khwarazm"
+	holder=93050  # Mahmud Sultan holds  land in Khorasan asindependent
 }
-1310.1.1 = {
-	holder = 93060
+1193.1.1={
+	liege="k_khwarezmia"
+	holder=230000 # Tekish again after death of Sultan
 }

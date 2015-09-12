@@ -6,18 +6,20 @@ title = c_saintois
 # Settlements
 max_settlements = 4
 b_vaudemont = castle
-b_brixey = city
+b_neufchateau = city
 b_saintois = temple
 
+#b_brixey = city
+#b_joinville = castle
 #b_ivios = castle
 #b_sorcystmartin = castle
 #b_ornois = castle
 #b_saulnois = castle
 #b_dompaire = castle
 # Misc
-culture = old_frankish
+culture = frankish
 religion = catholic
 
 # History
-790.1.1 = { culture = frankish }
-1187.1.1 = { b_dompaire = castle } 
+
+

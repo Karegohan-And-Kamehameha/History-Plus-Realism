@@ -7,10 +7,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191612
 	650.1.1={
-		birth=yes
+		birth = yes
 	}
 	730.1.1={
-		death=yes
+		death = yes
 	}
 }
 188001 = {
@@ -23,10 +23,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen semirandomly
 	705.1.1={
-		birth=yes
+		birth = yes
 	}
 	765.1.1={
-		death=yes
+		death = yes
 	}
 }
 188002 = {
@@ -39,10 +39,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	710.1.1={
-		birth=yes
+		birth = yes
 	}
 	760.1.1={
-		death=yes
+		death = yes
 	}
 }
 188003 = {
@@ -54,10 +54,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	730.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={
-		death=yes
+		death = yes
 	}
 }
 188004 = {
@@ -69,13 +69,13 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	732.1.1={
-		birth=yes
+		birth = yes
 	}
 	749.1.1={
 		add_spouse=188017
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
 188005 = {
@@ -88,13 +88,13 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen semirandomly
 	750.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={
 		add_spouse=188018
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
 188006 = {
@@ -108,13 +108,13 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	772.1.1={
-		birth=yes
+		birth = yes
 	}
 	793.1.1={
 		add_spouse=188019
 	}
 	833.1.1={
-		death=yes
+		death = yes
 	}
 }
 188007 = {
@@ -127,13 +127,13 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	795.1.1={
-		birth=yes
+		birth = yes
 	}
 	814.1.1={
 		add_spouse=188020
 	}
 	836.1.1={
-		death=yes
+		death = yes
 	}
 }
 188008 = {
@@ -147,13 +147,13 @@
 	trait="kshatriya"
 	trait="shaktist_hindu"
 	816.4.13={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
 		add_spouse=188021
 	}
 	885.1.1={
-		death=yes
+		death = yes
 	}
 }
 188009 = {
@@ -166,7 +166,7 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # chosen semirandomly
 	841.8.13={
-		birth=yes
+		birth = yes
 	}
 	863.1.1={
 		add_spouse=188022
@@ -175,7 +175,7 @@
 		add_spouse=188023
 	}
 	910.1.1={
-		death=yes
+		death = yes
 	}
 }
 188010 = {
@@ -188,10 +188,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	863.11.22={
-		birth=yes
+		birth = yes
 	}
 	913.1.1={
-		death=yes
+		death = yes
 	}
 }
 188011 = {
@@ -204,13 +204,13 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	866.8.25={
-		birth=yes
+		birth = yes
 	}
 	895.1.1={
 		add_spouse=188024
 	}
 	944.1.1={
-		death=yes
+		death = yes
 	}
 }
 188012 = {
@@ -224,10 +224,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	897.1.1={
-		birth=yes
+		birth = yes
 	}
 	948.1.1={
-		death=yes
+		death = yes
 	}
 }
 188013 = {
@@ -240,10 +240,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	900.1.1={
-		birth=yes
+		birth = yes
 	}
 	954.1.1={
-		death=yes
+		death = yes
 	}
 }
 188014 = {
@@ -255,10 +255,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	928.1.1={
-		birth=yes
+		birth = yes
 	}
 	988.1.1={
-		death=yes
+		death = yes
 	}
 }
 188015 = {
@@ -270,10 +270,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	980.1.1={
-		birth=yes
+		birth = yes
 	}
 	1019.1.1={
-		death=yes
+		death = yes
 	}
 }
 188016 = {
@@ -285,10 +285,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	1000.1.1={
-		birth=yes
+		birth = yes
 	}
 	1035.1.1={
-		death=yes
+		death = yes
 	}
 }
 188017 = {
@@ -300,10 +300,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	729.1.1={
-		birth=yes
+		birth = yes
 	}
 	779.1.1={
-		death=yes
+		death = yes
 	}
 }
 188018 = {
@@ -315,10 +315,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	750.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
 188019 = {
@@ -330,10 +330,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	773.1.1={
-		birth=yes
+		birth = yes
 	}
 	823.1.1={
-		death=yes
+		death = yes
 	}
 }
 188020 = {
@@ -345,10 +345,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	794.1.1={
-		birth=yes
+		birth = yes
 	}
 	844.1.1={
-		death=yes
+		death = yes
 	}
 }
 188021 = {
@@ -360,10 +360,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	820.3.8={
-		birth=yes
+		birth = yes
 	}
 	873.1.1={
-		death=yes
+		death = yes
 	}
 }
 188022 = {
@@ -375,10 +375,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	839.1.1={
-		birth=yes
+		birth = yes
 	}
 	863.12.1={
-		death=yes
+		death = yes
 	}
 }
 188023 = {
@@ -390,10 +390,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	844.2.22={
-		birth=yes
+		birth = yes
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
 188024 = {
@@ -405,13 +405,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	869.1.1={
-		birth=yes
+		birth = yes
 	}
 	925.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188025 = {
     name="Nannuka"
     dynasty=1042067 #Chandela
@@ -420,13 +419,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     800.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     845.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188026 = {
     name="Vakpati"
     dynasty=1042067 #Chandela
@@ -436,13 +434,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     825.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     865.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188027 = {
     name="Jayasakti"
     dynasty=1042067 #Chandela
@@ -452,13 +449,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     845.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     880.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188028 = {
     name="Vijayasakti"
     dynasty=1042067 #Chandela
@@ -468,13 +464,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     846.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     885.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188029 = {
     name="Rahila"
     dynasty=1042067 #Chandela
@@ -484,16 +479,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     865.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     885.1.1={
         add_spouse=188030
     }
     905.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188030 = { 
     name="Rajamati"
     female=yes
@@ -502,13 +496,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
    866.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     915.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188031 = {
     name="Harsa"
     dynasty=1042067 #Chandela
@@ -519,16 +512,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     885.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     905.1.1={
         add_spouse=188032
     }
     925.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188032 = {
     name="Kanchuka"
     female=yes
@@ -537,13 +529,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
    888.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     925.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188033 = {
     name="Yasovarma"
     dynasty=1042067 #Chandela
@@ -554,16 +545,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     906.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     925.1.1={
         add_spouse=188034
     }
     954.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188034 = {
     name="Pushpa"
     female=yes
@@ -572,13 +562,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     908.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     950.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188035 = {
     name="Dhanga"
     dynasty=1042067 #Chandela
@@ -589,13 +578,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     935.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1002.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188036 = {
     name="Krishnapa"
     dynasty=1042067 #Chandela
@@ -606,13 +594,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     937.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1002.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188037 = {
     name="Ganda"
     dynasty=1042067 #Chandela
@@ -622,13 +609,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     965.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1015.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188038 = {
     name="Vidyadhara"
     dynasty=1042067 #Chandela
@@ -638,13 +624,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     985.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1036.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188039 = {
     name="Vijayapala"
     dynasty=1042067 #Chandela
@@ -654,13 +639,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1005.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1050.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188040 = {
     name="Devavarma"
     dynasty=1042067 #Chandela
@@ -670,13 +654,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1025.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1060.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188041 = {
     name="Kirtivarma"
     dynasty=1042067 #Chandela
@@ -686,16 +669,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1026.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1046.1.1={
         add_spouse=188042
     }
     1090.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188042 = {
     name="Akal"
     female=yes
@@ -704,13 +686,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1028.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1100.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188043 = {
     name="Sallaksanavarma"
     dynasty=1042067 #Chandela
@@ -721,16 +702,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1047.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1063.1.1={
         add_spouse=188044
     }
     1110.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188044 = {
     name="Mahi"
     female=yes
@@ -739,13 +719,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1046.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1105.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188045 = {
     name="Jayavarma"
     dynasty=1042067 #Chandela
@@ -756,13 +735,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1066.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1120.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188046 = {
     name="Prithvivarma"
     dynasty=1042067 #Chandela
@@ -773,16 +751,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1064.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1087.1.1={
         add_spouse=188047
     }
     1128.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188047 = {
     name="Kumara"
     female=yes
@@ -791,13 +768,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1068.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1125.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188048 = {
     name="Madanavarma"
     dynasty=1042067 #Chandela
@@ -808,16 +784,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1105.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1125.1.1={
         add_spouse=188049
     }
     1163.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188049 = {
     name="Prabhavati"
     female=yes
@@ -826,13 +801,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1105.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1165.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188050 = {
     name="Yasovarma"
     dynasty=1042067 #Chandela
@@ -843,16 +817,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1126.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1145.1.1={
         add_spouse=188051
     }
     1166.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188051 = {
     name="Dhruva"
     female=yes
@@ -861,13 +834,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1125.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1170.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188052 = {
     name="Paramardi"
     dynasty=1042067 #Chandela
@@ -878,16 +850,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1161.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1181.1.1={
         add_spouse=188053
     }
     1203.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188053 = {
     name="Maharani"
     female=yes
@@ -896,13 +867,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1161.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1203.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188054 = {
     name="Trailokyavarma"
     dynasty=1042067 #Chandela
@@ -913,16 +883,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1185.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1205.1.1={
         add_spouse=188055
     }
     1245.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188055 = {
     name="Sanyukta"
     female=yes
@@ -931,13 +900,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1185.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1245.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188056 = {
     name="Viravarma"
     dynasty=1042067 #Chandela
@@ -948,16 +916,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1225.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1245.1.1={
         add_spouse=188057
     }
     1285.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188057 = {
     name="Kalayan"
     female=yes
@@ -966,13 +933,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1229.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1289.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188058 = {
     name="Bhojavarma"
     dynasty=1042067 #Chandela
@@ -983,16 +949,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1247.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1265.1.1={
         add_spouse=188059
     }
     1289.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188059 = {
     name="Kanwar"
     female=yes
@@ -1001,13 +966,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1245.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1298.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188060 = {
     name="Hammiravarma"
     dynasty=1042067 #Chandela
@@ -1018,16 +982,15 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1250.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1266.1.1={
         add_spouse=188061
     }
     1311.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188061 = {
     name="Damayanti"
     female=yes
@@ -1036,13 +999,12 @@
     trait="kshatriya"
     trait="shaktist_hindu" # chosen randomly
     1249.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1318.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188074 = {
     name="Mulraja" # Mulraja I Solanki
     dynasty=1042069
@@ -1051,16 +1013,15 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     922.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     960.1.1={
         add_spouse=188138
     }
     996.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188075 = {
     name="Chamundaraja"
     dynasty=1042069 #Solanki
@@ -1071,13 +1032,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     976.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1008.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188076 = {
     # son of Chachini
     name="Vallabharaja"
@@ -1088,13 +1048,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     997.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1010.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188077 = {
     # son of Chachini
     name="Durlabharaja"
@@ -1105,13 +1064,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     998.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1022.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188078 = {
     name="Chachini"
     female=yes
@@ -1123,13 +1081,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     977.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1020.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188079 = {
     # son of Chachini
     name="Nagraja"
@@ -1140,16 +1097,15 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     999.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1015.1.1={
         add_spouse=188080
     }
     1022.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188080 = {
     name="Laxmidevi"
     female=yes
@@ -1158,13 +1114,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     998.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1067.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188081 = {
     # Bhima I Solanki
     name="Bhima"
@@ -1176,8 +1131,8 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1016.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1035.1.1={
         add_spouse=188082
     }
@@ -1185,10 +1140,9 @@
         add_spouse=188083
     }
     1064.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188082 = {
     name="Udaymati"
     female=yes
@@ -1198,13 +1152,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1018.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1045.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188083 = {
     name="Baula"
     female=yes
@@ -1213,13 +1166,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1020.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1070.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188084 = {
     name="Xemraja"
     dynasty=1042069 #Solanki
@@ -1230,13 +1182,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1047.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1100.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188085 = {
     name="Mulraja"
     dynasty=1042069 #Solanki
@@ -1248,13 +1199,12 @@
     trait="vaishnavist_hindu" # chosen randomly
 	trait="kind"
     1037.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1062.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188086 = {
     name="Haripala"
     dynasty=1042069 #Solanki
@@ -1264,13 +1214,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1069.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1105.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188087 = {
     name="Tribhuvanapala"
     dynasty=1042069 #Solanki
@@ -1280,16 +1229,15 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1089.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
 	1108.1.1={
 		add_spouse=188152
 	}
     1127.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188088 = {
     name="Kumarapala"
     dynasty=1042069 #Solanki
@@ -1300,18 +1248,17 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1110.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1160.1.1={
         remove_trait="shaivist_hindu"
         religion="jain"
         trait="svetambara_jain"
     }
     1171.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188089 = {
     name="Karnadeva"
     dynasty=1042069 #Solanki
@@ -1323,16 +1270,15 @@
     trait="vaishnavist_hindu" # chosen randomly
 	trait=charitable
     1040.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1084.1.1={
         add_spouse=188090
     }
     1094.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188090 = {
     name="Mayanalla" # or Miyanalla
     # daughter of Jaykeshi, friend of king Tribhuvanmalla
@@ -1342,13 +1288,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1065.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1100.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188091 = {
     name="Jayasimha"
     dynasty=1042069 #Solanki
@@ -1359,13 +1304,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1085.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1143.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188092 = {
     name="Mahipala"
     dynasty=1042069 #Solanki
@@ -1375,13 +1319,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1113.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1171.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188093 = {
     name="Ajayapala"
     dynasty=1042069 #Solanki
@@ -1392,14 +1335,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1136.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1177.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
-
 188094 = {
     name="Mulraja"
     # Mulraja II Solanki
@@ -1410,13 +1351,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1156.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1178.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188095 = {
     name="Bhima"
     # Bhima II Solanki
@@ -1427,16 +1367,15 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1160.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
 	1180.1.1={
 		add_spouse=191746	#Liladevi Chauhan
 	}
     1241.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188096 = {
     name="Tribhuvanapala"
     dynasty=1042069 #Solanki
@@ -1447,14 +1386,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1200.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1244.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
-
 188097 = {
     name="Jayasimha"
     dynasty=1042069 #Solanki
@@ -1464,13 +1401,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1165.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1224.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 74418 = {
 	name="Mahadevi"
 	female=yes
@@ -1480,13 +1416,12 @@
 	trait=shaivist_hindu
 
 	840.1.1={
-		birth=yes
+		birth = yes
 	}
 	919.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188099 = {
     name="Jaya" # fictitious first name
     dynasty=1042071 #Jewlia
@@ -1495,13 +1430,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     840.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     900.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188100 = {
     name="Vasudeva"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1510,13 +1444,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     521.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     595.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188101 = {
     name="Samanta"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1526,13 +1459,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     570.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     668.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188102 = {
     name="Naradeva" # Purnatalla in other sources
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1542,13 +1474,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     623.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     693.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188103 = {
     name="Jayaraja"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1558,13 +1489,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     648.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     718.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188104 = {
     name="Vigrharaja" # the I
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1574,13 +1504,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     673.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     743.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188105 = {
     name="Chandraraja" # the I
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1590,13 +1519,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     698.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     768.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188106 = {
     name="Gopendraraja"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1606,13 +1534,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     723.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     788.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188107 = {
     name="Durlabharaja" # the I
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1622,13 +1549,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     748.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     809.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188108 = {
     name="Govinda" # the I (aka Guvakaraja)
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1638,13 +1564,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     773.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     836.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188109 = {
     name="Chandraraja" # the II
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1654,13 +1579,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     816.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     880.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188110 = {
     name="Govinda" # the II
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1671,13 +1595,12 @@
     trait="shaivist_hindu"
     trait="skilled_tactician"
     836.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     890.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188111 = {
     name="Chandana"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1687,16 +1610,15 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     860.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     880.1.1={
         add_spouse=188113
     }
     917.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188112 = {
     # wife of ruler of Kannauj, Bhoja I?
     name="Kalavati"
@@ -1708,13 +1630,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     862.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     927.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188113 = {
     # wife of Chandana Chahamana
     name="Rudrani"
@@ -1724,13 +1645,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     858.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     920.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188114 = {
     name="Vakpatiraja" # the I
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1741,13 +1661,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     883.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     944.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188115 = {
     name="Singhraja"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1758,13 +1677,12 @@
     trait="shaivist_hindu"
     trait="charitable"
     900.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     973.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188116 = {
     # Founder of Nadol branch in Sirohi
     name="Lakshamana"
@@ -1775,13 +1693,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     902.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     970.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188138 = {
     # daughter of Chauhan Bhoj?, wife of Mulraja I Solanki
     name="Madhavi"
@@ -1793,13 +1710,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     938.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1000.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188117 = {
     name="Vigraharaja" # the II
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1809,13 +1725,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     940.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     999.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188118 = {
     name="Durlabharaja" # the II
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1825,13 +1740,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     942.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1012.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188119 = {
     name="Govinda" # the III
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1841,13 +1755,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     962.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1020.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188120 = {
     name="Vakapati" # the II
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1857,13 +1770,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     979.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1030.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188121 = {
     name="Viryarama"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1873,13 +1785,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     980.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1040.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188122 = {
     name="Chamundaraja"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1889,13 +1800,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     985.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1050.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188123 = {
     name="Durlabharaja" # the III
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1905,13 +1815,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1030.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1070.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188124 = {
     name="Simghata"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1921,13 +1830,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1026.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1055.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188125 = {
     name="Virasimha"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1937,13 +1845,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1032.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1090.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188126 = {
     name="Vigraharaja" # the III
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1953,13 +1860,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1039.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1105.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188127 = {
     name="Prithviraja" # the I
     dynasty=1042081 #Chahamana of Shakambhari
@@ -1969,16 +1875,15 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1064.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1085.1.1={
         add_spouse=188128
     }
     1110.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188128 = {
     name="Rasaladevi"
     # wife of Prithviraja I Chahamana
@@ -1988,13 +1893,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1065.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1118.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188129 = {
     name="Ajairaja"
     dynasty=1042081 #Chahamana of Ajmer
@@ -2005,16 +1909,15 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1086.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1104.1.1={
         add_spouse=188130
     }
     1125.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188130 = {
     name="Somalladevi"
     # wife of Ajairaja Chahamana
@@ -2024,13 +1927,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1088.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1121.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188131 = {
     name="Arnoraja"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -2041,8 +1943,8 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1105.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1127.1.1={
         add_spouse=188132
     }
@@ -2050,10 +1952,9 @@
         add_spouse=188133
     }
     1151.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188132 = {
     name="Kanchandevi"
     female=yes
@@ -2064,13 +1965,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1105.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1129.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188133 = {
     # daughter of Marwar ruler of Avichi
     name="Sidhawa"
@@ -2080,13 +1980,12 @@
     trait="kshatriya"
     trait="vaishnavist_hindu" # chosen randomly
     1114.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1156.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188134 = {
     name="Jagadeva"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -2097,13 +1996,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1132.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1151.6.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188135 = {
     name="Prithviraja" # the II
     dynasty=1042081 #Chahamana of Shakambhari
@@ -2113,16 +2011,15 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1150.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1166.1.1={
         add_spouse=188140
     }
     1169.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188140 = {
     name="Suhava"
     female=yes
@@ -2131,13 +2028,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1148.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1189.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188136 = {
     name="Vigraharaja" # the IV
     dynasty=1042081 #Chahamana of Shakambhari
@@ -2148,16 +2044,15 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1134.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1151.1.1={
         add_spouse=188137
     }
     1163.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188137 = {
     name="Desaladevi"
     female=yes
@@ -2166,13 +2061,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1135.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1169.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188139 = {
     name="Amarangeya" # or Aparangeya
     dynasty=1042081 #Chahamana of Shakambhari
@@ -2183,13 +2077,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1152.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1165.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188144 = {
     # holder of Gurgaon until 1180
     # founder of Raijada Chahamanas
@@ -2202,16 +2095,15 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1153.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1180.1.1={
         name="Raimana" # name changed after defeat by Prithviraj III
     }
     1200.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188141 = {
     name="Someshwara"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -2222,14 +2114,13 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1129.1.1={
-        birth=yes
+		birth = yes
 	}
 	# add_spouse=Karpuridevi, daughter of Achala of Tripuri
     1177.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188142 = {
     name="Prithviraja" # the III
     dynasty=1042081 #Chahamana of Shakambhari
@@ -2239,13 +2130,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1149.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1192.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188143 = {
     name="Hariraja"
     dynasty=1042081 #Chahamana of Shakambhari
@@ -2255,13 +2145,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1169.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1194.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188145 = {
     name="Govinda"
     dynasty=1042081 #Chahamana of Ranthambor
@@ -2271,13 +2160,12 @@
     trait="kshatriya"
     trait="shaivist_hindu"
     1170.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1215.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188146 = {
 	name="Yasapala"
 	dynasty=1042066
@@ -2287,13 +2175,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	1020.1.1={
-		birth=yes
+		birth = yes
 	}
 	1080.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 170151 = {
 	name="Anangpal" #Anangpal Tomar
 	dynasty=1040200
@@ -2308,7 +2195,6 @@
 		death="754.3.1"
 	}
 }
-
 170152 = {
 	name="Vasudev"
 	dynasty=1040200
@@ -2324,7 +2210,6 @@
 		death="773.4.18"
 	}
 }
-
 170153 = {
 	name="Gangeya" #Gangeya Tuar
 	dynasty=1040200
@@ -2340,7 +2225,6 @@
 		death="794.8.16"
 	}
 }
-
 170154 = {
 	name="Prithvimal"
 	dynasty=1040200
@@ -2356,7 +2240,6 @@
 		death="814.3.5"
 	}
 }
-
 170155 = {
 	name="Jagdev" #or Jaydev
 	dynasty=1040200
@@ -2372,7 +2255,6 @@
 		death="834.11.3"
 	}
 }
-
 170156 = {
 	name="Narpal"
 	dynasty=1040200
@@ -2388,7 +2270,6 @@
 		death="849.3.12"
 	}
 }
-
 170157 = {
 	name="Udaysangh"
 	dynasty=1040200
@@ -2404,7 +2285,6 @@
 		death="875.10.23"
 	}
 }
-
 170158 = {
 	name="Jaidas"
 	dynasty=1040200
@@ -2420,7 +2300,6 @@
 		death="897.1.1"
 	}
 }
-
 170159 = {
 	name="Vachhal" #or VrikshPal 
 	dynasty=1040200
@@ -2436,7 +2315,6 @@
 		death="919.4.22"
 	}
 }
-
 170160 = {
 	name="Bacchdev"
 	dynasty=1040200
@@ -2452,7 +2330,6 @@
 		death="909.1.1"
 	}
 }
-
 170161 = {
 	name="Nagdeo"
 	dynasty=1040200
@@ -2468,7 +2345,6 @@
 		death="923.1.1"
 	}
 }
-
 170162 = {
 	name="Krishnray"
 	dynasty=1040200
@@ -2484,7 +2360,6 @@
 		death="916.1.1"
 	}
 }
-
 170163 = {
 	name="Nihal" #Nihal Ray
 	dynasty=1040200
@@ -2500,7 +2375,6 @@
 		death="933.1.1"
 	}
 }
-
 170164 = {
 	name="Somasi"
 	dynasty=1040200
@@ -2516,7 +2390,6 @@
 		death="904.1.1"
 	}
 }
-
 170165 = {
 	name="Harpal"
 	dynasty=1040200
@@ -2532,7 +2405,6 @@
 		death="913.1.1"
 	}
 }
-
 170166 = {
 	name="Pavak"
 	dynasty=1040200
@@ -2548,7 +2420,6 @@
 		death="940.10.27"
 	}
 }
-
 170167 = {
 	name="Vihangpal"
 	dynasty=1040200
@@ -2564,7 +2435,6 @@
 		death="961.3.1"
 	}
 }
-
 170168 = {
 	name="Tolpal" #or Gopal
 	dynasty=1040200
@@ -2580,7 +2450,6 @@
 		death="979.6.16"
 	}
 }
-
 170169 = {
 	name="Karnpal" #Karnpal Tuar 
 	dynasty=1040200
@@ -2596,7 +2465,6 @@
 		death="882.1.1"
 	}
 }
-
 170170 = {
 	name="Sulakshanpal"
 	dynasty=1040200
@@ -2612,7 +2480,6 @@
 		death="1005.4.26"
 	}
 }
-
 170171 = {
 	name="Jaipal" #Jaipal Tuar
 	dynasty=1040200
@@ -2628,7 +2495,6 @@
 		death="1021.8.29"
 	}
 }
-
 170172 = {
 	name="Jhetpal" #Jhetpal Tuar
 	dynasty=1040206
@@ -2644,7 +2510,6 @@
 		death="1095.1.1"
 	}
 }
-
 170173 = {
 	name="Kanvarpal" #or Kumara Pal Tuar
 	dynasty=1040200
@@ -2660,7 +2525,6 @@
 		death="1051.6.17"
 	}
 }
-
 170174 = {
 	name="Anangpal" #Anangpal II
 	dynasty=1040200
@@ -2676,7 +2540,6 @@
 		death="1081.1.5"
 	}
 }
-
 170175 = {
 	name="Bhumpal" #Bhumpal Tomar
 	dynasty=1040200
@@ -2692,7 +2555,6 @@
 		death="1105.1.1"
 	}
 }
-
 170176 = {
 	name="Indrapal"
 	dynasty=1040200
@@ -2708,7 +2570,6 @@
 		death="1099.1.1"
 	}
 }
-
 170177 = {
 	name="Rangraj"
 	dynasty=1040200
@@ -2724,7 +2585,6 @@
 		death="1084.1.1"
 	}
 }
-
 170178 = {
 	name="Achal" #Achal Raj
 	dynasty=1040200
@@ -2740,7 +2600,6 @@
 		death="1102.1.1"
 	}
 }
-
 170179 = {
 	name="Draupad"
 	dynasty=1040200
@@ -2756,7 +2615,6 @@
 		death="1110.1.1"
 	}
 }
-
 170180 = {
 	name="Sisupal"
 	dynasty=1040200
@@ -2772,7 +2630,6 @@
 		death="1083.1.1"
 	}
 }
-
 170181 = {
 	name="Surajpal"
 	dynasty=1040200
@@ -2788,7 +2645,6 @@
 		death="1093.1.1"
 	}
 }
-
 170182 = {
 	name="Tejpal"
 	dynasty=1040200
@@ -2804,7 +2660,6 @@
 		death="1105.2.11"
 	}
 }
-
 170183 = {
 	name="Mahipal" #or Junpal
 	dynasty=1040200
@@ -2820,7 +2675,6 @@
 		death="1151.7.19"
 	}
 }
-
 170184 = {
 	name="Anangpal" #Dakatpal (Arkpal or Anangpal III)
 	dynasty=1040200
@@ -2836,7 +2690,6 @@
 		death="1192.1.1"
 	}
 }
-
 170185 = {
 	name="Govindraj" #Govindraj Tanwar
 	dynasty=1040200
@@ -2852,7 +2705,6 @@
 		death="1195.1.1"
 	}
 }
-
 170186 = {
 	name="Roopsundari"
 	female=yes
@@ -2869,7 +2721,6 @@
 		death="1105.1.1"
 	}
 }
-
 170187 = {
 	name="Kamaladevi"
 	female=yes
@@ -2886,7 +2737,6 @@
 		death="1102.1.1"
 	}
 }
-
 170188 = {
 	name="Ausan" #Ausan Singh
 	dynasty=1040200
@@ -2902,7 +2752,6 @@
 		death="1208.1.1"
 	}
 }
-
 170189 = {
 	name="Kosal" #Kosal Dev Singh
 	dynasty=1040200
@@ -2918,7 +2767,6 @@
 		death="1229.1.1"
 	}
 }
-
 170218 = {
 	name="Mahendra"
 	dynasty=1040200
@@ -2934,7 +2782,6 @@
 		death="1130.1.1"
 	}
 }
-
 170219 = {
 	name="Hirapal"
 	dynasty=1040200
@@ -2950,7 +2797,6 @@
 		death="1151.1.1"
 	}
 }
-
 170220 = {
 	name="Baghpal"
 	dynasty=1040200
@@ -2966,7 +2812,6 @@
 		death="1175.1.1"
 	}
 }
-
 170221 = {
 	name="Pritampal"
 	dynasty=1040200
@@ -2982,7 +2827,6 @@
 		death="1200.1.1"
 	}
 }
-
 170222 = {
 	name="Dilippal"
 	dynasty=1040200
@@ -2998,7 +2842,6 @@
 		death="1211.1.1"
 	}
 }
-
 170223 = {
 	name="Birpal"
 	dynasty=1040200
@@ -3014,7 +2857,6 @@
 		death="1237.1.1"
 	}
 }
-
 170224 = {
 	name="Anuppal"
 	dynasty=1040200
@@ -3030,7 +2872,6 @@
 		death="1252.1.1"
 	}
 }
-
 170225 = {
 	name="Sonpal"
 	dynasty=1040200
@@ -3046,7 +2887,6 @@
 		death="1304.1.1"
 	}
 }
-
 170226 = {
 	name="Sultanpal"
 	dynasty=1040200
@@ -3062,7 +2902,6 @@
 		death="1319.1.1"
 	}
 }
-
 170227 = {
 	name="Kunwarpal"
 	dynasty=1040200
@@ -3078,7 +2917,6 @@
 		death="1350.1.1"
 	}
 }
-
 170228 = {
 	name="Brahmdev"
 	dynasty=1040200
@@ -3094,7 +2932,6 @@
 		death="1356.1.1"
 	}
 }
-
 170229 = {
 	name="Khetrapal"
 	dynasty=1040206 #Pathan
@@ -3110,7 +2947,6 @@
 		death="1117.1.1"
 	}
 }
-
 170230 = {
 	name="Sukhinpal"
 	dynasty=1040206 #Pathan
@@ -3124,7 +2960,6 @@
 		death="1134.1.1"
 	}
 }
-
 170231 = {
 	name="Jagatpal"
 	dynasty=1040206 #Pathan
@@ -3138,7 +2973,6 @@
 		death="1151.1.1"
 	}
 }
-
 170232 = {
 	name="Rampal"
 	dynasty=1040206 #Pathan
@@ -3152,7 +2986,6 @@
 		death="1168.1.1"
 	}
 }
-
 170233 = {
 	name="Gopal"
 	dynasty=1040206 #Pathan
@@ -3166,7 +2999,6 @@
 		death="1185.1.1"
 	}
 }
-
 170234 = {
 	name="Arjunpal"
 	dynasty=1040206 #Pathan
@@ -3180,7 +3012,6 @@
 		death="1202.1.1"
 	}
 }
-
 170235 = {
 	name="Varshpal"
 	dynasty=1040206 #Pathan
@@ -3194,7 +3025,6 @@
 		death="1219.1.1"
 	}
 }
-
 170236 = {
 	name="Jatanpal"
 	dynasty=1040206 #Pathan
@@ -3208,7 +3038,6 @@
 		death="1236.1.1"
 	}
 }
-
 170237 = {
 	name="Vidurathpal"
 	dynasty=1040206 #Pathan
@@ -3222,7 +3051,6 @@
 		death="1253.1.1"
 	}
 }
-
 170238 = {
 	name="Jaganpal"
 	dynasty=1040206 #Pathan
@@ -3236,7 +3064,6 @@
 		death="1270.1.1"
 	}
 }
-
 170239 = {
 	name="Kiratpal"
 	dynasty=1040206 #Pathan
@@ -3250,7 +3077,6 @@
 		death="1287.1.1"
 	}
 }
-
 170240 = {
 	name="Kakhopal"
 	dynasty=1040206 #Pathan
@@ -3264,7 +3090,6 @@
 		death="1313.1.1"
 	}
 }
-
 170241 = {
 	name="Jaspal"
 	dynasty=1040206 #Pathan
@@ -3278,7 +3103,6 @@
 		death="1353.1.1"
 	}
 }
-
 170288 = {
 	name="Salunji"
 	dynasty=1040200 #Tomara
@@ -3294,7 +3118,6 @@
 		death="1183.1.1"
 	}
 }
-
 170289 = {
 	name="Nihaalji"
 	dynasty=1040200 #Tomara
@@ -3310,7 +3133,6 @@
 		death="1195.1.1"
 	}
 }
-
 170290 = {
 	name="Dothji"
 	dynasty=1040200 #Tomara
@@ -3326,7 +3148,6 @@
 		death="1237.1.1"
 	}
 }
-
 170291 = {
 	name="Popatrajji"
 	dynasty=1040200 #Tomara
@@ -3342,7 +3163,6 @@
 		death="1264.1.1"
 	}
 }
-
 170292 = {
 	name="Peepalrajji"
 	dynasty=1040200 #Tomara
@@ -3358,7 +3178,6 @@
 		death="1292.1.1"
 	}
 }
-
 170293 = {
 	name="Ranaji"
 	dynasty=1040200 #Tomara
@@ -3374,7 +3193,6 @@
 		death="1302.1.1"
 	}
 }
-
 170294 = {
 	name="Alsiji"
 	dynasty=1040200 #Tomara
@@ -3390,7 +3208,6 @@
 		death="1323.1.1"
 	}
 }
-
 170295 = {
 	name="Kamalji"
 	dynasty=1040200 #Tomara
@@ -3406,7 +3223,6 @@
 		death="1341.1.1"
 	}
 }
-
 170296 = {
 	name="Mahipalji"
 	dynasty=1040200 #Tomara
@@ -3422,7 +3238,6 @@
 		death="1390.1.1"
 	}
 }
-
 188148 = {
     name="Mahisarama"
     dynasty=1042081 #Chahamana of Dholpur
@@ -3432,13 +3247,12 @@
     trait="kshatriya"
     trait="smartist_hindu"
     775.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     825.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188149 = {
     name="Chandamahasena"
     dynasty=1042081 #Chahamana of Dholpur
@@ -3448,13 +3262,12 @@
     trait="kshatriya"
     trait="smartist_hindu"
     800.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     860.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188150 = {
     name="Mahisarama" # fictious name
     dynasty=1042081 #Chahamana of Dholpur
@@ -3464,13 +3277,12 @@
     trait="kshatriya"
     trait="smartist_hindu"
     825.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     875.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188151 = {
     name="Sarangadeva" # fictitious name
     religion="hindu"
@@ -3478,13 +3290,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1067.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1120.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188152 = {
 	# wife of Tribhuvanapala Solanki
     name="Bhairavi" # fictitious name
@@ -3495,13 +3306,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1090.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1145.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188153 = {
     name="Avidya" # fictitious name
 	female=yes
@@ -3511,13 +3321,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1088.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1145.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188166 = {
     name="Dhavala"
     dynasty=1042072 #Vaghela
@@ -3527,16 +3336,15 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1105.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
 	1122.1.1={
 		add_spouse=188153
 	}
     1145.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188154 = {
 	# Holder of Vaghela and Dholka
     name="Arnoraja"
@@ -3548,13 +3356,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1125.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1200.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188155 = {
 	# Holder of Vaghela and Dholka
     name="Lavanaprasada"
@@ -3565,16 +3372,15 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1160.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
 	1178.1.1={
 		add_spouse=188156
 	}
     1235.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188156 = {
     name="Madanarajni"
 	female=yes
@@ -3582,14 +3388,13 @@
     culture="rajput"
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
-    1162.1.1={ 
-        birth=yes
-    }
+    1162.1.1={
+		birth = yes
+	}
     1220.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188157 = {
     name="Viradhavala"
     dynasty=1042072 #Vaghela
@@ -3602,13 +3407,12 @@
 	trait="skilled_tactician"
 	trait="brave"
     1180.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1238.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188158 = {
     name="Virama" # also called Visala
     dynasty=1042072 #Vaghela
@@ -3618,13 +3422,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1205.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1261.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188159 = {
     name="Pratapamalla"
     dynasty=1042072 #Vaghela
@@ -3634,13 +3437,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1210.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1249.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188160 = {
     name="Arjuna"
     dynasty=1042072 #Vaghela
@@ -3650,13 +3452,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1232.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1274.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188161 = {
     name="Saranga"
     dynasty=1042072 #Vaghela
@@ -3666,13 +3467,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1254.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1296.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188162 = {
     name="Rama"
     dynasty=1042072 #Vaghela
@@ -3682,13 +3482,12 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1256.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1290.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188163 = {
     name="Karna"
     dynasty=1042072 #Vaghela
@@ -3698,17 +3497,16 @@
     trait="kshatriya"
     trait="smartist_hindu" # chosen randomly
     1275.9.4={
-        birth=yes
-    }
+		birth = yes
+	}
 	1292.1.1={
 		trait="possessed"
 		add_spouse=188164
 	}
     1310.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188164 = {
     name="Kaula"
     female=yes
@@ -3718,33 +3516,12 @@
     trait="smartist_hindu" # chosen randomly
 	trait="fair"
     1274.1.4={
-        birth=yes
-    }
+		birth = yes
+	}
     1315.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
-188165 = {
-	# Wife of Khizar Khan
-    name="Devala"
-    female=yes
-    dynasty=1042072 #Vaghela
-    religion="hindu"
-    culture="rajput"
-    father=188163
-	mother=188164
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
-	trait="fair"
-    1293.1.1={
-        birth=yes
-    }
-    1340.1.1={
-        death=yes
-    }
-}
-
 188168 = {
     name="Srimala"
     dynasty=1042074 # Pragvata
@@ -3753,13 +3530,12 @@
     trait="kshatriya"
     trait="svetambara_jain" # chosen semi-randomly
     945.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1000.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188169 = {
     name="Lahadha"
     dynasty=1042074 # Pragvata
@@ -3769,13 +3545,12 @@
     trait="svetambara_jain" # chosen semi-randomly
 	father=188168
     970.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1025.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188170 = {
     name="Nedha"
     dynasty=1042074 # Pragvata
@@ -3785,13 +3560,12 @@
     trait="svetambara_jain" # chosen semi-randomly
 	father=188169
     1000.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1040.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188171 = {
     name="Vimala"
     dynasty=1042074 # Pragvata
@@ -3801,13 +3575,12 @@
     trait="svetambara_jain" # chosen semi-randomly
 		father=188169
     1002.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1055.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188172 = {
     name="Laliga"
     dynasty=1042074 # Pragvata
@@ -3817,13 +3590,12 @@
     trait="svetambara_jain" # chosen semi-randomly
 		father=188170
     1035.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1100.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188173 = {
     name="Dasaratha"
     dynasty=1042074 # Pragvata
@@ -3833,13 +3605,12 @@
     trait="svetambara_jain" # chosen semi-randomly
 		father=188172
     1072.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1150.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188174 = {
     name="Karakaksha" # made up
     dynasty=1042075 # Abhira
@@ -3848,13 +3619,12 @@
     trait="kshatriya"
     trait="svetambara_jain" # chosen semi-randomly
     820.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     880.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188175 = {
     name="Mahipala"
     dynasty=1042076 # Kacchapaghata
@@ -3863,13 +3633,12 @@
     trait="kshatriya"
     trait="shaivist_hindu" 
     1052.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     1108.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188206 = {
 	name="Mahahayak"
 	dynasty=1042079 #Guhilot
@@ -3879,13 +3648,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	835.1.1={
-		birth=yes
+		birth = yes
 	}
 	878.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188207 = {
 	name="Yograj"
 	dynasty=1042079 #Guhilot
@@ -3895,13 +3663,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1020.1.1={
-		birth=yes
+		birth = yes
 	}
 	1068.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188208 = {
 	name="Sajraj"
 	dynasty=1042080 #Nagil
@@ -3910,13 +3677,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	832.1.1={
-		birth=yes
+		birth = yes
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188209 = {
 	name="Gajvkatra" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -3926,13 +3692,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	868.1.1={
-		birth=yes
+		birth = yes
 	}
 	925.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188210 = {
 	name="Sajraj" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -3942,13 +3707,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	900.1.1={
-		birth=yes
+		birth = yes
 	}
 	950.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188211 = {
 	name="Singhraj" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -3958,13 +3722,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	925.1.1={
-		birth=yes
+		birth = yes
 	}
 	975.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188212 = {
 	name="Sankhpaul" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -3974,13 +3737,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	950.1.1={
-		birth=yes
+		birth = yes
 	}
 	1000.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188213 = {
 	name="Sajraj" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -3990,13 +3752,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	975.1.1={
-		birth=yes
+		birth = yes
 	}
 	1025.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188214 = {
 	name="Kulika" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -4006,13 +3767,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1000.1.1={
-		birth=yes
+		birth = yes
 	}
 	1050.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188215 = {
 	name="Karkotak" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -4022,13 +3782,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1025.1.1={
-		birth=yes
+		birth = yes
 	}
 	1075.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188216 = {
 	name="Sajraj" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -4038,13 +3797,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1050.1.1={
-		birth=yes
+		birth = yes
 	}
 	1100.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188217 = {
 	name="Padam" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -4054,13 +3812,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1075.1.1={
-		birth=yes
+		birth = yes
 	}
 	1125.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188218 = {
 	name="Takshak" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -4070,13 +3827,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1100.1.1={
-		birth=yes
+		birth = yes
 	}
 	1155.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188219 = {
 	name="Sajraj" # correct dynasty, but names and details unknown
 	dynasty=1042080 #Nagil
@@ -4086,13 +3842,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1125.1.1={
-		birth=yes
+		birth = yes
 	}
 	1205.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188220 = {
 	name="Valhana"
 	dynasty=1042081 #Chahamana
@@ -4102,13 +3857,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1187.1.1={
-		birth=yes
+		birth = yes
 	}
 	1220.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188221 = {
 	name="Prahladana"
 	dynasty=1042081 #Chahamana
@@ -4118,13 +3872,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1203.1.1={
-		birth=yes
+		birth = yes
 	}
 	1221.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188222 = {
 	name="Viranarayana"
 	dynasty=1042081 #Chahamana
@@ -4134,13 +3887,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1219.1.1={
-		birth=yes
+		birth = yes
 	}
 	1226.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188223 = {
 	name="Vagbhata"
 	dynasty=1042081 #Chahamana
@@ -4150,13 +3902,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1204.1.1={
-		birth=yes
+		birth = yes
 	}
 	1253.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188224 = {
 	name="Jaitrasimha"
 	dynasty=1042081 #Chahamana
@@ -4166,13 +3917,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random.
 	1224.1.1={
-		birth=yes
+		birth = yes
 	}
 	1285.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188225 = {
 	name="Suratrana"
 	dynasty=1042081 #Chahamana
@@ -4182,13 +3932,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1244.1.1={
-		birth=yes
+		birth = yes
 	}
 	1300.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188226 = {
 	name="Virama"
 	dynasty=1042081 #Chahamana
@@ -4198,13 +3947,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1245.1.1={
-		birth=yes
+		birth = yes
 	}
 	1301.7.8={
-		death=yes
+		death = yes
 	}
 }
-
 188227 = {
 	name="Hammira"
 	dynasty=1042081 #Chahamana
@@ -4217,13 +3965,12 @@
 	trait="brave"
 	trait="ambitious"
 	1246.1.1={
-		birth=yes
+		birth = yes
 	}
 	1301.7.8={
-		death=yes
+		death = yes
 	}
 }
-
 188228 = {
 	name="Devalladevi"
 	female=yes
@@ -4234,13 +3981,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1276.1.1={
-		birth=yes
+		birth = yes
 	}
 	1301.7.8={
-		death=yes
+		death = yes
 	}
 }
-
 188229 = {
 	name="Vajradman"
 	dynasty=1042076 # Kachwaha 1
@@ -4249,13 +3995,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	925.1.1={
-		birth=yes
+		birth = yes
 	}
 	975.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188230 = {
 	name="Mangalaraja"
 	dynasty=1042076 # Kachwaha
@@ -4265,13 +4010,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	945.1.1={
-		birth=yes
+		birth = yes
 	}
 	1000.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188231 = {
 	name="Kirtti"
 	dynasty=1042076 # Kachwaha
@@ -4281,13 +4025,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	970.1.1={
-		birth=yes
+		birth = yes
 	}
 	1025.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188232 = {
 	name="Muladeva"
 	dynasty=1042076 # Kachwaha
@@ -4297,13 +4040,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1000.1.1={
-		birth=yes
+		birth = yes
 	}
 	1050.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188233 = {
 	name="Vajradman" # fictitious name
 	dynasty=1042076 # Kachwaha
@@ -4313,13 +4055,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1020.1.1={
-		birth=yes
+		birth = yes
 	}
 	1065.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188234 = {
 	name="Mahipal"
 	dynasty=1042076 # Kachwaha 6
@@ -4329,13 +4070,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1042.1.1={
-		birth=yes
+		birth = yes
 	}
 	1100.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188235 = {
 	name="Arjuna"
 	dynasty=1042076 # Kachwaha 
@@ -4345,13 +4085,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1065.1.1={
-		birth=yes
+		birth = yes
 	}
 	1120.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188236 = {
 	name="Arjuna" # fictitious name
 	dynasty=1042076 # Kachwaha
@@ -4361,13 +4100,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1085.1.1={
-		birth=yes
+		birth = yes
 	}
 	1135.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188237 = {
 	name="Mahipal" # fictitious name
 	dynasty=1042076 # Kachwaha
@@ -4377,13 +4115,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1110.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188238 = {
 	name="Vikramasimha"
 	dynasty=1042076 # Kachwaha
@@ -4393,14 +4130,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1130.1.1={
-		birth=yes
+		birth = yes
 	}
 	1175.1.1={
-		death=yes
+		death = yes
 	}
 }
-
-
 188239 = {
 	name="Satya"
 	dynasty=1042077 #Paramara
@@ -4410,16 +4145,15 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	950.1.1={
-		birth=yes
+		birth = yes
 	}
 	999.1.1={
 		add_spouse=191925
 	}
 	1020.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188240 = {
 	name="Mandalika"
 	dynasty=1042077 #Paramara
@@ -4430,13 +4164,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1002.1.1={
-		birth=yes
+		birth = yes
 	}
 	1070.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188241 = {
 	name="Chamunda"
 	dynasty=1042077 #Paramara
@@ -4446,13 +4179,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1050.1.1={
-		birth=yes
+		birth = yes
 	}
 	1101.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 170299 = {
 	name="Kafur" # Malik Kafur
 	religion="hindu"
@@ -4478,7 +4210,6 @@
 		death="1316.4.1"
 	}
 }
-
 188176 = {
 	name="Upendra"
 	dynasty=1042077 #Paramara
@@ -4487,13 +4218,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	770.1.1={
-		birth=yes
+		birth = yes
 	}
 	818.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188177 = {
 	name="Vairisimha"
 	dynasty=1042077 #Paramara
@@ -4503,13 +4233,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	800.1.1={
-		birth=yes
+		birth = yes
 	}
 	843.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188178 = {
 	name="Siyaka" # the I
 	dynasty=1042077 #Paramara
@@ -4519,13 +4248,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	831.4.5={
-		birth=yes
+		birth = yes
 	}
 	893.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188179 = {
 	name="Vakpati" # the I
 	dynasty=1042077 #Paramara
@@ -4535,13 +4263,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	856.9.28={
-		birth=yes
+		birth = yes
 	}
 	918.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188180 = {
 	name="Vairisimha" # the II
 	dynasty=1042077 #Paramara
@@ -4551,13 +4278,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	880.1.1={
-		birth=yes
+		birth = yes
 	}
 	948.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188181 = {
 	name="Siyaka" # the II
 	dynasty=1042077 #Paramara
@@ -4567,13 +4293,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	920.1.1={
-		birth=yes
+		birth = yes
 	}
 	973.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188182 = {
 	name="Vakpati" # the II
 	dynasty=1042077 #Paramara
@@ -4583,13 +4308,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	950.1.1={
-		birth=yes
+		birth = yes
 	}
 	995.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188183 = {
 	name="Sindhu"
 	dynasty=1042077 #Paramara
@@ -4599,13 +4323,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	956.1.1={
-		birth=yes
+		birth = yes
 	}
 	1010.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188184 = {
 	name="Bhoja" # the I
 	dynasty=1042077 #Paramara
@@ -4616,13 +4339,12 @@
 	trait="shaivist_hindu"
 	trait=scholar
 	997.1.1={
-		birth=yes
+		birth = yes
 	}
 	1055.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188185 = {
 	name="Jayasimha"
 	dynasty=1042077 #Paramara
@@ -4632,13 +4354,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1035.1.1={
-		birth=yes
+		birth = yes
 	}
 	1069.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188186 = {
 	name="Udayaditya"
 	dynasty=1042077 #Paramara
@@ -4648,13 +4369,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # goddess on his coins
 	1008.1.1={
-		birth=yes
+		birth = yes
 	}
 	1087.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188187 = {
 	name="Lakshmana"
 	dynasty=1042077 #Paramara
@@ -4664,13 +4384,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # goddess on his coins
 	1043.3.6={
-		birth=yes
+		birth = yes
 	}
 	1094.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188188 = {
 	name="Naravarman"
 	dynasty=1042077 #Paramara
@@ -4681,13 +4400,12 @@
 	trait="shaivist_hindu" # restored Mahakala temple
 	# trait=poet
 	1061.5.27={
-		birth=yes
+		birth = yes
 	}
 	1133.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188189 = {
 	name="Yasovarman"
 	dynasty=1042077 #Paramara
@@ -4697,13 +4415,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1080.1.1={
-		birth=yes
+		birth = yes
 	}
 	1142.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188190 = {
 	name="Jayavarman"
 	dynasty=1042077 #Paramara
@@ -4713,13 +4430,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1100.1.1={
-		birth=yes
+		birth = yes
 	}
 	1143.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188192 = {
 	# Holder of Bhopal during usurpation
 	name="Lakshmivarman"
@@ -4730,13 +4446,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1103.1.1={
-		birth=yes
+		birth = yes
 	}
 	1150.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188193 = {
 	# Holder near Bilsa during usurpation
 	name="Trailokyavarman"
@@ -4747,13 +4462,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1102.1.1={
-		birth=yes
+		birth = yes
 	}
 	1150.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188194 = {
 	name="Harischandra"
 	dynasty=1042077 #Paramara
@@ -4763,13 +4477,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1130.1.1={
-		birth=yes
+		birth = yes
 	}
 	1200.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188195 = {
 	name="Udayavarman"
 	dynasty=1042077 #Paramara
@@ -4779,13 +4492,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1170.1.1={
-		birth=yes
+		birth = yes
 	}
 	1210.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188196 = {
 	name="Devapala"
 	dynasty=1042077 #Paramara
@@ -4795,13 +4507,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1180.1.1={
-		birth=yes
+		birth = yes
 	}
 	1239.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188197 = {
 	name="Vindhyavarman"
 	dynasty=1042077 #Paramara
@@ -4811,13 +4522,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1130.1.1={
-		birth=yes
+		birth = yes
 	}
 	1193.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188198 = {
 	name="Subhatavarman"
 	dynasty=1042077 #Paramara
@@ -4827,13 +4537,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1160.1.1={
-		birth=yes
+		birth = yes
 	}
 	1210.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188199 = {
 	name="Arjunavarman"
 	dynasty=1042077 #Paramara
@@ -4844,13 +4553,12 @@
 	trait="shaivist_hindu" # random
 	trait="poet"
 	1180.1.1={
-		birth=yes
+		birth = yes
 	}
 	1218.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188200 = {
 	name="Jaitugideva"
 	dynasty=1042077 #Paramara
@@ -4860,13 +4568,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1200.1.1={
-		birth=yes
+		birth = yes
 	}
 	1256.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188201 = {
 	name="Jayavarman" # the II
 	dynasty=1042077 #Paramara
@@ -4876,13 +4583,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1201.1.1={
-		birth=yes
+		birth = yes
 	}
 	1269.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188202 = {
 	name="Jayasimha" # the II
 	dynasty=1042077 #Paramara
@@ -4892,13 +4598,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1230.1.1={
-		birth=yes
+		birth = yes
 	}
 	1274.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188203 = {
 	name="Arjunavarman" # the II
 	dynasty=1042077 #Paramara
@@ -4908,13 +4613,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1250.1.1={
-		birth=yes
+		birth = yes
 	}
 	1283.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188204 = {
 	name="Bhoja"
 	dynasty=1042077 #Paramara
@@ -4924,13 +4628,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1254.1.1={
-		birth=yes
+		birth = yes
 	}
 	1298.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188205 = {
 	name="Mahlakadeva"
 	dynasty=1042077 #Paramara
@@ -4940,13 +4643,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # random
 	1282.1.1={
-		birth=yes
+		birth = yes
 	}
 	1305.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188277 = {
 	name="Chuda"
 	dynasty=1042088 # Chudasama
@@ -4955,13 +4657,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	845.1.1={
-		birth=yes
+		birth = yes
 	}
 	915.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188243 = {
 	name="Hamir"
 	dynasty=1042088 # Chudasama
@@ -4971,13 +4672,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	870.1.1={
-		birth=yes
+		birth = yes
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188244 = {
 	name="Mulraj"
 	dynasty=1042088 # Chudasama
@@ -4987,13 +4687,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	890.1.1={
-		birth=yes
+		birth = yes
 	}
 	940.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188245 = {
 	name="Grahar"
 	dynasty=1042088 # Chudasama
@@ -5003,13 +4702,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	915.1.1={
-		birth=yes
+		birth = yes
 	}
 	965.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188246 = {
 	name="Kawat"
 	dynasty=1042088 # Chudasama
@@ -5019,13 +4717,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	938.1.1={
-		birth=yes
+		birth = yes
 	}
 	975.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188247 = {
 	name="Dayaji" # or Diyas
 	dynasty=1042088 # Chudasama
@@ -5035,13 +4732,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	960.1.1={
-		birth=yes
+		birth = yes
 	}
 	1010.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188248 = {
 	name="Navghan"
 	dynasty=1042088 # Chudasama
@@ -5051,13 +4747,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1008.1.1={
-		birth=yes
+		birth = yes
 	}
 	1044.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188249 = {
 	name="Khengar"
 	dynasty=1042088 # Chudasama
@@ -5067,13 +4762,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1026.1.1={
-		birth=yes
+		birth = yes
 	}
 	1067.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188250 = {
 	name="Navghan" # the II
 	dynasty=1042088 # Chudasama
@@ -5083,13 +4777,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1046.1.1={
-		birth=yes
+		birth = yes
 	}
 	1088.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188251 = {
 	name="Khengar" # the II
 	dynasty=1042088 # Chudasama
@@ -5099,13 +4792,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1066.1.1={
-		birth=yes
+		birth = yes
 	}
 	1105.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188252 = {
 	name="Mulraj" # fictitious
 	dynasty=1042088 # Chudasama
@@ -5115,13 +4807,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1068.1.1={
-		birth=yes
+		birth = yes
 	}
 	1110.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188253 = {
 	name="Navghan" # the III
 	dynasty=1042088 # Chudasama
@@ -5131,13 +4822,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1093.1.1={
-		birth=yes
+		birth = yes
 	}
 	1140.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188254 = {
 	name="Kawat" # the II
 	dynasty=1042088 # Chudasama
@@ -5147,13 +4837,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1113.1.1={
-		birth=yes
+		birth = yes
 	}
 	1152.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188255 = {
 	name="Grahar" # the II
 	dynasty=1042088 # Chudasama
@@ -5163,13 +4852,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1135.1.1={
-		birth=yes
+		birth = yes
 	}
 	1180.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188256 = {
 	name="Raisinha"
 	dynasty=1042088 # Chudasama
@@ -5179,13 +4867,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1155.1.1={
-		birth=yes
+		birth = yes
 	}
 	1184.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188257 = {
 	name="Mahipal" # the II
 	dynasty=1042088 # Chudasama
@@ -5195,13 +4882,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1175.1.1={
-		birth=yes
+		birth = yes
 	}
 	1201.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188258 = {
 	name="Jaymal"
 	dynasty=1042088 # Chudasama
@@ -5211,13 +4897,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1194.1.1={
-		birth=yes
+		birth = yes
 	}
 	1230.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188259 = {
 	name="Mahipal" # III
 	dynasty=1042088 # Chudasama
@@ -5227,13 +4912,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1214.1.1={
-		birth=yes
+		birth = yes
 	}
 	1253.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188260 = {
 	name="Khengar" # III
 	dynasty=1042088 # Chudasama
@@ -5243,13 +4927,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1232.1.1={
-		birth=yes
+		birth = yes
 	}
 	1260.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188261 = {
 	name="Mandlik" 
 	dynasty=1042088 # Chudasama
@@ -5259,13 +4942,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1250.1.1={
-		birth=yes
+		birth = yes
 	}
 	1306.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188262 = {
 	name="Navghan" # IV
 	dynasty=1042088 # Chudasama
@@ -5275,13 +4957,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1252.1.1={
-		birth=yes
+		birth = yes
 	}
 	1308.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188263 = {
 	name="Mahipal" # IV
 	dynasty=1042088 # Chudasama
@@ -5291,13 +4972,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1270.1.1={
-		birth=yes
+		birth = yes
 	}
 	1325.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188264 = {
 	name="Khengar" # IV
 	dynasty=1042088 # Chudasama
@@ -5307,13 +4987,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu" # semi-random
 	1292.1.1={
-		birth=yes
+		birth = yes
 	}
 	1348.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188278 = {
 	name="Lakho"
 	dynasty=1042085 # Jadeja
@@ -5324,13 +5003,12 @@
 	trait="shaktist_hindu" # actually Ashapura Mata
 	trait="twin"
 	1115.1.1={
-		birth=yes
+		birth = yes
 	}
 	1175.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188279 = {
 	name="Rayadhan"
 	dynasty=1042085 # Jadeja
@@ -5340,13 +5018,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1148.1.1={
-		birth=yes
+		birth = yes
 	}
 	1215.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188280 = {
 	name="Othaji"
 	dynasty=1042085 # Jadeja
@@ -5356,13 +5033,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1183.1.1={
-		birth=yes
+		birth = yes
 	}
 	1255.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188281 = {
 	name="Gaoji"
 	dynasty=1042085 # Jadeja
@@ -5372,13 +5048,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1216.1.1={
-		birth=yes
+		birth = yes
 	}
 	1285.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188282 = {
 	name="Vehanji"
 	dynasty=1042085 # Jadeja
@@ -5388,13 +5063,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1246.1.1={
-		birth=yes
+		birth = yes
 	}
 	1321.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188283 = {
 	name="Mulvaji"
 	dynasty=1042085 # Jadeja
@@ -5404,13 +5078,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1303.1.1={
-		birth=yes
+		birth = yes
 	}
 	1386.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188284 = {
 	name="Gajanji"
 	dynasty=1042085 # Jadeja
@@ -5420,13 +5093,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1185.1.1={
-		birth=yes
+		birth = yes
 	}
 	1260.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188285 = {
 	name="Dedaji"
 	dynasty=1042085 # Jadeja
@@ -5436,13 +5108,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1187.1.1={
-		birth=yes
+		birth = yes
 	}
 	1250.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188286 = {
 	name="Hothji"
 	dynasty=1042085 # Jadeja
@@ -5452,13 +5123,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1189.1.1={
-		birth=yes
+		birth = yes
 	}
 	1257.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188287 = {
 	name="Lakhodurado" # or Lakho Ghuraro
 	dynasty=1042086 # Samma
@@ -5467,13 +5137,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	745.1.1={
-		birth=yes
+		birth = yes
 	}
 	810.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188288 = {
 	name="Unad"
 	dynasty=1042086 # Samma
@@ -5483,13 +5152,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	775.1.1={
-		birth=yes
+		birth = yes
 	}
 	835.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188289 = {
 	name="Sampat"
 	dynasty=1042086 # Samma
@@ -5499,13 +5167,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	800.1.1={
-		birth=yes
+		birth = yes
 	}
 	860.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188290 = {
 	name="Kakru"
 	dynasty=1042086 # Samma
@@ -5515,13 +5182,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	830.1.1={
-		birth=yes
+		birth = yes
 	}
 	890.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188291 = {
 	name="Raydhanji"
 	dynasty=1042086 # Samma
@@ -5531,13 +5197,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	855.1.1={
-		birth=yes
+		birth = yes
 	}
 	920.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188292 = {
 	name="Samejaji" # semi-historical
 	dynasty=1042086 # Samma
@@ -5547,13 +5212,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	890.1.1={
-		birth=yes
+		birth = yes
 	}
 	950.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188293 = {
 	name="Sameja" # semi-historical
 	dynasty=1042086 # Samma
@@ -5563,13 +5227,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	920.1.1={
-		birth=yes
+		birth = yes
 	}
 	980.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188294 = {
 	name="Munda" # semi-historical
 	dynasty=1042086 # Samma
@@ -5579,13 +5242,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	950.1.1={
-		birth=yes
+		birth = yes
 	}
 	1010.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188295 = {
 	name="Raukadi" # semi-historical
 	dynasty=1042086 # Samma
@@ -5595,13 +5257,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	980.1.1={
-		birth=yes
+		birth = yes
 	}
 	1040.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188296 = {
 	name="Jahkra" # semi-historical
 	dynasty=1042086 # Samma
@@ -5611,13 +5272,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1010.1.1={
-		birth=yes
+		birth = yes
 	}
 	1070.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188297 = {
 	name="Unad" # made up
 	dynasty=1042086 # Samma
@@ -5627,13 +5287,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1040.1.1={
-		birth=yes
+		birth = yes
 	}
 	1100.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188298 = {
 	name="Kakru" # made up
 	dynasty=1042086 # Samma
@@ -5643,13 +5302,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1070.1.1={
-		birth=yes
+		birth = yes
 	}
 	1120.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188299 = {
 	name="Jada"
 	dynasty=1042086 # Samma
@@ -5659,13 +5317,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1095.1.1={
-		birth=yes
+		birth = yes
 	}
 	1147.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188300 = {
 	name="Ghao" 
 	dynasty=1042086 # Samma
@@ -5675,13 +5332,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1130.1.1={
-		birth=yes
+		birth = yes
 	}
 	1175.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188301 = {
 	name="Munda" # made up
 	dynasty=1042086 # Samma
@@ -5691,13 +5347,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	1098.1.1={
-		birth=yes
+		birth = yes
 	}
 	1140.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188302 = {
 	name="Lakhiar"
 	dynasty=1042086 # Samma
@@ -5708,13 +5363,12 @@
 	trait="shaktist_hindu" # actually Ashapura Mata
 	trait="twin"
 	1115.1.1={
-		birth=yes
+		birth = yes
 	}
 	1155.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188303 = {
 	name="Mod"
 	dynasty=1042086 # Samma
@@ -5724,13 +5378,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	779.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188304 = {
 	name="Saad"
 	dynasty=1042086 # Samma
@@ -5740,13 +5393,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	805.1.1={
-		birth=yes
+		birth = yes
 	}
 	860.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188305 = {
 	name="Phool"
 	dynasty=1042086 # Samma
@@ -5756,13 +5408,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu" # actually Ashapura Mata
 	830.1.1={
-		birth=yes
+		birth = yes
 	}
 	885.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188147 = {
     name="Isuka"
     dynasty=1042081 #Chahamana of Dholpur
@@ -5772,13 +5423,12 @@
     trait="kshatriya"
     trait="smartist_hindu"
     750.1.1={
-        birth=yes
-    }
+		birth = yes
+	}
     800.1.1={
-        death=yes
-    }
+		death = yes
+	}
 }
-
 188320 = {
 	name="Jaisimha"
 	dynasty=1042091 # Bhatti
@@ -5787,13 +5437,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	510.1.1={
-		birth=yes
+		birth = yes
 	}
 	550.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188321 = {
 	name="Bahubal"
 	dynasty=1042091 # Bhatti
@@ -5803,13 +5452,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	530.1.1={
-		birth=yes
+		birth = yes
 	}
 	570.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188322 = {
 	name="Subahu"
 	dynasty=1042091 # Bhatti
@@ -5819,13 +5467,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	550.1.1={
-		birth=yes
+		birth = yes
 	}
 	590.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188323 = {
 	name="Rajh"
 	dynasty=1042091 # Bhatti
@@ -5835,13 +5482,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	570.1.1={
-		birth=yes
+		birth = yes
 	}
 	610.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188324 = {
 	name="Gaj"
 	dynasty=1042091 # Bhatti
@@ -5851,13 +5497,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	590.1.1={
-		birth=yes
+		birth = yes
 	}
 	630.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188325 = {
 	name="Salivahan"
 	dynasty=1042091 # Bhatti
@@ -5867,13 +5512,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	610.1.1={
-		birth=yes
+		birth = yes
 	}
 	650.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188326 = {
 	name="Baland"
 	dynasty=1042091 # Bhatti
@@ -5883,13 +5527,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	630.1.1={
-		birth=yes
+		birth = yes
 	}
 	670.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188327 = {
 	name="Bhati"
 	dynasty=1042091 # Bhatti
@@ -5899,13 +5542,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	650.1.1={
-		birth=yes
+		birth = yes
 	}
 	690.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188328 = {
 	name="Mangal-Rao"
 	dynasty=1042091 # Bhatti
@@ -5915,13 +5557,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	670.1.1={
-		birth=yes
+		birth = yes
 	}
 	710.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188329 = {
 	name="Majam-Rao"
 	dynasty=1042091 # Bhatti
@@ -5931,13 +5572,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	731.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188330 = {
 	name="Kehar"
 	dynasty=1042091 # Bhatti
@@ -5947,13 +5587,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	715.1.1={
-		birth=yes
+		birth = yes
 	}
 	806.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188331 = {
 	name="Tano"
 	dynasty=1042091 # Bhatti
@@ -5963,13 +5602,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	770.1.1={
-		birth=yes
+		birth = yes
 	}
 	821.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188332 = {
 	name="Bijairai"
 	dynasty=1042091 # Bhatti
@@ -5979,13 +5617,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	810.1.1={
-		birth=yes
+		birth = yes
 	}
 	853.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188333 = {
 	name="Deoraj"
 	dynasty=1042091 # Bhatti
@@ -5995,13 +5632,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	850.1.1={
-		birth=yes
+		birth = yes
 	}
 	908.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188334 = {
 	name="Mund"
 	dynasty=1042091 # Bhatti
@@ -6011,13 +5647,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	900.1.1={
-		birth=yes
+		birth = yes
 	}
 	979.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188335 = {
 	name="Bijairai" # the II
 	dynasty=1042091 # Bhatti
@@ -6027,13 +5662,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	960.1.1={
-		birth=yes
+		birth = yes
 	}
 	1044.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188336 = {
 	name="Dusaj"
 	dynasty=1042091 # Bhatti
@@ -6043,13 +5677,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1030.1.1={
-		birth=yes
+		birth = yes
 	}
 	1123.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188337 = {
 	name="Lanja"
 	dynasty=1042091 # Bhatti
@@ -6059,13 +5692,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1065.1.1={
-		birth=yes
+		birth = yes
 	}
 	1133.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188338 = {
 	name="Bhojdev"
 	dynasty=1042091 # Bhatti
@@ -6075,13 +5707,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1100.1.1={
-		birth=yes
+		birth = yes
 	}
 	1143.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188339 = {
 	name="Rawal-Jaisal"
 	dynasty=1042091 # Bhatti
@@ -6091,13 +5722,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1095.1.1={
-		birth=yes
+		birth = yes
 	}
 	1170.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188340 = {
 	name="Salivahan" # the II
 	dynasty=1042091 # Bhatti
@@ -6107,13 +5737,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1140.1.1={
-		birth=yes
+		birth = yes
 	}
 	1200.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188341 = {
 	name="Bijal"
 	dynasty=1042091 # Bhatti
@@ -6123,13 +5752,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1170.1.1={
-		birth=yes
+		birth = yes
 	}
 	1230.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188342 = {
 	name="Chachack-Deo"
 	dynasty=1042091 # Bhatti
@@ -6139,13 +5767,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1200.1.1={
-		birth=yes
+		birth = yes
 	}
 	1260.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188343 = {
 	name="Tej-Rao"
 	dynasty=1042091 # Bhatti
@@ -6155,13 +5782,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1230.1.1={
-		birth=yes
+		birth = yes
 	}
 	1294.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188344 = {
 	name="Rawal-Jethsi"
 	dynasty=1042091 # Bhatti
@@ -6171,13 +5797,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1260.1.1={
-		birth=yes
+		birth = yes
 	}
 	1310.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188345 = {
 	name="Karan-Singh"
 	dynasty=1042091 # Bhatti
@@ -6187,13 +5812,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1276.1.1={
-		birth=yes
+		birth = yes
 	}
 	1320.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188346 = {
 	name="Mulraja"
 	dynasty=1042091 # Bhatti
@@ -6203,14 +5827,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1292.1.1={
-		birth=yes
+		birth = yes
 	}
 	1330.1.1={
-		death=yes
+		death = yes
 	}
 }
-
-
 188347 = {
 	name="Ratan"
 	dynasty=1042091 # Bhatti
@@ -6220,13 +5842,12 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1308.1.1={
-		birth=yes
+		birth = yes
 	}
 	1340.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188348 = {
 	name="Lakhan-Sen"
 	dynasty=1042091 # Bhatti
@@ -6236,10 +5857,10 @@
 	trait="kshatriya"
     trait="shaivist_hindu" # chosen randomly
 	1324.1.1={
-		birth=yes
+		birth = yes
 	}
 	1350.1.1={
-		death=yes
+		death = yes
 	}
 }
 188445 = {
@@ -6251,13 +5872,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	775.1.1={
-		birth=yes
+		birth = yes
 	}
 	815.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188446 = {
 	name="Kalahalanga"
 	dynasty=1042081 #Chahamana
@@ -6267,13 +5887,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	795.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188447 = {
 	name="Ghangh" # or Dhandu
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6283,13 +5902,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	815.1.1={
-		birth=yes
+		birth = yes
 	}
 	865.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188448 = {
 	name="Kanho"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6299,13 +5917,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	840.1.1={
-		birth=yes
+		birth = yes
 	}
 	890.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188449 = {
 	name="Harsha" # fictitious
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6315,13 +5932,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	865.1.1={
-		birth=yes
+		birth = yes
 	}
 	915.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188450 = {
 	name="Gangh" # fictitious
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6331,13 +5947,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	890.1.1={
-		birth=yes
+		birth = yes
 	}
 	950.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188451 = {
 	name="Jevara"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6347,13 +5962,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	912.1.1={
-		birth=yes
+		birth = yes
 	}
 	980.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188452 = {
 	name="Gogaji"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6363,13 +5977,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	946.1.1={
-		birth=yes
+		birth = yes
 	}
 	1024.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188453 = {
 	name="Naniga"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6379,13 +5992,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	968.1.1={
-		birth=yes
+		birth = yes
 	}
 	1035.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188454 = { 
 	name="Bairasi" # or Vairasi
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6395,13 +6007,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	950.1.1={
-		birth=yes
+		birth = yes
 	}
 	1020.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188455 = { 
 	name="Udayaraja"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6411,13 +6022,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	980.1.1={
-		birth=yes
+		birth = yes
 	}
 	1055.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188456 = { 
 	name="Jasaraja"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6427,13 +6037,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1010.1.1={
-		birth=yes
+		birth = yes
 	}
 	1075.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188457 = { 
 	name="Kesoraja"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6443,13 +6052,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1040.1.1={
-		birth=yes
+		birth = yes
 	}
 	1095.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188458 = { 
 	name="Vijayaraja"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6459,13 +6067,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1065.1.1={
-		birth=yes
+		birth = yes
 	}
 	1115.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188459 = { 
 	name="Padmasi"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6475,13 +6082,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1090.1.1={
-		birth=yes
+		birth = yes
 	}
 	1135.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188460 = { 
 	name="Prithviraj"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6491,13 +6097,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1110.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188461 = { 
 	name="Lalachanda"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6507,13 +6112,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1135.1.1={
-		birth=yes
+		birth = yes
 	}
 	1185.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188462 = { 
 	name="Gopala"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6523,13 +6127,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1160.1.1={
-		birth=yes
+		birth = yes
 	}
 	1210.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188463 = { 
 	name="Jaitasi"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6539,13 +6142,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1185.1.1={
-		birth=yes
+		birth = yes
 	}
 	1230.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188464 = { 
 	name="Punapala"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6555,13 +6157,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1205.1.1={
-		birth=yes
+		birth = yes
 	}
 	1255.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188465 = { 
 	name="Rupa"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6571,13 +6172,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1230.1.1={
-		birth=yes
+		birth = yes
 	}
 	1280.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188466 = { 
 	name="Ravana"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6587,13 +6187,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1255.1.1={
-		birth=yes
+		birth = yes
 	}
 	1305.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188467 = { 
 	name="Tihunapala"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6603,13 +6202,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1280.1.1={
-		birth=yes
+		birth = yes
 	}
 	1330.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188468 = { 
 	name="Moteraya"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6619,13 +6217,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1305.1.1={
-		birth=yes
+		birth = yes
 	}
 	1350.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188469 = { 
 	name="Karama-Chanda"
 	dynasty=1042081 #Chahamana of Dadrewa
@@ -6635,16 +6232,15 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1328.1.1={
-		birth=yes
+		birth = yes
 	}
 	1355.1.1={
 		religion=sunni
 	}	
 	1388.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188470 = {
 	name="Kalbhoj" # or Bappa Rawal
 	dynasty=1042079 # Guhilot
@@ -6653,13 +6249,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	713.1.1={
-		birth=yes
+		birth = yes
 	}
 	753.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188471 = {
 	name="Khuman"
 	dynasty=1042079 # Guhilot
@@ -6669,13 +6264,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	734.1.1={
-		birth=yes
+		birth = yes
 	}
 	773.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188472 = {
 	name="Mattat"
 	dynasty=1042079 # Guhilot
@@ -6685,13 +6279,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	755.1.1={
-		birth=yes
+		birth = yes
 	}
 	793.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188473 = {
 	name="Bhert-Patt" # or Bhartribhatt
 	dynasty=1042079 # Guhilot
@@ -6701,13 +6294,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	773.1.1={
-		birth=yes
+		birth = yes
 	}
 	813.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188474 = {
 	name="Sinha"
 	dynasty=1042079 # Guhilot
@@ -6717,13 +6309,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	789.1.1={
-		birth=yes
+		birth = yes
 	}
 	828.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188475 = {
 	name="Khuman"
 	dynasty=1042079 # Guhilot
@@ -6733,13 +6324,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	805.1.1={
-		birth=yes
+		birth = yes
 	}
 	853.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188476 = {
 	name="Khuman" # III
 	dynasty=1042079 # Guhilot
@@ -6749,13 +6339,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	865.1.1={
-		birth=yes
+		birth = yes
 	}
 	942.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188477 = {
 	name="Bhert-Patt" # II
 	dynasty=1042079 # Guhilot
@@ -6765,13 +6354,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	890.1.1={
-		birth=yes
+		birth = yes
 	}
 	951.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188478 = {
 	name="Allat"
 	dynasty=1042079 # Guhilot
@@ -6781,13 +6369,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	910.1.1={
-		birth=yes
+		birth = yes
 	}
 	953.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188479 = {
 	name="Narwahan"
 	dynasty=1042079 # Guhilot
@@ -6797,13 +6384,12 @@
 	trait="shaivist_hindu"
 	father=188478 # conjecture
 	928.1.1={
-		birth=yes
+		birth = yes
 	}
 	973.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188480 = {
 	name="Shaliwahan"
 	dynasty=1042079 # Guhilot
@@ -6813,13 +6399,12 @@
 	trait="shaivist_hindu"
 	father=188479
 	946.1.1={
-		birth=yes
+		birth = yes
 	}
 	977.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188481 = {
 	name="Shakti-Kumar"
 	dynasty=1042079 # Guhilot
@@ -6829,13 +6414,12 @@
 	trait="shaivist_hindu"
 	father=188479
 	948.1.1={
-		birth=yes
+		birth = yes
 	}
 	993.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188482 = {
 	name="Amba-Prasad"
 	dynasty=1042079 # Guhilot
@@ -6845,13 +6429,12 @@
 	trait="shaivist_hindu"
 	father=188481
 	964.1.1={
-		birth=yes
+		birth = yes
 	}
 	1007.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188483 = {
 	name="Shuchi-Verma"
 	dynasty=1042079 # Guhilot
@@ -6861,13 +6444,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	981.1.1={
-		birth=yes
+		birth = yes
 	}
 	1021.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188484 = {
 	name="Nar-Verma"
 	dynasty=1042079 # Guhilot
@@ -6877,13 +6459,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1000.1.1={
-		birth=yes
+		birth = yes
 	}
 	1035.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188485 = {
 	name="Keerti-Verma" # or Kirtivarma
 	dynasty=1042079 # Guhilot
@@ -6893,13 +6474,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1003.1.1={
-		birth=yes
+		birth = yes
 	}
 	1051.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188486 = {
 	name="Bairath" # or Vairath
 	dynasty=1042079 # Guhilot
@@ -6909,13 +6489,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1043.1.1={
-		birth=yes
+		birth = yes
 	}
 	1088.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188487 = {
 	name="Hanspal"
 	dynasty=1042079 # Guhilot
@@ -6925,13 +6504,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1063.1.1={
-		birth=yes
+		birth = yes
 	}
 	1103.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188488 = {
 	name="Vair-Singh"
 	dynasty=1042079 # Guhilot
@@ -6941,13 +6519,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1080.1.1={
-		birth=yes
+		birth = yes
 	}
 	1107.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188489 = {
 	name="Vijai-Singh"
 	dynasty=1042079 # Guhilot
@@ -6957,13 +6534,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1098.1.1={
-		birth=yes
+		birth = yes
 	}
 	1127.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188490 = {
 	name="Ari-Singh"
 	dynasty=1042079 # Guhilot
@@ -6973,13 +6549,12 @@
 	trait="shaivist_hindu"
 	father=188488
 	1101.1.1={
-		birth=yes
+		birth = yes
 	}
 	1138.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188491 = {
 	name="Chaud-Singh"
 	dynasty=1042079 # Guhilot
@@ -6989,13 +6564,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1104.1.1={
-		birth=yes
+		birth = yes
 	}
 	1148.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188492 = {
 	name="Vikramaditya"
 	dynasty=1042079 # Guhilot
@@ -7005,13 +6579,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1124.1.1={
-		birth=yes
+		birth = yes
 	}
 	1158.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188493 = {
 	name="Karan-Singh"
 	dynasty=1042079 # Guhilot
@@ -7021,13 +6594,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1141.1.1={
-		birth=yes
+		birth = yes
 	}
 	1168.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188494 = {
 	name="Mahap"
 	dynasty=1042079 # Guhilot
@@ -7037,13 +6609,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1158.1.1={
-		birth=yes
+		birth = yes
 	}
 	1207.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188495 = {
 	name="Kshem-Singh"
 	dynasty=1042079 # Guhilot
@@ -7053,13 +6624,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1142.1.1={
-		birth=yes
+		birth = yes
 	}
 	1172.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188496 = {
 	name="Samant-Singh"
 	dynasty=1042079 # Guhilot
@@ -7069,13 +6639,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1159.1.1={
-		birth=yes
+		birth = yes
 	}
 	1209.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188497 = {
 	name="Kumar-Singh"
 	dynasty=1042079 # Guhilot
@@ -7085,13 +6654,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1160.1.1={
-		birth=yes
+		birth = yes
 	}
 	1191.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188498 = {
 	name="Mathan-Singh"
 	dynasty=1042079 # Guhilot
@@ -7101,13 +6669,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1163.1.1={
-		birth=yes
+		birth = yes
 	}
 	1211.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188499 = {
 	name="Padam-Singh"
 	dynasty=1042079 # Guhilot
@@ -7117,13 +6684,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1185.1.1={
-		birth=yes
+		birth = yes
 	}
 	1213.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188500 = {
 	name="Jaitra-Singh"
 	dynasty=1042079 # Guhilot
@@ -7133,13 +6699,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1190.1.1={
-		birth=yes
+		birth = yes
 	}
 	1253.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188501 = {
 	name="Tej-Singh"
 	dynasty=1042079 # Guhilot
@@ -7149,13 +6714,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1212.1.1={
-		birth=yes
+		birth = yes
 	}
 	1273.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188502 = {
 	name="Samar-Singh"
 	dynasty=1042079 # Guhilot
@@ -7165,13 +6729,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1238.1.1={
-		birth=yes
+		birth = yes
 	}
 	1302.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188503 = {
 	name="Ratan-Singh"
 	dynasty=1042079 # Guhilot
@@ -7181,13 +6744,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1260.1.1={
-		birth=yes
+		birth = yes
 	}
 	1303.8.25={
-		death=yes
+		death = yes
 	}
 }
-
 188504 = {
 	name="Maldeo"
 	dynasty=1042081	#Chauhan of Jalor
@@ -7197,13 +6759,12 @@
 	trait="shaivist_hindu"
 	father=191752
 	1280.1.1={
-		birth=yes
+		birth = yes
 	}
 	1326.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188505 = {
 	name="Rahap"
 	dynasty=1042098 # Sisodia
@@ -7213,13 +6774,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1157.1.1={
-		birth=yes
+		birth = yes
 	}
 	1207.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188506 = {
 	name="Narapati"
 	dynasty=1042098 # Sisodia
@@ -7229,13 +6789,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1173.1.1={
-		birth=yes
+		birth = yes
 	}
 	1217.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188507 = {
 	name="Dinakarn"
 	dynasty=1042098 # Sisodia
@@ -7245,13 +6804,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1189.1.1={
-		birth=yes
+		birth = yes
 	}
 	1227.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188508 = {
 	name="Jaskarn"
 	dynasty=1042098 # Sisodia
@@ -7261,13 +6819,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1205.1.1={
-		birth=yes
+		birth = yes
 	}
 	1237.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188509 = {
 	name="Purnpala"
 	dynasty=1042098 # Sisodia
@@ -7277,13 +6834,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1221.1.1={
-		birth=yes
+		birth = yes
 	}
 	1247.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188510 = {
 	name="Prithvipal"
 	dynasty=1042098 # Sisodia
@@ -7293,13 +6849,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1237.1.1={
-		birth=yes
+		birth = yes
 	}
 	1257.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188511 = {
 	name="Bhuvan-Singh"
 	dynasty=1042098 # Sisodia
@@ -7309,13 +6864,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1238.1.1={
-		birth=yes
+		birth = yes
 	}
 	1267.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188512 = {
 	name="Bhim-Singh"
 	dynasty=1042098 # Sisodia
@@ -7325,13 +6879,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1239.1.1={
-		birth=yes
+		birth = yes
 	}
 	1277.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188513 = {
 	name="Jay-Singh"
 	dynasty=1042098 # Sisodia
@@ -7341,13 +6894,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1240.1.1={
-		birth=yes
+		birth = yes
 	}
 	1287.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188514 = {
 	name="Lakshaman-Singh"
 	dynasty=1042098 # Sisodia
@@ -7357,13 +6909,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1256.1.1={
-		birth=yes
+		birth = yes
 	}
 	1303.8.25={
-		death=yes
+		death = yes
 	}
 }
-
 188515 = {
 	name="Ari-Singh"
 	dynasty=1042098 # Sisodia
@@ -7373,13 +6924,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1272.1.1={
-		birth=yes
+		birth = yes
 	}
 	1303.8.25={
-		death=yes
+		death = yes
 	}
 }
-
 188516 = {
 	name="Ajay-Singh"
 	dynasty=1042098 # Sisodia
@@ -7389,13 +6939,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1275.1.1={
-		birth=yes
+		birth = yes
 	}
 	1314.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188517 = {
 	name="Hammir-Singh"
 	dynasty=1042098 # Sisodia
@@ -7405,16 +6954,15 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1291.1.1={
-		birth=yes
+		birth = yes
 	}
 	1320.1.1={
 		add_spouse=188518
 	}
 	1364.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188518 = {
 	name="Bhuyikadevi"
 	female=yes
@@ -7425,13 +6973,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1300.1.1={
-		birth=yes
+		birth = yes
 	}
 	1364.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188519 = {
 	name="Kshetra-Singh"
 	dynasty=1042098 # Sisodia
@@ -7442,13 +6989,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1326.1.1={
-		birth=yes
+		birth = yes
 	}
 	1382.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188520 = {
 	name="Jayat-Singh"
 	dynasty=1042079 # Guhilot
@@ -7458,13 +7004,12 @@
 	trait="shaivist_hindu"
 	father=188496
 	1175.1.1={
-		birth=yes
+		birth = yes
 	}
 	1218.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188521 = {
 	name="Sinhad-Deo"
 	dynasty=1042079 # Guhilot
@@ -7474,13 +7019,12 @@
 	trait="shaivist_hindu"
 	father=188496
 	1176.1.1={
-		birth=yes
+		birth = yes
 	}
 	1248.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188522 = {
 	name="Jay-Singh-Deo"
 	dynasty=1042079 # Guhilot
@@ -7490,13 +7034,12 @@
 	trait="shaivist_hindu"
 	father=188521
 	1200.1.1={
-		birth=yes
+		birth = yes
 	}
 	1251.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188523 = {
 	name="Deopali-Deo"
 	dynasty=1042079 # Guhilot
@@ -7506,13 +7049,12 @@
 	trait="shaivist_hindu"
 	father=188521
 	1201.1.1={
-		birth=yes
+		birth = yes
 	}
 	1278.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188524 = {
 	name="Virsinh-Deo"
 	dynasty=1042079 # Guhilot
@@ -7522,13 +7064,12 @@
 	trait="shaivist_hindu"
 	father=188523
 	1240.1.1={
-		birth=yes
+		birth = yes
 	}
 	1303.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188525 = {
 	name="Bhoo-Chand"
 	dynasty=1042079 # Guhilot
@@ -7538,13 +7079,12 @@
 	trait="shaivist_hindu"
 	father=188524
 	1260.1.1={
-		birth=yes
+		birth = yes
 	}
 	1331.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188526 = {
 	name="Dungar-Singh"
 	dynasty=1042079 # Guhilot
@@ -7554,10 +7094,10 @@
 	trait="shaivist_hindu"
 	father=188525
 	1300.1.1={
-		birth=yes
+		birth = yes
 	}
 	1363.1.1={
-		death=yes
+		death = yes
 	}
 }
 191009 = {
@@ -7568,13 +7108,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	830.1.1={
-		birth=yes
+		birth = yes
 	}
 	902.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191010 = {
 	name="Mal Singh"
 	dynasty=1044307	#Burdak
@@ -7583,13 +7122,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	760.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191011 = {
 	name="Balan Singh"
 	dynasty=1044307	#Burdak
@@ -7599,13 +7137,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	810.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191012 = {
 	name="Mal Singh" #II
 	dynasty=1044307	#Burdak
@@ -7615,13 +7152,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	750.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191013 = {
 	name="Hammira" #fictional
 	dynasty=1044304	#Matsya
@@ -7630,13 +7166,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	760.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191014 = {
 	name="Kunwar" #fictional
 	dynasty=1044304	#Matsya
@@ -7645,13 +7180,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	730.1.1={
-		birth=yes
+		birth = yes
 	}
 	810.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191431 = {
 	name="Madanavarman" #fictional successor of Hammivarman, the dynasty continued but the names are unkown
 	dynasty=1042067 #Chandela
@@ -7662,14 +7196,12 @@
 	father=188060
 	mother=188061
 	1285.1.1={
-		birth=yes
+		birth = yes
 	}
 	1340.1.1={
-		death=yes
+		death = yes
 	}
 }
-
-
 191468 = {
 	name="Vyaghra Dev"
 	dynasty=1044349 # Baghela
@@ -7678,16 +7210,15 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1190.1.1={
-		birth=yes
+		birth = yes
 	}
 	1220.1.1={
 		add_spouse=191469
 	}
 	1250.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191470 = {
 	name="Karnadeva"
 	dynasty=1044349 # Baghela
@@ -7698,16 +7229,15 @@
 	father=191468
 	mother=191469
 	1221.1.1={
-		birth=yes
+		birth = yes
 	}
 	1237.1.1={
 		add_spouse=191475
 	}
 	1270.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191471 = {
 	name="Kirat Dev"
 	dynasty=1044349 # Baghela
@@ -7718,13 +7248,12 @@
 	father=191468
 	mother=191469
 	1222.1.1={
-		birth=yes
+		birth = yes
 	}
 	1280.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191472 = {
 	name="Surat Dev"
 	dynasty=1044349 # Baghela
@@ -7735,13 +7264,12 @@
 	father=191468
 	mother=191469
 	1223.1.1={
-		birth=yes
+		birth = yes
 	}
 	1250.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191473 = {
 	name="Shyam Dev"
 	dynasty=1044349 # Baghela
@@ -7752,13 +7280,12 @@
 	father=191468
 	mother=191469
 	1224.1.1={
-		birth=yes
+		birth = yes
 	}
 	1265.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191474 = {
 	name="Kandhar Dev"
 	dynasty=1044349 # Baghela
@@ -7769,13 +7296,12 @@
 	father=191468
 	mother=191469
 	1225.1.1={
-		birth=yes
+		birth = yes
 	}
 	1299.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191476 = {
 	name="Sohaga Dev"
 	dynasty=1044349 # Baghela
@@ -7786,13 +7312,12 @@
 	father=191470
 	mother=191475
 	1237.1.1={
-		birth=yes
+		birth = yes
 	}
 	1275.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191477 = {
 	name="Saranga Dev"
 	dynasty=1044349 # Baghela
@@ -7802,13 +7327,12 @@
 	trait="vaishnavist_hindu"
 	father=191476
 	1253.1.1={
-		birth=yes
+		birth = yes
 	}
 	1280.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191478 = {
 	name="Bilas Dev"
 	dynasty=1044349 # Baghela
@@ -7818,13 +7342,12 @@
 	trait="vaishnavist_hindu"
 	father=191477
 	1269.1.1={
-		birth=yes
+		birth = yes
 	}
 	1285.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191479 = {
 	name="Bhim Mal"
 	dynasty=1044349 # Baghela
@@ -7834,13 +7357,12 @@
 	trait="vaishnavist_hindu"
 	father=191478
 	1285.1.1={
-		birth=yes
+		birth = yes
 	}
 	1317.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191480 = {
 	name="Anik Dev"
 	dynasty=1044349 # Baghela
@@ -7850,13 +7372,12 @@
 	trait="vaishnavist_hindu"
 	father=191479
 	1301.1.1={
-		birth=yes
+		birth = yes
 	}
 	1335.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191481 = {
 	name="Malkeshwar Dev"
 	dynasty=1044349 # Baghela
@@ -7866,13 +7387,12 @@
 	trait="vaishnavist_hindu"
 	father=191480
 	1320.1.1={
-		birth=yes
+		birth = yes
 	}
 	1370.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191488 = {
 	name="Pancham Singh"
 	dynasty=1044351 #Bundela
@@ -7881,13 +7401,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1020.1.1={
-		birth=yes
+		birth = yes
 	}
 	1071.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191489 = {
 	name="Virbhadra Singh"
 	dynasty=1044351 #Bundela
@@ -7897,13 +7416,12 @@
 	trait="vaishnavist_hindu"
 	father=191488
 	1040.1.1={
-		birth=yes
+		birth = yes
 	}
 	1087.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191490 = {
 	name="Karanpal Singh"
 	dynasty=1044351 #Bundela
@@ -7913,13 +7431,12 @@
 	trait="vaishnavist_hindu"
 	father=191489
 	1060.1.1={
-		birth=yes
+		birth = yes
 	}
 	1112.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191491 = {
 	name="Kinnar Singh"
 	dynasty=1044351 #Bundela
@@ -7929,13 +7446,12 @@
 	trait="vaishnavist_hindu"
 	father=191490
 	1080.1.1={
-		birth=yes
+		birth = yes
 	}
 	1130.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191492 = {
 	name="Shaukan Singh"
 	dynasty=1044351 #Bundela
@@ -7945,13 +7461,12 @@
 	trait="vaishnavist_hindu"
 	father=191491
 	1100.1.1={
-		birth=yes
+		birth = yes
 	}
 	1152.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191493 = {
 	name="Nanak Singh"
 	dynasty=1044351 #Bundela
@@ -7961,13 +7476,12 @@
 	trait="vaishnavist_hindu"
 	father=191491
 	1120.1.1={
-		birth=yes
+		birth = yes
 	}
 	1159.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191494 = {
 	name="Mohanpal Singh"
 	dynasty=1044351 #Bundela
@@ -7977,13 +7491,12 @@
 	trait="vaishnavist_hindu"
 	father=191493
 	1140.1.1={
-		birth=yes
+		birth = yes
 	}
 	1197.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191495 = {
 	name="Abhaybhupati Singh"
 	dynasty=1044351 #Bundela
@@ -7993,13 +7506,12 @@
 	trait="vaishnavist_hindu"
 	father=191494
 	1160.1.1={
-		birth=yes
+		birth = yes
 	}
 	1215.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191496 = {
 	name="Arjunpal Singh"
 	dynasty=1044351 #Bundela
@@ -8009,13 +7521,12 @@
 	trait="vaishnavist_hindu"
 	father=191495
 	1180.1.1={
-		birth=yes
+		birth = yes
 	}
 	1231.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191497 = {
 	name="Virpal Singh"
 	dynasty=1044351 #Bundela
@@ -8025,13 +7536,12 @@
 	trait="vaishnavist_hindu"
 	father=191496
 	1200.1.1={
-		birth=yes
+		birth = yes
 	}
 	1251.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191498 = {
 	name="Sohanpal Singh"
 	dynasty=1044351 #Bundela
@@ -8041,13 +7551,12 @@
 	trait="vaishnavist_hindu"
 	father=191497
 	1220.1.1={
-		birth=yes
+		birth = yes
 	}
 	1259.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191499 = {
 	name="Sahjendra Singh"
 	dynasty=1044351 #Bundela
@@ -8057,13 +7566,12 @@
 	trait="vaishnavist_hindu"
 	father=191498
 	1240.1.1={
-		birth=yes
+		birth = yes
 	}
 	1283.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191500 = {
 	name="Nanak Dev Singh"
 	dynasty=1044351 #Bundela
@@ -8073,13 +7581,12 @@
 	trait="vaishnavist_hindu"
 	father=191499
 	1260.1.1={
-		birth=yes
+		birth = yes
 	}
 	1307.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191501 = {
 	name="Prithviraj Singh"
 	dynasty=1044351 #Bundela
@@ -8089,13 +7596,12 @@
 	trait="vaishnavist_hindu"
 	father=191500
 	1280.1.1={
-		birth=yes
+		birth = yes
 	}
 	1339.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191502 = {
 	name="Ram Singh"
 	dynasty=1044351 #Bundela
@@ -8105,13 +7611,12 @@
 	trait="vaishnavist_hindu"
 	father=191501
 	1300.1.1={
-		birth=yes
+		birth = yes
 	}
 	1375.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191503 = {
 	name="Ramchandra Singh"
 	dynasty=1044351 #Bundela
@@ -8121,13 +7626,12 @@
 	trait="vaishnavist_hindu"
 	father=191502
 	1320.1.1={
-		birth=yes
+		birth = yes
 	}
 	1384.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191552 = {
 	name="Birpal"	#Fictional
 	dynasty=1044360 #Chhinda
@@ -8136,13 +7640,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191553 = {
 	name="Ram Singh"	#Fictional
 	dynasty=1044360 #Chhinda
@@ -8152,13 +7655,12 @@
 	trait="vaishnavist_hindu"
 	father=191552
 	760.1.1={
-		birth=yes
+		birth = yes
 	}
 	850.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191554 = {
 	name="Jagatpal"	#Fictional
 	dynasty=1044360 #Chhinda
@@ -8168,13 +7670,12 @@
 	trait="vaishnavist_hindu"
 	father=191553
 	830.1.1={
-		birth=yes
+		birth = yes
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191555 = {
 	name="Khetrapal"	#Fictional
 	dynasty=1044360 #Chhinda
@@ -8184,13 +7685,12 @@
 	trait="vaishnavist_hindu"
 	father=191554
 	865.1.1={
-		birth=yes
+		birth = yes
 	}
 	950.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191556 = {
 	name="Gangeya"	#Fictional
 	dynasty=1044360 #Chhinda
@@ -8200,10 +7700,10 @@
 	trait="vaishnavist_hindu"
 	father=191555
 	930.1.1={
-		birth=yes
+		birth = yes
 	}
 	1010.1.1={
-		death=yes
+		death = yes
 	}
 }
 191605 = {
@@ -8214,13 +7714,13 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	530.1.1={
-		birth=yes
+		birth = yes
 	}
 	550.1.1={
 		add_spouse=191606
 	}
 	580.1.1={
-		death=yes
+		death = yes
 	}
 }
 191606 = {
@@ -8231,10 +7731,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	534.1.1={
-		birth=yes
+		birth = yes
 	}
 	590.1.1={
-		death=yes
+		death = yes
 	}
 }
 191607 = {
@@ -8247,10 +7747,10 @@
 	father=191605
 	mother=191606
 	552.1.1={
-		birth=yes
+		birth = yes
 	}
 	600.1.1={
-		death=yes
+		death = yes
 	}
 }
 191608 = {
@@ -8262,10 +7762,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191607
 	570.1.1={
-		birth=yes
+		birth = yes
 	}
 	625.1.1={
-		death=yes
+		death = yes
 	}
 }
 191609 = {
@@ -8277,10 +7777,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191608
 	590.1.1={
-		birth=yes
+		birth = yes
 	}
 	650.1.1={
-		death=yes
+		death = yes
 	}
 }
 191610 = {
@@ -8292,10 +7792,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191609
 	610.1.1={
-		birth=yes
+		birth = yes
 	}
 	690.1.1={
-		death=yes
+		death = yes
 	}
 }
 191611 = {
@@ -8307,10 +7807,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191610
 	640.1.1={
-		birth=yes
+		birth = yes
 	}
 	720.1.1={
-		death=yes
+		death = yes
 	}
 }
 191612 = {
@@ -8322,10 +7822,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191609
 	612.1.1={
-		birth=yes
+		birth = yes
 	}
 	690.1.1={
-		death=yes
+		death = yes
 	}
 }
 191613 = {
@@ -8337,10 +7837,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=188000
 	670.1.1={
-		birth=yes
+		birth = yes
 	}
 	750.1.1={
-		death=yes
+		death = yes
 	}
 }
 191615 = {
@@ -8352,10 +7852,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191613
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	775.1.1={
-		death=yes
+		death = yes
 	}
 }
 191616 = {
@@ -8367,10 +7867,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191615
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
 191617 = {
@@ -8382,7 +7882,7 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191616
 	750.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={
 		add_spouse=191618
@@ -8391,7 +7891,7 @@
 		add_spouse=191619
 	}
 	830.1.1={
-		death=yes
+		death = yes
 	}
 }
 191618 = {
@@ -8402,10 +7902,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	751.1.1={
-		birth=yes
+		birth = yes
 	}
 	850.1.1={
-		death=yes
+		death = yes
 	}
 }
 191619 = {
@@ -8416,10 +7916,10 @@
 	trait="kshatriya"
 	trait="shaivist_hindu" # chosen randomly
 	760.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
 191620 = {
@@ -8432,10 +7932,10 @@
 	father=191617
 	mother=191618
 	772.1.1={
-		birth=yes
+		birth = yes
 	}
 	850.1.1={
-		death=yes
+		death = yes
 	}
 }
 191621 = {
@@ -8448,10 +7948,10 @@
 	father=191617
 	mother=191619
 	791.1.1={
-		birth=yes
+		birth = yes
 	}
 	880.1.1={
-		death=yes
+		death = yes
 	}
 }
 191624 = {
@@ -8464,10 +7964,10 @@
 	father=191605
 	mother=191606
 	554.1.1={
-		birth=yes
+		birth = yes
 	}
 	595.1.1={
-		death=yes
+		death = yes
 	}
 }
 191625 = {
@@ -8479,10 +7979,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191624
 	579.1.1={
-		birth=yes
+		birth = yes
 	}
 	620.1.1={
-		death=yes
+		death = yes
 	}
 }
 191626 = {
@@ -8494,10 +7994,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191625
 	600.1.1={
-		birth=yes
+		birth = yes
 	}
 	645.1.1={
-		death=yes
+		death = yes
 	}
 }
 191627 = {
@@ -8509,10 +8009,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191626
 	620.1.1={
-		birth=yes
+		birth = yes
 	}
 	665.1.1={
-		death=yes
+		death = yes
 	}
 }
 191628 = {
@@ -8524,10 +8024,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191627
 	639.1.1={
-		birth=yes
+		birth = yes
 	}
 	690.1.1={
-		death=yes
+		death = yes
 	}
 }
 191629 = {
@@ -8539,10 +8039,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191628
 	660.1.1={
-		birth=yes
+		birth = yes
 	}
 	715.1.1={
-		death=yes
+		death = yes
 	}
 }
 191630 = {
@@ -8554,10 +8054,10 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191629
 	680.1.1={
-		birth=yes
+		birth = yes
 	}
 	720.1.1={
-		death=yes
+		death = yes
 	}
 }
 191631 = {
@@ -8569,13 +8069,12 @@
 	trait="shaivist_hindu" # chosen randomly
 	father=191630
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	738.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191637 = {
 	name="Mahesvardama"
 	dynasty=1044367	#Chauhan of Lata
@@ -8584,13 +8083,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	600.1.1={
-		birth=yes
+		birth = yes
 	}
 	650.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191638 = {
 	name="Bhimadama"
 	dynasty=1044367	#Chauhan of Lata
@@ -8600,13 +8098,12 @@
 	trait="shaivist_hindu"
 	father=191637
 	616.1.1={
-		birth=yes
+		birth = yes
 	}
 	680.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191639 = {
 	name="Bhartrvaddha"
 	dynasty=1044367	#Chauhan of Lata
@@ -8616,13 +8113,12 @@
 	trait="shaivist_hindu"
 	father=191638
 	636.1.1={
-		birth=yes
+		birth = yes
 	}
 	700.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191640 = {
 	name="Haradama"
 	dynasty=1044367	#Chauhan of Lata
@@ -8632,13 +8128,12 @@
 	trait="shaivist_hindu"
 	father=191639
 	660.1.1={
-		birth=yes
+		birth = yes
 	}
 	730.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191641 = {
 	name="Dhrubhata"
 	dynasty=1044367	#Chauhan of Lata
@@ -8648,13 +8143,12 @@
 	trait="shaivist_hindu"
 	father=191640
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	757.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191642 = {
 	name="Bhartrvaddha"
 	dynasty=1044367	#Chauhan of Lata
@@ -8664,13 +8158,12 @@
 	trait="shaivist_hindu"
 	father=191641
 	730.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191699 = {
 	name="Govindaraja"
 	dynasty=1042081	#Chauhan of Partapgarh
@@ -8680,13 +8173,12 @@
 	trait="shaivist_hindu"
 	father=188107	#Fictional link, link to main Chahamana branch is speculative (though probable)
 	800.1.1={
-		birth=yes
+		birth = yes
 	}
 	870.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191700 = {
 	name="Durlabharaja"
 	dynasty=1042081	#Chauhan of Partapgarh
@@ -8696,13 +8188,12 @@
 	trait="shaivist_hindu"
 	father=191699
 	850.1.1={
-		birth=yes
+		birth = yes
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191701 = {
 	name="Indraraja"
 	dynasty=1042081	#Chauhan of Partapgarh
@@ -8712,13 +8203,12 @@
 	trait="shaivist_hindu"
 	father=191699
 	870.1.1={
-		birth=yes
+		birth = yes
 	}
 	946.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191702 = {
 	name="Sobhita"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8728,13 +8218,12 @@
 	trait="shaivist_hindu"
 	father=188116	#Lakshmana
 	930.1.1={
-		birth=yes
+		birth = yes
 	}
 	980.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191703 = {
 	name="Baliraja"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8744,13 +8233,12 @@
 	trait="shaivist_hindu"
 	father=191702
 	950.1.1={
-		birth=yes
+		birth = yes
 	}
 	993.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191704 = {
 	name="Vigrahapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8760,13 +8248,12 @@
 	trait="shaivist_hindu"
 	father=188116
 	935.1.1={
-		birth=yes
+		birth = yes
 	}
 	1000.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191705 = {
 	name="Mahendra"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8776,13 +8263,12 @@
 	trait="shaivist_hindu"
 	father=191704
 	955.1.1={
-		birth=yes
+		birth = yes
 	}
 	1010.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191706 = {
 	name="Asvapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8792,13 +8278,12 @@
 	trait="shaivist_hindu"
 	father=191705
 	975.1.1={
-		birth=yes
+		birth = yes
 	}
 	1015.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191707 = {
 	name="Anahilla"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8808,13 +8293,12 @@
 	trait="shaivist_hindu"
 	father=191705
 	977.1.1={
-		birth=yes
+		birth = yes
 	}
 	1050.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191708 = {
 	name="Ahila"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8824,13 +8308,12 @@
 	trait="shaivist_hindu"
 	father=191706
 	995.1.1={
-		birth=yes
+		birth = yes
 	}
 	1020.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191709 = {
 	name="Balaprasada"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8840,13 +8323,12 @@
 	trait="shaivist_hindu"
 	father=191707
 	995.1.1={
-		birth=yes
+		birth = yes
 	}
 	1060.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191710 = {
 	name="Jinduraja"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8856,13 +8338,12 @@
 	trait="shaivist_hindu"
 	father=191707
 	997.1.1={
-		birth=yes
+		birth = yes
 	}
 	1070.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191711 = {
 	name="Prithvipala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8872,13 +8353,12 @@
 	trait="shaivist_hindu"
 	father=191710
 	1016.1.1={
-		birth=yes
+		birth = yes
 	}
 	1088.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191712 = {
 	name="Jojaladeva"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8888,13 +8368,12 @@
 	trait="shaivist_hindu"
 	father=191710
 	1017.1.1={
-		birth=yes
+		birth = yes
 	}
 	1110.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191713 = {
 	name="Asharaja"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8904,17 +8383,16 @@
 	trait="shaivist_hindu"
 	father=191710
 	1020.1.1={
-		birth=yes
+		birth = yes
 	}
 	1040.1.1={
 		add_spouse=191721
 	}
 	#Abdicates in 1118
 	1119.6.1={
-		death=yes
+		death = yes
 	}
 }
-
 191714 = {
 	name="Ratnapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8925,13 +8403,12 @@
 	father=191713
 	mother=191721
 	1042.1.1={
-		birth=yes
+		birth = yes
 	}
 	1132.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191715 = {
 	name="Rayapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8941,7 +8418,7 @@
 	trait="shaivist_hindu"
 	father=191714
 	1100.1.1={
-		birth=yes
+		birth = yes
 	}
 	1121.1.1={
 		add_spouse=191744
@@ -8950,10 +8427,9 @@
 		add_spouse=191718
 	}
 	1147.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191744 = {
 	name="Padmaladevi"
 	female=yes
@@ -8962,13 +8438,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1105.1.1={
-		birth=yes
+		birth = yes
 	}
 	1170.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191716 = {
 	name="Sahajapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8979,13 +8454,12 @@
 	father=191715
 	mother=191744
 	1126.1.1={
-		birth=yes
+		birth = yes
 	}
 	1149.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191717 = {
 	name="Sahanapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -8996,13 +8470,12 @@
 	father=191715
 	mother=191744
 	1128.1.1={
-		birth=yes
+		birth = yes
 	}
 	1170.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191718 = {
 	name="Manaladevi"
 	female=yes
@@ -9011,13 +8484,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1109.1.1={
-		birth=yes
+		birth = yes
 	}
 	1180.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191719 = {
 	name="Rudrapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9028,13 +8500,12 @@
 	father=191715
 	mother=191718
 	1130.1.1={
-		birth=yes
+		birth = yes
 	}
 	1200.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191720 = {
 	name="Amritapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9045,13 +8516,12 @@
 	father=191715
 	mother=191718
 	1135.1.1={
-		birth=yes
+		birth = yes
 	}
 	1190.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191721 = {
 	name="Delhanadevi"
 	female=yes
@@ -9060,13 +8530,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1024.1.1={
-		birth=yes
+		birth = yes
 	}
 	1080.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191722 = {
 	name="Katudeva"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9077,13 +8546,12 @@
 	father=191713
 	mother=191721
 	1044.6.1={
-		birth=yes
+		birth = yes
 	}
 	1144.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191723 = {
 	name="Jayatasiha"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9093,16 +8561,15 @@
 	trait="shaivist_hindu"
 	father=191722
 	1110.1.1={
-		birth=yes
+		birth = yes
 	}
 	1130.1.1={
 		add_spouse=191724
 	}
 	1145.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191724 = {
 	name="Tihunaka"
 	female=yes
@@ -9111,13 +8578,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1111.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191725 = {
 	name="Alhana"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9128,7 +8594,7 @@
 	father=191713
 	mother=191721
 	1066.1.1={
-		birth=yes
+		birth = yes
 	}
 	1082.1.1={
 		add_spouse=191726
@@ -9137,10 +8603,9 @@
 		add_spouse=191727
 	}
 	1164.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191726 = {
 	name="Analladevi"
 	female=yes
@@ -9151,13 +8616,12 @@
 	trait="shaivist_hindu"
 	father=191783 #Balaprsada Rashtrakuta of Hathundi
 	1045.1.1={
-		birth=yes
+		birth = yes
 	}
 	1127.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191727 = {
 	name="Nainsi"
 	female=yes
@@ -9166,13 +8630,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1066.1.1={
-		birth=yes
+		birth = yes
 	}
 	1130.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191728 = {
 	name="Kelhana"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9183,7 +8646,7 @@
 	father=191725
 	mother=191726
 	1121.1.1={
-		birth=yes
+		birth = yes
 	}
 	1137.1.1={
 		add_spouse=191734
@@ -9192,10 +8655,9 @@
 		add_spouse=191735
 	}
 	1174.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191729 = {
 	name="Gajasimha"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9206,13 +8668,12 @@
 	father=191725
 	mother=191726
 	1123.1.1={
-		birth=yes
+		birth = yes
 	}
 	1184.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191730 = {
 	name="Kirtipala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9223,13 +8684,12 @@
 	father=191725
 	mother=191726
 	1125.1.1={
-		birth=yes
+		birth = yes
 	}
 	1182.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191731 = {
 	name="Vijayasimha"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9240,13 +8700,12 @@
 	father=191725
 	mother=191727
 	1082.6.1={
-		birth=yes
+		birth = yes
 	}
 	1110.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191732 = {
 	name="Vijalladeva"
 	dynasty=1042081	#Chauhan, of unclear family, appointed officer of Chaulukyas
@@ -9256,13 +8715,12 @@
 	trait="shaivist_hindu"
 	father=188126 #Fictional link
 	1070.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191733 = {
 	name="Kuntapala"
 	dynasty=1042081	#Chauhan, of unclear family, appointed officer of Chaulukyas
@@ -9272,13 +8730,12 @@
 	trait="shaivist_hindu"
 	father=188126 #Fictional link
 	1072.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191734 = {
 	name="Mahibaladevi"
 	female=yes
@@ -9287,13 +8744,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1120.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191735 = {
 	name="Jalhanadevi"
 	female=yes
@@ -9302,13 +8758,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1122.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191736 = {
 	name="Sringaradevi"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9320,13 +8775,12 @@
 	father=191728
 	mother=191734
 	1145.1.1={
-		birth=yes
+		birth = yes
 	}
 	1200.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191737 = {
 	name="Alhanadevi"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9338,13 +8792,12 @@
 	father=191728
 	mother=191735
 	1146.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191738 = {
 	name="Chamundaraja"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9355,13 +8808,12 @@
 	father=191728
 	mother=191735
 	1147.1.1={
-		birth=yes
+		birth = yes
 	}
 	1184.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191739 = {
 	name="Kumvarasimha"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9372,13 +8824,12 @@
 	father=191728
 	mother=191734
 	1146.6.1={
-		birth=yes
+		birth = yes
 	}
 	1192.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191740 = {
 	name="Lakhanapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9388,13 +8839,12 @@
 	trait="shaivist_hindu"
 	father=191730
 	1146.1.1={
-		birth=yes
+		birth = yes
 	}
 	1222.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191741 = {
 	name="Sonapala"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9404,13 +8854,12 @@
 	trait="shaivist_hindu"
 	father=191730
 	1148.1.1={
-		birth=yes
+		birth = yes
 	}
 	1192.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191742 = {
 	name="Jayatashimha"
 	dynasty=1042081	#Chauhan of Nadol
@@ -9421,13 +8870,12 @@
 	father=191728
 	mother=191734
 	1150.1.1={
-		birth=yes
+		birth = yes
 	}
 	1192.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191743 = {
 	name="Samarisimha"
 	dynasty=1042081	#Chauhan of Jalor
@@ -9437,13 +8885,12 @@
 	trait="shaivist_hindu"
 	father=191730
 	1145.1.1={
-		birth=yes
+		birth = yes
 	}
 	1205.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191745 = {
 	name="Udayasimha"
 	dynasty=1042081	#Chauhan of Jalor
@@ -9453,16 +8900,15 @@
 	trait="shaivist_hindu"
 	father=191743
 	1162.1.1={
-		birth=yes
+		birth = yes
 	}
 	1210.1.1={
 		add_spouse=191749
 	}
 	1259.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191746 = {
 	name="Liladevi"
 	dynasty=1042081	#Chauhan of Jalor
@@ -9473,13 +8919,12 @@
 	trait="shaivist_hindu"
 	father=191743
 	1163.1.1={
-		birth=yes
+		birth = yes
 	}
 	1230.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191747 = {
 	name="Manavasimha"
 	dynasty=1042081	#Chauhan of Jalor
@@ -9489,13 +8934,12 @@
 	trait="shaivist_hindu"
 	father=191743
 	1164.1.1={
-		birth=yes
+		birth = yes
 	}
 	1228.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191748 = {
 	name="Chachigadeva"
 	dynasty=1042081	#Chauhan of Jalor
@@ -9506,13 +8950,12 @@
 	father=191745
 	mother=191749
 	1210.1.1={
-		birth=yes
+		birth = yes
 	}
 	1282.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191749 = {
 	name="Prahladanadevi"
 	female=yes
@@ -9521,13 +8964,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1185.1.1={
-		birth=yes
+		birth = yes
 	}
 	1250.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191750 = {
 	name="Chamundaraja"
 	dynasty=1042081	#Chauhan of Jalor
@@ -9538,13 +8980,12 @@
 	father=191745
 	mother=191749
 	1212.1.1={
-		birth=yes
+		birth = yes
 	}
 	1295.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191751 = {
 	name="Samantasimha"
 	dynasty=1042081	#Chauhan of Jalor
@@ -9554,14 +8995,13 @@
 	trait="shaivist_hindu"
 	father=191748
 	1230.1.1={
-		birth=yes
+		birth = yes
 	}
 	#Abdicates in 1296
 	1300.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191752 = {
 	name="Kanhadadeva"
 	dynasty=1042081	#Chauhan of Jalor
@@ -9571,13 +9011,12 @@
 	trait="shaivist_hindu"
 	father=191751
 	1250.1.1={
-		birth=yes
+		birth = yes
 	}
 	1316.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191753 = {
 	name="Pratapamalla"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9587,13 +9026,12 @@
 	trait="shaivist_hindu"
 	father=191747
 	1190.1.1={
-		birth=yes
+		birth = yes
 	}
 	1250.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191754 = {
 	name="Vijada"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9603,16 +9041,15 @@
 	trait="shaivist_hindu"
 	father=191753
 	1210.1.1={
-		birth=yes
+		birth = yes
 	}
 	1230.1.1={
 		add_spouse=191755
 	}
 	1290.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191755 = {
 	name="Namalladevi"
 	female=yes
@@ -9622,13 +9059,12 @@
 	trait="shaivist_hindu"
 	father=191753
 	1212.1.1={
-		birth=yes
+		birth = yes
 	}
 	1250.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191756 = {
 	name="Lavanyakarna"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9639,13 +9075,12 @@
 	father=191754
 	mother=191755
 	1230.1.1={
-		birth=yes
+		birth = yes
 	}
 	1311.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191757 = {
 	name="Lumdha"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9656,13 +9091,12 @@
 	father=191754
 	mother=191755
 	1232.1.1={
-		birth=yes
+		birth = yes
 	}
 	1320.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191758 = {
 	name="Lakshmana"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9673,13 +9107,12 @@
 	father=191754
 	mother=191755
 	1235.1.1={
-		birth=yes
+		birth = yes
 	}
 	1290.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191777 = {
 	name="Lunavarman"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9690,13 +9123,12 @@
 	father=191754
 	mother=191755
 	1240.1.1={
-		birth=yes
+		birth = yes
 	}
 	1275.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191759 = {
 	name="Tejasimha"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9706,13 +9138,12 @@
 	trait="shaivist_hindu"
 	father=191757
 	1252.1.1={
-		birth=yes
+		birth = yes
 	}
-	1336.1.1={
-		death=yes
+	1321.1.1={
+		death = yes
 	}
 }
-
 191760 = {
 	name="Tihunaka"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9722,13 +9153,12 @@
 	trait="shaivist_hindu"
 	father=191757
 	1254.1.1={
-		birth=yes
+		birth = yes
 	}
 	1300.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191761 = {
 	name="Kanhadadeva"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9738,13 +9168,12 @@
 	trait="shaivist_hindu"
 	father=191759
 	1270.1.1={
-		birth=yes
+		birth = yes
 	}
 	1343.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191762 = {
 	name="Samanthasima"
 	dynasty=1042081	#Chauhan of Sirohi
@@ -9754,13 +9183,12 @@
 	trait="shaivist_hindu"
 	father=191761
 	1290.1.1={
-		birth=yes
+		birth = yes
 	}
 	1360.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191763 = {
 	name="Padmasimha"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9770,13 +9198,12 @@
 	trait="shaivist_hindu"
 	father=191731
 	1099.1.1={
-		birth=yes
+		birth = yes
 	}
 	1120.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191778 = {
 	name="Sobhita"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9786,13 +9213,12 @@
 	trait="shaivist_hindu"
 	father=191763
 	1115.1.1={
-		birth=yes
+		birth = yes
 	}
 	1140.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191764 = {
 	name="Salha"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9802,13 +9228,12 @@
 	trait="shaivist_hindu"
 	father=191778
 	1131.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191765 = {
 	name="Vikramasimha"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9818,13 +9243,12 @@
 	trait="shaivist_hindu"
 	father=191764
 	1147.1.1={
-		birth=yes
+		birth = yes
 	}
 	1180.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191766 = {
 	name="Haripala"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9834,13 +9258,12 @@
 	trait="shaivist_hindu"
 	father=191764
 	1147.1.1={
-		birth=yes
+		birth = yes
 	}
 	1220.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191767 = {
 	name="Sangramasimha"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9850,13 +9273,12 @@
 	trait="shaivist_hindu"
 	father=191765
 	1167.1.1={
-		birth=yes
+		birth = yes
 	}
 	1250.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191768 = {
 	name="Bhimasimha"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9866,13 +9288,12 @@
 	trait="shaivist_hindu"
 	father=191765
 	1168.1.1={
-		birth=yes
+		birth = yes
 	}
 	1240.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191769 = {
 	name="Pratapasimha"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9882,13 +9303,12 @@
 	trait="shaivist_hindu"
 	father=191767
 	1220.1.1={
-		birth=yes
+		birth = yes
 	}
 	1280.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191770 = {
 	name="Vajranga"
 	dynasty=1042081	#Chauhan of Satyapura
@@ -9898,13 +9318,12 @@
 	trait="shaivist_hindu"
 	father=191767
 	1250.1.1={
-		birth=yes
+		birth = yes
 	}
 	1321.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191771 = {
 	name="Vijayaraja"
 	dynasty=1044377	#Dahiya
@@ -9913,13 +9332,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu"
 	1020.1.1={
-		birth=yes
+		birth = yes
 	}
 	1098.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191779 = {
 	name="Harivarman"
 	dynasty=1044379 #Rashtrakuta of Hastikundi
@@ -9928,13 +9346,12 @@
 	trait="kshatriya"
 	trait="shaktist_hindu"
 	830.1.1={
-		birth=yes
+		birth = yes
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191780 = {
 	name="Vidagharaja"
 	dynasty=1044379 #Rashtrakuta of Hastikundi
@@ -9944,13 +9361,12 @@
 	trait="shaktist_hindu"
 	father=191779
 	850.1.1={
-		birth=yes
+		birth = yes
 	}
 	930.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191781 = {
 	name="Mammata"
 	dynasty=1044379 #Rashtrakuta of Hastikundi
@@ -9960,13 +9376,12 @@
 	trait="shaktist_hindu"
 	father=191780
 	870.1.1={
-		birth=yes
+		birth = yes
 	}
 	940.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191782 = {
 	name="Dhavala"
 	dynasty=1044379 #Rashtrakuta of Hastikundi
@@ -9976,13 +9391,12 @@
 	trait="shaktist_hindu"
 	father=191781
 	920.1.1={
-		birth=yes
+		birth = yes
 	}
 	1010.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191783 = {
 	name="Balaprsada"
 	dynasty=1044379 #Rashtrakuta of Hastikundi
@@ -9992,13 +9406,12 @@
 	trait="shaktist_hindu"
 	father=191782
 	980.1.1={
-		birth=yes
+		birth = yes
 	}
 	1068.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191784 = {
 	name="Utpala"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10008,13 +9421,12 @@
 	trait="vaishnavist_hindu"
 	father=188179
 	900.1.1={
-		birth=yes
+		birth = yes
 	}
 	950.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191785 = {
 	name="Aranya"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10024,13 +9436,12 @@
 	trait="vaishnavist_hindu"
 	father=191784
 	920.1.1={
-		birth=yes
+		birth = yes
 	}
 	970.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191786 = {
 	name="Krishna"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10040,13 +9451,12 @@
 	trait="vaishnavist_hindu"
 	father=191785
 	940.1.1={
-		birth=yes
+		birth = yes
 	}
 	980.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191787 = {
 	name="Dharamivaraha"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10056,13 +9466,12 @@
 	trait="vaishnavist_hindu"
 	father=191786
 	960.1.1={
-		birth=yes
+		birth = yes
 	}
 	990.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191788 = {
 	name="Dhurbhata"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10072,13 +9481,12 @@
 	trait="vaishnavist_hindu"
 	father=191787
 	980.1.1={
-		birth=yes
+		birth = yes
 	}
 	1000.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191789 = {
 	name="Mahipala"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10088,13 +9496,12 @@
 	trait="vaishnavist_hindu"
 	father=191787
 	981.1.1={
-		birth=yes
+		birth = yes
 	}
 	1025.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191790 = {
 	name="Dandhuka"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10104,13 +9511,12 @@
 	trait="vaishnavist_hindu"
 	father=191789
 	1001.1.1={
-		birth=yes
+		birth = yes
 	}
 	1042.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191791 = {
 	name="Purnapala"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10120,13 +9526,12 @@
 	trait="vaishnavist_hindu"
 	father=191790
 	1020.1.1={
-		birth=yes
+		birth = yes
 	}
 	1062.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191792 = {
 	name="Laihini"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10137,13 +9542,12 @@
 	father=191790
 	female=yes
 	1021.1.1={
-		birth=yes
+		birth = yes
 	}
 	1090.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191793 = {
 	name="Dantivarman"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10153,13 +9557,12 @@
 	trait="vaishnavist_hindu"
 	father=191790
 	1022.1.1={
-		birth=yes
+		birth = yes
 	}
 	1080.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191794 = {
 	name="Krishnadeva"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10169,13 +9572,12 @@
 	trait="vaishnavist_hindu"
 	father=191790
 	1023.1.1={
-		birth=yes
+		birth = yes
 	}
 	1100.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191795 = {
 	name="Yogaraja"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10185,13 +9587,12 @@
 	trait="vaishnavist_hindu"
 	father=191793
 	1040.1.1={
-		birth=yes
+		birth = yes
 	}
 	1110.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191796 = {
 	name="Kakaladeva"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10201,13 +9602,12 @@
 	trait="vaishnavist_hindu"
 	father=191794
 	1041.1.1={
-		birth=yes
+		birth = yes
 	}
 	1120.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191797 = {
 	name="Ramadeva"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10217,13 +9617,12 @@
 	trait="vaishnavist_hindu"
 	father=191795
 	1060.1.1={
-		birth=yes
+		birth = yes
 	}
 	1130.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191798 = {
 	name="Vikramasimha"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10233,13 +9632,12 @@
 	trait="vaishnavist_hindu"
 	father=191796
 	1062.1.1={
-		birth=yes
+		birth = yes
 	}
 	1150.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191799 = {
 	name="Yasodhavala"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10249,16 +9647,15 @@
 	trait="vaishnavist_hindu"
 	father=191796
 	1065.1.1={
-		birth=yes
+		birth = yes
 	}
 	1083.1.1={
 		add_spouse = 191800
 	}
 	1158.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191800 = {
 	name="Saubhagyadevi"
 	female=yes
@@ -10270,13 +9667,12 @@
 	father=188081
 	mother=188083
 	1050.1.1={
-		birth=yes
+		birth = yes
 	}
 	1140.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191801 = {
 	name="Dharanivaraha"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10287,7 +9683,7 @@
 	father=191799
 	mother=191800
 	1110.1.1={
-		birth=yes
+		birth = yes
 	}
 	1126.1.1={
 		add_trait=brilliant_strategist
@@ -10296,10 +9692,9 @@
 		add_spouse = 191736
 	}
 	1200.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191802 = {
 	name="Babhini"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10311,13 +9706,12 @@
 	father=191799
 	mother=191800
 	1100.1.1={
-		birth=yes
+		birth = yes
 	}
 	1160.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191803 = {
 	name="Praladana"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10328,13 +9722,12 @@
 	father=191799
 	mother=191800
 	1125.1.1={
-		birth=yes
+		birth = yes
 	}
 	1220.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191804 = {
 	name="Somasimha"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10345,13 +9738,12 @@
 	father=191801
 	mother=191736
 	1166.1.1={
-		birth=yes
+		birth = yes
 	}
 	1243.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191805 = {
 	name="Krishnaraja"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10361,13 +9753,12 @@
 	trait="vaishnavist_hindu"
 	father=191804
 	1220.1.1={
-		birth=yes
+		birth = yes
 	}
 	1287.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191806 = {
 	name="Pratapasimha"
 	dynasty=1042077	#Paramara of Candravati/Mt Abu
@@ -10377,13 +9768,12 @@
 	trait="vaishnavist_hindu"
 	father=191804
 	1240.1.1={
-		birth=yes
+		birth = yes
 	}
 	1311.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191807 = {
 	name="Virama"
 	dynasty=1042081	#Chauhan of Jalor
@@ -10393,13 +9783,12 @@
 	trait="shaivist_hindu"
 	father=191751
 	1255.1.1={
-		birth=yes
+		birth = yes
 	}
 	1320.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191808 = {
 	name="Sataladeva"
 	dynasty=1042081	#Chauhan of Jalor
@@ -10409,13 +9798,12 @@
 	trait="shaivist_hindu"
 	father=191807
 	1275.1.1={
-		birth=yes
+		birth = yes
 	}
 	1310.6.23={
-		death=yes
+		death = yes
 	}
 }
-
 191809 = {
 	name="Chandana"
 	dynasty=1042077	#Paramara of Jalor & Siwana
@@ -10425,13 +9813,12 @@
 	trait="shaivist_hindu"
 	father=188182 # Vakpati II
 	970.1.1={
-		birth=yes
+		birth = yes
 	}
 	1030.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191810 = {
 	name="Devarat"
 	dynasty=1042077	#Paramara of Jalor & Siwana
@@ -10441,13 +9828,12 @@
 	trait="shaivist_hindu"
 	father=191809
 	990.1.1={
-		birth=yes
+		birth = yes
 	}
 	1065.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191811 = {
 	name="Aparajita"
 	dynasty=1042077	#Paramara of Jalor & Siwana
@@ -10457,13 +9843,12 @@
 	trait="shaivist_hindu"
 	father=191810
 	1010.1.1={
-		birth=yes
+		birth = yes
 	}
 	1080.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191812 = {
 	name="Vijjala"
 	dynasty=1042077	#Paramara of Jalor & Siwana
@@ -10473,13 +9858,12 @@
 	trait="shaivist_hindu"
 	father=191811
 	1030.1.1={
-		birth=yes
+		birth = yes
 	}
 	1100.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191813 = {
 	name="Dharavarsha"
 	dynasty=1042077	#Paramara of Jalor & Siwana
@@ -10489,13 +9873,12 @@
 	trait="shaivist_hindu"
 	father=191812
 	1050.1.1={
-		birth=yes
+		birth = yes
 	}
 	1116.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191814 = {
 	name="Visala"
 	dynasty=1042077	#Paramara of Jalor & Siwana
@@ -10505,16 +9888,15 @@
 	trait="shaivist_hindu"
 	father=191813
 	1070.1.1={
-		birth=yes
+		birth = yes
 	}
 	1090.1.1={
 		add_spouse=191817
 	}
 	1140.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191817 = {
 	name="Melaradevi"
 	female=yes
@@ -10523,13 +9905,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1060.1.1={
-		birth=yes
+		birth = yes
 	}
 	1110.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191815 = {
 	name="Kuntapala"
 	dynasty=1042077	#Paramara of Jalor & Siwana
@@ -10540,7 +9921,7 @@
 	father=191814
 	mother=191817
 	1090.1.1={
-		birth=yes
+		birth = yes
 	}
 	1161.1.1={
 		death = {
@@ -10549,7 +9930,6 @@
 		}
 	}
 }
-
 191816 = {
 	name="Viranarayana"
 	dynasty=1042077	#Paramara of Jalor & Siwana
@@ -10560,7 +9940,7 @@
 	father=191814
 	mother=191817
 	1092.1.1={
-		birth=yes
+		birth = yes
 	}
 	1161.1.1={
 		death = {
@@ -10569,7 +9949,6 @@
 		}
 	}
 }
-
 191818 = {
 	name="Hathadev"
 	dynasty=1044380	#Panwars of Vikramapura and Phalodi, vassal cheifs of the Bhattis. Not much known
@@ -10578,16 +9957,15 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1028.1.1={
-		birth=yes
+		birth = yes
 	}
 	1049.1.1={
 		add_spouse=191820
 	}
 	1126.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191819 = {
 	name="Kuntapala"	#Fictional
 	dynasty=1044380	#Panwars of Vikramapura and Phalodi
@@ -10598,13 +9976,12 @@
 	father=191818
 	mother=191820
 	1049.9.1={
-		birth=yes
+		birth = yes
 	}
 	1122.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191820 = {
 	name="Babhini"	#Fictional
 	female=yes
@@ -10613,13 +9990,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1029.1.1={
-		birth=yes
+		birth = yes
 	}
 	1100.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191821 = {
 	name="Somasimha"	#Fictional
 	dynasty=1044380	#Panwars of Vikramapura and Phalodi
@@ -10629,13 +10005,12 @@
 	trait="shaivist_hindu"
 	father=191819
 	1110.1.1={
-		birth=yes
+		birth = yes
 	}
 	1200.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191828 = {
 	name="Sodh"
 	dynasty=1044383	#Kachwaha
@@ -10645,13 +10020,12 @@
 	trait="shaivist_hindu"
 	father=191846
 	1040.1.1={
-		birth=yes
+		birth = yes
 	}
 	1128.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191829 = {
 	name="Dulha"
 	dynasty=1044383	#Kachwaha
@@ -10661,13 +10035,12 @@
 	trait="shaivist_hindu"
 	father=191828
 	1060.1.1={
-		birth=yes
+		birth = yes
 	}
 	1136.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191830 = {
 	name="Kunwar Baikul"
 	dynasty=1044383	#Kachwaha
@@ -10677,13 +10050,12 @@
 	trait="shaivist_hindu"
 	father=191829
 	1080.1.1={
-		birth=yes
+		birth = yes
 	}
 	1130.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191831 = {
 	name="Kankal"
 	dynasty=1044383	#Kachwaha
@@ -10693,13 +10065,12 @@
 	trait="shaivist_hindu"
 	father=191829
 	1082.1.1={
-		birth=yes
+		birth = yes
 	}
 	1153.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191832 = {
 	name="Janad"
 	dynasty=1044383	#Kachwaha
@@ -10709,7 +10080,7 @@
 	trait="shaivist_hindu"
 	father=191830
 	1100.1.1={
-		birth=yes
+		birth = yes
 	}
 	1185.1.1={
 		death = {
@@ -10717,7 +10088,6 @@
 		}
 	}
 }
-
 191833 = {
 	name="Palanasi"
 	dynasty=1044383	#Kachwaha
@@ -10727,7 +10097,7 @@
 	trait="shaivist_hindu"
 	father=191832
 	1120.1.1={
-		birth=yes
+		birth = yes
 	}
 	1185.1.1={
 		death = {
@@ -10735,7 +10105,6 @@
 		}
 	}
 }
-
 191834 = {
 	name="Jaitsi"
 	dynasty=1044383	#Kachwaha
@@ -10745,7 +10114,7 @@
 	trait="shaivist_hindu"
 	father=191832
 	1121.1.1={
-		birth=yes
+		birth = yes
 	}
 	1185.1.1={
 		death = {
@@ -10753,7 +10122,6 @@
 		}
 	}
 }
-
 191835 = {
 	name="Kansi"
 	dynasty=1044383	#Kachwaha
@@ -10763,7 +10131,7 @@
 	trait="shaivist_hindu"
 	father=191832
 	1122.1.1={
-		birth=yes
+		birth = yes
 	}
 	1185.1.1={
 		death = {
@@ -10771,7 +10139,6 @@
 		}
 	}
 }
-
 191836 = {
 	name="Pujana"
 	dynasty=1044383	#Kachwaha
@@ -10781,16 +10148,15 @@
 	trait="shaivist_hindu"
 	father=191832
 	1123.1.1={
-		birth=yes
+		birth = yes
 	}
 	1169.1.1={
 		add_trait=skilled_tactician
 	}
 	1191.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191837 = {
 	name="Balbhadra"
 	dynasty=1044383	#Kachwaha
@@ -10800,7 +10166,7 @@
 	trait="shaivist_hindu"
 	father=191836
 	1141.1.1={
-		birth=yes
+		birth = yes
 	}
 	1185.1.1={
 		death = {
@@ -10808,7 +10174,6 @@
 		}
 	}
 }
-
 191838 = {
 	name="Bhinsvi"
 	dynasty=1044383	#Kachwaha
@@ -10818,7 +10183,7 @@
 	trait="shaivist_hindu"
 	father=191836
 	1142.1.1={
-		birth=yes
+		birth = yes
 	}
 	1185.1.1={
 		death = {
@@ -10826,7 +10191,6 @@
 		}
 	}
 }
-
 191839 = {
 	name="Malesi"
 	dynasty=1044383	#Kachwaha
@@ -10836,13 +10200,12 @@
 	trait="shaivist_hindu"
 	father=191838
 	1160.1.1={
-		birth=yes
+		birth = yes
 	}
 	1210.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191840 = {
 	name="Byala"
 	dynasty=1044383	#Kachwaha
@@ -10852,13 +10215,12 @@
 	trait="shaivist_hindu"
 	father=191838
 	1180.1.1={
-		birth=yes
+		birth = yes
 	}
 	1245.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191841 = {
 	name="Raja"
 	dynasty=1044383	#Kachwaha
@@ -10868,13 +10230,12 @@
 	trait="shaivist_hindu"
 	father=191840
 	1200.1.1={
-		birth=yes
+		birth = yes
 	}
 	1260.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191842 = {
 	name="Kilhan"
 	dynasty=1044383	#Kachwaha
@@ -10884,13 +10245,12 @@
 	trait="shaivist_hindu"
 	father=191841
 	1220.1.1={
-		birth=yes
+		birth = yes
 	}
 	1276.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191843 = {
 	name="Kantal"
 	dynasty=1044383	#Kachwaha
@@ -10900,13 +10260,12 @@
 	trait="shaivist_hindu"
 	father=191842
 	1240.1.1={
-		birth=yes
+		birth = yes
 	}
 	1317.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191844 = {
 	name="Jansi"
 	dynasty=1044383	#Kachwaha
@@ -10916,13 +10275,12 @@
 	trait="shaivist_hindu"
 	father=191843
 	1260.1.1={
-		birth=yes
+		birth = yes
 	}
 	1340.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191845 = {
 	name="Kumbha"
 	dynasty=1044383	#Kachwaha
@@ -10932,13 +10290,12 @@
 	trait="shaivist_hindu"
 	father=191844
 	1280.1.1={
-		birth=yes
+		birth = yes
 	}
 	1366.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191846 = {
 	name="Ishwar"
 	dynasty=1044383	#Kachwaha
@@ -10947,13 +10304,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1020.1.1={
-		birth=yes
+		birth = yes
 	}
 	1080.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191847 = {
 	name="Savata"
 	dynasty=1044384	#Bargujar
@@ -10962,13 +10318,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	900.1.1={
-		birth=yes
+		birth = yes
 	}
 	960.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191848 = {
 	name="Mathanadeva"
 	dynasty=1044384	#Bargujar
@@ -10978,13 +10333,12 @@
 	trait="shaivist_hindu"
 	father=191847
 	925.1.1={
-		birth=yes
+		birth = yes
 	}
 	990.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191849 = {
 	name="Pratap"	#Fictional
 	dynasty=1044384	#Bargujar
@@ -10994,13 +10348,12 @@
 	trait="shaivist_hindu"
 	father=191848
 	960.1.1={
-		birth=yes
+		birth = yes
 	}
 	1035.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191850 = {
 	name="Mathanadeva"	#Fictional
 	dynasty=1044384	#Bargujar
@@ -11010,13 +10363,12 @@
 	trait="shaivist_hindu"
 	father=191849
 	980.1.1={
-		birth=yes
+		birth = yes
 	}
 	1070.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191851 = {
 	name="Bhatto"	#Probably a Meena chief rather than a Bargujar
 	dynasty=1044384	#Bargujar
@@ -11026,13 +10378,12 @@
 	trait="shaivist_hindu"
 	father=191850
 	1010.1.1={
-		birth=yes
+		birth = yes
 	}
 	1096.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191852 = {
 	name="Yuvaraja"
 	dynasty=1044385	#Kacchapaghata
@@ -11041,13 +10392,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	930.1.1={
-		birth=yes
+		birth = yes
 	}
 	970.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191853 = {
 	name="Arjuna"
 	dynasty=1044385	#Kacchapaghata
@@ -11057,13 +10407,12 @@
 	trait="shaivist_hindu"
 	father=191852
 	950.1.1={
-		birth=yes
+		birth = yes
 	}
 	1020.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191854 = {
 	name="Abhimanyu"
 	dynasty=1044385	#Kacchapaghata
@@ -11073,13 +10422,12 @@
 	trait="shaivist_hindu"
 	father=191853
 	970.1.1={
-		birth=yes
+		birth = yes
 	}
 	1040.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191855 = {
 	name="Vijayapala"
 	dynasty=1044385	#Kacchapaghata
@@ -11089,13 +10437,12 @@
 	trait="shaivist_hindu"
 	father=191854
 	990.1.1={
-		birth=yes
+		birth = yes
 	}
 	1070.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191856 = {
 	name="Vikramasimha"
 	dynasty=1044385	#Kacchapaghata
@@ -11105,13 +10452,12 @@
 	trait="shaivist_hindu"
 	father=191855
 	1015.1.1={
-		birth=yes
+		birth = yes
 	}
 	1110.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191857 = {
 	name="Tihunapaladeva"
 	dynasty=1042076	#Kacchapaghata
@@ -11121,13 +10467,12 @@
 	trait="shaivist_hindu"
 	father=188175
 	1070.1.1={
-		birth=yes
+		birth = yes
 	}
 	1130.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191858 = {
 	name="Vijayapala"
 	dynasty=1042076	#Kacchapaghata
@@ -11137,13 +10482,12 @@
 	trait="shaivist_hindu"
 	father=191857
 	1090.1.1={
-		birth=yes
+		birth = yes
 	}
 	1150.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191859 = {
 	name="Surapala"
 	dynasty=1042076	#Kacchapaghata
@@ -11153,13 +10497,12 @@
 	trait="shaivist_hindu"
 	father=191858
 	1110.1.1={
-		birth=yes
+		birth = yes
 	}
 	1170.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191860 = {
 	name="Anayapala"
 	dynasty=1042076	#Kacchapaghata
@@ -11169,13 +10512,12 @@
 	trait="shaivist_hindu"
 	father=191859
 	1130.1.1={
-		birth=yes
+		birth = yes
 	}
 	1190.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191861 = {
 	name="Bhartripatta"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11184,13 +10526,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	580.1.1={
-		birth=yes
+		birth = yes
 	}
 	630.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191862 = {
 	name="Guhila"	#Fictional
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11200,13 +10541,12 @@
 	trait="shaivist_hindu"
 	father=191861
 	600.1.1={
-		birth=yes
+		birth = yes
 	}
 	670.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191863 = {
 	name="Dulha"	#Fictional
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11216,13 +10556,12 @@
 	trait="shaivist_hindu"
 	father=191862
 	620.1.1={
-		birth=yes
+		birth = yes
 	}
 	690.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191864 = {
 	name="Savata"	#Fictional
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11232,13 +10571,12 @@
 	trait="shaivist_hindu"
 	father=191863
 	670.1.1={
-		birth=yes
+		birth = yes
 	}
 	725.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191865 = {
 	name="Dhanika"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11248,13 +10586,12 @@
 	trait="shaivist_hindu"
 	father=191864
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	740.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191866 = {
 	name="Auka"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11264,13 +10601,12 @@
 	trait="shaivist_hindu"
 	father=191865
 	710.1.1={
-		birth=yes
+		birth = yes
 	}
 	765.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191867 = {
 	name="Krishna"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11280,13 +10616,12 @@
 	trait="shaivist_hindu"
 	father=191866
 	730.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191868 = {
 	name="Sankaragana"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11296,13 +10631,12 @@
 	trait="shaivist_hindu"
 	father=191867
 	750.1.1={
-		birth=yes
+		birth = yes
 	}
 	830.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191869 = {
 	name="Harsha"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11312,13 +10646,12 @@
 	trait="shaivist_hindu"
 	father=191868
 	780.1.1={
-		birth=yes
+		birth = yes
 	}
 	850.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191870 = {
 	name="Guhila"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11328,13 +10661,12 @@
 	trait="shaivist_hindu"
 	father=191869
 	800.1.1={
-		birth=yes
+		birth = yes
 	}
 	890.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191871 = {
 	name="Bhatta"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11344,13 +10676,12 @@
 	trait="shaivist_hindu"
 	father=191870
 	820.1.1={
-		birth=yes
+		birth = yes
 	}
 	910.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191872 = {
 	name="Baladitya"
 	dynasty=1044386	#Guhilot of Chatsu
@@ -11360,13 +10691,12 @@
 	trait="shaivist_hindu"
 	father=191871
 	850.1.1={
-		birth=yes
+		birth = yes
 	}
 	930.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191878 = {
 	name="Bhallila"
 	dynasty=1044387	#Rashtrakuta of Dhanop
@@ -11376,13 +10706,12 @@
 	trait="shaivist_hindu"
 	father=191876
 	840.1.1={
-		birth=yes
+		birth = yes
 	}
 	880.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191879 = {
 	name="Dantivarman"
 	dynasty=1044387	#Rashtrakuta of Dhanop
@@ -11392,13 +10721,12 @@
 	trait="shaivist_hindu"
 	father=191878
 	860.1.1={
-		birth=yes
+		birth = yes
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191880 = {
 	name="Buddharaja"
 	dynasty=1044387	#Rashtrakuta of Dhanop
@@ -11408,13 +10736,12 @@
 	trait="shaivist_hindu"
 	father=191879
 	880.1.1={
-		birth=yes
+		birth = yes
 	}
 	920.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191881 = {
 	name="Govinda"
 	dynasty=1044387	#Rashtrakuta of Dhanop
@@ -11424,13 +10751,12 @@
 	trait="shaivist_hindu"
 	father=191879
 	882.1.1={
-		birth=yes
+		birth = yes
 	}
 	960.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191882 = {
 	name="Dantivarman"	#Fictional
 	dynasty=1044387	#Rashtrakuta of Dhanop
@@ -11440,13 +10766,12 @@
 	trait="shaivist_hindu"
 	father=191881
 	900.1.1={
-		birth=yes
+		birth = yes
 	}
 	980.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191883 = {
 	name="Bhallila"	#Fictional
 	dynasty=1044387	#Rashtrakuta of Dhanop
@@ -11456,13 +10781,12 @@
 	trait="shaivist_hindu"
 	father=191882
 	920.1.1={
-		birth=yes
+		birth = yes
 	}
 	1006.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191884 = {
 	name="Cacca"
 	dynasty=1044387	#Rashtrakuta of Dhanop
@@ -11472,13 +10796,12 @@
 	trait="shaivist_hindu"
 	father=191883
 	980.1.1={
-		birth=yes
+		birth = yes
 	}
 	1055.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191885 = {
 	name="Siha"
 	dynasty=1044388 #Rathore
@@ -11488,13 +10811,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1220.1.1={
-		birth=yes
+		birth = yes
 	}
 	1273.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191886 = {
 	name="Asthan"
 	dynasty=1044388 #Rathore
@@ -11504,13 +10826,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1240.1.1={
-		birth=yes
+		birth = yes
 	}
 	1292.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191887 = {
 	name="Sonam"
 	dynasty=1044388 #Rathore (founds Idar branch)
@@ -11520,13 +10841,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1241.1.1={
-		birth=yes
+		birth = yes
 	}
 	1275.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191888 = {
 	name="Uja"
 	dynasty=1044388 #Rathore
@@ -11536,13 +10856,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1242.1.1={
-		birth=yes
+		birth = yes
 	}
 	1270.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191889 = {
 	name="Doohad"
 	dynasty=1044388 #Rathore
@@ -11552,13 +10871,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1260.1.1={
-		birth=yes
+		birth = yes
 	}
 	1309.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191890 = {
 	name="Jopsi"
 	dynasty=1044388 #Rathore
@@ -11568,13 +10886,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1261.1.1={
-		birth=yes
+		birth = yes
 	}
 	1320.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191891 = {
 	name="Khimpsao"
 	dynasty=1044388 #Rathore
@@ -11584,13 +10901,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1262.1.1={
-		birth=yes
+		birth = yes
 	}
 	1309.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191912 = {
 	name="Bhupsu"
 	dynasty=1044388 #Rathore
@@ -11600,13 +10916,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1263.1.1={
-		birth=yes
+		birth = yes
 	}
 	1280.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191913 = {
 	name="Dhandul"
 	dynasty=1044388 #Rathore
@@ -11616,13 +10931,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1264.1.1={
-		birth=yes
+		birth = yes
 	}
 	1299.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191892 = {
 	name="Jaitmal"
 	dynasty=1044388 #Rathore
@@ -11632,13 +10946,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1266.1.1={
-		birth=yes
+		birth = yes
 	}
 	1340.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191893 = {
 	name="Bandur"
 	dynasty=1044388 #Rathore
@@ -11648,13 +10961,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1268.1.1={
-		birth=yes
+		birth = yes
 	}
 	1315.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191894 = {
 	name="Uhur"
 	dynasty=1044388 #Rathore
@@ -11664,13 +10976,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1270.1.1={
-		birth=yes
+		birth = yes
 	}
 	1339.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191895 = {
 	name="Raipal"
 	dynasty=1044388 #Rathore
@@ -11680,13 +10991,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1276.1.1={
-		birth=yes
+		birth = yes
 	}
 	1313.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191896 = {
 	name="Kiratpal"
 	dynasty=1044388 #Rathore
@@ -11696,13 +11006,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1277.1.1={
-		birth=yes
+		birth = yes
 	}
 	1350.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191897 = {
 	name="Behar"
 	dynasty=1044388 #Rathore
@@ -11712,13 +11021,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1278.1.1={
-		birth=yes
+		birth = yes
 	}
 	1340.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191898 = {
 	name="Pital"
 	dynasty=1044388 #Rathore
@@ -11728,13 +11036,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1279.1.1={
-		birth=yes
+		birth = yes
 	}
 	1355.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191899 = {
 	name="Jugail"
 	dynasty=1044388 #Rathore
@@ -11744,13 +11051,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1280.1.1={
-		birth=yes
+		birth = yes
 	}
 	1370.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191900 = {
 	name="Dalu"
 	dynasty=1044388 #Rathore
@@ -11760,13 +11066,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1281.1.1={
-		birth=yes
+		birth = yes
 	}
 	1365.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191901 = {
 	name="Begar"
 	dynasty=1044388 #Rathore
@@ -11776,13 +11081,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1282.1.1={
-		birth=yes
+		birth = yes
 	}
 	1380.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191902 = {
 	name="Kanhapal"
 	dynasty=1044388 #Rathore
@@ -11792,13 +11096,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1292.1.1={
-		birth=yes
+		birth = yes
 	}
 	1323.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191903 = {
 	name="Jalhansi"
 	dynasty=1044388 #Rathore
@@ -11808,13 +11111,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1310.1.1={
-		birth=yes
+		birth = yes
 	}
 	1328.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191904 = {
 	name="Chhada"
 	dynasty=1044388 #Rathore
@@ -11824,13 +11126,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1326.1.1={
-		birth=yes
+		birth = yes
 	}
 	1344.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191905 = {
 	name="Emal"
 	dynasty=1044388 #Rathore (Idar branch)
@@ -11840,13 +11141,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1259.1.1={
-		birth=yes
+		birth = yes
 	}
 	1300.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191906 = {
 	name="Dhavalma"
 	dynasty=1044388 #Rathore (Idar branch)
@@ -11856,13 +11156,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1275.1.1={
-		birth=yes
+		birth = yes
 	}
 	1320.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191907 = {
 	name="Lunkaran"
 	dynasty=1044388 #Rathore (Idar branch)
@@ -11872,13 +11171,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1291.1.1={
-		birth=yes
+		birth = yes
 	}
 	1340.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191908 = {
 	name="Kanhat"
 	dynasty=1044388 #Rathore (Idar branch)
@@ -11888,13 +11186,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1310.1.1={
-		birth=yes
+		birth = yes
 	}
 	1360.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191909 = {
 	name="Ranmal"
 	dynasty=1044388 #Rathore (Idar branch)
@@ -11904,13 +11201,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1330.1.1={
-		birth=yes
+		birth = yes
 	}
 	1400.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191910 = {
 	name="Punj"
 	dynasty=1044388 #Rathore (Idar branch)
@@ -11920,13 +11216,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	1350.1.1={
-		birth=yes
+		birth = yes
 	}
 	1428.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191914 = {
 	name="Dhanika"
 	dynasty=1042077 #Paramara
@@ -11936,13 +11231,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	810.1.1={
-		birth=yes
+		birth = yes
 	}
 	885.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191915 = {
 	name="Chachcha"
 	dynasty=1042077 #Paramara
@@ -11952,13 +11246,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	830.1.1={
-		birth=yes
+		birth = yes
 	}
 	915.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191916 = {
 	name="Dambarasimha"
 	dynasty=1042077 #Paramara
@@ -11968,13 +11261,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	850.1.1={
-		birth=yes
+		birth = yes
 	}
 	945.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191917 = {
 	name="Chamunda"
 	dynasty=1042077 #Paramara
@@ -11984,13 +11276,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	852.1.1={
-		birth=yes
+		birth = yes
 	}
 	890.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191918 = {
 	name="Kankadeva"
 	dynasty=1042077 #Paramara
@@ -12000,13 +11291,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	880.1.1={
-		birth=yes
+		birth = yes
 	}
 	975.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191919 = {
 	name="Cha??apa"
 	dynasty=1042077 #Paramara
@@ -12016,13 +11306,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	920.1.1={
-		birth=yes
+		birth = yes
 	}
 	995.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191921 = {
 	name="Limba"
 	dynasty=1042077 #Paramara
@@ -12033,13 +11322,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1000.1.1={
-		birth=yes
+		birth = yes
 	}
 	1045.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191924 = {
 	name="Vijaya"
 	dynasty=1042077 #Paramara
@@ -12049,13 +11337,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1090.1.1={
-		birth=yes
+		birth = yes
 	}
 	1179.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191925 = {
 	name="Sahaja"
 	dynasty=1042081	#Chauhan of Nadol
@@ -12066,13 +11353,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	981.1.1={
-		birth=yes
+		birth = yes
 	}
 	1010.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191928 = {
 	name="Deo"
 	dynasty=1044390	#Hada-Chauhan
@@ -12081,13 +11367,12 @@
 	trait="kshatriya"
 	trait="shaivist_hindu"
 	1210.1.1={
-		birth=yes
+		birth = yes
 	}
 	1273.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191929 = {
 	name="Sumar"
 	dynasty=1044390	#Hada-Chauhan
@@ -12097,13 +11382,12 @@
 	trait="shaivist_hindu"
 	father=191928
 	1230.1.1={
-		birth=yes
+		birth = yes
 	}
 	1275.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191930 = {
 	name="Narpal"
 	dynasty=1044390	#Hada-Chauhan
@@ -12113,13 +11397,12 @@
 	trait="shaivist_hindu"
 	father=191929
 	1250.1.1={
-		birth=yes
+		birth = yes
 	}
 	1286.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191931 = {
 	name="Hamir"
 	dynasty=1044390	#Hada-Chauhan
@@ -12129,13 +11412,12 @@
 	trait="shaivist_hindu"
 	father=191930
 	1270.1.1={
-		birth=yes
+		birth = yes
 	}
 	1336.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191932 = {
 	name="Bir Singh"
 	dynasty=1044390	#Hada-Chauhan
@@ -12145,13 +11427,12 @@
 	trait="shaivist_hindu"
 	father=191931
 	1290.1.1={
-		birth=yes
+		birth = yes
 	}
 	1383.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191947 = {
 	name="Sage"
 	dynasty=1044391 #Dahiya
@@ -12160,13 +11441,12 @@
 	trait="kshatriya"
 	trait="vaishnavist_hindu"
 	860.1.1={
-		birth=yes
+		birth = yes
 	}
 	930.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191948 = {
 	name="Meghanada"
 	dynasty=1044391 #Dahiya
@@ -12176,13 +11456,12 @@
 	trait="vaishnavist_hindu"
 	father=191947
 	880.1.1={
-		birth=yes
+		birth = yes
 	}
 	950.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191959 = {
 	name="Simhabala"
 	dynasty=1044391 #Dahiya
@@ -12192,13 +11471,12 @@
 	trait="vaishnavist_hindu"
 	father=191948
 	910.1.1={
-		birth=yes
+		birth = yes
 	}
 	999.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191949 = {
 	name="Cachcha"
 	dynasty=1044391 #Dahiya
@@ -12208,13 +11486,12 @@
 	trait="vaishnavist_hindu"
 	father=191959
 	935.1.1={
-		birth=yes
+		birth = yes
 	}
 	1020.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191950 = {
 	name="Yasupusta"
 	dynasty=1044391 #Dahiya
@@ -12224,13 +11501,12 @@
 	trait="vaishnavist_hindu"
 	father=191949
 	951.1.1={
-		birth=yes
+		birth = yes
 	}
 	1030.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191951 = {
 	name="Uddha"
 	dynasty=1044391 #Dahiya
@@ -12240,13 +11516,12 @@
 	trait="vaishnavist_hindu"
 	father=191950
 	970.1.1={
-		birth=yes
+		birth = yes
 	}
 	1050.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191952 = {
 	name="Kirtasi"
 	dynasty=1044391 #Dahiya
@@ -12256,13 +11531,12 @@
 	trait="vaishnavist_hindu"
 	father=191951
 	1000.1.1={
-		birth=yes
+		birth = yes
 	}
 	1070.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191953 = {
 	name="Vairisimha"	#Fictional
 	dynasty=1044391 #Dahiya
@@ -12272,13 +11546,12 @@
 	trait="vaishnavist_hindu"
 	father=191952
 	1050.1.1={
-		birth=yes
+		birth = yes
 	}
 	1130.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191954 = {
 	name="Yasupusta"	#Fictional
 	dynasty=1044391 #Dahiya
@@ -12288,13 +11561,12 @@
 	trait="vaishnavist_hindu"
 	father=191953
 	1100.1.1={
-		birth=yes
+		birth = yes
 	}
 	1150.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191955 = {
 	name="Kaduva"
 	dynasty=1044391 #Dahiya
@@ -12304,13 +11576,12 @@
 	trait="vaishnavist_hindu"
 	father=191954
 	1120.1.1={
-		birth=yes
+		birth = yes
 	}
 	1180.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191956 = {
 	name="Padamsimha"
 	dynasty=1044391 #Dahiya
@@ -12320,13 +11591,12 @@
 	trait="vaishnavist_hindu"
 	father=191955
 	1150.1.1={
-		birth=yes
+		birth = yes
 	}
 	1215.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191957 = {
 	name="Jayatrasyasimha"
 	dynasty=1044391 #Dahiya
@@ -12336,13 +11606,12 @@
 	trait="vaishnavist_hindu"
 	father=191956
 	1180.1.1={
-		birth=yes
+		birth = yes
 	}
 	1232.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 191958 = {
 	name="Simhabala"
 	dynasty=1044391 #Dahiya
@@ -12352,9 +11621,9 @@
 	trait="vaishnavist_hindu"
 	father=191957
 	1200.1.1={
-		birth=yes
+		birth = yes
 	}
 	1240.1.1={
-		death=yes
+		death = yes
 	}
 }

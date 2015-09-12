@@ -1811,7 +1811,7 @@ character_event = {
 						kingdom = { title = k_mesopotamia }
 						kingdom = { title = k_oman }
 						kingdom = { title = k_persia }
-						kingdom = { title = k_khwarizm }
+						kingdom = { title = k_khwarezmia }
 					}
 				}
 			}

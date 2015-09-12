@@ -4,20 +4,22 @@
 title = c_aprutium
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 
-b_avezzano = castle
-b_pescara = city
-b_atri = temple
 
-#b_teramo = city
-#b_aprutium_penne = castle
+b_calascio = castle
+b_teramo = city
+#b_aquila = city
+#b_aprutium_penne = temple
 #b_paganica = city
+#b_capestrano = castle
+#b_scurcolamarsicana = castle
+#b_popoliabruzzo = castle
 
 # Misc
-culture = lombard
+culture = central_italian
 religion = catholic
 
 # History
-849.1.1 = { culture = italian }
-1167.1.1 = { trade_post = b_contarini }
+
+1254.1.1 = { b_aquila = city }

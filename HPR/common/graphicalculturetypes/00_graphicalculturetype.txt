@@ -164,5 +164,9 @@ indiangfx = {
 }
 
 # Hard coded government graphical cultures
-tribalgfx = {}
-nomadgfx = {}
+tribalgfx = {
+	skin_tone = 1
+}
+nomadgfx = {
+	skin_tone = 1
+}

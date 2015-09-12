@@ -1,0 +1,26 @@
+#Urus-oba
+1060.1.1={
+	liege=k_cuman
+	holder=1000233125 # Urusoba
+}
+1103.4.1={
+	holder=1000233127
+}
+1130.1.1={
+	holder=1000233129
+}
+1158.1.1={
+	holder=1000233131 # Koldeci
+}
+1198.1.1={
+	holder=1000233133 # Koban
+}
+1210.1.1={
+	holder=1000233135
+}
+1230.1.1={
+	holder=1000233137
+}
+1239.1.1={
+	holder=0 # Mongols put down revolt
+}

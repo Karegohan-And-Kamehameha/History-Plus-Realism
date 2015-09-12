@@ -1,79 +1,50 @@
-661.2.28={
-	liege=e_arabia
+850.1.1={
+	liege="k_sistan"
 }
-764.1.1={
-	holder=188604 # Ma'n bin Za'idah al-Shaybani
+861.1.1={
+	holder=163101
 }
-769.6.1={
-	holder=0
+879.6.5={
+	holder=163164
 }
-1066.1.1={
-	liege="k_persia"
-	holder=93269
+901.1.1={
+	liege=0
+	holder=1000230517
 }
-1073.1.1 = {
-	holder = 93270
+956.1.1={
+	holder=1000230510
 }
-1088.1.1 = {
-	holder = 93271
+987.1.1={
+	holder=1000230511
 }
-1090.1.1 = {
-	holder = 93272
+1002.1.1={
+	holder=144125  #Mahmud of Ghazna
 }
-1103.1.1 = {
-	holder = 93273
+1030.1.1={
+	holder=1000230512
 }
-1157.5.8 = {
-	liege = 0
-} 
-1164.1.1 = {
-	holder = 93274
+1048.1.1={
+	liege="e_persia"
+	holder=1000229901  #Seljuk Músá Yabghu
 }
-1167.1.1 = {
-	holder = 93275
+1051.1.1={
+	liege="k_kafarestan"
+	holder=1000229901  #Ghaznavid slave general Toghril 
 }
-1168.1.1 = {
-	holder = 93276
+1056.1.1={
+	liege="k_khorasan"
+	holder=93160  #Yaquti b.Chaghri Beg
 }
-1194.3.1 = {
-	liege = "k_persia"
-} 
-1215.1.1 = {
-	holder = 93277
+1080.1.1={
+	liege="e_persia"
+	holder=144027  #Turan Shah b.Qawurd of Kerman
 }
-1221.1.1 = {
-	liege = "e_mongol_empire"
-	holder = 93278
+1097.1.1={
+	holder=144028
 }
-1222.1.1 = {
-	holder = 93279
-}
-1222.7.1 = {
-	holder = 93280
-}
-1223.1.1 = {
-	holder = 93281
-}
-1225.1.1 = {
-	holder = 93282
-}
-1226.1.1 = {
-	holder = 93285
-}
-1227.12.2 = {
-	liege = "e_il-khanate"
-}
-1255.1.1 = {
-
-	holder = 93154
-}
-1261.1.1 = {
-
-	holder = 93287
-}
-1318.1.1 = {
-	holder = 93288
-}
-1331.1.1 = {
-	holder = 93290
+#1101.1.1={
+#	holder=0
+#}
+1183.1.1={
+	liege="k_sistan"
 }

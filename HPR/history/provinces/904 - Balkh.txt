@@ -4,20 +4,17 @@
 title = c_balkh
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_balkh = castle
-b_takhtisangin = temple # Zoroastrian Holy Site
-b_termez = city
+b_tirmidh = city
+b_navida = temple
 
-#b_tiliatepe = temple
-#b_alkhanoum = city
-#b_dalverzintepe = castle
-#b_surkhkotal = castle
+#b_kalif = city
 
 # Misc
-culture = persian
-religion = zoroastrian
+culture = khorasani
+religion = sunni
 
 # History
-1187.1.1 = { religion = sunni }
+990.1.1 = { religion = sunni }
 

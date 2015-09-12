@@ -1,7 +1,7 @@
 
 ###########################################
 #                                         #
-# Charlemagne Major Events                #             
+# Charlemagne Major Events                #
 #                                         #
 # ID CM.500-CM.999                        #
 #                                         #
@@ -18,13 +18,13 @@ narrative_event = {
 	title = EVTTITLE_CM_501
 	picture = GFX_evt_throne_room
 	border = GFX_event_narrative_frame_war
-	
+
 	only_playable = yes
 
 	major = yes
-	
+
 	trigger = {
-		has_landed_title = k_carpathia
+		has_landed_title = k_hungary
 		NOT = { culture = avar }
 		NOT = { has_global_flag = avar_khaganate_renamed }
 	}
@@ -40,21 +40,21 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		set_global_flag = avar_khaganate_renamed
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_501
 		trigger = {
-			has_landed_title = k_carpathia
+			has_landed_title = k_hungary
 		}
-		k_carpathia = {
+		k_hungary = {
 			set_name = "KINGDOM_PANNONIA"
 			adjective = "KINGDOM_PANNONIA_ADJ"
 		}
@@ -62,14 +62,14 @@ narrative_event = {
 	option = {
 		name = EVTOPTB_CM_501
 		trigger = {
-			NOT = { has_landed_title = k_carpathia }
+			NOT = { has_landed_title = k_hungary }
 			culture = avar
 		}
 	}
 	option = {
 		name = EVTOPTC_CM_501
 		trigger = {
-			NOT = { has_landed_title = k_carpathia }
+			NOT = { has_landed_title = k_hungary }
 			NOT = { culture = avar }
 		}
 	}
@@ -82,11 +82,11 @@ narrative_event = {
 	title = EVTTITLE_CM_502
 	picture = GFX_evt_book_carolingian_script
 	border = GFX_event_narrative_frame_war
-	
+
 	only_playable = yes
 
 	major = yes
-	
+
 	trigger = {
 		has_landed_title = k_lombardy
 		NOT = { culture = lombard }
@@ -104,15 +104,15 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		set_global_flag = fall_of_lombard_kingdom
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_502
 		trigger = {
@@ -178,7 +178,7 @@ narrative_event = {
 	major = yes
 	hide_from = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		controls_religion = yes # Let it happen for the Pope - he's always around
 		religion = catholic
@@ -187,7 +187,7 @@ narrative_event = {
 		NOT = { has_global_flag = viking_age_started }
 		has_global_flag = game_start_charlemagne
 	}
-	
+
 	immediate = {
 		set_global_flag = viking_age_started
 		enable_prepared_invasion = norse_pagan

@@ -4,29 +4,22 @@
 title = c_gizeh
 
 # Settlements
-max_settlements = 4
-b_aburowash = castle
-b_dashur = city
-b_gizeh = temple
+max_settlements = 3
+b_gizeh = castle
+b_saqqara = temple
 
+#b_abusir = city
+
+#b_aburowash = castle
+#b_dashur = city
 #b_zawyetalayran = castle
 #b_abughorob = castle
-#b_abusir = city
-#b_saqqara = castle
 #b_ellisht = castle
 
 # Misc
 culture = egyptian_arabic
-religion = sunni
+religion = shiite
 
 # History
 
-767.1.1 = {
-	culture = coptic
-	religion = miaphysite
-}
-909.1.1 = {
-	culture = egyptian_arabic
-	religion = shiite
-}
 1171.1.1 = { religion = sunni } 

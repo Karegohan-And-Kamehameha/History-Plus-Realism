@@ -5,26 +5,22 @@ title = c_lubusz
 
 # Settlements
 max_settlements = 4
-b_lubusz = tribal
 
+b_krosnoodrzanskie = tribal
+b_lubusz = temple
 #b_kostrzyn = city
-#b_mysliborz = temple
-#b_cedynia = castle
-#b_pryzyce = castle
-#b_sulecin = castle
-#b_santok = castle
-#b_zielonagora = castle
+#b_torzym = castle
+#b_frankfurtoder = city
 
 # Misc
-culture = polish
+culture = pommeranian
 religion = slavic_pagan
 
 # History
-990.1.1 = {
-	religion = catholic
-}
-1123.1.1 = {
-	b_lubusz = castle
-	b_kostrzyn = city
-	b_mysliborz = temple
-}
+
+1000.1.1 = { culture = polish 
+b_krosnoodrzanskie = castle
+b_lubusz = temple
+b_kostrzyn = city}
+1000.1.1 = { religion = catholic }
+1253.1.1 = { culture = german }

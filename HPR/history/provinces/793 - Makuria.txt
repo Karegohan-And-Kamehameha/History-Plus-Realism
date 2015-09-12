@@ -4,21 +4,19 @@
 title = c_makuria
 
 # Settlements
-max_settlements = 4
-b_semna = castle
-b_dongola = city
-b_ghazali = temple # Miaphysite Holy Site
+max_settlements = 6
+b_meroe = castle
+b_nuri = temple
+b_kareima = city
+b_djebel_barka = temple
 
-#b_dotawo = city
-#b_kawa = castle
-#b_kalabsha = temple
-#b_qubban = castle
-#b_wawa = castle
+#b_korti = castle
+#b_tankasi = castle
+
 
 # Misc
 culture = nubian
 religion = miaphysite
-terrain = plains
 
 # History
-1337.1.1 = { b_kawa = castle }
+1337.1.1 = { b_korti = castle }

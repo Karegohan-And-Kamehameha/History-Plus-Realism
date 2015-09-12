@@ -17,7 +17,8 @@ b_glurns = castle
 #b_zuoz = castle
 
 # Misc
-culture = german
+culture = swabian #Romansch
 religion = catholic
 
 # History
+1170.1.1 = { culture = german }

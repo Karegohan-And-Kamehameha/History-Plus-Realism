@@ -1,0 +1,22 @@
+# 1567 - Kashgar
+
+# County Title
+title = c_kashgar
+
+# Settlements
+max_settlements = 5
+b_kashgar = castle
+b_ulugqat = city
+b_uksalur = temple
+b_pichan = city
+
+#b_kizilsu = castle
+
+
+# Misc
+culture = karluk
+religion = buddhist
+
+# History
+1060.1.1 = {	culture = karluk }
+1060.1.1 = {	religion = sunni }

@@ -1,0 +1,20 @@
+# 1558 - Khojand
+
+# County Title
+title = c_khojand
+
+# Settlements
+max_settlements = 4
+b_khojand = castle
+b_asht = city
+b_andijan = temple
+
+#b_kend-i-badam = city
+
+# Misc
+culture = soghdian
+religion = zoroastrian
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = tajik }

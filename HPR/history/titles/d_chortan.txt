@@ -1,0 +1,23 @@
+#Çortan
+1060.1.1={
+	liege=k_cuman
+	holder=1000233198
+}
+1093.1.1={
+	holder=1000233200 # Girgen/Aepa
+}
+1140.1.1={
+	holder=1000233202
+}
+1163.1.1={
+	holder=1000233204
+}
+1179.1.1={
+	holder=1000233206
+}
+1210.1.1={
+	holder=1000233208
+}
+1238.1.1={
+	holder=0 # migrating to Hungary after defeat
+}

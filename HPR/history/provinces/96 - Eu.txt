@@ -4,23 +4,19 @@
 title = c_eu
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_eu = castle
 b_aumale = temple
 b_forges = city
-
-#b_mortemer = castle
-#b_gournay = temple
-#b_drincourt = castle
 #b_serqueux = temple
 #b_neufchatel-en-bray = castle
 
+
 # Misc
-culture = old_frankish
+culture = frankish
 religion = catholic
 
 # History
-790.1.1 = { culture = frankish }
 911.1.1 = { # Viking takeover
 	b_eu = ca_keep_1
 	b_eu = ca_training_grounds_1

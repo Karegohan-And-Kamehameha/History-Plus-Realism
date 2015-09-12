@@ -1,6 +1,3 @@
-20.1.1 = {
-	historical_nomad = yes
-}
 654.1.1= {
 	liege=d_itil
 	holder=74004
@@ -64,63 +61,67 @@
 }
 969.1.1={
 	liege=0
+	holder=0
 }
-1066.1.1={
-	liege=k_cuman
-	holder=20663
+#Cumans arrive
+1050.1.1={
+	liege=d_targil
+	holder=20663 #?wtf flavour charcter?
 }
+#Targil
 1089.1.1={
-	#liege=d_itil
-	holder=806
+	holder=1000233060
 }
-1110.1.1 = {
-holder = 90143
+1100.1.1={
+	holder=1000233062  # Komana
 }
-1120.1.1 = {
-holder = 125401
+1142.1.1={
+	holder=1000233064
 }
-1146.1.1 = {
-holder = 125402
+1174.1.1={
+	holder=1000233066
 }
-1183.1.1 = {
-holder = 228030
+1202.1.1={
+	holder=1000233068
 }
-1203.1.1 = {
-holder = 125403
+1221.1.1={
+	holder=1000233070
 }
-1220.1.1 = {
-	holder = 34958
+# Mongols put down revolt
+1239.1.1=
+{
+	liege=d_itil
+	holder=125503
 }
-1223.1.1 = {
-holder = 125404
+1255.1.2=
+{
+	holder=125505
 }
-1227.1.1 = {
-holder = 125501
+1256.1.2=
+{
+	holder=125506
 }
-1227.12.2 = {
-holder = 125503
+1257.1.2=
+{
+	holder=125504
 }
-1255.1.2 = {
-holder = 125505
+1266.1.2=
+{
+	holder=125508
 }
-1256.1.2 = {
-holder = 125506
+1280.1.2=
+{
+	holder=125509
 }
-1257.1.2 = {
-holder = 125504
+1287.1.2=
+{
+	holder=125511
 }
-1266.1.2 = {
-holder = 125508
+1291.1.2=
+{
+	holder=125512
 }
-1280.1.2 = {
-holder = 125509
-}
-1287.1.2 = {
-holder = 125511
-}
-1291.1.2 = {
-holder = 125512
-}
-1312.1.2 = {
-holder = 480000
+1312.1.2=
+{
+	holder=480000
 }

@@ -4,20 +4,24 @@
 title = c_aswan
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_aswan = castle
-b_faras = city
-b_elefantina = temple
-b_qasribrim = castle
+b_udfu = city
+b_armant = temple
 
+#b_isna = castle
+
+#b_elefantina = temple
 #b_veset = castle
 #b_philae = castle
 #b_girge = city
 #b_jebeladda = city
 
 # Misc
-culture = coptic
+culture = nubian
 religion = miaphysite
-terrain = plains
 
 # History
+1078.1.1 = { culture = egyptian_arabic }
+1171.1.1 = { religion = sunni }
+

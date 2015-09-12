@@ -1,0 +1,21 @@
+# 976 - Moylurg # Moylurg
+
+# County Title
+title = c_moylurg
+
+# Settlements
+max_settlements = 3
+
+b_sligo = castle
+b_elphin = temple
+#b_boyle = temple
+
+
+
+# Misc
+culture = irish
+religion = catholic
+terrain = hills
+
+# History
+

@@ -117,7 +117,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	buy_indulgence_for_sins = {
 		potential = {
 			is_ruler = yes
@@ -243,7 +243,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	demand_liege_title = {
 		is_high_prio = yes
 		potential = {
@@ -288,7 +288,7 @@ decisions = {
 			factor = 0 # The AI is limited to the similar event 63040
 		}
 	}
-	
+
 	sadaqah_saddka  = {
 		potential = {
 			is_ruler = yes
@@ -488,7 +488,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	restore_roman_empire = {
 		is_high_prio = yes
 		potential = {
@@ -518,15 +518,22 @@ decisions = {
 			completely_controls = d_capua
 			completely_controls = d_apulia
 			completely_controls = d_thrace
-			completely_controls = d_karvuna
-			completely_controls = d_adrianopolis
-			completely_controls = d_turnovo
+			completely_controls = d_anatolia
 			completely_controls = d_antioch
 			completely_controls = d_jerusalem
+			completely_controls = d_damascus
+			completely_controls = d_aleppo
+			completely_controls = d_tripoli
 			completely_controls = d_alexandria
+			completely_controls = d_cairo
+			completely_controls = d_damietta
+			completely_controls = d_cyrenaica
 			completely_controls = d_athens
 			completely_controls = d_tunis
+			completely_controls = d_bosnia
 			completely_controls = d_croatia
+			completely_controls = d_ohrid
+			completely_controls = d_turnovo
 		}
 		effect = {
 			if = {
@@ -534,14 +541,14 @@ decisions = {
 				hidden_tooltip = {
 					activate_title = { title = e_roman_empire status = yes }
 				}
-			}	
+			}
 			narrative_event = { id = LoR.20 tooltip = EVTTOOLTIPLoR.20 }
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	claim_constantinople = {
 		is_high_prio = yes
 		potential = {
@@ -549,15 +556,15 @@ decisions = {
 			independent = yes
 			NOT = { has_landed_title = c_byzantion }
 			has_landed_title = e_byzantium
-			any_realm_lord = { 
+			any_realm_lord = {
 				ai = yes
 				has_landed_title = c_byzantion
 			}
 		}
 		allow = {
 			NOT = { has_landed_title = c_byzantion }
-			any_realm_lord = { 
-				has_landed_title = c_byzantion 
+			any_realm_lord = {
+				has_landed_title = c_byzantion
 			}
 		}
 		effect = {
@@ -571,7 +578,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	make_rome_capital = {
 		is_high_prio = yes
 		potential = {
@@ -582,11 +589,11 @@ decisions = {
 			capital_scope = {
 				NOT = { province_id = 333 }
 			}
-			any_realm_lord = { 
+			any_realm_lord = {
 				ai = yes
-				has_landed_title = c_roma 
+				has_landed_title = c_roma
 			}
-			any_realm_lord = { 
+			any_realm_lord = {
 				ai = yes
 				has_landed_title = b_tivoli
 			}
@@ -605,8 +612,8 @@ decisions = {
 							usurp_title = PREV
 						}
 					}
-					b_tivoli = { 
-						set_name = Rome 
+					b_tivoli = {
+						set_name = Rome
 						ROOT = { capital = PREV }
 					}
 				}
@@ -616,7 +623,7 @@ decisions = {
 			factor = 0
 		}
 	}
-	
+
 	petition_doge_for_tp = {
 		is_high_prio = yes
 		potential = {
@@ -663,7 +670,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	usurp_tp = {
 		is_high_prio = yes
 		potential = {
@@ -737,7 +744,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	organize_varangian_guard = {
 		is_high_prio = yes
 		potential = {
@@ -791,73 +798,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
-	create_hungary = {
-		is_high_prio = yes
-		potential = {
-			NOT = { has_dlc = "Horse Lords" }
-			is_nomadic = no
-			independent = yes
-			culture = hungarian
-			k_hungary = { has_holder = no }
-			k_carpathia = { is_titular = no }
-			NOT = { has_global_flag = hungary_formed }
-		}
-		allow = {
-			war = no
-			has_regent = no
-			ruled_years = 5
-			custom_tooltip = {
-				text = CTT_MUST_BE_REFORMED
-				OR = {
-					NOT = { religion_group = pagan_group }
-					is_reformed_religion = yes
-				}
-			}
-			completely_controls = d_pest
-			OR = {
-				completely_controls = d_transylvania
-				completely_controls = d_ungvar
-				completely_controls = d_nyitra
-			}
-		}
-		effect = {
-			set_global_flag = hungary_formed
-			hidden_tooltip = {
-				disband_event_forces = king_magyar_forces
-				set_government_type = feudal_government
-				k_hungary = {
-					reset_coa = THIS
-				}
-				d_pecs = {
-					de_jure_liege = k_hungary
-				}
-				d_esztergom = {
-					de_jure_liege = k_hungary
-				}
-				d_nyitra = {
-					de_jure_liege = k_hungary
-				}
-				d_ungvar = {
-					de_jure_liege = k_hungary
-				}
-				d_pest = {
-					de_jure_liege = k_hungary
-				}
-				d_transylvania = {
-					de_jure_liege = k_hungary
-				}
-				d_temes = {
-					de_jure_liege = k_hungary
-				}
-				narrative_event = { id = 62910 tooltip = EVTTOOLTIP62910 }
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
+
 	become_saoshyant = {
 		is_high_prio = yes
 		potential = {
@@ -873,23 +814,34 @@ decisions = {
 		}
 		allow = {
 			war = no
-			completely_controls = d_tabriz
-			completely_controls = d_khorasan
-			completely_controls = d_hormuz
 			completely_controls = d_fars
-			completely_controls = d_khiva
-			completely_controls = d_dihistan
+			completely_controls = d_ahwaz
 			completely_controls = d_merv
-			completely_controls = d_sistan
-			completely_controls = d_esfahan
-			completely_controls = d_hamadan
-			completely_controls = d_mazandaran
+			completely_controls = d_qohistan
+			completely_controls = d_nishapur
+			completely_controls = d_jebal
+			completely_controls = d_khoar
+			completely_controls = d_tabarestan
+			completely_controls = d_gilan
+			completely_controls = d_gurgan
+			completely_controls = d_mafaza
 			completely_controls = d_kermanshah
+			completely_controls = d_herat
+			completely_controls = d_shash
+			completely_controls = d_ferghana
+			completely_controls = d_khwarazm
+			completely_controls = d_balkh
+			completely_controls = d_soghd
+			completely_controls = d_ustrushana
 			completely_controls = d_tigris
 			completely_controls = d_basra
 			completely_controls = d_baghdad
 			completely_controls = d_mosul
 			completely_controls = d_jazira
+			completely_controls = d_kerman
+			completely_controls = d_makran
+			completely_controls = d_azerbaijan
+			completely_controls = d_sistan
 			OR = {
 				piety = 2000
 				AND = {
@@ -913,16 +865,16 @@ decisions = {
 			give_nickname = nick_the_saoshyant
 			add_trait = saoshyant
 			prestige = 500
-			piety = 500	
+			piety = 500
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	create_leon = {
 		is_high_prio = yes
-		
+
 		potential = {
 			tier = KING
 			has_landed_title = k_asturias
@@ -965,7 +917,7 @@ decisions = {
 				give_nickname = nick_the_great
 			}
 			activate_title = { title = k_asturias status = no }
-			
+
 			hidden_tooltip = {
 				character_event = { id = 62920 }
 				any_playable_ruler = {
@@ -983,7 +935,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	create_castille = {
 		is_high_prio = yes
 		potential = {
@@ -1164,7 +1116,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	restore_priesthood = {
 		is_high_prio = yes
 		potential = {
@@ -1229,7 +1181,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	build_third_temple = {
 		is_high_prio = yes
 		potential = {
@@ -1269,13 +1221,13 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	create_israel = {
 		is_high_prio = yes
 		potential = {
 			has_dlc = "Sons of Abraham"
 			is_ruler = yes
-			religion_group = jewish_group			
+			religion_group = jewish_group
 			k_israel = { has_holder = no }
 			NOT = { has_global_flag = israel_remade }
 		}
@@ -1303,7 +1255,7 @@ decisions = {
 						}
 					}
 				}
-				gain_title = ROOT				
+				gain_title = ROOT
 			}
 			clr_character_flag = centralize_without_penalties
 			hidden_tooltip = {
@@ -1347,7 +1299,7 @@ decisions = {
 					any_direct_de_jure_vassal_title = {
 						de_jure_liege = k_israel
 					}
-					destroy_landed_title = yes 
+					destroy_landed_title = yes
 				}
 			}
 			narrative_event = { id = SoA.102 tooltip = EVTTOOLTIP_SoA_102 }
@@ -1363,14 +1315,14 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	welcome_jews = {
 		potential = {
 			has_dlc = "Sons of Abraham"
 			is_ruler = yes
 			primary_title = { higher_tier_than = DUKE }
-			NOR = { 
-				religion_group = jewish_group 
+			NOR = {
+				religion_group = jewish_group
 				has_character_modifier = expelled_jews_timer
 				has_character_flag = pogrom
 			}
@@ -1419,7 +1371,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_jews = {
 		potential = {
 			is_playable = yes
@@ -1467,13 +1419,13 @@ decisions = {
 							duration = 3650
 						}
 					}
-				}				
+				}
 				set_character_flag = offended_moneylenders
 			}
 			if = {
 				limit = { has_character_modifier = loan_timer_jews }
 				remove_character_modifier = loan_timer_jews
-			}			
+			}
 			add_character_modifier = {
 				name = expelled_jewish
 				duration = 21900 #in days. 60 years
@@ -1494,7 +1446,7 @@ decisions = {
 					hidden = yes
 					inherit = yes
 				}
-				set_character_flag = pogrom	
+				set_character_flag = pogrom
 			}
 		}
 		ai_will_do = {
@@ -1569,7 +1521,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	embrace_mutazila = {
 		potential = {
 			has_dlc = "Sons of Abraham"
@@ -1583,24 +1535,24 @@ decisions = {
 				trait = ashari
 			}
 		}
-		
+
 		allow = {
 			piety = 50
 			learning = 8
 		}
-		
+
 		effect = {
 			add_trait = mutazilite
 			character_event = { id = SoA.600 tooltip = EVTTOOLTIP_SoA_600 }
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				trait = zealous
@@ -1619,9 +1571,9 @@ decisions = {
 			}
 		}
 	}
-	
+
 	embrace_ashari = {
-		potential = {	
+		potential = {
 			has_dlc = "Sons of Abraham"
 			is_ruler = yes
 			is_adult = yes
@@ -1633,24 +1585,24 @@ decisions = {
 				trait = ashari
 			}
 		}
-		
+
 		allow = {
 			piety = 50
 			learning = 8
 		}
-		
+
 		effect = {
 			add_trait = ashari
 			character_event = { id = SoA.601 tooltip = EVTTOOLTIP_SoA_601 }
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				trait = cynical
@@ -1669,14 +1621,14 @@ decisions = {
 			}
 		}
 	}
-	
+
 	become_samrat_chakravartin = {
 		is_high_prio = yes
 		potential = {
 			has_dlc = "Rajas of India"
 			is_playable = yes
 			is_feudal = yes
-			religion_group = indian_group	
+			religion_group = indian_group
 			capital_scope = {
 				region = world_india
 			}
@@ -1698,14 +1650,6 @@ decisions = {
 			OR = {
 				has_landed_title = e_rajastan
 				e_rajastan = { has_holder = no }
-			}
-			OR = {
-				has_landed_title = e_bengal
-				e_bengal = { has_holder = no }
-			}
-			OR = {
-				has_landed_title = e_deccan
-				e_deccan = { has_holder = no }
 			}
 			completely_controls_region = world_india
 		}
@@ -1741,26 +1685,6 @@ decisions = {
 				activate_title = { title = e_rajastan status = no }
 			}
 			if = {
-				limit = {
-					OR = {
-						has_landed_title = e_bengal
-						e_bengal = { has_holder = no }
-					}
-				}
-				e_bengal = { destroy_landed_title = THIS }
-				activate_title = { title = e_bengal status = no }
-			}
-			if = {
-				limit = {
-					OR = {
-						has_landed_title = e_deccan
-						e_deccan = { has_holder = no }
-					}
-				}
-				e_deccan = { destroy_landed_title = THIS }
-				activate_title = { title = e_deccan status = no }
-			}
-			if = {
 				limit = { has_nickname = no }
 				give_nickname = nick_the_magnificent
 			}
@@ -1777,7 +1701,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	form_the_hre = {
 		is_high_prio = yes
 		potential = {
@@ -1891,19 +1815,10 @@ decisions = {
 			OR = {
 				has_landed_title = k_bavaria
 				any_vassal = { has_landed_title = k_bavaria }
-				AND = {
-					completely_controls = d_bavaria
-					k_bavaria = { has_holder = no }
-				}
 			}
 			OR = {
 				has_landed_title = k_saxony
 				any_vassal = { has_landed_title = k_saxony }
-				AND = {
-					completely_controls = d_westphalia
-					completely_controls = d_eastphalia
-					k_saxony = { has_holder = no }
-				}
 			}
 		}
 		effect = {
@@ -2010,16 +1925,48 @@ decisions = {
 				d_franconia = { de_jure_liege = k_germany }
 				d_koln = { de_jure_liege = k_germany }
 				if = {
-					limit = { d_eastphalia = { de_jure_liege = k_saxony } }
-					d_eastphalia = { de_jure_liege = k_germany }
+					limit = { d_angria = { de_jure_liege = k_saxony } }
+					d_angria = { de_jure_liege = k_germany }
 				}
 				if = {
-					limit = { d_westphalia = { de_jure_liege = k_saxony } }
-					d_westphalia = { de_jure_liege = k_germany }
+					limit = { d_oldenburg = { de_jure_liege = k_saxony } }
+					d_oldenburg = { de_jure_liege = k_germany }
 				}
 				if = {
-					limit = { d_thuringia = { de_jure_liege = k_saxony } }
-					d_thuringia = { de_jure_liege = k_germany }
+					limit = { d_osnabruck = { de_jure_liege = k_saxony } }
+					d_osnabruck = { de_jure_liege = k_germany }
+				}
+				if = {
+					limit = { d_bishopmunster = { de_jure_liege = k_saxony } }
+					d_bishopmunster = { de_jure_liege = k_germany }
+				}
+				if = {
+					limit = { d_bremen = { de_jure_liege = k_saxony } }
+					d_bremen = { de_jure_liege = k_germany }
+				}
+				if = {
+					limit = { d_holstein = { de_jure_liege = k_saxony } }
+					d_holstein = { de_jure_liege = k_germany }
+				}
+				if = {
+					limit = { d_magdeburg = { de_jure_liege = k_saxony } }
+					d_magdeburg = { de_jure_liege = k_germany }
+				}
+				if = {
+					limit = { d_saxewittenberg = { de_jure_liege = k_saxony } }
+					d_saxewittenberg = { de_jure_liege = k_germany }
+				}
+				if = {
+					limit = { d_meissen = { de_jure_liege = k_saxony } }
+					d_meissen = { de_jure_liege = k_germany }
+				}
+				if = {
+					limit = { d_altmark = { de_jure_liege = k_saxony } }
+					d_altmark = { de_jure_liege = k_germany }
+				}
+				if = {
+					limit = { d_brunswick = { de_jure_liege = k_saxony } }
+					d_brunswick = { de_jure_liege = k_germany }
 				}
 				if = {
 					limit = { d_bavaria = { de_jure_liege = k_bavaria } }
@@ -2218,7 +2165,7 @@ decisions = {
 			factor = 1
 		}
 	}
-		
+
 	form_new_kingdom = {
 		is_high_prio = yes
 		potential = {
@@ -2362,7 +2309,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	# Hold Wargames - for nomads
 	hold_nomad_wargames = {
 		potential = {
@@ -2416,7 +2363,7 @@ decisions = {
 			modifier = {
 				factor = 0.5
 				NOT = { martial = 10 }
-			}	
+			}
 			modifier = {
 				factor = 0
 				has_character_flag = recent_minor_decision
@@ -2426,10 +2373,10 @@ decisions = {
 						days = 730
 					}
 				}
-			}	
+			}
 		}
-	}	
-	
+	}
+
 	convert_to_feudalism_indep = {
 		is_high_prio = yes
 		potential = {
@@ -2549,7 +2496,7 @@ decisions = {
 					}
 				}
 				set_government_type = bogomilist_government
-			}				
+			}
 			if = {
 				limit = { higher_tier_than = king }
 				primary_title = {
@@ -2611,7 +2558,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	convert_to_feudalism_vassal = {
 		is_high_prio = yes
 		potential = {
@@ -2666,8 +2613,8 @@ decisions = {
 					NOT = { culture = ROOT }
 				}
 				custom_tooltip = { text = TRIBAL_VASSAL_NOT_CULTURE_WARNING }
-			}			
-		
+			}
+
 			#upgrade tribal holdings which have full hillforts
 			any_demesne_title = {
 				limit = {
@@ -2688,9 +2635,9 @@ decisions = {
 					}
 				}
 			}
-			
+
 			set_character_flag = achievement_not_a_tribe
-			
+
 			if = {
 				limit = {
 					NOT = { religion_group = muslim }
@@ -2811,7 +2758,7 @@ decisions = {
 					NOT = { culture_group = ROOT }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0.01
 				liege = {
@@ -2926,9 +2873,9 @@ decisions = {
 				}
 				custom_tooltip = { text = TRIBAL_VASSAL_NOT_CULTURE_WARNING }
 			}
-			
+
 			hidden_tooltip = {
-				create_family_palace = yes				
+				create_family_palace = yes
 				if = {
 					limit = {
 						NOT = {
@@ -2951,9 +2898,9 @@ decisions = {
 							NOT = { trait = incapable }
 							is_adult = yes
 							NOT = { dynasty = none }
-						}	
+						}
 						if = {
-							limit = { is_tribal = yes }		
+							limit = { is_tribal = yes }
 							hidden_tooltip = {
 								capital_holding = {
 									if = {
@@ -2997,7 +2944,7 @@ decisions = {
 					}
 				}
 			}
-				
+
 			#upgrade tribal holdings which have full market towns
 			any_demesne_title = {
 				limit = {
@@ -3018,9 +2965,9 @@ decisions = {
 					}
 				}
 			}
-			
+
 			set_character_flag = achievement_res_publica
-			
+
 			if = {
 				limit = { ai = no }
 				chronicle = {
@@ -3028,9 +2975,9 @@ decisions = {
 					picture = GFX_evt_busy_trading_dock_republic
 				}
 			}
-			
+
 			set_government_type = merchant_republic_government
-			
+
 			hidden_tooltip = {
 				any_demesne_title = {
 					if = {
@@ -3095,7 +3042,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	convert_to_republic_vassal = {
 		is_high_prio = yes
 		potential = {
@@ -3160,7 +3107,7 @@ decisions = {
 				}
 				custom_tooltip = { text = TRIBAL_VASSAL_NOT_CULTURE_WARNING }
 			}
-			
+
 			hidden_tooltip = {
 				create_family_palace = yes
 				if = {
@@ -3185,9 +3132,9 @@ decisions = {
 							NOT = { trait = incapable }
 							is_adult = yes
 							NOT = { dynasty = none }
-						}	
+						}
 						if = {
-							limit = { is_tribal = yes }		
+							limit = { is_tribal = yes }
 							hidden_tooltip = {
 								capital_holding = {
 									if = {
@@ -3231,7 +3178,7 @@ decisions = {
 					}
 				}
 			}
-			
+
 			#upgrade tribal holdings which have full market towns
 			any_demesne_title = {
 				limit = {
@@ -3252,9 +3199,9 @@ decisions = {
 					}
 				}
 			}
-			
+
 			set_character_flag = achievement_res_publica
-			
+
 			if = {
 				limit = { ai = no }
 				chronicle = {
@@ -3262,9 +3209,9 @@ decisions = {
 					picture = GFX_evt_busy_trading_dock_republic
 				}
 			}
-			
+
 			set_government_type = merchant_republic_government
-			
+
 			hidden_tooltip = {
 				any_demesne_title = {
 					if = {
@@ -3340,7 +3287,7 @@ decisions = {
 					NOT = { culture_group = ROOT }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0.01
 				liege = {
@@ -3419,7 +3366,7 @@ decisions = {
 				liege = {
 					is_feudal = yes
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 5
@@ -3445,7 +3392,7 @@ decisions = {
 						}
 					}
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 10
@@ -3472,7 +3419,7 @@ decisions = {
 						}
 					}
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 20
@@ -3522,7 +3469,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	convert_to_city_vassal = {
 		is_high_prio = yes
 		potential = {
@@ -3585,9 +3532,9 @@ decisions = {
 					}
 				}
 			}
-	
+
 			set_government_type = republic_government
-			
+
 			hidden_tooltip = {
 				any_demesne_title = {
 					if = {
@@ -3664,7 +3611,7 @@ decisions = {
 					NOT = { culture_group = ROOT }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0.01
 				liege = {
@@ -3743,7 +3690,7 @@ decisions = {
 				liege = {
 					is_feudal = yes
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 5
@@ -3769,7 +3716,7 @@ decisions = {
 						}
 					}
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 10
@@ -3796,7 +3743,7 @@ decisions = {
 						}
 					}
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 20
@@ -3846,7 +3793,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	convert_to_theocracy_vassal = {
 		is_high_prio = yes
 		potential = {
@@ -3909,9 +3856,9 @@ decisions = {
 					}
 				}
 			}
-	
+
 			set_government_type = theocracy_government
-			
+
 			hidden_tooltip = {
 				any_demesne_title = {
 					if = {
@@ -4045,7 +3992,7 @@ decisions = {
 				liege = {
 					is_feudal = yes
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 5
@@ -4071,7 +4018,7 @@ decisions = {
 						}
 					}
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 10
@@ -4098,7 +4045,7 @@ decisions = {
 						}
 					}
 					NOT = {
-						any_vassal = { 
+						any_vassal = {
 							is_feudal = yes
 							higher_tier_than = BARON
 							count = 20
@@ -4148,7 +4095,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	ai_destroy_custom_title = {
 		is_high_prio = yes
 		potential = {
@@ -4237,7 +4184,7 @@ decisions = {
 					}
 					TECH_TRADE_PRACTICES = 3
 				}
-			}		
+			}
 			war = no
 			has_regent = no
 			piety = 0

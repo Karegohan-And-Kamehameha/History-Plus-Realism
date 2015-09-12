@@ -20,12 +20,10 @@ culture = norse
 religion = norse_pagan
 
 # History
-1000.1.1 = {
-	b_goksholm = castle
+
+1022.1.7 = { 	b_goksholm = castle
 	b_orebro = city
 }
-1066.1.1 = {
-	culture = swedish
-	religion = catholic
-}
+1047.10.25 = { 	culture = swedish }  
+1060.8.2 = {religion = catholic}
 #1260.1.1 = { b_orebro = castle } # Örebro slott

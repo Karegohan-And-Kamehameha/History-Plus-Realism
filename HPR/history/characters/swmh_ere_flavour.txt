@@ -1,0 +1,215 @@
+###############################################################
+#  SWMH Levantine characters
+###############################################################
+#Dynasties: 1000103000 - 1000103005
+#Characters: 1000232900 - 1000232940
+##############################################################################################
+
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1000232900 = {
+	name="Boutros"
+	dynasty=1000103000
+	religion="monothelite"
+	culture="levantine_arabic"
+	833.1.1 = {
+		birth="833.1.1"
+	}
+	852.1.1 = {
+		culture="greek"
+	}
+	891.1.1 = {
+		death="891.1.1"
+	}
+}
+
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1000232901 = {
+	name="Biktor"
+	dynasty=12211
+	religion="monothelite"
+	culture="levantine_arabic"
+	829.1.1 = {
+		birth="829.1.1"
+	}
+	852.1.1 = {
+		culture="greek"
+	}
+	877.1.1 = {
+		death="877.1.1"
+	}
+}
+
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1000232902 = {
+	name="Gabri’el"
+	dynasty=100715
+	religion="monothelite"
+	culture="levantine_arabic"
+	828.1.1 = {
+		birth="828.1.1"
+	}
+	852.1.1 = {
+		culture="greek"
+	}
+	880.1.1 = {
+		death="880.1.1"
+	}
+}
+
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1000232903 = {
+	name="Androus"
+	dynasty=1000103001
+	religion="monothelite"
+	culture="levantine_arabic"
+	832.1.1 = {
+		birth="832.1.1"
+	}
+	852.1.1 = {
+		culture="greek"
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+#Placeholder leader of the Serbian settlers in Galatia
+1000232904 = {
+	name="Konstantin"
+	dynasty=1000103002
+	religion="orthodox"
+	culture="serbian"
+	832.1.1 = {
+		birth="832.1.1"
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Slavs in the Peloponnese
+1000232905 = {
+	name="Vuk"
+	dynasty=1000103003
+	religion="slavic_pagan"
+	culture="bulgarian"
+	832.1.1 = {
+		birth="832.1.1"
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Vlachs in Thessaly for 867
+1000232906 = {
+	name="Mihai"
+	dynasty=1000103004
+	religion="orthodox"
+	culture="romanian"
+	834.1.1 = {
+		birth="834.1.1"
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Vlachs in Thessaly for 1066
+1000232907 = {
+	name="Gheorghe"
+	dynasty=1000103004
+	religion="orthodox"
+	culture="romanian"
+	1038.1.1 = {
+		birth="1038.1.1"
+	}
+	1085.1.1 = {
+		death="1085.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Narentines
+1000232908 = {
+	name="Milorad"
+	dynasty=1000103005
+	religion="slavic_pagan"
+	culture="serbian"
+	829.1.1 = {
+		birth="829.1.1"
+	}
+	890.1.1 = {
+		death="890.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Albanians in 1066
+1000232909 = {
+	name="Besnik"
+	dynasty=20071
+	religion="orthodox"
+	culture="arberian"
+	1038.1.1 = {
+		birth="1038.1.1"
+	}
+	1085.1.1 = {
+		death="1085.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Albanians in 1085
+1000232910 = {
+	name="Blerim"
+	dynasty=20071
+	father=1000232909
+	religion="orthodox"
+	culture="arberian"
+	1064.1.1 = {
+		birth="1064.1.1"
+	}
+	1135.1.1 = {
+		death="1135.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Albanians in 1135
+1000232911 = {
+	name="Valon"
+	dynasty=20071
+	father=1000232910
+	religion="orthodox"
+	culture="arberian"
+	1091.1.1 = {
+		birth="1091.1.1"
+	}
+	1163.1.1 = {
+		death="1163.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Vlachs in Thessaly for 1066
+1000232912 = {
+	name="Vasile"
+	dynasty=1000100532
+	religion="orthodox"
+	culture="romanian"
+	1044.1.1 = {
+		birth="1044.1.1"
+	}
+	1099.1.1 = {
+		death="1099.1.1"
+	}
+}
+#Tuscan Adventurer in Byzantine service. Commanded Attaleia before 1204. Became an independent Magnate after the Fourth Crusade.
+1000232913 = {
+	name="Francesco"
+	dynasty=1000103006
+	religion="catholic"
+	culture="tuscan"
+	1149.1.1 = {
+		birth="1149.1.1"
+	}
+	1208.1.1 = {
+		death="1208.1.1"
+	}
+}

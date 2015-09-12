@@ -1,22 +1,19 @@
-# 689 - Ilam
+# 689 - Igharayn
 
 # County Title
-title = c_ilam
+title = c_igharayn
 
 # Settlements
-max_settlements = 6
-b_dehloran = castle
-b_ilam = city
-b_chahartaghi = temple
-b_mehran = city
-b_abdanan = castle
+max_settlements = 5
+b_nihavand = castle
+b_burujerd = city
+b_lishtar = temple
+b_khurramabad = city
 
-#b_hezardar = castle
-#b_ghalehghiran = castle
-#b_towhid = castle
+#b_burdj = castle
 
 #Misc
-culture = kurdish
+culture = persian
 religion = sunni
 
 # History

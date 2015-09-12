@@ -1,0 +1,35 @@
+# 1134 - Enna
+
+# County Title
+title = c_enna
+
+# Settlements
+max_settlements = 3
+
+
+b_troinia = castle
+b_castrojanni = city
+#b_gagghianu = castle
+#b_castellodilombardia = castle
+#b_piazza = city
+#b_tavaca = castle
+#b_regalbuto = city
+
+
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+
+940.1.1={ culture = maghreb_arabic }
+940.1.1={ religion = sunni }
+960.1.1={ culture = sicilian_arabic }
+
+1085.1.1={ culture = sicilian }
+1085.1.1={ religion = catholic }
+
+
+1187.1.1 = { b_gagghianu = castle }

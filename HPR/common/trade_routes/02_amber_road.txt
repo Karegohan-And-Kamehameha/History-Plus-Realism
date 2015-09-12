@@ -18,10 +18,10 @@ amber_road = {
 	}
 	path = {	# Zemigallian
 		374 373
-	}	
+	}
 	path = {	# Danzig-Vienna-Krakow-Venice
 		368 429 431 434 435 436 437 362 449 444 451 452 460 457 358 357 356
-	}		
+	}
 	path = {	# Danzig-Sacz-Upper Silesia
 		368 428 529 530 531 527 526 433 435
 	}
@@ -41,9 +41,9 @@ amber_road = {
 		410 569 576 567 555 547 552 548
 	}
 	path = {	# Kiev-Constantinople
-		547 544 543 949 948 496
+		547 544 543 1722 1721 496
 	}
 	path = {	# Prague-Vienna
 		527 440 441 449
-	}		
+	}
 }

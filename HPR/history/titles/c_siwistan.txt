@@ -13,6 +13,7 @@
 855.1.1={
 	holder = 175050
 }
+
 1060.1.1= {
 	holder = 188351
 	liege = k_sindh
@@ -22,7 +23,7 @@
 
 1182.1.1={
 	holder = 144142
-	liege=d_kabul
+	liege=d_zabolestan
 }
 1186.1.1={
 	liege=k_sindh

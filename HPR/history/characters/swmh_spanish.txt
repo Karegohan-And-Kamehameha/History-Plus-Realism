@@ -1,0 +1,59 @@
+###############################################################
+#  Spanish characters
+###############################################################
+#Spanish character Range: 1000235001 - 1000235150
+###########
+
+#d'Ansúrez
+1000235001={
+	name="Assur"
+	dynasty=405
+
+	religion=catholic
+	culture=leonese
+
+	856.1.1={
+		birth=yes
+	}
+	908.1.1={
+		death=yes
+	}
+}
+
+1000235002={
+	name="Friedenando"
+	dynasty=405
+
+	father=1000235001
+
+	religion=catholic
+	culture=leonese
+
+	877.1.1={
+		birth=yes
+	}
+	914.1.1={
+		add_spouse=200075
+	}
+	930.1.1={
+		death=yes
+	}
+}
+
+1000235003={
+	name="Assur"
+	dynasty=405
+
+	father=1000235002
+	mother=200075
+
+	religion=catholic
+	culture=leonese
+
+	915.1.1={
+		birth=yes
+	}
+	945.4.3={
+		death=yes
+	}
+}

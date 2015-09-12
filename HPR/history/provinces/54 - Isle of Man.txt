@@ -4,39 +4,31 @@
 title = c_isle_of_man
 
 # Settlements
-max_settlements = 3
-b_rushen = tribal
-
-#b_peel = temple
+max_settlements = 4
+b_rushen = castle
+b_peel = temple
 #b_douglas = city
-
 #b_maughold = castle
-#b_kirk_michael = castle
-#b_sulby = castle
-#b_inis_patraic = castle
-#b_laxey = castle
+
 
 # Misc
-terrain = hills
-culture = welsh
+culture = irish
 religion = catholic
+terrain = hills
 
 # History
-836.1.1 = {
-	culture = norse
-	religion = norse_pagan
-}
-1000.1.1 = {
-	religion = catholic
-	
-	b_rushen = castle
-	b_peel = temple
-	b_douglas = city
-
-	b_rushen = ca_wall_1
+867.1.1 = {
 	b_rushen = ca_shipyard_1
-	b_peel = tp_shipyard_1
-	b_douglas = ct_port_1
-} 
-1066.1.1 = { culture = norwegian } 
-1130.1.1 = { culture = scottish }
+}
+1047.10.25 = { culture = norsegaelic }
+1066.1.1 = { 
+	b_rushen = ca_keep_1
+	b_rushen = ca_training_grounds_1
+	b_rushen = ca_stable_1
+	b_rushen = ca_stable_2
+	b_rushen = ca_wall_1
+	b_rushen = ca_wall_2
+}
+
+
+

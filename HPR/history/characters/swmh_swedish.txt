@@ -1,0 +1,31 @@
+###############################################################
+#  SWMH Swedish Characters
+###############################################################
+#Range: 
+#Characters: 1000234000 - 1000234250
+#dynasties 1000103101 - 1000103150
+###############################################################
+1000234000 = {
+	name="Torkel" # Torgils Knutsson
+	# AKA: Torgils/Tyrgils
+	dynasty=1000053712 # av Aranäs
+	martial=7
+	diplomacy=5
+	intrigue=4
+	stewardship=4
+	religion="norse_pagan"
+	culture="swedish"
+	trait="zealous"
+	trait="ambitious"
+	trait="brave"
+	trait="skilled_tactician"
+	1255.1.1={
+		birth = yes
+	}
+	1292.1.1={
+		add_trait=crusader
+	}
+	1306.2.1={
+		death=yes # executed on behest of king Birger
+	}
+}

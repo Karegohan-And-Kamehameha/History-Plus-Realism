@@ -6,18 +6,18 @@ title = c_monreal
 # Settlements
 max_settlements = 4
 b_monreal = castle
-#b_hurmniz = city
-b_sela = temple
+b_petra = temple
+b_syrsegor = city
+#b_alwuayra = castle
+#b_wadi_musa = city
+#b_alhabis = castle
 
-#b_wadimusah = castle
-#b_bildad = castle
-#b_tafila = castle
-#b_paran = castle
-#b_idan = castle
+
+
 
 # Misc
 culture = levantine_arabic
 religion = sunni
 
 # History
-1187.1.1 = { b_hurmniz = city }
+1120.1.1 = { b_alwuayra = castle }

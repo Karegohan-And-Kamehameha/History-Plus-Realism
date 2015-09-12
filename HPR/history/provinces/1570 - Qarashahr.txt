@@ -1,0 +1,19 @@
+# 1570 - Qarashahr
+
+# County Title
+title = c_qarashahr
+
+# Settlements
+max_settlements = 5
+b_qocho = castle
+b_qarashahr = city
+b_korla = castle 
+b_ushak-tal = temple
+
+#b_charchi = castle
+
+# Misc
+culture = uighur
+religion = buddhist
+
+# History

@@ -5,9 +5,6 @@
 745.1.1={
 	holder=74011
 }
-761.1.1={
-	holder=146204
-}
 777.1.1={
 	holder=74013
 }
@@ -26,41 +23,70 @@
 861.1.1={
 	holder=74017
 }
-1066.1.1=
-{
-	liege="d_crimea"
+#Qabuqsin-Yula
+893.1.1={
+        liege=d_qabuqsin_yula
+	holder=1000231740 # Qorqutay
 }
-1066.1.1=
-{
-	holder=34854
+914.1.1={
+	holder=1000231742
 }
-1091.1.1=
-{
-	holder=34845
+940.1.1={
+	holder=1000231744
 }
-1120.1.1=
-{
-	holder=34846
+942.1.1={
+	holder=1000231745
 }
-1150.1.1=
-{
-	holder=34847
+956.1.1={
+	holder=1000231747 #Kurya/Küre
 }
-1170.1.1=
-{
-	holder=228033
+1000.1.1={
+	holder=1000231749
 }
-1200.1.1=
-{
-	holder=34848
+1035.1.1={
+	holder=1000231751 # Kegen
 }
-1220.1.1=
-{
-	holder=34849
+#Kegen migrates.
+#Bula-Chopan
+1044.1.1 = {
+	holder=1000231852
 }
-
+#Tiraq migrates, Oghuz takes over.
+1046.1.1 = {
+	liege=k_uzes
+	holder=1000231873
+}
+#Cumans arrive.
+#Çortan
+1060.1.1={
+	liege=d_chortan
+	holder=1000233198
+}
+1093.1.1={
+	holder=1000233200 # Girgen/Aepa
+}
+1140.1.1={
+	holder=1000233202
+}
+1163.1.1={
+	holder=1000233204
+}
+1179.1.1={
+	holder=1000233206
+}
+1210.1.1={
+	holder=1000233208
+}
+# Çortan migrate to Hungary after defeat
+#Urusoba
 1238.1.1=
 {
+	liege=d_urusoba
+	holder=1000233137
+}
+# Mongols put down revolt
+1239.1.1={
+	liege="d_crimea"
 	holder=34850
 }
 1246.1.1=

@@ -1,0 +1,146 @@
+440.1.1={
+  de_jure_liege="k_mavarannahr"
+}
+440.1.1={
+	liege="k_khwarezmia"
+}
+440.1.1={
+	holder=1000231200
+}
+465.1.1={
+	holder=1000231201
+}
+499.1.1={
+	holder=1000231202
+}
+516.1.1={
+	holder=1000231203
+}
+531.1.1={
+	holder=1000231204
+}
+540.1.1={
+	holder=1000231205
+}
+570.1.1={
+	holder=1000231206
+}
+596.1.1={
+	holder=1000231207
+}
+611.1.1={
+	holder=1000231208
+}
+644.1.1={
+	holder=1000231209
+}
+680.1.1={
+	holder=1000231210
+}
+710.1.1={
+	holder=1000231211
+}
+728.1.1={
+	holder=1000231212
+}
+743.1.1={
+	holder=1000231213
+}
+779.1.1={
+	holder=1000231214
+}
+803.1.1={
+	holder=1000231215
+}
+838.1.1={
+	holder=1000231216
+}
+880.1.1={
+	holder=1000231217
+}
+917.1.1={
+	holder=1000231218
+}
+945.1.1={
+	holder=1000231219
+}
+970.1.1={
+	holder=1000231220
+}
+995.1.1={
+	holder=1000231221
+}
+997.1.1={
+	holder=1000231224
+}
+1008.1.1={
+	holder=1000231228
+}
+1017.3.3={
+	holder=1000231225
+}
+1017.7.7={
+	liege="k_khorasan"  # Ghaznavids
+	holder=1000230133 # Altuntash
+}
+1032.1.1={
+	holder=1000230135
+}
+1035.1.1={
+	holder=1000230136
+}
+1041.1.1={
+	holder=1000230137
+}
+
+1066.1.1={
+	holder=93121
+}
+1077.1.1={
+	holder=20713
+}
+1085.1.1={
+	holder=1000230503
+}
+1093.1.1={
+	holder=20713
+}
+1097.1.1={
+	liege="k_khwarezmia"
+	holder=1000230140
+}
+1097.3.3={
+	holder=144099
+}
+1127.1.1={
+	holder=144100
+}
+1156.1.1={
+	holder=144101
+}
+1172.1.1={
+	holder=93050  # Mahmud Sultan
+}
+1172.12.12={
+	holder=230000 # Tekish  after his brother Sultan forced to flee
+}
+1181.1.1={
+	liege=0
+	holder=93050  # Mahmud Sultan holds  land in Khorasan asindependent
+}
+1193.1.1={
+	holder=230000 # Tekish again after death of Sultan
+}
+1200.1.1={
+	holder=93052
+}
+
+# 1220 Mongol conquest
+
+1220.1.1={
+	holder=93053
+  de_jure_liege="k_turkestan_west" # dejure switch
+}
+1231.1.1={
+	holder=0
+}

@@ -1,0 +1,96 @@
+828.1.1={
+	liege="k_khorasan"
+	holder=163158
+}
+845.1.1={
+	holder=163159
+}
+862.1.1={
+	holder=163160
+}
+
+1066.1.1={
+	liege=0
+	historical_nomad = yes
+	set_tribute_suzerain = { who = e_persia percentage = 0.40 }
+	#liege=e_persia
+	holder=144065 #Artuq
+}
+#########
+#Placeholders. Artuq gets control of the Palestine duchies in 1076.
+1076.1.1={
+	holder=1000229929
+}
+1097.1.1={
+	clear_tribute_suzerain = e_persia
+	liege="d_jebal"
+	historical_nomad = no
+	holder = 144013
+}
+1105.3.1=
+{
+	holder = 144014
+}
+1118.4.18=
+{
+	holder = 144015
+}
+1157.5.8=
+{
+	holder = 144054
+} 
+1159.1.1=
+{
+	holder = 144055
+}
+1175.12.31=
+{
+	holder = 144056
+}
+1194.3.1=
+{
+	
+	holder=230000
+}
+1200.1.1=
+{
+	holder=93052
+}
+1221.1.1=
+{
+
+	holder=93253
+}
+1241.1.1=
+{
+	holder=93254
+}
+1248.1.1=
+{
+	holder=93255
+}
+1252.1.1=
+{
+	holder=93254
+}
+1256.1.1=
+{
+	holder=125521
+}
+1270.2.1=
+{
+	holder=125522
+}
+
+1295.1.1=
+{
+	holder=125529
+}
+1315.1.1=
+{
+	holder=478012
+}
+1335.1.1=
+{
+	holder=478015
+}

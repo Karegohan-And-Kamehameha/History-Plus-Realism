@@ -1,0 +1,47 @@
+###############################################################
+#  SWMH Georgian characters
+###############################################################
+# SWMH Character Range: 1.000.232.600 - 1.000.232.629
+##############################################################################################
+
+#The Strategos of the theme of Iberias until it fell to the Seljuqs in 1071. Received extensive properties in the West after Alexios Komnenos gained the throne
+1000232600 = {
+	name="Grigor"
+	dynasty=101436
+	religion="orthodox"
+	culture="georgian"
+	father = 1000232602
+	1031.1.1 = {
+		birth="1031.1.1"
+	}
+	1086.1.1 = {
+		death="1086.1.1"
+	}
+}
+#Gregory Pakourianos' brother
+1000232601 = {
+	name="Abas"
+	dynasty=101436
+	religion="orthodox"
+	culture="georgian"
+	father = 1000232602
+	1032.1.1 = {
+		birth="1032.1.1"
+	}
+	1071.1.1 = {
+		death="1071.1.1"
+	}
+}
+#Gregory Pakourianos' father
+1000232602 = {
+	name="Grigor"
+	dynasty=101436
+	religion="orthodox"
+	culture="georgian"
+	993.1.1 = {
+		birth="993.1.1"
+	}
+	1049.1.1 = {
+		death="1049.1.1"
+	}
+}

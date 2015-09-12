@@ -8,13 +8,10 @@ max_settlements = 4
 
 b_ephesos = castle
 b_miletos = city
-b_lebedos = temple # Orthodox Holy Site
+b_lebedos = temple
 
-#b_magnesia = castle
-#b_tralles = castle
-#b_iassos = city
-#b_palation = castle
-#b_petron = castle
+#b_tralleis = city
+#b_melanoudion = castle
 
 # Misc
 culture = greek

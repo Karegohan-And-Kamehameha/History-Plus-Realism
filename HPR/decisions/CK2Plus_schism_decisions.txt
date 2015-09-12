@@ -142,7 +142,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	enforce_ephesus = {
 		is_high_prio = yes
 		potential = {
@@ -246,7 +246,7 @@ decisions = {
 					}
 				}
 			}
-			b_roudehen = {
+			b_damavand = {
 				custom_tooltip = { text = CONTROL_RELIGION_NO_WAR }
 				hidden_tooltip = {
 					has_holder = yes
@@ -255,7 +255,7 @@ decisions = {
 						war = no
 					}
 				}
-			}			
+			}
 		}
 		effect = {
 			narrative_event = { id = Plus.2234 tooltip = NESTORIAN_SCHISM_ENDED }
@@ -271,7 +271,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	enforce_chalcedon = {
 		is_high_prio = yes
 		potential = {
@@ -386,7 +386,7 @@ decisions = {
 						war = no
 					}
 				}
-			}			
+			}
 		}
 		effect = {
 			narrative_event = { id = Plus.2238 tooltip = MIAPHYSITE_SCHISM_ENDED }
@@ -403,7 +403,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	nestorian_repudiate_ephesus = {
 		is_high_prio = yes
 		potential = {
@@ -511,7 +511,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	miaphysite_repudiate_chalcedon = {
 		is_high_prio = yes
 		potential = {
@@ -624,7 +624,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	unite_christianity = {
 		is_high_prio = yes
 		potential = {

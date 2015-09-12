@@ -1,40 +1,68 @@
-768.1.1={
-	holder=188789
+825.1.1={
+	liege="k_pechenegs"
 }
-850.1.1={
-	liege="k_cuman"
-	holder=180262
+825.1.1={
+	holder=1000231704
 }
-1066.1.1={
-	liege="d_sibir"
-	holder=161730
+830.1.1={
+	holder=1000231706
 }
-1110.1.1=
+#Küerchi-Chur
+864.1.1={
+        liege="d_kuerchi_chur"
+	holder=1000231725 # Kügel, cheif of Küerchi-Chur at the time of expulsion from Yaik.
+}
+#Pechengs expulsed by Oghuz and Khazars.
+#Uzlar
+893.1.1={
+	holder=1000231862 # father of Etrek
+	liege="k_uzes"
+}
+910.1.1={
+	holder=1000231864 # Etrek
+}
+921.1.1=
 {
-holder=161731
+liege=d_salgur
+holder=	1000230125
 }
-1140.1.1=
-{
-holder=161732
+940.1.1={
+	holder=1000231987
 }
-1170.1.1=
-{
-holder=161733
+960.1.1={
+	holder=1000231989
 }
-1200.1.1=
-{
-holder=161734
+1026.1.1={
+	holder=1000231991
 }
-1220.1.1=
-{
-holder=161735
+#Cumans arrive
+#Dörüt
+1030.1.1={
+	liege=d_dorut
+	holder=1000233032
 }
-
-
-1227.1.1=
-{
+1060.1.1={
+	holder=1000233034
+}
+1098.1.1={
+	holder=1000233036
+}
+1130.1.1={
+	holder=1000233038
+}
+1163.1.1={
+	holder=1000233040
+}
+1199.1.1={
+	holder=1000233042
+}
+1215.1.1={
+	holder=1000233044
+}
+# Mongols put down revolt
+1239.1.1={
+liege="d_itil"
 holder=34912
-liege=e_golden_horde
 }
 1251.1.1=
 {

@@ -1,0 +1,22 @@
+# 1550 - Kábul
+
+# County Title
+title = c_kabul
+
+# Settlements
+max_settlements = 6
+b_kabul = castle
+b_pervan = temple
+b_panjhir = city
+b_chitral = castle
+#b_mundjan = city
+#b_jarbaya = castle
+
+
+# Misc
+culture = khalaj
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = pashtun }

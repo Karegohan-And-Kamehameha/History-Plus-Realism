@@ -1,4 +1,3 @@
-# Bedouin
 45108 = { 
 	name="Hasan" # ibn Zayd (great-great-grandson of Hasan ibn Zayd, governor of Medina)
 	dynasty=7512 # Alavids of Tabaristan
@@ -8,10 +7,10 @@
 	trait="tough_soldier"
 	father=163128
 	830.1.1={
-		birth=yes
+		birth="830.1.1"
 	}
 	884.1.6={
-		death=yes
+		death="884.1.6"
 	}
 }
 
@@ -54,6 +53,9 @@
 	trait="sayyid"
 	1095.1.1={
 		birth="1095.1.1"
+	}
+	1136.1.1={
+		add_spouse=1000229954
 	}
 	1160.1.1={
 		death="1160.1.1"
@@ -162,7 +164,7 @@
 144145 = {
 	name="Muhammed"
 	dynasty=100690
-	religion="ibadi"
+	religion="shiite"
 	culture="bedouin_arabic"
 	1090.1.1={
 		birth="1090.1.1"
@@ -302,7 +304,7 @@
 144560 = {
 	name="Hafs"
 	dynasty=100690
-	religion="ibadi"
+	religion="shiite"
 	culture="bedouin_arabic"
 	father = 144145
 	1140.1.1={
@@ -316,7 +318,7 @@
 144561 = {
 	name="Muhammed"
 	dynasty=100690
-	religion="ibadi"
+	religion="shiite"
 	culture="bedouin_arabic"
 	father = 144560
 	1190.1.1={
@@ -330,7 +332,7 @@
 144562 = {
 	name="Hilal"
 	dynasty=100690
-	religion="ibadi"
+	religion="shiite"
 	culture="bedouin_arabic"
 	father = 144561
 	1220.1.1={
@@ -344,7 +346,7 @@
 144563 = {
 	name="Khahtan"
 	dynasty=100690
-	religion="ibadi"
+	religion="shiite"
 	culture="bedouin_arabic"
 	father = 144562
 	1250.1.1={
@@ -358,7 +360,7 @@
 144564 = {
 	name="Muhammad"
 	dynasty=100690
-	religion="ibadi"
+	religion="shiite"
 	culture="bedouin_arabic"
 	father = 144563
 	1280.1.1={
@@ -821,34 +823,32 @@
 	1075.1.1={
 		birth="1075.1.1"
 	}
+	1108.1.1={
+		add_spouse=1000229960
+	}
 	1118.1.1={
 		death="1118.1.1"
 	}
 }
 
-3200={
-	name="Abd-al-Rahman" #Abdul-Rahman
+3200 = {
+	name="Abdul-Rahman"
 	dynasty=597
-
-	father=73686
-	
 	martial=6
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	
-	religion=sunni
-	culture=bedouin_arabic
-
-	trait=patient
-	trait=sayyid
-	trait=scholarly_theologian
-
+	religion="sunni"
+	culture="bedouin_arabic"
+	trait="patient"
+	trait="sayyid"
+	trait="scholarly_theologian"
+	father=73686
 	891.1.7={
-		birth=yes
+		birth="891.1.7"
 	}
 	961.10.15={
-		death=yes
+		death="961.10.15"
 	}
 }
 
@@ -885,14 +885,10 @@
 	trait="chaste"
 	trait="wroth"
 	trait="sayyid"
-	trait="weak"
 	trait="thrifty_clerk"
 	father=3202
 	965.6.11={
 		birth="965.6.11"
-	} 
-	969.6.11={
-		#decadence=55
 	}
 	1013.4.19={
 		death="1013.4.19"
@@ -1005,14 +1001,14 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="sunni"
+	religion="shiite"
 	culture="bedouin_arabic"
 	trait="patient"
 	trait="cynical"
 	trait="scholarly_theologian"
 	father=159392
-	978.1.1={
-		birth="978.1.1"
+	982.1.1={
+		birth = yes
 	}
 	1050.1.1={
 		death="1050.1.1"
@@ -1020,20 +1016,20 @@
 }
 
 3818 = {
-	name="Za'im ad-Dawlah"
-	# AKA: Za'im ad
+	name="Baraka"
+	# AKA: Za'im ad-Dawlah
 	dynasty=101862
 	martial=4
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="sunni"
+	religion="shiite"
 	culture="bedouin_arabic"
 	trait="wroth"
 	trait="flamboyant_schemer"
-	father=3816
-	1002.1.1={
-		birth="1002.1.1"
+	father=159392
+	990.1.1={
+		birth = yes
 	}
 	1052.1.1={
 		death="1052.1.1"
@@ -1041,20 +1037,20 @@
 }
 
 3820 = {
-	name="Alam ad-Din"
-	# AKA: Alam ad
+	name="Quraysh"
+	# AKA: Alam ad-Din
 	dynasty=101862
 	martial=4
 	diplomacy=4
 	intrigue=4
 	stewardship=4
-	religion="sunni"
+	religion="shiite"
 	culture="bedouin_arabic"
 	trait="arbitrary"
 	trait="tough_soldier"
-	father=3816
-	1014.1.1={
-		birth="1014.1.1"
+	father=3818
+	1011.1.1={
+		birth = yes
 	}
 	1061.1.1={
 		death="1061.1.1"
@@ -1164,7 +1160,6 @@
 	name="Abu"
 	# AKA: Abu al
 	dynasty=594
-	father=73209 #tree appearance
 	martial=8
 	diplomacy=6
 	intrigue=5
@@ -1246,8 +1241,8 @@
 	culture="bedouin_arabic"
 	father=45037
 	trait="content"
-	1055.1.1={
-		birth="1055.1.1"
+	1050.1.1={
+		birth = yes
 	}
 	1110.1.1={
 		death="1110.1.1"
@@ -1264,13 +1259,12 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="humble"
-	trait="bastard" #succession
-	father=45040
-	1032.3.7={
-		birth="1032.3.7"
+	father=45036
+	1060.1.1={
+		birth="1060.1.1"
 	}
-	1086.1.1={
-		death="1086.1.1"
+	1110.1.1={
+		death="1110.1.1"
 	}
 }
 
@@ -1302,11 +1296,10 @@
 	stewardship=4
 	religion="shiite"
 	culture="bedouin_arabic"
-	trait="deceitful"
 	trait="ambitious"
 	father=45038
-	1075.1.1={
-		birth="1075.1.1"
+	1070.1.1={
+		birth = yes
 	}
 	1120.1.1={
 		death="1120.1.1"
@@ -1343,8 +1336,8 @@
 	culture="bedouin_arabic"
 	trait="ambitious"
 	father=45041
-	1091.1.1={
-		birth="1091.1.1"
+	1087.1.1={
+		birth = yes
 	}
 	1139.1.1={
 		death="1139.1.1"
@@ -1434,10 +1427,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=159422
 	1000.1.1={
 		birth="1000.1.1"
-		add_claim = d_shiite
 	}
 	1050.1.1={
 		death="1050.1.1"
@@ -1454,10 +1447,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=45048
 	1040.1.1={
 		birth="1040.1.1"
-		add_claim = d_shiite
 	}
 	1068.1.1={
 		death="1068.1.1"
@@ -1474,10 +1467,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=45048
 	1045.1.1={
 		birth="1045.1.1"
-		add_claim = d_shiite
 	}
 	1099.1.1={
 		death="1099.1.1"
@@ -1493,7 +1486,6 @@
 	stewardship=4
 	religion="shiite"
 	culture="bedouin_arabic"
-	father=191120 #MyMod
 	1070.1.1={
 		birth="1070.1.1"
 	}
@@ -1548,7 +1540,6 @@
 	stewardship=4
 	religion="shiite"
 	culture="bedouin_arabic"
-	father=191121 #MyMod
 	1095.1.1={
 		birth="1095.1.1"
 	}
@@ -1568,10 +1559,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=45050
 	1080.1.1={
 		birth="1080.1.1"
-		add_claim = d_shiite
 	}
 	1137.1.1={
 		death="1137.1.1"
@@ -1588,10 +1579,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=45050
 	1075.1.1={
 		birth="1075.1.1"
-		add_claim = d_shiite
 	}
 	1115.1.1={
 		death="1115.1.1"
@@ -1608,10 +1599,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=45050
 	1076.1.1={
 		birth="1076.1.1"
-		add_claim = d_shiite
 	}
 	1115.1.1={
 		death="1115.1.1"
@@ -1619,7 +1610,7 @@
 }
 
 45058 = {
-	name="Aki"
+	name="Ali"
 	# AKA: Ai
 	dynasty=576
 	martial=6
@@ -1629,10 +1620,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=45056
 	1100.1.1={
 		birth="1100.1.1"
-		add_claim = d_shiite
 	}
 	1138.1.1={
 		death="1138.1.1"
@@ -1649,10 +1640,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=45057
 	1110.1.1={
 		birth="1110.1.1"
-		add_claim = d_shiite
 	}
 	1171.1.1={
 		death="1171.1.1"
@@ -1708,116 +1699,6 @@
 	}
 }
 
-32892 = {
-	name="Umar" 
-	dynasty=7273
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=32891
-	1240.1.1={
-		birth="1240.1.1"
-	}
-	1304.1.1={
-		death="1304.1.1"
-	}
-}
-
-32943 = {
-	name="Ali" 
-	dynasty=7273
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=32892
-	1270.1.1={
-		birth="1270.1.1"
-	}
-	1321.1.1={
-		death="1321.1.1"
-	}
-}
-
-32944 = {
-	name="Haqq ad-Din" 
-	dynasty=7273
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=32943
-	1295.1.1={
-		birth="1295.1.1"
-	}
-	1328.1.1={
-		death="1328.1.1"
-	}
-}
-
-32947 = {
-	name="Ali" 
-	dynasty=7273
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=32944
-	1317.1.1={
-		birth="1317.1.1"
-	}
-	1344.1.1={
-		death="1344.1.1"
-	}
-}
-
-32891 = {
-	name="Dunya-huz" 
-	dynasty=7273
-	religion="sunni"
-	culture="bedouin_arabic"
-	1200.1.1={
-		birth="1200.1.1"
-	}
-	1260.1.1={
-		death="1260.1.1"
-	}
-}
-
-32945 = {
-	name="Sabr ad-Din" 
-	dynasty=7273
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=32943
-	1297.1.1={
-		birth="1297.1.1"
-	}
-	1332.1.1={
-		death="1332.1.1"
-	}
-}
-
-32946 = {
-	name="Jamal ad-Din" 
-	dynasty=7273
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=32943
-	1299.1.1={
-		birth="1299.1.1"
-	}
-	1337.1.1={
-		death="1337.1.1"
-	}
-}
-
-32948 = {
-	name="Ahmad ad-Din" 
-	dynasty=7273
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=32946
-	1325.1.1={
-		birth="1325.1.1"
-	}
-	1375.1.1={
-		death="1375.1.1"
-	}
-}
 
 20888 = {
 	name="Ayyub"
@@ -2241,13 +2122,10 @@
 	father=34000
 	trait="sayyid"
 	714.1.1={
-		birth=yes
-	}
-	732.1.1={
-		add_spouse=188746
+		birth="714.1.1"
 	}
 	775.1.1={
-		death=yes
+		death="775.1.1"
 	}
 }
 
@@ -2257,13 +2135,12 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	father=34002
-	mother=188746
 	trait="sayyid"
 	735.1.1={
-		birth=yes
+		birth="735.1.1"
 	}
 	785.1.1={
-		death=yes
+		death="785.1.1"
 	}
 }
 
@@ -2337,11 +2214,6 @@
 	794.1.1={
 		birth="794.1.1"
 	}
-	836.1.1 = {
-		effect = {
-			c_euphrates = { ROOT = { capital = PREV } }
-		}
-	}
 	842.1.5={
 		death="842.1.5"
 	}
@@ -2357,11 +2229,6 @@
 	817.1.1={
 		birth="817.1.1"
 	}
-	842.1.5 = {
-		effect = {
-			c_euphrates = { ROOT = { capital = PREV } }
-		}
-	}
 	847.1.1={
 		death="847.1.1"
 	}
@@ -2376,11 +2243,6 @@
 	trait="sayyid"
 	821.3.1={
 		birth="821.3.1"
-	}
-	847.1.1 = {
-		effect = {
-			c_euphrates = { ROOT = { capital = PREV } }
-		}
 	}
 	861.12.1={
 		death = {
@@ -2415,12 +2277,6 @@
 	840.1.1={
 		birth="840.1.1"
 	}
-	861.12.1 = {
-		trait="court_anarchy"
-		effect = {
-			c_euphrates = { ROOT = { capital = PREV } }
-		}
-	}
 	862.6.7={
 		death = {
 			death_reason = death_murder_unknown
@@ -2437,13 +2293,7 @@
 	father=34011
 	trait="sayyid"
 	840.1.1={
-		birth=yes
-	}
-	862.6.7 = {
-		trait="court_anarchy"
-		effect = {
-			c_euphrates = { ROOT = { capital = PREV } }
-		}
+		birth = yes
 	}
 	866.1.1={
 		death = {
@@ -2466,20 +2316,15 @@
 	trait="envious"
 	trait="lustful"
 	trait="indulgent_wastrel"
-	disallow_random_traits = yes
+	
 	847.1.1={
-		birth=yes
+		birth = yes
 	}
 	866.1.1={
-		trait="court_anarchy"
-		effect = {
-			set_character_flag = lifetime_appointments
-			c_euphrates = { ROOT = { capital = PREV } }
-		}
 		add_claim = k_egypt # Tulunids
-		add_claim = k_baluchistan # Saffarids
-		add_claim = d_hamadan # Dulafids
-		add_claim = d_khorasan # Tahirids
+		add_claim = d_jebal # Dulafids
+		add_claim = k_khorasan # Tahirids
+		add_claim = k_sistan # Saffarids
 		add_claim = d_medina # Hashimids
 		add_claim = d_aleppo # Bursaqids
 		add_claim = d_tripoli # Sulaymanids
@@ -2487,7 +2332,7 @@
 		add_claim = d_azerbaijan # Yazidids
 	}
 	869.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -2499,13 +2344,10 @@
 	father=34009
 	trait="sayyid"
 	833.1.1={
-		birth=yes
-	}
-	869.1.1={
-		trait="court_anarchy"
+		birth = yes
 	}
 	870.6.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -2522,10 +2364,10 @@
 	trait="zealous"
 	trait="grey_eminence"
 	844.1.1={
-		birth=yes
+		birth = yes
 	}
 	892.10.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -3360,313 +3202,6 @@
 	}
 }
 
-34360 = {
-	name="Da'ud"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34378
-	1000.1.1={
-		birth="1000.1.1"
-	}
-	1032.1.1={
-		death="1032.1.1"
-	}
-}
-
-34361 = {
-	name="Ali"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34360
-	1030.1.1={
-		birth="1030.1.1"
-	}
-	1090.1.1={
-		death="1090.1.1"
-	}
-}
-
-34362 = {
-	name="Da'ud"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34360
-	1031.1.1={
-		birth="1031.1.1"
-	}
-	1081.1.1={
-		death="1081.1.1"
-	}
-}
-
-34363 = {
-	name="Ali"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34362
-	1070.1.1={
-		birth="1070.1.1"
-	}
-	1106.1.1={
-		death="1106.1.1"
-	}
-}
-
-34364 = {
-	name="Hasan"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34362
-	1075.1.1={
-		birth="1075.1.1"
-	}
-	1115.1.1={
-		death="1115.1.1"
-	}
-}
-
-34365 = {
-	name="Sulayman"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34362
-	1080.1.1={
-		birth="1080.1.1"
-	}
-	1117.1.1={
-		death="1117.1.1"
-	}
-}
-
-34366 = {
-	name="Da'ud"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34365
-	1100.1.1={
-		birth="1100.1.1"
-	}
-	1158.1.1={
-		death="1158.1.1"
-	}
-}
-
-34367 = {
-	name="Sulayman"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34364
-	1110.1.1={
-		birth="1110.1.1"
-	}
-	1177.1.1={
-		death="1177.1.1"
-	}
-}
-
-34368 = {
-	name="Da'ud"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34367
-	1130.1.1={
-		birth="1130.1.1"
-	}
-	1180.1.1={
-		death="1180.1.1"
-	}
-}
-
-34369 = {
-	name="Talut"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34367
-	1132.1.1={
-		birth="1132.1.1"
-	}
-	1181.1.1={
-		death="1181.1.1"
-	}
-}
-
-34370 = {
-	name="Hasan"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34367
-	1138.1.1={
-		birth="1138.1.1"
-	}
-	1200.1.1={
-		death="1200.1.1"
-	}
-}
-
-34371 = {
-	name="Khalid"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34367
-	1140.1.1={
-		birth="1140.1.1"
-	}
-	1206.1.1={
-		death="1206.1.1"
-	}
-}
-
-34372 = {
-	name="Ali"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34367
-	1160.1.1={
-		birth="1160.1.1"
-	}
-	1217.1.1={
-		death="1217.1.1"
-	}
-}
-
-34373 = {
-	name="Sulayman"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34372
-	1200.1.1={
-		birth="1200.1.1"
-	}
-	1259.1.1={
-		death="1259.1.1"
-	}
-}
-
-34374 = {
-	name="Da'ud"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34372
-	1205.1.1={
-		birth="1205.1.1"
-	}
-	1255.1.1={
-		death="1255.1.1"
-	}
-}
-
-34375 = {
-	name="Ali"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34374
-	1225.1.1={
-		birth="1225.1.1"
-	}
-	1274.1.1={
-		death="1274.1.1"
-	}
-}
-
-34376 = {
-	name="Hussayn"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=167713
-	920.1.1={
-		birth="920.1.1"
-	}
-	980.1.1={
-		death="980.1.1"
-	}
-}
-
-34377 = {
-	name="Ali"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34376
-	950.1.1={
-		birth="950.1.1"
-	}
-	1022.1.1={
-		death="1022.1.1"
-	}
-}
-
-34378 = {
-	name="Ali"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34377
-	970.1.1={
-		birth="970.1.1"
-	}
-	1027.1.1={
-		death="1027.1.1"
-	}
-}
-
-34379 = {
-	name="Khalid"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34378
-	1002.1.1={
-		birth="1002.1.1"
-	}
-	1035.1.1={
-		death="1035.1.1"
-	}
-}
-
-34380 = {
-	name="Sulayman"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34378
-	998.1.1={
-		birth="998.1.1"
-	}
-	1026.1.1={
-		death="1026.1.1"
-	}
-}
-
-34381 = {
-	name="Hasan"
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=34380
-	1015.1.1={
-		birth="1015.1.1"
-	}
-	1064.1.1={
-		death="1064.1.1"
-	}
-}
 
 155028 = {
 	name="Yahya"
@@ -4602,26 +4137,12 @@
 	}
 }
 
-1551370 = { #this guy for tree appearance of the Hilalids
-	name="Makil"
-	dynasty=101731
-	father=155150
-	religion="sunni"
-	culture="bedouin_arabic"
-	886.1.1={ #not quadruplets...
-		birth="886.1.1"
-	}
-	935.1.1={
-		death="935.1.1"
-	}
-}
-
 155137 = {
 	name="Walmiya"
 	dynasty=101731
 	religion="shiite"
 	culture="bedouin_arabic"
-	father=159380
+	father=159382
 	980.1.1={
 		birth="980.1.1"
 	}
@@ -4775,7 +4296,7 @@
 	dynasty=101731
 	religion="sunni"
 	culture="bedouin_arabic"
-	father=146025
+	father=159376
 	780.1.1={
 		birth="780.1.1"
 	}
@@ -5834,21 +5355,17 @@
 }
 
 73667={
-	name="Abd-al-Rahman" #Abdul-Rahman
-	dynasty=597
-
+	name="Abdul-Rahman"
+	dynasty = 597
+	religion="sunni"
+	culture="bedouin_arabic"
 	father=73666
-
-	religion=sunni
-	culture=bedouin_arabic
-
 	trait=sayyid
-
-	936.1.1={
-		birth=yes
+	946.1.1={
+		birth = yes
 	}
 	1003.1.1={
-		death=yes
+		death="1003.1.1"
 	}
 }
 
@@ -5868,21 +5385,17 @@
 }
 
 73669={
-	name="Abd-al-Yabbar" #Abdul-Yabbar
-	dynasty=597
-
+	name="Abdul-Yabbar"
+	dynasty = 597
+	religion="sunni"
+	culture="bedouin_arabic"
 	father=3200
-
-	religion=sunni
-	culture=bedouin_arabic
-
 	trait=sayyid
-
 	940.1.1={
-		birth=yes
+		birth="940.1.1"
 	}
 	1004.1.1={
-		death=yes
+		death="1004.1.1"
 	}
 }
 
@@ -5917,21 +5430,17 @@
 }
 
 73672={
-	name="Abd-al-Rahman" #Abdul-Rahman
-	dynasty=597
-
+	name="Abdul-Rahman"
+	dynasty = 597
+	religion="sunni"
+	culture="bedouin_arabic"
 	father=73670
-
-	religion=sunni
-	culture=bedouin_arabic
-
 	trait=sayyid
-
 	989.1.1={
-		birth=yes
+		birth="989.1.1"
 	}
 	1024.1.17={
-		death=yes
+		death="1024.1.17"
 	}
 }
 
@@ -5981,21 +5490,17 @@
 }
 
 73676={
-	name="Abd-al-Malik" #Abdul-Malik
-	dynasty=597
-
+	name="Abdul-Malik"
+	dynasty = 597
+	religion="sunni"
+	culture="bedouin_arabic"
 	father=3200
-
-	religion=sunni
-	culture=bedouin_arabic
-
 	trait=sayyid
-
 	947.1.1={
-		birth=yes
+		birth="947.1.1"
 	}
 	996.1.1={
-		death=yes
+		death="996.1.1"
 	}
 }
 
@@ -6006,7 +5511,6 @@
 	culture="bedouin_arabic"
 	father=73676
 	trait=sayyid
- 	trait=deceitful
 	963.1.1={
 		birth="963.1.1"
 	}
@@ -6016,40 +5520,32 @@
 }
 
 73678={
-	name="Abd-al-Rahman" #Abdul-Rahman
-	dynasty=597
-
+	name="Abdul-Rahman"
+	dynasty = 597
+	religion="sunni"
+	culture="bedouin_arabic"
 	father=73677
-
-	religion=sunni
-	culture=bedouin_arabic
-
 	trait=sayyid
-  	trait=ambitious
 	979.1.1={
-		birth=yes
+		birth="979.1.1"
 	}
 	1018.6.1={
-		death=yes
+		death="1018.6.1"
 	}
 }
 
 73679={
-	name="Abd-al-Rahman" #Abdul-Rahman
-	dynasty=597
-
-	father=163000
-
-	religion=sunni
-	culture=bedouin_arabic
-
+	name="Abdul-Rahman"
+	dynasty = 597
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 163000
 	trait=sayyid
-
-	731.3.1={
-		birth=yes
+	730.3.1={
+		birth = yes
 	}
 	788.10.7={
-		death=yes
+		death="788.10.7"
 	}
 }
 
@@ -6084,21 +5580,17 @@
 }
 
 73682={
-	name="Abd-al-Rahman" #Abdul-Rahman
-	dynasty=597
-
+	name="Abdul-Rahman"
+	dynasty = 597
+	religion="sunni"
+	culture="bedouin_arabic"
 	father=73681
-
-	religion=sunni
-	culture=bedouin_arabic
-
 	trait=sayyid
-
-	792.11.1={
-		birth=yes
+	797.11.1={
+		birth = yes
 	}
 	852.9.22={
-		death=yes
+		death="852.9.22"
 	}
 }
 
@@ -6162,7 +5654,7 @@
 	844.1.11={
 		birth="844.1.11"
 	}
-	865.1.1={
+	866.1.1={
 		add_spouse=70294
 	}
 	879.1.1={
@@ -6181,8 +5673,8 @@
 	father=73685
 	mother=70294
 	trait=sayyid
-	866.1.1={
-		birth="866.1.1"
+	866.9.9={
+		birth = yes
 	}
 	891.1.27={
 		death="891.1.27"
@@ -6211,8 +5703,8 @@
 	culture="bedouin_arabic"
 	father = 163002
 	trait=sayyid
-	691.1.1={
-		birth="691.1.1"
+	688.1.1={
+		birth = yes
 	}
 	743.2.6={
 		death="743.2.6"
@@ -6514,20 +6006,10 @@
 	culture="bedouin_arabic"
 	father=33915
 	trait="sayyid"
-	trait="kind"
-	trait="zealous"
-	trait="mastermind_theologian"
 	745.11.6={
 		birth="745.11.6"
 	}
-	765.1.1={
-		add_spouse = 1000250586
-	}
-	769.1.1={
-		add_trait="shiite_claimant"
-	}
 	799.9.1={
-		remove_trait="shiite_claimant"
 		death="799.9.1"
 	}
 }
@@ -6538,9 +6020,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=163022
-	mother=1000250586
 	trait="sayyid"
-	trait="zealous"
 	765.12.9={
 		birth="765.12.9"
 	}
@@ -6571,20 +6051,10 @@
 	culture="bedouin_arabic"
 	father=163024
 	trait="sayyid"
-	trait="zealous"
-	trait="mastermind_theologian"
-	trait="quick"
 	828.1.1={
 		birth="828.1.1"
 	}
-	845.5.5={
-		add_spouse=1000250589
-	}
-	866.12.30={
-		add_trait="shiite_claimant"
-	}
 	868.1.1={
-		remove_trait="shiite_claimant"
 		death="868.1.1"
 	}
 }
@@ -6595,10 +6065,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=163025
-	mother=1000250589
 	trait="sayyid"
-	trait="zealous"
-	trait="mastermind_theologian"
 	846.12.1={
 		birth="846.12.1"
 	}
@@ -6732,10 +6199,10 @@
 	dynasty = 597
 	religion="sunni"
 	culture="bedouin_arabic"
-	father = 163034
+	father = 163003
 	trait=sayyid
-	680.1.1={
-		birth = yes
+	648.1.1={
+		birth="648.1.1"
 	}
 	720.2.10={
 		death="720.2.10"
@@ -6749,8 +6216,8 @@
 	culture="bedouin_arabic"
 	father = 163002
 	trait=sayyid
-	687.1.1={
-		birth="687.1.1"
+	680.1.1={
+		birth = yes
 	}
 	724.1.1={
 		death="724.1.1"
@@ -6871,10 +6338,10 @@
 	father=33915
 	trait="sayyid"
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	766.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -6884,13 +6351,12 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=163025
-	mother=1000250589
 	trait="sayyid"
 	848.1.1={
-		birth=yes
+		birth = yes
 	}
 	861.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -6901,56 +6367,16 @@
 	culture=bedouin_arabic # Banu Tamim tribe
 	father = 163145
 	830.1.1={
-		birth=yes
-		trait=strong
-		trait=brilliant_strategist
-		trait=holy_warrior
-		trait=wroth
-		trait=ambitious
-		trait=arbitrary
+		birth = yes
 	}
 	867.1.1={
 		raise_levies = {
 			location=340 # Palermo
 			force_mult=1.5
 		}
-		effect={
-			spawn_unit={
-				province=340 # Palermo
-				owner=ROOT
-				leader=THIS
-				match_character=ROOT
-				match_mult=0.73
-				attrition=0.25
-				disband_on_peace=yes
-			}	
-			create_character={
-				random_traits=yes
-				dynasty=random
-				religion=ROOT
-				culture=ROOT
-				female=no
-				age=27
-				attributes={
-					martial=6
-				}
-				trait=skilled_tactician
-			}			
-			new_character={
-				spawn_unit={
-					province=340 # Palermo
-					owner=ROOT
-					leader=THIS
-					match_character=ROOT
-					match_mult=0.72
-					attrition=0.25
-					disband_on_peace=yes
-				}
-			}
-		}
 	}
 	875.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -6960,10 +6386,10 @@
 	religion=sunni
 	culture=bedouin_arabic # Banu Tamim tribe
 	746.1.1={
-		birth=yes
+		birth = yes
 	}
 	812.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -6974,10 +6400,10 @@
 	culture=bedouin_arabic # Banu Tamim tribe
 	father = 163140
 	766.1.1={
-		birth=yes
+		birth = yes
 	}
 	817.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -6988,10 +6414,10 @@
 	culture=bedouin_arabic # Banu Tamim tribe
 	father = 163140
 	767.1.1={
-		birth=yes
+		birth = yes
 	}
 	838.6.10={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7002,7 +6428,7 @@
 	culture=bedouin_arabic # Banu Tamim tribe
 	father = 163140
 	768.1.1={
-		birth=yes
+		birth = yes
 	}
 	841.1.1={
 		death="841.1.1"
@@ -7016,10 +6442,10 @@
 	culture=bedouin_arabic # Banu Tamim tribe
 	father = 163143
 	788.1.1={
-		birth=yes
+		birth = yes
 	}
 	856.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7030,10 +6456,10 @@
 	culture=bedouin_arabic # Banu Tamim tribe
 	father = 163143
 	808.1.1={
-		birth=yes
+		birth = yes
 	}
 	863.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7044,10 +6470,10 @@
 	culture=bedouin_arabic # Banu Tamim tribe
 	father = 163143
 	810.1.1={
-		birth=yes
+		birth = yes
 	}
 	864.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7058,10 +6484,10 @@
 	culture=bedouin_arabic # Banu Tamim tribe
 	father = 163145
 	831.1.1={
-		birth=yes
+		birth = yes
 	}
 	902.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7540,10 +6966,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=159418
 	1045.1.1={
 		birth="1045.1.1" #Unknown
-		add_claim = d_shiite
 	}
 	1100.1.1={
 		death="1100.1.1"
@@ -7555,10 +6981,10 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait="sayyid"
+	add_claim = k_shiite
 	father=159419
 	1100.1.1={
 		birth="1100.1.1" #Unknown
-		add_claim = d_shiite
 	}
 	1171.1.1={
 		death="1171.1.1"
@@ -7585,8 +7011,8 @@
 	culture="bedouin_arabic"
 	trait="sayyid"
 	father=159421
-	990.1.1={
-		birth="990.1.1" #Unknown
+	980.1.1={
+		birth=yes #Unknown
 	}
 	1066.1.1={
 		death="1066.1.1"
@@ -7642,15 +7068,16 @@
 	}
 }
 159378 = {
-	name="Kaab"
-	dynasty=101862
+	name="Kaab" #
+	dynasty=1029037
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=7
 	religion="sunni"
 	culture="bedouin_arabic"
-	father=146037
+	father=159376
+	
 	780.1.1={
 		birth="780.1.1" #Unknown
 	}
@@ -7822,7 +7249,7 @@
 	}
 }
 159388 = {
-	name="Uqayl"
+	name="Uqayl" #
 	dynasty=101862
 	martial=7
 	diplomacy=6
@@ -7831,8 +7258,9 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159378
-	823.1.1={
-		birth="823.1.1" #Unknown
+	
+	810.1.1={
+		birth="810.1.1" #Unknown
 	}
 	890.1.1={
 		death="890.1.1"
@@ -7901,10 +7329,10 @@
 	stewardship=7
 	religion="shiite"
 	culture="bedouin_arabic"
-	father=159390
+	father=159391
 	
-	930.1.1={
-		birth="930.1.1" #Unknown
+	960.1.1={
+		birth=yes #Unknown
 	}
 	1001.1.1={
 		death="1001.1.1"
@@ -7927,96 +7355,17 @@
 
 163098={
 	name="al-Aziz" 
-	dynasty = 809 # Dulafid
+	dynasty = 809
 	religion="sunni"
 	culture="bedouin_arabic"
-	father=188697
 	815.1.1={
-		birth=yes
+		birth="815.1.1"
 	}
 	874.1.1={
-		death=yes
+		death="874.1.1"
 	}
 }
 
-167709 = {
-	name="Bahir"
-	#placeholder
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=145969
-	810.1.1={
-		birth="810.1.1"
-	}
-	867.1.1={
-		death="867.1.1"
-	}
-}
-
-167710 = {
-	name="Mirza"
-	#placeholder
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=167709
-	835.1.1={
-		birth="835.1.1"
-	}
-	885.1.1={
-		death="885.1.1"
-	}
-}
-
-167711 = {
-	name="Bahir"
-	#placeholder
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=167710
-	855.1.1={
-		birth="855.1.1"
-	}
-	910.1.1={
-		death="910.1.1"
-	}
-}
-
-
-
-167712 = {
-	name="Muslihiddin"
-	#placeholder
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=167710
-	860.1.1={
-		birth="860.1.1"
-	}
-	920.1.1={
-		death="920.1.1"
-	}
-}
-
-
-
-167713 = {
-	name="Sadiq"
-	#placeholder
-	dynasty=100667
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=167712
-	900.1.1={
-		birth="900.1.1"
-	}
-	980.1.1={
-		death="980.1.1"
-	}
-}
 
 74035 = {
 	name="Samir"
@@ -8112,8 +7461,8 @@
 	religion="shiite"
 	trait="sayyid"
 	father = 163130
-	846.1.1={
-		birth="846.1.1"
+	843.1.1={
+		birth = yes
 	}
 	893.1.1={
 		death="893.1.1"
@@ -8244,11 +7593,11 @@
 	culture="bedouin_arabic"
 	trait="sayyid"
 	father=33929
-	780.1.1={
-		birth="780.1.1" #Unknown
+	770.1.1={
+		birth=yes #Unknown
 	}
 	830.1.1={
-		death="830.1.1"
+		death = yes
 	}
 }
 
@@ -8340,20 +7689,20 @@
 	}
 }
 
-73788={
-	name="Abd-al-Rahman" #Abdul-Rahman
+73788 = {
+	name="Abdul-Rahman"
 	dynasty=596
+
+	religion="sunni"
+	culture="bedouin_arabic"
 
 	father=73787
 
-	religion=sunni
-	culture=bedouin_arabic
-
 	783.1.1 = {
-		birth=yes
+		birth="783.1.1"
 	}
 	842.1.1 = {
-		death=yes
+		death="842.1.1"
 	}
 }
 
@@ -8432,21 +7781,21 @@
 	}
 }
 
-73793={
-	name="Abd-al-Rahman" #Abdul-Rahman
+73793 = {
+	name="Abdul-Rahman"
 	dynasty=596
+
+	religion="sunni"
+	culture="bedouin_arabic"
 
 	father=73789
 	mother=73885
 
-	religion=sunni
-	culture=bedouin_arabic
-
 	840.1.1 = {
-		birth=yes
+		birth="840.1.1"
 	}
 	907.1.1 = {
-		death=yes
+		death="907.1.1"
 	}
 }
 
@@ -8485,20 +7834,20 @@
 	}
 }
 
-73796={
-	name="Abd-al-Rahman" #Abdul-Rahman
+73796 = {
+	name="Abdul-Rahman"
 	dynasty=596
+
+	religion="sunni"
+	culture="bedouin_arabic"
 
 	father=73795
 
-	religion=sunni
-	culture=bedouin_arabic
-
-	915.1.1={
-		birth=yes
+	915.1.1 = {
+		birth="915.1.1"
 	}
-	978.1.1={
-		death=yes
+	978.1.1 = {
+		death="978.1.1"
 	}
 }
 
@@ -8570,21 +7919,21 @@
 	}
 }
 
-73842={
-	name="Hashim" #Hasim
+73842 = {
+	name="Hasim"
 	dynasty=12194
+
+	religion="sunni"
+	culture="bedouin_arabic"
 
 	father=73839
 	mother=73840
 
-	religion=sunni
-	culture=bedouin_arabic
-
 	864.1.1 = {
-		birth=yes
+		birth="864.1.1"
 	}
 	930.1.1 = {
-		death=yes
+		death="930.1.1"
 	}
 }
 
@@ -8622,37 +7971,37 @@
 	}
 }
 
-73846={
-	name="Abd-al-Rahman" #Abdul-Rahman
+73846 = {
+	name="Abdul-Rahman"
 	dynasty=12194
+
+	religion="sunni"
+	culture="bedouin_arabic"
 
 	father=73843
 
-	religion=sunni
-	culture=bedouin_arabic
-
-	930.1.1={
-		birth=yes
+	930.1.1 = {
+		birth="930.1.1"
 	}
-	989.1.1={
-		death=yes
+	989.1.1 = {
+		death="989.1.1"
 	}
 }
 
-73847={
-	name="Abd-al-Rahman" #Abdul-Rahman
+73847 = {
+	name="Abdul-Rahman"
 	dynasty=12194
+
+	religion="sunni"
+	culture="bedouin_arabic"
 
 	father=73845
 
-	religion=sunni
-	culture=bedouin_arabic
-
-	950.1.1={
-		birth=yes
+	950.1.1 = {
+		birth="950.1.1"
 	}
-	1013.1.1={
-		death=yes
+	1013.1.1 = {
+		death="1013.1.1"
 	}
 }
 
@@ -8820,90 +8169,817 @@
 	}
 }
 
-73903={
-	name="Ali"
-	dynasty=1046000
+73774 = {
+	name="Galind"
+	dynasty=8617
 
-	father=200025
-	mother=73902
+	religion="sunni"
+	culture="andalusian_arabic"
 
-	religion=sunni
-	culture=bedouin_arabic
+	father=70291
 
-	725.1.1={
-		birth=yes
+	812.1.1 = {
+		birth="812.1.1"
 	}
-	789.1.1={
-		death=yes
+	851.1.1 = {
+		death="851.1.1"
 	}
 }
 
-73904={
+73775 = {
+	name="Musa"
+	dynasty=12315
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73774
+
+	845.1.1 = {
+		birth="845.1.1"
+	}
+	862.9.26 = {
+		employer=73800
+	}
+	871.8.4 = {
+		death="871.8.4"
+	}
+}
+
+73798 = {
+	name="Yusuf"
+	dynasty=12291
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	735.1.1 = {
+		birth="735.1.1"
+	}
+	791.1.1 = {
+		death="791.1.1"
+	}
+}
+
+73799 = {
+	name="Amrus"
+	dynasty=12291
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73798
+
+	760.1.1 = {
+		birth="760.1.1"
+	}
+	814.1.1 = {
+		death="814.1.1"
+	}
+}
+
+73800 = {
+	name="Yusuf"
+	dynasty=12291
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73799
+
+	800.1.1 = {
+		birth="800.1.1"
+	}
+	868.1.1 = {
+		death="868.1.1"
+	}
+}
+
+73801 = {
+	name="Umar"
+	dynasty=12291
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73800
+
+	854.1.1 = {
+		birth="854.1.1"
+	}
+	936.1.1 = {
+		death="936.1.1"
+	}
+}
+
+73802 = {
+	name="Ya'far"
+	dynasty=12292
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	805.1.1 = {
+		birth="805.1.1"
+	}
+	870.1.1 = {
+		death="870.1.1"
+	}
+}
+
+73803 = {
+	name="Hafs"
+	dynasty=12292
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73802
+
+	833.1.1 = {
+		birth="833.1.1"
+	}
+	849.1.1 = {
+		add_spouse=73804
+	}
+	860.1.1 = {
+		death="860.1.1"
+	}
+}
+
+73804 = {
+	name="Naila"
+	female=yes
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	833.1.1 = {
+		birth="833.1.1"
+	}
+	900.1.1 = {
+		death="900.1.1"
+	}
+}
+
+73805 = {
+	name="Umar"
+	dynasty=12292
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73803
+	mother=73804
+
+	850.1.1 = {
+		birth="850.1.1"
+	}
+	899.1.1 = {
+		name="Samuel"
+		religion=catholic
+		culture=castillan
+	}
+	917.1.1 = {
+		death="917.1.1"
+	}
+}
+
+73806 = {
+	name="Ayyub"
+	dynasty=12292
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73803
+	mother=73804
+
+	852.1.1 = {
+		birth="852.1.1"
+	}
+	920.1.1 = {
+		death="920.1.1"
+	}
+}
+
+73807 = {
+	name="Ya'far"
+	dynasty=12292
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73803
+	mother=73804
+
+	854.1.1 = {
+		birth="854.1.1"
+	}
+	924.1.1 = {
+		death="924.1.1"
+	}
+}
+
+73808 = {
+	name="Qasi"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	670.1.1 = {
+		birth="670.1.1"
+	}
+	733.1.1 = {
+		death="733.1.1"
+	}
+}
+
+73809 = {
+	name="Fortun"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73808
+
+	710.1.1 = {
+		birth="710.1.1"
+	}
+	768.1.1 = {
+		death="768.1.1"
+	}
+}
+
+73810 = {
+	name="Musa"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73809
+
+	745.1.1 = {
+		birth="745.1.1"
+	}
+	802.12.1 = {
+		death="802.12.1"
+	}
+}
+
+73812 = {
+	name="Musa"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73810
+	mother=73811
+
+	800.1.1 = {
+		birth="800.1.1"
+	}
+	830.1.1 = {
+		add_spouse=73776
+	}
+	862.9.26 = {
+		death="862.9.26"
+	}
+}
+
+73813 = {
+	name="Lubb"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73812
+	mother=73776
+
+	831.1.1 = {
+		birth="831.1.1"
+	}
+	860.1.1 = {
+		add_spouse=73814
+	}
+	875.4.27 = {
+		death="875.4.27"
+	}
+}
+
+73814 = {
+	name="Ayab"
+	female=yes
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	841.1.1 = {
+		birth="841.1.1"
+	}
+	899.1.1 = {
+		death="899.1.1"
+	}
+}
+
+73815 = {
+	name="Muhammad"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73813
+	mother=73814
+
+	862.1.1 = {
+		birth="862.1.1"
+	}
+	898.10.2 = {
+		death="898.10.2"
+	}
+}
+
+73816 = {
+	name="Isa"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73813
+	mother=73814
+
+	864.1.1 = {
+		birth="864.1.1"
+	}
+	920.1.1 = {
+		death="920.1.1"
+	}
+}
+
+73817 = {
+	name="Mutarrif"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73813
+	mother=73814
+
+	866.1.1 = {
+		birth="866.1.1"
+	}
+	922.1.1 = {
+		death="922.1.1"
+	}
+}
+
+73818 = {
+	name="Isma'il"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73812
+	mother=73776
+
+	833.1.1 = {
+		birth="833.1.1"
+	}
+	889.5.6 = {
+		add_spouse=73819
+	}
+	889.10.10 = {
+		death="889.10.10"
+	}
+}
+
+73819 = {
+	name="Sayyida"
+	female=yes
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	860.1.1 = {
+		birth="860.1.1"
+	}
+	922.1.1 = {
+		death="922.1.1"
+	}
+}
+
+73820 = {
+	name="Musa"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73818
+
+	858.1.1 = {
+		birth="858.1.1"
+	}
+	889.5.6 = {
+		death="889.5.6"
+	}
+}
+
+73821 = {
+	name="Mutarrif"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73818
+
+	861.1.1 = {
+		birth="861.1.1"
+	}
+	891.1.1 = {
+		death="891.1.1"
+	}
+}
+
+73822 = {
+	name="Sa'd"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73818
+
+	863.1.1 = {
+		birth="863.1.1"
+	}
+	920.1.1 = {
+		death="920.1.1"
+	}
+}
+
+73823 = {
+	name="Muhammad"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73818
+	mother=73819
+
+	890.1.1 = {
+		birth="890.1.1"
+	}
+	907.1.1 = {
+		death="907.1.1"
+	}
+}
+
+73824 = {
+	name="Mutarrif"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73812
+	mother=73776
+
+	835.1.1 = {
+		birth="835.1.1"
+	}
+	870.1.1 = {
+		add_spouse=73778
+	}
+	873.9.5 = {
+		death="873.9.5"
+	}
+}
+
+73825 = {
+	name="Muhammad"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73824
+
+	860.1.1 = {
+		birth="860.1.1"
+	}
+	873.9.5 = {
+		death="873.9.5"
+	}
+}
+
+73826 = {
+	name="Musa"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73824
+
+	862.1.1 = {
+		birth="862.1.1"
+	}
+	873.9.5 = {
+		death="873.9.5"
+	}
+}
+
+73827 = {
+	name="Lubb"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73824
+
+	864.1.1 = {
+		birth="864.1.1"
+	}
+	873.9.5 = {
+		death="873.9.5"
+	}
+}
+
+73828 = {
+	name="Abdallah"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73824
+
+	866.1.1 = {
+		birth="866.1.1"
+	}
+	930.1.1 = {
+		death="930.1.1"
+	}
+}
+
+73829 = {
+	name="Fortun"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73812
+	mother=73776
+  trait="twin"
+
+	840.1.1 = {
+		birth="840.1.1"
+	}
+	874.3.23 = {
+		death="874.3.23"
+	}
+}
+
+73830 = {
+	name="Isma'il"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73829
+
+	862.1.1 = {
+		birth="862.1.1"
+	}
+	882.1.1 = {
+		death="882.1.1"
+	}
+}
+
+73831 = {
+	name="Musa"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73829
+
+	863.1.1 = {
+		birth="863.1.1"
+	}
+	882.1.1 = {
+		death="882.1.1"
+	}
+}
+
+73832 = {
+	name="Muhammad"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73829
+
+	865.1.1 = {
+		birth="865.1.1"
+	}
+	882.1.1 = {
+		death="882.1.1"
+	}
+}
+
+73833 = {
+	name="Lubb"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73829
+
+	866.1.1 = {
+		birth="866.1.1"
+	}
+	882.1.1 = {
+		death="882.1.1"
+	}
+}
+
+73834 = {
+	name="Awriya"
+	female=yes
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73812
+	mother=73776
+
+	842.1.1 = {
+		birth="842.1.1"
+	}
+	907.1.1 = {
+		death="907.1.1"
+	}
+}
+
+73836 = {
+	name="Musa"
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73835
+	mother=73834
+
+	859.1.1 = {
+		birth="859.1.1"
+	}
+	915.1.1 = {
+		death="915.1.1"
+	}
+}
+
+73837 = {
+	name="Munya"
+	female=yes
+	dynasty=12293
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	father=73812
+	mother=73776
+  trait="twin"
+
+	840.1.1 = {
+		birth="840.1.1"
+	}
+	903.1.1 = {
+		death="903.1.1"
+	}
+}
+
+73838 = {
+	name="Azraq"
+	dynasty=12294
+
+	religion="sunni"
+	culture="andalusian_arabic"
+
+	830.1.1 = {
+		birth="830.1.1"
+	}
+	860.1.1 = {
+		add_spouse=73837
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+73903 = {
+	name="Ali"
+	dynasty=12295
+
+	mother=73902
+
+	religion="sunni"
+	culture="bedouin_arabic"
+
+	725.1.1 = {
+		birth="725.1.1"
+	}
+	789.1.1 = {
+		death="789.1.1"
+	}
+}
+
+73904 = {
 	name="Ghalib"
-	dynasty=1046000
+	dynasty=12295
 
 	father=73903
 
-	religion=sunni
-	culture=bedouin_arabic
+	religion="sunni"
+	culture="bedouin_arabic"
 
-	757.1.1={
-		birth=yes
+	757.1.1 = {
+		birth="757.1.1"
 	}
-	812.1.1={
-		death=yes
+	812.1.1 = {
+		death="812.1.1"
 	}
 }
 
-73905={
+73905 = {
 	name="Talib"
-	dynasty=1046000
+	dynasty=12295
 
 	father=73904
 
-	religion=sunni
-	culture=bedouin_arabic
+	religion="sunni"
+	culture="bedouin_arabic"
 
-	784.1.1={
-		birth=yes
+	784.1.1 = {
+		birth="784.1.1"
 	}
-	852.1.1={
-		death=yes
+	852.1.1 = {
+		death="852.1.1"
 	}
 }
 
-73906={
-	name="Abd-al-Yabbar" #Abdul-Yabbar
-	dynasty=1046000
+73906 = {
+	name="Abdul-Yabbar"
+	dynasty=12295
 
 	father=73905
 
-	religion=sunni
-	culture=bedouin_arabic
+	religion="sunni"
+	culture="bedouin_arabic"
 
-	813.1.1={
-		birth=yes
+	813.1.1 = {
+		birth="813.1.1"
 	}
-	858.1.1={
-		death=yes
+	858.1.1 = {
+		death="858.1.1"
 	}
 }
 
-73907={
+73907 = {
 	name="Reshawna"
 	female=yes
-	dynasty=1046000
+	dynasty=12295
 
 	father=73906
 
-	religion=sunni
-	culture=bedouin_arabic
+	religion="sunni"
+	culture="bedouin_arabic"
 
-	840.1.1={
-		birth=yes
+	840.1.1 = {
+		birth="840.1.1"
 	}
-	916.1.1={
-		death=yes
+	916.1.1 = {
+		death="916.1.1"
 	}
 }
 
@@ -9531,12 +9607,11 @@
 	}
 }
 
-145618 = {
+145618 = { 
 	name="Denha"
 	dynasty=1022236
 	religion="nestorian"
 	culture="bedouin_arabic"
-	father=145967
 	825.1.1={
 		birth="825.1.1"
 	}
@@ -9551,10 +9626,10 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	685.1.1={
-		birth=yes
+		birth = yes
 	}
 	740.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -9565,10 +9640,10 @@
 	culture="bedouin_arabic"
 	father=188536
 	730.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -9579,10 +9654,10 @@
 	culture="bedouin_arabic"
 	father=188536
 	732.1.1={
-		birth=yes
+		birth = yes
 	}
 	792.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -9593,10 +9668,10 @@
 	culture="bedouin_arabic"
 	father=188536
 	735.1.1={
-		birth=yes
+		birth = yes
 	}
 	795.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -9606,13 +9681,104 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	750.1.1={
-		death=yes
+		death = yes
 	}
 }
 
+32892 = {
+	name="Umar" 
+	dynasty=7273
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=32891
+	1240.1.1={
+		birth="1240.1.1"
+	}
+	1304.1.1={
+		death="1304.1.1"
+	}
+}
+32943 = {
+	name="Ali" 
+	dynasty=7273
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=32892
+	1270.1.1={
+		birth="1270.1.1"
+	}
+	1321.1.1={
+		death="1321.1.1"
+	}
+}
+32944 = {
+	name="Haqq ad-Din" 
+	dynasty=7273
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=32943
+	1295.1.1={
+		birth="1295.1.1"
+	}
+	1328.1.1={
+		death="1328.1.1"
+	}
+}
+32947 = {
+	name="Ali" 
+	dynasty=7273
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=32944
+	1317.1.1={
+		birth="1317.1.1"
+	}
+	1344.1.1={
+		death="1344.1.1"
+	}
+}
+32945 = {
+	name="Sabr ad-Din" 
+	dynasty=7273
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=32943
+	1297.1.1={
+		birth="1297.1.1"
+	}
+	1332.1.1={
+		death="1332.1.1"
+	}
+}
+32946 = {
+	name="Jamal ad-Din" 
+	dynasty=7273
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=32943
+	1299.1.1={
+		birth="1299.1.1"
+	}
+	1337.1.1={
+		death="1337.1.1"
+	}
+}
+32948 = {
+	name="Ahmad ad-Din" 
+	dynasty=7273
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=32946
+	1325.1.1={
+		birth="1325.1.1"
+	}
+	1375.1.1={
+		death="1375.1.1"
+	}
+}
 145965 = { 
 	name="Philemon"
 	dynasty=1022236
@@ -9626,7 +9792,6 @@
 		death="789.1.1"
 	}
 }
-
 145966 = { 
 	name="Athanasios"
 	dynasty=1022236
@@ -9640,7 +9805,6 @@
 		death="822.1.1"
 	}
 }
-
 145967 = { 
 	name="Epiphanios"
 	dynasty=1022236
@@ -9654,7 +9818,6 @@
 		death="853.4.1"
 	}
 }
-
 145968 = {
 	name="Talut"
 	dynasty=100667
@@ -9668,7 +9831,6 @@
 		death="806.1.1"
 	}
 }
-
 145969 = {
 	name="Ali"
 	dynasty=100667
@@ -9690,10 +9852,10 @@
 	culture=bedouin_arabic
 
 	1046.1.1={
-		birth=yes
+		birth = yes
 	}
 	1092.1.1={
-		death=yes
+		death = yes
 	}
 }
 73248={
@@ -9704,10 +9866,7 @@
 	culture=bedouin_arabic
 
 	1020.1.1={
-		birth=yes
-	}
-	1023.1.1={
-		employer=73209
+		birth = yes
 	}
 	1042.1.1={
 		employer=3212
@@ -9716,7 +9875,7 @@
 		add_spouse=45028
 	}
 	1069.1.1={
-		death=yes
+		death = yes
 	}
 }
 73967={
@@ -9730,15 +9889,14 @@
 	culture=bedouin_arabic
 
 	844.1.1={
-		birth=yes
+		birth = yes
 	}
 	931.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 73968={
-	name="Abd-al-Aziz" #Abdul-Aziz
+	name="Abd-al-Aziz"
 	dynasty=12308
 
 	father=200033
@@ -9747,201 +9905,17 @@
 	culture=bedouin_arabic
 
 	812.1.1={
-		birth=yes
+		birth = yes
 	}
 	843.1.1={
 		add_spouse=73975
 	}
 	870.1.1={
-		death=yes
+		death = yes
 	}
 }
-
-3206={
-	name="al-Mansur" #AKA: Muhammad al-Mansur
-	dynasty=569
-
-	martial=9
-
-	religion=sunni
-	culture=bedouin_arabic
-
-	trait=underhanded_rogue
-
-	diplomacy=4
-	intrigue=9
-	stewardship=4
-	trait="brave"
-	trait="deceitful"
-	trait="ambitious"
-
-	938.1.1={
-		birth=yes
-	} 
-	978.1.1={
-    effect={
-		  add_weak_pressed_claim=k_andalusia
-      }
-	}
-	981.1.1={
-		add_spouse=70125
-    	give_nickname=nick_almanzor
-	} 
-	999.1.1={
-		trait="infirm"
-	}
-	1002.8.10={
-		death=yes
-	}
-}
-
-3910={
-	name="Abd-al-Rahman" #Abdul-Rahman
-	dynasty=572
-
-	father=45027
-
-	religion=sunni
-	culture=bedouin_arabic
-
-	martial=8
-	diplomacy=5
-	intrigue=8
-	stewardship=6
-	trait="greedy"
-	trait="tough_soldier"
-
-	1028.1.1={
-		birth=yes
-	}
-	1081.1.1={
-		death=yes
-	}
-}
-
-20852={
-	name="Abd-al-Malik" #Abu-al-Malik
-	dynasty=101607
-
-	father = 45001
-
-	religion=sunni
-	culture=bedouin_arabic
-
-	martial=8
-	diplomacy=6
-	intrigue=8
-	stewardship=5
-	trait="flamboyant_schemer"
-	trait="greedy"
-
-	1035.1.1={
-		birth=yes
-	}
-	1078.1.1={
-		death=yes
-	}
-}
-
-45000={
-	name="Abd-al-Hazm" #Abdul-Hazm
-	dynasty=101607
-
-	religion=sunni
-	culture=bedouin_arabic
-
-	martial=4
-	diplomacy=12
-	intrigue=8
-	stewardship=10
-	trait="charismatic_negotiator"
-	trait="humble"
-
-	991.1.1={
-		birth=yes
-	}
-	1043.1.1={
-		death=yes
-	}
-}
-
-45002={
-	name="Abd-al-Rahman" #Abdul-Rahman
-	dynasty=101607
-	
-	father = 45001
-
-	religion=sunni
-	culture=bedouin_arabic
-
-	martial=6
-	diplomacy=4
-	intrigue=7
-	stewardship=4
-	trait="amateurish_plotter"
-	trait="greedy"
-
-	1034.1.1={
-		birth=yes
-	}
-	1085.1.1={
-		death=yes
-	}
-}
-
-45025={
-	name="Abd-al-Aziz" #Abdul-Aziz
-	dynasty=569
-	
-	father=73226
-
-	religion=sunni
-	culture=bedouin_arabic
-
-	martial=6
-	diplomacy=4
-	intrigue=5
-	stewardship=8
-
-	999.1.1={
-		birth=yes
-	}
-	1061.1.1={
-		death=yes
-	}
-}
-
-45026={
-	name="Abd-al-Malik" #Abu-al-Malik
-	dynasty=569
-	
-	father=45025
-
-	religion=sunni
-	culture=bedouin_arabic
-
-	martial=6
-	diplomacy=4
-	intrigue=5
-	stewardship=8
-	trait="temperate"
-
-	1020.1.1={
-		birth=yes
-	}
-	1060.1.1={
-		add_spouse=20858
-	}
-	1065.1.1={
-		add_claim=d_valencia
-	}
-	1069.1.1={
-		death=yes
-	}
-}
-
 73180={
-	name="Abd-al-Malik" #Abu-al-Malik
+	name="Abd-al-Malik"
 	dynasty=599
 	
 	father=45005
@@ -9950,7 +9924,7 @@
 	culture=bedouin_arabic
 
 	1073.1.1={
-		birth=yes
+		birth = yes
 	}
 	1110.1.1={
 		add_claim=c_castellon
@@ -9962,12 +9936,11 @@
 		remove_claim=c_zaragoza
 	}
 	1130.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 73210={
-	name="Abd-al-Malik" #Abu-al-Malik
+	name="Abd-al-Malik"
 	dynasty=569
 
 	father=73228
@@ -9976,7 +9949,7 @@
 	culture=bedouin_arabic
 
 	1116.1.1={
-		birth=yes
+		birth = yes
 	}
 	1144.1.1={
 		add_claim=d_valencia
@@ -9987,12 +9960,6 @@
 		remove_claim=d_valencia
 		remove_claim=c_valencia
 		remove_claim=c_castellon
-		add_claim=d_mallorca
-		add_claim=d_murcia
-		add_claim=d_cordoba
-		add_claim=d_badajoz
-		add_claim=d_sevilla
-		add_claim=d_granada
 	}
 	1145.7.1={
 		add_claim=d_valencia
@@ -10006,11 +9973,11 @@
 		remove_claim=d_valencia
 	}
 	1163.1.1={
-		death=yes
+		death = yes
 	}
 }
 73216={
-	name="Abd-al-Yabbar" #Abdul-Yabbar
+	name="Abd-al-Yabbar"
 	dynasty=594
 	
 	father=3214
@@ -10020,15 +9987,14 @@
 	culture=bedouin_arabic
 	
 	1067.1.1={
-		birth=yes
+		birth = yes
 	}
 	1095.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 73226={
-	name="Abd-al-Rahman" #Abdul-Rahman AKA: Sanchuelo
+	name="Abd-al-Rahman" #AKA: Sanchuelo
 	dynasty=569
 
 	father=3206
@@ -10038,15 +10004,14 @@
 	culture=bedouin_arabic
 	
 	983.1.1={
-		birth=yes
+		birth = yes
 	}
 	1009.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 73228={
-	name="Abd-al-Aziz" #Abdul-Aziz
+	name="Abd-al-Aziz"
 	dynasty=569
 
 	father=73227
@@ -10055,7 +10020,7 @@
 	culture=bedouin_arabic
 
 	1092.1.1={
-		birth=yes
+		birth = yes
 	}
 	1126.1.1={
 		add_claim=d_valencia
@@ -10063,12 +10028,11 @@
 		add_claim=c_castellon
 	}
 	1144.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 73239={
-	name="Abd-al-Rahman" #Abdul-Rahman
+	name="Abd-al-Rahman"
 	dynasty=572
 
 	father=73238
@@ -10077,32 +10041,21 @@
 	culture=bedouin_arabic
 
 	1086.1.1={
-		birth=yes
+		birth = yes
 	}
 	1109.1.1={
-		add_claim=d_murcia
 		add_claim=c_murcia
 	}
 	1145.9.1={
-		remove_claim=d_murcia
 		remove_claim=c_murcia
-
-		add_claim=d_valencia
-		add_claim=d_mallorca
-		add_claim=d_cordoba
-		add_claim=d_badajoz
-		add_claim=d_sevilla
-		add_claim=d_granada
 	}
 	1146.1.1={
-		add_claim=d_murcia
 		add_claim=c_murcia
 	}
 	1168.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200020={
 	name="Abd-al-Rahman"
 	dynasty=597
@@ -10115,13 +10068,12 @@
 	culture=bedouin_arabic
 
 	747.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200021={
 	name="Abdallah"
 	dynasty=597
@@ -10134,13 +10086,12 @@
 	culture=bedouin_arabic
 
 	760.1.1={
-		birth=yes
+		birth = yes
 	}
 	805.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200022={
 	name="al-Qasim"
 	dynasty=597
@@ -10153,13 +10104,12 @@
 	culture=bedouin_arabic
 
 	762.1.1={
-		birth=yes
+		birth = yes
 	}
 	803.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200023={
 	name="Abd-al-Aziz"
 	dynasty=1046001
@@ -10170,16 +10120,15 @@
 	culture=bedouin_arabic
 
 	673.1.1={
-		birth=yes
+		birth = yes
 	}
 	714.1.1={
 		add_spouse=200063
 	}
 	715.8.1={
-		death=yes
+		death = yes
 	}
 }
-
 200024={
 	name="Musa"
 	dynasty=1046001
@@ -10192,13 +10141,12 @@
 	add_trait=brilliant_strategist
 
 	640.1.1={
-		birth=yes
+		birth = yes
 	}
 	716.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200025={
 	name="Abd-al-Yabbar"
 	dynasty=1046000
@@ -10207,16 +10155,15 @@
 	culture=bedouin_arabic
 
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	723.1.1={
 		add_spouse=73902
 	}
 	743.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200032={
 	name="Suleyman"
 	dynasty=1046002
@@ -10225,13 +10172,12 @@
 	culture=bedouin_arabic
 
 	725.1.1={
-		birth=yes
+		birth = yes
 	}
 	779.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200033={
 	name="Hashim"
 	dynasty=12308
@@ -10242,13 +10188,12 @@
 	culture=bedouin_arabic
 
 	788.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200034={
 	name="Jalid"
 	dynasty=12308
@@ -10260,13 +10205,12 @@
 	culture=bedouin_arabic
 
 	762.1.1={
-		birth=yes
+		birth = yes
 	}
 	820.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200035={
 	name="Abdallah"
 	dynasty=12308
@@ -10275,16 +10219,15 @@
 	culture=bedouin_arabic
 
 	738.1.1={
-		birth=yes
+		birth = yes
 	}
 	760.1.1={
 		add_spouse=200037
 	}
 	789.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200036={
 	name="Ubayd-Allah"
 	dynasty=12308
@@ -10295,13 +10238,12 @@
 	culture=bedouin_arabic
 
 	786.1.1={
-		birth=yes
+		birth = yes
 	}
 	832.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200038={
 	name="Yahya"
 	dynasty=12308
@@ -10312,13 +10254,12 @@
 	culture=bedouin_arabic
 
 	814.1.1={
-		birth=yes
+		birth = yes
 	}
 	867.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200039={
 	name="Idris"
 	dynasty=12308
@@ -10329,16 +10270,15 @@
 	culture=bedouin_arabic
 
 	837.1.1={
-		birth=yes
+		birth = yes
 	}
 	867.1.1={
 		add_spouse=200040
 	}
 	895.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200040={
 	name="Samira"
 	female=yes
@@ -10347,13 +10287,12 @@
 	culture=bedouin_arabic
 
 	850.1.1={
-		birth=yes
+		birth = yes
 	}
 	911.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200042={
 	name="Hakam"
 	dynasty=1046003
@@ -10362,16 +10301,15 @@
 	culture=bedouin_arabic
 
 	734.1.1={
-		birth=yes
+		birth = yes
 	}
 	757.1.1={
 		add_spouse=200044
 	}
 	789.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200043={
 	name="Abd-al-Rahman"
 	dynasty=1046003
@@ -10382,13 +10320,12 @@
 	culture=bedouin_arabic
 
 	758.1.1={
-		birth=yes
+		birth = yes
 	}
 	806.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200046={
 	name="Husayn"
 	dynasty=1046004
@@ -10397,16 +10334,15 @@
 	culture=bedouin_arabic
 
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	768.1.1={
 		add_spouse=200047
 	}
 	788.6.10={
-		death=yes
+		death = yes
 	}
 }
-
 200048={
 	name="Sa'd"
 	dynasty=1046004
@@ -10418,13 +10354,12 @@
 	culture=bedouin_arabic
 
 	769.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200049={
 	name="Suleyman"
 	dynasty=1046005
@@ -10433,16 +10368,15 @@
 	culture=bedouin_arabic
 
 	733.1.1={
-		birth=yes
+		birth = yes
 	}
 	761.1.1={
 		add_spouse=200050
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200051={
 	name="Matruh"
 	dynasty=1046005
@@ -10454,13 +10388,12 @@
 	culture=bedouin_arabic
 
 	762.1.1={
-		birth=yes
+		birth = yes
 	}
 	792.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200052={
 	name="Sadun"
 	dynasty=1046006
@@ -10469,28 +10402,12 @@
 	culture=bedouin_arabic
 
 	760.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
-200054={
-	name="Suleyman"
-	dynasty=1046007
-
-	religion=sunni
-	culture=bedouin_arabic
-
-	736.1.1={
-		birth=yes
-	}
-	793.1.1={
-		death=yes
-	}
-}
-
 200202={
 	name="Asima"
 	female=yes
@@ -10503,10 +10420,10 @@
 	culture=bedouin_arabic
 
 	715.1.1={
-		birth=yes
+		birth = yes
 	}
 	775.1.1={
-		death=yes
+		death = yes
 	}
 }
 188608 = {
@@ -10515,39 +10432,36 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	725.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188609 = {
 	name="Muhammad" # Muhammad b Sulayman b Ali, governor of Kufa
 	dynasty=1042114 # Kufahyid 
 	religion="sunni"
 	culture="bedouin_arabic"
 	729.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188624 = {
 	name="Hakim" 
 	dynasty=1042121 # Abd al-Qays 
 	religion="sunni"
 	culture="bedouin_arabic"
 	711.1.1={
-		birth=yes
+		birth = yes
 	}
 	764.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188625 = {
 	name="Aghlab" # fictitious
 	dynasty=1042121 # Abd al-Qays 
@@ -10555,13 +10469,12 @@
 	culture="bedouin_arabic"
 	father=188624
 	741.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188626 = {
 	name="Sulayman" # leader in Bahrain
 	dynasty=1042121 # Abd al-Qays 
@@ -10569,13 +10482,12 @@
 	culture="bedouin_arabic"
 	father=188624
 	738.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={ # actually 768
 		death=yes
 	}
 }
-
 188627 = {
 	name="Ibrahim" # fictitious
 	dynasty=1042121 # Abd al-Qays 
@@ -10583,10 +10495,10 @@
 	culture="bedouin_arabic"
 	father=188626
 	760.1.1={
-		birth=yes
+		birth = yes
 	}
 	810.1.1={
-		death=yes
+		death = yes
 	}
 }
 188610 = {
@@ -10595,13 +10507,12 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	729.1.1={
-		birth=yes
+		birth = yes
 	}
 	783.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188611 = {
 	name="Abbas" 
 	dynasty=101727
@@ -10610,13 +10521,12 @@
 	father=188671
 	trait="sayyid"
 	665.1.1={
-		birth=yes
+		birth = yes
 	}
 	730.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188612 = {
 	name="Qutham" # governor of Yamamah
 	dynasty=101727
@@ -10625,39 +10535,36 @@
 	father=188611
 	trait="sayyid"
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	776.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188613 = {
 	name="Zeyd" # fictitious holder of Ar Ar/Shaka
 	dynasty=1042116 # Banu Kalb
 	religion="sunni"
 	culture="bedouin_arabic"
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188614 = {
 	name="Mirza" # fictitious
 	dynasty=1042117 # Banu Tayy
 	religion="sunni"
 	culture="bedouin_arabic"
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	760.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188615 = {
 	name="Ubayd" # fictitious holder of Rafha
 	dynasty=1042117 # Banu Tayy
@@ -10665,13 +10572,12 @@
 	culture="bedouin_arabic"
 	father=188614
 	734.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188616 = {
 	name="Ghalib" # fictitious holder of Hail
 	dynasty=1042117 # Banu Tayy
@@ -10679,26 +10585,24 @@
 	culture="bedouin_arabic"
 	father=188614
 	736.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188617 = {
 	name="Ya'qub" # fictitious
 	dynasty=1042118 # Banu Judham
 	religion="sunni"
 	culture="bedouin_arabic"
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	755.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188618 = {
 	name="Ya'qub" # fictitious holder of Al Aqabah
 	dynasty=1042118 # Banu Judham
@@ -10706,13 +10610,12 @@
 	culture="bedouin_arabic"
 	father=188617
 	725.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188619 = {
 	name="Hasan" # fictitious holder of Tabuk
 	dynasty=1042118 # Banu Judham
@@ -10720,39 +10623,36 @@
 	culture="bedouin_arabic"
 	father=188617
 	728.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188620 = {
 	name="Nizam" # fictitious holder of Hijaz
 	dynasty=1042119 # Banu Udhrah
 	religion="sunni"
 	culture="bedouin_arabic"
 	742.1.1={
-		birth=yes
+		birth = yes
 	}
 	795.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188621 = {
 	name="Kilab" # fictitious holder of Asir
 	dynasty=1042120 # Banu Kinanah
 	religion="sunni"
 	culture="bedouin_arabic"
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188622 = {
 	name="Qusayy" # fictitious
 	dynasty=1042120 # Banu Kinanah
@@ -10760,13 +10660,12 @@
 	culture="bedouin_arabic"
 	father=188621
 	745.1.1={
-		birth=yes
+		birth = yes
 	}
 	795.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188623 = {
 	name="Yasmin" # fictitious
 	female=yes
@@ -10775,10 +10674,10 @@
 	culture="bedouin_arabic"
 	father=188621
 	751.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
 188551 = {
@@ -10787,10 +10686,10 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	730.4.4={
-		birth=yes
+		birth = yes
 	}
 	789.4.4={
-		death=yes
+		death = yes
 	}
 }
 200229={
@@ -10801,13 +10700,12 @@
 	culture=bedouin_arabic
 
 	741.1.1={
-		birth=yes
+		birth = yes
 	}
 	799.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200261={
 	name="Yahya"
 	dynasty=1046029
@@ -10816,13 +10714,12 @@
 	culture=bedouin_arabic
 
 	966.1.1={
-		birth=yes
+		birth = yes
 	}
 	1020.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200262={
 	name="Ahmad"
 	dynasty=1046029
@@ -10833,13 +10730,12 @@
 	culture=bedouin_arabic
 
 	991.1.1={
-		birth=yes
+		birth = yes
 	}
 	1042.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200263={
 	name="al-Abbas"
 	dynasty=1046029
@@ -10850,13 +10746,12 @@
 	culture=bedouin_arabic
 
 	1018.1.1={
-		birth=yes
+		birth = yes
 	}
 	1070.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200264={
 	name="Muhamad"
 	dynasty=1046029
@@ -10867,13 +10762,12 @@
 	culture=bedouin_arabic
 
 	993.1.1={
-		birth=yes
+		birth = yes
 	}
 	1051.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200265={
 	name="Jalaf"
 	dynasty=1046029
@@ -10884,13 +10778,12 @@
 	culture=bedouin_arabic
 
 	995.1.1={
-		birth=yes
+		birth = yes
 	}
 	1048.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200266={
 	name="Fath"
 	dynasty=1046029
@@ -10901,16 +10794,15 @@
 	culture=bedouin_arabic
 
 	1026.1.1={
-		birth=yes
+		birth = yes
 	}
 	1049.1.1={
 		add_spouse=200268
 	}
 	1083.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200267={
 	name="Nars"
 	dynasty=1046029
@@ -10922,13 +10814,12 @@
 	culture=bedouin_arabic
 
 	1051.1.1={
-		birth=yes
+		birth = yes
 	}
 	1107.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200268={
 	name="Suraya"
 	female=yes
@@ -10937,10 +10828,10 @@
 	culture=bedouin_arabic
 
 	1033.1.1={
-		birth=yes
+		birth = yes
 	}
 	1096.1.1={
-		death=yes
+		death = yes
 	}
 }
 200219={
@@ -10951,13 +10842,12 @@
 	culture=bedouin_arabic
 
 	966.1.1={
-		birth=yes
+		birth = yes
 	}
 	1020.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200220={
 	name="Abd-al-Aziz"
 	dynasty=1046023
@@ -10968,13 +10858,12 @@
 	culture=bedouin_arabic
 
 	994.1.1={
-		birth=yes
+		birth = yes
 	}
 	1030.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200221={
 	name="Abd-al-Malik"
 	dynasty=1046023
@@ -10985,13 +10874,12 @@
 	culture=bedouin_arabic
 
 	998.1.1={
-		birth=yes
+		birth = yes
 	}
 	1034.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200222={
 	name="Marwan"
 	dynasty=1046024
@@ -11000,10 +10888,10 @@
 	culture=bedouin_arabic
 
 	741.1.1={
-		birth=yes
+		birth = yes
 	}
 	799.1.1={
-		death=yes
+		death = yes
 	}
 }
 200226={
@@ -11014,16 +10902,15 @@
 	culture=bedouin_arabic
 
 	728.1.1={
-		birth=yes
+		birth = yes
 	}
 	758.1.1={
 		add_spouse=200227
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 200228={
 	name="Ibrahim"
 	dynasty=1046026
@@ -11035,10 +10922,10 @@
 	culture=bedouin_arabic
 
 	760.1.1={
-		birth=yes
+		birth = yes
 	}
 	813.1.1={
-		death=yes
+		death = yes
 	}
 }
 188605 = {
@@ -11047,23 +10934,22 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	723.1.1={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188606 = {
 	name="Hisham" # fictitious governor of Kerman
 	dynasty=1042137 
 	religion="sunni"
 	culture="bedouin_arabic"
 	729.1.1={
-		birth=yes
+		birth = yes
 	}
 	788.1.1={
-		death=yes
+		death = yes
 	}
 }
 188604 = {
@@ -11073,10 +10959,10 @@
 	culture="bedouin_arabic"
 	father=146067
 	712.1.1={
-		birth=yes
+		birth = yes
 	}
 	769.6.1={
-		death=yes
+		death = yes
 	}
 }
 188602 = {
@@ -11087,13 +10973,12 @@
 	culture="bedouin_arabic"
 	father=188574
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	776.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188574 = {
 	name="Qahtaba"
 	dynasty=602 # Taid or al-Ta'i
@@ -11101,13 +10986,12 @@
 	culture="bedouin_arabic"
 	father=146022
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	749.8.27={
-		death=yes
+		death = yes
 	}
 }
-
 188575 = {
 	name="Al-Hasan"
 	dynasty=602 # Taid or al-Ta'i
@@ -11115,13 +10999,12 @@
 	culture="bedouin_arabic"
 	father=188574
 	713.1.1={
-		birth=yes
+		birth = yes
 	}
 	797.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188576 = {
 	name="Muhammad"
 	dynasty=602 # Taid or al-Ta'i
@@ -11129,13 +11012,12 @@
 	culture="bedouin_arabic"
 	father=188575
 	738.1.1={
-		birth=yes
+		birth = yes
 	}
 	815.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188577 = {
 	name="Ali"
 	dynasty=602 # Taid or al-Ta'i
@@ -11143,13 +11025,12 @@
 	culture="bedouin_arabic"
 	father=188575
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	815.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188578 = {
 	name="Sa'id"
 	dynasty=602 # Taid or al-Ta'i
@@ -11157,13 +11038,12 @@
 	culture="bedouin_arabic"
 	father=188575
 	742.1.1={
-		birth=yes
+		birth = yes
 	}
 	815.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188579 = {
 	name="Abdallah"
 	dynasty=602 # Taid or al-Ta'i
@@ -11171,13 +11051,12 @@
 	culture="bedouin_arabic"
 	father=188602
 	749.1.1={
-		birth=yes
+		birth = yes
 	}
 	815.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188690 = {
 	# Governor of Khorasan, 780 & 782
 	name="al-Musayyab"
@@ -11185,13 +11064,12 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	730.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188691 = {
 	name="Zuhayr"
 	dynasty=1042152 # Dabbid
@@ -11199,13 +11077,12 @@
 	culture="bedouin_arabic"
 	father=188690
 	755.1.1={
-		birth=yes
+		birth = yes
 	}
 	820.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188692 = {
 	name="al-Harith"
 	dynasty=101727 # Abbasid
@@ -11213,13 +11090,12 @@
 	culture="bedouin_arabic"
 	father=33901
 	665.1.1={
-		birth=yes
+		birth = yes
 	}
 	715.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188693 = {
 	name="al-Sariyy"
 	dynasty=101727 # Abbasid
@@ -11227,13 +11103,12 @@
 	culture="bedouin_arabic"
 	father=188692
 	705.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188696 = {
 	name="Hammad" # general that fought Ustadhsis
 	dynasty=1042155 # Amrid
@@ -11241,10 +11116,10 @@
 	culture="bedouin_arabic"
 	father=188692
 	715.1.1={
-		birth=yes
+		birth = yes
 	}
 	775.1.1={
-		death=yes
+		death = yes
 	}
 }
 146014 = {
@@ -11260,7 +11135,6 @@
 		death="735.1.1"
 	}
 }
-
 146015 = {
 	name="Asid"
 	dynasty=1022357
@@ -11274,7 +11148,6 @@
 		death="754.1.1"
 	}
 }
-
 146016 = {
 	name="Yazid"
 	dynasty=1022357
@@ -11288,7 +11161,6 @@
 		death="783.1.1"
 	}
 }
-
 146017 = {
 	name="Rashid"
 	dynasty=1022357
@@ -11302,7 +11174,6 @@
 		death="782.1.1"
 	}
 }
-
 146018 = {
 	name="Khalid"
 	dynasty=1022357
@@ -11316,7 +11187,6 @@
 		death="779.1.1"
 	}
 }
-
 146019 = {
 	name="Ahmad"
 	dynasty=1022357
@@ -11330,7 +11200,6 @@
 		death="794.1.1"
 	}
 }
-
 146020 = {
 	name="Yusuf"
 	dynasty=1022357
@@ -11344,7 +11213,6 @@
 		death="814.1.1"
 	}
 }
-
 146021 = {
 	name="Abdallah"
 	dynasty=1022357
@@ -11358,7 +11226,6 @@
 		death="819.1.1"
 	}
 }
-
 146022 = {
 	name="Shabib"
 	dynasty=602 # Taid or al-Ta'i
@@ -11366,13 +11233,12 @@
 	culture="bedouin_arabic"
 
 	670.1.1={
-		birth=yes
+		birth = yes
 	}
 	735.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146023 = {
 	name="Subai"
 	dynasty=1022358 # Kindid or al-Kindi
@@ -11380,13 +11246,12 @@
 	culture="bedouin_arabic"
 
 	723.1.1={
-		birth=yes
+		birth = yes
 	}
 	778.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146024 = {
 	name="Salih"
 	dynasty=1022358
@@ -11394,13 +11259,12 @@
 	culture="bedouin_arabic"
 	father=146023
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	795.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146025 = {
 	name="Amer"
 	dynasty=101731 # Hilalid or al-Hilali
@@ -11408,13 +11272,12 @@
 	culture="bedouin_arabic"
 	father=146026
 	760.1.1={
-		birth=yes
+		birth = yes
 	}
 	825.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146026 = {
 	name="Zufar"
 	dynasty=101731
@@ -11422,13 +11285,12 @@
 	culture="bedouin_arabic"
 	father=146027
 	741.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146027 = {
 	name="Asim"
 	dynasty=101731
@@ -11436,13 +11298,12 @@
 	culture="bedouin_arabic"
 
 	713.1.1={
-		birth=yes
+		birth = yes
 	}
 	767.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146028 = {
 	name="Yahya"
 	dynasty=1022359 # Hajurid or al-Hajuri
@@ -11450,13 +11311,12 @@
 	culture="bedouin_arabic"
 
 	719.1.1={
-		birth=yes
+		birth = yes
 	}
 	777.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146029 = {
 	name="Mayuf"
 	dynasty=1022359
@@ -11464,13 +11324,12 @@
 	culture="bedouin_arabic"
 	father=146028
 	739.1.1={
-		birth=yes
+		birth = yes
 	}
 	805.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146030 = {
 	name="Asim"
 	dynasty=101862 # Uqaylid or al-Uqayli
@@ -11478,13 +11337,12 @@
 	culture="bedouin_arabic"
 
 	610.1.1={
-		birth=yes
+		birth = yes
 	}
 	658.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146031 = {
 	name="Rabi'a"
 	dynasty=101862
@@ -11492,13 +11350,12 @@
 	culture="bedouin_arabic"
 	father=146030
 	627.1.1={
-		birth=yes
+		birth = yes
 	}
 	656.11.7={
-		death=yes
+		death = yes
 	}
 }
-
 146032 = {
 	name="Muslim"
 	dynasty=101862
@@ -11506,13 +11363,12 @@
 	culture="bedouin_arabic"
 	father=146031
 	655.1.1={
-		birth=yes
+		birth = yes
 	}
 	732.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146033 = {
 	name="Ishaq"
 	dynasty=101862
@@ -11520,13 +11376,12 @@
 	culture="bedouin_arabic"
 	father=146032
 	708.1.1={
-		birth=yes
+		birth = yes
 	}
 	766.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146034 = {
 	name="Abd al-Malik"
 	dynasty=101862
@@ -11534,13 +11389,12 @@
 	culture="bedouin_arabic"
 	father=146032
 	710.1.1={
-		birth=yes
+		birth = yes
 	}
 	772.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146035 = {
 	name="Isa"
 	dynasty=101862
@@ -11548,13 +11402,12 @@
 	culture="bedouin_arabic"
 	father=146032
 	715.1.1={
-		birth=yes
+		birth = yes
 	}
 	782.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146036 = {
 	name="Bakkar"
 	dynasty=101862
@@ -11562,13 +11415,12 @@
 	culture="bedouin_arabic"
 	father=146032
 	725.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146037 = {
 	name="Amir"
 	dynasty=101862
@@ -11576,13 +11428,12 @@
 	culture="bedouin_arabic"
 	father=146036
 	755.1.1={
-		birth=yes
+		birth = yes
 	}
 	817.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146054 = {
 	name="Amr"
 	dynasty=1022364 # Al-Harashi or Harashid
@@ -11590,13 +11441,12 @@
 	culture="bedouin_arabic"
 
 	670.1.1={
-		birth=yes
+		birth = yes
 	}
 	721.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146055 = {
 	name="Sa'id"
 	dynasty=1022364
@@ -11604,13 +11454,12 @@
 	culture="bedouin_arabic"
 	father=146054
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	749.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146056 = {
 	name="Yazid"
 	dynasty=1022364
@@ -11618,13 +11467,12 @@
 	culture="bedouin_arabic"
 	father=146055
 	710.1.1={
-		birth=yes
+		birth = yes
 	}
 	744.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146057 = {
 	name="Nadr"
 	dynasty=1022364
@@ -11632,13 +11480,12 @@
 	culture="bedouin_arabic"
 	father=146055
 	715.1.1={
-		birth=yes
+		birth = yes
 	}
 	752.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146058 = {
 	name="Anbasa"
 	dynasty=1022364
@@ -11646,13 +11493,12 @@
 	culture="bedouin_arabic"
 	father=146055
 	735.1.1={
-		birth=yes
+		birth = yes
 	}
 	798.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146059 = {
 	name="Yahya"
 	dynasty=1022364
@@ -11660,13 +11506,12 @@
 	culture="bedouin_arabic"
 	father=146055
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	807.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146060 = {
 	name="Salih"
 	dynasty=101727 # Abbasid
@@ -11675,13 +11520,12 @@
 	father=33902
 	trait="sayyid"
 	711.1.1={
-		birth=yes
+		birth = yes
 	}
 	769.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146061 = {
 	name="Abdallah"
 	dynasty=101727
@@ -11690,13 +11534,12 @@
 	father=33902
 	trait="sayyid"
 	712.1.1={
-		birth=yes
+		birth = yes
 	}
 	764.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146062 = {
 	name="Al-Fadl"
 	dynasty=101727
@@ -11705,13 +11548,12 @@
 	father=146060
 	trait="sayyid"
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	789.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146063 = {
 	name="Ibrahim"
 	dynasty=101727
@@ -11720,13 +11562,12 @@
 	father=146060
 	trait="sayyid"
 	742.1.1={
-		birth=yes
+		birth = yes
 	}
 	793.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146064 = {
 	name="Abd al-Malik"
 	dynasty=101727
@@ -11735,13 +11576,12 @@
 	father=146060
 	trait="sayyid"
 	750.1.1={
-		birth=yes
+		birth = yes
 	}
 	812.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146065 = {
 	name="Abdallah"
 	dynasty=101727
@@ -11750,13 +11590,12 @@
 	father=146060
 	trait="sayyid"
 	755.1.1={
-		birth=yes
+		birth = yes
 	}
 	813.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146066 = {
 	name="Abd ar-Rahman"
 	dynasty=101727
@@ -11765,13 +11604,12 @@
 	father=146064
 	trait="sayyid"
 	768.1.1={
-		birth=yes
+		birth = yes
 	}
 	813.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146067 = {
 	name="Za'ida"
 	dynasty=1029123 # Al-Shaybani or Shaybanid
@@ -11779,13 +11617,12 @@
 	culture="bedouin_arabic"
 
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	747.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146068 = {
 	name="Za'ida"
 	dynasty=1029123
@@ -11793,13 +11630,12 @@
 	culture="bedouin_arabic"
 	father=188604
 	743.1.1={
-		birth=yes
+		birth = yes
 	}
 	801.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146069 = {
 	name="Sharahil"
 	dynasty=1029123
@@ -11807,13 +11643,12 @@
 	culture="bedouin_arabic"
 	father=188604
 	755.1.1={
-		birth=yes
+		birth = yes
 	}
 	819.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146070 = {
 	name="Mazyad"
 	dynasty=1029123
@@ -11821,13 +11656,12 @@
 	culture="bedouin_arabic"
 	father=146067
 	714.1.1={
-		birth=yes
+		birth = yes
 	}
 	761.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146071 = {
 	name="Yazid"
 	dynasty=1029123
@@ -11837,13 +11671,12 @@
 	trait="diligent"
 	father=146070
 	735.1.1={
-		birth=yes
+		birth = yes
 	}
 	801.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146072 = {
 	name="Ahmad"
 	dynasty=1029123
@@ -11851,13 +11684,12 @@
 	culture="bedouin_arabic"
 	father=146070
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	795.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146073 = {
 	name="Salil"
 	dynasty=1029123
@@ -11865,13 +11697,12 @@
 	culture="bedouin_arabic"
 	father=146072
 	766.1.1={
-		birth=yes
+		birth = yes
 	}
 	822.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146074 = {
 	name="Asad"
 	dynasty=1029123
@@ -11879,13 +11710,12 @@
 	culture="bedouin_arabic"
 	father=146071
 	752.1.1={
-		birth=yes
+		birth = yes
 	}
 	816.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146075 = {
 	name="Muhammad"
 	dynasty=1029123
@@ -11893,13 +11723,12 @@
 	culture="bedouin_arabic"
 	father=146071
 	765.1.1={
-		birth=yes
+		birth = yes
 	}
 	823.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146076 = {
 	name="Khalid"
 	dynasty=1029123
@@ -11907,14 +11736,13 @@
 	culture="bedouin_arabic"
 	father=146071
 	780.1.1={
-		birth=yes
+		birth = yes
 	}
 	844.1.1={
 		dynasty=1029124
 		death=yes
 	}
 }
-
 146077 = {
 	name="Muhammad"
 	dynasty=1029123
@@ -11922,16 +11750,15 @@
 	culture="bedouin_arabic"
 	father=146076
 	817.1.1={
-		birth=yes
+		birth = yes
 	}
 	844.1.1={
 		dynasty=1029124
 	}
 	882.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146078 = {
 	name="Yazid"
 	dynasty=1029123
@@ -11939,16 +11766,15 @@
 	culture="bedouin_arabic"
 	father=146076
 	819.1.1={
-		birth=yes
+		birth = yes
 	}
 	844.1.1={
 		dynasty=1029124
 	}
 	881.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146126 = {
 	name="Ibrahim"
 	dynasty=101727 # Abbasid
@@ -11957,13 +11783,12 @@
 	father=33902
 	trait="sayyid"
 	714.1.1={
-		birth=yes
+		birth = yes
 	}
 	762.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146127 = {
 	name="Abd al-Bahhab"
 	dynasty=101727
@@ -11972,13 +11797,12 @@
 	father=146126
 	trait="sayyid"
 	734.1.1={
-		birth=yes
+		birth = yes
 	}
 	781.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146132 = {
 	name="Muhammad"
 	dynasty=1022366 # Taglibid or al-Taglibi 
@@ -11986,13 +11810,12 @@
 	culture="bedouin_arabic"
 
 	722.1.1={
-		birth=yes
+		birth = yes
 	}
 	773.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146133 = {
 	name="Fuad"
 	dynasty=1022366
@@ -12000,13 +11823,12 @@
 	culture="bedouin_arabic"
 	father=146132
 	741.1.1={
-		birth=yes
+		birth = yes
 	}
 	803.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146134 = {
 	name="Musa"
 	dynasty=1022366
@@ -12014,13 +11836,12 @@
 	culture="bedouin_arabic"
 	father=146132
 	743.1.1={
-		birth=yes
+		birth = yes
 	}
 	807.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146135 = {
 	name="Sauq"
 	dynasty=1022366
@@ -12028,13 +11849,12 @@
 	culture="bedouin_arabic"
 	father=146134
 	765.1.1={
-		birth=yes
+		birth = yes
 	}
 	822.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 146136 = {
 	name="Malik"
 	dynasty=1022366
@@ -12042,10 +11862,10 @@
 	culture="bedouin_arabic"
 	father=146135
 	801.1.1={
-		birth=yes
+		birth = yes
 	}
 	866.1.1={
-		death=yes
+		death = yes
 	}
 }
 188653 = {
@@ -12056,10 +11876,10 @@
 	father=188630
 	trait=skilled_tactician
 	753.1.1={
-		birth=yes
+		birth = yes
 	}
 	821.1.1={
-		death=yes
+		death = yes
 	}
 }
 188603 = {
@@ -12069,13 +11889,12 @@
 	culture="bedouin_arabic"
 	father=188685
 	732.1.1={
-		birth=yes
+		birth = yes
 	}
 	785.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188680 = {
 	name="Maslama" # governor of Egypt in 789
 	dynasty=1042147
@@ -12083,26 +11902,24 @@
 	culture="bedouin_arabic"
 	father=188685
 	737.1.1={
-		birth=yes
+		birth = yes
 	}
 	795.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188685 = {
 	name="Yahya"
 	dynasty=1042147
 	religion="sunni"
 	culture="bedouin_arabic"
-	710.1.1={
-		birth=yes
+	715.1.1={
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188683 = {
 	# general who fought al-Muqanna
 	name="Uqbah" 
@@ -12110,10 +11927,10 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	725.1.1={
-		birth=yes
+		birth = yes
 	}
 	783.1.1={
-		death=yes
+		death = yes
 	}
 }
 188649 = {
@@ -12124,10 +11941,10 @@
 	trait=fortune_builder
 	trait=greedy
 	738.1.1={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
 188607 = {
@@ -12136,10 +11953,10 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	736.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
 188667 = {
@@ -12149,13 +11966,12 @@
 	culture="bedouin_arabic"
 	father=33902
 	703.1.1={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188668 = {
 	name="Musa"
 	dynasty=101727 # Abbasid
@@ -12164,13 +11980,12 @@
 	father=33902
 	trait="sayyid"
 	695.1.1={
-		birth=yes
+		birth = yes
 	}
 	760.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188669 = {
 	name="Isa"
 	dynasty=101727 # Abbasid
@@ -12179,13 +11994,12 @@
 	father=188668
 	trait="sayyid"
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	783.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188670 = {
 	name="Ubaydallah"
 	dynasty=101727 # Abbasid
@@ -12194,13 +12008,12 @@
 	father=188612
 	trait="sayyid"
 	732.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188671 = {
 	name="Ubaydallah"
 	dynasty=101727 # Abbasid
@@ -12209,13 +12022,12 @@
 	father=33900
 	trait="sayyid"
 	625.1.1={
-		birth=yes
+		birth = yes
 	}
 	700.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188672 = {
 	name="Asma"
 	female=yes
@@ -12225,13 +12037,12 @@
 	father=33901
 	trait="sayyid"
 	660.1.1={
-		birth=yes
+		birth = yes
 	}
 	715.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188673 = {
 	name="Abdullah"
 	dynasty=101727 # Abbasid
@@ -12240,13 +12051,12 @@
 	father=188671
 	trait="sayyid"
 	660.1.1={
-		birth=yes
+		birth = yes
 	}
 	710.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188674 = {
 	name="Ubaydallah" # made up name
 	dynasty=101727 # Abbasid
@@ -12255,13 +12065,12 @@
 	father=188673
 	trait="sayyid"
 	700.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188675 = {
 	name="Isa" # made up name
 	dynasty=101727 # Abbasid
@@ -12270,10 +12079,10 @@
 	father=188673
 	trait="sayyid"
 	704.1.1={
-		birth=yes
+		birth = yes
 	}
 	772.1.1={
-		death=yes
+		death = yes
 	}
 }
 188648 = {
@@ -12282,15 +12091,13 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	father=34002
-	trait="sayyid"
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	820.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188697 = {
 	name="Abu-Dulaf" 
 	dynasty=809 # Dulafid
@@ -12298,13 +12105,12 @@
 	culture="bedouin_arabic"
 	father=188698
 	785.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188698 = {
 	name="Isa" 
 	dynasty=809 # Dulafid
@@ -12312,36 +12118,34 @@
 	culture="bedouin_arabic"
 	father=188699
 	745.1.1={
-		birth=yes
+		birth = yes
 	}
 	810.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188699 = {
 	name="Edris" 
 	dynasty=809 # Dulafid
 	religion="sunni"
 	culture="bedouin_arabic"
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	765.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188725 = {
 	name="Ramadan" # fictitious holder of Qazim
 	dynasty=1042158
 	religion="sunni"
 	culture="bedouin_arabic"
 	726.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
 188732 = {
@@ -12350,13 +12154,12 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	739.8.12={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188733 = {
 	name="Yu'fir" # fictitious
 	dynasty=1042164 # Yufirid
@@ -12364,13 +12167,12 @@
 	culture="bedouin_arabic"
 	father=188732
 	765.1.1={
-		birth=yes
+		birth = yes
 	}
 	825.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188734 = {
 	name="Abd ar-Rahman"
 	dynasty=1042164 # Yufirid
@@ -12378,13 +12180,12 @@
 	culture="bedouin_arabic"
 	father=188733
 	790.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188735 = {
 	name="Yu'fir"
 	dynasty=1042164 # Yufirid
@@ -12392,26 +12193,24 @@
 	culture="bedouin_arabic"
 	father=188734
 	815.1.1={
-		birth=yes
+		birth = yes
 	}
 	872.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188736 = {
 	name="Muhammad"
 	dynasty=1042165 # Ziyadid
 	religion="sunni"
 	culture="bedouin_arabic"
 	790.1.1={
-		birth=yes
+		birth = yes
 	}
 	859.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188737 = {
 	name="Ibrahim"
 	dynasty=1042165 # Ziyadid
@@ -12419,13 +12218,12 @@
 	culture="bedouin_arabic"
 	father=188736
 	830.1.1={
-		birth=yes
+		birth = yes
 	}
 	896.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188738 = {
 	name="Ziyad"
 	dynasty=1042165 # Ziyadid
@@ -12433,13 +12231,12 @@
 	culture="bedouin_arabic"
 	father=188737
 	855.1.1={
-		birth=yes
+		birth = yes
 	}
 	902.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188739 = {
 	name="Ishaq"
 	dynasty=1042165 # Ziyadid
@@ -12447,13 +12244,12 @@
 	culture="bedouin_arabic"
 	father=188737
 	895.1.1={
-		birth=yes
+		birth = yes
 	}
 	981.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188740 = {
 	name="Abdallah"
 	dynasty=1042165 # Ziyadid
@@ -12461,13 +12257,12 @@
 	culture="bedouin_arabic"
 	father=188739
 	935.1.1={
-		birth=yes
+		birth = yes
 	}
 	1012.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188741 = {
 	name="Ibrahim"
 	dynasty=1042165 # Ziyadid
@@ -12475,65 +12270,60 @@
 	culture="bedouin_arabic"
 	father=188740
 	960.1.1={
-		birth=yes
+		birth = yes
 	}
 	1018.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188742 = {
 	name="Talib" # fictitious holder of Taizz
 	dynasty=1042166 # Hashid
 	religion="sunni"
 	culture="bedouin_arabic"
 	738.1.1={
-		birth=yes
+		birth = yes
 	}
 	795.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188743 = {
 	name="Qawurd" # fictitious holder of Bayid
 	dynasty=1042167 # Bakil
 	religion="sunni"
 	culture="bedouin_arabic"
 	732.1.1={
-		birth=yes
+		birth = yes
 	}
 	793.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188744 = {
 	name="Yusuf" # fictitious holder of Aden
 	dynasty=1042168 # Modharite
 	religion="shiite"
 	culture="bedouin_arabic"
 	728.1.1={
-		birth=yes
+		birth = yes
 	}
 	785.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188745 = {
 	name="Youkhanna" # fictitious holder of Mahra
 	dynasty=1042169 # Kathirid
 	religion="sunni"
 	culture="bedouin_arabic"
 	735.1.1={
-		birth=yes
+		birth = yes
 	}
 	785.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188746 = {
 	name="Arwa" # wife of al-Mansur Abbasid
 	female=yes
@@ -12542,13 +12332,12 @@
 	culture="bedouin_arabic"
 	father=188749
 	716.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188747 = {
 	name="Ja'far"
 	dynasty=101727
@@ -12558,13 +12347,12 @@
 	mother=188746
 	trait="sayyid"
 	738.1.1={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188748 = {
 	name="Yazid" # governor of Yemen and Basra
 	dynasty=1042170 # Arwadid
@@ -12572,23 +12360,22 @@
 	culture="bedouin_arabic"
 	father=188749
 	718.1.1={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188749 = {
 	name="Mansur"
 	dynasty=1042170 # Arwadid
 	religion="sunni"
 	culture="bedouin_arabic"
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	740.1.1={
-		death=yes
+		death = yes
 	}
 }
 210001  = {
@@ -12669,7 +12456,6 @@
 		death="720.1.1"
 	}
 }
-
 210007    = {
 	name="Mu'awiyah"
 	dynasty=1048001  #Muhallabid
@@ -12696,7 +12482,6 @@
 		death="755.1.1"
 	}
 }
-
 210009 = {
 	name="Yazid"
 	dynasty=1048001 #Muhallabid
@@ -12774,8 +12559,8 @@
 	769.1.1={
 		add_claim = d_tripolitania
 	}
-	772.1.1={
-		death="772.1.1"
+	771.1.1={
+		death="771.1.1"
 	}
 }
 210015 = {
@@ -12787,8 +12572,8 @@
 	703.1.1={
 		birth="703.1.1"
 	}
-	771.1.6={
-		death="771.1.6"
+	771.1.1={
+		death="771.1.1"
 	}
 }
 210016 = {
@@ -12830,41 +12615,16 @@
 		death="820.1.1"
 	}
 }
-210019    = {
-	name="Hudayj al-Tujibi"
-	dynasty= 1048002 #Tujibid
-	religion="sunni"
-	culture="bedouin_arabic"
-	640.1.1={
-		birth="640.1.1"
-	}
-	712.1.2={
-		death="712.1.2"
-	}
-}
-210020  = {
-	name="Mu'awiyah"
-	dynasty=1048002 # Tujibid
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=210019
-	675.1.1={
-		birth="675.1.1"
-	}
-	730.1.1={
-		death="730.1.1"
-	}
-}
 188763 = {
 	name="al-Julanda"	
 	dynasty=1042181
 	religion="ibadi"
 	culture="bedouin_arabic"
 	711.1.1={
-		birth=yes
+		birth = yes
 	}
 	775.1.1={
-		death=yes
+		death = yes
 	}
 }
 194176 = {
@@ -12874,1129 +12634,212 @@
 	culture="bedouin_arabic"
 	father = 188763
 	734.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	790.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
 188764 = {
 	name="Ka'ab"
 	dynasty=1042182
 	religion="ibadi"
 	culture="bedouin_arabic"
 	733.1.1={
-		birth=yes
+		birth = yes
 	}
 	785.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188765 = {
 	name="Burhanaddin"	# fictitious holder of Dhofar
 	dynasty=1042183
 	religion="ibadi"
 	culture="bedouin_arabic"
 	738.1.1={
-		birth=yes
+		birth = yes
 	}
 	796.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188766 = {
 	name="Jalil"	# fictitious holder of Dhu Zabi
 	dynasty=1042184
 	religion="ibadi"
 	culture="bedouin_arabic"
 	728.1.1={
-		birth=yes
+		birth = yes
 	}
 	779.1.1={
-		death=yes
+		death = yes
 	}
-}# Mod Characters
-# Bedouin: 1.000.250.500 - 1.000.250.599
-
-#Sulayhids
-
-1000250500={
-
-	name="Muhammad" # al-Sulayhi
-	dynasty=590
-	religion="shiite"
+}
+32891 = {
+	name="Dunya-huz" 
+	dynasty=7273
+	religion="sunni"
 	culture="bedouin_arabic"
-	trait="tough_soldier"
-
-
-	970.1.1={
-		birth="970.1.1" #estimate
-	}
-	1047.1.1={
-		death="1047.1.1"
-	}
-}
-
-1000250501={
-	name="Ali" # al-Sulayhi, almost certainly was already Sultan during 1066 start
-	dynasty=590
-	religion="shiite"
-	culture="bedouin_arabic"
-	trait="tough_soldier"
-	father=1000250500
-
-	1010.1.1={
-		birth="1010.1.1"
-	}
-	1037.1.1={
-		add_spouse=1000250502
-	}
-	1067.1.1={
-		death={
-			death_reason=death_murder
-		}
-	}
-}
-
-
-1000250502={
-
-name="Asma" #Mother of Ahmad al-Sulayhi, guardian of Arwa al-Sulayhi
-dynasty=590
-religion="shiite"
-culture="bedouin_arabic"
-female=yes
-1020.1.1={
-birth="1020.1.1"
-}
-1087.1.1={
-death="1087.1.1"
-}
-
-}
-
-1000250503={
-
-	name="Ahmad"
-	dynasty=590
-	religion="shiite"
-	culture="bedouin_arabic"
-	father=1000250501
-	mother=1000250502
-	1038.1.1={
-		birth="1038.1.1"
-	}
-		1066.1.1={
-		add_spouse=1000250505 #Arwa
-	}
-	1067.1.1={
-		trait="incapable" #passed regency on to his wife, Arwa
-	}
-	1087.1.1={
-		death="1087.1.1"
-	}
-}
-
-1000250504={
-
-	name="Ahmad" #Father of Arwa al-Sulayhi
-	dynasty=590
-	religion="shiite"
-	culture="bedouin_arabic"
-	father=1000250500
-	1022.1.1={
-		birth="1022.1.1" #estimate
-	}
-	1050.1.1={
-		death="1050.1.1" #estimate
-	}
-}
-
-1000250505={
-
-name="Arwa" #Arwa bint Ahmad, Arwa al-Sulayhi
-dynasty=590
-religion="shiite"
-culture="bedouin_arabic"
-father=1000250504
-trait=hafiz
-trait=poet
-trait=fair
-trait=quick
-trait=fortune_builder
-trait=patient
-trait=ambitious
-trait=brave
-female=yes
-	1048.1.1={
-		birth="1048.1.1"
-	}
-	1091.1.1={
-		trait=celibate
-	}
-	1136.1.1={
-		death="1136.1.1"
-	}
-}
-
-1000250506={
-
-	name="Saba"
-	dynasty=590
-	religion="shiite"
-	culture="bedouin_arabic"
-	1050.1.1={
-		birth="1050.1.1"
-	}
-	1091.1.1={
-	add_spouse=1000250505 #Arwa
-	}
-	1101.1.1={
-		death="1101.1.1"
-	}
-}
-
-#Rassids, return to theocratic state
-
-1000250550 = {
-
-	name = "Sulayman"
-	dynasty = 576
-	religion = "shiite"
-	culture = "bedouin_arabic"
-	trait = "zealous"
-	1106.1.1 = {
-		birth = "1106.1.1"
-	}
-	1171.1.1 = {
-		death = "1171.1.1"
-	}
-}
-
-1000250551={
-
-	name="Abdallah"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1166.1.1={
-		birth="1166.1.1"
-	}
-	1217.1.1={
-		death="1217.1.1"
-	}
-}
-
-1000250552={
-
-	name="Muhammad"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	father=1000250551
-	1217.1.1={
-		birth="1217.1.1"
-	}
-	1226.1.1={
-		death="1226.1.1"
-	}
-}
-
-1000250553={
-
-	name="Yahya"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1217.1.1={
-		birth="1217.1.1"
-	}
-	1239.1.1={
-		death="1239.1.1"
-	}
-}
-
-1000250554={
-
-	name="Ahmad"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1248.1.1={
-		birth="1248.1.1"
-	}
-	1258.1.1={
-		death="1258.1.1"
-	}
-}
-
-
-1000250555={
-
-	name="Wahhas"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1258.1.1={
-		birth="1258.1.1"
+	1200.1.1={
+		birth="1200.1.1"
 	}
 	1260.1.1={
 		death="1260.1.1"
 	}
 }
+3206={
+	name="al-Mansur" #AKA: Muhammad al-Mansur
+	dynasty=569
 
-1000250556={
+	martial=9
 
-	name="Muhammad"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1261.1.1={
-		birth="1261.1.1"
+	religion=sunni
+	culture=bedouin_arabic
+
+	trait=underhanded_rogue
+
+	938.1.1={
+		birth = yes
 	}
-	1296.1.1={
-		death="1296.1.1"
+	981.1.1={
+		add_spouse=70125
 	}
-}
-
-1000250557={
-
-	name="Al-Mutahhar"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1256.1.1={
-		birth="1256.1.1"
-	}
-	1298.1.1={
-		death="1298.1.1"
+	1002.8.10={
+		death = yes
 	}
 }
+3910={
+	name="Abd-al-Rahman"
+	dynasty=572
 
+	father=45027
 
-1000250558={
+	religion=sunni
+	culture=bedouin_arabic
 
-	name="Muhammad"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	father=1000250557
-	1275.1.1={
-		birth="1275.1.1"
+	1028.1.1={
+		birth = yes
 	}
-	1328.10.28={
-		death="1328.10.28"
-	}
-}
-
-1000250559={
-
-	name="Yahya"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1328.1.1={
-		birth="1328.1.1"
-	}
-	1346.1.1={
-		death="1346.1.1"
+	1081.1.1={
+		death = yes
 	}
 }
+20852={
+	name="Abd-al-Malik"
+	dynasty=101607
 
-1000250560={
+	father = 45001
 
-	name="Ali"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1328.1.1={
-		birth="1328.1.1"
+	religion=sunni
+	culture=bedouin_arabic
+
+	1035.1.1={
+		birth = yes
 	}
-	1329.1.1={
-		death="1329.1.1"
+	1078.1.1={
+		death = yes
 	}
 }
+45000={
+	name="Abd-al-Hazm"
+	dynasty=101607
 
-1000250561={
+	religion=sunni
+	culture=bedouin_arabic
 
-	name="Ahmad"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1309.1.1={
-		birth="1309.1.1" #estimate
+	991.1.1={
+		birth = yes
 	}
-	1349.1.1={
-		death="1349.1.1"
+	1043.1.1={
+		death = yes
 	}
 }
-1000250562={
-	name="Abul-Hashim" #Client Sharif of Sulayhi
-	religion="shiite"
-	culture="bedouin_arabic"
-	dynasty=1000124000
-	1021.1.1={
-		birth="1021.1.1" #estimate
+45002={
+	name="Abd-al-Rahman"
+	dynasty=101607
+	
+	father = 45001
+
+	religion=sunni
+	culture=bedouin_arabic
+
+	1034.1.1={
+		birth = yes
 	}
-	1094.1.1={
-		death="1094.1.1"
+	1085.1.1={
+		death = yes
 	}
 }
+45025={
+	name="Abd-al-Aziz"
+	dynasty=569
+	
+	father=73226
 
-1000250563={
-	name="Al-Thalab"
-	religion="shiite"
-	culture="bedouin_arabic"
-	dynasty=1000124000
-	1021.1.1={
-		birth="1021.1.1" #estimate
-	}
-	1101.1.1={
-		death="1101.1.1"
-	}
-}
+	religion=sunni
+	culture=bedouin_arabic
 
-1000250564={
-
-	name="Al-Hasan"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1262.1.1={
-		birth="1262.1.1"
+	999.1.1={
+		birth = yes
 	}
-	1271.1.1={
-		death="1271.1.1"
+	1061.1.1={
+		death = yes
 	}
 }
+45026={
+	name="Abd-al-Malik"
+	dynasty=569
+	
+	father=45025
 
-1000250565={
+	religion=sunni
+	culture=bedouin_arabic
 
-	name="Ibhrahim"
-	dynasty=576
-	religion="shiite"
-	culture="bedouin_arabic"
-	1272.1.1={
-		birth="1272.1.1"
+	1020.1.1={
+		birth = yes
 	}
-	1296.1.1={
-		death="1296.1.1"
+	1060.1.1={
+		add_spouse=20858
 	}
-}
-
-1000250566={
-
-	name="Mohammed"
-	dynasty=590
-	mother=1000250505
-	father=1000250503
-	religion="shiite"
-	culture="bedouin_arabic"
-	1067.1.1={
-		birth="1067.1.1"
+	1065.1.1={
+		add_claim=d_valencia
 	}
-	1137.1.1={
-		death="1137.1.1"
-	}
-}
-
-1000250567={
-
-	name="Ali"
-	dynasty=590
-	mother=1000250505
-	father=1000250503
-	religion="shiite"
-	culture="bedouin_arabic"
 	1069.1.1={
-		birth="1069.1.1"
-	}
-	1139.1.1={
-		death="1139.1.1"
+		death = yes
 	}
 }
+200054={
+	name="Suleyman"
+	dynasty=1046007
 
-1000250568={
+	religion=sunni
+	culture=bedouin_arabic
 
-	name="Fatema"
-	dynasty=590
-	mother=1000250505
-	father=1000250503
-	female=yes
-	religion="shiite"
-	culture="bedouin_arabic"
-	1071.1.1={
-		birth="1071.1.1"
+	736.1.1={
+		birth = yes
 	}
-	1141.1.1={
-		death="1141.1.1"
+	793.1.1={
+		death = yes
 	}
 }
-1000250569={
-
-	name="Umm Hamdan"
-	dynasty=590
-	mother=1000250505
-	father=1000250503
-	female=yes
-	religion="shiite"
-	culture="bedouin_arabic"
-	1073.1.1={
-		birth="1073.1.1"
+217320 = {
+	name = Qutayba
+	dynasty = 1051142
+	religion = sunni
+	culture = bedouin_arabic
+	
+	trait = brilliant_strategist
+	trait = diligent
+	trait = brave
+	trait = quick
+	
+	669.4.17 = {
+		birth = yes
 	}
-	1143.1.1={
-		death="1143.1.1"
-	}
-}
-1000250570={
-	name="al-Hasan"
-	dynasty=1000124166
-	religion="sunni"
-	culture="bedouin_arabic"
-	980.1.1={
-		birth="980.1.1"
-	}
-	1025.1.1={
-		death="1025.1.1"
+	715.9.22 = {
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
-1000250571={
-	name="Muqallad"
-	dynasty=101862
-	religion="shiite"
-	culture="bedouin_arabic"
-	958.1.1={
-		birth="958.1.1"
-	}
-	1001.1.1={
-		death="1001.1.1"
-	}
-}
-1000250572={
-	name="Said"
-	dynasty=1000124172
-	religion="shiite"
-	culture="bedouin_arabic"
-	952.1.1={
-		birth="952.1.1"
-	}
-	1002.1.1={
-		death="1002.1.1"
-	}
-}
-1000250573={
-	name="Abul Hasan"
-	dynasty=1000124172
-	religion="shiite"
-	culture="bedouin_arabic"
-	father=1000250572
-	980.1.1={
-		birth="980.1.1"
-	}
-	1004.1.1={
-		death="1004.1.1"
-	}
-}
-1000250574={
-	name="Abul Ma'ali"
-	dynasty=1000124172
-	religion="shiite"
-	father=1000250572
-	culture="bedouin_arabic"
-	983.1.1={
-		birth="983.1.1"
-	}
-	1004.1.1={
-		death="1004.1.1"
-	}
-}
-1000250575={
-	name="Abdullah"
-	dynasty=101731 
-	religion="sunni"
-	culture="bedouin_arabic"
-	974.1.1={
-		birth="974.1.1"
-	}
-	1014.1.1={
-		death="1014.1.1"
-	}
-}
-1000250576={
-	name="Abu'l-Futuh"
-	dynasty=1000124174 
-	religion="shiite"
-	culture="turkish"
-	979.1.1={
-		birth="979.1.1"
-	}
-	1039.1.1={
-		death="1039.1.1"
-	}
-}
-#Sharawrah Start
-1000250508 = {
-	name="Abdullah"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	760.1.1={
-		birth="760.1.1"
-	}
-	835.1.1={
-		death="835.1.1"
-	}
-}
-1000250507 = {
-	name="Talib"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father = 1000250508
-	820.1.1={
-		birth="820.1.1"
-	}
-	867.1.1={
-		death="867.1.1"
-	}
-}
-1000215000={
-	name="Shamir"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father = 1000250507
-	846.1.1={
-		birth="846.1.1"
-	}
-	900.1.1={
-		death="900.1.1"
-	}
-}
-1000215001={
-	name="Talib"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215000
-	880.1.1={
-		birth="880.1.1"
-	}
-	950.1.1={
-		death="950.1.1"
-	}
-}
-1000215002={
-	name="Mansur"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215001
-	930.1.1={
-		birth="930.1.1"
-	}
-	1000.1.1={
-		death="1000.1.1"
-	}
-}
-1000215003={
-	name="Azam"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215002
-	980.1.1={
-		birth="980.1.1"
-	}
-	1050.1.1={
-		death="1050.1.1"
-	}
-}
-1000215004={
-	name="Jabir"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215003
-	1030.1.1={
-		birth="1030.1.1"
-	}
-	1100.1.1={
-		death="1100.1.1"
-	}
-}
-1000215005={
-	name="Azam"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215004
-	1080.1.1={
-		birth="1080.1.1"
-	}
-	1150.1.1={
-		death="1150.1.1"
-	}
-}
-1000215006={
-	name="Musa"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215005
-	1130.1.1={
-		birth="1130.1.1"
-	}
-	1200.1.1={
-		death="1200.1.1"
-	}
-}
-1000215007={
-	name="Azam"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215006
-	1180.1.1={
-		birth="1180.1.1"
-	}
-	1250.1.1={
-		death="1250.1.1"
-	}
-}
-1000215008={
-	name="Halil"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215007
-	1230.1.1={
-		birth="1230.1.1"
-	}
-	1300.1.1={
-		death="1300.1.1"
-	}
-}
-1000215009={
-	name="Azam"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215008
-	1270.1.1={
-		birth="1270.1.1"
-	}
-	1350.1.1={
-		death="1350.1.1"
-	}
-}
-1000215010={
-	name="Halil"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215009
-	1324.1.1={
-		birth="1324.1.1"
-	}
-	1400.1.1={
-		death="1400.1.1"
-	}
-}
-1000215011={
-	name="Azam"
-	dynasty="1000083000"
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215009
-	1330.1.1={
-		birth="1330.1.1"
-	}
-	1400.1.1={
-		death="1400.1.1"
-	}
-}
-#Sharawrah End
-#Sharqiyah Start
-1000215062={
-	name="Mubarak"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father = 1000215074
-	846.1.1={
-		birth="846.1.1"
-	}
-	900.1.1={
-		death="900.1.1"
-	}
-}
-1000215063={
-	name="Youkhanna"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215062
-	880.1.1={
-		birth="880.1.1"
-	}
-	950.1.1={
-		death="950.1.1"
-	}
-}
-1000215064={
-	name="Mirza"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215063
-	930.1.1={
-		birth="930.1.1"
-	}
-	1000.1.1={
-		death="1000.1.1"
-	}
-}
-1000215065={
-	name="Fadil"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215064
-	980.1.1={
-		birth="980.1.1"
-	}
-	1050.1.1={
-		death="1050.1.1"
-	}
-}
-1000215066={
-	name="Isa"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215065
-	1030.1.1={
-		birth="1030.1.1"
-	}
-	1100.1.1={
-		death="1100.1.1"
-	}
-}
-1000215067={
-	name="Akin"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215066
-	1080.1.1={
-		birth="1080.1.1"
-	}
-	1150.1.1={
-		death="1150.1.1"
-	}
-}
-1000215068={
-	name="Fadil"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215067
-	1130.1.1={
-		birth="1130.1.1"
-	}
-	1200.1.1={
-		death="1200.1.1"
-	}
-}
-1000215069={
-	name="Akin"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215068
-	1180.1.1={
-		birth="1180.1.1"
-	}
-	1250.1.1={
-		death="1250.1.1"
-	}
-}
-1000215070={
-	name="Mahdi"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215069
-	1230.1.1={
-		birth="1230.1.1"
-	}
-	1300.1.1={
-		death="1300.1.1"
-	}
-}
-1000215071={
-	name="Samir"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215070
-	1270.1.1={
-		birth="1270.1.1"
-	}
-	1350.1.1={
-		death="1350.1.1"
-	}
-}
-1000215072={
-	name="Mahdi"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215071
-	1324.1.1={
-		birth="1324.1.1"
-	}
-	1400.1.1={
-		death="1400.1.1"
-	}
-}
-1000215073={
-	name="Akin"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father=1000215071
-	1330.1.1={
-		birth="1330.1.1"
-	}
-	1400.1.1={
-		death="1400.1.1"
-	}
-}
-1000215074={
-	name="Mahdi"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	father = 1000215075
-	791.1.1={
-		birth="791.1.1"
-	}
-	856.1.1={
-		death="856.1.1"
-	}
-}
-1000215075={
-	name="Ali"
-	dynasty=1000124233
-	religion="sunni"
-	culture="bedouin_arabic"
-	751.1.1={
-		birth="751.1.1"
-	}
-	820.1.1={
-		death="820.1.1"
-	}
-}
-#Sharqiyah End
-1000250577={
-	name="Ali"
-	dynasty=587
-	religion="sunni"
-	culture="bedouin_arabic"
-	975.1.1={
-		birth="975.1.1"
-	}
-	1025.1.1={
-		death="1025.1.1"
-	}
-}
-1000250578={
-	name="Murad"
-	dynasty=793
-	religion="sunni"
-	culture="levantine_arabic"
-	967.1.1={
-		birth="967.1.1"
-	}
-	1017.1.1={
-		death="1017.1.1"
-	}
-}
-1000250579={
-	name="Khalil"
-	dynasty=1000124176
-	religion="shiite"
-	culture="bedouin_arabic"
-	954.1.1={
-		birth="954.1.1"
-	}
-	1004.1.1={
-		death="1004.1.1"
-	}
-}
-1000250580={
-	name="al-Qasim"
-	religion="sunni"
-	culture="bedouin_arabic"
-	dynasty=576
-	968.1.1={
-		birth="968.1.1"
-	}
-	1003.1.1={
-		death="1003.1.1"
-	}
-}
-1000250581={
-	name="Ward"
-	religion="ibadi"
-	culture="bedouin_arabic"
-	dynasty=1000124183
-	953.1.1={
-		birth="953.1.1"
-	}
-	1003.1.1={
-		death="1003.1.1"
-	}
-}
-1000250582={
-	name="Abu'l-Muqallid"
-	religion="yazidi"
-	culture="bedouin_arabic"
-	dynasty=1000124203
-	father=1000250583
-	976.1.1={
-		birth="976.1.1"
-	}
-	1036.1.1={
-		death="1036.1.1"
-	}
-}
-1000250583={
-	name="Ahamad"
-	religion="yazidi"
-	culture="bedouin_arabic"
-	dynasty=1000124203
-	940.1.1={
-		birth="940.1.1"
-	}
-	990.1.1={
-		death="990.1.1"
-	}
-}
-1000250584={
-	name="Muhammed"
-	dynasty=100690
-	religion="ibadi"
-	culture="bedouin_arabic"
-	1040.1.1={
-		birth="1040.1.1"
-	}
-	1109.1.1={
-		death="1109.1.1"
-	}
-}
-1000250585={
-	name="Fadl"
-	dynasty=100690
-	religion="ibadi"
-	culture="bedouin_arabic"
-	father=1000250584
-	1090.1.1={
-		birth="1090.1.1"
-	}
-	1154.1.1={
-		death="1154.1.1"
-	}
-}
-1000250586 = {
-	name = "Najmah"
-	religion="shiite"
-	culture="bedouin_arabic"
-	female=yes
-	trait="zealous"
-	trait="kind"
-	747.1.1={
-		birth="747.1.1"
-	}
-	804.1.1={
-		death="804.1.1"
-	}
-}
-1000250587 = {
-	name = "Hamza"
-	dynasty=589
-	religion="shiite"
-	culture="bedouin_arabic"
-	mother=1000250586
-	father=163022
-	trait="sayyid"
-	767.10.25={
-		birth="767.10.25"
-	}
-	815.1.1={
-		death="815.1.1"
-	}
-}
-1000250588 = {
-	name = "Salih"
-	dynasty=589
-	religion="shiite"
-	culture="bedouin_arabic"
-	mother=1000250586
-	father=163022
-	trait="sayyid"
-	768.11.14={
-		birth="768.11.14"
-	}
-	810.1.1={
-		death="810.1.1"
-	}
-}
-1000250589 = {
-	name = "Hadithah"
-	religion="shiite"
-	culture="bedouin_arabic"
-	female=yes
-	829.1.1={
-		birth="829.1.1"
-	}
-	880.1.1={
-		death="880.1.1"
-	}
-}
-1000250590 = {
-	name = "Abdullah Jafar Zaki"
-	dynasty=589
-	religion="shiite"
-	culture="bedouin_arabic"
-	father=163025
-	mother=1000250589
-	trait="sayyid"
-	851.1.1={
-		birth="851.1.1"
-	}
-	890.1.1={
-		death="890.1.1"
-	}
-}
-1000250591 = {
-	name = "Aisha"
-	dynasty=589
-	religion="shiite"
-	culture="bedouin_arabic"
-	father=163025
-	mother=1000250589
-	female=yes
-	854.1.1={
-		birth="854.1.1"
-	}
-	905.1.1={
-		death="905.1.1"
-	}
-}
-

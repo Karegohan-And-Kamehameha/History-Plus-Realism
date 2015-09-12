@@ -1,0 +1,293 @@
+#######################
+#Kabars
+1000233270 = {
+	name="Qabar" # fictional
+        dynasty="1000100541" # Qabar
+	religion="tengri_pagan"
+	culture="khazar"
+	810.1.1={
+		birth = yes
+	}
+	854.1.1={
+		death=yes # Qabar revolt
+	}
+}
+1000233271 = {
+	name="Marot" # the mythical dux of Bihar.
+        dynasty="1000100541" # Qabar
+	religion="tengri_pagan"
+	culture="khazar"
+        father= 1000233270
+	martial=18
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	trait="skilled_tactician"
+	839.1.1={
+		birth = yes
+	}
+	900.1.1={
+		death = yes
+	}
+}
+1000233272 = { # fictional
+	name="Men" 
+        dynasty="1000100541" # Qabar
+	religion="tengri_pagan"
+	culture="khazar"
+        father= 1000233271
+	870.1.1={
+		birth = yes
+	}
+	910.1.1={
+		death = yes
+	}
+}
+1000233273 = { # mythical dux of Kabars, most likely not legit.
+	name="Menmarót" 
+        dynasty="1000100541" # Qabar
+	religion="tengri_pagan"
+	culture="khazar"
+        father= 1000233272
+	890.1.1={
+		birth = yes
+	}
+	940.1.1={
+		death = yes
+	}
+}
+############################
+#Khazars
+1000233274 = { # daughter og Bihar, wife of Constantine V, mother of Leo IV
+	name="Çiçek" 
+  	dynasty=12269
+	religion="tengri_pagan"
+	culture="khazar"
+        father= 74009 # Bihar, chagan of Khazars.
+        mother=74010
+        female=yes
+	715.1.1={
+		birth = yes
+	}
+	733.1.1={
+		religion=orthodox 
+                name="Irene"
+	}
+	750.2.1={
+		death=yes # must have died soon after giving birth
+	}
+}
+1000233275 = { # Tudun of Cherson pre705-711
+	name="Zoilos" # Khazar version unknown.
+	religion="tengri_pagan"
+	culture="khazar"
+	670.1.1={
+		birth = yes
+	}
+	711.4.1={
+		death=yes # died on his was back from captivity.
+	}
+}
+1000233276 = { # sister of Busir, wife of Justinian II
+	name="Këlyamal" # pre baptism name unknown
+  	dynasty=12269
+	religion="tengri_pagan"
+	culture="khazar"
+        father= 74004 # Irbis, chagan of Khazars.
+        female=yes
+	678.1.1={
+		birth = yes
+	}
+	703.6.1={
+		religion=orthodox 
+                name="Theodora"
+	}
+	711.11.24={
+		death = yes
+	}
+}
+1000233277 = { # son of Theodora and Justinian II
+	name="Tiberios"
+  	dynasty=1022137
+	religion="orthodox"
+	culture="greek"
+        father= 70506 # Justinian II
+        mother= 1000233276 # Theodora
+	704.6.1={
+		birth = yes
+	}
+	711.11.24={
+		death=yes # was murderd along with his father
+	}
+}
+1000233278 = { # govenor of Smakarsh pre705-?
+	name="Papatys" 
+	religion="tengri_pagan"
+	culture="khazar"
+	680.1.1={
+		birth = yes
+	}
+	740.1.1={
+		death = yes
+	}
+}
+1000233279 = { # Balghitzi, Baliq of Kerch pre705-?
+	name="Itzi" 
+	religion="tengri_pagan"
+	culture="khazar"
+	675.1.1={
+		birth = yes
+	}
+	735.1.1={
+		death = yes
+	}
+}
+1000233280 = { # Pesakh, Baliq of Kerch c. 940
+	name="Pesakh" 
+	religion="jewish"
+	culture="khazar"
+	900.1.1={
+		birth = yes
+	}
+	969.1.1={
+		death = yes
+	}
+}
+1000233281 = { 
+	name="Serakh" #mythical wife of Bulan. Pretty high likelyhood to be a later construct inorder to make the subsequent Chagans fully jewish.
+	religion="jewish"
+	culture="sephardi"
+        female=yes
+	733.1.1={
+		birth = yes
+	}
+	800.1.1={
+		death = yes
+	}
+}
+1000233282 = { 
+	name="Ras" #comander of the khazar invasion force in transcaucasus 762-764.
+	religion="tengri_pagan"
+	culture="khazar"
+        dynasty=1000100542 # Khatiriltber
+	730.1.1={
+		birth = yes
+	}
+	790.1.1={
+		death = yes
+	}
+}
+1000233283 = { 
+	name="Xatun" #daughter of the Chagan, became wife of the Arab govenor of Armenia in 760.
+	religion="tengri_pagan"
+	culture="khazar"
+	dynasty=12269
+        female=yes
+        father=74012
+	740.1.1={
+		birth = yes
+	}
+	761.1.1={
+		death=yes #died before the invasion
+	}
+}
+############################
+#placeholders
+#Kuma
+1000233284 = { 
+	name="Ötemis" #fictional counts of Kuma
+	religion="jewish"
+	culture="khazar"
+	dynasty=1000100546
+	833.1.1={
+		birth = yes
+	}
+	900.1.1={
+		death = yes
+	}
+}
+1000233285 = { 
+	name="Hezekiah" #fictional count of Kuma
+	religion="jewish"
+	culture="khazar"
+        father=1000233284
+	dynasty=1000100546
+	870.1.1={
+		birth = yes
+	}
+	930.1.1={
+		death = yes
+	}
+}
+1000233286 = { 
+	name="Ötemis" #fictional count of Kuma
+	religion="jewish"
+	culture="khazar"
+        father=1000233285
+	dynasty=1000100546
+	910.1.1={
+		birth = yes
+	}
+	969.1.1={
+		death = yes
+	}
+}
+#fictional counts of korchev
+1000233287 = { 
+	name="Zebulun" 
+	religion="jewish"
+	culture="khazar"
+	dynasty=1000100547
+	830.1.1={
+		birth = yes
+	}
+	900.1.1={
+		death = yes
+	}
+}
+1000233288 = { 
+	name="Mänär" 
+	religion="jewish"
+	culture="khazar"
+        father=1000233287
+	dynasty=1000100547
+	870.1.1={
+		birth = yes
+	}
+	930.1.1={
+		death = yes
+	}
+}
+1000233289 = { 
+	name="Zebulun" 
+	religion="jewish"
+	culture="khazar"
+        father=1000233288
+	dynasty=1000100547
+	910.1.1={
+		birth = yes
+	}
+	969.1.1={
+		death = yes
+	}
+}
+1000233290 = {
+	name="Savaçka"
+  female=yes
+	dynasty=12270
+	father = 74024
+	culture=khazar
+	religion="jewish"
+
+	847.1.1={
+		birth = yes
+	}
+	865.1.1={
+		add_spouse = 1000230101
+	}
+	888.1.1={
+		death = yes
+	}
+}
+
+#-1000233297 spares

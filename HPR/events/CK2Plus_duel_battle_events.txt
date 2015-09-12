@@ -18,12 +18,12 @@ character_event = { # Battlefield Duel Start
     desc = "EVTDESC_DuelEngine_500"
     border = "GFX_event_normal_frame_war"
     picture = GFX_evt_battle
-    
+
     is_triggered_only = yes
     #triggered by on_combat_pulse
-	
- 	
-    
+
+
+
     weight_multiplier = { #on_action, multiplies with chance there
         days = 1
         modifier = {
@@ -61,21 +61,21 @@ character_event = { # Battlefield Duel Start
 		modifier = {
 			factor = 5
 			OR = {
-				#Martial religions and cultures(glory in battle)				
+				#Martial religions and cultures(glory in battle)
 				culture = irish
-				culture = gallawa
+				culture = norsegaelic
 				culture = scottish
-				culture = pictish				
-				culture_group = north_germanic				
+				culture = pictish
+				culture_group = north_germanic
 				culture = maghreb_arabic
 				culture = bedouin_arabic
-				culture = alan				
+				culture = alan
 				culture = pecheneg
 				culture = bolghar
 				culture = cuman
 				culture = khazar
-				culture = kurdish				
-				religion = aztec				
+				culture = kurdish
+				religion = aztec
 				religion = celtic_pagan
 				religion = german_pagan
 				religion = norse_pagan
@@ -83,12 +83,12 @@ character_event = { # Battlefield Duel Start
 				religion = celtic_pagan_reformed
 				religion = german_pagan_reformed
 				religion = norse_pagan_reformed
-				religion = slavic_pagan_reformed				
+				religion = slavic_pagan_reformed
 			}
 		}
     }
-   
-    trigger = {        
+
+    trigger = {
         # Avoid crossing targets
 		OR = {
 			AND = {
@@ -97,12 +97,12 @@ character_event = { # Battlefield Duel Start
 			}
 			AND = {
 				war = yes
-				liege = { 
+				liege = {
 					OR = {
-						war = no 
+						war = no
 						character = ROOT
-					}	
-				}	
+					}
+				}
 			}
 		}
 		OR = {
@@ -112,54 +112,54 @@ character_event = { # Battlefield Duel Start
 				any_playable_ruler = {
 					war_with = ROOT
 					OR = {
-						AND = {						
+						AND = {
 							in_battle = yes
 							at_location = ROOT
 							prisoner = no
-							is_alive = yes		
-							NOT = { character = ROOT }													
+							is_alive = yes
+							NOT = { character = ROOT }
 							NOT = { has_character_modifier = battlefield_fight }
 						}
-						any_realm_character = {				
+						any_realm_character = {
 							in_battle = yes
 							at_location = ROOT
 							prisoner = no
-							is_alive = yes		
-							NOT = { character = ROOT }							
+							is_alive = yes
+							NOT = { character = ROOT }
 							NOT = { has_character_modifier = battlefield_fight }
 						}
-					}	
+					}
 				}
-			}	
+			}
 			AND = {
 				war = no
 				liege = {
 					any_playable_ruler = {
 						war_with = PREV
 						OR = {
-							AND = {						
+							AND = {
 								in_battle = yes
 								at_location = ROOT
 								prisoner = no
-								is_alive = yes		
-								NOT = { character = ROOT }														
+								is_alive = yes
+								NOT = { character = ROOT }
 								NOT = { has_character_modifier = battlefield_fight }
 							}
-							any_realm_character = {						
+							any_realm_character = {
 								in_battle = yes
 								at_location = ROOT
 								prisoner = no
-								is_alive = yes		
-								NOT = { character = ROOT }								
+								is_alive = yes
+								NOT = { character = ROOT }
 								NOT = { has_character_modifier = battlefield_fight }
 							}
-						}	
+						}
 					}
 				}
-			}	
+			}
 		}
-    }    
-    
+    }
+
    immediate = {
 		add_character_modifier = {
 			name = battlefield_fight
@@ -167,33 +167,33 @@ character_event = { # Battlefield Duel Start
 		}
 		# Target lock
 		if = {
-			limit = { 
+			limit = {
 				war = yes
-				liege = { 
+				liege = {
 					OR = {
-						war = no 
+						war = no
 						character = ROOT
-					}	
+					}
 				}
 			}
 			random_playable_ruler = {
 				limit = {
 					war_with = ROOT
 					OR = {
-						AND = {						
+						AND = {
 							in_battle = yes
 							at_location = ROOT
 							prisoner = no
-							is_alive = yes		
-							NOT = { character = ROOT }													
+							is_alive = yes
+							NOT = { character = ROOT }
 							NOT = { has_character_modifier = battlefield_fight }
 						}
-						any_realm_character = {						
+						any_realm_character = {
 							in_battle = yes
 							at_location = ROOT
 							prisoner = no
-							is_alive = yes		
-							NOT = { character = ROOT }							
+							is_alive = yes
+							NOT = { character = ROOT }
 							NOT = { has_character_modifier = battlefield_fight }
 						}
 					}
@@ -203,8 +203,8 @@ character_event = { # Battlefield Duel Start
 						in_battle = yes
 						at_location = ROOT
 						prisoner = no
-						is_alive = yes		
-						NOT = { character = ROOT }												
+						is_alive = yes
+						NOT = { character = ROOT }
 						NOT = { has_character_modifier = battlefield_fight }
 					}
 					add_character_modifier = {
@@ -221,8 +221,8 @@ character_event = { # Battlefield Duel Start
 							in_battle = yes
 							at_location = ROOT
 							prisoner = no
-							is_alive = yes		
-							NOT = { character = ROOT }													
+							is_alive = yes
+							NOT = { character = ROOT }
 							NOT = { has_character_modifier = battlefield_fight }
 						}
 						add_character_modifier = {
@@ -232,33 +232,33 @@ character_event = { # Battlefield Duel Start
 						opinion = { who = ROOT modifier = opinion_battle_duel_target }
 						reverse_opinion = { who = ROOT modifier = opinion_battle_duel_target }
 					}
-				}	
+				}
 			}
 		}
 		if = {
-			limit = { 
+			limit = {
 				war = no
-				liege = { war = yes }				
+				liege = { war = yes }
 			}
 			liege = {
 				random_playable_ruler = {
 					limit = {
 						war_with = PREV
 						OR = {
-							AND = {						
+							AND = {
 								in_battle = yes
 								at_location = ROOT
 								prisoner = no
-								is_alive = yes		
-								NOT = { character = ROOT }														
+								is_alive = yes
+								NOT = { character = ROOT }
 								NOT = { has_character_modifier = battlefield_fight }
 							}
-							any_realm_character = {						
+							any_realm_character = {
 								in_battle = yes
 								at_location = ROOT
 								prisoner = no
-								is_alive = yes		
-								NOT = { character = ROOT }								
+								is_alive = yes
+								NOT = { character = ROOT }
 								NOT = { has_character_modifier = battlefield_fight }
 							}
 						}
@@ -268,8 +268,8 @@ character_event = { # Battlefield Duel Start
 							in_battle = yes
 							at_location = ROOT
 							prisoner = no
-							is_alive = yes		
-							NOT = { character = ROOT }													
+							is_alive = yes
+							NOT = { character = ROOT }
 							NOT = { has_character_modifier = battlefield_fight }
 						}
 						add_character_modifier = {
@@ -286,8 +286,8 @@ character_event = { # Battlefield Duel Start
 								in_battle = yes
 								at_location = ROOT
 								prisoner = no
-								is_alive = yes		
-								NOT = { character = ROOT }														
+								is_alive = yes
+								NOT = { character = ROOT }
 								NOT = { has_character_modifier = battlefield_fight }
 							}
 							add_character_modifier = {
@@ -297,31 +297,31 @@ character_event = { # Battlefield Duel Start
 							opinion = { who = ROOT modifier = opinion_battle_duel_target }
 							reverse_opinion = { who = ROOT modifier = opinion_battle_duel_target }
 						}
-					}	
+					}
 				}
 			}
 		}
 	}
-    
+
     option = {
         name = "EVTOPTA_DuelEngine_500"
         if = {
-			limit = { 
+			limit = {
 				war = yes
-				liege = { 
+				liege = {
 					OR = {
-						war = no 
+						war = no
 						character = ROOT
-					}	
-				}				
+					}
+				}
 			}
 			random_playable_ruler = {
-				limit = { 
+				limit = {
 					war_with = ROOT
 					OR = {
-						has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target }	
+						has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target }
 						any_realm_character = { has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target } }
-					}	
+					}
 				}
 				if = {
 					limit = { has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target } }
@@ -334,18 +334,18 @@ character_event = { # Battlefield Duel Start
 			}
 		}
 		if = {
-			limit = { 
+			limit = {
 				war = no
-				liege = { war = yes }				
+				liege = { war = yes }
 			}
 			liege = {
 				random_playable_ruler = {
-					limit = { 
+					limit = {
 						war_with = PREV
 						OR = {
-							has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target }	
+							has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target }
 							any_realm_character = { has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target } }
-						}	
+						}
 					}
 					if = {
 						limit = { has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target } }
@@ -358,7 +358,7 @@ character_event = { # Battlefield Duel Start
 				}
 			}
 		}
-	}    
+	}
 }
 
 character_event = {
@@ -367,13 +367,13 @@ character_event = {
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
-	
-	immediate = {		
+
+	immediate = {
 		# Remove targeting information
 		remove_opinion = { who = FROM modifier = opinion_battle_duel_target }
 		reverse_remove_opinion = { who = FROM modifier = opinion_battle_duel_target }
 	}
-	
+
 	option = {
 		name = "EVTOPTA_DuelEngine_501"
 		FROM = { character_event = { id = DuelEngine.502 tooltip = "EVTTOOLTIP_DuelEngine_502" } }
@@ -417,7 +417,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB_DuelEngine_501"
 		hidden_tooltip = { FROM = { character_event = { id = DuelEngine.503 } } }
@@ -568,16 +568,16 @@ character_event = {
 	desc = "EVTDESC_DuelEngine_502"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_DuelEngine_502"
-		
+
 		# Set context flags for duel
 		set_character_flag = flag_battlefield_duel
 		FROM = { set_character_flag = flag_battlefield_duel }
-		
+
 		# Begin duel
 		hidden_tooltip = { e_rebels = { holder_scope = { character_event = { id = DuelEngine.0 } } } }
 		ai_chance = {
@@ -620,7 +620,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB_DuelEngine_502"
 		hidden_tooltip = { FROM = { character_event = { id = DuelEngine.504 } } }
@@ -773,7 +773,7 @@ character_event = {
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_DuelEngine_503"
 		remove_character_modifier = battlefield_fight
@@ -788,7 +788,7 @@ character_event = {
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_DuelEngine_504"
 		remove_character_modifier = battlefield_fight
@@ -796,13 +796,13 @@ character_event = {
 	}
 }
 
-character_event = { #run away mid-fight 
+character_event = { #run away mid-fight
 	id = DuelEngine.505
 	desc = "EVTDESC_DuelEngine_505"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_DuelEngine_505"
 		if = {
@@ -879,7 +879,7 @@ character_event = {
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_DuelEngine_510"
 		random_current_enemy = {
@@ -895,7 +895,7 @@ character_event = {
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_DuelEngine_511"
 		hidden_tooltip = {
@@ -910,14 +910,14 @@ character_event = {
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_DuelEngine_512"
 		imprison = FROM
 		set_character_flag = captured_in_battle
 		hidden_tooltip = {
 			FROM = {
-				character_event = { 
+				character_event = {
 					id = 50020 # "imprisoned_events.txt"
 				}
 			}

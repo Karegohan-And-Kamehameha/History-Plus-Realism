@@ -5,25 +5,22 @@ title = c_lleida
 
 # Settlements
 max_settlements = 4
-b_lleida = castle
+b_aitona = castle
+b_lleida = temple
 b_cervera = city
-b_solsona = temple
-#b_agramunt = castle
-#b_tarrega = castle
-#b_borgesblanques = castle
-#b_balaguer = city
-#b_verdu = castle
+#b_bell_lloch = castle
+#b_prades = castle
+#b_granyena = castle
 
 # Misc
-culture = visigothic
-religion = catholic
+culture = andalusian_arabic
+religion = sunni
 
 # History
 
-952.1.1 = {
-	culture = catalan
+1066.1.1 = { 
+	b_aitona = ca_keep_1
+	b_aitona = ca_wall_1
 }
-
 1164.1.1 = { culture= catalan }
-
 1164.1.1 = { religion = catholic }

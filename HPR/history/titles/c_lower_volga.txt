@@ -1,97 +1,97 @@
-654.1.1= {
-	liege=d_itil
-	holder=74004
+825.1.1={
+	liege="k_pechenegs"
 }
-672.1.1={
-	holder=74007
+825.1.1={
+	holder=1000231704
 }
-699.1.1={
-	holder=74008
+830.1.1={
+	holder=1000231706
 }
-#720.1.1={
-#	holder=74010
-#}
-749.1.1= {
-	holder=74012
+# Qara-Bay
+864.1.1={
+        liege=d_qara_bay
+	holder=1000231785 # Kajdan, chief of Qara-Bay at the time of the 893 expulsion
 }
-771.1.1={
-	holder=74018
+#Pechengs expulsed by Khazars.
+895.1.1={
+	liege="k_khazaria"
+	holder=1000233421
 }
-788.1.1={
-	holder=74019
+930.1.1={
+	holder=1000233423
 }
-802.1.1={
-	holder=74020
+#Sarkel destroyed, goes to oghuz turks.
+#Sarkel destroyed, goes to oghuz turks.
+966.1.1={
+	holder=1000231869
+	liege="k_uzes"
 }
-818.1.1={
-	holder=74023
+1010.1.1={
+	holder=1000231871
 }
-822.1.1={
-	liege=d_itil
-	holder=0
+1035.1.1={
+	holder=1000231873
+} 
+#Cumans arrive
+#Yimek
+1060.1.1={
+	liege=d_yimek
+	holder=1000233015
 }
-860.1.1 = {
-holder = 180174
+1065.1.1={
+	holder=1000233017 # Esen
 }
-995.1.1 = {
-	holder = 1000251304
-	liege = "k_cuman"
+1082.1.1={
+	holder=1000233019 # Aepa
 }
-1066.1.1 = {
-#liege = "d_saray"
-holder = 806
+1117.1.1={
+	holder=1000233021
 }
-1110.1.1 = {
-holder = 90143
+1140.1.1={
+	holder=1000233024 # Amurat
 }
-1120.1.1 = {
-holder = 125401
+1165.1.1={
+	holder=1000233026
 }
-1146.1.1 = {
-holder = 125402
+1205.1.1={
+	holder=1000233028
 }
-1183.1.1 = {
-holder = 228030
+# Mongols put down revolt
+1239.1.1={
+liege="d_itil"
+holder=125503
 }
-1203.1.1 = {
-holder = 125403
-}
-1220.1.1 = {
-	holder = 34949
-}
-1223.1.1=
+1255.1.2=
 {
-holder = 125404
+holder=125505
 }
-1227.1.1 = {
-holder = 125501
+1256.1.2=
+{
+holder=125506
 }
-1227.12.2 = {
-holder = 125503
+1257.1.2=
+{
+holder=125504
 }
-1255.1.2 = {
-holder = 125505
+1266.1.2=
+{
+holder=125508
 }
-1256.1.2 = {
-holder = 125506
+1280.1.2=
+{
+holder=125509
 }
-1257.1.2 = {
-holder = 125504
+1287.1.2=
+{
+holder=125511
 }
-1266.1.2 = {
-holder = 125508
+1291.1.2=
+{
+holder=125512
 }
-1280.1.2 = {
-holder = 125509
-}
-1287.1.2 = {
-holder = 125511
-}
-1291.1.2 = {
-holder = 125512
-}
-1312.1.2 = {
-holder = 480000
+1312.1.2=
+{
+holder=480000
 }
 
 

@@ -7,6 +7,9 @@
 682.1.1={
 	holder=74007
 }
+700.1.1 = {
+	de_jure_liege = e_khazaria
+}
 715.1.1={
 	holder=74008
 }
@@ -64,6 +67,10 @@
 }
 945.1.1={
 	holder=146191
+}
+966.1.1 = {
+	# Paradox history script bugs -> can't use de_jure_liege = 0
+	de_jure_liege = e_null
 }
 969.1.1={
 	holder=146193

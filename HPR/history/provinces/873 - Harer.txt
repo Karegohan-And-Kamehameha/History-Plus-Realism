@@ -4,11 +4,12 @@
 title = c_harer
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
-b_harar = castle
-b_kombolcha = temple
-b_kurfachele = city
+b_jijiga = tribal
+b_harar = temple
+
+b_hargeysa = city
 #b_diridawa = castle
 #b_jijiga = castle
 #b_kurfachele = castle
@@ -19,11 +20,9 @@ b_kurfachele = city
 culture = somali
 religion = sunni
 
-#Jewish Community
-700.1.1 = { 
-	b_kurfachele = ct_jewish_community_1
-}
-
 # History
 
-1187.1.1 = { b_diridawa = castle }
+1087.1.1 = { b_jijiga = castle } 
+1187.1.1 = { b_diridawa = castle } 
+
+

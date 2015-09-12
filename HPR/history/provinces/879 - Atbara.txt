@@ -7,19 +7,20 @@ title = c_atbara
 max_settlements = 3
 
 b_atbara = castle
-b_omdurman = city
-b_begarawiyah = temple
-#b_soba = castle
+b_eddamer = temple
+
+#b_berber = city
+
+# original holdings which were not moved elswhere
+#b_begarawiyah = temple
 #b_tabat = castle
 #b_wadrawah = castle
 #b_hajaralasla = castle
-#b_meruwah = city
 
 # Misc
 culture = nubian
 religion = miaphysite
-terrain = plains
 
 # History
 
-1187.1.1 = { b_soba = castle } 
+1187.1.1 = { b_berber = city } 

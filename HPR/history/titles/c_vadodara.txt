@@ -30,7 +30,6 @@
 	holder = 191642 #Bhartrvaddha
 }
 800.1.1={
-	liege = k_maharastra
 	holder = 188176 # Upendra Paramara
 }
 818.1.1={

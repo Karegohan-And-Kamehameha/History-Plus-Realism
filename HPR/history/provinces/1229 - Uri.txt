@@ -1,0 +1,17 @@
+# 1229 - Uri
+
+# County Title
+title = c_uri
+
+# Settlements
+max_settlements = 3
+
+b_uri = tribal
+#b_ainfarah = city
+b_elfasher = city
+
+# Misc
+culture = daju
+religion = west_african_pagan
+
+# History

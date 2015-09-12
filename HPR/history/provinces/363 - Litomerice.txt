@@ -4,25 +4,21 @@
 title = c_litomerice
 
 # Settlements
-max_settlements = 4
-b_zatec = tribal
-
-#b_kadan = city
-#b_chomutov = temple
+max_settlements = 5
+b_litomerice = castle
+b_bilina = city
+b_doksany = temple
+#b_lipa = castle
+#b_duba = castle
 #b_usti = castle
-#b_ceskalipa = castle
-#b_duchcov = castle
-#b_jachymov = castle
-#b_osek = castle
+#b_frydlant = castle
+#b_decin = city
+
 
 # Misc
 culture = bohemian
 religion = slavic_pagan
 
 # History
+
 883.1.1 = { religion = catholic }
-999.1.1 = {
-	b_zatec = castle
-	b_kadan = city
-	b_chomutov = temple
-}

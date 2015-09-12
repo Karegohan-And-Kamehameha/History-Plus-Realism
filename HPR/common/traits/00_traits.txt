@@ -624,7 +624,13 @@ pregnant = { #44
 }
 excommunicated = {
 	diplomacy = -5
-	same_religion_opinion = -30
+	same_religion_opinion = -50
+	monthly_character_piety = -3
+	global_revolt_risk = 0.05
+	levy_size = -0.5
+	castle_vassal_min_levy = 0
+	temple_vassal_min_levy = 0
+	city_vassal_min_levy = 0
 	religious = yes
 	customizer = no
 }

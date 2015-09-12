@@ -1345,7 +1345,7 @@ culture=roman
 1000124003 = {
 	name = "Kyaid"
 	culture = mordvin
-}	
+}
 
 1000124004 = {
 	name="de Valletort"
@@ -1634,62 +1634,6 @@ culture=roman
 	name = "Kawkaw"
 	culture = manden
 }
-1000124073 = {
-	name="Kante"
-	culture = sosso
-}
-1000124074 = {
-	name="Cisse"
-	culture = sosso
-}
-1000124075 = {
-	name="Akba"
-	culture = sosso
-}
-1000124076 = {
-	name="Soumare"
-	culture = sosso
-}
-1000124077 = {
-	name="Soukhounou"
-	culture = sosso
-}
-1000124078 = {
-	name="Joof"
-	culture = jolof
-}
-1000124079 = {
-	name="Gelwar"
-	culture = jolof
-}
-1000124080 = {
-	name="Jaabi"
-	culture = jolof
-}
-1000124081 = {
-	name="Fak"
-	culture = jolof
-}
-1000124082 = {
-	name="N'Diaye"
-	culture = jolof
-}
-1000124083 = {
-	name="Kaabu"
-	culture = jolof
-}
-1000124084 = {
-	name="Fulani"
-	culture = jolof
-}
-1000124085 = {
-	name="Takur"
-	culture = jolof
-}
-1000124086 = {
-	name="I buedaden"
-	culture = bafour
-}
 1000124087 = {
 	name="Sanhaja"
 	culture = maghreb_arabic
@@ -1697,10 +1641,6 @@ culture=roman
 1000124088 = {
 	name="Zenata"
 	culture = maghreb_arabic
-}
-1000124089 = {
-	name="Mandinka"
-	culture = jolof
 }
 1000124090 = {
 	name="Anward"
@@ -1789,66 +1729,6 @@ culture=roman
 1000124105 = {
 	name = "Lilli"
 	culture = italian
-}
-1000124106 = {
-	name = "Tingit"
-	culture = bafour
-}
-1000124107 = {
-	name = "Nouakchott"
-	culture = bafour
-}
-1000124108 = {
-	name = "Dakhla"
-	culture = bafour
-}
-1000124109 = {
-	name = "Bojadour"
-	culture = bafour
-}
-1000124110 = {
-	name = "Conung"
-	culture = gallawa
-}
-1000124111 = {
-	name = "Tryggvasson"
-	culture = gallawa
-}
-1000124112 = {
-	name = "mac Gofraid"
-	culture = gallawa
-}
-1000124113 = {
-	name = "mac Diarmata"
-	culture = gallawa
-}
-1000124114 = {
-	name = "Sigtryggsson"
-	culture = gallawa
-}
-1000124115 = {
-	name = "mac Ragniall"
-	culture = gallawa
-}
-1000124116 = {
-	name = "mac Corcadail"
-	culture = gallawa
-}
-1000124117 = {
-	name = "Sigurdsson"
-	culture = gallawa
-}
-1000124118 = {
-	name = "mac Coitir"
-	culture = gallawa
-}
-1000124119 = {
-	name = "mac Leòid"
-	culture = gallawa
-}
-1000124120 = {
-	name = "Find"
-	culture = gallawa
 }
 1000124121 = {
 	name="Arnarson"
@@ -2290,7 +2170,7 @@ culture=roman
 1000083000 = {
 	name="Rashidun"
 	culture = bedouin_arabic
-}	
+}
 1000124226 = {
 	name="of Glastonbury"
 	culture = saxon
@@ -2307,18 +2187,14 @@ culture=roman
 	name="Mikhailovich"
 	culture = russian
 }
-1000124230 = {
-	name="Bighu"
-	culture = sosso
-}
 1000124231 = {
 	name="of Wallingford"
 	culture = english
-}	
+}
 1000124232 = {
 	name="d'Oyly"
 	culture = norman
-}	
+}
 1000124233 = {
 	name="Basara"
 	culture = bedouin_arabic
@@ -2326,182 +2202,82 @@ culture=roman
 1000124234 = {
 	name="Mendez"
 	culture = sephardi
-}	
+}
 1000124235 = {
 	name="Hala"
 	culture = sephardi
-}		
+}
 1000124236 = {
 	name="Gomes"
 	culture = sephardi
-}		
+}
 1000124237 = {
 	name="Garcon"
 	culture = sephardi
-}		
+}
 1000124238 = {
 	name="Gabriel"
 	culture = sephardi
-}		
+}
 1000124239 = {
 	name="Salazar"
 	culture = sephardi
-}		
+}
 1000124240 = {
 	name="Dalmeida"
 	culture = sephardi
-}		
+}
 1000124241 = {
 	name="Crastoz"
 	culture = sephardi
-}		
+}
 1000124242 = {
 	name="Solomon"
 	culture = sephardi
-}		
+}
 1000124243 = {
 	name="Seraf"
 	culture = sephardi
-}	
+}
 1000124244 = {
 	name="Ackermann"
 	culture = ashkenazi
-}						
+}
 1000124245 = {
 	name="Brenner"
 	culture = ashkenazi
-}	
+}
 1000124246 = {
 	name="Neuman"
 	culture = ashkenazi
-}	
+}
 1000124247 = {
 	name="Schneider"
 	culture = ashkenazi
-}	
+}
 1000124248 = {
 	name="Wasserstein"
 	culture = ashkenazi
-}	
+}
 1000124249 = {
 	name="Rosental"
 	culture = ashkenazi
-}	
+}
 1000124250 = {
 	name="Kraus"
 	culture = ashkenazi
-}	
+}
 1000124251 = {
 	name="Rosenzweig"
 	culture = ashkenazi
-}	
+}
 1000124252 = {
 	name="Schmulewitz"
 	culture = ashkenazi
-}	
+}
 1000124253 = {
 	name="Stieglitz"
 	culture = ashkenazi
-}
-1000124254 = {
-	name="Abrach"
-	culture = mizrahim
-}
-1000124255 = {
-	name="Khardun"
-	culture = mizrahim
-}
-1000124256 = {
-	name="Sasson"
-	culture = mizrahim
-}
-1000124257 = {
-	name="Hysh"
-	culture = mizrahim
-}
-1000124258 = {
-	name="Agmy"
-	culture = mizrahim
-}
-1000124259 = {
-	name="Zangi"
-	culture = mizrahim
-}
-1000124260 = {
-	name="Abocassis"
-	culture = mizrahim
-}
-1000124261 = {
-	name="Sabag"
-	culture = mizrahim
-}
-1000124262 = {
-	name="Biton"
-	culture = mizrahim
-}
-1000124263 = {
-	name="Hruschov"
-	culture = mizrahim
-}
-1000124264 = {
-	name="Sie"
-	culture = mizrahim
-}
-1000124265 = {
-	name="Boethus"
-	culture = mizrahim
-}
-1000124266 = {
-	name="Seth"
-	culture = mizrahim
-}
-1000124267 = {
-	name="Fabus"
-	culture = mizrahim
-}
-1000124268 = {
-	name="Ananus"
-	culture = mizrahim
-}
-1000124269 = {
-	name="Camithus"
-	culture = mizrahim
-}
-1000124270 = {
-	name="Kuppai"
-	culture = mizrahim
-}
-1000124271 = {
-	name="Simon"
-	culture = mizrahim
-}
-1000124272 = {
-	name="Camydus"
-	culture = mizrahim
-}
-1000124273 = {
-	name="Nebedeus"
-	culture = mizrahim
-}
-1000124274= {
-	name="Fabus"
-	culture = mizrahim
-}
-1000124275= {
-	name="Damneus"
-	culture = mizrahim
-}
-1000124276= {
-	name="Gamaliel"
-	culture = mizrahim
-}
-1000124277= {
-	name="Theophilus"
-	culture = mizrahim
-}
-1000124278= {
-	name="Samuel"
-	culture = mizrahim
 }
 1000124279= {
 	name="Muaynier"

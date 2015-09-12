@@ -1,0 +1,267 @@
+###############################################################
+#  SWMH Russian Characters
+###############################################################
+#Range: 1000226950 - 1000227199
+###############################################################
+#
+###########
+#Drevlians
+###########
+1000226950 = {
+	name="Mal" # fictional
+        dynasty=1000100450
+	religion="slavic_pagan"
+	culture="russian"
+	842.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+1000226951 = {
+	name="Gleb" # fictional
+        dynasty=1000100450
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226950
+	870.1.1 = {
+		birth = yes
+	}
+	933.1.1 = {
+		death = yes
+	}
+}
+1000226952 = {
+	name="Mal"
+        dynasty=1000100450
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226951
+	910.1.1 = {
+		birth = yes
+	}
+	946.1.1 = {
+		death = yes
+	}
+}
+###########
+#Buzhans
+###########
+1000226953 = {
+	name="Briachislav" # fictional
+        dynasty=1000100452
+	religion="slavic_pagan"
+	culture="russian"
+	838.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+1000226954 = {
+	name="Yuriy" # fictional
+        dynasty=1000100452
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226953
+	863.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		death = yes
+	}
+}
+1000226955 = {
+	name="Igor" # fictional
+        dynasty=1000100452
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226954
+	890.1.1 = {
+		birth = yes
+	}
+	968.1.1 = {
+		death = yes
+	}
+}
+1000226956 = {
+	name="Briachislav" # fictional
+        dynasty=1000100452
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226955
+	934.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+1000226957 = {
+	name="Igor" # fictional
+        dynasty=1000100452
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226956
+	975.1.1 = {
+		birth = yes
+	}
+	1054.2.20 = {
+		death = yes
+	}
+}
+###########
+#Ulichians
+###########
+1000226958 = {
+	name="Vseslav" # fictional
+        dynasty=1000100451
+	religion="slavic_pagan"
+	culture="russian"
+	844.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+1000226959 = {
+	name="Sviatoslav" # fictional
+        dynasty=1000100451
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226958
+	875.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		death = yes
+	}
+}
+1000226960 = {
+	name="Gleb" # fictional
+        dynasty=1000100451 
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226959
+	900.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		death = yes
+	}
+}
+###########
+#Volhynians
+###########
+1000226961 = {
+	name="Ctibor" # fictional
+        dynasty=1000100453
+	religion="slavic_pagan"
+	culture="russian"
+	850.1.1 = {
+		birth = yes
+	}
+	896.1.1 = {
+		death = yes
+	}
+}
+1000226962 = { # fictional
+	name="Bogdan"
+        dynasty=1000100453
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226961
+	875.1.1 = {
+		birth = yes
+	}
+	954.1.1 = {
+		death = yes
+	}
+}
+1000226963 = { # fictional
+	name="Yevstafiy"
+        dynasty=1000100453
+	religion="slavic_pagan"
+	culture="russian"
+        father=1000226962
+	908.1.1 = {
+		birth = yes
+	}
+	977.1.2 = {
+		death = yes
+	}
+}
+###########
+#Tiversti
+###########
+#159718 = {
+#	name="Vyacheslav"  # fictional
+#	religion="slavic_pagan"
+#	culture="russian"
+#	dynasty=1029167
+#	father = 194138
+#	830.1.1={
+#		birth=yes
+#	}
+#	890.1.1={
+#		death=yes
+#	}
+#}
+1000226964 = {
+	name = "Svetozar"  # fictional
+	dynasty=1029167
+	religion = slavic_pagan
+	culture = russian
+	father = 159718
+        mother = 1000226966
+	865.1.1 = {
+		birth = yes
+	}
+        884.1.1 = {
+               add_spouse = 1000226967
+        }
+	915.1.1 = {
+		death = yes
+	}
+}
+1000226965 = {
+	name = "Vyacheslav"  # fictional
+	dynasty=1029167
+	religion = slavic_pagan
+	culture = russian
+	father = 1000226964
+        mother = 1000226967
+	885.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+1000226966 = {
+	name = "Sbyslava"  # fictional wife
+	religion = slavic_pagan
+	culture = russian
+        female= yes
+	840.1.1 = {
+		birth = yes
+	}
+	895.1.1 = {
+		death = yes
+	}
+}
+1000226967 = {
+	name = "Zabava"  # fictional wife
+	religion = slavic_pagan
+	culture = russian
+        female= yes
+	869.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}

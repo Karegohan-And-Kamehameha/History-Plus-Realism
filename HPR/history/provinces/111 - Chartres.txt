@@ -6,15 +6,14 @@ title = c_chartres
 # Settlements
 max_settlements = 4
 b_chartres = castle
-b_tiron = temple
-b_epernon = city
+b_gallardon = castle
+#b_sours = castle
+#b_tiron = temple
+#b_dammarieleslys = temple
+#b_auneau = city
 
-#b_gallardon = castle
-#b_nogent = castle
-
-culture = old_frankish
+culture = frankish
 religion = catholic
 
 # History
-790.1.1 = { culture = frankish }
 

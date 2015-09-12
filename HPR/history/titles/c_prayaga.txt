@@ -40,8 +40,8 @@
 	holder = 188041 # Kirtivarma
 }
 1089.1.1={
+	liege = k_kosala
 	holder = 190216 #Candradeva Gahadvala
-	liege = d_kasi
 }
 1104.1.1= {
 	holder = 190217 #Madanacandra Gahadvala

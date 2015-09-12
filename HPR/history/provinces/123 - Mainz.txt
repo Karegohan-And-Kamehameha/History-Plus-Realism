@@ -6,19 +6,17 @@ title = c_mainz
 # Settlements
 max_settlements = 5
 b_mainz = temple
-b_eppstein = castle
-b_frankfurt = city
 
+b_dornburg = castle
+b_geisenheim = temple
+b_rudesheim = city
 #b_ingelheim = castle
-#b_mannheim = city
 #b_weilburg = castle
-#b_dornburg = castle
-#b_hanau = castle
+#b_oestrich = city
 
 # Misc
-culture = old_frankish
+culture = franconian
 religion = catholic
 
 # History
-790.1.1 = { culture = german }
-
+1170.1.1 = { culture = german }

@@ -43,7 +43,7 @@ decisions = {
 							war_score = 15
 						}
 					}
-				}				
+				}
 				#king with enough titles to become emperor
 				AND = {
 					tier = KING
@@ -125,7 +125,6 @@ decisions = {
 				primary_title = { title = b_ancona }
 				primary_title = { title = b_gaeta }
 				primary_title = { title = b_novgorod }
-				primary_title = { title = b_noli }
 				primary_title = { title = b_lubeck }
 				dejure_liege_title = { title = c_hamburg }
 				dejure_liege_title = { title = c_gotland }
@@ -151,7 +150,7 @@ decisions = {
 		allow = {
 			wealth = 50
 			prisoner = no
-			is_adult = yes			
+			is_adult = yes
 			trait = ambitious
 			NOT = {
 				trait = incapable
@@ -189,7 +188,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	ai_austerity_end = {
 		potential = {
 			ai = yes
@@ -230,7 +229,7 @@ decisions = {
 							war_score = 15
 						}
 					}
-				}				
+				}
 				#king with enough titles to become emperor
 				AND = {
 					tier = KING
@@ -289,10 +288,10 @@ decisions = {
 		effect = {
 			clr_global_flag = maintenance_pulse
 			set_global_flag = maintenance_pulse
-			
+
 			# re-evaluate the contingent territory for each independent nation
 			character_event = { id = Plus.307 }
-			
+
 			# remove ai loan variable if now on a player
 			any_playable_ruler = {
 				limit = {
@@ -302,7 +301,7 @@ decisions = {
 				set_variable = { which = "loan_amount" value = 0 }
 				remove_character_modifier = loan_timer
 			}
-			
+
 			# misc fixes
 			if = {
 				limit = { is_ruler = yes }
@@ -340,7 +339,7 @@ decisions = {
 				clr_global_flag = titular_titles_turned_off
 				turn_on_titles_effect = yes
 			}
-			
+
 			# de jure empire fix
 			any_title = {
 				limit = {
@@ -355,7 +354,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	ai_faction_maintenance = {
 		potential = {
 			has_landed_title = k_papal_state
@@ -368,7 +367,7 @@ decisions = {
 		effect = {
 			clr_global_flag = faction_maintenance_pulse
 			set_global_flag = faction_maintenance_pulse
-			
+
 			#clean up flags
 			if = {
 				limit = { is_ruler = yes }
@@ -774,7 +773,7 @@ decisions = {
 					}
 				}
 			}
-			
+
 			#faction system
 			if = {
 				limit = {

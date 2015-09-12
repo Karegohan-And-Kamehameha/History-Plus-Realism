@@ -4,16 +4,9 @@
 title = c_al_mafraq
 
 # Settlements
-max_settlements = 3
-b_mafraq = castle
-b_thughra = city
-b_jarash = temple
+max_settlements = 1
 
-#b_ramtah = city
-#b_nasib = castle
-#b_buwayda = castle
-#b_taebah = castle
-#b_elemtaih = castle
+b_qasralhayralgharbi = castle
 
 # Misc
 culture = levantine_arabic
@@ -22,4 +15,4 @@ religion = sunni
 # History
 
 
-1110.1.1 = { b_buwayda = castle }
+

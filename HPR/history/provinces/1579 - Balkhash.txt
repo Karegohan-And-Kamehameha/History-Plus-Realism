@@ -1,0 +1,16 @@
+# 1579 - Balkhash
+
+# County Title
+title = c_balkhash
+
+# Settlements
+max_settlements = 3
+b_balqash = tribal
+#b_gulshat = tribal
+#b_saryshagan = city
+
+# Misc
+culture = cuman
+religion = tengri_pagan
+
+# History

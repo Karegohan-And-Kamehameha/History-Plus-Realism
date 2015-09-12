@@ -1,0 +1,22 @@
+910.1.1=
+{
+holder=1000233469
+liege = c_derbent
+}
+950.1.1=
+{
+holder=1000233470
+}
+990.1.1=
+{
+holder=1000233471
+}
+1010.1.1=
+{
+holder=1000233472 #al-Sakban
+}
+1040.1.1=
+{
+holder=0
+liege = c_philan
+}

@@ -1,22 +1,29 @@
-830.1.1 = {
-	de_jure_liege = "e_placeholder"
+830.1.1={
+	de_jure_liege = e_wendish_empire
+}
+830.1.1={
+  law = succ_seniority
+}
+830.1.1={
 	holder = 187001
 }
-846.8.15 = {
+846.8.15={
 	holder = 187002
 }
-869.1.1 = {
+869.1.1={
 	holder = 187003
 }
-871.1.1 = {
+871.1.1={
 	holder = 187004
 }
-871.12.1 = {
+871.12.1={
 	holder = 187003
 }
-894.1.1 = {
+894.1.1={
 	holder = 187006
 }
-907.7.4 = {
+907.7.4={
 	holder = 0
+	# Paradox history script bugs -> can't use de_jure_liege = 0
+	de_jure_liege = e_null
 }

@@ -1,40 +1,28 @@
-# 275 - Trøndelag
+# 275 - Trøndelag # Strind
 
 # County Title
 title = c_trondelag
 
 # Settlements
-max_settlements = 6
-b_audunborg = tribal
-b_nidaros = temple
+max_settlements = 5
 
-#b_trondheim = city
-#b_steinvikholm = castle
-#b_sverresborg = castle
-#b_borgund = temple
-#b_austratt = castle
-#b_haltålen = temple 
+b_lade = tribal # Hlaðir
+#b_trondheim = temple # Niðaróss
+b_longtun = city # Lagatýn
+#b_leksvik = castle # Ljoxa
+#b_vaernes = castle # Varnes
+#b_alstadhaug = castle # Aalvishaugr
+#b_sverresborg = castle # Sverrirborg
 
 # Misc
 culture = norse
 religion = norse_pagan
-terrain = mountain
 
 # History
-800.1.1 = {
-	b_audunborg = tb_shipyard_1
-}
-1000.1.1 = {
-	b_audunborg = castle
-	b_trondheim = city
-	b_steinvikholm = castle
-
-	b_trondheim = ct_port_1
-	b_audunborg = ca_shipyard_1
-	b_steinvikholm = ca_shipyard_1
-	b_nidaros = tp_shipyard_1
-}
-1066.1.1 = {
-	culture = norwegian
-	religion = catholic
-}
+995.1.1 = { religion = catholic } # Olav Tryggvason
+1015.1.1 = { b_lade = castle
+b_trondheim = temple } # Fat Olav
+1047.10.25 = { culture = norwegian } 
+1182.1.1 = { b_sverresborg = castle } 
+1182.1.1 = { capital = b_sverresborg }
+1182.1.1 = { remove_settlement = b_lade }

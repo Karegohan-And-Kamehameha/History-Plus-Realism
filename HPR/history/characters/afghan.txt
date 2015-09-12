@@ -1,14 +1,21 @@
+
+#Dynasties: 1000102300 - 1000102349
+#Characters: 1000231300 - 1000231399
+
+# vanilla characters
+
 175060 = {
 	name=Kallar # Founder of the Hindu Shahi dynasty 
 	dynasty=1043006
 	religion=hindu
-	culture=afghan
+	culture=pashtun
 	trait=brahmin # Well documented as a Brahmin
+  father=1000231301
 	841.1.1={
-		birth=yes
+		birth = yes
 	}
 	895.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -16,10 +23,10 @@
 	name="Hasan"
 	dynasty=12334
 	religion="sunni"
-	culture="afghan"
+	culture="pashtun"
 
 	1285.1.1={
-		birth=yes
+		birth = yes
 	}
 	1312.1.1={
 		add_spouse=74725
@@ -28,7 +35,7 @@
 		name=Bahman
 	}
 	1358.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -36,15 +43,15 @@
 	name="Mohammed"
 	dynasty=12334
 	religion="sunni"
-	culture="afghan"
+	culture="pashtun"
 	father=74723
 	mother=74725
 
 	1313.1.1={
-		birth=yes
+		birth = yes
 	}
 	1375.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -52,13 +59,13 @@
 	name="Ubaidah"
 	female=yes
 	religion="sunni"
-	culture="afghan"
+	culture="pashtun"
 
 	1295.1.1={
-		birth=yes
+		birth = yes
 	}
 	1362.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -66,15 +73,66 @@
 	name="Nezam" # Fictional
 	dynasty=1041119
 	religion="sunni"
-	culture="afghan"
+	culture="pashtun"
 	834.1.1={
-		birth=yes
+		birth = yes
 	}
 	888.1.1={
-		death=yes
+		death = yes
 	}
 }
 
+##############################################
+#SWMH characters
+
+#Dynasties: 1000102300 - 1000102349
+#Characters: 1000231300 - 1000231399
+
+1000231300 = {
+	name="Kabak" # semi-historical
+	dynasty=1000102300
+	religion="zun_pagan"
+	culture="pashtun"
+	837.1.1={
+		birth="837.1.1"
+	}
+	860.1.1={
+		add_spouse=1000231302
+	}
+	867.2.2={
+		death="867.2.2"
+	}
+}
+
+1000231301 = {
+	name="Bhima"  # fantasy father of Kallar
+	dynasty=1043006
+	religion=hindu
+	culture=pashtun
+	819.1.1={
+		birth = yes
+	}
+	860.1.1={
+		death = yes
+	}
+}
+1000231302 = {
+	name="Beyan"  # fantasy sister of Kallar
+  female=yes
+	dynasty=1043006
+	religion=hindu
+	culture=pashtun
+  father=1000231301
+	840.1.1={
+		birth = yes
+	}
+	860.1.1={
+		add_spouse=1000231300
+	}
+	895.1.1={
+		death = yes
+	}
+}
 188565 = {
 	name="Bo-Fuzun"
 	dynasty=1042104 # Nandin
@@ -84,16 +142,15 @@
 	trait=kshatriya
 	trait=mahayana_buddhist
 	711.7.11={
-		birth=yes
+		birth = yes
 	}
 	738.1.1={
 		add_spouse=188566
 	}
 	775.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188566 = {
 	name="Samidevi" # probably from 7th rather than 8th century
 	female=yes
@@ -103,13 +160,12 @@
 	trait=kshatriya
 	trait=mahayana_buddhist
 	720.1.28={
-		birth=yes
+		birth = yes
 	}
 	785.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188567 = {
 	name="Naz'aktar" # from early rather than mid 700s
 	dynasty=1042104 # Nandin
@@ -120,13 +176,12 @@
 	trait=kshatriya
 	trait=mahayana_buddhist
 	742.9.25={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188570 = {
 	name="Šarvin" # fictitious Bamiyan ruler
 	dynasty=1042109 # Bamiyan
@@ -135,13 +190,12 @@
 	trait=kshatriya
 	trait=mahayana_buddhist
 	709.5.22={
-		birth=yes
+		birth = yes
 	}
 	790.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188571 = {
 	name="Eskander" # fictitious holder of Kunduz
 	dynasty=1042108 # of Kunduz
@@ -150,13 +204,12 @@
 	trait=kshatriya
 	trait=mahayana_buddhist
 	738.11.12={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188572 = {
 	name="Merzuban" # fictitious Bamiyan prince
 	dynasty=1042109 # Bamiyan
@@ -166,10 +219,10 @@
 	trait=kshatriya
 	trait=mahayana_buddhist
 	736.5.22={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
 188573 = {
@@ -180,10 +233,10 @@
 #	trait=kshatriya # Jats, so no caste
 	trait=mahayana_buddhist
 	741.3.7={
-		birth=yes
+		birth = yes
 	}
 	798.1.1={
-		death=yes
+		death = yes
 	}
 }
 188700 = {
@@ -192,10 +245,10 @@
 	religion="zun_pagan"
 	culture="afghan"
 	610.1.1={
-		birth=yes
+		birth = yes
 	}
 	660.1.1={
-		death=yes
+		death = yes
 	}
 }
 188701 = {
@@ -206,10 +259,10 @@
 	culture="afghan"
 	father=188700
 	635.1.1={
-		birth=yes
+		birth = yes
 	}
 	687.1.1={
-		death=yes
+		death = yes
 	}
 }
 188702 = {
@@ -219,10 +272,10 @@
 	culture="afghan"
 	father=188701
 	660.1.1={
-		birth=yes
+		birth = yes
 	}
 	725.1.1={
-		death=yes
+		death = yes
 	}
 }
 188703 = {
@@ -233,10 +286,10 @@
 	culture="afghan"
 	father=188702
 	685.1.1={
-		birth=yes
+		birth = yes
 	}
 	738.1.1={
-		death=yes
+		death = yes
 	}
 }
 188628 = {
@@ -247,10 +300,10 @@
 	culture="afghan"
 	father=188703
 	711.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={
-		death=yes
+		death = yes
 	}
 }
 188705 = {
@@ -260,10 +313,10 @@
 	culture="afghan"
 	father=188628
 	732.6.16={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
 188706 = {
@@ -274,10 +327,10 @@
 	culture="afghan"
 	father=188705
 	761.1.28={
-		birth=yes
+		birth = yes
 	}
 	810.1.1={
-		death=yes
+		death = yes
 	}
 }
 188707 = {
@@ -287,10 +340,10 @@
 	culture="afghan"
 	father=188705
 	764.12.18={
-		birth=yes
+		birth = yes
 	}
 	815.1.1={
-		death=yes
+		death = yes
 	}
 }
 188708 = {
@@ -300,10 +353,10 @@
 	culture="afghan"
 	father=188707
 	792.1.1={
-		birth=yes
+		birth = yes
 	}
 	850.1.1={
-		death=yes
+		death = yes
 	}
 }
 188709 = {
@@ -313,10 +366,10 @@
 	culture="afghan"
 	father=188708
 	825.1.1={
-		birth=yes
+		birth = yes
 	}
 	864.1.1={
-		death=yes
+		death = yes
 	}
 }
 188710 = {
@@ -327,13 +380,13 @@
 	culture="afghan"
 	father=188709
 	846.1.1={
-		birth=yes
+		birth = yes
 	}
 	865.1.1 = {
 		religion = sunni
 	}
 	868.1.1={
-		death=yes
+		death = yes
 	}
 }
 188711 = {
@@ -343,10 +396,10 @@
 	culture="afghan"
 	father=188708
 	823.1.1={
-		birth=yes
+		birth = yes
 	}
 	865.1.1={
-		death=yes
+		death = yes
 	}
 }
 188712 = {
@@ -356,14 +409,14 @@
 	culture="afghan"
 	father=188711
 	850.1.1={
-		birth=yes
+		birth = yes
 	}
 	865.1.1={
 		employer=175060
 		religion = hindu
 	}
 	873.1.1={
-		death=yes
+		death = yes
 	}
 }
 188713 = {
@@ -374,14 +427,14 @@
 	culture="afghan"
 	father=188711
 	846.1.1={
-		birth=yes
+		birth = yes
 	}
 	865.1.1={
 		employer=175060
 		religion = hindu
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
 188714 = {
@@ -392,14 +445,14 @@
 	culture="afghan"
 	father=188711
 	848.1.1={
-		birth=yes
+		birth = yes
 	}
 	865.1.1={
 		employer=175060
 		religion = hindu
 	}
 	900.1.1={
-		death=yes
+		death = yes
 	}
 }
 188715 = {
@@ -409,10 +462,10 @@
 	culture="afghan"
 	father=188628
 	738.11.26={
-		birth=yes
+		birth = yes
 	}
 	785.1.1={
-		death=yes
+		death = yes
 	}
 }
 188716 = {
@@ -422,10 +475,10 @@
 	culture="afghan"
 	father=188628
 	748.8.3={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
 188717 = {
@@ -436,10 +489,10 @@
 	culture="afghan"
 	father=188700
 	655.1.1={
-		birth=yes
+		birth = yes
 	}
 	740.1.1={
-		death=yes
+		death = yes
 	}
 }
 188718 = {
@@ -449,26 +502,24 @@
 	culture="afghan"
 	father=188717
 	685.1.1={
-		birth=yes
+		birth = yes
 	}
 	745.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188719 = {
 	name="Danûš" # fictitious
 	dynasty=1042156
 	religion="zun_pagan"
 	culture="afghan"
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188720 = {
 	name="Arêz" # fictitious
 	female=yes
@@ -477,13 +528,12 @@
 	culture="afghan"
 	father=188719
 	748.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188721 = {
 	name="Perwane" # fictitious
 	female=yes
@@ -492,26 +542,24 @@
 	culture="afghan"
 	father=188719
 	752.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188722 = {
 	name="Ruhollah" # fictitious
 	dynasty=1042157
 	religion="zun_pagan"
 	culture="afghan"
 	739.1.1={
-		birth=yes
+		birth = yes
 	}
 	795.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188723 = {
 	name="Ruhollah" # fictitious
 	dynasty=1042157
@@ -519,13 +567,12 @@
 	culture="afghan"
 	father=188722
 	764.1.1={
-		birth=yes
+		birth = yes
 	}
 	815.1.1={
-		death=yes
+		death = yes
 	}
 }
-
 188724 = {
 	name="Rondik" # fictitious
 	female=yes
@@ -534,9 +581,9 @@
 	culture="afghan"
 	father=188722
 	766.1.1={
-		birth=yes
+		birth = yes
 	}
 	820.1.1={
-		death=yes
+		death = yes
 	}
 }

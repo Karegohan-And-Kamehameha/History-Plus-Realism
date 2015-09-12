@@ -1,75 +1,94 @@
-330.1.1 = {
-	liege = "e_byzantium"
+330.1.1={
+	liege="d_cephalonia"
 }
-769.1.1={
-	liege = "d_epirus"
-	holder=145801
+865.1.1={
+	holder=1000232108
 }
-865.1.1 = {
-	liege = "d_epirus"
-	holder = 145181
+1060.1.1=
+{
+holder=1000232152
 }
-1000.1.1 = {
-	holder = 1000252302
-	liege = "d_epirus"
+1075.1.1={
+	holder=90092
 }
-1066.1.1 = {
-	liege = "d_epirus"
+1077.1.1=
+{
+holder=1000232152
 }
-1066.1.1 = {
-	holder = 90092
+1085.6.1={
+	liege="d_apulia"
+	holder=1128 #Robert I de Hauteville
 }
-1098.1.1 = {
-	holder = 232512
+1085.6.17={
+	liege="d_cephalonia"
+	holder=1000232152
 }
-1120.1.1 = {
-	holder = 232529
+1088.1.1=
+{
+holder=1000167123
 }
-1135.1.1 = {
-	holder = 232530
+1102.1.1={
+	holder=232512
 }
-1154.1.1 = {
-	holder = 215014
+1120.1.1={
+	holder=232529
 }
-1185.9.12 = {
-	liege = "k_sicily"
-	holder = 211531 #Margitone di Brindisi
+1135.1.1={
+	holder=232530
+}
+1140.1.1={
+	holder=232507
+}
+1146.1.1=
+{
+holder=34445
+}
+1156.1.1=
+{
+holder=232508
+}
+1160.1.1={
+	holder=215035
+}
+1185.9.12={
+	liege="k_sicily"
+	holder=211531 #Margitone di Brindisi
 }
 #counts of Cephalonia
-1197.1.1 = {
-	liege = "k_venice"
+1197.1.1={
+	liege="k_venice"
 }
-1197.1.1 = {
-	holder = 31433 #Matteo I Orsini
+1197.1.1={
+	holder=31433 #Matteo I Orsini
 }
-1205.1.1 = {
-	liege = "d_achaia"
+1205.1.1={
+	liege="d_achaia"
 }
-1238.1.1 = {
-	holder = 31434 #Matteo II Orsini
+1238.1.1={
+	holder=31434 #Matteo II Orsini
 }
-1262.1.1 = {
-	holder = 31435 #Riccardo Orsini
+1262.1.1={
+	holder=31435 #Riccardo Orsini
 }
-1303.4.7 = {
-	holder = 31436 #Giovanni I Orsini
+1303.4.7={
+	holder=31436 #Giovanni I Orsini
 }
-1317.1.1 = {
-	holder = 31440 #Nicolo Orsini
+1317.1.1={
+	holder=31440 #Nicolo Orsini
 }
-1318.1.1 = {
-	holder = 31441 #Giovanni II Orsini
+1318.1.1={
+	holder=31441 #Giovanni II Orsini
 }
 #To kingdom of Naples
-1325.1.1 = {
-	liege = "d_calabria"
+1325.1.1={
+	liege="d_calabria"
 }
-1325.1.1 = {
-	holder = 461721 #Jean d'Anjou
+1325.1.1={
+	holder=461721 #Jean d'Anjou
 }
-1330.1.1 = {
-	holder = 32541 #Guglielmo Tocco
+1330.1.1={
+	holder=32541 #Guglielmo Tocco
 }
-1335.9.22 = {
-	holder = 32543 #Leonardo Tocco
+1335.9.22={
+	holder=32543 #Leonardo Tocco
 }

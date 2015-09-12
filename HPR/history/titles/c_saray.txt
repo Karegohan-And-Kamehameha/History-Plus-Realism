@@ -48,67 +48,83 @@
 	liege=0
 	holder=0
 }
-990.1.1 = {
-	holder = 1000254400
+# Sarkel falls, Bula-Chopan settles.
+966.1.1={
+	liege=d_bula_chopan
+	holder=1000231846
 }
-1066.1.1={
-	liege=k_cuman
-	holder=20663
+993.1.1={
+	holder=1000231848
 }
-1089.1.1={
-	#liege=d_itil
-	holder=806
+1006.1.1={
+	holder=1000231850
 }
-1110.1.1 = {
-holder = 90143
+1027.1.1={
+	holder=1000231852
 }
-1120.1.1 = {
-holder = 125401
+#Oghuz takes over
+1044.1.1 = {
+	liege=d_salgur
+holder=	1000231993
 }
-1146.1.1 = {
-holder = 125402
+#Cumans arrive
+#Ölberli
+1050.1.1={
+	liege=d_olberlig
+	holder=1000229750
 }
-1183.1.1 = {
-holder = 228030
+1080.1.1={
+	holder=1000229751 # Bönek I
 }
-1203.1.1 = {
-holder = 125403
+1112.1.1={
+	holder=1000229752 # Sevenç
 }
-1220.1.1 = {
-	holder = 34949
+1151.1.1={
+	holder=1000233002 # Bönek II
 }
-1223.1.1 = {
-holder = 125404
+1167.1.1={
+	holder=1000233003
 }
-1227.1.1 = {
-holder = 125501
+1195.1.1={
+	holder=1000233004
 }
-1227.12.2 = {
-holder = 125503
+1210.1.1={
+	holder=1000233005 # Bachman
 }
-1255.1.2 = {
-holder = 125505
+ # Mongols put down revolt
+1239.1.1={
+	liege=d_itil
+	holder=125503
 }
-1256.1.2 = {
-holder = 125506
+1255.1.2=
+{
+	holder=125505
 }
-1257.1.2 = {
-holder = 125504
+1256.1.2=
+{
+	holder=125506
 }
-1266.1.2 = {
-holder = 125508
+1257.1.2=
+{
+	holder=125504
 }
-1280.1.2 = {
-holder = 125509
+1266.1.2=
+{
+	holder=125508
 }
-1287.1.2 = {
-holder = 125511
+1280.1.2=
+{
+	holder=125509
 }
-1291.1.2 = {
-holder = 125512
+1287.1.2=
+{
+	holder=125511
 }
-1312.1.2 = {
-holder = 480000
+1291.1.2=
+{
+	holder=125512
 }
-
-
+1312.1.2=
+{
+	holder=480000
+}

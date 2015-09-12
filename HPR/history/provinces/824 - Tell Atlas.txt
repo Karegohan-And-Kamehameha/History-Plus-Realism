@@ -4,12 +4,15 @@
 title = c_tell_atlas
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 
-b_tiziouzou = castle
-b_zaoula = city
+b_masila = castle
+b_tabna = city
 
-#b_akaoudj = temple
+#b_bilizma = temple
+#b_msila = city
+#b_batna = castle
+#b_sidinhar = castle
 
 #b_mirabeau = castle
 #b_nacina = castle
@@ -18,12 +21,12 @@ b_zaoula = city
 #b_mechreck = castle
 
 # Misc
-culture = maghreb_arabic
-religion = ibadi
+culture = sanhaja
+religion = sunni
 
 # History
+1068.1.1 = { remove_settlement = b_masila  }
+1068.1.1 = { b_masila = tribal }
+1068.1.1 = { capital = b_masila }
 
-909.1.1 = { religion = sunni }
-
-1187.1.1 = { b_mechreck = castle }
 

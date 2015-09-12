@@ -1,36 +1,53 @@
-
-1165.1.1 = {
-liege = "e_byzantium"
-vice_royalty = yes
+1066.1.1=
+{
+holder=1000229231 # the mysterious Ban of Bosnia
+liege="k_croatia"
 } 
-1165.1.1 = {
-holder = 219500
+1097.1.1=
+{
+holder=0
 }
-1172.3.4 = {
-holder = 218800
-}
-1183.9.24 = {
-liege = "k_hungary"
-vice_royalty = no
+1165.1.1=
+{
+liege="e_byzantium"
 } 
-1204.1.1 = {
-holder = 218801
+1165.1.1=
+{
+holder=219500
 }
-1232.1.1 = {
-holder = 34145
+1172.3.4=
+{
+holder=218800
 }
-1249.3.1 = {
-holder = 34148
+1183.9.24=
+{
+liege="k_hungary"
+} 
+1204.1.1=
+{
+holder=218801
 }
-1287.1.1 = {
-holder = 34149
+1232.1.1=
+{
+holder=34145
 }
-1295.1.1 = {
-holder = 468810
+1249.3.1=
+{
+holder=34148
 }
-1314.1.13 = {
-holder = 468800
+1287.1.1=
+{
+holder=34149
 }
-1322.1.1 = {
-liege = 0
+1295.1.1=
+{
+holder=468810
+}
+1314.1.13=
+{
+holder=468800
+}
+1322.1.1=
+{
+liege=0
 }

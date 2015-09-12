@@ -1,79 +1,109 @@
 330.1.1={
-	liege="d_nikaea"
+	liege="d_aegean_islands"
 }
-756.1.1={
-	holder=145829
+865.1.1={
+	holder=1000232147
 }
-855.1.1={
-	holder=145193
+1040.1.1={
+	holder=20524
 }
-976.1.10 = {
-holder = 1716
-liege = "e_byzantium"
-}
-1060.1.1 = {
-	liege = "d_nikaea"
-}
-1060.1.1 = {
-	holder = 1746
-}
-1071.8.26 = {
-	holder = 1740
+1080.1.1={
+	liege=0
+	holder=41303
 }
 #The Seljuks
-1078.3.31 = {
-	holder = 41701
+1081.1.1={
+	liege="k_rum"
+	holder=1000232647
 }
-#1st crusade
-1097.6.19 = {
-	holder = 1742
+1084.1.1={
+	liege="d_aegean_islands"
 }
-1118.8.15 = {
-	holder = 223023
+1086.1.1={
+	liege="k_rum"
+	holder=1000232645
 }
-1143.4.8 = {
-	holder = 215530
+1092.1.1={
+	holder=41701
 }
-1180.9.24 = {
-	holder = 215531
+#Byzantines conquer the southern Littoral
+1094.1.1={
+	liege="d_aegean_islands"
+	holder=1000232647
 }
-1183.9.24 = {
-	holder = 215529
+1097.1.1={
+	holder=85000
 }
-1185.9.12 = {
-	holder = 215500
+1100.1.1={
+	holder=1762
 }
-1195.6.1 = {
-	holder = 215503
+1107.1.1={
+	holder=70404
 }
-1203.7.18 = {
-	holder = 215507
+1115.1.1=
+{
+holder=1000232220
 }
-1204.1.28 = {
-	holder = 125710
+1117.1.1=
+{
+holder=125751
 }
-1204.5.16 = {
-holder = 215674
+1130.1.1=
+{
+holder=1000232241
 }
-1222.8.2 = {
-holder = 125741
+1136.1.1={
+	holder=34338
 }
-1254.11.3 = {
-holder = 125742
+1147.1.1={
+	holder=215509
 }
-1258.8.18 = {
-holder = 125743
+1166.1.16=
+{
+holder=215019
 }
-1261.7.25 = {
-holder = 465527
+1182.1.1={
+	holder=34297
 }
-1282.12.11 = {
-holder = 465521
+1204.5.16={
+	holder=215674
+}
+1204.5.16={
+	liege="e_byzantium"
+}
+1205.1.1={
+	liege="e_latin_empire"
+	holder=205523 #Baudouin I van Vlaanderen
+}
+1205.6.1={
+	holder=205525 #Henry I van Vlaanderen
+}
+1216.6.11={
+	holder=205725 #Pierre I de Courtenay
+}
+1219.1.1={
+	holder=205526 #Yolande van Vlaanderen (regent)
+}
+1221.3.25={
+	holder=91062 #Robert de Courtenay
+}
+1225.1.1={
+	liege="e_byzantium"
+	holder=125741
+}
+1258.8.18={
+	holder=125743
+}
+1261.7.25={
+	holder=465527
+}
+1282.12.11={
+	holder=465521
 }
 #The Ottomans
-1310.1.1 = {
-holder = 71841
+1310.1.1={
+	holder=71841
 }
-1332.1.1 = {
-holder = 476500
+1332.1.1={
+	holder=476500
 }

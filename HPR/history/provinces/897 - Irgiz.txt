@@ -1,0 +1,18 @@
+# 897 - Irgiz
+
+# County Title
+title = c_irgiz
+
+# Settlements
+max_settlements = 1
+b_irgiz = tribal
+
+culture = oghuz
+religion = tengri_pagan
+
+# History
+
+810.1.1 = { culture = pecheneg } 
+833.1.1 = { culture = oghuz } 
+1015.1.1 = {	culture = cuman }
+1230.1.1 = { culture = mongol } 

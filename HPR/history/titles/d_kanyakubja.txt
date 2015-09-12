@@ -16,7 +16,7 @@
 }
 790.1.1={
 	holder = 191008 #Cakrayudha
-	liege = k_bengal
+	liege = 0
 }
 815.1.1={
 	holder = 188006 # Nagabhata II

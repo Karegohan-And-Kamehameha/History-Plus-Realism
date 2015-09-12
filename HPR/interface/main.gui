@@ -12,7 +12,7 @@ guiTypes = {
     # in the minimap icon
 	positionType = {
 		name = "minimap_size"
-		position = { x=183 y=120 }
+		position = { x=178 y=139 }
 	}
 	
 	windowType = {
@@ -731,7 +731,7 @@ guiTypes = {
 			iconType = {
 				name ="minimap_area_bg"
 				spriteType = "GFX_minimap_area_bg"
-				position = { x=9 y=17 }
+				position = { x=0 y=8 }
 			}
 			
 			## map modes

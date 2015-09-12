@@ -4,19 +4,20 @@
 title = c_kerman
 
 # Settlements
-max_settlements = 4
-b_rayen = castle 
-b_behdesir = city
-b_kerman = temple
+max_settlements = 6
+b_kerman = castle
+b_rayin = temple
+b_bam = city
+b_djardjin = temple
+b_khabis = city
 
-#b_bardsir = city
-#b_maymand = castle
-#b_nough = castle
-#b_ghaleganj = castle
-#b_zarand = castle
+#b_mahan = castle
+#b_kuhbanan = castle
 
 # Misc
-culture = persian
-religion = sunni
+culture = baloch
+religion = zoroastrian
 
 # History
+950.1.1 = {	religion = sunni }
+1050.1.1 = { culture = persian } 

@@ -17,57 +17,80 @@
 767.1.1={
 	holder=145950
 }
-852.1.1 = {
-	liege = "d_moldau"
-	holder = 168070
+852.1.1=
+{
+	liege="d_basarabia"
+	holder=168070
 }
-867.1.1 = {
-	holder = 168289
+867.1.1=
+{
+	holder=168289
 }
-998.1.1 = {
-	holder = 728 #Samuil
-	liege = "k_bulgaria"
+#Qara-Bay
+895.1.1={
+        liege=d_qara_bay
+	holder=1000231785
 }
-1066.1.1 = {
-	liege = d_moldau
+923.1.1={
+	holder=1000231787
 }
-1066.1.1 = {
-	holder = 20635
+943.1.1={
+	holder=1000231789
 }
-1091.1.1 = {
-	holder = 34808
+989.1.1={
+	holder=1000231791
 }
-1110.1.1 = {
-	holder = 34809
+1012.1.1={
+	holder=1000231793
 }
-1145.1.1 = {
-	holder = 34810
+1024.1.1={
+	holder=1000231795
 }
-
-1171.1.1 = {
-	liege = "d_moldau"
-	holder = 34826
+1047.1.1={
+	holder=1000231797 # Selte
 }
-1190.1.1 = {
-	holder = 34827
+1068.1.1={
+	holder=1000231799 # Kazar
 }
-1225.1.1 = {
-	holder = 34828
+#last byzzie invasion fails
+#Cumans take over in person
+#Ulasgoli
+1123.1.1={
+	liege="d_ulasgoli"
+	holder=1000233142
 }
-1238.1.1 = {
-	holder = 125516
+1153.1.1={
+	holder=1000233144
 }
-1265.1.2 = {
-	holder = 125517
+1180.1.1={
+	holder=1000233146 # Vlur
 }
-1270.1.2 = {
-	holder = 125518
+1216.1.1={
+	holder=1000233148
 }
-1299.1.2 = {	
-	holder = 34830
+1233.1.1={
+	holder=1000233150
 }
-1325.1.1 = {
-	holder = 34831
+# Ulasgoli migrate to Hungary after defeat
+1238.1.1={
+	liege="e_golden_horde"
+	holder=125516
+}
+1265.1.2=
+{
+	holder=125517
+}
+1270.1.2=
+{
+	holder=125518
+}
+1299.1.2=
+{	
+	holder=34830
+}
+1325.1.1=
+{
+	holder=34831
 }
 
 

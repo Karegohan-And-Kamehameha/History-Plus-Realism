@@ -371,7 +371,7 @@ character_event = {
 			culture = breton
 			culture = cornish
 			culture = welsh
-			culture = gallawa
+			culture = norsegaelic
 			culture = pictish
 		}
 		NOT = { has_global_flag = merlin_freed }
@@ -381,7 +381,7 @@ character_event = {
 				culture = breton
 				culture = cornish
 				culture = welsh
-				culture = gallawa
+				culture = norsegaelic
 				culture = pictish
 			}
 		}

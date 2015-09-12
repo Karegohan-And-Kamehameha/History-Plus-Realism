@@ -1,0 +1,31 @@
+
+846.1.1={	
+	set_tribute_suzerain = { who = k_khorasan percentage = 0.30 }
+	historical_nomad = yes
+	holder=1000230957
+}
+863.1.1={	
+	holder=1000230958
+}
+894.1.1={	
+	holder=1000230959
+}
+910.1.1={	
+	holder=1000230961
+}
+919.1.1={	
+	holder=1000230962
+}
+943.1.1={	
+	holder=1000230966
+}
+966.1.1={	
+	holder=1000230967
+}
+1002.1.1={	
+	holder=1000230968
+}
+1035.1.1={	
+	holder=1000230969
+}
+

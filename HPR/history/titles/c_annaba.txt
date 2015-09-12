@@ -1,77 +1,88 @@
-767.1.1={	
-	liege = d_kabylia
-	holder = 210035
-}
 864.1.1={	
+	liege = d_kabylia
 	holder = 6883
 }
-995.1.1 = {
-holder = 20934
-liege = "d_tunis"
+1066.1.1=
+{
+holder=155037
 }
-1066.1.1 = {
-liege = "d_kabylia"
+1090.1.1=
+{
+holder=155038
 }
-1066.1.1 = {
-holder = 155037
+1110.1.1=
+{
+holder=155039
 }
-1090.1.1 = {
-holder = 155038
+1130.1.1=
+{
+holder=155040
 }
-1110.1.1 = {
-holder = 155039
+1152.1.1=
+{
+liege="k_sicily"
 }
-1130.1.1 = {
-holder = 155040
+1152.1.1=
+{
+holder=32956
 }
-1152.1.1 = {
-liege = "k_sicily"
+1159.7.1=
+{
+liege="d_kabylia"
 }
-1152.1.1 = {
-holder = 32956
+1159.7.1=
+{
+holder=155087
 }
-1159.7.1 = {
-liege = "d_kabylia"
+1190.1.1=
+{
+holder=32985
 }
-1159.7.1 = {
-holder = 155087
+1199.1.23=
+{
+holder=155041
 }
-1190.1.1 = {
-holder = 32985
+1200.1.1=
+{
+liege="d_tunis"
 }
-1199.1.23 = {
-holder = 155041
+1200.1.1=
+{
+holder=32977
 }
-1200.1.1 = {
-liege = "d_tunis"
+1207.1.1=
+{
+liege="d_kabylia"
 }
-1200.1.1 = {
-holder = 32977
+1207.1.1=
+{
+holder=155041
 }
-1207.1.1 = {
-liege = "d_kabylia"
+1220.1.1=
+{
+holder=155042
 }
-1207.1.1 = {
-holder = 155041
+1223.1.1=
+{
+liege="k_maghreb"
 }
-1220.1.1 = {
-holder = 155042
+1229.1.1=
+{
+liege="d_kabylia"
 }
-1223.1.1 = {
-liege = "k_morocco"
+1270.1.1=
+{
+holder=155043
 }
-1229.1.1 = {
-liege = "d_kabylia"
+1295.1.1=
+{
+holder=155044
 }
-1270.1.1 = {
-holder = 155043
+1305.1.1=
+{
+holder=155046
 }
-1295.1.1 = {
-holder = 155044
-}
-1305.1.1 = {
-holder = 155046
-}
-1330.1.1 = {
-holder = 155045
+1330.1.1=
+{
+holder=155045
 }

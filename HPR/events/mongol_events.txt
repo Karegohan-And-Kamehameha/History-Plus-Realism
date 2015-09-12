@@ -14,29 +14,29 @@ narrative_event = {
 	desc = EVTDESC60000
 	major = yes
 	hide_from = yes
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_narrative_frame_war
-	
+
 	only_playable = yes
 	religion = catholic
-	
+
 	trigger = {
 		always = no
 		year = 1215
-		
+
 		controls_religion = yes # Let it happen for the Pope - he's always around
-		
+
 		NOR = {
 			has_global_flag = mongol_horde_rumors
 			has_global_flag = mongol_horde_arrival
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	immediate = {
 		set_global_flag = mongol_horde_rumors
 		activate_title = { title = e_mongol_empire status = yes }
@@ -81,7 +81,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60000"
 	}
@@ -89,10 +89,10 @@ narrative_event = {
 
 character_event = {
 	id = 60007
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		create_character = {
 			name = "Borte"
@@ -243,7 +243,7 @@ character_event = {
 									set_father = PREVPREVPREVPREV
 								}
 								create_character = {
-									name = "Yesü Mongke" 
+									name = "Yesü Mongke"
 									random_traits = yes
 									dynasty = ROOT
 									religion = ROOT
@@ -262,7 +262,7 @@ character_event = {
 									set_father = PREVPREVPREVPREV
 								}
 								create_character = {
-									name = "Baidar" 
+									name = "Baidar"
 									random_traits = yes
 									dynasty = ROOT
 									religion = ROOT
@@ -276,7 +276,7 @@ character_event = {
 									set_father = PREVPREVPREVPREV
 								}
 								create_character = {
-									name = "Yesünto'a" 
+									name = "Yesünto'a"
 									random_traits = yes
 									dynasty = ROOT
 									religion = ROOT
@@ -289,7 +289,7 @@ character_event = {
 									set_father = PREVPREVPREVPREV
 								}
 								create_character = {
-									name = "Sarban" 
+									name = "Sarban"
 									random_traits = yes
 									dynasty = ROOT
 									religion = ROOT
@@ -302,7 +302,7 @@ character_event = {
 									set_father = PREVPREVPREVPREV
 								}
 								create_character = {
-									name = "Buri" 
+									name = "Buri"
 									random_traits = yes
 									dynasty = ROOT
 									religion = ROOT
@@ -580,12 +580,12 @@ narrative_event = {
 	desc = EVTDESC60001
 	major = yes
 	hide_new = yes
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_narrative_frame_war
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		always = no
 		has_landed_title = e_mongol_empire
@@ -596,7 +596,7 @@ narrative_event = {
 		}
 		NOT = { has_global_flag = mongol_horde_arrival }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -604,7 +604,7 @@ narrative_event = {
 			year = 1218
 		}
 	}
-	
+
 	option = {
 		name = "OK"
 		trigger = {
@@ -867,7 +867,7 @@ narrative_event = {
 				maintenance_multiplier = 0
 			}
 		}
-		
+
 		create_character = {
 			random_traits = yes
 			dynasty = random
@@ -949,7 +949,7 @@ narrative_event = {
 				maintenance_multiplier = 0
 			}
 		}
-		
+
 		create_character = {
 			random_traits = yes
 			dynasty = random
@@ -1306,23 +1306,23 @@ narrative_event = {
 	id = 60002
 	title = EVTNAME60002
 	picture = GFX_evt_mongols
-	
+
 	desc = {
 		text = EVTDESC60002A
-		trigger = { 
+		trigger = {
 			ROOT = { has_character_flag = has_third_son }
 		}
 	}
 	desc = {
 		text = EVTDESC60002B
-		trigger = { 
-			ROOT = { NOT = { has_character_flag = has_third_son } } 
+		trigger = {
+			ROOT = { NOT = { has_character_flag = has_third_son } }
 		}
 	}
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	trigger = {
 		always = no
 		has_landed_title = e_mongol_empire
@@ -1332,26 +1332,26 @@ narrative_event = {
 			location = {
 				OR = {
 					region = custom_cuman
-					duchy = { title = d_khwarizmian }
+					duchy = { title = d_khwarazm }
 				}
 			}
 		}
 		any_realm_title = {
 			tier = COUNT
-			location = { 
+			location = {
 				OR = {
-					region = custom_persia 					
-					duchy = { title = d_dihistan }
+					region = custom_persia
+					duchy = { title = d_ustyurt }
 				}
 			}
 		}
 		any_realm_title = {
 			tier = COUNT
-			location = { 
-				region = custom_khwarizm 
+			location = {
+				region = custom_khwarizm
 				NOR = {
-					duchy = { title = d_khwarizmian }
-					duchy = { title = d_dihistan }
+					duchy = { title = d_khwarazm }
+					duchy = { title = d_ustyurt }
 				}
 			}
 		}
@@ -1420,7 +1420,7 @@ narrative_event = {
 
 			#otherwise assign areas to children
 			if = {
-				limit = { NOT = { has_character_flag = jochi_exists } }	
+				limit = { NOT = { has_character_flag = jochi_exists } }
 				#give GH to a son/grandson who's already a king in cuman
 				random_vassal = {
 					limit = {
@@ -1444,7 +1444,7 @@ narrative_event = {
 				}
 			}
 			if = {
-				limit = { NOT = { has_character_flag = jochi_exists } }	
+				limit = { NOT = { has_character_flag = jochi_exists } }
 				#give GH to a son who's already a duke in cuman
 				random_realm_character = {
 					limit = {
@@ -1464,7 +1464,7 @@ narrative_event = {
 				}
 			}
 			if = {
-				limit = { NOT = { has_character_flag = jochi_exists } }	
+				limit = { NOT = { has_character_flag = jochi_exists } }
 				#otherwise give GH to eldest available son
 				random_child = {
 					limit = {
@@ -1488,7 +1488,7 @@ narrative_event = {
 				}
 			}
 			if = {
-				limit = { NOT = { has_character_flag = tolui_exists } }	
+				limit = { NOT = { has_character_flag = tolui_exists } }
 				#give ilkhanate to a son/grandson who's already a king in persia
 				random_vassal = {
 					limit = {
@@ -1626,7 +1626,7 @@ narrative_event = {
 						NOT = { character = event_target:second_mongol_son }
 					}
 				}
-				#otherwise give Chagatai to eldest available son				
+				#otherwise give Chagatai to eldest available son
 				random_child = {
 					limit = {
 						is_alive = yes
@@ -1650,7 +1650,7 @@ narrative_event = {
 
 			clr_character_flag = jochi_exists
 			clr_character_flag = tolui_exists
-		
+
 			#stop any wars and disband the initial mongol forces
 			any_war = {
 				limit = {
@@ -1662,7 +1662,7 @@ narrative_event = {
 				end_war = invalid
 			}
 			disband_event_forces = first_mongol_horde
-			
+
 			if = {
 				limit = { has_character_flag = has_third_son }
 				current_heir = { set_character_flag = has_third_son }
@@ -1670,7 +1670,7 @@ narrative_event = {
 			current_heir = { character_event = { id = 60005 days = 1 } }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA60002
 		trigger = { character = ROOT }
@@ -1701,7 +1701,7 @@ narrative_event = {
 character_event = {
 	id = 60003
 	picture = GFX_evt_tengri_throneroom_oldgods
-	
+
 	desc = {
 		text = EVTDESC60003A
 		trigger = { FROM = { has_character_flag = has_third_son } }
@@ -1710,16 +1710,16 @@ character_event = {
 		text = EVTDESC60003B
 		trigger = { FROM = { NOT = { has_character_flag = has_third_son } } }
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA60003 #Join Golden Horde
 		ai_chance = {
 			factor = 50
 			modifier = {
 				factor = 0.1
-				is_ruler = yes			
+				is_ruler = yes
 				NOT = {
 					any_realm_province = {
 						any_neighbor_province = {
@@ -1936,9 +1936,9 @@ character_event = {
 	id = 60004
 	desc = EVTDESC60004
 	picture = GFX_evt_tengri_throneroom_oldgods
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		#son will immediately form a cadet dynasty
 		FROMFROM = { save_event_target_as = old_dynasty_head }
@@ -2029,7 +2029,7 @@ character_event = {
 				picture = GFX_evt_coronation
 			}
 		}
-		
+
 		#move capital to primary capital, if possible
 		if = {
 			limit = {
@@ -2081,13 +2081,13 @@ character_event = {
 			primary_title = { add_law = succ_gavelkind }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA60004
 		trigger = { has_landed_title = e_golden_horde }
 		set_global_flag = golden_horde_arrival
 		custom_tooltip = { text = ESTABLISH_CADET_BRANCH }
-		
+
 		#lose all claims held by the other hordes
 		any_claim = {
 			limit = {
@@ -2160,7 +2160,6 @@ character_event = {
 					capital_scope = {
 						OR = {
 							region = custom_persia
-							region = custom_afghanistan
 							region = custom_baluchistan
 							region = custom_byzantium
 							region = custom_arabia
@@ -2175,7 +2174,7 @@ character_event = {
 							region = world_india_deccan
 							region = world_india_rajastan
 							duchy = { title = d_merv }
-							duchy = { title = d_dihistan }
+							duchy = { title = d_ustyurt }
 						}
 					}
 				}
@@ -2188,7 +2187,6 @@ character_event = {
 						capital_scope = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -2203,7 +2201,7 @@ character_event = {
 								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
-								duchy = { title = d_dihistan }
+								duchy = { title = d_ustyurt }
 							}
 						}
 					}
@@ -2217,7 +2215,7 @@ character_event = {
 					limit = {
 						capital_scope = {
 							region = custom_khwarizm
-							NOT = { duchy = { title = d_khwarizmian } }
+							NOT = { duchy = { title = d_khwarazm } }
 						}
 					}
 					set_defacto_liege = event_target:third_mongol_son
@@ -2228,14 +2226,14 @@ character_event = {
 						limit = {
 							capital_scope = {
 								region = custom_khwarizm
-								NOT = { duchy = { title = d_khwarizmian } }
+								NOT = { duchy = { title = d_khwarazm } }
 							}
 						}
 						set_defacto_liege = event_target:third_mongol_son
 						opinion = { who = event_target:third_mongol_son modifier = opinion_loyal_vassal years = 5 }
 					}
 				}
-			}		
+			}
 		}
 	}
 	option = {
@@ -2328,7 +2326,7 @@ character_event = {
 							region = custom_croatia
 							region = custom_serbia
 							region = custom_wallachia
-							duchy = { title = d_khwarizmian }
+							duchy = { title = d_khwarazm }
 						}
 					}
 				}
@@ -2354,7 +2352,7 @@ character_event = {
 								region = custom_croatia
 								region = custom_serbia
 								region = custom_wallachia
-								duchy = { title = d_khwarizmian }
+								duchy = { title = d_khwarazm }
 							}
 						}
 					}
@@ -2369,7 +2367,7 @@ character_event = {
 						capital_scope = {
 							region = custom_khwarizm
 							NOT = { duchy = { title = d_merv } }
-							NOT = { duchy = { title = d_dihistan } }
+							NOT = { duchy = { title = d_ustyurt } }
 						}
 					}
 					set_defacto_liege = event_target:third_mongol_son
@@ -2381,7 +2379,7 @@ character_event = {
 							capital_scope = {
 								region = custom_khwarizm
 								NOT = { duchy = { title = d_merv } }
-								NOT = { duchy = { title = d_dihistan } }
+								NOT = { duchy = { title = d_ustyurt } }
 							}
 						}
 						set_defacto_liege = event_target:third_mongol_son
@@ -2464,7 +2462,7 @@ character_event = {
 							region = custom_croatia
 							region = custom_serbia
 							region = custom_wallachia
-							duchy = { title = d_khwarizmian }
+							duchy = { title = d_khwarazm }
 						}
 					}
 				}
@@ -2490,7 +2488,7 @@ character_event = {
 								region = custom_croatia
 								region = custom_serbia
 								region = custom_wallachia
-								duchy = { title = d_khwarizmian }
+								duchy = { title = d_khwarazm }
 							}
 						}
 					}
@@ -2503,7 +2501,6 @@ character_event = {
 					capital_scope = {
 						OR = {
 							region = custom_persia
-							region = custom_afghanistan
 							region = custom_baluchistan
 							region = custom_byzantium
 							region = custom_arabia
@@ -2518,7 +2515,7 @@ character_event = {
 							region = world_india_deccan
 							region = world_india_rajastan
 							duchy = { title = d_merv }
-							duchy = { title = d_dihistan }
+							duchy = { title = d_ustyurt }
 						}
 					}
 				}
@@ -2531,7 +2528,6 @@ character_event = {
 						capital_scope = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -2546,7 +2542,7 @@ character_event = {
 								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
-								duchy = { title = d_dihistan }
+								duchy = { title = d_ustyurt }
 							}
 						}
 					}
@@ -2563,7 +2559,7 @@ character_event = {
 	id = 60005
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		#make sure the first son gets a county in cuman/khwarizmia
 		if = {
@@ -2576,14 +2572,14 @@ character_event = {
 				}
 			}
 			if = {
-				limit = { has_landed_title = c_khwarizm }
-				c_khwarizm = {
+				limit = { has_landed_title = c_kerder }
+				c_kerder = {
 					grant_title = event_target:first_mongol_son
 				}
 			}
 			if = {
 				limit = {
-					c_khwarizm = {
+					c_kerder = {
 						holder_scope = {
 							is_liege_or_above = ROOT
 							NOR = {
@@ -2594,7 +2590,7 @@ character_event = {
 						}
 					}
 				}
-				c_khwarizm = {
+				c_kerder = {
 					event_target:first_mongol_son = { usurp_title_plus_barony_if_unlanded = PREV }
 				}
 			}
@@ -2604,16 +2600,16 @@ character_event = {
 						NOT = {
 							any_demesne_title = {
 								tier = COUNT
-								location = { duchy = { title = d_khwarizmian } }
+								location = { duchy = { title = d_khwarazm } }
 							}
 						}
 					}
 				}
 				random_realm_title = {
-					limit = {						
+					limit = {
 						tier = COUNT
 						is_feudal = yes
-						location = { duchy = { title = d_khwarizmian } }
+						location = { duchy = { title = d_khwarazm } }
 					}
 					event_target:first_mongol_son = { usurp_title_plus_barony_if_unlanded = PREV }
 				}
@@ -2658,7 +2654,7 @@ character_event = {
 			}
 			random_realm_title = {
 				limit = {
-					tier = COUNT					
+					tier = COUNT
 					is_feudal = yes
 					location = { region = custom_cuman }
 				}
@@ -2706,11 +2702,11 @@ character_event = {
 			}
 			random_realm_title = {
 				limit = {
-					tier = COUNT					
+					tier = COUNT
 					is_feudal = yes
 					OR = {
 						location = { region = custom_persia }
-						duchy = { title = d_dihistan }
+						duchy = { title = d_ustyurt }
 					}
 				}
 				event_target:second_mongol_son = { usurp_title_plus_barony_if_unlanded = PREV }
@@ -2722,16 +2718,16 @@ character_event = {
 			limit = { has_character_flag = has_third_son }
 			if = {
 				limit = {
-					has_landed_title = c_ili
-					event_target:third_mongol_son = { NOT = { has_landed_title = c_ili } }
+					has_landed_title = c_mangyshlak
+					event_target:third_mongol_son = { NOT = { has_landed_title = c_mangyshlak } }
 				}
-				c_ili = {
+				c_mangyshlak = {
 					grant_title = event_target:third_mongol_son
 				}
 			}
 			if = {
 				limit = {
-					c_ili = {
+					c_mangyshlak = {
 						holder_scope = {
 							is_liege_or_above = ROOT
 							NOR = {
@@ -2742,7 +2738,7 @@ character_event = {
 						}
 					}
 				}
-				c_ili = {
+				c_mangyshlak = {
 					event_target:third_mongol_son = { usurp_title_plus_barony_if_unlanded = PREV }
 				}
 			}
@@ -2759,7 +2755,7 @@ character_event = {
 				}
 				random_realm_title = {
 					limit = {
-						tier = COUNT						
+						tier = COUNT
 						is_feudal = yes
 						location = { region = custom_khwarizm }
 					}
@@ -2776,7 +2772,6 @@ character_event = {
 						location = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -2791,13 +2786,12 @@ character_event = {
 								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
-								duchy = { title = d_dihistan }
+								duchy = { title = d_ustyurt }
 							}
 						}
 						capital_scope = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -2812,11 +2806,11 @@ character_event = {
 								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
-								duchy = { title = d_dihistan }
+								duchy = { title = d_ustyurt }
 							}
 						}
 						title = d_merv
-						title = d_dihistan
+						title = d_ustyurt
 					}
 					NOT = { tier = EMPEROR }
 				}
@@ -2831,8 +2825,8 @@ character_event = {
 							capital_scope = { region = custom_khwarizm }
 						}
 						NOR = {
-							duchy = { title = d_khwarizmian }
-							title = d_khwarizmian
+							duchy = { title = d_khwarazm }
+							title = d_khwarazm
 							tier = EMPEROR
 						}
 					}
@@ -2859,8 +2853,8 @@ character_event = {
 								region = custom_bulgaria
 								region = custom_croatia
 								region = custom_serbia
-								region = custom_wallachia								
-								duchy = { title = d_khwarizmian }
+								region = custom_wallachia
+								duchy = { title = d_khwarazm }
 							}
 						}
 						capital_scope = {
@@ -2879,10 +2873,10 @@ character_event = {
 								region = custom_croatia
 								region = custom_serbia
 								region = custom_wallachia
-								duchy = { title = d_khwarizmian }
+								duchy = { title = d_khwarazm }
 							}
 						}
-						title = d_khwarizmian
+						title = d_khwarazm
 					}
 					NOT = { tier = EMPEROR }
 				}
@@ -2898,9 +2892,9 @@ character_event = {
 						}
 						NOR = {
 							duchy = { title = d_merv }
-							duchy = { title = d_dihistan }
+							duchy = { title = d_ustyurt }
 							title = d_merv
-							title = d_dihistan
+							title = d_ustyurt
 							tier = EMPEROR
 						}
 					}
@@ -2930,7 +2924,7 @@ character_event = {
 									region = custom_croatia
 									region = custom_serbia
 									region = custom_wallachia
-									duchy = { title = d_khwarizmian }
+									duchy = { title = d_khwarazm }
 								}
 							}
 							capital_scope = {
@@ -2949,10 +2943,10 @@ character_event = {
 									region = custom_croatia
 									region = custom_serbia
 									region = custom_wallachia
-									duchy = { title = d_khwarizmian }
+									duchy = { title = d_khwarazm }
 								}
 							}
-							title = d_khwarizmian
+							title = d_khwarazm
 						}
 						NOT = { tier = EMPEROR }
 					}
@@ -2964,7 +2958,6 @@ character_event = {
 							location = {
 								OR = {
 									region = custom_persia
-									region = custom_afghanistan
 									region = custom_baluchistan
 									region = custom_byzantium
 									region = custom_arabia
@@ -2979,13 +2972,12 @@ character_event = {
 									region = world_india_deccan
 									region = world_india_rajastan
 									duchy = { title = d_merv }
-									duchy = { title = d_dihistan }
+									duchy = { title = d_ustyurt }
 								}
 							}
 							capital_scope = {
 								OR = {
 									region = custom_persia
-									region = custom_afghanistan
 									region = custom_baluchistan
 									region = custom_byzantium
 									region = custom_arabia
@@ -3000,11 +2992,11 @@ character_event = {
 									region = world_india_deccan
 									region = world_india_rajastan
 									duchy = { title = d_merv }
-									duchy = { title = d_dihistan }
+									duchy = { title = d_ustyurt }
 								}
 							}
 							title = d_merv
-							title = d_dihistan
+							title = d_ustyurt
 						}
 						NOT = { tier = EMPEROR }
 					}
@@ -3041,7 +3033,7 @@ character_event = {
 								region = custom_croatia
 								region = custom_serbia
 								region = custom_wallachia
-								duchy = { title = d_khwarizmian }
+								duchy = { title = d_khwarazm }
 							}
 						}
 						capital_scope = {
@@ -3060,11 +3052,11 @@ character_event = {
 								region = custom_croatia
 								region = custom_serbia
 								region = custom_wallachia
-								duchy = { title = d_khwarizmian }
+								duchy = { title = d_khwarazm }
 							}
 						}
-						duchy = { title = d_khwarizmian }
-						title = d_khwarizmian
+						duchy = { title = d_khwarazm }
+						title = d_khwarazm
 					}
 					NOT = { tier = EMPEROR }
 				}
@@ -3076,7 +3068,6 @@ character_event = {
 						location = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -3091,13 +3082,12 @@ character_event = {
 								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
-								duchy = { title = d_dihistan }
+								duchy = { title = d_ustyurt }
 							}
 						}
 						capital_scope = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -3112,11 +3102,11 @@ character_event = {
 								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
-								duchy = { title = d_dihistan }
+								duchy = { title = d_ustyurt }
 							}
 						}
 						title = d_merv
-						title = d_dihistan
+						title = d_ustyurt
 					}
 					NOT = { tier = EMPEROR }
 				}
@@ -3136,7 +3126,7 @@ character_event = {
 				}
 			}
 		}
-	
+
 		#create new horde titles
 		activate_title = { title = e_golden_horde status = yes }
 		e_golden_horde = {
@@ -3183,7 +3173,7 @@ character_event = {
 							region = custom_croatia
 							region = custom_serbia
 							region = custom_wallachia
-							duchy = { title = d_khwarizmian }
+							duchy = { title = d_khwarazm }
 						}
 					}
 				}
@@ -3195,7 +3185,6 @@ character_event = {
 					capital_scope = {
 						OR = {
 							region = custom_persia
-							region = custom_afghanistan
 							region = custom_baluchistan
 							region = custom_byzantium
 							region = custom_arabia
@@ -3210,7 +3199,7 @@ character_event = {
 							region = world_india_deccan
 							region = world_india_rajastan
 							duchy = { title = d_merv }
-							duchy = { title = d_dihistan }
+							duchy = { title = d_ustyurt }
 						}
 					}
 				}
@@ -3241,7 +3230,7 @@ character_event = {
 					character_event = { id = 60003 days = 1 }
 				}
 			}
-			
+
 			#any mongol generals will be asked to serve a son
 			any_courtier = {
 				limit = {
@@ -3256,7 +3245,7 @@ character_event = {
 				}
 				character_event = { id = 60003 days = 1 }
 			}
-					
+
 			#send event to inheriting sons
 			event_target:first_mongol_son = { character_event = { id = 60004 } }
 			event_target:second_mongol_son = { character_event = { id = 60004 } }
@@ -3272,9 +3261,9 @@ character_event = {
 				}
 				set_defacto_liege = event_target:first_mongol_son
 			}
-			
+
 			clr_character_flag = has_third_son
-			
+
 			e_mongol_empire = {
 				unsafe_destroy_landed_title = THIS
 				activate_title = { title = THIS status = no }
@@ -3287,10 +3276,10 @@ character_event = {
 # Assigning flags to the mongol sons
 character_event = {
 	id = 60006
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		always = no
 		is_title_active = e_mongol_empire
@@ -3306,7 +3295,7 @@ character_event = {
 			has_character_flag = son_of_ogodei_khan
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -3382,9 +3371,9 @@ character_event = {
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_normal_frame_war"
 	major = yes
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		primary_title = {
 			OR = {
@@ -3430,7 +3419,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { primary_title = { title = e_il-khanate } }
@@ -3445,7 +3434,7 @@ character_event = {
 			set_global_flag = chagatai_converts
 		}
 	}
-	
+
 	option = {	# Catholic
 		name = "EVTOPTA60010"
 		trigger = {
@@ -3455,7 +3444,7 @@ character_event = {
 		capital_scope = {
 			religion = catholic
 		}
-		
+
 		any_realm_character = {
 			limit = { religion = tengri_pagan }
 			religion = catholic
@@ -3505,9 +3494,9 @@ character_event = {
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_normal_frame_religion"
 	major = yes
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		primary_title = {
 			OR = {
@@ -3553,7 +3542,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { primary_title = { title = e_il-khanate } }
@@ -3568,7 +3557,7 @@ character_event = {
 			set_global_flag = chagatai_converts
 		}
 	}
-	
+
 	option = {	# Orthodox
 		name = "EVTOPTA60010"
 		trigger = {
@@ -3624,9 +3613,9 @@ character_event = {
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_normal_frame_religion"
 	major = yes
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		primary_title = {
 			OR = {
@@ -3672,7 +3661,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { primary_title = { title = e_il-khanate } }
@@ -3687,7 +3676,7 @@ character_event = {
 			set_global_flag = chagatai_converts
 		}
 	}
-	
+
 	option = {	# Sunni
 		name = "EVTOPTA60010"
 		trigger = {
@@ -3742,11 +3731,11 @@ character_event = {
 	desc = "EVTDESC60013"
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_normal_frame_religion"
-	
+
 	major = yes
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		primary_title = {
 			OR = {
@@ -3792,7 +3781,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { primary_title = { title = e_il-khanate } }
@@ -3807,7 +3796,7 @@ character_event = {
 			set_global_flag = chagatai_converts
 		}
 	}
-	
+
 	option = {	# Shiite
 		name = "EVTOPTA60010"
 		trigger = {
@@ -3863,9 +3852,9 @@ character_event = {
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_normal_frame_war"
 	major = yes
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		primary_title = {
 			OR = {
@@ -3914,7 +3903,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { primary_title = { title = e_il-khanate } }
@@ -3929,13 +3918,13 @@ character_event = {
 			set_global_flag = chagatai_converts
 		}
 	}
-	
+
 	option = {	# Nestorian
 		name = "EVTOPTA60010"
 		trigger = {
 			character = ROOT
 		}
-		religion = nestorian		
+		religion = nestorian
 		capital_scope = { religion = nestorian }
 		any_realm_character = {
 			limit = { religion = tengri_pagan }
@@ -3986,12 +3975,12 @@ narrative_event = {
 	title = "EVTNAME60100"
 	desc = "EVTDESC60100"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_kiev }
 		OR = {
@@ -4021,9 +4010,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4036,7 +4025,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_kiev
 		any_playable_ruler = {
@@ -4056,7 +4045,7 @@ narrative_event = {
 			narrative_event = { id = TOG.1 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60100"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4073,12 +4062,12 @@ narrative_event = {
 	title = "EVTNAME60101"
 	desc = "EVTDESC60101"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_novgorod }
 		OR = {
@@ -4108,9 +4097,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4123,7 +4112,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_novgorod
 		any_playable_ruler = {
@@ -4143,7 +4132,7 @@ narrative_event = {
 			narrative_event = { id = TOG.2 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA60101 # Perhaps their bloodlust has been sated now
 		trigger = { NOT = { culture = mongol } }
@@ -4162,12 +4151,12 @@ narrative_event = {
 	title = "EVTNAME60102"
 	desc = "EVTDESC60102"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_krakow }
 		OR = {
@@ -4197,9 +4186,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4212,7 +4201,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_krakow
 		any_playable_ruler = {
@@ -4232,7 +4221,7 @@ narrative_event = {
 			narrative_event = { id = TOG.3 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60102"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4249,12 +4238,12 @@ narrative_event = {
 	title = "EVTNAME60103"
 	desc = "EVTDESC60103"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_aachen }
 		OR = {
@@ -4284,9 +4273,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4299,7 +4288,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_aachen
 		any_playable_ruler = {
@@ -4319,7 +4308,7 @@ narrative_event = {
 			narrative_event = { id = TOG.4 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60103"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4336,12 +4325,12 @@ narrative_event = {
 	title = "EVTNAME60104"
 	desc = "EVTDESC60104"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_paris }
 		OR = {
@@ -4371,9 +4360,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4386,7 +4375,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_paris
 		any_playable_ruler = {
@@ -4406,7 +4395,7 @@ narrative_event = {
 			narrative_event = { id = TOG.5 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60104"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4423,12 +4412,12 @@ narrative_event = {
 	title = "EVTNAME60105"
 	desc = "EVTDESC60105"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_london }
 		OR = {
@@ -4458,9 +4447,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4473,7 +4462,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_london
 		any_playable_ruler = {
@@ -4493,7 +4482,7 @@ narrative_event = {
 			narrative_event = { id = TOG.6 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60105"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4510,12 +4499,12 @@ narrative_event = {
 	title = "EVTNAME60106"
 	desc = "EVTDESC60106"
 	major = yes
-	
+
 	picture = "GFX_evt_rome_falls"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_rome }
 		OR = {
@@ -4545,9 +4534,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4560,7 +4549,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_rome
 		any_playable_ruler = {
@@ -4580,7 +4569,7 @@ narrative_event = {
 			narrative_event = { id = TOG.7 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60106"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4597,12 +4586,12 @@ narrative_event = {
 	title = "EVTNAME60107"
 	desc = "EVTDESC60107"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_venice }
 		OR = {
@@ -4632,9 +4621,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4647,7 +4636,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_venice
 		any_playable_ruler = {
@@ -4667,7 +4656,7 @@ narrative_event = {
 			narrative_event = { id = TOG.8 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60107"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4684,12 +4673,12 @@ narrative_event = {
 	title = "EVTNAME60108"
 	desc = "EVTDESC60108"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_constantinople }
 		OR = {
@@ -4719,9 +4708,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4734,7 +4723,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_constantinople
 		any_playable_ruler = {
@@ -4754,7 +4743,7 @@ narrative_event = {
 			narrative_event = { id = TOG.9 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60108"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4771,12 +4760,12 @@ narrative_event = {
 	title = "EVTNAME60109"
 	desc = "EVTDESC60109"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_lisbon }
 		OR = {
@@ -4806,9 +4795,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4821,7 +4810,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_lisbon
 		any_playable_ruler = {
@@ -4841,7 +4830,7 @@ narrative_event = {
 			narrative_event = { id = TOG.10 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60109"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4858,12 +4847,12 @@ narrative_event = {
 	title = "EVTNAME60110"
 	desc = "EVTDESC60110"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_smolensk }
 		OR = {
@@ -4893,9 +4882,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4908,7 +4897,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_smolensk
 		any_playable_ruler = {
@@ -4928,7 +4917,7 @@ narrative_event = {
 			narrative_event = { id = TOG.11 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60110"
 		trigger = { NOT = { religion_group = muslim } }
@@ -4945,12 +4934,12 @@ narrative_event = {
 	title = "EVTNAME60111"
 	desc = "EVTDESC60111"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_prague }
 		OR = {
@@ -4980,9 +4969,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -4995,7 +4984,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_prague
 		any_playable_ruler = {
@@ -5015,7 +5004,7 @@ narrative_event = {
 			narrative_event = { id = TOG.12 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60111"
 		trigger = { NOT = { religion_group = muslim } }
@@ -5032,12 +5021,12 @@ narrative_event = {
 	title = "EVTNAME60112"
 	desc = "EVTDESC60112"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_vienna }
 		OR = {
@@ -5067,9 +5056,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5082,7 +5071,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_vienna
 		any_playable_ruler = {
@@ -5102,7 +5091,7 @@ narrative_event = {
 			narrative_event = { id = TOG.13 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60112"
 		trigger = { NOT = { religion_group = muslim } }
@@ -5119,12 +5108,12 @@ narrative_event = {
 	title = "EVTNAME60113"
 	desc = "EVTDESC60113"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_esztergom }
 		OR = {
@@ -5154,9 +5143,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5169,7 +5158,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_esztergom
 		any_playable_ruler = {
@@ -5189,7 +5178,7 @@ narrative_event = {
 			narrative_event = { id = TOG.14 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60113"
 		trigger = { NOT = { religion_group = muslim } }
@@ -5206,12 +5195,12 @@ narrative_event = {
 	title = "EVTNAME60114"
 	desc = "EVTDESC60114"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_athens }
 		OR = {
@@ -5241,9 +5230,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5256,7 +5245,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_athens
 		any_playable_ruler = {
@@ -5276,7 +5265,7 @@ narrative_event = {
 			narrative_event = { id = TOG.15 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60114"
 		trigger = { NOT = { religion_group = muslim } }
@@ -5293,12 +5282,12 @@ narrative_event = {
 	title = "EVTNAME60115"
 	desc = "EVTDESC60115"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_belgrade }
 		OR = {
@@ -5328,9 +5317,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5343,7 +5332,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_belgrade
 		any_playable_ruler = {
@@ -5363,7 +5352,7 @@ narrative_event = {
 			narrative_event = { id = TOG.16 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60115"
 		trigger = { NOT = { religion_group = muslim } }
@@ -5382,12 +5371,12 @@ narrative_event = {
 	title = "EVTNAME60116"
 	desc = "EVTDESC60116"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { title = b_bagdad }
 		NOT = { has_global_flag = mongols_sack_baghdad }
@@ -5417,9 +5406,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5432,7 +5421,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_baghdad
 		any_playable_ruler = {
@@ -5452,7 +5441,7 @@ narrative_event = {
 			narrative_event = { id = TOG.17 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60116"
 		trigger = { religion_group = muslim }
@@ -5469,12 +5458,12 @@ narrative_event = {
 	title = "EVTNAME60117"
 	desc = "EVTDESC60117"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_damascus }
 		OR = {
@@ -5504,9 +5493,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5519,7 +5508,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_damascus
 		any_playable_ruler = {
@@ -5539,7 +5528,7 @@ narrative_event = {
 			narrative_event = { id = TOG.18 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60117"
 		trigger = { religion_group = muslim }
@@ -5556,18 +5545,18 @@ narrative_event = {
 	title = "EVTNAME60118"
 	desc = "EVTDESC60118"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_jerusalem }
 		NOT = {
 			OR = {
-				religion_group = muslim 
-				religion_group = christian 
+				religion_group = muslim
+				religion_group = christian
 			}
 		}
 		OR = {
@@ -5597,9 +5586,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5612,7 +5601,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_jerusalem
 		any_playable_ruler = {
@@ -5632,7 +5621,7 @@ narrative_event = {
 			narrative_event = { id = TOG.19 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60118"
 		trigger = { religion_group = muslim }
@@ -5649,12 +5638,12 @@ narrative_event = {
 	title = "EVTNAME60119"
 	desc = "EVTDESC60119"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_alexandria }
 		OR = {
@@ -5684,9 +5673,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5699,7 +5688,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_alexandria
 		any_playable_ruler = {
@@ -5719,7 +5708,7 @@ narrative_event = {
 			narrative_event = { id = TOG.20 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60119"
 		trigger = { religion_group = muslim }
@@ -5736,12 +5725,12 @@ narrative_event = {
 	title = "EVTNAME60120"
 	desc = "EVTDESC60120"
 	major = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_cairo }
 		OR = {
@@ -5771,9 +5760,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5786,7 +5775,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_cairo
 		any_playable_ruler = {
@@ -5806,7 +5795,7 @@ narrative_event = {
 			narrative_event = { id = TOG.21 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60120"
 		trigger = { religion_group = muslim }
@@ -5823,12 +5812,12 @@ narrative_event = {
 	title = "EVTNAME60121"
 	desc = "EVTDESC60121"
 	major = yes
-	
+
 	picture = "GFX_evt_mecca_falls_soa"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_mecca }
 		NOT = { religion_group = muslim }
@@ -5859,9 +5848,9 @@ narrative_event = {
 					}
 				}
 			}
-		}		
+		}
 	}
-	
+
 	major_trigger = {
 		NOR = {
 			has_landed_title = e_il-khanate
@@ -5874,7 +5863,7 @@ narrative_event = {
 			any_liege = { has_landed_title = e_mongol_empire }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = mongols_sack_mecca
 		any_playable_ruler = {
@@ -5894,7 +5883,7 @@ narrative_event = {
 			narrative_event = { id = TOG.22 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60121"
 		trigger = { religion_group = muslim }
@@ -5913,26 +5902,26 @@ narrative_event = {
 character_event = {
 	id = 60200
 	desc = EVTDESC60200
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	only_playable = yes
 	culture = turkish
-	
+
 	trigger = {
 		year = 960
 		NOT = { year = 980 }
 
 		higher_tier_than = count
-		
+
 		NOT = { has_global_flag = seljuk_spawned }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 	}
-	
+
 	immediate = {
 		create_random_soldier = {
 			random_traits = no
@@ -5967,13 +5956,13 @@ character_event = {
 			set_character_flag = seljuk_himself
 		}
 	}
-	
+
 	option = { # A most capable young man
 		name = EVTOPTA60200
-		
+
 		set_global_flag = seljuk_spawned
 		set_global_flag = seljuk_spawned_by_event
-		
+
 		tooltip = {
 			create_random_soldier = {
 				random_traits = no
@@ -6006,22 +5995,22 @@ character_event = {
 character_event = {
 	id = 60201
 	desc = EVTDESC60201
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
 		NOT = { trait = eunuch }
 		NOT = { trait = infirm }
 		lower_tier_than = king
-		
+
 		OR = {
 			630 = { # Merv
 				owner = {
@@ -6040,7 +6029,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { # Merv it is!
 		name = EVTOPTA60201
 		trigger = {
@@ -6050,11 +6039,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 10000
 		}
-		
+
 		630 = {
 			province_event = {
 				id = 60202
@@ -6071,11 +6060,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 1000
 		}
-		
+
 		632 = {
 			province_event = {
 				id = 60202
@@ -6092,11 +6081,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		631 = {
 			province_event = {
 				id = 60202
@@ -6110,11 +6099,11 @@ character_event = {
 province_event = {
 	id = 60202
 	desc = OK
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = OK
 		if = {
@@ -6148,14 +6137,14 @@ province_event = {
 character_event = {
 	id = 60203
 	desc = OK
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
@@ -6163,17 +6152,17 @@ character_event = {
 		NOT = { trait = infirm }
 		lower_tier_than = king
 	}
-	
+
 	immediate = {
 		wealth = 500
-		
+
 		any_liege = {
 			character_event = {
 				id = 60205
 				days = 1
 			}
 		}
-		
+
 		liege = {
 			capital_scope = {
 				FROM = {
@@ -6189,9 +6178,9 @@ character_event = {
 									name = "CLAIMANT_ADVENTURE"
 									holder = ROOT
 								}
-								
+
 								set_character_flag = duchy_adventurer
-							
+
 								spawn_unit = {
 									province = PREVPREVPREVPREV
 									home = PREVPREVPREVPREV
@@ -6265,14 +6254,14 @@ character_event = {
 				}
 			}
 		}
-		
+
 		if = {
 			limit = {
 				NOT = { religion_group = muslim }
 			}
 			religion = sunni
 		}
-		
+
 		# Create some characters
 		create_random_soldier = {
 			random_traits = yes
@@ -6322,10 +6311,10 @@ character_event = {
 			female = yes
 			age = 18
 		}
-		
+
 		log = "60203: Seljuk starts his first war as a landless character!"
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -6335,15 +6324,15 @@ character_event = {
 character_event = {
 	id = 60204
 	desc = EVTDESC60204
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
@@ -6351,17 +6340,17 @@ character_event = {
 		NOT = { trait = infirm }
 		lower_tier_than = king
 	}
-	
+
 	immediate = {
 		wealth = 500
-		
+
 		any_liege = {
 			character_event = {
 				id = 60205
 				days = 1
 			}
 		}
-		
+
 		FROM = {
 			owner = {
 				top_liege = {
@@ -6432,7 +6421,7 @@ character_event = {
 								}
 							}
 						}
-						
+
 						war = {
 							target = PREV
 							casus_belli = duchy_adventure
@@ -6443,14 +6432,14 @@ character_event = {
 				}
 			}
 		}
-		
+
 		if = {
 			limit = {
 				NOT = { religion_group = muslim }
 			}
 			religion = sunni
 		}
-		
+
 		# Create some characters
 		create_random_soldier = {
 			random_traits = yes
@@ -6500,10 +6489,10 @@ character_event = {
 			female = yes
 			age = 18
 		}
-		
+
 		log = "60204: Seljuk starts his first war as a landed character!"
 	}
-	
+
 	option = {
 		name = EVTOPTA60204
 	}
@@ -6515,13 +6504,13 @@ character_event = {
 	desc = EVTDESC60205
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { is_ruler = yes } # The DoW worked and the adventurer has a temporary title
 	}
-	
+
 	option = {
 		name = EVTOPTA60205
 	}
@@ -6535,11 +6524,11 @@ narrative_event = {
 	desc = EVTDESC60206
 	picture = GFX_evt_mongols
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	major = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -6556,16 +6545,16 @@ narrative_event = {
 				grant_title = ROOT
 			}
 		}
-		
+
 		if = {
 			limit = {
 				uses_decadence = yes
 			}
 			decadence = -25
 		}
-		
+
 		prestige = 1000
-		
+
 		capital_scope = {
 			ROOT = {
 				spawn_unit = {
@@ -6642,10 +6631,10 @@ narrative_event = {
 				}
 			}
 		}
-		
+
 		log = "60206: Seljuk wins his first war!"
 	}
-	
+
 	option = {
 		name = EVTOPTA60206
 		trigger = {
@@ -6684,29 +6673,29 @@ narrative_event = {
 character_event = {
 	id = 60207
 	desc = EVTDESC60207
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	only_playable = yes
 	only_independent = yes
 	religion_group = muslim
-	
+
 	trigger = {
 		year = 980
 		NOT = { year = 1100 }
-		
+
 		dynasty = 613 # Seljuk
-		
+
 		higher_tier_than = duke
-		
+
 		martial = 7
-		
+
 		has_global_flag = seljuk_spawned_by_event
 		NOT = { has_character_flag = seljuk_himself }
 		NOT = { has_character_flag = seljuk_reinforcements }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -6722,12 +6711,12 @@ character_event = {
 			martial = 13
 		}
 	}
-	
+
 	immediate = {
 		set_character_flag = seljuk_reinforcements
-		
+
 		piety = 250
-		
+
 		capital_scope = {
 			ROOT = {
 				spawn_unit = {
@@ -6832,7 +6821,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA60207
 	}
@@ -6846,37 +6835,36 @@ character_event = {
 character_event = {
 	id = 60300
 	desc = EVTDESC60300
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	only_playable = yes
 	culture_group = altaic
-	
+
 	trigger = {
 		year = 1350
 		NOT = { year = 1370 }
-		
+
 		culture = mongol
 		higher_tier_than = count
-		
+
 		NOT = { has_global_flag = timur_spawned }
-		
+
 		any_realm_province = {
 			OR = {
 				region = custom_persia
 				region = custom_baluchistan
-				region = custom_afghanistan
 				region = custom_khwarizm
 				region = custom_mesopotamia
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 	}
-	
+
 	immediate = {
 		create_character = {
 			random_traits = no
@@ -6903,7 +6891,7 @@ character_event = {
 			trait = clubfooted
 			trait = adventurer
 		}
-		
+
 		new_character = {
 			set_character_flag = timur_himself
 			character_event = {
@@ -6913,13 +6901,13 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { # A most capable young man
 		name = EVTOPTA60300
-		
+
 		set_global_flag = timur_spawned
 		set_global_flag = timur_spawned_by_event
-		
+
 		tooltip = {
 			create_character = {
 				random_traits = no
@@ -6953,22 +6941,22 @@ character_event = {
 character_event = {
 	id = 60301
 	desc = EVTDESC60201
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
 		NOT = { trait = eunuch }
 		NOT = { trait = infirm }
 		lower_tier_than = king
-		
+
 		OR = {
 			903 = { # Samarkand
 				owner = {
@@ -6997,7 +6985,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { # Merv it is!
 		name = EVTOPTA60201
 		trigger = {
@@ -7007,11 +6995,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 10000
 		}
-		
+
 		630 = {
 			province_event = {
 				id = 60302
@@ -7028,11 +7016,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 1000
 		}
-		
+
 		632 = {
 			province_event = {
 				id = 60302
@@ -7049,11 +7037,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		631 = {
 			province_event = {
 				id = 60302
@@ -7070,11 +7058,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		903 = {
 			province_event = {
 				id = 60302
@@ -7091,11 +7079,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		904 = {
 			province_event = {
 				id = 60302
@@ -7109,11 +7097,11 @@ character_event = {
 province_event = {
 	id = 60302
 	desc = OK
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = OK
 		if = {
@@ -7147,14 +7135,14 @@ province_event = {
 character_event = {
 	id = 60303
 	desc = OK
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
@@ -7162,17 +7150,17 @@ character_event = {
 		NOT = { trait = infirm }
 		lower_tier_than = king
 	}
-	
+
 	immediate = {
 		wealth = 500
-		
+
 		any_liege = {
 			character_event = {
 				id = 60305
 				days = 1
 			}
 		}
-		
+
 		liege = {
 			capital_scope = {
 				FROM = {
@@ -7188,9 +7176,9 @@ character_event = {
 									name = "CLAIMANT_ADVENTURE"
 									holder = ROOT
 								}
-								
+
 								set_character_flag = duchy_adventurer
-							
+
 								spawn_unit = {
 									province = PREVPREVPREVPREV
 									home = PREVPREVPREVPREV
@@ -7264,7 +7252,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		# Create some characters
 		create_character = {
 			random_traits = yes
@@ -7350,10 +7338,10 @@ character_event = {
 			female = yes
 			age = 18
 		}
-		
+
 		log = "60303: Timur starts his first war (landless)!"
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -7363,15 +7351,15 @@ character_event = {
 character_event = {
 	id = 60304
 	desc = EVTDESC60304
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
@@ -7379,17 +7367,17 @@ character_event = {
 		NOT = { trait = infirm }
 		lower_tier_than = king
 	}
-	
+
 	immediate = {
 		wealth = 500
-		
+
 		any_liege = {
 			character_event = {
 				id = 60305
 				days = 1
 			}
 		}
-		
+
 		FROM = {
 			owner = {
 				top_liege = {
@@ -7460,7 +7448,7 @@ character_event = {
 								}
 							}
 						}
-						
+
 						war = {
 							target = PREV
 							casus_belli = duchy_adventure
@@ -7471,7 +7459,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		# Create some characters
 		create_character = {
 			random_traits = yes
@@ -7533,7 +7521,7 @@ character_event = {
 			}
 			trait = brilliant_strategist
 		}
-		
+
 		create_character = {
 			random_traits = yes
 			dynasty = none
@@ -7558,10 +7546,10 @@ character_event = {
 			female = yes
 			age = 18
 		}
-		
+
 		log = "60303: Timur starts his first war (landed)!"
 	}
-	
+
 	option = {
 		name = EVTOPTA60204
 	}
@@ -7573,13 +7561,13 @@ character_event = {
 	desc = EVTDESC60205
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { is_ruler = yes } # The DoW worked and the adventurer has a temporary title
 	}
-	
+
 	option = {
 		name = EVTOPTA60305
 	}
@@ -7593,11 +7581,11 @@ narrative_event = {
 	desc = EVTDESC60306
 	picture = GFX_evt_mongols
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	major = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -7614,16 +7602,16 @@ narrative_event = {
 				grant_title = ROOT
 			}
 		}
-		
+
 		prestige = 1000
-		
+
 		if = {
 			limit = {
 				religion_group = muslim
 			}
 			piety = 100
 		}
-		
+
 		capital_scope = {
 			ROOT = {
 				spawn_unit = {
@@ -7722,7 +7710,7 @@ narrative_event = {
 						knights = { 47 47 }
 					}
 				}
-				
+
 				random = {
 					chance = 50
 					spawn_unit = {
@@ -7815,10 +7803,10 @@ narrative_event = {
 				}
 			}
 		}
-		
+
 		log = "60306: Timur wins his first war!"
 	}
-	
+
 	option = {
 		name = EVTOPTA60306
 		trigger = {
@@ -7845,28 +7833,28 @@ narrative_event = {
 character_event = {
 	id = 60307
 	desc = EVTDESC60307
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		year = 1370
 		NOT = { year = 1500 }
-		
+
 		dynasty = 800 # Timurid
-		
+
 		higher_tier_than = duke
-		
+
 		martial = 7
-		
+
 		has_global_flag = timur_spawned_by_event
 		NOT = { has_character_flag = timur_himself }
 		NOT = { has_character_flag = timur_reinforcements }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 360
 		modifier = {
@@ -7882,18 +7870,18 @@ character_event = {
 			martial = 13
 		}
 	}
-	
+
 	immediate = {
 		set_character_flag = timur_reinforcements
-		
+
 		if = {
 			limit = {
 				religion_group = muslim
 			}
 			piety = 250
 		}
-		
-		capital_scope = { 
+
+		capital_scope = {
 			ROOT = {
 				spawn_unit = {
 					province = PREV
@@ -8069,7 +8057,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA60307
 	}
@@ -8084,32 +8072,32 @@ character_event = {
 character_event = {
 	id = 60400
 	desc = EVTDESC60400
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	only_playable = yes
 	religion_group = muslim
-	
+
 	trigger = {
 		year = 965
 		NOT = { year = 1010 }
-		
+
 		higher_tier_than = count
-		
+
 		NOT = { has_global_flag = sabuktigin_spawned }
-		
+
 		1182 = { # Ghazna
 			owner = {
 				same_realm = ROOT
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 	}
-	
+
 	immediate = {
 		create_character = {
 			random_traits = no
@@ -8135,7 +8123,7 @@ character_event = {
 			trait = quick
 			trait = adventurer
 		}
-		
+
 		new_character = {
 			set_character_flag = sabuktigin_himself
 			character_event = {
@@ -8145,13 +8133,13 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = { # A most capable young man
 		name = EVTOPTA60300
-		
+
 		set_global_flag = sabuktigin_spawned
 		set_global_flag = sabuktigin_spawned_by_event
-		
+
 		tooltip = {
 			create_character = {
 				random_traits = no
@@ -8184,61 +8172,61 @@ character_event = {
 character_event = {
 	id = 60401
 	desc = EVTDESC60201
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
 		NOT = { trait = eunuch }
 		NOT = { trait = infirm }
 		lower_tier_than = king
-		
+
 		OR = {
-			1341 = { # Nandana in Gandhara
+			1627 = { # Nandana in Gandhara
 				owner = {
 					NOT = { same_realm = ROOT }
 				}
 			}
-			1338 = { # Multan
+			1615 = { # Multan
 				owner = {
 					NOT = { same_realm = ROOT }
 				}
 			}
-			1362 = { # Lahore
+			1620 = { # Lahore
 				owner = {
 					NOT = { same_realm = ROOT }
 				}
 			}
-			1138 = { # Bhakkar
+			1606 = { # Bhakkar
 				owner = {
 					NOT = { same_realm = ROOT }
 				}
 			}
 		}
 	}
-	
+
 	option = { # Gandhara it is!
 		name = EVTOPTA60401
 		trigger = {
-			1341 = { # Nandana
+			1627 = { # Nandana
 				owner = {
 					NOT = { same_realm = ROOT }
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 10000
 		}
-		
-		1341 = {
+
+		1627 = {
 			province_event = {
 				id = 60402
 				days = 2
@@ -8248,18 +8236,18 @@ character_event = {
 	option = { # Multan
 		name = EVTOPTB60401
 		trigger = {
-			1338 = { # Multan
+			1615 = { # Multan
 				owner = {
 					NOT = { same_realm = ROOT }
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 1000
 		}
-		
-		1338 = {
+
+		1615 = {
 			province_event = {
 				id = 60402
 				days = 2
@@ -8269,18 +8257,18 @@ character_event = {
 	option = { # Lahore
 		name = EVTOPTC60401
 		trigger = {
-			1362 = { # Lahore
+			1620 = { # Lahore
 				owner = {
 					NOT = { same_realm = ROOT }
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 100
 		}
-		
-		1362 = {
+
+		1620 = {
 			province_event = {
 				id = 60402
 				days = 2
@@ -8290,18 +8278,18 @@ character_event = {
 	option = { # Bhakkar
 		name = EVTOPTD60401
 		trigger = {
-			1138 = { # Bhakkar
+			1606 = { # Bhakkar
 				owner = {
 					NOT = { same_realm = ROOT }
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 100
 		}
-		
-		1138 = {
+
+		1606 = {
 			province_event = {
 				id = 60402
 				days = 2
@@ -8314,11 +8302,11 @@ character_event = {
 province_event = {
 	id = 60402
 	desc = OK
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = OK
 		if = {
@@ -8352,14 +8340,14 @@ province_event = {
 character_event = {
 	id = 60403
 	desc = OK
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
@@ -8367,17 +8355,17 @@ character_event = {
 		NOT = { trait = infirm }
 		lower_tier_than = king
 	}
-	
+
 	immediate = {
 		wealth = 500
-		
+
 		any_liege = {
 			character_event = {
 				id = 60405
 				days = 1
 			}
 		}
-		
+
 		liege = {
 			capital_scope = {
 				FROM = {
@@ -8393,9 +8381,9 @@ character_event = {
 									name = "CLAIMANT_ADVENTURE"
 									holder = ROOT
 								}
-								
+
 								set_character_flag = duchy_adventurer
-							
+
 								spawn_unit = {
 									province = PREVPREVPREVPREV
 									home = PREVPREVPREVPREV
@@ -8469,7 +8457,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		# Create some characters
 		create_character = {
 			random_traits = yes
@@ -8555,10 +8543,10 @@ character_event = {
 			female = yes
 			age = 18
 		}
-		
+
 		log = "60403: Sabuktigin starts his first war (landless)!"
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -8568,15 +8556,15 @@ character_event = {
 character_event = {
 	id = 60404
 	desc = EVTDESC60304
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	prisoner = no
 	only_capable = yes
-	
+
 	trigger = {
 		is_alive = yes
 		NOT = { trait = blinded }
@@ -8584,17 +8572,17 @@ character_event = {
 		NOT = { trait = infirm }
 		lower_tier_than = king
 	}
-	
+
 	immediate = {
 		wealth = 500
-		
+
 		any_liege = {
 			character_event = {
 				id = 60405
 				days = 1
 			}
 		}
-		
+
 		FROM = {
 			owner = {
 				top_liege = {
@@ -8665,7 +8653,7 @@ character_event = {
 								}
 							}
 						}
-						
+
 						war = {
 							target = PREV
 							casus_belli = duchy_adventure
@@ -8676,7 +8664,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		# Create some characters
 		create_character = {
 			random_traits = yes
@@ -8738,7 +8726,7 @@ character_event = {
 			}
 			trait = brilliant_strategist
 		}
-		
+
 		create_character = {
 			random_traits = yes
 			dynasty = none
@@ -8763,10 +8751,10 @@ character_event = {
 			female = yes
 			age = 18
 		}
-		
+
 		log = "60404: Sabuktigin starts his first war (landed)!"
 	}
-	
+
 	option = {
 		name = EVTOPTA60204
 	}
@@ -8778,13 +8766,13 @@ character_event = {
 	desc = EVTDESC60205
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { is_ruler = yes } # The DoW worked and the adventurer has a temporary title
 	}
-	
+
 	option = {
 		name = EVTOPTA60305
 	}
@@ -8798,11 +8786,11 @@ narrative_event = {
 	desc = EVTDESC60406
 	picture = GFX_evt_mongols
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	major = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -8815,20 +8803,20 @@ narrative_event = {
 			}
 			set_defacto_liege = ROOT
 		}
-		
+
 		prestige = 1000
-		
+
 		if = {
 			limit = {
 				religion_group = muslim
 			}
 			piety = 100
 		}
-		
+
 		capital_scope = {
 			religion = ROOT
 			culture = ROOT
-			
+
 			ROOT = {
 				spawn_unit = {
 					province = PREV
@@ -8890,7 +8878,7 @@ narrative_event = {
 						knights = { 47 47 }
 					}
 				}
-				
+
 				random = {
 					chance = 50
 					spawn_unit = {
@@ -8938,7 +8926,7 @@ narrative_event = {
 				}
 			}
 		}
-		
+
 		random_realm_province = {
 			limit = {
 				OR = {
@@ -8949,10 +8937,10 @@ narrative_event = {
 			religion = ROOT
 			culture = ROOT
 		}
-		
+
 		log = "60406: Sabuktigin wins his first war!"
 	}
-	
+
 	option = {
 		name = EVTOPTA60406
 		trigger = {
@@ -8975,12 +8963,12 @@ narrative_event = {
 	major = yes
 	hide_new = yes
 	hide_from = yes
-	
+
 	picture = "GFX_evt_mongols"
 	border = "GFX_event_narrative_frame_war"
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		year = 1210
 		NOT = { year = 1218 }
@@ -8992,11 +8980,11 @@ narrative_event = {
 			has_global_flag = mongol_empire_arrival
 		}
 	}
-	
+
 	#major_trigger = {
 	#	NOT = { has_character_flag = is_temujin }
 	#}
-	
+
 	mean_time_to_happen = {
 		months = 36
 		modifier = {
@@ -9008,7 +8996,7 @@ narrative_event = {
 			year = 1215
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -9016,7 +9004,7 @@ narrative_event = {
 			}
 			set_global_flag = mongol_empire_arrival
 			activate_title = { title = e_mongol_empire status = yes }
-			
+
 			if = {
 				limit = {
 					has_global_flag = temujin_born
@@ -9178,8 +9166,8 @@ narrative_event = {
 			if = {
 				limit = {
 					has_dlc = "Horse Lords"
-				}				
-				1457 = { # Ordu Baliq
+				}
+				1571 = { # Ordu Baliq
 					kingdom = {
 						e_mongol_empire = {
 							holder_scope = {
@@ -9196,8 +9184,8 @@ narrative_event = {
 			if = {
 				limit = {
 					NOT = { has_dlc = "Horse Lords" }
-				}				
-				1457 = { # Ordu Baliq
+				}
+				1571 = { # Ordu Baliq
 					kingdom = {
 						e_mongol_empire = {
 							holder_scope = {
@@ -9213,7 +9201,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA60500"
 		trigger = {
@@ -9225,7 +9213,7 @@ narrative_event = {
 			NOT = { government = nomadic_government }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB60500"
 		trigger = {
@@ -9235,7 +9223,7 @@ narrative_event = {
 			NOT = { government = nomadic_government }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTC60500"
 		trigger = {
@@ -9248,9 +9236,9 @@ character_event = {
 	id = 60504
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
-		primary_title = { 
+		primary_title = {
 			has_title_flag = temporary_landless_title
 			is_landless_type_title = yes
 		}
@@ -9258,7 +9246,7 @@ character_event = {
 			tier = COUNT
 		}
 	}
-	
+
 	immediate = {
 		any_demesne_title = {
 			limit = {
@@ -9273,7 +9261,7 @@ character_event = {
 	id = 60505
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		create_character = {
 			name = "Borte"
@@ -9307,7 +9295,7 @@ character_event = {
 			trait="trickster"
 		}
 		create_character = {
-			name="Chagatai" 
+			name="Chagatai"
 			age = 27
 			dynasty=11100
 			religion="tengri_pagan"
@@ -9385,7 +9373,7 @@ character_event = {
 	id = 60509
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		create_character = {
 			random_traits = yes
@@ -9538,10 +9526,10 @@ character_event = {
 	id = 60510
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9552,7 +9540,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9563,7 +9551,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9574,7 +9562,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9585,7 +9573,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9596,7 +9584,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9607,7 +9595,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9618,7 +9606,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9629,7 +9617,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1457 # Ordu-Baliq
+			province = 1571 # Ordu-Baliq
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9640,7 +9628,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1460 # Baygal
+			province = 1571 # Baygal
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9651,7 +9639,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1460 # Baygal
+			province = 1571 # Baygal
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9662,7 +9650,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1460 # Baygal
+			province = 1571 # Baygal
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9673,7 +9661,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1460 # Baygal
+			province = 1571 # Baygal
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9684,7 +9672,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1460 # Baygal
+			province = 1571 # Baygal
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9695,7 +9683,7 @@ character_event = {
 			}
 		}
 		spawn_unit = {
-			province = 1460 # Baygal
+			province = 1571 # Baygal
 			troops =
 			{
 				horse_archers = { 2700 2700 }
@@ -9708,7 +9696,7 @@ character_event = {
 		random = {
 			chance = 50
 			spawn_unit = {
-				province = 1408 # Gobi
+				province = 1571 # Gobi
 				troops =
 				{
 					horse_archers = { 2700 2700 }
@@ -9719,7 +9707,7 @@ character_event = {
 				}
 			}
 			spawn_unit = {
-				province = 1408 # Gobi
+				province = 1571 # Gobi
 				troops =
 				{
 					horse_archers = { 2700 2700 }
@@ -9730,7 +9718,7 @@ character_event = {
 				}
 			}
 			spawn_unit = {
-				province = 1408 # Gobi
+				province = 1571 # Gobi
 				troops =
 				{
 					horse_archers = { 2700 2700 }
@@ -9744,7 +9732,7 @@ character_event = {
 		random = {
 			chance = 50
 			spawn_unit = {
-				province = 1408 # Gobi
+				province = 1571 # Gobi
 				troops =
 				{
 					horse_archers = { 2700 2700 }
@@ -9755,7 +9743,7 @@ character_event = {
 				}
 			}
 			spawn_unit = {
-				province = 1408 # Gobi
+				province = 1571 # Gobi
 				troops =
 				{
 					horse_archers = { 2700 2700 }
@@ -9766,7 +9754,7 @@ character_event = {
 				}
 			}
 			spawn_unit = {
-				province = 1408 # Gobi
+				province = 1571 # Gobi
 				troops =
 				{
 					horse_archers = { 2700 2700 }
@@ -9783,9 +9771,9 @@ character_event = {
 character_event = {
 	id = 60515
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		population = 120000
 		add_character_modifier = {
@@ -9803,9 +9791,9 @@ character_event = {
 character_event = {
 	id = 60516
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -9831,7 +9819,7 @@ character_event = {
 				break = yes
 			}
 		}
-		repeat_event = { 
+		repeat_event = {
 			id = 60516
 			days = 365
 		}
@@ -9841,9 +9829,9 @@ character_event = {
 character_event = {
 	id = 60517
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -9873,10 +9861,10 @@ narrative_event = {
 	title = EVTNAME60520
 	desc = EVTDESC60520
 	is_triggered_only = yes
-	
+
 	picture = GFX_evt_mongols
 	border = GFX_event_narrative_frame_war
-	
+
 	option = {
 		name = EVTOPTA_60520
 		trigger = {
@@ -9885,7 +9873,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_60520
 		trigger = {
@@ -9903,7 +9891,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_60520
 		trigger = {
@@ -9920,7 +9908,7 @@ character_event = {
 	id = 60530
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		capital_scope = {
 			ROOT = {

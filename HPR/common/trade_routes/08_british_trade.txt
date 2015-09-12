@@ -17,9 +17,9 @@ british_trade = {
 		26 24 32
 	}
 	path = {	# London-Bedford-Northhampton-Chester
-		1482 1481 68 62 1475 59
-	}	
+		1411 1412 68 62 1409 59
+	}
 	path = {	# Bedford-Cambridge-Lincoln-York-Fife
-		32 72 1482 61 57 56 51 48 46 43
-	}	
+		32 72 1411 61 57 56 51 48 46 43
+	}
 }

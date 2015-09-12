@@ -1,0 +1,19 @@
+# 1433 - Tethbae
+
+# County Title
+title = c_tethbae
+
+# Settlements
+max_settlements = 4
+
+b_athlone = castle
+b_longford = castle
+#b_ardagh = temple
+#b_granard = temple
+b_durrow = temple
+
+# Misc
+culture = irish
+religion = catholic
+
+# History

@@ -1,31 +1,9 @@
-745.1.1={
-	holder=200058 # Luifredo de Suevonia
-	liege=k_asturias
-}
-770.1.1={
-	holder=70012 # Aurelio Froilaz de Cantabria
-}
-773.1.1={
-	holder=70118 # Silo, King of Asturias
-}
-783.1.1={
-	holder=70116 # Mauregato Alfónsez de Cantabria
-}
-788.1.1={
-	holder=70013 # Bermudo I de Cantabria
-}
-791.1.1={
-	holder=70006 # Alfonso II de Asturias
-}
-842.3.20={
-	holder=70015 # Ramiro I de Cantabria
-	law = succ_gavelkind
-}
 850.2.1={
+liege="k_asturias"
 	holder=70017 # Ordoño I de Cantabria
 }
 866.5.27={
-	holder=73855 # Guterre Hermenegildes I
+holder=73855 # Guterre Hermenegildes I
 }
 875.1.1={
 	holder=73857 # Hermenegildo Guterres
@@ -70,7 +48,6 @@
 1107.9.20={
 	holder=207500 # Alfonso VII de Borgoña
 }
-
 #Bishops of Santiago
 
 1126.3.8={

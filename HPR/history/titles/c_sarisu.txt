@@ -1,0 +1,77 @@
+800.1.1={
+	liege="k_pechenegs"
+}
+800.1.1={
+	holder=1000231704
+}
+810.1.1={
+	liege="0"
+}
+810.1.1={
+	holder=0
+}
+850.1.1={
+	liege="d_oghuz"
+}
+850.1.1={
+	holder=1000230100
+}
+862.1.1={
+	holder=1000230101
+}
+900.1.1={
+	holder=1000230103
+}
+912.1.1={
+	holder=1000230106
+}
+929.1.1={
+	liege="d_qipchaq"
+	holder=1000230121
+}
+930.1.1={
+	holder=1000229722
+}
+960.1.1={
+	holder=1000229723
+}
+990.1.1={
+	holder=1000229724
+}
+# Cumans consolidation complete, push westwards intensifies.
+#Terteroba
+1030.1.1={
+	holder=1000233087 # Sokal
+	liege=d_terteroba
+}
+#
+1060.1.1={
+liege="d_qipchaq"
+holder=1000229726
+}
+1092.1.1={
+	holder=1000229727
+}
+1122.1.1={
+	holder=1000229728
+}
+1139.6.6={
+	liege="e_khitan"
+  holder=1000231501
+}
+1151.6.6={
+	holder=1000231502
+}
+1163.6.6={
+	holder=1000231503
+}
+1177.6.6={
+	holder=1000231504
+}
+1179.6.6={
+	holder=1000231505
+}
+1211.1.1={
+  holder=1000231514
+}
+#Mongol conquest

@@ -1219,11 +1219,8 @@ character_event = {
 			age = 30
 		}
 		new_character = {
-			261 = {
-				random_province_holding = {
-					limit = { holding_type = city }
-					grant_title = PREVPREV
-				}
+			b_hamburg = {
+				grant_title = PREV
 			}
 			c_hamburg = {
 				grant_title = PREV
@@ -1361,11 +1358,8 @@ character_event = {
 			age = 30
 		}
 		new_character = {
-			848 = {
-				random_province_holding = {
-					limit = { holding_type = city }
-					grant_title = PREVPREV
-				}
+			b_beverstedt = {
+				grant_title = PREV
 			}
 			c_bremen = {
 				grant_title = PREV
@@ -1503,11 +1497,8 @@ character_event = {
 			age = 30
 		}
 		new_character = {
-			262 = {
-				random_province_holding = {
-					limit = { holding_type = city }
-					grant_title = PREVPREV
-				}
+			b_lubeck = {
+				grant_title = PREV
 			}
 			c_lubeck = {
 				grant_title = PREV
@@ -1645,11 +1636,8 @@ character_event = {
 			age = 30
 		}
 		new_character = {
-			260 = {
-				random_province_holding = {
-					limit = { holding_type = city }
-					grant_title = PREVPREV
-				}
+			b_wismar = {
+				grant_title = PREV
 			}
 			c_mecklemburg = {
 				grant_title = PREV
@@ -1787,11 +1775,8 @@ character_event = {
 			age = 30
 		}
 		new_character = {
-			306 = {
-				random_province_holding = {
-					limit = { holding_type = city }
-					grant_title = PREVPREV
-				}
+			b_rostock = {
+				grant_title = PREV
 			}
 			c_rostock = {
 				grant_title = PREV
@@ -3677,9 +3662,9 @@ province_event = {
 	trigger = {
 		has_trade_post = yes
 		owner = {
-			is_patrician = no			
+			is_patrician = no
 			top_liege = {
-				is_patrician = no			
+				is_patrician = no
 			}
 		}
 		trade_post_owner = {
@@ -3823,12 +3808,12 @@ character_event = {
 							any_liege = {
 								is_patrician = yes
 							}
-						}						
+						}
 					}
 				}
 				AND = {
 					scaled_wealth = 0.65
-					higher_tier_than = COUNT				
+					higher_tier_than = COUNT
 					OR = {
 						independent = yes
 						AND = {
@@ -3837,12 +3822,12 @@ character_event = {
 								is_patrician = no
 							}
 						}
-					}				
+					}
 				}
 			}
 		}
 		if = {
-			limit = { 
+			limit = {
 				FROMFROM = {
 					owner = {
 						OR = {
@@ -3852,7 +3837,7 @@ character_event = {
 								any_liege = {
 									is_patrician = yes
 								}
-							}						
+							}
 						}
 					}
 				}
@@ -3867,7 +3852,7 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { 
+			limit = {
 				FROMFROM = {
 					owner = {
 						higher_tier_than = COUNT
@@ -3954,7 +3939,7 @@ character_event = {
 			who = FROMFROM
 		}
 		if = {
-			limit = { 
+			limit = {
 				FROMFROM = {
 					OR = {
 						NOT = { higher_tier_than = COUNT }
@@ -3963,7 +3948,7 @@ character_event = {
 							any_liege = {
 								is_patrician = yes
 							}
-						}						
+						}
 					}
 				}
 			}
@@ -4001,7 +3986,7 @@ character_event = {
 		name = EVTOPTB_REP_604
 		ai_chance = { factor = 30 }
 		if = {
-			limit = { 
+			limit = {
 				FROMFROM = {
 					OR = {
 						NOT = { higher_tier_than = COUNT }
@@ -4010,7 +3995,7 @@ character_event = {
 							any_liege = {
 								is_patrician = yes
 							}
-						}						
+						}
 					}
 				}
 			}
@@ -4052,7 +4037,7 @@ character_event = {
 			if = {
 				limit = {
 					liege = {
-						is_merchant_republic = yes 
+						is_merchant_republic = yes
 						NOT = { character = FROMFROM }
 					}
 				}

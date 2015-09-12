@@ -15,8 +15,8 @@ b_shikhlar = temple
 #b_maraza = city
 
 # Misc
-culture = persian
-religion = zoroastrian
+culture = udi
+religion = miaphysite
 
 # History
 651.1.1 = {
@@ -24,6 +24,6 @@ religion = zoroastrian
 	b_quba = ct_marketplace_1
 	b_shikhlar = tp_town_1
 }
-900.1.1 = { religion = sunni }
+1150.1.1 = { culture = kurdish religion = sunni }
 1320.1.1 = { religion = shiite }
 

@@ -1,0 +1,8 @@
+1054.1.1={
+	historical_nomad = yes
+	liege = 0
+	holder=155029
+}
+1090.1.1={
+	holder=0
+}

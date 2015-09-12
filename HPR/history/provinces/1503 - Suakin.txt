@@ -1,0 +1,19 @@
+# 1503 - Suakin
+
+# County Title
+title = c_suakin
+
+# Settlements
+max_settlements = 3
+
+b_alkabli = tribal
+b_sawakin = city
+
+#b_shafia = temple
+
+# Misc
+culture = beja
+religion = pagan
+
+# History
+1066.1.1 = { trade_post = b_suakini }

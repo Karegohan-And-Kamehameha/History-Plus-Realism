@@ -1,0 +1,350 @@
+######################################
+# khitan characters
+######################################
+#Dynasties: 1000102400 - 1000102449
+#Characters: 1000231500 - 1000231599
+
+######################################
+
+1000231500 = {
+	name="Taishi" #Yelü Dashi
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	learning=8
+	martial=7
+	trait="brilliant_strategist"
+	1087.5.5={
+		birth = yes
+	}
+	1127.1.1={
+		add_spouse=1000231501 
+	}
+	1144.6.6={
+		death = yes
+	}
+} 
+1000231501 = {
+	name="Tapuyen"
+	female = yes
+	dynasty=1000102401
+	religion="buddhist"
+	culture="khitan"
+	1110.5.5={
+		birth = yes
+	}
+	1127.1.1={
+		add_spouse=1000231500 
+	}
+	1151.6.6={
+		death = yes
+	}
+} 
+1000231502 = {
+	name="Ile" #guesswork; Yelü Yilie
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231500
+	mother = 1000231501
+	1135.5.5={
+		birth = yes
+	}
+	1163.6.6={
+		death = yes
+	}
+} 
+1000231503 = {
+	name="Puswan" #guesswork
+	female = yes
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231500
+	mother = 1000231501
+	1136.8.8={
+		birth = yes
+	}
+	1153.1.1={
+		add_spouse=1000231510 
+	}
+	1177.6.6={
+		death = yes
+	}
+} 
+1000231504 = {
+	name="Hechen"  #Fictional first son of Yilie
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231502
+	1155.5.5={
+		birth = yes
+	}
+	1179.6.6={
+		death = yes
+	}
+} 
+1000231505 = {
+	name="Dzirug" #guesswork; Zhilugu
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231502
+	1157.5.5={
+		birth = yes
+	}
+	1213.6.6={
+		death = yes
+	}
+} 
+1000231506 = {
+	name="Chutsai" #Temüjin's adviser - family affiliation is fictional though
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231509
+	1177.5.5={
+		birth = yes
+	}
+	1220.6.6={
+		death = yes
+	}
+} 
+1000231507 = {
+	name="Ahai" #governor of Samarkand
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231506
+	1199.5.5={
+		birth = yes
+	}
+	1240.6.6={
+		death = yes
+	}
+} 
+1000231508 = {
+	name="Miensuko" #governor of Bukhara
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231506
+	1200.5.5={
+		birth = yes
+	}
+	1246.6.6={
+		death = yes
+	}
+} 
+1000231509 = {
+	name="Hongben" #fictional Chutsai's father
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231510
+	mother = 1000231503
+	1155.5.5={
+		birth = yes
+	}
+	1181.6.6={
+		death = yes
+	}
+} 
+#Xiao dynasty
+1000231510 = {
+	name="Dærub" #guesswork - Pusuwan's husband
+	dynasty=1000102401
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231511
+	1134.5.5={
+		birth = yes
+	}
+	1153.1.1={
+		add_spouse=1000231503 
+	}
+	1163.6.6={
+		death = yes
+	}
+} 
+1000231511 = {
+	name="Wolila" #Duolubu's father         
+	dynasty=1000102401
+	religion="buddhist"
+	culture="khitan"
+	1117.5.5={
+		birth = yes
+	}
+	1179.6.6={
+		death = yes
+	}
+} 
+1000231512 = {
+	name="Bogudzi" #guesswork - Duolubu's brother, Pusuwan's lover         
+	dynasty=1000102401
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231511
+	1136.5.5={
+		birth = yes
+	}
+	1177.6.6={
+		death = yes
+	}
+} 
+#other Yelü
+1000231513 = {
+	name="Shuzheng" #Zhilugu's daughter, wife of Küchlüg, the Naiman usurper
+	female=yes         
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	father = 1000231505
+	1186.5.5={
+		birth = yes
+	}
+	1208.5.5={
+		religion="buddhist"
+    add_spouse =1000231514 
+	}
+	1228.6.6={
+		death = yes
+	}
+} 
+
+#Mongol caracters - Naimans
+
+1000231514 = {
+	name="Küchlüg" #the Naiman usurper
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	father = 1000231515
+	1180.5.5={
+		birth = yes
+	}
+	1208.5.5={
+		religion="buddhist"
+    add_spouse =1000231513 
+	}
+	1218.6.6={
+		death = yes
+	}
+} 
+1000231515 = {
+	name="Tayang" #Küchlüg's father
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	father = 1000231520
+	1155.5.5={
+		birth = yes
+	}
+	1203.6.6={
+		death = yes
+	}
+} 
+#Mongol caracters - Naimans - historical but with fantasy dates
+1000231516 = {
+	name="Tugusa" #the first historical Naiman chieftan
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	father = 1000231522
+	1040.5.5={
+		birth = yes
+	}
+	1099.6.6={
+		death = yes
+	}
+} 
+1000231517 = {
+	name="Nareishi"
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	father = 1000231516
+	1084.5.5={
+		birth = yes
+	}
+	1120.6.6={
+		death = yes
+	}
+} 
+1000231518 = {
+	name="Yinanchi"
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	father = 1000231516
+	1090.5.5={
+		birth = yes
+	}
+	1150.6.6={
+		death = yes
+	}
+} 
+1000231519 = {
+	name="Tayang"
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	father = 1000231518
+	1122.5.5={
+		birth = yes
+	}
+	1149.6.6={
+		death = yes
+	}
+} 
+1000231520 = {
+	name="Baibuhua"
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	father = 1000231518
+	1127.5.5={
+		birth = yes
+	}
+	1183.6.6={
+		death = yes
+	}
+} 
+1000231521 = {
+	name="Buyulu"
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	father = 1000231520
+	1150.5.5={
+		birth = yes
+	}
+	1208.6.6={
+		death = yes
+	}
+} 
+1000231522 = {
+	name="Naiman" #the first historical Naiman chieftan
+	dynasty=1000102449
+	religion="nestorian"
+	culture="mongol"
+	1000.5.5={
+		birth = yes
+	}
+	1060.6.6={
+		death = yes
+	}
+} 
+1000231523 = {
+	name="Erbüz" #the first historical Naiman chieftan
+	dynasty=1000102402
+	religion="nestorian"
+	culture="khitan"
+	1108.5.5={
+		birth = yes
+	}
+	1160.6.6={
+		death = yes
+	}
+} 

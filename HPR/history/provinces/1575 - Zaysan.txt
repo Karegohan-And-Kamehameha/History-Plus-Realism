@@ -1,0 +1,16 @@
+# 1575 - Zaysan
+
+# County Title
+title = c_zaysan
+
+# Settlements
+max_settlements = 3
+b_zaysan = tribal
+b_aksuat = temple
+#b_akzhar = city
+
+# Misc
+culture = kirghiz
+religion = tengri_pagan
+
+# History

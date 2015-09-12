@@ -1,6 +1,1 @@
-1060.1.1 = {
-	holder = 155018
-}
-1082.1.1 = {
-	holder = 0
-}
+#renamed vanilla file, now b_muaskar_thlemcen

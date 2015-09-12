@@ -4,11 +4,12 @@
 title = c_aland
 
 # Settlements
-max_settlements = 3
+max_settlements = 2
 
 b_kastelholm = tribal
 
 #b_sund = city
+
 #b_geta = temple
 #b_saltvik
 #b_godby
@@ -21,10 +22,8 @@ culture = norse
 religion = norse_pagan
 
 # History
-1000.1.1 = {
-	b_kastelholm = castle
-	b_kastelholm = ca_shipyard_1
-}
-1066.1.1 = { culture = swedish }
+1022.1.7 = { b_kastelholm = castle} 
+1047.10.25 = { culture = swedish } 
+
 1085.1.1 = {religion = catholic }
 1254.1.1= { trade_post = b_wittenborg }

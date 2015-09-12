@@ -10,10 +10,10 @@ namespace = Plus
 # Upon a new Carolingian emperor ascending to the throne
 character_event = {
 	id = Plus.1150
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { title = e_karling }
 		e_karling = {
@@ -23,7 +23,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		character_event = { id = Plus.1151 days = 2 }
 	}
@@ -31,20 +31,20 @@ character_event = {
 
 character_event = {
 	id = Plus.1151
-	
+
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
 		has_landed_title = e_karling
 	}
-	
-	immediate = {		
+
+	immediate = {
 		# Send an acceptance event to all duke & king vassals
 		any_vassal = {
 			limit = { higher_tier_than = COUNT }
 			character_event = { id = Plus.1152 days = 3 }
-		}		
+		}
 		# Follow-up succeed-or-fail events (only one will be valid}
 		narrative_event = { id = Plus.1161 days = 15 } # coronated by the Pope
 		narrative_event = { id = Plus.1162 days = 15 } # empire dissolves
@@ -58,13 +58,13 @@ character_event = {
 	desc = EVTDESC_Plus_1152
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		vassal_of = FROM
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_1152 # declare independence
 		trigger = {
@@ -276,9 +276,9 @@ character_event = {
 letter_event = {
 	id = Plus.1153
 	desc = EVTDESC_Plus_1153
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_1153
 		FROM = {
@@ -306,9 +306,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_1161
 	picture = GFX_evt_cathedral
 	border = GFX_event_narrative_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_landed_title = e_karling
 		any_realm_title = {
@@ -316,7 +316,7 @@ narrative_event = {
 			count = 100
 		}
 	}
-	
+
 	option = {
 		name = OK
 		prestige = 100
@@ -332,7 +332,7 @@ narrative_event = {
 	border = GFX_event_narrative_frame_diplomacy
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_landed_title = e_karling
 		NOT = {
@@ -342,7 +342,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_1162
 		set_character_flag = former_carolingian_emperor
@@ -651,7 +651,7 @@ letter_event = {
 		FROM = { clr_character_flag = approached_for_coronation }
 		prestige = -50
 		opinion = {
-			modifier = coronation_rejected 
+			modifier = coronation_rejected
 			who = FROM
 			years = 2
 		}
@@ -695,7 +695,7 @@ character_event = {
 			}
 			destroy_landed_title = THIS
 		}
-		
+
 		hidden_tooltip = {
 			if = {
 				limit = {
@@ -732,7 +732,7 @@ character_event = {
 					set_title_flag = do_not_destroy
 				}
 			}
-			
+
 			# stem duchy setup
 			if = { # Austria Owner Check
 				limit = {
@@ -859,7 +859,7 @@ character_event = {
 					limit = { has_claim = k_saxony }
 					k_grand_saxony = { add_pressed_claim = PREV }
 					remove_claim = k_saxony
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_saxony }
@@ -932,7 +932,7 @@ character_event = {
 				d_brandenburg = { de_jure_liege = k_brandenburg }
 				d_meissen = { de_jure_liege = k_brandenburg }
 			}
-			
+
 			# deal with k_germany
 			if = {
 				limit = { NOT = { is_title_active = k_germany } }
@@ -946,11 +946,11 @@ character_event = {
 						}
 						any_direct_de_jure_vassal_title = {
 							limit = { capital_scope = { region = custom_aquitaine } }
-							if = { 
+							if = {
 								limit = { has_global_flag = west_francia_united }
 								de_jure_liege = k_france
 							}
-							if = { 
+							if = {
 								limit = { NOT = { has_global_flag = west_francia_united } }
 								de_jure_liege = k_aquitaine
 							}
@@ -1055,9 +1055,18 @@ character_event = {
 				}
 				any_direct_de_jure_vassal_title = { # Saxony
 					limit = {
-						OR = {
-							title = d_westphalia
-							title = d_eastphalia
+						OR = { #East + West Phalia
+							title = d_angria
+							title = d_oldenburg
+							title = d_osnabruck
+							title = d_bishopmunster
+							title = d_bremen
+							title = d_holstein
+							title = d_magdeburg
+							title = d_saxewittenberg
+							title = d_meissen
+							title = d_altmark
+							title = d_brunswick
 						}
 					}
 					if = {
@@ -1092,11 +1101,11 @@ character_event = {
 				}
 				any_direct_de_jure_vassal_title = {
 					limit = { capital_scope = { region = custom_aquitaine } }
-					if = { 
+					if = {
 						limit = { has_global_flag = west_francia_united }
 						de_jure_liege = k_france
 					}
-					if = { 
+					if = {
 						limit = { NOT = { has_global_flag = west_francia_united } }
 						de_jure_liege = k_aquitaine
 					}
@@ -1131,7 +1140,7 @@ character_event = {
 				}
 				destroy_landed_title = THIS
 			}
-			
+
 			activate_title = { title = k_germany status = no }
 			k_arch_austria = { de_jure_liege = e_hre }
 			k_grand_bavaria = { de_jure_liege = e_hre }
@@ -1144,7 +1153,7 @@ character_event = {
 				limit = { is_title_active = k_brandenburg }
 				k_brandenburg = { de_jure_liege = e_hre }
 			}
-		
+
 			# send notification to potential HRE vassals
 			any_independent_ruler = {
 				limit = {
@@ -1342,7 +1351,7 @@ narrative_event = {
 					is_friend = FROM
 					any_allied_character = { character = FROM }
 				}
-			}		
+			}
 		}
 		if = {
 			limit = { ai = no }
@@ -1432,7 +1441,7 @@ narrative_event = {
 				entry = CHRONICLE_FOUNDED_HRE_NEWS
 				picture = GFX_evt_coronation
 			}
-		}	
+		}
 	}
 }
 
@@ -1440,9 +1449,9 @@ narrative_event = {
 letter_event = {
 	id = Plus.1160
 	desc = "EVTDESC_Plus_1160"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_1160 # Accept
 		FROM = {
@@ -1469,9 +1478,9 @@ character_event = {
 	id = Plus.1170
 	desc = EVTDESC_Plus_1170
 	picture = GFX_evt_council
-	
+
 	only_rulers = yes
-	
+
 	trigger = {
 		war = no
 		OR = {
@@ -1485,15 +1494,15 @@ character_event = {
 		}
 		NOR = {
 			top_liege = { has_landed_title = e_hre }
-			top_liege = { liege_before_war = { has_landed_title = e_hre } } 
+			top_liege = { liege_before_war = { has_landed_title = e_hre } }
 			liege_before_war = { has_landed_title = e_hre }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EXCELLENT
 		if = {
@@ -1509,12 +1518,12 @@ character_event = {
 					grant_title = ROOT
 					copy_title_laws = k_grand_saxony
 					copy_title_history = k_grand_saxony
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_grand_saxony }
 					k_saxony = { add_pressed_claim = PREV }
 					remove_claim = k_grand_saxony
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_grand_saxony }
@@ -1541,12 +1550,12 @@ character_event = {
 					grant_title = ROOT
 					copy_title_laws = k_grand_swabia
 					copy_title_history = k_grand_swabia
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_grand_swabia }
 					k_swabia = { add_pressed_claim = PREV }
 					remove_claim = k_grand_swabia
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_grand_swabia }
@@ -1573,12 +1582,12 @@ character_event = {
 					grant_title = ROOT
 					copy_title_laws = k_grand_franconia
 					copy_title_history = k_grand_franconia
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_grand_franconia }
 					k_franconia = { add_pressed_claim = PREV }
 					remove_claim = k_grand_franconia
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_grand_franconia }
@@ -1605,12 +1614,12 @@ character_event = {
 					grant_title = ROOT
 					copy_title_laws = k_grand_bavaria
 					copy_title_history = k_grand_bavaria
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_grand_bavaria }
 					k_bavaria = { add_pressed_claim = PREV }
 					remove_claim = k_grand_bavaria
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_grand_bavaria }
@@ -1637,12 +1646,12 @@ character_event = {
 					grant_title = ROOT
 					copy_title_laws = k_grand_luxembourg
 					copy_title_history = k_grand_luxembourg
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_grand_luxembourg }
 					k_luxembourg = { add_pressed_claim = PREV }
 					remove_claim = k_grand_luxembourg
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_grand_luxembourg }
@@ -1669,12 +1678,12 @@ character_event = {
 					grant_title = ROOT
 					copy_title_laws = k_grand_tuscany
 					copy_title_history = k_grand_tuscany
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_grand_tuscany }
 					k_tuscany = { add_pressed_claim = PREV }
 					remove_claim = k_grand_tuscany
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_grand_tuscany }
@@ -1701,12 +1710,12 @@ character_event = {
 					grant_title = ROOT
 					copy_title_laws = k_arch_austria
 					copy_title_history = k_arch_austria
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_arch_austria }
 					k_austria = { add_pressed_claim = PREV }
 					remove_claim = k_arch_austria
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_arch_austria }
@@ -1728,9 +1737,9 @@ character_event = {
 	id = Plus.1171
 	desc = EVTDESC_Plus_1171
 	picture = GFX_evt_council
-	
+
 	only_rulers = yes
-	
+
 	trigger = {
 		war = no
 		OR = {
@@ -1744,11 +1753,11 @@ character_event = {
 		}
 		top_liege = { has_landed_title = e_hre }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = OK
 		if = {
@@ -1765,12 +1774,12 @@ character_event = {
 					copy_title_laws = k_saxony
 					copy_title_history = k_saxony
 					de_jure_liege = e_hre
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_saxony }
 					k_grand_saxony = { add_pressed_claim = PREV }
 					remove_claim = k_saxony
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_saxony }
@@ -1798,12 +1807,12 @@ character_event = {
 					copy_title_laws = k_swabia
 					copy_title_history = k_swabia
 					de_jure_liege = e_hre
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_swabia }
 					k_grand_swabia = { add_pressed_claim = PREV }
 					remove_claim = k_swabia
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_swabia }
@@ -1831,12 +1840,12 @@ character_event = {
 					copy_title_laws = k_franconia
 					copy_title_history = k_franconia
 					de_jure_liege = e_hre
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_franconia }
 					k_grand_franconia = { add_pressed_claim = PREV }
 					remove_claim = k_franconia
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_franconia }
@@ -1864,12 +1873,12 @@ character_event = {
 					copy_title_laws = k_bavaria
 					copy_title_history = k_bavaria
 					de_jure_liege = e_hre
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_bavaria }
 					k_grand_bavaria = { add_pressed_claim = PREV }
 					remove_claim = k_bavaria
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_bavaria }
@@ -1897,12 +1906,12 @@ character_event = {
 					copy_title_laws = k_luxembourg
 					copy_title_history = k_luxembourg
 					de_jure_liege = e_hre
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_luxembourg }
 					k_grand_luxembourg = { add_pressed_claim = PREV }
 					remove_claim = k_luxembourg
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_luxembourg }
@@ -1930,12 +1939,12 @@ character_event = {
 					copy_title_laws = k_tuscany
 					copy_title_history = k_tuscany
 					de_jure_liege = e_hre
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_tuscany }
 					k_grand_tuscany = { add_pressed_claim = PREV }
 					remove_claim = k_tuscany
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_tuscany }
@@ -1963,12 +1972,12 @@ character_event = {
 					copy_title_laws = k_austria
 					copy_title_history = k_austria
 					de_jure_liege = e_hre
-				}		  
+				}
 				any_realm_character = {
 					limit = { has_claim = k_austria }
 					k_arch_austria = { add_pressed_claim = PREV }
 					remove_claim = k_austria
-				}		
+				}
 				any_playable_ruler = {
 				  any_realm_character = {
 						limit = { has_claim = k_austria }
@@ -1989,10 +1998,10 @@ character_event = {
 # Probably no longer necessary, left in place just in case
 character_event = {
 	id = Plus.1172
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = { has_character_flag = gaining_grand_saxony }
@@ -2005,7 +2014,7 @@ character_event = {
 				limit = { has_claim = k_saxony }
 				add_pressed_claim = k_grand_saxony
 				remove_claim = k_saxony
-			}		
+			}
 			any_playable_ruler = {
 			  any_realm_character = {
 					limit = { has_claim = k_saxony }
@@ -2036,7 +2045,7 @@ character_event = {
 				limit = { has_claim = k_swabia }
 				add_pressed_claim = k_grand_swabia
 				remove_claim = k_swabia
-			}		
+			}
 			any_playable_ruler = {
 			  any_realm_character = {
 					limit = { has_claim = k_swabia }
@@ -2067,7 +2076,7 @@ character_event = {
 				limit = { has_claim = k_austria }
 				add_pressed_claim = k_arch_austria
 				remove_claim = k_austria
-			}		
+			}
 			any_playable_ruler = {
 			  any_realm_character = {
 					limit = { has_claim = k_austria }
@@ -2098,7 +2107,7 @@ character_event = {
 				limit = { has_claim = k_franconia }
 				add_pressed_claim = k_grand_franconia
 				remove_claim = k_franconia
-			}		
+			}
 			any_playable_ruler = {
 			  any_realm_character = {
 					limit = { has_claim = k_franconia }
@@ -2129,7 +2138,7 @@ character_event = {
 				limit = { has_claim = k_bavaria }
 				add_pressed_claim = k_grand_bavaria
 				remove_claim = k_bavaria
-			}		
+			}
 			any_playable_ruler = {
 			  any_realm_character = {
 					limit = { has_claim = k_bavaria }
@@ -2160,7 +2169,7 @@ character_event = {
 				limit = { has_claim = k_luxembourg }
 				add_pressed_claim = k_grand_luxembourg
 				remove_claim = k_luxembourg
-			}		
+			}
 			any_playable_ruler = {
 			  any_realm_character = {
 					limit = { has_claim = k_luxembourg }
@@ -2191,7 +2200,7 @@ character_event = {
 				limit = { has_claim = k_tuscany }
 				add_pressed_claim = k_grand_tuscany
 				remove_claim = k_tuscany
-			}		
+			}
 			any_playable_ruler = {
 			  any_realm_character = {
 					limit = { has_claim = k_tuscany }
@@ -2415,7 +2424,7 @@ letter_event = {
 		}
 	}
 }
- 
+
 # Inform emperor that the pope agrees to the coronation & send out the invites to realm lords
 letter_event = {
 	id = Plus.1177 #formerly 1000182429
@@ -2462,7 +2471,7 @@ letter_event = {
 		prestige = -50
 		ROOT = {
 			opinion = {
-				modifier = coronation_rejected 
+				modifier = coronation_rejected
 				who = FROM
 				years = 2
 			}
@@ -2794,11 +2803,11 @@ narrative_event = {
 	title = "EVTNAME_Plus_1185"
 	desc = "EVTDESC_Plus_1185"
 	picture = "GFX_evt_holy_emperor"
-	
+
 	major = yes
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		year = 869
 		has_landed_title = k_aquitaine
@@ -2814,7 +2823,7 @@ narrative_event = {
 			has_character_flag = is_charlemagne # Probably redundant with the year trigger but better safe than sorry
 		}
 	}
-	
+
 	major_trigger = {
 		ai = no
 		OR = {
@@ -2845,14 +2854,14 @@ narrative_event = {
 			trait = proud
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = west_francia_united
 		k_aquitaine = {
 			any_direct_de_jure_vassal_title = {
 				de_jure_liege = k_france
 			}
-		}     
+		}
         hidden_tooltip = {
 			any_realm_character = {
 				if = {
@@ -2913,7 +2922,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		trigger = { has_landed_title = k_france }
 		name = EXCELLENT
@@ -2931,9 +2940,9 @@ character_event = {
 	id = Plus.1186
 	desc = "EVTDESC_Plus_1186"
 	picture = "GFX_evt_council"
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		has_landed_title = e_karling
 		has_landed_title = k_lotharingia
@@ -2966,15 +2975,15 @@ character_event = {
 			has_global_flag = treaty_of_meerssen
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		set_global_flag = treaty_of_meerssen
 	}
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1186" # Agree to the treaty
 		ai_chance = {
@@ -3041,7 +3050,7 @@ character_event = {
 								lower_tier_than = KING
 								capital_scope = {
 									OR = {
-										duchy = { title = d_bar }
+										duchy = { title = d_barleduc }
 										duchy = { title = d_flanders }
 										duchy = { title = d_brabant }
 										duchy = { title = d_burgundy }
@@ -3318,9 +3327,9 @@ character_event = {
 	title = "EVTNAME_Plus_1187"
 	desc = "EVTDESC_Plus_1187"
 	picture = "GFX_evt_council"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 		prestige = 100
@@ -3338,9 +3347,9 @@ character_event = {
 	id = Plus.1188
 	desc = "EVTDESC_Plus_1187"
 	picture = "GFX_evt_council"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_1188" #This is not worth fighting over
 		ai_chance = {

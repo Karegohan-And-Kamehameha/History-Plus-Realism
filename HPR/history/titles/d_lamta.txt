@@ -1,0 +1,15 @@
+20.1.1 = {
+	historical_nomad = yes
+}
+851.1.1={
+	liege="k_maghreb"
+}
+851.1.1={
+	holder = 1000228215
+}
+882.1.1={
+	holder = 1000228213
+}
+1051.1.1={
+	liege="k_mauretania"
+}

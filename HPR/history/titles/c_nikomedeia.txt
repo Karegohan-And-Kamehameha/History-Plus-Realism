@@ -1,70 +1,177 @@
 330.1.1={
-	liege="d_nikaea"
+	liege="e_byzantium"
 }
-752.1.1={
-	holder=145827
+813.7.11={
+	holder=70493
 }
-855.1.1={
-	holder=145191
+820.12.27={
+	holder=70492
 }
-976.1.10 = {
-	holder = 1716
-	liege = "e_byzantium"
+829.10.2={
+	holder=70491
 }
-1060.1.1 = {
-	liege = "d_nikaea"
+842.1.20={
+	holder=70490
 }
-1060.1.1 = {
-	holder = 1746
+866.9.24={
+	holder=1700
 }
-1071.8.26 = {
-	holder = 1740
+#867.9.24={ # The historical date, but we want the Macedonian dynasty in place at the bookmark start
+#	holder=1700
+#}
+886.8.29={
+	holder=1702
 }
-1078.3.31 = {
-
-	holder = 41701
+912.5.11={
+	holder=1704
 }
-1095.1.1 = {
-	liege = "e_byzantium"
-	holder = 1742
+913.6.6={
+	holder=1708
 }
-#1st crusade takes Nikaea
-1097.7.19 = {
-	liege = "d_nikaea"
+920.12.17={
+	holder=1706
 }
-1118.8.15 = {
-	holder = 1762
+944.12.16={
+	holder=145223
 }
-1143.10.1 = {
-	holder = 215504
+945.1.27={
+	holder=1708
 }
-1160.1.1 = {
-	holder = 215670
+959.11.9={
+holder=1710
 }
-1190.1.2 = {
-	holder = 215674
+963.3.15={
+holder=1712
 }
-1222.8.2 = {
-	holder = 125741
+969.12.10={
+holder=1714
 }
-1254.11.3 = {
-	holder = 125742
+976.1.10={
+holder=1716
 }
-1258.8.18 = {
-	holder = 125743
+1025.12.15={
+holder=1718
 }
-1261.7.25 = {
-	holder = 465527
+1028.11.15={
+holder=1720
 }
-1282.12.11 = {
-	holder = 465521
+1034.4.11=
+{
+holder=1722
+}
+1041.12.10=
+{
+holder=1724
+}
+1042.4.20=
+{
+holder=1717
+}
+1042.6.11=
+{
+holder=1726
+}
+1055.1.11=
+{
+holder=1719
+}
+1056.8.31=
+{
+holder=70432
+}
+1057.8.31=
+{
+holder=1730
+}
+1059.11.22=
+{
+holder=1732
+}
+1065.5.22={
+liege="d_optimatoi"
+holder=1000232169
+}
+1074.1.1=
+{
+	liege="d_armeniacon"
+	holder=34220
+}
+1074.7.1=
+{
+	liege="d_optimatoi"
+	holder = 1000232169
+}
+1081.4.1={
+	liege="e_byzantium"
+	holder=1742
+}
+1087.1.1={
+	liege="k_rum"
+	holder=1000232645
+}
+1090.1.1={
+	liege="e_byzantium"
+	holder=1742
+}
+1118.8.15={
+	holder=1762
+}
+1122.1.1={
+	holder=232510
+}
+1142.1.1={
+	holder=223023
+}
+1143.10.1={
+	holder=215504
+}
+1160.1.1={
+	holder=215670
+}
+1190.1.2={
+	holder=215674
+}
+1204.5.16={
+	liege="e_byzantium"
+}
+1205.1.1={
+	liege="e_latin_empire"
+	holder=205523 #Baudouin I van Vlaanderen
+}
+1205.6.1={
+	holder=205525 #Henry I van Vlaanderen
+}
+1216.6.11={
+	holder=205725 #Pierre I de Courtenay
+}
+1219.1.1={
+	holder=205526 #Yolande van Vlaanderen (regent)
+}
+1221.3.25={
+	holder=91062 #Robert de Courtenay
+}
+1225.1.1={
+	liege="e_byzantium"
+	holder=125741
+}
+1254.11.3={
+	holder=125742
+}
+1258.8.18={
+	holder=125743
+}
+1261.7.25={
+	holder=465527
+}
+1282.12.11={
+	holder=465521
 }
 #The Ottomans arrive
 
-1310.1.1 = {
-	holder = 71841
+1310.1.1={
+	holder=71841
 }
-1332.1.1 = {
-	holder = 476500
+1332.1.1={
+	holder=476500
 }
 

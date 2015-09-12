@@ -1,75 +1,96 @@
-632.1.1={
-	liege="d_moldau"
-	holder=159117
+#Beloberezhye/Dykra/Dzikie Pola/Yedisan
+845.1.1={
+	liege = "k_magyar"
 }
-665.1.1={
-	holder=159127
+845.1.1={
+	holder=1000233323
 }
-680.1.1={
-	holder=159118
+#Yawdi-Ertim
+895.1.1={
+	liege = "d_yawdi_ertim"
+	holder=1000231708 # Bayca
 }
-700.1.1={
-	holder=159120
+905.1.1={
+	holder=1000231711
 }
-721.1.1={
-	holder=145953
+910.1.1={
+	holder=1000231712
 }
-755.1.1={
-	holder=145954
+940.1.1={
+	holder=1000231714
 }
-765.1.1={
-	holder=159121
+960.1.1={
+	holder=1000231716
 }
-768.1.1={
-	holder=159122
+980.1.1={
+	holder=1000231718 # Metigay
 }
-777.1.1={
-	holder=145955
+1010.1.1={
+	holder=1000231720
 }
-852.1.1={
-	holder=168070
+1036.1.1={
+	holder=1000231722
 }
-990.1.1 = {
-	holder = 1000254400
-	liege = "k_pechenegs"
+#1044 Kegen migrates and Tiraq follows after
+#Boru-Tolmach
+1044.1.1={
+	holder=1000231812
 }
-1066.1.1 = {
-	liege=d_moldau
+1045.1.1={
+	holder=1000231815
 }
-1066.1.1 = {
-	holder = 20641
+#Tiraq migrates, Oghuz takes over.
+1046.1.1 = {
+	liege=d_salgur
+	holder=	1000231993
 }
-1091.1.1 = {
-	holder = 34817
+#Cumans arrive.
+#Ençogli
+1060.1.1={
+	liege=d_enchogli
+	holder=1000233112
 }
-1115.1.1 = {
-	holder = 34818
+1080.1.1={
+	holder=1000233114 # Altunopa/Arslanopa
 }
-1150.1.1 = {
-	holder = 34819
+1103.4.1={
+	holder=1000233116
 }
-1171.1.1 = {
-	liege = "d_moldau"
-	holder=34826
+#Terteroba
+1123.1.1={
+        liege="d_terteroba"
+	holder=1000233095
 }
-1190.1.1=
+1140.1.1={
+	holder=1000233097
+}
+1170.1.1={
+	holder=1000233099
+}
+1175.1.1={
+	holder=1000233101 #Gza/Kzak 
+}
+1190.1.1={
+	holder=1000233103 # Roman
+}
+1220.1.1={
+	holder=1000233105 # Köten/Kotian/Kuthen/Johan
+}
+#Terteroba migrate to Hungary after defeat
+1238.1.1=
 {
-	holder=34827
+	holder=34841
 }
-1225.1.1=
+1260.1.1=
 {
-	holder=34828
+	holder=34842
 }
-1238.1.1 = {
-	holder = 34841
+1300.1.1=
+{
+	holder=34843
 }
-1260.1.1 = {
-	holder = 34842
-}
-1300.1.1 = {
-	holder = 34843
-}
-1330.1.1 = {
-	holder = 34844
+1330.1.1=
+{
+	holder=34844
 }
 

@@ -1,105 +1,85 @@
-769.1.1={
-	holder=200046 # Husayn Saadid
+852.1.1={
+	holder=73812
 	liege=d_zaragoza
 }
-788.6.10={
-	holder=73810 # Musa I Qasid
-}
-802.12.1={
-	holder=73799 # Amrus b. Yusuf Amrusid
-}
-852.1.1={
-	holder=73888 # Usama Sajrid
+860.1.1={
+	holder=73888
 }
 875.4.27={
-	holder=73818 # Isma'il Qasid
-	liege=k_andalusia
-}
-882.1.1={
-	holder=73815 # Muhammad Qasid
-}
-898.10.2={
-	holder=200026 # Lubb Qasid
-}
-907.9.30={
-	holder=200027 # Abdallah Qasid
-}
-915.11.1={
-	holder=200028 # Mutarrif Qasid
-}
-916.3.31={
-	holder=200029 # Muhammad b. Abdallah Qasid
-}
-923.1.1={
-	holder=200030 # Muhammad b. Lubb Qasid
-}
-1010.1.1={
-	holder=3933 # Suleyman Hudid
-}
-1018.1.1={
-	holder=73184 # Mundir I Tuyyibid
-}
-1038.1.1={
-	holder=73187 # Abdallah Tuyyibid
-}
-1046.1.1={
-	holder=3938 # Yusuf Hudid
-}
-1081.1.1={
-	holder=3934 # Ahmad I Hudid
-}
-1082.1.1={
-	holder=73190 # Mundir Hudid
+	holder=73818
 	liege=0
 }
-1090.1.1={
-	holder=73191 # Suleyman b. Mundir Hudid
-}
-1099.1.1={
-	holder=73182 # Muhammad Hayyid
-	liege=k_morocco
-}
-1110.5.31={
+882.1.1={
+	holder=73815
 	liege=d_zaragoza
 }
+1010.1.1={
+	holder=3933
+}
+1018.1.1={
+	holder=73184
+}
+1038.1.1={
+	holder=73187
+}
+1046.1.1={
+	holder=3934
+}
+1082.1.1={
+	holder=3935
+}
+1085.1.1={
+	holder=45005
+}
+1110.1.1={
+	holder=73180
+}
+1110.5.31={
+	holder=73182
+	liege=k_maghreb
+}
 1115.1.1={
-	holder=73183 # Tifilwit Tifilwitid
-	liege=k_morocco
+	holder=73183
 }
 1118.12.18={
-	holder=73246 # Muhammad Musavid
+	liege="k_aragon"
+	holder=70232
 }
-1143.1.1={
-	holder=224014 # Hakam Laridid
+1134.9.27={
+	holder=70233
 }
-1149.1.1={
-	holder=210506 # Ramon Berenguer IV de Barcelona
-	liege=d_barcelona
+1135.1.1={
+	holder=206510
+	liege=k_navarra #Ceded by Alfonso VII of Castille who had conquered it
 }
-1162.8.6={
-	holder=71643 # Ramon Berenguer de Barcelona
-}
-1164.1.1={
+1136.1.1={
+	holder=70233
 	liege=k_aragon
 }
-1212.1.1={
-	holder=71604 # Guillem de Cardona
+1157.8.16={
+	holder=210507
 }
-1225.7.12={
-	holder=72312 # Ramon Folc I de Cardona
+1174.10.16={
+	holder=210500
 }
-1241.8.23={
-	holder=72103 # Ramon Folc II de Cardona
+1195.4.25={
+	holder=210501
 }
-1276.6.5={
-	holder=72329 # Bernat Amat de Cardona
+1213.9.14={
+	holder=460600
 }
-1310.1.1={
-	holder=72336 # Ramon de Cardona
+1276.7.27={
+	holder=460590
 }
-1334.1.1={
-	holder=72344 # Hug I de Cardona
+1285.11.11={
+	holder=71739
 }
-1334.8.25={
-	holder=72354 # Hug II de Cardona
+1291.6.18={
+	holder=460560
+}
+1327.11.5={
+	holder=460510
+}
+1336.1.24={
+	holder=460500
 }

@@ -1,7 +1,7 @@
 #Viscounty of Avranches
 
 #House of Goz
-1066.1.1={
+1045.1.1={
 	liege="c_avranches"
 	holder=41250 #Richard I Goz
 }
@@ -20,6 +20,9 @@
 }
 1181.6.30={
 	holder=204680 #Ranulph de Blondeville
+}
+1204.1.1={
+	holder = 0
 }
 1232.10.26={
 	holder = 455404 

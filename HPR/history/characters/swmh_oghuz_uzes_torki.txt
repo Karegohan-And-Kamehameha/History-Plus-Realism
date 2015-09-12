@@ -1,0 +1,2794 @@
+###############################################################
+#  SWMH Uzes(north of blacksea migrating Oghuz) Characters
+###############################################################
+#Range: 1000231860 - 1000231999
+###############################################################
+#Uzlar
+1000231860 = { # fictional 
+	name="Etrek" 
+	dynasty=1000100511 # Uzlar
+	religion="tengri_pagan"
+	culture="oghuz"
+	820.1.1={
+		birth = yes
+	}
+	845.1.1={
+		add_spouse=1000231861
+	}
+	860.1.1={
+		death = yes
+	}
+}
+1000231861 = {  #fictional.
+	name="Lale" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	822.1.1={
+		birth = yes
+	}
+	900.1.1={
+		death = yes
+	}
+}
+1000231862 = { # father of Etrek.
+	name="Qataghan" 
+	dynasty=1000100511 # Uzlar
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231860
+        mother=1000231861
+	850.1.1={
+		birth = yes
+	}
+	890.1.1={
+		add_spouse=1000231863
+	}
+	910.1.1={
+		death = yes
+	}
+}
+1000231863 = {  #fictional.
+	name="Lale" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	865.1.1={
+		birth = yes
+	}
+	920.1.1={
+		death = yes
+	}
+}
+1000231864 = { # Etrek, was Uzes khan in 922.
+	name="Etrek" 
+	dynasty=1000100511 # Uzlar
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231862
+        mother=1000231863
+	894.1.1={
+		birth = yes
+	}
+	915.1.1={
+		add_spouse=1000231865
+	}
+	940.1.1={
+		death = yes
+	}
+}
+1000231865 = {  #fictional.
+	name="Gulçiçek" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	897.1.1={
+		birth = yes
+	}
+	950.1.1={
+		death = yes
+	}
+}
+1000231866 = {  # Sister(or a daughter) of Etrek, married the Volga-Bulgar khan ca 920.
+	name="Lale" #Name unkown.
+	dynasty=1000100511 # Uzlar
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+        father=1000231862
+        mother=1000231863
+	900.1.1={
+		birth = yes
+	}
+	970.1.1={
+		death = yes
+	}
+}
+1000231867 = { # fictional.
+	name="Qataghan" 
+	dynasty=1000100511 # Uzlar
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231864
+        mother=1000231865
+	917.1.1={
+		birth = yes
+	}
+	940.1.1={
+		add_spouse=1000231868
+	}
+	960.1.1={
+		death = yes
+	}
+}
+1000231868 = {  #fictional.
+	name="Sumru" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	925.1.1={
+		birth = yes
+	}
+	980.1.1={
+		death = yes
+	}
+}
+1000231869 = { # fictional.
+	name="Etrek" 
+	dynasty=1000100511 # Uzlar
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231867
+        mother=1000231868
+	941.1.1={
+		birth = yes
+	}
+	968.1.1={
+		add_spouse=1000231870
+	}
+	1010.1.1={
+		death = yes
+	}
+}
+1000231870 = {  #fictional.
+	name="Hatice" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	949.1.1={
+		birth = yes
+	}
+	1000.1.1={
+		death = yes
+	}
+}
+1000231871 = { # fictional.
+	name="Qataghan" 
+	dynasty=1000100511 # Uzlar
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231869
+        mother=1000231870
+	970.1.1={
+		birth = yes
+	}
+	998.1.1={
+		add_spouse=1000231872
+	}
+	1035.1.1={
+		death = yes
+	}
+}
+1000231872 = {  #fictional.
+	name="Canan" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	982.1.1={
+		birth = yes
+	}
+	1030.1.1={
+		death = yes
+	}
+}
+1000231873 = { # fictional.
+	name="Etrek" 
+	dynasty=1000100511 # Uzlar
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231871
+        mother=1000231872
+	999.1.1={
+		birth = yes
+	}
+	1020.1.1={
+		add_spouse=1000231874
+	}
+	1060.1.1={
+		death = yes
+	}
+}
+1000231874 = {  #fictional.
+	name="Emine" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1000.1.1={
+		birth = yes
+	}
+	1060.1.1={
+		death = yes
+	}
+}
+#################
+#Black cap tribes
+#################
+# Çelbir clan, which clan the historical charcters was of in RL is unkown.
+1000231875 = { # Resided in northern Moldovia in 1085, assisted Solomon of Hungary in his attempt to retake his throne.
+	name="Köteshk" 
+	dynasty=1000100516 # Çelbir
+	religion="tengri_pagan"
+	culture="oghuz"
+	1022.1.1={
+		birth = yes
+	}
+	1046.1.1={
+		add_spouse=1000231876
+	}
+	1066.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1087.1.1={
+		death = yes
+	}
+}
+1000231876 = {  #fictional.
+	name="Çiltanesi" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1028.1.1={
+		birth = yes
+	}
+	1080.1.1={
+		death = yes
+	}
+}
+1000233213 = {  #fictional wife of Tzegul
+	name="Huriye" 
+	dynasty=1000100516 # Çelbir
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+        father=1000231875
+        mother=1000231876
+	1047.1.1={
+		birth = yes
+	}
+	1122.1.1={
+		death = yes
+	}
+}
+1000231877 = { # fictional.
+	name="Çurnay" 
+	dynasty=1000100516 # Çelbir
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231875
+        mother=1000231876
+	1052.1.1={
+		birth = yes
+	}
+	1080.1.1={
+		add_spouse=1000231878
+	}
+	1094.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1108.1.1={
+		death = yes
+	}
+}
+1000231878 = {  #fictional.
+	name="Karacik" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1063.1.1={
+		birth = yes
+	}
+	1120.1.1={
+		death = yes
+	}
+}
+1000231879 = { # fictional.
+	name="Köteshk" 
+	dynasty=1000100516 # Çelbir
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231877
+        mother=1000231878
+	1083.1.1={
+		birth = yes
+	}
+	1104.1.1={
+		add_spouse=1000231880
+	}
+	1156.1.1={
+		death = yes
+	}
+}
+1000231880 = {  #fictional.
+	name="Zuhal" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1088.1.1={
+		birth = yes
+	}
+	1165.1.1={
+		death = yes
+	}
+}
+1000231881 = { # fictional.
+	name="Çurnay" 
+	dynasty=1000100516 # Çelbir
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231879
+        mother=1000231880
+	1106.1.1={
+		birth = yes
+	}
+	1133.1.1={
+		add_spouse=1000231882
+	}
+	1172.1.1={
+		death = yes
+	}
+}
+1000231882 = {  #fictional.
+	name="Sirma" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1109.1.1={
+		birth = yes
+	}
+	1173.1.1={
+		death = yes
+	}
+}
+1000231883 = { # fictional.
+	name="Köteshk" 
+	dynasty=1000100516 # Çelbir
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231881
+        mother=1000231882
+	1134.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		add_spouse=1000231884
+	}
+	1188.1.1={
+		death = yes
+	}
+}
+1000231884 = {  #fictional.
+	name="Yeldem" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1142.1.1={
+		birth = yes
+	}
+	1200.1.1={
+		death = yes
+	}
+}
+1000231885 = { # steppe cheif near the russians of uncertain affillity(but not Cuman) mentioned in 1190
+	name="Çurnay" 
+	dynasty=1000100516 # Çelbir
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231883
+        mother=1000231884
+	1162.1.1={
+		birth = yes
+	}
+	1189.1.1={
+		add_spouse=1000231886
+	}
+	1218.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 1146 # Iasi
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000231886 = {  #fictional.
+	name="Huriye" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1163.1.1={
+		birth = yes
+	}
+	1222.1.1={
+		death = yes
+	}
+}
+1000231887 = { # fictional.
+	name="Köteshk" 
+	dynasty=1000100516 # Çelbir
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231885
+        mother=1000231886
+	1197.1.1={
+		birth = yes
+	}
+	1221.1.1={
+		add_spouse=1000231888
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000231888 = {  #fictional.
+	name="Gulfem" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1198.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+########
+#Mogut clan. Historical clan, but its unsure which of the blackcap clans the two historical characters belonged to.
+1000231889 = { # fictional
+	name="Satmaz" 
+	dynasty=1000100514 # Mogut
+	religion="tengri_pagan"
+	culture="oghuz"
+	1030.1.1={
+		birth = yes
+	}
+	1051.1.1={
+		add_spouse=1000231890
+	}
+	1090.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1094.1.1={
+		death = yes
+	}
+}
+1000231890 = {  #fictional.
+	name="Vahide" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1033.1.1={
+		birth = yes
+	}
+	1087.1.1={
+		death = yes
+	}
+}
+1000231891 = { # fictional.
+	name="Tudar" 
+	dynasty=1000100514 # Mogut
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231889
+        mother=1000231890
+	1054.1.1={
+		birth = yes
+	}
+	1085.1.1={
+		add_spouse=1000231892
+	}
+	1107.1.1={
+		death = yes
+	}
+}
+1000231892 = {  #fictional.
+	name="Nilufer" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1061.1.1={
+		birth = yes
+	}
+	1109.1.1={
+		death = yes
+	}
+}
+1000231893 = { # father of Tudar
+	name="Satmaz" 
+	dynasty=1000100514 # Mogut
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231891
+        mother=1000231892
+	1088.1.1={
+		birth = yes
+	}
+	1108.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1110.1.1={
+		add_spouse=1000231894
+	}
+	1132.1.1={
+		death = yes
+	}
+}
+1000231894 = {  #fictional.
+	name="Azize" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1089.1.1={
+		birth = yes
+	}
+	1153.1.1={
+		death = yes
+	}
+}
+1000231895 = { # was a major black cap cheiftan in 1156.
+	name="Tudar" 
+	dynasty=1000100514 # Mogut
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231893
+        mother=1000231894
+	1111.1.1={
+		birth = yes
+	}
+	1134.1.1={
+		add_spouse=1000231896
+	}
+	1146.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1170.1.1={
+		death = yes
+	}
+}
+1000231896 = {  #fictional.
+	name="Sehnaz" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1109.1.1={
+		birth = yes
+	}
+	1173.1.1={
+		death = yes
+	}
+}
+1000231897 = { # fictional.
+	name="Tudar" 
+	dynasty=1000100514 # Mogut
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231895
+        mother=1000231896
+	1137.1.1={
+		birth = yes
+	}
+	1162.1.1={
+		add_spouse=1000231898
+	}
+	1196.1.1={
+		death = yes
+	}
+}
+1000231898 = {  #fictional.
+	name="Serife" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1140.1.1={
+		birth = yes
+	}
+	1205.1.1={
+		death = yes
+	}
+}
+1000231899 = { # fictional.
+	name="Satmaz" 
+	dynasty=1000100514 # Mogut
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231897
+        mother=1000231898
+	1163.1.1={
+		birth = yes
+	}
+	1184.1.1={
+		add_spouse=1000231900
+	}
+	1226.1.1={
+		death = yes
+	}
+}
+1000231900 = {  #fictional.
+	name="Gulsum" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1162.1.1={
+		birth = yes
+	}
+	1230.1.1={
+		death = yes
+	}
+}
+1000231901 = { # fictional.
+	name="Tudar" 
+	dynasty=1000100514 # Mogut
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231899
+        mother=1000231900
+	1185.1.1={
+		birth = yes
+	}
+	1221.1.1={
+		add_spouse=1000231902
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000231902 = {  #fictional.
+	name="Dunya" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1199.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+########
+#Tatran clan. Historical clan, but its unsure which of the blackcap clans the two historical characters belonged to.
+1000231903 = { # fictional
+	name="Mnuz" 
+	dynasty=1000100515 # Tatran
+	religion="tengri_pagan"
+	culture="oghuz"
+	1030.1.1={
+		birth = yes
+	}
+	1051.1.1={
+		add_spouse=1000231904
+	}
+	1087.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1090.1.1={
+		death = yes
+	}
+}
+1000231904 = {  #fictional.
+	name="Sumru" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1033.1.1={
+		birth = yes
+	}
+	1087.1.1={
+		death = yes
+	}
+}
+1000231905 = { # fictional.
+	name="Karakoz" 
+	dynasty=1000100515 # Tatran
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231903
+        mother=1000231904
+	1054.1.1={
+		birth = yes
+	}
+	1085.1.1={
+		add_spouse=1000231906
+	}
+	1107.1.1={
+		death = yes
+	}
+}
+1000231906 = {  #fictional.
+	name="Firuze" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1061.1.1={
+		birth = yes
+	}
+	1109.1.1={
+		death = yes
+	}
+}
+1000231907 = { # father of Karakoz
+	name="Mnuz" 
+	dynasty=1000100515 # Tatran
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231905
+        mother=1000231906
+	1088.1.1={
+		birth = yes
+	}
+	1110.1.1={
+		add_spouse=1000231908
+	}
+	1132.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1146.1.1={
+		death = yes
+	}
+}
+1000231908 = {  #fictional.
+	name="Gulbahar" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1089.1.1={
+		birth = yes
+	}
+	1153.1.1={
+		death = yes
+	}
+}
+1000231909 = { # was a major black cap cheiftan in 1156.
+	name="Karakoz" 
+	dynasty=1000100515 # Tatran
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231907
+        mother=1000231908
+	1117.1.1={
+		birth = yes
+	}
+	1134.1.1={
+		add_spouse=1000231910
+	}
+	1177.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 541 # Podolia
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1185.1.1={
+		death = yes
+	}
+}
+1000231910 = {  #fictional.
+	name="Asli" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1118.1.1={
+		birth = yes
+	}
+	1173.1.1={
+		death = yes
+	}
+}
+1000231911 = { # fictional.
+	name="Mnuz" 
+	dynasty=1000100515 # Tatran
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231909
+        mother=1000231910
+	1137.1.1={
+		birth = yes
+	}
+	1162.1.1={
+		add_spouse=1000231912
+	}
+	1196.1.1={
+		death = yes
+	}
+}
+1000231912 = {  #fictional.
+	name="Leyla" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1140.1.1={
+		birth = yes
+	}
+	1205.1.1={
+		death = yes
+	}
+}
+1000231913 = { # fictional.
+	name="Karakoz" 
+	dynasty=1000100515 # Tatran
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231911
+        mother=1000231912
+	1163.1.1={
+		birth = yes
+	}
+	1184.1.1={
+		add_spouse=1000231914
+	}
+	1226.1.1={
+		death = yes
+	}
+}
+1000231914 = {  #fictional.
+	name="Ayla" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1162.1.1={
+		birth = yes
+	}
+	1230.1.1={
+		death = yes
+	}
+}
+1000231915 = { # fictional.
+	name="Mnuz" 
+	dynasty=1000100515 # Tatran
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231913
+        mother=1000231914
+	1185.1.1={
+		birth = yes
+	}
+	1221.1.1={
+		add_spouse=1000231916
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000231916 = {  #fictional.
+	name="Neslihan" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1199.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+########
+#Ül’ber clan. Historical clan, but its unsure which of the blackcap clans the two historical characters belonged to.
+1000231917 = { # fictional
+	name="Kuntuvdey" 
+	dynasty=1000100519 # Ül’ber
+	religion="tengri_pagan"
+	culture="oghuz"
+	1043.1.1={
+		birth = yes
+	}
+	1069.1.1={
+		add_spouse=1000231918
+	}
+	1100.1.1={
+		death = yes
+	}
+}
+1000231918 = {  #fictional.
+	name="Çiltanesi" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1044.1.1={
+		birth = yes
+	}
+	1099.1.1={
+		death = yes
+	}
+}
+1000231919 = { # fictional.
+	name="Bastey" 
+	dynasty=1000100519 # Ül’ber
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231917
+        mother=1000231918
+	1070.1.1={
+		birth = yes
+	}
+	1087.1.1={
+		add_spouse=1000231920
+	}
+	1117.1.1={
+		death = yes
+	}
+}
+1000231920 = {  #fictional.
+	name="Gunduz" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1071.1.1={
+		birth = yes
+	}
+	1118.1.1={
+		death = yes
+	}
+}
+1000231921 = {
+	name="Kuntuvdey" 
+	dynasty=1000100519 # Ül’ber
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231919
+        mother=1000231920
+	1093.1.1={
+		birth = yes
+	}
+	1119.1.1={
+		add_spouse=1000231922
+	}
+	1154.1.1={
+		death = yes
+	}
+}
+1000231922 = {  #fictional.
+	name="Tura" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1097.1.1={
+		birth = yes
+	}
+	1153.1.1={
+		death = yes
+	}
+}
+1000231923 = { # was a major black cap cheiftan in 1169.
+	name="Bastey" 
+	dynasty=1000100519 # Ül’ber
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231921
+        mother=1000231922
+	1120.1.1={
+		birth = yes
+	}
+	1150.1.1={
+		add_spouse=1000231924
+	}
+	1170.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 596 # Vorskla
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 596 # Vorskla
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 596 # Vorskla
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1177.1.1={
+		death = yes
+	}
+}
+1000231924 = {  #fictional.
+	name="Vahide" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1129.1.1={
+		birth = yes
+	}
+	1200.1.1={
+		death = yes
+	}
+}
+1000231925 = { # steppe cheif near the russians of uncertain affillity(but not Cuman) mentioned as alive in 1185 and 1190.
+	name="Kuntuvdey" 
+	dynasty=1000100519 # Ül’ber
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231923 
+        mother=1000231924
+	1152.1.1={
+		birth = yes
+	}
+	1175.1.1={
+		add_spouse=1000231926
+	}
+	1204.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 596 # Vorskla
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 596 # Vorskla
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 596 # Vorskla
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1218.1.1={
+		death = yes
+	}
+}
+1000231926 = {  #fictional.
+	name="Serap" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1155.1.1={
+		birth = yes
+	}
+	1219.1.1={
+		death = yes
+	}
+}
+1000231927 = { 
+	name="Bastey" #cheiftan in 1223, its uncertain whether this particular Bastey/Basty was a Cuman or Blackcap chief.
+	dynasty=1000100519 # Ül’ber
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231925
+        mother=1000231926
+	1176.1.1={
+		birth = yes
+	}
+	1198.1.1={
+		add_spouse=1000231928
+	}
+	1223.1.1={
+		religion="orthodox" # Converted to christianity before the battle of Kalka
+	}
+	1232.1.1={
+		death = yes
+	}
+}
+1000231928 = {  #fictional.
+	name="Sehnaz" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1175.1.1={
+		birth = yes
+	}
+	1223.1.1={
+		religion="orthodox"
+	}
+	1230.1.1={
+		death = yes
+	}
+}
+1000231929 = { # fictional.
+	name="Kuntuvdey" 
+	dynasty=1000100519 # Ül’ber
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231927
+        mother=1000231928
+	1204.1.1={
+		birth = yes
+	}
+	1223.1.1={
+		religion="orthodox"
+	}
+	1230.1.1={
+		add_spouse=1000231930
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000231930 = {  #fictional.
+	name="Mansure" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1210.1.1={
+		birth = yes
+	}
+	1223.1.1={
+		religion="orthodox"
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+########
+#Topçak clan. Historical clan, but its unsure which of the blackcap clans the two historical characters belonged to.
+1000231931 = { # fictional
+	name="Kuldeyur" 
+	dynasty=1000100517 # Topçak
+	religion="tengri_pagan"
+	culture="oghuz"
+	1045.1.1={
+		birth = yes
+	}
+	1072.1.1={
+		add_spouse=1000231932
+	}
+	1101.1.1={
+		death = yes
+	}
+}
+1000231932 = {  #fictional.
+	name="Karacik" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1047.1.1={
+		birth = yes
+	}
+	1102.1.1={
+		death = yes
+	}
+}
+1000231933 = { # fictional.
+	name="Kovuy" 
+	dynasty=1000100517 # Topçak
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231931
+        mother=1000231932
+	1073.1.1={
+		birth = yes
+	}
+	1087.1.1={
+		add_spouse=1000231934
+	}
+	1117.1.1={
+		death = yes
+	}
+}
+1000231934 = {  #fictional.
+	name="Gulsum" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1071.1.1={
+		birth = yes
+	}
+	1118.1.1={
+		death = yes
+	}
+}
+1000231935 = {
+	name="Kuldeyur" 
+	dynasty=1000100517 # Topçak
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231933
+        mother=1000231934
+	1088.1.1={
+		birth = yes
+	}
+	1116.1.1={
+		add_spouse=1000231936
+	}
+	1147.1.1={
+		death = yes
+	}
+}
+1000231936 = {  #fictional.
+	name="Nergis" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1093.1.1={
+		birth = yes
+	}
+	1146.1.1={
+		death = yes
+	}
+}
+1000231937 = { # blackcap chief of uncertain origine.
+	name="Kovuy" 
+	dynasty=1000100517 # Topçak
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231935
+        mother=1000231936
+	1117.1.1={
+		birth = yes
+	}
+	1145.1.1={
+		add_spouse=1000231938
+	}
+	1182.1.1={
+		death = yes
+	}
+}
+1000231938 = {  #fictional.
+	name="Bahar" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1118.1.1={
+		birth = yes
+	}
+	1183.1.1={
+		death = yes
+	}
+}
+1000231939 = { # steppe cheif near the russians of uncertain affillity(but not Cuman) mentioned 1190.
+	name="Kuldeyur" 
+	dynasty=1000100517 # Topçak
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231937 
+        mother=1000231938
+	1147.1.1={
+		birth = yes
+	}
+	1172.1.1={
+		add_spouse=1000231940
+	}
+	1185.1.1 = {
+		# Blackcap cavalary
+		effect = {
+			spawn_unit = {
+				province = 563 # Orel
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 563 # Orel
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+			spawn_unit = {
+				province = 563 # Orel
+				troops =
+				{
+					horse_archers = { 300 300 }
+					light_cavalry = { 300 300 }
+				}
+                                earmark = start_troops
+			}
+			}
+		}
+	}
+	1204.1.1={
+		death = yes
+	}
+}
+1000231940 = {  #fictional.
+	name="Serap" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1151.1.1={
+		birth = yes
+	}
+	1209.1.1={
+		death = yes
+	}
+}
+1000231941 = { # fictional.
+	name="Kovuy" 
+	dynasty=1000100517 # Topçak
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231939
+        mother=1000231940
+	1174.1.1={
+		birth = yes
+	}
+	1196.1.1={
+		add_spouse=1000231942
+	}
+	1228.1.1={
+		death = yes
+	}
+}
+1000231942 = {  #fictional.
+	name="Nur" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1175.1.1={
+		birth = yes
+	}
+	1229.1.1={
+		death = yes
+	}
+}
+1000231943 = { # fictional.
+	name="Kuldeyur" 
+	dynasty=1000100517 # Topçak
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231941
+        mother=1000231942
+	1197.1.1={
+		birth = yes
+	}
+	1227.1.1={
+		add_spouse=1000231944
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000231944 = {  #fictional.
+	name="Terkhen" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1208.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+#45-49 spare
+########
+# Teküle clan, resettled in Sáros in Hungary(Slovakia today) in the 11th century. Character are all fictional, the male names except the founder's are legit(but some possibly in Hungarianised form) for the family but they was'nt attested in use before 13th-14th century.
+1000231945 = { 
+	name="Teçül" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+	870.1.1={
+		birth = yes
+	}
+	920.1.1={
+		add_spouse=1000231946
+	}
+	959.1.1={
+		death = yes
+	}
+}
+1000231946 = { 
+	name="Tekçe" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	900.1.1={
+		birth = yes
+	}
+	960.1.1={
+		death = yes
+	}
+}
+1000231947 = { 
+	name="Ite" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231945
+        mother=1000231946
+	921.1.1={
+		birth = yes
+	}
+	953.1.1={
+		add_spouse=1000231948
+	}
+	989.1.1={
+		death = yes
+	}
+}
+1000231948 = { 
+	name="Neslihan" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	929.1.1={
+		birth = yes
+	}
+	1004.1.1={
+		death = yes
+	}
+}
+
+1000231949 = { 
+	name="Itemer" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231947
+        mother=1000231948
+	957.1.1={
+		birth = yes
+	}
+	980.1.1={
+		add_spouse=1000231950
+	}
+	1024.1.1={
+		death = yes
+	}
+}
+1000231950 = { 
+	name="Gulay" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	962.1.1={
+		birth = yes
+	}
+	1028.1.1={
+		death = yes
+	}
+}
+1000231951 = { 
+	name="Budun" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231949
+        mother=1000231950
+	985.1.1={
+		birth = yes
+	}
+	1012.1.1={
+		add_spouse=1000231952
+	}
+	1060.1.1={
+		death = yes
+	}
+}
+1000231952 = { 
+	name="Emine" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	987.1.1={
+		birth = yes
+	}
+	1065.1.1={
+		death = yes
+	}
+}
+1000231953 = { 
+	name="Ite" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231951
+        mother=1000231952
+	1015.1.1={
+		birth = yes
+	}
+	1040.1.1={
+		add_spouse=1000231954
+	}
+	1071.1.1={
+		death = yes
+	}
+}
+1000231954 = { 
+	name="Sumru" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1019.1.1={
+		birth = yes
+	}
+	1077.1.1={
+		death = yes
+	}
+}
+1000231955 = {
+	name="Akush" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231953
+        mother=1000231954
+	1045.1.1={
+		birth = yes
+	}
+	1072.1.1={
+		add_spouse=1000231956
+	}
+	1101.1.1={
+		death = yes
+	}
+}
+1000231956 = { 
+	name="Vahide" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1047.1.1={
+		birth = yes
+	}
+	1102.1.1={
+		death = yes
+	}
+}
+1000231957 = { 
+	name="Panit" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231955
+        mother=1000231956
+	1073.1.1={
+		birth = yes
+	}
+	1087.1.1={
+		add_spouse=1000231958
+	}
+	1117.1.1={
+		death = yes
+	}
+}
+1000231958 = {  
+	name="Özlem" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1071.1.1={
+		birth = yes
+	}
+	1118.1.1={
+		death = yes
+	}
+}
+1000231959 = { 
+	name="Ite" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231957
+        mother=1000231958
+	1088.1.1={
+		birth = yes
+	}
+	1116.1.1={
+		add_spouse=1000231960
+	}
+	1147.1.1={
+		death = yes
+	}
+}
+1000231960 = {  
+	name="Gundes" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1093.1.1={
+		birth = yes
+	}
+	1146.1.1={
+		death = yes
+	}
+}
+1000231961 = { 
+	name="Akush" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231959
+        mother=1000231960
+	1117.1.1={
+		birth = yes
+	}
+	1145.1.1={
+		add_spouse=1000231962
+	}
+	1182.1.1={
+		death = yes
+	}
+}
+1000231962 = {  
+	name="Canan" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1118.1.1={
+		birth = yes
+	}
+	1183.1.1={
+		death = yes
+	}
+}
+1000231963 = { 
+	name="Itemer" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231961 
+        mother=1000231962
+	1147.1.1={
+		birth = yes
+	}
+	1172.1.1={
+		add_spouse=1000231964
+	}
+	1204.1.1={
+		death = yes
+	}
+}
+1000231964 = {  
+	name="Dunya" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1151.1.1={
+		birth = yes
+	}
+	1209.1.1={
+		death = yes
+	}
+}
+1000231965 = { 
+	name="Panit" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231963
+        mother=1000231964
+	1174.1.1={
+		birth = yes
+	}
+	1196.1.1={
+		add_spouse=1000231966
+	}
+	1228.1.1={
+		death = yes
+	}
+}
+1000231966 = {  
+	name="Bozçin" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1175.1.1={
+		birth = yes
+	}
+	1229.1.1={
+		death = yes
+	}
+}
+1000231967 = { 
+	name="Budun" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231965
+        mother=1000231966
+	1197.1.1={
+		birth = yes
+	}
+	1227.1.1={
+		add_spouse=1000231968
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000231968 = {  
+	name="Çilen" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1208.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000231969 = { 
+	name="Panit" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231967
+        mother=1000231968
+	1230.1.1={
+		birth = yes
+	}
+	1250.1.1={
+		add_spouse=1000231970
+	}
+	1288.1.1={
+		death = yes
+	}
+}
+1000231970 = {  
+	name="Irge" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1236.1.1={
+		birth = yes
+	}
+	1289.1.1={
+		death = yes
+	}
+}
+1000231971 = { 
+	name="Budun" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231969
+        mother=1000231970
+	1258.1.1={
+		birth = yes
+	}
+	1280.1.1={
+		add_spouse=1000231972
+	}
+	1320.1.1={
+		death = yes
+	}
+}
+1000231972 = {  
+	name="Terkhen" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1264.1.1={
+		birth = yes
+	}
+	1319.1.1={
+		death = yes
+	}
+}
+1000231973 = { 
+	name="Itemer" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231971
+        mother=1000231972
+	1281.1.1={
+		birth = yes
+	}
+	1310.1.1={
+		add_spouse=1000231974
+	}
+	1340.1.1={
+		death = yes
+	}
+}
+1000231974 = {  
+	name="Serife" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1284.1.1={
+		birth = yes
+	}
+	1341.1.1={
+		death = yes
+	}
+}
+1000231975 = { 
+	name="Ite" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231973
+        mother=1000231974
+	1313.1.1={
+		birth = yes
+	}
+	1337.1.1={
+		add_spouse=1000231976
+	}
+	1373.1.1={
+		death = yes
+	}
+}
+1000231976 = {  
+	name="Zehra" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1315.1.1={
+		birth = yes
+	}
+	1371.1.1={
+		death = yes
+	}
+}
+1000231977 = { 
+	name="Akush" 
+	dynasty=1000100513 # Teküle
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231975
+        mother=1000231976
+	1338.1.1={
+		birth = yes
+	}
+	1369.1.1={
+		add_spouse=1000231978
+	}
+	1410.1.1={
+		death = yes
+	}
+}
+1000231978 = {  
+	name="Dilber" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1344.1.1={
+		birth = yes
+	}
+	1420.1.1={
+		death = yes
+	}
+}
+#-85 spares
+#############
+# Salghur clan(continuation from swmh turkish file). All characters fictional.
+#1000230125 = {
+#	name="Salur"
+#	dynasty=1000101724
+#	religion="tengri_pagan"
+#	culture="oghuz"
+#	father = 1000230119
+# 906.1.1={
+#		birth="906.1.1"
+#	}
+#	926.1.1={
+#		add_spouse=1000231986
+#	}
+#	960.1.1={
+#		death="960.1.1"
+#	}
+#} 
+1000231986 = {  
+	name="Dilber" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	904.1.1={
+		birth = yes
+	}
+	926.1.1={
+		add_spouse=1000230125
+	}
+	970.1.1={
+		death = yes
+	}
+}
+1000231987 = { 
+	name="Hizir" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000230125
+        mother=1000231986
+	930.1.1={
+		birth = yes
+	}
+	950.1.1={
+		add_spouse=1000231988
+	}
+	999.1.1={
+		death = yes
+	}
+}
+1000231988 = {  
+	name="Canan" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	932.1.1={
+		birth = yes
+	}
+	1000.1.1={
+		death = yes
+	}
+}
+1000231989 = { 
+	name="Bulend" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231987
+        mother=1000231988
+	955.1.1={
+		birth = yes
+	}
+	978.1.1={
+		add_spouse=1000231990
+	}
+	1026.1.1={
+		death = yes
+	}
+}
+1000231990 = {  
+	name="Dunya" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	956.1.1={
+		birth = yes
+	}
+	1031.1.1={
+		death = yes
+	}
+}
+1000231991 = { 
+	name="Kurboga" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231989
+        mother=1000231990
+	985.1.1={
+		birth = yes
+	}
+	1013.1.1={
+		add_spouse=1000231992
+	}
+	1040.1.1={
+		death = yes
+	}
+}
+1000231992 = {  
+	name="Hatice" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	956.1.1={
+		birth = yes
+	}
+	1039.1.1={
+		death = yes
+	}
+}
+1000231993 = { 
+	name="Inal" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231991
+        mother=1000231992
+	1014.1.1={
+		birth = yes
+	}
+	1035.1.1={
+		add_spouse=1000231994
+	}
+	1060.1.1={
+		death = yes
+	}
+}
+1000231994 = {  
+	name="Zuhal" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1014.1.1={
+		birth = yes
+	}
+	1060.1.1={
+		death = yes
+	}
+}
+1000231995 = { 
+	name="Bulend" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231993
+        mother=1000231994
+	1045.1.1={
+		birth = yes
+	}
+	1075.1.1={
+		add_spouse=1000231996
+	}
+	1100.1.1={
+		death = yes
+	}
+}
+1000231996 = {  
+	name="Nagihan" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1050.1.1={
+		birth = yes
+	}
+	1115.1.1={
+		death = yes
+	}
+}
+1000231997 = { 
+	name="Hizir" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231995
+        mother=1000231996
+	1085.1.1={
+		birth = yes
+	}
+	1125.1.1={
+		add_spouse=1000231998
+	}
+	1160.1.1={
+		death = yes
+	}
+}
+1000231998 = {  
+	name="Lale" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1100.1.1={
+		birth = yes
+	}
+	1190.1.1={
+		death = yes
+	}
+}
+1000231999 = { 
+	name="Kurboga" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231997
+        mother=1000231998
+	1130.1.1={
+		birth = yes
+	}
+	1155.1.1={
+		add_spouse=1000232008
+	}
+	1210.1.1={
+		death = yes
+	}
+}
+1000232008 = {  
+	name="Zuhal" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1135.1.1={
+		birth = yes
+	}
+	1211.1.1={
+		death = yes
+	}
+}
+1000232009 = { 
+	name="Bulend" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000231999
+        mother=1000232008
+	1156.1.1={
+		birth = yes
+	}
+	1176.1.1={
+		add_spouse=1000232010
+	}
+	1225.1.1={
+		death = yes
+	}
+}
+1000232010 = {  
+	name="Akgul" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1160.1.1={
+		birth = yes
+	}
+	1230.1.1={
+		death = yes
+	}
+}
+1000232011 = { 
+	name="Hizir" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000232009
+        mother=1000232010
+	1180.1.1={
+		birth = yes
+	}
+	1205.1.1={
+		add_spouse=1000232012
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000232012 = {  
+	name="Çilen" 
+	religion="tengri_pagan"
+	culture="oghuz"
+        female = yes
+	1185.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000232013 = { 
+	name="Inal" 
+	dynasty=1000101724 # Salghur
+	religion="tengri_pagan"
+	culture="oghuz"
+        father=1000232011
+        mother=1000232012
+	1210.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+
+
+
+

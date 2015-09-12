@@ -4,28 +4,32 @@
 title = c_brno
 
 # Settlements
-max_settlements = 4
-b_velehrad = tribal
-#b_kromeriz = city
-b_prerov = temple
+max_settlements = 5
 
-#b_boskovice = castle
-#b_wisowitz = castle
-#b_uherskebrod = castle
-#b_uherskehradiste = castle
-#b_kromeriz = castle
-#b_zlin = castle
+b_mikulcice = castle
+b_pohansko = city
+b_rejhrad = temple
+b_brno = castle
+#b_zdar = temple
+#b_mikulov = city
+#b_zdar = temple
+#b_pernstejn = castle
+#b_svitavy = castle
+#b_ivancice = city
+#b_boskovice = city
+#b_tisnov = temple
 
 # Misc
-culture = bohemian
-religion = slavic_pagan
+culture = moravian
+religion = catholic
 
 # History
-
-842.1.1 = {
-	religion = catholic
-}
-900.1.1 = {
-	b_velehrad = castle
-	b_kromeriz = city
-}
+907.1.1 = {
+      remove_settlement = b_mikulcice
+      remove_settlement = b_pohansko
+      remove_settlement = b_rejhrad
+      }
+907.1.1 = { capital = b_brno }
+920.1.1 = { b_zdar = temple }
+930.1.1 = { b_mikulov = city }
+	

@@ -1,0 +1,72 @@
+850.1.1={
+	liege="d_oghuz"
+}
+850.1.1={
+	holder=1000230100
+}
+862.1.1={
+	holder=1000230101
+}
+900.1.1={
+	holder=1000230103
+}
+912.1.1={
+	holder=1000230106
+}
+929.1.1={
+	holder=1000230121
+}
+951.1.1={
+	liege="d_oghuz"
+	holder=1000230121
+}
+957.1.1={
+	holder=1000230125
+}
+960.1.1={
+	holder=1000230132
+}
+983.1.1={
+	holder=1000230146
+}
+996.1.1={
+	holder=1000230138
+}
+1015.1.1={
+	holder=1000230137
+}
+# Cumans push further westwards.
+#Ençogli
+1045.1.1={
+holder=1000233112
+liege=d_enchogli
+}
+#
+1060.1.1={
+liege="d_qipchaq"
+holder=1000229726
+}
+1092.1.1={
+	holder=1000229727
+}
+1122.1.1={
+	holder=1000229728
+}
+1133.1.1={
+	liege="k_khwarezmia"
+	holder=144100
+}
+1141.6.6={
+	liege="e_khitan"
+	holder=1000230286
+}
+1152.1.1={
+	liege="k_khwarezmia"
+	holder=144101
+}
+1177.1.1={
+	holder=1000229730
+}
+1212.1.1={
+	holder=1000229731
+}

@@ -1,80 +1,115 @@
 330.1.1={
-liege="d_dyrrachion"
+	liege = "e_byzantium"
 }
-753.1.1={
-holder=145818
+865.1.1={
+	holder=145198
 }
-# since 843.1.1 d_dyrrachion is under k_bulgaria
-852.1.1={
-	holder=70382 #Boris
+1064.1.1=
+{
+	liege="d_strymon"
 }
-860.1.1 = {
-holder = 168067
+1066.1.1=
+{
+	holder=1000232188
 }
-998.1.1 = {
-	holder = 730
-	liege = "k_bulgaria"
+1076.1.1=
+{
+	holder=1000232187
 }
-1060.1.1 = {
-holder = 20484
+1085.1.1=
+{
+	holder=1000232183
 }
-1066.1.1 = {
-liege = "d_dyrrachion"
+1094.1.1=
+{
+	holder = 41303
 }
-1078.1.1 = {
-holder = 20480
+1107.1.1=
+{
+	holder=1762
 }
-1116.1.1 = {
-holder = 125752
+1122.1.1=
+{
+	liege = "d_adrianopolis"
+	holder=34587
 }
-1130.1.1 = {
-holder = 125753
+1140.1.1 = {
+	holder=34445
 }
-1170.1.1 = {
-holder = 215001
+1143.1.1 = {
+	holder=34587
 }
-1185.9.12 = {
-liege = "d_adrianopolis"
-holder = 215061
+1164.1.1 = {
+	holder=215037
 }
-1186.1.1 = {
-holder = 215001
+1184.1.1 = {
+	holder=215060
 }
-1193.1.1 = {
-holder = 34584
+1187.1.1 = {
+	holder=1000232252
 }
-#Bulgarian conquest
+1191.1.1 = {
+	holder=232525
+}
+1200.1.1 = {
+	holder=34281
+}
 1203.1.1 = {
-liege = "d_turnovo"
-holder = 217505 #Boril
+	holder=1000232252
 }
-1207.10.1 = {
-holder = 217507 #Strez
+#4th Crusade
+
+1204.5.16=
+{
+	liege="e_latin_empire"
 }
-1214.1.1 = {
-holder = 217506 #Aleksii
+1204.5.16=
+{
+	holder=31500
 }
-1230.1.2 = {
-holder = 31160 #Ivan II
+1206.7.1=
+{
+	holder=205525 #Henry I van Vlaanderen
 }
-1241.6.24 = {
-holder = 31166 #Mihail
+1216.6.11=
+{
+	holder=205725 #Pierre I de Courtenay
 }
-1256.1.1 = {
-holder = 31198 #Ivan
+1219.1.1=
+{
+	holder=205526 #Yolande van Vlaanderen (regent)
 }
-1275.1.2 = {
-holder = 467540 #Smiletz
+1221.3.25=
+{
+	holder=91062 #Robert de Courtenay
 }
-1292.1.1 = {
-holder = 31199 #Radoslav
+1228.1.30=
+{
+	holder=461742 #Jean de Brienne (regent)
 }
-1298.1.2 = {
-holder = 468555 #Aldimir
+
+1230.1.1=
+{
+	liege="k_bulgaria"
 }
-1305.1.5 = {
-holder = 468550 #Ivan
+1230.1.1=
+{
+	holder=31160 #Ivan II
 }
-1322.8.1 = {
-holder = 467500 #Ivan Aleksandr
+1241.6.24=
+{
+	holder=31165 #Koloman I
+}
+1246.8.1=
+{
+	liege="d_adrianopolis"
+	holder=465527
+}
+1272.1.1=
+{
+	holder=465521
+}
+1332.2.13=
+{
+	holder=465530
 }

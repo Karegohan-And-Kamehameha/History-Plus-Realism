@@ -1,5 +1,8 @@
+20.1.1 = {
+	historical_nomad = yes
+}
 805.1.1={
-	liege="k_bulgaria"
+	set_tribute_suzerain = { who = k_bulgaria percentage = 0.40 }
 	holder=146172
 }
 808.1.1={
@@ -21,20 +24,27 @@
 	holder=168074
 }
 895.1.1={
-	de_jure_liege = k_magyar
+	clear_tribute_suzerain = k_bulgaria
+}
+895.1.1={
 	liege="k_magyar"
 	holder=0
 }
 1000.12.25={
-	de_jure_liege = k_hungary
 	liege="k_hungary"
 }
-1299.1.1 = {
-	holder = 93794
+1000.12.25={
+	historical_nomad = no
 }
-1301.1.1 = {
-	holder = 93796
+1299.1.1=
+{
+holder=93794
 }
-1325.1.1 = {
-	holder = 469500
+1301.1.1=
+{
+holder=93796
+}
+1325.1.1=
+{
+holder=469500
 }

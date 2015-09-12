@@ -4,24 +4,20 @@
 title = c_oriel
 
 # Settlements
-max_settlements = 3
-b_ardee = tribal
-#b_dundalk = city
+max_settlements = 4
+
+b_dundalk = castle
+b_annagassan = castle
 b_armagh = temple
-
-
-#b_clogher = temple
-#b_drogheda = castle
-#b_monaghan = castle
-#b_olouth = castle
+#b_newry = castle
 #b_ardee = castle
+
 
 # Misc
 culture = irish
 religion = catholic
 
 # History
-1000.1.1 = {
-	b_ardee = castle
-	b_dundalk = city
-}
+880.1.1 = { remove_settlement = b_annagassan } # longphort abandoned
+
+1047.10.25 = { culture = norsegaelic }

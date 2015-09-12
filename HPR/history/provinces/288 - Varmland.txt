@@ -22,11 +22,11 @@ religion = norse_pagan
 terrain = forest
 
 # History
-1000.1.1 = {
+1022.1.7 = {
 	b_saxholm = castle
 	b_arvika = city
 }
-1066.1.1 = {
-	culture = swedish
+1047.10.25 = { culture = swedish } 
+1060.8.2 = {
 	religion = catholic
 }

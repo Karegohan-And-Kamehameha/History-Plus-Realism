@@ -1,7 +1,1 @@
-#Saffarid
-861.1.1={
-	holder = 163101
-}
-977.1.1 = {
-	holder = 0
-}
+#BLOCKED: vanilla history file for vanilla title without SWMH definition

@@ -1,72 +1,59 @@
-756.1.1={
-	liege = "k_lombardy"
+860.1.1={
+	liege="k_italy"
 }
-756.1.1={
-	holder = 190330 #Liutprand
+860.1.1=
+{
+	holder=167951 
 }
-791.1.1={
-	holder=0
+904.4.21=
+{
+	holder=167953 
 }
-860.1.1 = {
-	liege = "k_italy"
+915.1.1=
+{
+	holder=167955
 }
-860.1.1 = {
-	holder = 167951 
+961.1.1={
+	liege=k_germany
+	holder=7727
 }
-904.4.21 = {
-	holder = 167953 
+991.1.1={
+	holder=7733
 }
-915.1.1 = {
-	holder = 167955
+1014.1.1={
+	holder=7734
 }
-962.2.2 = {
-	liege = "e_hre"
-	holder = 7727
+1024.7.13={
+	liege=e_hre
 }
-991.1.1 = {
-	holder = 7733
+1027.5.7={
+	holder=7735
 }
-995.1.1 = {
-	liege = "d_susa"
+1064.8.31={
+	holder=70977
 }
-1014.1.1 = {
-	holder = 7734
+1079.1.1={
+	holder = 7737 #Boniface del Vasto (Aleramici)
 }
-1024.7.13 = {
-	liege = e_hre
+1135.1.1={
+	holder=213560
 }
-1027.5.7 = {
-	holder = 7735
+1175.6.4={
+	holder=213550
 }
-1064.8.31 = {
-	holder = 70977
-}
-1084.1.1 = {
-	holder = 70978
-}
-1135.1.1 = {
-	holder = 213560
-}
-1175.6.4 = {
-	holder = 213550
-}
-1215.5.27 = {
-	holder = 71181
-}
-1241.1.1 = {
-	liege = d_savoie
+1215.5.27={
+	holder=71181
 }
 1244.10.29={
 	holder=71185
-	liege = e_hre
 }
-1296.12.3 = {
-	liege = "0"
-	holder = 71207
+1296.12.3={
+	liege="0"
+	holder=71207
 }
-1334.12.29 = {
-	holder = 420302
+1334.12.29={
+	holder=420302
 }
-1336.6.29 = {
-	holder = 420301
+1336.6.29={
+	holder=420301
 }

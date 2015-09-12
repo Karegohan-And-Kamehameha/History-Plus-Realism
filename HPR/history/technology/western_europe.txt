@@ -6,53 +6,89 @@ technology = {
 		d_gelre
 		d_brabant
 		d_flanders
-		d_swiss
-		d_westphalia
-		d_eastphalia
-		d_thuringia
-		d_koln
-		d_franconia
-		d_baden
-		d_bavaria
+		d_luxembourg
+		d_upper_lorraine
+		d_alsace
 		d_osterreich
 		d_tyrol
 		d_carinthia
-		d_swabia
-		d_luxembourg
-		d_upper_lorraine
-		d_lower_lorraine
-		d_alsace
-		d_bar
-		d_liege
-		d_alencon
-		d_anjou
-		d_aquitaine
-		d_artois
-		d_auvergne
+		d_brunswick
+		d_thuringia
+		d_koln
 		d_berry
-		d_bourbon
-		d_brittany
-		d_burgundy
-		d_champagne
-		d_dauphine
-		d_gascogne
-		d_ile_de_france
+		d_anjou
 		d_normandy
 		d_orleans
-		d_poitou
-		d_provence
-		d_pyrenees
-		d_toulouse
-		d_upper_burgundy
+		d_champagne
 		d_valois
-	}
-
+		d_burgundy
+		d_aquitaine
+		d_toulouse
+		d_gascogne
+		d_poitou
+		d_auvergne
+		d_bourbon
+		d_brittany
+		d_provence
+		d_savoie
+		d_dauphine
+		d_upper_burgundy
+    d_utrecht       
+    d_frisia        
+    d_trier         
+    d_pfalz         
+    d_barleduc      
+    d_liege         
+    d_hainaut       
+    d_limburg       
+    d_oldenburg     
+    d_osnabruck     
+    d_bishopmunster 
+    d_bremen        
+    d_magdeburg     
+    d_saxewittenberg
+    d_altmark       
+    d_rheinfranken  
+    d_wurzburg      
+    d_mainz         
+    d_berg          
+    d_niederbayern  
+    d_bamberg       
+    d_nuremberg     
+    d_oberbayern    
+    d_salzburg      
+    d_styria        
+    d_istria        
+    d_aquileia      
+    d_chur          
+    d_zahringen     
+    d_teck          
+    d_burgau
+    d_arles        
+    d_lyon         
+    d_basel        
+    d_artois       
+    d_alencon      
+    d_blois        
+    d_nevers               
+    d_archreims    
+    d_rethel       
+    d_gevaudan     
+    d_foix         
+    d_septimania   
+    d_limousin   
+    d_angria  
+    d_hessen
+    d_augsburg
+    d_baden
+	}  
+    
 	769 = {
 		military = 0.5
 		economy = 1.0
 		culture = 1.0
-	}
-		
+	}  
+		  
 	1337 = {
 		military = 5.0
 		economy = 5.0
@@ -66,9 +102,15 @@ technology = {
 
 technology = {
 	titles = {
+		d_benevento
+		d_capua
+		d_apulia
+		d_salerno
+		d_calabria
+		d_sicily
+		d_venice
 		d_verona
 		d_susa
-		d_piedmont
 		d_lombardia
 		d_genoa
 		d_modena
@@ -79,15 +121,21 @@ technology = {
 		d_spoleto
 		d_latium
 		d_sardinia
-		d_benevento
-		d_capua
-		d_apulia
-		d_salerno
-		d_calabria
-		d_sicily
-		d_venice
-		d_savoie
-	}
+    d_como      
+    d_parma     
+    d_monferrato
+    d_savona    
+    d_mantua    
+    d_lucca     
+    d_ravenna   
+    d_urbino    
+    d_corsica   
+    d_napoli    
+    d_loritello 
+    d_tarent    
+    d_alvito    
+    d_aosta     
+	}  
 	769 = {
 		military = 0.5
 		economy = 1.0
@@ -107,33 +155,37 @@ technology = {
 
 technology = {
 	titles = {
-		d_cornwall
 		d_northumberland
 		d_lancaster
 		d_york
 		d_norfolk
-		d_oxford
 		d_bedford
 		d_hereford
-		d_gloucester
 		d_canterbury
 		d_somerset
-		d_huntingdon
+		d_gwynedd
+		d_powys
+		d_deheubarth
+		d_cornwall
+		d_galloway
+		d_western_isles
+		d_albany
+		d_moray
 		d_ulster
 		d_connacht
 		d_meath
 		d_leinster
 		d_munster
-		d_galloway
-		d_western_isles
 		d_lothian
-		d_the_isles
-		d_albany
-		d_highlands
-		d_moray
-		d_gwynedd
-		d_deheubarth
-		d_powys
+    d_essex          
+    d_fivebouroughs  
+    d_channel_islands
+    d_morgannwg           
+    d_aberdeen       
+    d_sutherland     
+    d_strathclyde    
+    d_ellan_vannin   
+    d_hebrides       
 	}
 
 	769 = {
@@ -155,15 +207,24 @@ technology = {
 
 technology = {
 	titles = {
+		d_castilla
 		d_aragon
 		d_barcelona
 		d_mallorca
-		d_galicia
+		d_navarra
 		d_asturias
 		d_leon
-		d_castilla
-		d_navarra
+		d_galicia
 		d_porto
+    d_segovia       
+    d_najera        
+    d_salamanca     
+    d_zaragoza      
+    d_catalunya_nova
+    d_teruel        
+    d_ribatejo      
+    d_beira         
+    d_la_mancha     
 	}
 
 	769 = {
@@ -185,15 +246,15 @@ technology = {
 
 technology = {
 	titles = {
-		d_cordoba
-		d_murcia
-		d_granada
-		d_sevilla
-		d_valencia
-		d_badajoz
-		d_toledo
-		d_beja
 		d_algarve
+		d_sevilla
+		d_granada
+		d_murcia
+		d_valencia
+		d_cordoba
+		d_toledo
+		d_badajoz
+		d_beja
 	}
 
 	769 = {

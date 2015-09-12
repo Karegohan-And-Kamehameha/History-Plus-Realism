@@ -20,5 +20,6 @@ culture = bedouin_arabic
 religion = sunni
 
 # History
+1066.1.1 = { trade_post = b_tizzi }
 #1337.1.1 = { b_mocha = city } #port became known in the 15th century
 

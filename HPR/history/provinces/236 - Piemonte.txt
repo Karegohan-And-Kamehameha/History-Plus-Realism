@@ -5,20 +5,23 @@ title = c_piemonte
 
 # Settlements
 max_settlements = 5
-b_ivrea = castle
-b_torino = city
-b_settimo = temple
 
-#b_novara = castle
-#b_ferrero = castle
-#b_auriate = castle
-#b_messarano = castle
-#b_crevacuore = castle
+b_susapiemonte = castle
+b_torino = city
+b_abbadiaalpina = temple
+
+#b_rivoli = castle
+#b_settimo = castle
+#b_moncalieri = castle
+#b_pinerolo = city
+#b_meanadisusa = city
+#b_sanpietrovallemina = city
+#b_sangiorgiocanavese = castle
+
+
 
 # Misc
-culture = lombard
+culture = italian
 religion = catholic
 
 # History
-829.1.1 = { culture = italian }
-1187.1.1 = { b_novara = castle } 

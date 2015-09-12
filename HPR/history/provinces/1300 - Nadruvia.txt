@@ -1,0 +1,31 @@
+# 1300 - Nadruvia
+
+# County Title
+title = c_nadruvia
+
+# Settlements
+max_settlements = 4
+
+b_otholicia = tribal
+#b_cameniswika = tribal
+#b_velowe = city
+b_romuva = temple
+#b_insterburg = castle
+
+
+
+# Misc
+culture = prussian
+religion = baltic_pagan
+
+# History
+
+1225.1.1= { b_otholicia = castle } #Golden Bull of Rimini
+1225.1.1= { b_cameniswika = castle}
+1275.1.1 = { religion = catholic }
+1275.1.1 = { culture = low_german }
+1275.1.1 = { remove_settlement = b_cameniswika }
+1275.1.1 = { b_insterburg = castle }
+1275.1.1 = { capital = b_insterburg }
+1275.1.1 = { remove_settlement = b_otholicia }
+1275.1.1 = { b_velowe = city }

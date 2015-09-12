@@ -8,19 +8,17 @@ max_settlements = 4
 b_theodosiopolis = castle
 b_argyropolis = city
 b_citharizum = temple
-#b_satala = castle
-#b_thera = castle
 #b_oukhiti = castle
 #b_tortum = castle
 #b_askale = castle
 
 # Misc
 culture = armenian
-religion = apostolic
+religion = miaphysite
 
 # History
 715.1.1 = { religion = paulician }
-872.1.1 = { religion = apostolic }
+862.1.1 = { religion = miaphysite }
 1097.8.26 = { 
 	culture = kurdish 
 	religion = sunni 

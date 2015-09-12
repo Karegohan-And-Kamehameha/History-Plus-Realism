@@ -5,7 +5,7 @@ title = c_al_hasa
 
 # Settlements
 max_settlements = 5
-b_holuf = castle
+b_holuf = tribal
 b_alhasa = city
 b_foda = temple
 

@@ -120,8 +120,8 @@
 	religion="miaphysite"
 	culture="nubian"
 	father=31718
-	835.1.1={
-		birth="835.1.1"
+	832.1.1={
+		birth = yes
 	}
 	866.1.1={
 		death="866.1.1"
@@ -300,7 +300,6 @@
 		death="1274.1.1"
 	}
 }
-
 31740 = {
 	name="Dauid"
 	dynasty=101777
@@ -427,6 +426,10 @@
 	}
 }
 
+##Nubian characters
+
+#Kings of Dotawo
+
 166133 = {
 	name="Moise"
 	dynasty=1040008
@@ -503,7 +506,7 @@
 	culture="nubian"
 	father=166137
 	1058.1.1={
-		birth="1048.1.1"
+		birth = yes
 	}
 	1097.1.1={
 		death="1097.1.1"
@@ -706,6 +709,8 @@
 	}
 }
 
+#Kings of Alodia
+
 166153 = {
 	name="Asabysos"
 	dynasty=1040009
@@ -809,8 +814,8 @@
 	religion="miaphysite"
 	culture="nubian"
 	father=166159
-	874.1.1={
-		birth="874.1.1"
+	854.1.1={
+		birth = yes
 	}
 	920.1.1={
 		death="920.1.1"
@@ -823,8 +828,8 @@
 	religion="miaphysite"
 	culture="nubian"
 	father=166160
-	894.1.1={
-		birth="894.1.1"
+	884.1.1={
+		birth = yes
 	}
 	943.1.1={
 		death="943.1.1"
@@ -837,8 +842,8 @@
 	religion="miaphysite"
 	culture="nubian"
 	father=166161
-	902.1.1={
-		birth="902.1.1"
+	903.1.1={
+		birth = yes
 	}
 	958.1.1={
 		death="958.1.1"
@@ -873,7 +878,6 @@
 		death="960.1.1"
 	}
 }
-
 166165 = {
 	name="Dauid"
 	dynasty=101777
@@ -1127,6 +1131,8 @@
 	}
 }
 
+#Kings of Nobatia
+
 166183 = {
 	name="Silko"
 	dynasty=101778
@@ -1168,6 +1174,9 @@
 	}
 }
 
+#SWMH Nubian characters
+#Characters: 1000228700 - 1000228759
+#Dynasties: 1000101200 - 1000101229
 145767 = { 
 	name="Christophoros"
 	dynasty=1022245
@@ -1180,7 +1189,6 @@
 		death="882.1.1"
 	}
 }
-
 145677 = { 
 	name="Gabriel"
 	dynasty=1022246
@@ -1193,8 +1201,6 @@
 		death="1096.1.1"
 	}
 }
-
-
 145678 = { 
 	name="Thadeosi"
 	dynasty=1022246
@@ -1208,7 +1214,6 @@
 		death="1125.1.1"
 	}
 }
-
 145679 = { 
 	name="Raphaelkouda"
 	dynasty=1022246
@@ -1222,7 +1227,6 @@
 		death="1176.1.1"
 	}
 }
-
 145680 = { 
 	name="Dioskoros"
 	dynasty=1022246
@@ -1236,7 +1240,6 @@
 		death="1188.1.1"
 	}
 }
-
 145681 = { 
 	name="Dimetheos"
 	dynasty=1022246
@@ -1250,7 +1253,6 @@
 		death="1221.1.1"
 	}
 }
-
 145682 = { 
 	name="Eionkouda"
 	dynasty=1022246
@@ -1264,7 +1266,6 @@
 		death="1253.1.1"
 	}
 }
-
 145683 = { 
 	name="Marturophoros"
 	dynasty=1022246
@@ -1278,7 +1279,6 @@
 		death="1286.1.1"
 	}
 }
-
 145684 = { 
 	name="Ieremias"
 	dynasty=1022246
@@ -1292,7 +1292,6 @@
 		death="1312.1.1"
 	}
 }
-
 145685 = { 
 	name="Gennatios"
 	dynasty=1022246
@@ -1306,7 +1305,6 @@
 		death="1351.1.1"
 	}
 }
-
 145686 = { 
 	name="Hoase"
 	dynasty=1022247
@@ -1319,7 +1317,6 @@
 		death="882.1.1"
 	}
 }
-
 145687 = { 
 	name="Krisanthos"
 	dynasty=1022248
@@ -1332,7 +1329,6 @@
 		death="1068.1.1"
 	}
 }
-
 145688 = { 
 	name="Zosima"
 	dynasty=1022248
@@ -1346,7 +1342,6 @@
 		death="1084.1.1"
 	}
 }
-
 145689 = { 
 	name="Kalinikos"
 	dynasty=1022248
@@ -1360,7 +1355,6 @@
 		death="1122.1.1"
 	}
 }
-
 145690 = { 
 	name="Gabrielophorou"
 	dynasty=1022248
@@ -1374,7 +1368,6 @@
 		death="1163.1.1"
 	}
 }
-
 145691 = { 
 	name="Gabrielkouda"
 	dynasty=1022248
@@ -1388,7 +1381,6 @@
 		death="1219.1.1"
 	}
 }
-
 145692 = { 
 	name="Abraam"
 	dynasty=1022248
@@ -1402,7 +1394,6 @@
 		death="1236.1.1"
 	}
 }
-
 145693 = { 
 	name="Chael"
 	dynasty=1022248
@@ -1416,7 +1407,6 @@
 		death="1275.1.1"
 	}
 }
-
 145694 = { 
 	name="Mariana"
 	dynasty=1022248
@@ -1430,7 +1420,6 @@
 		death="1318.1.1"
 	}
 }
-
 145695 = { 
 	name="Mariankouda"
 	dynasty=1022248
@@ -1444,7 +1433,6 @@
 		death="1349.1.1"
 	}
 }
-
 145696 = { 
 	name="Petros"
 	dynasty=1022249
@@ -1457,7 +1445,6 @@
 		death="904.1.1"
 	}
 }
-
 145697 = { 
 	name="Theodosios"
 	dynasty=1022250
@@ -1470,7 +1457,6 @@
 		death="1111.1.1"
 	}
 }
-
 145698 = { 
 	name="Papasinkouda"
 	dynasty=1022250
@@ -1484,7 +1470,6 @@
 		death="1147.1.1"
 	}
 }
-
 145699 = { 
 	name="Aberikos"
 	dynasty=1022250
@@ -1498,7 +1483,6 @@
 		death="1172.1.1"
 	}
 }
-
 145700 = { 
 	name="Simeoni"
 	dynasty=1022250
@@ -1512,7 +1496,6 @@
 		death="1210.1.1"
 	}
 }
-
 145701 = { 
 	name="Orna"
 	dynasty=1022250
@@ -1526,7 +1509,6 @@
 		death="1240.1.1"
 	}
 }
-
 145702 = { 
 	name="Tirsakouni"
 	dynasty=1022250
@@ -1540,7 +1522,6 @@
 		death="1274.1.1"
 	}
 }
-
 145703 = { 
 	name="Philotheos"
 	dynasty=1022250
@@ -1554,7 +1535,6 @@
 		death="1292.1.1"
 	}
 }
-
 145704 = { 
 	name="Hoasse"
 	dynasty=1022250
@@ -1568,7 +1548,6 @@
 		death="1303.1.1"
 	}
 }
-
 145705 = { 
 	name="Markos"
 	dynasty=1022250
@@ -1582,7 +1561,6 @@
 		death="1344.1.1"
 	}
 }
-
 145706 = { 
 	name="Mouses"
 	dynasty=1022251
@@ -1595,7 +1573,6 @@
 		death="880.1.1"
 	}
 }
-
 145707 = { 
 	name="Bartholomaios"
 	dynasty=1022252
@@ -1608,7 +1585,6 @@
 		death="1090.1.1"
 	}
 }
-
 145708 = { 
 	name="Mena"
 	dynasty=1022252
@@ -1622,7 +1598,6 @@
 		death="1127.1.1"
 	}
 }
-
 145709 = { 
 	name="Menankouda"
 	dynasty=1022252
@@ -1636,7 +1611,6 @@
 		death="1169.1.1"
 	}
 }
-
 145710 = { 
 	name="Epimachos"
 	dynasty=1022252
@@ -1650,7 +1624,6 @@
 		death="1203.1.1"
 	}
 }
-
 145711 = { 
 	name="Sergios"
 	dynasty=1022252
@@ -1664,7 +1637,6 @@
 		death="1229.1.1"
 	}
 }
-
 145712 = { 
 	name="Hoassi"
 	dynasty=1022252
@@ -1678,7 +1650,6 @@
 		death="1281.1.1"
 	}
 }
-
 145713 = { 
 	name="Petrou"
 	dynasty=1022252
@@ -1692,7 +1663,6 @@
 		death="1296.1.1"
 	}
 }
-
 145714 = { 
 	name="Raphael"
 	dynasty=1022252
@@ -1706,7 +1676,6 @@
 		death="1314.1.1"
 	}
 }
-
 145715 = { 
 	name="Stephanou"
 	dynasty=1022252
@@ -1720,7 +1689,6 @@
 		death="1358.1.1"
 	}
 }
-
 145716 = { 
 	name="Mouses"
 	dynasty=1022253
@@ -1733,7 +1701,6 @@
 		death="910.1.1"
 	}
 }
-
 145717 = { 
 	name="Bartholomaios"
 	dynasty=1022254
@@ -1746,7 +1713,6 @@
 		death="1088.1.1"
 	}
 }
-
 145718 = { 
 	name="Mena"
 	dynasty=1022254
@@ -1760,7 +1726,6 @@
 		death="1133.1.1"
 	}
 }
-
 145719 = { 
 	name="Menankouda"
 	dynasty=1022254
@@ -1774,7 +1739,6 @@
 		death="1150.1.1"
 	}
 }
-
 145720 = { 
 	name="Epimachos"
 	dynasty=1022254
@@ -1788,7 +1752,6 @@
 		death="1192.1.1"
 	}
 }
-
 145721 = { 
 	name="Sergios"
 	dynasty=1022254
@@ -1802,7 +1765,6 @@
 		death="1219.1.1"
 	}
 }
-
 145722 = { 
 	name="Hoassi"
 	dynasty=1022254
@@ -1816,7 +1778,6 @@
 		death="1270.1.1"
 	}
 }
-
 145723 = { 
 	name="Petrou"
 	dynasty=1022254
@@ -1830,7 +1791,6 @@
 		death="1310.1.1"
 	}
 }
-
 145724 = { 
 	name="Raphael"
 	dynasty=1022254
@@ -1844,7 +1804,6 @@
 		death="1334.1.1"
 	}
 }
-
 145725 = { 
 	name="Stephanou"
 	dynasty=1022254
@@ -1858,7 +1817,6 @@
 		death="1359.1.1"
 	}
 }
-
 145726 = { 
 	name="Senouthios"
 	dynasty=1022255
@@ -1871,7 +1829,6 @@
 		death="900.1.1"
 	}
 }
-
 145727 = { 
 	name="Patrikios"
 	dynasty=1022256
@@ -1884,7 +1841,6 @@
 		death="1114.1.1"
 	}
 }
-
 145728 = { 
 	name="Leon"
 	dynasty=1022256
@@ -1898,7 +1854,6 @@
 		death="1135.1.1"
 	}
 }
-
 145729 = { 
 	name="Kollouthos"
 	dynasty=1022256
@@ -1912,7 +1867,6 @@
 		death="1173.1.1"
 	}
 }
-
 145730 = { 
 	name="Samson"
 	dynasty=1022256
@@ -1926,7 +1880,6 @@
 		death="1226.1.1"
 	}
 }
-
 145731 = { 
 	name="Marianos"
 	dynasty=1022256
@@ -1940,7 +1893,6 @@
 		death="1254.1.1"
 	}
 }
-
 145732 = { 
 	name="Eliezer"
 	dynasty=1022256
@@ -1954,7 +1906,6 @@
 		death="1286.1.1"
 	}
 }
-
 145733 = { 
 	name="Sentiko"
 	dynasty=1022256
@@ -1968,7 +1919,6 @@
 		death="1289.1.1"
 	}
 }
-
 145734 = { 
 	name="Sotinkouda"
 	dynasty=1022256
@@ -1982,7 +1932,6 @@
 		death="1316.1.1"
 	}
 }
-
 145735 = { 
 	name="Dauid"
 	dynasty=1022256
@@ -1996,7 +1945,6 @@
 		death="1358.1.1"
 	}
 }
-
 145959 = { 
 	name="Kuriakos"
 	dynasty=1022349
@@ -2009,7 +1957,6 @@
 		death="795.1.1"
 	}
 }
-
 145960 = { 
 	name="Maththias"
 	dynasty=1022350
@@ -2022,7 +1969,6 @@
 		death="805.1.1"
 	}
 }
-
 145961 = { 
 	name="Papasinen"
 	dynasty=1022351
@@ -2035,7 +1981,6 @@
 		death="797.1.1"
 	}
 }
-
 145962 = { 
 	name="Soizuros"
 	dynasty=1022352
@@ -2048,7 +1993,6 @@
 		death="803.1.1"
 	}
 }
-
 145963 = { 
 	name="Thoma"
 	dynasty=1022353
@@ -2061,7 +2005,6 @@
 		death="799.1.1"
 	}
 }
-
 145964 = { 
 	name="Panigiros"
 	dynasty=1022354

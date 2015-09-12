@@ -1,0 +1,19 @@
+# 1348 - Rudbar
+
+# County Title
+title = c_rudbar
+
+# Settlements
+max_settlements = 2
+
+b_rudbar = castle
+b_kish = city
+
+# Misc
+culture = qufs
+religion = kharijite
+
+# History
+950.1.1 = {	religion = sunni }
+1050.1.1 = {	culture = baloch }
+

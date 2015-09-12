@@ -8,7 +8,7 @@ character_event = {
 
 	id = 62300
 	desc = EVTDESC62300
-	
+
 	picture = GFX_evt_viking_battle_oldgods
 	border = GFX_event_normal_frame_war
 
@@ -39,7 +39,7 @@ character_event = {
 
 	id = 62310
 	desc = EVTDESC62310
-	
+
 	picture = GFX_evt_viking_battle_oldgods
 	border = GFX_event_normal_frame_war
 
@@ -60,7 +60,7 @@ character_event = {
 			limit = {
 				NOT = {
 					any_war = {
-						any_attacker = { character = FROM } 
+						any_attacker = { character = FROM }
 					}
 				}
 			}
@@ -74,7 +74,7 @@ character_event = {
 			limit = {
 				NOT = {
 					any_war = {
-						any_attacker = { character = FROM } 
+						any_attacker = { character = FROM }
 					}
 				}
 			}
@@ -99,12 +99,12 @@ character_event = {
 character_event = {
 	id = 62320
 	desc = EVTDESC62320
-	
+
 	picture = GFX_evt_vikings_arriving_oldgods
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
-	
+
 	# On_action, so BIG is MORE OFTEN!
 	weight_multiplier = {
 		days = 1
@@ -161,7 +161,7 @@ character_event = {
 			NOT = {
 				relative_power = {
 					who = FROM
-					power = 0.5 
+					power = 0.5
 				}
 			}
 		}
@@ -170,7 +170,7 @@ character_event = {
 			NOT = {
 				relative_power = {
 					who = FROM
-					power = 0.75 
+					power = 0.75
 				}
 			}
 		}
@@ -243,14 +243,14 @@ character_event = {
 character_event = {
 	id = 62321
 	desc = EVTDESC62321
-	
+
 	hide_from = yes
-	
+
 	picture = GFX_evt_vikings_arriving_oldgods
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
-	
+
 	# On_action, so BIG is MORE OFTEN
 	weight_multiplier = {
 		days = 1
@@ -319,7 +319,7 @@ character_event = {
 			NOT = {
 				relative_power = {
 					who = FROM
-					power = 0.5 
+					power = 0.5
 				}
 			}
 		}
@@ -328,7 +328,7 @@ character_event = {
 			NOT = {
 				relative_power = {
 					who = FROM
-					power = 0.75 
+					power = 0.75
 				}
 			}
 		}
@@ -398,7 +398,7 @@ character_event = {
 					can_toggle_looting = no
 				}
 			}
-		}		
+		}
 		spawn_fleet = {
 			province = closest
 			owner = ROOT
@@ -416,12 +416,12 @@ character_event = {
 character_event = {
 	id = 62322
 	desc = EVTDESC62320
-	
+
 	picture = GFX_evt_vikings_arriving_oldgods
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
-	
+
 	# On_action, so BIG is MORE OFTEN
 	weight_multiplier = {
 		days = 1
@@ -572,11 +572,11 @@ character_event = {
 letter_event = {
 	id = 62800
 	desc = EVTDESC62800
-	
+
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62800
 		if = {
@@ -610,15 +610,15 @@ letter_event = {
 character_event = {
 	id = 62900
 	desc = EVTDESC62900
-	
+
 	picture = GFX_evt_viking_battle_oldgods
 	border = GFX_event_normal_frame_war
-	
+
 	only_playable = yes
 	only_men = yes
 	capable_only = yes
 	min_age = 16
-	
+
 	trigger = {
 		character = 163113 # Bagsecg
 		preparing_invasion = no
@@ -657,14 +657,14 @@ character_event = {
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	immediate = {
 		set_character_flag = bagsecgs_invasion
 	}
 
 	option = {
 		name = EVTOPTA62900 # Invade Mercia
-		
+
 		trigger = {
 			d_hereford = {
 				holder_scope = {
@@ -678,11 +678,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 70
 		}
-		
+
 		custom_tooltip = {
 			text = EVTOPTA62900_TT
 			# Prepare the invasion (these opinions control the mechanic)
@@ -700,14 +700,14 @@ character_event = {
 						letter_event = { id = 62901 }
 					}
 				}
-				add_character_modifier = { 
+				add_character_modifier = {
 					name = launched_prepared_invasion
 					hidden = yes
-					days = -1 
+					days = -1
 				}
 			}
 		}
-		
+
 		d_hereford = {
 			holder_scope = {
 				ROOT = {
@@ -737,10 +737,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB62900 # Invade Wessex
-		
+
 		trigger = {
 			d_somerset = {
 				holder_scope = {
@@ -754,11 +754,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		custom_tooltip = {
 			text = EVTOPTB62900_TT
 			# Prepare the invasion
@@ -776,14 +776,14 @@ character_event = {
 						letter_event = { id = 62901 }
 					}
 				}
-				add_character_modifier = { 
+				add_character_modifier = {
 					name = launched_prepared_invasion
 					hidden = yes
-					days = -1 
+					days = -1
 				}
 			}
 		}
-		
+
 		d_somerset = {
 			holder_scope = {
 				ROOT = {
@@ -813,10 +813,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC62900 # Invade Scotland
-		
+
 		trigger = {
 			k_scotland = {
 				holder_scope = {
@@ -829,11 +829,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			factor = 10
 		}
-		
+
 		custom_tooltip = {
 			text = EVTOPTC62900_TT
 			# Prepare the invasion
@@ -851,14 +851,14 @@ character_event = {
 						letter_event = { id = 62901 }
 					}
 				}
-				add_character_modifier = { 
+				add_character_modifier = {
 					name = launched_prepared_invasion
 					hidden = yes
-					days = -1 
+					days = -1
 				}
 			}
 		}
-		
+
 		k_scotland = {
 			holder_scope = {
 				ROOT = {
@@ -888,13 +888,13 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTD62900
-		
+
 		ai_chance = {
 			factor = 0
-		}	
+		}
 		prestige = -100
 	}
 }
@@ -902,11 +902,11 @@ character_event = {
 letter_event = {
 	id = 62901
 	desc = EVTDESC62901
-	
+
 	border = GFX_event_letter_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62901
 	}
@@ -920,9 +920,9 @@ narrative_event = {
 	desc = EVTDESC62910
 	picture = GFX_evt_council
 	border = GFX_event_narrative_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62910
 		hidden_tooltip = {
@@ -962,36 +962,6 @@ narrative_event = {
 							add_pressed_claim = k_hungary
 							remove_claim = k_magyar
 						}
-					}
-				}
-			}
-			any_realm_character = {
-				if = {
-					limit = { has_weak_claim = k_carpathia }
-					add_weak_pressed_claim = k_hungary
-				}
-				if = {
-					limit = { has_strong_claim = k_carpathia }
-					add_pressed_claim = k_hungary
-				}
-			}
-			any_independent_ruler = {
-				if = {
-					limit = { has_weak_claim = k_carpathia }
-					add_weak_pressed_claim = k_hungary
-				}
-				if = {
-					limit = { has_strong_claim = k_carpathia }
-					add_pressed_claim = k_hungary
-				}
-				any_realm_character = {
-					if = {
-						limit = { has_weak_claim = k_carpathia }
-						add_weak_pressed_claim = k_hungary
-					}
-					if = {
-						limit = { has_strong_claim = k_carpathia }
-						add_pressed_claim = k_hungary
 					}
 				}
 			}
@@ -1037,12 +1007,12 @@ narrative_event = {
 	id = 62911
 	title = EVTNAME62911
 	desc = EVTDESC62911
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_narrative_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62911
 	}
@@ -1052,9 +1022,9 @@ character_event = {
 	id = 62912
 	desc = EVTDESC62912
 	picture = GFX_evt_mongols
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_62912
 		#convert old lands to new cultures/religions
@@ -1065,9 +1035,8 @@ character_event = {
 					limit = {
 						culture = hungarian
 						kingdom = {
-							NOR = {
+							NOT = {
 								title = k_hungary
-								title = k_carpathia
 							}
 						}
 						any_neighbor_province = {
@@ -1088,9 +1057,8 @@ character_event = {
 		any_realm_province = {
 			limit = {
 				kingdom = {
-					NOR = {
+					NOT = {
 						title = k_hungary
-						title = k_carpathia
 					}
 				}
 				owner = {
@@ -1138,16 +1106,13 @@ character_event = {
 				if = {
 					limit = {
 						kingdom = {
-							OR = {
 								title = k_hungary
-								title = k_carpathia
-							}
 						}
 					}
 					county = {
 						usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
 					}
-				}			
+				}
 			}
 			hidden_tooltip = {
 				any_vassal = {
@@ -1174,9 +1139,9 @@ character_event = {
 	id = 62913
 	desc = EVTDESC62913
 	picture = GFX_evt_mongols
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_62913
 		if = {
@@ -1204,12 +1169,12 @@ character_event = {
 	id = 62920
 	title = EVTNAME62920
 	desc = EVTDESC62920
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62920
 	}
@@ -1220,12 +1185,12 @@ character_event = {
 	id = 62921
 	title = EVTNAME62920
 	desc = EVTDESC62921
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62921
 	}
@@ -1235,12 +1200,12 @@ character_event = {
 	id = 62922
 	title = EVTNAME62922
 	desc = EVTDESC62922
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62922
 	}
@@ -1251,12 +1216,12 @@ character_event = {
 	id = 62923
 	title = EVTNAME62923
 	desc = EVTDESC62923
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62923
 	}
@@ -1266,12 +1231,12 @@ character_event = {
 	id = 62924
 	title = EVTNAME62924
 	desc = EVTDESC62924
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62922
 	}
@@ -1282,12 +1247,12 @@ character_event = {
 	id = 62925
 	title = EVTNAME62925
 	desc = EVTDESC62925
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62923
 	}
@@ -1297,12 +1262,12 @@ character_event = {
 	id = 62926
 	title = EVTNAME62926
 	desc = EVTDESC62926
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62922
 	}
@@ -1313,12 +1278,12 @@ character_event = {
 	id = 62927
 	title = EVTNAME62927
 	desc = EVTDESC62927
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62923
 	}
@@ -1329,22 +1294,22 @@ character_event = {
 	id = 62930
 	title = EVTNAME62930
 	desc = EVTDESC62930
-	
+
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	only_playable = yes
-	
+
 	trigger = {
 		has_landed_title = k_france
 		NOT = { dynasty = 25061 } # Karling dynasty
 		NOT = { has_global_flag = west_francia_renamed }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTA62930
 		set_global_flag = west_francia_renamed
@@ -1359,12 +1324,12 @@ character_event = {
 character_event = {
 	id = 62950
 	desc = OK
-	
+
 	hide_window = yes
-	
+
 	prisoner = yes
 	culture = saxon
-	
+
 	trigger = {
 		character = 163103 # Aella
 		host = {
@@ -1378,11 +1343,11 @@ character_event = {
 		}
 		NOT = { has_character_flag = aella_punished }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		set_character_flag = aella_punished
 		host = {
@@ -1395,12 +1360,12 @@ character_event = {
 	id = 62951
 	title = EVTNAME62951
 	desc = EVTDESC62951
-	
+
 	picture = GFX_evt_torture
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62951 # Blood Eagle
 		ai_chance = {
@@ -1436,10 +1401,10 @@ character_event = {
 		ai_chance = {
 			factor = 0
 		}
-		
+
 		prestige = 500
 		add_trait = impaler
-		
+
 		tooltip = {
 			FROM = {
 				add_trait = eunuch
@@ -1465,18 +1430,18 @@ character_event = {
 	id = 62952
 	title = EVTNAME62951
 	desc = EVTDESC62952
-	
+
 	picture = GFX_evt_torture
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA62952
 		add_trait = eunuch
 		add_trait = blinded
 		add_trait = wounded
-		
+
 		hidden_tooltip = {
 			opinion = {
 				who = FROM

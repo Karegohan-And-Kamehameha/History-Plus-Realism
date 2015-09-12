@@ -1,23 +1,23 @@
-# 644 - Shiraz
+# 644 - Shíráz
 
 # County Title
 title = c_shiraz
 
 # Settlements
-max_settlements =4
+max_settlements = 7
 b_shiraz = castle
-b_bishapur = city
-#b_estakhr = temple
+b_djuyum = city
+b_istakhr = temple
+b_bayda_shiraz = castle
 
-b_persepolis = temple
-#b_azargarta = castle
-#b_arsanjan = castle
-#b_bavanat = castle
-#b_abadeh = castle
+#b_mayin = city
+#b_kamin = castle
+#b_fasa = temple
 
 # Misc
-culture = persian
+culture = pahlavi
 religion = zoroastrian
 
 # History
-800.1.1 = { religion = sunni }
+937.1.1 = { culture = persian }
+937.1.1 = { religion = sunni }

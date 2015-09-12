@@ -1,0 +1,68 @@
+830.1.1={
+        liege="k_magyar"
+	holder=1000233320
+}
+895.1.1={
+	liege=d_tivertsi
+	holder= 1000226964 
+}
+915.1.1={
+	holder= 1000226965
+}
+950.1.1={
+	holder= 0
+}
+#Cumans arrive, Black hats formed
+1060.1.1=
+{
+	liege="d_black_caps"
+	holder=1000231875 # Köteshk
+}
+1087.1.1=
+{
+	holder=1000231877
+}
+1108.1.1=
+{
+	holder=1000231879
+}
+1156.1.1=
+{
+	holder=1000231881
+}
+
+1172.1.1=
+{
+	holder=1000231883
+}
+1188.1.1=
+{
+	holder=1000231885 # Çurnay
+}
+1225.1.1=
+{
+	holder=34828
+}
+1240.1.1=
+{
+	liege="d_moldau"
+	holder=125516
+}
+1265.1.2=
+{
+	holder=125517
+}
+1270.1.2=
+{
+	holder=125518
+}
+1299.1.2=
+{	
+	holder=34830
+}
+1325.1.1=
+{
+	holder=34831
+}
+
+

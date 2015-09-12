@@ -1,0 +1,320 @@
+######################################
+#SWMH Soghdian Characters
+######################################
+#Soghdian characters
+#Dynasties: 1000102100 - 1000102149
+#Characters: 1000230750 - 1000230849
+
+######################################
+#The Afshins of Ushrushana
+
+1000230750 = {
+	name="Kharákhana"
+	dynasty=1000102100
+	religion="zoroastrian"
+	culture="soghdian"
+	750.1.1={
+		birth="750.1.1"
+	}
+	795.1.1={
+		death="795.1.1"
+	}
+}
+1000230751 = {
+	name="Kávús" 
+	dynasty=1000102100
+	religion="zoroastrian"
+	culture="soghdian"
+  father=1000230750
+	770.1.1={
+		birth = yes
+	}
+	823.1.1={
+		death = yes
+	}
+}
+1000230752 = {
+	name="Kaydar" 
+	dynasty=1000102100
+	religion="zoroastrian"
+	culture="soghdian"
+  father=1000230751
+	790.1.1={
+		birth = yes
+	}
+	822.5.5={
+  	religion="sunni"
+	}
+	841.5.6={
+		death = yes
+	}
+}
+1000230753 = {
+	name="Abdalláh"
+	dynasty=1000102100
+	religion="sunni"
+	culture="soghdian"
+  father=1000230752
+	822.6.6={
+		birth = yes
+	}
+	870.1.1={
+		death = yes
+	}
+}
+1000230754 = {
+	name="Sayyár" # the last of Afshins
+	dynasty=1000102100
+	religion="sunni"
+	culture="soghdian"
+  father=1000230753
+	853.1.1={
+		birth = yes
+	}
+	897.1.1={
+		death = yes
+	}
+}
+
+#Soghdian placeholder majors and dehqans
+
+1000230755 = {
+	name="Khudayar"  #Nestorian mayor of Shelji in Talas
+	religion="nestorian"
+	culture="soghdian"
+  stewardship=8
+	840.1.1={
+		birth="840.1.1"
+	}
+	895.1.1={
+		death="895.1.1"
+	}
+}
+1000230756 = {
+	name="Khudayar"
+	religion="nestorian"
+	culture="soghdian"
+  stewardship=8
+  father=1000230755
+	860.1.1={
+		birth="860.1.1"
+	}
+	915.1.1={
+		death="915.1.1"
+	}
+}
+1000230757 = {
+	name="Humayun"  #Manichean mayor of Binket in Shash
+	religion="manichean"
+	culture="soghdian"
+  stewardship=8
+	838.1.1={
+		birth="838.1.1"
+	}
+	897.1.1={
+		death="897.1.1"
+	}
+}
+1000230758 = {
+	name="Humayun"  
+	religion="manichean" #?
+	culture="soghdian"
+  stewardship=8
+  father=1000230757
+	858.1.1={
+		birth="858.1.1"
+	}
+	917.1.1={
+		death="917.1.1"
+	}
+}
+1000230759 = {
+	name="Varshasb"  #Manichean mayor of Ulugqat in Kashgar
+	religion="manichean"
+	culture="soghdian"
+  stewardship=8
+	835.1.1={
+		birth="835.1.1"
+	}
+	891.1.1={
+		death="891.1.1"
+	}
+}
+1000230760 = {
+	name="Varshasb"
+	religion="manichean"
+	culture="soghdian"
+  stewardship=8
+  father=1000230759
+	855.1.1={
+		birth="855.1.1"
+	}
+	911.1.1={
+		death="911.1.1"
+	}
+}
+1000230761 = {
+	name="Bakhtiar"  #Manichean mayor of Uch in Aqsu 
+	religion="manichean"
+	culture="soghdian"
+  stewardship=8
+	842.1.1={
+		birth="842.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+1000230762 = {
+	name="Bakhtiar"
+	religion="manichean"
+	culture="soghdian"
+  stewardship=8
+  father=1000230761
+	862.1.1={
+		birth="862.1.1"
+	}
+	920.1.1={
+		death="920.1.1"
+	}
+}
+1000230763 = {
+	name="Kambiz"  #Manichean mayor of Otrar in Otrar
+	religion="manichean"
+	culture="soghdian"
+  stewardship=8
+	837.1.1={
+		birth="837.1.1"
+	}
+	888.1.1={
+		death="888.1.1"
+	}
+}
+1000230764 = {
+	name="Kambiz"
+	religion="manichean"
+	culture="soghdian"
+  stewardship=8
+  father=1000230763
+	856.1.1={
+		birth="856.1.1"
+	}
+	905.1.1={
+		death="905.1.1"
+	}
+}
+1000230765 = {
+	name="Shahin"  #Nestorian mayor of Pichan in Kashgar
+	religion="nestorian"
+	culture="soghdian"
+  stewardship=8
+	837.1.1={
+		birth="837.1.1"
+	}
+	888.1.1={
+		death="888.1.1"
+	}
+}
+1000230766 = {
+	name="Shahin"
+	religion="nestorian"
+	culture="soghdian"
+  stewardship=8
+  father=1000230765
+	856.1.1={
+		birth="856.1.1"
+	}
+	905.1.1={
+		death="905.1.1"
+	}
+}
+1000230767 = {
+	name="Fadl" 
+	dynasty=1000102100
+	religion="zoroastrian"
+	culture="soghdian"
+  father=1000230751
+	788.1.1={
+		birth = yes
+	}
+	845.1.1={
+		death = yes
+	}
+}
+
+1000230768 = {
+	name="Dívdád" #AKA Abú Sáj b.Dívdast
+	dynasty=1000102101
+	religion="sunni"
+	culture="soghdian"
+  father=1000230751
+  martial=6
+  trait="brilliant_strategist"
+	820.1.1={
+		birth = yes
+	}
+	822.5.5={
+  	religion="sunni"
+	}
+	837.5.5={
+  	employer=1000230752
+	}
+	879.1.1={
+		death = yes
+	}
+}
+1000230769 = {
+	name="Mohammad" #AKA Afshin b. Abí Sáj
+	dynasty=1000102101
+	religion="sunni"
+	culture="soghdian"
+  father=1000230768
+	845.1.1={
+		birth = yes
+	}
+	901.1.1={
+		death = yes
+	}
+}
+1000230770 = {
+	name="Yúsof"
+	dynasty=1000102101
+	religion="sunni"
+	culture="soghdian"
+  father=1000230768
+	864.1.1={
+		birth = yes
+	}
+	928.1.1={
+		death = yes
+	}
+}
+1000230771 = {
+	name="Dívdast"
+	dynasty=1000102100
+	religion="zoroastrian"
+	culture="soghdian"
+  father=1000230750
+	786.1.1={
+		birth = yes
+	}
+	822.5.5={
+  	religion="sunni"
+	}
+	826.1.1={
+		death = yes
+	}
+}
+1000230772 = {
+	name="Dívdád"
+	dynasty=1000102101
+	religion="sunni"
+	culture="soghdian"
+  father=1000230769
+	865.1.1={
+		birth = yes
+	}
+	920.1.1={
+		death = yes
+	}
+}

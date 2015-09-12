@@ -1,7 +1,7 @@
 decisions = {
 
 	### ENGLAND
-	
+
 	abolish_witan_william = {
 		is_high_prio = yes
 
@@ -26,7 +26,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	abolish_witan_hardrada = {
 		is_high_prio = yes
 
@@ -39,7 +39,7 @@ decisions = {
 
 		allow = {
 			war = no
-			prisoner = no   
+			prisoner = no
 		}
 
 		effect = {
@@ -48,7 +48,7 @@ decisions = {
 		}
 
 		ai_will_do = {
-			factor = 1	
+			factor = 1
 		}
 	}
 
@@ -91,11 +91,11 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
 
 	ai_form_england = {
 		is_high_prio = yes
-		
+
 		potential = {
 			ai = yes
 			is_ruler = yes
@@ -160,7 +160,7 @@ decisions = {
 	}
 
 	### IRELAND
-	
+
 	claim_high_king = {
 		potential = {
 			is_playable = yes
@@ -226,10 +226,10 @@ decisions = {
 			}
 		}
 	}
-	
+
 	ai_form_ireland = {
 		is_high_prio = yes
-		
+
 		potential = {
 			ai = yes
 			is_ruler = yes
@@ -288,14 +288,14 @@ decisions = {
 			}
 		}
 	}
-	
+
 	### ITALY / SICILY
-	
+
 	sicily_falls = {
 		is_high_prio = yes
-		
+
 		potential = {
-			has_landed_title = k_papal_state # He always exists		
+			has_landed_title = k_papal_state # He always exists
 			NOT = {
 				has_global_flag = shattered_realm
 				has_global_flag = sicily_falls
@@ -310,16 +310,16 @@ decisions = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
 			}
-			c_teate = {
+			c_molise = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
 			}
-			c_foggia = {
+			c_aversa = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
-			}			
+			}
 			c_capua = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
@@ -330,7 +330,17 @@ decisions = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
 			}
-			c_gaete = {
+			c_alife = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_sangermano = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_gaeta = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
@@ -340,17 +350,32 @@ decisions = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
 			}
+			c_andria = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_foggia = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
 			c_bari = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
 			}
-			c_lecce = {
+			c_gravina = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
 			}
-			c_salerno = {
+			c_larino = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_chieti = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
@@ -360,7 +385,42 @@ decisions = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
 			}
+			c_lecce = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_conversano = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_salerno = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_marsico = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
 			c_amalfi = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_alvito = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_celano = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_manopello = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
@@ -385,7 +445,17 @@ decisions = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
 			}
+			c_enna = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
 			c_siracusa = {
+				holder_scope = {
+					top_liege = { NOT = { religion_group = christian } }
+				}
+			}
+			c_modica = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
@@ -404,7 +474,7 @@ decisions = {
 				holder_scope = {
 					top_liege = { NOT = { religion_group = christian } }
 				}
-			}		
+			}
 		}
 		effect = {
 			set_global_flag = sicily_falls
@@ -426,133 +496,207 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-		}		
+		}
 	}
-	
+
 	sicily_regained = {
 		is_high_prio = yes
-		
+
 		potential = {
 			has_global_flag = italian_reconquest_started
-			NOT = { 
+			NOT = {
 				has_global_flag = italian_rec_success
 				has_global_flag = italian_rec_failure
 			}
 			OR = {
 				has_landed_title = d_benevento
+				has_landed_title = d_napoli
 				has_landed_title = d_capua
 				has_landed_title = d_apulia
+				has_landed_title = d_loritello
+				has_landed_title = d_tarent
 				has_landed_title = d_salerno
+				has_landed_title = d_alvito
 				has_landed_title = d_calabria
 				has_landed_title = d_sicily
 			}
-			has_character_modifier = italian_reconquest 
+			has_character_modifier = italian_reconquest
 		}
 		allow = {
 			war = no
 			custom_tooltip = {
 				text = italian_reconq_ctt
 				c_benevento = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_teate = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_foggia = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}				
-				c_capua = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_napoli = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_gaete = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_apulia = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_bari = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_lecce = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_salerno = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_taranto = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_amalfi = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_consenza = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_reggio = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_palermo = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_messina = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_siracusa = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_agrigento = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_trapani = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
-				}
-				c_malta = {
-					holder_scope = {
-						top_liege = { religion_group = christian }
-					}
+				holder_scope = {
+					top_liege = { religion_group = christian }
 				}
 			}
+			c_molise = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_aversa = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_capua = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_napoli = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_alife = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_sangermano = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_gaeta = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_apulia = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_andria = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_foggia = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_bari = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_gravina = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_larino = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_chieti = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_taranto = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_lecce = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_conversano = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_salerno = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_marsico = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_amalfi = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_alvito = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_celano = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_manopello = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_consenza = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_reggio = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_palermo = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_messina = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_enna = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_siracusa = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_modica = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_agrigento = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_trapani = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+			c_malta = {
+				holder_scope = {
+					top_liege = { religion_group = christian }
+				}
+			}
+		}
 		}
 		effect = {
 			set_global_flag = italian_rec_success
@@ -573,11 +717,11 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-		}	
+		}
 	}
-	
+
 	### ALBANIA
-	
+
 	create_kingdomofalbania = {
 
 		potential = {
@@ -587,7 +731,7 @@ decisions = {
 			k_albania = { is_titular = yes }
 			OR = {
 				tier = KING
-				tier = EMPEROR 
+				tier = EMPEROR
 				AND = {
 					num_of_duke_titles = 2
 					culture_group = south_slavic
@@ -631,9 +775,9 @@ decisions = {
 			}
 		}
 	}
-	
+
 	### POLAND
-	
+
 	extend_claims_boleslaw = {
 		is_high_prio = yes
 
@@ -704,9 +848,9 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	### HRE
-	
+
 	papal_coronation  = {
 		is_high_prio = yes
 		potential = {
@@ -755,7 +899,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	first_coronation = {
 		is_high_prio = yes
 		potential = {
@@ -789,7 +933,7 @@ decisions = {
 						k_france = { holder_scope = { dynasty = 25061 } }
 						k_lotharingia = { holder_scope = { dynasty = 25061 } }
 					}
-				}				
+				}
 				has_global_flag = carolingian_empire_fallen
 			}
 			NOT = {
@@ -933,9 +1077,9 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	### NORSE
-	
+
 	organise_braedralag = {
 		is_high_prio = yes
 		potential = {
@@ -951,7 +1095,7 @@ decisions = {
 			tier = emperor
 			has_regent = no
 			prestige = 300
-			wealth = 300	
+			wealth = 300
 		}
 		effect = {
 			set_global_flag = braedralag_founded
@@ -989,7 +1133,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	become_braedralag = {
 		is_high_prio = yes
 		potential = {
@@ -1024,7 +1168,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	organise_jomsvikings = {
 		is_high_prio = yes
 		potential = {
@@ -1078,29 +1222,29 @@ decisions = {
 			}
 		}
 	}
-	
+
 	claim_sami = {
 		is_high_prio = yes
-		
+
 		potential = {
 			has_landed_title = k_sweden
 			NOT = { culture = lappish }
-			d_norrland = { de_jure_liege = k_sami }
+			d_norrland = { de_jure_liege = k_finland }
 			OR = {
-				k_sami = { has_holder = no }
+				k_finland = { has_holder = no }
 				completely_controls = d_norrland
 				any_vassal = { has_landed_title = d_norrland }
 			}
 			NOT = { has_global_flag = sami_claimed }
 		}
-		
+
 		allow = {
 			war = no
 			has_regent = no
 			ruled_years = 5
 			prestige = 100
 		}
-		
+
 		effect = {
 			set_global_flag = sami_claimed
 			prestige = 50
@@ -1146,39 +1290,39 @@ decisions = {
 				adjective=""
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	claim_finnmark = {
 		is_high_prio = yes
-		
+
 		potential = {
 			has_landed_title = k_norway
 			NOT = { culture = lappish }
-			d_nordland = { de_jure_liege = k_sami }
+			d_more = { de_jure_liege = k_finland }
 			OR = {
-				k_sami = { has_holder = no }
-				completely_controls = d_nordland
-				any_vassal = { has_landed_title = d_nordland }
+				k_finland = { has_holder = no }
+				completely_controls = d_more
+				any_vassal = { has_landed_title = d_more }
 			}
 			NOT = { has_global_flag = finnmark_claimed }
 		}
-		
+
 		allow = {
 			war = no
 			has_regent = no
 			ruled_years = 5
 			prestige = 100
 		}
-		
+
 		effect = {
 			set_global_flag = finnmark_claimed
 			prestige = 50
 			hidden_tooltip = {
-				d_nordland = {
+				d_more = {
 					any_de_jure_vassal = {
 						limit = {
 							NOT = { is_liege_or_above = ROOT }
@@ -1213,21 +1357,21 @@ decisions = {
 					}
 				}
 			}
-			d_nordland = {
+			d_more = {
 				de_jure_liege = k_norway
 				set_name=""
 				adjective=""
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	claim_kola = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				has_landed_title = k_finland
@@ -1238,28 +1382,28 @@ decisions = {
 				}
 			}
 			NOT = { culture = lappish }
-			d_osterbotten = { de_jure_liege = k_sami }
-			d_kola = { de_jure_liege = k_sami }
+			d_finland = { de_jure_liege = k_finland }
+			d_karelia = { de_jure_liege = k_finland }
 			OR = {
-				k_sami = { has_holder = no }
-				completely_controls = d_osterbotten
-				any_vassal = { has_landed_title = d_osterbotten }
+				k_finland = { has_holder = no }
+				completely_controls = d_finland
+				any_vassal = { has_landed_title = d_finland }
 			}
 			NOT = { has_global_flag = kola_claimed }
 		}
-		
+
 		allow = {
 			war = no
 			has_regent = no
 			ruled_years = 5
 			prestige = 100
 		}
-		
+
 		effect = {
 			set_global_flag = kola_claimed
 			prestige = 50
 			hidden_tooltip = {
-				d_osterbotten = {
+				d_finland = {
 					any_de_jure_vassal = {
 						limit = {
 							NOT = { is_liege_or_above = ROOT }
@@ -1293,7 +1437,7 @@ decisions = {
 						}
 					}
 				}
-				d_kola = {
+				d_karelia = {
 					any_de_jure_vassal = {
 						limit = {
 							NOT = { is_liege_or_above = ROOT }
@@ -1328,16 +1472,16 @@ decisions = {
 					}
 				}
 			}
-			d_osterbotten = {
+			d_finland = {
 				de_jure_liege = k_finland
 				set_name=""
 				adjective=""
 			}
-			d_kola = {
+			d_karelia = {
 				de_jure_liege = k_finland
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1345,7 +1489,7 @@ decisions = {
 
 	ai_form_sweden = {
 		is_high_prio = yes
-		
+
 		potential = {
 			ai = yes
 			is_ruler = yes
@@ -1404,10 +1548,10 @@ decisions = {
 			}
 		}
 	}
-	
+
 	ai_form_norway = {
 		is_high_prio = yes
-		
+
 		potential = {
 			ai = yes
 			is_ruler = yes
@@ -1466,10 +1610,10 @@ decisions = {
 			}
 		}
 	}
-	
+
 	ai_form_denmark = {
 		is_high_prio = yes
-		
+
 		potential = {
 			ai = yes
 			is_ruler = yes
@@ -1528,9 +1672,9 @@ decisions = {
 			}
 		}
 	}
-	
+
 	# Saxon
-	
+
 	organise_harii = {
 		is_high_prio = yes
 		potential = {
@@ -1586,7 +1730,7 @@ decisions = {
 	# Hungary/Magyars
 	take_carpathia = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				has_landed_title = k_magyar
@@ -1602,7 +1746,7 @@ decisions = {
 						owner = { same_realm = ROOT }
 					}
 				}
-				any_realm_title = { de_jure_liege = k_carpathia }
+				any_realm_title = { de_jure_liege = k_hungary }
 				any_realm_title = { title = c_pest }
 				NOR = {
 					is_nomadic = yes
@@ -1771,7 +1915,7 @@ decisions = {
 			modifier = {
 				factor = 0
 				NOT = { year = 865 }
-			} 
+			}
 			modifier = {
 				factor = 0
 				NOR = {

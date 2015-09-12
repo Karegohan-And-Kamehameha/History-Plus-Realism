@@ -11,9 +11,9 @@ province_event = {
 	id = Plus.1700
 	desc = EVTDESC_Plus_1700
 	picture = GFX_evt_busy_trading_dock_republic
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = OK
 		remove_province_modifier = recent_culture_change
@@ -108,7 +108,7 @@ province_event = {
 					ROOT = {
 						OR = {
 							culture = saxon
-							culture = gallawa
+							culture = norsegaelic
 							culture = old_saxon
 							culture = frisian
 							culture_group = north_germanic
@@ -350,7 +350,7 @@ province_event = {
 					ROOT = {
 						OR = {
 							culture = saxon
-							culture = gallawa
+							culture = norsegaelic
 							culture = old_saxon
 							culture = frisian
 							culture_group = north_germanic
@@ -592,7 +592,7 @@ province_event = {
 					ROOT = {
 						OR = {
 							culture = saxon
-							culture = gallawa
+							culture = norsegaelic
 							culture = old_saxon
 							culture = frisian
 							culture_group = north_germanic
@@ -834,7 +834,7 @@ province_event = {
 					ROOT = {
 						OR = {
 							culture = saxon
-							culture = gallawa
+							culture = norsegaelic
 							culture = old_saxon
 							culture = frisian
 							culture_group = north_germanic
@@ -902,7 +902,7 @@ province_event = {
 					ROOT = { culture_group = south_slavic }
 				}
 				add_building = ca_culture_group_south_slavic_4
-				
+
 			if = {
 				limit = {
 					ROOT = { culture = dutch }
@@ -992,16 +992,16 @@ province_event = {
 # Remove any illegitimate culture buildings
 province_event = {
 	id = Plus.1701
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		has_province_modifier = recent_culture_change
 		owner = { war = no }
 		owner = { NOT = { any_liege = { war = yes } } }
 		county = { is_occupied = no }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 		modifier = {
@@ -1108,9 +1108,9 @@ province_event = {
 					has_building = ca_culture_coptic_4
 				}
 			}
-		}		
+		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -1195,8 +1195,8 @@ province_event = {
 						has_building = ca_culture_group_baltic_4
 					}
 				}
-				NOR = { 
-					culture_group = baltic 
+				NOR = {
+					culture_group = baltic
 					culture_group = finno_ugric
 				}
 			}
@@ -1233,8 +1233,8 @@ province_event = {
 						has_building = ca_culture_group_altaic_4
 					}
 				}
-				NOR = { 
-					culture_group = altaic 
+				NOR = {
+					culture_group = altaic
 					culture_group = iranian
 				}
 			}
@@ -1271,8 +1271,8 @@ province_event = {
 						has_building = ca_culture_frank_norman_german_4
 					}
 				}
-				NOR = { 
-					culture = frankish 
+				NOR = {
+					culture = frankish
 					culture = occitan
 					culture = norman
 					culture = german
@@ -1314,8 +1314,8 @@ province_event = {
 						has_building = ca_culture_group_iberian_4
 					}
 				}
-				NOR = { 
-					culture = visigothic 
+				NOR = {
+					culture = visigothic
 					culture_group = iberian
 				}
 			}
@@ -1352,8 +1352,8 @@ province_event = {
 						has_building = ca_culture_italian_4
 					}
 				}
-				NOR = { 
-					culture = italian 
+				NOR = {
+					culture = italian
 					culture = sicilian
 				}
 			}
@@ -1390,8 +1390,8 @@ province_event = {
 						has_building = ca_culture_russian_4
 					}
 				}
-				NOT = { 
-					culture_group = east_slavic 
+				NOT = {
+					culture_group = east_slavic
 				}
 			}
 			any_province_holding = {
@@ -1427,9 +1427,9 @@ province_event = {
 						has_building = ca_culture_group_north_germanic_4
 					}
 				}
-				NOR = { 
+				NOR = {
 					culture = saxon
-					culture = gallawa
+					culture = norsegaelic
 					culture = old_saxon
 					culture = frisian
 					culture_group = north_germanic
@@ -1468,7 +1468,7 @@ province_event = {
 						has_building = ca_culture_hungarian_4
 					}
 				}
-				NOR = { 
+				NOR = {
 					culture = hungarian
 					culture_group = west_slavic
 				}
@@ -1506,11 +1506,11 @@ province_event = {
 						has_building = ca_culture_group_arabic_4
 					}
 				}
-				NOR = { 
+				NOR = {
 					culture = bedouin_arabic
 					culture = levantine_arabic
 					culture = egyptian_arabic
-					culture = sicilian_arabic 
+					culture = sicilian_arabic
 				}
 			}
 			any_province_holding = {
@@ -1546,8 +1546,8 @@ province_event = {
 						has_building = ca_culture_group_byzantine_4
 					}
 				}
-				NOT = { 
-					culture_group = byzantine 
+				NOT = {
+					culture_group = byzantine
 				}
 			}
 			any_province_holding = {
@@ -1583,8 +1583,8 @@ province_event = {
 						has_building = ca_culture_irish_4
 					}
 				}
-				NOT = { 
-					culture = irish 
+				NOT = {
+					culture = irish
 				}
 			}
 			any_province_holding = {
@@ -1620,8 +1620,8 @@ province_event = {
 						has_building = ca_culture_ethiopian_4
 					}
 				}
-				NOT = { 
-					culture = ethiopian 
+				NOT = {
+					culture = ethiopian
 				}
 			}
 			any_province_holding = {
@@ -1657,8 +1657,8 @@ province_event = {
 						has_building = ca_culture_somali_4
 					}
 				}
-				NOT = { 
-					culture = somali 
+				NOT = {
+					culture = somali
 				}
 			}
 			any_province_holding = {
@@ -1694,8 +1694,8 @@ province_event = {
 						has_building = ca_culture_west_african_4
 					}
 				}
-				NOT = { 
-					culture_group = west_african 
+				NOT = {
+					culture_group = west_african
 				}
 			}
 			any_province_holding = {
@@ -1731,8 +1731,8 @@ province_event = {
 						has_building = ca_culture_group_south_slavic_4
 					}
 				}
-				NOT = { 
-					culture_group = south_slavic 
+				NOT = {
+					culture_group = south_slavic
 				}
 			}
 			any_province_holding = {
@@ -1768,8 +1768,8 @@ province_event = {
 						has_building = ca_culture_dutch_4
 					}
 				}
-				NOT = { 
-					culture = dutch  
+				NOT = {
+					culture = dutch
 				}
 			}
 			any_province_holding = {
@@ -1805,8 +1805,8 @@ province_event = {
 						has_building = ca_culture_nahuatl_4
 					}
 				}
-				NOT = { 
-					culture = nahuatl  
+				NOT = {
+					culture = nahuatl
 				}
 			}
 			any_province_holding = {
@@ -1841,8 +1841,8 @@ province_event = {
 						has_building = ca_culture_jewish_4
 					}
 				}
-				NOT = { 
-					culture_group = israelite  
+				NOT = {
+					culture_group = israelite
 				}
 			}
 			any_province_holding = {
@@ -1878,7 +1878,7 @@ province_event = {
 						has_building = ca_culture_indian_4
 					}
 				}
-				NOR = { 
+				NOR = {
 					culture_group = indo_aryan_group
 					culture_group = dravidian_group
 				}
@@ -1916,7 +1916,7 @@ province_event = {
 						has_building = ca_culture_nubian_4
 					}
 				}
-				NOT = { 
+				NOT = {
 					culture = nubian
 				}
 			}
@@ -1953,7 +1953,7 @@ province_event = {
 						has_building = ca_culture_germanic_4
 					}
 				}
-				NOR = { 
+				NOR = {
 					culture = lombard
 					culture = old_frankish
 				}
@@ -1991,7 +1991,7 @@ province_event = {
 						has_building = ca_culture_pictish_4
 					}
 				}
-				NOT = { 
+				NOT = {
 					culture = pictish
 				}
 			}
@@ -2028,7 +2028,7 @@ province_event = {
 						has_building = ca_culture_suebi_4
 					}
 				}
-				NOT = { 
+				NOT = {
 					culture = suebi
 				}
 			}
@@ -2065,7 +2065,7 @@ province_event = {
 						has_building = ca_culture_moors_4
 					}
 				}
-				NOR = { 
+				NOR = {
 					culture = andalusian_arabic
 					culture = maghreb_arabic
 				}
@@ -2103,8 +2103,8 @@ province_event = {
 						has_building = ca_culture_roman_4
 					}
 				}
-				NOT = { 
-					culture = roman 
+				NOT = {
+					culture = roman
 				}
 			}
 			any_province_holding = {
@@ -2140,8 +2140,8 @@ province_event = {
 						has_building = ca_culture_coptic_4
 					}
 				}
-				NOT = { 
-					culture = roman 
+				NOT = {
+					culture = roman
 				}
 			}
 			any_province_holding = {
@@ -2180,7 +2180,7 @@ province_event = {
 
 	is_triggered_only = yes
 	notification = yes
-	
+
 	option = {
 		name = OK
 	}

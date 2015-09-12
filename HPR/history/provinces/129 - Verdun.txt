@@ -4,19 +4,16 @@
 title = c_verdun
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
+b_verdun = castle
+b_saintmihel = city
 
-b_doaumont = castle # Douaumont
-b_verdun = temple # Verdun
-b_etain = city # Étain
-
-#b_grandpre = temple # Grandpré
-#b_saintmihel = temple # Saint Mihiel
+#b_longuyon = castle
+#b_doaumont = castle
 
 # Misc
-culture = old_frankish
+culture = frankish
 religion = catholic
 
 # History
-790.1.1 = { culture = frankish }
-1134.1.1 = { capital = b_verdun }
+

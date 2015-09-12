@@ -4,7 +4,7 @@
 title = c_akordat
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_akordat = castle
 
@@ -21,7 +21,5 @@ culture = ethiopian
 religion = miaphysite
 
 # History
-700.1.1 = { 
-	b_cheren = ct_jewish_community_1
-}
+
 

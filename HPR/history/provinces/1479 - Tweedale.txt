@@ -1,0 +1,22 @@
+# 1479 - Tweedale
+
+# County Title
+title = c_tweedale
+
+# Settlements
+max_settlements = 4
+b_neidpath = castle
+b_stobo = temple
+#b_peebles = city
+b_selkirk = castle
+#b_stow_of_wedale = temple
+
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+700.1.1 = { culture = saxon } 
+1000.1.1 = { culture = scottish } 

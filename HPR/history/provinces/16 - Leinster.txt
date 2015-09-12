@@ -1,26 +1,24 @@
-# 16 - Leinster
+# 16 - Leinster # Wexford
 
 # County Title
 title = c_leinster
 
 # Settlements
 max_settlements = 4
-b_leighlin = tribal
-#b_wexford = city
+
+b_wexford = castle
 b_ferns = temple
 
-#b_arklow = castle
-#b_carlow = castle
-#b_glendalough = castle
 #b_enniscorthy = castle
-#b_naas = castle
+#b_bargy = castle
+#b_new_ross = city
 
 # Misc
-culture = irish
+culture = norse
 religion = catholic
 
 # History
-1000.1.1 = {
-	b_leighlin = castle
-	b_wexford = city
+867.1.1 = {
+	b_wexford = ca_shipyard_1
 }
+1047.10.25 = { culture = norsegaelic }

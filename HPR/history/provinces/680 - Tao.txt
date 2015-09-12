@@ -4,15 +4,15 @@
 title = c_tao
 
 # Settlements
-max_settlements = 4
-b_panaskerti = castle
-b_artanuji = city
+ max_settlements = 4
+b_ughtis = castle
+b_mamrovani = city
 b_khakhuli = temple
+#b_berdagrak = castle
+#b_panaskerti = castle
 #b_khertvisi = castle
-#b_akhaltsikhe = castle
-#b_vardzia = city
-#b_oshki = temple
-#b_ughtik = castle
+#b_vatsejori = temple
+#b_kalamakhi = castle
 
 # Misc
 culture = georgian

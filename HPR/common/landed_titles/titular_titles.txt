@@ -1,0 +1,737 @@
+# List of extra Titular Titles
+# ToG de jure stuff
+d_oxford = { # Oxford
+	color = { 99 68 5 }
+	capital = 22 # Oxford
+}
+d_chester = { # Chester
+	color = { 121 29 29 }
+	capital = 59 # Chester
+}
+d_gloucester = { # Hwicce
+	color = { 57 21 209 }
+	capital = 21 # Gloucester
+}
+b_zussow = {}
+b_kolbatz = {}
+d_yaroslavl = { # Yaroslavl
+	color = { 178 192 134 }
+	capital = 572 # Yaroslavl
+}
+d_vitebsk = { # Vitebsk
+	color = { 196 33 55 }
+	capital = 417 # Vitebesk # Vitebsk
+}
+d_cheremisa = { # Cheremisa
+	color = { 188 115 43 }
+	color2 = { 255 255 255 }
+	capital = 590 # Sura # Chuvash
+	allow = { always = no }
+}
+d_pronsk = {
+	color = { 23 132 81 }
+	capital = 577 # Pronsk
+}
+d_socotra = {
+	color = { 142 255 85 }
+	color2 = { 255 255 255 }
+	capital = 1552 # Socotra
+	dignity = 10
+}
+# TITULAR SWMH
+k_ireland_titular = { # Tara
+	color = { 161 51 177 }
+	color2 = { 255 255 255 }
+	capital = 975 # Brega
+	culture = irish
+	religion = catholic
+	allow = {
+		# Only allow it to be usurped when already held, and otherwise it must
+		# have become de jure to create it.
+		FROM = {
+			or = {
+				is_titular = no
+				has_holder = yes
+			}
+		}
+	}
+}
+d_lowerbrittany = { # Breizh Izel
+	color = { 148 148 116 }
+	color2 = { 255 255 255 }
+	capital = 105 # Gwened # Vannes
+	culture = breton
+	allow = {
+		independent = yes
+		not = {
+			has_landed_title = d_brittany
+			any_demesne_title = {
+				or = {
+					tier = king
+					tier = emperor
+				}
+			}
+		}
+	}
+}
+e_ulm = { # Ulm
+	color = { 110 110 110 }
+	capital = 252 # Ulm # ULM
+	title = ULM
+	foa = ULM_FOA
+	short_name = yes
+	allow = {
+		has_landed_title = c_ulm
+		independent = yes
+		prestige = 2000
+		or = {
+			has_landed_title = c_ferrara
+			any_vassal = { has_landed_title = c_ferrara }
+		}
+	}
+}
+e_khazaria = { # Qasarstan
+	color = { 200 157 81 }
+	capital = 620 # Itil
+	mongol = "Xäzärstan"
+	kirghiz = "Xäzärstan"
+	bedouin_arabic = "Khazarstan"
+	maghreb_arabic = "Khazarstan"
+	levantine_arabic = "Khazarstan"
+	egyptian_arabic = "Khazarstan"
+	andalusian_arabic = "Khazarstan"
+	sicilian_arabic = "Khazarstan"
+	sanhaja = "Khazarstan"
+	tagelmust = "Khazarstan"
+	tuareg = "Khazarstan"
+	masmuda = "Khazarstan"
+	zanata = "Khazarstan"
+	pahlavi = "Xazarstán"
+	persian = "Xazarstán"
+	tajik = "Xazarstán"
+	daylamite = "Xazarstán"
+	khalaj = "Xazarstán"
+	soghdian = "Xazarstán"
+	khwarezmi = "Xazarstán"
+	kurdish = "Xazarstán"
+	pashtun = "Xazarstán"
+	qufs = "Xazarstán"
+	baloch = "Xazarstán"
+	alan = "Chazaria"
+	sicilian_greek = "Chazaria"
+	arberian = "Chazaria"
+	armenian = "Chazaria"
+	georgian = "Chazaria"
+	greek = "Chazaria"
+	east_gothic = "Chazaria"
+	dalmatian = "Cassaria"
+	italian = "Cassaria"
+	sardinian = "Cassaria"
+	sicilian = "Cassaria"
+	corsican = "Cassaria"
+	central_italian = "Cassaria"
+	southern_italian = "Cassaria"
+	neapolitan = "Cassaria"
+	tuscan = "Cassaria"
+	ligurian = "Cassaria"
+	langobardisch = "Cassaria"
+	venetian = "Cassaria"
+	turkish = "Hazarstan"
+	turkmen = "Hazarstan"
+	oghuz = "Hazarstan"
+	polish = "Kozariaia"
+	bohemian = "Kozaria"
+	pommeranian = "Kozaria"
+	moravian = "Kozaria"
+	russian = "Kozarye"
+	serbian = "Kozaria"
+	croatian = "Kozaria"
+	bulgarian = "Kozaria"
+	karantanci = "Kozaria"
+	bosnian = "Kozaria"
+	allow = {
+		or = {
+			religion_group = jewish_group
+			religion = tengri_pagan
+			religion = tengri_pagan_reformed
+		}
+		has_landed_title = k_khazaria
+		independent = yes
+	}
+} # end e_khazaria
+e_khitan = { # Kara Khitai
+	color = { 130 10 50 }
+	capital = 1572 # Balasaghnun
+	short_name = yes
+	allow = { always = no }
+}
+k_qipchaq = { # Qipchaqlar # Wild Cumans
+	color = { 45 92 150 }
+	color2 = { 255 255 255 }
+	capital = 619 # Saray
+	dynasty_title_names = no
+	culture = cuman
+	allow = { always = no }
+}
+k_cuman = { # Kumanlar # Non wild Cumans
+	color = { 166 76 99 }
+	color2 = { 255 255 255 }
+	capital = 557 # Tokmak
+	dynasty_title_names = no
+	culture = cuman
+	allow = { always = no }
+}
+k_pechenegs = { # Beçeneklar
+	color = { 79 116 79 }
+	color2 = { 255 255 255 }
+	capital = 618 # Saray-Jük # Little Sarai
+	dynasty_title_names = no
+	culture = pecheneg
+	allow = { always = no }
+}
+k_qangar = { # Qangar
+	color = { 45 99 180 }
+	color2 = { 255 255 255 }
+	dynasty_title_names = no
+	capital = 557 # Tokmak
+	culture = pecheneg
+	allow = { always = no }
+}
+k_uzes = { # Uzlar
+	color = { 220 158 121 }
+	color2 = { 255 255 255 }
+	dynasty_title_names = no
+	capital = 895 # Yaik
+	culture = oghuz
+	allow = { always = no }
+}
+d_black_caps = { # Karakalpaklar
+	color = { 189 121 13 }
+	color2 = { 255 255 255 }
+	dynasty_title_names = no
+	capital = 544 # Ros’
+	russian = "Chyornye Klobuki"
+	persian = "Qaum-i Kulah-i Siyahan"
+	culture = oghuz
+	allow = {
+		or = {
+			culture = oghuz
+			culture = pecheneg
+		}
+	}
+}
+e_kaleva = { # Kalevala
+	color = { 144 157 181 }
+	capital = 381 # Nyland
+	allow = {
+		culture_group = finno_ugric
+		has_landed_title = k_finland
+		has_landed_title = k_terra
+		independent = yes
+	}
+}
+k_geats = { # Gautaríki
+	color = { 208 191 99 }
+	capital = 293 # Östergötland
+	allow = {
+		or = {
+			and = {
+				has_landed_title = d_vastergotland
+				has_landed_title = d_ostergotland
+			}
+			independent = yes
+			not = {
+				any_demesne_title = {
+					or = {
+						tier = king
+						tier = emperor
+					}
+				}
+			}
+			and = {
+				has_landed_title = k_denmark
+				or = {
+					has_landed_title = d_vastergotland
+					any_vassal = { has_landed_title = d_vastergotland }
+				}
+				or = {
+					has_landed_title = d_ostergotland
+					any_vassal = { has_landed_title = d_ostergotland }
+				}
+				prestige = 1500
+			}
+			and = {
+				has_landed_title = k_sweden
+				or = {
+					has_landed_title = d_vastergotland
+					any_vassal = { has_landed_title = d_vastergotland }
+				}
+				or = {
+					has_landed_title = d_ostergotland
+					any_vassal = { has_landed_title = d_ostergotland }
+				}
+				prestige = 1500
+			}
+			and = {
+				has_landed_title = k_norway
+				or = {
+					has_landed_title = d_vastergotland
+					any_vassal = { has_landed_title = d_vastergotland }
+				}
+				or = {
+					has_landed_title = d_ostergotland
+					any_vassal = { has_landed_title = d_ostergotland }
+				}
+				prestige = 1500
+			}
+		}
+	}
+} # end k_geats
+e_germany = { # Germania
+	color = { 190 200 190 }
+	color2 = { 220 220 20 }
+	capital = 121 # Nassau
+	culture = german
+	allow = { always = no }
+}
+k_avaria = { # Avaria
+	color = { 250 120 90 } # Only for the CoA
+	culture = avar
+	capital = 444 # Visegrád # Esztergom
+	allow = { always = no }
+}
+k_lombardy = { # Lombardy
+	color = { 234 217 110 } # Only for the CoA
+	culture = lombard
+	capital = 234 # Pavia
+	allow = { always = no }
+}
+d_lauenburg = { # Sachsen-Lauenburg
+	capital = 1098 # Lauenburg
+	color = { 77 127 196 }
+	color2 = { 255 255 255 }
+	allow = {
+		or = {
+			has_landed_title = c_lauenburg
+			any_vassal = { has_landed_title = c_lauenburg }
+		}
+		not = { any_demesne_title = { tier = emperor } }
+	}
+}
+d_sangermano = { # Terra Sancti Benedicti
+	capital = 1318 # Aquino # Sangermano
+	color = { 77 127 196 }
+	color2 = { 255 255 255 }
+	short_name = yes
+	allow = {
+		religion_group = christian
+		is_theocracy = yes
+		piety = 500
+	}
+}
+k_salerno = { # Principato di Salerno
+	color = { 0 132 250 }
+	culture = langobardisch
+	capital = 336 # Salerno
+	allow = {
+		culture = langobardisch
+		religion_group = christian
+		has_landed_title = d_salerno
+	}
+}
+d_austrialombardic = { # Austria
+	color = { 4 33 122 }
+	culture = langobardisch
+	capital = 319 # Verona
+	allow = {
+		culture = langobardisch
+		religion_group = christian
+		has_landed_title = d_verona
+		has_landed_title = d_aquileia
+	}
+}
+d_neustria = { # Neustria
+	color = { 4 33 11 }
+	culture = langobardisch
+	capital = 234 # Pavia
+	dignity = 15 # Counted as having 15 more counties than it does
+	allow = {
+		culture = langobardisch
+		religion_group = christian
+		has_landed_title = d_parma
+		has_landed_title = d_modena
+		has_landed_title = d_susa
+		has_landed_title = d_monferrato
+	}
+}
+d_tuscia = { # Tuscia
+	color = { 250 241 220 }
+	culture = langobardisch
+	capital = 323 # Lucca
+	allow = {
+		culture = langobardisch
+		religion_group = christian
+		has_landed_title = d_lucca
+		has_landed_title = d_toscana
+	}
+}
+k_duklja = { # Duklja
+	color = { 224 186 36 }
+	culture = serbian
+	capital = 469 # Crna Gora # Zeta
+	allow = {
+		k_serbia = { # Srbija
+			has_holder = no
+		}
+		ruled_years = 5
+		war = no
+		is_adult = yes
+		not = { tier = emperor }
+	}
+}
+k_austria = { # Österreich
+	color = { 188 0 7 }
+	culture = german
+	capital = 449 # Österreich
+	title = ADA
+	foa = ADA_FOA
+	title_prefix = ADA_OF
+	allow = {
+		culture = german
+		religion_group = christian
+		has_landed_title = d_osterreich
+		has_landed_title = d_carinthia
+	}
+}
+d_smaland = { # Småland
+	color = { 88 138 70 }
+	capital = 298 # Njudung # Småland
+	norse = "Smáland"
+	allow = {
+		or = {
+			has_landed_title = c_smaland
+			any_vassal = { has_landed_title = c_smaland }
+		}
+		or = {
+			has_landed_title = c_tjust
+			any_vassal = { has_landed_title = c_tjust }
+		}
+		or = {
+			has_landed_title = c_finnveden
+			any_vassal = { has_landed_title = c_finnveden }
+		}
+		independent = yes
+		not = {
+			any_demesne_title = {
+				or = {
+					tier = king
+					tier = emperor
+				}
+			}
+		}
+	}
+}
+e_occitania = { # Occitània
+	color = { 230 0 70 }
+	color2 = { 255 255 255 }
+	capital = 214 # Tolosa # Toulouse
+	culture = occitan
+	name_tier = king
+	dignity = 100 # Counted as having 100 more counties than it does
+	allow = {
+		or = {
+			culture = occitan
+			culture = catalan
+		}
+		religion_group = christian
+		independent = yes
+		or = {
+			has_landed_title = d_toulouse
+			any_vassal = { has_landed_title = d_toulouse }
+		}
+		or = {
+			has_landed_title = d_aquitaine
+			any_vassal = { has_landed_title = d_aquitaine }
+		}
+		or = {
+			has_landed_title = d_provence
+			any_vassal = { has_landed_title = d_provence }
+		}
+		or = {
+			has_landed_title = d_gevaudan
+			any_vassal = { has_landed_title = d_gevaudan }
+		}
+		or = {
+			has_landed_title = d_foix
+			any_vassal = { has_landed_title = d_foix }
+		}
+		or = {
+			has_landed_title = d_septimania
+			any_vassal = { has_landed_title = d_septimania }
+		}
+		or = {
+			has_landed_title = d_gascogne
+			any_vassal = { has_landed_title = d_gascogne }
+		}
+	}
+} # end e_occitania
+# Titular Darrigan
+# The county of Flanders had more autonomy than other regions under the French crown. They did lose the independence wars # in the 13th and 14th century. But what if they had won?
+k_flanders = { # Vlaanderen
+	color = { 255 120 0 }
+	color2 = { 255 255 255 }
+	capital = 78 # Brugge
+	allow = {
+		has_landed_title = d_flanders
+		or = {
+			has_landed_title = c_brugge
+			has_landed_title = c_gent
+			has_landed_title = c_yperen
+			has_landed_title = c_lille
+			has_landed_title = c_tournai
+		}
+		independent = yes
+		not = {
+			any_demesne_title = {
+				or = {
+					tier = king
+					tier = emperor
+				}
+			}
+		}
+	}
+}
+# ARKO
+d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès.
+	color = { 0 20 188 }
+	color2 = { 255 255 255 }
+	capital = 214 # Tolosa # Toulouse
+	culture = occitan
+	allow = { always = no }
+}
+# King
+d_paulicians = { # Paulikianoi
+	color = { 78 33 125 }
+	capital = 944 # Tephrike
+	allow = {
+		or = {
+			culture = greek
+			culture = armenian
+		}
+		religion = paulician
+	}
+}
+#d_melitene = {
+#	color = { 11 34 128 }
+#	culture = levantine_arabic
+#	capital = 707 # Melitene
+#	allow = {
+#		OR = {
+#			culture = levantine_arabic
+#			culture = kurdish
+#			culture = turkish
+#		}
+#		religion_group = muslim
+#	}
+#}
+#d_lori = {
+#	color = { 12 33 130 }
+#	culture = armenian
+#	capital = 1013 # Lori
+#	allow = {
+#		culture = armenian
+#		religion_group = christian
+#	}
+#}
+k_armenia_minor = { # Mikrá Armenia
+	color = { 14 30 131 }
+	culture = armenian
+	capital = 735 # Marash # Teluch
+	allow = {
+		culture = armenian
+		religion_group = christian
+	}
+}
+k_bagratid_grand_principality = { # Hayk
+	color = { 117 178 81 }
+	culture = armenian
+	capital = 681 # Ani
+	title = ISHKHAN
+	foa = ISHKHAN_FOA
+	title_prefix = ISHKHAN_OF
+	allow = {
+		culture = armenian
+		religion_group = christian
+	}
+}
+d_pagania = { # Neretljani
+	color = { 114 230 1 }
+	capital = 1330 # Omis
+	allow = {
+		or = {
+			culture = serbian
+			culture = croatian
+		}
+		religion = slavic_pagan
+	}
+}
+d_rhodos = { # Rhodos
+	color = { 144 230 19 }
+	capital = 483 # Dodekánisa # Rhodos
+	title = CAESAR
+	foa = CAESAR_FOA
+	title_prefix = CAESAR_OF
+	allow = {
+		or = {
+			culture = greek
+			culture = frankish
+		}
+		religion_group = christian
+	}
+}
+e_chagatai = { # Chagatai
+	color = { 200 200 200 }
+	color2 = { 0 250 250 }
+	capital = 903 # Samarkand
+	culture = mongol
+	religion = tengri_pagan
+	allow = { always = no }
+}
+d_dahlak = { # Dahlak
+	color = { 255 164 17 }
+	capital = 1592 # Dahlak
+	allow = {
+		or = {
+			culture = bedouin_arabic
+			culture = ethiopian
+			culture = beja
+		}
+		is_republic = yes
+	}
+}
+d_siraf = { # Siráf
+	color = { 40 200 200 }
+	capital = 1594 # Irahistan # Siraf
+	allow = {
+		or = {
+			culture = persian
+			culture = pahlavi
+			culture = bedouin_arabic
+		}
+		is_republic = yes
+	}
+}
+e_wendish_empire = { # Wendish Empire
+	color = { 65 25 125 }
+	capital = 441 # Boruy # Brno
+	short_name = yes
+	bohemian = "Velké Czechy"
+	moravian = "Velká Morava"
+	polish = "Wiêksza Polska"
+	pommeranian = "Vendia"
+	karantanci = "Vendia"
+	croatian = "Vendia"
+	allow = {
+		or = {
+			religion = catholic
+			religion = slavic_pagan
+			religion = slavic_pagan_reformed
+		}
+		or = {
+			culture_group = west_slavic
+			culture = karantanci
+			culture = croatian
+		}
+		and = {
+			has_landed_title = k_moravia
+			or = {
+				has_landed_title = k_poland
+				has_landed_title = k_pomerania
+				has_landed_title = k_bohemia
+				has_landed_title = k_hungary
+			}
+		}
+		independent = yes
+		ruled_years = 5
+		war = no
+		is_adult = yes
+	}
+}
+# Ireland
+d_breifne = { # Breifne
+	color = { 54 135 39 }
+	color2 = { 136 0 21 }
+	irish = "Bréifne"
+	scottish = "Bréifne"
+	norsegaelic = "Bréifne"
+	welsh = "Bréifne"
+	cumbric = "Bréifne"
+	cornish = "Bréifne"
+	breton = "Bréifne"
+	saxon = "Breffny"
+	anglonorse = "Breffny"
+	norse = "Breffny"
+	norwegian = "Breffny"
+	danish = "Breffny"
+	swedish = "Breffny"
+	gothic = "Breffny"
+	icelandic = "Breffny"
+	capital = 8 # Leitrim
+}
+d_thomond = { # Thomond
+	color = { 30 100 80 }
+	color2 = { 255 255 255 }
+	irish = "Tuadhmhumhain"
+	scottish = "Tuadhmhumhain"
+	norsegaelic = "Tuadhmhumhain"
+	welsh = "Tuadhmhumhain"
+	cumbric = "Tuadhmhumhain"
+	breton = "Tuadhmhumhain"
+	cornish = "Tuadhmhumhain"
+	capital = 13 # Clare # Thomond
+}
+d_ossory = { # Ossory
+	color = { 60 200 10 }
+	color2 = { 255 255 255 }
+	irish = "Osraige"
+	scottish = "Osraige"
+	norsegaelic = "Osraige"
+	welsh = "Osraige"
+	cumbric = "Osraige"
+	breton = "Osraige"
+	cornish = "Osraige"
+	capital = 12 # Ossory
+}
+d_oneill = { # O'Neill
+	color = { 70 106 21 }
+	color2 = { 255 255 255 }
+	capital = 4 # Tyrone
+	irish = "Uí Néill"
+	scottish = "Uí Néill"
+	norsegaelic = "Uí Néill"
+	cornish = "Uí Néill"
+	breton = "Uí Néill"
+	cumbric = "Uí Néill"
+	welsh = "Uí Néill"
+}
+d_airgialla = { # Airgíalla
+	color = { 30 180 20 }
+	color2 = { 251 140 17 }
+	irish = "Airgíalla"
+	scottish = "Oirialla"
+	norsegaelic = "Airgíalla"
+	welsh = "Airgíalla"
+	cornish = "Airgíalla"
+	breton = "Airgíalla"
+	cumbric = "Airgíalla"
+	saxon = "Oriel"
+	anglonorse = "Oriel"
+	english = "Oriel"
+	norse = "Oriel"
+	norwegian = "Oriel"
+	danish = "Oriel"
+	swedish = "Oriel"
+	gothic = "Oriel"
+	icelandic = "Oriel"
+	capital = 7 # Oriel
+}

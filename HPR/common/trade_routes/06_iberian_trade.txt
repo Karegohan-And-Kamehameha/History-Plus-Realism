@@ -20,9 +20,9 @@ iberian_trade = {
 		157 158 159 187 193 195 184 181
 	}
 	path = {	# Barcelona-Lleida-Zaragoza-Calatayud-Guadalajara-Toledo-Cordoba
-		204 203 202 175 176 1492 197 196 181
+		204 203 202 175 176 1201 197 196 181
 	}
 	path = {	# Cordoba-Cadiz
 		181 182 165
-	}		
+	}
 }

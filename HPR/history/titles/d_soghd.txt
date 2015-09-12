@@ -1,0 +1,17 @@
+864.1.1={
+	liege="k_mavarannahr"
+}
+864.1.1={
+	holder=163099
+}
+892.1.1={
+	holder=163157
+}
+
+# Karakhanids
+1052.1.1={
+	holder=3014
+}
+1068.1.1={
+	holder=3016
+}

@@ -1,0 +1,17 @@
+866.1.1={
+	liege="k_khorasan"
+}
+866.1.1={
+	holder=163161
+}
+
+1034.1.1={
+  holder = 3038
+}
+1040.1.1={
+	liege="k_khorasan"
+}
+1066.1.1={
+	liege="d_merv"
+	holder=93129
+}

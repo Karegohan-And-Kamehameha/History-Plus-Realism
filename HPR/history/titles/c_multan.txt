@@ -3,11 +3,6 @@
 }
 
 # 712-750: Umayyad governors
-
-762.1.1={
-	holder=188551 # fictitious deputy of al-Multan
-}
-
 # 750-863: Abbasid governors
 
 863.1.1={
@@ -37,7 +32,7 @@
 	holder = 188543 # ? Karmatia
 }
 1178.1.1={ # Ghurid conquest, massacre of Ismaili sultans
-	liege=k_afghanistan
+	liege=k_kafarestan
 	holder=144142 
 }
 1186.1.1={
@@ -45,9 +40,6 @@
 }
 1203.1.1={
 	holder=170300
-}
-1218.1.1 = {
-	holder = 194188
 }
 1228.5.30={
 	holder=170193 #Iltutmish

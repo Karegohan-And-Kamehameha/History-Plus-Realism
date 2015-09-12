@@ -1,0 +1,318 @@
+###############################################################
+#  SWMH Armenian characters
+###############################################################
+# SWMH Character Range: 1.000.232.500 - 1.000.232.599
+##############################################################################################
+
+#The Founder of the Kourtikios family. Should probably be Armenian
+1000232500 = {
+	name="Kourtikios"
+	dynasty=1000102809 #id taken from our file#
+	religion="orthodox"
+	culture="armenian"
+	830.1.1 = {
+		birth="830.1.1"
+	}
+	898.1.1 = {
+		death="898.1.1"
+	}
+}
+#The Ruler of Melitene until right after the end of the First Crusade
+1000232501 = {
+	name="Ghavril"
+	dynasty=1000102900 #id taken from our file#
+	religion="miaphysite"
+	culture="armenian"
+	1049.1.1 = {
+		birth="1049.1.1"
+	}
+	1102.1.1 = {
+		death="1102.1.1"
+	}
+}
+#The Doux of Antioch in 1066, was one of the last supporters that Romanos Diogenes had
+1000232502 = {
+	name="Khacatur"
+	dynasty=1000102901 #id taken from our file#
+	religion="miaphysite"
+	culture="armenian"
+	1036.1.1 = {
+		birth="1036.1.1"
+	}
+	1073.1.1 = {
+		death="1073.1.1"
+	}
+}
+#The son of David II of Lori
+1000232503 = {
+	name="Kvirike"
+	dynasty=507
+	religion="miaphysite"
+	culture="armenian"
+	father=41336
+	1094.1.1 = {
+		birth="1094.1.1"
+	}
+	1185.1.1 = {
+		death="1185.1.1"
+	}
+}
+#The ruler of Kaysun and Germanikeia after the death of Philaretos (Vahram). First as a Seljuk vassal, later as a free prince. Collaborated heavily with the first crusade.
+1000232504 = {
+	name="Vasil"
+	dynasty=1000102902 
+	religion="miaphysite"
+	culture="armenian"
+	mother=1000232506
+	1067.1.1 = {
+		birth="1067.1.1"
+	}
+	1112.1.1 = {
+		death="1112.1.1"
+	}
+}
+#Vasil's nephew and adopted son. Was forced to renounce his lands by the Count of Edessa
+1000232505 = {
+	name="Vasil-Dgha"
+	dynasty=1000102902 
+	religion="miaphysite"
+	culture="armenian"
+	mother=1000232507
+	1094.1.1 = {
+		birth="1094.1.1"
+	}
+	1117.1.1 = {
+		death="1117.1.1"
+	}
+}
+#Placeholder Mother of Vasil and Bagrat. The Nobility came from the Mother's side of the family
+1000232506 = {
+	name="Rhuzukan"
+	dynasty=1000102902 
+	religion="miaphysite"
+	culture="armenian"
+	female=yes
+	1045.1.1 = {
+		birth="1045.1.1"
+	}
+	1100.1.1 = {
+		death="1100.1.1"
+	}
+}
+#Placeholder sister of Kogh-Vasil and mother of Vasil-Dgha
+1000232507 = {
+	name="Kata"
+	dynasty=1000102902 
+	religion="miaphysite"
+	culture="armenian"
+	female=yes
+	mother=1000232506
+	1071.1.1 = {
+		birth="1071.1.1"
+	}
+	1123.1.1 = {
+		death="1123.1.1"
+	}
+}
+#Vasil's brother who went into the service of Baldwin of Jerusalem who made him Lord of Ravendel. Was expelled alongside his nephew Vasil-Dgha
+1000232508 = {
+	name="Bagrat"
+	dynasty=1000102902 
+	religion="miaphysite"
+	culture="armenian"
+	mother=1000232506
+	1069.1.1 = {
+		birth="1069.1.1"
+	}
+	1130.1.1 = {
+		death="1130.1.1"
+	}
+}
+#The daughter of Gabriel of Melitene and the wife of Thoros of Edessa
+1000232509 = {
+	name="Morfia"
+	dynasty=1000102900
+	female=yes
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232501
+	1070.1.1 = {
+		birth="1070.1.1"
+	}
+	1123.1.1 = {
+		death="1123.1.1"
+	}
+}
+#The Armenian Doux of Cyprus between 1075 and 1085, from the same family as Philaretos Brachamios. The exact relation is unknown. Placeholder Brother of Philaretos
+1000232510 = {
+	name="Elpidios"
+	dynasty=101224
+	religion="orthodox"
+	culture="armenian"
+	father=1000232511
+	1036.1.1 = {
+		birth="1036.1.1"
+	}
+	1091.1.1 = {
+		death="1091.1.1"
+	}
+}
+#The Armenian Doux of Antioch earlier in the 11th Century, from the same family as Philaretos Brachamios. The exact relation is unknown. Placeholder uncle of Philaretos
+1000232511 = {
+	name="Elpidios"
+	dynasty=101224
+	religion="orthodox"
+	culture="armenian"
+	father=1000232512
+	995.1.1 = {
+		birth="995.1.1"
+	}
+	1060.1.1 = {
+		death="1060.1.1"
+	}
+}
+#The traditional founder of the Byzantine Brachamios family
+1000232512 = {
+	name="Sahag"
+	dynasty=20063
+	religion="miaphysite"
+	culture="armenian"
+	941.1.1 = {
+		birth="941.1.1"
+	}
+	1009.1.1 = {
+		death="1009.1.1"
+	}
+}
+#Placeholder father of Philaretos Brachamios
+1000232513 = {
+	name="Levon"
+	dynasty=20063
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232512
+	993.1.1 = {
+		birth="993.1.1"
+	}
+	1058.1.1 = {
+		death="1058.1.1"
+	}
+}
+1000232514 = {
+	name="Hasan"
+	dynasty=23002
+	religion="miaphysite"
+	culture="armenian"
+	father=159260
+	949.1.1 = {
+		birth="949.1.1"
+	}
+	1007.1.1 = {
+		death="1007.1.1"
+	}
+}
+1000232515 = {
+	name="Abirad"
+	dynasty=23002
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232514
+	977.1.1 = {
+		birth="977.1.1"
+	}
+	1021.1.1 = {
+		death="1021.1.1"
+	}
+}
+1000232516 = {
+	name="Abouldjahab"
+	dynasty=23002
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232515
+	1011.1.1 = {
+		birth="1011.1.1"
+	}
+	1068.1.1 = {
+		death="1068.1.1"
+	}
+}
+1000232517 = {
+	name="Vassak"
+	dynasty=23002
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232515
+	1014.1.1 = {
+		birth="1014.1.1"
+	}
+	1083.1.1 = {
+		death="1083.1.1"
+	}
+}
+1000232518 = {
+	name="Grigor"
+	dynasty=23002
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232517
+	1039.1.1 = {
+		birth="1039.1.1"
+	}
+	1100.1.1 = {
+		death="1100.1.1"
+	}
+}
+1000232519 = {
+	name="Vasil"
+	dynasty=23002
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232517
+	1041.1.1 = {
+		birth="1041.1.1"
+	}
+	1113.1.1 = {
+		death="1113.1.1"
+	}
+}
+1000232520 = {
+	name="Hasan"
+	dynasty=23002
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232517
+	1043.1.1 = {
+		birth="1043.1.1"
+	}
+	1114.1.1 = {
+		death="1114.1.1"
+	}
+}
+1000232521 = {
+	name="Abouldjahab"
+	dynasty=23002
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232517
+	1046.1.1 = {
+		birth="1046.1.1"
+	}
+	1119.1.1 = {
+		death="1119.1.1"
+	}
+}
+1000232522 = {
+	name="Anoush"
+	dynasty=23002
+	female = yes
+	religion="miaphysite"
+	culture="armenian"
+	father=1000232517
+	1048.1.1 = {
+		birth="1048.1.1"
+	}
+	1117.1.1 = {
+		death="1117.1.1"
+	}
+}

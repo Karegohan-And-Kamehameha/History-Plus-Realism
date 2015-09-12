@@ -1,0 +1,22 @@
+828.1.1={
+	liege="k_khorasan"
+	holder=163158
+}
+845.1.1={
+	holder=163159
+}
+862.1.1={
+	holder=163100
+}
+1040.5.5={
+  holder = 3038
+}
+1066.1.1={
+  holder = 3042
+}
+
+#Anushteginids
+1194.1.1={
+	liege="k_khwarezmia"
+	holder=230000
+}

@@ -18,12 +18,8 @@ b_borkum = temple
 
 # Misc
 culture = frisian
-religion = german_pagan
+religion = catholic
 
 # History
-790.1.1 = {
-	culture = german
-	religion = catholic
-}
-1220.1.1= { culture = dutch } #Frisian
-1264.1.1 = { trade_post = b_vorrade }
+
+1297.1.1 = { trade_post = b_warendorp }

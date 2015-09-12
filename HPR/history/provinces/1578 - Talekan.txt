@@ -1,0 +1,21 @@
+# 1578 - Tálekán
+
+# County Title
+title = c_talekan
+
+# Settlements
+max_settlements = 5
+b_talekan = castle
+b_kishm = city
+b_andicharagh = temple
+
+#b_vavalij = castle
+#b_anderab = temple
+
+# Misc
+culture = khalaj
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = tajik }

@@ -1,0 +1,24 @@
+#Ay-Opa
+1030.1.1={
+	liege=k_cuman
+	holder=1000233047
+}
+1065.1.1={
+	liege=k_qipchaq
+	holder=1000233049 #Kunui
+}
+1110.1.1={
+	holder=1000233051
+}
+1145.1.1={
+	holder=1000233053
+}
+1184.1.1={
+	holder=1000233055
+}
+1210.1.1={
+	holder=1000233057
+}
+1239.1.1={
+	holder=0 # revolt put down by the mongols
+}

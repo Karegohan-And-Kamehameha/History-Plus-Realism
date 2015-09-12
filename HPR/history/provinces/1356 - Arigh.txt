@@ -1,0 +1,20 @@
+# 1356 - Arigh
+
+# County Title
+title = c_arigh
+
+# Settlements
+max_settlements = 1
+
+b_arigh = castle
+
+# Misc
+culture = sanhaja
+religion = ibadi
+
+# History
+930.1.1 = { religion = shiite }
+1056.1.1 = { religion = sunni }
+
+1070.1.1 = { remove_settlement = b_arigh  }
+1070.1.1 = { b_arigh = tribal }

@@ -1,0 +1,304 @@
+######################################
+#Saka and Baloch Characters
+######################################
+#
+#
+######################################
+#Saka and Baloch characters - Saka replaced by the Kufichi AKA Qufs
+#Dynasties: 1000102170 - 1000102199
+#Characters: 1000230950 - 1000231049
+######################################
+
+1000230950 = {
+	name="Ma'dan"
+	dynasty=1000102170
+	religion="sunni"
+	culture="baloch"
+	850.1.1={
+		birth="850.1.1"
+	}
+	899.1.1={
+		death="899.1.1"
+	}
+} 
+1000230951 = {
+	name="'Isa"
+	dynasty=1000102170
+	religion="sunni"
+	culture="baloch"
+	father = 1000230950
+  885.1.1={
+		birth="885.1.1"
+	}
+	940.1.1={
+		death="940.1.1"
+	}
+} 
+1000230952 = {
+	name="Askar"
+	dynasty=1000102170
+	religion="sunni"
+	culture="baloch"
+	father = 1000230951
+  923.1.1={
+		birth="923.1.1"
+	}
+	980.1.1={
+		death="980.1.1"
+	}
+} 
+1000230953 = {
+	name="Ma'dan"
+	dynasty=1000102170
+	religion="sunni"
+	culture="baloch"
+	father = 1000230952
+  960.1.1={
+		birth="960.1.1"
+	}
+	1026.1.1={
+		death="1026.1.1"
+	}
+} 
+1000230954 = {
+	name="'Isa"
+	dynasty=1000102170
+	religion="sunni"
+	culture="baloch"
+	father = 1000230953
+  993.1.1={
+		birth="993.1.1"
+	}
+	1029.1.1={
+		death="1029.1.1"
+	}
+} 
+1000230955 = {
+	name="Husayn Abu-'l-Askar'"
+	dynasty=1000102170
+	religion="sunni"
+	culture="baloch"
+	father = 1000230953
+  995.1.1={
+		birth="995.1.1"
+	}
+	1059.1.1={
+		death="1059.1.1"
+	}
+} 
+1000230956 = {
+	name="Askar"
+	dynasty=1000102170
+	religion="sunni"
+	culture="baloch"
+	father = 1000230955
+  1023.1.1={
+		birth="1023.1.1"
+	}
+	1085.1.1={
+		death="1085.1.1"
+	}
+} 
+#placeholder Baloch tribal leaders
+1000230957 = {
+	name="Balús"
+	dynasty=1000102171
+	religion="sunni"
+	culture="baloch"
+	820.1.1={
+		birth=yes
+	}
+	863.1.1={
+		death=yes
+	}
+} 
+1000230958 = {
+	name="Mír Jalál"
+	dynasty=1000102171
+	religion="sunni"
+	culture="baloch"
+	father=1000230957
+	848.1.1={
+		birth=yes
+	}
+	894.1.1={
+		death=yes
+	}
+} 
+1000230959 = {
+	name="Rind"
+	dynasty=1000102172
+	religion="sunni"
+	culture="baloch"
+	father=1000230958
+	868.1.1={
+		birth=yes
+	}
+	910.1.1={
+		death=yes
+	}
+} 
+1000230960 = {
+	name="Láshár"
+	dynasty=1000102173
+	religion="sunni"
+	culture="baloch"
+	father=1000230958
+	869.1.1={
+		birth=yes
+	}
+	907.1.1={
+		death=yes
+	}
+} 
+1000230961 = {
+	name="Hót"
+	dynasty=1000102174
+	religion="sunni"
+	culture="baloch"
+	father=1000230958
+	872.1.1={
+		birth=yes
+	}
+	919.1.1={
+		death=yes
+	}
+} 
+1000230962 = {
+	name="Kóraí"
+	dynasty=1000102175
+	religion="sunni"
+	culture="baloch"
+	father=1000230958
+	880.1.1={
+		birth=yes
+	}
+	934.1.1={
+		death=yes
+	}
+} 
+1000230963 = {
+	name="Játó"
+	female=yes
+	dynasty=1000102171
+	religion="sunni"
+	culture="baloch"
+	father=1000230958
+	870.1.1={
+		birth=yes
+	}
+	890.1.1={
+		add_spouse=1000230965
+	}
+	940.1.1={
+		death=yes
+	}
+} 
+1000230964 = {
+	name="Lund"
+	dynasty=1000102171
+	religion="sunni"
+	culture="baloch"
+	father=1000230957
+	848.1.1={
+		birth=yes
+	}
+	899.1.1={
+		death=yes
+	}
+} 
+1000230965 = {
+	name="Morád"
+	dynasty=1000102171
+	religion="sunni"
+	culture="baloch"
+	father=1000230964
+	866.1.1={
+		birth=yes
+	}
+	890.1.1={
+		add_spouse=1000230963
+	}
+	912.1.1={
+		death=yes
+	}
+} 
+1000230966 = {
+	name="Dríshak"
+	dynasty=1000102175
+	religion="sunni"
+	culture="baloch"
+	father=1000230962
+	910.1.1={
+		birth=yes
+	}
+	966.1.1={
+		death=yes
+	}
+} 
+1000230967 = {
+	name="Mazár"
+	dynasty=1000102175
+	religion="sunni"
+	culture="baloch"
+	father=1000230966
+	945.1.1={
+		birth=yes
+	}
+	1002.1.1={
+		death=yes
+	}
+} 
+1000230968 = {
+	name="Dumbkí"
+	dynasty=1000102175
+	religion="sunni"
+	culture="baloch"
+	father=1000230967
+	982.1.1={
+		birth=yes
+	}
+	1035.1.1={
+		death=yes
+	}
+} 
+1000230969 = {
+	name="Khósá"
+	dynasty=1000102175
+	religion="sunni"
+	culture="baloch"
+	father=1000230968
+	1020.1.1={
+		birth=yes
+	}
+	1073.1.1={
+		death=yes
+	}
+} 
+1000230970 = {
+	name="Dóda"
+	dynasty=1000102176
+	religion="sunni"
+	culture="baloch"
+	father=1000230965
+	mother=1000230963
+	898.1.1={
+		birth=yes
+	}
+	950.1.1={
+		death=yes
+	}
+} 
+1000230971 = {
+	name="Chákor"
+	dynasty=1000102176
+	religion="sunni"
+	culture="baloch"
+	father=1000230970
+	920.1.1={
+		birth=yes
+	}
+	976.1.1={
+		death=yes
+	}
+} 

@@ -1,0 +1,302 @@
+# The Turkmen Melting Pot
+
+namespace = SWMH
+
+character_event = {
+	id = SWMH.0
+	desc = "EVTDESCSWMH.0"
+	picture = GFX_evt_stone_church
+	
+	only_independent = yes
+	
+	trigger = {
+		year = 901
+		OR = {
+			culture = oghuz
+			culture = karluk
+			culture = cuman
+		}
+		
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_persia
+					title = k_khorasan
+					title = k_mavarannahr
+					title = k_kafarestan
+					title = k_khwarezmia
+				}
+			}
+			OR = {
+				culture = pahlavi
+				culture = persian
+				culture = khorasani
+				culture = tajik
+				culture = soghdian
+				culture = khalaj
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.6
+			learning = 7
+		}
+		modifier = {
+			factor = 0.65
+			learning = 9
+		}
+		modifier = {
+			factor = 0.7
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTASWMH.0"
+		culture = turkmen
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_persia
+						title = k_khorasan
+						title = k_mavarannahr
+						title = k_kafarestan
+						title = k_khwarezmia
+					}
+				}
+				OR = {
+					culture = pahlavi
+					culture = persian
+					culture = khorasani
+					culture = tajik
+					culture = soghdian
+					culture = khalaj
+				}
+			}
+			culture = turkmen
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = SWMH.1
+	desc = "EVTDESCSWMH.1"
+	picture = GFX_evt_stone_church
+	
+	trigger = {
+		year = 940
+		culture = turkmen
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_persia
+					title = k_khorasan
+					title = k_mavarannahr
+					title = k_kafarestan
+					title = k_khwarezmia
+				}
+			}
+			OR = {
+				culture = pahlavi
+				culture = persian
+				culture = khorasani
+				culture = tajik
+				culture = soghdian
+				culture = oghuz
+				culture = karluk
+				culture = cuman
+ 			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTASWMH.1"
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_persia
+						title = k_khorasan
+						title = k_mavarannahr
+						title = k_kafarestan
+						title = k_khwarezmia
+					}
+				}
+				OR = {
+					culture = pahlavi
+					culture = persian
+					culture = khorasani
+					culture = tajik
+					culture = soghdian
+					culture = oghuz
+					culture = karluk
+					culture = cuman
+				}
+			}
+			culture = turkmen
+		}
+	}
+}
+
+#Make my court speak Turkmen
+character_event = {
+	id = SWMH.2
+	desc = "EVTDESCSWMH.2"
+	picture = GFX_evt_throne_room
+
+	trigger = {
+		year = 950
+		culture = turkmen
+		independent = no
+		top_liege = {
+			primary_title = {
+				OR = {
+					title = k_persia
+					title = k_khorasan
+					title = k_mavarannahr
+					title = k_kafarestan
+					title = k_khwarezmia
+				}
+			}
+		}
+		any_courtier = {
+			OR = {
+				culture = pahlavi
+				culture = persian
+				culture = khorasani
+				culture = tajik
+				culture = soghdian
+				culture = oghuz
+				culture = karluk
+				culture = cuman
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTASWMH.2"
+		random_courtier = {
+			limit = {
+				OR = {	
+					culture = pahlavi
+					culture = persian
+					culture = khorasani
+					culture = tajik
+					culture = soghdian
+					culture = oghuz
+					culture = karluk
+					culture = cuman
+				}
+			}
+			culture = turkmen
+			hidden_tooltip = {
+				character_event = { id = SWMH.4 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak Turkmen
+character_event = {
+	id = SWMH.3
+	desc = "EVTDESCSWMH.3"
+	picture = GFX_evt_throne_room
+
+	trigger = {
+		year = 950
+		culture = turkmen
+		independent = no
+		top_liege = {
+			primary_title = {
+				OR = {
+					title = k_persia
+					title = k_khorasan
+					title = k_mavarannahr
+					title = k_kafarestan
+					title = k_khwarezmia
+				}
+			}
+		}
+		any_vassal = {
+			OR = {
+				culture = pahlavi
+				culture = persian
+				culture = khorasani
+				culture = tajik
+				culture = soghdian
+				culture = oghuz
+				culture = karluk
+				culture = cuman
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTASWMH.3"
+		random_vassal = {
+			limit = {
+				OR = {	
+					culture = pahlavi
+					culture = persian
+					culture = khorasani
+					culture = tajik
+					culture = soghdian
+					culture = oghuz
+					culture = karluk
+					culture = cuman
+				}
+			}
+			culture = turkmen
+			hidden_tooltip = {
+				character_event = { id = SWMH.4 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = SWMH.4
+	desc = "EVTDESCSWMH.4"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTASWMH.4"
+		culture = turkmen
+	}
+}
+

@@ -1,0 +1,15 @@
+# 1485 - Kordofan
+
+# County Title
+title = c_kordofan
+
+# Settlements
+max_settlements = 2
+b_elobeid = tribal
+#b_tagali = city
+
+# Misc
+culture = daju
+religion = west_african_pagan
+
+# History

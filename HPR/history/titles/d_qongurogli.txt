@@ -1,0 +1,26 @@
+#Qongurogli
+1050.1.1={
+	liege=k_cuman
+	holder=1000233183
+}
+1081.1.1={
+	holder=1000233185
+}
+1092.1.1={
+	holder=1000233187 # Kuman
+}
+1103.4.1={
+	holder=1000233189
+}
+1155.1.1={
+	holder=1000233191
+}
+1180.1.1={
+	holder=1000233193 # Eldechyuk
+}
+1219.1.1={
+	holder=1000233195
+}
+1238.1.1={
+	holder=0 # migrating to Hungary after defeat
+}

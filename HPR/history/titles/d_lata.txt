@@ -26,7 +26,7 @@
 }
 738.1.1={
 	holder = 191635 #Annexed by Calukyas of Lata
-	liege=k_maharastra
+	liege=0
 }
 747.1.1={
 	holder = 74409 #Conquered by Dantidurga
@@ -66,7 +66,6 @@
 }
 946.1.1={
 	holder= 191680 #Barappa, later Chalukyas of Lata
-	liege = k_maharastra
 }
 1000.1.1={
 	holder = 188075 #Chamundaraja Solanki
@@ -74,7 +73,6 @@
 }
 1008.1.1={
 	holder = 191681 #Gongiraja, later Chalukyas of Lata
-	liege = k_maharastra
 }
 1050.1.1={
 	holder = 0

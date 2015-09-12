@@ -26,7 +26,7 @@
 # 1008-ca 1040: Ghaznavid rule
 
 1178.1.1={ # Ghurid conquest, massacre of Ismaili sultans
-	liege=k_afghanistan
+	liege=k_kafarestan
 	holder=144142 
 }
 1186.1.1={
@@ -34,9 +34,6 @@
 }
 1203.1.1={
 	holder=170300
-}
-1218.1.1 = {
-	holder = 194188
 }
 1228.5.30={
 	holder=170193 #Iltutmish

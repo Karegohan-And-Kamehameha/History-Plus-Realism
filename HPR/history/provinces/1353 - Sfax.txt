@@ -1,0 +1,21 @@
+# 1353 - Sfax
+
+# County Title
+title = c_sfax
+
+# Settlements
+max_settlements = 2
+
+b_sfax = castle
+b_alhamma = temple
+
+# Misc
+culture = maghreb_arabic
+religion = sunni
+
+# History
+#1067.1.1 = { remove_settlement = b_sfax  }
+1067.1.1 = { b_sfax = tribal }
+1067.1.1 = { capital = b_sfax  }
+1067.1.1 = { remove_settlement = b_alhamma  }
+

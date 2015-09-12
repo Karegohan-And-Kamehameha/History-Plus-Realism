@@ -20,4 +20,5 @@ culture = bedouin_arabic
 religion = ibadi
 
 # History
+1066.1.1 = { trade_post = b_qalhati }
 

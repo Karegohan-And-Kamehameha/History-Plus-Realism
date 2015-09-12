@@ -1,0 +1,18 @@
+
+1249.1.1={
+holding_dynasty = 1000101552 # al-Iráqí - makes this a FAMILY_PALACE type Holding
+	liege="d_hormuz"
+	holder=1000229624
+}
+1260.1.1={
+	holder=1000229625
+}
+1273.1.1={
+	holder=1000229626
+}
+1306.1.1={
+	holder=1000229627
+}
+1321.1.1={
+	holder=1000229628
+}

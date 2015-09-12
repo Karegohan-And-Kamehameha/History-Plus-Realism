@@ -1,0 +1,30 @@
+
+1066.1.1={
+holding_dynasty = 1000101554 # Qirwashi - makes this a FAMILY_PALACE type Holding
+	liege="d_dahlak"
+	holder=1000229631
+}
+1089.1.1={
+	holder=1000229632
+}
+1103.1.1={
+	holder=1000229633
+}
+1149.1.1={
+	holder=1000229634
+}
+1182.1.1={
+	holder=1000229635
+}
+1221.1.1={
+	holder=1000229636
+}
+1258.1.1={
+	holder=1000229637
+}
+1288.1.1={
+	holder=1000229638
+}
+1319.1.1={
+	holder=1000229639
+}

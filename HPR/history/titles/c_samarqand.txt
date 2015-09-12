@@ -1,0 +1,56 @@
+864.1.1={
+	liege="d_soghd"
+}
+864.1.1={
+	holder=163157
+}
+
+# Karakhanids
+997.5.5={
+	liege="k_turkestan_east"
+	holder=1000230264
+}
+1012.1.2={
+	holder=3002
+}
+1032.1.2={
+	liege="k_mavarannahr"
+	holder=3012
+}
+1040.1.1={
+	holder=3014
+}
+1068.1.1={
+	holder=3016
+}
+1080.1.1={
+	holder=3018
+}
+1086.1.1={
+	holder=3020
+}
+1095.1.1={
+	holder=144110
+}
+1102.1.1={
+	holder=144111
+}
+1130.1.1={
+	holder=144118
+}
+1141.1.1={
+	holder=144119
+}
+# title passes to Ferghana branch
+1156.1.1={
+	holder=1000230272  # Ali b.Hasan
+}
+1158.1.1={
+	holder=1000230273  # Ma'súd b.Hasan
+}
+1171.1.1={
+	holder=1000230277 # Ibrahím b. Husayn - 63-79 Ferghana
+}
+1195.1.1={
+	holder=1000230280 # 'Uthmán' b. Ibrahím 
+}

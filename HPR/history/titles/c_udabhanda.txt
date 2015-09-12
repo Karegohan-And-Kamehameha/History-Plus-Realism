@@ -1,10 +1,6 @@
-763.1.1={
-	liege=d_kabul
-	holder=188565 # Surendravirkramaditya Nandin of Kabul Shahi
-}
-
 860.1.1={
 	holder=178021
+	liege = k_kafarestan
 }
 
 1021.1.1={
@@ -54,7 +50,7 @@
 	holder = 144139
 }
 1175.1.1={
-	liege = k_afghanistan
+	liege = k_kafarestan
 	holder = 144142 # Mu'izz Ghurid
 }
 1186.1.1={
@@ -71,9 +67,6 @@
 }
 1211.6.1={
 	holder = 170193 #Iltutmish
-}
-1220.1.1={
-	holder = 191981 #Mang Han
 }
 1236.5.1={
 	holder = 170194 #Firuz I

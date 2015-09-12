@@ -1,0 +1,92 @@
+330.1.1={
+	liege="d_neopatras"
+}
+865.1.1={
+	holder=1000232112
+}
+1060.1.1={
+	holder=1000232161
+}
+1068.1.1={
+	holder=1000232177
+}
+1075.1.1={
+	holder=41308
+}
+1079.1.1={
+	holder = 1742
+}
+1081.4.1={
+	holder = 1000232197
+}
+1107.1.1={
+	holder = 34338
+}
+1124.1.1={
+	holder = 223024
+}
+1142.1.1={
+	holder = 1000232260
+}
+1146.1.1={
+	holder = 1000232264
+}
+1156.1.1={
+	holder = 34281
+}
+1176.1.1={
+	holder = 215508
+}
+1186.1.1={
+	holder=1000232256
+}
+1200.1.1={
+	holder = 1000232236
+}
+1202.1.1={
+	holder = 215028
+}
+1203.6.1={
+	liege="d_athens"
+	holder=232502
+}
+1204.8.1={
+	liege="k_byzantium"
+	holder=31499 #Uberto di Briandate
+}
+1209.1.2={
+	holder=205528 #Eustache van Vlaanderen
+}
+1215.1.1={
+	liege="k_epirus"
+	holder=215514
+}
+1230.3.9={
+	holder=215516
+}
+1237.1.1={
+	holder=125711
+}
+1239.1.1={
+	holder=215516
+}
+1241.1.1={
+	liege="k_epirus"
+	holder=125715
+}
+1268.1.1={
+	holder=125734
+}
+1289.1.1={
+	holder=125735
+}
+1303.1.1={
+	holder=125736
+}
+1318.1.1={
+	liege="d_thessalonika"
+	holder=465210
+}
+1320.1.1={
+	holder=465212
+}

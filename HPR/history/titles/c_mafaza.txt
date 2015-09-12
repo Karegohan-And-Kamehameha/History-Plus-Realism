@@ -1,0 +1,38 @@
+846.1.1={
+	historical_nomad = yes
+	liege="d_baloch"
+	holder = 1000230957   # vanilla fantasy ruler
+}
+863.1.1={	
+	holder=1000230958
+}
+894.1.1={	
+	holder=1000230959
+}
+910.1.1={	
+	holder=1000230961
+}
+919.1.1={	
+	holder=1000230962
+}
+943.1.1={	
+	holder=1000230966
+}
+966.1.1={	
+	holder=1000230967
+}
+1002.1.1={	
+	holder=1000230968
+}
+1035.1.1={	
+	holder=1000230969
+}
+
+1066.1.1={
+	historical_nomad = no
+	liege="k_khorasan"
+	holder = 3042
+}
+1072.11.1={
+  holder = 93129
+}

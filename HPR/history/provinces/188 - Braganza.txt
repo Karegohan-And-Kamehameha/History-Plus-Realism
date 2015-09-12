@@ -7,7 +7,7 @@ title = c_braganza
 max_settlements = 4
 b_braganza = castle
 b_vilareal = city
-b_chaves = temple
+#b_chaves = temple
 #b_torredemoncorvo = castle
 #b_mogadouro = castle
 #b_castelomelhor = castle
@@ -15,19 +15,12 @@ b_chaves = temple
 #b_azinhoso = castle
 
 # Misc
-culture = suebi
+culture = portuguese
 religion = catholic
 
 # History
 
-926.1.1 = {
-	culture = portuguese
-}
-
-1000.1.1 = { # For Millenium Bookmark
+1066.1.1 = { 
 	b_braganza = ca_wall_1
-}
-
-1066.1.1 = {
 	b_braganza = ca_wall_2
 }

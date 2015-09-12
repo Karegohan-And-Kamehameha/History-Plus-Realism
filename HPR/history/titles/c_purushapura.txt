@@ -1,10 +1,8 @@
-755.1.1={
-	liege=d_kabul
-	holder=188568
-}
 860.1.1={
 	holder=178025
+	liege = k_kafarestan
 }
+
 1021.1.1={
 	liege = d_lahore
 	holder = 144125
@@ -52,7 +50,7 @@
 	holder = 144139
 }
 1175.1.1={
-	liege = k_afghanistan
+	liege = k_kafarestan
 	holder = 144142
 }
 1186.1.1={
@@ -70,9 +68,6 @@
 }
 1211.6.1={
 	holder = 170193 #Iltutmish
-}
-1220.1.1={
-	holder = 194284
 }
 1236.5.1={
 	holder = 170194 #Firuz I

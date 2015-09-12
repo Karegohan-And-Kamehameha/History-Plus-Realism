@@ -1,52 +1,26 @@
-1066.1.1=
-{
-	liege ="k_qarakhnid"
+828.1.1={
+	liege="k_khorasan"
+	holder=163158
 }
-#Burhanids 
-1066.1.1=
-{
-	holder = 93107
+845.1.1={
+	holder=163159
 }
-1073.1.1=
-{
-	liege="k_persia"
+862.1.1={
+	holder=163100
 }
-1106.1.1=
-{
-	holder = 93108
+
+1040.5.5={
+	liege="k_khorasan"
+  holder=1000229901
 }
-1141.1.1=
-{
-	liege ="k_qarakhnid"
+1066.1.1={
+	holder=93129
 }
-1141.1.1=
-{
-	holder = 93109
-}
-1165.1.1=
-{
-	de_jure_liege = "k_qarakhnid"
-	holder = 93110
-}
-1170.1.1=
-{
-	holder = 93111
-}
-1178.1.1=
-{
-	holder = 93112
-}
-1185.1.1=
-{
-	holder = 93113
-}
-1190.1.1=
-{
-	holder = 93114
-}
-1191.1.1=
-{
-	holder = 93115
+
+#Anushteginids
+1194.1.1={
+	liege="k_khwarezmia"
+	holder=230000
 }
 1206.1.1=
 {
@@ -74,7 +48,7 @@
 #Chagatai khanate
 1227.12.2=
 {
-	liege = e_chagatai
+	liege=e_chagatai
 	holder = 93062
 }
 1242.1.1=

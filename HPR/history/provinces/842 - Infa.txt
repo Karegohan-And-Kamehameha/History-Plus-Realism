@@ -4,31 +4,24 @@
 title = c_infa
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 
-b_infa = tribal
+b_infa = castle
+b_rabat = city
 
-#b_rabat = city
-#b_sale = temple
-#b_tiflet = city
+#b_sidirahhal = temple
 
-#b_berrechid = castle
+#b_berrechid = temple
 #b_azemmour = castle
 #b_khouribga = castle
-#b_oulmes = castle
 
 # Misc
-culture = maghreb_arabic
-religion = shiite
+culture = zanata
+religion = sunni
 
 # History
-767.1.1 = { religion = ibadi }
-867.1.1 = {
-	b_infa = castle
-	b_rabat = city
-	b_sale = temple
-	b_tiflet = city
 
+1066.1.1 = {
 	b_infa = ca_keep_1
 	b_infa = ca_training_grounds_1
 	b_infa = ca_keep_2
@@ -38,6 +31,3 @@ religion = shiite
 	b_infa = ca_wall_1
 	b_infa = ca_wall_2
 }
-
-974.1.1 = { religion = sunni }
-1132.1.1 = { trade_post = b_doria }

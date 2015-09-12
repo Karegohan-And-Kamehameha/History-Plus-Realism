@@ -1,0 +1,22 @@
+#Uzlar
+893.1.1={ #893 evicted by the Samanids, evitct the Pechengs from Yaik in turn.
+	holder=1000231862 # Qataghan
+}
+910.1.1={
+	holder=1000231864 # Etrek
+}
+940.1.1={
+	holder=1000231867
+}
+960.1.1={
+	holder=1000231869
+}
+1010.1.1={
+	holder=1000231871
+}
+1035.1.1={
+	holder=1000231873
+}
+1060.1.1={
+	holder=0 #1055-1060 dogpiled by the the Rus and the Cumans.Finally eaten by the Cumans 1060-1061.
+} 

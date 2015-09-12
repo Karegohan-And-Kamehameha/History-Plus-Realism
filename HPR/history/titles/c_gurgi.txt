@@ -33,11 +33,9 @@
 }
 845.1.1={
 	holder = 188026 # Vakpati
-}859.1.1= {
-	holder = 190111 #Ghosha
 }
-859.1.1={
-	liege=d_kasi
+859.1.1= {
+	holder = 190111 #Ghosha
 }
 882.1.1={
 	liege=k_gujarat
@@ -61,24 +59,23 @@
 1015.1.1={
 	holder = 188038 # Vidyadhara
 }
-1030.1.1= {
-	holder = 190116 #Dasaratha
+1030.1.1={
+	liege=0
 }
-1030.1.1= {
-	liege=k_gondwana
+1042.1.1= {
+	holder = 190209 #Karnadeva Cedi
 }
-1079.1.1= {
+1073.1.1= {
+	holder = 190210 #Yashkarna Cedi
+}
+1123.1.1= {
 	holder = 190211 #Gayakarna Cedi
 }
-#c.a. 1140 to Baghelas?
-1155.1.1= {
+1153.1.1= {
 	holder = 190212 #Narasimha Cedi
 }
-1159.1.1= {
+1163.1.1= {
 	holder = 190213 #Jayasimha Cedi
-}
-1177.1.1= {
-	holder = 190214 #Vijayasimha Cedi dies 1211
 }
 1203.1.1={
 	holder = 188054 # Trailokyavarma

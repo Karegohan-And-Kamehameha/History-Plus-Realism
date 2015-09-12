@@ -1,0 +1,88 @@
+852.1.1={
+	liege = "k_bulgaria"
+}
+852.1.1={
+	holder=70382 #Boris
+}
+
+860.1.1=
+{
+	liege="d_wallachia"
+	holder=168066
+}
+#Yazi-Qapan
+895.1.1={
+	liege="d_yazi_qapan"
+	holder=1000231820 # Yazi
+}
+902.1.1={
+	holder=1000231822
+}
+943.1.1={
+	holder=1000231824
+}
+968.1.1={
+	holder=1000231826
+}
+990.1.1={
+	holder=1000231828
+}
+1018.1.1={
+	holder=1000231830
+}
+1049.1.1={
+	holder=1000231832
+}
+1060.1.1={
+	holder=1000231834 # Osul
+}
+1094.1.1={
+	holder=1000231836
+}
+#last byzzie invasion fails
+#Cumans take over in person
+#Burçali
+1123.1.1={
+	liege=d_burchali
+	holder=1000233158
+}
+1163.1.1={
+	holder=1000233160
+}
+1183.1.1={
+	holder=1000233162 # Kopti
+}
+1218.1.1={
+	holder=1000233164
+}
+1230.1.1={
+	holder=1000233164
+}
+# Burçali migrate to Hungary after defeat
+1238.1.1=
+{
+	liege="k_bulgaria"
+	holder=34825
+}
+#Mongols
+1241.1.1=
+{
+	liege="e_golden_horde"
+	holder=1000233250 # Olaha	
+} 
+#to Bulgaria
+1299.1.2=
+{	
+        liege="d_wallachia"	
+	holder=125519 # Chaka
+}
+#to Hungary
+1300.1.2=
+{
+
+	holder=475560 # Tihomir
+}
+1310.1.1=
+{
+	holder=475550 # Basarab
+}

@@ -1,0 +1,191 @@
+######################################
+#SWMH Kurdish Characters
+######################################
+#Kurdish characters
+#Dynasties: 1000102350 - 1000102399
+#Characters: 1000231400 - 1000231499
+
+######################################
+#Annázids in Hulwán
+
+1000231400 = {
+	name="Mohammad Abú'l-Fath" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231401
+	962.1.1={
+		birth="962.1.1"
+	}
+	1011.1.1={
+		death="1011.1.1"
+	}
+}
+1000231401 = {
+	name="'Annáz" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+	935.1.1={
+		birth="935.1.1"
+	}
+	990.1.1={
+		death="990.1.1"
+	}
+}
+1000231402 = {
+	name="Hosám ad-Dawla Abu'l Shawk" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231400
+	988.1.1={
+		birth="988.1.1"
+	}
+	1046.1.1={
+		death="1046.1.1"
+	}
+}
+1000231403 = {
+	name="Mohalhel" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231400
+	993.1.1={
+		birth="993.1.1"
+	}
+	1052.1.1={
+		death="1052.1.1"
+	}
+}
+1000231404 = {
+	name="Sorkháb" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231400
+	997.1.1={
+		birth="997.1.1"
+	}
+	1054.1.1={
+		death="1054.1.1"
+	}
+}
+1000231405 = {
+	name="Abu'l-Fath" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231402
+	1009.1.1={
+		birth="1009.1.1"
+	}
+	1043.1.1={
+		death="1043.1.1"
+	}
+}
+1000231406 = {
+	name="Badr" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231403
+	1016.1.1={
+		birth="1016.1.1"
+	}
+	1070.1.1={
+		death="1070.1.1"
+	}
+}
+1000231407 = {
+	name="Sa'dí" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231404
+	1022.1.1={
+		birth="1022.1.1"
+	}
+	1077.1.1={
+		death="1077.1.1"
+	}
+}
+1000231408 = {
+	name="'Annáz" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231407
+	1056.1.1={
+		birth="1056.1.1"
+	}
+	1115.1.1={
+		death="1115.1.1"
+	}
+}
+1000231409 = {
+	name="Badr" 
+	dynasty=1000102350
+	religion="sunni"
+	culture="kurdish"
+  father=1000231408
+	1090.1.1={
+		birth="1090.1.1"
+	}
+	1148.1.1={
+		death="1148.1.1"
+	}
+}
+1000231410 = {
+	name="Xûscihr" 
+	dynasty=1000102353
+	religion="sunni"
+	culture="kurdish"
+  	father=41604
+	1099.1.1={
+		birth="1099.1.1"
+	}
+	1148.1.1={
+		death="1148.1.1"
+	}
+}
+1000231411 = {
+	name="Sedad" 
+	dynasty=1000102353
+	religion="sunni"
+	culture="kurdish"
+  	father=93521
+	1116.1.1={
+		birth = yes
+	}
+	1155.1.1={
+		death="1155.1.1"
+	}
+}
+1000231412 = {
+	name="Fezl" 
+	dynasty=1000102353
+	religion="sunni"
+	culture="kurdish"
+  	father=93521
+	1118.1.1={
+		birth = yes
+	}
+	1164.1.1={
+		death = yes
+	}
+}
+1000231413 = {
+	name="Sahensah" 
+	dynasty=1000102353
+	religion="sunni"
+	culture="kurdish"
+  	father=93521
+	1119.1.1={
+		birth="1119.1.1"
+	}
+	1174.1.1={
+		death="1174.1.1"
+	}
+}

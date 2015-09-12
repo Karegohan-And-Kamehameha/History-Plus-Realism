@@ -1,71 +1,90 @@
 20.1.1 = {
 	historical_nomad = yes
 }
-716.1.1={
-	liege=d_itil
-	holder=74009
+768.1.1={
+	holder=188789
 }
-749.1.1={
-	holder=74012
+790.1.1={
+	holder=188790
 }
-#767.1.1={
-#	holder=146186
-#}
-802.1.1={
-	holder=74022
+810.1.1={
+	holder=160167
 }
-822.1.1={
-	liege=d_itil
-	holder=0
+846.1.1={
+	holder=160142
 }
-860.1.1=
-{
-#	holder=180240
-	holder = 180236
+865.1.2={
+	liege="d_bulgar"
+	holder=6858
 }
-1060.1.1=
-{
-holder=806
-}
+
 1066.1.1=
 {
-#liege="d_itil"
-liege = k_cuman
-}
-1110.1.1=
-{
-holder=90143
+holder=20923
 }
 1120.1.1=
 {
-holder=125401
+holder=125605
 }
-1146.1.1=
+1135.1.2=
 {
-holder=125402
+holder=125606
 }
-1183.1.1=
+1164.1.2=
 {
-holder=228030
+holder=125607
 }
-1190.1.1=
+1185.1.2=
 {
-holder=34958
+holder=125608
 }
-1227.1.1=
+1187.1.1=
 {
-holder=34959
-liege=e_golden_horde
+holder=228042
 }
-1255.1.1=
+1200.1.1=
 {
-holder=34960
+holder=125608
 }
-1290.1.1=
+1236.9.1=
 {
-holder=34961
+liege="e_golden_horde"
+holder=34911
 }
-1320.1.1=
+1255.1.2=
 {
-holder=34962
+holder=125505
+}
+1256.1.2=
+{
+holder=125506
+}
+1257.1.2=
+{
+holder=125504
+}
+1266.1.2=
+{
+holder=125508
+}
+1280.1.2=
+{
+holder=125509
+}
+1287.1.2=
+{
+holder=125511
+}
+1291.1.2=
+{
+holder=125512
+}
+1312.1.2=
+{
+holder=480000
+}
+
+1337.1.1=
+{
+holder=479010
 }

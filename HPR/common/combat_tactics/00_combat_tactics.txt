@@ -2753,7 +2753,7 @@ good_advance_tactic = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
-					culture = english_norse
+					culture = anglonorse
 					culture = russian
 					culture = georgian
 					culture = alan
@@ -3915,7 +3915,7 @@ good_housecarl_advance_tactic = {
 			OR = {
 				culture_group = north_germanic
 				culture = saxon
-				culture = english_norse
+				culture = anglonorse
 			}
 		}
 	}
@@ -4041,7 +4041,7 @@ housecarl_advance_tactic = {
 			OR = {
 				culture_group = north_germanic
 				culture = saxon
-				culture = english_norse
+				culture = anglonorse
 			}
 		}
 	}
@@ -4167,7 +4167,7 @@ bad_housecarl_advance_tactic = {
 			OR = {
 				culture_group = north_germanic
 				culture = saxon
-				culture = english_norse
+				culture = anglonorse
 			}
 		}
 	}

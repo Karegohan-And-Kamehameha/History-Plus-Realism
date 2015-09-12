@@ -1,5 +1,5 @@
 632.1.1={
-	liege="d_moldau"
+	liege="d_basarabia"
 	holder=159117
 }
 665.1.1={
@@ -26,61 +26,80 @@
 777.1.1={
 	holder=145955
 }
-852.1.1 = {
+852.1.1={
 	liege = "d_transylvania"
 }
-852.1.1 = {
-	holder = 168069
+852.1.1={
+	holder=168069
 }
-867.1.1 = {
-	holder = 168287
+867.1.1={
+	holder=168287
 }
-990.1.1 = {
-	holder = 1000254400
+#Qara-Bay
+895.1.1={
+	liege=d_qara_bay
+	holder=1000231785
 }
-1066.1.1 = {
-	liege = d_moldau
+923.1.1={
+	holder=1000231787
 }
-1066.1.1 = {
-	holder = 20635
+943.1.1={
+	holder=1000231789
 }
-1091.1.1 = {
-	holder = 34811
+989.1.1={
+	holder=1000231791
 }
-1115.1.1 = {
-	holder = 34812
+1012.1.1={
+	holder=1000231793
 }
-1150.1.1 = {
-	holder = 34813
+1024.1.1={
+	holder=1000231795
 }
-1171.1.1 = {
-	liege = "d_moldau"
-	holder = 34826
+1047.1.1={
+	holder=1000231797 # Selte
 }
-1187.1.1 = {
-	holder = 228030
+1068.1.1={
+	holder=1000231799 # Kazar
 }
-1203.1.1 = {
-	holder = 34827
+#last byzzie invasion fails
+#Cumans take over in person
+#Burçali
+1123.1.1={
+	liege=d_burchali
+	holder=1000233158
 }
-1225.1.1 = {
-	holder = 34828
+1163.1.1={
+	holder=1000233160
 }
-1238.1.1 = {
-	liege = "e_golden_horde"
-	holder = 125516
+1183.1.1={
+	holder=1000233162 # Kopti
 }
-1265.1.2 = {
-	holder = 125517
+1218.1.1={
+	holder=1000233164
 }
-1270.1.2 = {
-	holder = 125518
+1230.1.1={
+	holder=1000233164
 }
-1299.1.2 = {	
-	holder = 34830
+# Burçali migrate to Hungary after defeat
+1238.1.1={
+	liege="e_golden_horde"
+	holder=125516
 }
-1320.1.1 = {
-	liege = "d_wallachia"
-	holder = 475550
+1265.1.2=
+{
+	holder=125517
+}
+1270.1.2=
+{
+	holder=125518
+}
+1299.1.2=
+{	
+	holder=34830
+}
+1320.1.1=
+{
+	liege="d_wallachia"
+	holder=475550
 }
 

@@ -1,0 +1,50 @@
+#range 1000233320-1000233380
+1000233320 = { # fictional
+	name="Vazul" 
+        dynasty="1000100562" # Tarján
+	religion="tengri_pagan"
+	culture="hungarian"
+	810.1.1={
+		birth = yes
+	}
+	895.1.1={
+		death = yes
+	}
+}
+1000233321 = { # the rival of Alamos
+	name="Elöd" 
+        dynasty="1000100565" # Megyer
+	religion="tengri_pagan"
+	culture="hungarian"
+	800.1.1={
+		birth = yes
+	}
+	895.1.1={
+		death = yes
+	}
+}
+1000233322 = { # fictional
+	name="Elemér" 
+        dynasty="1000100566" # Nyek
+	religion="tengri_pagan"
+	culture="hungarian"
+	829.1.1={
+		birth = yes
+	}
+	900.1.1={
+		death = yes
+	}
+}
+1000233323 = { # fictional
+	name="Frigyes" 
+        dynasty="1000100567" # Kürtgyramot
+	religion="tengri_pagan"
+	culture="hungarian"
+	830.1.1={
+		birth = yes
+	}
+	900.1.1={
+		death = yes
+	}
+}
+#1000233324-25 used

@@ -8,12 +8,9 @@
 745.1.1={
 	holder=74011
 }
-761.1.1={
-	holder=146204
+762.1.1={
+	holder=74013
 }
-#762.1.1={
-#	holder=74013
-#}
 810.1.1={
 	holder=74014
 }
@@ -31,59 +28,103 @@
 	holder=159137
 }
 859.1.1={
-	holder=146231
+	holder=6848
 }
-896.1.1={
-	liege = 0
+#Qabuqsin-Yula
+893.1.1={
+        liege=d_qabuqsin_yula
+	holder=1000231740 # Qorqutay
 }
-990.1.1 = {
-	holder = 1000254403 
-	liege = "k_pechenegs"
+914.1.1={
+	holder=1000231742
 }
-1066.1.1 = {
-#	liege="d_crimea"
-	liege = k_cuman
+940.1.1={
+	holder=1000231744
 }
-1066.1.1 = {
-	holder=34854
+942.1.1={
+	holder=1000231745
 }
-1089.1.1 = {
-holder=228034
+956.1.1={
+	holder=1000231747 #Kurya/Küre
 }
-1110.1.1 = {
-holder=479060
+
+1000.1.1={
+	holder=1000231749
 }
-1150.1.1 = {
-holder=34856
+1035.1.1={
+	holder=1000231751 # Kegen
 }
-1180.1.1 = {
-holder=34857
+#Kegen migrates.
+#Bula-Chopan
+1044.1.1 = {
+	holder=1000231852
 }
-1210.1.1 = {
-holder=34858
+#Tiraq migrates, Oghuz takes over.
+1046.1.1 = {
+	liege=k_uzes
+	holder=1000231873
 }
-1238.1.1 = {
-	holder = 34850
+#Cumans arrive.
+#Qongurogli
+1060.1.1={
+	liege=d_qongurogli
+	holder=1000233183
 }
-1246.1.1 = {
-	holder = 125507
+1081.1.1={
+	holder=1000233185
 }
-1266.1.2 = {
-	holder = 125510
+1092.1.1={
+	holder=1000233187 # Kuman
 }
-1286.1.2 = {
-	holder = 34855
+1103.4.1={
+	holder=1000233189
 }
-1299.1.2 = {
-	holder = 125513
+1155.1.1={
+	holder=1000233191
 }
-1302.1.2 = {
-	holder = 480000
+1180.1.1={
+	holder=1000233193 # Eldechyuk
 }
-1312.1.2 = {
-	holder = 34853
+1219.1.1={
+	holder=1000233195
 }
-1337.1.1 = {
-	holder = 125514
+# migrating to Hungary after defeat
+1238.1.1={
+        liege=d_urusoba
+	holder=1000233137
+}
+
+# Mongols put down revolt
+1239.1.1={
+liege="d_crimea"
+	holder=34850
+}
+1246.1.1=
+{
+	holder=125507
+}
+1266.1.2=
+{
+	holder=125510
+}
+1286.1.2=
+{
+	holder=34855
+}
+1299.1.2=
+{
+	holder=125513
+}
+1302.1.2=
+{
+	holder=480000
+}
+1312.1.2=
+{
+	holder=34853
+}
+1337.1.1=
+{
+	holder=125514
 }
 

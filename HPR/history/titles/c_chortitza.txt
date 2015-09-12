@@ -1,54 +1,81 @@
 764.1.1={
 	liege = "k_magyar"
-	#holder=146224
-	holder=146228
+	holder=146224
 }
 808.1.1={
-	#holder=146225
-	holder=146229
+	holder=146225
 }
-845.1.1 = {
-	liege = "k_magyar"
-	holder = 6847
+845.1.1={
+	holder=1000233321
 }
-972.1.1 = {
-	liege = 0
+#Pechenegs take over
+#Küerchi-Chur
+893.1.1={
+	liege = "d_kuerchi_chur"
+	holder=1000231725 # Kügel
 }
-990.1.1 = {
-	holder = 1000254404
-	liege = "k_pechenegs"
+
+910.1.1={
+	holder=1000231727
 }
-1066.1.1 = {
-#liege = d_crimea
-liege = k_cuman
-holder = 34854
+940.1.1={
+	holder=1000231730
 }
-1089.1.1 = {
-holder = 228034
+969.1.1={
+	holder=1000231732
 }
-1110.1.1 = {
-holder = 479060
+980.1.1={
+	holder=1000231734 # Küchük
 }
-1150.1.1 = {
-holder = 34856
+1030.1.1={
+	holder=1000231736
 }
-1180.1.1 = {
-holder = 34857
+#Kegen migrates
+#Oghuz takes over
+1044.1.1 = {
+	liege=k_uzes
+	holder=1000231873
 }
-1210.1.1 = {
-holder = 34858
+#Cumans arrive
+#Urus-oba
+1060.1.1={
+	liege=d_urusoba
+	holder=1000233125 # Urusoba
 }
-1238.1.1 = {
-holder = 34859
+1103.4.1={
+	holder=1000233127
 }
-1270.1.1 = {
-holder = 34860
+1130.1.1={
+	holder=1000233129
 }
-1302.1.1 = {
-holder = 34861
+1158.1.1={
+	holder=1000233131 # Koldeci
 }
-1313.1.1 = {
-holder = 34862
+1198.1.1={
+	holder=1000233133 # Koban
+}
+1210.1.1={
+	holder=1000233135
+}
+1230.1.1={
+	holder=1000233137
+}
+# Mongols put down revolt
+1239.1.1={
+liege="d_crimea"
+holder=34859
+}
+1270.1.1=
+{
+holder=34860
+}
+1302.1.1=
+{
+holder=34861
+}
+1313.1.1=
+{
+holder=34862
 }
 
 

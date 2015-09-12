@@ -1,66 +1,44 @@
-767.1.1={
-	liege = "k_lombardy"
+846.1.1={
+	liege="d_toscana"
 }
-767.1.1={
-	holder = 190277 #Peter
-}
-846.1.1 = {
-	liege = "d_toscana"
-}
-846.1.1 = {
+846.1.1={
 	holder = 163070
 }
-983.12.7 = {
-	liege = "e_hre"
-	holder = 1000252621
+#CJL78 - NROC Counts of Cinarca by Arko
+940.1.1={
+	liege="e_hre"
+	holder=1000093019
 }
-1062.1.1 = {
-	liege = "d_toscana"
-	holder = 71285
+1000.1.1={
+	holder=1000093023
 }
-1062.11.2 = {
-	holder = 2009
+1070.1.1={
+	holder=1000093024
 }
-1077.1.1 = {
-	liege = "d_pisa"
-} # Le Pape Grégoire VII donne la Corse à Pise
-
-1096.1.1 = {
-	holder = 71284
+1077.1.1={
+	liege="d_pisa"
 }
-1096.6.1 = {
-	holder = 71305
+1112.1.1={
+	holder=1000093025
 }
-1124.1.1 = {
-	holder = 71306
+1160.1.1={
+	holder=1000093026
 }
-1150.1.1 = {
-	holder = 71307
+1200.1.1={
+	holder=1000093027
 }
-1155.1.1 = {
-	holder = 71311
+1204.1.1={
+	holder=1000093028
 }
-1214.1.1 = {
-	holder = 71296
+1245.1.1={
+	holder=1000093029
 }
-1237.1.1 = {
-	holder = 71297
+1312.1.1=
+{
+	holder=0
+	liege="d_genoa"
 }
-1253.1.1 = {
-holder = 73449
-}
-1258.1.1 = {
-holder = 73450
-}
-1282.1.1 = {
-	holder = 144539
-}
-1284.1.1 = {
-	liege = "d_genoa"
-}
-1290.1.1 = {
-	holder = 463550
-}
-1315.1.1 = {
-	holder = 463400
+1358.1.1=
+{
+	holder=1000093030
 }

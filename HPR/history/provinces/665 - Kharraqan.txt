@@ -1,0 +1,17 @@
+# 665 - Dailam
+
+# County Title
+title = c_kharraqan
+
+# Settlements
+max_settlements = 3
+b_abhar = castle
+b_aba = temple
+b_shamiran = city
+
+#Misc
+culture = daylamite
+religion = zoroastrian
+
+# History
+900.1.1 = { religion = shiite }

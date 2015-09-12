@@ -1,75 +1,74 @@
-#county of ponthieu
-760.1.1 = {
-	liege="k_france"
-	holder = 91477 #BAUGULF, historical count as placeholder
-}
-853.1.1 = {
-	liege = "d_anjou"
+853.1.1={
+	liege="d_anjou"
 	holder = 6440 #Robert le fort
-	law = succ_primogeniture
-	law = cognatic_succession
+	law=succ_primogeniture
+	law=cognatic_succession
 }
-866.7.2 = {
+866.7.2={
 	holder = 168171
 }
-#de Normandie
-996.1.1 = {
-	liege = "d_normandy"
-	holder = 41012 #Godefroi de Brionne
-}
-1010.1.1 = {
-	holder = 41013 #Gilbert de Brionne
-}
-1040.1.1 = {
-	holder = 258 #Guillaume I
-}
-1056.1.1 = {
-	liege = "d_normandy"
-	holder = 150 #Robert de Conteville
-}
 
-#1066.1.1 = {
-#	holder =  10057001
-#}
-1094.1.1 = {
-	holder = 41032 #Hugh de Montgomerie
+868.1.1={
+	holder=168172 # Hilgaud?
+	liege="k_france"
 }
-1100.1.1 = {
-	holder = 41004 #Robert de Montgomerie
+879.1.1={
+	holder=168173 # Herluin?
 }
-1105.1.1 = {
-	holder = 168182 #William de Montgomerie
+945.7.13={
+	holder=168174 # Roger?
 }
-1129.1.1 = {
-	holder = 1000252015 #Guy II
+957.1.1={
+	holder=168175 # Hugues?
 }
-1147.12.25 = {
-	holder = 1000252014 #Jean I
+980.1.1={
+	holder=168176 # Hugues I, seigneur de Ponthieu and châtelain d'Abbeville
 }
-1191.1.1 = {
-	holder = 1000252013 #Guillaume IV
+1000.7.4={
+	holder=168177 # Enguerrand I, first comte de Ponthieu
 }
-1221.10.4 = {
-	holder = 1000252012 #Marie de Ponthieu
+1045.1.1={
+	holder=432 # Hugues II, Comte de Pontieu and Seigneur d'Aumale 1045-1052
 }
-1251.1.1 = {
-	holder = 1000252011 #Jeanne de Dammartin
+1052.1.1={
+	holder=434 # Enguerrand II, Comte de Pontieu and Seigneur d'Aumale 1052-1053
 }
-1279.3.15 = {
-	holder = 457642 #Eleanor of Castile
+1053.10.25={
+	holder=168180 # Guy I Comte de Pontieu 1053-1100 # vassal of William since 1054-1056
 }
-1290.1.2 = {
-	holder = 454510 #Edward II
+1054.1.1={
+	liege="d_normandy"
 }
-1290.1.2 = {
-	liege = k_england
+1100.1.1={
+	holder=168181 # Agnes comtess de Ponthieu 1100-1106ish
 }
-1327.2.1 = {
-	holder = 454500 #Edward III
+1106.1.1={
+	holder=168182 # William I de Bellême, de Segniur de Alencon 1119-1171 and count of Pontheiu 1106-1126
 }
-1336.1.1 = {
-	holder = 455500 #Philippe VI
+1124.1.1={
+	holder=1000227392 # Guy II de Bellême, comte de Pontheiu 1124-1147
 }
-1336.1.1 = {
-	liege = k_france
+1147.12.25={
+	holder=1000227397 #John I de Bellême, comte de Pontheiu 1140-1191
+}
+1191.1.1={
+	holder=1000227398 #William III de Bellême, comte de Pontheiu 1191-1121
+}
+1221.10.4={
+
+	holder=1000227399 # Marie de Bellême, comtess de Pontheiu 1221-1250.
+}
+####? need to finish
+1250.9.1={
+	liege="k_france"
+	holder=461744 #Alphonse de Brienne
+}
+1270.1.1={
+	holder=461745 #Jean de Brienne
+}
+1294.1.1={
+	holder=461746 #Jean de Brienne
+}
+1302.7.11={
+	holder=455850 #Raoul de Brienne
 }

@@ -1,0 +1,41 @@
+861.1.1={
+	liege="k_sistan"
+	holder=163101
+}
+879.6.5={
+	holder=163164
+}
+901.1.1={
+	liege="d_sistan"
+	holder=1000230517
+}
+956.1.1={
+	holder=1000230510
+}
+987.1.1={
+	holder=1000230511
+}
+1002.1.1={
+	holder=144125  #Mahmud of Ghazna
+}
+1030.1.1={
+	holder=1000230512
+}
+1056.1.1={
+	holder=93160  #Yaquti b.Chaghri Beg
+}
+1080.1.1={
+	holder=1000230514
+}
+1088.1.1={
+	holder=1000230516  
+}
+1091.1.1={
+	holder=1000230515
+}
+
+#Ghurids
+1183.1.1={
+	liege="k_sistan"
+	holder=1000230336
+}

@@ -7,16 +7,16 @@
 ###########################################
 
 decisions = {
-	
+
 	create_fraticelli_papacy = {
-		
+
 		is_high_prio = yes
-	
+
 		potential = {
 			religion = fraticelli
 			NOT = { is_title_active = d_fraticelli }
 			has_dlc = "Sons of Abraham"
-		}	
+		}
 		allow = {
 			piety = 1000
 			completely_controls = c_roma
@@ -81,7 +81,7 @@ decisions = {
 				}
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -89,7 +89,7 @@ decisions = {
 
 	create_iconoclast_patriarch = {
 		is_high_prio = yes
-		
+
 		potential = {
 			is_playable = yes
 			independent = yes
@@ -126,7 +126,7 @@ decisions = {
 				}
 			}
 			if = {
-				limit = { 
+				limit = {
 					NOT = { any_realm_title = { title = b_hagiasophia } }
 				}
 				create_character = {
@@ -274,15 +274,15 @@ decisions = {
 			factor = 1
 		}
 	}
-	
+
 	restore_pope_in_rome = {
 		is_high_prio = yes
-	
+
 		potential = {
 			is_playable = yes
 			independent = yes
 			has_dlc = "Sons of Abraham"
-			
+
 			OR = {
 				religion = catholic
 				AND = {
@@ -290,9 +290,9 @@ decisions = {
 					is_title_active = d_fraticelli
 				}
 			}
-			
+
 			controls_religion = no
-			
+
 			c_roma = {
 				holder_scope = {
 					OR = {
@@ -322,8 +322,8 @@ decisions = {
 				}
 			}
 		}
-		
-		effect = {		
+
+		effect = {
 			if = {
 				limit = {
 					religion = catholic
@@ -334,7 +334,7 @@ decisions = {
 							grant_title = PREV
 							any_de_jure_vassal_title = {
 								limit = {
-									holder_scope = { 
+									holder_scope = {
 										OR = {
 											character = ROOT
 											is_liege_or_above = ROOT
@@ -365,7 +365,7 @@ decisions = {
 				piety = 1000
 				set_character_flag = restored_catholic_pope_in_rome
 			}
-			
+
 			if = {
 				limit = {
 					religion = fraticelli
@@ -376,7 +376,7 @@ decisions = {
 							grant_title = PREV
 							any_de_jure_vassal_title = {
 								limit = {
-									holder_scope = { 
+									holder_scope = {
 										OR = {
 											character = ROOT
 											is_liege_or_above = ROOT
@@ -400,11 +400,11 @@ decisions = {
 				set_character_flag = restored_fraticelli_pope_in_rome
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -428,7 +428,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	restore_ecumenical_patriarchate = {
 		is_high_prio = yes
 		potential = {
@@ -503,11 +503,11 @@ decisions = {
 				}
 			}
 		}
-	}	
+	}
 
 	vassalize_paulician_patriarch = {
 		is_high_prio = yes
-		
+
 		potential = {
 			is_playable = yes
 			religion = paulician
@@ -563,7 +563,7 @@ decisions = {
 
 	become_messalian_patriarch = {
 		is_high_prio = yes
-		
+
 		potential = {
 			religion = messalian
 			is_theocracy = yes
@@ -588,12 +588,12 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-		}			
+		}
 	}
 
 	vassalize_religion_head = {
 		is_high_prio = yes
-		
+
 		potential = {
 			is_playable = yes
 			controls_religion = no
@@ -643,7 +643,7 @@ decisions = {
 								}
 								AND = {
 									religion = bogomilist
-									any_realm_title = { title = b_tyrnovo }
+									any_realm_title = { title = b_tarnovo }
 								}
 								AND = {
 									religion = apostolic
@@ -723,10 +723,10 @@ decisions = {
 					if = {
 						limit = {
 							religion = bogomilist
-							any_realm_title = { title = b_tyrnovo }
+							any_realm_title = { title = b_tarnovo }
 						}
 						b_jerusalem = { grant_title = PREVPREV }
-					}			
+					}
 					if = {
 						limit = {
 							religion = jewish

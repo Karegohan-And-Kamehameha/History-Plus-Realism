@@ -1,69 +1,63 @@
-700.1.1={
-	liege = d_kipchak
+800.1.1={
+	liege="k_pechenegs"
 }
-
-762.1.1={
-	holder=188762
+800.1.1={
+	holder=1000231704
 }
-850.1.1=
-{
-liege="k_cuman"
-holder=34870
+825.1.1={
+	liege="0"
 }
-1066.1.1=
-{
-liege="d_sibir"
+825.1.1={
+	holder=0
 }
-1066.1.1=
-{
-holder=161730
+850.1.1={
+	liege="d_oghuz"
 }
-1110.1.1=
-{
-holder=161731
+850.1.1={
+	holder=1000230100
 }
-1140.1.1=
-{
-holder=161732
+862.1.1={
+	holder=1000230101
 }
-1170.1.1=
-{
-holder=161733
+900.1.1={
+	holder=1000230103
 }
-1200.1.1=
-{
-holder=161734
+912.1.1={
+	holder=1000230106
 }
-1220.1.1=
-{
-holder=161735
+929.1.1={
+	holder=1000230121
 }
-1227.1.1=
-{
-holder=34912
-liege=e_golden_horde
+954.1.1={
+	liege="d_qipchaq"
+	holder=1000229722
 }
-1251.1.1=
-{
-holder=34919
+960.1.1={
+	holder=1000229723
 }
-1280.1.1=
-{
-holder=34913
+990.1.1={
+	holder=1000229724
 }
-1301.1.1=
-{
-holder=34914
+# Cumans consolidation complete, push westwards intensifies.
+1030.1.1={
+	liege=d_ay_opa
+	holder=1000233047
 }
-1309.1.1=
-{
-holder=34915
+1065.1.1={
+	holder=1000233049 #Kunui
 }
-1315.1.1=
-{
-holder=34916
+1110.1.1={
+	holder=1000233051
 }
-1320.1.1=
-{
-holder=34917
+1145.1.1={
+	holder=1000233053
+}
+1184.1.1={
+	holder=1000233055
+}
+1210.1.1={
+	holder=1000233057
+}
+1239.1.1={
+	holder=0 # revolt put down by the mongols
 }

@@ -16,7 +16,10 @@ b_dairodmorhannanyo = temple
 
 # Misc
 culture = kurdish
-religion = apostolic
+religion = kharijite
 
 # History
 
+900.1.1 = { 
+	religion = sunni
+}

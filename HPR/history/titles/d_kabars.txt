@@ -1,0 +1,13 @@
+#Qabar
+830.1.1={
+	liege="k_khazaria"
+	holder=1000233270
+}
+854.1.1={ # Qabar revolt
+	liege="k_magyar" 
+	holder=1000233271 # Marot
+}
+895.1.1={
+	liege="0"# Magyars cross the Carpathians, settles in Bihar.
+	holder= 0
+}

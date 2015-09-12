@@ -18,12 +18,12 @@ narrative_event = {
 	id = LoR.1
 	title = EVTNAMELoR.1
 	desc = EVTDESCLoR.1
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = syria_palaestina }
@@ -35,24 +35,28 @@ narrative_event = {
 			has_landed_title = e_byzantium
 			has_landed_title = e_roman_empire
 		}
-		completely_controls = d_edessa
-		completely_controls = d_aleppo
+		completely_controls = d_aleppo ### WARNING: completely_controls is a very demanding trigger.
+		completely_controls = d_homs
+		completely_controls = d_damascus
+		completely_controls = d_jordan
+		completely_controls = d_syria
 		completely_controls = d_antioch
 		completely_controls = d_tripoli
-		completely_controls = d_damascus
-		completely_controls = d_syria
-		completely_controls = d_galilee
+		completely_controls = d_oultrejourdain
 		completely_controls = d_jerusalem
 		completely_controls = d_ascalon
-		completely_controls = d_oultrejourdain
+		completely_controls = d_acre
+		completely_controls = d_galilee
+		completely_controls = d_edessa
+		completely_controls = d_seleukeia
 		completely_controls = d_cyprus
 		completely_controls = d_armenia_minor
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = syria_palaestina
@@ -66,12 +70,12 @@ narrative_event = {
 	id = LoR.2
 	title = EVTNAMELoR.2
 	desc = EVTDESCLoR.2
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = aegyptus }
@@ -86,15 +90,19 @@ narrative_event = {
 		completely_controls = d_alexandria
 		completely_controls = d_damietta
 		completely_controls = d_cairo
+		completely_controls = d_alwahat
+		completely_controls = d_aswan
 		completely_controls = d_sinai
 		completely_controls = d_nubia
-		completely_controls = d_kufra
+		completely_controls = d_alodia
+		completely_controls = d_nobatia
+		completely_controls = d_elatrun
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = aegyptus
@@ -108,12 +116,12 @@ narrative_event = {
 	id = LoR.3
 	title = EVTNAMELoR.3
 	desc = EVTDESCLoR.3
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = cyrenaica }
@@ -126,13 +134,12 @@ narrative_event = {
 			religion = hellenic_pagan
 		}
 		completely_controls = d_cyrenaica
-		completely_controls = d_krete
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = cyrenaica
@@ -152,12 +159,12 @@ narrative_event = {
 	id = LoR.4
 	title = EVTNAMELoR.4
 	desc = EVTDESCLoR.4
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = africa }
@@ -170,14 +177,16 @@ narrative_event = {
 			religion = hellenic_pagan
 		}
 		completely_controls = d_tripolitania
+		completely_controls = d_qamuda
 		completely_controls = d_tunis
 		completely_controls = d_kabylia
+		completely_controls = d_zab
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = africa
@@ -191,12 +200,12 @@ narrative_event = {
 	id = LoR.5
 	title = EVTNAMELoR.5
 	desc = EVTDESCLoR.5
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = illyricum }
@@ -208,20 +217,30 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
-		completely_controls = d_vidin
+		completely_controls = d_styria
+		completely_controls = d_osterreich
 		completely_controls = d_rashka
+		completely_controls = d_macva
+		completely_controls = d_hum
 		completely_controls = d_dioclea
+		completely_controls = d_ragusa
+		completely_controls = d_gyor
+		completely_controls = d_esztergom
+		completely_controls = d_pecs
+		completely_controls = d_syrmia
 		completely_controls = d_slavonia
-		completely_controls = d_bosnia
 		completely_controls = d_croatia
+		completely_controls = d_krk
 		completely_controls = d_dalmatia
-		completely_controls = d_carinthia
+		completely_controls = d_dalmatian_islands
+		completely_controls = d_bosnia
+		completely_controls = d_usora_i_soli
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = illyricum
@@ -235,12 +254,12 @@ narrative_event = {
 	id = LoR.6
 	title = EVTNAMELoR.6
 	desc = EVTDESCLoR.6
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = italia }
@@ -252,29 +271,48 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
-		completely_controls = d_venice
-		completely_controls = d_verona
-		completely_controls = d_susa
 		completely_controls = d_lombardia
+		completely_controls = d_como
+		completely_controls = d_verona
+		completely_controls = d_parma
+		completely_controls = d_susa
+		completely_controls = d_monferrato
 		completely_controls = d_genoa
+		completely_controls = d_savona
 		completely_controls = d_modena
-		completely_controls = d_ferrara
+		completely_controls = d_mantua
+		completely_controls = d_lucca
 		completely_controls = d_toscana
 		completely_controls = d_pisa
+		completely_controls = d_ferrara
+		completely_controls = d_ravenna
 		completely_controls = d_ancona
+		completely_controls = d_urbino
 		completely_controls = d_spoleto
 		completely_controls = d_latium
+		completely_controls = d_corsica
+		completely_controls = d_sardinia
 		completely_controls = d_benevento
+		completely_controls = d_napoli
 		completely_controls = d_capua
 		completely_controls = d_apulia
+		completely_controls = d_loritello
+		completely_controls = d_tarent
 		completely_controls = d_salerno
+		completely_controls = d_alvito
 		completely_controls = d_calabria
+		completely_controls = d_sicily
+		completely_controls = d_venice
+		completely_controls = d_tyrol
+		completely_controls = d_carinthia
+		completely_controls = d_istria
+		completely_controls = d_aquileia
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-	}	
-	
+	}
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = italia
@@ -288,12 +326,12 @@ narrative_event = {
 	id = LoR.1200
 	title = EVTNAME_LoR_1200
 	desc = EVTDESC_LoR_1200
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = sicilia }
@@ -307,16 +345,16 @@ narrative_event = {
 		}
 		completely_controls = d_sicily
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = sicilia
 		prestige = 50
-		
+
 		if = {
 			limit = { has_global_flag = italia }
 			d_sicily = { de_jure_liege = k_roma }
@@ -329,12 +367,12 @@ narrative_event = {
 	id = LoR.1201
 	title = EVTNAME_LoR_1201
 	desc = EVTDESC_LoR_1201
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = sardinia }
@@ -348,16 +386,16 @@ narrative_event = {
 		}
 		completely_controls = d_sardinia
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-	}	
-	
+	}
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = sardinia
 		prestige = 50
-		
+
 		if = {
 			limit = { has_global_flag = italia }
 			d_sardinia = { de_jure_liege = k_roma }
@@ -370,12 +408,12 @@ narrative_event = {
 	id = LoR.1202
 	title = EVTNAME_LoR_1202
 	desc = EVTDESC_LoR_1202
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = viennensis }
@@ -395,13 +433,12 @@ narrative_event = {
 		completely_controls = d_bourbon
 		completely_controls = d_dauphine
 		completely_controls = d_provence
-		completely_controls = d_pyrenees
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-	}	
-	
+	}
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = viennensis
@@ -415,12 +452,12 @@ narrative_event = {
 	id = LoR.7
 	title = EVTNAMELoR.7
 	desc = EVTDESCLoR.7
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = gallia }
@@ -432,35 +469,52 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
-		completely_controls = d_ile_de_france
-		completely_controls = d_artois
-		completely_controls = d_brittany
-		completely_controls = d_berry
-		completely_controls = d_anjou
-		completely_controls = d_normandy
-		completely_controls = d_orleans
-		completely_controls = d_champagne
-		completely_controls = d_valois
-		completely_controls = d_burgundy
-		completely_controls = d_upper_burgundy
-		completely_controls = d_savoie
-		completely_controls = d_brabant
-		completely_controls = d_flanders
+		completely_controls = d_trier
 		completely_controls = d_luxembourg
 		completely_controls = d_upper_lorraine
-		completely_controls = d_lower_lorraine
-		completely_controls = d_alsace
-		completely_controls = d_bar
-		completely_controls = d_liege
-		completely_controls = d_kleve
+		completely_controls = d_barleduc
+		completely_controls = d_hainaut
+		completely_controls = d_limburg
+		completely_controls = d_savoie
+		completely_controls = d_aosta
+		completely_controls = d_arles
+		completely_controls = d_provence
+		completely_controls = d_lyon
+		completely_controls = d_dauphine
+		completely_controls = d_basel
+		completely_controls = d_upper_burgundy
+		completely_controls = d_brittany
+		completely_controls = d_flanders
+		completely_controls = d_artois
+		completely_controls = d_burgundy
+		completely_controls = d_bourbon
+		completely_controls = d_anjou
+		completely_controls = d_normandy
 		completely_controls = d_alencon
-		completely_controls = d_koln
+		completely_controls = d_orleans
+		completely_controls = d_blois
+		completely_controls = d_berry
+		completely_controls = d_nevers
+		completely_controls = d_archreims
+		completely_controls = d_champagne
+		completely_controls = d_rethel
+		completely_controls = d_valois
+		completely_controls = d_toulouse
+		completely_controls = d_gevaudan
+		completely_controls = d_foix
+		completely_controls = d_septimania
+		completely_controls = d_gascogne
+		completely_controls = d_aquitaine
+		completely_controls = d_auvergne
+		completely_controls = d_poitou
+		completely_controls = d_limousin
+		completely_controls = d_channel_islands
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = gallia
@@ -474,12 +528,12 @@ narrative_event = {
 	id = LoR.8
 	title = EVTNAMELoR.8
 	desc = EVTDESCLoR.8
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = germania }
@@ -491,30 +545,62 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
-		completely_controls = d_mecklemburg
-		completely_controls = d_eastphalia
-		completely_controls = d_thuringia
-		completely_controls = d_franconia
-		completely_controls = d_baden
-		completely_controls = d_swabia
+		completely_controls = d_brabant
+		completely_controls = d_liege
 		completely_controls = d_holland
+		completely_controls = d_utrecht
 		completely_controls = d_gelre
-		completely_controls = d_pommerania
-		completely_controls = d_brandenburg
+		completely_controls = d_frisia
+		completely_controls = d_koln
+		completely_controls = d_berg
+		completely_controls = d_baden
+		completely_controls = d_alsace
+		completely_controls = d_teck
+		completely_controls = d_angria
+		completely_controls = d_oldenburg
+		completely_controls = d_osnabruck
+		completely_controls = d_bishopmunster
+		completely_controls = d_bremen
+		completely_controls = d_holstein
+		completely_controls = d_magdeburg
+		completely_controls = d_saxewittenberg
 		completely_controls = d_meissen
-		completely_controls = d_bavaria
-		completely_controls = d_osterreich
-		completely_controls = d_tyrol
-		completely_controls = d_westphalia
+		completely_controls = d_altmark
+		completely_controls = d_brunswick
+		completely_controls = d_rheinfranken
+		completely_controls = d_wurzburg
+		completely_controls = d_mainz
+		completely_controls = d_thuringia
+		completely_controls = d_hessen
+		completely_controls = d_niederbayern
+		completely_controls = d_bamberg
+		completely_controls = d_nuremberg
 		completely_controls = d_bohemia
 		completely_controls = d_moravia
-		completely_controls = d_swiss
+		completely_controls = d_sjaelland
+		completely_controls = d_jylland
+		completely_controls = d_slesvig
+		completely_controls = d_mecklemburg
+		completely_controls = d_pomeralia
+		completely_controls = d_lubeck
+		completely_controls = d_lubusz
+		completely_controls = d_pommerania
+		completely_controls = d_rugen
+		completely_controls = d_brandenburg
+		completely_controls = d_lausitz
+		completely_controls = d_mazovia
+		completely_controls = d_greater_poland
+		completely_controls = d_silesia
+		completely_controls = d_lesser_poland
+		completely_controls = d_kuyavia
+		completely_controls = d_sieradzko-leczyckie
+		completely_controls = d_nyitra
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = germania
@@ -528,12 +614,12 @@ narrative_event = {
 	id = LoR.9
 	title = EVTNAMELoR.9
 	desc = EVTDESCLoR.9
-	
+
 	picture = GFX_evt_victory_arch_byzantine
 
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = britannia }
@@ -545,26 +631,27 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
-		completely_controls = d_northumberland
-		completely_controls = d_lancaster
-		completely_controls = d_york
-		completely_controls = d_norfolk
-		completely_controls = d_bedford
-		completely_controls = d_hereford
-		completely_controls = d_gloucester
-		completely_controls = d_canterbury
 		completely_controls = d_somerset
+		completely_controls = d_canterbury
+		completely_controls = d_cornwall
+		completely_controls = d_hereford
+		completely_controls = d_bedford
+		completely_controls = d_essex
+		completely_controls = d_norfolk
+		completely_controls = d_fivebouroughs
+		completely_controls = d_york
+		completely_controls = d_lancaster
+		completely_controls = d_northumberland
 		completely_controls = d_gwynedd
 		completely_controls = d_deheubarth
-		completely_controls = d_cornwall
-		completely_controls = d_huntingdon
 		completely_controls = d_powys
+		completely_controls = d_morgannwg
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = britannia
@@ -578,12 +665,12 @@ narrative_event = {
 	id = LoR.10
 	title = EVTNAMELoR.10
 	desc = EVTDESCLoR.10
-	
+
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = hispania }
@@ -596,29 +683,37 @@ narrative_event = {
 			religion = hellenic_pagan
 		}
 		completely_controls = d_castilla
-		completely_controls = d_aragon
-		completely_controls = d_barcelona
-		completely_controls = d_valencia
-		completely_controls = d_mallorca
+		completely_controls = d_segovia
+		completely_controls = d_najera
 		completely_controls = d_navarra
-		completely_controls = d_asturias
-		completely_controls = d_leon
 		completely_controls = d_galicia
+		completely_controls = d_leon
+		completely_controls = d_salamanca
+		completely_controls = d_aragon
+		completely_controls = d_zaragoza
+		completely_controls = d_barcelona
+		completely_controls = d_catalunya_nova
+		completely_controls = d_teruel
+		completely_controls = d_ribatejo
+		completely_controls = d_beira
 		completely_controls = d_porto
 		completely_controls = d_beja
 		completely_controls = d_algarve
-		completely_controls = d_cordoba
-		completely_controls = d_murcia
-		completely_controls = d_granada
-		completely_controls = d_sevilla
 		completely_controls = d_badajoz
 		completely_controls = d_toledo
+		completely_controls = d_sevilla
+		completely_controls = d_granada
+		completely_controls = d_cordoba
+		completely_controls = d_la_mancha
+		completely_controls = d_valencia
+		completely_controls = d_murcia
+		completely_controls = d_mallorca
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = hispania
@@ -632,12 +727,12 @@ narrative_event = {
 	id = LoR.11
 	title = EVTNAMELoR.11
 	desc = EVTDESCLoR.11
-	
+
 	picture = GFX_evt_victory_arch_byzantine
 
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = mauretania }
@@ -654,13 +749,12 @@ narrative_event = {
 		completely_controls = d_fes
 		completely_controls = d_alger
 		completely_controls = d_tlemcen
-		completely_controls = d_atlas
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = mauretania
@@ -674,12 +768,12 @@ narrative_event = {
 	id = LoR.12
 	title = EVTNAMELoR.12
 	desc = EVTDESCLoR.12
-	
+
 	picture = GFX_evt_victory_arch_byzantine
 
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = mesopotamia }
@@ -691,18 +785,16 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
-		completely_controls = d_tigris
-		completely_controls = d_baghdad
+		completely_controls = d_amida
 		completely_controls = d_mosul
 		completely_controls = d_jazira
-		completely_controls = d_mesopotamia
-		completely_controls = d_palmyra
+		completely_controls = d_diyareast
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = mesopotamia
@@ -716,12 +808,12 @@ narrative_event = {
 	id = LoR.13
 	title = EVTNAMELoR.13
 	desc = EVTDESCLoR.13
-	
+
 	picture = GFX_evt_victory_arch_byzantine
 
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = caledonia }
@@ -733,18 +825,19 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
-		completely_controls = d_galloway
-		completely_controls = d_western_isles
-		completely_controls = d_lothian
 		completely_controls = d_albany
+		completely_controls = d_galloway
+		completely_controls = d_lothian
 		completely_controls = d_moray
-		completely_controls = d_highlands
+		completely_controls = d_aberdeen
+		completely_controls = d_strathclyde
+		completely_controls = d_hebrides
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = caledonia
@@ -758,12 +851,12 @@ narrative_event = {
 	id = LoR.14
 	title = EVTNAMELoR.14
 	desc = EVTDESCLoR.14
-	
+
 	picture = GFX_evt_victory_arch_byzantine
 
 	only_playable = yes
 	only_independent = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = hibernia }
@@ -775,17 +868,22 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
+		completely_controls = d_oneill
 		completely_controls = d_ulster
+		completely_controls = d_airgialla
+		completely_controls = d_breifne
 		completely_controls = d_connacht
 		completely_controls = d_meath
+		completely_controls = d_thomond
+		completely_controls = d_ossory
 		completely_controls = d_leinster
 		completely_controls = d_munster
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.1
 		set_global_flag = hibernia
@@ -801,11 +899,11 @@ narrative_event = {
 	id = LoR.20
 	title = EVTNAMELoR.20
 	desc = EVTDESCLoR.20
-	
+
 	picture = GFX_evt_rome_restored_byzantine
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		add_trait = augustus
 		give_nickname = nick_the_glorious
@@ -817,12 +915,12 @@ narrative_event = {
 				grant_title = ROOT
 				make_primary_title = yes
 			}
-			
+
 			if = { # If Byzantium formed it
 				limit = {
 					has_landed_title = e_byzantium
 					NOR = {
-						has_landed_title = e_latin_empire 
+						has_landed_title = e_latin_empire
 						has_landed_title = e_hre
 						has_landed_title = e_italy
 						has_landed_title = e_karling
@@ -954,7 +1052,7 @@ narrative_event = {
 			narrative_event = { id = LoR.21 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.20
 		set_global_flag = rome_restored
@@ -967,11 +1065,11 @@ narrative_event = {
 	id = LoR.21
 	title = EVTNAMELoR.21
 	desc = EVTDESCLoR.21
-	
+
 	picture = GFX_evt_rome_restored_byzantine
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTALoR.21
 		trigger = {
@@ -1004,11 +1102,11 @@ character_event = {
 	id = LoR.30
 	desc = EVTDESCLoR.30
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		OR = {
 			has_landed_title = e_byzantium
@@ -1027,7 +1125,7 @@ character_event = {
 			religion_group = pagan_group
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.30
 		character_event = { id = LoR.31 days = 12 tooltip = EVTTOOLTIPLoR.31 }
@@ -1050,11 +1148,11 @@ character_event = {
 	id = LoR.31
 	desc = EVTDESCLoR.31
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	hide_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTALoR.31
 		custom_tooltip = {
@@ -1081,9 +1179,9 @@ character_event = {
 	id = LoR.32
 	desc = EVTDESCLoR.32
 	picture = GFX_evt_victory_arch_byzantine
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTALoR.32
 	}
@@ -1096,16 +1194,16 @@ narrative_event = {
 	id = LoR.40
 	title = EVTNAMELoR.40
 	desc = EVTDESCLoR.40
-	
+
 	picture = GFX_evt_rome_restored_byzantine
-	
+
 	only_playable = yes
 	only_independent = yes
-	
+
 	immediate = {
 		set_character_flag = achievement_spqr
 	}
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		NOT = { has_global_flag = roman_borders }
@@ -1117,184 +1215,248 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
-		
-		# Provincia Britannia
-		completely_controls = d_northumberland
-		completely_controls = d_lancaster
-		completely_controls = d_york
-		completely_controls = d_norfolk
-		completely_controls = d_bedford
-		completely_controls = d_hereford
-		completely_controls = d_gloucester
-		completely_controls = d_canterbury
-		completely_controls = d_somerset
-		completely_controls = d_gwynedd
-		completely_controls = d_deheubarth
-		completely_controls = d_cornwall
-		completely_controls = d_huntingdon
-		
-		# Provincia Italia
-		completely_controls = d_venice
-		completely_controls = d_verona
-		completely_controls = d_susa
-		completely_controls = d_lombardia
-		completely_controls = d_genoa
-		completely_controls = d_modena
-		completely_controls = d_ferrara
-		completely_controls = d_toscana
-		completely_controls = d_pisa
-		completely_controls = d_ancona
-		completely_controls = d_spoleto
-		completely_controls = d_latium
-		completely_controls = d_benevento
-		completely_controls = d_capua
-		completely_controls = d_apulia
-		completely_controls = d_salerno
-		completely_controls = d_calabria
-		completely_controls = d_piedmont
-		
-		# Provincia Cilicia et Cyprus
-		completely_controls = d_armenia_minor
-		completely_controls = d_cyprus
 
-		# Provincia Syria Palaestina
-		completely_controls = d_edessa
-		completely_controls = d_aleppo
-		completely_controls = d_antioch
-		completely_controls = d_tripoli
-		completely_controls = d_damascus
-		completely_controls = d_syria
-		completely_controls = d_galilee
-		completely_controls = d_jerusalem
-		completely_controls = d_ascalon
-		completely_controls = d_oultrejourdain
-		
-		# Provincia Aegyptus
-		completely_controls = d_alexandria
-		completely_controls = d_damietta
-		completely_controls = d_cairo
-		completely_controls = d_sinai
-		completely_controls = d_nubia
-		
-		# Provincia Cyrenaica et Creta
-		completely_controls = d_cyrenaica
-		completely_controls = d_krete
-		
-		# Provincia Africa
-		completely_controls = d_tripolitania
-		completely_controls = d_tunis
-		completely_controls = d_kabylia
-		
-		# Provincia Illyricum
-		completely_controls = d_vidin
-		completely_controls = d_rashka
-		completely_controls = d_dioclea
-		completely_controls = d_slavonia
-		completely_controls = d_bosnia
-		completely_controls = d_croatia
-		completely_controls = d_dalmatia
-		completely_controls = d_carinthia
-		
-		# Provincia Sicilia
-		completely_controls = d_sicily
-		
-		# Provincia Corsica et Sardinia
-		completely_controls = d_sardinia
-		
-		# Provincia Viennensis
-		completely_controls = d_aquitaine
-		completely_controls = d_toulouse
-		completely_controls = d_gascogne
-		completely_controls = d_poitou
-		completely_controls = d_auvergne
-		completely_controls = d_bourbon
-		completely_controls = d_dauphine
-		completely_controls = d_provence
-		completely_controls = d_pyrenees
-		
-		# Provincia Gallia
-		completely_controls = d_brittany
-		completely_controls = d_berry
-		completely_controls = d_anjou
-		completely_controls = d_normandy
-		completely_controls = d_orleans
-		completely_controls = d_champagne
-		completely_controls = d_valois
-		completely_controls = d_burgundy
-		completely_controls = d_upper_burgundy
-		completely_controls = d_savoie
-		completely_controls = d_brabant
-		completely_controls = d_flanders
-		completely_controls = d_luxembourg
-		completely_controls = d_upper_lorraine
-		completely_controls = d_lower_lorraine
-		completely_controls = d_alsace
-		completely_controls = d_bar
-		completely_controls = d_liege
-		completely_controls = d_kleve
-
-		# Provincia Hispania
-		completely_controls = d_castilla
-		completely_controls = d_aragon
-		completely_controls = d_barcelona
-		completely_controls = d_valencia
-		completely_controls = d_mallorca
-		completely_controls = d_navarra
-		completely_controls = d_asturias
-		completely_controls = d_leon
-		completely_controls = d_galicia
-		completely_controls = d_porto
-		completely_controls = d_beja
-		completely_controls = d_algarve
-		completely_controls = d_cordoba
-		completely_controls = d_murcia
-		completely_controls = d_granada
-		completely_controls = d_sevilla
-		completely_controls = d_badajoz
-		completely_controls = d_toledo
-		
-		# Provincia Mauretania
-		completely_controls = d_marrakech
-		completely_controls = d_tangiers
-		completely_controls = d_fes
-		completely_controls = d_alger
-		completely_controls = d_tlemcen
-		completely_controls = d_atlas
-		
-		# Provincia Macedonia
+		completely_controls = d_aegean_islands
+		completely_controls = d_thrace
+		completely_controls = d_strymon
+		completely_controls = d_thessalonika
+		completely_controls = d_neopatras
 		completely_controls = d_dyrrachion
 		completely_controls = d_epirus
-		completely_controls = d_thessalonika
+		completely_controls = d_cephalonia
 		completely_controls = d_athens
 		completely_controls = d_achaia
-		completely_controls = d_aegean_islands
-		
-		# Provincia Thracia
+		completely_controls = d_krete
+		completely_controls = d_paphlagonia
+		completely_controls = d_boukellarion
+		completely_controls = d_samos
+		completely_controls = d_thracesia
+		completely_controls = d_opsikon
+		completely_controls = d_optimatoi
+		completely_controls = d_cibyrrhaeot
+		completely_controls = d_charsianon
+		completely_controls = d_cappadocia
+		completely_controls = d_coloneia
+		completely_controls = d_sebasteia
+		completely_controls = d_lykandos
+		completely_controls = d_anatolia
+		completely_controls = d_melitene
+		completely_controls = d_cyprus
+		completely_controls = d_trebizond
+		completely_controls = d_cherson
+		completely_controls = d_armeniacon
+		completely_controls = d_armenia_minor
+		completely_controls = d_seleukeia
+		completely_controls = d_ragusa
 		completely_controls = d_turnovo
 		completely_controls = d_karvuna
 		completely_controls = d_adrianopolis
-		completely_controls = d_thrace
-		
-		# Provincia Asia
-		completely_controls = d_nikaea
-		completely_controls = d_samos
-		completely_controls = d_cibyrrhaeot
-		completely_controls = d_thracesia
-		completely_controls = d_anatolia
-		
-		# Provincia Pontus
-		completely_controls = d_paphlagonia
-		completely_controls = d_armeniacon
-		completely_controls = d_charsianon
-		completely_controls = d_trebizond
-		completely_controls = d_coloneia
+		completely_controls = d_vidin
+		completely_controls = d_ohrid
+		completely_controls = d_rashka
+		completely_controls = d_macva
+		completely_controls = d_hum
+		completely_controls = d_dioclea
+		completely_controls = d_bosnia
+		completely_controls = d_usora_i_soli
+		completely_controls = d_dalmatia
+		completely_controls = d_krk
+		completely_controls = d_dalmatian_islands
+		completely_controls = d_croatia
+		completely_controls = d_slavonia
+		completely_controls = d_benevento
+		completely_controls = d_napoli
+		completely_controls = d_capua
+		completely_controls = d_apulia
+		completely_controls = d_loritello
+		completely_controls = d_tarent
+		completely_controls = d_salerno
+		completely_controls = d_alvito
+		completely_controls = d_calabria
+		completely_controls = d_sicily
+		completely_controls = d_styria
+		completely_controls = d_carinthia
+		completely_controls = d_istria
+		completely_controls = d_aquileia
+		completely_controls = d_jerusalem
+		completely_controls = d_acre
+		completely_controls = d_oultrejourdain
+		completely_controls = d_ascalon
+		completely_controls = d_galilee
+		completely_controls = d_edessa
+		completely_controls = d_antioch
+		completely_controls = d_tripoli
+		completely_controls = d_aleppo
+		completely_controls = d_homs
+		completely_controls = d_damascus
+		completely_controls = d_jordan
+		completely_controls = d_syria
+		completely_controls = d_lombardia
+		completely_controls = d_como
+		completely_controls = d_verona
+		completely_controls = d_parma
+		completely_controls = d_susa
+		completely_controls = d_monferrato
+		completely_controls = d_genoa
+		completely_controls = d_savona
+		completely_controls = d_modena
+		completely_controls = d_mantua
+		completely_controls = d_lucca
+		completely_controls = d_toscana
+		completely_controls = d_pisa
+		completely_controls = d_ferrara
+		completely_controls = d_ravenna
+		completely_controls = d_ancona
+		completely_controls = d_urbino
+		completely_controls = d_spoleto
+		completely_controls = d_latium
+		completely_controls = d_corsica
+		completely_controls = d_sardinia
+		completely_controls = d_venice
+		completely_controls = d_alexandria
+		completely_controls = d_damietta
+		completely_controls = d_cairo
+		completely_controls = d_alwahat
+		completely_controls = d_aswan
+		completely_controls = d_cyrenaica
+		completely_controls = d_sinai
+		completely_controls = d_castilla
+		completely_controls = d_segovia
+		completely_controls = d_najera
+		completely_controls = d_navarra
+		completely_controls = d_galicia
+		completely_controls = d_leon
+		completely_controls = d_salamanca
+		completely_controls = d_aragon
+		completely_controls = d_zaragoza
+		completely_controls = d_barcelona
+		completely_controls = d_catalunya_nova
+		completely_controls = d_teruel
+		completely_controls = d_ribatejo
+		completely_controls = d_beira
+		completely_controls = d_porto
+		completely_controls = d_beja
+		completely_controls = d_algarve
+		completely_controls = d_badajoz
+		completely_controls = d_toledo
+		completely_controls = d_sevilla
+		completely_controls = d_granada
+		completely_controls = d_cordoba
+		completely_controls = d_la_mancha
+		completely_controls = d_valencia
+		completely_controls = d_murcia
+		completely_controls = d_mallorca
+		completely_controls = d_tunis
+		completely_controls = d_qamuda
+		completely_controls = d_tripolitania
+		completely_controls = d_kabylia
+		completely_controls = d_zab
+		completely_controls = d_alger
+		completely_controls = d_tlemcen
+		completely_controls = d_tangiers
+		completely_controls = d_fes
+		completely_controls = d_marrakech
+		completely_controls = d_trier
+		completely_controls = d_luxembourg
+		completely_controls = d_pfalz
+		completely_controls = d_upper_lorraine
+		completely_controls = d_barleduc
+		completely_controls = d_brabant
+		completely_controls = d_liege
+		completely_controls = d_hainaut
+		completely_controls = d_limburg
+		completely_controls = d_koln
+		completely_controls = d_berg
+		completely_controls = d_savoie
+		completely_controls = d_aosta
+		completely_controls = d_arles
+		completely_controls = d_provence
+		completely_controls = d_lyon
+		completely_controls = d_dauphine
+		completely_controls = d_basel
+		completely_controls = d_upper_burgundy
+		completely_controls = d_brittany
+		completely_controls = d_flanders
+		completely_controls = d_artois
+		completely_controls = d_burgundy
+		completely_controls = d_bourbon
+		completely_controls = d_anjou
+		completely_controls = d_normandy
+		completely_controls = d_alencon
+		completely_controls = d_orleans
+		completely_controls = d_blois
+		completely_controls = d_berry
+		completely_controls = d_nevers
+		completely_controls = d_archreims
+		completely_controls = d_champagne
+		completely_controls = d_rethel
+		completely_controls = d_valois
+		completely_controls = d_toulouse
+		completely_controls = d_gevaudan
+		completely_controls = d_foix
+		completely_controls = d_septimania
+		completely_controls = d_gascogne
+		completely_controls = d_aquitaine
+		completely_controls = d_auvergne
+		completely_controls = d_poitou
+		completely_controls = d_limousin
+		completely_controls = d_holland
+		completely_controls = d_utrecht
+		completely_controls = d_gelre
+		completely_controls = d_frisia
+		completely_controls = d_mainz
+		completely_controls = d_tyrol
+		completely_controls = d_oberbayern
+		completely_controls = d_salzburg
+		completely_controls = d_osterreich
+		completely_controls = d_augsburg
+		completely_controls = d_baden
+		completely_controls = d_chur
+		completely_controls = d_alsace
+		completely_controls = d_zahringen
+		completely_controls = d_teck
+		completely_controls = d_burgau
+		completely_controls = d_suenik
+		completely_controls = d_vaspurakan
+		completely_controls = d_armenia
+		completely_controls = d_lori
+		completely_controls = d_amida
+		completely_controls = d_taron
 		completely_controls = d_mesopotamia
+		completely_controls = d_oltenia
+		completely_controls = d_esztergom
+		completely_controls = d_gyor
+		completely_controls = d_pecs
+		completely_controls = d_csanad
+		completely_controls = d_bacs
+		completely_controls = d_syrmia
+		completely_controls = d_pest
+		completely_controls = d_transylvania
+		completely_controls = d_mosul
+		completely_controls = d_jazira
+		completely_controls = d_diyareast
+		completely_controls = d_somerset
+		completely_controls = d_canterbury
+		completely_controls = d_cornwall
+		completely_controls = d_hereford
+		completely_controls = d_bedford
+		completely_controls = d_essex
+		completely_controls = d_norfolk
+		completely_controls = d_fivebouroughs
+		completely_controls = d_york
+		completely_controls = d_lancaster
+		completely_controls = d_northumberland
+		completely_controls = d_channel_islands
+		completely_controls = d_gwynedd
+		completely_controls = d_deheubarth
+		completely_controls = d_powys
+		completely_controls = d_morgannwg
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.40
 		set_global_flag = roman_borders
@@ -1309,20 +1471,20 @@ character_event = {
 	id = LoR.45
 	desc = EVTDESCLoR.45
 	picture = GFX_evt_rome_restored_byzantine
-	
+
 	only_rulers = yes
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		has_global_flag = rome_restored
 		has_landed_title = e_roman_empire
 		NOT = { trait = augustus }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.45
 		add_trait = augustus
@@ -1334,7 +1496,7 @@ character_event = {
 	id = LoR.46
 	desc = EVTDESCLoR.46
 	picture = GFX_evt_rome_restored_byzantine
-	
+
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		has_global_flag = rome_restored
@@ -1342,11 +1504,11 @@ character_event = {
 		NOT = { has_landed_title = e_roman_empire }
 		is_alive = yes
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTALoR.46
 		remove_trait = augustus

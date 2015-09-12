@@ -4,18 +4,14 @@
 	dna = bcedirmbfcy
 	properties = aj00bb00000
 	martial=11
-	diplomacy=12
+	diplomacy=9
 	intrigue=7
 	stewardship=12
 	religion="catholic"
 	culture="old_frankish"
 	trait = diligent
 	trait = brilliant_strategist
-	trait = quick
-	trait = temperate
-	trait = strong
-	trait = ambitious
-	health = 7
+	trait = zealous
 	disallow_random_traits = yes
 	father=131722
 	mother=190429
@@ -60,7 +56,7 @@
 		add_claim = k_france
 	}
 	771.12.4={
-		death=yes
+		death = yes
 	}
 }
 
@@ -99,10 +95,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	608.1.1={
-		birth=yes
+		birth = yes
 	}
 	651.1.1={
-		death=yes
+		death = yes
 	}
 }
 190389 = {
@@ -112,10 +108,10 @@
 	culture="old_frankish"
 	father=190388
 	631.1.1={
-		birth=yes
+		birth = yes
 	}
 	677.1.1={
-		death=yes
+		death = yes
 	}
 }
 190390 = {
@@ -125,10 +121,10 @@
 	culture="old_frankish"
 	father=190389
 	652.1.1={
-		birth=yes
+		birth = yes
 	}
 	697.1.1={
-		death=yes
+		death = yes
 	}
 }
 190391 = {
@@ -138,10 +134,10 @@
 	culture="old_frankish"
 	father=190390
 	680.1.1={
-		birth=yes
+		birth = yes
 	}
 	733.1.1={
-		death=yes
+		death = yes
 	}
 }
 190392 = {
@@ -151,10 +147,10 @@
 	culture="old_frankish"
 	father=190391
 	719.1.1={
-		birth=yes
+		birth = yes
 	}
 	770.1.1={
-		death=yes
+		death = yes
 	}
 }
 190393 = {
@@ -164,10 +160,10 @@
 	culture="old_frankish"
 	father=190392
 	756.1.1={
-		birth=yes
+		birth = yes
 	}
 	805.1.1={
-		death=yes
+		death = yes
 	}
 }
 190394 = {
@@ -177,10 +173,10 @@
 	culture="old_frankish"
 	father=33328
 	766.1.1={
-		birth=yes
+		birth = yes
 	}
 	805.1.1={
-		death=yes
+		death = yes
 	}
 }
 190395 = {
@@ -190,10 +186,10 @@
 	culture="old_frankish"
 	father=190394
 	786.1.1={
-		birth=yes
+		birth = yes
 	}
 	813.1.1={
-		death=yes
+		death = yes
 	}
 }
 190396 = {
@@ -203,10 +199,10 @@
 	culture="old_frankish"
 	father=190394
 	789.1.1={
-		birth=yes
+		birth = yes
 	}
 	818.1.1={
-		death=yes
+		death = yes
 	}
 }
 190397 = {
@@ -216,10 +212,10 @@
 	culture="old_frankish"
 	father=33329
 	781.1.1={
-		birth=yes
+		birth = yes
 	}
 	836.1.1={
-		death=yes
+		death = yes
 	}
 }
 190398 = {
@@ -229,10 +225,10 @@
 	culture="old_frankish"
 	father=190397
 	811.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
 190399 = {
@@ -242,10 +238,10 @@
 	culture="old_frankish"
 	father=190398
 	837.1.1={
-		birth=yes
+		birth = yes
 	}
 	872.1.1={
-		death=yes
+		death = yes
 	}
 }
 190400 = {
@@ -254,10 +250,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	741.1.1={
-		birth=yes
+		birth = yes
 	}
 	787.1.1={
-		death=yes
+		death = yes
 	}
 }
 190401 = {
@@ -266,10 +262,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	572.1.1={
-		birth=yes
+		birth = yes
 	}
 	621.1.1={
-		death=yes
+		death = yes
 	}
 }
 190402 = {
@@ -279,10 +275,10 @@
 	culture="old_frankish"
 	father=190401
 	598.1.1={
-		birth=yes
+		birth = yes
 	}
 	643.1.1={
-		death=yes
+		death = yes
 	}
 }
 190403 = {
@@ -292,10 +288,10 @@
 	culture="old_frankish"
 	father=190402
 	620.1.1={
-		birth=yes
+		birth = yes
 	}
 	676.1.1={
-		death=yes
+		death = yes
 	}
 }
 190404 = {
@@ -305,10 +301,10 @@
 	culture="old_frankish"
 	father=190403
 	668.1.1={
-		birth=yes
+		birth = yes
 	}
 	729.1.1={
-		death=yes
+		death = yes
 	}
 }
 190405 = {
@@ -318,10 +314,10 @@
 	culture="old_frankish"
 	father=33327
 	748.1.1={
-		birth=yes
+		birth = yes
 	}
 	775.1.1={
-		death=yes
+		death = yes
 	}
 }
 190406 = {
@@ -331,10 +327,10 @@
 	culture="old_frankish"
 	father=33327
 	751.1.1={
-		birth=yes
+		birth = yes
 	}
 	803.1.1={
-		death=yes
+		death = yes
 	}
 }
 190407 = {
@@ -345,10 +341,10 @@
 	culture="old_frankish"
 	father=33327
 	750.1.1={
-		birth=yes
+		birth = yes
 	}
 	797.1.1={
-		death=yes
+		death = yes
 	}
 }
 190408 = {
@@ -359,10 +355,10 @@
 	culture="old_frankish"
 	father=33327
 	756.1.1={
-		birth=yes
+		birth = yes
 	}
 	779.1.1={
-		death=yes
+		death = yes
 	}
 }
 190409 = {
@@ -373,10 +369,10 @@
 	father=91000
 	mother=91121
 	728.1.1={
-		birth=yes
+		birth = yes
 	}
 	780.1.1={
-		death=yes
+		death = yes
 	}
 }
 190410 = {
@@ -387,10 +383,10 @@
 	father=91000
 	mother=91121
 	735.1.1={
-		birth=yes
+		birth = yes
 	}
 	789.1.1={
-		death=yes
+		death = yes
 	}
 }
 190411 = {
@@ -400,10 +396,10 @@
 	culture="old_frankish"
 	father=91005
 	810.1.1={
-		birth=yes
+		birth = yes
 	}
 	847.1.1={
-		death=yes
+		death = yes
 	}
 }
 91000 = {
@@ -429,23 +425,6 @@
 	}
 }
 
-194450 = {
-	name="Robert" #Robert II, count de Hesbaye
-	dynasty=743 #Capet (Robertien)
-	religion=catholic
-	culture=old_frankish
-	trait = lustful
-	trait = strong
-	father=91000
-	mother = 91121
-	742.8.7 = {
-		birth=yes
-	}
-	807.6.6 = {
-		death=yes
-	}
-}
-
 33327 = {
 	name="Cancor"
 	#Rupert Cancor
@@ -468,10 +447,10 @@
 	culture=old_frankish
 
 	774.1.1={
-		birth=yes
+		birth = yes
 	}
 	825.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -485,10 +464,10 @@
 	culture=old_frankish
 
 	833.1.1={
-		birth=yes
+		birth = yes
 	}
 	851.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -502,10 +481,10 @@
 	culture=old_frankish
 
 	817.1.1={
-		birth=yes
+		birth = yes
 	}
 	850.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -516,10 +495,10 @@
 	culture=old_frankish
 
 	800.1.1={
-		birth=yes
+		birth = yes
 	}
 	852.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -534,10 +513,10 @@
 	culture=old_frankish
 
 	828.1.1={
-		birth=yes
+		birth = yes
 	}
 	860.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -550,13 +529,13 @@
 	culture=old_frankish
 
 	786.1.1={
-		birth=yes
+		birth = yes
 	}
 	827.1.1={
 		add_spouse=200147
 	}
 	830.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -571,10 +550,10 @@
 	culture=old_frankish
 
 	810.1.1={
-		birth=yes
+		birth = yes
 	}
 	860.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -588,10 +567,10 @@
 	culture=old_frankish
 
 	831.1.1={
-		birth=yes
+		birth = yes
 	}
 	866.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -605,10 +584,10 @@
 	culture=old_frankish
 
 	798.1.1={
-		birth=yes
+		birth = yes
 	}
 	834.1.1={
-		death=yes
+		death = yes
 	}
 }
 73784={
@@ -622,10 +601,10 @@
 	culture=old_frankish
 
 	826.11.29={
-		birth=yes
+		birth = yes
 	}
 	850.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -637,10 +616,10 @@
 	culture=old_frankish
 
 	815.1.1={
-		birth=yes
+		birth = yes
 	}
 	870.1.1={
-		death=yes
+		death = yes
 	}
 }
 127019={
@@ -656,16 +635,16 @@
 	stewardship=6
 
 	religion=catholic
-	culture=old_frankish
+	culture=occitan
 
 	841.3.22={
-		birth=yes
+		birth = yes
 	}
 	864.1.1={
 		add_spouse=127020
 	}
 	886.1.6={
-		death=yes
+		death = yes
 	}
 }
 163063={
@@ -678,13 +657,13 @@
 	culture=old_frankish
 
 	796.1.1={
-		birth=yes
+		birth = yes
 	}
 	824.1.1={
 		add_spouse=168141
 	}
 	844.5.1={
-		death=yes
+		death = yes
 	}
 }
 190412 = {
@@ -693,10 +672,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	557.1.1={
-		birth=yes
+		birth = yes
 	}
 	602.1.1={
-		death=yes
+		death = yes
 	}
 }
 190413 = {
@@ -706,10 +685,10 @@
 	culture="old_frankish"
 	father=190412
 	580.1.1={
-		birth=yes
+		birth = yes
 	}
 	640.7.18={
-		death=yes
+		death = yes
 	}
 }
 190414 = {
@@ -719,10 +698,10 @@
 	culture="old_frankish"
 	father=190413
 	610.1.1={
-		birth=yes
+		birth = yes
 	}
 	697.5.8={
-		death=yes
+		death = yes
 	}
 }
 190415 = {
@@ -732,10 +711,10 @@
 	culture="old_frankish"
 	father=190414
 	638.1.1={
-		birth=yes
+		birth = yes
 	}
 	712.1.1={
-		death=yes
+		death = yes
 	}
 }
 190416 = {
@@ -745,10 +724,10 @@
 	culture="old_frankish"
 	father=190414
 	647.1.1={
-		birth=yes
+		birth = yes
 	}
 	716.1.1={
-		death=yes
+		death = yes
 	}
 }
 190417 = {
@@ -758,11 +737,13 @@
 	culture="old_frankish"
 	father=190413
 	612.1.1={
-		birth=yes
+		birth = yes
 	}
-	643.1.1 = { add_spouse=91404 } #Begga
+	643.1.1 = {
+		add_spouse=91404 #Begga
+	}
 	662.1.1={
-		death=yes
+		death = yes
 	}
 }
 190418 = {
@@ -774,10 +755,10 @@
 	father=190417 #ANSEGISEL
 	mother=91404 #Begga
 	632.1.1={
-		birth=yes
+		birth = yes
 	}
 	692.1.1={
-		death=yes
+		death = yes
 	}
 }
 190419 = {
@@ -787,10 +768,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	636.1.1={
-		birth=yes
+		birth = yes
 	}
 	674.1.1={
-		death=yes
+		death = yes
 	}
 }
 190420 = {
@@ -800,10 +781,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	656.1.1={
-		birth=yes
+		birth = yes
 	}
 	714.1.1={
-		death=yes
+		death = yes
 	}
 }
 190421 = {
@@ -813,10 +794,10 @@
 	culture="old_frankish"
 	father=131719
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	730.1.1={
-		death=yes
+		death = yes
 	}
 }
 190422 = {
@@ -826,10 +807,10 @@
 	culture="old_frankish"
 	father=131719
 	675.1.1={
-		birth=yes
+		birth = yes
 	}
 	726.1.1={
-		death=yes
+		death = yes
 	}
 }
 190423 = {
@@ -840,10 +821,10 @@
 	father=131719
 	trait="bastard"
 	676.1.1={
-		birth=yes
+		birth = yes
 	}
 	724.1.1={
-		death=yes
+		death = yes
 	}
 }
 190424 = {
@@ -854,10 +835,10 @@
 	father=131723
 	trait="bastard"
 	707.1.1={
-		birth=yes
+		birth = yes
 	}
 	741.1.1={
-		death=yes
+		death = yes
 	}
 }
 190425 = {
@@ -867,10 +848,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	690.1.1={
-		birth=yes
+		birth = yes
 	}
 	725.1.1={
-		death=yes
+		death = yes
 	}
 }
 190427 = {
@@ -881,10 +862,10 @@
 	father=131721
 	mother=190425
 	706.1.1={
-		birth=yes
+		birth = yes
 	}
 	754.12.4={
-		death=yes
+		death = yes
 	}
 }
 190428 = {
@@ -894,10 +875,10 @@
 	culture="old_frankish"
 	father=190427
 	730.1.1={
-		birth=yes
+		birth = yes
 	}
 	754.1.1={
-		death=yes
+		death = yes
 	}
 }
 190429 = {
@@ -910,14 +891,14 @@
 	father=91468 #Charibert
 	trait = deceitful
 	720.1.1={
-		birth=yes
+		birth = yes
 	}
 	768.9.24 = {
 		employer=6392 #Charlemagne
 		effect = { set_character_flag = meddling_mother }
 	}
 	783.6.12={
-		death=yes
+		death = yes
 	}
 }
 190454 = {
@@ -929,10 +910,10 @@
 	father=131722
 	mother=190429
 	757.1.1={
-		birth=yes
+		birth = yes
 	}
 	810.7.30={
-		death=yes
+		death = yes
 	}
 }
 190430 = {
@@ -943,10 +924,10 @@
 	father=131722
 	mother=190429
 	759.1.1={
-		birth=yes
+		birth = yes
 	}
 	762.1.1={
-		death=yes
+		death = yes
 	}
 }
 190431 = {
@@ -958,10 +939,10 @@
 	father=131722
 	mother=190429
 	761.1.1={
-		birth=yes
+		birth = yes
 	}
 	763.1.1={
-		death=yes
+		death = yes
 	}
 }
 190432 = {
@@ -973,10 +954,10 @@
 	father=131722
 	mother=190429
 	763.1.1={
-		birth=yes
+		birth = yes
 	}
 	764.1.1={
-		death=yes
+		death = yes
 	}
 }
 190433 = {
@@ -988,10 +969,10 @@
 	father=131721
 	mother=190425
 	725.1.1={
-		birth=yes
+		birth = yes
 	}
 	754.1.1={
-		death=yes
+		death = yes
 	}
 }
 190434 = {
@@ -1001,10 +982,10 @@
 	culture="old_frankish"
 	father=144989
 	745.1.1={
-		birth=yes
+		birth = yes
 	}
 	796.1.1={
-		death=yes
+		death = yes
 	}
 }
 190435 = {
@@ -1014,10 +995,10 @@
 	culture="old_frankish"
 	father=144989
 	749.1.1={
-		birth=yes
+		birth = yes
 	}
 	802.1.1={
-		death=yes
+		death = yes
 	}
 }
 190436 = {
@@ -1029,10 +1010,10 @@
 	father=131721
 	mother=190426
 	729.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	780.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 190437 = {
@@ -1057,10 +1038,10 @@
 	culture="old_frankish"
 	father=168163
 	803.1.1={
-		birth=yes
+		birth = yes
 	}
 	842.1.1={
-		death=yes
+		death = yes
 	}
 }
 190439 = {
@@ -1071,7 +1052,7 @@
 	father=168161
 	mother=91390
 	743.1.1={
-		birth=yes
+		birth = yes
 	}
 	759.1.1 = {
 		trait="martial_cleric"
@@ -1089,7 +1070,7 @@
 	father=168161
 	mother=91390
 	728.1.1={
-		birth=yes
+		birth = yes
 	}
 	785.1.1={
 		death=yes #She received property from Fulrad in 769-782
@@ -1104,7 +1085,7 @@
 	mother=91390
 	
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	756.1.1={
 		trait="martial_cleric"
@@ -1120,10 +1101,10 @@
 	culture="old_frankish"
 	father=168624
 	752.1.1={
-		birth=yes
+		birth = yes
 	}
 	826.1.1={
-		death=yes
+		death = yes
 	}
 }
 190443 = {
@@ -1133,10 +1114,10 @@
 	culture="old_frankish"
 	father=168624
 	772.1.1={
-		birth=yes
+		birth = yes
 	}
 	836.8.31={
-		death=yes
+		death = yes
 	}
 }
 190444 = {
@@ -1147,10 +1128,10 @@
 	culture="old_frankish"
 	father=168624
 	796.1.1={
-		birth=yes
+		birth = yes
 	}
 	840.1.1={
-		death=yes
+		death = yes
 	}
 }
 190445 = {
@@ -1161,10 +1142,10 @@
 	culture="old_frankish"
 	father=168624
 	774.1.1={
-		birth=yes
+		birth = yes
 	}
 	830.1.1={
-		death=yes
+		death = yes
 	}
 }
 190446 = {
@@ -1174,10 +1155,10 @@
 	culture="old_frankish"
 	father=168624
 	776.1.1={
-		birth=yes
+		birth = yes
 	}
 	827.1.1={
-		death=yes
+		death = yes
 	}
 }
 190447 = {
@@ -1188,10 +1169,10 @@
 	culture="old_frankish"
 	father=168624
 	780.1.1={
-		birth=yes
+		birth = yes
 	}
 	835.1.1={
-		death=yes
+		death = yes
 	}
 }
 190448 = {
@@ -1202,10 +1183,10 @@
 	culture="old_frankish"
 	father=168624
 	785.1.1={
-		birth=yes
+		birth = yes
 	}
 	843.1.1={
-		death=yes
+		death = yes
 	}
 }
 190449 = {
@@ -1216,10 +1197,10 @@
 	father=131721
 	trait="bastard"
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	787.1.1={
-		death=yes
+		death = yes
 	}
 }
 190450 = {
@@ -1229,10 +1210,10 @@
 	culture="old_frankish"
 	father=190413
 	620.1.1={
-		birth=yes
+		birth = yes
 	}
 	689.1.1={
-		death=yes
+		death = yes
 	}
 }
 190451 = {
@@ -1242,10 +1223,10 @@
 	culture="old_frankish"
 	father=190450
 	635.1.1={
-		birth=yes
+		birth = yes
 	}
 	665.1.1={
-		death=yes
+		death = yes
 	}
 }
 190452 = {
@@ -1256,10 +1237,10 @@
 	culture="old_frankish"
 	father=190450
 	675.1.1={
-		birth=yes
+		birth = yes
 	}
 	735.1.1={
-		death=yes
+		death = yes
 	}
 }
 190511 = {
@@ -1269,10 +1250,10 @@
 	culture="old_frankish"
 	father=144987
 	735.1.1={
-		birth=yes
+		birth = yes
 	}
 	798.1.1={
-		death=yes
+		death = yes
 	}
 }
 190512 = {
@@ -1282,10 +1263,10 @@
 	culture="old_frankish"
 	father=190511
 	751.1.1={
-		birth=yes
+		birth = yes
 	}
 	827.1.1={
-		death=yes
+		death = yes
 	}
 }
 190513 = {
@@ -1295,10 +1276,10 @@
 	culture="old_frankish"
 	father=190512
 	778.1.1={
-		birth=yes
+		birth = yes
 	}
 	829.1.1={
-		death=yes
+		death = yes
 	}
 }
 190514 = {
@@ -1308,10 +1289,10 @@
 	culture="old_frankish"
 	father=190511
 	753.1.1={
-		birth=yes
+		birth = yes
 	}
 	815.1.1={
-		death=yes
+		death = yes
 	}
 }
 190515 = {
@@ -1322,10 +1303,10 @@
 	culture="old_frankish"
 	father=190511
 	752.1.1={
-		birth=yes
+		birth = yes
 	}
 	806.1.1={
-		death=yes
+		death = yes
 	}
 }
 190516 = {
@@ -1335,10 +1316,10 @@
 	culture="old_frankish"
 	father=190511
 	759.1.1={
-		birth=yes
+		birth = yes
 	}
 	811.1.1={
-		death=yes
+		death = yes
 	}
 }
 190517 = {
@@ -1348,10 +1329,10 @@
 	culture="old_frankish"
 	father=190511
 	762.1.1={
-		birth=yes
+		birth = yes
 	}
 	804.1.1={
-		death=yes
+		death = yes
 	}
 }
 190518 = {
@@ -1361,10 +1342,10 @@
 	culture="old_frankish"
 	father=190511
 	765.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
 190519 = {
@@ -1374,10 +1355,10 @@
 	culture="old_frankish"
 	father=190518
 	786.1.1={
-		birth=yes
+		birth = yes
 	}
 	810.1.1={
-		death=yes
+		death = yes
 	}
 }
 190520 = {
@@ -1388,10 +1369,10 @@
 	culture="old_frankish"
 	father=190511
 	769.1.1={
-		birth=yes
+		birth = yes
 	}
 	805.1.1={
-		death=yes
+		death = yes
 	}
 }
 190551 = {
@@ -1401,13 +1382,13 @@
 	culture="old_frankish"
 	father=144987
 	750.1.1={
-		birth=yes
+		birth = yes
 	}
 	768.1.1={
 		add_spouse=190515
 	}
 	805.1.1={
-		death=yes
+		death = yes
 	}
 }
 190552 = {
@@ -1418,10 +1399,10 @@
 	father=190551
 	mother=190515
 	768.1.1={
-		birth=yes
+		birth = yes
 	}
 	820.1.1={
-		death=yes
+		death = yes
 	}
 }
 190553 = {
@@ -1431,10 +1412,10 @@
 	culture="old_frankish"
 	father=144987
 	751.1.1={
-		birth=yes
+		birth = yes
 	}
 	826.1.1={
-		death=yes
+		death = yes
 	}
 }
 190554 = {
@@ -1444,10 +1425,10 @@
 	culture="old_frankish"
 	father=190553
 	801.1.1={
-		birth=yes
+		birth = yes
 	}
 	853.1.1={
-		death=yes
+		death = yes
 	}
 }
 190555 = {
@@ -1458,10 +1439,10 @@
 	culture="old_frankish"
 	father=190553
 	801.1.1={
-		birth=yes
+		birth = yes
 	}
 	853.1.1={
-		death=yes
+		death = yes
 	}
 }
 190556 = {
@@ -1471,10 +1452,10 @@
 	culture="old_frankish"
 	father=190514
 	795.1.1={
-		birth=yes
+		birth = yes
 	}
 	844.1.1={
-		death=yes
+		death = yes
 	}
 }
 190557 = {
@@ -1484,10 +1465,10 @@
 	culture="old_frankish"
 	father=190556
 	841.3.22={
-		birth=yes
+		birth = yes
 	}
 	886.1.1={
-		death=yes
+		death = yes
 	}
 }
 190558 = {
@@ -1497,10 +1478,10 @@
 	culture="old_frankish"
 	father=190514
 	798.1.1={
-		birth=yes
+		birth = yes
 	}
 	826.1.1={
-		death=yes
+		death = yes
 	}
 }
 190559 = {
@@ -1509,10 +1490,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	748.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
-		death=yes
+		death = yes
 	}
 }
 190561 = {
@@ -1521,10 +1502,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	747.1.1={
-		birth=yes
+		birth = yes
 	}
 	778.1.1={
-		death=yes
+		death = yes
 	}
 }
 91386 = {
@@ -1533,9 +1514,15 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	690.1.1 = { birth=yes } #unknown
-	706.1.1 = { add_spouse = 91387 } #Ermengarde
-	750.1.1 = { death=yes } #unknown
+	690.1.1 = {
+		birth = yes
+	} #unknown
+	706.1.1 = {
+		add_spouse = 91387
+	} #Ermengarde
+	750.1.1 = {
+		death = yes
+	} #unknown
 }
 
 91387 = {
@@ -1545,8 +1532,12 @@
 	culture="old_frankish"
 	trait="zealous"
 	
-	690.1.1 = { birth=yes } #unknown
-	760.1.1 = { death=yes } #unknown
+	690.1.1 = {
+		birth = yes
+	} #unknown
+	760.1.1 = {
+		death = yes
+	} #unknown
 }
 
 91388 = {
@@ -1559,9 +1550,15 @@
 	father=91386 #Riculfe, count of Elsass
 	mother=91387 #Ermengarde
 	
-	707.1.1 = { birth=yes } #unknown
-	723.1.1 = { trait="scholarly_theologian" }
-	784.7.16 = { death=yes }
+	707.1.1 = {
+		birth = yes
+	} #unknown
+	723.1.1 = {
+		trait="scholarly_theologian"
+	}
+	784.7.16 = {
+		death = yes
+	}
 }
 
 91389 = {
@@ -1572,9 +1569,15 @@
 	father=91386 #Riculfe, count of Elsass
 	mother=91387 #Ermengarde
 	
-	708.1.1 = { birth=yes } #unknown
-	724.1.1 = { add_spouse = 91392 } #fantasy spouse
-	790.1.1 = { death=yes }
+	708.1.1 = {
+		birth = yes
+	} #unknown
+	724.1.1 = {
+		add_spouse = 91392
+	} #fantasy spouse
+	790.1.1 = {
+		death = yes
+	}
 }
 
 91390 = {
@@ -1586,8 +1589,12 @@
 	father=91389 #Riculfe, fantasy brother of Fulrad
 	mother=91392 #this is to give her a visigothic ancestry
 	
-	725.1.1 = { birth=yes } #unknown
-	785.1.1 = { death=yes }
+	725.1.1 = {
+		birth = yes
+	} #unknown
+	785.1.1 = {
+		death = yes
+	}
 }
 
 91391 = {
@@ -1603,7 +1610,7 @@
 		birth=yes #unknown
 	}
 	830.1.1={
-		death=yes
+		death = yes
 	}
 }
 91393 = {
@@ -1613,10 +1620,10 @@
 	culture="old_frankish"
 	
 	680.1.1={
-		birth=yes
+		birth = yes
 	}
 	760.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -1646,7 +1653,7 @@
 	father=91393 #Nithard, fantasy father of Nithard, Madelgaud and Richard
 	
 	710.1.1={
-		birth=yes
+		birth = yes
 	}
 	805.1.1={
 		death=yes #after 802
@@ -1661,7 +1668,7 @@
 	father=91393 #Nithard, fantasy father of Nithard, Madelgaud and Richard
 	
 	715.1.1={
-		birth=yes
+		birth = yes
 	}
 	800.1.1={
 		death=yes #after 796
@@ -1704,7 +1711,7 @@
 	father=91395 #Madelgaud, brother of Nithard
 	
 	740.1.1={
-		birth=yes
+		birth = yes
 	}
 	746.1.1={
 		trait="martial_cleric"
@@ -1751,7 +1758,7 @@
 		trait="martial_cleric"
 	}
 	850.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -1765,7 +1772,7 @@
 	mother=167827 #HILDEGARD, daughter of GEROLD
 	
 	770.1.1={
-		birth=yes
+		birth = yes
 	}
 	824.3.11={
 		death=yes #11th of March, 824 or after
@@ -1777,10 +1784,18 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	570.1.1 = { birth=yes } #unknown, 
-	615.1.1 = { add_spouse=91403 } #Itta
-	640.1.1 = { give_nickname="nick_the_old" }
-	647.1.1 = { death=yes } #death in 647
+	570.1.1 = {
+		birth = yes
+	} #unknown, 
+	615.1.1 = {
+		add_spouse = 91403
+	} #Itta
+	640.1.1 = {
+		give_nickname="nick_the_old"
+	}
+	647.1.1 = {
+		death = yes
+	} #death in 647
 }
 91403 = {
 	name="Itta" #wife of PEPIN [I] "le Vieux" or "de Landen", advisor of King Dagobert the Ist
@@ -1788,8 +1803,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	592.1.1 = { birth=yes }
-	652.1.1 = { death=yes }
+	592.1.1 = {
+		birth = yes
+	}
+	652.1.1 = {
+		death = yes
+	}
 }
 91404 = {
 	name="Begga" #wife of  ANSEGISEL, son of ARNOUL Bishop of Metz
@@ -1800,8 +1819,12 @@
 	father=91402 #PEPIN [I] "le Vieux" or "de Landen", advisor of King Dagobert the Ist
 	mother=91403 #Itta
 	
-	620.1.1 = { birth=yes } #unknown, 
-	709.1.1 = { death=yes } #693, 698 or 709
+	620.1.1 = {
+		birth = yes
+	} #unknown, 
+	709.1.1 = {
+		death = yes
+	} #693, 698 or 709
 }
 
 #-# Family of Adalbert #-#
@@ -1811,9 +1834,15 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	700.1.1 = { birth=yes } #unknown
-	730.1.1 = { add_spouse=91403 }  #ERMENSUINDA
-	760.1.1 = { death=yes } #after 30 Jul 757
+	700.1.1 = {
+		birth = yes
+	} #unknown
+	730.1.1 = {
+		add_spouse = 91403
+	}  #ERMENSUINDA
+	760.1.1 = {
+		death = yes
+	} #after 30 Jul 757
 }
 91406 = {
 	name="Ermensuinda" #ERMENSUINDA
@@ -1823,8 +1852,12 @@
 	culture="old_frankish"
 	father=91463 #his unknown father
 	
-	705.1.1 = { birth=yes } #unknown
-	775.1.1 = { death=yes } #after 28 Aug 765
+	705.1.1 = {
+		birth = yes
+	} #unknown
+	775.1.1 = {
+		death = yes
+	} #after 28 Aug 765
 }
 91407 = {
 	name="Odacre"
@@ -1834,9 +1867,15 @@
 	father=91405 #Adalbert
 	mother=91406 #Ermensuinda
 	
-	732.1.1 = { birth=yes } #unknown
-	750.1.1 = { add_spouse=91502 }  #HRUODSUINDA
-	790.1.1 = { death=yes } #after 30 May 779
+	732.1.1 = {
+		birth = yes
+	} #unknown
+	750.1.1 = {
+		add_spouse = 91502
+	}  #HRUODSUINDA
+	790.1.1 = {
+		death = yes
+	} #after 30 May 779
 }
 91502 = {
 	name="Hruodsuinda"
@@ -1844,8 +1883,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	730.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes } #after 13 Nov 775
+	730.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #after 13 Nov 775
 }
 91458 = {
 	name="Lantsuinda" #LANTSUINDA
@@ -1856,8 +1899,12 @@
 	father=91407 #Odacre
 	mother=91502 #Hruodsuinda
 	
-	755.1.1 = { birth=yes } #unknown
-	786.3.20 = { death=yes } #30 May 779/20 Mar 786
+	755.1.1 = {
+		birth = yes
+	} #unknown
+	786.3.20 = {
+		death = yes
+	} #30 May 779/20 Mar 786
 }
 91459 = {
 	name="Nordbert" #NORDBERT 
@@ -1867,9 +1914,15 @@
 	father=91405 #Adalbert
 	mother=91406 #Ermensuinda
 	
-	734.1.1 = { birth=yes } #unknown
-	750.1.1 = { add_spouse=91460 }  #WILLISWINDIS
-	760.1.1 = { death=yes } #after 30 Jul 757
+	734.1.1 = {
+		birth = yes
+	} #unknown
+	750.1.1 = {
+		add_spouse = 91460
+	}  #WILLISWINDIS
+	760.1.1 = {
+		death = yes
+	} #after 30 Jul 757
 }
 91460 = {
 	name="Williswindis" #WILLISWINDIS
@@ -1877,8 +1930,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	732.1.1 = { birth=yes } #unknown
-	790.1.1 = { death=yes } #unknown
+	732.1.1 = {
+		birth = yes
+	} #unknown
+	790.1.1 = {
+		death = yes
+	} #unknown
 }
 91461 = {
 	name="Helmsuinda" #HELMSUINDA  
@@ -1889,8 +1946,12 @@
 	father=91459 #NORDBERT
 	mother=91460 #WILLISWINDIS
 	
-	752.1.1 = { birth=yes } #unknown
-	810.1.1 = { death=yes } #after 6 May 800
+	752.1.1 = {
+		birth = yes
+	} #unknown
+	810.1.1 = {
+		death = yes
+	} #after 6 May 800
 }
 91462 = {
 	name="Crapucha" #CRAPUCHA  
@@ -1901,8 +1962,12 @@
 	father=91459 #NORDBERT
 	mother=91460 #WILLISWINDIS
 	
-	755.1.1 = { birth=yes } #unknown
-	820.1.1 = { death=yes } #after 6 May 800
+	755.1.1 = {
+		birth = yes
+	} #unknown
+	820.1.1 = {
+		death = yes
+	} #after 6 May 800
 }
 #- Family of Ermensuinda, wife of Adalbert -#
 91463 = {
@@ -1911,8 +1976,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	680.1.1 = { birth=yes } #unknown
-	740.1.1 = { death=yes } #unknown
+	680.1.1 = {
+		birth = yes
+	} #unknown
+	740.1.1 = {
+		death = yes
+	} #unknown
 }
 91464 = {
 	name="Laidratus" #fantasy father of ERMENSUINDA and LAIDRATUS
@@ -1921,8 +1990,12 @@
 	culture="old_frankish"
 	father=91463 #his unknown father
 	
-	700.1.1 = { birth=yes } #unknown
-	770.1.1 = { death=yes } #after 28 Aug 765
+	700.1.1 = {
+		birth = yes
+	} #unknown
+	770.1.1 = {
+		death = yes
+	} #after 28 Aug 765
 }
 
 #- -# Family of the mother of Charlemagne
@@ -1932,9 +2005,15 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	640.1.1 = { birth=yes } #unknown
-	660.1.1 = { add_spouse=91466 }  #Bertrade
-	700.1.1 = { death=yes } #unknown
+	640.1.1 = {
+		birth = yes
+	} #unknown
+	660.1.1 = {
+		add_spouse = 91466
+	}  #Bertrade
+	700.1.1 = {
+		death = yes
+	} #unknown
 }
 91466 = {
 	name="Bertrade" #great-grand mother of Charlemagne
@@ -1942,8 +2021,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	640.1.1 = { birth=yes } #unknown
-	710.1.1 = { death=yes } #unknown
+	640.1.1 = {
+		birth = yes
+	} #unknown
+	710.1.1 = {
+		death = yes
+	} #unknown
 }
 91467 = {
 	name="Hardrad" #uncle of Charlemagne
@@ -1951,9 +2034,14 @@
 	religion="catholic"
 	culture="old_frankish"
 	father=91465 #fantasy great-grand father of Charlemagne
-	mother=91466 #Bertrade, great-grand mother of Charlemagne	
-	670.1.1 = { birth=yes } #unknown
-	730.1.1 = { death=yes } #after 720
+	mother=91466 #Bertrade, great-grand mother of Charlemagne
+	
+	670.1.1 = {
+		birth = yes
+	} #unknown
+	730.1.1 = {
+		death = yes
+	} #after 720
 }
 91468 = {
 	name="Charibert" #CHARIBERT [Heribert], grand father of Charlemagne
@@ -1961,9 +2049,14 @@
 	religion="catholic"
 	culture="old_frankish"
 	father=91465 #fantasy great-grand father of Charlemagne
-	mother=91466 #Bertrade, great-grand mother of Charlemagne	
-	675.1.1 = { birth=yes } #unknown
-	740.1.1 = { death=yes } #after 23 june 720
+	mother=91466 #Bertrade, great-grand mother of Charlemagne
+	
+	675.1.1 = {
+		birth = yes
+	} #unknown
+	740.1.1 = {
+		death = yes
+	} #after 23 june 720
 }
 91469 = {
 	name="Weta" #Aunt of Charlemagne
@@ -1971,9 +2064,14 @@
 	religion="catholic"
 	culture="old_frankish"
 	father=91465 #fantasy great-grand father of Charlemagne
-	mother=91466 #Bertrade, great-grand mother of Charlemagne	
-	680.1.1 = { birth=yes } #unknown
-	750.1.1 = { death=yes } #unknown
+	mother=91466 #Bertrade, great-grand mother of Charlemagne
+	
+	680.1.1 = {
+		birth = yes
+	} #unknown
+	750.1.1 = {
+		death = yes
+	} #unknown
 }
 
 #- Historical characters from the very late merovingian era, to be granted counties and baronies in the kingdom of the Franks -#
@@ -1983,8 +2081,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	710.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes } #after  30 Oct 759
+	710.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #after  30 Oct 759
 }
 91471 = { #set as count of Anjou
 	name="Hildegar" #HILDEGAR
@@ -1992,8 +2094,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	715.1.1 = { birth=yes } #unknown
-	770.1.1 = { death=yes } #after 8 Jul 753
+	715.1.1 = {
+		birth = yes
+	} #unknown
+	770.1.1 = {
+		death = yes
+	} #after 8 Jul 753
 }
 
 91472 = {
@@ -2002,9 +2108,15 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	690.1.1 = { birth=yes } #unknown
-	706.1.1 = { trait="martial_cleric" }
-	760.1.1 = { death=yes } #unknown
+	690.1.1 = {
+		birth = yes
+	} #unknown
+	706.1.1 = {
+		trait = martial_cleric
+	}
+	760.1.1 = {
+		death = yes
+	} #unknown
 }
 
 91473 = {
@@ -2014,9 +2126,15 @@
 	culture="old_frankish"
 	father=91472 # Bishop LEUDONIUS .
 	
-	710.1.1 = { birth=yes } #unknown
-	726.1.1 = { trait="martial_cleric" }
-	770.1.1 = { death=yes } #after 30 Oct 759
+	710.1.1 = {
+		birth = yes
+	} #unknown
+	726.1.1 = {
+		trait = martial_cleric
+	}
+	770.1.1 = {
+		death = yes
+	} #after 30 Oct 759
 }
 
 91474 = {
@@ -2026,8 +2144,12 @@
 	culture="old_frankish"
 	father=91472 # Bishop LEUDONIUS .
 	
-	715.1.1 = { birth=yes } #unknown
-	770.1.1 = { death=yes } #after 8 Jul 753
+	715.1.1 = {
+		birth = yes
+	} #unknown
+	770.1.1 = {
+		death = yes
+	} #after 8 Jul 753
 }
 
 91475 = { #set in carcassonne
@@ -2036,8 +2158,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	720.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes } #after 765
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #after 765
 }
 
 91476 = { #set in county of evreux
@@ -2046,8 +2172,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	725.1.1 = { birth=yes } #unknown
-	785.1.1 = { death=yes } #after 765
+	725.1.1 = {
+		birth = yes
+	} #unknown
+	785.1.1 = {
+		death = yes
+	} #after 765
 }
 
 91477 = { #set in Rouen and Eu
@@ -2056,8 +2186,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	730.1.1 = { birth=yes } #unknown
-	790.1.1 = { death=yes } #after 26 May 771
+	730.1.1 = {
+		birth = yes
+	} #unknown
+	790.1.1 = {
+		death = yes
+	} #after 26 May 771
 }
 
 91478 = { #set in Vendôme
@@ -2066,8 +2200,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	720.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes } #after [769]
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #after [769]
 }
 
 91479 = { # set in Cholet
@@ -2076,8 +2214,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	720.1.1 = { birth=yes } #unknown
-	790.1.1 = { death=yes } #28 Jul 775
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	790.1.1 = {
+		death = yes
+	} #28 Jul 775
 }
 
 91480 = { #set in Chartres
@@ -2086,8 +2228,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	715.1.1 = { birth=yes } #unknown
-	775.1.1 = { death=yes } #after 13 Aug 762
+	715.1.1 = {
+		birth = yes
+	} #unknown
+	775.1.1 = {
+		death = yes
+	} #after 13 Aug 762
 }
 
 91481 = { #set in Blois
@@ -2096,8 +2242,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	720.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes } #after 11 Dec 770
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #after 11 Dec 770
 }
 
 91482 = {#set in Geneve and Neufchâtel
@@ -2106,8 +2256,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	725.1.1 = { birth=yes } #unknown
-	770.1.1 = { death=yes } #after 753
+	725.1.1 = {
+		birth = yes
+	} #unknown
+	770.1.1 = {
+		death = yes
+	} #after 753
 }
 
 91483 = { #set in Orléans
@@ -2116,8 +2270,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	730.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes } #after 765
+	730.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #after 765
 }
 
 91484 = {#set in Sens
@@ -2126,11 +2284,15 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	730.1.1 = { birth=yes } #unknown
+	730.1.1 = {
+		birth = yes
+	} #unknown
 	750.1.1 = {
 		add_spouse = 194175
 	}
-	775.1.1 = { death=yes } #after 30 Oct 759
+	775.1.1 = {
+		death = yes
+	} #after 30 Oct 759
 }
 
 91485 = { #set in Berry
@@ -2139,8 +2301,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	730.1.1 = { birth=yes } #unknown
-	775.1.1 = { death=yes } #after 13 Aug 762
+	730.1.1 = {
+		birth = yes
+	} #unknown
+	775.1.1 = {
+		death = yes
+	} #after 13 Aug 762
 }
 
 91486 = { #set in Boulogne and Calais
@@ -2149,8 +2315,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	730.1.1 = { birth=yes } #unknown
-	790.1.1 = { death=yes } #after 28 Jul 775
+	730.1.1 = {
+		birth = yes
+	} #unknown
+	790.1.1 = {
+		death = yes
+	} #after 28 Jul 775
 }
 
 91487 = {  #set in Artois
@@ -2159,8 +2329,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	720.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes } #after 25 May 765
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #after 25 May 765
 }
 
 91488 = {  #set in Saint-Pol
@@ -2169,8 +2343,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	725.1.1 = { birth=yes } #unknown
-	785.1.1 = { death=yes } #after 13 Aug 762
+	725.1.1 = {
+		birth = yes
+	} #unknown
+	785.1.1 = {
+		death = yes
+	} #after 13 Aug 762
 }
 
 91489 = {  #set in Saint-Omer
@@ -2179,8 +2357,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	725.1.1 = { birth=yes } #unknown
-	785.1.1 = { death=yes } #after 769
+	725.1.1 = {
+		birth = yes
+	} #unknown
+	785.1.1 = {
+		death = yes
+	} #after 769
 }
 
 91490 = {  #set in La Marche & Limousin
@@ -2189,8 +2371,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	715.1.1 = { birth=yes } #unknown
-	775.1.1 = { death=yes } #after 765
+	715.1.1 = {
+		birth = yes
+	} #unknown
+	775.1.1 = {
+		death = yes
+	} #after 765
 }
 
 91491 = {  #set in Forez and Lyon
@@ -2199,8 +2385,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	735.1.1 = { birth=yes } #unknown
-	795.1.1 = { death=yes } #after 23 jul 756
+	735.1.1 = {
+		birth = yes
+	} #unknown
+	795.1.1 = {
+		death = yes
+	} #after 23 jul 756
 }
 
 91492 = {  #set in Brienne
@@ -2209,8 +2399,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	740.1.1 = { birth=yes } #unknown
-	800.1.1 = { death=yes } #after 782
+	740.1.1 = {
+		birth = yes
+	} #unknown
+	800.1.1 = {
+		death = yes
+	} #after 782
 }
 
 91493 = { #set in Châtillon
@@ -2219,8 +2413,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	715.1.1 = { birth=yes } #unknown
-	775.1.1 = { death=yes } #after 13 Aug 762
+	715.1.1 = {
+		birth = yes
+	} #unknown
+	775.1.1 = {
+		death = yes
+	} #after 13 Aug 762
 }
 
 91494 = { # set in Auxerre
@@ -2229,9 +2427,15 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	720.1.1 = { birth=yes } #unknown
-	740.1.1 = { add_spouse=91498 } #unknown wife
-	780.1.1 = { death=yes } #unknown
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	740.1.1 = {
+		add_spouse = 91498
+	} #unknown wife
+	780.1.1 = {
+		death = yes
+	} #unknown
 }
 
 91495 = {
@@ -2242,9 +2446,15 @@
 	father=91494 #Wegelenzo
 	mother=91498 #unknown mother
 	
-	742.1.1 = { birth=yes } #unknown
-	760.1.1 = { add_spouse=91499 } #wife unknown
-	800.1.1 = { death=yes } #after 13 Aug 762
+	742.1.1 = {
+		birth = yes
+	} #unknown
+	760.1.1 = {
+		add_spouse = 91499
+	} #wife unknown
+	800.1.1 = {
+		death = yes
+	} #after 13 Aug 762
 }
 
 91496 = {
@@ -2255,8 +2465,12 @@
 	father=91495 #Warin
 	mother=91499 #mother unknown
 	
-	764.1.1 = { birth=yes } #unknown
-	830.1.1 = { death=yes } #[after 22 Jun 823]
+	764.1.1 = {
+		birth = yes
+	} #unknown
+	830.1.1 = {
+		death = yes
+	} #[after 22 Jun 823]
 }
 
 91497 = {
@@ -2268,8 +2482,12 @@
 	father=91495 #Warin
 	mother=91499 #mother unknown
 	
-	762.1.1 = { birth=yes } #unknown
-	820.1.1 = { death=yes } #after 806
+	762.1.1 = {
+		birth = yes
+	} #unknown
+	820.1.1 = {
+		death = yes
+	} #after 806
 }
 
 91498 = {
@@ -2278,8 +2496,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	720.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes } #unknown
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #unknown
 }
 
 91499 = {
@@ -2288,8 +2510,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	740.1.1 = { birth=yes } #unknown
-	810.1.1 = { death=yes } #unknown
+	740.1.1 = {
+		birth = yes
+	} #unknown
+	810.1.1 = {
+		death = yes
+	} #unknown
 }
 
 91500 = { #set in Charolais, Mâcon, Châlons
@@ -2298,8 +2524,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	725.1.1 = { birth=yes } #unknown
-	785.1.1 = { death=yes } #after 13 Aug 762
+	725.1.1 = {
+		birth = yes
+	} #unknown
+	785.1.1 = {
+		death = yes
+	} #after 13 Aug 762
 }
 
 91501 = { #set in Dijon
@@ -2308,8 +2538,12 @@
 	religion="catholic"
 	culture="old_frankish"
 	
-	720.1.1 = { birth=yes } #unknown
-	775.1.1 = { death=yes } #after 30 Oct 759
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	775.1.1 = {
+		death = yes
+	} #after 30 Oct 759
 }
 
 91503 = { #set in Maine
@@ -2317,17 +2551,27 @@
 	dynasty=9569
 	religion="catholic"
 	culture="old_frankish"
-	700.1.1 = { birth=yes } #in power in Maine during the bishopric of Gauslin from 743 to 771
-	720.1.1 = { add_spouse=91504 } #unknown date
-	775.1.1 = { death=yes} #unknown
+	700.1.1 = {
+		birth = yes
+	} #in power in Maine during the bishopric of Gauslin from 743 to 771
+	720.1.1 = {
+		add_spouse = 91504
+	} #unknown date
+	775.1.1 = {
+		death = yes
+	} #unknown
 }
 91504 = {
 	name="Bilichildis" #unknown name
 	female=yes
 	religion="catholic"
 	culture="old_frankish"
-	704.1.1 = { birth=yes } #unknown
-	780.1.1 = { death=yes} #unknown
+	704.1.1 = {
+		birth = yes
+	} #unknown
+	780.1.1 = {
+		death = yes
+	} #unknown
 }
 91505 = {
 	name="Hervé"
@@ -2336,8 +2580,12 @@
 	culture="old_frankish"
 	father=91503 #Rothgar
 	mother=91504 #Rothgar's wife
-	722.1.1 = { birth=yes } #in power in Maine during the bishopric of Gauslin from 743 to 771
-	810.1.1 = { death=yes} #unknown
+	722.1.1 = {
+		birth = yes
+	} #in power in Maine during the bishopric of Gauslin from 743 to 771
+	810.1.1 = {
+		death = yes
+	} #unknown
 }
 
 91506 = {
@@ -2349,8 +2597,12 @@
 	learning = 11
 	trait="martial_cleric"
 #	trait="monk"
-	720.1.1 = { birth=yes } #unknown
-	800.12.2 = { death=yes } #died c. 2 September 800
+	720.1.1 = {
+		birth = yes
+	} #unknown
+	800.12.2 = {
+		death = yes
+	} #died c. 2 September 800
 }
 168017 = {
 	name="Gauslin" #Bishop of Le Mans
@@ -2362,10 +2614,10 @@
 	trait="martial_cleric"
 
 	725.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	812.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 7976 = {
@@ -2427,7 +2679,7 @@
 	trait="bastard" 
 	father=131721
 	705.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	721.1.1 = {
 		trait="martial_cleric"
@@ -2447,7 +2699,7 @@
 	father=168161
 	mother=91390
 	729.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	795.1.1 = {
 		death="795.1.1"
@@ -2462,7 +2714,7 @@
 	father=91396 #Richard, brother of Nithard
 	
 	750.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	825.1.1 = {
 		death="825.1.1"
@@ -2474,11 +2726,11 @@
 	religion="norse_pagan"
 	culture="old_frankish"
 	390.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	450.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2489,11 +2741,11 @@
 	culture="old_frankish"
 	father=168670
 	410.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	457.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2504,11 +2756,11 @@
 	culture="old_frankish"
 	father=168671
 	430.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	481.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2525,7 +2777,7 @@
 	add_trait="brilliant_strategist"
 	father=168672
 	466.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	494.1.1 = {
 		add_spouse=168749
@@ -2534,7 +2786,7 @@
 		religion="catholic"
 	}
 	511.11.27 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2545,7 +2797,7 @@
 	culture="old_frankish"
 	father=168673
 	485.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	499.1.1 = {
 		religion="catholic"
@@ -2554,7 +2806,7 @@
 		add_spouse=168754
 	}
 	534.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2566,11 +2818,11 @@
 	father=168674
 	mother=168754
 	517.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	548.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2581,11 +2833,11 @@
 	culture="old_frankish"
 	father=168675
 	535.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	555.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2597,11 +2849,11 @@
 	culture="old_frankish"
 	father=168675
 	530.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	552.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2613,11 +2865,11 @@
 	culture="old_frankish"
 	father=168676
 	554.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	627.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2629,7 +2881,7 @@
 	father=168673
 	mother=168749
 	495.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	499.1.1 = {
 		religion="catholic"
@@ -2638,7 +2890,7 @@
 		add_spouse=168752
 	}
 	524.6.25 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2650,13 +2902,13 @@
 	father=168673
 	mother=168749
 	497.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	499.1.1 = {
 		religion="catholic"
 	}
 	558.12.23 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2668,7 +2920,7 @@
 	father=168673
 	mother=168749
 	498.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	499.1.1 = {
 		religion="catholic"
@@ -2677,7 +2929,7 @@
 		add_spouse=168752
 	}
 	561.11.29 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2690,11 +2942,11 @@
 	father=168673
 	mother=168749
 	500.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	531.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2705,11 +2957,11 @@
 	culture="old_frankish"
 	father=168679
 	522.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	560.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2720,11 +2972,11 @@
 	culture="old_frankish"
 	father=168681
 	519.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	561.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2735,11 +2987,11 @@
 	culture="old_frankish"
 	father=168681
 	521.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	568.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2750,11 +3002,11 @@
 	culture="old_frankish"
 	father=168681
 	525.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	592.3.28 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2765,11 +3017,11 @@
 	culture="old_frankish"
 	father=168681
 	535.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	575.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2781,11 +3033,11 @@
 	culture="old_frankish"
 	father=168681
 	520.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	580.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2796,11 +3048,11 @@
 	culture="old_frankish"
 	father=168681
 	525.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	584.9.27 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2811,11 +3063,11 @@
 	culture="old_frankish"
 	father=168681
 	530.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	560.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -2826,17 +3078,13 @@
 	culture="old_frankish"
 	father=168687
 	570.3.2 = {
-		birth=yes
+		birth = yes
 	}
 	
 	595.3.28 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 
 168692 = {
 	name="Théodebert"
@@ -2845,18 +3093,13 @@
 	culture="old_frankish"
 	father=168691
 	587.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	612.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
-
 168693 = {
 	name="Théoderic"
 	dynasty=542
@@ -2864,16 +3107,13 @@
 	culture="old_frankish"
 	father=168691
 	588.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	613.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168694 = {
 	name="Sigebert"
 	dynasty=542
@@ -2881,16 +3121,13 @@
 	culture="old_frankish"
 	father=168693
 	604.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	613.7.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168695 = {
 	name="Clotaire"
 	dynasty=542
@@ -2898,16 +3135,13 @@
 	culture="old_frankish"
 	father=168689
 	584.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	629.10.18 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168696 = {
 	name="Dagobert"
 	dynasty=542
@@ -2915,16 +3149,13 @@
 	culture="old_frankish"
 	father=168695
 	606.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	639.11.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168697 = {
 	name="Caribert"
 	dynasty=542
@@ -2932,16 +3163,13 @@
 	culture="old_frankish"
 	father=168695
 	608.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	632.4.8 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168698 = {
 	name="Chilpéric"
 	dynasty=542
@@ -2949,16 +3177,13 @@
 	culture="old_frankish"
 	father=168697
 	628.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	632.5.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168699 = {
 	name="Clovis"
 	dynasty=542
@@ -2966,17 +3191,13 @@
 	culture="old_frankish"
 	father=168696
 	634.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	657.11.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168700 = {
 	name="Sigebert"
 	dynasty=542
@@ -2984,16 +3205,13 @@
 	culture="old_frankish"
 	father=168696
 	630.10.9 = {
-		birth=yes
+		birth = yes
 	}
 	
 	656.2.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168701 = {
 	name="Clotaire"
 	dynasty=542
@@ -3001,16 +3219,13 @@
 	culture="old_frankish"
 	father=168699
 	652.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	673.5.9 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168702 = {
 	name="Childéric"
 	dynasty=542
@@ -3018,13 +3233,13 @@
 	culture="old_frankish"
 	father=168699
 	653.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	669.1.1 = {
 		add_spouse=168705
 	}
 	675.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -3035,18 +3250,15 @@
 	culture="old_frankish"
 	father=168699
 	654.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	670.1.1 = {
 		add_spouse=190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
 	}
 	691.4.12 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168704 = {
 	name="Dagobert"
 	dynasty=542
@@ -3054,18 +3266,13 @@
 	culture="old_frankish"
 	father=168700
 	652.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	679.12.23 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
-
 168705 = {
 	name="Bilhilde"
 	female=yes
@@ -3074,16 +3281,13 @@
 	culture="old_frankish"
 	father=168700
 	653.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	675.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168706 = {
 	name="Chilpéric"
 	dynasty=542
@@ -3092,17 +3296,13 @@
 	father=168702
 	mother=168705
 	670.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	721.2.13 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168707 = {
 	name="Childéric"
 	dynasty=542
@@ -3111,16 +3311,13 @@
 	add_trait="imbecile"
 	father=168706
 	714.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	755.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168708 = {
 	name="Théoderic"
 	dynasty=542
@@ -3128,17 +3325,13 @@
 	culture="old_frankish"
 	father=168707
 	750.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	760.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168709 = {
 	name="Clovis"
 	dynasty=542
@@ -3147,17 +3340,13 @@
 	father=168703
 	mother=190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
 	681.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	695.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168710 = {
 	name="Clotaire"
 	dynasty=542
@@ -3166,16 +3355,13 @@
 	father=168703
 	mother=190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
 	682.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	719.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168711 = {
 	name="Childébert"
 	dynasty=542
@@ -3184,17 +3370,13 @@
 	father=168703
 	mother=190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
 	683.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	711.4.14 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168712 = {
 	name="Dagobert"
 	dynasty=542
@@ -3202,17 +3384,13 @@
 	culture="old_frankish"
 	father=168711
 	699.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	715.12.31 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168713 = {
 	name="Théoderic"
 	dynasty=542
@@ -3220,11 +3398,11 @@
 	culture="old_frankish"
 	father=168712
 	715.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	737.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 168742 = {
@@ -3234,16 +3412,13 @@
 	culture="old_frankish"
 	father=168755
 	380.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	436.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168743 = {
 	name="Gundioc" 
 	dynasty=9616
@@ -3251,16 +3426,13 @@
 	culture="old_frankish"
 	father=168742
 	420.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	473.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168744 = {
 	name="Gundobad" 
 	dynasty=9616
@@ -3268,16 +3440,13 @@
 	culture="old_frankish"
 	father=168743
 	450.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	516.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168745 = {
 	name="Godegisel" 
 	dynasty=9616
@@ -3285,16 +3454,13 @@
 	culture="old_frankish"
 	father=168743
 	452.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	500.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168746 = {
 	name="Chilpéric" 
 	dynasty=9616
@@ -3302,17 +3468,13 @@
 	culture="old_frankish"
 	father=168743
 	454.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	486.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168747 = {
 	name="Gondemar" 
 	dynasty=9616
@@ -3320,16 +3482,13 @@
 	culture="old_frankish"
 	father=168743
 	455.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	486.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168748 = {
 	name="Sedeleube"
 	female=yes 
@@ -3338,17 +3497,13 @@
 	culture="old_frankish"
 	father=168746
 	475.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	531.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168749 = {
 	name="Chrotechildis"
 	female=yes 
@@ -3357,16 +3512,13 @@
 	culture="old_frankish"
 	father=168746
 	478.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	544.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168750 = {
 	name="Sigismond" 
 	dynasty=9616
@@ -3374,18 +3526,15 @@
 	culture="old_frankish"
 	father=168744
 	480.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	497.1.1 = {
 		add_spouse=168785
 	}
 	523.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168751 = {
 	name="Gondemar" 
 	dynasty=9616
@@ -3393,16 +3542,13 @@
 	culture="old_frankish"
 	father=168744
 	485.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	541.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168752 = {
 	name="Gondloque" 
 	dynasty=9616
@@ -3411,17 +3557,13 @@
 	culture="old_frankish"
 	father=168744
 	490.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	530.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168753 = {
 	name="Sigeric" 
 	dynasty=9616
@@ -3430,16 +3572,13 @@
 	father=168750
 	mother=168785
 	498.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	522.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168754 = {
 	name="Suavegotha" 
 	dynasty=9616
@@ -3449,33 +3588,26 @@
 	father=168750
 	mother=168785
 	500.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	549.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168755 = {
 	name="Gebicca" 
 	dynasty=9616
 	religion="catholic"
 	culture="old_frankish"
 	350.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	407.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168756 = {
 	name="Gondemar" 
 	dynasty=9616
@@ -3483,17 +3615,13 @@
 	culture="old_frankish"
 	father=168755
 	375.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	411.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
-
 168757 = {
 	name="Giselher" 
 	dynasty=9616
@@ -3501,16 +3629,13 @@
 	culture="old_frankish"
 	father=168755
 	377.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	411.1.1 = {
-		death=yes
+		death = yes
 	}
 }
-
-
-
 168759 = {
 	name="Chilpéric" 
 	dynasty=9616
@@ -3518,11 +3643,11 @@
 	culture="old_frankish"
 	father=168742
 	425.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	480.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 168783 = {
@@ -3533,13 +3658,13 @@
 	culture="old_frankish"
 	father=168672
 	470.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	493.1.1 =  {
 		religion="catholic"
 	}
 	526.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 168784 = {
@@ -3551,11 +3676,11 @@
 	father=168775
 	mother=168783
 	496.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	535.4.30 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -3568,11 +3693,11 @@
 	add_trait="bastard"
 	father=168775
 	480.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	505.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -3584,11 +3709,11 @@
 	father=168766
 	mother=168784
 	516.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	534.10.2 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -3601,11 +3726,11 @@
 	father=168766
 	mother=168784
 	518.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	550.1.2 = {
-		death=yes
+		death = yes
 	}
 }
 194040 = {
@@ -3614,10 +3739,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	743.1.1={
-		birth=yes
+		birth = yes
 	}
 	798.1.1={
-		death=yes
+		death = yes
 	}
 }
 190562 = {
@@ -3626,10 +3751,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	741.1.1={
-		birth=yes
+		birth = yes
 	}
 	798.1.1={
-		death=yes
+		death = yes
 	}
 }
 190563 = {
@@ -3639,10 +3764,10 @@
 	culture="old_frankish"
 	father=190562
 	762.1.1={
-		birth=yes
+		birth = yes
 	}
 	803.1.1={
-		death=yes
+		death = yes
 	}
 }
 190564 = {
@@ -3653,10 +3778,10 @@
 	culture="old_frankish"
 	father=190562
 	764.1.1={
-		birth=yes
+		birth = yes
 	}
 	807.1.1={
-		death=yes
+		death = yes
 	}
 }
 190566 = {
@@ -3664,10 +3789,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	723.1.1={
-		birth=yes
+		birth = yes
 	}
 	784.1.1={
-		death=yes
+		death = yes
 	}
 }
 190567 = {
@@ -3676,10 +3801,10 @@
 	religion="catholic"
 	culture="croatian"
 	744.1.1={
-		birth=yes
+		birth = yes
 	}
 	807.1.1={
-		death=yes
+		death = yes
 	}
 }
 190568 = {
@@ -3688,10 +3813,10 @@
 	religion="catholic"
 	culture="croatian"
 	746.1.1={
-		birth=yes
+		birth = yes
 	}
 	803.1.1={
-		death=yes
+		death = yes
 	}
 }
 190570 = {
@@ -3699,10 +3824,10 @@
 	religion="catholic"
 	culture="old_frankish"
 	738.1.1={
-		birth=yes
+		birth = yes
 	}
 	791.1.1={
-		death=yes
+		death = yes
 	}
 }
 194168 = {
@@ -3929,8 +4054,8 @@
 	688.1.2 = {
 		birth="688.1.2"
 	}
-	745.1.2 = {
-		death="745.1.2"
+	725.1.2 = {
+		death="725.1.2"
 	}
 }
 
@@ -3972,7 +4097,6 @@
 		death="714.1.1"
 	}
 }
-
 131716 = {
 	name="Arnoul"
 	dynasty=25060
@@ -4214,8 +4338,8 @@
 	735.1.1 = {
 		birth="735.1.1"
 	}
-	772.1.1 = {
-		death="772.1.1"
+	752.1.1 = {
+		death="752.1.1"
 	}
 }
 
@@ -4231,6 +4355,7 @@
 	765.1.1 = {
 		birth="765.1.1"
 	}
+	
 	825.1.1 = {
 		death="825.1.1"
 	}
@@ -4248,6 +4373,7 @@
 	766.1.1 = {
 		birth="766.1.1"
 	}
+	
 	815.5.21 = {
 		death="815.5.21"
 	}
@@ -4289,10 +4415,10 @@
 	trait="bastard" 
 	father=131721
 	732.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	787.1.1 = {
-		death=yes
+		death = yes
 	}
 }
 
@@ -4303,10 +4429,26 @@
 	culture="old_frankish"
 	father=168624
 	766.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	
 	816.1.1 = {
-		death=yes
+		death = yes
+	}
+}
+194450 = {
+	name="Robert" #Robert II, count de Hesbaye
+	dynasty=743 #Capet (Robertien)
+	religion=catholic
+	culture=old_frankish
+	trait = lustful
+	trait = strong
+	father=91000
+	mother = 91121
+	742.8.7 = {
+		birth = yes
+	}
+	807.6.6 = {
+		death = yes
 	}
 }

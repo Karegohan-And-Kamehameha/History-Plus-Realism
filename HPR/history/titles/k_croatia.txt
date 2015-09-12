@@ -1,106 +1,112 @@
-925.1.1 = {
-	holder = 8604
-	law = agnatic_succession
-	law = succ_seniority
-	law = crown_authority_1
+835.1.1 = {
+	# Paradox history script bugs -> can't use de_jure_liege = 0
+	de_jure_liege = e_null
 }
-928.1.1 = {
-	holder = 8605
+1000.12.25 = {
+	de_jure_liege = e_carpathia
 }
-935.1.1 = {
-	holder = 8606
+925.1.1={
+	holder=8604
+	#law = agnatic_succession
+	#law = succ_seniority
 }
-945.1.1 = {
-	holder = 8607
+928.1.1={
+	holder=8605
 }
-949.1.1 = {
-	holder = 8634
+935.1.1={
+	holder=8606
 }
-969.1.1 = {
-	holder = 8612
+945.1.1={
+	holder=8607
 }
-997.1.1 = {
-	holder = 8614
+949.1.1={
+	holder=8634
 }
-1000.1.1 = {
-	holder = 8616
+969.1.1={
+	holder=8612
 }
-1030.1.1 = {
-	holder = 8620
+997.1.1={
+	holder=8614
 }
-1058.1.1 = {
-	holder = 8622
+1000.1.1={
+	holder=8616
 }
-1075.1.1 = {
-	holder = 8628
+1030.1.1={
+	holder=8620
 }
-1089.1.1 = {
-	holder = 8626
+1058.1.1={
+	holder=8622
 }
-1090.1.1 = {
-	holder = 475
+1075.1.1={
+	holder=8628
 }
-1091.1.1 = {
-	holder = 474
+1089.1.1={
+	holder=8626
 }
-1093.1.1 = {
-	holder = 20381
+1090.1.1={
+	holder=475
 }
-1097.1.1 = {
-	holder = 480
+1091.1.1={
+	holder=474
 }
-1116.2.3 = {
-	holder = 231065
+1093.1.1={
+	holder=20381
 }
-1131.4.2 = {
-	holder = 219530
+1097.1.1={
+	holder=480
 }
-1141.2.13 = {
-	holder = 219510
+1116.2.3={
+	holder=231065
 }
-1162.5.31 = {
-	holder = 219511
+1131.4.2={
+	holder=219530
 }
-1162.7.15 = {
-	holder = 98000
+1141.2.13={
+	holder=219510
 }
-1163.1.14 = {
-	holder = 98001
+1162.5.31={
+	holder=219511
 }
-1163.6.19 = {
-	holder = 219511
+1162.7.15={
+	holder=98000
 }
-1172.3.4 = {
-	holder = 219500
+1163.1.14={
+	holder=98001
 }
-1196.4.23 = {
-	holder = 219501
+1163.6.19={
+	holder=219511
 }
-1204.11.30 = {
-	holder = 98002
+1172.3.4={
+	holder=219500
 }
-1205.5.7 = {
-	holder = 219502
+1196.4.23={
+	holder=219501
 }
-1235.9.21 = {
-	holder = 98003
+1204.11.30={
+	holder=98002
 }
-1270.5.3 = {
-	holder = 98004
+1205.5.7={
+	holder=219502
 }
-1272.8.6 = {
-	holder = 98005
+1235.9.21={
+	holder=98003
 }
-1290.7.10 = {
-	holder = 98007
+1270.5.3={
+	holder=98004
 }
-#1301.1.14 = 
+1272.8.6={
+	holder=98005
+}
+1290.7.10={
+	holder=98007
+}
+#1301.1.14=
 #{
-#	holder = 96003
+#	holder=96003
 #}
-1305.12.6 = {
-	holder = 98009
+1305.12.6={
+	holder=98009
 }
-1307.10.10 = {
-	holder = 469500
+1307.10.10={
+	holder=469500
 }

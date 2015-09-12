@@ -5,25 +5,31 @@ title = c_brescia
 
 # Settlements
 max_settlements = 4
-b_bergamo = castle
+
+b_sirmione = castle
 b_brescia = city
-b_peschiera = temple
-#b_treviglio = castle
-#b_salo = castle
-#b_lumezzane = castle
-#b_montichiari = castle
-#b_castiglione = castle
+b_monestariosantifaustineegiovita = temple
+
+#b_castellooldofredi = castle
+#b_saloitalia = city
+#b_montichiari = temple
+#b_castellodibonoris = castle
+#b_castellodibrescia = castle
+#b_ghedi = city
+#b_bovegno = city
+#b_breno = city
+#b_edolo = city
+#b_darfoboariotherme = temple
+
 
 # Misc
-culture = lombard
+culture = italian
 religion = catholic
 
 # History
-829.1.1 = { culture = italian }
-#1115.7.24 = { capital = b_brescia }
 1173.1.1 = { capital = b_brescia }
-1220.1.1 = { capital = b_bergamo }
+1240.1.1 = { capital = b_sirmione }
 1281.1.1 = { capital = b_brescia }
-1298.1.1 = { capital = b_bergamo }
+1298.1.1 = { capital = b_sirmione }
 1313.1.1 = { capital = b_brescia }
-1319.1.1 = { capital = b_bergamo }
+1319.1.1 = { capital = b_sirmione }

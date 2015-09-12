@@ -1,0 +1,61 @@
+850.1.1={
+	liege="d_oghuz"
+}
+850.1.1={
+	holder=1000230100
+}
+862.1.1={
+	holder=1000230101
+}
+900.1.1={
+	holder=1000230103
+}
+912.1.1={
+	holder=1000230106
+}
+929.1.1={
+	holder=1000230121
+}
+951.1.1={
+	holder = 1000230147 # Daquq - Seljuk's father
+}
+983.1.1={
+	liege="d_jand"
+	holder=3030  # Seljuk
+}
+1021.1.1={
+	holder=3032  # Arslan b.Seljuk
+}
+1032.1.2={
+	holder=1000229901  # Musa Yabghu b.Seljuk
+}
+1063.1.1={
+	liege="d_qipchaq"
+	holder=1000229726
+}
+1092.1.1={
+	holder=1000229727
+}
+1122.1.1={
+	holder=1000229728
+}
+1141.6.6={
+	liege="e_khitan"
+  holder=1000231501
+}
+1151.6.6={
+	holder=1000231502
+}
+1163.6.6={
+	holder=1000231503
+}
+1177.6.6={
+	holder=1000231504
+}
+1179.6.6={
+	holder=1000231505
+}
+1211.1.1={
+  holder=1000231514
+}
+#Mongol conquest

@@ -2070,7 +2070,7 @@ pagan_group = {
 	}
 
 	pagan = { # Use for misc other pagans
-		graphical_culture = westerngfx
+		graphical_culture = africangfx
 		allow_in_ruler_designer = no
 		icon = 5
 

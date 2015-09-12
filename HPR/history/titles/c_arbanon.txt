@@ -1,0 +1,140 @@
+
+852.1.1={
+	liege = "k_bulgaria"
+}
+852.1.1={
+	holder=70382 #Boris
+}
+860.1.1=
+{
+liege="d_dyrrachion"
+}
+860.1.1=
+{
+holder=168067
+}
+1060.1.1=
+{
+holder=1000232909
+}
+1066.1.1={
+liege="d_dyrrachion"
+}
+1082.2.21={
+	liege="d_apulia"
+	holder=1128 #Robert I de Hauteville
+}
+1082.4.1={
+	holder=1140 #Bohemond de Hauteville
+}
+1084.3.1={
+	liege="d_dyrrachion"
+	holder=1000232909
+}
+1085.1.1=
+{
+holder=1000232910
+}
+1135.1.1=
+{
+holder=1000232911
+}
+1163.1.1=
+{
+holder=215008
+}
+1198.1.1=
+{
+holder=232538
+}
+1204.5.16=
+{
+liege="d_epirus"
+}
+1208.1.1=
+{
+holder=232539
+}
+1216.1.1=
+{
+holder=215514
+}
+1230.1.1=
+{
+liege="d_epirus"
+}
+1230.3.9=
+{
+holder=125715
+}
+1256.1.1=
+{
+liege="e_byzantium"
+holder=34452
+}
+1257.1.1=
+{
+liege="k_sicily"
+holder=34460
+}
+1259.1.1=
+{
+liege="e_byzantium"
+holder=34449
+}
+1272.2.12=
+{
+liege="k_sicily"
+holder=34461
+}
+1279.8.1=
+{
+holder=34462
+}
+1282.8.30=
+{
+liege="k_naples"
+holder=34602
+}
+1293.9.16=
+{
+holder=32791
+}
+1307.1.1=
+{
+liege="d_achaia"
+}
+1307.1.1=
+{
+holder = 461712 #Phillipe II
+}
+1313.1.1=
+{
+holder = 31344 #Louis I
+}
+1316.8.2=
+{
+holder = 31343 #Mathilda
+}
+1318.1.1=
+{
+holder = 455910 #Eudes
+}
+1320.1.1=
+{
+holder = 455650 #Louis II
+}
+1322.1.1=
+{
+holder=461721 #Jean I
+}
+1332.1.1=
+{
+holder=461721 #Jean I
+}
+1336.1.2=
+{
+liege="d_dyrrachion"
+holder=468500
+}
+

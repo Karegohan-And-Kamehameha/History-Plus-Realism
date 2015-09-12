@@ -1,0 +1,24 @@
+# 1111 - Andria
+
+# County Title
+title = c_andria
+
+# Settlements
+max_settlements = 4
+
+b_andria = castle
+b_barletta = city
+b_trani = temple
+
+#b_spinazzola = castle
+#b_cernigolaandria = temple
+#b_coratoandria = city
+
+# Misc
+culture = langobardisch
+religion = catholic
+
+# History
+
+1099.1.1={ culture = southern_italian }
+

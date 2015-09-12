@@ -1540,7 +1540,7 @@ character_event = {
 			culture = cornish
 			culture = pictish
 			culture = breton
-			culture = gallawa
+			culture = norsegaelic
 		}
 	}
 
@@ -1751,7 +1751,7 @@ character_event = {
 			culture = cornish
 			culture = pictish
 			culture = breton
-			culture = gallawa
+			culture = norsegaelic
 		}
 	}
 
@@ -1893,7 +1893,7 @@ character_event = {
 			culture = cornish
 			culture = pictish
 			culture = breton
-			culture = gallawa
+			culture = norsegaelic
 		}
 	}
 

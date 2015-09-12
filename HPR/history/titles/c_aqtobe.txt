@@ -1,56 +1,78 @@
-# c_aqtobe
-760.1.1={
-	liege=d_khwarizmian
-	#holder=188824
-	holder=188767
+825.1.1={
+	liege="k_pechenegs"
 }
+825.1.1={
+	holder=1000231704
+}
+830.1.1={
+	holder=1000231706
+}
+# Qabuqsin-Yula
+864.1.1={
+        liege=d_qabuqsin_yula
+	holder=1000231740 # Qorqutay, cheif of Qabuqsin-Yula at the time of expulsion from Yaik.
+}
+#Pechengs expulsed by Oghuz and Khazars.
+#Uzlar
+893.1.1={
+	liege="d_tekule"
+holder=	1000231945
+}
+959.1.1=
+{
+holder=	1000231947
+}
+989.1.1=
+{
+holder=	1000231949
+}
+1024.1.1=
+{
+holder=	1000231951
+}
+#Cumans arrive
+#Toqsoba
+1030.1.1={
+	liege=d_toqsoba
+	holder=1000229732
+}
+#Dörüt
+1060.1.1={
+	liege=d_dorut
+	holder=1000233034
+}
+1098.1.1={
+	holder=1000233036
+}
+1130.1.1={
+	holder=1000233038
+}
+1163.1.1={
+	holder=1000233040
+}
+1199.1.1={
+	holder=1000233042
+}
+1215.1.1={
+	holder=1000233044
+}
+1239.1.1=
+{
+liege=d_yaik  # Mongols put down revolt
 
-850.1.1={
-	liege="k_cuman"
-	holder=180262
+holder=34911
 }
-995.1.1 = {
-	holder = 1000251304
-	liege = "k_cuman"
+1260.1.1=
+{
+holder=34905
 }
-1066.1.1 = {
-liege = "d_yaik"
+1300.1.1=
+{
+holder=34968
 }
-1066.1.1 = {
-holder = 34963
-}
-1095.1.1 = {
-holder = 34964
-}
-1130.1.1 = {
-holder = 34965
-}
-1160.1.1 = {
-holder = 34966
-}
-1190.1.1 = {
-holder = 34967
-}
-1220.1.1 = {
-	holder = 125403
-}
-1221.1.1 = {
-holder = 34852
-}
-1225.1.1 = {
-holder = 125502
-}
-1227.1.2 = {
-holder = 34911
-}
-1260.1.1 = {
-holder = 34905
-}
-1300.1.1 = {
-holder = 34968
-}
-1320.1.1 = {
-holder = 34969
+1320.1.1=
+{
+holder=34969
 }
 
 

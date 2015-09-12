@@ -5,7 +5,7 @@ title = c_damman
 
 # Settlements
 max_settlements = 4
-b_avan = castle
+b_avan = tribal
 b_qatif = city
 b_najmah = temple
 

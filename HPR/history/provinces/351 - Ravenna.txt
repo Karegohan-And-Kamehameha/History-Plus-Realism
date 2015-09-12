@@ -6,22 +6,30 @@ title = c_ravenna
 # Settlements
 max_settlements = 5
 
-b_cervia = castle
 b_ravenna = temple
-b_cesena = city
+b_cunio = castle
+b_bagnacavallo = city
+#b_cervia = city
+#b_raffanara = castle
+#b_castellocortina = castle
 #b_russi = castle
-#b_alfonsine = castle
-#b_cesenatico = castle
-#b_gambettola = castle
-#b_gatteo = castle
+#b_cotignola = city
+#b_lugoitaly = temple
+#b_roccaesteneseravenna = castle
+#b_roccabrancaleone = castle
+
+
+
+
+
 
 # Misc
 culture = italian
 religion = catholic
 
 # History
-1066.1.1 = { capital = b_ravenna }
-1130.1.1 = { trade_post = b_contarini }
-1218.1.1 = { capital = b_cervia }
+866.1.1 = { capital = b_cunio }
+870.1.1 = { capital = b_ravenna }
+1218.1.1 = { capital = b_cunio }
 1248.1.1 = { capital = b_ravenna }
-1275.1.1 = { capital = b_cervia }
+1275.1.1 = { capital = b_cunio }

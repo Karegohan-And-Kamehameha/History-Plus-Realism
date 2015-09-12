@@ -4,27 +4,20 @@
 title = c_el_rif
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 
-b_melilla = castle
-b_alhoceima = city
-b_midar = temple
-b_ketama = castle
+b_taza = castle
+b_ketama = temple
 
-#b_nador = castle
-#b_driouch = castle
-#b_geurcif = castle
-#b_saka = castle
+#b_saka = city
 
 # Misc
-culture = maghreb_arabic
-religion = catholic
+culture = sanhaja
+religion = sunni
 
 
 # History
 
-947.1.1 = { religion = sunni }
-1175.1.1 = { trade_post = b_embriaco }
 
 
 

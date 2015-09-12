@@ -1,0 +1,29 @@
+#Ençogli
+1045.1.1={
+	liege=k_cuman
+	holder=1000233112
+}
+1080.1.1={
+	holder=1000233114 # Altunopa/Arslanopa
+}
+1103.4.1={
+	holder=1000233116
+}
+1149.1.1={
+	holder=1000233118
+}
+1170.1.1={
+	holder=1000233120 # Toglyy
+}
+1200.1.1={
+	holder=1000233122
+}
+1214.1.1={
+	holder=1000233124
+}
+1220.1.1={
+	holder=1000233211 # Begovars
+}
+1238.1.1={
+	holder=0 # migrating to Hungary after defeat
+}

@@ -392,7 +392,6 @@ character_event = {
 							location = {
 								OR = {
 									region = custom_persia
-									region = custom_afghanistan
 									region = custom_baluchistan
 								}
 							}
@@ -471,10 +470,7 @@ character_event = {
 					if = {
 						limit = {
 							location = {
-								OR = {
-									region = custom_baluchistan
-									region = custom_afghanistan
-								}
+								region = custom_baluchistan
 							}
 						}
 						create_character = {
@@ -632,10 +628,7 @@ character_event = {
 					if = {
 						limit = {
 							duchy = {
-								OR = {
-									title = d_harer
-									title = d_berbera
-								}
+								title = d_berbera
 							}
 						}
 						create_character = {
@@ -854,7 +847,6 @@ character_event = {
 					limit = { # Set these regions to be Zoroastrian
 						OR = {
 							region = custom_persia
-							region = custom_afghanistan
 							region = custom_baluchistan
 						}
 					}
@@ -1072,10 +1064,7 @@ character_event = {
 				}
 				if = {
 					limit = { # Set these region to be Zun
-						OR = {
-							region = custom_baluchistan
-							region = custom_afghanistan
-						}
+						region = custom_baluchistan
 					}
 					county = {
 						holder_scope = {
@@ -1127,20 +1116,6 @@ character_event = {
 			}
 		}
 		# Nestorian has no region to use, default to the duchies that make up the target area
-		d_harer = { # Set this duchy to be Nestorian
-			any_de_jure_vassal_title = {
-				holder_scope = {
-					religion = nestorian
-					any_courtier = {
-						religion = PREV
-						culture = PREV
-					}
-				}
-				location = {
-					religion = nestorian
-				}
-			}
-		}
 		d_berbera = { # Set this duchy to be Nestorian
 			any_de_jure_vassal_title = {
 				holder_scope = {

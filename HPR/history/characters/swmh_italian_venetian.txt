@@ -1,0 +1,93 @@
+###############################################################
+#  SWMH Venetian characters
+###############################################################
+# SWMH Character Range: 1000226700 - 1000226899
+##############################################################################################
+
+#Navigajoso family. Possibly of part Greek, part Venetian origin
+#First known member, Filocalo Nivagojoso, Lord of Lemnos and Megadux of the Latin Empire#
+1000226704 = {
+	name="Filocalo"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	1154.1.1 = {
+		birth = yes
+	}
+	1214.1.1 = {
+		death = yes
+	}
+}
+#Son of Filocalo# 
+1000226705 = {
+	name="Leonardo"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1000226704
+       	1191.1.1 = {
+		birth = yes
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+#Son of Leonardo# 
+1000226706 = {
+	name="Paolo"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1000226705
+       	1220.1.1 = {
+		birth = yes
+	}
+	1277.1.1 = {
+		death = yes
+	}
+}
+#Son of Leonardo# 
+1000226707 = {
+	name="Filippo"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1000226705
+       	1222.1.1 = {
+		birth = yes
+	}
+	1277.1.1 = {
+		death = yes
+	}
+}
+#Son of Leonardo# 
+1000226708 = {
+	name="Nicolao"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1000226705
+       	1223.1.1 = {
+		birth = yes
+	}
+	1277.1.1 = {
+		death = yes
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+951.1.1={
+	holder = 1000230147 # Daquq - Seljuk's father
+}
+983.1.1={
+	holder=3030  # Seljuk
+}
+1021.1.1={
+	holder=3032  # Arslan b.Seljuk
+}
+1032.1.2={
+	holder=1000229901  # Musa Yabghu b.Seljuk
+}
+1063.1.1={
+	holder=0
+}

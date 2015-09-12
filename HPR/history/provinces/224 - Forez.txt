@@ -19,7 +19,7 @@ b_montbrison = city
 #b_stetienne = city
 
 # Misc
-culture = occitan
+culture = arpitan
 religion = catholic
 
 # History

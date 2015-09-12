@@ -1,0 +1,35 @@
+#Burçali
+1060.1.1={
+	liege=k_cuman
+	holder=1000233152
+}
+1065.1.1={
+	liege=k_qipchaq
+}
+1083.1.1={
+	holder=1000233154
+}
+1096.1.1={
+	holder=1000233156 # Kitanopa
+}
+1103.4.1={
+	holder=1000233158
+}
+1123.1.1={
+	liege=k_cuman
+}
+1163.1.1={
+	holder=1000233160
+}
+1183.1.1={
+	holder=1000233162 # Kopti
+}
+1218.1.1={
+	holder=1000233164
+}
+1230.1.1={
+	holder=1000233164
+}
+1238.1.1={
+	holder=0 # migrating to Hungary after defeat
+}

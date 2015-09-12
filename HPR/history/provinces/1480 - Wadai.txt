@@ -1,0 +1,17 @@
+# 1480 - Wadai
+
+# County Title
+title = c_wadai
+
+# Settlements
+max_settlements = 3
+b_abeche = tribal
+#b_gasga = city
+#b_wara = temple
+
+# Misc
+culture = zaghawa
+religion = west_african_pagan
+
+# History
+1090.1.1 = { b_abeche = city }

@@ -41,13 +41,13 @@
 	holder=73769 # Gonzalo Fernández de Lara
 }
 916.1.1={
-	holder=72549 # Fernando Ansúrez
+	holder=1000235002 # Fernando Ansúrez
 }
 920.1.1={
 	holder=200069 # Nuño Fernández de Lara
 }
 927.1.1={
-	holder=72549 # Fernando Ansúrez
+	holder=1000235002 # Fernando Ansúrez
 }
 930.1.1={
 	holder=107680 # Fernán González de Lara
@@ -56,7 +56,7 @@
 	liege=d_castilla
 }
 944.1.1={
-	holder=72550 # Ansur Fernández Ansúrez
+	holder=1000235003 # Ansur Fernández Ansúrez
 }
 945.1.1={
 	holder=107680 # Fernán González de Lara

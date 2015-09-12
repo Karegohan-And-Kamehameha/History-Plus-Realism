@@ -1,40 +1,44 @@
+
 32225 = {
-	name = "Dil Na'od"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 167707
-	840.1.1 = {
-		birth = "840.1.1"
+	name="Dil Na'od"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=167707
+	840.1.1={
+		birth="840.1.1"
 	}
-	916.1.1 = {
-		death = "916.1.1"
+	916.1.1={
+		death="916.1.1"
 	}
 }
 
 32226 = {
-	name = "Masoba Warq"
-	female = yes
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32225
-	875.1.1 = {
-		birth = "875.1.1"
+	name="Masoba Warq"
+	female=yes
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32225
+	875.1.1={
+		birth="875.1.1"
 	}
-	930.1.1 = {
-		death = "930.1.1"
+	930.1.1={
+		death="930.1.1"
 	}
 }
 
 32227 = {
 	name="Mara Takla Haymanot"
-	dynasty=101793
+	dynasty=101793 
 	religion="miaphysite"
 	culture="ethiopian"
-	father=145982
+	father=1000228961
 	860.1.1={
 		birth="860.1.1"
+	}
+	866.1.1 = {
+		add_claim = d_axum
 	}
 	895.1.1={
 		add_spouse=32226
@@ -45,572 +49,572 @@
 }
 
 32228 = {
-	name = "Tatadim"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32227
-	mother = 32226
-	897.1.1 = {
-		birth = "897.1.1"
+	name="Tatadim"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32227
+	mother=32226
+	897.1.1={
+		birth="897.1.1"
 	}
-	959.1.1 = {
-		death = "959.1.1"
+	959.1.1={
+		death="959.1.1"
 	}
 }
 
 32229 = {
-	name = "Jan Seyum"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32228
-	930.1.1 = {
-		birth = "930.1.1"
+	name="Jan Seyum"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32228
+	930.1.1={
+		birth="930.1.1"
 	}
-	999.1.1 = {
-		death = "999.1.1"
+	999.1.1={
+		death="999.1.1"
 	}
 }
 
 32230 = {
-	name = "German Seyum"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32229
-	970.1.1 = {
-		birth = "970.1.1"
+	name="German Seyum"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32229
+	970.1.1={
+		birth="970.1.1"
 	}
-	1039.1.1 = {
-		death = "1039.1.1"
+	1039.1.1={
+		death="1039.1.1"
 	}
 }
 
 32231 = {
-	name = "Yemrehana Krestos"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32230
-	1010.1.1 = {
-		birth = "1010.1.1"
+	name="Yemrehana Krestos"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32230
+	1010.1.1={
+		birth="1010.1.1"
 	}
-	1079.1.1 = {
-		death = "1079.1.1"
+	1079.1.1={
+		death="1079.1.1"
 	}
 }
 
 
 32232 = {
-	name = "Kedus Harbe"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32231
-	1050.1.1 = {
-		birth = "1050.1.1"
+	name="Kedus Harbe"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32231
+	1050.1.1={
+		birth="1050.1.1"
 	}
-	1119.1.1 = {
-		death = "1119.1.1"
+	1119.1.1={
+		death="1119.1.1"
 	}
 }
 
 32233 = {
-	name = "Lalibela"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32232
-	1100.1.1 = {
-		birth = "1100.1.1"
+	name="Lalibela"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32232
+	1100.1.1={
+		birth="1100.1.1"
 	}
-	1159.1.1 = {
-		death = "1159.1.1"
+	1159.1.1={
+		death="1159.1.1"
 	}
 }
 32234 = {
-	name = "Na'akuelo La'ab"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32233
-	1140.1.1 = {
-		birth = "1140.1.1"
+	name="Na'akuelo La'ab"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32233
+	1140.1.1={
+		birth="1140.1.1"
 	}
-	1207.1.1 = {
-		death = "1207.1.1"
+	1207.1.1={
+		death="1207.1.1"
 	}
 }
 32235 = {
-	name = "Yetbarak"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32234
-	1190.1.1 = {
-		birth = "1190.1.1"
+	name="Yetbarak"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32234
+	1190.1.1={
+		birth="1190.1.1"
 	}
-	1247.1.1 = {
-		death = "1247.1.1"
+	1247.1.1={
+		death="1247.1.1"
 	}
 }
 32236 = {
-	name = "Mairari"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32235
-	1220.1.1 = {
-		birth = "1220.1.1"
+	name="Mairari"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32235
+	1220.1.1={
+		birth="1220.1.1"
 	}
-	1262.1.1 = {
-		death = "1262.1.1"
+	1262.1.1={
+		death="1262.1.1"
 	}
 }
 32237 = {
-	name = "Harbai"
-	dynasty = 101793 
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32236
-	1245.1.1 = {
-		birth = "1245.1.1"
+	name="Harbai"
+	dynasty=101793 
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32236
+	1245.1.1={
+		birth="1245.1.1"
 	}
-	1268.1.1 = {
-		death = "1268.1.1"
+	1268.1.1={
+		death="1268.1.1"
 	}
 }
 32238 = {
-	name = "Mahbere-Widam"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32225
-	900.1.1 = {
-		birth = "900.1.1"
+	name="Mahbere-Widam"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32225
+	900.1.1={
+		birth="900.1.1"
 	}
-	960.1.1 = {
-		death = "960.1.1"
+	960.1.1={
+		death="960.1.1"
 	}
 }
 
 32239 = {
-	name = "Agba Seyum"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32238
-	950.1.1 = {
-		birth = "950.1.1"
+	name="Agba Seyum"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32238
+	950.1.1={
+		birth="950.1.1"
 	}
-	1000.1.1 = {
-		death = "1000.1.1"
+	1000.1.1={
+		death="1000.1.1"
 	}
 }
 
 32240 = {
-	name = "Sinda Ar'ad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32239
-	990.1.1 = {
-		birth = "990.1.1"
+	name="Sinda Ar'ad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32239
+	990.1.1={
+		birth="990.1.1"
 	}
-	1040.1.1 = {
-		death = "1040.1.1"
+	1040.1.1={
+		death="1040.1.1"
 	}
 }
 
 32241 = {
-	name = "Negus Zaré"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32240
-	1020.1.1 = {
-		birth = "1020.1.1"
+	name="Negus Zaré"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32240
+	1020.1.1={
+		birth="1020.1.1"
 	}
-	1070.1.1 = {
-		death = "1070.1.1"
+	1070.1.1={
+		death="1070.1.1"
 	}
 }
 
 32242 = {
-	name = "Asfiha"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32241
-	1050.1.1 = {
-		birth = "1050.1.1"
+	name="Asfiha"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32241
+	1050.1.1={
+		birth="1050.1.1"
 	}
-	1100.1.1 = {
-		death = "1100.1.1"
+	1100.1.1={
+		death="1100.1.1"
 	}
 }
 
 32243 = {
-	name = "Yakob"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32242
-	1080.1.1 = {
-		birth = "1080.1.1"
+	name="Yakob"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32242
+	1080.1.1={
+		birth="1080.1.1"
 	}
-	1130.1.1 = {
-		death = "1130.1.1"
+	1130.1.1={
+		death="1130.1.1"
 	}
 }
 
 32244 = {
-	name = "Bahr Seggad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32243
-	1110.1.1 = {
-		birth = "1110.1.1"
+	name="Bahr Seggad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32243
+	1110.1.1={
+		birth="1110.1.1"
 	}
-	1160.1.1 = {
-		death = "1160.1.1"
+	1160.1.1={
+		death="1160.1.1"
 	}
 }
 32245 = {
-	name = "Adam Asgad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32244
-	1140.1.1 = {
-		birth = "1140.1.1"
+	name="Adam Asgad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32244
+	1140.1.1={
+		birth="1140.1.1"
 	}
-	1200.1.1 = {
-		death = "1200.1.1"
+	1200.1.1={
+		death="1200.1.1"
 	}
 }
 32246 = {
-	name = "Tasfa Iyasus"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32245
-	1180.1.1 = {
-		birth = "1180.1.1"
+	name="Tasfa Iyasus"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32245
+	1180.1.1={
+		birth="1180.1.1"
 	}
-	1240.1.1 = {
-		death = "1240.1.1"
+	1240.1.1={
+		death="1240.1.1"
 	}
 }
 
 32247 = {
-	name = "Yekuno Amlak"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32246
-	1225.1.1 = {
-		birth = "1225.1.1"
+	name="Yekuno Amlak"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32246
+	1225.1.1={
+		birth="1225.1.1"
 	}
-	1285.1.1 = {
-		death = "1285.1.1"
+	1285.1.1={
+		death="1285.1.1"
 	}
 }
 
 32248 = {
-	name = "Salomon"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32247
-	1245.1.1 = {
-		birth = "1245.1.1"
+	name="Salomon"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32247
+	1245.1.1={
+		birth="1245.1.1"
 	}
-	1294.1.1 = {
-		death = "1294.1.1"
+	1294.1.1={
+		death="1294.1.1"
 	}
 }
 
 32249 = {
-	name = "Wadim Ar'ad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32247
-	1250.1.1 = {
-		birth = "1250.1.1"
+	name="Wadim Ar'ad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32247
+	1250.1.1={
+		birth="1250.1.1"
 	}
-	1310.1.1 = 
+	1310.1.1=
 	{
-		add_spouse = 32256
+		add_spouse=32256
 	}
-	1314.1.1 = {
-		death = "1314.1.1"
+	1314.1.1={
+		death="1314.1.1"
 	}
 }
 
 32250 = {
-	name = "Qidma Seggada"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32247
-	1255.1.1 = {
-		birth = "1255.1.1"
+	name="Qidma Seggada"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32247
+	1255.1.1={
+		birth="1255.1.1"
 	}
-	1305.1.1 = {
-		death = "1305.1.1"
+	1305.1.1={
+		death="1305.1.1"
 	}
 }
 
 32251 = {
-	name = "Gabre Maskal"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32250
-	1280.1.1 = {
-		birth = "1280.1.1"
+	name="Gabre Maskal"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32250
+	1280.1.1={
+		birth="1280.1.1"
 	}
-	1315.1.1 = 
+	1315.1.1=
 	{
-		add_spouse = 32256
+		add_spouse=32256
 	}
-	1320.1.1 = 
+	1320.1.1=
 	{
-		add_spouse = 32257
+		add_spouse=32257
 	}
-	1344.1.1 = {
-		death = "1344.1.1"
+	1344.1.1={
+		death="1344.1.1"
 	}
 }
 
 #5 sons all ruled 1 year, then abdicated
 
 32252 = {
-	name = "Sinfa Asgad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32248
-	1265.1.1 = {
-		birth = "1265.1.1"
+	name="Sinfa Asgad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32248
+	1265.1.1={
+		birth="1265.1.1"
 	}
-	1299.1.1 = {
-		death = "1299.1.1"
+	1299.1.1={
+		death="1299.1.1"
 	}
 }
 32253 = {
-	name = "Hizba Asgad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32248
-	1267.1.1 = {
-		birth = "1267.1.1"
+	name="Hizba Asgad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32248
+	1267.1.1={
+		birth="1267.1.1"
 	}
-	1299.1.1 = {
-		death = "1299.1.1"
+	1299.1.1={
+		death="1299.1.1"
 	}
 }
 
 32254 = {
-	name = "Qidma Asgad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32248
-	1269.1.1 = {
-		birth = "1269.1.1"
+	name="Qidma Asgad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32248
+	1269.1.1={
+		birth="1269.1.1"
 	}
-	1299.1.1 = {
-		death = "1299.1.1"
+	1299.1.1={
+		death="1299.1.1"
 	}
 }
 
 
 32263 = {
-	name = "Jas Asgad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32248
-	1271.1.1 = {
-		birth = "1271.1.1"
+	name="Jas Asgad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32248
+	1271.1.1={
+		birth="1271.1.1"
 	}
-	1299.1.1 = {
-		death = "1299.1.1"
+	1299.1.1={
+		death="1299.1.1"
 	}
 }
 32255 = {
-	name = "Saba Asgad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32248
-	1273.1.1 = {
-		birth = "1273.1.1"
+	name="Saba Asgad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32248
+	1273.1.1={
+		birth="1273.1.1"
 	}
-	1299.1.1 = {
-		death = "1299.1.1"
+	1299.1.1={
+		death="1299.1.1"
 	}
 }
 
 32256 = {
-	name = "Jan Mangesha"
-	female = yes
-	dynasty = 101789
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1294.1.1 = {
-		birth = "1294.1.1"
+	name="Jan Mangesha"
+	female=yes
+	dynasty=101789
+	religion="miaphysite"
+	culture="ethiopian"
+	1294.1.1={
+		birth="1294.1.1"
 	}
-	1318.1.1 = {
-		death = "1318.1.1"
+	1318.1.1={
+		death="1318.1.1"
 	}
 }
 
 32257 = {
-	name = "Belen"
-	female = yes
-	dynasty = 101787
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1300.1.1 = {
-		birth = "1300.1.1"
+	name="Belen"
+	female=yes
+	dynasty=101787
+	religion="miaphysite"
+	culture="ethiopian"
+	1300.1.1={
+		birth="1300.1.1"
 	}
-	1355.1.1 = {
-		death = "1355.1.1"
+	1355.1.1={
+		death="1355.1.1"
 	}
 }
 
 32258 = {
-	name = "Bahr Seggad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32251
-	mother = 32257
-	1321.1.1 = {
-		birth = "1321.1.1"
+	name="Bahr Seggad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32251
+	mother=32257
+	1321.1.1={
+		birth="1321.1.1"
 	}
-	1344.1.1 = {
-		death = "1344.1.1"
+	1344.1.1={
+		death="1344.1.1"
 	}
 }
 32259 = {
-	name = "Saf Seggad"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32251
-	mother = 32257
-	1322.1.1 = {
-		birth = "1322.1.1"
+	name="Saf Seggad"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32251
+	mother=32257
+	1322.1.1={
+		birth="1322.1.1"
 	}
-	1344.1.1 = {
-		death = "1344.1.1"
+	1344.1.1={
+		death="1344.1.1"
 	}
 }
 32260 = {
-	name = "Niwaya Krestos"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32251
-	mother = 32257
-	1323.1.1 = {
-		birth = "1323.1.1"
+	name="Niwaya Krestos"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32251
+	mother=32257
+	1323.1.1={
+		birth="1323.1.1"
 	}
-	1372.1.1 = {
-		death = "1372.1.1"
+	1372.1.1={
+		death="1372.1.1"
 	}
 }
 
 32261 = {
-	name = "Kirillos"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32251
-	mother = 32257
-	1324.1.1 = {
-		birth = "1324.1.1"
+	name="Kirillos"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32251
+	mother=32257
+	1324.1.1={
+		birth="1324.1.1"
 	}
-	1370.1.1 = {
-		death = "1370.1.1"
+	1370.1.1={
+		death="1370.1.1"
 	}
 }
 
 32262 = {
-	name = "Abba Assay"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 32251
-	mother = 32257
-	1325.1.1 = {
-		birth = "1325.1.1"
+	name="Abba Assay"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=32251
+	mother=32257
+	1325.1.1={
+		birth="1325.1.1"
 	}
-	1375.1.1 = {
-		death = "1375.1.1"
+	1375.1.1={
+		death="1375.1.1"
 	}
 }
 
 93498 = {
-	name = "Dhidhin" 
-	dynasty = 7373
-	religion = "sunni"
-	culture = "ethiopian"
-	1255.1.1 = {
-		birth = "1255.1.1"
+	name="Dhidhin" 
+	dynasty=7373
+	religion="sunni"
+	culture="ethiopian"
+	1255.1.1={
+		birth="1255.1.1"
 	}
-	1311.1.1 = {
-		death = "1311.1.1"
+	1311.1.1={
+		death="1311.1.1"
 	}
 }
 
 93499 = {
-	name = "Hamar Gale" 
-	dynasty = 7373
-	religion = "sunni"
-	culture = "ethiopian"
-	father = 93498
-	1280.1.1 = {
-		birth = "1280.1.1"
+	name="Hamar Gale" 
+	dynasty=7373
+	religion="sunni"
+	culture="ethiopian"
+	father=93498
+	1280.1.1={
+		birth="1280.1.1"
 	}
-	1328.1.1 = {
-		death = "1328.1.1"
-	}
-}
-
-93500 =  {
-	name = "Ibrahim" 
-	dynasty = 7373
-	religion = "sunni"
-	culture = "ethiopian"
-	father = 93499
-	1300.1.1 = {
-		birth = "1300.1.1"
-	}
-	1348.1.1 = {
-		death = "1348.1.1"
+	1328.1.1={
+		death="1328.1.1"
 	}
 }
 
-93501 =  {
-	name = "Omar" 
-	dynasty = 7373
-	religion = "sunni"
-	culture = "ethiopian"
-	father = 93500
-	1320.1.1 = {
-		birth = "1320.1.1"
+93500= {
+	name="Ibrahim" 
+	dynasty=7373
+	religion="sunni"
+	culture="ethiopian"
+	father=93499
+	1300.1.1={
+		birth="1300.1.1"
 	}
-	1355.1.1 = {
-		death = "1355.1.1"
+	1348.1.1={
+		death="1348.1.1"
+	}
+}
+
+93501= {
+	name="Omar" 
+	dynasty=7373
+	religion="sunni"
+	culture="ethiopian"
+	father=93500
+	1320.1.1={
+		birth="1320.1.1"
+	}
+	1355.1.1={
+		death="1355.1.1"
 	}
 }
 
@@ -619,7 +623,6 @@
 	dynasty=7246
 	religion="miaphysite"
 	culture="ethiopian"
-	father=145994
 	800.1.1={
 		birth="800.1.1"
 	}
@@ -629,693 +632,693 @@
 }
 
 167708 = {
-	name = "Anbasa Wedem"
-	dynasty = 7246
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 167707
-	835.1.1 = {
-		birth = "835.1.1"
+	name="Anbasa Wedem"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+	father=167707
+	835.1.1={
+		birth="835.1.1"
 	}
-	900.1.1 = {
-		death = "900.1.1"
+	900.1.1={
+		death="900.1.1"
 	}
 }
 
-##nubian Characters
+
+##Ethiopian Characters
 
 ##Abuns (Patriarchs) of Ethiopia
 
 166186 = {
-	name = "Frumentius"
-	religion = "orthodox"
-	culture = "levantine_arabic" #assyrian
-	trait = "scholarly_theologian"
-	305.1.1 = {
-		birth = "305.1.1"
+	name="Frumentius"
+	religion="orthodox"
+	culture="levantine_arabic" #assyrian
+	trait="scholarly_theologian"
+	305.1.1={
+		birth="305.1.1"
 	}
-	328.1.1 = {
-		name = "Selama"
+	328.1.1={
+		name="Selama"
 	}
-	383.1.1 = {
-		death = "383.1.1"
-		give_nickname = nick_the_holy
+	383.1.1={
+		death="383.1.1"
+		give_nickname=nick_the_holy
 	}
 }
 
 166187 = {
-	name = "Minas"
-	religion = "orthodox"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	311.1.1 = {
-		birth = "311.1.1"
+	name="Minas"
+	religion="orthodox"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	311.1.1={
+		birth="311.1.1"
 	}
-	355.1.1 = {
-		death = "355.1.1"
+	355.1.1={
+		death="355.1.1"
 	}
 }
 
 166188 = {
-	name = "Elyas"
-	religion = "orthodox"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	315.1.1 = {
-		birth = "315.1.1"
+	name="Elyas"
+	religion="orthodox"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	315.1.1={
+		birth="315.1.1"
 	}
-	378.1.1 = {
-		death = "378.1.1"
+	378.1.1={
+		death="378.1.1"
 	}
 }
 
 166189 = {
-	name = "Abreham"
-	religion = "orthodox"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	352.1.1 = {
-		birth = "352.1.1"
+	name="Abreham"
+	religion="orthodox"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	352.1.1={
+		birth="352.1.1"
 	}
-	426.1.1 = {
-		death = "426.1.1"
+	426.1.1={
+		death="426.1.1"
 	}
 }
 
 166190 = {
-	name = "Petros"
-	religion = "orthodox"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	387.1.1 = {
-		birth = "387.1.1"
+	name="Petros"
+	religion="orthodox"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	387.1.1={
+		birth="387.1.1"
 	}
-	451.1.1 = {
-		religion = "miaphysite"
+	451.1.1={
+		religion="miaphysite"
 	}
-	465.1.1 = {
-		death = "465.1.1"
+	465.1.1={
+		death="465.1.1"
 	}
 }
 
 166191 = {
-	name = "Petros"
-	religion = "orthodox"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	405.1.1 = {
-		birth = "405.1.1"
+	name="Petros"
+	religion="orthodox"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	405.1.1={
+		birth="405.1.1"
 	}
-	451.1.1 = {
-		religion = "miaphysite"
+	451.1.1={
+		religion="miaphysite"
 	}
-	472.1.1 = {
-		death = "472.1.1"
+	472.1.1={
+		death="472.1.1"
 	}
 }
 
 166192 = {
-	name = "Abba Afse"
-	religion = "orthodox"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	437.1.1 = {
-		birth = "437.1.1"
+	name="Abba Afse"
+	religion="orthodox"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	437.1.1={
+		birth="437.1.1"
 	}
-	451.1.1 = {
-		religion = "miaphysite"
+	451.1.1={
+		religion="miaphysite"
 	}
-	504.1.1 = {
-		death = "504.1.1"
+	504.1.1={
+		death="504.1.1"
 	}
 }
 
 166193 = {
-	name = "Qozmos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	456.1.1 = {
-		birth = "456.1.1"
+	name="Qozmos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	456.1.1={
+		birth="456.1.1"
 	}
-	520.1.1 = {
-		death = "520.1.1"
+	520.1.1={
+		death="520.1.1"
 	}
 }
 
 166194 = {
-	name = "Euprepius"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	464.1.1 = {
-		birth = "464.1.1"
+	name="Euprepius"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	464.1.1={
+		birth="464.1.1"
 	}
-	537.1.1 = {
-		death = "537.1.1"
+	537.1.1={
+		death="537.1.1"
 	}
 }
 
 166195 = {
-	name = "Marqos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	499.1.1 = {
-		birth = "499.1.1"
+	name="Marqos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	499.1.1={
+		birth="499.1.1"
 	}
-	565.1.1 = {
-		death = "565.1.1"
+	565.1.1={
+		death="565.1.1"
 	}
 }
 
 166196 = {
-	name = "Petros"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	506.1.1 = {
-		birth = "506.1.1"
+	name="Petros"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	506.1.1={
+		birth="506.1.1"
 	}
-	576.1.1 = {
-		death = "576.1.1"
+	576.1.1={
+		death="576.1.1"
 	}
 }
 
 166197 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	510.1.1 = {
-		birth = "510.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	510.1.1={
+		birth="510.1.1"
 	}
-	584.1.1 = {
-		death = "584.1.1"
+	584.1.1={
+		death="584.1.1"
 	}
 }
 
 166198 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	513.1.1 = {
-		birth = "513.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	513.1.1={
+		birth="513.1.1"
 	}
-	589.1.1 = {
-		death = "589.1.1"
+	589.1.1={
+		death="589.1.1"
 	}
 }
 
 166199 = {
-	name = "Marqos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	528.1.1 = {
-		birth = "528.1.1"
+	name="Marqos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	528.1.1={
+		birth="528.1.1"
 	}
-	597.1.1 = {
-		death = "597.1.1"
+	597.1.1={
+		death="597.1.1"
 	}
 }
 
 166200 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	537.1.1 = {
-		birth = "537.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	537.1.1={
+		birth="537.1.1"
 	}
-	606.1.1 = {
-		death = "606.1.1"
+	606.1.1={
+		death="606.1.1"
 	}
 }
 
 166201 = {
-	name = "Marqos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	555.1.1 = {
-		birth = "555.1.1"
+	name="Marqos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	555.1.1={
+		birth="555.1.1"
 	}
-	611.1.1 = {
-		death = "611.1.1"
+	611.1.1={
+		death="611.1.1"
 	}
 }
 
 166202 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	573.1.1 = {
-		birth = "573.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	573.1.1={
+		birth="573.1.1"
 	}
-	629.1.1 = {
-		death = "629.1.1"
+	629.1.1={
+		death="629.1.1"
 	}
 }
 
 166203 = {
-	name = "Qerellos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	581.1.1 = {
-		birth = "581.1.1"
+	name="Qerellos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	581.1.1={
+		birth="581.1.1"
 	}
-	648.1.1 = {
-		death = "648.1.1"
+	648.1.1={
+		death="648.1.1"
 	}
 }
 
 166204 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	586.1.1 = {
-		birth = "586.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	586.1.1={
+		birth="586.1.1"
 	}
-	655.1.1 = {
-		death = "655.1.1"
+	655.1.1={
+		death="655.1.1"
 	}
 }
 
 166205 = {
-	name = "Petros"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	598.1.1 = {
-		birth = "598.1.1"
+	name="Petros"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	598.1.1={
+		birth="598.1.1"
 	}
-	667.1.1 = {
-		death = "667.1.1"
+	667.1.1={
+		death="667.1.1"
 	}
 }
 
 166206 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	604.1.1 = {
-		birth = "604.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	604.1.1={
+		birth="604.1.1"
 	}
-	683.1.1 = {
-		death = "683.1.1"
+	683.1.1={
+		death="683.1.1"
 	}
 }
 
 166207 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	628.1.1 = {
-		birth = "628.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	628.1.1={
+		birth="628.1.1"
 	}
-	698.1.1 = {
-		death = "698.1.1"
+	698.1.1={
+		death="698.1.1"
 	}
 }
 
 166208 = {
-	name = "Marqos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	646.1.1 = {
-		birth = "646.1.1"
+	name="Marqos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	646.1.1={
+		birth="646.1.1"
 	}
-	710.1.1 = {
-		death = "710.1.1"
+	710.1.1={
+		death="710.1.1"
 	}
 }
 
 166209 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	659.1.1 = {
-		birth = "659.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	659.1.1={
+		birth="659.1.1"
 	}
-	723.1.1 = {
-		death = "723.1.1"
+	723.1.1={
+		death="723.1.1"
 	}
 }
 
 166210 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	671.1.1 = {
-		birth = "671.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	671.1.1={
+		birth="671.1.1"
 	}
-	748.1.1 = {
-		death = "748.1.1"
+	748.1.1={
+		death="748.1.1"
 	}
 }
 
 166211 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	699.1.1 = {
-		birth = "699.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	699.1.1={
+		birth="699.1.1"
 	}
-	770.1.1 = {
-		death = "770.1.1"
+	770.1.1={
+		death="770.1.1"
 	}
 }
 
 166212 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	728.1.1 = {
-		birth = "728.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	728.1.1={
+		birth="728.1.1"
 	}
-	799.1.1 = {
-		death = "799.1.1"
+	799.1.1={
+		death="799.1.1"
 	}
 }
 
 166213 = {
-	name = "Marqos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	752.1.1 = {
-		birth = "752.1.1"
+	name="Marqos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	752.1.1={
+		birth="752.1.1"
 	}
-	820.1.1 = {
-		death = "820.1.1"
+	820.1.1={
+		death="820.1.1"
 	}
 }
 
 166214 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	776.1.1 = {
-		birth = "776.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	776.1.1={
+		birth="776.1.1"
 	}
-	840.1.1 = {
-		death = "840.1.1"
+	840.1.1={
+		death="840.1.1"
 	}
 }
 
 166215 = {
-	name = "Yaqob"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	799.1.1 = {
-		birth = "799.1.1"
+	name="Yaqob"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	799.1.1={
+		birth="799.1.1"
 	}
-	863.1.1 = {
-		death = "863.1.1"
+	863.1.1={
+		death="863.1.1"
 	}
 }
 
 166216 = {
-	name = "Salama Za-'Azeb"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	819.1.1 = {
-		birth = "819.1.1"
+	name="Salama Za-'Azeb"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	819.1.1={
+		birth="819.1.1"
 	}
-	885.1.1 = {
-		death = "885.1.1"
+	885.1.1={
+		death="885.1.1"
 	}
 }
 
 166217 = {
-	name = "Bartalomewos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	842.1.1 = {
-		birth = "842.1.1"
+	name="Bartalomewos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	842.1.1={
+		birth="842.1.1"
 	}
-	907.1.1 = {
-		death = "907.1.1"
+	907.1.1={
+		death="907.1.1"
 	}
 }
 
 166218 = {
-	name = "Petros"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	874.1.1 = {
-		birth = "874.1.1"
+	name="Petros"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	874.1.1={
+		birth="874.1.1"
 	}
-	940.1.1 = {
-		death = "940.1.1"
+	940.1.1={
+		death="940.1.1"
 	}
 }
 
 166219 = {
-	name = "Daniel"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	929.1.1 = {
-		birth = "929.1.1"
+	name="Daniel"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	929.1.1={
+		birth="929.1.1"
 	}
-	996.1.1 = {
-		death = "996.1.1"
+	996.1.1={
+		death="996.1.1"
 	}
 }
 
 166220 = {
-	name = "Fiqtor"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	981.1.1 = {
-		birth = "981.1.1"
+	name="Fiqtor"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	981.1.1={
+		birth="981.1.1"
 	}
-	1034.1.1 = {
-		death = "1034.1.1"
+	1034.1.1={
+		death="1034.1.1"
 	}
 }
 
 166221 = {
-	name = "'Abdun"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1009.1.1 = {
-		birth = "1009.1.1"
+	name="'Abdun"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1009.1.1={
+		birth="1009.1.1"
 	}
-	1077.1.1 = {
-		death = "1077.1.1"
+	1077.1.1={
+		death="1077.1.1"
 	}
 }
 
 166222 = {
-	name = "Sawiros"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1027.1.1 = {
-		birth = "1027.1.1"
+	name="Sawiros"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1027.1.1={
+		birth="1027.1.1"
 	}
-	1092.1.1 = {
-		death = "1092.1.1"
+	1092.1.1={
+		death="1092.1.1"
 	}
 }
 
 166223 = {
-	name = "Giyorgis"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1055.1.1 = {
-		birth = "1055.1.1"
+	name="Giyorgis"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1055.1.1={
+		birth="1055.1.1"
 	}
-	1121.1.1 = {
-		death = "1121.1.1"
+	1121.1.1={
+		death="1121.1.1"
 	}
 }
 
 166224 = {
-	name = "Mikael"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1089.1.1 = {
-		birth = "1089.1.1"
+	name="Mikael"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1089.1.1={
+		birth="1089.1.1"
 	}
-	1149.1.1 = {
-		death = "1149.1.1"
+	1149.1.1={
+		death="1149.1.1"
 	}
 }
 
 166225 = {
-	name = "Yaqob"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1097.1.1 = {
-		birth = "1097.1.1"
+	name="Yaqob"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1097.1.1={
+		birth="1097.1.1"
 	}
-	1163.1.1 = {
-		death = "1163.1.1"
+	1163.1.1={
+		death="1163.1.1"
 	}
 }
 
 166226 = {
-	name = "Gabra Krestos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1127.1.1 = {
-		birth = "1127.1.1"
+	name="Gabra Krestos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1127.1.1={
+		birth="1127.1.1"
 	}
-	1184.1.1 = {
-		death = "1184.1.1"
+	1184.1.1={
+		death="1184.1.1"
 	}
 }
 
 166227 = {
-	name = "Atnatewos"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1145.1.1 = {
-		birth = "1145.1.1"
+	name="Atnatewos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1145.1.1={
+		birth="1145.1.1"
 	}
-	1206.1.1 = {
-		death = "1206.1.1"
+	1206.1.1={
+		death="1206.1.1"
 	}
 }
 
 166228 = {
-	name = "Mikael"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1153.1.1 = {
-		birth = "1153.1.1"
+	name="Mikael"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1153.1.1={
+		birth="1153.1.1"
 	}
-	1209.1.1 = {
-		death = "1209.1.1"
+	1209.1.1={
+		death="1209.1.1"
 	}
 }
 
 166229 = {
-	name = "Yeshaq"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1169.1.1 = {
-		birth = "1169.1.1"
+	name="Yeshaq"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1169.1.1={
+		birth="1169.1.1"
 	}
-	1225.1.1 = {
-		death = "1225.1.1"
+	1225.1.1={
+		death="1225.1.1"
 	}
 }
 
 166230 = {
-	name = "Giyorgis"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1194.1.1 = {
-		birth = "1194.1.1"
+	name="Giyorgis"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1194.1.1={
+		birth="1194.1.1"
 	}
-	1261.1.1 = {
-		death = "1261.1.1"
+	1261.1.1={
+		death="1261.1.1"
 	}
 }
 
 166231 = {
-	name = "Tekle Haymonot"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1215.1.1 = {
-		birth = "1215.1.1"
+	name="Tekle Haymonot"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1215.1.1={
+		birth="1215.1.1"
 	}
-	1313.1.1 = {
-		death = "1313.1.1"
-		give_nickname = nick_the_holy
+	1313.1.1={
+		death="1313.1.1"
+		give_nickname=nick_the_holy
 	}
 }
 
 166232 = {
-	name = "Yohannes"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1271.1.1 = {
-		birth = "1271.1.1"
+	name="Yohannes"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1271.1.1={
+		birth="1271.1.1"
 	}
-	1337.1.1 = {
-		death = "1337.1.1"
+	1337.1.1={
+		death="1337.1.1"
 	}
 }
 
 166233 = {
-	name = "Yaqob"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1277.1.1 = {
-		birth = "1277.1.1"
+	name="Yaqob"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1277.1.1={
+		birth="1277.1.1"
 	}
-	1344.1.1 = {
-		death = "1344.1.1"
+	1344.1.1={
+		death="1344.1.1"
 	}
 }
 
 166234 = {
-	name = "Salama"
-	religion = "miaphysite"
-	culture = "nubian"
-	trait = "scholarly_theologian"
-	1312.1.1 = {
-		birth = "1312.1.1"
+	name="Salama"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1312.1.1={
+		birth="1312.1.1"
 	}
-	1388.1.1 = {
-		death = "1388.1.1"
+	1388.1.1={
+		death="1388.1.1"
 	}
 }
 
 166235 = {
-	name = "Bartalomewos"
-	religion = "miaphysite"
-	culture = "ethiopian"
-	trait = "scholarly_theologian"
-	1372.1.1 = {
-		birth = "1372.1.1"
+	name="Bartalomewos"
+	religion="miaphysite"
+	culture="ethiopian"
+	trait="scholarly_theologian"
+	1372.1.1={
+		birth="1372.1.1"
 	}
-	1436.1.1 = {
-		death = "1436.1.1"
+	1436.1.1={
+		death="1436.1.1"
 	}
 }
 
 183506 = {
-	name="Lebna"
+	name="Na'akuelo"
 	dynasty=1042636
 	religion="miaphysite"
 	culture="ethiopian"
-	father=145972
 	845.1.1={
 		birth="845.1.1"
 	}
@@ -1325,37 +1328,36 @@
 }
 
 183507 = {
-	name = "Yostos"
-	dynasty = 1042637
-	religion = "miaphysite"
-	culture = "ethiopian"
-	842.1.1 = {
-		birth = "842.1.1"
+	name="Yostos"
+	dynasty=1042637
+	religion="miaphysite"
+	culture="ethiopian"
+	842.1.1={
+		birth="842.1.1"
 	}
-	900.1.1 = {
-		death = "900.1.1"
+	900.1.1={
+		death="900.1.1"
 	}
 }
 
 183508 = {
-	name = "Merkourios"
-	dynasty = 1042638
-	religion = "miaphysite"
-	culture = "ethiopian"
-	839.1.1 = {
-		birth = "839.1.1"
+	name="Merkourios"
+	dynasty=1042638
+	religion="miaphysite"
+	culture="ethiopian"
+	839.1.1={
+		birth="839.1.1"
 	}
-	895.1.1 = {
-		death = "895.1.1"
+	895.1.1={
+		death="895.1.1"
 	}
 }
 
 183509 = {
-	name="Hakym"
+	name="Shamumun"
 	dynasty=1042639
 	religion="miaphysite"
 	culture="ethiopian"
-	father=145975
 	835.1.1={
 		birth="835.1.1"
 	}
@@ -1365,11 +1367,10 @@
 }
 
 183510 = {
-	name="Tessema"
+	name="Desta"
 	dynasty=1042640
 	religion="miaphysite"
 	culture="ethiopian"
-	father=145978
 	840.1.1={
 		birth="840.1.1"
 	}
@@ -1378,6 +1379,676 @@
 	}
 }
 
+# SWMH new characters
+
+
+1000228950 = {
+	name="Kifle"
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	839.1.1={
+		birth="839.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+1000228951 = {
+	name="Girma"
+	dynasty=101789
+	religion="miaphysite"
+	culture="ethiopian"
+	848.1.1={
+		birth="848.1.1"
+	}
+	902.1.1={
+		death="902.1.1"
+	}
+}
+
+#Placeholder dukes/kings of Damot
+1000228952 = {
+	name="Assefa"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	846.1.1={
+		birth="846.1.1"
+	}
+	913.1.1={
+		death="913.1.1"
+	}
+}
+1000228953 = {
+	name="Assefa"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	1030.1.1={
+		birth="1030.1.1"
+	}
+	1075.1.1={
+		death="1075.1.1"
+	}
+}
+1000228954 = {
+	name="Kelyle"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228953
+	1056.1.1={
+		birth="1056.1.1"
+	}
+	1110.1.1={
+		death="1110.1.1"
+	}
+}
+1000228955 = {
+	name="Iyasu"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228954
+	1080.1.1={
+		birth="1080.1.1"
+	}
+	1140.1.1={
+		death="1140.1.1"
+	}
+}
+1000228956 = {
+	name="Iyasu"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228955
+	1111.1.1={
+		birth="1111.1.1"
+	}
+	1175.1.1={
+		death="1175.1.1"
+	}
+}
+1000228957 = {
+	name="Atoberhan"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228956
+	1150.1.1={
+		birth="1150.1.1"
+	}
+	1215.1.1={
+		death="1215.1.1"
+	}
+}
+1000228958 = {
+	name="Kelyle"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228957
+	1195.1.1={
+		birth="1195.1.1"
+	}
+	1250.1.1={
+		death="1250.1.1"
+	}
+}
+1000228959 = {
+	name="Motalame" #historical ruler of Damot
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228958
+	1230.1.1={
+		birth="1230.1.1"
+	}
+	1290.1.1={
+		death="1290.1.1"
+	}
+}
+1000228963 = {
+	name="Tengene"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228959
+	1265.1.1={
+		birth="1265.1.1"
+	}
+	1310.1.1={
+		death="1310.1.1"
+	}
+}
+1000228964 = {
+	name="Iyasu"
+	#Placeholder
+	dynasty=101796
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228963
+	1295.1.1={
+		birth="1295.1.1"
+	}
+	1350.1.1={
+		death="1350.1.1"
+	}
+}
+
+#Placeholder father of Mara Takla Hamyanot
+1000228961 = {
+	name="Ab Mararah"
+	dynasty=101793
+	religion="miaphysite"
+	culture="ethiopian"
+	840.1.1={
+		birth="840.1.1"
+	}
+	890.1.1={
+		death="890.1.1"
+	}
+}
+
+#Placeholder counts of Shewa
+1000228960 = {
+  name="Tamirat"
+	#Placeholder
+	dynasty=101785
+	religion="pagan"
+	culture="ethiopian"
+	843.1.1={
+		birth="843.1.1"
+	}
+	905.1.1={
+		death="905.1.1"
+	}
+}
+1000228962 = {
+  name="Tengene"
+	#Placeholder
+	dynasty=101785
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228960
+	863.1.1={
+		birth="863.1.1"
+	}
+	920.1.1={
+		death="920.1.1"
+	}
+}
+1000228965 = {
+  name="Lema"
+	#Placeholder
+	dynasty=101785
+	religion="pagan"
+	culture="ethiopian"
+	1050.1.1={
+		birth="1050.1.1"
+	}
+	1102.1.1={
+		death="1102.1.1"
+	}
+}
+1000228966 = {
+  name="Mamo"
+	#Placeholder
+	dynasty=101785
+	religion="pagan"
+	culture="ethiopian"
+	father=1000228965
+	1080.1.1={
+		birth="1080.1.1"
+	}
+	1128.1.1={
+		death="1128.1.1"
+	}
+}
+
+#Placeholder rulers of Amhara
+1000228967 = {
+	name="Girma"
+	#Placeholder
+	dynasty=101789
+	religion="miaphysite"
+	culture="ethiopian"
+	1045.1.1={
+		birth="1045.1.1"
+	}
+	1101.1.1={
+		death="1101.1.1"
+	}
+}
+1000228968 = {
+	name="Iyasu"
+	#Placeholder
+	dynasty=101789
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228967
+	1065.1.1={
+		birth="1065.1.1"
+	}
+	1122.1.1={
+		death="1122.1.1"
+	}
+}
+1000228969 = {
+	name="Girma"
+	#Placeholder
+	dynasty=101789
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228968
+	1083.1.1={
+		birth="1083.1.1"
+	}
+	1140.1.1={
+		death="1140.1.1"
+	}
+}
+
+#Placeholder rulers of Sera'é/Akordat
+1000228970 = {
+	name="Kifle"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	1032.1.1={
+		birth = yes
+	}
+	1090.1.1={
+		death="1090.1.1"
+	}
+}
+1000228971 = {
+	name="Kifle"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228970
+	1063.1.1={
+		birth="1063.1.1"
+	}
+	1115.1.1={
+		death="1115.1.1"
+	}
+}
+
+1000228972 = {
+	name="Gebre"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228971
+	1090.1.1={
+		birth="1090.1.1"
+	}
+	1145.1.1={
+		death="1145.1.1"
+	}
+}
+1000228973 = {
+	name="Mengesha"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228972
+	1125.1.1={
+		birth="1125.1.1"
+	}
+	1178.1.1={
+		death="1178.1.1"
+	}
+}
+1000228974 = {
+	name="Dawit"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228973
+	1163.1.1={
+		birth="1163.1.1"
+	}
+	1219.1.1={
+		death="1219.1.1"
+	}
+}
+1000228975 = {
+	name="Melaku"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228974
+	1198.1.1={
+		birth="1198.1.1"
+	}
+	1254.1.1={
+		death="1254.1.1"
+	}
+}
+1000228976 = {
+	name="Jima"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228975
+	1231.1.1={
+		birth="1231.1.1"
+	}
+	1288.1.1={
+		death="1288.1.1"
+	}
+}
+1000228977 = {
+	name="Mengesha"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228976
+	1263.1.1={
+		birth="1263.1.1"
+	}
+	1328.1.1={
+		death="1328.1.1"
+	}
+}
+1000228978 = {
+	name="Gebre"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228977
+	1292.1.1={
+		birth="1292.1.1"
+	}
+	1350.1.1={
+		death="1350.1.1"
+	}
+}
+1000228979 = {
+	name="Mengesha"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228970
+	1049.1.1={
+		birth = yes
+	}
+	1103.1.1={
+		death="1103.1.1"
+	}
+}
+1000228980 = {
+	name="Kifle"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228979
+	1066.1.1={
+		birth = yes
+	}
+	1129.1.1={
+		death="1129.1.1"
+	}
+}
+1000228981 = {
+	name="Kifle"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228980
+	1090.1.1={
+		birth = yes
+	}
+	1143.1.1={
+		death="1143.1.1"
+	}
+}
+1000228982 = {
+	name="Jima"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228981
+	1118.1.1={
+		birth = yes
+	}
+	1176.1.1={
+		death="1176.1.1"
+	}
+}
+1000228983 = {
+	name="Mengesha"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228982
+	1150.1.1={
+		birth="1150.1.1"
+	}
+	1207.1.1={
+		death="1207.1.1"
+	}
+}
+1000228984 = {
+	name="Kifle"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228983
+	1183.1.1={
+		birth="1183.1.1"
+	}
+	1240.1.1={
+		death="1240.1.1"
+	}
+}
+1000228985 = {
+	name="Girma"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228984
+	1220.1.1={
+		birth="1220.1.1"
+	}
+	1285.1.1={
+		death="1285.1.1"
+	}
+}
+1000228986 = {
+	name="Kifle"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228985
+	1257.1.1={
+		birth="1257.1.1"
+	}
+	1318.1.1={
+		death="1318.1.1"
+	}
+}
+1000228987 = {
+	name="Jima"
+	#Placeholder
+	dynasty=101790
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228986
+	1290.1.1={
+		birth="1290.1.1"
+	}
+	1350.1.1={
+		death="1350.1.1"
+	}
+}
+
+1000228988 = {
+	name="Umm 'Abdalláh"
+	female=yes
+	religion="sunni"
+	culture="ethiopian"
+	1113.1.1={
+		birth = yes
+	}
+	1131.1.1={
+		add_spouse=1000229608
+	}
+	1160.1.1={
+		death = yes
+	}
+}
+1000228989 = {
+	name="Fátiha"
+	female=yes
+	religion="sunni"
+	culture="ethiopian"
+	1135.1.1={
+		birth = yes
+	}
+	1154.1.1={
+		add_spouse=1000229610
+	}
+	1199.1.1={
+		death = yes
+	}
+}
+# Misiwwi patrician family
+1000228990 = {
+	name="Melaku"	#Placeholder
+	dynasty=1000101202
+	religion="miaphysite"
+	culture="ethiopian"
+	1040.1.1={
+		birth = yes
+	}
+	1093.1.1={
+		death = yes
+	}
+}
+1000228991 = {
+	name="Kelyle"	#Placeholder
+	dynasty=1000101202
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228990
+	1064.1.1={
+		birth = yes
+	}
+	1110.1.1={
+		death = yes
+	}
+}
+1000228992 = {
+	name="Assefa"	#Placeholder
+	dynasty=1000101202
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228991
+	1094.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		death = yes
+	}
+}
+1000228993 = {
+	name="Hakym"	#Placeholder
+	dynasty=1000101202
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228992
+	1130.1.1={
+		birth = yes
+	}
+	1195.1.1={
+		death = yes
+	}
+}
+1000228994 = {
+	name="Semer"	#Placeholder
+	dynasty=1000101202
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228993
+	1165.1.1={
+		birth = yes
+	}
+	1230.1.1={
+		death = yes
+	}
+}
+1000228995 = {
+	name="Hakym"	#Placeholder
+	dynasty=1000101202
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228994
+	1205.1.1={
+		birth = yes
+	}
+	1273.1.1={
+		death = yes
+	}
+}
+1000228996 = {
+	name="Assefa"	#Placeholder
+	dynasty=1000101202
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228995
+	1250.1.1={
+		birth = yes
+	}
+	1309.1.1={
+		death = yes
+	}
+}
+1000228997 = {
+	name="Kelyle"	#Placeholder
+	dynasty=1000101202
+	religion="miaphysite"
+	culture="ethiopian"
+	father=1000228996
+	1288.1.1={
+		birth = yes
+	}
+	1348.1.1={
+		death = yes
+	}
+}
+
+# FreCharacters: 1000228998 - 1000228999
 145633 = { 
 	name="Nizam" 
 	dynasty=1022240
@@ -1390,7 +2061,6 @@
 		death="899.1.1"
 	}
 }
-
 145634 = { 
 	name="Maya'ir" 
 	dynasty=1022241
@@ -1403,8 +2073,6 @@
 		death="1098.1.1"
 	}
 }
-
-
 145635 = { 
 	name="Harba'ir" 
 	dynasty=1022241
@@ -1418,7 +2086,6 @@
 		death="1121.1.1"
 	}
 }
-
 145636 = { 
 	name="Hisham" 
 	dynasty=1022241
@@ -1432,7 +2099,6 @@
 		death="1157.1.1"
 	}
 }
-
 145637 = { 
 	name="Malasma'i" 
 	dynasty=1022241
@@ -1446,7 +2112,6 @@
 		death="1183.8.24"
 	}
 }
-
 145638 = { 
 	name="Husein" 
 	dynasty=1022241
@@ -1460,7 +2125,6 @@
 		death="1193.1.1"
 	}
 }
-
 145639 = { 
 	name="Abdallah" 
 	dynasty=1022241
@@ -1474,7 +2138,6 @@
 		death="1235.1.1"
 	}
 }
-
 145640 = { 
 	name="Mahamed" 
 	dynasty=1022241
@@ -1488,7 +2151,6 @@
 		death="1239.1.1"
 	}
 }
-
 145641 = { 
 	name="Malzarrah" 
 	dynasty=1022241
@@ -1502,7 +2164,6 @@
 		death="1252.1.1"
 	}
 }
-
 145768 = { 
 	name="Ganah" 
 	dynasty=1022241
@@ -1516,7 +2177,6 @@
 		death="1262.1.1"
 	}
 }
-
 145769 = { 
 	name="Giram-Gazi" 
 	dynasty=1022241
@@ -1530,7 +2190,6 @@
 		death="1269.1.1"
 	}
 }
-
 145770 = { 
 	name="Dilgamis" 
 	dynasty=1022241
@@ -1544,7 +2203,6 @@
 		death="1281.1.1"
 	}
 }
-
 145771 = { 
 	name="Dilmarrah" 
 	dynasty=1022241
@@ -1558,7 +2216,6 @@
 		death="1283.1.1"
 	}
 }
-
 145772 = { 
 	name="Abdallah" 
 	dynasty=1022241
@@ -1572,7 +2229,6 @@
 		death="1285.1.1"
 	}
 }
-
 145773 = { 
 	name="Mahamed" 
 	dynasty=1022241
@@ -1586,7 +2242,6 @@
 		death="1285.1.1"
 	}
 }
-
 145642 = { 
 	name="Phineas" 
 	dynasty=1022242
@@ -1599,7 +2254,6 @@
 		death="774.1.1"
 	}
 }
-
 145643 = { 
 	name="Gideon"
 	dynasty=1022242
@@ -1613,7 +2267,6 @@
 		death="817.1.1"
 	}
 }
-
 145644 = { 
 	name="Yacob" 
 	dynasty=1022242
@@ -1627,7 +2280,6 @@
 		death="831.1.1"
 	}
 }
-
 145645 = { 
 	name="Gideon"
 	dynasty=1022242
@@ -1641,7 +2293,6 @@
 		death="857.1.1"
 	}
 }
-
 145646 = { 
 	name="Dawit" 
 	dynasty=1022242
@@ -1655,7 +2306,6 @@
 		death="889.1.1"
 	}
 }
-
 145647 = { 
 	name="Gideon"
 	dynasty=1022242
@@ -1669,7 +2319,6 @@
 		death="918.1.1"
 	}
 }
-
 145648 = { 
 	name="Kaleb"
 	dynasty=1022242
@@ -1683,7 +2332,6 @@
 		death="949.1.1"
 	}
 }
-
 145649 = { 
 	name="Gideon"
 	dynasty=1022242
@@ -1697,7 +2345,6 @@
 		death="960.1.1"
 	}
 }
-
 145650 = { 
 	name="Gudit"
 	female=yes
@@ -1712,7 +2359,6 @@
 		death="1001.1.1"
 	}
 }
-
 145651 = { 
 	name="Goshen"
 	dynasty=1022242
@@ -1726,7 +2372,6 @@
 		death="1008.1.1"
 	}
 }
-
 145652 = { 
 	name="Joram"
 	dynasty=1022242
@@ -1740,7 +2385,6 @@
 		death="1119.1.1"
 	}
 }
-
 145653 = { 
 	name="Eremias"
 	dynasty=1022242
@@ -1754,7 +2398,6 @@
 		death="1146.1.1"
 	}
 }
-
 145654 = { 
 	name="Dawit"
 	dynasty=1022242
@@ -1768,7 +2411,6 @@
 		death="1053.1.1"
 	}
 }
-
 145655 = { 
 	name="Dawit"
 	dynasty=1022242
@@ -1782,7 +2424,6 @@
 		death="1102.1.1"
 	}
 }
-
 145656 = { 
 	name="Radi"
 	dynasty=1022242
@@ -1796,7 +2437,6 @@
 		death="1125.1.1"
 	}
 }
-
 145657 = { 
 	name="Zadok"
 	dynasty=1022242
@@ -1810,7 +2450,6 @@
 		death="1166.1.1"
 	}
 }
-
 145658 = { 
 	name="Azariah"
 	dynasty=1022242
@@ -1824,7 +2463,6 @@
 		death="1201.1.1"
 	}
 }
-
 145659 = { 
 	name="Solomon"
 	dynasty=1022242
@@ -1838,7 +2476,6 @@
 		death="1237.1.1"
 	}
 }
-
 145660 = { 
 	name="Ezana"
 	dynasty=1022242
@@ -1852,7 +2489,6 @@
 		death="1268.1.1"
 	}
 }
-
 145661 = { 
 	name="Loua"
 	dynasty=1022242
@@ -1866,7 +2502,6 @@
 		death="1299.1.1"
 	}
 }
-
 145662 = { 
 	name="Eliya"
 	dynasty=1022242
@@ -1880,7 +2515,6 @@
 		death="1321.1.1"
 	}
 }
-
 145663 = { 
 	name="Dawit"
 	dynasty=1022242
@@ -1894,7 +2528,6 @@
 		death="1354.1.1"
 	}
 }
-
 145664 = { 
 	name="Yacob"
 	dynasty=1022242
@@ -1908,7 +2541,6 @@
 		death="1378.1.1"
 	}
 }
-
 145665 = { 
 	name="Rahad"
 	dynasty=1022243
@@ -1921,7 +2553,6 @@
 		death="909.1.1"
 	}
 }
-
 145666 = { 
 	name="Zeyd"
 	dynasty=1022244
@@ -1934,8 +2565,6 @@
 		death="1085.1.1"
 	}
 }
-
-
 145667 = { 
 	name="Talib"
 	dynasty=1022244
@@ -1949,7 +2578,6 @@
 		death="1101.1.1"
 	}
 }
-
 145668 = { 
 	name="Hussayn"
 	dynasty=1022244
@@ -1963,7 +2591,6 @@
 		death="1153.1.1"
 	}
 }
-
 145669 = { 
 	name="Alladin"
 	dynasty=1022244
@@ -1977,7 +2604,6 @@
 		death="1177.1.1"
 	}
 }
-
 145670 = { 
 	name="Alim"
 	dynasty=1022244
@@ -1991,7 +2617,6 @@
 		death="1212.1.1"
 	}
 }
-
 145671 = { 
 	name="Fadil"
 	dynasty=1022244
@@ -2005,7 +2630,6 @@
 		death="1247.1.1"
 	}
 }
-
 145672 = { 
 	name="Muazir"
 	dynasty=1022244
@@ -2019,7 +2643,6 @@
 		death="1254.1.1"
 	}
 }
-
 145673 = { 
 	name="Muzaffar"
 	dynasty=1022244
@@ -2033,7 +2656,6 @@
 		death="1276.1.1"
 	}
 }
-
 145674 = { 
 	name="Muzaffaraddin"
 	dynasty=1022244
@@ -2047,7 +2669,6 @@
 		death="1287.1.1"
 	}
 }
-
 145675 = { 
 	name="Muslihiddin"
 	dynasty=1022244
@@ -2061,7 +2682,6 @@
 		death="1298.1.1"
 	}
 }
-
 145676 = { 
 	name="Mukhtar"
 	dynasty=1022244
@@ -2075,7 +2695,6 @@
 		death="1340.1.1"
 	}
 }
-
 145736 = { 
 	name="Bekele"
 	dynasty=1022257
@@ -2088,7 +2707,6 @@
 		death="1097.1.1"
 	}
 }
-
 145737 = { 
 	name="Eremias"
 	dynasty=1022257
@@ -2102,7 +2720,6 @@
 		death="1125.1.1"
 	}
 }
-
 145738 = { 
 	name="Gabra"
 	dynasty=1022257
@@ -2116,7 +2733,6 @@
 		death="1147.1.1"
 	}
 }
-
 145739 = { 
 	name="Iskander"
 	dynasty=1022257
@@ -2130,7 +2746,6 @@
 		death="1200.1.1"
 	}
 }
-
 145740 = { 
 	name="Kafa"
 	dynasty=1022257
@@ -2144,7 +2759,6 @@
 		death="1221.1.1"
 	}
 }
-
 145741 = { 
 	name="Zula"
 	dynasty=1022257
@@ -2158,7 +2772,6 @@
 		death="1258.1.1"
 	}
 }
-
 145742 = { 
 	name="Teruworq"
 	dynasty=1022257
@@ -2172,7 +2785,6 @@
 		death="1282.1.1"
 	}
 }
-
 145743 = { 
 	name="Miruts"
 	dynasty=1022257
@@ -2186,7 +2798,6 @@
 		death="1320.1.1"
 	}
 }
-
 145744 = { 
 	name="Negash"
 	dynasty=1022257
@@ -2200,7 +2811,6 @@
 		death="1333.1.1"
 	}
 }
-
 145745 = { 
 	name="Mamo"
 	dynasty=1022257
@@ -2214,7 +2824,6 @@
 		death="1350.1.1"
 	}
 }
-
 145746 = { 
 	name="Yohannas"
 	dynasty=1022258
@@ -2227,7 +2836,6 @@
 		death="1074.1.1"
 	}
 }
-
 145747 = { 
 	name="Tewodros"
 	dynasty=1022258
@@ -2241,7 +2849,6 @@
 		death="1096.1.1"
 	}
 }
-
 145748 = { 
 	name="Abai"
 	dynasty=1022258
@@ -2255,7 +2862,6 @@
 		death="1116.1.1"
 	}
 }
-
 145749 = { 
 	name="Gondar"
 	dynasty=1022258
@@ -2269,7 +2875,6 @@
 		death="1159.1.1"
 	}
 }
-
 145750 = { 
 	name="Ogbai"
 	dynasty=1022258
@@ -2283,7 +2888,6 @@
 		death="1177.1.1"
 	}
 }
-
 145751 = { 
 	name="Negus"
 	dynasty=1022258
@@ -2297,7 +2901,6 @@
 		death="1223.1.1"
 	}
 }
-
 145752 = { 
 	name="Loua"
 	dynasty=1022258
@@ -2311,7 +2914,6 @@
 		death="1244.1.1"
 	}
 }
-
 145753 = { 
 	name="Jima"
 	dynasty=1022258
@@ -2325,7 +2927,6 @@
 		death="1276.1.1"
 	}
 }
-
 145754 = { 
 	name="Ezana"
 	dynasty=1022258
@@ -2339,7 +2940,6 @@
 		death="1335.1.1"
 	}
 }
-
 145755 = { 
 	name="Yonas"
 	dynasty=1022258
@@ -2353,7 +2953,6 @@
 		death="1361.1.1"
 	}
 }
-
 145756 = { 
 	name="Tariku"
 	dynasty=1022259
@@ -2366,7 +2965,6 @@
 		death="1116.1.1"
 	}
 }
-
 145757 = { 
 	name="Iskinder"
 	dynasty=1022259
@@ -2380,7 +2978,6 @@
 		death="1049.1.1"
 	}
 }
-
 145758 = { 
 	name="Gebre"
 	dynasty=1022259
@@ -2394,7 +2991,6 @@
 		death="1201.1.1"
 	}
 }
-
 145759 = { 
 	name="Dawit"
 	dynasty=1022259
@@ -2408,7 +3004,6 @@
 		death="1212.1.1"
 	}
 }
-
 145760 = { 
 	name="Oromo"
 	dynasty=1022259
@@ -2422,7 +3017,6 @@
 		death="1224.1.1"
 	}
 }
-
 145761 = { 
 	name="Fethee"
 	dynasty=1022259
@@ -2436,7 +3030,6 @@
 		death="1229.1.1"
 	}
 }
-
 145762 = { 
 	name="Demissie"
 	dynasty=1022259
@@ -2450,7 +3043,6 @@
 		death="1245.1.1"
 	}
 }
-
 145763 = { 
 	name="Abebe"
 	dynasty=1022259
@@ -2464,7 +3056,6 @@
 		death="1289.1.1"
 	}
 }
-
 145764 = { 
 	name="Benaim"
 	dynasty=101793
@@ -2478,7 +3069,6 @@
 		death="1308.1.1"
 	}
 }
-
 145765 = { 
 	name="Tesfaye"
 	dynasty=101793
@@ -2492,7 +3082,6 @@
 		death="1344.1.1"
 	}
 }
-
 145766 = { 
 	name="Merille"
 	dynasty=101793
@@ -2506,7 +3095,6 @@
 		death="1365.1.1"
 	}
 }
-
 145774 = { 
 	name="Azmera"
 	dynasty=1022260
@@ -2519,7 +3107,6 @@
 		death="1074.1.1"
 	}
 }
-
 145775 = { 
 	name="Hagos"
 	dynasty=1022260
@@ -2533,7 +3120,6 @@
 		death="1101.1.1"
 	}
 }
-
 145776 = { 
 	name="Selassie"
 	dynasty=1022260
@@ -2547,7 +3133,6 @@
 		death="1141.1.1"
 	}
 }
-
 145777 = { 
 	name="Yacob"
 	dynasty=1022260
@@ -2561,7 +3146,6 @@
 		death="1175.1.1"
 	}
 }
-
 145778 = { 
 	name="Iyasu"
 	dynasty=1022260
@@ -2575,7 +3159,6 @@
 		death="1198.1.1"
 	}
 }
-
 145779 = { 
 	name="Negasi"
 	dynasty=1022260
@@ -2589,7 +3172,6 @@
 		death="1239.1.1"
 	}
 }
-
 145780 = { 
 	name="Fasilidas"
 	dynasty=1022260
@@ -2603,7 +3185,6 @@
 		death="1256.1.1"
 	}
 }
-
 145781 = { 
 	name="Tekle"
 	dynasty=1022260
@@ -2617,7 +3198,6 @@
 		death="1287.1.1"
 	}
 }
-
 145782 = { 
 	name="Kaleb"
 	dynasty=1022260
@@ -2631,7 +3211,6 @@
 		death="1331.1.1"
 	}
 }
-
 145783 = { 
 	name="Berhanua"
 	dynasty=1022260
@@ -2645,7 +3224,6 @@
 		death="1362.1.1"
 	}
 }
-
 145970 = {
 	name="Afework"
 	dynasty=1042636
@@ -2659,7 +3237,6 @@
 		death="798.1.1"
 	}
 }
-
 145971 = {
 	name="Hackeem"
 	dynasty=1042636
@@ -2673,7 +3250,6 @@
 		death="823.1.1"
 	}
 }
-
 145972 = {
 	name="Kelile"
 	dynasty=1042636
@@ -2687,7 +3263,6 @@
 		death="862.1.1"
 	}
 }
-
 145973 = {
 	name="Mekonnen"
 	dynasty=1042639
@@ -2701,7 +3276,6 @@
 		death="793.1.1"
 	}
 }
-
 145974 = {
 	name="Semer"
 	dynasty=1042639
@@ -2715,7 +3289,6 @@
 		death="818.1.1"
 	}
 }
-
 145975 = {
 	name="Tefere"
 	dynasty=1042639
@@ -2729,7 +3302,6 @@
 		death="854.1.1"
 	}
 }
-
 145976 = {
 	name="Aman"
 	dynasty=1042640
@@ -2743,7 +3315,6 @@
 		death="788.1.1"
 	}
 }
-
 145977 = {
 	name="Gebereal"
 	dynasty=1042640
@@ -2757,7 +3328,6 @@
 		death="813.1.1"
 	}
 }
-
 145978 = {
 	name="Hakim"
 	dynasty=1042640
@@ -2771,7 +3341,6 @@
 		death="858.1.1"
 	}
 }
-
 145979 = {
 	name="Ogbae"
 	dynasty=101793
@@ -2785,7 +3354,6 @@
 		death="783.1.1"
 	}
 }
-
 145980 = {
 	name="Dahnay"
 	dynasty=101793
@@ -2799,7 +3367,6 @@
 		death="801.1.1"
 	}
 }
-
 145981 = {
 	name="Kifle"
 	dynasty=101793
@@ -2813,7 +3380,6 @@
 		death="853.1.1"
 	}
 }
-
 145982 = {
 	name="Melaku"
 	dynasty=101793
@@ -2827,7 +3393,6 @@
 		death="895.1.1"
 	}
 }
-
 145983 = {
 	name="Degna Mikael"
 	dynasty=7246
@@ -2841,7 +3406,6 @@
 		death="677.1.1"
 	}
 }
-
 145984 = {
 	name="Bahr Ikela"
 	dynasty=7246
@@ -2868,7 +3432,6 @@
 		death="720.1.1"
 	}
 }
-
 145986 = {
 	name="Asgwomgum"
 	dynasty=7246
@@ -2882,7 +3445,6 @@
 		death="725.1.1"
 	}
 }
-
 145987 = {
 	name="Letem"
 	dynasty=7246
@@ -2896,7 +3458,6 @@
 		death="741.1.1"
 	}
 }
-
 145988 = {
 	name="Talatem"
 	dynasty=7246
@@ -2910,7 +3471,6 @@
 		death="762.1.1"
 	}
 }
-
 145989 = {
 	name="Oda Gosh"
 	dynasty=7246
@@ -2930,7 +3490,6 @@
 		death="775.1.1"
 	}
 }
-
 145990 = {
 	name="Ayzur"
 	dynasty=7246
@@ -2944,7 +3503,6 @@
 		death="775.1.2"
 	}
 }
-
 145991 = {
 	name="Dedem"
 	dynasty=7246
@@ -2958,7 +3516,6 @@
 		death="780.1.1"
 	}
 }
-
 145992 = {
 	name="Wededem"
 	dynasty=7246
@@ -2972,7 +3529,6 @@
 		death="790.1.1"
 	}
 }
-
 145993 = {
 	name="Wedem Asfare"
 	dynasty=7246
@@ -2986,7 +3542,6 @@
 		death="820.1.1"
 	}
 }
-
 145994 = {
 	name="Rema Armah"
 	dynasty=7246
@@ -3000,7 +3555,6 @@
 		death="825.1.1"
 	}
 }
-
 145995 = {
 	name="Assefa"
 	dynasty=101793
@@ -3014,7 +3568,6 @@
 		death="808.1.1"
 	}
 }
-
 170196 = {
 	name="Jamal-ud-Din Yaqut"
 	religion="sunni"
@@ -3034,589 +3587,5 @@
 	}
 	1239.10.1={
 		death="1239.10.1"
-	}
-}
-
-#Begin mod added characters
-1000251800 = {
-	name = "Gudit" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	trait = "cruel"
-	trait = "cynical"
-	trait = "wroth"
-	trait = "brilliant_strategist"
-	female = yes
-	930.1.1 = {
-		birth = "930.1.1"
-	}
-	1000.1.1 = {
-		death = "1000.1.1"
-	}
-}
-
-1000251801 = {
-	name = "Gebre" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	mother = 1000251800
-	960.1.1 = {
-		birth = "960.1.1"
-	}
-	1015.1.1 = {
-		death = "1015.1.1"
-	}
-}
-
-1000251802 = {
-	name = "Iskander" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	father = 1000251801
-	985.1.1 = {
-		birth = "985.1.1"
-	}
-	1064.1.1 = {
-		death = "1064.1.1"
-	}
-}
-
-1000251803 = {
-	name = "Dawit" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	father = 1000251802
-	1032.1.1 = {
-		birth = "1032.1.1"
-	}
-	1096.1.1 = {
-		death = "1096.1.1"
-	}
-}
-
-1000251804 = {
-	name = "Aman" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	father = 1000251803
-	1070.1.1 = {
-		birth = "1070.1.1"
-	}
-	1125.1.1 = {
-		death = "1125.1.1"
-	}
-}
-
-1000251805 = {
-	name = "Dawit" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	father = 1000251804
-	1108.1.1 = {
-		birth = "1108.1.1"
-	}
-	1159.1.1 = {
-		death = "1159.1.1"
-	}
-}
-
-1000251806 = {
-	name = "Mamo" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	father = 1000251805
-	1133.1.1 = {
-		birth = "1133.1.1"
-	}
-	1194.1.1 = {
-		death = "1194.1.1"
-	}
-}
-
-1000251807 = {
-	name = "Semer" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	father = 1000251806
-	1168.1.1 = {
-		birth = "1168.1.1"
-	}
-	1220.1.1 = {
-		death = "1220.1.1"
-	}
-}
-
-#NAE Start
-#of Makuria Dynasty
-1000085042 = {
-	name = "Georgios" # I
-	dynasty = 1000032049
-	religion = "miaphysite"
-	culture = "ethiopian"
-	800.1.1 = {
-		birth = "800.1.1"
-	}
-	866.1.1 = {
-		death = "866.1.1"
-	}
-}
-1000085043 = {
-	name = "Zakharias"
-	dynasty = 1000032049
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085042
-	840.1.1 = {
-		birth = "840.1.1"
-	}
-	930.1.1 = {
-		death = "930.1.1"
-	}
-}
-1000085049 = {
-	name = "Kabil"
-	dynasty = 1000032049
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085043
-	890.1.1 = {
-		birth = "890.1.1"
-	}
-	943.1.1 = {
-		death = "943.1.1"
-	}
-}
-1000085044 = {
-	name = "Georgios" # II
-	dynasty = 1000032049
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085043	
-	920.1.1 = {
-		birth = "920.1.1"
-	}
-	1002.1.1 = {
-		death = "1002.1.1"
-	}
-}
-1000085045 = {
-	name = "Raphael"
-	dynasty = 1000032049
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085044	
-	950.1.1 = {
-		birth = "950.1.1"
-	}
-	1006.1.1 = {
-		death = "1006.1.1"
-	}
-}
-1000085046 = {
-	name = "Stephanos"
-	dynasty = 1000032049
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085045
-	970.1.1 = {
-		birth = "970.1.1"
-	}
-	1027.1.1 = {
-		death = "1027.1.1"
-	}
-}
-1000085047 = {
-	name = "Soloman"
-	dynasty = 1000032049
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085046
-	1000.1.1 = {
-		birth = "1000.1.1"
-	}
-	1079.1.1 = {
-		death = "1079.1.1"
-	}
-}
-1000085048 = {
-	name = "Georgios" #III
-	dynasty = 1000032049
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085047
-	1035.1.1 = {
-		birth = "1035.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-# of Alodia Dynasty
-1000085050 = {
-	name = "Simeon"
-	dynasty = 1000032055
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1031.1.1 = {
-		birth = "1031.1.1"
-	}
-	1102.1.1 = {
-		death = "1102.1.1"
-	}
-}
-1000085051 = {
-	name = "Khael"
-	dynasty = 1000032055
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085050
-	1056.1.1 = {
-		birth = "1056.1.1"
-	}
-	1122.1.1 = {
-		death = "1122.1.1"
-	}
-}
-1000085052 = {
-	name = "Lielit"
-	dynasty = 1000032055
-	female = yes
-	religion = "miaphysite"
-	culture = "ethiopian"
-	father = 1000085050
-	1058.1.1 = {
-		birth = "1058.1.1"
-	}
-	1138.1.1 = {
-		death = "1138.1.1"
-	}
-}
-
-#Bishop of Aksum
-1000085053 = {
-	name = "Sawiros"
-	dynasty = 1000032052
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1022.1.1 = {
-		birth = "1022.1.1"
-	}
-	1092.1.1 = {
-		death = "1092.1.1"
-	}
-}
-
-#Jewish Na'od Dynasty
-1000085054 = {
-	name = "Daoud"
-	dynasty = 1000032051
-	religion = "jewish"
-	culture = "ethiopian"
-	1022.1.1 = {
-		birth = "1022.1.1"
-	}
-	1094.1.1 = {
-		death = "1094.1.1"
-	}
-}
-1000085055 = {
-	name = "Isaac"
-	dynasty = 1000032051
-	religion = "jewish"
-	culture = "ethiopian"
-	father = 1000085054
-	1040.1.1 = {
-		birth = "1040.1.1"
-	}
-	1109.1.1 = {
-		death = "1109.1.1"
-	}
-}
-
-#Muslim Makhzumi Dynasty
-1000085056 = {
-	name = "Aziz"
-	dynasty = 1000032050
-	religion = "shiite"
-	culture = "ethiopian"
-	1012.1.1 = {
-		birth = "1012.1.1"
-	}
-	1065.1.1 = {
-		death = "1065.1.1"
-	}
-}
-1000085057 = {
-	name = "Mohammad"
-	dynasty = 1000032050
-	religion = "shiite"
-	culture = "ethiopian"
-	father = 1000085056
-	1036.1.1 = {
-		birth = "1036.1.1"
-	}
-	1109.1.1 = {
-		death = "1109.1.1"
-	}
-}
-1000085058 = {
-	name = "Ibrahim"
-	dynasty = 1000032050
-	religion = "shiite"
-	culture = "ethiopian"
-	father = 1000085056
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1099.1.1 = {
-		death = "1099.1.1"
-	}
-}
-1000085059 = {
-	name = "Abdullah"
-	dynasty = 1000032050
-	religion = "sunni"
-	culture = "ethiopian"
-	1019.1.1 = {
-		birth = "1019.1.1"
-	}
-	1084.1.1 = {
-		death = "1084.1.1"
-	}
-}
-#Walashma Dynasty, vassals of Somali Kingdom
-1000085060 = {
-	name = "Aman"
-	dynasty = 1000032054
-	religion = "sunni"
-	culture = "ethiopian"
-	1046.1.1 = {
-		birth = "1046.1.1"
-	}
-	1111.1.1 = {
-		death = "1111.1.1"
-	}
-}
-1000085061 = {
-	name = "Umar"
-	dynasty = 1000032054
-	religion = "sunni"
-	culture = "ethiopian"
-	father = 1000085060
-	1065.1.1 = {
-		birth = "1065.1.1"
-	}
-	1145.1.1 = {
-		death = "1145.1.1"
-	}
-}
-
-#Fictional Independents
-1000085062 = {
-	name = "Kifle"
-	dynasty = 1000032057
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1036.1.1 = {
-		birth = "1036.1.1"
-	}
-	1096.1.1 = {
-		death = "1096.1.1"
-	}
-}
-1000085063 = {
-	name = "Mekonnen"
-	dynasty = 1000032053
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1016.1.1 = {
-		birth = "1016.1.1"
-	}
-	1086.1.1 = {
-		death = "1086.1.1"
-	}
-}
-
-#Sultunate of Baja Rulers
-1000085064 = {
-	name = "Mukhtar"
-	dynasty = 101789
-	religion = "shiite"
-	culture = "ethiopian"
-	1006.1.1 = {
-		birth = "1006.1.1"
-	}
-	1076.1.1 = {
-		death = "1076.1.1"
-	}
-}
-1000085065 = {
-	name = "Abdul-Azeem"
-	dynasty = 101789
-	religion = "shiite"
-	culture = "ethiopian"
-	father = 1000085064
-	1028.1.1 = {
-		birth = "1028.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-1000085066 = {
-	name = "Kamal"
-	dynasty = 101779
-	religion = "shiite"
-	culture = "ethiopian"
-	1026.1.1 = {
-		birth = "1026.1.1"
-	}
-	1100.1.1 = {
-		death = "1100.1.1"
-	}
-}
-1000085067 = {
-	name = "Salah"
-	dynasty = 101778
-	religion = "shiite"
-	culture = "ethiopian"
-	1031.1.1 = {
-		birth = "1031.1.1"
-	}
-	1099.1.1 = {
-		death = "1099.1.1"
-	}
-}
-
-#Head of the Coptic Church
-1000085068 = {
-	name = "Christodolos"
-	dynasty = 1000032058
-	religion = "miaphysite"
-	culture = "coptic"
-	1010.1.1 =  {
-		birth = "1010.1.1"
-	}
-	1077.1.1 = {
-		death = "1077.1.1"
-	}
-}
-1000085085 = {
-	name = "Amare"
-	dynasty = 101784
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1031.1.1 =  {
-		birth = "1031.1.1"
-	}
-	1088.1.1 = {
-		death = "1088.1.1"
-	}
-}
-1000085086 = {
-	name = "Krestos"
-	dynasty = 101779
-	religion = "miaphysite"
-	culture = "coptic"
-	1036.1.1 =  {
-		birth = "1036.1.1"
-	}
-	1099.1.1 = {
-		death = "1099.1.1"
-	}
-}
-1000085087 = {
-	name = "Hagos"
-	dynasty = 101786
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1036.1.1 =  {
-		birth = "1036.1.1"
-	}
-	1099.1.1 = {
-		death = "1099.1.1"
-	}
-}
-1000085088 = {
-	name = "Gebereal"
-	dynasty = 101783
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1009.1.1 =  {
-		birth = "1009.1.1"
-	}
-	1070.1.1 = {
-		death = "1070.1.1"
-	}
-}
-1000085069 = {
-	name = "Yakub"
-	dynasty = 101777
-	religion = "miaphysite"
-	culture = "ethiopian"
-	1019.1.1 =  {
-		birth = "1019.1.1"
-	}
-	1075.1.1 = {
-		death = "1075.1.1"
-	}
-}
-#NAE End
-
-1000251808 = {
-	name = "Iskander" 
-	dynasty = 1000124099
-	religion = "jewish"
-	culture = "ethiopian"
-	father = 1000251807
-	1201.1.1 = {
-		birth = "1201.1.1"
-	}
-	1268.1.1 = {
-		death = "1268.1.1"
-	}
-}
-1000251809 = {
-	name = "Khael"
-	religion = "miaphysite"
-	culture = "ethiopian"
-	749.1.1 = {
-		birth = "749.1.1"
-	}
-	803.1.1 = {
-		death = "803.1.1"
-	}
-}
-
-1000251810 = {
-	name = "Yaqob"
-	religion = "miaphysite"
-	culture = "ethiopian"
-	735.1.1 = {
-		birth = "735.1.1"
-	}
-	800.1.1 = {
-		death = "800.1.1"
-	}
-}
-
-1000251811 = {
-	name = "Yemrahana"
-	religion = "miaphysite"
-	culture = "ethiopian"
-	725.1.1 = {
-		birth = "725.1.1"
-	}
-	798.1.1 = {
-		death = "798.1.1"
 	}
 }

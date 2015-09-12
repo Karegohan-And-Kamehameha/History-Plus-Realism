@@ -1,85 +1,104 @@
-864.1.1 = {	
+864.1.1={	
 	liege = k_africa
 	holder = 6887
 }
-995.1.1 = {
-	liege = "k_egypt"
-	holder = 20934
+1054.1.1=
+{
+	historical_nomad = yes
+	liege = k_hilal
+	holder=155029
 }
-1066.1.1 = {
-	liege = 0
-	holder = 155029
+1090.1.1={
+	liege="k_africa"
+	holder=155030
 }
-1090.1.1 = {
-liege = "k_africa"
+1120.1.1=
+{
+holder=155031
 }
-1090.1.1 = {
-holder = 155030
+1152.1.1=
+{
+liege=0
 }
-1120.1.1 = {
-holder = 155031
+1159.7.1=
+{
+historical_nomad = no
+liege="k_maghreb"
 }
-1152.1.1 = {
-liege = 0
+1159.7.1=
+{
+holder=33012
 }
-1159.7.1 = {
-liege = "k_morocco"
+1176.1.1=
+{
+holder=33013
 }
-1159.7.1 = {
-holder = 33012
+1198.1.1=
+{
+liege=0
 }
-1176.1.1 = {
-holder = 33013
+1198.1.1=
+{
+holder=32977
 }
-1198.1.1 = {
-liege = 0
+1207.1.1=
+{
+liege="k_maghreb"
 }
-1198.1.1 = {
-holder = 32977
+1207.1.1=
+{
+holder=33014
 }
-1207.1.1 = {
-liege = "k_morocco"
+1224.1.1=
+{
+holder=33020
 }
-1207.1.1 = {
-holder = 33014
+1229.1.1=
+{
+liege="k_africa"
 }
-1224.1.1 = {
-holder = 33020
+1229.1.1=
+{
+holder=33021
 }
-1229.1.1 = {
-liege = "k_africa"
+1251.1.1=
+{
+holder=33024
 }
-1229.1.1 = {
-holder = 33021
+1276.1.1=
+{
+holder=33026
 }
-1251.1.1 = {
-holder = 33024
+1279.1.1=
+{
+holder=33025
 }
-1276.1.1 = {
-holder = 33026
+1284.1.1=
+{
+holder=33017
 }
-1279.1.1 = {
-holder = 33025
+1295.1.1=
+{
+holder=33027
 }
-1284.1.1 = {
-holder = 33017
+1309.1.1=
+{
+holder=33028
 }
-1295.1.1 = {
-holder = 33027
+1310.1.1=
+{
+holder=33031
 }
-1309.1.1 = {
-holder = 33028
+1311.1.1=
+{
+holder=33042
 }
-1310.1.1 = {
-holder = 33031
+1317.1.1=
+{
+holder=33043
 }
-1311.1.1 = {
-holder = 33042
-}
-1317.1.1 = {
-holder = 33043
-}
-1318.1.1 = {
-holder = 33032
+1318.1.1=
+{
+holder=33032
 }
 

@@ -1,0 +1,19 @@
+# 1540 - Ghór
+
+# County Title
+title = c_ghor
+
+# Settlements
+max_settlements = 4
+b_firuzkuh = castle
+b_ahangaran = city
+b_khwadja-chisht = temple
+
+#b_tamran = castle
+
+# Misc
+culture = khorasani
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }

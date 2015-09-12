@@ -4,28 +4,23 @@
 title = c_semender
 
 # Settlements
-max_settlements = 4
-b_kumukh = tribal
+max_settlements = 5
 
-#b_semender = temple
-#b_khattibaku = city
-
-#b_khannalkala = castle
-#b_balanjar = castle
-#b_burgaikala = castle
-#b_urtseki = city
-#b_tarki = city
+#b_semender = tribal
+b_balanjar = temple
+#b_buyanksk = city
+#b_enderi = castle
+#b_tarqi = castle
 
 # Misc
-culture = alan
-religion = tengri_pagan
+culture = persian
+religion = sunni
 
 # History
 
-865.1.1 = {
-	religion = sunni
-	
-	b_kumukh = castle
+1238.1.1 = {
+	culture = caucasian_avar
+	b_balanjar = castle
 	b_semender = temple
-	b_khattibaku = city
+	b_buyanksk = city
 }

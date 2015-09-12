@@ -1,69 +1,85 @@
-330.1.1 = {
-	liege = "e_byzantium"
+330.1.1={
+	liege="d_neopatras"
 }
-767.1.1={
-	liege = "d_athens"
-	holder=145805
+866.1.1={
+	holder=1000232113
 }
-865.1.1 = {
-	liege = "d_athens"
-	holder = 145106
+1060.1.1={
+	holder=20517
 }
-1000.1.1 = {	
-	holder = 1718
-	liege = "d_athens"
+1073.1.1={
+	holder=34572
 }
-1060.1.1 = {
-	liege = "d_athens"
+1108.1.1={
+	holder=34574
 }
-1060.1.1 = {
-	holder = 20517
+1124.1.1={
+	holder = 223024
 }
-1073.1.1 = {
-	holder = 34572
+1142.1.1={
+	holder = 1000232260
 }
-1108.1.1 = {
-	holder = 34574
+1146.1.1={
+	holder = 1000232264
 }
-1127.1.1 = {
-	holder = 34577
+1156.1.1={
+	holder = 34281
 }
-1150.1.1 = {
-	holder = 34578
+1176.1.1={
+	holder = 215508
 }
-1176.1.1 = {
-	holder = 215015
+1186.1.1={
+	holder=1000232256
 }
-1204.8.1 = {
-	liege = "d_thessalonika"
-	holder = 34582
+1200.1.1={
+	holder = 1000232236
 }
-1211.1.1 = {
-	liege = "d_athens"
+1202.1.1={
+	holder = 215028
 }
-1211.1.1 = {
-	holder = 31359 #Nicolas I
+1204.8.1={
+	liege="k_byzantium"
+	holder=31499 #Uberto di Briandate
 }
-1219.1.1 = {
-	holder = 31360 #Bela 
+1209.1.2={
+	holder=205528 #Eustache van Vlaanderen
 }
-1240.1.1 = {
-	holder = 31362 #Nicolas II
+1215.1.1={
+	liege="k_epirus"
+	holder=215514
 }
-1294.1.1 = {
-	holder = 31363 #Othon
+1230.3.9={
+	holder=215516
 }
-1299.1.1 = {
-	holder = 31365 #Nicolas III
+1237.1.1={
+	holder=125711
 }
-1311.3.15 = {
-	holder = 31225 #Roger
+1239.1.1={
+	holder=215516
 }
-1312.1.1 = {
-	holder = 71753 #Manfredo
+1241.1.1={
+	holder=125715
 }
-1317.11.19 = {
-	holder = 461510 #Gugliemo
+1268.1.1={
+	holder=125734
+}
+1289.1.1={
+	holder=125735
+}
+1294.1.1={
+	holder=31363 #Othon
+}
+1299.1.1={
+	holder=31365 #Nicolas III
+}
+1311.3.15={
+	holder=31225 #Roger
+}
+1312.1.1={
+	holder=71753 #Manfredo
+}
+1317.11.19={
+	holder=461510 #Gugliemo
 }
 
 

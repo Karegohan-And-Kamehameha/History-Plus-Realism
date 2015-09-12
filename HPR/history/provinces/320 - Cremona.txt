@@ -5,19 +5,21 @@ title = c_cremona
 
 # Settlements
 max_settlements = 4
-b_cremona = castle
-b_sospiro = city
-b_crema = temple
 
-#b_vescovato = castle
-#b_viadana = castle
-#b_castelgoffredo = castle
-#b_casalmaggiore = castle
-#b_manerbio = castle
+b_soncino = castle
+b_crema = city
+b_cremona = temple
+
+#b_isano = temple
+#b_soresina = city
+#b_sospiro = city
+#b_trigolo = castle
+#b_casalmaggiore = city
 
 # Misc
-culture = lombard
+culture = italian
 religion = catholic
 
 # History
-1045.1.1 = { culture = italian }
+
+1066.1.1 = { capital = b_crema }

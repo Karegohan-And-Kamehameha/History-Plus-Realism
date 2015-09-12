@@ -4,16 +4,16 @@
 title = c_hradec
 
 # Settlements
-max_settlements = 5
-b_hradeckralove = tribal
-#b_chrudim = city
-b_litomysl = temple
-
-#b_zamberk = castle
+max_settlements = 6
+b_hradeckralove = castle
+b_chrudim = city
+b_opatovice = temple
+#b_caslav = castle
+#b_trutnov = castle
 #b_policka = castle
-#b_jihlava = city
-#b_pelhrimov = castle
-#b_pardubice = castle
+#b_jaromer = city
+#b_zeliv = temple
+#b_zleb = temple
 
 # Misc
 culture = bohemian
@@ -21,10 +21,9 @@ religion = slavic_pagan
 
 # History
 
-883.1.1 = {
-	b_hradeckralove = castle
-	b_chrudim = city
-	religion = catholic
-}
+883.1.1 = { religion = catholic }
 
-1240.1.1 = { b_jihlava = city }
+1130.1.1 = { b_caslav = castle }
+
+
+1240.1.1 = { b_jaromer = city }

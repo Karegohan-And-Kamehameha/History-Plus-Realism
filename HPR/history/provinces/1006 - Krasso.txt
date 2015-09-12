@@ -1,0 +1,16 @@
+# 1006 - Krasso
+# County Title
+title = c_krasso
+
+# Settlements
+max_settlements = 2
+
+b_krasso = tribal
+#b_orsova = city
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+985.1.1 = { b_krasso = castle }

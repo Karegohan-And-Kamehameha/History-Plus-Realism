@@ -4,20 +4,19 @@
 title = c_bamberg 
 
 # Settlements
-max_settlements = 4
-#b_ansbach = castle
-b_babenberg = castle
+max_settlements = 3
+
+b_schweinfurt = castle
 b_bamberg = temple
 
-#b_cadolzburg = castle
-#b_colmberg = castle
-b_roth = city
-#b_uffenheim = castle
-#b_crailsheim = castle
+#b_pottenstein = castle
+#b_babenberg = castle
+#b_heilingenstadt = city
+#b_baiersdorf = city
 
 # Misc
-culture = german
+culture = franconian
 religion = catholic
 
 # History
-1337.1.1 = { b_ansbach = castle }
+1170.1.1 = { culture = german }

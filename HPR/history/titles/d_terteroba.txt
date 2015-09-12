@@ -1,0 +1,32 @@
+#Terteroba
+1030.1.1={
+	holder=1000233087 # Sokal
+	liege=k_cuman
+}
+1065.1.1={
+	holder=1000233089 # Togortac/TUgorkhan
+}
+1096.7.19={
+	holder=1000233093 # Osaluka-Khan/Asalup/Asaduk
+}
+1120.1.1={
+	holder=1000233095
+}
+1140.1.1={
+	holder=1000233097
+}
+1170.1.1={
+	holder=1000233099
+}
+1175.1.1={
+	holder=1000233101 #Gza/Kzak 
+}
+1190.1.1={
+	holder=1000233103 # Roman
+}
+1220.1.1={
+	holder=1000233105 # Köten/Kotian/Kuthen/Johan
+}
+1240.1.1={
+	holder=0 # Murder of Köten
+}

@@ -1,0 +1,22 @@
+# 912 - Aoudaghost
+
+# County Title
+title = c_aoudaghost
+
+# Settlements
+max_settlements = 4
+b_kiffa = tribal
+b_aoudaghost = city
+
+#b_moudjeria = temple
+#b_tamchakett = castle
+
+# Misc
+culture = soninke
+religion = west_african_pagan
+
+# History
+1000.1.1 = { b_kiffa = castle }
+
+#islamization
+1055.1.1 = { religion = sunni }

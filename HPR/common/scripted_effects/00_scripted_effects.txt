@@ -1,5 +1,5 @@
 #	Example:
-# 
+#
 #	example_effect = {
 #		treasury = 100
 #		prestige = 50
@@ -105,7 +105,7 @@ heresy_character_effect = {
 					modifier = {
 						factor = 0
 						NOT = { location = { region = world_europe_west_brittania } }
-					}		
+					}
 					modifier = {
 						factor = 0.5
 						NOR = {
@@ -250,7 +250,7 @@ heresy_character_effect = {
 					become_heretic = yes
 				}
 			}
-			break = yes			
+			break = yes
 		}
 		if = {
 			limit = { religion = orthodox }
@@ -753,7 +753,7 @@ heresy_character_effect = {
 						location = { region = custom_abyssinia }
 						location = { region = custom_nubia }
 					}
-				}		
+				}
 #				modifier = {
 #					factor = 1.5
 #					trait = sympathy_christendom
@@ -1083,7 +1083,7 @@ heresy_province_effect = {
 					modifier = {
 						factor = 0
 						NOT = { region = world_europe_west_brittania }
-					}		
+					}
 					modifier = {
 						factor = 0.5
 						NOR = {
@@ -1218,7 +1218,7 @@ heresy_province_effect = {
 					become_heretic = yes
 				}
 			}
-			break = yes			
+			break = yes
 		}
 		if = {
 			limit = { religion = orthodox }
@@ -1836,7 +1836,7 @@ heresy_province_effect = {
 					factor = 0.25
 					NOT = { culture = kurdish }
 					region = custom_mesopotamia
-				}					
+				}
 				religion = yazidi
 			}
 			50 = {
@@ -1992,10 +1992,10 @@ turn_off_titles_effect = {
 				title = e_egypt
 				title = e_england
 				title = e_finland
-				title = e_ghana
+				title = k_ghana
 				title = e_hungary
 				title = e_ireland
-				title = e_jolof
+				title = c_djolof
 				title = e_norway
 				title = e_nubia
 				title = e_scotland
@@ -2030,10 +2030,8 @@ turn_on_titles_effect = {
 				title = e_egypt
 				title = e_england
 				title = e_finland
-				title = e_ghana
 				title = e_hungary
 				title = e_ireland
-				title = e_jolof
 				title = e_norway
 				title = e_nubia
 				title = e_scotland

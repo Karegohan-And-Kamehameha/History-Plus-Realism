@@ -4,19 +4,13 @@
 title = c_hayya
 
 # Settlements
-max_settlements = 4
+max_settlements = 2
 
-b_marawi = tribal
-#b_kanisah = city
-b_affat = temple
-#b_korti = castle
-#b_gabriya = castle
-#b_keheilli = city
-#b_ummmardi = castle
-#b_abudis = castle
+b_badi = tribal
+#b_ini = city
 
 # Misc
-culture = nubian
+culture = beja
 religion = miaphysite
 
 # History

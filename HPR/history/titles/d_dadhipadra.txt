@@ -31,7 +31,7 @@
 	holder = 188005 # Vatsaraja
 }
 812.1.1={
-	liege = k_maharastra
+	liege = 0
 	holder = 188176 # Upendra Paramara
 }
 818.1.1={

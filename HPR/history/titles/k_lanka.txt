@@ -1,10 +1,1 @@
-741.1.1={
-	holder = 189005
-}
-866.1.1=
-{
-	holder = 175010
-}
-901.1.1 = {
-	holder = 0
-}
+#BLOCKED: vanilla history file for vanilla title without SWMH definition

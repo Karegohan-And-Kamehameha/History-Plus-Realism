@@ -1,0 +1,20 @@
+# 629 - Faráva
+
+# County Title
+title = c_farava
+
+# Settlements
+max_settlements = 2
+b_farava = castle
+b_akhor = city
+
+# Misc
+culture = khorasani
+religion = zoroastrian
+
+# History
+1030.1.1 = { b_farava = tribal }
+1030.1.1 = { culture = turkmen }
+
+1030.1.1 = { religion = sunni }
+1080.1.1 = { b_farava = castle}

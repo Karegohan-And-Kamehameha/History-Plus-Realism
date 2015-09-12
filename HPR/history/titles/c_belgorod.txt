@@ -1,74 +1,75 @@
-632.1.1={
-	liege="d_moldau"
-	holder=159117
+852.1.1=
+{
+	liege="d_basarabia"
+	holder=168070
 }
-665.1.1={
-	holder=159127
+#Qara-Bay
+895.1.1={
+        liege=d_qara_bay
+	holder=1000231785
 }
-680.1.1={
-	holder=159118
+923.1.1={
+	holder=1000231787
 }
-700.1.1={
-	holder=159120
+943.1.1={
+	holder=1000231789
 }
-721.1.1={
-	holder=145953
+989.1.1={
+	holder=1000231791
 }
-755.1.1={
-	holder=145954
+1012.1.1={
+	holder=1000231793
 }
-765.1.1={
-	holder=159121
+# Qabuqsin-Yula
+1044.1.1={
+ liege=d_qabuqsin_yula
+	holder=1000231751
+} 
+1046.1.1={
+	holder=1000231755 # Soultzous
 }
-768.1.1={
-	holder=159122
+1095.1.1={
+	holder=1000231759
 }
-777.1.1={
-	holder=145955
+#last byzzie invasion fails
+#Cumans take over in person
+#Ulasgoli
+1123.1.1={
+	liege="d_ulasgoli"
+	holder=1000233142
 }
-852.1.1 = {
-	holder = 168070
+1153.1.1={
+	holder=1000233144
 }
-990.1.1 = {
-	holder = 1000254400
+1180.1.1={
+	holder=1000233146 # Vlur
 }
-1066.1.1 = {
-	holder = 20635
+1216.1.1={
+	holder=1000233148
 }
-1091.1.1 = {
-	holder = 34808
+1233.1.1={
+	holder=1000233150
 }
-1110.1.1 = {
-	holder = 34809
+# Ulasgoli migrate to Hungary after defeat
+1238.1.1={
+	liege="e_golden_horde"
+	holder=125516
 }
-1145.1.1 = {
-	holder = 34810
+1265.1.2=
+{
+	holder=125517
 }
-
-1171.1.1 = {
-	liege = "d_moldau"
-	holder = 34826
+1270.1.2=
+{
+	holder=125518
 }
-1190.1.1 = {
-	holder = 34827
+1299.1.2=
+{	
+	holder=34830
 }
-1225.1.1 = {
-	holder = 34828
-}
-1238.1.1 = {
-	holder = 125516
-}
-1265.1.2 = {
-	holder = 125517
-}
-1270.1.2 = {
-	holder = 125518
-}
-1299.1.2 = {	
-	holder = 34830
-}
-1325.1.1 = {
-	holder = 34831
+1325.1.1=
+{
+	holder=34831
 }
 
 

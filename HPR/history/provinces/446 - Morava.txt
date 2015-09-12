@@ -7,35 +7,20 @@ title = c_znojmo
 max_settlements = 4
 
 b_znojmo = castle
-b_mikulov = city
+b_jihlava = city
 b_trebic = temple
-
-#b_trebic = temple
-#b_mikulov = city
-#b_lundenburg = castle
-#b_iglau = castle
-#b_skalitz = castle
-#b_eibenshitz = castle
-#b_ivancice = castle
+#b_vranov = castle
+#b_bitov = castle
+#b_jemnice = city
+#b_louka = temple
 
 # Misc
-culture = bohemian
-religion = slavic_pagan
+culture = moravian
+religion = catholic
 
 # History
-
-831.1.1 = { religion = catholic }
-
+#1061.1.1 = { b_bitov = castle }
+1101.1.1 = { b_trebic = temple }
 #german colonization of southern parts
-1160.1.1 = { culture = german }
-
-#shift of power in the area
-1197.1.1 = {
-	b_eibenshitz = castle
-	capital = b_eibenshitz
-	
-	# VERY IMPORTANT: remove_settlement must always be scripted AFTER a 'capital' switch away from the same settlement
-	remove_settlement = b_znojmo 
-}
-
-1277.1.1 = { b_trebic = city }
+#1160.1.1 = { culture = german } only parts settled
+1233.1.1 = { b_jihlava = city }

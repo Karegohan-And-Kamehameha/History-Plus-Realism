@@ -5,23 +5,20 @@ title = c_albarracin
 
 # Settlements
 max_settlements = 4
-b_albarracin = castle
-b_teruel = city
-b_hijar = temple
-#b_utrillas = castle
-#b_calanda = city
-#b_montalban = castle
-#b_calamocha = castle
-#b_alcaniz = castle
+b_tramacastilla = castle
+b_albarracin = city
+b_bronchales = temple
+#b_monreal_del_campo = castle
+#b_jabaloyas = temple
+#b_calomarde = castle
+
 
 # Misc
-culture = visigothic
-religion = catholic
+culture = andalusian_arabic
+religion = sunni
 
 # History
-
-955.1.1 = {
-	culture = basque
+1066.1.1 = { 
+	b_tramacastilla = ca_keep_1
+	b_tramacastilla = ca_wall_1
 }
-
-1185.1.1 = { culture = castillan }

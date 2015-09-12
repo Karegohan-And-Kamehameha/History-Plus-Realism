@@ -1,0 +1,27 @@
+# 1299 - Bartia
+
+# County Title
+title = c_bartia
+
+# Settlements
+max_settlements = 5
+
+b_reszel = tribal
+b_heilsberg = temple
+#b_gierdawy = castle
+
+#b_rastembork = city
+#b_bartenstein = castle
+
+
+# Misc
+culture = prussian
+religion = baltic_pagan
+
+# History
+
+1225.1.1= { b_reszel = castle } #Golden Bull of Rimini
+1225.1.1= { b_gierdawy = castle }
+1240.1.1 = { b_bartenstein = castle }
+1273.1.1 = { religion = catholic } #death of Diwanus
+1273.1.1 = { culture = low_german }

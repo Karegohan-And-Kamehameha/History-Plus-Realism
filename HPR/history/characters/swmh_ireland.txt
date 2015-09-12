@@ -1,0 +1,1431 @@
+1000226400 = {
+	name = "Dúnán" #First bishop of Dublin.
+	dynasty=0
+	martial=5
+	diplomacy=9
+	intrigue=6
+	stewardship=9
+	religion="catholic"
+	culture="norsegaelic"
+	1008.1.1={
+		birth="1008.1.1"
+	}
+	1074.5.6={  
+		death="1074.5.6"
+	}
+}
+1000226401 = {
+	name = "Mael Eóin" #Bishop of Old Leighlin
+	dynasty=1000100250
+	martial=3
+	diplomacy=8
+	intrigue=7
+	stewardship=6
+	religion="catholic"
+	culture="irish"
+	1046.1.1={
+		birth="1046.1.1"
+	}
+	1125.1.1={  
+		death="1125.1.1"
+	}
+}
+1000226402 = {
+	name = "Cinaedh" #Abbot of Glendalough
+	dynasty=1000100251
+	martial=7
+	diplomacy=6
+	intrigue=3
+	stewardship=11
+	religion="catholic"
+	culture="irish"
+	1012.1.1={
+		birth="1012.1.1"
+	}
+	1068.1.1={  
+		death="1068.1.1"
+	}
+}
+1000226403 = {
+	name = "Ugaire" #Archbishop of Ferns
+	dynasty=1000100252
+	martial=2
+	diplomacy=12
+	intrigue=10
+	stewardship=4
+	religion="catholic"
+	culture="irish"
+	1030.1.1={
+		birth="1030.1.1"
+	}
+	1085.1.1={  
+		death="1085.1.1"
+	}
+}
+1000226405 = {
+	name = "Domhnall Dubh" #Lord of Anghaile
+	dynasty=1000100253
+	martial=10
+	diplomacy=8
+	intrigue=5
+	stewardship=9
+	religion="catholic"
+	culture="irish"
+	1045.1.1={
+		birth="1045.1.1"
+	}
+	1095.1.1={  
+		death="1095.1.1"
+	}
+}
+1000226406 = {
+	name = "Ailill" #Abbot of Clonmacnoise
+	dynasty=1000100254
+	martial=7
+	diplomacy=8
+	intrigue=5
+	stewardship=14
+	religion="catholic"
+	culture="irish"
+	1015.1.1={
+		birth="1015.1.1"
+	}
+	1070.1.1={  
+		death="1070.1.1"
+	}
+}
+1000226407 = {
+	name = "Celech" #Abbot of Aghaboe
+	dynasty=1000100255
+	martial=9
+	diplomacy=9
+	intrigue=6
+	stewardship=2
+	religion="catholic"
+	culture="irish"
+	1020.1.1={
+		birth="1020.1.1"
+	}
+	1108.1.1={  
+		death="1108.1.1"
+	}
+}
+1000226408 = {
+	name = "Toirdhealbhach" #Lord of the castle of Dunseverick
+	dynasty=1000100276
+	martial=15
+	diplomacy=6
+	intrigue=6
+	stewardship=9
+	religion="catholic"
+	culture="irish"
+	1040.1.1={
+		birth = yes
+	}
+	1120.1.1={
+		death = yes
+	}
+}
+1000226409 = {
+	name = "Maél Muire" #Bishop of Down
+	dynasty=0
+	martial=6
+	diplomacy=11
+	intrigue=9
+	stewardship=9
+	religion="catholic"
+	culture="irish"
+	1030.1.1={
+		birth="1030.1.1"
+	}
+	1117.1.1={  
+		death="1117.1.1"
+	}
+}
+1000226410 = {
+	name = "Eóin" #Bishop of Raphoe
+	dynasty=1000100256
+	martial=9
+	diplomacy=4
+	intrigue=13
+	stewardship=7
+	religion="catholic"
+	culture="irish"
+	1015.1.1={
+		birth="1015.1.1"
+	}
+	1100.1.1={  
+		death="1100.1.1"
+	}
+}
+1000226411 = {
+	name = "Flann" #Abbot of Devenish
+	dynasty=1000100257
+	martial=3
+	diplomacy=12
+	intrigue=8
+	stewardship=10
+	religion="catholic"
+	culture="irish"
+	1025.1.1={
+		birth = yes
+	}
+	1114.1.1={
+		death = yes
+	}
+}
+1000226412 = {
+	name = "Maol Craiobh" #King of Airigialla
+	dynasty=1000100258
+	martial=8
+	diplomacy=8
+	intrigue=12
+	stewardship=10
+	religion="catholic"
+	culture="irish"
+	860.1.1={
+		birth="860.1.1"
+	}
+	917.1.1={  
+		death="917.1.1"
+	}
+}
+1000226413 = {
+	name = "Fogarthach" #King of Airigialla
+	dynasty=1000100259
+	martial=10
+	diplomacy=8
+	intrigue=6
+	stewardship=7
+	religion="catholic"
+	culture="irish"
+	880.1.1={
+		birth="880.1.1"
+	}
+	947.1.1={  
+		death="947.1.1"
+	}
+}
+1000226414 = {
+	name = "Donnacan" #King of Airigialla
+	dynasty=1000100260
+	martial=5
+	diplomacy=15
+	intrigue=8
+	stewardship=10
+	religion="catholic"
+	culture="irish"
+	900.1.1={
+		birth="900.1.1"
+	}
+	970.1.1={  
+		death="970.1.1"
+	}
+}
+1000226415 = {
+	name = "Mac Eiccnigh" #King of Airigialla
+	dynasty=1000100261
+	martial=5
+	diplomacy=9
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="irish"
+	950.1.1={
+		birth="950.1.1"
+	}
+	998.1.1={  
+		death="998.1.1"
+	}
+}
+1000226416 = {
+	name = "Mac Leiginn" #King of Airigialla
+	dynasty=1000100262
+	martial=15
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="irish"
+	970.1.1={
+		birth="970.1.1"
+	}
+	1022.1.1={  
+		death="1022.1.1"
+	}
+}
+1000226417 = {
+	name = "Cathalan" #King of Airigialla
+	dynasty=1000100263
+	martial=9
+	diplomacy=10
+	intrigue=8
+	stewardship=10
+	religion="catholic"
+	culture="irish"
+	990.1.1={
+		birth="990.1.1"
+	}
+	1027.1.1={  
+		death="1027.1.1"
+	}
+}
+1000226418 = {
+	name = "Gilla Coluim" #King of Airigialla
+	dynasty=1000100264
+	martial=8
+	diplomacy=10
+	intrigue=15
+	stewardship=7
+	religion="catholic"
+	culture="irish"
+	992.1.1={
+		birth="992.1.1"
+	}
+	1048.1.1={  
+		death="1048.1.1"
+	}
+}
+1000226419 = {
+	name = "Leathlobair" #King of Airigialla
+	dynasty=1000100252
+	martial=8
+	diplomacy=10
+	intrigue=9
+	stewardship=7
+	religion="catholic"
+	culture="irish"
+	1018.1.1={
+		birth="1018.1.1"
+	}
+	1078.1.1={  
+		death="1078.1.1"
+	}
+}
+1000226420 = {
+	name = "Mael Pátraic" #Bishop of Armagh
+	dynasty=1000100265
+	martial=8
+	diplomacy=12
+	intrigue=6
+	stewardship=10
+	religion="catholic"
+	culture="irish"
+	1024.1.1={
+		birth="1024.1.1"
+	}
+	1096.1.1={  
+		death="1096.1.1"
+	}
+}
+1000226421 = {
+	name = "Tighernach" #Abbot of Roscommon
+	dynasty=1000100266
+	martial=5
+	diplomacy=12
+	intrigue=6
+	stewardship=12
+	religion="catholic"
+	culture="irish"
+	1015.1.1={
+		birth="1015.1.1"
+	}
+	1088.1.1={  
+		death="1088.1.1"
+	}
+}
+1000226422 = {
+	name = "Diarmait" #Bishop of Emly
+	dynasty=1000100267
+	martial=10
+	diplomacy=8
+	intrigue=10
+	stewardship=5
+	religion="catholic"
+	culture="irish"
+	1030.1.1={
+		birth="1030.1.1"
+	}
+	1114.1.1={  
+		death="1114.1.1"
+	}
+}
+1000226423 = {
+	name = "Finghin" #Count of Cork
+	dynasty=1000100268
+	martial=8
+	diplomacy=8
+	intrigue=10
+	stewardship=6
+	religion="catholic"
+	culture="irish"
+	1025.1.1={
+		birth="1025.1.1"
+	}
+	1106.1.1={  
+		death="1106.1.1"
+	}
+}
+1000226425 = {
+	name = "Niall" #Bishop of Lismore
+	dynasty=1000100269
+	martial=3
+	diplomacy=9
+	intrigue=10
+	stewardship=12
+	religion="catholic"
+	culture="irish"
+	1036.1.1={
+		birth="1036.1.1"
+	}
+	1113.1.1={  
+		death="1113.1.1"
+	}
+}
+1000226426 = {
+	name = "Martan" #Abbot of Clonmacnoise
+	dynasty=1000100270
+	martial=7
+	diplomacy=9
+	intrigue=4
+	stewardship=12
+	religion="catholic"
+	culture="irish"
+	808.1.1={
+		birth="808.1.1"
+	}
+	868.1.1={  
+		death="868.1.1"
+	}
+}
+1000226427 = {
+	name = "Féthgno" #Abbot and bishop of Armagh
+	dynasty=1000100271
+	martial=3
+	diplomacy=15
+	intrigue=9
+	stewardship=5
+	religion="catholic"
+	culture="irish"
+	830.1.1={
+		birth="830.1.1"
+	}
+	874.10.6={  
+		death="874.10.6"
+	}
+}
+1000226429 = {
+	name = "Aedh" #Abbot and bishop of Roscommon
+	dynasty=1000100272
+	martial=8
+	diplomacy=6
+	intrigue=2
+	stewardship=11
+	religion="catholic"
+	culture="irish"
+	800.1.1={
+		birth="800.1.1"
+	}
+	872.10.6={  
+		death="872.10.6"
+	}
+}
+1000226430 = {
+	name = "Daniél" #Abbot and bishop of Glendalough
+	dynasty=1000100273
+	martial=12
+	diplomacy=6
+	intrigue=7
+	stewardship=9
+	religion="catholic"
+	culture="irish"
+	820.1.1={
+		birth="820.1.1"
+	}
+	872.1.1={  
+		death="872.1.1"
+	}
+}
+1000226431 = {
+	name = "Dermot" #Abbot and bishop of Ferns
+	dynasty=0
+	martial=6
+	diplomacy=7
+	intrigue=3
+	stewardship=4
+	religion="catholic"
+	culture="irish"
+	794.1.1={
+		birth="794.1.1"
+	}
+	868.1.1={  
+		death="868.1.1"
+	}
+}
+1000226432 = {
+	name = "Eógan" #Abbot of Emly
+	dynasty=1000100274
+	martial=6
+	diplomacy=15
+	intrigue=9
+	stewardship=6
+	religion="catholic"
+	culture="irish"
+	830.1.1={
+		birth="830.1.1"
+	}
+	890.1.1={  
+		death="890.1.1"
+	}
+}
+1000226433 = {
+	name = "Maelmartin" #Abbot of Aghaboe
+	dynasty=0
+	martial=9
+	diplomacy=3
+	intrigue=5
+	stewardship=11
+	religion="catholic"
+	culture="irish"
+	825.1.1={
+		birth="825.1.1"
+	}
+	885.1.1={  
+		death="885.1.1"
+	}
+}
+1000226434 = {
+	name = "Cathalán" # King of Ulster
+	dynasty=819
+	martial=9
+	diplomacy=6
+	intrigue=10
+	stewardship=11
+	religion="catholic"
+	culture="irish"
+	father=1000226438
+	820.1.1={
+		birth="820.1.1"
+	}
+	871.1.1={  
+		death="871.1.1"
+	}
+}
+1000226435 = {
+	name = "Lethlobar" # King of Ulster
+	dynasty=1000100275
+	martial=6
+	diplomacy=5
+	intrigue=12
+	stewardship=6
+	religion="catholic"
+	culture="irish"
+	father=1000226436
+	826.1.1={
+		birth="826.1.1"
+	}
+	873.1.1={  
+		death="873.1.1"
+	}
+}
+1000226436 = {
+	name = "Loingsig"
+	dynasty=1000100275
+	martial=6
+	diplomacy=5
+	intrigue=12
+	stewardship=6
+	religion="catholic"
+	culture="irish"
+	father=1000226437
+	780.1.1={
+		birth="780.1.1"
+	}
+	830.1.1={  
+		death="830.1.1"
+	}
+}
+1000226437 = {
+	name = "Tommaltach" # King of Ulster
+	dynasty=1000100275
+	martial=6
+	diplomacy=5
+	intrigue=12
+	stewardship=6
+	religion="catholic"
+	culture="irish"
+	750.1.1={
+		birth="750.1.1"
+	}
+	790.1.1={  
+		death="790.1.1"
+	}
+}
+1000226438 = {
+	name="Indrechtaig" #Father of Cathalán
+	dynasty=819
+	martial=4
+	diplomacy=5
+	intrigue=4
+	stewardship=9
+	religion="catholic"
+	culture="irish"
+	father=1000226439
+	780.1.2={
+		birth="780.1.2"
+	}
+	821.1.1={  
+		death="821.1.1"
+	}
+}
+1000226439 = {
+	name="Tommaltach" #son of Cathail from the Oengus family, claimant of Ulster
+	dynasty=819
+	martial=10
+	diplomacy=5
+	intrigue=9
+	stewardship=9
+	religion="catholic"
+	culture="irish"
+	father=1000226440
+	765.1.2={
+		birth="765.1.2"
+	}
+	789.1.1={  
+		death="789.1.1"
+	}
+}
+1000226440 = {
+	name="Cathail" #from the Oengus family
+	dynasty=819
+	martial=10
+	diplomacy=5
+	intrigue=9
+	stewardship=9
+	religion="catholic"
+	culture="irish"
+	father=6188
+	720.1.2={
+		birth = yes
+	}
+	779.1.1={
+		death = yes
+	}
+}
+#####
+1000226428 = {
+	name = "Tergeis" #Viking founder of Linn Duachaill (Annagassan)
+	dynasty=1192
+	martial=10
+	diplomacy=6
+	intrigue=6
+	stewardship=9
+	religion="norse_pagan"
+	culture="norse"
+	811.1.1={
+		birth="811.1.1"
+	}
+	880.10.6={  
+		death="880.10.6"
+	}
+}
+################
+#Kings of Offlay
+################
+#Flainn
+1000226441 = {
+	name="Fland" #Fland Dá Chongal
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	660.1.1={
+		
+                birth = yes
+	
+        }
+	705.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226442 = {
+	name="Forbassach" #Forbassach Ua Congaile. Possibly brother of previous?
+	religion="catholic"
+	culture="irish"
+	675.1.1={
+		
+                birth = yes
+	
+        }
+	714.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226443 = {
+	name="Ailill" #Ailill Corrach mac Flainn
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226441 #Fland Dá Chongal
+	680.1.1={
+		
+                birth = yes
+	
+        }
+	741.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226444 = {
+	name="Flaithnia" #Flaithnia mac Flainn
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226441 #Fland Dá Chongal
+	685.1.1={
+		
+                birth = yes
+	
+        }
+	755.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226487 = {
+	name="Cummascach" #Cummascach mac Flainn
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226441 #Fland Dá Chongal
+	690.1.1={
+		
+                birth = yes
+	
+        }
+	757.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226445 = {
+	name="Cináed" #Cináed mac Flainn
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226441 #Fland Dá Chongal
+	702.1.1={
+		
+                birth = yes
+	
+        }
+	770.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226446 = {
+	name="Mugrón" #Mugrón mac Flainn
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226441 #Fland Dá Chongal
+	705.1.1={
+		
+                birth = yes
+	
+        }
+	782.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226447 = {
+	name="Domnall" #Domnall mac Flaíthnia 
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226444 #Flaithnia mac Flainn
+	715.1.1={
+		
+                birth = yes
+	
+        }
+	783.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226448 = {
+	name="Óengus" #Óengus mac Mugróin
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226446 #Mugrón mac Flainn
+	720.1.1={
+		
+                birth = yes
+	
+        }
+	803.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226449 = {
+	name="Flaíthnia" #Flaíthnia mac Cináeda
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226445 #Cináed mac Flainn
+	735.1.1={
+		
+                birth = yes
+	
+        }
+	806.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226450 = {
+	name="Cináed" #Cináed mac Mugróin
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226446 #Mugrón mac Flainn
+	745.1.1={
+		
+                birth = yes
+	
+        }
+	829.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226451 = {
+	name="Mugrón" #Mugrón mac Óengusa
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226448 #Óengus mac Mugróin
+	780.1.1={
+		
+                birth = yes
+	
+        }
+	842.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226452 = {
+	name="Niall" #Niall mac Cináeda
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226450 #Cináed mac Mugróin
+	785.1.1={
+		
+                birth = yes
+	
+        }
+	849.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226453 = {
+	name="Máel" # Máel Sinchill mac Mugróin 
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226451 #Mugrón mac Óengusa
+	820.1.1={
+		
+                birth = yes
+	
+        }
+	881.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226454 = {
+	name="Conchobar" # Conchobar mac Flannacáin
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226451 #Flaíthnia mac Cináeda, specualtive
+	805.1.1={
+		
+                birth = yes
+	
+        }
+	891.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226455 = {
+	name="Uathmarán" # Uathmarán mac Conchobair
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100278"
+	father=1000226454 # Conchobar mac Flannacáin
+	870.1.1={
+		
+                birth = yes
+	
+        }
+	897.1.1={
+		
+                death = yes
+	
+        }
+}
+# Conchobhair Failghe
+1000226456 = {
+	name="Conchobar" # Conchobar, no recordings.
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	970.1.1={
+		
+                birth = yes
+	
+        }
+	1030.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226457 = {
+	name="Congalach" # Congalach Ua Conchobair
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226456
+	1000.1.1={
+		
+                birth = yes
+	
+        }
+	1051.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226458 = {
+	name="Gilla Patraic" # Gilla Patraic mac Conchobair Ua Sibleain
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226456
+	1025.1.1={
+		
+                birth = yes
+	
+        }
+	1071.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226459 = {
+	name="Domnall" # father of Rogan and Aed
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226456 # Conchobar
+	1040.1.1={
+		
+                birth = yes
+	
+        }
+	1070.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226460 = {
+	name="Conchobar" # Conchobar mac Congalaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226457 # Congalach Ua Conchobair
+	1040.1.1={
+		
+                birth = yes
+	
+        }
+	1115.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226461 = {
+	name="Rogan" # Rogan mac Domnaill
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226459 # Domnall mac Conchobair
+	1049.1.1={
+		
+                birth = yes
+	
+        }
+	1118.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226462 = {
+	name="Cu Faifne" # Cu Faifne mac Congalaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226457 # Congalach Ua Conchobair
+	1051.1.1={
+		
+                birth = yes
+	
+        }
+	1130.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226463 = {
+	name="Donnchad" # Donnchad mac Con Faifne
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=100022662 # Cu Faifne mac Congalaig
+	1070.1.1={
+		
+                birth = yes
+	
+        }
+	1134.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226464 = {
+	name="Aed" # Aed mac Domnaill
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226459 # Domnall mac Conchobair
+	1070.1.1={
+		
+                birth = yes
+	
+        }
+	1138.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226465 = {
+	name="Mael" # Mael Morda mac Conchobair
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226460 # Conchobar mac Congalaig
+	1078.1.1={
+		
+                birth = yes
+	
+        }
+	1141.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226466 = {
+	name="Conchobair" # Conchobair mac Con Faifne
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=100022662 # Cu Faifne mac Congalaig
+	1080.1.1={
+		
+                birth = yes
+	
+        }
+	1143.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226467 = {
+	name="Mael" # Mael Sechlainn mac Conchobair
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226460 # Conchobar mac Congalaig
+	1095.1.1={
+		
+                birth = yes
+	
+        }
+	1145.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226468 = {
+	name="Congalach" # Congalach mac Con Faifne
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=100022662 # Cu Faifne mac Congalaig
+	1100.1.1={
+		
+                birth = yes
+	
+        }
+	1147.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226469 = {
+	name="Murchad" # Murchad mac Con Faifne
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=100022662 # Cu Faifne mac Congalaig
+	1102.1.1={
+		
+                birth = yes
+	
+        }
+	1148.1.1={
+		
+                death = yes
+	
+        }
+} 
+1000226470 = {
+	name="Muirchertach" # Muirchertach mac Muirchertaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226469 # Murchad mac Con Faifne
+	1120.1.1={
+		
+                birth = yes
+	
+        }
+	1151.1.1={
+		
+                death = yes
+	
+        }
+} 
+1000226471 = {
+	name="Aed" #Aed mac Donnchada
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226463 # Donnchad mac Con Faifne
+	1122.1.1={
+		
+                birth = yes
+	
+        }
+	1159.1.1={
+		
+                death = yes
+	
+        }
+} 
+1000226472 = {
+	name="Domnall" #Domnall Ruad mac Congalaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226468 # Congalach mac Con Faifne
+	1116.1.1={
+		
+                birth = yes
+	
+        }
+	1161.1.1={
+		
+                death = yes
+	
+        }
+} 
+1000226473 = {
+	name="Mael" # Mael Sechlainn mac Congalaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226468 # Congalach mac Con Faifne
+	1127.1.1={
+		
+                birth = yes
+	
+        }
+	1164.1.1={
+		
+                death = yes
+	
+        }
+} 
+1000226474 = {
+	name="Donchad" #Donchad Ruad Roigne
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226472 #Domnall Ruad mac Congalaig
+	1132.1.1={
+		
+                birth = yes
+	
+        }
+	1165.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226475 = {
+	name="Diarmait" #Diarmait mac Congalaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226468 # Congalach mac Con Faifne
+	1133.1.1={
+		
+                birth = yes
+	
+        }
+	1167.1.1={
+		
+                death = yes
+	
+        }
+}  
+1000226476 = {
+	name="Muirchertach" #Muirchertach mac Congalaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226468 # Congalach mac Con Faifne
+	1138.1.1={
+		
+                birth = yes
+	
+        }
+	1172.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226477 = {
+	name="Diarmait" #Diarmait mac Con Broga Ua Dimmusaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226475 #Diarmait mac Congalaig
+	1158.1.1={
+		
+                birth = yes
+	
+        }
+	1193.1.1={
+		
+                death = yes
+	
+        }
+} 
+1000226478 = {
+	name="Muirchertach" #Muirchertach mac Donnchada/ Muirchertach mac Brian?
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226474 #Donchad Ruad Roigne
+	1160.1.1={
+		
+                birth = yes
+	
+        }
+	1215.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226479 = {
+	name="Mael" #Mael Morda mac Muirchertaig meic Donnchada
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226478 #Muirchertach mac Donnchada
+	1180.1.1={
+		
+                birth = yes
+	
+        }
+	1225.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226480 = {
+	name="Muirchertach" #Muirchertach mac Mael Morda
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226479 #Mael Morda mac Muirchertaig
+	1200.1.1={
+		
+                birth = yes
+	
+        }
+	1260.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226481 = {
+	name="Muirchertach" #Muirchertach mac Muirchertaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226480 #Muirchertach mac Mael Morda
+	1240.1.1={
+		
+                birth = yes
+	
+        }
+	1305.6.13={
+		
+                death = yes
+	
+        }
+}
+1000226482 = {
+	name="Murchad" #Murchad mac Muirchertaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226481 #Muirchertach mac Muirchertaig
+	1257.1.1={
+		
+                birth = yes
+	
+        }
+	1316.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226483 = {
+	name="Mael" #Mael Sechlainn mac Muirchertaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226481 #Muirchertach mac Muirchertaig
+	1265.1.1={
+		
+                birth = yes
+	
+        }
+	1329.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226484 = {
+	name="Muirchertach" #Muirchertach Óg mac Muircherartaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226482 #Murchad mac Muirchertaig
+	1310.1.1={
+		
+                birth = yes
+	
+        }
+	1384.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226485 = {
+	name="Muirchertach" #Murchad mac Muircheartaig
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226484 #Muirchertach Óg mac Muircherartaig
+	1345.1.1={
+		
+                birth = yes
+	
+        }
+	1421.1.1={
+		
+                death = yes
+	
+        }
+}
+1000226486 = {
+	name="Diarmait" #Diarmaid mac Muirchertaigh Óg
+	religion="catholic"
+	culture="irish"
+        dynasty="1000100279"
+	father=1000226484 #Muirchertach Óg mac Muircherartaig
+	1355.1.1={
+		
+                birth = yes
+	
+        }
+	1425.1.1={
+		
+                death = yes
+	
+        }
+}

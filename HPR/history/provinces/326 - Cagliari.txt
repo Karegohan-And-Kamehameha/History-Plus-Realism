@@ -4,18 +4,24 @@
 title = c_cagliari
 
 # Settlements
-max_settlements = 4
-b_cagliari = castle
+max_settlements = 5
+
+
+b_saintmichele = castle
+b_cagliari = temple
+#b_assemini = temple
 b_ogliastra = city
-b_assemini = temple
 #b_sanluri = castle
-#b_carbonia = castle
-#b_muravera = castle
-#b_Dolianova = castle
-#b_capoterra = castle
+#b_santamaria = castle
+#b_villasor = castle
+#b_casteldimedusa = castle
+#b_casteldimedusa = castle
+#b_tortoli = city
+#b_dolunova = temple
+#b_iglesiassardinia = city
 
 # Misc
-culture = italian
+culture = sardinian
 religion = catholic
 terrain = hills
 

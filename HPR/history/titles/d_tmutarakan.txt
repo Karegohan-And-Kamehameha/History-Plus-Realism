@@ -1,0 +1,108 @@
+654.1.1 = {
+	historical_nomad = yes
+}
+654.1.1={
+	liege=k_khazaria
+	holder=74004
+}
+662.1.1= {
+	holder=74005
+}
+704.1.1= {
+	holder=146195
+}
+743.1.1={
+	holder=146196
+}
+774.1.1={
+	holder=146197
+}
+797.1.1={
+	holder=146198
+}
+800.1.1={
+	holder=146199
+}
+805.1.1={
+	holder=74013
+}
+810.1.1={
+	holder=74014
+}
+825.1.1={
+	holder=74015
+}
+830.1.1={
+	holder=74016
+}
+861.1.1={
+	holder=74017
+}
+886.1.1={
+	holder=74025
+}
+888.1.1={
+	holder=74026
+}
+899.1.1={
+	holder=146187
+}
+916.1.1={
+	holder=146188
+}
+920.1.1={
+	holder=146189
+}
+928.1.1={
+	holder=146190
+}
+945.1.1={
+	holder=146191
+}
+# Sarkel falls
+############
+966.1.1={
+	liege=k_khazaria
+}
+966.1.1={
+	holder=146193
+}
+969.1.1={
+	liege=0
+}
+993.1.1={
+	holder=146194 # Georgios Tzule
+}
+# end of Khazar rule
+########
+1016.1.1 = {
+	historical_nomad = no
+}
+1016.1.1={
+
+	holder=618 # Mstislav Vladimirovich
+}
+1036.1.2={
+
+	holder=0#628 # Sviatoslav II Iaroslavich
+}
+1062.1.1={
+
+	holder=0 #654 # Gleb Sviatoslavich, son of previous
+}
+1064.1.1={
+
+	holder=670 # Rostislav Vladimirovich
+}
+1065.1.1={
+	holder=0 #654 # Gleb Sviatoslavich, second time
+}
+1065.6.1={
+
+	holder=670 # Rostislav Vladimirovich, second time
+}
+1067.2.3=
+{
+holder= 0#654 # Gleb Sviatoslavich, third time
+}
+######here to

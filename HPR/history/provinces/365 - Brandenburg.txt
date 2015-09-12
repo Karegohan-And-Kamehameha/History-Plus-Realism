@@ -4,26 +4,29 @@
 title = c_brandenburg
 
 # Settlements
-max_settlements = 5
-b_brandenburg = tribal
-b_havelberg = temple
+max_settlements = 6
 
-#b_juterborg = city
+b_copenick = tribal
+b_brandenburg = city
+
+#b_brenna = city
+#b_spandau = castle
+#b_boztow = city
+#b_lehin = temple
+#b_bernau = city
 #b_berlin = city
-#b_belzig = castle
-#b_ruppin = castle
-#b_oranienburg = castle
-#b_muncheberg = castle
+#b_muncheberg = temple
+#b_templin = city
+#b_prenzlau = city
 
 # Misc
+
 culture = pommeranian
 religion = slavic_pagan
 
 # History
-1065.1.1 = {
-	b_brandenburg = castle
-	b_juterborg = city
-}
-1187.1.1 = { b_oranienburg = castle }
-1200.1.1 = { culture = german } 
-1200.1.1 = { religion = catholic } 
+1128.12.4 = { b_copenick = castle }
+1128.12.4 = { b_brandenburg = castle }
+1157.1.1 = { culture = low_german }
+1157.1.1 = { religion = catholic } 
+1187.1.1 = { b_brenna = city } 

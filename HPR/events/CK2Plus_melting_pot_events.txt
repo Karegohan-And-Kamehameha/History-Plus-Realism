@@ -11,7 +11,7 @@ character_event = {
 	id = 55002
 	desc = "EVTDESC55002"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -194,8 +194,8 @@ character_event = {
 	desc = "EVTDESC55003"
 	picture = GFX_evt_throne_room
 
-	only_playable = yes	
-	
+	only_playable = yes
+
 	trigger = {
 		year = 1100
 		any_demesne_province = {
@@ -325,7 +325,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	culture = english
-	
+
 	trigger = {
 		year = 1100
 		OR = {
@@ -389,7 +389,7 @@ character_event = {
 	id = 55005
 	desc = "EVTDESC55005"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -492,7 +492,7 @@ character_event = {
 	id = Plus.630
 	desc = "EVTDESC_Plus_630"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -687,7 +687,7 @@ character_event = {
 	id = Plus.631
 	desc = "EVTDESC_Plus_631"
 	picture = GFX_evt_throne_room
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -813,7 +813,7 @@ character_event = {
 	id = Plus.632
 	desc = "EVTDESC_Plus_632"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -891,7 +891,7 @@ character_event = {
 	id = Plus.633
 	desc = "EVTDESC_Plus_633"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -938,7 +938,7 @@ character_event = {
 			year = 1200
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA55005"
 		random_vassal = {
@@ -983,7 +983,7 @@ character_event = {
 	id = Plus.635
 	desc = "EVTDESC_Plus_635"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -1168,7 +1168,7 @@ character_event = {
 	id = Plus.636
 	desc = "EVTDESC_Plus_636"
 	picture = GFX_evt_throne_room
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -1284,7 +1284,7 @@ character_event = {
 	id = Plus.637
 	desc = "EVTDESC_Plus_637"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -1354,7 +1354,7 @@ character_event = {
 	id = Plus.638
 	desc = "EVTDESC_Plus_633"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -1401,7 +1401,7 @@ character_event = {
 			year = 1200
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA55005"
 		random_vassal = {
@@ -1446,7 +1446,7 @@ character_event = {
 	id = Plus.640
 	desc = "EVTDESC_Plus_640"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -1631,7 +1631,7 @@ character_event = {
 	id = Plus.641
 	desc = "EVTDESC_Plus_641"
 	picture = GFX_evt_throne_room
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -1753,7 +1753,7 @@ character_event = {
 	id = Plus.642
 	desc = "EVTDESC_Plus_642"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -1823,7 +1823,7 @@ character_event = {
 	id = Plus.643
 	desc = "EVTDESC_Plus_633"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -1870,7 +1870,7 @@ character_event = {
 			year = 1200
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA55005"
 		random_vassal = {
@@ -1915,7 +1915,7 @@ character_event = {
 	id = Plus.645
 	desc = "EVTDESC_Plus_645"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -1926,11 +1926,11 @@ character_event = {
 		year = 900
 		OR = {
 			independent = yes
-			top_liege = { culture = english_norse }
+			top_liege = { culture = anglonorse }
 		}
 		capital_scope = {
 			region = custom_england
-	    }    
+	    }
 		culture_group = north_germanic
 		any_demesne_province = {
 			num_of_settlements = 1
@@ -2054,18 +2054,18 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA55002"
-		culture = english_norse
+		culture = anglonorse
 		random_demesne_province = {
 			limit = {
 				num_of_settlements = 1
 				region = custom_england
-				culture = saxon   
+				culture = saxon
 			}
 			add_province_modifier = {
 				name = recent_culture_change
 				duration = -1
 			}
-			culture = english_norse
+			culture = anglonorse
 			set_province_flag = melting_pot
 		}
 	}
@@ -2081,7 +2081,7 @@ character_event = {
 	id = Plus.646
 	desc = "EVTDESC_Plus_646"
 	picture = GFX_evt_throne_room
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -2092,18 +2092,18 @@ character_event = {
 			culture = saxon
 			OR = {
 				AND = {
-					any_neighbor_province = { has_owner = yes culture = english_norse }
-					ROOT = { top_liege = { culture = english_norse } }
+					any_neighbor_province = { has_owner = yes culture = anglonorse }
+					ROOT = { top_liege = { culture = anglonorse } }
 				}
 				ROOT = {
 					OR = {
 						independent = yes
-						top_liege = { culture = english_norse }
+						top_liege = { culture = anglonorse }
 					}
 					capital_scope = {
 						region = custom_england
 					}
-					culture = english_norse
+					culture = anglonorse
 				}
 			}
 			NOT = { has_province_flag = melting_pot }
@@ -2131,18 +2131,18 @@ character_event = {
 				culture = saxon
 				OR = {
 					AND = {
-						any_neighbor_province = { has_owner = yes  culture = english_norse }
-						ROOT = { top_liege = { culture = english_norse } }
+						any_neighbor_province = { has_owner = yes  culture = anglonorse }
+						ROOT = { top_liege = { culture = anglonorse } }
 					}
 					ROOT = {
 						OR = {
 							independent = yes
-							top_liege = { culture = english_norse }
+							top_liege = { culture = anglonorse }
 						}
 						capital_scope = {
 							region = custom_england
 						}
-						culture = english_norse
+						culture = anglonorse
 					}
 				}
 				NOT = { has_province_flag = melting_pot }
@@ -2151,7 +2151,7 @@ character_event = {
 				name = recent_culture_change
 				duration = -1
 			}
-			culture = english_norse
+			culture = anglonorse
 			set_province_flag = melting_pot
 			save_event_target_as = converted_province
 			hidden_tooltip = {
@@ -2176,28 +2176,28 @@ character_event = {
 	}
 }
 
-# Make my court english_norse
+# Make my court anglonorse
 character_event = {
 	id = Plus.647
 	desc = "EVTDESC_Plus_647"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	culture = english_norse
+	culture = anglonorse
 
 	trigger = {
 		year = 900
 		OR = {
 			independent = yes
-			top_liege = { culture = english_norse }
+			top_liege = { culture = anglonorse }
 		}
 		capital_scope = {
 			region = custom_england
 		}
-		culture = english_norse
+		culture = anglonorse
 		any_courtier = {
 			is_ruler = no
 			prisoner = no
@@ -2231,7 +2231,7 @@ character_event = {
 					culture = saxon
 				}
 			}
-			culture = english_norse
+			culture = anglonorse
 			hidden_tooltip = {
 				character_event = { id = Plus.649 days = 3 }
 			}
@@ -2249,7 +2249,7 @@ character_event = {
 
 	option = {
 		name = "OK"
-		culture = english_norse
+		culture = anglonorse
 	}
 }
 
@@ -2258,7 +2258,7 @@ character_event = {
 	id = Plus.650
 	desc = "EVTDESC_Plus_650"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -2429,7 +2429,7 @@ character_event = {
 	id = Plus.651
 	desc = "EVTDESC_Plus_651"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -2570,7 +2570,7 @@ character_event = {
 	id = Plus.655
 	desc = "EVTDESC_Plus_655"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -2719,7 +2719,7 @@ character_event = {
 	id = Plus.656
 	desc = "EVTDESC_Plus_656"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -2825,7 +2825,7 @@ character_event = {
 	id = Plus.660
 	desc = "EVTDESC_Plus_660"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -2836,7 +2836,7 @@ character_event = {
 		year = 900
 		OR = {
 			independent = yes
-			top_liege = { culture = gallawa }
+			top_liege = { culture = norsegaelic }
 		}
 		capital_scope = {
 			OR = {
@@ -2859,7 +2859,7 @@ character_event = {
 				culture_group = north_germanic
 				culture_group = celtic
 			}
-			NOT = { culture = gallawa }
+			NOT = { culture = norsegaelic }
 		}
 		NOT = { has_character_flag = no_melting_pot }
 	}
@@ -2978,7 +2978,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA55002"
-		culture = gallawa
+		culture = norsegaelic
 		random_demesne_province = {
 			limit = {
 				num_of_settlements = 1
@@ -2992,13 +2992,13 @@ character_event = {
 					culture_group = north_germanic
 					culture_group = celtic
 				}
-				NOT = { culture = gallawa }
+				NOT = { culture = norsegaelic }
 			}
 			add_province_modifier = {
 				name = recent_culture_change
 				duration = -1
 			}
-			culture = gallawa
+			culture = norsegaelic
 			set_province_flag = melting_pot
 		}
 	}
@@ -3014,7 +3014,7 @@ character_event = {
 	id = Plus.661
 	desc = "EVTDESC_Plus_661"
 	picture = GFX_evt_throne_room
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -3031,16 +3031,16 @@ character_event = {
 				culture_group = north_germanic
 				culture_group = celtic
 			}
-			NOT = { culture = gallawa }
+			NOT = { culture = norsegaelic }
 			OR = {
 				AND = {
-					any_neighbor_province = { has_owner = yes culture = gallawa }
-					ROOT = { top_liege = { culture = gallawa } }
+					any_neighbor_province = { has_owner = yes culture = norsegaelic }
+					ROOT = { top_liege = { culture = norsegaelic } }
 				}
 				ROOT = {
 					OR = {
 						independent = yes
-						top_liege = { culture = gallawa }
+						top_liege = { culture = norsegaelic }
 					}
 					capital_scope = {
 						OR = {
@@ -3050,7 +3050,7 @@ character_event = {
 							region = custom_brittany
 						}
 					}
-					culture = gallawa
+					culture = norsegaelic
 				}
 			}
 			NOT = { has_province_flag = melting_pot }
@@ -3084,16 +3084,16 @@ character_event = {
 					culture_group = north_germanic
 					culture_group = celtic
 				}
-				NOT = { culture = gallawa }
+				NOT = { culture = norsegaelic }
 				OR = {
 					AND = {
-						any_neighbor_province = { has_owner = yes  culture = gallawa }
-						ROOT = { top_liege = { culture = gallawa } }
+						any_neighbor_province = { has_owner = yes  culture = norsegaelic }
+						ROOT = { top_liege = { culture = norsegaelic } }
 					}
 					ROOT = {
 						OR = {
 							independent = yes
-							top_liege = { culture = gallawa }
+							top_liege = { culture = norsegaelic }
 						}
 						capital_scope = {
 							OR = {
@@ -3103,7 +3103,7 @@ character_event = {
 								region = custom_brittany
 							}
 						}
-						culture = gallawa
+						culture = norsegaelic
 					}
 				}
 				NOT = { has_province_flag = melting_pot }
@@ -3112,7 +3112,7 @@ character_event = {
 				name = recent_culture_change
 				duration = -1
 			}
-			culture = gallawa
+			culture = norsegaelic
 			set_province_flag = melting_pot
 			save_event_target_as = converted_province
 			hidden_tooltip = {
@@ -3142,18 +3142,18 @@ character_event = {
 	id = Plus.662
 	desc = "EVTDESC_Plus_662"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	culture = gallawa
+	culture = norsegaelic
 
 	trigger = {
 		year = 900
 		OR = {
 			independent = yes
-			top_liege = { culture = gallawa }
+			top_liege = { culture = norsegaelic }
 		}
 		capital_scope = {
 			OR = {
@@ -3163,7 +3163,7 @@ character_event = {
 				region = custom_brittany
 			}
 		}
-		culture = gallawa
+		culture = norsegaelic
 		any_courtier = {
 			is_ruler = no
 			prisoner = no
@@ -3171,7 +3171,7 @@ character_event = {
 				culture_group = north_germanic
 				culture_group = celtic
 			}
-			NOT = { culture = gallawa }
+			NOT = { culture = norsegaelic }
 		}
 	}
 
@@ -3197,9 +3197,9 @@ character_event = {
 					culture_group = north_germanic
 					culture_group = celtic
 				}
-				NOT = { culture = gallawa }
+				NOT = { culture = norsegaelic }
 			}
-			culture = gallawa
+			culture = norsegaelic
 			hidden_tooltip = {
 				character_event = { id = Plus.664 days = 3 }
 			}
@@ -3217,7 +3217,7 @@ character_event = {
 
 	option = {
 		name = "OK"
-		culture = gallawa
+		culture = norsegaelic
 	}
 }
 
@@ -3226,7 +3226,7 @@ character_event = {
 	id = Plus.665
 	desc = "EVTDESC_Plus_665"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -3419,7 +3419,7 @@ character_event = {
 	id = Plus.666
 	desc = "EVTDESC_Plus_666"
 	picture = GFX_evt_throne_room
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -3542,7 +3542,7 @@ character_event = {
 	id = Plus.667
 	desc = "EVTDESC_Plus_667"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -3607,7 +3607,7 @@ character_event = {
 	id = Plus.668
 	desc = "EVTDESC_Plus_668"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes

@@ -1,0 +1,936 @@
+######################## SWMH ######################
+#Dynasties: 1000101530 - 1000101569
+#Characters: 1000229600 - 1000229699
+
+1000229600 = {
+	name="Muslim"
+	# AKA: Sharaf ad-Dawla #1080 gained Aleppo, 1081 Harran
+	dynasty=101862
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=4
+	religion="shiite"
+	culture="bedouin_arabic"
+	trait="just"
+	trait="tough_soldier"
+	father=3820
+	1044.1.1={
+		birth=yes
+	}
+	1070.2.2={
+		add_spouse=1000229919  #Alp-Arslan's sister
+	}
+	1085.6.6={
+		death=yes
+	}
+}
+1000229601 = {
+	name="Ibrahim"
+	#1086 lost Aleppo
+	dynasty=101862
+	religion="shiite"
+	culture="bedouin_arabic"
+	trait="just"
+	father=3820
+	1048.1.1={
+		birth=yes
+	}
+	1093.5.5={
+		death=yes
+	}
+}
+1000229602 = {
+	name="'Ali"
+	dynasty=101862
+	religion="shiite"
+	culture="bedouin_arabic"
+	father=1000229600
+	mother=1000229919
+	1071.1.1={
+		birth=yes
+	}
+	1099.6.6={
+		death=yes
+	}
+}
+1000229603 = {
+	name="Muhammad"
+	dynasty=101862
+	religion="shiite"
+	culture="bedouin_arabic"
+	father=1000229600
+	mother=1000229919
+	1072.1.1={
+		birth=yes
+	}
+	1095.6.6={
+		death=yes
+	}
+}
+
+#rulers of Dahlak
+1000229604 = {
+	name="Abú s-Sad'ád"
+	dynasty=1000101550
+	religion="sunni"
+	culture="ethiopian"
+	1037.1.1={
+		birth=yes
+	}
+	1064.1.1={
+		culture="bedouin_arabic"
+	}
+	1093.6.6={
+		death=yes
+	}
+}
+1000229605 = {
+	name="Yahyá"
+	dynasty=1000101550
+	religion="sunni"
+	culture="ethiopian"
+	father=1000229604
+	1060.1.1={
+		birth=yes
+	}
+	1064.1.1={
+		culture="bedouin_arabic"
+	}
+	1120.6.6={
+		death=yes
+	}
+}
+1000229606 = {
+	name="Abú s-Sad'ád"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229605
+	1089.1.1={
+		birth=yes
+	}
+	1147.6.6={
+		death=yes
+	}
+}
+1000229607 = {
+	name="Zaynalmulk"
+  female=yes
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229606
+	1111.1.1={
+		birth=yes
+	}
+	1160.6.6={
+		death=yes
+	}
+}
+1000229608 = {
+	name="Yahyá"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229606
+	1115.1.1={
+		birth=yes
+	}
+	1131.1.1={
+		add_spouse=1000228988
+	}
+	1163.6.6={
+		death=yes
+	}
+}
+1000229609 = {
+	name="Al-Malik Abú l-Fadl"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229608
+	mother=1000228988
+	1136.1.1={
+		birth=yes
+	}
+	1172.6.6={
+		death=yes
+	}
+}
+1000229610 = {
+	name="Abú s-Sad'ád"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229608
+	mother=1000228988
+	1138.1.1={
+		birth=yes
+	}
+	1154.1.1={
+		add_spouse=1000228989
+	}
+	1193.6.6={
+		death=yes
+	}
+}
+1000229611 = {
+	name="Yahyá"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229609
+	1159.1.1={
+		birth=yes
+	}
+	1188.6.6={
+		death=yes
+	}
+}
+1000229612 = {
+	name="Abú s-Sad'ád"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229611
+	1182.1.1={
+		birth=yes
+	}
+	1209.6.6={
+		death=yes
+	}
+}
+1000229613 = {
+	name="Muhammad"
+  #AKA: Abú 'Abdalláh Muhammad'
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229611
+	1186.1.1={
+		birth=yes
+	}
+	1230.6.6={
+		death=yes
+	}
+}
+1000229614 = {
+	name="Sittalmulk"
+  female=yes
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229610
+	mother=1000228989
+	1155.1.1={
+		birth=yes
+	}
+	1171.6.6={
+		death=yes
+	}
+}
+1000229615 = {
+	name="Sulaimán"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229610
+	mother=1000228989
+	1160.1.1={
+		birth=yes
+	}
+	1192.6.6={
+		death=yes
+	}
+}
+1000229616 = {
+	name="Abú s-Sad'ád"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229610
+	mother=1000228989
+	1178.1.1={
+		birth=yes
+	}
+	1247.6.6={
+		death=yes
+	}
+}
+1000229617 = {
+	name="Fádil"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229615
+	1187.1.1={
+		birth=yes
+	}
+	1240.6.6={
+		death=yes
+	}
+}
+1000229618 = {
+	name="Qamúla"
+  female=yes
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229617
+	1210.1.1={
+		birth=yes
+	}
+	1283.6.6={
+		death=yes
+	}
+}
+1000229619 = {
+	name="'Abdalláh"
+	dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229608
+	mother=1000228988
+	1133.1.1={
+		birth=yes
+	}
+	1160.6.6={
+		death=yes
+	}
+}
+1000229620 = {
+	name="Rizqalláh"
+	dynasty=1000101550
+	religion="sunni"
+	culture="ethiopian"
+	father=1000229619
+	1160.1.1={
+		birth=yes
+	}
+	1214.6.6={
+		death=yes
+	}
+}
+1000229621 = {
+	name="Abú l-Fidá'"  #a person/courtier in Dahlak
+	#dynasty=1000101550
+	religion="sunni"
+	culture="bedouin_arabic"
+	1270.1.1={
+		birth=yes
+	}
+	1331.6.6={
+		death=yes
+	}
+}
+
+#Qalhati
+1000229668 = {
+	name="Mahmud Qalhati"	#1249 Hormuz, 1261 Oman, ruler of Hormuz, Qais, Bahrain, Dhofar, Qatif and Nizwa
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229675
+	1226.1.1={
+		birth=yes
+	}
+	1286.1.1={
+		death=yes
+	}
+}
+1000229669 = {
+	name="Ayaz Bahá' al-Dín"    #1249 taken Hormuz, 1261 conquered Oman
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229668
+	1259.1.1={
+		birth=yes
+	}
+	1316.1.1={
+		death=yes
+	}
+}
+1000229670 = {  #fantasy ancestor
+	name="Qalhat"
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	1050.1.1={
+		birth=yes
+	}
+	1110.1.1={
+		death=yes
+	}
+}
+1000229671 = {  #placeholder
+	name="Mahmud"
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229670
+	1080.1.1={
+		birth=yes
+	}
+	1140.1.1={
+		death=yes
+	}
+}
+1000229672 = {  #placeholder
+	name="Ayaz"
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229671
+	1110.1.1={
+		birth=yes
+	}
+	1173.1.1={
+		death=yes
+	}
+}
+1000229673 = {  #placeholder
+	name="Bakr"
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229672
+	1138.1.1={
+		birth=yes
+	}
+	1201.1.1={
+		death=yes
+	}
+}
+1000229674 = {  #placeholder
+	name="Sulaiman"
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229673
+	1165.1.1={
+		birth=yes
+	}
+	1204.1.1={
+		death=yes
+	}
+}
+1000229675 = {  #placeholder
+	name="Ahmad"
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229674
+	1193.1.1={
+		birth=yes
+	}
+	1240.1.1={
+		death=yes
+	}
+}
+1000229622 = {
+	name="Tahmatan Qutb al-Dín"
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229669
+	1285.1.1={
+		birth=yes
+	}
+	1346.1.1={
+		death=yes
+	}
+}
+1000229623 = {
+	name="Turan Shah"
+	dynasty=1000101909
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229622
+	1309.1.1={
+		birth=yes
+	}
+	1377.1.1={
+		death=yes
+	}
+}
+#al-Iráqí family
+1000229624 = {
+	name="Abú Ibráhím"
+	dynasty=1000101552
+	religion="sunni"
+	culture="bedouin_arabic"
+	1218.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+1000229625 = {
+	name="Firúz"
+	dynasty=1000101552
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229624
+	1240.1.1={
+		birth=yes
+	}
+	1273.1.1={
+		death=yes
+	}
+}
+1000229626 = {
+	name="Ibráhím"
+	dynasty=1000101552
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229624
+	1248.1.1={
+		birth=yes
+	}
+	1306.1.1={
+		death=yes
+	}
+}
+1000229627 = {
+	name="Ibráhím"
+	dynasty=1000101552
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229626
+	1276.1.1={
+		birth=yes
+	}
+	1321.1.1={
+		death=yes
+	}
+}
+1000229628 = {
+	name="Fírúz"
+	dynasty=1000101552
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229627
+	1300.1.1={
+		birth=yes
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+# Yahmadí imáms in Oman
+1000229629 = {
+	name="Sa'íd"
+	dynasty=1000101553
+	religion="shiite"
+	culture="bedouin_arabic"
+	990.1.1={
+		birth=yes
+	}
+	1044.1.1={
+		death=yes
+	}
+}
+1000229630 = {
+	name="Ráshid"	#imam since 1032, 1050 drove Banú Makran out of Oman
+	dynasty=1000101553
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229629
+	1012.1.1={
+		birth=yes
+	}
+	1077.1.1={
+		death=yes
+	}
+}
+# Qirwashi patricians of Dahlak
+1000229631 = {
+	name="Qirwash"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	1030.1.1={
+		birth=yes
+	}
+	1089.1.1={
+		death=yes
+	}
+}
+1000229632 = {
+	name="Muqallad"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229631
+	1062.1.1={
+		birth=yes
+	}
+	1103.1.1={
+		death=yes
+	}
+}
+1000229633 = {
+	name="Musayyib"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229632
+	1096.1.1={
+		birth=yes
+	}
+	1149.1.1={
+		death=yes
+	}
+}
+1000229634 = {
+	name="Muhammad"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229633
+	1129.1.1={
+		birth=yes
+	}
+	1182.1.1={
+		death=yes
+	}
+}
+1000229635 = {
+	name="Husám"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229634
+	1164.1.1={
+		birth=yes
+	}
+	1221.1.1={
+		death=yes
+	}
+}
+1000229636 = {
+	name="Musayyib"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229635
+	1199.1.1={
+		birth=yes
+	}
+	1258.1.1={
+		death=yes
+	}
+}
+1000229637 = {
+	name="Muhammad"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229636
+	1230.1.1={
+		birth=yes
+	}
+	1288.1.1={
+		death=yes
+	}
+}
+1000229638 = {
+	name="Zaim"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229637
+	1266.1.1={
+		birth=yes
+	}
+	1319.1.1={
+		death=yes
+	}
+}
+1000229639 = {
+	name="Qirwash"
+	dynasty=1000101554
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000229638
+	1300.1.1={
+		birth=yes
+	}
+	1362.1.1={
+		death=yes
+	}
+}
+# Tizzi patricians of Dahlak
+1000229640 = {
+	name="Aarif"
+	dynasty=1000101555	#Tizzi
+	religion="shiite"
+	culture="bedouin_arabic"
+	1035.1.1={
+		birth=yes
+	}
+	1092.1.1={
+		death=yes
+	}
+}
+1000229641 = {
+	name="Jabir"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229640
+	1064.1.1={
+		birth=yes
+	}
+	1109.1.1={
+		death=yes
+	}
+}
+1000229642 = {
+	name="Najib"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229641
+	1090.1.1={
+		birth=yes
+	}
+	1147.1.1={
+		death=yes
+	}
+}
+1000229643 = {
+	name="Sadiq"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229642
+	1118.1.1={
+		birth=yes
+	}
+	1181.1.1={
+		death=yes
+	}
+}
+1000229644 = {
+	name="Najib"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229643
+	1153.1.1={
+		birth=yes
+	}
+	1210.1.1={
+		death=yes
+	}
+}
+1000229645 = {
+	name="Fadil"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229644
+	1181.1.1={
+		birth=yes
+	}
+	1238.1.1={
+		death=yes
+	}
+}
+1000229646 = {
+	name="Sadiq"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229645
+	1212.1.1={
+		birth=yes
+	}
+	1261.1.1={
+		death=yes
+	}
+}
+1000229647 = {
+	name="Najib"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229646
+	1240.1.1={
+		birth=yes
+	}
+	1297.1.1={
+		death=yes
+	}
+}
+1000229648 = {
+	name="Fadil"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229647
+	1270.1.1={
+		birth=yes
+	}
+	1322.1.1={
+		death=yes
+	}
+}
+1000229649 = {
+	name="Youkhanna"
+	dynasty=1000101554
+	religion="shiite"
+	culture="bedouin_arabic"
+	father = 1000229648
+	1298.1.1={
+		birth=yes
+	}
+	1357.1.1={
+		death=yes
+	}
+}
+
+##################
+1000229650 = {
+	name="'Adí" #semi-historical placeholder for 'Adí branch of Banu Hilál
+	dynasty=1000101556
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155193
+	1005.1.1={
+		birth=yes
+	}
+	1059.1.1={
+		death=yes
+	}
+}
+1000229651 = {
+	name="Ziyad" #placeholder for 'Adí branch of Banu Hilál
+	dynasty=1000101556
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229650
+	1032.1.1={
+		birth=yes
+	}
+	1089.1.1={
+		death=yes
+	}
+}
+##################
+1000229652 = {
+	name="'Awf" #semi-historical placeholder for 'Awf branch of Banu Sulaym
+	dynasty=1000101558
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155198
+	1012.1.1={
+		birth=yes
+	}
+	1057.1.1={
+		death=yes
+	}
+}
+1000229653 = {
+	name="Aziz" #placeholder for 'Awf branch of Banu Sulaym
+	dynasty=1000101558
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229652
+	1033.1.1={
+		birth=yes
+	}
+	1089.1.1={
+		death=yes
+	}
+}
+1000229654 = {
+	name="Qamara" #placeholder for 'Awf branch of Banu Sulaym
+	female=yes
+	dynasty=1000101558
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229653
+	1053.1.1={
+		birth=yes
+	}
+	1109.1.1={
+		death=yes
+	}
+}
+##################
+1000229655 = {
+	name="Debbab" #semi-historical placeholder for Debbab branch of Banu Sulaym
+	dynasty=1000101559
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155198
+	1015.1.1={
+		birth=yes
+	}
+	1060.1.1={
+		death=yes
+	}
+}
+1000229656 = {
+	name="Ja'far" #placeholder for Debbab branch of Banu Sulaym
+	dynasty=1000101559
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229655
+	1040.1.1={
+		birth=yes
+	}
+	1093.1.1={
+		death=yes
+	}
+}
+##################
+1000229657 = {
+	name="Zegb" #semi-historical placeholder for Zegb branch of Banu Sulaym
+	dynasty=1000101560
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155198
+	1016.1.1={
+		birth=yes
+	}
+	1062.1.1={
+		death=yes
+	}
+}
+1000229658 = {
+	name="Shujah" #placeholder for Zegb branch of Banu Sulaym
+	dynasty=1000101560
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229657
+	1042.1.1={
+		birth=yes
+	}
+	1090.1.1={
+		death=yes
+	}
+}
+1000229659 = {
+	name="Sajida" #placeholder for Zegb branch of Banu Sulaym
+	female=yes
+	dynasty=1000101560
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000229657
+	1043.1.1={
+		birth=yes
+	}
+	1095.1.1={
+		death=yes
+	}
+}
+
+#be carefull when you get to XXX660!
+#free Characters: 1000229652 - 1000229667, 1000229676 - 1000229699
+#Dynasties: 1000101550 - 1000101569

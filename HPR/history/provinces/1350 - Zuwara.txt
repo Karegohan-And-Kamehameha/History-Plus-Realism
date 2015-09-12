@@ -1,0 +1,21 @@
+# 1350 - Zuwara
+
+# County Title
+title = c_zuwara
+
+# Settlements
+max_settlements = 4
+
+b_zuwara = tribal
+#b_medenine = city
+
+#b_tataouine = temple
+#b_jarjis = castle
+
+# Misc
+culture = zanata
+religion = sunni
+
+# History
+1052.1.1 = { culture = bedouin_arabic }
+1100.1.1 = { culture = maghreb_arabic }

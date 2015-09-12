@@ -8,22 +8,20 @@ max_settlements = 4
 
 b_cueta = castle
 b_tetouan = city
-b_Xauen = temple
+
+#b_mdiq = temple
+#b_martil = castle
 
 #b_aulef = castle
+#b_Xauen = temple
 #b_babtaza = castle
-#b_mdiq = castle
 #b_targuist = castle
-#b_martil = castle
 
 # Misc
 culture = maghreb_arabic
-religion = catholic
+religion = sunni
 
 # History
 
-800.1.1 = { religion = sunni }
-
-1192.1.1 = { trade_post = b_embriaco }
 
 

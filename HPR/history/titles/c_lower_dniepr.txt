@@ -8,9 +8,6 @@
 745.1.1={
 	holder=74011
 }
-761.1.1={
-	holder=146204
-}
 777.1.1={
 	holder=74013
 }
@@ -27,67 +24,107 @@
 	liege = "k_magyar"
 	holder=146230
 }
-845.1.1 = {
-#	holder=159137
-	holder = 146231
+845.1.1={
+	holder=159137
 }
-896.1.1={
-	liege = 0
+854.1.1={
+	liege = "d_kabars"
+	holder=1000233271 # Marot
 }
-990.1.1 = {
-	holder = 1000254402
-	liege = "k_pechenegs"
+#Küerchi-Chur
+895.1.1={
+	liege = "d_kuerchi_chur"
+	holder=1000231725 # Kügel
 }
-1066.1.1 = {
-liege = "d_crimea"
+910.1.1={
+	holder=1000231727
 }
-1066.1.1=
+940.1.1={
+	holder=1000231730
+}
+969.1.1={
+	holder=1000231732
+}
+980.1.1={
+	holder=1000231734 # Küchük
+}
+1030.1.1={
+	holder=1000231736
+}
+#Kegen migrates
+#Suru-Külbej
+1044.1.1={
+	holder=1000231778 # Tiraq
+}
+#Tiraq migrates, Oghuz takes over.
+1046.1.1 = {
+	liege=k_uzes
+	holder=1000231873
+}
+#Cumans arrive.
+#Ulasgoli
+1060.1.1={
+	liege=d_ulasgoli
+	holder=1000233138
+}
+1080.1.1={
+	holder=1000233140 # Kochi
+}
+1103.4.1={
+	holder=1000233142
+}
+#Terteroba
+1123.1.1={
+        liege="d_terteroba"
+	holder=1000233095
+}
+1140.1.1={
+	holder=1000233097
+}
+1170.1.1={
+	holder=1000233099
+}
+1175.1.1={
+	holder=1000233101 #Gza/Kzak 
+}
+1190.1.1={
+	holder=1000233103 # Roman
+}
+1220.1.1={
+	holder=1000233105 # Köten/Kotian/Kuthen/Johan
+}
+#Terteroba migrate to Hungary after defeat
+1238.1.1=
 {
-holder=34854
+liege="d_crimea"
+	holder=34850
 }
-1091.1.1=
+1246.1.1=
 {
-	holder=34845
+	holder=125507
 }
-1120.1.1=
+1266.1.2=
 {
-	holder=34846
+	holder=125510
 }
-1150.1.1 = {
-	holder = 34847
+1286.1.2=
+{
+	holder=125518
 }
-1170.1.1 = {
-	holder = 228033
+1299.1.2=
+{
+	holder=125513
 }
-1200.1.1 = {
-	holder = 34848
+1302.1.2=
+{
+	holder=480000
 }
-1220.1.1 = {
-	holder = 34849
+1312.1.2=
+{
+	holder=34853
 }
-
-1238.1.1 = {
-	holder = 34850
-}
-1246.1.1 = {
-	holder = 125507
-}
-1266.1.2 = {
-	holder = 125510
-}
-1286.1.2 = {
-	holder = 125518
-}
-1299.1.2 = {
-	holder = 125513
-}
-1302.1.2 = {
-	holder = 480000
-}
-1312.1.2 = {
-	holder = 34853
-}
-1337.1.1 = {
-	holder = 125514
+1337.1.1=
+{
+	holder=125514
 }
 

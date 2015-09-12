@@ -1,65 +1,86 @@
-758.1.1={
-	holder = 205265
+865.1.1={
+	liege="d_somerset"
+	holder=7627 # Alfred the Great
 }
-865.1.1 = {
-	liege = "k_england"
-	holder = 33358 
+879.1.1={ # Treaty of Alfred and Guthrum
+	liege="d_norfolk"
+	holder = 168650 # Gorm/Guttorm/Guthrum/Athelstan King of Eastanglia
 }
-994.1.1 = {
-	holder = 1000255413
-	liege = "k_england"
+890.12.1={
+	holder = 1000144470 # Eiríkr/Eohric King of Eastanglia(or just a jarl?)
 }
-1066.1.1 = {
-	liege = "d_norfolk"
+902.12.13={
+	holder=1000226375 # Ælfgar # Earldorman of Essex ?-950ish
+	liege="d_somerset"
 }
-1066.1.5 = {
-	holder = 132 #Gyrth Godwinsson
+927.7.12={
+	liege="k_england"
 }
-1066.10.14 = {
-	liege = "k_england"
+951.1.1={ 
+	holder = 1000226351 # Æthelwald, Ealdorman of Essex (950ish?-962)
 }
-1066.10.14 = {
-	holder = 129048 #Geoffrey de Mandeville
+962.1.1={ 
+	liege="d_essex"
+	holder = 1000226367 # Byrhtnoth, Earldorman of Essex ?-991.
 }
-1104.1.1 = {
-	holder = 129049 #William de Mandeville
+991.8.10={
+	liege="k_england"
+	holder=0 # 
+}         
+1066.1.1={
+	liege="d_norfolk"
 }
-1116.1.1 = {
-	holder = 204745 #Geoffrey de Mandeville
+1066.1.5={
+	holder=132 #Gyrth Godwinsson
 }
-1144.10.1 = {
-	holder = 129050 #Geoffrey de Mandeville
+1066.10.14={
+	liege="k_england"
 }
-1166.1.1 = {
-	holder = 204740 #William de Mandeville
+1066.10.14=
+{
+	holder=129048 #Geoffrey de Mandeville
 }
-1189.11.14 = {
-	holder = 204510 #Richard I Lionheart
+1104.1.1=
+{
+	holder=129049 #William de Mandeville
 }
-1199.4.6 = {
-	holder = 129051 #Geoffrey FitzPeter
+1116.1.1=
+{
+	holder=204745 #Geoffrey de Mandeville
 }
-1213.10.14 = {
-	holder = 129052 #"Geoffrey FitzGeoffrey"
+1144.10.1={
+	holder=129050 #Geoffrey de Mandeville
 }
-1216.2.23 = {
-	holder = 129053 #"William FitzGeoffrey"
+1166.1.1={
+	holder=204740 #William de Mandeville
 }
-1227.1.1 = {
-	holder = 454522 #Henry III
+1189.11.14={
+	holder=204510 #Richard I Lionheart
 }
-1239.1.1 = {
-	holder = 7462 #Humphrey de Bohun
+1199.4.6={
+	holder=129051 #Geoffrey FitzPeter
 }
-1275.9.24 = {
-	holder = 7463 #Humphrey de Bohun
+1213.10.14={
+	holder=129052 #"Geoffrey FitzGeoffrey"
 }
-1298.12.31 = {
-	holder = 454561 #Humphrey de Bohun
+1216.2.23={
+	holder=129053 #"William FitzGeoffrey"
 }
-1321.11.6 = {
-	holder = 7464 #John of Bohun
+1227.1.1={
+	holder=454522 #Henry III
 }
-1335.1.20 = {
-	holder = 454560 #Humphrey de Bohun
+1239.1.1={
+	holder=7462 #Humphrey de Bohun
+}
+1275.9.24={
+	holder=7463 #Humphrey de Bohun
+}
+1298.12.31={
+	holder=454561 #Humphrey de Bohun
+}
+1321.11.6={
+	holder=7464 #John of Bohun
+}
+1335.1.20={
+	holder=454560 #Humphrey de Bohun
 }

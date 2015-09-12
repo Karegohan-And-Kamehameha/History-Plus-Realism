@@ -5,7 +5,7 @@ title = c_mahra
 
 # Settlements
 max_settlements = 3
-b_ghaydah = castle
+b_ghaydah = tribal
 b_nishtun = city
 #b_damqwat = temple
 

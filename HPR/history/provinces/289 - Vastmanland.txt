@@ -23,7 +23,7 @@ religion = norse_pagan
 800.1.1 = {
 	b_kopingshus = tb_shipyard_1
 }
-1000.1.1 = {
+1022.1.7 = {
 	b_kopingshus = castle
 	b_vasteras = city
 

@@ -5,24 +5,21 @@ title = c_rama
 
 # Settlements
 max_settlements = 3
-b_rama = tribal
-#b_usice = city
-b_samobor = temple
 
-#b_borac = castle
-#b_srebrenica = castle
-#b_srebrnik = castle
-#b_zenica = castle
-#b_zvornik = castle
+b_prozor_rama = castle
+b_travnik = castle
+#b_bioski = city
+
+ 
+
+
+
 
 # Misc
-culture = serbian
-religion = slavic_pagan
+culture = bosnian
+religion = catholic
 
 # History
-870.1.1 = {
-	religion = orthodox
-	b_rama = castle
-	b_usice = city
-}
-1180.1.1= { religion = bogomilist }
+
+1232.1.1= { religion = bogomilist } 
+1232.1.1= { b_fojnica = temple } 

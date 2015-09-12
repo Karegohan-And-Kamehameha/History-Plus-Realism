@@ -5,25 +5,19 @@ title = c_alcantara
 
 # Settlements
 max_settlements = 4
-b_alcantara = castle
-b_moraleja = city
-b_coria = temple
-#b_brozas = castle
-#b_lamata = castle
-#b_racharachel = castle
-#b_lasnavasdelmadrono = city
-#b_ceclavin = castle
+
+b_caceres = city
+b_coria = castle
+
+#b_alcantara = castle
+#b_valenciadealcantara = city
+
 
 # Misc
-culture = visigothic
-religion = catholic
+culture = andalusian_arabic
+religion = sunni
 
 # History
-943.1.1 = { 
-	culture = andalusian_arabic
-	religion = sunni
-}
-1237.1.1 = { 
-	culture = castillan
-	religion = catholic
-}
+
+1236.1.1 = { culture = castillan }
+1236.1.1 = { religion = catholic }

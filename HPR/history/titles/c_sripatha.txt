@@ -5,9 +5,6 @@
 760.1.1={
 	holder = 191014	#Matsyas
 }
-790.1.1={
-	liege = k_bengal
-}
 810.1.1={
 	holder = 188148 #Mahisarama
 }

@@ -4,11 +4,20 @@
 title = c_nubia
 
 # Settlements
-max_settlements = 4
-b_alwa = castle
-b_salala = city
-b_komelshokafa = temple
+max_settlements = 6
+b_faras = castle
+b_meinarti = city
+b_arramal = temple
 
+#b_gebeladda = castle
+#b_qasrelwizz = temple
+#b_arminna = castle
+#b_debeira = castle
+
+
+# original holdings which were not moved elswhere
+#b_salala = city
+#b_komelshokafa = temple
 #b_dradate = castle
 #b_dubarua = castle
 #b_derkin = castle
@@ -18,6 +27,5 @@ b_komelshokafa = temple
 # Misc
 culture = nubian
 religion = miaphysite
-terrain = mountain
 
 # History

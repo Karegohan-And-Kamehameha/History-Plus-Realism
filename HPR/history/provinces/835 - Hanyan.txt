@@ -7,9 +7,8 @@ title = c_hanyan
 max_settlements = 2
 
 b_hanyan = castle
+b_nadruma = city
 
-#b_naama = city
-#b_saida = temple
 
 #b_alkasdir = castle
 #b_alancha = castle
@@ -19,11 +18,7 @@ b_hanyan = castle
 
 # Misc
 culture = maghreb_arabic
-religion = kharijite
+religion = sunni
 
 # History
-
-909.1.1 = { religion = sunni }
-
-1187.1.1 = { b_naama = city }
 

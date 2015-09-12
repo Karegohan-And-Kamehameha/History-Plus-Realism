@@ -1,0 +1,15 @@
+# 1576 - Ayaguz
+
+# County Title
+title = c_ayaguz
+
+# Settlements
+max_settlements = 2
+b_ayaguz = tribal
+#b_karasu_ayaguz = castle
+
+# Misc
+culture = cuman
+religion = tengri_pagan
+
+# History

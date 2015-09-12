@@ -1,0 +1,28 @@
+# 1594 - Irahistan
+
+# County Title
+title = c_siraf
+
+# Settlements
+max_settlements = 4
+b_siraf = city
+b_kuran = temple
+b_naband = castle
+b_lawan = city
+
+# Misc
+culture = pahlavi
+religion = sunni
+
+# History
+870.1.1 = { culture = persian }
+977.10.10 = { capital = b_naband }
+977.10.10 = {
+      remove_settlement = b_siraf
+      }
+1030.1.1 = { b_siraf = city }
+1030.1.1 = { capital = b_siraf }
+1100.10.10 = { capital = b_naband }
+1100.10.10 = {
+      remove_settlement = b_lawan
+      }

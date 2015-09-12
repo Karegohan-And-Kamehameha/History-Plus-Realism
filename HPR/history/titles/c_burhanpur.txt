@@ -1,6 +1,5 @@
 720.1.1={
 	holder = 74410
-	liege = k_maharastra
 }
 735.1.1={
 	holder=74409	#Dantidurga Rashtrakuta
@@ -26,7 +25,6 @@
 }
 900.1.1={
 	holder = 74636
-	liege = d_devagiri
 }
 925.1.1={
 	holder = 74637
@@ -78,7 +76,6 @@
 }
 1173.1.1={
 	holder = 74654
-	liege = k_maharastra
 }
 1192.1.1={
 	holder = 74655

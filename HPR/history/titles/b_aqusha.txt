@@ -1,0 +1,10 @@
+#Shandan
+860.1.1=
+{
+liege= "c_philan"
+holder=1000233481 
+}
+910.1.1=
+{
+holder=0
+}

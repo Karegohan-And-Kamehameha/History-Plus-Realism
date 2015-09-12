@@ -1,0 +1,29 @@
+#Ölberli
+1050.1.1={
+	liege=k_cuman
+	holder=1000229750
+}
+1065.1.1={
+	liege=k_qipchaq
+}
+1080.1.1={
+	holder=1000229751 # Bönek I
+}
+1112.1.1={
+	holder=1000229752 # Sevenç
+}
+1151.1.1={
+	holder=1000233002 # Bönek II
+}
+1167.1.1={
+	holder=1000233003
+}
+1195.1.1={
+	holder=1000233004
+}
+1210.1.1={
+	holder=1000233005 # Bachman
+}
+1239.1.1={
+	holder=0 # Mongols put down revolt
+}

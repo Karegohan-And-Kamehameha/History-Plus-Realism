@@ -1,0 +1,20 @@
+# 1531 - Zanján
+
+# County Title
+title = c_zanjan
+
+# Settlements
+max_settlements = 3
+
+b_zanjan = castle
+b_suhravard = city
+b_khunaj = temple
+
+#Misc
+culture = daylamite
+religion = zoroastrian
+
+# History
+
+900.1.1 = { religion = shiite }
+

@@ -32,13 +32,19 @@
 830.1.1={
 	holder=74016
 }
-861.1.1={
-	holder=74017
+833.1.1={
+	liege=d_sarkel
 }
-886.1.1={
-	holder=74025
+847.1.1={
+	holder=74023
 }
-888.1.1={
+852.1.1={
+	holder=74024
+}
+864.1.1={
+	holder=180226
+}
+889.1.1={
 	holder=74026
 }
 899.1.1={
@@ -56,47 +62,50 @@
 945.1.1={
 	holder=146191
 }
-969.1.1={
-	holder=146193
+# Sarkel falls, Boru-Tolmach settles.
+966.1.1={
+	liege=d_boru_tolmach
+	holder=1000231806
 }
-993.1.1={
-	holder=146194
+998.1.1={
+	holder=1000231808
 }
-1016.1.1 = {
-	liege=0
-	holder=0
-}	
-1066.1.1=
+1015.1.1={
+	holder=1000231810
+}
+1022.1.1={
+	holder=1000231812
+}
+#Oghuz takes over
+1044.1.1 = {
+	liege=k_uzes
+	holder=1000231873
+}
+#Cumans arrive
+#Ören
+1050.1.1={
+	liege=d_oren
+	holder=1000233072
+}
+1108.1.1={
+	holder=1000233074
+}
+1131.1.1={
+	holder=1000233076
+}
+1164.1.1={
+	holder=1000233078
+}
+1201.1.1={
+	holder=1000233080
+}
+1226.1.1={
+	holder=1000233082
+}
+# Mongols put down revolt
+1239.1.1=
 {
 liege="d_azov"
-holder=20655
-}
-1089.1.1=
-{
-holder=228059
-}
-1110.1.1=
-{
-holder=479240
-}
-1150.1.1=
-{
-holder=34882
-}
-1170.1.1=
-{
-holder=34889
-}
-1180.1.1=
-{
-holder=34883
-}
-1210.1.1=
-{
-holder=34884
-}
-1238.1.1=
-{
 holder=34892
 }
 1270.1.1=

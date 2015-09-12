@@ -1,72 +1,81 @@
 330.1.1={
 	liege="d_armeniacon"
 }
-765.1.1={
-	holder=145848
-}
 865.1.1={
-	holder=145118
+	holder=145171
 }
-1000.1.1 = {
-	holder = 1750
-	liege = "d_paphlagonia"
+1060.1.1=
+{
+	holder=20537
 }
-1059.12.25 = {
-	liege = "d_armeniacon"
+1073.1.1=
+{
+	liege="e_byzantium"
 }
-
-1059.12.25 = {
-	holder = 1752
+1080.1.1={
+	liege="d_armeniacon"
+	holder = 1000232643
 }
-1067.7.12 = {
-	holder = 1756
+1086.1.1=
+{
+	liege="e_byzantium"
+	holder=1000232651
 }
-1071.4.17 = {
-	holder = 1758
+1092.1.1=
+{
+	holder=34290
 }
-#To Seljuks
-1077.1.1 = {
-	
-	holder = 3046
+1130.1.1=
+{
+	holder=34340
 }
-1086.1.1 = {
-	holder = 41701
+1156.1.1=
+{
+	holder=232551
 }
-1097.6.19 = {
-	
-	holder = 34338
+1169.1.1=
+{
+	holder=1000232243
 }
-1147.1.1 = {
-	holder = 34340
+1176.1.1=
+{
+	holder=215504
 }
-1156.1.1 = {
-	holder = 34342
+1185.1.1={
+	holder=1000232253
 }
-1193.1.1 = {
-	holder = 215037
+1204.4.1=
+{
+	liege="k_trebizond"	
 }
-1204.4.1 = {
-
-	holder = 215519
+1209.1.1=
+{
+	holder=215519
 }
-1211.1.1 = {
-	
-	holder = 71860
+1214.1.1=
+{
+	liege="d_armeniacon"	
+	holder=71860
 }
-1227.1.1 = {
-	holder = 71861
+1227.1.1=
+{
+	holder=71861
 }
-1248.1.1 = {
-	holder = 71862
+1248.1.1=
+{
+	holder=71862
 }
-1280.1.1 = {
-	holder = 71863
+1280.1.1=
+{
+	holder=71863
 }
  
-1309.1.1 = {
+1309.1.1=
+{
 	
-	holder = 476350
+	holder=476350
 }
-1314.1.1 = {
-	holder = 476351
+1314.1.1=
+{
+	holder=476351
 }

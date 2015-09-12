@@ -1,41 +1,61 @@
-988.1.1 = {
-holder = 1000254512
+# Buyids
+935.1.1={
+	liege="k_persia"
+	holder=1000231063
 }
 
-1037.1.1 = {
+
+# Seluks vanilla invasion
+960.1.1={
+	set_global_flag = seljuk_spawned
+}
+
+# Buyids
+976.9.9={
+	holder=1000231065
+}
+983.3.3={
+	holder=0
+}
+
+
+1037.1.1={
+  liege="e_persia"
 	holder = 3038
-	law = crown_authority_2
+	law = centralization_2
 }
-1063.9.4 = {
-	holder = 3040
+1063.9.4=
+{
+	holder=3040
 }
-1072.11.1 = {
+1072.11.1={
 	holder = 3042
 }
-1092.11.1 = {
+1092.11.1={
 	holder = 144012
 }
-1094.1.1 = {
+1094.1.1={
 	holder = 144013
 }
-1105.3.1 = {
+1105.3.1={
 	holder = 144014
 }
-1118.4.18 = {
+1118.4.18={
 	holder = 144015
 }
-1157.5.8 = {
+1157.5.8={
+  liege= 0
 	holder = 0 # End of the Seljuk Turks
 }
-1194.3.1 = {
-	holder = 230000
+1194.3.1=
+{
+	holder=230000
 }
-1200.1.1 = {
-	holder = 93052
+1200.1.1=
+{
+	holder=93052
 }
-1221.1.1 = {
-	holder = 125501
-}
-1227.12.2 = {
-holder = 0
+1221.1.1=
+{
+	holder=0
 }

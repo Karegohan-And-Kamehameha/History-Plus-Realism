@@ -12,22 +12,20 @@ b_skansin = tribal
 #b_funningur = castle
 #b_kvivik = castle
 #b_sandur = castle
-#b_hov = castle
 #b_klaksvik = castle
 
 # Misc
-culture = pictish
-religion = celtic_pagan
+culture = norse
+religion = norse_pagan
 terrain = mountain
 
 # History
-855.1.1={
-	culture = norse
-	religion = norse_pagan
+867.1.1 = {
+	b_skansin = tb_shipyard_1
 }
-1000.1.1 = {
-	religion = catholic
-	b_skansin = castle
+1035.1.1 = {
+b_skansin = castle
 	b_skansin = ca_shipyard_1
-} 
-1066.1.1 = { culture = icelandic }
+}
+1035.1.1 = { religion = catholic } 
+1047.10.25 = { culture = norwegian } 

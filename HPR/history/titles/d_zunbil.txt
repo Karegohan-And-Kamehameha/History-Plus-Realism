@@ -1,0 +1,14 @@
+861.1.1={
+	liege="d_zunbil"
+	holder=1000231300
+}
+867.2.2={
+	liege="k_sistan"
+	holder=163101
+}
+879.6.5={
+	holder=163164
+}
+901.1.1={
+	holder=0
+}

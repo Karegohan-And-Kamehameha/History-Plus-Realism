@@ -1,0 +1,26 @@
+technology = {
+	titles = {
+		d_perm
+		d_perm_vychegda
+		d_pechora
+		d_bjarmia
+		d_vyatka
+		d_beloozero     
+                d_mordva   
+		d_sura  
+                d_onega    
+	}
+
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		
+	}
+	
+	1337 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+}

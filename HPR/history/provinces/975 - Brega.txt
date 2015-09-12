@@ -1,0 +1,31 @@
+# 975 -  Brega
+
+# County Title
+title = c_brega
+
+# Settlements
+max_settlements = 5
+
+b_tara_meath = castle
+b_morgallion = castle
+b_knowth = castle
+#b_trim = castle
+#b_louth = city
+#b_mellifont = temple
+
+#b_kells = temple
+#b_ratoath = city
+#b_navan = city
+
+
+
+# Misc
+culture = irish
+religion = catholic
+
+# History
+900.1.1 = { b_louth = city }
+1013.1.1 = { remove_settlement = b_knowth } # kings of north Brega dies out
+1013.1.1 = { b_mellifont = temple }
+1175.1.1 = { b_trim = castle }
+1175.1.1 = { capital = b_trim }

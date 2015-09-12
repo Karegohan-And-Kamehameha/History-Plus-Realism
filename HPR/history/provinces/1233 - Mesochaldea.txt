@@ -1,0 +1,18 @@
+# 1233 - Mesochaldea
+
+# County Title
+title = c_mesochaldea
+
+# Settlements
+max_settlements = 2
+b_tzanikha = castle
+b_kharton = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1400.1.1 = { culture = turkish }
+1400.1.1 = { religion = sunni }

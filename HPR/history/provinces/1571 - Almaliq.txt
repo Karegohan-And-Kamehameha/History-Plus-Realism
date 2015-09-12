@@ -1,0 +1,20 @@
+# 1571 - Almaliq
+
+# County Title
+title = c_almaliq
+
+# Settlements
+max_settlements = 5
+b_almaliq = tribal
+b_sarbulaq = temple
+#b_pulad = city
+
+#b_illi = city
+#b_kash = castle
+
+
+# Misc
+culture = uighur
+religion = tengri_pagan
+
+# History

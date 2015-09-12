@@ -34,62 +34,93 @@
 965.1.1={
 	liege="d_armenia_minor"
 }
-1000.1.1 = {
-	holder = 1000252313
+1060.1.1=
+{
+holder=41568
 }
-1060.1.1 = {
-holder = 41568
+1074.1.1=
+{
+holder=41591
 }
-1068.1.1 = {
-holder = 41569
+1099.1.1={
+	liege="e_byzantium"
 }
-1080.1.1 = {
-holder = 41591
+1104.1.1={
+	liege="d_seleukeia"
 }
-1116.1.1 = {
-holder = 223031
+1116.1.1=
+{
+	liege="e_byzantium"
+	holder=223031
 }
-1130.1.1 = {
-holder = 223030
+1129.1.1={
+	liege="d_armenia_minor"
 }
-1153.1.1 = {
-holder = 223026
+1130.1.1=
+{
+holder=223030
 }
-1195.1.1 = {
-holder = 223028
+1153.1.1=
+{
+holder=223026
 }
-1263.1.1 = {
-holder = 31830 #Hethun I
+1158.1.1={
+	liege="e_byzantium"
 }
-1270.10.28 = {
-holder = 461802 #Levon II
+1161.1.1={
+	liege="d_armenia_minor"
 }
-1289.1.1 = {
-holder = 31857 #Hethum II
+1195.1.1=
+{
+holder=223028
 }
-1293.1.1 = {
-holder = 461801 #Thoros I
+1199.1.1=
+{
+	liege="k_cilician"
 }
-1294.1.1 = {
-holder = 31857 #Hethum II
+1263.1.1=
+{
+holder=31830 #Hethun I
 }
-1296.1.1 = {
-holder = 31860 #Smbat I
+1270.10.28=
+{
+holder=461802 #Levon II
 }
-1298.1.1 = {
-holder = 31879 #Gosdantin I
+1289.1.1=
+{
+holder=31857 #Hethum II
 }
-1299.1.1 = {
-holder = 31857 #Hethum II
+1293.1.1=
+{
+holder=461801 #Thoros I
 }
-1305.1.1 = {
-holder = 31878 #Levon III
+1294.1.1=
+{
+holder=31857 #Hethum II
 }
-1307.1.1 = {
-holder = 461803 #Oshim I
+1296.1.1=
+{
+holder=31860 #Smbat I
 }
-1320.7.20 = {
-holder = 461800 #Levon IV
+1298.1.1=
+{
+holder=31879 #Gosdantin I
+}
+1299.1.1=
+{
+holder=31857 #Hethum II
+}
+1305.1.1=
+{
+holder=31878 #Levon III
+}
+1307.1.1=
+{
+holder=461803 #Oshim I
+}
+1320.7.20=
+{
+holder=461800 #Levon IV
 }
 
 

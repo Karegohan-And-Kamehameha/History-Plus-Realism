@@ -4,16 +4,11 @@
 title = c_kermanshah
 
 # Settlements
-max_settlements = 6
-b_javanroud = castle
-b_kermanshah = temple
+max_settlements = 4
+b_kermanshah = castle
 b_hulwan = city
-b_mahalkufa = city
-
-#b_paveh = castle
-#b_kangavar = castle
-#b_kuzaran = castle
-#b_ravansar = castle
+b_kangivar = temple
+#b_mahalkufa = castle
 
 #Misc
 culture = kurdish
@@ -21,5 +16,5 @@ religion = sunni
 
 # History
 1066.1.1 = {
-	b_paveh = castle
+	b_mahalkufa = castle
 }

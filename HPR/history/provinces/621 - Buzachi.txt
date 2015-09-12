@@ -1,0 +1,17 @@
+# 621 - Buzachi
+
+# County Title
+title = c_buzachi
+
+# Settlements
+max_settlements = 1
+b_koshagyl = tribal
+
+# Misc
+culture = oghuz
+religion = zoroastrian
+
+# History
+
+1020.1.1 = { religion = sunni } 
+1200.1.1 = { culture = turkmen } 

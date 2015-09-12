@@ -1,24 +1,46 @@
-860.1.1 = {
-	holder = 180174
+#Fictional Qangar Khans.
+20.1.1 = {
+	historical_nomad = yes
 }
-889.1.1 = {
-	liege = 0
+730.1.1={
+	holder=1000231700
 }
-990.1.1 = {
-	holder = 1000254400
+750.1.1={
+	holder=1000231702
 }
-1058.1.1 = {
-	holder = 20635
+790.1.1={
+	holder=1000231704
 }
-1091.1.1 = {
-	holder = 34808
+830.1.1={
+	holder=1000231706
 }
-1110.1.1 = {
-	holder = 34809
+893.1.1={
+	holder=0 # Defeated by Oghuz and Khazars.There were no khans, but only princes at the time of expulsion.
 }
-1145.1.1 = {
-	holder = 34810
+# The east united under Tiraq.
+1040.1.1={
+	holder=1000231778 # Tiraq
 }
-1171.1.1 = {
-	holder = 0
+#Tiraq's invasion of the byzzies fail.
+1048.1.1={
+liege=e_byzantium	
+}
+1049.1.1={
+liege=0	
+}
+1069.1.1=
+{
+holder=1000231756 # Tzegul
+}
+1087.6.1=
+{
+holder=1000231780 # Tatus/Tatos/Tatrys
+}
+1091.4.29=
+{
+holder=1000231834 # Osul
+}
+1094.1.1=
+{
+holder=0 # North Danubian Pechenegs subdued
 }

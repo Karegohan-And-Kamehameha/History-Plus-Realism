@@ -1,0 +1,84 @@
+decisions = {
+	swmh_convert_to_gothic = {
+		potential = {
+			culture = norse
+			is_ruler = yes
+			capital_scope = {
+				region = swmh_region_gothic
+			}
+			any_realm_province = {
+				culture = gothic
+			}
+		}
+		allow = {
+			culture = norse
+		}
+		effect = {
+			culture = gothic
+			any_courtier = {
+				limit = {
+					culture = norse
+					employer = { character = ROOT }
+					dynasty = ROOT
+				}
+				culture = gothic
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.2 # Slow it down a bit
+			}
+			
+			modifier = {
+				factor = 0.05
+				capital_scope = {
+					NOT = { culture = gothic }
+				}
+			}
+			modifier = {
+				factor = 3.0
+				liege = { culture = gothic }
+			}
+			modifier = {
+				factor = 1.25
+				num_culture_realm_provs = {
+					num = 2
+					culture = gothic
+				}
+			}
+			modifier = {
+				factor = 1.25
+				num_culture_realm_provs = {
+					num = 3
+					culture = gothic
+				}
+			}
+			modifier = {
+				factor = 1.25
+				num_culture_realm_provs = {
+					num = 4
+					culture = gothic
+				}
+			}
+			modifier = {
+				factor = 1.25
+				num_culture_realm_provs = {
+					num = 5
+					culture = gothic
+				}
+			}
+			modifier = {
+				factor = 1.25
+				num_culture_realm_provs = {
+					num = 6
+					culture = gothic
+				}
+			}
+		}
+	}
+}

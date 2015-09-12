@@ -5,7 +5,6 @@ title = c_geneve
 
 # Settlements
 max_settlements = 4
-
 b_geneve = castle
 b_lausanne = temple
 b_nyon = city
@@ -14,11 +13,10 @@ b_nyon = city
 #b_echallens = castle
 #b_aubonne = castle
 #b_orbe = castle
-#b_thonon = castle
 
 # Misc
-culture = old_frankish
+culture = arpitan
 religion = catholic
 
 # History
-790.1.1 = { culture = frankish }
+

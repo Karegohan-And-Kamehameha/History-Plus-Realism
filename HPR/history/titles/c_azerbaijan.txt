@@ -75,7 +75,6 @@
 	holder=146104
 }
 1106.1.1={
-	liege="d_tabriz"
 	holder = 144014
 }
 1118.4.18={
@@ -85,7 +84,6 @@
 	holder = 144052
 }
 1148.1.1={
-	liege="d_azerbaijan"
 	holder=146113
 }
 1197.1.1={

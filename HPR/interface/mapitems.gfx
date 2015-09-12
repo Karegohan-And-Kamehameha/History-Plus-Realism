@@ -381,7 +381,7 @@ objectTypes = {
 	EMFXActorType = {
 		name = "mongolgfx_emperor_shield"
 		actorfile = "gfx\models\Shields\mongol_empire_shield.xac"
-		scale = 0.5f
+		scale = 0.4f
 		use_animation = no
 	}
 

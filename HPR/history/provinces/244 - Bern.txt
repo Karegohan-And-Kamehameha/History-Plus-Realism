@@ -5,19 +5,19 @@ title = c_bern
 
 # Settlements
 max_settlements = 4
-b_kyburg = castle
+b_fribourg = castle
 b_bern = city
-b_interlaken = temple
+b_solothurn = temple
 
-#b_luzern = city
-#b_biel = castle
-#b_sempach = castle
-#b_langenthal = castle
-#b_sursee = castle
+#b_interlaken = temple
+#b_burgdorf = castle
+#b_murten = city
+#b_herzogenbuchsee = temple
+#b_trub = temple
 
 # Misc
-culture = german
+culture = swabian
 religion = catholic
 
 # History
-1187.1.1 = { b_luzern = city } 
+1170.1.1 = { culture = german }

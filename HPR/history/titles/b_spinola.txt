@@ -1,6 +1,6 @@
-950.1.1 = {
+950.1.1={
 	holding_dynasty = 50 # Faliero - makes this a FAMILY_PALACE type Holding
-	liege = "d_genoa"
+	liege="d_genoa"
 	holder = 91338 # Ido di Manesseno di Genova
 }
 990.1.1 = {

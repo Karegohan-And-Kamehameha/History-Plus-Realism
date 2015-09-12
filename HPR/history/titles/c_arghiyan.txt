@@ -1,0 +1,60 @@
+828.1.1={
+	liege="d_nishapur"
+	holder=163158
+}
+845.1.1={
+	holder=163159
+}
+862.1.1={
+	holder=163100
+}
+1066.1.1={
+  holder = 3042
+}
+1072.11.1={
+  holder = 93129
+}
+#intermediate placeholders taken from c_dihistan, to avoid e_seljuks being around in fall of seljuks bookmark. Added by Aasmul
+1110.1.1=
+{
+	liege="d_gurgan"
+	holder=93126
+}
+1152.1.1=
+{
+	holder=93127
+}
+1161.1.1=
+{
+	holder = 144101
+}
+ 
+1172.3.1=
+{
+	holder=230000
+}
+
+1200.1.1=
+{
+	holder=93052
+}
+1221.1.1=
+{
+	holder=125501
+}
+1227.12.2=
+{
+	holder=93057
+}
+1250.1.1=
+{
+	holder=93058
+}
+1280.1.1=
+{
+	holder=93059
+}
+1310.1.1=
+{
+	holder=93060
+}

@@ -1,123 +1,82 @@
-766.1.1={
-	holder=200229 # Yusuf Nefudid
-	liege=k_andalusia
-}
-799.1.1={
-	holder=73681 # al-Hakam I Umayyad
-}
-822.5.21={
-	holder=73682 # Abd al-Rahman II Umayyad
-}
-852.9.22={
-	holder=73683 # Muhammad I Umayyad
-}
 867.1.1={
-	holder=73951 # Abdallah Musarrid
-}
-899.1.1={
-	holder=73685 # Abdallah Umayyad
-}
-912.10.15={
-	holder=3200 # Abd al-Rahman III Umayyad
-}
-961.10.15={
-	holder=3202 # al-Hakam II Umayyad
-}
-976.10.16={
-	holder=3204 # Hisham II Umayyad
-}
-1009.2.15={
-	holder=73671 # Muhammad II Umayyad
-}
-1009.11.1={
-	holder=73675 # Suleyman Umayyad
-}
-1010.5.10={
-	holder=73671 # Muhammad II Umayyad
-}
-1010.7.23={
-	holder=3204 # Hisham II Umayyad
-}
-1012.1.1={
-	holder=45014 # Zawi Zirid
-	liege=d_granada
-}
-1019.1.1={
-	holder=45015 # Habud Zirid
+	liege=k_andalusia
+	holder=73951
 }
 1038.1.1={
-	holder=73255 # Abu Bakr Ramimid
+	holder=73255
 	liege=0
 }
 1038.2.1={
-	holder=45025 # Abd al-Aziz Amirid
-	liege=d_valencia
+	holder=45025
 }
 1042.1.1={
-	holder=20877 # Ma'n Sumadid
-	liege=d_zaragoza
+	holder=20877
+	liege=d_granada
 }
 1052.1.1={
-	holder=45006 # Yahya Sumadid
+	holder=45006
 }
 1091.6.1={
-	holder=73249 # Ahmad Sumadid
+	holder=73249
 }
 1091.11.1={
-	holder=224017 # Ya'qub Malaqid
-	liege=k_morocco
+	holder=224017
+#	liege=d_granada
+	liege=k_maghreb
 }
 1118.1.1={
-	holder=73261 # Ibrahim Hishamid
+	holder=73261
 }
 1144.1.1={
-	holder=73254 # Abdallah Maymunid
+	holder=73254
 }
 1145.1.1={
 	liege=0
 }
 1146.1.1={
-	holder=73258 # Abdallah Ramimid
+	holder=73258
 }
 1147.1.1={
-	holder=207500 # Alfonso VII de Borgoña
-	liege=k_castille
+	holder=207500
 }
 1153.1.1={
-	holder=224015 # Ya'qub Bilalid
-	liege=k_morocco
+	holder=224015
+	liege=k_maghreb
 }
+#1172.1.1={
+#	liege="d_granada"
+#}
 1178.1.1={
-	holder=224016 # Abd al-Malik Gharnatid
+	holder=224016
 }
 1200.1.1={
-	holder=73617 # Tariq Sebtaid
+	holder=73617
 }
 1228.1.1={
-	holder=73625 # Muhammad Hudid
+	holder=73625
 }
 1237.1.1={
 	liege=d_murcia
 }
 1238.1.1={
-	holder=73651 # Muhammad I Nasrid
+	holder=73651
 	liege=d_granada
 }
 1273.1.1={
-	holder=73650 # Muhammad II Nasrid
+	holder=73650
 }
 1302.4.7={
-	holder=73647 # Muhammad III Nasrid
+	holder=73647
 }
 1309.1.1={
-	holder=73646 # Nasr Nasrid
+	holder=73646
 }
 1322.11.16={
-	holder=73641 # Isma'il Nasrid
+	holder=73641
 }
 1325.1.1={
-	holder=487001 # Muhammad IV Nasrid
+	holder=487001
 }
 1333.1.1={
-	holder=487000 # Yusuf Nasrid
+	holder=487000
 }

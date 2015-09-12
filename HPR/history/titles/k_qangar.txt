@@ -1,0 +1,7 @@
+#West pontic Pechengs under Kegen.
+#1040.1.1={
+#	holder=1000231751 # Kegen
+#}
+#1044.1.1={
+#	holder=0 # defeated by Tiraq, Qangar migrates to the byzzies
+#}

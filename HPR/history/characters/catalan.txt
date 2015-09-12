@@ -23,8 +23,6 @@
 	name="Ramon-Berenguer" 
 	# AKA: Ramon Berenguer 'el Vell'
 	dynasty=100204
-	dna="faltseiskon"
-	properties="0c0ecd0000"
 	martial=7
 	diplomacy=8
 	intrigue=4
@@ -56,8 +54,6 @@
 110521 = {
 	name="Pere-Ramon"
 	dynasty=100204
-	dna="fawtpinskoz"
-	properties="0h0huk0000"
 	martial=4
 	diplomacy=5
 	intrigue=6
@@ -247,8 +243,6 @@
 110550 = {
 	name="Ermengol"
 	dynasty=395
-	dna="majhuvadtuj"
-	properties="cb0cek0000"
 	martial=5
 	diplomacy=5
 	intrigue=7
@@ -447,8 +441,6 @@
 110580 = {
 	name="Ponç"
 	dynasty=393
-	dna="lnkirrxhzhp"
-	properties="0j0cck0000"
 	martial=5
 	diplomacy=4
 	intrigue=4
@@ -560,13 +552,6 @@
 	name="Renard"
 	dynasty=392
 
-	martial=5
-	diplomacy=7
-	intrigue=6
-	stewardship=4
-	trait="envious"
-	trait="martial_cleric"
-
 	father=110582
 	mother=110583
 
@@ -574,7 +559,7 @@
 	culture=catalan
 
 	1060.1.1={
-		birth=yes
+		birth = yes
 	}
 	1080.1.1={
 		add_spouse=72236
@@ -583,7 +568,7 @@
 		name="Dalmau"
 	}
 	1135.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -749,22 +734,14 @@
 	name="Adelaida"
 	female=yes
 
-	dynasty=10002
-	martial=8
-	diplomacy=5
-	intrigue=6
-	stewardship=4
-	trait="charitable"
-	trait="indulgent_wastrel"
-
 	religion=catholic
 	culture=catalan
 
 	1012.1.1={
-		birth=yes
+		birth = yes
 	}
 	1078.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -797,22 +774,14 @@
 	name="Estefania"
 	female=yes
 
-	dynasty=10004
-	martial=5
-	diplomacy=6
-	intrigue=5
-	stewardship=8
-	trait="deceitful"
-	trait="flamboyant_schemer"
-
 	religion=catholic
 	culture=catalan
 
 	1036.1.1={
-		birth=yes
+		birth = yes
 	}
 	1095.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -909,21 +878,14 @@
 	name="Beliarda"
 	female=yes
 
-	dynasty=10006
-	martial=8
-	diplomacy=6
-	intrigue=4
-	stewardship=8
-	trait="amateurish_plotter"
-
 	religion=catholic
 	culture=catalan
 
 	986.1.1={
-		birth=yes
+		birth = yes
 	}
 	1060.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -931,23 +893,14 @@
 	name="Guisla"
 	female=yes
 
-	dynasty=387
-	martial=4
-	diplomacy=7
-	intrigue=3
-	stewardship=5
-	trait="lustful"
-	trait="ambitious"
-	trait="intricate_webweaver"
-
 	religion=catholic
 	culture=catalan
 
 	1011.1.1={
-		birth=yes
+		birth = yes
 	}
 	1070.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -1048,20 +1001,14 @@
 	name="Adelaida"
 	female=yes
 
-	dynasty=10008
-	martial=8
-	diplomacy=6
-	intrigue=7
-	stewardship=8
-	trait="underhanded_rogue"
-	religion="catholic"
-	culture="catalan"
-	
+	religion=catholic
+	culture=catalan
+
 	1003.1.1={
-		birth=yes
+		birth = yes
 	}
 	1053.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -1250,9 +1197,7 @@
 		add_spouse=207504
 	}
 	1174.10.16={
-		effect = {
-			c_barcelona = { ROOT = { capital = PREV } }
-		}
+		capital=c_barcelona
 		give_nickname = nick_the_troubadour
 	}
 	1195.4.25={
@@ -1884,14 +1829,6 @@
 	name="Arnau"
 	dynasty=10027
 
-	martial=8
-	diplomacy=6
-	intrigue=7
-	stewardship=5
-	trait="wroth"
-	trait="deceitful"
-	trait="brilliant_strategist"
-
 	father=72320
 	mother=200122
 
@@ -1899,13 +1836,13 @@
 	culture=catalan
 
 	1282.1.1={
-		birth=yes
+		birth = yes
 	}
 	1298.1.1={
 		add_spouse=460021
 	}
 	1330.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -1913,23 +1850,14 @@
 	name="Sibila"
 	female=yes
 
-	dynasty=10028
-	martial=5
-	diplomacy=7
-	intrigue=8
-	stewardship=6
-	trait="arbitrary"
-	trait="lunatic"
-	trait="midas_touched"
-
 	religion=catholic
 	culture=catalan
 
 	1282.1.1={
-		birth=yes
+		birth = yes
 	}
 	1330.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -2281,7 +2209,7 @@
 	religion="catholic"
 	culture="catalan"
 	1300.1.1={
-		birth=yes
+		birth = yes
 	}
 	1327.10.20={
 		death = {
@@ -2404,7 +2332,7 @@
 	trait=tough_soldier
 
 	1267.8.10={
-		birth=yes
+		birth = yes
 	}
 	1296.1.1={
 		add_spouse=461727
@@ -2419,7 +2347,7 @@
 		give_nickname=nick_the_just
 	}
 	1327.11.5={
-		death=yes
+		death = yes
 	}
 }
 
@@ -2850,25 +2778,19 @@
 	trait=skilled_tactician
 	
 	1243.5.31={
-		birth=yes
+		birth = yes
 	}
 	1275.10.12={
 		add_spouse=138155
 	}
 	1311.5.29={
-		death=yes
+		death = yes
 	}
 }
 
 460603={
 	name="Jaume"
 	dynasty=100204
-
-	martial=6
-	diplomacy=8
-	intrigue=8
-	stewardship=5
-	trait="just"
 
 	father=460602
 	mother=138155
@@ -2877,10 +2799,10 @@
 	culture=catalan
 
 	1276.8.1={
-		birth=yes
+		birth = yes
 	}
 	1330.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -2904,13 +2826,13 @@
 	trait=flamboyant_schemer
 
 	1278.1.1={
-		birth=yes
+		birth = yes
 	}
 	1309.1.1={
 		add_spouse=200108
 	}
 	1324.9.4={
-		death=yes
+		death = yes
 	}
 }
 
@@ -2918,25 +2840,19 @@
 	name="Ferran"
 	dynasty=100204
 
-	martial=5
-	diplomacy=7
-	intrigue=4
-	stewardship=6
-	trait="flamboyant_schemer"
-
 	father=460602
 
 	religion=catholic
 	culture=catalan
 
 	1278.1.1={
-		birth=yes
+		birth = yes
 	}
 	1314.2.1={
 		add_spouse=460606
 	}
 	1316.10.19={
-		death=yes
+		death = yes
 	}
 }
 
@@ -2983,11 +2899,6 @@
 	name="Felip"
 	dynasty=100204
 
-	martial=5
-	diplomacy=8
-	intrigue=6
-	stewardship=4
-
 	father=460602
 	mother=138155
 
@@ -2997,10 +2908,10 @@
 	trait=scholarly_theologian
 
 	1288.1.1={
-		birth=yes
+		birth = yes
 	}
 	1343.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -3009,13 +2920,6 @@
 	female=yes
 	dynasty=100204
 
-	martial=6
-	diplomacy=6
-	intrigue=8
-	stewardship=6
-	trait="honest"
-	trait="charismatic_negotiator"
-
 	father=460602
 	mother=138155
 
@@ -3023,10 +2927,10 @@
 	culture=catalan
 
 	1280.1.1={
-		birth=yes
+		birth = yes
 	}
 	1301.10.10={
-		death=yes
+		death = yes
 	}
 }
 
@@ -3035,13 +2939,6 @@
 	female=yes
 	dynasty=100204
 
-	martial=7
-	diplomacy=4
-	intrigue=8
-	stewardship=6
-	trait="patient"
-	trait="flamboyant_schemer"
-
 	father=460602
 	mother=138155
 
@@ -3049,10 +2946,10 @@
 	culture=catalan
 
 	1285.1.1={
-		birth=yes
+		birth = yes
 	}
 	1345.7.28={
-		death=yes
+		death = yes
 	}
 }
 
@@ -3333,23 +3230,14 @@
 	name="Guisla"
 	female=yes
 
-	dynasty=10019
-	martial=4
-	diplomacy=7
-	intrigue=6
-	stewardship=6
-	trait="greedy"
-	trait="lustful"
-	trait="thrifty_clerk"
-
 	religion=catholic
 	culture=catalan
 
 	970.1.1={
-		birth=yes
+		birth = yes
 	}
 	1011.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -3357,23 +3245,14 @@
 	name="Isabel"
 	female=yes
 
-	dynasty=10019
-	martial=4
-	diplomacy=4
-	intrigue=6
-	stewardship=6
-	trait="scholar"
-	trait="temperate"
-	trait="underhanded_rogue"
-
 	religion=catholic
 	culture=catalan
 	
 	996.1.1={
-		birth=yes
+		birth = yes
 	}
 	1036.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -3406,23 +3285,14 @@
 	name="Adelaida"
 	female=yes
 
-	dynasty=100213
-	martial=4
-	diplomacy=6
-	intrigue=8
-	stewardship=6
-	trait="clubfooted"
-	trait="mystic"
-	trait="charismatic_negotiator"
-
 	religion=catholic
 	culture=catalan
 
 	1036.1.1={
-		birth=yes
+		birth = yes
 	}
 	1086.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -3568,33 +3438,17 @@
 70171={
 	name="Udalard"
 
-	martial=7
-	diplomacy=3
-	intrigue=4
-	stewardship=6
-	trait="mystic"
-	trait="patient"
-	trait="thrifty_clerk"
-
 	religion=catholic
 	culture=catalan
 
 	975.1.1={
-		birth=yes
+		birth = yes
 	}
 	1000.1.1={
-		add_spouse=70170
-		effect = {
-			set_character_flag = no_marriage_event
-			spouse = {
-				remove_spouse = ROOT
-				add_spouse_matrilineal = ROOT
-			}
-			clr_character_flag = no_marriage_event
-		}
+		add_matrilineal_spouse=70170
 	}
 	1030.5.30={
-		death=yes
+		death = yes
 	}
 }
 
@@ -4188,23 +4042,14 @@
 	name="València"
 	female=yes
 
-	dynasty=8631
-	martial=5
-	diplomacy=6
-	intrigue=8
-	stewardship=6
-	trait="envious"
-	trait="just"
-	trait="flamboyant_schemer"
-
 	religion=catholic
 	culture=catalan
 
 	1045.1.1={
-		birth=yes
+		birth = yes
 	}
 	1106.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -5229,13 +5074,13 @@
 	mother=460614
 
 	1228.2.1={
-		birth=yes
+		birth = yes
 	}
 	1260.3.23={
 		add_spouse=138163
 	}
 	1260.3.26={
-		death=yes
+		death = yes
 	}
 }
 
@@ -5251,10 +5096,10 @@
 	culture=catalan
 
 	1311.1.1={
-		birth=yes
+		birth = yes
 	}
 	1368.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -5699,10 +5544,10 @@
 	culture=catalan
 
 	1330.1.1={
-		birth=yes
+		birth = yes
 	}
 	1369.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -6185,10 +6030,10 @@
 	trait=detached_priest
 
 	1254.1.1={
-		birth=yes
+		birth = yes
 	}
 	1289.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -6228,13 +6073,13 @@
 	culture=catalan
 
 	1275.1.1={
-		birth=yes
+		birth = yes
 	}
 	1291.8.21={
 		add_spouse=138169
 	}
 	1296.8.30={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7152,10 +6997,10 @@
 	culture=catalan
 
 	1118.1.1={
-		birth=yes
+		birth = yes
 	}
 	1178.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7170,13 +7015,13 @@
 	culture=catalan
 
 	1140.1.1={
-		birth=yes
+		birth = yes
 	}
 	1162.1.1={
 		add_spouse=72089
 	}
 	1175.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7204,10 +7049,10 @@
 	culture=catalan
 
 	1163.1.1={
-		birth=yes
+		birth = yes
 	}
 	1205.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7222,10 +7067,10 @@
 	culture=catalan
 
 	1165.1.1={
-		birth=yes
+		birth = yes
 	}
 	1221.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7241,10 +7086,10 @@
 	culture=catalan
 
 	1167.1.1={
-		birth=yes
+		birth = yes
 	}
 	1230.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7418,7 +7263,7 @@
 	culture=catalan
 
 	1220.1.1={
-		birth=yes
+		birth = yes
 	}
 	1240.1.1={
 		add_spouse=138155
@@ -7427,7 +7272,7 @@
 		add_spouse=72101
 	}
 	1276.6.5={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7673,13 +7518,13 @@
 	culture=catalan
 
 	1085.1.1={
-		birth=yes
+		birth = yes
 	}
 	1133.1.1={
 		add_spouse=200137
 	}
 	1163.2.24={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7694,10 +7539,10 @@
 	culture=catalan
 
 	1134.1.1={
-		birth=yes
+		birth = yes
 	}
 	1172.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7915,10 +7760,10 @@
 	culture=catalan
 
 	1118.1.1={
-		birth=yes
+		birth = yes
 	}
 	1190.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -7933,10 +7778,10 @@
 	culture=catalan
 
 	1120.1.1={
-		birth=yes
+		birth = yes
 	}
 	1184.8.11={
-		death=yes
+		death = yes
 	}
 }
 
@@ -8731,7 +8576,7 @@
 	culture=catalan
 
 	1239.1.1={
-		birth=yes
+		birth = yes
 	}
 	1253.1.1={
 		add_spouse=71658
@@ -8740,7 +8585,7 @@
 		add_spouse=200138
 	}
 	1267.3.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -8849,13 +8694,13 @@
 	culture=catalan
 
 	1250.1.1={
-		birth=yes
+		birth = yes
 	}
 	1295.1.1={
 		add_spouse=72229
 	}
 	1309.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -8886,7 +8731,7 @@
 	culture=catalan
 
 	1260.1.1={
-		birth=yes
+		birth = yes
 	}
 	1276.1.1={
 		add_spouse=71659
@@ -8895,7 +8740,7 @@
 		add_spouse=72233
 	}
 	1314.7.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -8911,10 +8756,10 @@
 	culture=catalan
 
 	1262.1.1={
-		birth=yes
+		birth = yes
 	}
 	1320.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -8929,13 +8774,13 @@
 	culture=catalan
 
 	1264.1.1={
-		birth=yes
+		birth = yes
 	}
 	1284.1.1={
 		add_spouse=72104
 	}
 	1299.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -10255,13 +10100,13 @@
 	culture=catalan
 
 	1263.1.1={
-		birth=yes
+		birth = yes
 	}
 	1281.1.1={
 		add_spouse=200122
 	}
 	1315.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -10365,10 +10210,10 @@
 	culture=catalan
 
 	1216.1.1={
-		birth=yes
+		birth = yes
 	}
 	1293.3.22={
-		death=yes
+		death = yes
 	}
 }
 
@@ -10421,10 +10266,10 @@
 	culture=catalan
 
 	1247.1.1={
-		birth=yes
+		birth = yes
 	}
 	1308.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -10439,10 +10284,10 @@
 	culture=catalan
 
 	1252.1.1={
-		birth=yes
+		birth = yes
 	}
 	1309.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -10457,7 +10302,7 @@
 	culture=catalan
 
 	1259.5.26={
-		birth=yes
+		birth = yes
 	}
 	1279.1.1={
 		add_spouse=72342
@@ -10466,7 +10311,7 @@
 		add_spouse=71722
 	}
 	1320.10.31={
-		death=yes
+		death = yes
 	}
 }
 
@@ -10958,10 +10803,10 @@
 	culture=catalan
 
 	1161.1.1={
-		birth=yes
+		birth = yes
 	}
 	1189.2.26={
-		death=yes
+		death = yes
 	}
 }
 72909={
@@ -10972,13 +10817,13 @@
 	culture=catalan
 
 	1130.1.1={
-		birth=yes
+		birth = yes
 	}
 	1155.1.1={
 		add_spouse=72908
 	}
 	1175.7.30={
-		death=yes
+		death = yes
 	}
 }
 
@@ -10994,10 +10839,10 @@
 	culture=catalan
 
 	1157.1.1={
-		birth=yes
+		birth = yes
 	}
 	1183.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11012,10 +10857,10 @@
 	culture=castillan
 
 	1159.1.1 = {
-		birth=yes
+		birth = yes
 	}
 	1180.4.17 = {
-		death=yes
+		death = yes
 	}
 }
 200117={
@@ -11029,10 +10874,10 @@
 	culture=catalan
 
 	1168.1.1={
-		birth=yes
+		birth = yes
 	}
 	1215.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11046,10 +10891,10 @@
 	culture=catalan
 
 	1192.1.1={
-		birth=yes
+		birth = yes
 	}
 	1244.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11063,10 +10908,10 @@
 	culture=catalan
 
 	1219.1.1={
-		birth=yes
+		birth = yes
 	}
 	1278.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11080,13 +10925,13 @@
 	culture=catalan
 
 	1243.1.1={
-		birth=yes
+		birth = yes
 	}
 	1271.1.1={
 		add_spouse=200115
 	}
 	1304.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11101,10 +10946,10 @@
 	culture=catalan
 
 	1200.1.1={
-		birth=yes
+		birth = yes
 	}
 	1296.8.20={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11118,10 +10963,10 @@
 	culture=catalan
 
 	1246.1.1={
-		birth=yes
+		birth = yes
 	}
 	1304.9.12={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11135,10 +10980,10 @@
 	culture=catalan
 
 	1248.1.1={
-		birth=yes
+		birth = yes
 	}
 	1276.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11152,10 +10997,10 @@
 	culture=catalan
 
 	1252.1.1={
-		birth=yes
+		birth = yes
 	}
 	1314.11.11={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11170,10 +11015,10 @@
 	culture=catalan
 
 	1254.1.1={
-		birth=yes
+		birth = yes
 	}
 	1316.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11188,10 +11033,10 @@
 	culture=catalan
 
 	1290.1.1={
-		birth=yes
+		birth = yes
 	}
 	1344.5.14={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11206,10 +11051,10 @@
 	culture=catalan
 
 	1292.1.1={
-		birth=yes
+		birth = yes
 	}
 	1327.10.23={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11225,10 +11070,10 @@
 	culture=catalan
 
 	1294.1.1={
-		birth=yes
+		birth = yes
 	}
 	1327.10.23={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11242,10 +11087,10 @@
 	culture=catalan
 
 	1316.1.1={
-		birth=yes
+		birth = yes
 	}
 	1370.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11260,10 +11105,10 @@
 	culture=catalan
 
 	1318.1.1={
-		birth=yes
+		birth = yes
 	}
 	1385.1.1={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11277,10 +11122,10 @@
 	culture=catalan
 
 	1277.1.1={
-		birth=yes
+		birth = yes
 	}
 	1327.10.23={
-		death=yes
+		death = yes
 	}
 }
 
@@ -11295,9 +11140,9 @@
 	culture=catalan
 
 	1300.1.1={
-		birth=yes
+		birth = yes
 	}
 	1360.1.1={
-		death=yes
+		death = yes
 	}
 }

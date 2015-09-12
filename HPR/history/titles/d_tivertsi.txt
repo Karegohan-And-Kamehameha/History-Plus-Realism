@@ -1,0 +1,16 @@
+850.1.1={
+	liege="k_magyar"
+	holder=159718
+}
+890.1.1={
+	holder= 1000226964 
+}
+895.1.1={
+	liege="0"# Magyars cross the Carpathians
+}
+915.1.1={
+	holder= 1000226965
+}
+950.1.1={
+	holder= 0
+}

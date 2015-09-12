@@ -20,10 +20,10 @@ french_trade = {
 		78 76 77 95 112
 	}
 	path = {	# Caen-Paris
-		100 1508 99 98 112
+		100 1172 99 98 112
 	}
 	path = {	# Paris-Lyon-Genoa
-		112 138 1510 132 136 135 227 233
+		112 138 1160 132 136 135 227 233
 	}
 	path = {	# Lyon-Provence
 		227 228 222 221
@@ -33,5 +33,5 @@ french_trade = {
 	}
 	path = {	# Bordeaux-Bearn
 		149 150 208
-	}	
+	}
 }

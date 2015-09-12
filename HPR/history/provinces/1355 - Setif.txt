@@ -1,0 +1,16 @@
+# 1355 - Setif
+
+# County Title
+title = c_setif
+
+# Settlements
+max_settlements = 2
+
+b_qalatbhammad = castle #Qal'at Bannu Hammad
+b_setif = city
+
+# Misc
+culture = sanhaja
+religion = sunni
+
+# History

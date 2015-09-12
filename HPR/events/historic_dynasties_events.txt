@@ -1,0 +1,52 @@
+namespace = SWMH
+#by Ruwaard
+
+#Welf
+character_event = {
+	id = SWMH.35
+	desc = "EVTDESCSWMH.35"
+	picture = GFX_evt_throne_room
+	is_triggered_only = yes
+	trigger = {
+		character = 1530
+		NOT = { dynasty=650 }
+	}
+
+	immediate = {
+		any_child = {
+			limit = { dynasty = ROOT }
+			dynasty=650
+		}
+		dynasty=650
+	}
+
+	option = {
+		name = "EVTOPTASWMH.35" #Yes
+	}
+
+}
+
+#Trastamara
+character_event = {
+	id = SWMH.36
+	desc = "EVTDESCSWMH.36"
+	picture = GFX_evt_throne_room
+	is_triggered_only = yes
+	trigger = {
+		character = 457510
+		NOT = { dynasty=774 }
+	}
+
+	immediate = {
+		any_child = {
+			limit = { dynasty = ROOT }
+			dynasty=774
+		}
+		dynasty=774
+	}
+
+	option = {
+		name = "EVTOPTASWMH.36" #Yes
+	}
+
+}

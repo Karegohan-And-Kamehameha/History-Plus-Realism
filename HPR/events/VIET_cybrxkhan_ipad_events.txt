@@ -1164,7 +1164,7 @@ character_event = {
 			culture_group = latin
 			culture_group = celtic
 			culture_group = iberian
-			culture_group = west_african
+			culture_group = north_african
 		}
         }
 
@@ -1425,7 +1425,7 @@ character_event = {
 			culture_group = israelite
 			culture_group = byzantine
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = latin
 			culture_group = iberian
 		}
@@ -3214,7 +3214,7 @@ character_event = {
 			culture = breton
 			culture = cornish
 			culture = welsh
-			culture = gallawa
+			culture = norsegaelic
 			culture = pictish
 		}
 		any_demesne_province = {
@@ -3222,7 +3222,7 @@ character_event = {
 				culture = breton
 				culture = cornish
 				culture = welsh
-				culture = gallawa
+				culture = norsegaelic
 				culture = pictish
 			}
 			NOT = { has_province_modifier = VIET_rowan_tree }
@@ -3297,7 +3297,7 @@ character_event = {
 					culture = breton
 					culture = cornish
 					culture = welsh
-					culture = gallawa
+					culture = norsegaelic
 					culture = pictish
 				}
 			}
@@ -3333,7 +3333,7 @@ character_event = {
 			culture = breton
 			culture = cornish
 			culture = welsh
-			culture = gallawa
+			culture = norsegaelic
 			culture = pictish
 		}
 		capital_scope = {
@@ -3341,7 +3341,7 @@ character_event = {
 				culture = breton
 				culture = cornish
 				culture = welsh
-				culture = gallawa
+				culture = norsegaelic
 				culture = pictish
 			}
 			OR = {
@@ -3455,7 +3455,7 @@ character_event = {
 			culture = breton
 			culture = cornish
 			culture = welsh
-			culture = gallawa
+			culture = norsegaelic
 			culture = pictish
 		}
 	}
@@ -12418,7 +12418,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -12511,7 +12511,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -12590,7 +12590,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -12698,7 +12698,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -12778,7 +12778,7 @@ character_event = {
 		NOT = { trait = deaf }
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -12892,7 +12892,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -12976,7 +12976,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13061,7 +13061,7 @@ character_event = {
 		NOT = { has_character_flag = VIET_hummus_addict }
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13138,7 +13138,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13217,7 +13217,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13308,7 +13308,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13403,7 +13403,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13509,7 +13509,7 @@ province_event = {
 	trigger = {
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13575,7 +13575,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13694,7 +13694,7 @@ character_event = {
 		is_abroad = no
 		OR = {
 			culture_group = arabic
-			culture_group = west_african
+			culture_group = north_african
 			culture_group = israelite
 			culture_group = byzantine
 			culture = turkish
@@ -13781,7 +13781,7 @@ character_event = {
 		in_command = no
 		is_abroad = no
 		NOT = { culture_group = arabic }
-		NOT = { culture_group = west_african }
+		NOT = { culture_group = north_african }
 		NOT = { culture_group = israelite }
 		NOT = { culture_group = byzantine }
 		NOT = { culture = turkish }
@@ -22882,8 +22882,6 @@ character_event = {
 			any_realm_province = {
 				OR = {
 					empire = { title = e_rajastan }
-					empire = { title = e_bengal }
-					empire = { title = e_deccan }
 					empire = { title = e_india }
 				}
 			}
@@ -23730,8 +23728,6 @@ character_event = {
 		capital_scope = {
 			OR = {
 				empire = { title = e_rajastan }
-				empire = { title = e_bengal }
-				empire = { title = e_deccan }
 				empire = { title = e_india }
 			}
 		}
@@ -25133,8 +25129,6 @@ character_event = {
 			any_demesne_province = {
 				OR = {
 					empire = { title = e_rajastan }
-					empire = { title = e_bengal }
-					empire = { title = e_deccan }
 					empire = { title = e_india }
 					culture_group = indo_aryan_group
 					culture_group = dravidian_group
@@ -25902,13 +25896,10 @@ character_event = {
 		lower_tier_than = king
 		capital_scope = {
 			OR = {
-				kingdom = { title = k_afghanistan }
 				kingdom = { title = k_punjab }
 				kingdom = { title = k_delhi }
-				kingdom = { title = k_bihar }
 				kingdom = { title = k_kosala }
-				kingdom = { title = k_kamarupa }
-				duchy = { title = d_samarkand }
+				kingdom = { title = k_kafarestan }
 			}
 		}
 	}

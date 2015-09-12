@@ -1,0 +1,7 @@
+1066.1.1={
+	liege="e_persia"
+	holder=3041
+}
+1073.1.1={
+	holder = 0
+}

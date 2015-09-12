@@ -1,7 +1,6 @@
 #Up to 670 under the Sendrakas and then the Maitrakas
 670.1.1={
 	holder = 191632 #Jayasimha Chalukya (of Lata)
-	liege = d_nasikya
 }
 690.1.1={
 	holder = 191634 #Mangalarasa
@@ -39,7 +38,6 @@
 }
 871.1.1={
 	holder = 74634
-	liege = d_devagiri
 }
 874.1.1={
 	holder = 74635
@@ -85,7 +83,6 @@
 }
 1173.1.1={
 	holder = 74654
-	liege = k_maharastra
 }
 1192.1.1={
 	holder = 74655

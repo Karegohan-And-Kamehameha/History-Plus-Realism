@@ -5,10 +5,12 @@ title = c_weimar
 
 # Settlements
 max_settlements = 4
-b_weimar = tribal
+b_weimar = castle
+b_jena = city
+b_gera = temple
 
-#b_gera = temple
 #b_walkenried = temple
+
 #b_nordhausen = city
 #b_memelsen = castle
 #b_apoldoa = castle
@@ -16,18 +18,10 @@ b_weimar = tribal
 
 
 # Misc
-culture = old_saxon
-religion = german_pagan
+culture = thuringian
+religion = catholic
 
 # History
-790.1.1 = {
-	culture = german
-	religion = catholic
-
-	b_weimar = castle
-	b_jena = city
-	b_gera = temple
-}
-
+1170.1.1 = { culture = german }
 
 

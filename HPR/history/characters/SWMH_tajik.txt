@@ -1,0 +1,339 @@
+######################################
+#Tajik Characters
+######################################
+#
+#
+######################################
+#Tajik characters
+#Dynasties: 1000102000 - 1000102099
+#Characters: 1000230600 - 1000230749
+######################################
+
+1000230600 = {
+	name="Mohtaj"
+	dynasty=1000102000
+	religion="sunni"
+	culture="tajik"
+	848.1.1={
+		birth="848.1.1"
+	}
+	886.1.1={
+		death="886.1.1"
+	}
+} 
+1000230601 = {
+	name="Mozaffar"
+	dynasty=1000102000
+	religion="sunni"
+	culture="tajik"
+	father = 1000230600
+  866.1.1={
+		birth="866.1.1"
+	}
+	919.1.1={
+		death="919.1.1"
+	}
+} 
+1000230602 = {
+	name="Abu Bakr Mohammad"
+	dynasty=1000102000
+	religion="sunni"
+	culture="tajik"
+	father = 1000230601
+  890.1.1={
+		birth="890.1.1"
+	}
+	941.1.1={
+		death="941.1.1"
+	}
+} 
+1000230603 = {
+	name="Abu 'Ali Ahmad"
+	dynasty=1000102000
+	religion="sunni"
+	culture="tajik"
+	father = 1000230602
+  911.1.1={
+		birth="911.1.1"
+	}
+	955.1.1={
+		death="955.1.1"
+	}
+} 
+
+#Samanids
+1000230604 = {
+	name="Sámán"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	710.1.1={
+		birth="710.1.1"
+	}
+	766.1.1={
+		death="766.1.1"
+	}
+}
+1000230605 = {
+	name="Núh"  #819 Samarqand
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 163153
+	789.1.1={
+		birth="789.1.1"
+	}
+	842.1.1={
+		death="842.1.1"
+	}
+}
+1000230606 = {
+	name="Yahyá"  #819 Shásh
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 163153
+	794.1.1={
+		birth="794.1.1"
+	}
+	855.1.1={
+		death="855.1.1"
+	}
+}
+1000230607 = {
+	name="Esháq" 
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 163154
+	850.1.1={
+		birth="850.1.1"
+	}
+	914.10.10={
+		death="914.10.10"
+	}
+}
+1000230608 = {
+	name="Mansúr" #902 Ray+Qazvín, 911 Sístán, 913 Khorásán
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230607
+	877.1.1={
+		birth="877.1.1"
+	}
+	915.1.1={
+		death="915.1.1"
+	}
+}
+1000230609 = {
+	name="Elyás"   #922 in Ferghána
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230607
+	880.1.1={
+		birth="880.1.1"
+	}
+	930.1.1={
+		death="930.1.1"
+	}
+}
+
+1000230610 = {
+	name="Ahmad"   #successor of Esmá'íl b.Ahmad
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 163157
+	873.1.1={
+		birth="873.1.1"
+	}
+	914.1.1={
+		death="914.1.1"
+	}
+}
+1000230611 = {
+	name="Nasr"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230610
+	902.1.1={
+		birth="902.1.1"
+	}
+	943.6.4={
+		death="943.6.4"
+	}
+}
+1000230612 = {
+	name="Yahyá"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230610
+	904.1.1={
+		birth="904.1.1"
+	}
+	960.1.1={
+		death="960.1.1"
+	}
+}
+1000230613 = {
+	name="Ebráhím"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230610
+	906.1.1={
+		birth="906.1.1"
+	}
+	945.1.1={
+		death="945.1.1"
+	}
+}
+1000230614 = {
+	name="Mansúr"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230610
+	909.1.1={
+		birth="909.1.1"
+	}
+	962.1.1={
+		death="962.1.1"
+	}
+}
+1000230615 = {
+	name="Núh"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230611
+	922.1.1={
+		birth="922.1.1"
+	}
+	954.8.8={
+		death="954.8.8"
+	}
+}
+1000230616 = {
+	name="Abd al-Malek"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230615
+	944.1.1={
+		birth="944.1.1"
+	}
+	961.1.1={
+		death="961.1.1"
+	}
+}
+1000230617 = {
+	name="Mansúr"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230615
+	946.1.1={
+		birth="946.1.1"
+	}
+	976.6.13={
+		death = yes
+	}
+}
+1000230618 = {
+	name="Nasr"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230616
+	960.10.10={
+		birth="960.10.10"
+	}
+	962.1.1={
+		death="962.1.1"
+	}
+}
+1000230619 = {
+	name="Núh"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230617
+	963.1.1={
+		birth="963.1.1"
+	}
+	997.7.23={
+		death="997.7.23"
+	}
+}
+1000230620 = {
+	name="Mansúr"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230619
+	981.1.1={
+		birth="981.1.1"
+	}
+	999.1.2={
+		death="999.1.2"
+	}
+}
+1000230621 = {
+	name="Abd al-Malek"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230619
+	982.1.1={
+		birth="982.1.1"
+	}
+	999.10.10={
+		death="999.10.10"
+	}
+}
+1000230622 = {
+	name="Esmá'íl"
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 1000230619
+	983.1.1={
+		birth="983.1.1"
+	}
+	1004.1.1={
+		death="1004.1.1"
+	}
+}
+1000230623 = {
+	name="Nazilla"  #fantasy, but need some females
+  female=yes
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 163099
+	851.1.1={
+		birth = yes
+	}
+	911.1.1={
+		death = yes
+	}
+}
+1000230624 = {
+	name="Golshan"  #fantasy, but need some females
+  female=yes
+	dynasty=1000101904
+	religion="sunni"
+	culture="tajik"
+	father = 163154
+	847.3.3={
+		birth = yes
+	}
+	900.1.1={
+		death = yes
+	}
+}

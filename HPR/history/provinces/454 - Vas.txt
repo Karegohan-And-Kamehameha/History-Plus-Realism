@@ -6,28 +6,19 @@ title = c_vas
 # Settlements
 max_settlements = 4
 
-b_szombathely = tribal
+b_kolonvar = castle
+b_tihany = city
+b_szentgrot = temple
 
-#b_szentgotthard = temple
-#b_vasvar = city
-#b_sarvar = castle
-#b_celldomolk = castle
-#b_kormend = castle
-#b_koszeg = city
-#b_nemetujvar = castle
+#b_egerszeg = castle
+#b_kanizsa = castle
+#b_csobanc = castle
+#b_sumeg = castle
 
 # Misc
-culture = croatian
-religion = slavic_pagan
+culture = karantanci
+religion = catholic
 
 # History
-
-797.1.1 = {
-	religion = catholic
-	
-	b_szombathely = castle
-	b_vasvar = city
-	b_szentgotthard = temple
-}
 
 950.1.1 = { culture = hungarian }

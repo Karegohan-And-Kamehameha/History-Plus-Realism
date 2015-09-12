@@ -1,0 +1,47 @@
+# Qabuqsin-Yula
+864.1.1={
+	liege=k_pechenegs
+	holder=1000231740 # Qorqutay, cheif of Qabuqsin-Yula at the time of expulsion from Yaik.
+}
+893.1.1={
+	liege="0" # expulsion from Yaik
+}
+914.1.1={
+	holder=1000231742
+}
+940.1.1={
+	holder=1000231744
+}
+942.1.1={
+	holder=1000231745
+}
+956.1.1={
+	holder=1000231747 #Kurya/Küre
+}
+1000.1.1={
+	holder=1000231749
+}
+1035.1.1={
+	holder=1000231751 
+}
+#Tiraq unites the east
+1040.1.1={
+	liege=k_pechenegs
+}
+1046.1.1={
+	holder=1000231755 # Soultzous
+}
+1095.1.1={
+	holder=1000231759
+}
+#Tugorkan and Boniak subdue the north of the danube.
+1094.1.1={
+	liege="k_cuman"
+}
+#Qipchaq loses the war against the Russians. Pechenegs in the west brakes free.
+1103.4.1={
+	liege="0"
+}
+1123.1.1={
+	holder=0 # last invasion of the byzzies, Pechenegs wiped out.
+}

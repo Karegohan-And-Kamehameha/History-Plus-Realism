@@ -7,23 +7,17 @@ title = c_zaragoza
 max_settlements = 5
 b_zaragoza = castle
 b_alagon = city
-#b_veruela = temple
-b_caspe = temple
+b_veruela = temple
 #b_borja = castle
-#b_medianadearagon = castle
-#b_epila = castle
-#b_ejea = city
+#b_ejea_de_los_caballeros = castle
+#b_tarazona = city
 
 # Misc
-culture = visigothic
-religion = catholic
+culture = andalusian_arabic
+religion = sunni
 
 # History
-
-950.1.1 = { culture = basque }
-
-1035.10.18 = { culture = castillan }
-
-1133.1.1 = { religion = catholic }
-
-1337.1.1 = { b_borja = castle }
+1066.1.1 = { 
+	b_zaragoza = ca_town_1
+	b_zaragoza = ca_wall_1
+}

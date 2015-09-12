@@ -1,0 +1,58 @@
+20.1.1 = {
+	historical_nomad = yes
+}
+1060.1.1=
+{
+holder=	1000231875 #Köteshk
+law = succ_feudal_elective
+	law = agnatic_succession
+	set_tribute_suzerain = { who = d_kiev percentage = 0.10 }
+}
+1087.1.1=
+{
+holder=	1000231903
+}
+1090.1.1=
+{
+holder=	1000231889
+}
+1094.1.1=
+{
+holder=	1000231877
+}
+1108.1.1=
+{
+holder=	1000231893 # Satmaz
+}
+1132.1.1=
+{
+holder=	1000231907 # Mnuz
+}
+1146.1.1=
+{
+holder=	1000231895 # Tudar
+}
+1170.1.1=
+{
+holder=	1000231923 # Bastey
+}
+1177.1.1=
+{
+holder=	1000231909 # Karakoz
+}
+1185.1.1=
+{
+holder=	1000231939 # Kuldeyur
+}
+1204.1.1=
+{
+holder=	1000231925 # Kuntuvdey
+}
+1218.1.1=
+{
+holder=	1000231885 # Çurnay
+}
+1240.1.1= 
+{
+holder=	0 # Mongols
+}

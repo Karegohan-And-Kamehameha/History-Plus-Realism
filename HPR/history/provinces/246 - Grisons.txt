@@ -4,20 +4,16 @@
 title = c_grisons
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_bellinzona = castle
-b_locarno = city
-b_disentis = temple
 #b_biasca = castle
-#b_domo = castle
-#b_lugano = city
-#b_musso = castle
+b_musso = castle
 #b_mendrisio = castle
+#b_chiavenna = castle
 
 # Misc
-culture = german
+culture = italian
 religion = catholic
 
 # History
-790.1.1 = { culture = italian }
 

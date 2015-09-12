@@ -1,0 +1,23 @@
+# 1580 - Jungaria
+
+# County Title
+title = c_jungaria
+
+# Settlements
+max_settlements = 6
+b_jambaliq = tribal
+b_beshbaliq = city
+b_kul-kara-ussu = temple
+#b_jungar-gates = tribal
+
+#b_lun-tai = castle
+#b_jimasa = castle
+
+# Misc
+culture = kirghiz
+religion = tengri_pagan
+
+# History
+980.1.1 = {	religion = nestorian }
+1130.1.1 = { b_lun-tai = castle}
+1205.1.1 = { b_jimasa = castle}

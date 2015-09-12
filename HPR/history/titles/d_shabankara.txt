@@ -1,0 +1,22 @@
+500.1.1={
+	historical_nomad = yes
+}
+1065.1.1={
+	#liege="k_persia"
+	set_tribute_suzerain = { who = e_persia percentage = 0.40 }
+	holder=3854
+}
+1069.1.1={
+	holder=93229
+}
+
+1070.1.1={
+	holder=1000229912
+}
+1080.1.1={
+	holder=93230
+}
+1094.1.1={
+	clear_tribute_suzerain = e_persia
+	holder=0
+}

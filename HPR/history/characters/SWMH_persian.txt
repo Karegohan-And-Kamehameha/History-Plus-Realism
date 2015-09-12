@@ -1,0 +1,1193 @@
+######################################
+#SWMH Persian Characters
+######################################
+#Persian characters
+#Dynasties: 1000101900 - 1000101999
+#Characters: 1000230500 - 1000230599
+
+######################################
+#Sons of Nezám al-Molk
+
+1000230500 = {
+	name="Mozzafar Fakhr al-Molk" # son of Nezam al-Molk or Nizam al-Mulk
+	dynasty=611
+	religion="sunni"
+	culture="khorasani"
+  father=3050
+	1043.4.10={
+		birth="1043.4.10"
+	}
+	1095.1.1={
+		employer=144013
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1102.1.1={
+		employer=144015
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1107.4.4={
+		death="1107.4.4"
+	}
+}
+1000230501 = {
+	name="Ahmad"  # son of Nezam al-Molk or Nizam al-Mulk
+	dynasty=611
+	religion="sunni"
+	culture="persian"
+  father=3050
+	1070.4.4={
+		birth="1070.4.4"
+	}
+	1107.6.6={
+		employer=144014
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1150.4.4={
+		death="1150.4.4"
+	}
+}
+1000230502 = {
+	name="Othmán Shams al-Molk" # son of Nezam al-Molk or Nizam al-Mulk
+	dynasty=611
+	religion="sunni"
+	culture="persian"
+  father=3050
+	1068.4.4={
+		birth = yes
+	}
+	1111.6.6={
+		employer=144014
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1130.4.4={
+		death = yes
+	}
+}
+1000230503 = {
+	name="'Ezz al-Molk"  # son of Nezam al-Molk or Nizam al-Mulk
+	dynasty=611
+	religion="sunni"
+	culture="persian"
+  father=3050
+	1056.4.4={
+		birth="1056.4.4"
+	}
+	1103.6.6={
+		employer=144013
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1113.4.4={
+		death="1113.4.4"
+	}
+}
+1000230504 = {
+	name="Jamál al-Molk"  # son of Nezam al-Molk or Nizam al-Mulk
+	dynasty=611
+	religion="sunni"
+	culture="persian"
+  father=3050
+	1056.4.4={
+		birth="1056.4.4"
+	}
+	1103.6.6={
+		employer=144013
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1113.4.4={
+		death="1113.4.4"
+	}
+}
+#Free IDs for Nezámolmolk's family
+#1000230504 - 1000230508
+
+#Tahirids forgotten in vanilla
+
+1000230509 = {
+	name="Mohammad"  # b.Abdallah b.Eshaq, governor of Fars ca 855-867  # b.Esháq, 851 governor in Fárs (to 867), Yamáma and Bahrayn
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230526
+  trait="gluttonous"
+	820.1.1={
+		birth="820.1.1"
+	}
+	867.10.10={
+		death="867.10.10"
+	}
+}
+
+#Saffarids of Sistan
+
+1000230510 = {
+	name="Ahmad"
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 1000230517
+	920.1.1={
+		birth="920.1.1"
+	}
+	987.1.1={
+		death="987.1.1"
+	}
+}
+1000230511 = {
+	name="Khalaf"
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 1000230510
+	958.1.1={
+		birth="958.1.1"
+	}
+	1009.1.1={
+		death="1009.1.1"
+	}
+}
+1000230512 = {
+	name="Nasr"  #Abu'l-Fadl
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 1000230511
+	995.1.1={
+		birth="995.1.1"
+	}
+	1073.1.1={
+		death="1073.1.1"
+	}
+}
+1000230513 = {
+	name="Mansúr" #Abú Nasr
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 1000230511
+	997.1.1={
+		birth="997.1.1"
+	}
+	1060.1.1={
+		death="1060.1.1"
+	}
+}
+1000230514 = {
+	name="Táhir"  #Bahá' al-Daula wa'l-Dín
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 1000230512
+	1032.1.1={
+		birth = yes
+	}
+	1088.1.1={
+		death = yes
+	}
+}
+1000230515 = {
+	name="Nasr"  #Abu'l-Fadl Nasr II.
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 1000230514
+	1078.1.1={
+		birth = yes
+	}
+	1164.1.1={
+		death = yes
+	}
+}
+1000230516 = {
+	name="Abú'l-'Abás" 
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 1000230513 #not sure but probably Mansúr b.Khalaf
+	1035.1.1={
+		birth = yes
+	}
+	1091.1.1={
+		death = yes
+	}
+}
+1000230517 = {
+	name="Amr"
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 163164
+	880.1.1={
+		birth = yes
+	}
+	956.1.1={
+		death = yes
+	}
+}
+#al-Sarids
+
+1000230518 = {
+	name="Uzair"
+	dynasty=1000101900
+	religion="sunni"
+	culture="persian"
+	830.1.1={
+		birth = yes
+	}
+	865.1.1={
+		employer=163101
+	}
+	880.1.1={
+		death = yes
+	}
+}
+
+#Tahirids forgotten in vanilla part2
+
+1000230519 = {
+	name="Mos'ab"  # the first Tahirid
+	dynasty=1000101902
+	religion="sunni"
+	culture="khorasani"
+	727.1.1={
+		birth="727.1.1"
+	}
+	775.10.10={
+		death="775.10.10"
+	}
+}
+1000230520 = {
+	name="Hosayn"
+	dynasty=1000101902
+	religion="sunni"
+	culture="khorasani"
+	father = 1000230519
+	752.1.1={
+		birth="752.1.1"
+	}
+	805.10.10={
+		death="805.10.10"
+	}
+}
+1000230521 = {
+	name="Táher"
+	dynasty=1000101902
+	religion="sunni"
+	culture="khorasani"
+	father = 1000230520
+	776.1.1={
+		birth="776.1.1"
+	}
+	822.10.10={
+		death="822.10.10"
+	}
+}
+1000230522 = {
+	name="Ebráhim"
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230520
+	779.1.1={
+		birth="779.1.1"
+	}
+	826.10.10={
+		death="826.10.10"
+	}
+}
+1000230523 = {
+	name="Hasan"
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230520
+	781.1.1={
+		birth="781.1.1"
+	}
+	820.10.10={
+		death="820.10.10"
+	}
+}
+1000230524 = {
+	name="Talha"
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230521
+	795.1.1={
+		birth="795.1.1"
+	}
+	828.10.10={
+		death="828.10.10"
+	}
+}
+1000230525 = {
+	name="Ahmad"
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230521
+	797.1.1={
+		birth="797.1.1"
+	}
+	839.10.10={
+		death="839.10.10"
+	}
+}
+1000230526 = {
+	name="Esháq"
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230522
+	800.1.1={
+		birth="800.1.1"
+	}
+	850.7.7={
+		death="850.7.7"
+	}
+}
+1000230527 = {
+	name="Mohammed" # b.Ebráhim, 846 governor in Fárs
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230522
+	803.1.1={
+		birth="803.1.1"
+	}
+	851.10.10={
+		death="851.10.10"
+	}
+}
+1000230528 = {
+	name="'Abdalláh"  # b.Esháq, 850-51 governor in Baghdad
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230526
+	823.1.1={
+		birth="823.1.1"
+	}
+	869.10.10={
+		death="869.10.10"
+	}
+}
+1000230529 = {
+	name="Esma'íl" # b.Ebráhim
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230522
+	808.1.1={
+		birth="808.1.1"
+	}
+	863.10.10={
+		death="863.10.10"
+	}
+}
+1000230530 = {
+	name="Hosayn" # b.Esma'íl, 851 briefly governor in Fárs
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230529
+	828.1.1={
+		birth="828.1.1"
+	}
+	876.10.10={
+		death="876.10.10"
+	}
+}
+1000230542 = {
+	name="Hosayn" # b. Obaydallah
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 163160
+	856.1.1={
+		birth = yes
+	}
+	912.10.10={
+		death = yes
+	}
+}
+#Dulafids
+
+1000230531 = {
+	name="Ma'qil"  # 
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	710.1.1={
+		birth = yes
+	}
+	758.10.10={
+		death = yes
+	}
+}
+1000230532 = {
+	name="Idris"  #  cca 750 near Hamadan
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230531
+	728.1.1={
+		birth = yes
+	}
+	778.10.10={
+		death = yes
+	}
+}
+1000230533 = {
+	name="'Ísá"  
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230532
+	763.1.1={
+		birth = yes
+	}
+	825.10.10={
+		death = yes
+	}
+}
+1000230534 = {
+	name="'Ísá"  # 780 b_karadj
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230532
+	765.1.1={
+		birth = yes
+	}
+	815.10.10={
+		death = yes
+	}
+}
+1000230535 = {
+	name="Abú Dulaf"  # 825 b_karadj
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230534
+	787.1.1={
+		birth = yes
+	}
+	840.10.10={
+		death = yes
+	}
+}
+1000230536 = {
+	name="Ma'qil"
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230534
+	790.1.1={
+		birth = yes
+	}
+	836.10.10={
+		death = yes
+	}
+}
+1000230537 = {
+	name="Hisham"
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230535
+	810.1.1={
+		birth = yes
+	}
+	867.10.10={
+		death = yes
+	}
+}
+1000230538 = {
+	name="'Abd-al-'Azíz"
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230535
+	816.1.1={
+		birth = yes
+	}
+#	866.1.1={
+#		add_rival=1000230290
+#	}
+	870.10.10={
+		death = yes
+	}
+}
+1000230539 = {
+	name="Dulaf"
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230538
+	836.1.1={
+		birth = yes
+	}
+	878.10.10={
+		death = yes
+	}
+}
+1000230540 = {
+	name="Ahmad"
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230538
+	838.1.1={
+		birth = yes
+	}
+	894.10.10={
+		death = yes
+	}
+}
+1000230541 = {
+	name="Bakr"
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230538
+	846.1.1={
+		birth = yes
+	}
+	908.10.10={
+		death = yes
+	}
+}
+1000230543 = {
+	name="'Umar"
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230538
+	849.1.1={
+		birth = yes
+	}
+	910.10.10={
+		death = yes
+	}
+}
+1000230544 = {
+	name="Yasmin"  #fantasy, but need some females
+  female=yes
+	dynasty=1000101901
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230538
+	847.6.6={
+		birth = yes
+	}
+	903.10.10={
+		death = yes
+	}
+}
+
+#placeholder Tahirid females
+1000230545 = {
+	name="Yasaman"  #fantasy, but need some females
+  female=yes
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 1000230528
+	845.6.6={
+		birth = yes
+	}
+	900.10.10={
+		death = yes
+	}
+}
+1000230546 = {
+	name="Azadeh"  #fantasy, but need some females
+  female=yes
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 163160
+	858.1.1={
+		birth = yes
+	}
+	916.10.10={
+		death = yes
+	}
+}
+1000230547 = {
+	name="Elnaz"  #fantasy, but need some females
+  female=yes
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 163159
+	844.1.1={
+		birth="844.1.1"
+	}
+	899.7.7={
+		death="899.7.7"
+	}
+}
+1000230548 = {
+	name="Mariam"  #fantasy, but need some females
+  female=yes
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 163162
+	850.6.6={
+		birth = yes
+	}
+	909.10.10={
+		death = yes
+	}
+}
+#placeholder females
+1000230549 = {
+	name="Navvaba"  #Saffarid fantasy, but need some females
+  female=yes
+	dynasty=1000101903
+	religion="sunni"
+	culture="persian"
+	father = 163163
+	841.1.1={
+		birth = yes
+	}
+	901.1.1={
+		death = yes
+	}
+}
+#Abu Hashim of Hamadan and his family/son
+1000230550 = {
+	name="Abú Háshim"
+	dynasty=7326
+	religion="sunni"
+	culture="persian"
+	father = 93021
+	1047.1.1={
+		birth = yes
+	}
+	1108.10.10={
+		death = yes
+	}
+}
+1000230551 = {
+	name="Háshim"
+	dynasty=7326
+	religion="sunni"
+	culture="persian"
+	father = 1000230550
+	1066.1.1={
+		birth = yes
+	}
+	1129.1.1={
+		death = yes
+	}
+}
+1000230552 = {
+	name="Hazárasp"     #governor in Basra
+	dynasty=1000101906
+	religion="sunni"
+	culture="persian"
+	father = 1000230553
+	1037.1.1={
+		birth = yes
+	}
+	1067.1.1={
+		add_spouse=1000229919  #Alp-Arslan's sister
+	}
+	1070.1.1={
+		death = yes
+	}
+}
+1000230553 = {
+	name="Bankír"
+	dynasty=1000101906
+	religion="sunni"
+	culture="persian"
+	1015.1.1={
+		birth = yes
+	}
+	1067.1.1={
+		death = yes
+	}
+}
+1000230554 = {
+	name="Abu-l-'Alá"
+	dynasty=1000101907
+	religion="sunni"
+	culture="persian"
+	1020.1.1={
+		birth = yes
+	}
+	1069.1.1={
+		death = yes
+	}
+}
+1000230555 = {
+	name="'Alá"
+	dynasty=1000101907
+	religion="sunni"
+	culture="persian"
+	father = 1000230554
+	1042.1.1={
+		birth = yes
+	}
+	1103.1.1={
+		death = yes
+	}
+}
+
+#Tahirid female
+1000230556 = {
+	name="Parvin"
+  female=yes
+	dynasty=1000101902
+	religion="sunni"
+	culture="persian"
+	father = 163159
+	838.1.1={
+		birth = yes
+	}
+  867.1.1={
+    add_spouse = 163099
+  }
+	888.7.7={
+		death = yes
+	}
+}
+
+#Leaders of Hormuz republic
+1000230557 = {
+	name="Diramku"
+	dynasty=1000101908
+	religion="sunni"
+	culture="bedouin_arabic"
+	1010.1.1={
+		birth = yes
+	}
+	1056.1.1={
+		death = yes
+	}
+}
+1000230558 = {
+	name="Muhammad Diramku"
+	dynasty=1000101908
+	religion="sunni"
+	culture="bedouin_arabic"
+	father = 1000230557
+	1040.1.1={
+		birth = yes
+	}
+	1099.1.1={
+		death = yes
+	}
+}
+1000230559 = {
+	name="Sulaiman"
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230558
+	1065.1.1={
+		birth = yes
+	}
+	1123.1.1={
+		death = yes
+	}
+}
+1000230560 = {
+	name="'Ísá"
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230559
+	1098.1.1={
+		birth = yes
+	}
+	1150.1.1={
+		death = yes
+	}
+}
+1000230561 = {
+	name="Lashkari"
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230560
+	1126.1.1={
+		birth = yes
+	}
+	1190.1.1={
+		death = yes
+	}
+}
+1000230562 = {
+	name="Kaiqubád"
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230561
+	1150.1.1={
+		birth = yes
+	}
+	1191.1.1={
+		death = yes
+	}
+}
+1000230563 = {
+	name="'Ísá"
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230562
+	1173.1.1={
+		birth = yes
+	}
+	1192.1.1={
+		death = yes
+	}
+}
+1000230564 = {
+	name="Mahmúd"	#Shahab al-Dín
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230560
+	1142.1.1={
+		birth = yes
+	}
+	1193.1.1={
+		death = yes
+	}
+}
+1000230565 = {
+	name="Shahansháh"
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230564
+	1163.1.1={
+		birth = yes
+	}
+	1201.1.1={
+		death = yes
+	}
+}
+1000230566 = {
+	name="Malang Sharaf-al-Dín"
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230565
+	1199.1.1={
+		birth = yes
+	}
+	1249.1.1={
+		death = yes
+	}
+}
+1000230567 = {
+	name="Nusrat Saif-al-Dín"
+	dynasty=1000101908
+	religion="sunni"
+	culture="persian"
+	father = 1000230565
+	1201.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+#Hormuzi merchant family
+1000230568 = {
+	name="Salman"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	1048.1.1={
+		birth = yes
+	}
+	1099.1.1={
+		death = yes
+	}
+}
+1000230569 = {
+	name="Zakaria"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	father = 1000230568
+	1072.1.1={
+		birth = yes
+	}
+	1128.1.1={
+		death = yes
+	}
+}
+1000230570 = {
+	name="Jamshid"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	father = 1000230569
+	1100.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		death = yes
+	}
+}
+1000230571 = {
+	name="Jamshid"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	father = 1000230570
+	1133.1.1={
+		birth = yes
+	}
+	1196.1.1={
+		death = yes
+	}
+}
+1000230572 = {
+	name="Zakaria"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	father = 1000230571
+	1168.1.1={
+		birth = yes
+	}
+	1222.1.1={
+		death = yes
+	}
+}
+1000230573 = {
+	name="Esfandiar"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	father = 1000230572
+	1200.1.1={
+		birth = yes
+	}
+	1259.1.1={
+		death = yes
+	}
+}
+1000230574 = {
+	name="Salman"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	father = 1000230573
+	1231.1.1={
+		birth = yes
+	}
+	1292.1.1={
+		death = yes
+	}
+}
+1000230575 = {
+	name="Esfandiar"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	father = 1000230574
+	1265.1.1={
+		birth = yes
+	}
+	1319.1.1={
+		death = yes
+	}
+}
+1000230576 = {
+	name="Jamshid"	#placeholder
+	dynasty=1000101910
+	religion="shiite"
+	culture="persian"
+	father = 1000230575
+	1301.1.1={
+		birth = yes
+	}
+	1358.1.1={
+		death = yes
+	}
+}
+#al-e-Qeshm merchant family
+1000230577 = {
+	name="Behrad"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	1047.1.1={
+		birth = yes
+	}
+	1096.1.1={
+		death = yes
+	}
+}
+1000230578 = {
+	name="Bakhtiar"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	father = 1000230577
+	1070.1.1={
+		birth = yes
+	}
+	1132.1.1={
+		death = yes
+	}
+}
+1000230579 = {
+	name="Bahram"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	father = 1000230578
+	1108.1.1={
+		birth = yes
+	}
+	1165.1.1={
+		death = yes
+	}
+}
+1000230580 = {
+	name="Javeed"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	father = 1000230579
+	1140.1.1={
+		birth = yes
+	}
+	1203.1.1={
+		death = yes
+	}
+}
+1000230581 = {
+	name="Bakhtiar"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	father = 1000230580
+	1175.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000230582 = {
+	name="Mehrab"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	father = 1000230581
+	1210.1.1={
+		birth = yes
+	}
+	1273.1.1={
+		death = yes
+	}
+}
+1000230583 = {
+	name="Vishtasb"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	father = 1000230582
+	1243.1.1={
+		birth = yes
+	}
+	1298.1.1={
+		death = yes
+	}
+}
+1000230584 = {
+	name="Bakhtiar"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	father = 1000230583
+	1278.1.1={
+		birth = yes
+	}
+	1324.1.1={
+		death = yes
+	}
+}
+1000230585 = {
+	name="Vishtasb"	#placeholder
+	dynasty=1000101911
+	religion="sunni"
+	culture="persian"
+	father = 1000230584
+	1305.1.1={
+		birth = yes
+	}
+	1368.1.1={
+		death = yes
+	}
+}
+
+#al-e-Laft/Lafti merchant family
+1000230586 = {
+	name="Kalbhoj"	#placeholder
+	dynasty=1000101912
+	religion="hindu"
+	culture="gujurati"
+	1048.1.1={
+		birth = yes
+	}
+	1105.1.1={
+		death = yes
+	}
+}
+1000230587 = {
+	name="Khuman"	#placeholder
+	dynasty=1000101912
+	religion="hindu"
+	culture="gujurati"
+	father = 1000230586
+	1066.1.1={
+		birth = yes
+	}
+	1126.1.1={
+		death = yes
+	}
+}
+1000230588 = {
+	name="Kumar-Singh"	#placeholder
+	dynasty=1000101912
+	religion="hindu"
+	culture="gujurati"
+	father = 1000230587
+	1099.1.1={
+		birth = yes
+	}
+	1158.1.1={
+		death = yes
+	}
+}
+
+
+
+#last free 1000230599

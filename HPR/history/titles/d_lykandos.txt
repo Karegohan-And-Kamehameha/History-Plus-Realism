@@ -1,0 +1,14 @@
+934.1.1=
+{
+liege="e_byzantium"
+vice_royalty = yes
+}
+1045.1.1=
+{
+holder=41522
+}
+1076.3.2=
+{
+holder=0
+liege=0
+}

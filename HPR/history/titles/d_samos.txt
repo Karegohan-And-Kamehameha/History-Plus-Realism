@@ -2,76 +2,84 @@
 	liege = "e_byzantium"
 	vice_royalty = yes
 }
-750.1.1={
-	holder=145830
+865.1.1={
+	holder=1000232128
 }
-792.1.1={
-	holder=145831
+1060.1.1=
+{
+holder=42003
 }
-847.1.1={
-	holder=145194
+1078.3.31=
+{
+holder=34262
 }
-1000.1.1 = {
-	liege = "e_byzantium"
-	holder = 1000252306
-}
-1060.1.1 = {
-liege = "e_byzantium"
-}
-1060.1.1 = {
-holder = 42003
-}
-1070.1.1 = {
-holder = 20518
-}
-1081.1.1 = {
-liege = "k_rum"
+1081.1.1=
+{
+liege="k_rum"
 vice_royalty = no
-holder = 34262
 }
-1092.1.1 = {
-holder = 34264
+1092.1.1=
+{
+holder=34264
 }
-1095.1.1 = {
-liege = "e_byzantium"
+1098.1.1=
+{
+liege="e_byzantium"
 vice_royalty = yes
-holder = 20518
+holder=1000232216
 }
-1108.1.1 = {
-holder = 215509
+1099.1.1=
+{
+holder=1000232217
 }
-1166.1.16 = {
-holder = 215526
+1108.1.1=
+{
+holder=1000232218
 }
-1180.1.2 = {
-holder = 34276
+1116.1.1=
+{
+holder=215509
 }
-1199.1.1 = {
-holder = 34277
+1166.1.16=
+{
+holder=34411
 }
-1202.1.1 = {
-holder = 215000
+1176.1.1=
+{
+	holder = 125753
 }
-1204.5.16 = {
-liege = "k_nikaea"
+1182.1.1=
+{
+holder=1000232248
+}
+1186.1.1=
+{
+holder=215517
+}
+1203.1.1=
+{
+holder=215038
+}
+1218.1.1=
+{
+holder=215000
+}
+1261.1.1=
+{
+holder=34283
+}
+1279.1.1=
+{
+holder=34286
+}
+1308.1.1=
+{
+liege="k_saruhan"
 vice_royalty = no
+holder=71871
 }
-1261.1.1 = {
-holder = 34283
-}
-1261.7.25 = {
-liege = "e_byzantium"
-vice_royalty = yes
-}
-1279.1.1 = {
-holder = 34286
-}
-1308.1.1 = {
-liege = 0
-vice_royalty = no
-holder = 71871
-}
-1310.1.1 = {
-holder = 71870
+1310.1.1=
+{
+holder=71870
 }
 

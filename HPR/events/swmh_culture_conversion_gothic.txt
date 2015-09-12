@@ -1,0 +1,46 @@
+
+namespace = swmh
+
+# Province culture changes from Norse to Gothic
+province_event = {
+	id = swmh.100
+	desc = swmh.100.desc
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		year = 950
+		culture = norse
+		region = swmh_region_gothic
+		not = { year = 1150 }
+		owner = {
+			top_liege = {
+				or = {
+					culture = norse
+					culture = gothic
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2800
+	}
+
+	option = {
+		name = swmh.100.opt.a
+		trigger = {
+			NOT = {
+				owner = { culture = gothic }
+			}
+		}
+		culture = gothic
+	}
+	option = {
+		name = swmh.100.opt.b
+		trigger = {
+			owner = { culture = gothic }
+		}
+		culture = gothic
+	}
+}

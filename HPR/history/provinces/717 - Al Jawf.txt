@@ -4,16 +4,11 @@
 title = c_al_jawf
 
 # Settlements
-max_settlements = 3
-b_al_jawf = castle
-b_sakakah = city
-b_aladan = temple
+max_settlements = 2
 
-#b_dumat_al_jandal = castle
-#b_qurayyat = castle
-#b_radifah = castle
-#b_tuwayr = city
-#b_tyer = city
+b_mawijanarabia = tribal
+b_sumanarabia = city
+
 
 # Misc
 culture = levantine_arabic

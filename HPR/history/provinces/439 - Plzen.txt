@@ -4,27 +4,23 @@
 title = c_plzen
 
 # Settlements
-max_settlements = 4
-b_plzen = tribal
-
-#b_rokycany = temple
-#b_stribo = city
-#b_tachov = city
-#b_cheb = castle
-#b_plasy = castle
-#b_pomuk = castle
-#b_susice = castle
-
+max_settlements = 5
+b_plzen = castle
+b_stribo = city
+b_kladruby = temple
+#b_tachov = castle
+#b_primda = castle
+#b_velhartice = castle
+#b_klatovy = city
+#b_rokycany = city
+#b_plasy = temple
+#b_tepla = temple
 
 # Misc
 culture = bohemian
 religion = slavic_pagan
 
 # History
+
 883.1.1 = { religion = catholic }
-999.1.1 = {
-	b_plzen = castle
-	b_rokycany = temple
-	b_stribo = city
-}
-1265.1.1 = { b_tachov = city }
+1126.1.6 = { b_primda = castle }

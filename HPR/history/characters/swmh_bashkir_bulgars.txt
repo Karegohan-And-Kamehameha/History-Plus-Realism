@@ -1,0 +1,318 @@
+# Semi mythical cheifs of the medival incarnation of the Uysun clan(Uyshun) by Graf Radetzky. Mostly by tradition except Mayqu who is attested in multiple contemporary soruce(but whos subsequent decendeds are also very murky/fuzzy aswell(hotly contested especially between Bashkirs and Kazakhs).
+1000233300 = {
+	name="Syra" # father of Aydyr
+        dynasty="1000100544" # Uyshun
+	religion="tengri_pagan"
+	culture="turkmen"        
+	1020.1.1={
+		birth = yes
+	}
+	1140.1.1={
+		death = yes
+	}
+}
+1000233301 = {
+	name="Aydyr" # father of Tömän
+        dynasty="1000100544" # Uyshun
+	religion="tengri_pagan"
+	culture="turkmen"
+        father=1000233300
+	1066.1.1={
+		birth = yes
+	}
+	1135.1.1={
+		death = yes
+	}
+}
+1000233302 = {
+	name="Tömän" # father or grandfather of Mayqy.
+        dynasty="1000100544" # Uyshun
+	religion="tengri_pagan"
+	culture="turkmen"
+        father=1000233301
+	1115.1.1={
+		birth = yes
+	}
+	1186.1.1={
+		death = yes
+	}
+}
+1000233303 = {
+	name="Mayqy" # Mayqy bey.        
+        dynasty="1000100544" # Uyshun
+	religion="tengri_pagan"
+	culture="turkmen"
+        father=1000233302
+	1165.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+##Bashkir branch(aka Tabyn)
+1000233304 = {
+	name="Sura" # Son of Mayqy
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233303
+	1210.1.1={
+		birth = yes
+	}
+	1250.1.1={
+		death = yes
+	}
+}
+1000233305 = {
+	name="Ilek" # Son of Mayqy
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233303
+	1215.1.1={
+		birth = yes
+	}
+	1263.1.1={
+		death = yes
+	}
+}
+1000233306 = {
+	name="Soltan" # Son of Mayqy
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233303
+	1220.1.1={
+		birth = yes
+	}
+	1270.1.1={
+		death = yes
+	}
+}
+1000233307 = {
+	name="Alsyn" # Son of Ilek
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233305
+	1246.1.1={
+		birth = yes
+	}
+	1286.1.1={
+		death = yes
+	}
+}
+1000233308 = {
+	name="Bulga" # Son of Alsyn
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233307
+	1270.1.1={
+		birth = yes
+	}
+	1320.1.1={
+		death = yes
+	}
+}
+1000233309 = {
+	name="Qara-Tabyn" # Aka Kara-Ghaziz. Son of Bulga. 
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233308
+	1300.1.1={
+		birth = yes
+	}
+	1350.1.1={
+		death = yes
+	}
+}
+1000233310 = {
+	name="Sulman" # Son of Qara-Tabyn
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233309
+	1333.1.1={
+		birth = yes
+	}
+	1380.1.1={
+		death = yes
+	}
+}
+1000233311 = {
+	name="Qolman" # Son of Sulman
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233309
+	1350.1.1={
+		birth = yes
+	}
+	1410.1.1={
+		death = yes
+	}
+}
+#
+1000233312 = {
+	name="Ihsan" # Son of Soltan
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233306
+	1253.1.1={
+		birth = yes
+	}
+	1315.1.1={
+		death = yes
+	}
+}
+1000233313 = {
+	name="Aryslan" # Son of Ihsan
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233312
+	1288.1.1={
+		birth = yes
+	}
+	1333.1.1={
+		death = yes
+	}
+}
+1000233314 = {
+	name="Däwlätkilde" # Son of Aryslan
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233313
+	1310.1.1={
+		birth = yes
+	}
+	1357.1.1={
+		death = yes
+	}
+}
+1000233315 = {
+	name="Baytiräk" # Son of Däwlätkilde
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233314
+	1310.1.1={
+		birth = yes
+	}
+	1357.1.1={
+		death = yes
+	}
+}
+1000233316 = {
+	name="Aqbirðe" # Son of Baytiräk
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233315
+	1336.1.1={
+		birth = yes
+	}
+	1379.1.1={
+		death = yes
+	}
+}
+1000233317 = {
+	name="Aqsy" # Son of Aqbirðe
+        dynasty="1000100543" # Tabyn
+	religion="tengri_pagan"
+	culture="bashkir"
+        father=1000233316
+	1354.1.1={
+		birth = yes
+	}
+	1420.1.1={
+		death = yes
+	}
+}
+# Kazakh/CA-steppe branch
+1000233318 = {
+	name="Abak" # Son of Mayqy
+        dynasty="1000100544" # Uyshun
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233303
+	1208.1.1={
+		birth = yes
+	}
+	1260.1.1={
+		death = yes
+	}
+}
+1000233319 = {
+	name="Bakhtiyar" # Son of Mayqy
+        dynasty="1000100544" # Uyshun
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233303
+	1221.1.1={
+		birth = yes
+	}
+	1269.1.1={
+		death = yes
+	}
+}
+1000233298 = {
+	name="Bakhtiyar" # Son of Mayqy
+        dynasty="1000100544" # Uyshun
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233303
+	1226.1.1={
+		birth = yes
+	}
+	1275.1.1={
+		death = yes
+	}
+}
+1000233299 = {
+	name="Oysil" # Aka Uysil. Son of Mayqy
+        dynasty="1000100544" # Uyshun
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233303
+	1235.1.1={
+		birth = yes
+	}
+	1280.1.1={
+		death = yes
+	}
+}
+###########################
+1000233324 = {
+	name="Virag" # A bolghar vassal prince (of Suvars ?) in 921
+	religion="tengri_pagan"
+	culture="bolghar"
+	900.1.1={
+		birth = yes
+	}
+	921.1.1={
+	religion="sunni"
+	}
+	950.1.1={
+		death = yes
+	}
+}
+1000233325 = {
+	name="Askal" # A bolghar vassal prince (of the Esegels) in 921
+	religion="tengri_pagan"
+	culture="bolghar"
+	900.1.1={
+		birth = yes
+	}
+	921.1.1={
+	religion="sunni"
+	}
+	950.1.1={
+		death = yes
+	}
+}

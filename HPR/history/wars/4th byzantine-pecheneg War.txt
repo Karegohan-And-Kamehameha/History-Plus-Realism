@@ -1,0 +1,25 @@
+name = "Pecheneg Invasion of the Balkans"
+
+casus_belli = {
+	
+
+	actor = 1000231756 # Tzegul	
+	recipient = 1734
+	casus_belli=tribal_invasion
+	landed_title=k_bulgaria
+	date = 
+1069.1.1
+}
+
+
+
+1069.1.1 = {
+	add_attacker = 1000231756
+	add_defender = 1734}
+
+
+
+1071.8.26 = {
+	rem_attacker = 1000231756
+	rem_defender = 1734
+}

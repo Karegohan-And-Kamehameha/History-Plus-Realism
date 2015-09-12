@@ -4,29 +4,26 @@
 title = c_vladimir_volynsky
 
 # Settlements
-max_settlements = 5
-b_vladimirvolynsky = tribal
-#b_kholm = city
-#b_kovel = temple
+max_settlements = 6
 
-#b_ivanichy = castle
-#b_hrubieszow = castle
-#b_torchyn = castle
-#b_cherven = castle
+b_vladimirvolynsky = tribal
+b_lutsk = temple
+#b_staryichortoryisk = castle
+#b_ustyluh = temple
+
 #b_luboml = castle
+#b_turiisk = city
+#b_stepan = city
+#b_ivanichy = castle
+#b_kaminkashyrskyi = city
 
 # Misc
-culture = volhynian
+culture = russian
 religion = slavic_pagan
 
 # History
-945.1.2 = {
-	culture = russian
-}
-989.1.1 = {
-	religion = orthodox
-	b_vladimirvolynsky = castle
-	b_kholm = city
-	b_kovel = temple
-}
-1187.1.1 = { b_kovel = city }
+988.1.1 = {religion = orthodox }
+988.1.1 = {b_vladimirvolynsky = castle
+b_staryichortoryisk = castle
+b_ustyluh = temple }
+1187.1.1 = { b_luboml = city }

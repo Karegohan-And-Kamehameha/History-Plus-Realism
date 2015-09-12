@@ -1,0 +1,12 @@
+500.1.1={
+	historical_nomad = yes
+}
+860.1.1={
+	liege="k_turkestan_east"
+}
+860.1.1={
+	holder=1000230256
+}
+870.1.1={
+	holder=0
+}

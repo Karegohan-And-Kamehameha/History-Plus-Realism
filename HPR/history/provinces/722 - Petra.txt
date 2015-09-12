@@ -1,19 +1,15 @@
-# 722 - Petra
+# 722 - Petra # Elim
 
 # County Title
 title = c_petra
 
 # Settlements
-max_settlements = 4
-b_tophel = castle
-b_wadi_musa = city
-b_petra = temple
+max_settlements = 3
 
-#b_bozrah = temple
-#b_shoubak = castle
-#b_abdelliya = castle
-#b_hamza = castle
-#b_husseiniya = castle
+b_pharaohosisland = castle
+b_jordanaqba = city
+b_syrarandal = temple
+
 
 # Misc
 culture = levantine_arabic

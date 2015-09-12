@@ -1,0 +1,97 @@
+850.1.1={
+	liege="d_oghuz"
+}
+850.1.1={
+	holder=1000230100
+}
+862.1.1={
+	holder=1000230101
+}
+900.1.1={
+	holder=1000230103
+}
+912.1.1={
+	holder=1000230106
+}
+929.1.1={
+	holder=1000230121
+}
+951.1.1={
+	holder=1000230125 # Salur
+}
+960.1.1={
+	holder=1000230132
+}
+983.1.1={
+	holder=1000230146
+}
+996.1.1={
+	holder=1000230138
+}
+1015.1.1={
+	holder=1000230137
+}
+#Cumans arrive
+#Terteroba
+1030.1.1={
+	holder=1000233087 # Sokal
+	liege=d_terteroba
+}
+#Targil
+1050.1.1={
+	liege=d_targil
+	holder=1000233060
+}
+1100.1.1={
+	holder=1000233062  # Komana
+}
+1133.1.1={
+	liege="k_khwarezmia"
+	holder=144100
+}
+1156.1.1={
+	holder=144101
+}
+1172.1.1={
+	holder=93050  # Mahmud Sultan
+}
+1172.12.12={
+	holder=230000 # Tekish  after his brother Sultan forced to flee
+}
+1181.1.1={
+	holder=93050  # Mahmud Sultan holds  land in Khorasan asindependent
+}
+1193.1.1={
+	holder=230000 # Tekish again after death of Sultan
+}
+1200.1.1={
+	holder=93052
+}
+1221.1.1=
+{
+ liege=e_golden_horde
+holder=34852
+}
+1225.1.1=
+{
+holder=125502
+}
+1227.1.2=
+{
+holder=34911
+}
+1260.1.1=
+{
+holder=34905
+}
+1300.1.1=
+{
+holder=34968
+}
+1320.1.1=
+{
+holder=34969
+}
+
+
+

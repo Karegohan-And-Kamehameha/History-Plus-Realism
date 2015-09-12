@@ -1,61 +1,74 @@
-536.7.1={
-	liege="d_dalmatia"
+864.1.1={
+	liege = "d_dalmatia"
 }
-750.1.1={
-	holder=145849
+864.1.1={
+	holder=1000232106
 }
-856.1.1={
-	holder=145120
+1055.1.1=
+{
+holder=1000229200 # Vinihi Lapcanu
 }
-998.1.1 = {
-	holder = 1000251200
-	liege = "k_venice"
+1066.1.1=
+{
+#liege="d_croatia"
+#law = agnatic_succession
+#law = succ_seniority
 }
-1066.1.1 = {
-liege = "d_dalmatia"
+1110.1.1=
+{
+	holder=93542
 }
-1066.1.1 = {
-holder = 32590
+#Frankopan dynasty
+
+1131.4.2=
+{
+holder=219990
 }
-1070.1.1 = {
-holder = 32591
+1163.1.1=
+{
+holder=219991
 }
-1089.1.1 = {
-holder = 32592
+1164.1.1=
+{
+holder=219999
 }
-1100.1.1 = {
-holder = 32593
+1165.1.1=
+{
+liege="k_venice"
 }
-1102.1.1 = {
-holder = 32594
+1183.9.24=
+{
+liege="d_dalmatia"
 }
-1164.1.1 = {
-holder = 219999
+1184.1.1=
+{
+holder=220002
 }
-1165.1.1 = {
-liege = "k_venice"
+1198.1.1=
+{
+holder=219992
 }
-1183.9.24 = {
-liege = "d_dalmatia"
+1209.1.1=
+{
+holder=32631
 }
-1184.1.1 = {
-holder = 220002
+1232.1.1=
+{
+holder=32634
 }
-1185.1.1 = {
-holder = 32597
+1260.1.1=
+{
+holder=32635
 }
-1197.1.1 = {
-holder = 32605
+1262.1.1=
+{
+holder=32636
 }
-1202.1.1 = {
-liege = "k_venice"
+1316.1.1=
+{
+holder=470020
 }
-1238.1.1 = {
-holder = 32610
-}
-1274.1.1 = {
-holder = 32618
-}
-1302.1.1 = {
-holder = 470003
+1322.1.1=
+{
+holder=470021
 }

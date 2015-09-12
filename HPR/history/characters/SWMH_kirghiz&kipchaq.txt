@@ -1,0 +1,3705 @@
+######################################
+#Kirghiz Characters
+######################################
+#kirghiz characters
+#Dynasties: 1000101570 - 1000101599
+#Characters: 1000229700 - 1000229799
+################
+#Cuman
+##Range: 1000231950 - 1000232049 
+######################################
+#Placeholder Kirghiz chieftans 867
+
+1000229700 = {
+	name="Menglig Tegin"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	840.1.1={
+		birth="840.1.1"
+	}
+	882.1.1={
+		death="882.1.1"
+	}
+} 
+1000229701 = {
+	name="Boko Tegin"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229700
+  858.1.1={
+		birth="858.1.1"
+	}
+	912.1.1={
+		death="912.1.1"
+	}
+} 
+######################################
+#Placeholder Kimek chieftans 867
+1000229710 = {
+	name="Menglig Tegin"
+	dynasty=1000101590
+	religion="tengri_pagan"
+	culture="cuman"
+	820.1.1={
+		birth = yes
+	}
+	882.1.1={
+		death = yes
+	}
+} 
+1000229711 = {
+	name="Boko Tegin"
+	dynasty=1000101590
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229710
+	849.1.1={
+		birth = yes
+	}
+	866.1.1={
+		add_spouse=1000229712 
+	}
+	912.1.1={
+		death="912.1.1"
+	}
+} 
+1000229712 = {
+	name="Karacik"    #originaly meant to be Kimek princes, but for gameplay reasons is Oghuz princess married to Kimeks
+	female=yes
+	dynasty=1000101748
+	religion="tengri_pagan"
+	culture="oghuz"
+	father = 1000230100
+	850.1.1={
+		birth="850.1.1"
+	}
+	866.1.1={
+		add_spouse=1000229711 
+	}
+	912.1.1={
+		death="912.1.1"
+	}
+} 
+1000233007 = {
+	name="Qoçqar" # fictional
+	dynasty=1000101590
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229711
+	mother = 1000229712
+	870.1.1={
+		birth = yes
+	}
+	910.1.1={
+		add_spouse=1000233008
+	}
+	960.1.1={
+		death = yes
+	}
+}
+1000233008 = {
+	name="Bozçin" #fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	890.1.1={
+		birth = yes
+	}
+	961.1.1={
+		death = yes
+	}
+}
+1000233009 = {
+	name="Esen" # fictional
+	dynasty=1000101590
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000233007
+        mother= 1000233008
+	911.1.1={
+		birth = yes
+	}
+	939.1.1={
+		add_spouse=1000233010
+	}
+	978.1.1={
+		death = yes
+	}
+}
+1000233010 = {
+	name="Gulçiçek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	920.1.1={
+		birth = yes
+	}
+	988.1.1={
+		death = yes
+	}
+} 
+1000233011 = {
+	name="Qoçqar" # fictional
+	dynasty=1000101590
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000233009
+        mother= 1000233010
+	940.1.1={
+		birth = yes
+	}
+	969.1.1={
+		add_spouse=1000233012
+	}
+	1010.1.1={
+		death = yes
+	}
+}
+1000233012 = {
+	name="Asli" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	950.1.1={
+		birth = yes
+	}
+	1011.1.1={
+		death = yes
+	}
+}  
+1000233013 = {
+	name="Esen" # fictional
+	dynasty=1000101590
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000233011
+        mother= 1000233012
+	975.1.1={
+		birth = yes
+	}
+	1000.1.1={
+		add_spouse=1000233014
+	}
+	1030.1.1={
+		death = yes
+	}
+}
+1000233014 = {
+	name="Gundes" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	982.1.1={
+		birth = yes
+	}
+	1032.1.1={
+		death = yes
+	}
+}
+1000233015 = {
+	name="Qoçqar" # fictional
+	dynasty=1000101590
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000233013
+        mother= 1000233014
+	1009.1.1={
+		birth = yes
+	}
+	1038.1.1={
+		add_spouse=1000233016
+	}
+	1065.1.1={
+		death = yes
+	}
+}
+1000233016 = {
+	name="Gulçiçek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1016.1.1={
+		birth = yes
+	}
+	1066.1.1={
+		death = yes
+	}
+}
+#Yimek(AKA Ay-opa) clan. Most likely the remains of the Kimek tribe.
+1000233017 = {
+	name="Esen" # Esen/Osen'/Asen. Cheif of the Yimek. Had a Qipchaq city that was located close to the upper Don named after him(which indicate he was khan material).
+	dynasty=1000101598 # Yimek
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233015
+        mother= 1000233016
+	1040.1.1={
+		birth = yes
+	}
+	1064.1.1={
+		add_spouse=1000233018
+	}
+	1082.1.1={
+		death=yes  #Died fighting the Russians.
+	}
+} 
+1000233018 = {
+	name="Umay" # fictional
+        dynasty=1000101589 #Ay-Opa. To represent an earlier Ay-Opa tribe getting mixed with the Kimeks. Golden speculate Ay-Oba to origanlly be a derevation of Qay.
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233047
+        mother=1000233048
+	1044.1.1={
+		birth = yes
+	}
+	1090.1.1={
+		death = yes
+	}
+}
+1000233019 = {
+	name="Aepa" # Aepa/Ay-oba. Likely the source of the alternative name for the Yimek, although there possibly might have been an earlier tribe that he in turn took his name after. Son or son in law of Esen.
+	dynasty=1000101598 # Yimek
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233017
+        mother= 1000233018
+	1065.1.1={
+		birth = yes
+	}
+	1081.1.1={
+		add_spouse=1000233020
+	}
+	1117.1.1={
+		death=yes #poisioned by the Volga-Bulgars.
+	}
+}
+1000233020 = {
+	name="Sirma" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1065.1.1={
+		birth = yes
+	}
+	1128.1.1={
+		death = yes
+	}
+}
+1000233021 = {
+	name="Esen" # fictional.
+	dynasty=1000101598 # Yimek
+        father=1000233019
+        mother= 1000233020
+	religion="tengri_pagan"
+	culture="cuman"
+	1085.1.1={
+		birth = yes
+	}
+	1100.1.1={
+		add_spouse=1000233020
+	}
+	1140.1.1={
+		death = yes
+	}
+}
+1000233022 = {
+	name="Esin" # daughter of Aepa. Name unknown, married Yuri Vladimirovich in 1107.
+	dynasty=1000101598 # Yimek
+	female=yes
+        father=1000233019
+        mother= 1000233020
+	religion="tengri_pagan"
+	culture="cuman"
+	1089.1.1={
+		birth = yes
+	}
+	1107.1.1={
+		religion=orthodox
+	}
+	1130.1.1={
+		death = yes
+	}
+}
+1000233023 = {
+	name="Samur" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1084.1.1={
+		birth = yes
+	}
+	1146.1.1={
+		death = yes
+	}
+}
+1000233024 = {
+	name="Amurat" # Qipchaq chief of unspecified tribe in 1132.
+	dynasty=1000101598 # Yimek. Speculative, he was babtised in Riazan so that makes Yimek/Ay-Opa seem like a decent bet given that they were just next door. Considering the principality's relative power its hard to imagine a cuman cheif seeking it out for that purpose other than it was close by.
+        father=1000233021
+        mother= 1000233023
+	religion="tengri_pagan"
+	culture="cuman"
+	1111.1.1={
+		birth = yes
+	}
+	1130.1.1={
+		add_spouse=1000233025
+	}
+	1132.1.1={
+		religion="orthodox"
+	}
+	1165.1.1={
+		death = yes
+	}
+}
+1000233025 = {
+	name="Çiltanesi" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1112.1.1={
+		birth = yes
+	}
+	1132.1.1={
+		religion="orthodox"
+	}
+	1170.1.1={
+		death = yes
+	}
+}
+1000233026 = {
+	name="Esen" # fictional.
+	dynasty=1000101598 # Yimek
+        father=1000233024
+        mother= 1000233025
+	religion="orthodox"
+	culture="cuman"
+	1140.1.1={
+		birth = yes
+	}
+	1164.1.1={
+		add_spouse=1000233027
+	}
+	1205.1.1={
+		death = yes
+	}
+}
+1000233027 = {
+	name="Sevilay" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1144.1.1={
+		birth = yes
+	}
+	1164.1.1={
+		religion="orthodox"
+	}
+	1209.1.1={
+		death = yes
+	}
+}
+1000233028 = {
+	name="Aepa" # fictional.
+	dynasty=1000101598 # Yimek
+        father=1000233026
+        mother= 1000233027
+	religion="orthodox"
+	culture="cuman"
+	1172.1.1={
+		birth = yes
+	}
+	1200.1.1={
+		add_spouse=1000233029
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233029 = {
+	name="Ipekel" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1180.1.1={
+		birth = yes
+	}
+	1200.1.1={
+		religion="orthodox"
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233030 = {
+	name="Amurat" # fictional.
+	dynasty=1000101598 # Yimek
+        father=1000233028
+        mother= 1000233029
+	religion="orthodox"
+	culture="cuman"
+	1209.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233031 = {
+	name="Esen" # fictional.
+	dynasty=1000101598 # Yimek
+        father=1000233028
+        mother= 1000233029
+	religion="orthodox"
+	culture="cuman"
+	1212.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+######################################
+#Placeholder cuman chieftans 867
+1000229720 = {
+	name="Begluk Tegin"
+	dynasty=1000101595
+	religion="tengri_pagan"
+	culture="cuman"
+	846.1.1={
+		birth="846.1.1"
+	}
+	892.1.1={
+		death="892.1.1"
+	}
+} 
+1000229721 = {
+	name="Etrek"    #Placeholder
+	dynasty=1000101595
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229720
+  866.1.1={
+		birth="866.1.1"
+	}
+	930.1.1={
+		death="930.1.1"
+	}
+} 
+1000229722 = {
+	name="Ulugh"  #Placeholder
+	dynasty=1000101595
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229721
+  900.1.1={
+		birth="900.1.1"
+	}
+	960.1.1={
+		death="960.1.1"
+	}
+} 
+1000229723 = {
+	name="Ilbar"  #Placeholder
+	dynasty=1000101595
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229722
+  933.1.1={
+		birth="933.1.1"
+	}
+	990.1.1={
+		death="990.1.1"
+	}
+} 
+1000229724 = {
+	name="Etrek" #Placeholder
+	dynasty=1000101595
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229723
+  966.1.1={
+		birth="966.1.1"
+	}
+	1030.1.1={
+		death="1030.1.1"
+	}
+} 
+1000229725 = {
+	name="Abar"   #Placeholder
+	dynasty=1000101595
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229724
+  999.1.1={
+		birth="999.1.1"
+	}
+  1030.1.1={
+		dynasty=1000102454
+	}
+	1058.1.1={
+		death="1058.1.1"
+	}
+} 
+1000229726 = {
+	name="Kadir"  #Placeholder
+	dynasty=1000102454
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229725
+	1034.1.1={
+		birth = yes
+	}
+	1092.1.1={
+		death = yes
+	}
+} 
+1000229727 = {
+	name="Sugr"   #Placeholder
+	dynasty=1000102454
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229726
+	1063.1.1={
+		birth = yes
+	}
+	1122.1.1={
+		death = yes
+	}
+} 
+1000229728 = {
+	name="Etrek"  #Placeholder
+	dynasty=1000102454
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229727
+	1091.1.1={
+		birth = yes
+	}
+	1148.1.1={
+		death = yes
+	}
+} 
+1000229729 = {
+	name="Kubasar"  #Placeholder
+	dynasty=1000102454
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229728
+	1120.1.1={
+		birth = yes
+	}
+	1177.1.1={
+		death = yes
+	}
+} 
+1000229730 = {
+	name="Ilbar"   #Placeholder
+	dynasty=1000102454
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229729
+	1152.1.1={
+		birth = yes
+	}
+	1212.1.1={
+		death = yes
+	}
+} 
+1000229731 = {
+	name="Togli"  #Placeholder
+	dynasty=1000102454
+	religion="tengri_pagan"
+	culture="cuman"
+	father = 1000229730
+	1176.1.1={
+		birth = yes
+	}
+	1240.1.1={
+		death = yes
+	}
+} 
+###################
+#Wild Cumans:
+###################
+#Toqsoba clan
+
+1000229732 = {
+	name="Toqsoba"
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+	1010.1.1={
+		birth = yes
+	}
+	1065.1.1={
+		death = yes
+	}
+} 
+1000229733 = {
+	name="Sharukan"
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+	father=1000229732
+	1050.1.1={
+		birth = yes
+	}
+	1107.1.1={
+		death=yes # defeated at the battle of the sula river.
+	}
+} 
+1000233001 = {
+	name="Sugr" # Aka Sugrov, was brother of Sharukan and succeded him.
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000229732
+	1053.1.1={
+		birth = yes
+	}
+	1116.1.1={
+		death=yes # the last invasion of Monomakh in lack of better date. Some sources let him die at the battle of the Sula river in 1107, but that clashes with him succeding Sharukan as khan.
+	}
+}
+1000229734 = {
+	name="Gulay"  #Aka Gurandukht, married the king of Georgia
+  female=yes
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+  father=1000229733
+	1087.1.1={
+		birth = yes
+	}
+	1142.1.1={
+		death = yes
+	}
+} 
+1000229735 = {
+	name="Ötrök"
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+  father=1000229733
+	1089.1.1={
+		birth = yes
+	}
+	1140.1.1={
+		death = yes
+	}
+} 
+1000229736 = {
+	name="Sirçan"
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+  father=1000229733
+	1090.1.1={
+		birth = yes
+	}
+	1159.1.1={
+		death = yes
+	}
+} 
+1000229737 = {
+	name="Künçek"
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+  father=1000229736
+	1130.1.1={
+		birth = yes
+	}
+	1203.1.1={
+		death=yes # last mentioned taking part at the siege of Kiev
+	}
+} 
+1000229738 = {
+	name="Eltut"
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+  father=1000229736
+	1138.1.1={
+		birth = yes
+	}
+	1180.1.1={
+		death=yes # Died fighting the russians.
+	}
+} 
+1000229739 = {
+	name="Yurgi"
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000229737
+	1165.1.1={
+		birth = yes
+	}
+	1223.5.31={
+		death=yes #probably died at the battle of Kalka
+	}
+}
+#
+#125400 = {
+#	name="Svoboda" #Konchakovna/Svoboda/Anastasia
+#	female=yes
+#	dynasty=1000102467
+#	religion="tengri_pagan"
+#	culture="cuman"
+#	father=1000229737
+#	1171.1.2={
+#		birth=yes
+#	}
+#	1187.1.2={
+#	religion="orthodox"
+#	name="Anastasia"
+#	# AKA: Svoboda
+#	}
+#	1220.1.2={
+#		death=ye
+#	}
+#}
+#
+1000233212 = {
+	name="Akkabul" #was cheif of Toqsoba in 1228
+	dynasty=1000102467
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000229739
+	1190.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+
+######################################
+#Placeholder Kirghiz chieftans
+
+1000229740 = {
+	name="Sokal"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229701
+	890.1.1={
+		birth = yes
+	}
+	945.1.1={
+		death = yes
+	}
+} 
+1000229741 = {
+	name="Tolun"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229740
+  924.1.1={
+		birth = yes
+	}
+	980.1.1={
+		death = yes
+	}
+} 
+1000229742 = {
+	name="Uzur"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229741
+  960.1.1={
+		birth = yes
+	}
+	1006.1.1={
+		death = yes
+	}
+} 
+1000229743 = {
+	name="Bonyak"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229742
+  990.1.1={
+		birth = yes
+	}
+	1050.1.1={
+		death = yes
+	}
+} 
+1000229744 = {
+	name="Menglig"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229743
+  1023.1.1={
+		birth = yes
+	}
+	1080.1.1={
+		death = yes
+	}
+} 
+1000229745 = {
+	name="Çilbu"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229744
+  1059.1.1={
+		birth = yes
+	}
+	1112.1.1={
+		death = yes
+	}
+} 
+1000229746 = {
+	name="Uzur"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229745
+  1092.1.1={
+		birth = yes
+	}
+	1148.1.1={
+		death = yes
+	}
+} 
+1000229747 = {
+	name="Törtogul"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229746
+  1125.1.1={
+		birth = yes
+	}
+	1180.1.1={
+		death = yes
+	}
+} 
+1000229748 = {
+	name="Sotan"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229747
+  1160.1.1={
+		birth = yes
+	}
+	1207.1.1={
+		death = yes
+	}
+} 
+1000229749 = {
+	name="Törtogul"
+	dynasty=1000101570
+	religion="tengri_pagan"
+	culture="kirghiz"
+	father = 1000229748
+  1190.1.1={
+		birth = yes
+	}
+	1253.1.1={
+		death = yes
+	}
+} 
+#############
+#cuman Ölberli clan. Ended up in the Lower Volga after migration.
+1000229750 = {
+	name="Ölberli"
+	dynasty=1000102463
+	religion="tengri_pagan"
+	culture="cuman"
+	1034.1.1={
+		birth = yes
+	}
+	1080.1.1={
+		death = yes
+	}
+} 
+1000229751 = {
+	name="Bönek"
+	dynasty=1000102463
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000229750
+	1060.1.1={
+		birth = yes
+	}
+	1112.1.1={
+		death = yes
+	}
+} 
+1000233006 = {
+	name="Taaz" #Brother of Bönek 
+	dynasty=1000102463
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000229750
+	1065.1.1={
+		birth = yes
+	}
+	1107.1.1={
+		death=yes # died in the fight with the russians on the Sula.
+	}
+} 
+1000229752 = {
+	name="Sevenç"
+	dynasty=1000102463
+	religion="tengri_pagan"
+	culture="cuman"
+  father=1000229751
+	1095.1.1={
+		birth = yes
+	}
+	1151.1.1={
+		death = yes
+	}
+} 
+1000233002 = {
+	name="Bönek" # Bönek II
+	dynasty=1000102463
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000229752 # Sevenç
+	1115.1.1={
+		birth = yes
+	}
+	1167.1.1={
+		death=yes #Beaten by the Russians of Novgorod-Seversky, uncertain if survived.
+	}
+} 
+1000233003 = {
+	name="Sevenç" # fictional
+	dynasty=1000102463
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233002  # Bönek II
+	1135.1.1={
+		birth = yes
+	}
+	1195.1.1={
+		death = yes
+	}
+}
+1000233004 = {
+	name="Bönek" # fictional
+	dynasty=1000102463
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233003
+	1170.1.1={
+		birth = yes
+	}
+	1210.1.1={
+		death = yes
+	}
+}
+1000233005 = {
+	name="Bächmän" # "Pächmän Urilik" aka Bachman, last khan of the Ölberlig. 
+	dynasty=1000102463
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233004
+	1195.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death=yes #cut in half by the mongols after his failed attempt to expel them.
+	}
+}
+#############
+#Dörüt clan, all charcters are fictional. Only two persons are refferenced as being Dörüt( in Egyptian sources) but they seem likely to have been refferences to the Terteroba clan given their names, roles and timeline(see Terteroba). Was an eastern/wild clan but more precise location is unkown(but given the Mameluks knew about them its likely to have been a place with heavy interaction with the muslim world).
+1000233032 = {
+	name="Dörüt" # fictional.
+	dynasty=1000101580 # Dörüt
+	religion="tengri_pagan"
+	culture="cuman"
+	1000.1.1={
+		birth = yes
+	}
+	1030.1.1={
+		add_spouse=1000233033
+	}
+	1060.1.1={
+		death = yes
+	}
+}
+1000233033 = {
+	name="Bozçin" #fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1010.1.1={
+		birth = yes
+	}
+	1065.1.1={
+		death = yes
+	}
+}
+1000233034 = {
+	name="Togli" # fictional.
+	dynasty=1000101580 # Dörüt
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233032
+        mother=1000233033
+	1033.1.1={
+		birth = yes
+	}
+	1064.1.1={
+		add_spouse=1000233035
+	}
+	1098.1.1={
+		death = yes
+	}
+}
+1000233035 = {
+	name="Irge" #fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1035.1.1={
+		birth = yes
+	}
+	1104.1.1={
+		death = yes
+	}
+}
+1000233036 = {
+	name="Itlar" # fictional.
+	dynasty=1000101580 # Dörüt
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233034
+        mother=1000233035
+	1066.1.1={
+		birth = yes
+	}
+	1089.1.1={
+		add_spouse=1000233037
+	}
+	1130.1.1={
+		death = yes
+	}
+}
+1000233037 = {
+	name="Ayten" #fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1070.1.1={
+		birth = yes
+	}
+	1132.1.1={
+		death = yes
+	}
+}
+1000233038 = {
+	name="Togli" # fictional.
+	dynasty=1000101580 # Dörüt
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233036
+        mother=1000233037
+	1094.1.1={
+		birth = yes
+	}
+	1122.1.1={
+		add_spouse=1000233039
+	}
+	1163.1.1={
+		death = yes
+	}
+}
+1000233039 = {
+	name="Yasar" #fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1103.1.1={
+		birth = yes
+	}
+	1167.1.1={
+		death = yes
+	}
+}
+1000233040 = {
+	name="Itlar" # fictional.
+	dynasty=1000101580 # Dörüt
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233038
+        mother=1000233039
+	1129.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		add_spouse=1000233041
+	}
+	1199.1.1={
+		death = yes
+	}
+}
+1000233041 = {
+	name="Gunes" #fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1134.1.1={
+		birth = yes
+	}
+	1198.1.1={
+		death = yes
+	}
+}
+1000233042 = {
+	name="Togli" # fictional.
+	dynasty=1000101580 # Dörüt
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233040
+        mother=1000233041
+	1161.1.1={
+		birth = yes
+	}
+	1179.1.1={
+		add_spouse=1000233043
+	}
+	1215.1.1={
+		death = yes
+	}
+}
+1000233043 = {
+	name="Gunes" #fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1160.1.1={
+		birth = yes
+	}
+	1216.1.1={
+		death = yes
+	}
+}
+1000233044 = {
+	name="Itlar" # fictional.
+	dynasty=1000101580 # Dörüt
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233042
+        mother=1000233043
+	1184.1.1={
+		birth = yes
+	}
+	1208.1.1={
+		add_spouse=1000233045
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233045 = {
+	name="Gunes" #fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1190.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233046 = {
+	name="Togli" # fictional.
+	dynasty=1000101580 # Dörüt
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233044
+        mother=1000233045
+	1209.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+#############
+#Ay-Opa clan, all charcters are fictional. Bit of confusion with the relation to the Yimek(see Yimek in the Kimek section). Possible a leftover of the Qay. Was an eastern/wild clan.
+1000233047 = {
+	name="Aepa" # fictional.
+        dynasty=1000101589 #Ay-Opa
+	religion="tengri_pagan"
+	culture="cuman"
+	1010.1.1={
+		birth = yes
+	}
+	1040.1.1={
+		add_spouse=1000233048
+	}
+	1065.1.1={
+		death = yes
+	}
+}
+1000233048 = {
+	name="Ayasun" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1015.1.1={
+		birth = yes
+	}
+	1075.1.1={
+		death = yes
+	}
+}
+1000233049 = {
+	name="Kunui" # cuman chieftan mentioned 1096
+        dynasty=1000101589 #Ay-Opa, clan unkown.
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233047
+        mother=1000233048
+	1042.1.1={
+		birth = yes
+	}
+	1066.1.1={
+		add_spouse=1000233050
+	}
+	1110.1.1={
+		death = yes
+	}
+}
+1000233050 = {
+	name="Yildiz" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1044.1.1={
+		birth = yes
+	}
+	1111.1.1={
+		death = yes
+	}
+}
+1000233051 = {
+	name="Uzluk" # fictional.
+        dynasty=1000101589 #Ay-Opa
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233049
+        mother=1000233050
+	1070.1.1={
+		birth = yes
+	}
+	1098.1.1={
+		add_spouse=1000233052
+	}
+	1145.1.1={
+		death = yes
+	}
+}
+1000233052 = {
+	name="Sarica" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1073.1.1={
+		birth = yes
+	}
+	1150.1.1={
+		death = yes
+	}
+}
+1000233053 = {
+	name="Asep" # fictional.
+        dynasty=1000101589 #Ay-Opa
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233049
+        mother=1000233050
+	1107.1.1={
+		birth = yes
+	}
+	1135.1.1={
+		add_spouse=1000233054
+	}
+	1184.1.1={
+		death = yes
+	}
+}
+1000233054 = {
+	name="Gulçiçek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1112.1.1={
+		birth = yes
+	}
+	1190.1.1={
+		death = yes
+	}
+}
+1000233055 = {
+	name="Uzluk" # fictional.
+        dynasty=1000101589 #Ay-Opa
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233053
+        mother=1000233054
+	1143.1.1={
+		birth = yes
+	}
+	1170.1.1={
+		add_spouse=1000233056
+	}
+	1210.1.1={
+		death = yes
+	}
+}
+1000233056 = {
+	name="Irge" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1149.1.1={
+		birth = yes
+	}
+	1214.1.1={
+		death = yes
+	}
+}
+1000233057 = {
+	name="Asep" # fictional.
+        dynasty=1000101589 #Ay-Opa
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233055
+        mother=1000233056
+	1173.1.1={
+		birth = yes
+	}
+	1191.1.1={
+		add_spouse=1000233058
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233058 = {
+	name="Dilek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1172.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233059 = {
+	name="Uzluk" # fictional.
+        dynasty=1000101589 #Ay-Opa
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233057
+        mother=1000233058
+	1208.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+#############
+# Targil clan, location not been possible to identify but is not counted among the non wild ones so somewhere in the east. All characters but one is fictional.
+1000233060 = {
+	name="Targil" # fictional.
+        dynasty=1000102466 #Targil
+	religion="tengri_pagan"
+	culture="cuman"
+	1032.1.1={
+		birth = yes
+	}
+	1065.1.1={
+		add_spouse=1000233061
+	}
+	1100.1.1={
+		death = yes
+	}
+}
+1000233061 = {
+	name="Yasar" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1042.1.1={
+		birth = yes
+	}
+	1104.1.1={
+		death = yes
+	}
+}
+1000233062 = {
+	name="Komana" #Qipchaq chieftan mentioned 1103(not sure if he was among the fallen)
+        dynasty=1000102466 #Targil, clan unkown.
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233060
+        mother=1000233061
+	1068.1.1={
+		birth = yes
+	}
+	1095.1.1={
+		add_spouse=1000233063
+	}
+	1142.1.1={
+		death = yes
+	}
+}
+1000233063 = {
+	name="Sirma" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1071.1.1={
+		birth = yes
+	}
+	1146.1.1={
+		death = yes
+	}
+}
+1000233064 = {
+	name="Pulad" # fictional.
+        dynasty=1000102466 #Targil
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233062
+        mother=1000233063
+	1099.1.1={
+		birth = yes
+	}
+	1129.1.1={
+		add_spouse=1000233065
+	}
+	1174.1.1={
+		death = yes
+	}
+}
+1000233065 = {
+	name="Dilek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1102.1.1={
+		birth = yes
+	}
+	1171.1.1={
+		death = yes
+	}
+}
+1000233066 = {
+	name="Ituk" # fictional.
+        dynasty=1000102466 #Targil
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233064
+        mother=1000233065
+	1135.1.1={
+		birth = yes
+	}
+	1161.1.1={
+		add_spouse=1000233067
+	}
+	1202.1.1={
+		death = yes
+	}
+}
+1000233067 = {
+	name="Usunbike" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1141.1.1={
+		birth = yes
+	}
+	1205.1.1={
+		death = yes
+	}
+}
+1000233068 = {
+	name="Pulad" # fictional.
+        dynasty=1000102466 #Targil
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233066
+        mother=1000233067
+	1162.1.1={
+		birth = yes
+	}
+	1189.1.1={
+		add_spouse=1000233069
+	}
+	1221.1.1={
+		death = yes
+	}
+}
+1000233069 = {
+	name="Tura" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1163.1.1={
+		birth = yes
+	}
+	1227.1.1={
+		death = yes
+	}
+}
+1000233070 = {
+	name="Ituk" # fictional.
+        dynasty=1000102466 #Targil
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233068
+        mother=1000233069
+	1195.1.1={
+		birth = yes
+	}
+	1218.1.1={
+		add_spouse=1000233071
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233071 = {
+	name="Özlem" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1196.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+#############
+# Ören clan, location not been possible to identify but is not counted among the non wild ones. All characters fictional.
+1000233072 = {
+	name="Ören" # fictional.
+        dynasty=1000102464 #Ören
+	religion="tengri_pagan"
+	culture="cuman"
+	1033.1.1={
+		birth = yes
+	}
+	1072.1.1={
+		add_spouse=1000233073
+	}
+	1108.1.1={
+		death = yes
+	}
+}
+1000233073 = {
+	name="Sirma" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1052.1.1={
+		birth = yes
+	}
+	1109.1.1={
+		death = yes
+	}
+}
+1000233074 = {
+	name="Blush" # fictional.
+        dynasty=1000102464 #Ören
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233072
+        mother=1000233073
+	1074.1.1={
+		birth = yes
+	}
+	1098.1.1={
+		add_spouse=1000233075
+	}
+	1131.1.1={
+		death = yes
+	}
+}
+1000233075 = {
+	name="Peksen" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1073.1.1={
+		birth = yes
+	}
+	1138.1.1={
+		death = yes
+	}
+}
+1000233076 = {
+	name="Gzi" # fictional.
+        dynasty=1000102464 #Ören
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233074
+        mother=1000233075
+	1099.1.1={
+		birth = yes
+	}
+	1123.1.1={
+		add_spouse=1000233077
+	}
+	1164.1.1={
+		death = yes
+	}
+}
+1000233077 = {
+	name="Usunbike" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1103.1.1={
+		birth = yes
+	}
+	1172.1.1={
+		death = yes
+	}
+}
+1000233078 = {
+	name="Blush" # fictional.
+        dynasty=1000102464 #Ören
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233076
+        mother=1000233077
+	1128.1.1={
+		birth = yes
+	}
+	1151.1.1={
+		add_spouse=1000233079
+	}
+	1201.1.1={
+		death = yes
+	}
+}
+1000233079 = {
+	name="Akgul" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1132.1.1={
+		birth = yes
+	}
+	1202.1.1={
+		death = yes
+	}
+}
+1000233080 = {
+	name="Gzi" # fictional.
+        dynasty=1000102464 #Ören
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233078
+        mother=1000233079
+	1154.1.1={
+		birth = yes
+	}
+	1179.1.1={
+		add_spouse=1000233081
+	}
+	1226.1.1={
+		death = yes
+	}
+}
+1000233081 = {
+	name="Gunes" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1155.1.1={
+		birth = yes
+	}
+	1228.1.1={
+		death = yes
+	}
+}
+1000233082 = {
+	name="Blush" # fictional.
+        dynasty=1000102464 #Ören
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233080
+        mother=1000233081
+	1187.1.1={
+		birth = yes
+	}
+	1214.1.1={
+		add_spouse=1000233083
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233083 = {
+	name="Sevilay" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1191.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233084 = {
+	name="Gzi" # fictional.
+        dynasty=1000102464 #Ören
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233082
+        mother=1000233083
+	1218.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+##################################################################################
+#Non Wild clans(aka western ones)
+##################################################################################
+#All the historical charcters used below were of non wild clans, but multiple of them has unknown affiliations more specific than that.
+#Terteroba clan.Only the historical characters from and after Köten himself has proven links to the dynasty. 
+1000233085 = {
+	name="Terter" # fictional.
+        dynasty=698 #Terteroba
+	religion="tengri_pagan"
+	culture="cuman"
+	990.1.1={
+		birth = yes
+	}
+	1008.1.1={
+		add_spouse=1000233086
+	}
+	1030.1.1={
+		death = yes
+	}
+}
+1000233086 = {
+	name="Yildiz" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	981.1.1={
+		birth = yes
+	}
+	1035.1.1={
+		death = yes
+	}
+}
+1000233087 = {
+	name="Sokal" # Led the Cuman vanguard against the Russians in 1061.
+        dynasty=698 #Terteroba # clan unknown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233085
+        mother=1000233086
+	1010.1.1={
+		birth = yes
+	}
+	1039.1.1={
+		add_spouse=1000233088
+	}
+	1065.1.1={
+		death = yes
+	}
+}
+1000233088 = {
+	name="Sirma" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1020.1.1={
+		birth = yes
+	}
+	1070.1.1={
+		death = yes
+	}
+}
+1000233089 = {
+	name="Togortac" # aka Tugorkhan
+        dynasty=698 #Terteroba # clan unknown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233087 # link is fictional
+        mother=1000233088
+        trait="wroth"
+	trait="skilled_tactician"
+	1040.1.1={
+		birth = yes
+	}
+	1060.1.1={
+		add_spouse=1000233090
+	}
+	1096.7.19={
+		death=yes # Died at the failed assault on Kiev
+	}
+} 
+1000233090 = {
+	name="Irge" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1043.1.1={
+		birth = yes
+	}
+	1115.1.1={
+		death = yes
+	}
+}
+1000233091 = {
+	name="Sokal" # son of Tugortac, name unknown.
+        dynasty=698 #Terteroba # clan unknown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233089 
+        mother=1000233090
+	trait="skilled_tactician"
+	1065.1.1={
+		birth = yes
+	}
+	1096.7.19={
+		death=yes # Died at the failed assault on Kiev like his father
+	}
+} 
+1000233092 = {
+	name="Elena" # Olena/Elena(after baptism, earlier name unkown), daughter of Tugortac
+	female=yes
+        dynasty=698 #Terteroba # clan unknwon
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233089 
+        mother=1000233090
+	1070.1.1={
+		birth = yes
+	}
+	1094.1.1={
+		religion="orthodox" #married Sviatopolk II(652)
+	}
+	1130.1.1={
+		death = yes
+	}
+}
+1000233093 = {
+	name="Asalup" # aka Osaluka-Khan/Asalup/Asaduk
+        dynasty=698 #Terteroba # clan unknown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233087 # link is fictional
+        mother=1000233088
+	1050.1.1={
+		birth = yes
+	}
+	1075.1.1={
+		add_spouse=1000233094
+	}
+	1120.1.1={
+		death = yes
+	}
+} 
+1000233094 = {
+	name="Mala" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1059.1.1={
+		birth = yes
+	}
+	1138.1.1={
+		death = yes
+	}
+}
+#125051 = {
+#	name="Sirma" # name unkown, daughter of Asalup
+#	female=yes
+#        dynasty=698 #Terteroba # clan unknwon
+#	religion="tengri_pagan"
+#	culture="cuman"
+#        father=1000233093 #Asalup
+#        mother=1000233094
+#	1077.1.1={
+#		birth=yes
+#	}
+#	1094.1.1={
+#		religion="orthodox" #must have married Oleg thereabout to seal the alliance.
+#	}
+#	1120.1.1={
+#		death=yes
+#	}
+#}
+1000233095 = {
+	name="Sokal" # fictional
+        dynasty=698 #Terteroba 
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233093
+        mother=1000233094
+	1080.1.1={
+		birth = yes
+	}
+	1105.1.1={
+		add_spouse=1000233096
+	}
+	1140.1.1={
+		death = yes
+	}
+} 
+1000233096 = {
+	name="Mutlu" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1085.1.1={
+		birth = yes
+	}
+	1150.1.1={
+		death = yes
+	}
+}
+1000233097 = {
+	name="Asalup" # fictional
+        dynasty=698 #Terteroba 
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233095
+        mother=1000233096
+	1110.1.1={
+		birth = yes
+	}
+	1130.1.1={
+		add_spouse=1000233098
+	}
+	1170.1.1={
+		death = yes
+	}
+} 
+1000233098 = {
+	name="Peksen" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1115.1.1={
+		birth = yes
+	}
+	1190.1.1={
+		death = yes
+	}
+}
+1000233099 = {
+	name="Sokal" # fictional
+        dynasty=698 #Terteroba 
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233095
+        mother=1000233096
+	1131.1.1={
+		birth = yes
+	}
+	1150.1.1={
+		add_spouse=1000233098
+	}
+	1175.1.1={
+		death = yes
+	}
+} 
+1000233100 = {
+	name="Çiçek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1130.1.1={
+		birth = yes
+	}
+	1190.1.1={
+		death = yes
+	}
+}
+1000233101 = { 
+	name="Gzak" # aka Kza, most powerfull western cheiftan in 1185
+        dynasty=698 #Terteroba #clan unkown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233095
+        mother=1000233096
+	1135.1.1={
+		birth = yes
+	}
+	1150.1.1={
+		add_spouse=1000233102
+	}
+	1190.1.1={
+		death = yes
+	}
+} 
+1000233102 = {
+	name="Ayasun" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1130.1.1={
+		birth = yes
+	}
+	1200.1.1={
+		death = yes
+	}
+}
+1000233103 = { 
+	name="Roman" # son of Kza/Gzak. Non christian name unkown.Was an adult in 1185.
+        dynasty=698 #Terteroba #clan unkown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233101
+        mother=1000233102
+	1151.1.1={
+		birth = yes
+	}
+	1164.1.1={
+		add_spouse=1000233104
+	}
+	1220.1.1={
+		death = yes
+	}
+} 
+1000233104 = {
+	name="Esin" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1146.1.1={
+		birth = yes
+	}
+	1209.1.1={
+		death = yes
+	}
+}
+# Terteroba RL
+1000233105 = { 
+	name="Köten" # Köten/Kotian/Kuthen/Johan etc. 
+        dynasty=698 #Terteroba 
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233099
+        mother=1000233100
+	1165.1.1={
+		birth = yes
+	}
+	1183.1.1={
+		add_spouse=1000233106
+	}
+	1205.1.1={
+		add_spouse=1000233110
+	}
+	1238.1.1={
+		religion="catholic" #refuge in Hungary
+	}
+	1240.1.1={
+		death=yes #murderd sometime 1239-1240
+	}
+} 
+1000233106 = {
+	name="Gundes" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1160.1.1={
+		birth = yes
+	}
+	1205.1.1={
+		death = yes
+	}
+}
+1000233107 = { 
+	name="Somogurom" # Often speculated to be the younger brother of Köten.He Was related somehow for sure, but how exactly is uncertain.
+        dynasty=698 #Terteroba, probably
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233099 
+        mother=1000233100
+	1170.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death=yes #
+	}
+} 
+1000233108 = { 
+	name="Mangush" # # labeled as Dörüt clan in Mameluk sources acording to Spinei. But IMO with a powerfull father whose name was "Kotian" that was a major rival cheif in 1228,  with Mangush death being significant enough to spark total civilwar forcing the most powerfull eastern clan to seek Mongol help, it seems suspciouly likely he was son of the Terteroba Köten and not from a minor easternly clan(why the fuck would the Toqsoba  need to call the Mongols for help against the Dörüt? had it been the other way around it would have made sense)
+        dynasty=698 #Terteroba, a guess, but its the only way the mameluk description of events makes any sense.
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233105 
+        mother=1000233106
+	1190.1.1={
+		birth=yes # was leading troops togther with Köten in support of the Galicians against the Hungarians in 1229, so was adult at that time.
+	}
+	1237.1.1={
+		death=yes # Murderd by "Akkabul"
+	}
+} 
+#125145 = {
+#	name="Maria" # wife of Mstislav Mstislavic, was eldest daughter of Köten.
+#	female=yes
+#	religion="tengri_pagan"
+#	culture="cuman"
+#        father=1000233105 
+#       mother=1000233106
+#	1184.1.2={
+#		birth=yes
+#	}
+#	1203.1.1={
+#		religion="orthodox" #was married in 1203
+#	}
+#	1230.1.2={
+#		death=yes
+#	}
+#}
+1000233110 = {
+	name="Ilkay" # fictional second wife of Köten
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1189.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		religion="catholic" #refuge in Hungary
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+1000233111 = {
+	name="Ipekel" # second daughter of Köten, married Narjot de Toucy. Name unkown.
+	female=yes
+        dynasty=698 #Terteroba
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233105 
+        mother=1000233110
+	1220.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		religion="catholic" #refuge in Hungary
+		name="Joan"
+	}
+	1241.1.1={
+		trait=chaste # became a nun
+	}
+	1260.1.1={
+		death = yes
+	}
+}
+#######################
+#Enchogli clan.The clan affiliation of the historical charcters used is unknown apart from that the clans in question were among the western ones.
+1000233112 = {
+	name="Ençog" # fictional.
+        dynasty=1000102450 #Ençogli
+	religion="tengri_pagan"
+	culture="cuman"
+	1020.1.1={
+		birth = yes
+	}
+	1045.1.1={
+		add_spouse=1000233113
+	}
+	1080.1.1={
+		death = yes
+	}
+}
+1000233113 = {
+	name="Çiçek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1023.1.1={
+		birth = yes
+	}
+	1090.1.1={
+		death = yes
+	}
+}
+1000233114 = {  
+	name="Arslanopa" # Altunopa/Arslanopa was a cheif in 1097, became khan in time to lead the 1103 invasion (displacing Urusoba)
+        dynasty=1000102450 #Ençogli, clan unknown.
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233112
+        mother=1000233113
+        trait=wroth
+        trait=zealous
+        trait=ambitious
+	1052.1.1={
+		birth = yes
+	}
+	1070.1.1={
+		add_spouse=1000233115
+	}
+	1103.4.1={
+		death=yes #were among the fallen in the first united Russian vs. Polotvsy campaign.
+	}
+} 
+1000233115 = {
+	name="Yildiz" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1053.1.1={
+		birth = yes
+	}
+	1120.1.1={
+		death = yes
+	}
+}
+1000233116 = {  # 
+	name="Toglyy" # fictional
+        dynasty=1000102450 #Ençogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233114
+        mother=1000233115
+	1078.1.1={
+		birth = yes
+	}
+	1102.1.1={
+		add_spouse=1000233117
+	}
+	1149.1.1={
+		death = yes
+	}
+}
+1000233117 = {
+	name="Gulay" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1080.1.1={
+		birth = yes
+	}
+	1158.1.1={
+		death = yes
+	}
+}
+1000233118 = {  # 
+	name="Altunopa" # fictional
+        dynasty=1000102450 #Ençogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233116
+        mother=1000233117
+	1107.1.1={
+		birth = yes
+	}
+	1138.1.1={
+		add_spouse=1000233119
+	}
+	1170.1.1={
+		death = yes
+	}
+}
+1000233119 = {
+	name="Tekçe" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1110.1.1={
+		birth = yes
+	}
+	1167.1.1={
+		death = yes
+	}
+}
+1000233120 = {  # 
+	name="Toglyy" # Western cheiftan ca 1185
+        dynasty=1000102450 #Ençogli, clan unkown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233118
+        mother=1000233119
+	1145.1.1={
+		birth = yes
+	}
+	1171.1.1={
+		add_spouse=1000233121
+	}
+	1200.1.1={
+		death = yes
+	}
+}
+1000233121 = {
+	name="Yasar" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1152.1.1={
+		birth = yes
+	}
+	1202.1.1={
+		death = yes
+	}
+}
+1000233122 = {  # 
+	name="Altunopa" # Fictional
+        dynasty=1000102450 #Ençogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233120
+        mother=1000233121
+	1178.1.1={
+		birth = yes
+	}
+	1197.1.1={
+		add_spouse=1000233123
+	}
+	1214.1.1={
+		death = yes
+	}
+}
+1000233123 = {
+	name="Asli" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1180.1.1={
+		birth = yes
+	}
+	1224.1.1={
+		death = yes
+	}
+}
+1000233124 = {  # 
+	name="Toglyy" # Fictional
+        dynasty=1000102450 #Ençogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233122
+        mother=1000233123
+	1199.1.1={
+		birth = yes
+	}
+	1220.1.1={
+		death = yes
+	}
+}
+1000233211 = {  # 
+	name="Begovars" # Begovars western cheiftan in 1229. Assisted the Hungarians in their war against Galica-Volhyina.
+        dynasty=1000102450 #Ençogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233122
+        mother=1000233123
+	1207.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		religion="catholic" #refuge in Hungary
+	}
+	1240.1.1={
+		death = yes
+	}
+}
+###################################################
+#Urus-oba clan,
+1000233125 = {  
+	name="Urusoba" # Khan of cumans(or at least the non wild ones) ?- Januar or Feburary 1103
+        dynasty=1000102470#Urus-oba
+	religion="tengri_pagan"
+	culture="cuman"
+        trait= content
+	1040.1.1={
+		birth = yes
+	}
+	1060.1.1={
+		add_spouse=1000233126
+	}
+	1103.4.1={
+		death=yes #were among the fallen in the first united Russian vs. Polotvsy campaign.
+	}
+}
+1000233126 = {
+	name="Özlem" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1041.1.1={
+		birth = yes
+	}
+	1110.1.1={
+		death = yes
+	}
+}
+1000233127 = {  
+	name="Koldeci" # Fictional
+        dynasty=1000102470#Urus-oba
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233125
+        mother=1000233126
+	1072.1.1={
+		birth = yes
+	}
+	1098.1.1={
+		add_spouse=1000233128
+	}
+	1130.1.1={
+		death = yes
+	}
+}
+1000233128 = {
+	name="Ayten" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1076.1.1={
+		birth = yes
+	}
+	1131.1.1={
+		death = yes
+	}
+}
+1000233129 = {  
+	name="Koban" # Fictional
+        dynasty=1000102470#Urus-oba
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233127
+        mother=1000233128
+	1100.1.1={
+		birth = yes
+	}
+	1127.1.1={
+		add_spouse=1000233130
+	}
+	1158.1.1={
+		death = yes
+	}
+}
+1000233130 = {
+	name="Sevindik" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1109.1.1={
+		birth = yes
+	}
+	1178.1.1={
+		death = yes
+	}
+}
+1000233131 = {  
+	name="Koldeci" # prince of Urusoba clan ca 1180.
+        dynasty=1000102470#Urus-oba
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233129
+        mother=1000233130
+	1133.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		add_spouse=1000233132
+	}
+	1198.1.1={
+		death = yes
+	}
+}
+1000233132 = {
+	name="Asli" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1140.1.1={
+		birth = yes
+	}
+	1210.1.1={
+		death = yes
+	}
+}
+1000233133 = {   
+	name="Koban" # prince of Urusoba clan ca 1180. Brother of Koldeci
+        dynasty=1000102470#Urus-oba
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233129
+        mother=1000233130
+	1140.1.1={
+		birth = yes
+	}
+	1174.1.1={
+		add_spouse=1000233134
+	}
+	1223.1.1={
+		death = yes
+	}
+}
+1000233134 = {
+	name="Samur" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1150.1.1={
+		birth = yes
+	}
+	1222.1.1={
+		death = yes
+	}
+}
+1000233135 = { 
+	name="Koldeci" # fictional
+        dynasty=1000102470#Urus-oba
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233133
+        mother=1000233134
+	1180.1.1={
+		birth = yes
+	}
+	1202.1.1={
+		add_spouse=1000233136
+	}
+	1230.1.1={
+		death = yes
+	}
+}
+1000233136 = {
+	name="Sevilay" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1183.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+1000233137 = {   
+	name="Koban" # fictional
+        dynasty=1000102470#Urus-oba
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233135
+        mother=1000233136
+	1215.1.1={
+		birth = yes
+	}
+	1239.1.1={
+		death = yes
+	}
+}
+####################
+#Ulasgoli clan. The clan affiliation of the historical charcters used is unknown apart from that the clans in question were among the western ones.
+1000233138 = {  
+	name="Ulas" # fictional
+        dynasty=1000102469#Ulasgoli
+	religion="tengri_pagan"
+	culture="cuman"
+	1040.1.1={
+		birth = yes
+	}
+	1060.1.1={
+		add_spouse=1000233139
+	}
+	1080.1.1={
+		death = yes
+	}
+}
+1000233139 = {
+	name="Özlem" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1041.1.1={
+		birth = yes
+	}
+	1100.1.1={
+		death = yes
+	}
+}
+1000233140 = {  
+	name="Kochi" # Kochi/Kchij/Kochij, a western cheiftan 1103
+        dynasty=1000102469#Ulasgoli #clan unknown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233138
+        mother=1000233139
+	1062.1.1={
+		birth = yes
+	}
+	1084.1.1={
+		add_spouse=1000233141
+	}
+	1103.4.1={
+		death=yes #were among the fallen in the first united Russian vs. Polotvsy campaign.
+	}
+}
+1000233141 = {
+	name="Mala" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1065.1.1={
+		birth = yes
+	}
+	1120.1.1={
+		death = yes
+	}
+}
+1000233142 = {  
+	name="Vlur" # fictional
+        dynasty=1000102469#Ulasgoli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233140
+        mother=1000233141
+	1085.1.1={
+		birth = yes
+	}
+	1113.1.1={
+		add_spouse=1000233143
+	}
+	1153.1.1={
+		death = yes
+	}
+}
+1000233143 = {
+	name="Bozçin" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1089.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		death = yes
+	}
+}
+1000233144 = {  
+	name="Kochi" # fictional
+        dynasty=1000102469#Ulasgoli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233142
+        mother=1000233143
+	1119.1.1={
+		birth = yes
+	}
+	1150.1.1={
+		add_spouse=1000233145
+	}
+	1180.1.1={
+		death = yes
+	}
+}
+1000233145 = {
+	name="Sirin" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1124.1.1={
+		birth = yes
+	}
+	1183.1.1={
+		death = yes
+	}
+}
+1000233146 = {  
+	name="Vlur" # a western cheiftan 1185, possibly related to Igor. #NOTE make some family link.
+        dynasty=1000102469#Ulasgoli #clan unknown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233144
+        mother=1000233145
+	1157.1.1={
+		birth = yes
+	}
+	1170.1.1={
+		add_spouse=1000233147
+	}
+	1216.1.1={
+		death = yes
+	}
+}
+1000233147 = {
+	name="Sarica" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1124.1.1={
+		birth = yes
+	}
+	1183.1.1={
+		death = yes
+	}
+}
+1000233148 = {  
+	name="Kochi" # fictional
+        dynasty=1000102469#Ulasgoli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233146
+        mother=1000233147
+	1176.1.1={
+		birth = yes
+	}
+	1200.1.1={
+		add_spouse=1000233149
+	}
+	1233.1.1={
+		death = yes
+	}
+}
+1000233149 = {
+	name="Özlem" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1183.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000233150 = {  
+	name="Vlur" # fictional
+        dynasty=1000102469#Ulasgoli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233148
+        mother=1000233149
+	1210.1.1={
+		birth = yes
+	}
+	1235.1.1={
+		add_spouse=1000233151
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000233151 = {
+	name="Ilkay" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1213.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+####################
+#Burçali clan. The clan affiliation of the historical charcters used is unknown apart from that the clans in question were among the western ones.
+1000233152 = {  
+	name="Burça" # fictional
+        dynasty=1000101585#Burçali
+	religion="tengri_pagan"
+	culture="cuman"
+	1032.1.1={
+		birth = yes
+	}
+	1051.1.1={
+		add_spouse=1000233153
+	}
+	1083.1.1={
+		death = yes
+	}
+}
+1000233153 = {
+	name="Özgul" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1033.1.1={
+		birth = yes
+	}
+	1092.1.1={
+		death = yes
+	}
+}
+1000233154 = {  
+	name="Kopti" # fictional
+        dynasty=1000101585#Burçali
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233152
+        mother=1000233153
+	1052.1.1={
+		birth = yes
+	}
+	1070.1.1={
+		add_spouse=1000233155
+	}
+	1096.1.1={
+		death = yes
+	}
+}
+1000233155 = {
+	name="Yasar" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1053.1.1={
+		birth = yes
+	}
+	1114.1.1={
+		death = yes
+	}
+}
+1000233156 = {  
+	name="Kitanopa" # a western cheiftan 1103
+        dynasty=1000101585#Burçali
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233154
+        mother=1000233155
+	1072.1.1={
+		birth = yes
+	}
+	1087.1.1={
+		add_spouse=1000233157
+	}
+	1103.4.1={
+		death=yes #were among the fallen in the first united Russian vs. Polotvsy campaign.
+	}
+}
+1000233157 = {
+	name="Sirma" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1071.1.1={
+		birth = yes
+	}
+	1136.1.1={
+		death = yes
+	}
+}
+1000233158 = {  
+	name="Kopti" # fictional
+        dynasty=1000101585#Burçali
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233156
+        mother=1000233157
+	1088.1.1={
+		birth = yes
+	}
+	1116.1.1={
+		add_spouse=1000233159
+	}
+	1163.1.1={
+		death = yes
+	}
+}
+1000233159 = {
+	name="Songul" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1090.1.1={
+		birth = yes
+	}
+	1164.1.1={
+		death = yes
+	}
+}
+1000233160 = {  
+	name="Kitanopa" # fictional
+        dynasty=1000101585#Burçali
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233158
+        mother=1000233159
+	1122.1.1={
+		birth = yes
+	}
+	1153.1.1={
+		add_spouse=1000233161
+	}
+	1183.1.1={
+		death = yes
+	}
+}
+1000233161 = {
+	name="Sirin" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1124.1.1={
+		birth = yes
+	}
+	1189.1.1={
+		death = yes
+	}
+}
+1000233162 = {  
+	name="Kopti" # a western cheiftan 1185
+        dynasty=1000101585#Burçali
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233160
+        mother=1000233161
+	1160.1.1={
+		birth = yes
+	}
+	1180.1.1={
+		add_spouse=1000233163
+	}
+	1218.1.1={
+		death = yes
+	}
+}
+1000233163 = {
+	name="Yeldem" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1163.1.1={
+		birth = yes
+	}
+	1223.1.1={
+		death = yes
+	}
+}
+1000233164 = {  
+	name="Kitanopa" # # fictional
+        dynasty=1000101585#Burçali
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233162
+        mother=1000233163
+	1183.1.1={
+		birth = yes
+	}
+	1206.1.1={
+		add_spouse=1000233165
+	}
+	1230.1.1={
+		death = yes
+	}
+}
+1000233165 = {
+	name="Sevilay" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1184.1.1={
+		birth = yes
+	}
+	1231.1.1={
+		death = yes
+	}
+}
+1000233166 = {  
+	name="Kopti" # # fictional
+        dynasty=1000101585#Burçali
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233164
+        mother=1000233165
+	1210.1.1={
+		birth = yes
+	}
+	1231.1.1={
+		add_spouse=1000233167
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000233167 = {
+	name="Çiçek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1212.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+####################
+#Qor clan. The clan affiliation of the historical charcters used is unknown apart from that the clans in question were among the western ones.
+1000233168 = {  
+	name="Qo" # fictional
+        dynasty=1000102455#Qor
+	religion="tengri_pagan"
+	culture="cuman"
+	1035.1.1={
+		birth = yes
+	}
+	1053.1.1={
+		add_spouse=1000233169
+	}
+	1081.1.1={
+		death = yes
+	}
+}
+1000233169 = {
+	name="Usunbike" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1035.1.1={
+		birth = yes
+	}
+	1097.1.1={
+		death = yes
+	}
+}
+1000233170 = {  
+	name="Chilbuk" # fictional
+        dynasty=1000102455#Qor
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233168
+        mother=1000233169
+	1054.1.1={
+		birth = yes
+	}
+	1078.1.1={
+		add_spouse=1000233171
+	}
+	1096.1.1={
+		death = yes
+	}
+}
+1000233171 = {
+	name="Tura" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1056.1.1={
+		birth = yes
+	}
+	1118.1.1={
+		death = yes
+	}
+}
+1000233172 = {  
+	name="Beldüz" # a western cheiftan 1103
+        dynasty=1000102455#Qor
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233170
+        mother=1000233171
+	1079.1.1={
+		birth = yes
+	}
+	1098.1.1={
+		add_spouse=1000233173
+	}
+	1103.4.1={
+		death=yes #were among the fallen in the first united Russian vs. Polotvsy campaign.Hacked to death after having surrenderd.
+	}
+}
+1000233173 = {
+	name="Ayasun" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1080.1.1={
+		birth = yes
+	}
+	1133.1.1={
+		death = yes
+	}
+}
+1000233174 = {  
+	name="Chilbuk" # fictional
+        dynasty=1000102455#Qor
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233170
+        mother=1000233171
+	1086.1.1={
+		birth = yes
+	}
+	1113.1.1={
+		add_spouse=1000233175
+	}
+	1142.1.1={
+		death = yes
+	}
+}
+1000233175 = {
+	name="Gulçiçek" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1087.1.1={
+		birth = yes
+	}
+	1153.1.1={
+		death = yes
+	}
+}
+1000233176 = {  
+	name="Beldüz" # fictional
+        dynasty=1000102455#Qor
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233174
+        mother=1000233175
+	1119.1.1={
+		birth = yes
+	}
+	1144.1.1={
+		add_spouse=1000233177
+	}
+	1177.1.1={
+		death = yes
+	}
+}
+1000233177 = {
+	name="Esin" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1122.1.1={
+		birth = yes
+	}
+	1189.1.1={
+		death = yes
+	}
+}
+1000233178 = {  
+	name="Chilbuk" # a western cheiftan 1185
+        dynasty=1000102455#Qor
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233176
+        mother=1000233177
+	1151.1.1={
+		birth = yes
+	}
+	1176.1.1={
+		add_spouse=1000233179
+	}
+	1215.1.1={
+		death = yes
+	}
+}
+1000233179 = {
+	name="Gunduz" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1149.1.1={
+		birth = yes
+	}
+	1206.1.1={
+		death = yes
+	}
+}
+1000233180 = {  
+	name="Beldüz" # fictional
+        dynasty=1000102455#Qor
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233178
+        mother=1000233179
+	1180.1.1={
+		birth = yes
+	}
+	1204.1.1={
+		add_spouse=1000233181
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000233181 = {
+	name="Akgul" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1183.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000233182 = {  
+	name="Chilbuk" # fictional
+        dynasty=1000102455#Qor
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233180
+        mother=1000233181
+	1211.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+####################
+#Qongurogli clan. The clan affiliation of the historical charcters used is unknown apart from that the clans in question were among the western ones.
+1000233183 = {  
+	name="Qong" # fictional
+        dynasty=1000102459#Qongurogli
+	religion="tengri_pagan"
+	culture="cuman"
+	1027.1.1={
+		birth = yes
+	}
+	1045.1.1={
+		add_spouse=1000233184
+	}
+	1081.1.1={
+		death = yes
+	}
+}
+1000233184 = {
+	name="Irge" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1030.1.1={
+		birth = yes
+	}
+	1095.1.1={
+		death = yes
+	}
+}
+1000233185 = {  
+	name="Eldechyuk" # fictional
+        dynasty=1000102459#Qongurogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233183
+        mother=1000233184
+	1046.1.1={
+		birth = yes
+	}
+	1062.1.1={
+		add_spouse=1000233186
+	}
+	1092.1.1={
+		death = yes
+	}
+}
+1000233186 = {
+	name="Sibel" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1043.1.1={
+		birth = yes
+	}
+	1099.1.1={
+		death = yes
+	}
+}
+1000233187 = {  
+	name="Kuman" # a western cheiftan 1103
+        dynasty=1000102459#Qongurogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233185
+        mother=1000233186
+	1063.1.1={
+		birth = yes
+	}
+	1088.1.1={
+		add_spouse=1000233188
+	}
+	1103.4.1={
+		death=yes #were among the fallen in the first united Russian vs. Polotvsy campaign.
+	}
+}
+1000233188 = {
+	name="Asli" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1062.1.1={
+		birth = yes
+	}
+	1120.1.1={
+		death = yes
+	}
+}
+1000233189 = {  
+	name="Eldechyuk" # fictional
+        dynasty=1000102459#Qongurogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233187
+        mother=1000233188
+	1089.1.1={
+		birth = yes
+	}
+	1117.1.1={
+		add_spouse=1000233190
+	}
+	1155.1.1={
+		death = yes
+	}
+}
+1000233190 = {
+	name="Usunbike" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1096.1.1={
+		birth = yes
+	}
+	1156.1.1={
+		death = yes
+	}
+}
+1000233191 = {  
+	name="Kuman" # fictional
+        dynasty=1000102459#Qongurogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233189
+        mother=1000233190
+	1124.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		add_spouse=1000233192
+	}
+	1180.1.1={
+		death = yes
+	}
+}
+1000233192 = {
+	name="Yildiz" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1130.1.1={
+		birth = yes
+	}
+	1186.1.1={
+		death = yes
+	}
+}
+1000233193 = {  
+	name="Eldechyuk" # a western cheiftan 1185
+        dynasty=1000102459#Qongurogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233191
+        mother=1000233192
+	1163.1.1={
+		birth = yes
+	}
+	1187.1.1={
+		add_spouse=1000233194
+	}
+	1219.1.1={
+		death = yes
+	}
+}
+1000233194 = {
+	name="Tekçe" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1174.1.1={
+		birth = yes
+	}
+	1227.1.1={
+		death = yes
+	}
+}
+1000233195 = {  
+	name="Kuman" # fictional
+        dynasty=1000102459#Qongurogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233193
+        mother=1000233194
+	1190.1.1={
+		birth = yes
+	}
+	1216.1.1={
+		add_spouse=1000233196
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000233196 = {
+	name="Özgul" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1198.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000233197 = {  
+	name="Eldechyuk" # fictional
+        dynasty=1000102459#Qongurogli
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233195
+        mother=1000233196
+	1220.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+####################
+#Chirtan/Çortan clan. The clan affiliation of the historical charcters used is unknown apart from that the clans in question were among the western ones.
+1000233198 = {  
+	name="Çortan" # fictional
+        dynasty=1000101581#Çortan
+	religion="tengri_pagan"
+	culture="cuman"
+	1040.1.1={
+		birth = yes
+	}
+	1067.1.1={
+		add_spouse=1000233199
+	}
+	1093.1.1={
+		death = yes
+	}
+}
+1000233199 = {
+	name="Irge" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1043.1.1={
+		birth = yes
+	}
+	1095.1.1={
+		death = yes
+	}
+}
+1000233200 = {  
+	name="Girgen" # Aepa/Girgen western chieftan ca. 1000
+        dynasty=1000101581#Çortan, clan unkown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233198
+        mother=1000233199
+	1068.1.1={
+		birth = yes
+	}
+	1093.1.1={
+		add_spouse=1000233201
+	}
+	1140.1.1={
+		death = yes
+	}
+}
+1000233201 = {
+	name="Irge" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1074.1.1={
+		birth = yes
+	}
+	1123.1.1={
+		death = yes
+	}
+}
+#222633 = {
+#	name="Maria" #daugther of Aepa/Girgen, married Sviatoslav Olgovich. Name unkown
+#	female = yes
+#	dynasty=1000101581#Çortan, clan unkown
+#	religion="orthodox"
+#	culture="cuman"
+#	father=1000233200
+#	mother=1000233201
+#	1110.1.2={
+#		birth="1110.1.2"
+#	}
+#	1170.1.2={
+#		death="1170.1.2"
+#	}
+#}
+1000233202 = {  
+	name="Kobiak" # fictional
+        dynasty=1000101581#Çortan
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233200
+        mother=1000233201
+	1099.1.1={
+		birth = yes
+	}
+	1120.1.1={
+		add_spouse=1000233203
+	}
+	1163.1.1={
+		death = yes
+	}
+}
+1000233203 = {
+	name="Irge" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1104.1.1={
+		birth = yes
+	}
+	1161.1.1={
+		death = yes
+	}
+}
+1000233204 = {  
+	name="Girgen" # fictional
+        dynasty=1000101581#Çortan
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233202
+        mother=1000233203
+	1124.1.1={
+		birth = yes
+	}
+	1152.1.1={
+		add_spouse=1000233205
+	}
+	1179.1.1={
+		death = yes
+	}
+}
+1000233205 = {
+	name="Irge" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1131.1.1={
+		birth = yes
+	}
+	1190.1.1={
+		death = yes
+	}
+}
+1000233206 = {  
+	name="Kobiak" # cheif on Crimea 1185
+        dynasty=1000101581#Çortan, clan unknown
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1000233204
+        mother=1000233205
+	1155.1.1={
+		birth = yes
+	}
+	1179.1.1={
+		add_spouse=1000233207
+	}
+	1180.1.1={
+		religion=orthodox
+	}
+	1210.1.1={
+		death = yes
+	}
+}
+1000233207 = {
+	name="Irge" # fictional
+	female=yes
+	religion="tengri_pagan"
+	culture="cuman"
+	1160.1.1={
+		birth = yes
+	}
+	1180.1.1={
+		religion=orthodox
+	}
+	1220.1.1={
+		death = yes
+	}
+}
+1000233208 = {  
+	name="Isak" # son of Kobiak
+        dynasty=1000101581#Çortan, clan unknown
+	religion="orthodox"
+	culture="cuman"
+        father=1000233206
+        mother=1000233207
+	1184.1.1={
+		birth = yes
+	}
+	1238.1.1={
+		death = yes
+	}
+}
+1000233209 = {  
+	name="Daniel" # son of Kobiak
+        dynasty=1000101581#Çortan, clan unknown
+	religion="orthodox"
+	culture="cuman"
+        father=1000233206
+        mother=1000233207
+	1190.1.1={
+		birth = yes
+	}
+
+	1238.1.1={
+		death = yes
+	}
+}
+###########################
+#Minor folks
+1000233210 = {
+	name="Ör" # Sircan's bard
+	religion="tengri_pagan"
+	culture="cuman"
+	martial=2
+	diplomacy=15
+	intrigue=9
+	stewardship=3
+	learning=14
+	trait="charismatic_negotiator"
+	trait = scholar
+	1092.1.1={
+		birth = yes
+	}
+        1120.1.1={ employer=1000229736
+        }
+	1159.1.1={
+		death = yes
+	}
+} 

@@ -1,47 +1,53 @@
-654.1.1={
-	liege="d_azov"
+
+654.1.1= {
+	liege=d_itil
 	holder=74004
 }
-662.1.1= {
-	holder=74005
+682.1.1={
+	holder=74007
 }
-704.1.1= {
-	holder=146195
+715.1.1={
+	holder=74008
 }
-743.1.1={
-	holder=146196
+731.1.1={
+	holder=74009
 }
-#756.1.1={
-#	holder=146198
-#}
-800.1.1={
-	holder=146199
+749.1.1={
+	holder=74012
 }
-801.1.1={
-	holder=146200
+788.1.1={
+	holder=74018
 }
-803.1.1={
-	holder=146199
+802.1.1={
+	holder=74019
 }
-805.1.1={
-	holder=74013
+818.1.1={
+	holder=74020
 }
-810.1.1={
-	holder=74014
+822.1.1= {
+	liege=k_khazaria
 }
-825.1.1={
-	holder=74015
+829.1.1={
+	holder=74021
 }
-830.1.1={
-	holder=74016
+831.1.1={
+	holder=74022
 }
-861.1.1={
-	holder=74017
+847.1.1={
+	holder=74023
 }
-886.1.1={
+852.1.1={
+	holder=74024
+}
+864.1.1={
 	holder=74025
 }
 888.1.1={
+	holder=74026
+}
+890.1.1={
+
+	liege="d_azov"
 	holder=74026
 }
 899.1.1={
@@ -59,44 +65,68 @@
 945.1.1={
 	holder=146191
 }
-969.1.1={
-	holder=146193
+# Sarkel falls, Bula-Chopan settles.
+966.1.1={
+	liege=d_bula_chopan
+	holder=1000231846
 }
 993.1.1={
-	holder=146194
+	holder=1000231848
 }
-1016.1.1 = {
-	liege=0
-	holder=0
+1006.1.1={
+	holder=1000231850
 }
-1066.1.1 = {
-liege = "d_azov"
-holder = 20655
+1027.1.1={
+	holder=1000231852
 }
-1089.1.1 = {
-holder = 228059
+#Oghuz takes over
+1044.1.1 = {
+	liege=d_salgur
+holder=	1000231993
 }
-1110.1.1 = {
-holder = 479240
+#Cumans arrive
+#Ölberli
+1050.1.1={
+	liege=d_olberlig
+	holder=1000229750
 }
-1150.1.1 = {
-holder = 34882
+# a subjugated Oghuz tribe settles near Saray	
+1060.1.1=
+{
+holder=	1000231995
+liege=d_salgur
 }
-1180.1.1 = {
-holder = 34883
+1100.1.1=
+{
+holder=	1000231997
 }
-1210.1.1 = {
-holder = 34884
+1160.1.1=
+{
+holder=	1000231999
 }
-1238.1.1 = {
-holder = 34885
+1210.1.1=
+{
+holder=	1000232009
 }
-1270.1.1 = {
-holder = 34886
+1225.1.1=
+{
+holder=	1000232011
 }
-1300.1.1 = {
-holder = 34887
+# Mongols put down revolt
+1239.1.1=
+{
+liege="d_azov"
+holder=34885
 }
-1315.1.1 = {
-holder = 34888
+1270.1.1=
+{
+holder=34886
+}
+1300.1.1=
+{
+holder=34887
+}
+1315.1.1=
+{
+holder=34888
 }

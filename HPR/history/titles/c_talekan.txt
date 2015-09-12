@@ -1,0 +1,17 @@
+866.1.1={
+	holder=1000228199
+}
+
+1066.1.1={
+  liege="e_persia"
+  holder=93122
+}
+1073.1.1={
+  holder=93123
+}
+
+1146.1.1={
+	liege="d_oghuz"
+	historical_nomad=yes
+	holder=1000230153
+}

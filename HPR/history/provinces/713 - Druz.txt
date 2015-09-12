@@ -4,21 +4,15 @@
 title = c_druz
 
 # Settlements
-max_settlements = 4
-b_salkhard = castle
-b_dibin = city
-b_awas = temple
+max_settlements = 2
 
-#b_shannireh = temple
-#b_ghariyah = castle
-#b_thoula = castle
-#b_busra = castle
-#b_samj = castle
+b_qasralhayralsharqi = castle
+b_alsukhnah = city
+
 
 # Misc
 culture = levantine_arabic
-religion = sunni
+religion = druze
 
 # History
 
-1016.1.1 = { religion = druze }

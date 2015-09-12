@@ -1,7 +1,7 @@
 
 ###########################################
 #                                         #
-# Charlemagne Story Events                #             
+# Charlemagne Story Events                #
 #                                         #
 # ID CM.1000-CM.1999                      #
 #                                         #
@@ -23,7 +23,7 @@ narrative_event = {
 	desc = EVTDESC_CM_1000
 	picture = GFX_evt_rival_rulers
 	border = GFX_event_narrative_frame_war
-	
+
 	only_playable = yes
 	has_character_flag = is_charlemagne
 
@@ -32,15 +32,15 @@ narrative_event = {
 		NOT = { year = 780 }
 		NOT = { has_character_flag = charlemagne_brother_rivalry }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		character_event = { id = CM.1040 days = 50 }
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1000
 		set_character_flag = charlemagne_brother_rivalry
@@ -61,7 +61,7 @@ narrative_event = {
 	desc = EVTDESC_CM_1000
 	title = EVTTITLE_CM_1000
 	picture = GFX_evt_rival_rulers
-	
+
 	only_playable = yes
 	has_character_flag = is_carloman
 
@@ -70,11 +70,11 @@ narrative_event = {
 		NOT = { year = 780 }
 		NOT = { has_character_flag = charlemagne_brother_rivalry }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1000
 		set_character_flag = charlemagne_brother_rivalry
@@ -95,7 +95,7 @@ narrative_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1002
 	}
@@ -109,7 +109,7 @@ narrative_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1002
 	}
@@ -130,7 +130,7 @@ narrative_event = {
 	prisoner = no
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		has_character_flag = is_charlemagne
@@ -151,7 +151,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1010   # Marry her
 		k_lombardy = {
@@ -183,7 +183,7 @@ narrative_event = {
 	is_triggered_only = yes
 
 	capable_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		year = 770
@@ -275,9 +275,9 @@ character_event = {
 	id = CM.1020
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -303,7 +303,7 @@ narrative_event = {
 	picture = GFX_evt_daughter_asking_father
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		has_character_flag = is_charlemagne
@@ -313,7 +313,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1021 # I forgive you, Mother
 		FROM = {
@@ -327,7 +327,7 @@ narrative_event = {
 	}
 	option = {
 		name = EVTOPTB_CM_1021 # Begone, witch
-		FROM = {	
+		FROM = {
 			opinion = {
 				modifier = opinion_bitter
 				who = ROOT
@@ -342,10 +342,10 @@ character_event = {
 	id = CM.1022
 
 	hide_window = yes
-	
+
 	only_playable = yes
 	has_character_flag = is_carloman
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { year = 780 }
@@ -358,11 +358,11 @@ character_event = {
 			NOT = { has_character_flag = bertrada_carloman_talk }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
 	}
-	
+
 	immediate = {
 		mother = { character_event = { id = CM.1023 } }
 	}
@@ -370,21 +370,21 @@ character_event = {
 
 character_event = {
 	id = CM.1023
-	
+
 	hide_window = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_character_flag = bertrada_carloman_talk
 		FROM = { letter_event = { id = CM.1024 } }
 	}
 }
-	
+
 letter_event = {
 	id = CM.1024
 	desc = EVTDESC_CM_1024
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -409,10 +409,10 @@ character_event = {
 	id = CM.1025
 
 	hide_window = yes
-	
+
 	only_playable = yes
 	has_character_flag = is_charlemagne
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { year = 780 }
@@ -426,11 +426,11 @@ character_event = {
 			NOT = { has_character_flag = bertrada_charlemagne_talk }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
 	}
-	
+
 	immediate = {
 		mother = { character_event = { id = CM.1026 } }
 	}
@@ -438,23 +438,23 @@ character_event = {
 
 character_event = {
 	id = CM.1026
-	
+
 	hide_window = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_character_flag = bertrada_charlemagne_talk
 		FROM = { narrative_event = { id = CM.1027 } }
 	}
 }
-	
+
 narrative_event = {
 	id = CM.1027
 	desc = EVTDESC_CM_1027
 	title = EVTTITLE_CM_1027
 	picture = GFX_evt_daughter_asking_father
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -482,9 +482,9 @@ character_event = {
 	id = CM.1040
 	desc = EVTDESC_CM_1040
 	picture = GFX_evt_child_play
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		any_child = {
@@ -560,7 +560,7 @@ narrative_event = {
 	only_playable = yes
 	prisoner = no
 	has_character_flag = is_charlemagne
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		religion_group = christian
@@ -576,15 +576,15 @@ narrative_event = {
 		}
 		NOT = { has_global_flag = roland_spawned }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 	}
-	
+
 	immediate = {
 		set_global_flag = roland_spawned
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1050
 		custom_tooltip = { text = roland_arrives }
@@ -631,11 +631,11 @@ narrative_event = {
 # Roland is a good friend
 character_event = {
 	id = CM.1051
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		liege = {
@@ -643,7 +643,7 @@ character_event = {
 			NOT = {	is_friend = ROOT }
 		}
 	}
-	
+
 	immediate= {
 		liege = {
 			character_event = { id = CM.1052 }
@@ -657,7 +657,7 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1052
 		add_friend = FROM
@@ -671,7 +671,7 @@ narrative_event = {
 	desc = EVTDESC_CM_1053
 	picture = GFX_evt_melee
 	border = GFX_event_narrative_frame_war
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -694,7 +694,7 @@ narrative_event = {
 	mean_time_to_happen = {
 		days = 60
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1053
 		any_realm_character = {
@@ -710,16 +710,16 @@ narrative_event = {
 # Roland dies heroically in winning battle
 character_event = {
 	id = CM.1054
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		has_dlc = "Charlemagne"
 		has_character_flag = is_roland
 	}
-	
+
 	immediate = {
 		liege = { narrative_event = { id = CM.1055 } }
 	}
@@ -731,9 +731,9 @@ narrative_event = {
 	desc = EVTDESC_CM_1055
 	picture = GFX_evt_pale_rider
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1055
 		FROM = {
@@ -748,16 +748,16 @@ narrative_event = {
 # Roland dies heroically in losing battle
 character_event = {
 	id = CM.1056
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		has_dlc = "Charlemagne"
 		has_character_flag = is_roland
 	}
-	
+
 	immediate = {
 		liege = { narrative_event = { id = CM.1057 } }
 	}
@@ -769,9 +769,9 @@ narrative_event = {
 	desc = EVTDESC_CM_1057
 	picture = GFX_evt_pale_rider
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1055
 		FROM = {
@@ -812,7 +812,7 @@ character_event = {
 			higher_tier_than = DUKE
 		}
 	}
-	
+
 	immediate = {
 		any_sibling = {
 			limit = { has_character_flag = is_charlemagne }
@@ -881,7 +881,7 @@ character_event = {
 			higher_tier_than = DUKE
 		}
 	}
-	
+
 	immediate = {
 		any_sibling = {
 			limit = {
@@ -961,11 +961,11 @@ narrative_event = {
 		}
 		NOT = { has_global_flag = ogier_spawned }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 48
 	}
-	
+
 	immediate = {
 		set_global_flag = ogier_spawned
 	}
@@ -1018,11 +1018,11 @@ narrative_event = {
 # Wife
 character_event = {
 	id = CM.1075
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		random_independent_ruler = {
 			limit = { has_character_flag = charlemagne_enemy }
@@ -1069,9 +1069,9 @@ character_event = {
 	id = CM.1076
 	desc = EVTDESC_CM_1076
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1076			# Grant refuge
 		ai_chance = { factor = 100 }
@@ -1125,9 +1125,9 @@ character_event = {
 	id = CM.1077
 	desc = EVTDESC_CM_1077
 	picture = GFX_evt_spymaster
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1077
 		FROM = {
@@ -1137,15 +1137,15 @@ character_event = {
 		}
 	}
 }
-	
+
 # No refuge - notify Charlemagne and receive wife and children
 character_event = {
 	id = CM.1078
 	desc = EVTDESC_CM_1078
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1078
 		FROMFROM = {
@@ -1214,11 +1214,11 @@ character_event = {
 	id = CM.1079
 
 	hide_window = yes
-	
+
 	capable_only = yes
 	prisoner = no
 	has_character_flag = carloman_refugee_wife
-	
+
 	trigger = {
 		top_liege = {
 			has_character_flag = is_charlemagne
@@ -1232,11 +1232,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 10
 	}
-	
+
 	immediate = {
 		clr_character_flag = carloman_refugee_wife
 		top_liege = {
@@ -1245,15 +1245,15 @@ character_event = {
 	}
 }
 
-	
+
 # Charlemagne receives Carloman's surrendered wife and children
 character_event = {
 	id = CM.1080
 	desc = EVTDESC_CM_1080
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1080
 		FROM = {
@@ -1315,7 +1315,7 @@ character_event = {
 			add_trait = cruel
 		}
 	}
-}	
+}
 
 ###########################################
 # The Saxon Wars                          #
@@ -1327,7 +1327,7 @@ narrative_event = {
 	title = EVTTITLE_CM_1100
 	desc = EVTDESC_CM_1100
 	picture = GFX_evt_irminsul_shrine
-	
+
 	only_playable = yes
 	religion_group = christian
 	only_independent = yes
@@ -1373,11 +1373,11 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 8
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1100 # Attack
 		ai_chance = { factor = 100 }
@@ -1411,7 +1411,7 @@ narrative_event = {
 	picture = GFX_evt_irminsul_burning
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		religion_group = christian
@@ -1428,11 +1428,11 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = irminsul
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1101 # Burn it!
 		ai_chance = {
@@ -1478,7 +1478,7 @@ narrative_event = {
 						religion_group = christian
 					}
 				}
-				narrative_event = { id = CM.1102 } # Notify players of this 
+				narrative_event = { id = CM.1102 } # Notify players of this
 			}
 		}
 		custom_tooltip = { text = sacrilege_tooltip }
@@ -1509,7 +1509,7 @@ narrative_event = {
 	picture = GFX_evt_irminsul_burning
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1102
 		trigger = {
@@ -1552,7 +1552,7 @@ narrative_event = {
 	only_independent = yes
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { year = 900 }
@@ -1579,15 +1579,15 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10
 	}
-	
+
 	immediate = {
 		set_global_flag = blood_court_of_verden
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1104 # Executions
 		prestige = 100
@@ -1619,7 +1619,7 @@ narrative_event = {
 		name = EVTOPTB_CM_1104 # Stay your hand
 		prestige = -5
 	}
-}	
+}
 
 # Emergence of Widukind
 narrative_event = {
@@ -1630,7 +1630,7 @@ narrative_event = {
 
 	only_independent = yes
 	only_playable = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		higher_real_tier_than = DUKE
@@ -1641,10 +1641,29 @@ narrative_event = {
 		OR = {
 			has_landed_title = k_saxony
 			any_realm_lord = { has_landed_title = k_saxony }
-			has_landed_title = d_westphalia
-			any_realm_lord = { has_landed_title = d_westphalia }
-			has_landed_title = d_eastphalia
-			any_realm_lord = { has_landed_title = d_eastphalia }
+			has_landed_title = d_angria
+			has_landed_title = d_oldenburg
+			has_landed_title = d_osnabruck
+			has_landed_title = d_bishopmunster
+			has_landed_title = d_bremen
+			has_landed_title = d_holstein
+			has_landed_title = d_magdeburg
+			has_landed_title = d_saxewittenberg
+			has_landed_title = d_meissen
+			has_landed_title = d_altmark
+			has_landed_title = d_brunswick
+			any_realm_lord = { has_landed_title = d_angria}
+			any_realm_lord = { has_landed_title = d_oldenburg}
+			any_realm_lord = { has_landed_title = d_osnabruck}
+			any_realm_lord = { has_landed_title = d_bishopmunster}
+			any_realm_lord = { has_landed_title = d_bremen}
+			any_realm_lord = { has_landed_title = d_holstein}
+			any_realm_lord = { has_landed_title = d_magdeburg}
+			any_realm_lord = { has_landed_title = d_saxewittenberg}
+			any_realm_lord = { has_landed_title = d_meissen}
+			any_realm_lord = { has_landed_title = d_altmark}
+			any_realm_lord = { has_landed_title = d_brunswick}
+
 		}
 		OR = {
 			has_character_flag = is_charlemagne
@@ -1666,16 +1685,16 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 20
 	}
-	
+
 	immediate = {
 		set_global_flag = widukind_spawned
 		set_character_flag = widukind_enemy
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1105
 		random_realm_province = {
@@ -1694,9 +1713,9 @@ narrative_event = {
 # Widukind
 province_event = {
 	id = CM.1106
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -1729,8 +1748,17 @@ province_event = {
 			prestige = 100
 			piety = 50
 			add_claim = k_saxony
-			add_claim = d_westphalia
-			add_claim = d_eastphalia
+			add_claim = d_angria
+			add_claim = d_oldenburg
+			add_claim = d_osnabruck
+			add_claim = d_bishopmunster
+			add_claim = d_bremen
+			add_claim = d_holstein
+			add_claim = d_magdeburg
+			add_claim = d_saxewittenberg
+			add_claim = d_meissen
+			add_claim = d_altmark
+			add_claim = d_brunswick
 			create_title = {
 				tier = DUKE
 				landless = yes
@@ -1793,9 +1821,9 @@ province_event = {
 			if = {
 				limit = {
 					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
-					FROM = { any_realm_title = { title = d_westphalia } }
+					FROM = { any_realm_title = { title = d_oldenburg } }
 				}
-				d_westphalia = {
+				d_oldenburg = {
 					FROM = {
 						reverse_war = {
 							target = PREVPREV
@@ -1808,10 +1836,144 @@ province_event = {
 			if = {
 				limit = {
 					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
-					FROM = { NOT = { any_realm_title = { title = d_westphalia } } }
-					FROM = { any_realm_title = { title = d_eastphalia } }
+					FROM = { any_realm_title = { title = d_angria } }
 				}
-				d_eastphalia = {
+				d_angria = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_osnabruck } }
+				}
+				d_osnabruck = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_bishopmunster } }
+				}
+				d_bishopmunster = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_bremen } }
+				}
+				d_bremen = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_holstein } }
+				}
+				d_holstein = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_magdeburg } }
+				}
+				d_magdeburg = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_saxewittenberg } }
+				}
+				d_saxewittenberg = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_meissen } }
+				}
+				d_meissen = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_altmark } }
+				}
+				d_altmark = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { NOT = { any_realm_title = { title = k_saxony } } }
+					FROM = { any_realm_title = { title = d_brunswick } }
+				}
+				d_brunswick = {
 					FROM = {
 						reverse_war = {
 							target = PREVPREV
@@ -1832,7 +1994,7 @@ narrative_event = {
 	title = EVTTITLE_CM_1108
 	picture = GFX_evt_bandits
 	border = GFX_event_narrative_frame_religion
-	
+
 	only_playable = yes
 	has_character_flag = widukind_enemy
 	religion_group = christian
@@ -1855,11 +2017,11 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1108 # Accept him and baptize him
 		any_independent_ruler = {
@@ -1906,16 +2068,16 @@ narrative_event = {
 # Prompting the AI to create the Carolingian Empire
 character_event = {
 	id = CM.1115
-	
+
 	hide_window = yes
-	
+
 	only_playable = yes
 	religion = catholic
 	only_independent = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		dynasty = 25061
 		ai = yes
@@ -1963,7 +2125,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -1993,7 +2155,7 @@ character_event = {
 			has_landed_title = k_france
 		}
 	}
-	
+
 	immediate = {
 		random_independent_ruler = {
 			limit = {
@@ -2044,16 +2206,16 @@ character_event = {
 
 character_event = {
 	id = CM.1116
-	
+
 	hide_window = yes
-	
+
 	only_playable = yes
 	religion = catholic
 	only_independent = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		dynasty = 25061
 		ai = yes
@@ -2096,7 +2258,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -2126,7 +2288,7 @@ character_event = {
 			has_landed_title = k_france
 		}
 	}
-	
+
 	immediate = {
 		random_independent_ruler = {
 			limit = {
@@ -2177,16 +2339,16 @@ character_event = {
 
 character_event = {
 	id = CM.1117
-	
+
 	hide_window = yes
-	
+
 	only_playable = yes
 	religion = catholic
 	only_independent = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		dynasty = 25061
 		ai = yes
@@ -2229,7 +2391,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -2259,7 +2421,7 @@ character_event = {
 			has_landed_title = k_france
 		}
 	}
-	
+
 	immediate = {
 		random_independent_ruler = {
 			limit = {
@@ -2310,16 +2472,16 @@ character_event = {
 
 character_event = {
 	id = CM.1118
-	
+
 	hide_window = yes
-	
+
 	only_playable = yes
 	religion = catholic
 	only_independent = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		dynasty = 25061
 		ai = yes
@@ -2362,7 +2524,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -2392,7 +2554,7 @@ character_event = {
 			has_landed_title = k_lotharingia
 		}
 	}
-	
+
 	immediate = {
 		random_independent_ruler = {
 			limit = {
@@ -2454,18 +2616,18 @@ narrative_event = {
 	picture = GFX_evt_daughter_asking_father
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		has_character_flag = is_charlemagne
 		has_character_flag = charlemagne_brother_rivalry
 		any_sibling = { has_character_flag = is_carloman }
-		mother = { 
+		mother = {
 			is_alive = yes
 			prisoner = no
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1120 # Yes do something
 		ai_chance = { factor = 70 }
@@ -2489,7 +2651,7 @@ character_event = {
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1121
 		ai_chance = { factor = 100 }
@@ -2509,7 +2671,7 @@ narrative_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1122
 		ai_chance = { factor = 100 }
@@ -2535,7 +2697,7 @@ character_event = {
 	picture = GFX_evt_bad_news
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1123
 		trigger = {
@@ -2571,9 +2733,9 @@ character_event = {
 	id = CM.1124
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		death = {
 			death_reason = death_natural
@@ -2586,9 +2748,9 @@ character_event = {
 	id = CM.1130
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { year = 820 }
@@ -2624,10 +2786,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 15
 			any_sibling = { has_character_flag = charlemagne_brother_rivalry }
@@ -2653,9 +2815,9 @@ character_event = {
 	id = CM.1131
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROM = { letter_event = { id = CM.1132 } }
 	}
@@ -2666,7 +2828,7 @@ letter_event = {
 	desc = EVTDESC_CM_1132
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1132
 		any_sibling = {
@@ -2691,11 +2853,11 @@ character_event = {
 	id = CM.1150
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	ai = no
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		mother = {
@@ -2711,16 +2873,16 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 5
 			mother = { culture = mongol }
 		}
 	}
-	
+
 	immediate = {
 		mother = {
 			set_character_flag = meddling_mother
@@ -2739,7 +2901,7 @@ character_event = {
 	ai = no
 	min_age = 16
 	capable_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { has_character_modifier = do_not_disturb }
@@ -2766,10 +2928,10 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 10
 			mother = { has_character_flag = meddling_mother	}
@@ -2779,11 +2941,11 @@ character_event = {
 			mother = { NOT = { has_character_flag = meddling_mother	} }
 		}
 	}
-	
+
 	immediate = {
 		spouse = { set_character_flag = meddling_mother_conflict }
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1160 # Yes mother
 		set_character_flag = meddling_mother_gone_too_far
@@ -2866,13 +3028,13 @@ character_event = {
 	id = CM.1170
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	ai = no
 	min_age = 16
 	capable_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { has_character_modifier = do_not_disturb }
@@ -2902,7 +3064,7 @@ character_event = {
 
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 10
 			mother = { has_character_flag = meddling_mother	}
@@ -2937,7 +3099,7 @@ character_event = {
 	id = CM.1171
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3060,11 +3222,11 @@ character_event = {
 	id = CM.1180
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	ai = no
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { has_character_modifier = do_not_disturb }
@@ -3078,7 +3240,7 @@ character_event = {
 			prisoner = no
 			NOT = { has_minor_title = title_regent }
 		}
-		
+
 		any_courtier = {
 			has_minor_title = title_regent
 			NOT = { has_character_flag = meddling_mother_conflict }
@@ -3088,7 +3250,7 @@ character_event = {
 
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 100
 			mother = { has_character_flag = meddling_mother	}
@@ -3169,13 +3331,13 @@ character_event = {
 	id = CM.1190
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	ai = no
 	min_age = 16
 	capable_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { has_character_modifier = do_not_disturb }
@@ -3224,7 +3386,7 @@ character_event = {
 
 	weight_multiplier = {
 		days = 1
-		
+
 		modifier = {
 			factor = 10
 			mother = { has_character_flag = meddling_mother	}
@@ -3266,7 +3428,7 @@ character_event = {
 	id = CM.1191
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3390,14 +3552,14 @@ character_event = {
 	id = CM.1400
 
 	hide_window = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	only_playable = yes
 	only_independent = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		NOT = { has_global_flag = charlemagne_spain_intervention }
@@ -3436,7 +3598,7 @@ character_event = {
 			num_of_vassals = 1
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 8
 	}
@@ -3499,7 +3661,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_1401 # Send a message to Charlemagne
 		ai_chance = { factor = 100 }
@@ -3636,7 +3798,7 @@ character_event = {
 	id = CM.1407
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -3650,7 +3812,7 @@ character_event = {
 			higher_tier_than = ROOT
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { has_character_flag = supported_by_franks }
@@ -3659,7 +3821,7 @@ character_event = {
 		}
 		if = {
 			limit = { FROM = { has_character_flag = supported_by_franks } }
-			FROM = { 
+			FROM = {
 				clr_character_flag = supported_by_franks
 				character_event = { id = CM.1408 }
 			}
@@ -3675,7 +3837,7 @@ character_event = {
 	border = GFX_event_normal_frame_diplomacy
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1408
 		ai_chance = { factor = 30 }
@@ -3719,7 +3881,7 @@ character_event = {
 	border = GFX_event_normal_frame_diplomacy
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1409
 		trigger = {
@@ -3752,7 +3914,7 @@ character_event = {
 	border = GFX_event_normal_frame_diplomacy
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_CM_1409
 		trigger = {
@@ -3785,16 +3947,16 @@ narrative_event = {
 	picture = GFX_evt_coronation
 
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Charlemagne"
 		has_character_flag = is_charlemagne
 		NOT = { has_character_flag = charlemagne_coronation }
 		tier = EMPEROR
 	}
-	
+
 	major_trigger = {
 		capital_scope = {
 			FROM = {
@@ -3809,11 +3971,11 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		set_character_flag = charlemagne_coronation
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_510
 		trigger = {
@@ -3900,11 +4062,11 @@ narrative_event = {
 # Trigger coronation event from on_create_title
 character_event = {
 	id = CM.1501
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {

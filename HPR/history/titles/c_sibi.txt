@@ -14,9 +14,11 @@
 	holder = 178015
 	liege = d_bhakkar
 }
+
+
 1182.1.1={
 	holder = 144142
-	liege=d_kabul
+	liege=d_zabolestan
 }
 1186.1.1={
 	liege=k_sindh

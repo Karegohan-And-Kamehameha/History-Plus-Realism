@@ -1,30 +1,27 @@
-# 537 - Bereg
+# 537 - Bereg # Somogy
 
 # County Title
 title = c_bereg
 
 # Settlements
 max_settlements = 3
-b_beregszasz = tribal
-#b_munkacs = city
-#b_perecseny = temple
 
-#b_ungvar = castle
-#b_ilosva = castle
-#b_szolyva = castle
-#b_szobranc = castle
-#b_kapos = castle
+b_somogyvar = castle
+b_zselicszentjakab = city
+
+#b_csurgo = temple
+#b_babocsa = castle
+#b_csakany = castle
+#b_kaposvar = castle
+#b_szigetvar = castle
+#b_fonyod = castle
 
 # Misc
-culture = croatian # White Croats
-religion = slavic_pagan
+culture = croatian
+religion = catholic
 
 # History
-
-900.1.1 = { religion = catholic }
+890.1.1 = { religion = catholic }
 950.1.1 = { culture = hungarian }
-1000.1.1 = {
-	b_beregszasz = castle
-	b_munkacs = city
-	b_perecseny = temple
-}
+
+

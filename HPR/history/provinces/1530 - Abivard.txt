@@ -1,0 +1,22 @@
+# 1530 - Abívard
+
+# County Title
+title = c_abivard
+
+# Settlements
+max_settlements = 2
+b_abivard = castle
+b_nasa = city
+
+# Misc
+culture = khorasani
+religion = zoroastrian
+
+# History
+980.1.1 = {	religion = sunni }
+1030.1.1 = { culture = turkmen }
+
+1030.1.1 = { remove_settlement = b_abivard }
+1030.1.1 = { b_abivard = tribal }
+1030.1.1 = { capital = b_abivard }
+1030.1.1 = { remove_settlement = b_nasa }

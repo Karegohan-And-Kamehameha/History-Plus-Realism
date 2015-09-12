@@ -1,5 +1,4 @@
 20.1.1 = {
-	de_jure_liege = "e_placeholder"
 	historical_nomad = yes
 }
 764.1.1={
@@ -11,22 +10,17 @@
 826.1.1={
 	holder=146230
 }
-845.1.1 = {
-	holder = 159137
+845.1.1={
+	holder=159137
 }
-867.1.1 = {
-	set_global_flag = magyar_1066_invasion
+895.1.1={
+	holder=159136
 }
-895.1.1 = {
-	clr_global_flag = magyar_1066_invasion
-	set_global_flag = magyar_victory
-	holder = 159136
+907.1.1={
+	holder=159135
 }
-907.1.1 = {
-	holder = 159135
-}
-955.1.1 = {
-	holder = 460
+955.1.1={
+	holder=460
 }
 972.1.1={
 	holder=464

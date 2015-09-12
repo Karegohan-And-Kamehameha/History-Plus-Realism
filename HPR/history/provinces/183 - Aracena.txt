@@ -5,28 +5,17 @@ title = c_aracena
 
 # Settlements
 max_settlements = 4
-b_aracena = castle
-b_almonasterlareal = city
-b_italica = temple
-#b_calanas = castle
-#b_cortegana = castle
-#b_facanias = castle
-#b_alajar = castle
-#b_galaroza = castle
+b_merida = castle
+b_llerena = temple
+b_azuaga = city
+#b_medellin = castle
+#b_almendralejo = city
+#b_zalamea = temple
+#b_monesterio = temple
 
-culture = visigothic
-religion = catholic
+culture = andalusian_arabic
+religion = sunni
 
 # History
-
-929.1.1 = {
-	culture = andalusian_arabic
-	religion = sunni
-}
-
-1246.1.1 = {
-	culture = portuguese
-	religion = catholic
-}
-
+1246.1.1 = { religion = catholic }
 1255.1.1 = { culture = castillan }

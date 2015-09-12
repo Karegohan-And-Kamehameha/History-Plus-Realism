@@ -1,5 +1,5 @@
 662.1.1= {
-	liege="d_azov"
+	liege="d_tmutarakan"
 	holder=74005
 }
 704.1.1= {
@@ -8,11 +8,10 @@
 743.1.1={
 	holder=146196
 }
-#760.1.1={
-#	holder=146200
-#}
+760.1.1={
+	holder=146200
+}
 801.1.1= {
-	liege="d_cherson"
 	holder=74013
 }
 810.1.1={
@@ -27,8 +26,8 @@
 861.1.1={
 	holder=74017
 }
-886.1.1 = {
-	holder = 74025
+886.1.1={
+	holder=74025
 }
 888.1.1={
 	holder=74026
@@ -52,19 +51,16 @@
 	holder=146193
 }
 993.1.1={
-	holder=146194
+	holder=146194 # Georgios Tzule
 }
 1016.1.1=
 {
-liege="d_kiev"
-holder=618
-}
-1024.1.2=
-{
-liege="d_chernigov"
+liege="d_tmutarakan"
+holder=618 # Mstislav Vladimirovich
 }
 1036.1.2=
 {
+liege="d_chernigov"
 holder=612
 }
 1054.2.20=
@@ -75,13 +71,17 @@ holder=628
 {
 holder=654
 }
-1064.1.2=
-{
-liege="d_kiev"
+1064.1.1={
+liege="d_tmutarakan"
+	holder=670 # Rostislav Vladimirovich
 }
-1064.1.2=
-{
-holder=670
+1065.1.1={
+liege="d_chernigov"
+	holder=0 #654 # Gleb Sviatoslavich, second time
+}
+1065.6.1={
+liege="d_tmutarakan"
+	holder=670 # Rostislav Vladimirovich, second time
 }
 1067.2.3=
 {

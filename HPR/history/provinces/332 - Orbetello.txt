@@ -4,19 +4,21 @@
 title = c_orbetello
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 
-b_orbetello = temple
-b_pitigliano = castle
-b_grosseto = city
-#b_roselle = castle
-#b_sorano = castle
+b_arcidosso = castle
+b_santafiora = city
+b_pitigliano = city
+b_orbetello = city
 #b_sovana = castle
-#b_vetulonia = castle
-#b_rusellae = castle
+#b_castellazzara = castle
+#b_scansano = city
+#b_sorano = temple
+#b_abbaziadisansalvatore = temple
+#b_giglio = castle
 
 # Misc
-culture = italian
+culture = tuscan
 religion = catholic
 
 # History

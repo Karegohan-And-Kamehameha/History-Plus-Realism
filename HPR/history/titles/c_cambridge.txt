@@ -1,65 +1,90 @@
-758.1.1={
+855.1.8={
+	liege="d_norfolk"
+}
+855.1.8={
+	holder = 163064
+}
+
+879.1.1={
+	holder = 168650
+}
+927.7.12={
+	liege="k_england"
+}
+928.1.8={
+	liege="d_norfolk"
+}
+940.1.1={
+	holder=1000226357 #Ælfric Cild 
+}
+983.1.1={
 	liege="d_hereford"
-	holder = 205081
 }
-852.1.1 = {
-	liege = "d_hereford"
+985.1.1={
+	holder=1000226361 # Ælfwine son of Ælfric Cild
+	liege="d_norfolk"
 }
-852.1.1 = {
-	holder = 163102
+991.1.1={
+	holder=1000226362 #Godwine son of Ælfirc Cild, Ealdorman of Lindsey
 }
-998.1.1 = {
-	holder = 1000255400
+1018.10.18={
+	holder=0
 }
-1066.1.1 = {
-	liege = "k_england"
+1066.1.1=
+{
+holder=5650 #Radulf 'Stalre'
 }
-1066.1.1 = {
-	holder = 198 #Waltheof Siwardsson 
+1066.10.14={
+	liege="k_england"
 }
-1066.10.14 = {
-liege = "k_england"
+1068.1.1=
+{
+holder=5652 #Radulf 'de Guader'
 }
-1076.1.1 = {
-	holder = 199 #Maud, Countess of Huntington
+1074.1.1=
+{
+holder=140 #William the Conqueror
 }
-1130.1.1 = {
-	holder = 203511 #Henry of Dunkeld
+1087.9.9=
+{
+holder=146 #William II Rufus
 }
-1138.1.1 = {
-	holder = 161432 #Simon of Senlis
+1100.8.3=
+{
+holder=202992 #Henry I
 }
-1139.1.1 = {
-	holder = 203511 #Henry of Dunkeld
+1135.12.2=
+{
+holder=205851 #Stephen
 }
-1141.1.1 = {
-	holder = 161432 #Simon of Senlis
+1141.1.1=
+{
+holder=204735 #Hugh de Bigod
 }
-1153.5.24 = {
-	liege = "k_scotland"
-	holder = 202999 #William 'the Lion' of Dunkeld
+1177.1.1=
+{
+holder=204730 #Roger de Bigod
 }
-1157.1.1 = {
-	liege = "k_england"
+1221.1.1=
+{
+holder=204731 #Hugh de Bigod
 }
-1165.5.24 = {
-	holder = 203520 #David of Dunkeld
+1225.1.1=
+{
+holder=7457 #Roger de Bigod
 }
-1219.7.17 = {
-	holder = 7459 #John of Dunkeld
+1270.1.1=
+{
+holder = 7454 #Roger de Bigod
 }
-1237.6.6 = {
-	holder = 454522 #Henry III
+1306.12.6=
+{
+holder = 454520 #Edward I Longshanks
 }
-1272.11.16 = {
-	holder = 454520 #Edward I Longshanks
+1307.7.8={
+	holder = 454510 #Edward II of England
 }
-1307.1.2 = {
-	holder = 454510 #Edward II
-}
-1327.2.1 = {
-	holder = 454500 #Edward III
-}
-1337.1.1 = {
-	holder = 454562 #William de Bohun
+1312.1.1=
+{
+holder = 454550 #Thomas of Brotherton
 }

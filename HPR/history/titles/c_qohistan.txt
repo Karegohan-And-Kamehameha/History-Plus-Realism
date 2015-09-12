@@ -1,72 +1,107 @@
-650.1.1={
-	liege=d_khorasan
+846.1.1={
+	historical_nomad = yes
+	liege="d_baloch"
+	holder = 1000230957   # vanilla fantasy ruler
 }
-767.1.1={
-	holder = 188650 # Abu Awn Abd al-Malik ibn Yazid (fictitious holding assignment)
+863.1.1={	
+	holder=1000230958
 }
-862.1.1 = {
-	holder = 163100
+894.1.1={	
+	holder=1000230959
 }
-997.1.1 = {
-	holder = 1000254500
-	liege = "d_khorasan"
+910.1.1={	
+	holder=1000230961
 }
-1066.1.1 = {
-	liege = "d_khorasan"
+919.1.1={	
+	holder=1000230962
 }
-1066.1.1 = {
-	holder = 93122
+943.1.1={	
+	holder=1000230966
 }
-1073.1.1 = {
-	holder = 93123
+966.1.1={	
+	holder=1000230967
 }
-1078.1.1 = {
-	holder = 93125
+1002.1.1={	
+	holder=1000230968
 }
-1098.1.1 = {
-	holder = 93128
+1035.1.1={	
+	holder=1000230969
 }
-1100.1.1 = {
-	holder = 93129
+
+1051.1.1={
+	historical_nomad = no
+	liege="k_khorasan"
+	holder = 1000229931
 }
-1110.1.1 = {
-	holder = 93126
+1080.1.1={
+  holder = 1000229932
 }
-1152.1.1 = {
-	holder = 93127
+#########
+#Placeholder
+1108.1.1={
+	liege="d_jebal"
+	holder = 144014
 }
-1161.1.1 = {
-	holder = 144101
+1118.4.18=
+{
+	holder = 144015
 }
- 
-1172.3.1 = {
-	holder = 230000
+1157.5.8=
+{
+	holder = 144054
+} 
+1159.1.1=
+{
+	holder = 144055
 }
-1200.1.1 = {
-	holder = 93052
+1175.12.31=
+{
+	holder = 144056
 }
-1220.1.1 = {
-	holder = 194309
+1194.3.1=
+{
+	
+	holder=230000
+}
+1200.1.1=
+{
+	holder=93052
 }
 1221.1.1=
-{ 
-	holder = 125520
+{
+
+	holder=93253
 }
-1232.1.2 = {
-	holder = 478011
+1241.1.1=
+{
+	holder=93254
 }
-1240.1.1 = {
-	holder = 125526
+1248.1.1=
+{
+	holder=93255
 }
-1266.1.2 = {
-	holder = 125530
+1252.1.1=
+{
+	holder=93254
 }
-1285.1.2 = {
-	holder = 125531
+1256.1.1=
+{
+	holder=125521
 }
-1300.1.2 = {
-	holder = 125532
+1270.2.1=
+{
+	holder=125522
 }
-1325.1.1 = {
-	holder = 45101
+
+1295.1.1=
+{
+	holder=125529
+}
+1315.1.1=
+{
+	holder=478012
+}
+1335.1.1=
+{
+	holder=478015
 }

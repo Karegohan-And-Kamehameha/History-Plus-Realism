@@ -16,10 +16,9 @@ b_kolmar = city
 #b_mulhouse = castle
 
 # Misc
-culture = old_frankish
+culture = swabian
 religion = catholic
 
 # History
-790.1.1 = {
-	culture = german
-}
+1135.1.1 = { b_altkirch = castle } #Habsburg landgraves of Upper Alsace
+1170.1.1 = { culture = german }

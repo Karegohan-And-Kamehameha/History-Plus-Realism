@@ -1,71 +1,74 @@
-768.1.1={
-	holder=210029
+823.1.1={
+	liege="d_alger"
 }
-784.1.1={
-	holder=210030
-}
-823.1.1 = {
-	liege = "d_alger"
-}
-823.1.1 = {
+823.1.1={
 	holder = 163097
 }
-877.1.1 = {
-	liege = "d_kabylia"
+866.1.1={
+	holder = 163149
 }
-996.1.1 = {
-	#lholder = 1000253603  
-  holder = 20934
-	liege = "d_kabylia"
+877.1.1={
+	liege="d_kabylia"
 }
-1066.1.1 = {
-liege = "d_kabylia"
+1054.1.1={
+	historical_nomad = yes
+	liege = 0
+	set_tribute_suzerain = { who = d_kabylia percentage = 0.40 }
+	holder=1000229650
 }
-1066.1.1 = {
-holder = 155173
+1059.1.1={
+	holder=1000229651
 }
-1080.1.1 = {
-holder = 155174
+1088.1.1={
+	clear_tribute_suzerain = d_kabylia
+	liege=0
+	holder=155175
 }
-1088.1.1 = {
-liege = 0
+1110.1.1=
+{
+holder=155176
 }
-1095.1.1 = {
-holder = 155175
+1125.1.1=
+{
+holder=155177
 }
-1110.1.1 = {
-holder = 155176
+1152.1.1=
+{
+liege="k_maghreb"
 }
-1125.1.1 = {
-holder = 155177
+1152.1.1=
+{
+holder=155104
 }
-1152.1.1 = {
-liege = "k_morocco"
+1182.1.1=
+{
+holder=155105
 }
-1152.1.1 = {
-holder = 155104
+1210.1.1=
+{
+holder=155170
 }
-1182.1.1 = {
-holder = 155105
+1242.1.1=
+{
+liege="d_tlemcen"
 }
-1210.1.1 = {
-holder = 155170
+1253.1.1=
+{
+liege=0
 }
-1242.1.1 = {
-liege = "d_tlemcen"
+1253.1.1=
+{
+holder=155171
 }
-1253.1.1 = {
-liege = 0
+1281.1.1=
+{
+holder=155106
 }
-1253.1.1 = {
-holder = 155171
+1290.1.1=
+{
+liege="d_tlemcen"
 }
-1281.1.1 = {
-holder = 155106
-}
-1290.1.1 = {
-liege = "d_tlemcen"
-}
-1310.1.1 = {
-holder = 155107
+1310.1.1=
+{
+holder=155107
 }

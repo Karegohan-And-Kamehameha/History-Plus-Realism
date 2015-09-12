@@ -6,7 +6,7 @@ title = c_tabuk
 # Settlements
 max_settlements = 4
 b_mariyiat = castle
-b_duba = city
+b_duba_tabuk = city
 b_tabuk = temple
 
 #b_muwaylih = castle

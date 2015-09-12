@@ -1,0 +1,91 @@
+819.1.1={
+	liege="k_khorasan"
+	holder=1000230606
+}
+855.1.1={
+	liege="d_soghd"
+	holder=163156
+}
+868.1.1={
+	holder=163157
+}
+907.1.1={
+	holder=1000230610
+}
+914.1.1={
+	holder=1000230611
+}
+943.6.4={
+	holder=1000230615
+}
+954.8.8={
+	holder=1000230616
+}
+961.1.1={
+	holder=1000230617
+}
+976.6.13={
+	holder=1000230619
+}
+
+996.1.2={
+	liege="k_turkestan_east"
+	holder=3002
+}
+1017.1.2={
+	holder=3004
+}
+1048.1.2={
+	liege="d_ferghana"
+	holder=144103
+}
+1057.1.1={
+	holder=144104
+}
+1059.1.1={
+	liege="k_mavarannahr"
+	holder=3024
+}
+1068.1.1={
+	liege="d_ferghana"
+	holder=1000230286
+}
+1073.1.1={
+	holder=3024
+}
+1080.1.1={
+	holder=3018
+}
+1086.1.1={
+	holder=3020
+}
+1095.1.1={
+	holder=144110
+}
+1102.1.1={
+	holder=144111
+}
+1130.1.1={
+	holder=144118
+}
+
+1140.1.1={
+	liege="d_ferghana"
+	holder=1000230274 # Husayn b. Hasan
+}
+1156.1.1={
+	holder=1000230276 # Mahmúd b. Husayn
+}
+1163.1.1={
+	holder=1000230277 # Ibrahím b. Husayn
+}
+1179.1.1={
+	holder=1000230278 # Ahmad b. Ibrahím
+}
+1193.1.1={
+	holder=1000230281 # Kadir b. Ibrahím
+}
+1211.1.1={
+	holder=1000230279 # Mahmúd b. Ahmad
+}
+

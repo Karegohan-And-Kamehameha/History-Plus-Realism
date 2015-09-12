@@ -4,20 +4,19 @@
 title = c_leiningen
 
 # Settlements
-max_settlements = 5
-b_leiningen = castle
-b_heidelberg = city
-b_lorsch = temple
+max_settlements = 4
 
-#b_durkheim = castle
-#b_battenberg = castle
-#b_hardenburg = castle
-#b_ungstein = castle
-#b_pfeffingen = castle
+b_burgwertheim = castle
+b_wertheim = city
+#b_durne = temple
+#b_klingen = castle
+#b_breuberg = castle
+#b_freudenberg = castle
 
 # Misc
-culture = german
+culture = franconian
 religion = catholic
 
 # History
+1170.1.1 = { culture = german }
 

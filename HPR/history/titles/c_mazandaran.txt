@@ -1,64 +1,82 @@
-755.1.1={
-	liege=d_tabriz
-	holder = 160290 # Surkhab Bavand II
-}
-
 867.1.1={
-	liege="d_mazandaran"
+	liege="d_tabarestan"
+}
+867.1.1={
 	holder = 45105 # Rostam II
 }
-1000.1.1 = {
-	liege = 0
-	holder = 1000254514
+
+# SWMH history
+1066.1.1=
+{
+holder=1000229909
 }
-1066.1.1 = {
-	liege = "d_mazandaran"
+
+# vanilla again
+1074.1.1=
+{
+holder=41606
 }
-1066.1.1 = {
-	holder = 93178
+1114.1.1=
+{
+holder=93162
 }
-1078.1.1 = {
-	holder = 93179
+1117.1.1=
+{
+holder=93163
 }
-1109.1.1 = {
-	holder = 93180
+1118.1.1=
+{
+liege="d_merv"
 }
-1168.1.1 = {
-	holder = 93181
+1118.1.1=
+{
+holder=93164
 }
-1184.1.1 = {
-	holder = 93182
+1142.1.1=
+{
+holder=93165
 }
-1210.1.1 = {
-	holder = 93183
+1165.1.1=
+{
+holder=93166
 }
-1213.1.1 = {
-	holder = 93184
+1173.1.1=
+{
+holder=93167
 }
-1223.1.1 = {
-	holder = 93185
+1206.1.1=
+{
+holder=93168
 }
-1230.1.1 = {
-	holder = 93186
+1210.1.1=
+{
+holder=93169
 }
-1236.1.1 = {
-	holder = 93187
+1249.1.1=
+{
+holder=93170
 }
-1272.1.1 = {
-	holder = 93188
+1267.1.1=
+{
+holder=93171
 }
-1302.1.1 = {
-	holder = 93189
+1271.1.1=
+{
+holder=93172
 }
-1312.1.1 = {
-	holder = 93190
+1300.1.1=
+{
+holder=93173
 }
-1318.1.1 = {
-	holder = 93191
+1310.1.1=
+{
+holder=93174
 }
-1325.1.1 = {
-	holder = 93192
+1328.1.1=
+{
+holder=93175
 }
-1334.1.1 = {
-	holder = 93193
+1334.1.1=
+{
+holder=93176
 }

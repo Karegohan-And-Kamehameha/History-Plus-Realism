@@ -1,0 +1,20 @@
+# 1572 - Balasaghnun
+
+# County Title
+title = c_balasaghnun
+
+# Settlements
+max_settlements = 4
+b_suyab = tribal
+b_balasaghnun = city
+#b_nevaket = temple
+
+#b_toqmaq = castle
+
+# Misc
+culture = pecheneg
+religion = tengri_pagan
+
+# History
+
+810.1.1 = { culture = karluk } 

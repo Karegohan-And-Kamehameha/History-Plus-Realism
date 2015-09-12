@@ -1,0 +1,23 @@
+# 1542 - Guzgán
+
+# County Title
+title = c_guzgan
+
+# Settlements
+max_settlements = 5
+b_fayrab = castle
+b_naryan = city
+b_taleqan = temple
+b_yahudan = city
+
+#b_anbar = temple
+#b_andkhud = castle
+#b_ushburqan = castle
+
+# Misc
+culture = khorasani
+religion = sunni
+
+# History
+
+960.1.1 = {	religion = sunni }

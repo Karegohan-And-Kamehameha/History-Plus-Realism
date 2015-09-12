@@ -1,0 +1,180 @@
+#Kings of Offaly
+################
+#House of Flainn
+680.1.1={
+	liege="d_meath"
+}
+680.1.1={
+holder = 1000226441 # Fland Dá Chongal
+}
+705.1.1={
+holder = 1000226442 # Forbassach Ua Congaile
+}
+714.1.1={
+holder = 1000226443 # Ailill Corrach mac Flainn
+}
+741.1.1={
+holder = 1000226444 # Flaithnia mac Flainn
+}
+755.1.1={
+holder = 1000226487 # Cummascach mac Flainn
+}
+757.1.1={
+holder = 1000226445 # Cináed mac Flainn
+}
+770.1.1={
+holder = 1000226446 # Mugrón mac Flainn
+}
+782.1.1={
+holder = 1000226447 # Domnall mac Flaíthnia 
+}
+783.1.1={
+holder = 1000226448 # Óengus mac Mugróin
+}
+803.1.1={
+holder = 1000226449 # Flaíthnia mac Cináeda
+}
+806.1.1={
+holder = 1000226450 # Cináed mac Mugróin
+}
+829.1.1={
+holder = 1000226451 # Mugrón mac Óengusa
+}
+842.1.1={
+holder = 1000226452 # Niall mac Cináeda
+}
+849.1.1={
+holder = 1000226453 # Máel Sinchill mac Mugróin
+}
+881.1.1={
+holder = 1000226454 # Conchobar mac Flannacáin
+}
+891.1.1={
+holder = 1000226455 # Uathmarán mac Conchobair
+}
+#####
+#Royal line dies out, no independent king recorded before 11th century. Title given dierectly to the Kings of Meath.
+897.1.1={
+	holder = 131502 #Flann Sinna son of Máel Sechnaill Ua Neill
+}
+916.5.25={
+	holder = 83132 #Conchobar son of Flann Sinna
+}
+919.7.1={
+	holder = 83125 #Domnall son of Flann Sinna
+}
+921.7.1={
+	holder = 131503 #Donnchad Donn son of Flann Sinna Ua Neill
+}
+944.1.1={
+	holder = 83139 #Donnchad son of Domnall
+}
+950.7.1={
+	holder = 83141 #Aed son of Mael Ruanaid
+}
+957.7.1={
+	holder = 131504 #Domnall Donn son of Donnchad Donn Ua Neill
+}
+960.7.1={
+	holder = 83135 #Muirchertach son of Máel Ruanaid 
+}
+976.7.1={
+	holder = 131505 #Máel Sechnaill Mór son of Domnall Donn Ua Neill
+}
+# House of Conchobhair Failghe
+990.1.1={
+holder = 1000226456
+}
+1030.1.1={
+holder = 1000226457 # Congalach Ua Conchobair
+}
+1051.1.1={
+holder = 1000226458 # Gilla Patraic mac Conchobair Ua Sibleain
+}
+1071.1.1={
+holder = 1000226460 # Conchobar mac Congalaig
+}
+1115.1.1={
+holder = 1000226461 # Rogan mac Domnaill
+}
+1118.1.1={
+holder = 1000226462 # Cu Faifne mac Congalaig
+}
+1130.1.1={
+holder = 1000226463 # Donnchad mac Con Faifne
+}
+1134.1.1={
+holder = 1000226464 # Aed mac Domnaill
+}
+1138.1.1={
+holder = 1000226465 # Mael Morda mac Conchobair
+}
+1141.1.1={
+holder = 1000226466 # Conchobair mac Con Faifne
+}
+1143.1.1={
+holder = 1000226467 # Mael Sechlainn mac Conchobair
+}
+1145.1.1={
+holder = 1000226468 # Congalach mac Con Faifne
+}
+1147.1.1={
+holder = 1000226469 # Murchad mac Con Faifne
+}
+1148.1.1={
+holder = 1000226470 # Muirchertach mac Muirchertaig
+}
+1151.1.1={
+holder = 1000226471 # Aed mac Donnchada
+}
+1159.1.1={
+holder = 1000226472 # Domnall Ruad mac Congalaig
+}
+1161.1.1={
+holder = 1000226473 # Mael Sechlainn mac Congalaig
+}
+1164.1.1={
+holder = 1000226474 # Donchad Ruad Roigne
+}
+1165.1.1={
+holder = 1000226475 # Diarmait mac Congalaig
+}
+1167.1.1={
+holder = 1000226476 # Muirchertach mac Congalaig
+}
+1172.1.1={
+holder = 1000226477 # Diarmait mac Con Broga Ua Dimmusaig
+}
+1185.1.1={
+	liege="0" # Meath taken by England.
+}
+1193.1.1={
+holder = 1000226478 # Muirchertach mac Donnchada
+}
+1215.1.1={
+holder = 1000226479 # Mael Morda mac Muirchertaig meic Donnchada
+}
+1225.1.1={
+holder = 1000226480 # Muirchertach mac Mael Morda
+}
+1260.1.1={
+holder = 1000226481 # Muirchertach mac Muirchertaig
+}
+1305.6.13={
+holder = 1000226482 # Murchad mac Muirchertaig
+}
+1316.1.1={
+holder = 1000226483 # Mael Sechlainn mac Muirchertaig
+}
+1329.1.1={
+holder = 1000226484 # Muirchertach Óg mac Muircherartaig
+}
+1384.1.1={
+holder = 1000226485 # Murchad mac Muircheartaig
+}
+1421.1.1={
+holder = 1000226486 # Diarmaid mac Muirchertaigh Óg
+}
+1425.1.1={
+holder = 0
+}

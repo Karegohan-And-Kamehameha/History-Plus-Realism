@@ -4,25 +4,18 @@
 title = c_orava
 
 # Settlements
-max_settlements = 4
-b_arvavara = tribal
-#b_rozsahegy = city
-b_liptovskymikulas = temple
+max_settlements = 3
 
-#b_nameszto = city
-#b_zolyom = castle
-#b_trsztena = castle
-#b_turdossin = castle
-#b_nemetlipcse = castle
+b_arva = castle
+#b_rozsahegy = city
+#b_nameszto = castle
+#b_liptoszentmiklos
+#b_nemetlipcse = temple
+#b_alsokubin = city
+#b_turdossin = temple
 
 # Misc
-culture = bohemian
-religion = slavic_pagan
+culture = moravian
+religion = catholic
 
 # History
-900.1.1 = {
-	b_arvavara = castle
-	b_rozsahegy = city
-	religion = catholic
-}
-950.1.1 = { culture = hungarian }

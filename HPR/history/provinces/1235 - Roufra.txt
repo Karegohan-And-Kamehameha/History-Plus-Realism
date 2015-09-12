@@ -1,0 +1,19 @@
+# 1235 - Roufra (Koufra)
+
+# County Title
+title = c_roufra
+
+# Settlements
+max_settlements = 2
+
+b_koufra = tribal
+#b_sherda = city
+
+# Misc
+culture = zaghawa
+religion = west_african_pagan
+
+# History
+
+#islamization
+940.1.1 = { religion = sunni }

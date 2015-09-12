@@ -1,0 +1,30 @@
+
+1066.1.1={
+holding_dynasty = 1000101202 # Misiwwi - makes this a FAMILY_PALACE type Holding
+	liege="d_dahlak"
+	holder=1000228794
+}
+1092.1.1={
+	holder=1000228795
+}
+1119.1.1={
+	holder=1000228796
+}
+1160.1.1={
+	holder=1000228797
+}
+1190.1.1={
+	holder=1000228798
+}
+1236.1.1={
+	holder=1000228799
+}
+1270.1.1={
+	holder=1000231650
+}
+1293.1.1={
+	holder=1000231651
+}
+1321.1.1={
+	holder=1000231652
+}

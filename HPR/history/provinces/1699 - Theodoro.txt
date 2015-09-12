@@ -1,0 +1,16 @@
+# 1699 - Theodoro
+
+# County Title
+title = c_theodoro
+
+# Settlements
+max_settlements = 3
+b_funa = castle
+b_mangup = city
+b_inkerman = temple
+
+# Misc
+culture = east_gothic
+religion = orthodox
+
+# History

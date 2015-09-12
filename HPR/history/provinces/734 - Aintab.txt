@@ -4,19 +4,17 @@
 title = c_aintab
 
 # Settlements
-max_settlements = 3
-b_aintab = castle
-b_marash = city
-b_kyrrhos = temple
-#b_ravendan = castle
-#b_hromgla = castle
-#b_amanus = castle
+max_settlements = 4
+b_ravendan = castle
+b_aintab = city
 #b_duluk = castle
-#b_raban = castle
+#b_killiz = = city
+#b_tulupe = castle
+
 
 # Misc
 culture = armenian
-religion = apostolic
+religion = orthodox
 
 # History
 1177.1.1 = { 

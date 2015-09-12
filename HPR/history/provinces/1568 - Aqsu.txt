@@ -1,0 +1,21 @@
+# 1568 - Aqsu
+
+# County Title
+title = c_aqsu
+
+# Settlements
+max_settlements = 5
+b_aqsu = tribal
+#b_uchaqsu = city
+#b_akqi = temple
+
+# b_kalpin = castle
+# b_jam = city
+
+# Misc
+culture = uighur
+religion = buddhist
+
+# History
+915.1.1 = {	culture = karluk }
+1115.1.1 = {	religion = sunni }

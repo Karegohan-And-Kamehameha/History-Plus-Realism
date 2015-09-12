@@ -18,7 +18,7 @@ character_event = {
 	picture = GFX_evt_council
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		random_demesne_title = {
 			limit = { has_title_flag = title_to_change }
@@ -1359,7 +1359,7 @@ character_event = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				ROOT = {
@@ -1379,13 +1379,13 @@ character_event = {
 					}
 					character_event = { id = Plus.604 days = 5 }
 				}
-				
+
 				#actually change the law
 				add_law = succ_gavelkind
-				
+
 				#current heir is unhappy (they have to share) if they were the previous heir
 				current_heir = {
-					if = { 
+					if = {
 						limit = { has_character_flag = former_heir }
 						opinion = {
 							who = ROOT
@@ -1394,7 +1394,7 @@ character_event = {
 						}
 					}
 				}
-				
+
 				ROOT = {
 					#legitimate children are happy
 					any_child = {
@@ -1440,7 +1440,7 @@ character_event = {
 						}
 					}
 				}
-				
+
 				any_de_jure_vassal_title = {
 					limit = {
 						holder_scope = { has_character_flag = vote_is_for_gavelkind }
@@ -1462,7 +1462,7 @@ character_event = {
 			limit = {
 				check_variable = { which = "succession_law_vote" value = -0.5 }
 				has_character_flag = vote_is_for_primogeniture
-			}			
+			}
 			clr_character_flag = vote_is_for_primogeniture
 			event_target:changed_title = {
 				#set flag so we know what the former law was
@@ -1499,7 +1499,7 @@ character_event = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				ROOT = {
@@ -1519,10 +1519,10 @@ character_event = {
 					}
 					character_event = { id = Plus.604 days = 5 }
 				}
-				
+
 				#actually change the law
 				add_law = succ_primogeniture
-				
+
 				#current heir is pleased
 				current_heir = {
 					opinion = {
@@ -1531,7 +1531,7 @@ character_event = {
 						months = 240
 					}
 				}
-				
+
 				ROOT = {
 					#legitimate children are upset
 					any_child = {
@@ -1577,7 +1577,7 @@ character_event = {
 						}
 					}
 				}
-				
+
 				any_de_jure_vassal = {
 					limit = { has_character_flag = voted_on_primogeniture }
 					character_event = { id = Plus.611 }
@@ -1591,7 +1591,7 @@ character_event = {
 			limit = {
 				check_variable = { which = "succession_law_vote" value = -0.5 }
 				has_character_flag = vote_is_for_seniority
-			}			
+			}
 			clr_character_flag = vote_is_for_seniority
 			event_target:changed_title = {
 				#set flag so we know what the former law was
@@ -1628,7 +1628,7 @@ character_event = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				ROOT = {
@@ -1651,7 +1651,7 @@ character_event = {
 
 				#actually change the law
 				add_law = succ_seniority
-				
+
 				ROOT = {
 					#legitimate children are angry
 					any_child = {
@@ -1710,7 +1710,7 @@ character_event = {
 						}
 					}
 				}
-				
+
 				any_de_jure_vassal = {
 					limit = { has_character_flag = voted_on_seniority }
 					character_event = { id = Plus.611 }
@@ -1724,7 +1724,7 @@ character_event = {
 			limit = {
 				check_variable = { which = "succession_law_vote" value = -0.5 }
 				has_character_flag = vote_is_for_tanistry
-			}			
+			}
 			clr_character_flag = vote_is_for_tanistry
 			event_target:changed_title = {
 				#set flag so we know what the former law was
@@ -1761,7 +1761,7 @@ character_event = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				ROOT = {
@@ -1876,7 +1876,7 @@ character_event = {
 				any_de_jure_vassal = {
 					clr_character_flag = dejure_vassal
 				}
-				
+
 				any_de_jure_vassal = {
 					limit = { has_character_flag = voted_on_tanistry }
 					character_event = { id = Plus.611 }
@@ -1890,7 +1890,7 @@ character_event = {
 			limit = {
 				check_variable = { which = "succession_law_vote" value = -0.5 }
 				has_character_flag = vote_is_for_feudal_elective
-			}			
+			}
 			clr_character_flag = vote_is_for_feudal_elective
 			event_target:changed_title = {
 				#set flag so we know what the former law was
@@ -1927,7 +1927,7 @@ character_event = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				ROOT = {
@@ -2304,10 +2304,10 @@ character_event = {
 # Base event fired on the ruler after changing a law
 character_event = {
 	id = Plus.604
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		random_demesne_title = {
 			limit = { has_title_flag = title_to_change }
@@ -2340,7 +2340,7 @@ character_event = {
 				character_event = { id = Plus.605 }
 			}
 		}
-		
+
 		# former heir is now pretender
 		any_realm_character = {
 			limit = {
@@ -2369,7 +2369,7 @@ character_event = {
 				character_event = { id = Plus.606 }
 			}
 		}
-		
+
 		# former pretender is now neither heir nor pretender
 		any_realm_character = {
 			limit = {
@@ -2396,7 +2396,7 @@ character_event = {
 				character_event = { id = Plus.607 }
 			}
 		}
-		
+
 		# the new heir
 		event_target:changed_title = {
 			current_heir = {
@@ -2411,7 +2411,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		# the new pretenders
 		any_realm_character = {
 			limit = {
@@ -2440,7 +2440,7 @@ character_event = {
 				character_event = { id = Plus.609 }
 			}
 		}
-		
+
 		#clear the flags
 		any_realm_character = {
 			clr_character_flag = former_heir
@@ -2461,9 +2461,9 @@ character_event = {
 	id = Plus.605
 	picture = "GFX_evt_scandal"
 	desc = "EVTDESC_Plus_605"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_605" #So be it
 		trigger = {
@@ -2863,9 +2863,9 @@ character_event = {
 	id = Plus.606
 	picture = "GFX_evt_scandal"
 	desc = "EVTDESC_Plus_606"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_605" #So be it
 		trigger = {
@@ -3122,9 +3122,9 @@ character_event = {
 	id = Plus.607
 	picture = "GFX_evt_scandal"
 	desc = "EVTDESC_Plus_607"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_605" #So be it
 		trigger = {
@@ -3416,9 +3416,9 @@ character_event = {
 	id = Plus.608
 	picture = "GFX_evt_emissary"
 	desc = "EVTDESC_Plus_608"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 		opinion = {
@@ -3476,9 +3476,9 @@ character_event = {
 	id = Plus.609
 	picture = "GFX_evt_emissary"
 	desc = "EVTDESC_Plus_609"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EXCELLENT"
 		opinion = {
@@ -3538,10 +3538,10 @@ character_event = {
 # Vassal is asked to support the current heir
 character_event = {
 	id = Plus.1600
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = { current_heir = { save_event_target_as = liege_heir } }
 		log = "[Root.GetTitledName] has been asked by [FromFrom.GetTitledName] to support [FromFrom.GetHerHis] heir, [liege.heir.GetTitledName]."
@@ -3716,14 +3716,14 @@ letter_event = {
 	id = Plus.1601
 	desc = EVTDESC_Plus_1601
 	border = GFX_event_letter_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		current_heir = { character = event_target:liege_heir }
 		FROM = { vassal_of = ROOT }
 	}
-	
+
 	option = {
 		name = EXCELLENT
 		FROM = {
@@ -3738,14 +3738,14 @@ letter_event = {
 	id = Plus.1602
 	desc = EVTDESC_Plus_1602
 	border = GFX_event_letter_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		current_heir = { character = event_target:liege_heir }
 		FROM = { vassal_of = ROOT }
 	}
-	
+
 	option = {
 		name = CURSES
 		opinion = { who = FROM modifier = refused_to_support_heir years = 10 }
@@ -3767,10 +3767,10 @@ letter_event = {
 # Maintenance event: remove support for heir if he is neither heir nor liege
 character_event = {
 	id = Plus.1603
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		any_opinion_modifier_target = {
 			reverse_has_opinion_modifier = {
@@ -3786,11 +3786,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_opinion_modifier_target = {
 			limit = {
@@ -3822,10 +3822,10 @@ character_event = {
 # King/Emperor dies at low CA with possibly unsuitable heir
 character_event = {
 	id = Plus.1610
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_feudal = yes
 		primary_title = {
@@ -3852,8 +3852,8 @@ character_event = {
 						has_law = true_cognatic_succession
 					}
 					current_heir = { is_female = yes }
-					ROOT = { 
-						is_female = no 
+					ROOT = {
+						is_female = no
 						not_is_feminist_trigger = yes
 					}
 				}
@@ -3914,11 +3914,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		set_variable = { which = "succ_candidates" value = 0 }
 		current_heir = { save_event_target_as = next_in_line }
-		
+
 		#check whether we should be accepting female candidates
 		if = {
 			limit = {
@@ -3937,7 +3937,7 @@ character_event = {
 			}
 			set_character_flag = no_female_candidates
 		}
-		
+
 		#find candidates for non-voting succession laws
 		if = {
 			limit = {
@@ -3984,13 +3984,13 @@ character_event = {
 					set_title_flag = revert_enatic_cognatic
 				}
 			}
-			
+
 			#first the actual pretender
-			current_heir = { 
-				add_trait = disinherited 
+			current_heir = {
+				add_trait = disinherited
 				ROOT = {
 					recalc_succession = yes
-					current_heir = { 
+					current_heir = {
 						if = {
 							limit = {
 								OR = {
@@ -4011,10 +4011,9 @@ character_event = {
 						}
 					}
 				}
-				remove_trait = disinherited 
+				remove_trait = disinherited
 			}
-			recalc_succession = yes
-			
+
 			#then the male candidate
 			if = {
 				limit = {
@@ -4022,7 +4021,7 @@ character_event = {
 				}
 				primary_title = { gender_succ = agnatic }
 				recalc_succession = yes
-				current_heir = { 
+				current_heir = {
 					if = {
 						limit = {
 							age = 13
@@ -4037,10 +4036,10 @@ character_event = {
 						}
 						save_event_target_as = candidate_male
 						ROOT = { change_variable = { which = "succ_candidates" value = 1 } }
-					}	
+					}
 				}
 			}
-			
+
 			#then an older female candidate
 			if = {
 				limit = {
@@ -4049,7 +4048,7 @@ character_event = {
 				}
 				primary_title = { gender_succ = true_cognatic }
 				recalc_succession = yes
-				current_heir = { 
+				current_heir = {
 					if = {
 						limit = {
 							age = 13
@@ -4065,10 +4064,10 @@ character_event = {
 						}
 						save_event_target_as = candidate_female
 						ROOT = { change_variable = { which = "succ_candidates" value = 1 } }
-					}	
+					}
 				}
 			}
-			
+
 			#restore gender law
 			primary_title = {
 				if = {
@@ -4097,7 +4096,7 @@ character_event = {
 					gender_succ = enatic_cognatic
 				}
 			}
-			
+
 			#then the primogeniture candidate
 			if = {
 				limit = {
@@ -4106,7 +4105,7 @@ character_event = {
 				}
 				primary_title = { succession = primogeniture }
 				recalc_succession = yes
-				current_heir = { 
+				current_heir = {
 					if = {
 						limit = {
 							OR = {
@@ -4127,10 +4126,10 @@ character_event = {
 						}
 						save_event_target_as = candidate_primo
 						ROOT = { change_variable = { which = "succ_candidates" value = 1 } }
-					}	
+					}
 				}
 			}
-			
+
 			#then the seniority candidate
 			if = {
 				limit = {
@@ -4139,7 +4138,7 @@ character_event = {
 				}
 				primary_title = { succession = seniority }
 				recalc_succession = yes
-				current_heir = { 
+				current_heir = {
 					if = {
 						limit = {
 							OR = {
@@ -4164,7 +4163,7 @@ character_event = {
 					}
 				}
 			}
-			
+
 			#restore succession law
 			primary_title = {
 				if = {
@@ -4186,7 +4185,7 @@ character_event = {
 			recalc_succession = yes
 			clear_event_target = next_in_line
 		}
-		
+
 		#find candidates for voting succession laws
 		if = {
 			limit = {
@@ -4335,7 +4334,7 @@ character_event = {
 				ROOT = { change_variable = { which = "succ_candidates" value = 1 } }
 			}
 		}
-		
+
 		#then the ability candidate, if there is one
 		if = {
 			limit = {
@@ -4402,7 +4401,7 @@ character_event = {
 				ROOT = { change_variable = { which = "succ_candidates" value = 1 } }
 			}
 		}
-		
+
 		#is there still a succession crisis?
 		if = {
 			limit = { check_variable = { which = "succ_candidates" value = 0.5 } }
@@ -4434,7 +4433,7 @@ character_event = {
 						}
 					}
 					set_character_flag = crisis_female
-				}				
+				}
 				ROOT = {
 					any_demesne_title = {
 						limit = { current_heir = { character = PREVPREVPREV } }
@@ -4453,7 +4452,7 @@ narrative_event = {
 	id = Plus.1611
 	title = EVTNAME_Plus_1611
 	picture = GFX_evt_coronation
-	
+
 	desc = {
 		text = EVTDESC_Plus_1611A
 		trigger = { has_character_flag = crisis_too_young }
@@ -4466,9 +4465,9 @@ narrative_event = {
 		text = EVTDESC_Plus_1611C
 		trigger = { has_character_flag = crisis_female }
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOR = {
 			trait = rebel
@@ -4483,7 +4482,7 @@ narrative_event = {
 			has_character_flag = faction_religious_war
 		}
 	}
-	
+
 	immediate = {
 		log = "The [Root.PrimaryTitle.GetFullName] has a succession crisis!"
 		add_character_modifier = {
@@ -4537,7 +4536,7 @@ narrative_event = {
 	id = Plus.1612
 	title = EVTNAME_Plus_1611
 	picture = GFX_evt_coronation
-	
+
 	desc = {
 		text = EVTDESC_Plus_1612A
 		trigger = { FROM = { has_character_flag = crisis_too_young } }
@@ -4550,9 +4549,9 @@ narrative_event = {
 		text = EVTDESC_Plus_1612C
 		trigger = { FROM = { has_character_flag = crisis_female } }
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_1612 #Support current ruler
 		trigger = {
@@ -4626,7 +4625,7 @@ narrative_event = {
 					trait = content
 					trait = humble
 				}
-			}		
+			}
 			modifier = {
 				factor = 0.5
 				NOT = { dynasty = FROM }
@@ -6578,10 +6577,10 @@ narrative_event = {
 # Bounce event to check if the ruler won or not
 character_event = {
 	id = Plus.1613
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		primary_title = {
 			higher_tier_than = DUKE
@@ -6600,7 +6599,7 @@ character_event = {
 			has_character_flag = faction_religious_war
 		}
 	}
-	
+
 	immediate = {
 		#see if the ruler won
 		if = {
@@ -6714,7 +6713,7 @@ narrative_event = {
 
 	is_triggered_only = yes
 	major = yes
-	
+
 	major_trigger = {
 		OR = {
 			character = ROOT
@@ -6722,7 +6721,7 @@ narrative_event = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	option = {
 		name = EXCELLENT
 		trigger = {
@@ -6958,7 +6957,7 @@ narrative_event = {
 
 	is_triggered_only = yes
 	major = yes
-	
+
 	major_trigger = {
 		OR = {
 			character = ROOT
@@ -6966,7 +6965,7 @@ narrative_event = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	option = {
 		name = CURSES
 		trigger = {
@@ -7154,7 +7153,7 @@ narrative_event = {
 					set_defacto_liege = PREV
 					any_vassal = {
 						limit = { NOT = { primary_title = { de_jure_liege_or_above = PREVPREV } } }
-						set_defacto_liege = PREVPREV 
+						set_defacto_liege = PREVPREV
 					}
 				}
 			}
@@ -7445,7 +7444,7 @@ narrative_event = {
 
 	is_triggered_only = yes
 	major = yes
-	
+
 	major_trigger = {
 		OR = {
 			character = ROOT
@@ -7453,7 +7452,7 @@ narrative_event = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	option = {
 		name = OK
 		trigger = {
@@ -7687,10 +7686,10 @@ character_event = {
 	id = Plus.1617
 	desc = EVTDESC_Plus_1617
 	picture = GFX_evt_coronation
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	major_trigger = {
 		OR = {
 			character = ROOT
@@ -7698,7 +7697,7 @@ character_event = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	trigger = {
 		OR = {
 			trait = rebel
@@ -7713,7 +7712,7 @@ character_event = {
 			has_character_flag = faction_religious_war
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_1617
 		trigger = { character = ROOT }
@@ -7747,21 +7746,21 @@ character_event = {
 	title = EVTNAME_Plus_1620
 	desc = EVTDESC_Plus_1620
 	picture = GFX_evt_royal_court
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	trigger = {
 		primary_title = { has_title_flag = destroy_title }
 	}
-	
+
 	immediate = {
 		primary_title = {
 			save_event_target_as = threatened_title
 			clr_title_flag = destroy_title
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_1620 # Save the title
 		trigger = {
@@ -7822,13 +7821,13 @@ narrative_event = {
 	id = Plus.1621
 	title = EVTNAME_Plus_1620
 	desc = EVTDESC_Plus_1621
-	picture = GFX_evt_royal_court	
+	picture = GFX_evt_royal_court
 
 	is_triggered_only = yes
 	major = yes
 	hide_from = yes
 	show_ROOT = yes
-	
+
 	major_trigger = {
 		OR = {
 			character = ROOT
@@ -7848,7 +7847,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = CURSES
 		trigger = { character = ROOT }
@@ -7915,4 +7914,4 @@ narrative_event = {
 		}
 	}
 }
-	
+

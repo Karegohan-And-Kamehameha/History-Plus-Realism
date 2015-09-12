@@ -1,0 +1,6 @@
+
+#Anushteginids
+1194.1.1={
+	liege="k_khwarezmia"
+	holder=230000
+}

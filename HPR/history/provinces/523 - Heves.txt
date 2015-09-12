@@ -5,24 +5,24 @@ title = c_heves
 
 # Settlements
 max_settlements = 4
+
 b_heves = tribal
 b_eger = temple
-
-#b_gyongyos = city
-#b_miskolc = castle
+b_gyonguos = city
+#b_poroszlo = castle
+#b_kisnana = castle
+#b_ballagzentmiklos = castle
 #b_petervasara = castle
-#b_hatvan = castle
-#b_tiszafured = castle
-#b_mezokovesd = castle
+#b_jaszarokszallas = castle
+#b_jaszapati = castle
+#b_jaszbereny = castle
 
 # Misc
 culture = avar
 religion = tengri_pagan
 
 # History
-900.1.1 = { religion = catholic }
-950.1.1 = { culture = hungarian }
-999.1.1 = {
-	b_heves = castle
-	b_gyongyos = city
-}
+895.1.1 = { culture = hungarian }
+1000.1.1 = { b_heves = castle }
+1000.1.1 = { religion = catholic }
+1239.1.1 = { culture = cuman }

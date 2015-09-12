@@ -4,19 +4,28 @@
 title = c_parma
 
 # Settlements
-max_settlements = 5
-b_parma = castle
-b_guastalla = temple
-b_massa = city
+max_settlements = 4
 
-#b_fornovo = castle
-#b_fidenza = castle
-#b_fontanellato = castle
+
+b_felino = castle
+b_parma = city
+b_berceto = temple
+
+#b_torrechiara = castle
+#b_corniglio = castle
+#b_sansecondoparmenese = city
+#b_montechiarugolo = castle
+#b_roccasanvitale = castle
 #b_noceto = castle
+#b_fontanellato = city
+#b_collechio = temple
+#b_colorno = temple
+#b_sissa = city
+#b_sorbolo = city
+
 
 # Misc
-culture = lombard
+culture = italian
 religion = catholic
 
 # History
-849.1.1 = { culture = italian }

@@ -1,0 +1,80 @@
+330.1.1={
+	liege = "e_byzantium"
+}
+866.1.1={
+	liege="d_neopatras"
+	holder=1000232906
+}
+1065.1.1=
+{
+holder=1000232907
+}
+1083.3.1={
+	liege="d_apulia"
+	holder=1140 #Bohemond de Hauteville
+}
+1083.10.1={
+	liege="d_neopatras"
+	holder=1000232907
+}
+1085.1.1={
+	holder = 1000232912
+}
+1099.1.1={
+	holder = 1000232197
+}
+1107.1.1={
+	holder = 34338
+}
+1124.1.1={
+	holder = 223024
+}
+1142.1.1={
+	holder = 1000232260
+}
+1146.1.1={
+	holder = 1000232264
+}
+1156.1.1={
+	holder = 34281
+}
+1176.1.1={
+	holder = 215508
+}
+1186.1.1={
+	holder=1000232256
+}
+1204.5.16=
+{
+liege="k_epirus"
+}
+1215.1.1=
+{
+holder=215514
+}
+1230.3.9=
+{
+holder=125715
+}
+1268.1.1=
+{
+holder=125726
+}
+1297.1.1=
+{
+holder=125728
+}
+#from 1318 Orsini dynasty
+1318.1.1=
+{
+holder=31440 #Nicolo Orsini
+}
+1323.1.1=
+{
+holder=31441 #Giovanni II Orsini
+}
+1335.1.1=
+{
+holder=31443 #Nikephoros Orsini
+}
+

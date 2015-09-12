@@ -14,60 +14,100 @@
 873.1.1={
 	holder=159137
 }
-896.1.1={
-	liege = 0
+#Yawdi-Ertim
+895.1.1={
+	liege = "d_yawdi_ertim"
+	holder=1000231708 # Bayca
 }
-990.1.1 = {
-	holder = 1000254406
-	liege = "k_pechenegs"
+905.1.1={
+	holder=1000231711
 }
-1066.1.1 = {
-	liege=d_moldau
+910.1.1={
+	holder=1000231712
 }
-1066.1.1 = {
-	holder = 20642
+940.1.1={
+	holder=1000231714
 }
-1091.1.1 = {
-	liege = "d_crimea"
-	holder = 34845
+960.1.1={
+	holder=1000231716
 }
-1120.1.1 = {
-	holder = 34846
+980.1.1={
+	holder=1000231718 # Metigay
 }
-1150.1.1 = {
-	holder = 34847
+1010.1.1={
+	holder=1000231720
 }
-1170.1.1 = {
-	holder = 228033
+1036.1.1={
+	holder=1000231722
 }
-1200.1.1 = {
-	holder = 34848
+#1044 Kegen migrates and Tiraq follows after
+#Tiraq migrates, Oghuz takes over.
+1046.1.1 = {
+	liege=d_salgur
+	holder=	1000231993
 }
-1220.1.1 = {
-	holder = 34849
+#Cumans arrive.
+#Terteroba
+1060.1.1={
+	holder=1000233087 # Sokal
+	liege=d_terteroba
 }
-1238.1.1 = {
-	holder = 34850
+1065.1.1={
+	holder=1000233089 # Togortac/TUgorkhan
 }
-1246.1.1 = {
-	holder = 125507
+1096.7.19={
+	holder=1000233093 # Osaluka-Khan/Asalup/Asaduk
 }
-1266.1.2 = {
-	holder = 125510
+1120.1.1={
+	holder=1000233095
 }
-1286.1.2 = {
-	holder = 125518
+1140.1.1={
+	holder=1000233097
 }
-1299.1.2 = {
-	holder = 125513
+1170.1.1={
+	holder=1000233099
 }
-1302.1.2 = {
-	holder = 480000
+1175.1.1={
+	holder=1000233101 #Gza/Kzak 
 }
-1312.1.2 = {
-	holder = 34853
+1190.1.1={
+	holder=1000233103 # Roman
 }
-1337.1.1 = {
-	holder = 125514
+1220.1.1={
+	holder=1000233105 # Köten/Kotian/Kuthen/Johan
+}
+#Terteroba migrate to Hungary after defeat
+1238.1.1=
+{
+	liege="d_crimea"
+	holder=34850
+}
+1246.1.1=
+{
+	holder=125507
+}
+1266.1.2=
+{
+	holder=125510
+}
+1286.1.2=
+{
+	holder=125518
+}
+1299.1.2=
+{
+	holder=125513
+}
+1302.1.2=
+{
+	holder=480000
+}
+1312.1.2=
+{
+	holder=34853
+}
+1337.1.1=
+{
+	holder=125514
 }
 

@@ -1,0 +1,25 @@
+# 854 - Makrán
+
+# County Title
+title = c_makran
+
+# Settlements
+max_settlements = 6
+
+b_bampur = castle
+b_fahraj = castle
+b_tiz = city
+b_iskaf = temple
+
+#b_khwash = castle
+#b_bih = city
+#b_rask = temple
+#b_kasr-i-kand = castle
+#b_bint = castle
+
+# Misc
+culture = qufs
+religion = sunni
+
+# History
+950.1.1 = {	culture = baloch }

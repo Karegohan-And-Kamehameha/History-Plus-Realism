@@ -4,26 +4,22 @@
 title = c_usora
 
 # Settlements
-max_settlements = 4
-b_usora = tribal
-#b_bihac = city
-b_banjaluka = temple
-#b_jajce = castle
-#b_bocac = castle
+max_settlements = 3
 
-#b_kuljc = castle
-#b_prijedor  = castle
-#b_blagaj = castle
+b_dobojgrad = castle
+#b_tesanj = castle
+b_tolisa = city
+
+
+
+
+ 
 
 # Misc
-culture = croatian
-religion = slavic_pagan
-
+culture = bosnian
+religion = catholic
 
 # History
-800.1.1 = {
-	religion = catholic
-	b_usora = castle
-	b_bihac = city
-}
-1200.1.1= { religion = bogomilist } 
+
+1232.1.1= { religion = bogomilist } 
+1300.1.1= { b_tesanj = castle } 

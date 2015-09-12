@@ -4,29 +4,16 @@
 title = c_archa
 
 # Settlements
-max_settlements = 5
-b_archa = castle
-b_shayzar = city
+max_settlements = 4
+b_bourzeycastle = castle
 b_famia = temple
-
-#b_chastelblanc = castle
-#b_kafroun = castle
-#b_masyaf = castle
+b_albarasyria = city 
 #b_treiz = castle
-#b_krakdeschevaliers = castle
+#b_sarmeniasyria = city
+
+
+
 
 # Misc
 culture = levantine_arabic
-religion = orthodox
-
-# History
-#Assassins establish themselves in Masyaf
-1100.1.1 = { b_masyaf = castle }
-
-#The Hospitales built the Krak des Chevaliers
-1141.1.1 = { b_krakdeschevaliers = castle }
-
-#Mamluks conquer the Krak des Chevaliers
-1271.1.1 = { remove_settlement = b_krakdeschevaliers } 
-1271.1.1 = { b_kafroun = castle }
-1271.1.1 = { religion = sunni }
+religion = sunni

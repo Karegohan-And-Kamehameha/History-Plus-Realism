@@ -4,18 +4,21 @@
 title = c_quena
 
 # Settlements
-max_settlements = 5
-b_quena = castle
-b_kosseir = city
-b_qus = temple
-b_qift = city
+max_settlements = 3
+b_kosseir = castle
+#b_marsaalam = temple
+#b_safaga = city
 
+#b_quena = castle
+#b_troglodytica = castle
 #b_abughusun = castle
-#b_safaga = castle
 #b_ummrus = castle
 
 # Misc
-culture = coptic
-religion = miaphysite
+culture = beja
+religion = pagan
 
 # History
+
+1078.1.1 = { culture = egyptian_arabic } 
+1078.1.1 = { religion = sunni } 

@@ -43,136 +43,6 @@ castle = {
 		extra_tech_building_start = 0.2
 	}
 
-	# Roman Legionary
-	ca_culture_roman_1 = {
-		desc = ca_culture_roman_1_desc
-		potential = {
-			FROMFROM = { 
-				OR = {
-					location = { culture = roman }
-					has_building = ca_culture_roman_1
-				}
-			}
-		}
-		trigger = {
-			TECH_CASTLE_CONSTRUCTION = 0
-			NOT = { has_province_modifier = recent_culture_change }
-			culture = roman
-			hidden_tooltip = {
-				FROM = {
-					OR = {
-						ai = no
-						NOT = { has_character_modifier = ai_austerity }
-					}
-				}
-			}
-		}
-		prerequisites = { ca_wall_2 }
-		gold_cost = 200
-		build_time = 730
-		heavy_infantry = 30
-		heavy_infantry_defensive = 0.15
-		ai_creation_factor = 101
-
-		extra_tech_building_start = 0.8
-	}
-	ca_culture_roman_2 = {
-		desc = ca_culture_roman_1_desc
-		potential = {
-			FROMFROM = { 
-				OR = {
-					location = { culture = roman }
-					has_building = ca_culture_roman_2
-				}
-			}
-		}
-		trigger = {
-			TECH_CASTLE_CONSTRUCTION = 1
-			NOT = { has_province_modifier = recent_culture_change }
-			culture = roman
-			hidden_tooltip = {
-				FROM = {
-					OR = {
-						ai = no
-						NOT = { has_character_modifier = ai_austerity }
-					}
-				}
-			}
-		}
-		upgrades_from = ca_culture_roman_1
-		gold_cost = 300
-		build_time = 1095
-		heavy_infantry = 40
-		heavy_infantry_defensive = 0.15
-		ai_creation_factor = 101
-
-		extra_tech_building_start = 0.8
-	}
-	ca_culture_roman_3 = {
-		desc = ca_culture_roman_1_desc
-		potential = {
-			FROMFROM = { 
-				OR = {
-					location = { culture = roman }
-					has_building = ca_culture_roman_3
-				}
-			}
-		}
-		trigger = {
-			TECH_CASTLE_CONSTRUCTION = 2
-			NOT = { has_province_modifier = recent_culture_change }
-			culture = roman
-			hidden_tooltip = {
-				FROM = {
-					OR = {
-						ai = no
-						NOT = { has_character_modifier = ai_austerity }
-					}
-				}
-			}
-		}
-		upgrades_from = ca_culture_roman_2
-		gold_cost = 400
-		build_time = 2190
-		heavy_infantry = 50
-		heavy_infantry_defensive = 0.15
-		ai_creation_factor = 101
-
-		extra_tech_building_start = 0.8
-	}
-	ca_culture_roman_4 = {
-		desc = ca_culture_roman_1_desc
-		potential = {
-			FROMFROM = { 
-				OR = {
-					location = { culture = roman }
-					has_building = ca_culture_roman_4
-				}
-			}
-		}
-		trigger = {
-			TECH_CASTLE_CONSTRUCTION = 4
-			NOT = { has_province_modifier = recent_culture_change }
-			culture = roman
-			hidden_tooltip = {
-				FROM = {
-					OR = {
-						ai = no
-						NOT = { has_character_modifier = ai_austerity }
-					}
-				}
-			}
-		}
-		upgrades_from = ca_culture_roman_3
-		gold_cost = 500
-		build_time = 2190
-		heavy_infantry = 60
-		heavy_infantry_defensive = 0.15
-		ai_creation_factor = 101
-
-		extra_tech_building_start = 0.8
-	}
-
 	# Extra troops for holy orders
 	ca_order_house = {
 		potential = {
@@ -234,7 +104,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		heavy_infantry = 60
 		ai_creation_factor = 101
-		
+
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_2 = {
@@ -266,7 +136,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		heavy_infantry = 80
 		ai_creation_factor = 100
-		
+
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_3 = {
@@ -298,7 +168,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		heavy_infantry = 100
 		ai_creation_factor = 99
-		
+
 		extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_4 = {
@@ -330,7 +200,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		heavy_infantry = 120
 		ai_creation_factor = 98
-		
+
 		extra_tech_building_start = 0.8
 	}
 }
@@ -413,11 +283,11 @@ temple = {
 
 		tech_growth_modifier = 0.3
 		culture_techpoints = 0.05
-		
+
 		ai_creation_factor = 92
 		add_number_to_name = no
 
-		
+
 		extra_tech_building_start = 0.2
 	}
 }
@@ -462,7 +332,7 @@ trade_post = {
 						province = 100 # Avranches
 						province = 43 # Moray
 						province = 57 # York/Deira
-						province = 52 # Northumberland/Northumbria						
+						province = 52 # Northumberland/Northumbria
 					}
 				}
 				AND = {
@@ -472,9 +342,9 @@ trade_post = {
 						province = 262 # Lubeck
 						province = 368 # Danzig
 						province = 373 # Kurs
-						province = 378 # Reval					
+						province = 378 # Reval
 					}
-				}				
+				}
 			}
 		}
 		desc = tr_generic_road_1_desc
@@ -484,9 +354,9 @@ trade_post = {
 		gold_cost = 100
 		build_time = 150
 		ai_creation_factor = 95
-		
+
 		tradevalue = 3
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_generic_road_2 = {	# Generic Road Improvement Stage 2
@@ -500,10 +370,10 @@ trade_post = {
 		build_time = 300
 		upgrades_from = tr_generic_road_1
 		ai_creation_factor = 95
-		
+
 		trade_route_value = 1
 		tradevalue = 3
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_generic_road_3 = {	# Generic Road Improvement Stage 3
@@ -517,11 +387,11 @@ trade_post = {
 		build_time = 600
 		upgrades_from = tr_generic_road_2
 		ai_creation_factor = 95
-		
+
 		trade_route_value = 3
 		tradevalue = 5
 		monthly_character_prestige = 0.10
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_generic_toll_booth_1 = {	# Generic Toll Booth Stage 1
@@ -563,7 +433,7 @@ trade_post = {
 						province = 100 # Avranches
 						province = 43 # Moray
 						province = 57 # York/Deira
-						province = 52 # Northumberland/Northumbria						
+						province = 52 # Northumberland/Northumbria
 					}
 				}
 				AND = {
@@ -573,9 +443,9 @@ trade_post = {
 						province = 262 # Lubeck
 						province = 368 # Danzig
 						province = 373 # Kurs
-						province = 378 # Reval					
+						province = 378 # Reval
 					}
-				}				
+				}
 			}
 		}
 		desc = tr_generic_toll_booth_1_desc
@@ -585,9 +455,9 @@ trade_post = {
 		gold_cost = 100
 		build_time = 150
 		ai_creation_factor = 95
-		
+
 		tax_income = 2
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_generic_toll_booth_2 = {	# Generic Toll Booth Stage 2
@@ -601,9 +471,9 @@ trade_post = {
 		build_time = 200
 		upgrades_from = tr_generic_toll_booth_1
 		ai_creation_factor = 95
-		
+
 		tax_income = 2
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_generic_toll_booth_3 = {	# Generic Toll Booth Stage 3
@@ -617,15 +487,15 @@ trade_post = {
 		build_time = 300
 		upgrades_from = tr_generic_toll_booth_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 3
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_customs_house_1 = {	# Customs House Stage 1
 		potential = {
 			port = yes
-			OR = { 
+			OR = {
 				trade_route = mediterranean_trade
 				trade_route = atlantic_trade
 				trade_route = baltic_sea
@@ -638,9 +508,9 @@ trade_post = {
 		gold_cost = 100
 		build_time = 150
 		ai_creation_factor = 95
-		
+
 		tax_income = 2
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_customs_house_2 = {	# Customs House Stage 2
@@ -654,9 +524,9 @@ trade_post = {
 		build_time = 200
 		upgrades_from = tr_customs_house_1
 		ai_creation_factor = 95
-		
+
 		tax_income = 2
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_customs_house_3 = {	#Customs House Stage 3
@@ -670,9 +540,9 @@ trade_post = {
 		build_time = 300
 		upgrades_from = tr_customs_house_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 3
-		
+
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tr_amber_road_trade_guild_1 = {	# Amber Trade Guild Stage 1
@@ -696,14 +566,14 @@ trade_post = {
 							trade_post_has_building = tr_amber_road_trade_guild_1
 							trade_post_has_building = tr_amber_road_trade_guild_2
 						}
-					}				
+					}
 				}
 			}
 			custom_tooltip = {
 				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
 				NOR = {
 					trade_post_has_building = tr_atlantic_trade_guild_1
-					trade_post_has_building = tr_atlantic_trade_guild_2	
+					trade_post_has_building = tr_atlantic_trade_guild_2
 					trade_post_has_building = tr_balkan_road_trade_guild_1
 					trade_post_has_building = tr_balkan_road_trade_guild_2
 					trade_post_has_building = tr_baltic_trade_guild_1
@@ -717,18 +587,18 @@ trade_post = {
 					trade_post_has_building = tr_mediterranean_trade_guild_1
 					trade_post_has_building = tr_mediterranean_trade_guild_2
 					trade_post_has_building = tr_salt_road_trade_guild_1
-					trade_post_has_building = tr_salt_road_trade_guild_2					
+					trade_post_has_building = tr_salt_road_trade_guild_2
 				}
-			}			
+			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_amber_road_trade_guild_2 = {	# Amber Trade Guild Stage 2
@@ -743,11 +613,11 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_amber_road_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_amber_road_trade_guild_3 = {	# Amber Trade Guild Stage 3
@@ -762,10 +632,10 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_amber_road_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_balkan_road_trade_guild_1 = {	# Balkan Trade Guild Stage 1
@@ -789,7 +659,7 @@ trade_post = {
 							trade_post_has_building = tr_balkan_road_trade_guild_1
 							trade_post_has_building = tr_balkan_road_trade_guild_2
 						}
-					}				
+					}
 				}
 			}
 			custom_tooltip = {
@@ -798,7 +668,7 @@ trade_post = {
 					trade_post_has_building = tr_amber_road_trade_guild_1
 					trade_post_has_building = tr_amber_road_trade_guild_2
 					trade_post_has_building = tr_atlantic_trade_guild_1
-					trade_post_has_building = tr_atlantic_trade_guild_2				
+					trade_post_has_building = tr_atlantic_trade_guild_2
 					trade_post_has_building = tr_baltic_trade_guild_1
 					trade_post_has_building = tr_baltic_trade_guild_2
 					trade_post_has_building = tr_british_trade_guild_1
@@ -810,18 +680,18 @@ trade_post = {
 					trade_post_has_building = tr_mediterranean_trade_guild_1
 					trade_post_has_building = tr_mediterranean_trade_guild_2
 					trade_post_has_building = tr_salt_road_trade_guild_1
-					trade_post_has_building = tr_salt_road_trade_guild_2					
+					trade_post_has_building = tr_salt_road_trade_guild_2
 				}
-			}			
+			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_balkan_road_trade_guild_2 = {	# Balkan Trade Guild Stage 2
@@ -830,17 +700,17 @@ trade_post = {
 		}
 		desc = tr_trade_guild_2_desc
 		trigger = {
-			TECH_TRADE_PRACTICES = 7		
+			TECH_TRADE_PRACTICES = 7
 		}
 		gold_cost = 600
 		build_time = 400
 		upgrades_from = tr_balkan_road_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_balkan_road_trade_guild_3 = {	# Balkan Trade Guild Stage 3
@@ -855,10 +725,10 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_balkan_road_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_french_trade_guild_1 = {	# French Trade Guild Stage 1
@@ -882,8 +752,8 @@ trade_post = {
 							trade_post_has_building = tr_french_trade_guild_1
 							trade_post_has_building = tr_french_trade_guild_2
 						}
-					}				
-				}			
+					}
+				}
 			}
 			custom_tooltip = {
 				text = TR_TRADE_GUILD_1_GUILD_ONLY # May only have 1 of any type of guild in one province
@@ -903,18 +773,18 @@ trade_post = {
 					trade_post_has_building = tr_mediterranean_trade_guild_1
 					trade_post_has_building = tr_mediterranean_trade_guild_2
 					trade_post_has_building = tr_salt_road_trade_guild_1
-					trade_post_has_building = tr_salt_road_trade_guild_2					
+					trade_post_has_building = tr_salt_road_trade_guild_2
 				}
 			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_french_trade_guild_2 = {	# French Trade Guild Stage 2
@@ -923,17 +793,17 @@ trade_post = {
 		}
 		desc = tr_trade_guild_2_desc
 		trigger = {
-			TECH_TRADE_PRACTICES = 7			
+			TECH_TRADE_PRACTICES = 7
 		}
 		gold_cost = 600
 		build_time = 400
 		upgrades_from = tr_french_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_french_trade_guild_3 = {	# French Trade Guild Stage 3
@@ -948,10 +818,10 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_french_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_iberian_trade_guild_1 = {	# Iberian Trade Guild Stage 1
@@ -975,7 +845,7 @@ trade_post = {
 							trade_post_has_building = tr_iberian_trade_guild_1
 							trade_post_has_building = tr_iberian_trade_guild_2
 						}
-					}	
+					}
 				}
 			}
 			custom_tooltip = {
@@ -992,22 +862,22 @@ trade_post = {
 					trade_post_has_building = tr_british_trade_guild_1
 					trade_post_has_building = tr_british_trade_guild_2
 					trade_post_has_building = tr_french_trade_guild_1
-					trade_post_has_building = tr_french_trade_guild_2				
+					trade_post_has_building = tr_french_trade_guild_2
 					trade_post_has_building = tr_mediterranean_trade_guild_1
 					trade_post_has_building = tr_mediterranean_trade_guild_2
 					trade_post_has_building = tr_salt_road_trade_guild_1
-					trade_post_has_building = tr_salt_road_trade_guild_2					
+					trade_post_has_building = tr_salt_road_trade_guild_2
 				}
-			}			
+			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_iberian_trade_guild_2 = {	# Iberian Trade Guild Stage 2
@@ -1016,17 +886,17 @@ trade_post = {
 		}
 		desc = tr_trade_guild_2_desc
 		trigger = {
-				TECH_TRADE_PRACTICES = 7		
+				TECH_TRADE_PRACTICES = 7
 		}
 		gold_cost = 600
 		build_time = 400
 		upgrades_from = tr_iberian_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_iberian_trade_guild_3 = {	# Iberian Trade Guild Stage 3
@@ -1041,12 +911,12 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_iberian_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
-	}	
+	}
 	tr_british_trade_guild_1 = {	# British Trade Guild Stage 1
 		potential = {
 			trade_route = british_trade
@@ -1081,7 +951,7 @@ trade_post = {
 					trade_post_has_building = tr_balkan_road_trade_guild_1
 					trade_post_has_building = tr_balkan_road_trade_guild_2
 					trade_post_has_building = tr_baltic_trade_guild_1
-					trade_post_has_building = tr_baltic_trade_guild_2				
+					trade_post_has_building = tr_baltic_trade_guild_2
 					trade_post_has_building = tr_french_trade_guild_1
 					trade_post_has_building = tr_french_trade_guild_2
 					trade_post_has_building = tr_iberian_trade_guild_1
@@ -1089,18 +959,18 @@ trade_post = {
 					trade_post_has_building = tr_mediterranean_trade_guild_1
 					trade_post_has_building = tr_mediterranean_trade_guild_2
 					trade_post_has_building = tr_salt_road_trade_guild_1
-					trade_post_has_building = tr_salt_road_trade_guild_2					
+					trade_post_has_building = tr_salt_road_trade_guild_2
 				}
-			}			
+			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_british_trade_guild_2 = {	# British Trade Guild Stage 2
@@ -1109,17 +979,17 @@ trade_post = {
 		}
 		desc = tr_trade_guild_2_desc
 		trigger = {
-			TECH_TRADE_PRACTICES = 7		
+			TECH_TRADE_PRACTICES = 7
 		}
 		gold_cost = 600
 		build_time = 400
 		upgrades_from = tr_british_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_british_trade_guild_3 = {	# British Trade Guild Stage 3
@@ -1134,10 +1004,10 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_british_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_atlantic_trade_guild_1 = {	# Atlantic Trade Guild Stage 1
@@ -1182,18 +1052,18 @@ trade_post = {
 					trade_post_has_building = tr_mediterranean_trade_guild_1
 					trade_post_has_building = tr_mediterranean_trade_guild_2
 					trade_post_has_building = tr_salt_road_trade_guild_1
-					trade_post_has_building = tr_salt_road_trade_guild_2					
+					trade_post_has_building = tr_salt_road_trade_guild_2
 				}
-			}			
+			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_atlantic_trade_guild_2 = {	# Atlantic Trade Guild Stage 2
@@ -1202,17 +1072,17 @@ trade_post = {
 		}
 		desc = tr_trade_guild_2_desc
 		trigger = {
-			TECH_TRADE_PRACTICES = 7		
+			TECH_TRADE_PRACTICES = 7
 		}
 		gold_cost = 600
 		build_time = 400
 		upgrades_from = tr_atlantic_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_atlantic_trade_guild_3 = {	# Atlantic Trade Guild Stage 3
@@ -1227,10 +1097,10 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_atlantic_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_baltic_trade_guild_1 = {	# Baltic Trade Guild Stage 1
@@ -1265,7 +1135,7 @@ trade_post = {
 					trade_post_has_building = tr_atlantic_trade_guild_1
 					trade_post_has_building = tr_atlantic_trade_guild_2
 					trade_post_has_building = tr_balkan_road_trade_guild_1
-					trade_post_has_building = tr_balkan_road_trade_guild_2				
+					trade_post_has_building = tr_balkan_road_trade_guild_2
 					trade_post_has_building = tr_british_trade_guild_1
 					trade_post_has_building = tr_british_trade_guild_2
 					trade_post_has_building = tr_french_trade_guild_1
@@ -1275,18 +1145,18 @@ trade_post = {
 					trade_post_has_building = tr_mediterranean_trade_guild_1
 					trade_post_has_building = tr_mediterranean_trade_guild_2
 					trade_post_has_building = tr_salt_road_trade_guild_1
-					trade_post_has_building = tr_salt_road_trade_guild_2					
+					trade_post_has_building = tr_salt_road_trade_guild_2
 				}
-			}			
+			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_baltic_trade_guild_2 = {	# Baltic Trade Guild Stage 2
@@ -1295,17 +1165,17 @@ trade_post = {
 		}
 		desc = tr_trade_guild_2_desc
 		trigger = {
-			TECH_TRADE_PRACTICES = 7		
+			TECH_TRADE_PRACTICES = 7
 		}
 		gold_cost = 600
 		build_time = 400
 		upgrades_from = tr_baltic_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_baltic_trade_guild_3 = {	# Baltic Trade Guild Stage 3
@@ -1320,10 +1190,10 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_baltic_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_mediterranean_trade_guild_1 = {	# Mediterranean Trade Guild Stage 1
@@ -1368,18 +1238,18 @@ trade_post = {
 					trade_post_has_building = tr_iberian_trade_guild_1
 					trade_post_has_building = tr_iberian_trade_guild_2
 					trade_post_has_building = tr_salt_road_trade_guild_1
-					trade_post_has_building = tr_salt_road_trade_guild_2					
+					trade_post_has_building = tr_salt_road_trade_guild_2
 				}
-			}			
+			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_mediterranean_trade_guild_2 = {	# Mediterranean Guild Stage 2
@@ -1388,17 +1258,17 @@ trade_post = {
 		}
 		desc = tr_trade_guild_2_desc
 		trigger = {
-			TECH_TRADE_PRACTICES = 7		
+			TECH_TRADE_PRACTICES = 7
 		}
 		gold_cost = 600
 		build_time = 400
 		upgrades_from = tr_mediterranean_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_mediterranean_trade_guild_3 = {	# Mediterranean Trade Guild Stage 3
@@ -1413,10 +1283,10 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_mediterranean_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_salt_road_trade_guild_1 = {	# Salt Road Trade Guild Stage 1
@@ -1463,16 +1333,16 @@ trade_post = {
 					trade_post_has_building = tr_mediterranean_trade_guild_1
 					trade_post_has_building = tr_mediterranean_trade_guild_2
 				}
-			}			
+			}
 		}
 		gold_cost = 300
 		build_time = 300
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 1	# Affects your cut of the trade route income
 		tradevalue = 10
-		
+
 		extra_tech_building_start = 6.0
 	}
 	tr_salt_road_trade_guild_2 = {	# Salt Road Guild Stage 2
@@ -1481,17 +1351,17 @@ trade_post = {
 		}
 		desc = tr_trade_guild_2_desc
 		trigger = {
-			TECH_TRADE_PRACTICES = 7		
+			TECH_TRADE_PRACTICES = 7
 		}
 		gold_cost = 600
 		build_time = 400
 		upgrades_from = tr_salt_road_trade_guild_1
 		ai_creation_factor = 95
-		
+
 		trade_route_wealth = 5	# Affects total value of trade route
 		trade_route_value = 4	# Affects your cut of the trade route income
 		tradevalue = 20
-		
+
 		extra_tech_building_start = 8
 	}
 	tr_salt_road_trade_guild_3 = {	# Salt Road Trade Guild Stage 3
@@ -1506,10 +1376,10 @@ trade_post = {
 		build_time = 400
 		upgrades_from = tr_salt_road_trade_guild_2
 		ai_creation_factor = 95
-		
+
 		tax_income = 8
 		trade_route_value = 4	# Affects your cut of the trade route income
-		
+
 		extra_tech_building_start = 8
 	}
 }

@@ -5,27 +5,21 @@ title = c_nitra
 
 # Settlements
 max_settlements = 4
-b_nyitra = tribal
+b_nyitra = castle
+b_tapolcsany = city
+b_zobor = temple
 
-#b_stbenedek = temple
-#b_nagytapolcsany = city
-#b_nagysurany = castle
-#b_zabokreky = castle
-#b_preuigan = castle
-#b_postyen = castle
+#b_surany = castle
+#b_zsambok = castle
+#b_komjat = castle
+#b_sempte = castle
 #b_galgoc = castle
 
 # Misc
-culture = bohemian
-religion = slavic_pagan
+culture = moravian
+religion = catholic
 
 # History
-842.1.1 = { religion = catholic }
-
-900.1.1 = {
-	b_nyitra = castle
-	b_nagytapolcsany = city
-	b_stbenedek = temple
-}
-
-950.1.1 = { culture = hungarian }
+895.1.1 = { culture = khazar }
+1000.1.1 = { religion = catholic }
+1041.1.1 = { culture = moravian }

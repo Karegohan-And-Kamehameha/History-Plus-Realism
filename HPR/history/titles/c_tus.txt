@@ -1,0 +1,31 @@
+828.1.1={
+	liege="k_khorasan"
+	holder=163158
+}
+845.1.1={
+	holder=163159
+}
+862.1.1={
+	holder=163160
+}
+
+1063.1.1={
+	liege="e_persia"
+	holder=3050   # Nezam al-Molk
+}
+1092.10.14={
+	liege="k_khorasan"
+	holder=1000230500
+}
+1107.4.4={
+	holder=1000230501
+}
+
+1181.1.1={
+	liege="d_khwarazm"
+	holder=93050  # Mahmud Sultan holds  land in Khorasan asindependent
+}
+1193.1.1={
+	liege="k_khwarezmia"
+	holder=230000 # Tekish again after death of Sultan
+}

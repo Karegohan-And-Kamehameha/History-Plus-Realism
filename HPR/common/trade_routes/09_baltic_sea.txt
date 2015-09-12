@@ -14,39 +14,39 @@ baltic_sea = {
 		266 # Sjaelland
 	}
 	path = {	# Reval-London
-		1000 261
+		1773 261
 	}
 	path = {	# Reval-Sjaelland-London
-		378 1006 1005 1003 1002 999 266 1001 1000 973 78
+		378 1779 1778 1776 1777 1772 266 1774 1773 1746 78
 	}
 	path = {	# Lubeck
-		999 262
-	}	
+		1772 262
+	}
 	path = {	# Bergenshus
-		1000 986 274  
-	}	
+		1773 1760 274
+	}
 	path = {	# Akershus
-		1001 272
+		1774 272
 	}
 	path = {	# Jyland/Jotland
-		1001 267
+		1774 267
 	}
 	path = {	# Danzig
-		1002 368
-	}	
+		1777 368
+	}
 	path = {	# Gotland
-		1003 301
-	}		
+		1776 301
+	}
 	path = {	# Riga
-		373 1004 1003
+		373 1776
 	}
 	path = {	# Stockholm
-		1005 290
+		1778 290
 	}
 	path = {	# Ostergotland
-		1005 293
+		1778 293
 	}
 	path = {	# Skane
-		999 303
-	}	
+		1772 303
+	}
 }

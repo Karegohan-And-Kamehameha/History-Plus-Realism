@@ -4,37 +4,24 @@
 title = c_albania
 
 # Settlements
-max_settlements = 4
-b_chukhurkabala = castle
-b_ganja = city
-#b_barda = castle
-#b_shaki = temple
-#b_darussoltan = castle
-#b_gelersengorersen = castle
-#b_emli = temple
-#b_kabala = city
+ max_settlements = 3
+b_barda = castle 
+b_kaghankatuyk = city
+b_gish = temple
+#b_baylakan = castle
+#b_ganja = castle
+#b_kabala = castle
+#b_martakert = castle
+#b_aghuen = temple
+ 
 
 # Misc
-culture = armenian
-religion = apostolic
+culture = udi
+religion = miaphysite
 
 # History
-500.1.1 = { b_barda = temple }
-1066.1.1= { 
-		remove_settlement = b_barda
-		b_shaki = temple
-		religion = sunni
-		culture = persian }
-1124.1.1= { 
-		remove_settlement = b_shaki
-		culture = armenian
-		religion = apostolic
-		b_barda = temple }
-1245.1.1= { 
-		remove_settlement = b_barda 
-		culture = persian 
-		religion = sunni 
-		b_shaki = temple }
-1320.1.1 = { 
-		religion = shiite
-		b_barda = castle }
+1150.1.1 = { 
+	culture = persian
+	religion = sunni
+}
+1320.1.1 = { religion = shiite }

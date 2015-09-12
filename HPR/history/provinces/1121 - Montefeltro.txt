@@ -1,0 +1,22 @@
+# 1121 - Montefeltro
+
+# County Title
+title = c_montefeltro
+
+# Settlements
+max_settlements = 4
+
+b_carpegna = castle
+b_sanleo = temple
+
+#b_montecopiolo= castle
+b_sanmarino = city
+
+
+
+# Misc
+culture = italian
+religion = catholic
+
+# History
+1140.1.1 = { b_montecopiolo= castle}

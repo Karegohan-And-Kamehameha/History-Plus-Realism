@@ -1,0 +1,21 @@
+# 1282 - Dubrovitsa
+
+# County Title
+title = c_dubrovitsa
+
+# Settlements
+max_settlements = 3
+
+b_dubrovytsya = tribal
+#b_vysotsk = city
+#b_khotomel = castle
+#b_stolin = city
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1000.1.1 = {religion = orthodox }
+1000.1.1 = {b_dubrovytsya = castle
+b_vysotsk = city }
