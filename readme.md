@@ -3,9 +3,14 @@ This mod is based on both of them and the goal of this mod is to implement the b
 
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
-The music mod is now available for download at<br> https://mega.nz/#!gxt1xSRB!7YgAoQUS-iCiN6C_Ghr3bzbVnXYhqa0QmcMiGy2szB4 <br>
+The music mod is now available for download at<br> https://mega.nz/#!lld0FKDQ!ymzHRK5N2tPyyPz9v7DG7si0TiTYSjWCcav7v52w-aI <br>
 
 <b>Changelog:</b><br>
+<b>v0.6:</b><br>
+-Map overhaul that consists of parts from the Cartographic Map mod, Novus Graphicus mod, Eagle Lake font and a custom flat map with land bumped over water.<br>
+-Better garbs mod (partially) implemented.<br>
+-Updated the music to fit SWMH cultures.<br>
+-Fixed a bug where a trade route ended in the middle of a desert.<br>
 <b>v0.5:</b><br>
 -SWMH Map integrated. This is a huge change, probably the largest one since the initial release, and it may cause some issues, especially where events are concerned, even though I'm trying to fix them as best I can, some bugs are bound to go unnoticed. The historical accuracy of the map, however is much higher than that of Vanilla and CK2+, so this change benefits the mod greatly.<br>
 At this point the integration of the two big mods mentioned above can be considered complete and HPR has grown from just a tune up of CK2+ to a mod that merges changes from a whole scope of different projects.<br>
@@ -52,7 +57,8 @@ At this point the integration of the two big mods mentioned above can be conside
 <b>v0.1:</b><br>
 Initial release.<br>
 
-<b>Current changes, compared to CK2+:</b><br>
+<b>HPR Feature List:</b><br>
+-CK2+ base mechanics and flavors.<br>
 -Centralization law system from EMF.<br>
 -Negative tax modifier on buildings from EMF and rebalanced tax of buildings, but no levy modifier. The logic behind this is that buildings require maintanence, hence the tax penalty. The levy modifier was not logical and destroyed the balance by giving rulers with many buildings too many levies, de facto creating a regular army way before it started to exist historically.<br>
 -Lower bonuses for tech advancements, EMF-like.<br>
@@ -65,6 +71,8 @@ Initial release.<br>
 -Viet events.<br>
 -SWMH Map.<br>
 -Friends & Foes personality traits.<br>
+-A unique map view, pieced together from several different mods.<br>
+-Better Garbs mod portraits.<br>
 -Dorimi music pack.<br>
 -Songs from the four corners music pack.<br>
 -Fear mechanics that are unique to this mod and work in a way similar to the tyrrany system from CK2+, except striking fear in the hearts of men works in a positive way, making them respect you more. Oderint dum metuant.<br>

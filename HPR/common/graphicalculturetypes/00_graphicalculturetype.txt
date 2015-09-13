@@ -49,16 +49,18 @@ finnishholygfx = {
 	skin_tone = 0
 }
 italiangfx = {
-	skin_tone = 0
+	skin_tone = 1
 }
 
 # Eastern
 
 easternslavicgfx = {
 	skin_tone = 0
+	christian_portraits = yes
 }
 westernslavicgfx = {
 	skin_tone = 0
+	christian_portraits = yes
 }
 byzantinegfx = {
 	skin_tone = 1
@@ -95,19 +97,20 @@ copticgfx = {
 	skin_tone = 2
 }
 turkishgfx = {
-	skin_tone = 2
+	skin_tone = 1
 }
 cumangfx = {
-	skin_tone = 2
+	skin_tone = 1
 }
 mongolgfx = {
 	skin_tone = 1
 }
 africangfx = {
 	skin_tone = 3
+	christian_portraits = yes
 }
 andalusiangfx = {
-	skin_tone = 1
+	skin_tone = 2
 }
 
 bektashigfx = {
@@ -129,7 +132,7 @@ westafricangfx = {
 }
 
 persiangfx = {
-	skin_tone = 2
+	skin_tone = 1
 }
 
 westafricanholygfx = {
@@ -168,5 +171,111 @@ tribalgfx = {
 	skin_tone = 1
 }
 nomadgfx = {
+	skin_tone = 1
+}
+#BLG Culture Types
+bulgargfx = {
+	skin_tone = 1
+	christian_portraits = yes
+}
+berbergfx = {
+	skin_tone = 3
+	christian_portraits = yes
+}
+centralasiangfx = {
+	skin_tone = 1
+}
+steppegfx = {
+	skin_tone = 1
+	christian_portraits = yes
+}
+siberiangfx = {
+	skin_tone = 1
+}
+balticgfx = {
+	skin_tone = 0
+	christian_portraits = yes
+}
+bretongfx = {
+	skin_tone = 0
+}
+bohemiangfx = {
+	skin_tone = 0
+	christian_portraits = yes
+}
+ethiopiangfx = {
+	skin_tone = 3
+	christian_portraits = yes
+}
+alangfx = {
+	skin_tone = 1
+}
+georgiangfx = {
+	skin_tone = 1
+}
+norsegaelgfx = {
+	skin_tone = 0
+}
+hungariangfx = {
+	skin_tone = 0
+	christian_portraits = yes
+}
+crimeangothicgfx = {
+	skin_tone = 0
+}
+sogdiangfx = {
+	skin_tone = 1
+}
+levantinegfx = {
+	skin_tone = 1
+}
+dutchgfx = {
+	skin_tone = 0
+}
+siciliangfx = {
+	skin_tone = 1
+}
+pomeraniangfx = {
+	skin_tone = 0
+}
+southernslavicgfx = {
+	skin_tone = 0
+	christian_portraits = yes
+}
+maghrebgfx = {
+	skin_tone = 2
+	christian_portraits = yes
+}
+egyptiangfx = {
+	skin_tone = 2
+}
+pecheneggfx = {
+	skin_tone = 1
+}
+afghangfx = {
+	skin_tone = 1
+}
+dravidiangfx = {
+	skin_tone = 2
+}
+bengalgfx = {
+	skin_tone = 2
+}
+indusgfx = {
+	skin_tone = 2
+}
+assamesegfx = {
+	skin_tone = 1
+}
+basquegfx = {
+	skin_tone = 0
+}
+romangfx = {
+	skin_tone = 1
+}
+gallicgfx = {
+	skin_tone = 0
+}
+khitangfx = {
 	skin_tone = 1
 }

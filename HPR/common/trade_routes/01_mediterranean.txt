@@ -74,7 +74,7 @@ mediterranean_trade = {
 		1711 1702 812
 	}
 	path = {	# Cyrenaica
-		1702 806
+		1702 808
 	}
 	path = {	# Mallorca-Valencia
 		827 171

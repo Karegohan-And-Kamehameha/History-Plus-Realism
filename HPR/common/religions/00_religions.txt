@@ -251,7 +251,7 @@ christian = {
 
 
 	orthodox = {
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		icon = 2
 		heresy_icon = 7
 		color = { 0.7 0.5 0 }
@@ -282,7 +282,7 @@ christian = {
 	bogomilist = {
 		parent = orthodox
 		color = { 0.7 0 0.2 }
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		secondary_event_pictures = orthodox
 		icon = 71
 		heresy_icon = 7
@@ -317,7 +317,7 @@ christian = {
 	monothelite = {
 		parent = orthodox
 		color = { 0.5 0 0.3 }
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		secondary_event_pictures = orthodox
 
 		icon = 2
@@ -346,7 +346,7 @@ christian = {
 	iconoclast = {
 		parent = orthodox
 		color = { 0.5 0.2 0.4 }
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		secondary_event_pictures = orthodox
 
 		icon = 2
@@ -378,7 +378,7 @@ christian = {
 
 
 	miaphysite = {
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		icon = 11
 		heresy_icon = 13
 		color = { 0.7 0.7 0.1 }
@@ -410,7 +410,7 @@ christian = {
 		parent = miaphysite
 
 		color = { 0.8 0.4 0.1 }
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		icon = 11
 		heresy_icon = 13
 		crusade_name = CRUSADE
@@ -436,7 +436,7 @@ christian = {
 
 
 	apostolic = {
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		secondary_event_pictures = orthodox
 		icon = 73
 		heresy_icon = 74
@@ -466,7 +466,7 @@ christian = {
 	}
 
 	paulician = {
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		secondary_event_pictures = orthodox
 		icon = 73
 		heresy_icon = 74
@@ -500,7 +500,7 @@ christian = {
 		parent = apostolic
 
 		color = { 0.5 0.15 0.3 }
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		secondary_event_pictures = orthodox
 		icon = 73
 		heresy_icon = 74
@@ -527,7 +527,7 @@ christian = {
 
 	nestorian = {
 		color = { 0.8 0.3 0.5 }
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 		icon = 54
 		heresy_icon = 55
 		crusade_name = CRUSADE
@@ -556,7 +556,7 @@ christian = {
 	}
 
 	messalian = {
-		graphical_culture = westerngfx
+		graphical_culture = easterngfx
 
 		icon = 72
 		heresy_icon = 55

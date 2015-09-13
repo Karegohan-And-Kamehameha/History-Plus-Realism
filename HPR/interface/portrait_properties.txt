@@ -1,57 +1,68 @@
 # The choice is made based on a weighted random, but the first factor that evaluates to >= 100 will be automatically chosen
 
+### Compiled portrait backgrounds by Cybrxkhan
 # p0 background
 0 = {
 	0 = { # castle 1
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = christian }
+			NOT = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
 		}
 		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-		}
-	}
-
-	1 = { #throne room
-		factor = 50
-		modifier = {
-			factor = 0
-			NOT = { real_tier = king }
-			NOT = { real_tier = emperor }
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
+			factor = 5
+			is_feudal = yes
+			is_ruler = yes
 		}
 		modifier = {
 			factor = 0
 			OR = {
-				is_nomadic = yes
 				is_tribal = yes
+				is_nomadic = yes
+				trait = in_hiding
 			}
-		}		
+		}
+	}
+
+	1 = { #throne room
+		factor = 30
+		modifier = {
+			factor = 0
+			NOT = {
+				real_tier = king
+				real_tier = emperor
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_tribal = yes
+				is_nomadic = yes
+				trait = in_hiding
+			}
+		}
 	}
 
 	2 = { # dungeon
-		factor = 100
+		factor = 5
+		modifier = {
+			factor = 20
+			OR = {
+				prisoner = yes
+				death_reason = death_dungeon
+			}
+		}
 		modifier = {
 			factor = 0
+			NOT = {
+				trait = cruel
+				trait = impaler
+				death_reason = death_dungeon
+			}
 			prisoner = no
-			NOT = { death_reason = death_dungeon }
 		}
 	}
 
@@ -59,404 +70,663 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { capital_scope = { terrain = forest } }
-			NOT = { capital_scope = { terrain = woods } }	
-		}
-		modifier = {
-			factor = 2
 			OR = {
-				religion_group = pagan_group
-				religion = aztec
+				culture_group = arabic
+				culture_group = north_african
+				culture_group = west_african
+				culture_group = east_african
+			}
+			NOT = {
+				location = {
+					terrain = forest
+					terrain = jungle
+				}
 			}
 		}
 		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}
-		modifier = {
-			factor = 0.01
-			is_nomadic = yes
-		}
-		modifier = {
-			factor = 10
-			is_tribal = yes
-		}
-	}
-
-	4 = { # bed
-		factor = 100
-		modifier = {
-			factor = 0
-			is_alive = yes
-			NOT = { trait = incapable }
-			NOT = { trait = infirm }
-		}
-		modifier = {
-			factor = 0.001
+			factor = 0.5
 			OR = {
-				death_reason = death_sacrificed
-				death_reason = death_battle
-				death_reason = death_execution
-				death_reason = death_dungeon
+				culture_group = iranian
+				culture_group = altaic
+				culture = alan
+			}
+			NOT = {
+				location = {
+					terrain = forest
+					terrain = jungle
+				}
 			}
 		}
 		modifier = {
-			factor = 0.02
-			trait = infirm
-			is_alive = yes
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-	}
-	
-	5 = { # tavern
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
+			factor = 3
+			location = {
 				OR = {
-					trait = drunkard
-					trait = hedonist
-					trait = lustful
+					terrain = forest
+					terrain = jungle
 				}
 			}
 		}
 		modifier = {
 			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}		
-	}
-	
-	6 = { # military camp
-		factor = 100
-		modifier = {
-			factor = 0
-			OR = {
-				AND = {
-					is_alive = yes
-					in_command = no
-					NOT = { has_job_title  = job_marshal }
-				}
-				AND = {
-					is_alive = no
-					NOT = { death_reason = death_battle }
+			location = {
+				OR = {
+					terrain = desert
+					terrain = steppe
 				}
 			}
-		}
-		modifier = {
-			factor = 0.02
-			has_job_title = job_marshal
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}		
-	}
-	7 = { # Dolmen
-		factor = 5
-		modifier = {
-			factor = 0
-			NOT = { religion = aztec }
-			NOT = { religion_group = pagan_group }
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 100
-			is_alive = no
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}
-		modifier = {
-			factor = 0
-			culture_group = west_african
-		}
-		modifier = {
-			factor = 0
-			culture_group = arabic
-		}
-		modifier = {
-			factor = 2
-			is_priest = yes
-		}
-	}
-	8 = { # Gallows
-		factor = 5
-		modifier = {
-			factor = 0
-			NOT = { trait = cruel }
-			NOT = { trait = impaler }
-			NOT = { death_reason = death_execution }
 		}
 		modifier = {
 			factor = 20
 			OR = {
-				trait = impaler
-				death_reason = death_execution
+				trait = hunter
+				trait = falconer
 			}
-		}
-	}
-	9 = { # Church
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { religion_group = christian }
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
-			}
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}		
-	}
-	10 = { # Desert
-		factor = 5
-		modifier = {
-			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { trait = desert_mother }
-			NOT = { trait = desert_father }
-		}
-		modifier = {
-			factor = 2
-			religion_group = pagan
-		}
-		modifier = {
-			factor = 2
-			religion_group = muslim
 		}
 		modifier = {
 			factor = 100
 			OR = {
-				trait = desert_mother
-				trait = desert_father
+				trait = traveling
+				trait = on_pilgrimage
+			}
+		}
+	}
+
+	4 = { # bed
+		factor = 1
+		modifier = {
+			factor = 100
+			trait = incapable
+		}
+		modifier = {
+			factor = 10
+			OR = {
+				trait = infirm
+				is_ill = yes
 			}
 		}
 		modifier = {
 			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
+			NOT = {
+				trait = incapable
+				trait = lustful
+				trait = infirm
+				trait = slothful
+			}
+			is_ill = no
+		}
+	}
+
+	5 = { # tavern
+		factor = 1
+		modifier = {
+			factor = 25
+			OR = {
+				trait = drunkard
+				trait = hedonist
+				trait = decadent
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				trait = gluttonous
+				trait = lustful
+			}
 		}
 		modifier = {
 			factor = 0
-			in_command = yes
-		}		
+			trait = temperate
+		}
 	}
-	11 = { # Steppe
+
+	6 = { # military camp
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { in_command = yes }
+		}
+	}
+
+	7 = { # Dolmen
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { culture_group = altaic }
+			NOT = { religion_group = pagan_group }
+			NOT = { culture_group = celtic }
 		}
 		modifier = {
 			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
+			OR = {
+				culture_group = arabic
+				culture_group = north_african
+				culture_group = west_african
+				culture_group = east_african
+			}
 		}
 		modifier = {
-			factor = 0
-			in_command = yes
-		}	
+			factor = 30
+			is_theocracy = yes
+			religion_group = pagan_group
+		}
 		modifier = {
 			factor = 10
-			culture_group = altaic
-			NOT = { culture = turkish }
-		}
-		modifier = {
-			factor = 10
-			is_nomadic = yes
+			trait = zealous
+			religion_group = pagan_group
 		}
 	}
-	12 = { # Ocean w ships
-		factor = 10000
+
+	8 = { # Gallows - changed to African savanna
+		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { is_at_sea = yes }
+			NOT = {
+				culture_group = west_african
+				culture_group = east_african
+			}
+			NOT = { location = { region = world_africa } }
+		}
+		modifier = {
+			factor = 5
+			location = { terrain = plains }
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				culture_group = west_african
+				culture_group = east_african
+			}
 		}
 	}
+
+	9 = { # Church
+		factor = 20
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { religion_group = christian }
+				trait = cynical
+				trait = excommunicated
+			}
+		}
+		modifier = {
+			factor = 0.01
+			NOT = { trait = zealous }
+			NOT = { is_theocracy = yes }
+		}
+		modifier = {
+			factor = 500
+			OR = {
+				controls_religion = yes
+				#has_landed_title = k_papal_state
+				#has_landed_title = d_fraticelli
+				has_claim = k_papal_state
+				has_claim = d_fraticelli
+			}
+		}
+	}
+
+	10 = { # Desert
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				culture_group = arabic
+				culture_group = iranian
+				culture_group = north_african
+				culture_group = west_african
+				culture_group = east_african
+				culture = turkish
+				location = {
+					OR = {
+						terrain = desert
+						region = world_africa
+						region = world_middle_east
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				NOT = {
+					terrain = desert
+					region = world_africa
+					region = world_middle_east
+					region = world_persia
+					region = world_steppe_tarim
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				location = { terrain = desert }
+				culture_group = arabic
+				culture_group = north_african
+				culture_group = west_african
+				culture_group = east_african
+			}
+		}
+		modifier = {
+			factor = 50
+			OR = {
+				trait = traveling
+				trait = on_hajj
+			}
+		}
+	}
+
+	11 = { # Steppe
+		factor = 5
+		modifier = {
+			factor = 0
+			NOT = {
+				culture_group = altaic
+				culture = alan
+				culture = udmurt
+				culture = komi
+				culture = samoyed
+				culture = khanty
+				religion = tengri_pagan
+				religion = tengri_pagan_reformed
+				location = {
+					OR = {
+						terrain = steppe
+						region = world_steppe
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			culture = turkish
+			NOT = { location = { terrain = steppe } }
+		}
+		modifier = {
+			factor = 0
+			location = {
+				NOT = {
+					terrain = steppe
+					region = world_steppe
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				trait = hunter
+				trait = falconer
+			}
+		}
+		modifier = {
+			factor = 100
+			trait = traveling
+		}
+	}
+
+	12 = { # Ocean w ships - changed to tundra/snow
+		factor = 5
+		modifier = {
+			factor = 0
+			location = {
+				OR = {
+					is_winter = no
+					terrain = forest
+					NOT = {
+						region = world_steppe
+						region = world_europe_north
+						region = world_europe_east
+						region = world_europe_west_brittania
+						region = world_europe_west_germania
+						region = world_europe_west_francia
+						region = world_europe_south_italy
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			NOT = {
+				culture_group = north_germanic
+				culture_group = east_slavic
+				culture_group = finno_ugric
+			}
+		}
+	}
+
 	13 = { # Muslim interior
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { religion_group = indian_group }
+			NOT = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+				religion_group = indian_group
+				culture_group = iberian
+				culture_group = arabic
+				culture_group = north_african
+				culture_group = west_african
+				culture_group = east_african
+				culture_group = iranian
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture = turkish
+				culture = sicilian
+				culture = sephardi
+			}
 		}
 		modifier = {
 			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
+			culture = occitan
 		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}		
 	}
+
 	14 = { # Harem
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = indian_group }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-		}
-		modifier = {
-			factor = 100
-			OR = {
-				trait = lustful
-				trait = hedonist
+			NOT = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+				religion_group = indian_group
+				culture_group = iberian
+				culture_group = arabic
+				culture_group = north_african
+				culture_group = west_african
+				culture_group = east_african
+				culture_group = iranian
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = mesoamerican
+				culture = turkish
+				culture = sicilian
+				culture_group = israelite
+				religion_group = jewish_group
+				religion = aztec
+				religion = aztec_reformed
 			}
 		}
 		modifier = {
 			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
+			culture = occitan
+		}
+		modifier = {
+			factor = 50
+			trait = decadent
+		}
+	}
+
+	15 = { # Muslim interior 2
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+				religion_group = indian_group
+				culture_group = iberian
+				culture_group = arabic
+				culture_group = north_african
+				culture_group = west_african
+				culture_group = east_african
+				culture_group = iranian
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture = turkish
+				culture = sicilian
+				culture = sephardi
+			}
 		}
 		modifier = {
 			factor = 0
-			in_command = yes
-		}		
+			culture = occitan
+		}
 	}
-	15 = { # Muslim interior 2
+
+	16 = { # Mongol camp
+		factor = 3
+		modifier = {
+			factor = 0
+			NOT = {
+				culture_group = altaic
+				culture = khitan
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				is_nomadic = yes
+				is_tribal = yes
+			}
+		}
+	}
+
+	17 = { # Indian
+		factor = 3
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = indian_group
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				location = { region = world_india }
+			}
+		}
+	}
+
+	18 = { # Snowy forest - replacing Papal palace
 		factor = 5
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}		
-	}
-
-	16 = { # Mongol camp 1
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { culture = mongol }
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}		
-	}
-
-	17 = { # Mongol camp 2
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { culture = mongol }
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}		
-	}
-
-	18 = { # Papal palace
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { has_landed_title = k_papal_state }
-			NOT = { has_landed_title = d_fraticelli }
-			NOT = { has_claim = k_papal_state }
-			NOT = { has_claim = d_fraticelli }
-		}
-		modifier = {
-			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}		
-	}
-
-	19 = { # Muslim mosque
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { religion_group = muslim }
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
+			location = {
+				OR = {
+					is_winter = no
+					terrain = steppe
+					terrain = mountain
+					terrain = desert
+					NOT = {
+						region = world_steppe
+						region = world_europe_north
+						region = world_europe_east
+						region = world_europe_west_brittania
+						region = world_europe_west_germania
+						region = world_europe_west_francia
+						region = world_europe_south_italy
+					}
+				}
 			}
 		}
 		modifier = {
 			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
+			is_alive = no
+			NOT = {
+				culture_group = north_germanic
+				culture_group = east_slavic
+				culture_group = finno_ugric
+				culture_group = baltic
+			}
 		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}		
 	}
 
-	20 = { # Pagan human sacrifice
+	19 = { # Muslim mosque
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion = aztec }
-			NOT = { religion_group = pagan_group }
-			NOT = { death_reason = death_sacrificed }
+			NOT = { religion_group = muslim }
+		}
+		modifier = {
+			factor = 30
+			is_theocracy = yes
 		}
 		modifier = {
 			factor = 10
-			religion = aztec
-		}
-		modifier = {
-			factor = 1000
-			death_reason = death_sacrificed
+			trait = zealous
 		}
 		modifier = {
 			factor = 0
-			location = { OR = { terrain = ocean terrain = inland_ocean } }
+			trait = cynical
+		}
+	}
+
+	20 = { # Pagan human sacrifice
+		factor = 10
+		modifier = {
+			factor = 0
+			NOT = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+				religion = baltic_pagan
+				religion = baltic_pagan_reformed
+				religion = slavic_pagan
+				religion = slavic_pagan_reformed
+				religion = finnish_pagan
+				religion = finnish_pagan_reformed
+				trait = impaler
+			}
 		}
 		modifier = {
 			factor = 0
-			in_command = yes
+			NOT = { trait = impaler }
+			NOT = { trait = cruel }
+			NOT = { trait = wroth }
+			NOT = { trait = zealous }
+		}
+	}
+
+	21 = { # Celtic Green
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				culture_group = celtic
+				culture_group = west_germanic
+				location = { region = world_europe_west_brittania }
+			}
 		}
 		modifier = {
-			factor = 10
-			is_priest = yes
+			factor = 5
+			OR = {
+				culture = irish
+				culture = scottish
+				culture = pictish
+				culture = cumbrian
+			}
+		}
+	}
+
+	22 = { # Celtic Castle
+		factor = 1
+		modifier = {
+			factor = 5
+			culture_group = celtic
+		}
+		modifier = {
+			factor = 0
+			is_tribal = yes
+			is_nomadic = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				culture_group = celtic
+				culture_group = west_germanic
+				culture_group = central_germanic
+				culture_group = north_germanic
+				culture_group = latin
+			}
+		}
+	}
+
+	23 = { # Alhambra
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				culture_group = iberian
+				culture_group = north_african
+				culture = sephardi
+				culture = andalusian_arabic
+				culture = maghreb_arabic
+				location = { region = world_europe_west_iberia }
+			}
+		}
+		modifier = {
+			factor = 0
+			culture = occitan
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				religion_group = muslim
+				culture = andalusian_arabic
+			}
+		}
+	}
+
+	24 = { # Mediterranean Villa
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				culture_group = iberian
+				culture_group = north_african
+				culture_group = latin
+				culture_group = italian_group
+				culture = occitan
+				culture = greek
+				culture = griko
+				culture = croatian
+				culture = serbian
+				#culture = romaniote
+				culture = sephardi
+				culture = sicilian_greek
+				culture = arberian
+			}
+		}
+		modifier = {
+			factor = 4
+			OR = {
+				culture_group = latin
+				culture_group = italian_group
+				culture = croatian
+			}
+			NOT = { culture = frankish }
+			NOT = { culture = norman }
+		}
+	}
+
+	25 = { # Tribal house
+		factor = 5
+		modifier = {
+			factor = 0
+			NOT = {
+				is_tribal = yes
+				is_nomadic = yes
+			}
+		}
+	}
+
+	26 = { # African Savanna 2
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				culture_group = west_african
+				culture_group = east_african
+			}
+			NOT = { location = { region = world_africa } }
+		}
+		modifier = {
+			factor = 5
+			location = { terrain = plains }
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				culture_group = west_african
+				culture_group = east_african
+			}
 		}
 	}
 }
@@ -468,172 +738,96 @@
 		modifier = {
 			factor = 0.1
 			is_female = no
-			NOT = { age = 50 }
-			NOT = { trait = monk }
-			NOT = { trait = desert_father }
-		}
-		modifier = {
-			factor = 0.1
-			is_female = yes
-			NOT = { trait = desert_mother }
-		}
-		modifier = {
-			factor = 2
-			OR = {
-				trait = desert_father
-				trait = desert_mother
-			}
-		}
-		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = africangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
+			NOT = { age = 40 }
+
+			NOT = {
+				graphical_culture = muslimgfx
+				graphical_culture = arabicgfx
+				graphical_culture = levantinegfx
+				graphical_culture = maghrebgfx
+				graphical_culture = egyptiangfx
+				graphical_culture = norsegfx
+				graphical_culture = ugricgfx
+				graphical_culture = siberiangfx
+				graphical_culture = saxongfx
+				graphical_culture = bretongfx
+				graphical_culture = bohemiangfx
+				graphical_culture = celticgfx
+				graphical_culture = balticgfx
+				graphical_culture = norsegaelgfx
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = berbergfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = mesoamericangfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = centralasiangfx
 			}
 		}
 	}
 
 	1 = { # Black Adder
 		factor = 1
-		
-		# Does not suit African females of a Western Culture
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
-			is_female = yes
-			graphical_culture = africangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
+			religion = buddhist
 			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
-	
+
 	2 = { # Page
 		factor = 1
-		
-		# Does not suit Western females with African style headgear
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
-			is_female = yes
+			religion = buddhist
 			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
 
 	3 = { # Synth
 		factor = 1
-		
-		# Does not suit Western females with African style headgear
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
-			is_female = yes
+			religion = buddhist
 			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
 
 	4 = { # Long Straight
 		factor = 1
-		
-		# Does not suit Western females with African style headgear
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
-			is_female = yes
+			religion = buddhist
 			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
 
 	5 = { # Long Curly
 		factor = 1
-		
-		# Does not suit African females of a Western Culture
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
-			is_female = yes
-			graphical_culture = africangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
+			religion = buddhist
 			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
@@ -643,268 +837,433 @@
 		modifier = {
 			factor = 0
 			is_female = no
-			is_ruler = yes
-		}
-		modifier = {
-			factor = 0
-			is_female = no
-			NOT = { religion_group = christian }
-		}
-		modifier = {
-			factor = 0
-			is_female = no
-			NOT = { trait = detached_priest }
-			NOT = { trait = martial_cleric }
-			NOT = { trait = scholarly_theologian }
-			NOT = { trait = mastermind_theologian }
-			NOT = { has_job_title = job_spiritual }
-			NOT = { trait = monk }
-			NOT = { trait = desert_father }
+			OR = {
+				graphical_culture = westerngfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+				graphical_culture = dutchgfx
+				graphical_culture = frankishgfx
+				graphical_culture = normangfx
+			}
+			OR = {
+				NOT = { religion_group = christian }
+				AND = {
+					NOT = { trait = detached_priest }
+					NOT = { trait = martial_cleric }
+					NOT = { trait = scholarly_theologian }
+					NOT = { trait = mastermind_theologian }
+					NOT = { trait = monk }
+					NOT = { has_job_title = job_spiritual }
+				}
+			}
 		}
 
 		modifier = {
 			factor = 50
 			is_female = no
-		}
-		
-		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
+			NOT = { trait = detached_priest }
+			is_ruler = no
 			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
+				graphical_culture = westerngfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+				graphical_culture = dutchgfx
+				graphical_culture = frankishgfx
+				graphical_culture = normangfx
 			}
 		}
-		
-		# Does not suit African females of a Western Culture
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
-			is_female = yes
-			graphical_culture = africangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
+			religion = buddhist
 			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
-	
+
 	7 = {  # Short
 		factor = 1
-		
-		# Does not suit Western females with African style headgear
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
-			is_female = yes
+			religion = buddhist
 			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		
-		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = africangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
-	
+
 	8 = { # Short Curly
 		factor = 1
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
+			religion = buddhist
 			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
-	
+
 	9 = {  # Short Uncouth
 		factor = 1
+
 		modifier = {
 			factor = 5
-			religion_group = pagan_group
-		}
-		
-		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
+			is_female = no
 			OR = {
-				culture = manden
-				culture = ethiopian
+				is_tribal = yes
+				is_nomadic = yes
+				religion_group = pagan_group
 			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = muslimgfx }
 			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
+				graphical_culture = westerngfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+				graphical_culture = dutchgfx
+				graphical_culture = frankishgfx
+				graphical_culture = normangfx
 			}
 		}
-		modifier = {
+
+		modifier = {	#Buddhist Clergy are bald
 			factor = 0
+			religion = buddhist
 			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
-	
+
 	10 = {  # Long Uncouth
 		factor = 1
-		
+
 		modifier = {
 			factor = 5
-			religion_group = pagan_group
+			is_female = no
+			OR = {
+				is_tribal = yes
+				is_nomadic = yes
+				religion_group = pagan_group
+			}
+			OR = {
+				graphical_culture = westerngfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+				graphical_culture = dutchgfx
+				graphical_culture = frankishgfx
+				graphical_culture = normangfx
+			}
 		}
-		
-		# Does not suit Western females with African style headgear
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = norsegfx
+				graphical_culture = siberiangfx
+				graphical_culture = saxongfx
+				graphical_culture = bretongfx
+				graphical_culture = bohemiangfx
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = berbergfx
+			}
+		}
 		modifier = {
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = ugricgfx
 			}
 		}
 	}
-	
 	11 = { # Balding
 		factor = 1
 		modifier = {
 			factor = 0.1
 			is_female = no
-			NOT = { age = 50 }
-			NOT = { trait = monk }
-			NOT = { trait = desert_father }
+			NOT = { age = 30 }
+
+			NOT = {
+				graphical_culture = muslimgfx
+				graphical_culture = arabicgfx
+				graphical_culture = levantinegfx
+				graphical_culture = maghrebgfx
+				graphical_culture = egyptiangfx
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = easternslavicgfx
+				graphical_culture = westernslavicgfx
+				graphical_culture = southernslavicgfx
+				graphical_culture = pomeraniangfx
+				graphical_culture = celticgfx
+				graphical_culture = balticgfx
+				graphical_culture = norsegaelgfx
+				graphical_culture = ugricgfx
+			}
 		}
-	}
-	
-	12 = { # Marine
-		factor = 1
-		
-		# Does not suit Western females with African style headgear
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = siberiangfx
+				graphical_culture = saxongfx
+				graphical_culture = bretongfx
+				graphical_culture = bohemiangfx
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = berbergfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = centralasiangfx
+			}
+		}
 		modifier = {
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
+				graphical_culture = muslimgfx
+				graphical_culture = arabicgfx
+				graphical_culture = maghrebgfx
+				graphical_culture = egyptiangfx
+				graphical_culture = levantinegfx
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = mongolgfx
+				graphical_culture = hungariangfx
+				graphical_culture = ugricgfx
+				graphical_culture = khitangfx
 			}
 		}
 		modifier = {
 			factor = 0
+			is_female = no
 			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				graphical_culture = indiangfx
+				graphical_culture = dravidiangfx
+				graphical_culture = bengalgfx
+				graphical_culture = indusgfx
+			}
+		}
+
+		modifier = {	#Buddhist Clergy are bald
+			factor = 0
+			religion = buddhist
+			OR = {
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
-	
+
+	12 = { # Marine
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = siberiangfx
+				graphical_culture = saxongfx
+				graphical_culture = bretongfx
+				graphical_culture = bohemiangfx
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = berbergfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = centralasiangfx
+			}
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			OR = {
+				graphical_culture = westerngfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+				graphical_culture = dutchgfx
+				graphical_culture = frankishgfx
+				graphical_culture = normangfx
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = muslimgfx
+				graphical_culture = arabicgfx
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = egyptiangfx
+				graphical_culture = levantinegfx
+				graphical_culture = mongolgfx
+				graphical_culture = hungariangfx
+				graphical_culture = ugricgfx
+			}
+		}
+		modifier = {
+			factor = 0
+			is_female = no
+			OR = {
+				graphical_culture = indiangfx
+				graphical_culture = dravidiangfx
+				graphical_culture = bengalgfx
+				graphical_culture = indusgfx
+			}
+		}
+		modifier = {	#Buddhist Clergy are bald
+			factor = 0
+			religion = buddhist
+			OR = {
+				is_theocracy = yes
+				has_job_title = job_spiritual
+			}
+		}
+	}
+
 	13 = { # Mohawk
 		factor = 1
 		modifier = {
 			factor = 0
 			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				graphical_culture = muslimgfx
+				graphical_culture = arabicgfx
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = egyptiangfx
+				graphical_culture = levantinegfx
+				graphical_culture = mongolgfx
+				graphical_culture = bulgargfx
+				graphical_culture = hungariangfx
+				graphical_culture = alangfx
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = siberiangfx
+				graphical_culture = saxongfx
+				graphical_culture = bretongfx
+				graphical_culture = bohemiangfx
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = berbergfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = centralasiangfx
+			}
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			OR = {
+				graphical_culture = westerngfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+				graphical_culture = dutchgfx
+				graphical_culture = frankishgfx
+				graphical_culture = normangfx
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = ugricgfx
+				graphical_culture = khitangfx
+			}
+		}
+		modifier = {	#Buddhist Clergy are bald
+			factor = 0
+			religion = buddhist
+			OR = {
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
-	
-	14 = { # Mohawk
+
+	14 = { #DLC hair
 		factor = 1
 		modifier = {
 			factor = 0
+			NOT = {
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = easternslavicgfx
+				graphical_culture = westernslavicgfx
+				graphical_culture = southernslavicgfx
+				graphical_culture = pomeraniangfx
+				graphical_culture = celticgfx
+				graphical_culture = balticgfx
+				graphical_culture = ugricgfx
+				graphical_culture = norsegaelgfx
+				graphical_culture = persiangfx
+				graphical_culture = afghangfx
+				graphical_culture = georgiangfx
+				graphical_culture = mesoamericangfx
+				graphical_culture = indiangfx
+				graphical_culture = dravidiangfx
+				graphical_culture = bengalgfx
+				graphical_culture = indusgfx
+				graphical_culture = turkishgfx
+				graphical_culture = sogdiangfx
+				graphical_culture = steppegfx
+
+			}
+		}
+
+		modifier = {	#Buddhist Clergy are bald
+			factor = 0
+			religion = buddhist
 			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
+				is_theocracy = yes
+				has_job_title = job_spiritual
 			}
 		}
 	}
-	
-	15 = { # Mohawk
-		factor = 1
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = desert_father
-				trait = desert_mother
-			}
-		}
-	}	
+	#15 = { # Unused
+	#}
 }
 
 # p2 base
 #2 = {
 #}
 
+### Better Looking Garbs clothes and headgear by Pnutmaster
 # p3 clothes
 3 = {
-	
 	0 = { # Royal clothes 1
 		factor = 1
 		modifier = {
@@ -912,23 +1271,37 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+				AND = {
+					is_nomadic = yes
+					independent = no
+				}
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = king } }
-			NOT = { spouse = { real_tier = emperor } }
-			NOT = { has_minor_title = title_prince }
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+				has_minor_title = title_prince
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture_group = iberian
+				culture_group = italian_group
+				culture = italian
+			}
+			year = 950
+			primary_title = {
+				NOT = {
+					title = k_castille
+					title = k_leon
+				}
+			}
 		}
 	}
-	
+
 	1 = { # Royal clothes 2
 		factor = 1
 		modifier = {
@@ -936,23 +1309,22 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+				AND = {
+					is_nomadic = yes
+					independent = no
+				}
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = king } }
-			NOT = { spouse = { real_tier = emperor } }
-			NOT = { has_minor_title = title_prince }
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+				has_minor_title = title_prince
+			}
 		}
 	}
-	
+
 	2 = { # Royal clothes 3
 		factor = 1
 		modifier = {
@@ -960,257 +1332,509 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+				AND = {
+					is_nomadic = yes
+					independent = no
+				}
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = king } }
-			NOT = { spouse = { real_tier = emperor } }
-			NOT = { has_minor_title = title_prince }
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+				has_minor_title = title_prince
+			}
 		}
 	}
-	
+
 	3 = { # Noble clothes 1
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				trait = peasant_leader
-				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+			NOR= {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				has_minor_title = title_prince
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = duke }
-			NOT = { real_tier = count }
-			NOT = { real_tier = baron }
-			NOT = { spouse = { real_tier = duke } }
-			NOT = { spouse = { real_tier = count } }
-			NOT = { spouse = { real_tier = baron } }
-			NOT = { has_minor_title = title_prince }
+			OR= {
+				real_tier = emperor
+				spouse = { real_tier = emperor }
+				trait = peasant_leader
+				trait = heresiarch
+			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = no
+			OR= {
+				real_tier = king
+				spouse = { real_tier = king }
+			}
 		}
 	}
-	
+
 	4 = { # Noble clothes 2
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				trait = peasant_leader
-				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+			NOR= {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				has_minor_title = title_prince
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = duke }
-			NOT = { real_tier = count }
-			NOT = { real_tier = baron }
-			NOT = { spouse = { real_tier = duke } }
-			NOT = { spouse = { real_tier = count } }
-			NOT = { spouse = { real_tier = baron } }
-			NOT = { has_minor_title = title_prince }
+			OR= {
+				real_tier = emperor
+				spouse = { real_tier = emperor }
+				trait = peasant_leader
+				trait = heresiarch
+			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = no
+			OR= {
+				real_tier = king
+				spouse = { real_tier = king }
+			}
 		}
 	}
-	
+
 	5 = { # Noble clothes 3
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				trait = peasant_leader
-				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+			NOR= {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				has_minor_title = title_prince
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = duke }
-			NOT = { real_tier = count }
-			NOT = { real_tier = baron }
-			NOT = { spouse = { real_tier = duke } }
-			NOT = { spouse = { real_tier = count } }
-			NOT = { spouse = { real_tier = baron } }
-			NOT = { has_minor_title = title_prince }
+			OR= {
+				real_tier = emperor
+				spouse = { real_tier = emperor }
+				trait = peasant_leader
+				trait = heresiarch
+			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = no
+			OR= {
+				real_tier = king
+				spouse = { real_tier = king }
+			}
 		}
 	}
-	
+
 	6 = { # Modest clothes 1
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
+				spouse = { higher_real_tier_than = count }
 			}
-		}
-		modifier = {
-			factor = 10
-			is_ruler = yes
-			is_theocracy = yes
-			religion_group = pagan_group
+			NOR = { trait = peasant_leader trait = heresiarch }
 		}
 	}
+
 	7 = { # Modest clothes 2
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
+				spouse = { higher_real_tier_than = count }
 			}
+			NOR = { trait = peasant_leader trait = heresiarch }
 		}
 	}
-	
+
 	8 = { # Modest clothes 3
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
+				spouse = { higher_real_tier_than = count }
 			}
+			NOR = { trait = peasant_leader trait = heresiarch }
 		}
 	}
+
 	9 = { # Shady clothes
-		factor = 100
+		factor = 3
 		modifier = {
 			factor = 0
-			higher_real_tier_than = duke
-		}		
+			OR = {
+				real_tier = king
+				real_tier = emperor
+				AND = {
+					real_tier = duke
+					any_demesne_title = {
+						tier = baron
+					}
+				}
+				spouse = { real_tier = king }
+				spouse = { real_tier = emperor }
+			}
+		}
 		modifier = {
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
+			OR = {
+				real_tier = duke
+				NOT = { intrigue = 10 }
+			}
 		}
 	}
-	
-	# Martial
-	10 = {
+
+	10 = { # Martial
 		factor = 100
+		modifier = { # Better armour available
+			factor = 0
+			is_female = no
+			OR = {
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
+			}
+			NOR = {
+				primary_title = { mercenary = yes }
+				culture = roman
+				culture = khitan
+			}
+		}
 		modifier = {
 			factor = 0
-			NOT = { has_job_title  = job_marshal }
-			NOT = { in_command = yes }
-			NOT = {
+			NOR = {
+				in_command = yes
+				has_job_title = job_marshal
 				primary_title = {
 					OR = {
 						mercenary = yes
 						holy_order = yes
 					}
+					#NOT = { title = d_exilarch }
+					#NOT = { title = d_kohen_gadol_samaritan }
+					#NOT = { title = d_exilarch_karaite }
 				}
+				culture_group = iranian
+				culture_group = iberian
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture = greek
+				culture = turkish
+				culture = cuman
+				culture = uyghur
+				culture = kirghiz
+				culture = karluk
+			}
+		}
+		modifier = { # Reuse covered up clothes as common clothes
+			factor = 0.01
+			OR = {
+				culture_group = iranian
+				culture_group = iberian
+				culture_group = north_germanic
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture = greek
+				culture = turkish
+				culture = cuman
+				culture = uyghur
+				culture = kirghiz
+				culture = karluk
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture_group = iranian
+				culture_group = iberian
+				culture_group = north_germanic
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture = greek
+				culture = turkish
+				culture = cuman
+				culture = uyghur
+				culture = kirghiz
+				culture = karluk
+			}
+			NOT = { trait = peasant_leader }
+			NOT = { trait = heresiarch }
+			OR = {
+				is_ruler = yes
+				has_minor_title = title_prince
+				spouse = { higher_real_tier_than = count }
 			}
 		}
 	}
-	
-	# Ragged prison clothes
-	11 = {
+
+	11 = { # Ragged clothes
 		factor = 100
 		modifier = {
 			factor = 0
-			prisoner = no
+			OR = {
+				NOR = {
+					prisoner = yes
+					death_reason = death_dungeon
+				}
+				has_character_modifier = house_arrest
+			}
+		}
+	}
+
+	12 = { # Royal war gear
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { in_command = yes }
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			NOR= {
+				real_tier = emperor
+				spouse = { real_tier = emperor }
+			}
+		}
+	}
+
+	13 = { # Noble war gear
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { in_command = yes }
+			NOT = { primary_title = { holy_order = yes } }
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
+			}
+		}
+	}
+
+	14 = { # Royal clothes 4
+		factor = 1
+		modifier = {
+			factor = 0
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+				has_minor_title = title_prince
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = central_germanic
+				culture_group = baltic
+				culture = frankish
+				culture = occitan
+				culture = norman
+				culture = english
+			}
+		}
+	}
+
+	15 = { # Noble clothes 4
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { real_tier = duke }
+			NOT = { real_tier = count }
+			NOT = { real_tier = baron }
+			NOT = { spouse = { real_tier = duke } }
+			NOT = { spouse = { real_tier = count } }
+			NOT = { spouse = { real_tier = baron } }
+			NOT = { has_minor_title = title_prince }
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = central_germanic
+				culture_group = baltic
+				culture = frankish
+				culture = occitan
+				culture = norman
+				culture = english
+			}
 		}
 	}
 }
 
 # p4 beard
 4 = {
-	0 = {
+	0 = { #Beardless
 		factor = 1
 		modifier = {
 			factor = 0
 			religion_group = muslim
-			NOT = { graphical_culture = muslimgfx }
-		}
-		modifier = {
-			factor = 30
-			religion_group = christian
-			OR = {
-				culture = greek
-				culture = italian
-			}
-			OR = {
-				graphical_culture = southerngfx
-				graphical_culture = byzantinegfx
+			NOT = {
+				graphical_culture = muslimgfx
+				graphical_culture = arabicgfx
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = egyptiangfx
 			}
 		}
 		modifier = {
-			factor = 15
+			factor = 0
 			religion_group = christian
-			culture_group = iberian
+			NOT = { religion = catholic }
+			NOT = { is_heresy_of = catholic }
+			is_priest = yes
+		}
+		modifier = {
+			factor = 0.5
 			OR = {
-				graphical_culture = southerngfx
-				graphical_culture = byzantinegfx
+				graphical_culture = turkishgfx
+				graphical_culture = easternslavicgfx
+			}
+		}
+		modifier = {
+			factor = 25
+			OR = {
+				culture = pecheneg
+				culture = norman
+				culture = roman
+				graphical_culture = romangfx
 			}
 		}
 	}
-	1 = {
+	1 = { #Light beard
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+			}
+			NOT = { religion = catholic }
+			NOT = { is_heresy_of = catholic }
+			NOT = { graphical_culture = byzantinegfx }
+			is_priest = yes
+		}
+	}
+	2 = { #Beard
+		factor = 1
+		modifier = {
+			factor = 0
+			religion_group = muslim
+			is_priest = yes
+		}
+	}
+	3 = { #Beard
 		factor = 1
 	}
-	2 = {
+	4 = { #Small mustache and beard
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+			}
+			NOT = { religion = catholic }
+			NOT = { is_heresy_of = catholic }
+			NOT = { graphical_culture = byzantinegfx }
+			is_priest = yes
+		}
+	}
+	5 = { #Spanish mustache
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+			}
+			NOT = { religion = catholic }
+			NOT = { is_heresy_of = catholic }
+			NOT = { graphical_culture = byzantinegfx }
+			is_priest = yes
+		}
+	}
+	6 = { #Beard no mustache
 		factor = 1
 	}
-	3 = {
+	7 = { #Evil stache
 		factor = 1
+		modifier = {
+			factor = 0
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { is_heresy_of = catholic }
+			is_priest = yes
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				culture_group = byzantine
+				culture_group = east_slavic
+			}
+			NOT = { graphical_culture = byzantinegfx }
+			NOT = { graphical_culture = norsegfx }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = mongolgfx
+				graphical_culture = siberiangfx
+				graphical_culture = khitangfx
+			}
+		}
 	}
-	4 = {
+	8 = { # DLC beards
 		factor = 1
-	}
-	5 = {
-		factor = 1
-	}
-	6 = {
-		factor = 1
-	}
-	7 = {
-		factor = 1
-	}
-	8 = {
-		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = mongolgfx
+				graphical_culture = siberiangfx
+				graphical_culture = khitangfx
+			}
+		}
 	}
 	9 = {
 		factor = 1
 		modifier = {
-			factor = 5
-			religion_group = christian
-			culture_group = iberian
+			factor = 0
 			OR = {
-				graphical_culture = southerngfx
-				graphical_culture = byzantinegfx
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = mongolgfx
+				graphical_culture = siberiangfx
+				graphical_culture = khitangfx
 			}
 		}
 	}
@@ -1218,28 +1842,150 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			NOT = {
+				graphical_culture = westerngfx
+				graphical_culture = germangfx
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = dutchgfx
+				graphical_culture = normangfx
+				graphical_culture = bretongfx
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = southernslavicgfx
+				graphical_culture = indiangfx
+				graphical_culture = dravidiangfx
+				graphical_culture = indusgfx
+				graphical_culture = bengalgfx
+				graphical_culture = afghangfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = hungariangfx
+			}
+		}
+	}
+	11 = { # Last Indian beard
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = westerngfx
+				graphical_culture = germangfx
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = dutchgfx
+				graphical_culture = normangfx
+				graphical_culture = bretongfx
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = southernslavicgfx
+				graphical_culture = indiangfx
+				graphical_culture = dravidiangfx
+				graphical_culture = indusgfx
+				graphical_culture = bengalgfx
+				graphical_culture = afghangfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = hungariangfx
+			}
+		}
+	}
+	12 = { # New Byzantine beard
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = westerngfx
+				graphical_culture = germangfx
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = dutchgfx
+				graphical_culture = normangfx
+				graphical_culture = bretongfx
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = southernslavicgfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = hungariangfx
+			}
+		}
+		modifier = {
+			factor = 0
 			religion_group = muslim
-			NOT = { graphical_culture = muslimgfx }
 		}
 		modifier = {
-			factor = 20
+			factor = 0
 			religion_group = christian
-			culture_group = iberian
-			OR = {
-				graphical_culture = southerngfx
+			NOT = { religion = catholic }
+			NOT = { is_heresy_of = catholic }
+			is_priest = yes
+		}
+	}
+	13 = { # New Byzantine beard
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = westerngfx
+				graphical_culture = germangfx
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = dutchgfx
+				graphical_culture = normangfx
+				graphical_culture = bretongfx
 				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = southernslavicgfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = hungariangfx
 			}
 		}
+	}
+	14 = { # New Byzantine beard
+		factor = 1
 		modifier = {
-			factor = 60
-			religion_group = christian
-			OR = {
-				culture = greek
-				culture = italian
-			}
-			OR = {
-				graphical_culture = southerngfx
+			factor = 0
+			NOT = {
+				graphical_culture = westerngfx
+				graphical_culture = germangfx
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = dutchgfx
+				graphical_culture = normangfx
+				graphical_culture = bretongfx
 				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx
+				graphical_culture = italiangfx
+				graphical_culture = andalusiangfx
+				graphical_culture = occitangfx
+				graphical_culture = siciliangfx
+				graphical_culture = romangfx
+				graphical_culture = southernslavicgfx
+				graphical_culture = cumangfx
+				graphical_culture = pecheneggfx
+				graphical_culture = hungariangfx
 			}
 		}
 	}
@@ -1247,8 +1993,7 @@
 
 # p5 headgear
 5 = {
-	# Imperial crown/Chaliph turban
-	0 = {
+	0 = { # Imperial crown/Chaliph turban
 		factor = 100
 		modifier = {
 			factor = 0
@@ -1257,326 +2002,523 @@
 		}
 		modifier = {
 			factor = 0
-			is_feudal = no
-		}
-		modifier = {
-			factor = 0
 			OR = {
+				in_command = yes
+				is_tributary = yes
 				trait = peasant_leader
 				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
-			}
-		}
-	}
-	
-	# Royal crown/turban 1
-	1 = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
-		}
-		modifier = {
-			factor = 0
-			is_feudal = no
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = peasant_leader
-				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+				trait = leper
 			}
 		}
 	}
 
-	# Royal crown/turban 2
-	2 = {
+	1 = { # Royal crown/turban 1
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
-		}
-		modifier = {
-			factor = 0
-			is_feudal = no
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
 		}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+				is_republic = yes
 			}
 		}
 	}
 
-	# Royal crown/turban 3
-	3 = {
+	2 = { # Royal crown/turban 2
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
-		}
-		modifier = {
-			factor = 0
-			is_feudal = no
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
 		}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+				is_republic = yes
 			}
 		}
 	}
 
-	# Simple golden band/turban
-	4 = {
+	3 = { # Royal crown/turban 3
 		factor = 1
 		modifier = {
 			factor = 0
-			is_feudal = yes
-			NOT = { real_tier = duke }
-			NOT = { spouse = { real_tier = duke } }
-			NOT = { has_minor_title = title_prince }
-		}
-		modifier = {
-			factor = 0
-			is_republic = yes
-			NOT = { real_tier = duke }
-			NOT = { real_tier = king }
-			NOT = { real_tier = emperor }
-			NOT = { has_minor_title = title_prince }
-			NOT = { spouse = { real_tier = emperor } }
-			NOT = { spouse = { real_tier = king } }
-			NOT = { spouse = { real_tier = duke } }
-		}
-		modifier = {
-			factor = 0
-			is_feudal = yes
-			real_tier = king
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
 		}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				trait = monk
-				trait = nun
-				trait = desert_mother
-				trait = desert_father
-				trait = perfecti
+				is_republic = yes
 			}
 		}
 	}
 
-	# Common headgear 1 - hood
-	5 = {
+	4 = { # Simple golden band/turban
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
-			NOT = { trait = druze_uqqal }
-			NOT = { trait = druze_ajawid }
-			OR = {
-				is_ruler = yes
+			NOR = {
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
+			}
+		}
+		modifier = {
+			factor = 0
+			is_republic = no
+			is_nomadic = no
+			NOR = {
+				real_tier = duke
 				spouse = { real_tier = duke }
+				has_minor_title = title_prince
 			}
 		}
 		modifier = {
-			factor = 100
+			factor = 0
 			OR = {
-				trait = druze_uqqal
-				trait = druze_ajawid
+				trait = peasant_leader
+				trait = heresiarch
+				trait = monk
+				trait = nun
 			}
-		}
-		modifier = {
-			factor = 10
-			is_ruler = yes
-			is_theocracy = yes
-			religion_group = pagan_group
 		}
 	}
-	
-	# Common headgear 2 - hood
-	6 = {
+
+	5 = { # Common headgear 1 - hood
 		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
+			NOT = { trait = leper }
 			NOT = { trait = monk }
-			NOT = { trait = desert_father }
-			NOT = { trait = perfecti }
 			OR = {
-				is_ruler = yes
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
+				AND = {
+					is_ruler = yes
+					is_female = no
+					NOR = {
+						culture_group = altaic
+						culture_group = byzantine
+						culture_group = iberian
+						culture_group = finno_ugric
+						culture_group = indo_aryan_group
+						culture_group = dravidian_group
+						culture_group = iranian
+					}
+				}
 			}
 		}
 		modifier = {
 			factor = 100
+			trait = leper
 			OR = {
-				trait = monk
-				trait = desert_father
+				culture_group = arabic
+				culture_group = iranian
+				culture_group = north_african
+				culture_group = west_african
+				culture_group = east_african
 			}
-		}
-		modifier = {
-			factor = 100
-			trait = perfecti
-			is_female = no
 		}
 	}
 
-	# Common headgear 3 - Red hat
-	7 = {
+	6 = { # Common headgear 2 - hood
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trait = peasant_leader }
+			NOT = { trait = heresiarch }
+			NOT = {
+				AND = {
+					is_female = no
+					trait = monk
+					OR = {
+						culture = frankish
+						culture = occitan
+						culture = norman
+						culture = german
+						culture = dutch
+						culture = english
+						culture = croatian
+						culture = serbian
+						culture = bosnian
+						culture = arberian
+						culture = ashkenazi
+					}
+				}
+			}
+			OR = {
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
+				has_minor_title = title_prince
+				AND = {
+					is_ruler = yes
+					is_female = no
+					OR = {
+						culture_group = west_germanic
+						culture_group = central_germanic
+						culture_group = iberian
+						culture_group = south_slavic
+						culture = frankish
+						culture = occitan
+						culture = norman
+					}
+				}
+			}
+		}
+		modifier = { #Control turban use
+			factor = 0
+			is_female = no
+			NOT = { religion_group = muslim }
+			NOT = { religion_group = indian_group }
+			OR = {
+				culture = turkish
+				culture = persian
+				culture = kurdish
+				culture = sogdian
+				culture = tocharian
+			}
+		}
+		modifier = {
+			factor = 3
+			is_female = no
+			OR = {
+				religion_group = muslim
+				religion_group = indian_group
+			}
+			OR = {
+				culture = turkish
+				culture = persian
+				culture = kurdish
+				culture = sogdian
+				culture = tocharian
+			}
+		}
+		modifier = {
+			factor = 50
+			OR = {
+				is_theocracy = yes
+				has_minor_title = title_chief_qadi
+			}
+			OR = {
+				religion_group = muslim
+				religion_group = indian_group
+			}
+			OR = {
+				culture = turkish
+				culture = persian
+				culture = kurdish
+				culture = sogdian
+				culture = tocharian
+			}
+		}
+		modifier = { # Force monk cowls
+			factor = 90
+			is_female = no
+			trait = monk
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = norman
+				culture = german
+				culture = dutch
+				culture = english
+				culture = croatian
+				culture = serbian
+				culture = bosnian
+				culture = arberian
+				culture = ashkenazi
+			}
+		}
+	}
+
+	7 = { # Common headgear 3 - Former Red hat
 		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				NOT = { religion = orthodox }
-				is_ruler = yes
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
+				AND = {
+					is_ruler = yes
+					is_female = no
+					OR = {
+						culture = english
+						culture = dutch
+					}
+				}
 			}
 		}
 	}
-	
-	# Common headgear 4 - hood
-	8 = {
+
+	8 = { # Common headgear 4 - hood
 		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			NOT = { trait = nun }
-			NOT = { trait = desert_mother }
-			NOT = { trait = perfecti }
 			OR = {
-				is_ruler = yes
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
 			}
 		}
 		modifier = {
-			factor = 100
-			OR = {
-				trait = nun
-				trait = desert_mother
-			}
-		}
-		modifier = {
-			factor = 100
-			trait = perfecti
-			is_female = yes
+			factor = 90
+			trait = nun
 		}
 	}
 
-	# Shady headgear
-	9 = {
-		factor = 100
+	9 = { # Shady headgear
+		factor = 3
 		modifier = {
 			factor = 0
-			higher_real_tier_than = count
+			OR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
+			NOT = { trait = leper }
 		}
 		modifier = {
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
+			NOT = { trait = leper }
+			OR = {
+				real_tier = duke
+				NOT = {
+					intrigue = 16
+					culture = tagelmust
+				}
+			}
+		}
+		modifier = {
+			factor = 33
+			OR = {
+				has_job_title = job_spymaster
+				trait = leper
+			}
+		}
+		modifier = { # Control turban use
+			factor = 0
+			is_female = no
+			NOT = { religion_group = muslim }
+			NOT = { religion_group = indian_group }
+			NOT = { trait = leper }
+			OR = {
+				culture = turkish
+				culture = persian
+				culture = kurdish
+				culture = sogdian
+				culture = tocharian
+			}
 		}
 	}
 
-	# Martial headgear
-	10 = {
+	10 = { # Martial headgear
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { has_job_title  = job_marshal }
+			OR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+				AND = {
+					real_tier = duke
+					primary_title = { mercenary = no }
+					is_female = no
+				}
+			}
+			NOR = {
+				culture_group = mesoamerican
+				culture = roman
+				culture = khitan
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { in_command = yes }
+			NOT = { has_job_title = job_marshal }
 			NOT = {
 				primary_title = {
 					OR = {
 						mercenary = yes
 						holy_order = yes
 					}
+					#NOT = { title = d_exilarch }
+					#NOT = { title = d_kohen_gadol_samaritan }
+					#NOT = { title = d_exilarch_karaite }
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			higher_real_tier_than = count
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-		}		
 	}
 
-	# Blank
-	11 = {
+	11 = { # Blank
 		factor = 3
 		modifier = {
 			factor = 0
 			OR = {
-				real_tier = emperor
-				real_tier = king
-				real_tier = duke
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
 			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				religion_group = muslim
+				religion_group = jewish_group
+				religion_group = zoroastrian_group
+			}
+		}
+		modifier = {
+			factor = 100
+			OR = {
+				is_theocracy = yes
+				has_job_title = job_spiritual
+			}
+			religion_group = indian_group
+		}
+	}
+
+	12 = { # royal war helm
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { in_command = yes }
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			NOR = {
+				real_tier = emperor
+				spouse = { real_tier = emperor }
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				real_tier = emperor
+				spouse = { real_tier = emperor }
+			}
+			NOR = {
+				culture_group = altaic
+				culture_group = iranian
+				culture_group = iberian
+				culture_group = north_germanic
+				culture_group = byzantine
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = mesoamerican
+				culture = saxon
+				culture = old_saxon
+				culture = frisian
+				is_tributary = yes
+			}
+		}
+	}
+
+	13 = { # ducal war helm
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { in_command = yes }
+			NOT = { primary_title = { holy_order = yes } }
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				higher_real_tier_than = count
+				spouse = { higher_real_tier_than = count }
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				real_tier = emperor
+				spouse = { real_tier = emperor }
+			}
+		}
+	}
+
+	14 = { # Imperial war helm (rollover)
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { in_command = yes }
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			NOT = { spouse = { real_tier = emperor } }
 		}
 	}
 }
 
+### Scarred mod by Euroland
 # p6 imprisoned
 6 = {
 	0 = { # blank
 		factor = 100
 		modifier = {
 			factor = 0
-			prisoner = yes
+			OR = {
+				prisoner = yes
+				death_reason = death_dungeon
+			}
 		}
 	}
-
 	1 = { # prisoner
 		factor = 100
 		modifier = {
 			factor = 0
-			prisoner = no
+			OR = {
+				prisoner = no
+				has_character_modifier = house_arrest
+				has_character_modifier = the_oubliette
+			}
+			NOT = { death_reason = death_dungeon }
+		}
+	}
+	2 = { # clean prison
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { has_character_modifier = house_arrest }
+		}
+	}
+	3 = { # iron collar
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { has_character_modifier = the_oubliette }
 		}
 	}
 }
@@ -1589,72 +2531,128 @@
 			factor = 0
 			OR = {
 				trait = maimed
-				trait = wounded
 				trait = scarred
 				trait = scarred_female
-			}
-		}
-   	}
-
-	1 = { # scar 1
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { 
-				OR = {
-					trait = maimed
+				AND = {
 					trait = wounded
-					trait = scarred
-					trait = scarred_female
+					is_alive = yes
 				}
 			}
 		}
-   	}
-
-	2 = { # scar 2
+	}
+	1 = { # scar 1 eye
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { 
-				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
-					trait = scarred_female
-				}
-			}
+			NOT = { trait = maimed }
 		}
-   	}
-
-	3 = { # scar 3
+	}
+	2 = { # scar 2 nose and cheek
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { 
-				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
-					trait = scarred_female
-				}
-			}
+			NOT = { trait = scarred }
+			NOT = { trait = scarred_female }
 		}
-   	}
-
-	4 = { # scar 4
+	}
+	3 = { # scar 3 cheek
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { 
-				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
-					trait = scarred_female
-				}
+			NOT = { trait = scarred }
+			NOT = { trait = scarred_female }
+		}
+   	}
+	4 = { # scar 4 chin
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trait = scarred }
+			NOT = { trait = scarred_female }
+		}
+	}
+	5 = { # scar 5 bloody
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { trait = wounded }
+				is_alive = no
+			}
+		}
+	}
+	6 = { # scar 6 black eye
+		factor = 2
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { trait = wounded }
+				is_alive = no
+			}
+		}
+	}
+	7 = { # scar 7 bandage
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { trait = wounded }
+				is_alive = no
+			}
+		}
+	}
+	8 = { # scar 8 cheek
+		factor = 2
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { trait = wounded }
+				is_alive = no
 			}
 		}
    	}
+	9 = { # scar 9 crosshatch
+		factor = 1
+		modifier = {
+			factor = 0
+			AND = {
+				NOT = { trait = scarred }
+				NOT = { trait = scarred_female }
+				NOT = { trait = maimed }
+			}
+		}
+	}
+	10 = { # scar 10 forehead
+		factor = 1
+		modifier = {
+			factor = 0
+			AND = {
+				NOT = { trait = scarred }
+				NOT = { trait = scarred_female }
+				NOT = { trait = wounded }
+			}
+		}
+	}
+	11 = { # scar 11 burn
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = { trait = maimed }
+		}
+	}
+	12 = { # scar 12 eye patch
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { trait = maimed }
+				trait = blinded
+				trait = incapable
+				trait = lunatic
+				trait = possessed
+			}
+		}
+	}
 }
 
 # p8 red dots
@@ -1663,70 +2661,189 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			is_alive = yes
 			OR = {
-				trait = has_measles
-				trait = has_small_pox
+				trait = syphilitic
+				trait = pneumonic
+				trait = has_tuberculosis
+				trait = ill
+				trait = has_typhoid_fever
+				trait = drunkard
+				trait = depressed
+				trait = stressed
 			}
 		}
- 	}
-
-	1 = { # red dots
+	}
+	1 = { # syphilitic
 		factor = 100
 		modifier = {
 			factor = 0
 			OR = {
-				NOT = {
-					trait = has_measles
-					trait = has_small_pox
-				}
+				NOT = { trait = syphilitic }
+				is_alive = no
 			}
 		}
-  	}
+	}
+	2 = { # pnuemonia
+		factor = 100
+		modifier = {
+			factor = 0
+			AND = {
+				NOT = { trait = pneumonic }
+				NOT = { trait = has_tuberculosis }
+			}
+		}
+	}
+	3 = { # ill
+		factor = 100
+		modifier = {
+			factor = 0
+			AND = {
+				NOT = { trait = ill }
+				NOT = { trait = has_typhoid_fever }
+			}
+		}
+	}
+	4 = { # drunkard
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = drunkard }
+		}
+	}
+	5 = { #depressed
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = depressed }
+		}
+	}
+	6 = { # stressed
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = stressed }
+		}
+	}
 }
 
 # p9 boils
 9 = {
-
 	0 = { # blank
 		factor = 100
 		modifier = {
 			factor = 0
 			OR = {
-				trait = has_bubonic_plague
-			}
-		}
- 	}
-
-	1 = { # boils
-		factor = 100
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = {
-					trait = has_bubonic_plague
+				trait = ugly
+				AND = {
+					is_alive = yes
+					OR = {
+						trait = has_bubonic_plague
+						trait = has_small_pox
+						trait = has_measles
+						trait = has_typhus
+					}
 				}
 			}
 		}
- 	}
- 	
+	}
+	1 = { # bubonic plague
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = has_bubonic_plague }
+		}
+	}
+	2 = { # boils
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = has_small_pox }
+		}
+	}
+	3 = { # red dots
+		factor = 100
+		modifier = {
+			factor = 0
+			AND = {
+				NOT = { trait = has_measles }
+				NOT = { trait = has_typhus }
+			}
+		}
+	}
+	4 = { # ugly
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = ugly }
+		}
+	}
 }
 
 # p10 blinded
 10 = {
-	0 = {
+	0 = { # blank
 		factor = 100
 		modifier = {
 			factor = 0
-			trait = blinded
+			OR = {
+				trait = blinded
+				AND = {
+					is_alive = yes
+					OR = {
+						trait = leper
+						trait = incapable
+						trait = lunatic
+						trait = possessed
+					}
+				}
+			}
 		}
 	}
-	
-	1 =  {
+	1 = { # leper
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = {
-				trait = blinded
+			OR = {
+				NOT = { trait = leper }
+				is_alive = no
+			}
+		}
+	}
+	2 = { # blind
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = blinded }
+		}
+	}
+	3 = { # incapable
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { trait = incapable }
+				is_alive = no
+			}
+		}
+	}
+	4 = { # lunatic
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { trait = lunatic }
+				is_alive = no
+			}
+		}
+	}
+	5 = { # possessed
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { trait = possessed }
+				is_alive = no
 			}
 		}
 	}

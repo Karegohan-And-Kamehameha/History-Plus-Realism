@@ -1,0 +1,17 @@
+#### Slavic Pagan Non-DLC ####
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_westernslavic_male_headgear_pagan"
+		texturefile = "gfx\\characters\\western_male\\western_male_headgear.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_westernslavic_male_headgear_behind_pagan"
+		texturefile = "gfx\\characters\\western_male\\western_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+}
