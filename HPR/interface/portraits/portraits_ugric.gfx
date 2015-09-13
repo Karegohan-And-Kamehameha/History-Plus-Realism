@@ -5,30 +5,51 @@ spriteTypes = {
 ### Ugric male ####
 
 	spriteType = {
-		name = "GFX_ugric_male_headgear_behind"
-		texturefile = "gfx\\characters\\steppe_male\\pecheneg_male_headgear_behind.dds"
-		noOfFrames = 14
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_ugric_male_headgear"
-		texturefile = "gfx\\characters\\steppe_male\\pecheneg_male_headgear.dds"
-		noOfFrames = 14
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_ugric_male_clothes_behind"
-		texturefile = "gfx\\characters\\steppe_male\\pecheneg_male_clothes_behind.dds"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_clothes_behind.dds"
 		noOfFrames = 14
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_ugric_male_clothes"
-		texturefile = "gfx\\characters\\steppe_male\\pecheneg_male_clothes.dds"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_clothes.dds"
 		noOfFrames = 14
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_headgear_behind"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_headgear_behind.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_headgear"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_headgear.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_hair_behind"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_hair_behind_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_hair_behind_midage"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_hair_behind_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_hair_behind_oldage"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_hair_behind_3.dds"
+		noOfFrames = 15
 		norefcount = yes
 	}
 
@@ -54,6 +75,27 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ugric_male_mouth"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_mouth_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_mouth_midage"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_mouth_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_mouth_oldage"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_mouth_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
 		name = "GFX_ugric_male_beard"
 		texturefile = "gfx\\characters\\ugric_male\\ugric_male_beard_1.dds"
 		noOfFrames = 10
@@ -74,6 +116,27 @@ spriteTypes = {
 		norefcount = yes
 	}
 
+	spriteType = {
+		name = "GFX_ugric_male_hair"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_hair_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_hair_midage"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_hair_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ugric_male_hair_oldage"
+		texturefile = "gfx\\characters\\ugric_male\\ugric_male_hair_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
 	portraitType = {
 		name = "PORTRAIT_ugricgfx_male"
 		effectFile = "gfx/FX/portrait.lua"
@@ -81,13 +144,13 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_ugric_male_clothes_behind:p3:c0"
 			"GFX_ugric_male_headgear_behind:p5:c1"
-			"GFX_celtic_male_hair_behind:p1:h:y:o-1x-2"
+			"GFX_ugric_male_hair_behind:p1:h:y:o-1x-2"
 			"GFX_ugric_male_beard_behind:p4:h:y:o-1x1"
 			"GFX_easternslavic_male_base:p2"
 			"GFX_easternslavic_male_neck:d0"
 			"GFX_easternslavic_male_chin:d1"
 			"GFX_easternslavic_male_cheeks:d4"
-			"GFX_easternslavic_male_mouth:d2"
+			"GFX_ugric_male_mouth:d2"
 			"GFX_norse_male_nose:d3"
 			"GFX_easternslavic_male_eyes:d6"
 			"GFX_easternslavic_male_eyes2:d6:e"
@@ -99,7 +162,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear:d7:o5x0"
 			"GFX_ugric_male_beard:p4:h:y:o-1x1"
-		   	"GFX_celtic_male_hair:p1:h:y:o-1x-2"
+		   	"GFX_ugric_male_hair:p1:h:y:o-1x-2"
 			"GFX_empty:p3:c4"
 			"GFX_ugric_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -143,13 +206,13 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_ugric_male_clothes_behind:p3:c0"
 			"GFX_ugric_male_headgear_behind:p5:c1"
-			"GFX_celtic_male_hair_behind_midage:p1:h:y:o-1x-2"
+			"GFX_ugric_male_hair_behind_midage:p1:h:y:o-1x-2"
 			"GFX_ugric_male_beard_behind_midage:p4:h:y:o-1x1"
 			"GFX_easternslavic_male_base_midage:p2"
 			"GFX_easternslavic_male_neck_midage:d0"
 			"GFX_easternslavic_male_chin_midage:d1"
 			"GFX_easternslavic_male_cheeks_midage:d4"
-			"GFX_easternslavic_male_mouth_midage:d2"
+			"GFX_ugric_male_mouth_midage:d2"
 			"GFX_norse_male_nose_midage:d3"
 			"GFX_easternslavic_male_eyes_midage:d6"
 			"GFX_easternslavic_male_eyes2:d6:e"
@@ -161,7 +224,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear_midage:d7:o5x0"
 			"GFX_ugric_male_beard_midage:p4:h:y:o-1x1"
-			"GFX_celtic_male_hair_midage:p1:h:y:o-1x-2"
+			"GFX_ugric_male_hair_midage:p1:h:y:o-1x-2"
 			"GFX_empty:p3:c4"
 			"GFX_ugric_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -205,13 +268,13 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_ugric_male_clothes_behind:p3:c0"
 			"GFX_ugric_male_headgear_behind:p5:c1"
-			"GFX_celtic_male_hair_behind_oldage:p1:h:y:o-1x-2"
+			"GFX_ugric_male_hair_behind_oldage:p1:h:y:o-1x-2"
 			"GFX_ugric_male_beard_behind_oldage:p4:h:y:o-1x1"
 			"GFX_easternslavic_male_base_oldage:p2"
 			"GFX_easternslavic_male_neck_oldage:d0"
 			"GFX_easternslavic_male_chin_oldage:d1"
 			"GFX_easternslavic_male_cheeks_oldage:d4"
-			"GFX_easternslavic_male_mouth_oldage:d2"
+			"GFX_ugric_male_mouth_oldage:d2"
 			"GFX_norse_male_nose_oldage:d3"
 			"GFX_easternslavic_male_eyes_oldage:d6"
 			"GFX_easternslavic_male_eyes2:d6:e"
@@ -223,7 +286,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear_oldage:d7:o5x0"
 			"GFX_ugric_male_beard_oldage:p4:h:y:o-1x1"
-			"GFX_celtic_male_hair_oldage:p1:h:y:o-1x-2"
+			"GFX_ugric_male_hair_oldage:p1:h:y:o-1x-2"
 			"GFX_empty:p3:c4"
 			"GFX_ugric_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -263,32 +326,33 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ugric_female_clothes_behind"
-		texturefile = "gfx\\characters\\steppe_female\\pecheneg_female_clothes_behind.dds"
+		texturefile = "gfx\\characters\\ugric_female\\ugric_female_clothes_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_ugric_female_clothes"
-		texturefile = "gfx\\characters\\steppe_female\\pecheneg_female_clothes.dds"
+		texturefile = "gfx\\characters\\ugric_female\\ugric_female_clothes.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_ugric_female_headgear_behind"
-		texturefile = "gfx\\characters\\steppe_female\\pecheneg_female_headgear_behind.dds"
+		texturefile = "gfx\\characters\\ugric_female\\ugric_female_headgear_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_ugric_female_headgear"
-		texturefile = "gfx\\characters\\steppe_female\\pecheneg_female_headgear.dds"
+		texturefile = "gfx\\characters\\ugric_female\\ugric_female_headgear.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
+	# Ugric female
 	portraitType = {
 		name = "PORTRAIT_ugricgfx_female"
 		effectFile = "gfx/FX/portrait.lua"

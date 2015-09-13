@@ -1,6 +1,13 @@
 ############## Georgian portrait by Cybrxkhan ##########################
 spriteTypes = {
 
+	spriteType = {
+		name = "GFX_georgian_male_headgear"
+		texturefile = "gfx\\characters\\georgian_male\\georgian_male_headgear.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+
 	# Georgian Male
 	portraitType = {
 		name = "PORTRAIT_georgiangfx_male"
@@ -29,7 +36,7 @@ spriteTypes = {
 			"GFX_persian_male_beard:p4:h:y:o1x0"
 			"GFX_persian_male_hair:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_byzantine_male_headgear:p5:c5"
+			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -82,7 +89,7 @@ spriteTypes = {
 			"GFX_persian_male_beard_midage:p4:h:y:o1x0"
 			"GFX_persian_male_hair_midage:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_byzantine_male_headgear:p5:c5"
+			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -135,7 +142,7 @@ spriteTypes = {
 			"GFX_persian_male_beard_oldage:p4:h:y:o1x0"
 			"GFX_persian_male_hair_oldage:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_byzantine_male_headgear:p5:c5"
+			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}

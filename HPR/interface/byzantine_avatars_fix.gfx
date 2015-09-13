@@ -1,0 +1,14 @@
+# Change Byzantine infantry weapon to a sword.
+objectTypes = {
+	EMFXActorType = {
+		name = "byzantinegfx_HEAVY_INFANTRY_weapon"
+		actorfile = "gfx\models\Attachments\byzantine_sword.xac"
+		scale = 1.0f
+	}
+
+	EMFXActorType = {
+		name = "orthodoxholygfx_HEAVY_INFANTRY_weapon"
+		actorfile = "gfx\models\Attachments\byzantine_heavy_infantry_axe.xac"
+		scale = 1.0f
+	}
+}

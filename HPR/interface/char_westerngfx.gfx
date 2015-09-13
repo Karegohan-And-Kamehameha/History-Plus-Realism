@@ -1,0 +1,435 @@
+objectTypes = {
+	#######################################################
+	#######################################################
+	#####											  #####
+	#####				Early_Western				  #####
+	#####											  #####
+	#######################################################
+	#######################################################
+
+	################################################
+	#### HEAVY_INFANTRY ############################
+	################################################
+
+	pdxmesh = {
+		name = "westerngfx_HEAVY_INFANTRY"
+		file = "gfx\models\westerngfx_early_heavy_infantry.mesh"
+		animation = { id = "attack"		type = "char_infantry_attack_animation" }
+		animation = { id = "idle"		type = "char_infantry_idle_animation" }
+		animation = { id = "move"		type = "char_infantry_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "italiangfx_HEAVY_INFANTRY_early"
+		file = "gfx\models\easterngfx_early_heavy_infantry.mesh"
+		animation = { id = "attack"		type = "char_infantry_attack_animation" }
+		animation = { id = "idle"		type = "char_infantry_idle_animation" }
+		animation = { id = "move"		type = "char_infantry_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_HEAVY_INFANTRY_weapon"
+		file = "gfx\models\Attachments\westerngfx_early_sword.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_HEAVY_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_infantry.mesh"
+		scale = 1.01f
+	}
+
+	pdxmesh = {
+		name = "englishgfx_HEAVY_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_celtic.mesh"
+		scale = 1.01f
+	}
+
+	pdxmesh = {
+		name = "normangfx_HEAVY_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_norman.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_HEAVY_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_southern.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_HEAVY_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_heavy_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "englishgfx_HEAVY_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_heavy_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "normangfx_HEAVY_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_heavy_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_HEAVY_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_visigoth_shield.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### LIGHT_INFANTRY ############################
+	################################################
+	pdxmesh = {
+		name = "westerngfx_LIGHT_INFANTRY"
+		file = "gfx\models\westerngfx_early_light_infantry.mesh"
+		animation = { id = "attack"		type = "char_infantry_attack_animation" }
+		animation = { id = "idle"		type = "char_infantry_idle_animation" }
+		animation = { id = "move"		type = "char_infantry_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_LIGHT_INFANTRY_weapon"
+		file = "gfx\models\Attachments\westerngfx_early_francisca_axe.mesh"
+		scale = 1.3f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_LIGHT_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_infantry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "englishgfx_LIGHT_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_infantry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "normangfx_LIGHT_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_norman.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_LIGHT_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_celtic_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "englishgfx_LIGHT_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_celtic_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "normangfx_LIGHT_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_heavy_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_LIGHT_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_southern.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### PIKEMEN ###################################
+	################################################
+	pdxmesh = {
+		name = "westerngfx_PIKEMEN"
+		file = "gfx\models\westerngfx_early_pikeman.mesh"
+
+		animation = { id = "attack"		type = "char_pikeman_attack_animation" }
+		animation = { id = "idle"		type = "char_pikeman_idle_animation" }
+		animation = { id = "move"		type = "char_pikeman_moving_animation" }
+
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_PIKEMEN_weapon"
+		file = "gfx\models\Attachments\char_early_pike.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_PIKEMEN_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_infantry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "normangfx_PIKEMEN_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_norman.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_PIKEMEN_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_southern.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_PIKEMEN_shield"
+		file = "gfx\models\Attachments\westerngfx_early_visigoth_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_PIKEMEN_shield"
+		file = "gfx\models\Attachments\westerngfx_early_heavy_shield.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### ARCHERS ###################################
+	################################################
+	pdxmesh = {
+		name = "westerngfx_ARCHERS"
+		file = "gfx\models\westerngfx_early_archer.mesh"
+		animation = { id = "attack"		type = "char_archer_attack_animation" }
+		animation = { id = "idle"		type = "char_archer_idle_animation" }
+		animation = { id = "move"		type = "char_archer_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_ARCHERS_weapon"
+		file = "gfx\models\Attachments\char_early_arrow.mesh"
+
+		animation = { id = "attack"		type = "char_early_arrow_attack_animation" }
+		animation = { id = "idle"		type = "char_early_arrow_idle_animation" }
+		animation = { id = "move"		type = "char_early_arrow_moving_animation" }
+
+		scale = 0.8f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_ARCHERS_shield"
+		file = "gfx\models\Attachments\westerngfx_early_longbow.mesh"
+
+		animation = { id = "attack"		type = "char_early_bow_attack_animation" }
+		animation = { id = "idle"		type = "char_early_bow_idle_animation" }
+		animation = { id = "move"		type = "char_early_bow_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_ARCHERS_shield"
+		file = "gfx\models\Attachments\westerngfx_early_compositebow.mesh"
+
+		animation = { id = "attack"		type = "char_early_bow_attack_animation" }
+		animation = { id = "idle"		type = "char_early_bow_idle_animation" }
+		animation = { id = "move"		type = "char_early_bow_moving_animation" }
+
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_ARCHERS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_light_cavalry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "englishgfx_ARCHERS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_light_cavalry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_ARCHERS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_southern_archer.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### KNIGHTS ###################################
+	################################################
+	pdxmesh = {
+		name = "westerngfx_KNIGHTS"
+		file = "gfx\models\westerngfx_early_light_horse.mesh"
+		animation = { id = "attack"		type = "char_horse_attack_animation" }
+		animation = { id = "idle"		type = "char_horse_idle_animation" }
+		animation = { id = "move"		type = "char_horse_moving_animation" }
+		scale = 0.9f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_KNIGHTS_rider"
+		file = "gfx\models\westerngfx_early_heavy_cavalry.mesh"
+		animation = { id = "attack"		type = "char_heavy_cavalry_attack_animation" }
+		animation = { id = "idle"		type = "char_heavy_cavalry_idle_animation" }
+		animation = { id = "move"		type = "char_heavy_cavalry_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_KNIGHTS_weapon"
+		file = "gfx\models\Attachments\westerngfx_early_sword.mesh"
+
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_KNIGHTS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_infantry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "englishgfx_KNIGHTS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_celtic_cavalry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "normangfx_KNIGHTS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_norman.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_KNIGHTS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_southern_heavy_cavalry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_KNIGHTS_shield"
+		file = "gfx\models\Attachments\westerngfx_early_cavalry_heavy_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_KNIGHTS_shield"
+		file = "gfx\models\Attachments\westerngfx_early_visigoth_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "englishgfx_KNIGHTS_shield"
+		file = "gfx\models\Attachments\westerngfx_early_pictish_shield.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "normangfx_KNIGHTS_shield"
+		file = "gfx\models\Attachments\westerngfx_early_kiteshield_heavy.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### LIGHT_CAVALRY #############################
+	################################################
+	pdxmesh = {
+		name = "westerngfx_LIGHT_CAVALRY"
+		file = "gfx\models\westerngfx_early_light_horse.mesh"
+		animation = { id = "attack"		type = "char_horse_attack_animation" }
+		animation = { id = "idle"		type = "char_horse_idle_animation" }
+		animation = { id = "move"		type = "char_horse_moving_animation" }
+		scale = 0.9f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_LIGHT_CAVALRY_rider"
+		file = "gfx\models\westerngfx_early_light_cavalry.mesh"
+		animation = { id = "attack"		type = "char_light_cavalry_attack_animation" }
+		animation = { id = "idle"		type = "char_light_cavalry_idle_animation" }
+		animation = { id = "move"		type = "char_light_cavalry_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_LIGHT_CAVALRY_weapon"
+		file = "gfx\models\Attachments\char_early_pike.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_LIGHT_CAVALRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_light_cavalry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_LIGHT_CAVALRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_light_cavalry.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### horse_archers #############################
+	################################################
+	pdxmesh = {
+		name = "westerngfx_horse_archers"
+		file = "gfx\models\westerngfx_early_light_horse.mesh"
+		animation = { id = "attack"		type = "char_horse_attack_animation" }
+		animation = { id = "idle"		type = "char_horse_idle_animation" }
+		animation = { id = "move"		type = "char_horse_moving_animation" }
+		scale = 0.9f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_horse_archers_rider"
+		file = "gfx\models\westerngfx_early_mounted_archer.mesh"
+		animation = { id = "attack"		type = "char_mounted_archer_attack_animation" }
+		animation = { id = "idle"		type = "char_mounted_archer_idle_animation" }
+		animation = { id = "move"		type = "char_mounted_archer_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_horse_archers_weapon"
+		file = "gfx\models\Attachments\char_early_arrow.mesh"
+		animation = { id = "attack"		type = "char_early_arrow_attack_animation" }
+		animation = { id = "idle"		type = "char_early_arrow_idle_animation" }
+		animation = { id = "move"		type = "char_early_arrow_moving_animation" }
+		scale = 0.8f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_horse_archers_shield"
+		file = "gfx\models\Attachments\char_early_bow.mesh"
+		animation = { id = "attack"		type = "char_early_bow_attack_animation" }
+		animation = { id = "idle"		type = "char_early_bow_idle_animation" }
+		animation = { id = "move"		type = "char_early_bow_moving_animation" }
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_horse_archers_shield"
+		file = "gfx\models\Attachments\westerngfx_early_compositebow.mesh"
+
+		animation = { id = "attack"		type = "char_early_bow_attack_animation" }
+		animation = { id = "idle"		type = "char_early_bow_idle_animation" }
+		animation = { id = "move"		type = "char_early_bow_moving_animation" }
+
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_horse_archers_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_light_cavalry.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_horse_archers_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_southern_archer.mesh"
+
+		scale = 1.0f
+	}
+}

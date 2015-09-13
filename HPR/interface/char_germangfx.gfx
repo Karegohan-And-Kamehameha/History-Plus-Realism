@@ -1,0 +1,65 @@
+objectTypes = {
+	################################################
+	#### HEAVY_INFANTRY ############################
+	################################################
+
+	pdxmesh = {
+		name = "germangfx_HEAVY_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_german.mesh"
+		scale = 1.0f
+	}
+	pdxmesh = {
+		name = "germangfx_HEAVY_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_heavy_shield.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### LIGHT_INFANTRY ############################
+	################################################
+
+	pdxmesh = {
+		name = "germangfx_LIGHT_INFANTRY_weapon"
+		file = "gfx\models\Attachments\westerngfx_early_celtic_axe.mesh"
+		scale = 1.3f
+	}
+
+	pdxmesh = {
+		name = "germangfx_LIGHT_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_infantry.mesh"
+
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "germangfx_LIGHT_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_heavy_shield.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### PIKEMEN ###################################
+	################################################
+	pdxmesh = {
+		name = "germangfx_PIKEMEN_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_german.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### KNIGHTS ###################################
+	################################################
+
+	pdxmesh = {
+		name = "germangfx_KNIGHTS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_german.mesh"
+
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "germangfx_KNIGHTS_shield"
+		file = "gfx\models\Attachments\westerngfx_early_cavalry_heavy_shield.mesh"
+		scale = 1.0f
+	}
+}

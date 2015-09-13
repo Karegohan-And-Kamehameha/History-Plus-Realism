@@ -1,0 +1,3 @@
+GFX_african_male_nose 75x69
+GFX_african_male_nose_midage 75x69
+GFX_african_male_nose_oldage 75x69

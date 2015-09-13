@@ -1,0 +1,68 @@
+objectTypes = {
+	################################################
+	#### HEAVY_INFANTRY ############################
+	################################################
+
+	pdxmesh = {
+		name = "frankishgfx_HEAVY_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_frankish.mesh"
+		scale = 1.04f
+	}
+	pdxmesh = {
+		name = "frankishgfx_HEAVY_INFANTRY_shield"
+		file = "gfx\models\Attachments\westerngfx_early_kiteshield_heavy.mesh"
+		scale = 1.0f
+	}
+
+	################################################
+	#### LIGHT_INFANTRY ############################
+	################################################
+	pdxmesh = {
+		name = "frankishgfx_LIGHT_INFANTRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_frankish.mesh"
+		scale = 1.12f
+	}
+
+	pdxmesh = {
+		name = "frankishgfx_ARCHERS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_southern_archer.mesh"
+		scale = 1.22f
+	}
+
+	pdxmesh = {
+		name = "frankishgfx_LIGHT_CAVALRY_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_frankish.mesh"
+		scale = 1.15f
+	}
+
+	################################################
+	#### PIKEMEN ###################################
+	################################################
+	pdxmesh = {
+		name = "frankishgfx_PIKEMEN_weapon"
+		file = "gfx\models\Attachments\westerngfx_early_celtic_pike.mesh"
+		scale = 1.2f
+	}
+
+	pdxmesh = {
+		name = "frankishgfx_PIKEMEN_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_frankish.mesh"
+		scale = 1.18f
+	}
+
+	################################################
+	#### KNIGHTS ###################################
+	################################################
+
+	pdxmesh = {
+		name = "frankishgfx_KNIGHTS_helmet"
+		file = "gfx\models\Attachments\westerngfx_early_helmet_celtic.mesh"
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "frankishgfx_KNIGHTS_shield"
+		file = "gfx\models\Attachments\westerngfx_early_kiteshield_heavy.mesh"
+		scale = 1.0f
+	}
+}

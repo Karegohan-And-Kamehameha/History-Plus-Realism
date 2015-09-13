@@ -943,7 +943,7 @@ central_germanic = {
 		modifier = german_culture_modifier
 	}
 	low_frankish = {
-		graphical_cultures = {germangfx}
+		graphical_cultures = {dutchgfx}
 		graphical_unit_culture = western
 
 		color = { 1.0 0.25 0.0 } #Ruwaard
@@ -1388,7 +1388,7 @@ iberian = {
 		mother_name_chance = 30
 	}
     occitan = {
-		graphical_cultures = {occitangfx frankishgfx}
+		graphical_cultures = {occitangfx frankishgfx westerngfx}
 
 		color = { 0.75 0.75 0.3 }
 
@@ -1689,7 +1689,7 @@ byzantine = {
 		modifier = greek_culture_modifier
 	}
 	east_gothic = {
-		graphical_cultures = {byzantinegfx}
+		graphical_cultures = {crimeangothicgfx}
 
 		color = { 0.7 0.4 0.8 }
 
@@ -1783,7 +1783,7 @@ byzantine = {
 		allow_looting = yes
 	}
 	udi = {
-		graphical_cultures = {byzantinegfx easterngfx}
+		graphical_cultures = {georgiangfx}
 
 		color = { 0.5 0.8 0.7 }
 
@@ -1805,7 +1805,7 @@ byzantine = {
 		modifier = armenian_culture_modifier
 	}
 	caucasian_avar = {
-		graphical_cultures = {easternslavicgfx easterngfx}
+		graphical_cultures = {bulgargfx easternslavicgfx easterngfx}
 
 		color = { 0.75 0.3 0.7 }
 
@@ -2677,7 +2677,7 @@ altaic = {
 
 	}
 	oghuz = { # original Oghuz Turkish
-		graphical_cultures = {turkishgfx}
+		graphical_cultures = {pecheneggfx steppegfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.83 0.53 0.15 }
@@ -2788,7 +2788,7 @@ altaic = {
 
 	}
 	pecheneg = {
-		graphical_cultures = {pecheneggfx turkishgfx }
+		graphical_cultures = {pecheneggfx steppegfx turkishgfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.85 0.79 0.25 }
@@ -2913,7 +2913,7 @@ altaic = {
 
 	}
 	kasogi = {
-		graphical_cultures = {turkishgfx easterngfx}
+		graphical_cultures = {bulgargfx steppegfx turkishgfx easterngfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.55 0.2 0.1 }
@@ -2991,7 +2991,7 @@ altaic = {
 		modifier = default_culture_modifier
 	}
 	bashkir = {
-		graphical_cultures = {turkishgfx}
+		graphical_cultures = {steppegfx cumangfx turkishgfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.5 0.4 0.3 }
@@ -3632,7 +3632,7 @@ magyar = {
 		allow_looting = yes
 	}
 	szekely = {
-		graphical_cultures = {westernslavicgfx}
+		graphical_cultures = {hungariangfx westernslavicgfx}
 
 		color = { 0.3 0.2 0.3 }
 
@@ -3724,7 +3724,7 @@ iranian = {
 		modifier = persian_culture_modifier
 	}
 	sogdian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
-		graphical_cultures = { sogdiangfx persiangfx  }
+		graphical_cultures = { sogdiangfx persiangfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.43 0.32 0.32 }
@@ -3795,7 +3795,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	tajik = {
-		graphical_cultures = {persiangfx}
+		graphical_cultures = {sogdiangfx persiangfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.55 0.1 }
@@ -3859,7 +3859,7 @@ iranian = {
 		modifier = persian_culture_modifier
 	}
 	khalaj = {
-		graphical_cultures = {persiangfx}
+		graphical_cultures = {sogdiangfx persiangfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.4 0.05 }
@@ -3890,7 +3890,7 @@ iranian = {
 		modifier = persian_culture_modifier
 	}
 	soghdian = {
-		graphical_cultures = {persiangfx}
+		graphical_cultures = {sogdiangfx persiangfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.45 0.1 }
@@ -3922,7 +3922,7 @@ iranian = {
 		allow_looting = yes
 	}
 	khwarezmi = {
-		graphical_cultures = {persiangfx}
+		graphical_cultures = {sogdiangfx persiangfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.4 0.6 0.1 }
@@ -4027,7 +4027,7 @@ iranian = {
 		modifier = kurdish_culture_modifier
 	}
 	pashtun = { # a.k.a. Afghani
-		graphical_cultures = {muslimgfx}
+		graphical_cultures = {afghangfx persiangfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.4 0.6 0.1 }
@@ -4155,7 +4155,7 @@ iranian = {
 		allow_looting = yes
 	}
 	qufs = {
-		graphical_cultures = {muslimgfx}
+		graphical_cultures = {afghangfx persiangfx}
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.45 0.45 0.1 }
@@ -6088,7 +6088,7 @@ sinic = {
 	graphical_cultures = {mongolgfx}
 
 	khitan = {
-		graphical_cultures = {khitangfx }
+		graphical_cultures = {khitangfx mongolgfx muslimgfx}
 		color = { 0.95 0.95 0.1 }
 
 		male_names = {

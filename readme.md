@@ -3,9 +3,20 @@ This mod is based on both of them and the goal of this mod is to implement the b
 
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
+<b>Requirements and recomendations:</b><br>
+-Crusader Kings 2 with all DLC except sunset invasion.<br>
+-A computer that can handle SWMH map.<br>
+-For a better visual experience it is recommended to turn off trees and rivers.<br>
+
 The music mod is now available for download at<br> https://mega.nz/#!lld0FKDQ!ymzHRK5N2tPyyPz9v7DG7si0TiTYSjWCcav7v52w-aI <br>
 
 <b>Changelog:</b><br>
+<b>v0.6.1:</b><br>
+-Added a border to the coastline of the map.<br>
+-Fixed missing DLC portraits from BLG and updated them to the latest SWMH patch.<br>
+-Fixed display of religious icons.<br>
+-Fixed display of the focus view window.<br>
+-More child mortality tweaks, again.<br>
 <b>v0.6:</b><br>
 -Map overhaul that consists of parts from the Cartographic Map mod, Novus Graphicus mod, Eagle Lake font and a custom flat map with land bumped over water.<br>
 -Better garbs mod (partially) implemented.<br>
@@ -72,12 +83,12 @@ Initial release.<br>
 -SWMH Map.<br>
 -Friends & Foes personality traits.<br>
 -A unique map view, pieced together from several different mods.<br>
--Better Garbs mod portraits.<br>
+-Better Looking Garbs mod portraits.<br>
 -Dorimi music pack.<br>
 -Songs from the four corners music pack.<br>
 -Fear mechanics that are unique to this mod and work in a way similar to the tyrrany system from CK2+, except striking fear in the hearts of men works in a positive way, making them respect you more. Oderint dum metuant.<br>
-Fear is currently accumulated through acts of cruelty, such as torturing, blinding and castrating prisoners, as well as executing nobles after capturing them in a siege. In the future I plan to implement fear accumulation in a variety of events.<br>
--Jux Uxoris spouse title usurpation mechanics.<br>
+Fear is currently accumulated through acts of cruelty, such as torturing, blinding and castrating prisoners, as well as executing nobles after capturing them in a siege and as a result of some other events.<br>
+-Jus Uxoris spouse title usurpation mechanics.<br>
 -More detailed focuses with various penalties and bonuses.<br>
 -Various other small tweaks and changes.<br>
 
@@ -88,6 +99,5 @@ Fear is currently accumulated through acts of cruelty, such as torturing, blindi
 -Clean up unused scripts and assets.<br>
 
 <b>Known issues:</b><br>
--Display of religions is not perfect due to the modified religion icon strip, but it's tolerable and no longer produces glitches with new CK2+ religions.<br>
--Due to the increased amount of focus modifiers, the "Select" button no longer fits into the focus selection window. Some other minor focus display issues exist as well.<br>
--Roman Empire restoration events are a bit of a mess, with provinces not always accurately placed within Roman province borders and variations between files.
+-Roman Empire restoration events are a bit of a mess, with provinces not always accurately placed within Roman province borders and variations between files.<br>
+-Sometimes imprisoned characters have their opinion modifier triggered twice.<br>
