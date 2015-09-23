@@ -19,15 +19,18 @@ b_ampthill = city
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
 
 880.1.1 = { culture = norse } # Danes settle down
 880.1.1 = { religion = norse_pagan } # Danes settle down
-914.1.11 = { religion = catholic } # Submitted to Wessex
+914.1.11 = { religion = chalcedonian } # Submitted to Wessex
 916.1.7 = { culture = saxon } # Thurketel leaves for France
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_bedford = ca_keep_1
 	b_bedford = ca_training_grounds_1
 	b_bedford = ca_stable_1

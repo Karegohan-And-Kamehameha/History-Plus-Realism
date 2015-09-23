@@ -15,10 +15,13 @@ b_pitten = castle
 
 # Misc
 culture = karantanci
-religion = catholic
+religion = chalcedonian
 
 # History
 955.1.1 = { culture = bavarian }
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }
 1194.1.1 = { b_wienerneustadt = city }
 

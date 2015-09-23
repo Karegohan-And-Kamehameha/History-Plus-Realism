@@ -14,10 +14,12 @@ b_chastelblanc = castle
 
 # Misc
 culture = kurdish
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1090.1.1 = { b_chastelrouge = castle }
 
 

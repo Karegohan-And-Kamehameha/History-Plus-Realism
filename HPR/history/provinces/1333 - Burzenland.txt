@@ -11,11 +11,14 @@ b_torcsvar = tribal
 
 # Misc
 culture = romanian
-religion = orthodox
+religion = chalcedonian
 
 # History
 
-985.1.1 = { b_torcsvar = castle } 
-1190.1.1 = { culture = low_german} 
-1190.1.1 = { religion = catholic} 
-1265.1.1 = { b_feketehalom = temple} 
+985.1.1 = { b_torcsvar = castle }
+1054.1.1 = {
+	religion = orthodox
+}
+1190.1.1 = { culture = low_german}
+1190.1.1 = { religion = catholic}
+1265.1.1 = { b_feketehalom = temple}

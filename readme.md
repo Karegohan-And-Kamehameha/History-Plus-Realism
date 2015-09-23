@@ -3,14 +3,21 @@ This mod is based on both of them and the goal of this mod is to implement the b
 
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
-<b>Requirements and recomendations:</b><br>
+<b>Requirements and recommendations:</b><br>
 -Crusader Kings 2 with all DLC except sunset invasion.<br>
 -A computer that can handle SWMH map.<br>
+-High resolution display to support ARKO interface.<br>
 -For a better visual experience it is recommended to turn off trees and rivers.<br>
+-All other mods are not compatable.<br>
 
 The music mod is now available for download at<br> https://mega.nz/#!lld0FKDQ!ymzHRK5N2tPyyPz9v7DG7si0TiTYSjWCcav7v52w-aI <br>
 
 <b>Changelog:</b><br>
+<b>v0.7:</b><br>
+-Updated CK2+ to v4.0.1. Finally a proper implementation of the Great Schism.<br>
+-Fixed duplicate Pentarchy bug.<br>
+-Decreased the bump of land over water.<br>
+-Misc. bugfixes.<br>
 <b>v0.6.1:</b><br>
 -Added a border to the coastline of the map.<br>
 -Fixed missing DLC portraits from BLG and updated them to the latest SWMH patch.<br>
@@ -78,7 +85,6 @@ Initial release.<br>
 -Warscore with an emphasis on battles and sieges of capitals and contested territory.<br>
 -ARKO interface.<br>
 -ARKO armories.<br>
--Viet traits.<br>
 -Viet events.<br>
 -SWMH Map.<br>
 -Friends & Foes personality traits.<br>

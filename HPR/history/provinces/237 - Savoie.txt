@@ -18,10 +18,12 @@ b_ciamberi = city
 
 # Misc
 culture = arpitan
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1295.1.1 = { b_conflans = castle }
 1295.1.1 = { b_aixlesbains = city }
 

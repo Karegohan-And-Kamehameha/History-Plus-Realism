@@ -9,7 +9,7 @@
 1000167050 = {
 	name="Corrado"
 	dynasty=1000064001 #di Ventimiglia
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	1000.1.1 = {
 		birth="1000.1.1" #unknown
@@ -22,11 +22,14 @@
 1000167051 = {
 	name="Ottone"
 	dynasty=1000064001 #di Ventimiglia
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	father=1000167050
 	1020.1.1 = {
 		birth="1020.1.1" #unknown
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1" #unknown
@@ -50,11 +53,14 @@
 1000167053 = {
 	name="Corrado"
 	dynasty=1000064001 #di Ventimiglia
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	father=1000167050
 	1035.1.1 = {
 		birth="1035.1.1" #unknown
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death="1085.1.1" #unknown

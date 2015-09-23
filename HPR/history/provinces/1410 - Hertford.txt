@@ -20,7 +20,10 @@ b_st_albans = temple
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
-1100.11.11 = { culture = english } 
+1054.1.1 = {
+	religion = catholic
+}
+1100.11.11 = { culture = english }

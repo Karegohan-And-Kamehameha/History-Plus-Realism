@@ -20,8 +20,11 @@ culture = mari
 religion = finnish_pagan
 
 # History
-990.1.1 = {religion = orthodox }
+990.1.1 = {religion = chalcedonian }
 990.1.1 = {culture = russian }
 990.1.1 = {b_timerevo = castle
 b_yaroslavl = city
 b_tolga = temple }
+1054.1.1 = {
+	religion = orthodox
+}

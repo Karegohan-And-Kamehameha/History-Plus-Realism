@@ -13,8 +13,11 @@ b_polystylon = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
 879.1.1 = { b_xanthia = city }
+1054.1.1 = {
+	religion = orthodox
+}
 1189.1.1 = { trade_post = b_dandolo }

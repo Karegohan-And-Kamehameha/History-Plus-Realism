@@ -17,5 +17,8 @@ religion = norse_pagan
 terrain = hills
 
 # History
-1015.1.1 = { religion = catholic } 
-1047.10.25 = { culture = norsegaelic } 
+1015.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = norsegaelic }
+1054.1.1 = {
+	religion = catholic
+}

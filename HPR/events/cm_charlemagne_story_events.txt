@@ -1027,39 +1027,37 @@ character_event = {
 		random_independent_ruler = {
 			limit = { has_character_flag = charlemagne_enemy }
 			character_event = { id = CM.1076 }
+			break = yes
 		}
-		if = {
+		random_independent_ruler = {
 			limit = {
-				NOT = { any_independent_ruler = { has_character_flag = charlemagne_enemy } }
-			}
-			random_independent_ruler = {
-				limit = {
-					tier = KING
-					religion = catholic
-					is_feudal = yes
-					NOT = { has_character_flag = is_charlemagne }
+				OR = {
+					has_landed_title = k_italy
+					has_landed_title = k_lombardy
 				}
-				character_event = { id = CM.1076 }
+				NOT = { any_allied_character = { has_character_flag = is_charlemagne } }
+				NOT = { has_character_flag = is_charlemagne }
 			}
+			character_event = { id = CM.1076 }
+			break = yes
 		}
-		if = {
+		random_independent_ruler = {
 			limit = {
-				NOT = { any_independent_ruler = { has_character_flag = charlemagne_enemy } }
-				NOT = {
-					any_independent_ruler = {
-						tier = KING
-						religion = catholic
-					}
-				}
+				tier = KING
+				religion = chalcedonian
+				is_feudal = yes
+				NOT = { has_character_flag = is_charlemagne }
 			}
-			random_independent_ruler = {
-				limit = {
-					tier = DUKE
-					religion = catholic
-					is_feudal = yes
-				}
-				character_event = { id = CM.1076 }
+			character_event = { id = CM.1076 }
+			break = yes
+		}
+		random_independent_ruler = {
+			limit = {
+				tier = DUKE
+				religion = chalcedonian
+				is_feudal = yes
 			}
+			character_event = { id = CM.1076 }
 		}
 	}
 }
@@ -1078,7 +1076,10 @@ character_event = {
 		FROM = { set_character_flag = carloman_refugee_wife }
 		FROM = {
 			any_child = {
-				limit = { at_location = FROM }
+				limit = {
+					at_location = FROM
+					is_ruler = no
+				}
 				move_character = ROOT
 			}
 			move_character = ROOT
@@ -1317,6 +1318,110 @@ character_event = {
 	}
 }
 
+# Prompting the AI to attack Lombardy
+character_event = {
+	id = CM.1081
+
+	hide_window = yes
+
+	only_playable = yes
+	only_independent = yes
+	has_character_flag = is_charlemagne
+
+	trigger = {
+		ai = yes
+		war = no
+		has_strong_claim = k_lombardy
+		k_lombardy = {
+			holder_scope = {
+				reverse_realm_levy_diff = { who = ROOT value = 5000 }
+				NOR = {
+					character = ROOT
+					same_realm = ROOT
+					reverse_has_truce = ROOT
+					is_allied_with = ROOT
+					is_married = ROOT
+					pays_tribute_to = ROOT
+					has_landed_title = k_papal_state
+					ROOT = { rightful_religious_head = PREV }
+				}
+			}
+		}
+		NOR = {
+			has_global_flag = hre_formed
+			has_character_modifier = do_not_disturb
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		k_lombardy = {
+			holder_scope = {
+				reverse_war = {
+					target = ROOT
+					casus_belli = claim
+					thirdparty_title = PREV
+				}
+			}
+		}
+	}
+}
+
+# Prompting the AI to attack Saxony
+character_event = {
+	id = CM.1082
+
+	hide_window = yes
+
+	only_playable = yes
+	only_independent = yes
+
+	trigger = {
+		ai = yes
+		dynasty = 25061
+		war = no
+		has_strong_claim = k_saxony
+		k_saxony = {
+			holder_scope = {
+				reverse_realm_levy_diff = { who = ROOT value = 5000 }
+				NOR = {
+					character = ROOT
+					same_realm = ROOT
+					reverse_has_truce = ROOT
+					is_allied_with = ROOT
+					is_married = ROOT
+					pays_tribute_to = ROOT
+					has_landed_title = k_papal_state
+					ROOT = { rightful_religious_head = PREV }
+				}
+			}
+		}
+		NOR = {
+			has_global_flag = hre_formed
+			has_character_modifier = do_not_disturb
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		k_saxony = {
+			holder_scope = {
+				reverse_war = {
+					target = ROOT
+					casus_belli = claim
+					thirdparty_title = PREV
+				}
+			}
+		}
+	}
+}
+
 ###########################################
 # The Saxon Wars                          #
 ###########################################
@@ -1332,6 +1437,7 @@ narrative_event = {
 	religion_group = christian
 	only_independent = yes
 	min_age = 16
+	only_men = yes
 	capable_only = yes
 	prisoner = no
 
@@ -1355,10 +1461,10 @@ narrative_event = {
 				is_feudal = yes
 			}
 		}
-		NOT = { has_global_flag = saxon_wars }
 		higher_real_tier_than = DUKE
 		k_saxony = {
 			holder_scope = {
+				reverse_realm_levy_diff = { who = ROOT value = 7500 }
 				culture = old_saxon
 				OR = {
 					religion = german_pagan
@@ -1371,6 +1477,10 @@ narrative_event = {
 					pays_tribute_to = ROOT
 				}
 			}
+		}
+		NOR = {
+			has_character_modifier = do_not_disturb
+			has_global_flag = saxon_wars
 		}
 	}
 
@@ -1779,6 +1889,7 @@ province_event = {
 					light_cavalry = { 500 500 }
 				}
 				attrition = 1.0
+				cannot_inherit = yes
 			}
 			spawn_unit = {
 				owner = THIS
@@ -1791,6 +1902,7 @@ province_event = {
 					light_cavalry = { 500 500 }
 				}
 				attrition = 1.0
+				disband_on_peace = yes
 			}
 			spawn_unit = {
 				owner = THIS
@@ -1803,6 +1915,7 @@ province_event = {
 					light_cavalry = { 500 500 }
 				}
 				attrition = 1.0
+				disband_on_peace = yes
 			}
 			if = {
 				limit = {
@@ -2072,7 +2185,7 @@ character_event = {
 	hide_window = yes
 
 	only_playable = yes
-	religion = catholic
+	religion = chalcedonian
 	only_independent = yes
 	min_age = 16
 	capable_only = yes
@@ -2109,6 +2222,7 @@ character_event = {
 				reverse_opinion = { who = ROOT value = 25 }
 				pays_tribute_to = ROOT
 				has_landed_title = k_papal_state
+				ROOT = { rightful_religious_head = PREV }
 			}
 			capital_scope = {
 				kingdom = {
@@ -2133,9 +2247,11 @@ character_event = {
 			NOT = {
 				calc_true_if = {
 					amount = 2
+					has_landed_title = k_bavaria
 					has_landed_title = k_saxony
 					has_landed_title = k_lotharingia
-					has_landed_title = k_france
+					has_landed_title = k_lombardy
+					has_landed_title = k_italy
 				}
 			}
 		}
@@ -2143,16 +2259,20 @@ character_event = {
 			factor = 0.5
 			calc_true_if = {
 				amount = 2
+				has_landed_title = k_bavaria
 				has_landed_title = k_saxony
 				has_landed_title = k_lotharingia
-				has_landed_title = k_france
+				has_landed_title = k_lombardy
+				has_landed_title = k_italy
 			}
 		}
 		modifier = {
 			factor = 0.25
+			has_landed_title = k_bavaria
 			has_landed_title = k_saxony
 			has_landed_title = k_lotharingia
-			has_landed_title = k_france
+			has_landed_title = k_lombardy
+			has_landed_title = k_italy
 		}
 	}
 
@@ -2174,6 +2294,7 @@ character_event = {
 					reverse_opinion = { who = ROOT value = 25 }
 					pays_tribute_to = ROOT
 					has_landed_title = k_papal_state
+					ROOT = { rightful_religious_head = PREV }
 				}
 				capital_scope = {
 					kingdom = {
@@ -2210,7 +2331,7 @@ character_event = {
 	hide_window = yes
 
 	only_playable = yes
-	religion = catholic
+	religion = chalcedonian
 	only_independent = yes
 	min_age = 16
 	capable_only = yes
@@ -2242,6 +2363,7 @@ character_event = {
 				reverse_opinion = { who = ROOT value = 25 }
 				pays_tribute_to = ROOT
 				has_landed_title = k_papal_state
+				ROOT = { rightful_religious_head = PREV }
 			}
 			capital_scope = {
 				kingdom = {
@@ -2267,8 +2389,10 @@ character_event = {
 				calc_true_if = {
 					amount = 2
 					has_landed_title = k_bavaria
+					has_landed_title = k_saxony
 					has_landed_title = k_lotharingia
-					has_landed_title = k_france
+					has_landed_title = k_italy
+					has_landed_title = k_lombardy
 				}
 			}
 		}
@@ -2277,15 +2401,19 @@ character_event = {
 			calc_true_if = {
 				amount = 2
 				has_landed_title = k_bavaria
+				has_landed_title = k_saxony
 				has_landed_title = k_lotharingia
-				has_landed_title = k_france
+				has_landed_title = k_italy
+				has_landed_title = k_lombardy
 			}
 		}
 		modifier = {
 			factor = 0.25
 			has_landed_title = k_bavaria
+			has_landed_title = k_saxony
 			has_landed_title = k_lotharingia
-			has_landed_title = k_france
+			has_landed_title = k_italy
+			has_landed_title = k_lombardy
 		}
 	}
 
@@ -2307,6 +2435,7 @@ character_event = {
 					reverse_opinion = { who = ROOT value = 25 }
 					pays_tribute_to = ROOT
 					has_landed_title = k_papal_state
+					ROOT = { rightful_religious_head = PREV }
 				}
 				capital_scope = {
 					kingdom = {
@@ -2343,7 +2472,7 @@ character_event = {
 	hide_window = yes
 
 	only_playable = yes
-	religion = catholic
+		religion = chalcedonian
 	only_independent = yes
 	min_age = 16
 	capable_only = yes
@@ -2375,6 +2504,7 @@ character_event = {
 				reverse_opinion = { who = ROOT value = 25 }
 				pays_tribute_to = ROOT
 				has_landed_title = k_papal_state
+				ROOT = { rightful_religious_head = PREV }
 			}
 			capital_scope = {
 				kingdom = {
@@ -2401,7 +2531,9 @@ character_event = {
 					amount = 2
 					has_landed_title = k_bavaria
 					has_landed_title = k_saxony
-					has_landed_title = k_france
+					has_landed_title = k_lotharingia
+					has_landed_title = k_italy
+					has_landed_title = k_lombardy
 				}
 			}
 		}
@@ -2411,14 +2543,21 @@ character_event = {
 				amount = 2
 				has_landed_title = k_bavaria
 				has_landed_title = k_saxony
-				has_landed_title = k_france
+				has_landed_title = k_lotharingia
+				has_landed_title = k_italy
+				has_landed_title = k_lombardy
 			}
 		}
 		modifier = {
 			factor = 0.25
-			has_landed_title = k_bavaria
-			has_landed_title = k_saxony
-			has_landed_title = k_france
+			calc_true_if = {
+				amount = 3
+				has_landed_title = k_bavaria
+				has_landed_title = k_saxony
+				has_landed_title = k_lotharingia
+				has_landed_title = k_italy
+				has_landed_title = k_lombardy
+			}
 		}
 	}
 
@@ -2440,6 +2579,7 @@ character_event = {
 					reverse_opinion = { who = ROOT value = 25 }
 					pays_tribute_to = ROOT
 					has_landed_title = k_papal_state
+					ROOT = { rightful_religious_head = PREV }
 				}
 				capital_scope = {
 					kingdom = {
@@ -2476,7 +2616,7 @@ character_event = {
 	hide_window = yes
 
 	only_playable = yes
-	religion = catholic
+	religion = chalcedonian
 	only_independent = yes
 	min_age = 16
 	capable_only = yes
@@ -2508,6 +2648,7 @@ character_event = {
 				reverse_opinion = { who = ROOT value = 25 }
 				pays_tribute_to = ROOT
 				has_landed_title = k_papal_state
+				ROOT = { rightful_religious_head = PREV }
 			}
 			capital_scope = {
 				kingdom = {
@@ -2573,10 +2714,313 @@ character_event = {
 					reverse_opinion = { who = ROOT value = 25 }
 					pays_tribute_to = ROOT
 					has_landed_title = k_papal_state
+					ROOT = { rightful_religious_head = PREV }
 				}
 				capital_scope = {
 					kingdom = {
 						title = k_france
+						any_direct_de_jure_vassal_title = {
+							any_direct_de_jure_vassal_title = {
+								OR = {
+									holder_scope = { same_realm = ROOT }
+									location = { any_neighbor_province = { owner = { same_realm = ROOT } } }
+								}
+							}
+						}
+					}
+				}
+			}
+			capital_scope = {
+				kingdom = {
+					ROOT = {
+						war = {
+							casus_belli = carolingian_manifest_destiny
+							target = PREVPREV # The top liege of the owner
+							thirdparty_title = PREV # The de jure kingdom
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = CM.1119
+
+	hide_window = yes
+
+	only_playable = yes
+	religion = chalcedonian
+	only_independent = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		dynasty = 25061
+		ai = yes
+		war = no
+		higher_real_tier_than = DUKE
+		NOR = {
+			has_strong_claim = k_lombardy
+			has_global_flag = hre_formed
+			has_global_flag = carolingian_empire_formed
+			has_character_modifier = do_not_disturb
+		}
+		OR = {
+			has_character_flag = is_charlemagne
+			NOT = { any_independent_ruler = { has_character_flag = is_charlemagne } }
+		}
+		any_independent_ruler = {
+			religion = ROOT
+			reverse_realm_levy_diff = { who = ROOT value = 7500 }
+			any_realm_title = {
+				count = 3
+				tier = COUNT
+				kingdom = { title = k_lombardy }
+			}
+			NOR = {
+				reverse_has_truce = ROOT
+				dynasty = ROOT
+				is_allied_with = ROOT
+				is_married = ROOT
+				reverse_opinion = { who = ROOT value = 25 }
+				pays_tribute_to = ROOT
+				has_landed_title = k_papal_state
+				ROOT = { rightful_religious_head = PREV }
+			}
+			capital_scope = {
+				kingdom = {
+					title = k_lombardy
+					any_direct_de_jure_vassal_title = {
+						any_direct_de_jure_vassal_title = {
+							OR = {
+								holder_scope = { same_realm = ROOT }
+								location = { any_neighbor_province = { owner = { same_realm = ROOT } } }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 2.0
+			NOT = {
+				calc_true_if = {
+					amount = 2
+					has_landed_title = k_bavaria
+					has_landed_title = k_saxony
+					has_landed_title = k_lotharingia
+					has_landed_title = k_italy
+					has_landed_title = k_lombardy
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			calc_true_if = {
+				amount = 2
+				has_landed_title = k_bavaria
+				has_landed_title = k_saxony
+				has_landed_title = k_lotharingia
+				has_landed_title = k_italy
+				has_landed_title = k_lombardy
+			}
+		}
+		modifier = {
+			factor = 0.25
+			calc_true_if = {
+				amount = 3
+				has_landed_title = k_bavaria
+				has_landed_title = k_saxony
+				has_landed_title = k_lotharingia
+				has_landed_title = k_italy
+				has_landed_title = k_lombardy
+			}
+		}
+	}
+
+	immediate = {
+		random_independent_ruler = {
+			limit = {
+				religion = ROOT
+				reverse_realm_levy_diff = { who = ROOT value = 7500 }
+				any_realm_title = {
+					count = 3
+					tier = COUNT
+					kingdom = { title = k_lombardy }
+				}
+				NOR = {
+					reverse_has_truce = ROOT
+					dynasty = ROOT
+					is_allied_with = ROOT
+					is_married = ROOT
+					reverse_opinion = { who = ROOT value = 25 }
+					pays_tribute_to = ROOT
+					has_landed_title = k_papal_state
+					ROOT = { rightful_religious_head = PREV }
+				}
+				capital_scope = {
+					kingdom = {
+						title = k_lombardy
+						any_direct_de_jure_vassal_title = {
+							any_direct_de_jure_vassal_title = {
+								OR = {
+									holder_scope = { same_realm = ROOT }
+									location = { any_neighbor_province = { owner = { same_realm = ROOT } } }
+								}
+							}
+						}
+					}
+				}
+			}
+			capital_scope = {
+				kingdom = {
+					ROOT = {
+						war = {
+							casus_belli = carolingian_manifest_destiny
+							target = PREVPREV # The top liege of the owner
+							thirdparty_title = PREV # The de jure kingdom
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = CM.1125
+
+	hide_window = yes
+
+	only_playable = yes
+	religion = chalcedonian
+	only_independent = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		dynasty = 25061
+		ai = yes
+		war = no
+		higher_real_tier_than = DUKE
+		NOR = {
+			has_global_flag = hre_formed
+			has_global_flag = carolingian_empire_formed
+			has_character_modifier = do_not_disturb
+		}
+		any_independent_ruler = {
+			religion = ROOT
+			reverse_realm_levy_diff = { who = ROOT value = 7500 }
+			any_realm_title = {
+				count = 3
+				tier = COUNT
+				kingdom = { title = k_italy }
+			}
+			NOR = {
+				reverse_has_truce = ROOT
+				dynasty = ROOT
+				is_allied_with = ROOT
+				is_married = ROOT
+				reverse_opinion = { who = ROOT value = 25 }
+				pays_tribute_to = ROOT
+				has_landed_title = k_papal_state
+				ROOT = { rightful_religious_head = PREV }
+			}
+			capital_scope = {
+				kingdom = {
+					title = k_italy
+					any_direct_de_jure_vassal_title = {
+						any_direct_de_jure_vassal_title = {
+							OR = {
+								holder_scope = { same_realm = ROOT }
+								location = { any_neighbor_province = { owner = { same_realm = ROOT } } }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 2.0
+			NOT = {
+				calc_true_if = {
+					amount = 2
+					has_landed_title = k_bavaria
+					has_landed_title = k_saxony
+					has_landed_title = k_lotharingia
+					has_landed_title = k_italy
+					has_landed_title = k_lombardy
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			calc_true_if = {
+				amount = 2
+				has_landed_title = k_bavaria
+				has_landed_title = k_saxony
+				has_landed_title = k_lotharingia
+				has_landed_title = k_italy
+				has_landed_title = k_lombardy
+			}
+		}
+		modifier = {
+			factor = 0.25
+				calc_true_if = {
+					amount = 2
+					has_landed_title = k_bavaria
+					has_landed_title = k_saxony
+					has_landed_title = k_lotharingia
+				}
+		}
+		modifier = {
+			factor = 0.5
+			calc_true_if = {
+				amount = 3
+				has_landed_title = k_bavaria
+				has_landed_title = k_saxony
+				has_landed_title = k_lotharingia
+				has_landed_title = k_italy
+				has_landed_title = k_lombardy
+			}
+		}
+	}
+
+	immediate = {
+		random_independent_ruler = {
+			limit = {
+				religion = ROOT
+				reverse_realm_levy_diff = { who = ROOT value = 7500 }
+				any_realm_title = {
+					count = 3
+					tier = COUNT
+					kingdom = { title = k_italy }
+				}
+				NOR = {
+					reverse_has_truce = ROOT
+					dynasty = ROOT
+					is_allied_with = ROOT
+					is_married = ROOT
+					reverse_opinion = { who = ROOT value = 25 }
+					pays_tribute_to = ROOT
+					has_landed_title = k_papal_state
+					ROOT = { rightful_religious_head = PREV }
+				}
+				capital_scope = {
+					kingdom = {
+						title = k_italy
 						any_direct_de_jure_vassal_title = {
 							any_direct_de_jure_vassal_title = {
 								OR = {
@@ -4079,3 +4523,151 @@ character_event = {
 	}
 }
 
+# Prompt AI to work towards HRE
+character_event = {
+	id = CM.1502
+	desc = AI_EVENT
+	picture = GFX_evt_council
+
+	hide_window = yes
+
+	only_playable = yes
+	religion = chalcedonian
+	only_independent = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		ai = yes
+		war = no
+		wealth = 0
+		higher_real_tier_than = DUKE
+		has_global_flag = carolingian_empire_fallen
+		rightful_religious_head_scope = {
+			NOT = { character = ROOT }
+			has_landed_title = k_papal_chalcedon
+		}
+		OR = {
+			has_landed_title = k_germany
+			k_germany = { has_holder = no }
+			k_germany = { holder_scope = { NOT = { realm_size = 75 } } }
+		}
+		NOR = {
+			trait = content
+			has_global_flag = hre_formed
+			is_title_active = e_karling
+			has_character_flag = former_carolingian_emperor
+			has_character_modifier = do_not_disturb
+		}
+		any_independent_ruler = {
+			religion_group = ROOT
+			NOT = { is_heresy_of = ROOT }
+			NOT = { is_parent_religion = ROOT }
+			reverse_realm_levy_diff = { who = ROOT value = 5000 }
+			any_realm_title = {
+				tier = DUKE
+				de_jure_liege_or_above = e_hre
+				any_direct_de_jure_vassal_title = {
+					location = {
+						any_neighbor_province = {
+							owner = { same_realm = ROOT }
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { is_allied_with = ROOT }
+				ROOT = {
+					OR = {
+						trait = ambitious
+						trait = deceitful
+						trait = envious
+					}
+					prestige = 500
+				}
+			}
+			NOR = {
+				same_realm = ROOT
+				reverse_has_truce = ROOT
+				is_married = ROOT
+				reverse_opinion = { who = ROOT value = 0 }
+				pays_tribute_to = ROOT
+				ROOT = { rightful_religious_head = PREV }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+	}
+
+	immediate = {
+		random_independent_ruler = {
+			limit = {
+				religion_group = ROOT
+				NOT = { is_heresy_of = ROOT }
+				NOT = { is_parent_religion = ROOT }
+				reverse_realm_levy_diff = { who = ROOT value = 5000 }
+				any_realm_title = {
+					tier = DUKE
+					de_jure_liege_or_above = e_hre
+					any_direct_de_jure_vassal_title = {
+						location = {
+							any_neighbor_province = {
+								owner = { same_realm = ROOT }
+							}
+						}
+					}
+				}
+				OR = {
+					NOT = { is_allied_with = ROOT }
+					ROOT = {
+						OR = {
+							trait = ambitious
+							trait = deceitful
+							trait = envious
+						}
+						prestige = 500
+					}
+				}
+				NOR = {
+					same_realm = ROOT
+					reverse_has_truce = ROOT
+					is_married = ROOT
+					reverse_opinion = { who = ROOT value = 0 }
+					pays_tribute_to = ROOT
+					ROOT = { rightful_religious_head = PREV }
+				}
+			}
+			random_realm_title = {
+				limit = {
+					tier = DUKE
+					de_jure_liege_or_above = e_hre
+					any_direct_de_jure_vassal_title = {
+						location = {
+							any_neighbor_province = {
+								owner = { same_realm = ROOT }
+							}
+						}
+					}
+				}
+				ROOT = {
+					war = {
+						casus_belli = carolingian_reconquest
+						target = PREVPREV
+						thirdparty_title = PREV
+					}
+				}
+			}
+		}
+	}
+}

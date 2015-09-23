@@ -17,8 +17,11 @@ b_kolmar = city
 
 # Misc
 culture = swabian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1135.1.1 = { b_altkirch = castle } #Habsburg landgraves of Upper Alsace
 1170.1.1 = { culture = german }

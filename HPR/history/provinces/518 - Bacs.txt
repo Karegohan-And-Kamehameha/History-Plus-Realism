@@ -18,8 +18,11 @@ culture = avar
 religion = tengri_pagan
 
 # History
-890.1.1 = { religion = catholic }
+890.1.1 = { religion = chalcedonian }
 950.1.1 = { culture = hungarian }
 1000.1.1 = { b_bodrog = castle }
 1000.1.1 = { b_bacs = castle }
+1054.1.1 = {
+	religion = catholic
+}
 1060.1.1 = { b_obecse = castle }

@@ -22,7 +22,10 @@ culture = russian
 religion = slavic_pagan
 
 # History
-1025.1.1 = {religion = orthodox }
+1025.1.1 = {religion = chalcedonian }
 1025.1.1 = {b_tarusa = castle
 b_obolensk = castle
 b_borovsk = city}
+1054.1.1 = {
+	religion = orthodox
+}

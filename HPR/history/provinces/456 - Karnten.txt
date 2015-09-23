@@ -23,9 +23,12 @@ b_gurk = temple
 
 # Misc
 culture = karantanci # Bavarian & Frankish settlement started before 867
-#culture = bavarian 
-religion = catholic
+#culture = bavarian
+religion = chalcedonian
 
 # History
-1100.1.1 = { culture = bavarian } # less densely populated mountainous regions remained mostly Slavic till 1300 
+1054.1.1 = {
+	religion = catholic
+}
+1100.1.1 = { culture = bavarian } # less densely populated mountainous regions remained mostly Slavic till 1300
 1170.1.1 = { culture = german } # as a majority the population stayed mixed

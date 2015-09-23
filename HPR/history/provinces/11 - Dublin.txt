@@ -21,11 +21,14 @@ religion = norse_pagan
 # History
 867.1.1 = {
 	b_dunleary = ca_shipyard_1
-} 
+}
 1028.1.1 = { b_christ_church = temple }
-1028.1.1 = { religion = catholic }
+1028.1.1 = { religion = chalcedonian }
 1047.10.25 = { culture = norsegaelic }
+1054.1.1 = {
+	religion = catholic
+}
 1126.7.1 = { capital = b_dublin } #Falling back under local Ostman city rule
 1170.7.1 = { capital = b_dunleary } #End of direct city indepedence
 1172.1.1 = { culture = english }
-1337.1.1 = { b_dublin_castle = castle } 
+1337.1.1 = { b_dublin_castle = castle }

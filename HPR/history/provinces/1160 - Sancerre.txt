@@ -14,6 +14,9 @@ b_stbrisson = temple
 
 # Misc
 culture = frankish
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}

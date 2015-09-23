@@ -14,13 +14,16 @@ b_huntingdon = castle
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
 880.1.1 = { culture = norse } # Danes settle down
 880.1.1 = { religion = norse_pagan } # Danes settle down
-917.1.1 = { religion = catholic } # Taken by Wessex
+917.1.1 = { religion = chalcedonian } # Taken by Wessex
 975.1.1 = { b_ramsey = temple }
 1000.1.1 = { b_st_ives = city }
 1002.11.13 = { culture = saxon } # St. Brice's Day
+1054.1.1 = {
+	religion = catholic
+}
 1100.11.11 = { culture = english }

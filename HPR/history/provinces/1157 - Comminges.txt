@@ -17,6 +17,9 @@ b_aspet = castle
 
 # Misc
 culture = occitan
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}

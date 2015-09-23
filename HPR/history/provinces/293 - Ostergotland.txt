@@ -7,27 +7,29 @@ title = c_ostergotland
 max_settlements = 5
 
 b_stegeborg = tribal
-#b_skanninge = city	
-#b_linkoping = temple	
+#b_skanninge = city
+#b_linkoping = temple
 
-#b_soderkoping = city	
+#b_soderkoping = city
 
-#b_vreta = temple 	
-#b_alvastra = temple 	
-#b_vadstena = temple 	
-#b_norrkoping = castle	
+#b_vreta = temple
+#b_alvastra = temple
+#b_vadstena = temple
+#b_norrkoping = castle
 
 # Misc
 culture = norse
 religion = norse_pagan
 
 # History
-1022.1.7 = { 
+1022.1.7 = {
 b_stegeborg = castle
-b_skanninge = city	
+b_skanninge = city
 b_linkoping = temple }
-1022.1.7 = {religion = catholic}
-1047.10.25 = { culture = gothic } 
-
+1022.1.7 = {religion = chalcedonian}
+1047.10.25 = { culture = gothic }
+1054.1.1 = {
+	religion = catholic
+}
 1187.1.1 = { b_soderkoping = city }
 1235.1.1= { trade_post = b_wittenborg }

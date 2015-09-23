@@ -17,11 +17,13 @@ b_pempton = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = orthodox
+}
+1066.1.1 = {
 	b_constantinople = ca_keep_1
 	b_constantinople = ca_keep_2
 	b_constantinople = ca_training_grounds_1
@@ -59,5 +61,5 @@ religion = orthodox
 # Byzantine retake Constantinople
 
 1262.1.1 = { b_phanarion = city }
- 
+
 1337.1.1 = { b_deuteron = castle }

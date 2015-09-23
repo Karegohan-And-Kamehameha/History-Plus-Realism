@@ -14,6 +14,9 @@ b_silven = city
 
 # Misc
 culture = bulgarian
-religion = orthodox
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = orthodox
+}

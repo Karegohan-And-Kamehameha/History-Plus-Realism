@@ -7,7 +7,7 @@ title = c_nikomedeia
 max_settlements = 5
 
 b_nikomedeia = castle
-b_praenetos = city 
+b_praenetos = city
 b_daphnousia = temple
 b_kibotos = city
 
@@ -17,10 +17,12 @@ b_kibotos = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 1194.1.1 = { trade_post = b_spinola }
 
 

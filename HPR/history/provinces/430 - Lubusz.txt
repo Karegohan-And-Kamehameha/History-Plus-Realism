@@ -18,9 +18,12 @@ religion = slavic_pagan
 
 # History
 
-1000.1.1 = { culture = polish 
+1000.1.1 = { culture = polish
 b_krosnoodrzanskie = castle
 b_lubusz = temple
 b_kostrzyn = city}
-1000.1.1 = { religion = catholic }
+1000.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = catholic
+}
 1253.1.1 = { culture = german }

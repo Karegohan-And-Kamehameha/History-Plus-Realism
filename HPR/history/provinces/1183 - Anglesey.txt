@@ -13,8 +13,11 @@ b_abberffraw = castle
 
 # Misc
 culture = welsh
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
 
+1054.1.1 = {
+	religion = catholic
+}

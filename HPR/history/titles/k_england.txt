@@ -1,5 +1,5 @@
 100.1.1={
-	pentarch = b_roma
+	pentarch = d_pentarch_rome
 	law = agnatic_succession
 	law = succ_primogeniture
 	law = crown_authority_2
@@ -51,7 +51,7 @@
 	holder=114 # Eadward the Confessor
 }
 1066.1.5={
-	holder=122 # Harold Godwinson	
+	holder=122 # Harold Godwinson
 }
 1066.10.14={
 	holder=140 # William the Conqueror
@@ -64,7 +64,7 @@
 }
 1100.8.3={
 	holder = 202992 #Henry I
-} 
+}
 1135.12.2={
 	holder = 205851 #Stephen
 }

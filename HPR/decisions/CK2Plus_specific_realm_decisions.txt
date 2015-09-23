@@ -856,16 +856,18 @@ decisions = {
 		potential = {
 			is_feudal = yes
 			independent = yes
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = chalcedonian
+			}
 			is_heretic = no
 			tier = EMPEROR
 			OR = {
 				has_landed_title = e_hre
 				has_landed_title = e_karling
 			}
-			NOT = {
+			NOR = {
 				has_character_flag = wants_coronation
-				is_heretic = yes
 				trait = crowned_by_pope
 			}
 		}
@@ -905,84 +907,65 @@ decisions = {
 		potential = {
 			e_hre = { has_holder = no }
 			e_roman_empire = { has_holder = no }
-			religion = catholic
-			is_ruler = yes
+				is_playable = yes
+			higher_tier_than = DUKE
 			is_heretic = no
-			has_regent = no
-			capital_scope = {
+			OR = {
+				religion = catholic
+				religion = chalcedonian
+			}
+			rightful_religious_head_scope = {
+				NOT = { character = ROOT }
 				OR = {
-					empire = { title = e_hre }
-					region = custom_germany
-					region = custom_lotharingia
-					region = custom_italy
-					region = custom_burgundy
-					region = custom_frisia
+					has_landed_title = k_papal_state
+					has_landed_title = k_papal_chalcedon
 				}
 			}
-			OR = {
-				tier = KING
-				AND = {
-					tier = EMPEROR
-					primary_title = { is_titular = yes }
-				}
-			}
-			OR = {
-				AND = { #either the Karlings lost France and Lotharingia before forming the Empire
-					NOT = { has_global_flag = carolingian_empire_formed }
-					NOT = {
-						k_france = { holder_scope = { dynasty = 25061 } }
-						k_lotharingia = { holder_scope = { dynasty = 25061 } }
-					}
-				}
-				has_global_flag = carolingian_empire_fallen
-			}
-			NOT = {
+			has_global_flag = carolingian_empire_fallen
+			NOR = {
 				is_title_active = e_karling
 				has_global_flag = hre_formed
 				has_global_flag = rome_restored
-				rightful_religious_head_scope = {
-					has_character_flag = approached_for_coronation
-				}
+				rightful_religious_head_scope = { has_character_flag = approached_for_coronation }
 			}
 		}
 		allow = {
 			war = no
+			has_regent = no
 			independent = yes
 			prestige = 1000
 			piety = 100
+			realm_size = 150
 			custom_tooltip = {
 				text = NOT_DEPOSED_EMPEROR
 				hidden_tooltip = {
 					NOT = { has_character_flag = former_carolingian_emperor }
 				}
 			}
-			OR = {
-				has_landed_title = k_germany
-				AND = {
-					NOT = { has_global_flag = carolingian_empire_formed }
-					has_landed_title = k_lotharingia
-				}
-			}
-			realm_size = 150
+			has_landed_title = k_germany
 			custom_tooltip = {
-				text = CONTROLS_7_GERMAN_DUCHIES
+				text = CONTROLS_6_GERMAN_DUCHIES
 				hidden_tooltip = {
-					OR = {
-						k_germany = {
+					any_realm_title = {
+						count = 6
+						tier = DUKE
+						dejure_liege_title = { title = k_germany }
+						OR = {
+							holder_scope = { same_realm = ROOT }
 							any_direct_de_jure_vassal_title = {
-								ROOT = { completely_controls = PREV }
-								count = 7
+								count = 3
+								holder_scope = { same_realm = ROOT }
 							}
-						}
-						AND = {
-							NOT = { has_global_flag = carolingian_empire_formed }
-							k_germany = { is_titular = yes }
-							any_realm_title = {
-								tier = DUKE
-								lower_tier_than = ROOT
-								capital_scope = { region = custom_germany }
-								ROOT = { completely_controls = PREV }
-								count = 7
+							any_direct_de_jure_vassal_title = {
+								OR = {
+									dejure_liege_title = { title = d_thuringia }
+									dejure_liege_title = { title = d_baden }
+									dejure_liege_title = { title = d_osterreich }
+									dejure_liege_title = { title = d_tyrol }
+								}
+								count = 2
+								holder_scope = { same_realm = ROOT }
+
 							}
 						}
 					}
@@ -997,6 +980,117 @@ decisions = {
 							has_opinion_modifier = {
 								who = ROOT
 								modifier = coronation_rejected
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			rightful_religious_head_scope = {
+				set_character_flag = approached_for_coronation
+				letter_event = { id = Plus.1155 tooltip = ask_for_coronation }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		form_the_hre_early = {
+		is_high_prio = yes
+		potential = {
+			e_hre = { has_holder = no }
+			e_roman_empire = { has_holder = no }
+			is_playable = yes
+			higher_tier_than = DUKE
+			is_heretic = no
+			OR = {
+				religion = catholic
+				religion = chalcedonian
+			}
+			rightful_religious_head_scope = {
+				NOT = { character = ROOT }
+				OR = {
+					has_landed_title = k_papal_state
+					has_landed_title = k_papal_chalcedon
+				}
+			}
+			NOR = {
+				dynasty = 25061
+				is_title_active = e_karling
+				has_global_flag = carolingian_empire_formed
+				has_global_flag = hre_formed
+				has_global_flag = rome_restored
+				rightful_religious_head_scope = { has_character_flag = approached_for_coronation }
+			}
+		}
+		allow = {
+			war = no
+			has_regent = no
+			independent = yes
+			prestige = 1000
+			piety = 100
+			realm_size = 150
+			custom_tooltip = {
+				text = POPE_WOULD_HEAR_REQUEST
+				hidden_tooltip = {
+					NOT = { trait = excommunicated }
+					rightful_religious_head_scope = {
+						NOT = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = coronation_rejected
+							}
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = CONTROL_ANY_THREE_KINGDOMS
+				hidden_tooltip = {
+					calc_true_if = {
+						amount = 3
+						AND = {
+							k_france = { is_titular = no }
+							OR = {
+								has_landed_title = k_france
+								any_vassal = { has_landed_title = k_france }
+							}
+						}
+						AND = {
+							k_lotharingia = { is_titular = no }
+							OR = {
+								has_landed_title = k_lotharingia
+								any_vassal = { has_landed_title = k_lotharingia }
+							}
+						}
+						AND = {
+							k_saxony = { is_titular = no }
+							OR = {
+								has_landed_title = k_saxony
+								any_vassal = { has_landed_title = k_saxony }
+							}
+						}
+						AND = {
+							k_bavaria = { is_titular = no }
+							OR = {
+								has_landed_title = k_bavaria
+								any_vassal = { has_landed_title = k_bavaria }
+							}
+						}
+						AND = {
+							k_italy = { is_titular = no }
+							OR = {
+								has_landed_title = k_italy
+								any_vassal = { has_landed_title = k_italy }
+							}
+						}
+						AND = {
+							k_germany = { is_titular = no }
+							OR = {
+								has_landed_title = k_germany
+								any_vassal = { has_landed_title = k_germany }
 							}
 						}
 					}

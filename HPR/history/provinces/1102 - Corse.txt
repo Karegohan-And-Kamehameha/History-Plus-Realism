@@ -15,7 +15,10 @@ b_cardo = city
 
 # Misc
 culture = corsican
-religion = catholic
+religion = chalcedonian
 terrain = mountain
 
 # History
+1054.1.1 = {
+	religion = catholic
+}

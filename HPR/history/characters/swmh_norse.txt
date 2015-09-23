@@ -20,7 +20,7 @@
 1000144477 = { ### not yet given a title
 	name="Asgot" # Osgod Clapa master of the stable(Staller) for the English king and biggest influence in Eastaglia 1026-1045(no Earldorman for the period). Exiled in 1046.
 	dynasty=1000100021 # #Clapa, stupid name for a dynasty but I haven't got any better idea.
-	religion="catholic"
+	religion = "chalcedonian"
 	culture=norse
 	980.1.1={
 		birth = yes
@@ -113,8 +113,8 @@
 	}
 }
 ### the missing two of the five kings of the army that took eastanglea
-1000144478 = { 
-	name="Oskitlel" # 
+1000144478 = {
+	name="Oskitlel" #
 	dynasty=1000053389
 	religion="norse_pagan"
 	culture=norse
@@ -125,7 +125,7 @@
 		death = yes
 	}
 }
-1000144479 = { 
+1000144479 = {
 	name="Hamond" # weird name for a norseman.
 	dynasty=1000053387
 	religion="norse_pagan"
@@ -139,7 +139,7 @@
 }
 ##other Famous contemoprary viking leaders
 #
-1000144490 = { 
+1000144490 = {
 	name="Veland" # Veland, leader of the fleet that burned Pairs in 861.
         dynasty=1000053380
 	religion="norse_pagan"
@@ -156,7 +156,7 @@
 
 ######################################
 #Hilidtön/Skånske skjoldunger
-1000144481 = { 
+1000144481 = {
 	name="Heming" # 3d Son of Strut-Harald, killed by Ethelred the unready.
 	dynasty=9552
 	religion="norse_pagan"
@@ -169,7 +169,7 @@
 		death = yes
 	}
 }
-1000144482 = { 
+1000144482 = {
 	name="Tove" # daughter of Strut-Harald, wife of Sigurd kappe
 	dynasty=9552
 	religion="norse_pagan"
@@ -187,7 +187,7 @@
 #########
 #House of Bornholm
 
-1000144483 = { 
+1000144483 = {
 	name="Véseta" # Vesete Jarl of Bornholm. ?-980ish
 	dynasty=477
 	religion="norse_pagan"
@@ -199,7 +199,7 @@
 		death = yes
 	}
 }
-1000144484 = { 
+1000144484 = {
 	name="Sigurd" # Sigurd Kappe/Kaabe son of Vesete, jarl of Bornholm 986ish-?.
 	dynasty=477
 	religion="norse_pagan"
@@ -215,7 +215,7 @@
 		death = yes
 	}
 }
-1000144485 = { 
+1000144485 = {
 	name="Bue" # Bue digre son of Vesete of bornholm. Jarl of Bornholm between Vesete and Sigurd? Likely Jarl of Jomsborg.
 	dynasty=477
 	religion="norse_pagan"
@@ -228,7 +228,7 @@
 		death=yes # fell at the battle of Hjørungavåg
 	}
 }
-1000144486 = { 
+1000144486 = {
 	name="Þórgunnr"  #  Thorgunn daughter of Veste of Bornholm.
 	dynasty=477
 	religion="norse_pagan"
@@ -242,7 +242,7 @@
 		death = yes
 	}
 }
-1000144488 = { 
+1000144488 = {
 	name="Kaabe-Sven" #Kåbe-Svend son or grandson of Sigurd Kåbe, Jarl or Cheiftan of Bornholm ?
 	dynasty=477
 	religion="norse_pagan"
@@ -258,7 +258,7 @@
 		death = yes
 	}
 }
-1000144489 = { 
+1000144489 = {
 	name="Bøse" # Bøse son of Kåbe-Svend, Killed at the battle of Udlænge 1050ish
 	religion="norse_pagan"
 	culture=norse
@@ -274,7 +274,7 @@
 }
 ##############
 #
-1000144487 = { 
+1000144487 = {
 	name="Áki" # Åke tokesoøn
 	religion="norse_pagan"
 	culture=norse
@@ -290,7 +290,7 @@
 }
 #####
 #
-1000144491 = { 
+1000144491 = {
 	name="Howí" # Howi jarl of southern jutland under Horik II.
         dynasty=1000053390
 	religion="norse_pagan"
@@ -299,12 +299,12 @@
 		birth = yes
 	}
 	856.1.1={
-		death=yes # Deposed by Horik II, 
+		death=yes # Deposed by Horik II,
 	}
 }
 ##############
 # House of Palnatoke/Fyn
-1000144492 = { 
+1000144492 = {
 	name="Toke" # Jarl of Fyn, grandfather of Palnatoke.
         dynasty=1000053391
 	religion="norse_pagan"
@@ -319,7 +319,7 @@
 		death = yes
 	}
 }
-1000144493 = { 
+1000144493 = {
 	name="Torver" # Wife of Toke
 	religion="norse_pagan"
 	culture=norse
@@ -331,7 +331,7 @@
 		death = yes
 	}
 }
-1000144494 = { 
+1000144494 = {
 	name="Áki" # Åke oldest son of toke
         dynasty=1000053391
 	religion="norse_pagan"
@@ -345,7 +345,7 @@
 		death=yes # Slain at the order of Harald Bluetooh
 	}
 }
-1000144495 = { 
+1000144495 = {
 	name="Palner" # second son of Toke, father of Palnatoke, Jarl of Fyn.
         dynasty=1000053391
 	religion="norse_pagan"
@@ -362,7 +362,7 @@
 		death = yes
 	}
 }
-1000144496 = { 
+1000144496 = {
 	name="Fjölner" # Illegitimate son of Toke
         dynasty=1000053391
 	religion="norse_pagan"
@@ -377,7 +377,7 @@
 }
 1000144497 = {
 	name="Ingibjörg" # Ingborg daughter of Ottar jarl of Götaland.
-	female = yes	
+	female = yes
 	religion="norse_pagan"
 	culture=norse
 	915.1.1={
@@ -387,7 +387,7 @@
 		death = yes
 	}
 }
-1000144498 = { 
+1000144498 = {
 	name="Toke" # Palner Toke, Jarl of Fyn and later Jomsborg.
         dynasty=1000053391
 	religion="norse_pagan"
@@ -403,7 +403,7 @@
 }
 #####
 #Cheifs/kigns of Telemark, seated at Fivlavollen
-1000228000 = { 
+1000228000 = {
 	name="Ulfr" #Ulv Gylde Chief of Telemark.
         dynasty=1000053392 # Gyldir
 	religion="norse_pagan"
@@ -415,7 +415,7 @@
 		death = yes
 	}
 }
-1000228001 = { 
+1000228001 = {
 	name="Aasgrim" # Son of Ulv.
         dynasty=1000053392 # Gyldir
 	religion="norse_pagan"
@@ -428,7 +428,7 @@
 		death=yes # murderd by Tororms of Tromøy, on behest of Harald Fairhair
 	}
 }
-1000228002 = { 
+1000228002 = {
 	name="Torstein" # Torstein son of Aasgrim. Left for Iceland shorthly after the death of his father.
         dynasty=1000053392 # Gyldir
 	religion="norse_pagan"
@@ -444,7 +444,7 @@
 # Telemark given to Bjørn Farmann around 925
 #####
 #Kings of Orkdal
-1000228003 = { 
+1000228003 = {
 	name="Grýt" # exact form of name is uncertain
         dynasty=1000053393 # Grýting
 	religion="norse_pagan"
@@ -458,7 +458,7 @@
 }
 #####
 #Kings of Raumdal
-1000228009 = { 
+1000228009 = {
 	name="Nökkvi" # Nøkkve king of Raumdal, father in law of Huntjov
         dynasty=1000053395 # Rauming
 	religion="norse_pagan"
@@ -470,7 +470,7 @@
 		death=yes #fell at the first battle of Solskjell
 	}
 }
-1000228010 = { 
+1000228010 = {
 	name="Hildrida" # name unknown
         dynasty=1000053395 # Rauming
 	religion="norse_pagan"
@@ -486,7 +486,7 @@
 }
 #####
 #Kings of Nordmøre/Møre
-1000228004 = { 
+1000228004 = {
 	name="Halfdan" # father of Ivar
         dynasty=1000053394 # Klove
 	religion="norse_pagan"
@@ -498,7 +498,7 @@
 		death = yes
 	}
 }
-1000228005 = { 
+1000228005 = {
 	name="Ivar" # Ivar Halvdansson mørekonge
         dynasty=1000053394 # Klove
 	religion="norse_pagan"
@@ -511,7 +511,7 @@
 		death = yes
 	}
 }
-1000228006 = { 
+1000228006 = {
 	name="Öysteinn" # Øystein Ivarsson mørekonge
         dynasty=1000053394 # Klove
 	religion="norse_pagan"
@@ -524,7 +524,7 @@
 		death = yes
 	}
 }
-1000228007 = { 
+1000228007 = {
 	name="Hundþjófr" # Hundtjov Mørekonge
         dynasty=1000053394 # Klove
 	religion="norse_pagan"
@@ -540,7 +540,7 @@
 		death=yes #fell at the first battle of Solskjell
 	}
 }
-1000228008 = { 
+1000228008 = {
 	name="Sölve" # Solve Klove Hundtjovson, held land in Foerde
         dynasty=1000053394 # Klove
 	religion="norse_pagan"
@@ -561,7 +561,7 @@
 
 #####
 #Kings of Sunnmøre
-1000228013 = { 
+1000228013 = {
 	name="Þorvid" # Torvid father of Arnvid
         dynasty=1000053399 # Þorviding
 	religion="norse_pagan"
@@ -573,7 +573,7 @@
 		death = yes
 	}
 }
-1000228014 = { 
+1000228014 = {
 	name="Arnvid" # Arnvid Thorvidsson
         dynasty=1000053399 # Þorviding
 	religion="norse_pagan"
@@ -588,7 +588,7 @@
 }
 #####
 #Kings of Sogn
-1000228011 = { 
+1000228011 = {
 	name="Haraldr" # Harald Guldskæg, king of Sogn
         dynasty=1000100900
 	religion="norse_pagan"
@@ -603,7 +603,7 @@
 		death=yes # Died of old age
 	}
 }
-1000228012 = { 
+1000228012 = {
 	name="Rögnhildr" # daughter of Harald, a spouse of Halfdan Svarte
         dynasty=1000100900
 	religion="norse_pagan"
@@ -619,7 +619,7 @@
 	}
 }
 ## Jarls of Sogn
-1000228021 = { 
+1000228021 = {
 	name="Húndólf" # Húndólf jarl of gaular(in Foerde)
         dynasty=1000053397
 	religion="norse_pagan"
@@ -631,7 +631,7 @@
 		death = yes
 	}
 }
-1000228022 = { 
+1000228022 = {
 	name="Atli" # Atli the slender, Jarl of Sogn under Halfdan Svarte, independent and then jarl under Harald fairhair ca 879. # Foster father of 186504 (shouldn't be on Iceland in early game, must remember to correct that)
         dynasty=1000053397
 	religion="norse_pagan"
@@ -644,7 +644,7 @@
 		death = yes
 	}
 }
-1000228023 = { 
+1000228023 = {
 	name="Solvor" # Daughter of Hundolf, wife of Harald Guldskæg
         dynasty=1000053397
 	religion="norse_pagan"
@@ -658,7 +658,7 @@
 		death = yes
 	}
 }
-1000228024 = { 
+1000228024 = {
 	name="Solveig" # Solveig daughter of Atli
         dynasty=1000053397
 	religion="norse_pagan"
@@ -672,7 +672,7 @@
 		death = yes
 	}
 }
-1000228025 = { 
+1000228025 = {
 	name="Hallstein" # Hallstein son of Atli
         dynasty=1000053397
 	religion="norse_pagan"
@@ -685,7 +685,7 @@
 		death=yes # fell in the bloodfeud against Ingolf Arnason
 	}
 }
-1000228026 = { 
+1000228026 = {
 	name="Holmstein" # Holmstein son of Atli
         dynasty=1000053397
 	religion="norse_pagan"
@@ -698,7 +698,7 @@
 		death=yes # fell in the bloodfeud against Ingolf Arnason
 	}
 }
-1000228027 = { 
+1000228027 = {
 	name="Herstein" # Herstein son of Atli
         dynasty=1000053397
 	religion="norse_pagan"
@@ -711,8 +711,8 @@
 		death = yes
 	}
 }
-## House of Ulfr/Halftroll 
-1000228030 = { 
+## House of Ulfr/Halftroll
+1000228030 = {
 	name="Úlfr" # Ulf the brave
         dynasty=1000100904 # Hálfgífr
 	religion="norse_pagan"
@@ -725,7 +725,7 @@
 		death = yes
 	}
 }
-1000228031 = { 
+1000228031 = {
 	name="Hallbjörn" # Hallbjørn Halftroll
         dynasty=1000100904 # Hálfgífr
 	religion="norse_pagan"
@@ -739,7 +739,7 @@
 		death = yes
 	}
 }
-1000228032 = { 
+1000228032 = {
 	name="Hallbera" # Hallbera daughter of Ulf, mother of Ulf Bjalfason
         dynasty=1000100904 # Kveldulf
 	religion="norse_pagan"
@@ -755,7 +755,7 @@
 }
 
 ## House of Kveldulf
-1000228033 = { 
+1000228033 = {
 	name="Bjálfa" # Father of Ulf Bjalfason
         dynasty=1000100902 # Kveldulf
 	religion="norse_pagan"
@@ -770,7 +770,7 @@
 		death = yes
 	}
 }
-1000228034 = { 
+1000228034 = {
 	name="Úlfr" # Ulf (Kveldulf)Bjalfason, married Salbjorg Karis datter
         dynasty=1000100902 # Kveldulf
 	religion="norse_pagan"
@@ -788,12 +788,12 @@
 	}
 	866.1.1={
 		employer = 1000228022
-	}	
+	}
 	901.1.1={
 		death=yes # dies of Berserkfit after revenging Thorolf
 	}
 }
-1000228035 = { 
+1000228035 = {
 	name="Þorolfr" # Thorolf Kveldulfson Jarl of Halgoland
         dynasty=1000100902 # Kveldulf
 	religion="norse_pagan"
@@ -815,7 +815,7 @@
 		death=yes # Slain on behest of Harald fairhair
 	}
 }
-1000228036 = { 
+1000228036 = {
 	name="Grímr" # Grim Kveldulfson the bald(Skalla), married Bera Yngvarsdatter, setteld Borg on Iceland after fleeing with his father 901ish
         dynasty=1000100902 # Kveldulf
 	religion="norse_pagan"
@@ -831,7 +831,7 @@
 		death=yes # died of old age
 	}
 }
-1000228043 = { 
+1000228043 = {
 	name="Sigrid" # Sigrid wife of Thorolf Kveldulf, later wife of Eyvind Lamb
 	religion="norse_pagan"
 	culture=norse
@@ -843,7 +843,7 @@
 		death = yes
 	}
 }
-1000228046 = { 
+1000228046 = {
 	name="Egill" # Egill Skallagrímsson, the one with the Saga
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -859,7 +859,7 @@
 }
 #####
 #Kings of Foerde
-1000228015 = { 
+1000228015 = {
 	name="Audbjörn" # Audbjorn king of Foerde
         dynasty=1000100901
 	religion="norse_pagan"
@@ -872,7 +872,7 @@
 	}
 }
 ## House of Berle
-1000228037 = { 
+1000228037 = {
 	name="Vemund" # Vemund father of Berle-kari and Skjoldof
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -884,7 +884,7 @@
 		death=yes # died of old age
 	}
 }
-1000228038 = { 
+1000228038 = {
 	name="Karí" # Berle-kari
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -901,7 +901,7 @@
 		death = yes
 	}
 }
-1000228039 = { 
+1000228039 = {
 	name="Skjoldof" # One of the first settlers of iceland, could perhaps replace Ingolf Arneson in 867-872.
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -914,7 +914,7 @@
 		death = yes
 	}
 }
-1000228040 = { 
+1000228040 = {
 	name="Eyvind" # Eyvind Lamb, son of Berle-Kari
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -932,7 +932,7 @@
 		death = yes
 	}
 }
-1000228041 = { 
+1000228041 = {
 	name="Ölvir" # Olvir Hnufa, son of Berle-Kari Skald at Harald Fairhairs court.
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -945,12 +945,12 @@
 	}
 	866.1.1={
 		employer = 1000228022 # left his viking life to be near Solveig Atladottir
-	}			
+	}
 	925.1.1={
 		death = yes
 	}
 }
-1000228042 = { 
+1000228042 = {
 	name="Sálbjörg" # Salbjorg Karis datter, wife of Kveldulf Bjalfason.
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -964,7 +964,7 @@
 		death = yes
 	}
 }
-1000228044 = { 
+1000228044 = {
 	name="Finn" # Finn Eyvindsson, married Gundhild daughter of Jarl Halfdan
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -978,7 +978,7 @@
 		death = yes
 	}
 }
-1000228045 = { 
+1000228045 = {
 	name="Rannveig" # Rannveig Eyvinds datter, married Sighvat the red
         dynasty=1000100903 # Berðla
 	religion="norse_pagan"
@@ -995,7 +995,7 @@
 }
 #####
 #Jarls of Strind/Lade and kings of Halgoland
-1000228016 = { 
+1000228016 = {
 	name="Herlaug" # Jarl of Håløy, father of Grojtgard
         dynasty=1043302
 	religion="norse_pagan"
@@ -1033,7 +1033,7 @@
 #			death=yes
 #			}
 #}
-1000228017 = { 
+1000228017 = {
 	name="Åsa" # Daughter of Hakon, spouse of Harald fairhair
         dynasty=1043302
 	religion="norse_pagan"
@@ -1049,7 +1049,7 @@
 }
 #####
 #Kings of Rankriki
-1000228018 = { 
+1000228018 = {
 	name="Guttorm" # Guttorm Haraldson(fairhair)
         dynasty=499
 	religion="norse_pagan"
@@ -1065,7 +1065,7 @@
 }
 #####
 #Kings of Gudbrandzdalen and Oppland
-1000228019 = { 
+1000228019 = {
 	name="Guttorm" # Eystein Glumra king or jarl of Oppland
         dynasty=1043303
 	religion="norse_pagan"
@@ -1083,7 +1083,7 @@
 
 ####################
 #Arnmødlingene and Giske
-1000228020 = { 
+1000228020 = {
 	name="Finnvid" # Finnvid
         dynasty=1000053396
 	religion="norse_pagan"
@@ -1097,7 +1097,7 @@
 }
 #############
 #Svasse the Finn
-1000228028 = { 
+1000228028 = {
 	name="Svási" # Svási the finn, lived near Oppland(aka Herjedalen)
         dynasty=1000053398
 	religion="finnish_pagan"
@@ -1113,7 +1113,7 @@
 		death = yes
 	}
 }
-1000228029 = { 
+1000228029 = {
 	name="Snøfrid" # Daughter of Svasse, spouse of Harald Fairhair
         dynasty=1000053398
 	religion="finnish_pagan"
@@ -1134,7 +1134,7 @@
 }
 ###
 #Herjedalen
-1000228047 = { 
+1000228047 = {
 	name="Heriulfuer" # Härjulf Hornbreaker
         dynasty=1000100907 # Hornbreaker
 	religion="norse_pagan"
@@ -1149,7 +1149,7 @@
 		death = yes
 	}
 }
-1000228048 = { 
+1000228048 = {
 	name="Helga"
         dynasty=502 # Munsö
 	religion="norse_pagan"
@@ -1165,7 +1165,7 @@
 }
 #### Dal Rita
 #Additional family for Ketill flatnose
-1000228049 = { 
+1000228049 = {
 	name="Hrapp" # brother of Ketill
 	religion="norse_pagan"
 	culture=norse
@@ -1181,9 +1181,9 @@
 		death = yes
 	}
 }
-1000228050 = { 
+1000228050 = {
 	name="Orlyg" # nephew of Ketill
-	religion="catholic" # devout christian
+	religion = "chalcedonian" # devout christian
 	culture=norse
 	dynasty=9612
 	father=1000228049
@@ -1195,7 +1195,7 @@
 		death = yes
 	}
 }
-1000228051 = { 
+1000228051 = {
 	name="Ketill" # Ketill Wether, father of Ketill's wife, a Hersir in Ringrike
 	religion="norse_pagan"
 	culture=norse
@@ -1205,13 +1205,13 @@
 		birth = yes
 	}
 	850.1.1={
-		employer = 161301 
+		employer = 161301
 	}
 	869.1.1={
 		death = yes
 	}
 }
-1000228052 = { 
+1000228052 = {
 	name="Isgerður" # Wife of Hrapp mother of Orlyg
 	religion="norse_pagan"
 	culture=norse
@@ -1225,12 +1225,12 @@
 }
 ## Austmaður
 
-#Spares 
-#1000228053 
+#Spares
+#1000228053
 #1000228055
 #1000228057
 #1000228058
-1000228054 = { 
+1000228054 = {
 	name="Hlíf" # Wife of Bjarni Austmaður
 	religion="norse_pagan"
 	culture=norse

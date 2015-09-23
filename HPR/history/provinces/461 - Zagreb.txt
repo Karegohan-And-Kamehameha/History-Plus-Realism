@@ -14,7 +14,10 @@ b_sisak = temple
 
 # Misc
 culture = croatian
-religion = catholic
+religion = chalcedonian
 
 # History
-1242.1.1 = { b_kasina = castle} 
+1054.1.1 = {
+	religion = catholic
+}
+1242.1.1 = { b_kasina = castle}

@@ -282,27 +282,27 @@
 }
 #modified
 34800 = {
-	name="Litvoy" 
+	name="Litvoy"
 	dynasty=7311
 	religion="orthodox"
 	culture="romanian"
 	1225.1.1={
 		birth = yes
-	}	
+	}
 	1279.1.1={
 		death = yes
 	}
 }
 #
 34801 = {
-	name="Barbat" 
+	name="Barbat"
 	dynasty=7311
 	religion="orthodox"
 	culture="romanian"
 	father=228027
 	1230.1.1={
 		birth="1230.1.1"
-	}	
+	}
 	1290.1.1={
 		death="1290.1.1"
 	}
@@ -330,7 +330,7 @@
 	name="Janos"
 	#placeholder
 	dynasty=9580
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="romanian"
 	845.1.1 = {
 		birth="845.1.1"

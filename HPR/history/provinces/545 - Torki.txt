@@ -19,10 +19,12 @@ culture = russian
 religion = slavic_pagan
 
 # History
-988.1.1 = {religion = orthodox }
-1060.1.1 = {religion = orthodox }
+988.1.1 = {religion = chalcedonian }
+1054.1.1 = {
+	religion = orthodox
+}
 1060.1.1 = {culture = romanian }
 1320.1.1 = { b_suceava = castle
-b_bogdana = temple 
+b_bogdana = temple
 b_harlaumoldavia  = castle
 }

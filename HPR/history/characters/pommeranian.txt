@@ -25,11 +25,14 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="pommeranian"
 	trait="amateurish_plotter"
 	993.1.2={
 		birth="993.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.2={
 		death="1055.1.2"
@@ -56,8 +59,8 @@
 	1076.1.1={
 	add_spouse=30480 #Slavia z Liubice
 	}
-	
-	
+
+
 	1093.1.1={
 		death="1093.1.1"
 	}
@@ -141,11 +144,11 @@
 	1124.1.1={
 	religion="catholic"
 	}
-	
+
 	1129.1.1={
 	add_spouse=221701
 	}
-	
+
 	1136.1.1={
 		death="1136.1.1"
 	}
@@ -530,11 +533,11 @@
 	1138.1.2={
 		birth="1138.1.2"
 	}
-	
+
 	1168.1.1={
 	religion="catholic"
 	}
-	
+
 	1170.1.1={
 		death="1170.1.1"
 	}
@@ -593,21 +596,21 @@
 	trait="patient"
 	trait="tough_soldier"
 	father=221734 #Wizlaw
-	
+
 	1147.1.1={
 		birth="1147.1.1"
 	}
-	
+
 	#Danes conquer and convert Rügen
-	
+
 	1168.1.1={
 	religion="catholic"
 	}
-	
+
 	1178.1.1={
 	add_spouse = 201512
 	}
-	
+
 	1218.1.1={
 		death="1218.1.1"
 	}
@@ -649,8 +652,8 @@
 	1212.1.1={
 	add_spouse = 30488 #Margarete Hvide
 	}
-	
-	
+
+
 	1256.1.1={
 		death="1256.1.1"
 	}
@@ -664,7 +667,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="pommeranian"
 	trait="chaste"
 	trait="diligent"
@@ -683,13 +686,13 @@
 	name="Katherina"
 	female=yes
 	dynasty=175
-	
+
 	religion="catholic"
 	culture="pommeranian"
-	
+
 	father=30458
 	mother=30471
-	
+
 	1250.1.1={
 		birth="1250.1.1"
 	}
@@ -730,13 +733,13 @@
 30482 = {
 	name="Rostislav" #ruler of Rugen
 	dynasty=101890
-	
+
 	religion="slavic_pagan"
 	culture="pommeranian"
-	
+
 	father=30481 #Wartislaw
-	
-	
+
+
 	1104.1.1={
 		birth="1104.1.1"
 	}
@@ -746,14 +749,14 @@
 }
 
 30483 = {
-	name="Wizlaw" 
+	name="Wizlaw"
 	dynasty=101890
-	
+
 	religion="slavic_pagan"
 	culture="pommeranian"
-	
-	
-	
+
+
+
 	955.1.1={
 		birth="955.1.1"
 	}
@@ -767,18 +770,18 @@
 	dynasty=101890
 	religion="slavic_pagan"
 	culture="pommeranian"
-	
+
 	father=221734 #Wizlaw
 	1148.1.1={
 		birth="1148.1.1"
 	}
-	
+
 	#Danes conquer and convert Rügen
-	
+
 	1168.1.1={
 	religion="catholic"
 	}
-	
+
 	1173.1.1={
 		death="1173.1.1"
 	}
@@ -789,18 +792,18 @@
 	dynasty=101890
 	religion="slavic_pagan"
 	culture="pommeranian"
-	
+
 	father=221734 #Wizlaw
 	1149.1.1={
 		birth="1149.1.1"
 	}
-	
+
 	#Danes conquer and convert Rügen
-	
+
 	1168.1.1={
 	religion="catholic"
 	}
-	
+
 	1193.1.1={
 		death="1193.1.1"
 	}
@@ -1024,7 +1027,7 @@
 	}
 	1305.1.1={
 		add_spouse=33279
-	} 
+	}
 	1325.1.1={
 		add_spouse=462108
 	}
@@ -1034,7 +1037,7 @@
 }
 
 30499 = {
-	name="Jaromar" 
+	name="Jaromar"
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
@@ -1049,7 +1052,7 @@
 }
 
 30500 = {
-	name="Sambor" 
+	name="Sambor"
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
@@ -1065,7 +1068,7 @@
 }
 
 30501 = {
-	name="Swietopelk" 
+	name="Swietopelk"
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
@@ -1081,7 +1084,7 @@
 }
 
 30502 = {
-	name="Markéta" 
+	name="Markéta"
 	# AKA: Marketa
 	female=yes
 	dynasty=101890
@@ -1099,7 +1102,7 @@
 }
 
 30503 = {
-	name="Halina" 
+	name="Halina"
 	# AKA: Helena
 	female=yes
 	dynasty=101890
@@ -1117,7 +1120,7 @@
 }
 
 30504 = {
-	name="Sophia" 
+	name="Sophia"
 	female=yes
 	dynasty=101890
 	religion="catholic"
@@ -1220,7 +1223,7 @@
 }
 
 30520 = {
-	name="Swantibor" 
+	name="Swantibor"
 	dynasty=177
 	religion="slavic_pagan"
 	culture="pommeranian"
@@ -1237,7 +1240,7 @@
 }
 
 30521 = {
-	name="Wartislaw" 
+	name="Wartislaw"
 	dynasty=177
 	religion="catholic"
 	culture="pommeranian"
@@ -1353,7 +1356,7 @@
 }
 
 30529 = {
-	name="Woislawa" 
+	name="Woislawa"
 	female=yes
 	dynasty=177
 	religion="catholic"
@@ -1369,7 +1372,7 @@
 }
 
 30530 = {
-	name="Dobroslawa" 
+	name="Dobroslawa"
 	female=yes
 	dynasty=177
 	religion="catholic"
@@ -1492,7 +1495,7 @@
 }
 
 30538 = {
-	name="Swenzo" 
+	name="Swenzo"
 	dynasty=7163 #Swacowie
 	religion="catholic"
 	culture="pommeranian"
@@ -1506,7 +1509,7 @@
 }
 
 30539 = {
-	name="Lorenz" 
+	name="Lorenz"
 	dynasty=7163 #Swacowie
 	religion="catholic"
 	culture="pommeranian"
@@ -1520,7 +1523,7 @@
 }
 
 30540 = {
-	name="Piotr" 
+	name="Piotr"
 	dynasty=7163 #Swacowie
 	religion="catholic"
 	culture="pommeranian"
@@ -1534,7 +1537,7 @@
 }
 
 30541 = {
-	name="Jasko" 
+	name="Jasko"
 	dynasty=7163 #Swacowie
 	religion="catholic"
 	culture="pommeranian"
@@ -1548,7 +1551,7 @@
 }
 
 30542 = {
-	name="Lorenz" 
+	name="Lorenz"
 	dynasty=7163 #Swacowie
 	religion="catholic"
 	culture="pommeranian"
@@ -1562,7 +1565,7 @@
 }
 
 30543 = {
-	name="Swenzka" 
+	name="Swenzka"
 	dynasty=7163 #Swacowie
 	religion="catholic"
 	culture="pommeranian"
@@ -1576,7 +1579,7 @@
 }
 
 30544 = {
-	name="Kazimierz" 
+	name="Kazimierz"
 	dynasty=7163 #Swacowie
 	religion="catholic"
 	culture="pommeranian"
@@ -2154,7 +2157,7 @@
 		birth="890.1.1"
 	}
 	906.1.1={
-		religion=catholic #marries Vratislav I of Bohemia
+		religion = "chalcedonian" #marries Vratislav I of Bohemia
 	}
 	935.1.2={
 		death="935.1.2"
@@ -2168,7 +2171,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="pommeranian"
 	trait="wroth"
 	trait="proud"
@@ -2176,6 +2179,9 @@
 	father=8410
 	1039.1.15={
 		birth="1039.1.15"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1073.1.1={
 		death="1073.1.1"
@@ -2198,7 +2204,7 @@
 	1062.1.15={
 		birth="1062.1.15"
 	}
-	
+
 	1093.2.1={
 	add_spouse=30480 #Slavia z Liubice
 	}
@@ -2215,7 +2221,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="pommeranian"
 	trait="zealous"
 	trait="charitable"
@@ -2224,6 +2230,9 @@
 	father=8411
 	1005.1.15={
 		birth="1005.1.15"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1={
 	add_spouse=101527
@@ -2248,7 +2257,7 @@
 		birth="970.1.1"
 	}
 	1000.1.1={
-		religion="catholic"
+		religion = "chalcedonian"
 	}
 	1028.1.1={
 		death="1028.1.1"
@@ -2281,9 +2290,9 @@
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
-	trait="ill" 
+	trait="ill"
 	father=30498
-	mother=33279 
+	mother=33279
 	1306.1.1={
 		birth="1306.1.1"
 	}
@@ -2299,7 +2308,7 @@
 	religion="catholic"
 	culture="pommeranian"
 	father=30498
-	mother=33279 
+	mother=33279
 	1308.1.1={
 		birth="1308.1.1"
 	}
@@ -2314,7 +2323,7 @@
 	religion="catholic"
 	culture="pommeranian"
 	father=30498
-	mother=33279 
+	mother=33279
 	1310.1.1={
 		birth="1310.1.1"
 	}
@@ -2364,8 +2373,8 @@
 		birth="948.1.1"
 	}
 	965.1.2={
-		religion="catholic"
-	}	
+		religion = "chalcedonian"
+	}
 	970.1.1={
 		death="970.1.1"
 	}
@@ -2608,13 +2617,13 @@
 168556 = {
 	name="Liudolf"
 	dynasty=1042805
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="pommeranian"
 	father=168554
 	952.1.1={
 		birth = yes
 	}
-	
+
 	996.1.1={
 		death = yes
 	}
@@ -2631,7 +2640,7 @@
 	953.1.1={
 		birth = yes
 	}
-	
+
 	992.1.1={
 		death = yes
 	}
@@ -2649,7 +2658,7 @@
 	954.1.1={
 		birth = yes
 	}
-	
+
 	1010.1.1={
 		death = yes
 	}
@@ -2666,7 +2675,7 @@
 	994.1.1={
 		birth = yes
 	}
-	
+
 	1057.1.1={
 		death = yes
 	}
@@ -2674,14 +2683,14 @@
 
 168582 = {
 	name="Mscislaw"
-	#placeholder 
+	#placeholder
 	dynasty=9605
 	religion="slavic_pagan"
 	culture="pommeranian"
 	848.1.1 = {
 		birth = yes
 	}
-	
+
 	898.1.1 = {
 		death = yes
 	}
@@ -2692,14 +2701,14 @@
 
 168583 = {
 	name="Radoslav"
-	#placeholder 
+	#placeholder
 	dynasty=9606
 	religion="slavic_pagan"
 	culture="pommeranian"
 	847.1.1 = {
 		birth = yes
 	}
-	
+
 	898.1.1 = {
 		death = yes
 	}
@@ -2710,14 +2719,14 @@
 
 168584 = {
 	name="Bretislav"
-	#placeholder 
+	#placeholder
 	dynasty=9607
 	religion="slavic_pagan"
 	culture="pommeranian"
 	846.1.1 = {
 		birth = yes
 	}
-	
+
 	898.1.1 = {
 		death = yes
 	}
@@ -2725,7 +2734,7 @@
 
 168585 = {
 	name="Wizlaw" #Werle
-	#placeholder 
+	#placeholder
 	dynasty=9608
 	religion="slavic_pagan"
 	culture="pommeranian"
@@ -2742,14 +2751,14 @@
 
 168587 = {
 	name="Zdislav" #Rostock
-	#placeholder 
+	#placeholder
 	dynasty=9609
 	religion="slavic_pagan"
 	culture="pommeranian"
 	849.1.1 = {
 		birth = yes
 	}
-	
+
 	898.1.1 = {
 		death = yes
 	}
@@ -2760,14 +2769,14 @@
 
 168588 = {
 	name="Kajetan" #Slupsk
-	#placeholder 
+	#placeholder
 	dynasty=9610
 	religion="slavic_pagan"
 	culture="pommeranian"
 	849.1.1 = {
 		birth = yes
 	}
-	
+
 	898.1.1 = {
 		death = yes
 	}
@@ -2778,14 +2787,14 @@
 
 168589 = {
 	name="Wlodzimierz" #Danzig
-	#placeholder 
+	#placeholder
 	dynasty=9611
 	religion="slavic_pagan"
 	culture="pommeranian"
 	849.1.1 = {
 		birth = yes
 	}
-	
+
 	898.1.1 = {
 		death = yes
 	}
@@ -2795,7 +2804,7 @@
 
 168590 = {
 	name="Dobromil"
-	#placeholder 
+	#placeholder
 	dynasty=9607
 	religion="slavic_pagan"
 	culture="pommeranian"
@@ -2803,7 +2812,7 @@
 	870.1.1 = {
 		birth = yes
 	}
-	
+
 	920.1.1 = {
 		death = yes
 	}
@@ -2814,7 +2823,7 @@
 
 168591 = {
 	name="Bezprym"
-	#placeholder 
+	#placeholder
 	dynasty=9607
 	religion="slavic_pagan"
 	culture="pommeranian"
@@ -2822,7 +2831,7 @@
 	895.1.1 = {
 		birth = yes
 	}
-	
+
 	929.1.1 = {
 		death = yes
 	}

@@ -9,13 +9,13 @@
 	795.1.1={
 		death = yes
 	}
-} 
+}
 
 187001 = {
 	name="Mojmír"
 	# AKA: Mojmír I Mojmírovci
 	dynasty=7508
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187000
 	790.1.1={
@@ -29,7 +29,7 @@
 187009 = {
 	name="Svatopluk"
 	dynasty=7508
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187000
 	794.1.1={
@@ -38,13 +38,13 @@
 	817.1.1={
 		death = yes
 	}
-} 
+}
 
 187002 = {
 	name="Rostislav"
 	# AKA: Rostislav Mojmírovci
 	dynasty=7508
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187009
 	815.1.1={
@@ -58,7 +58,7 @@
 187010 = {
 	name="Svetimír"
 	dynasty=7508
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187009
 	817.1.1={
@@ -67,7 +67,7 @@
 	850.1.1={
 		death = yes
 	}
-} 
+}
 
 
 187003 = {
@@ -78,7 +78,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	trait="ambitious"
 	trait="patient"
@@ -98,7 +98,7 @@
 	name="Slavomír"
 	# AKA: Slavomír Mojmírovci
 	dynasty=7508
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187010
 	842.1.1={
@@ -112,7 +112,7 @@
 #187005 = {
 #	name="Sventozizna"
 #	female = yes
-#	religion="catholic"
+#	religion = "chalcedonian"
 #	culture="bohemian"
 #	840.1.1={
 #		birth="840.1.1"
@@ -126,7 +126,7 @@
 	name="Mojmír"
 	# AKA: Mojmír II Mojmírovci
 	dynasty=7508
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187003
 	mother=168068
@@ -142,7 +142,7 @@
 	name="Svatopluk"
 	# AKA: Svatopluk II Mojmírovci
 	dynasty=7508
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187003
 	mother=168068
@@ -158,7 +158,7 @@
 	name="Predslav"
 	# AKA: Predslav Mojmírovci
 	dynasty=7508
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187003
 	mother=168068
@@ -174,7 +174,7 @@
 	name="Pribina"
 	# AKA: Pribina z Nitrava
 	dynasty=7509
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	800.1.1={
 		birth="800.1.1"
@@ -188,7 +188,7 @@
 	name="Kocel"
 	# AKA: Kocel z Nitrava
 	dynasty=7509
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="moravian"
 	father=187011
 	833.1.1={

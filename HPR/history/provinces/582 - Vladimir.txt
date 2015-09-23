@@ -23,15 +23,18 @@ religion = finnish_pagan
 # History
 995.1.1 = {
 	culture = russian
-	religion = orthodox
+	religion = chalcedonian
 }
 995.1.1 = {
 b_bogolyubovo = castle
 b_vladimir = city
 b_sergiyevposad = temple
 }
-1152.1.1 = { b_yurevpolskiy = city } 
-1187.1.1 = { b_radonezh = castle } 
+1054.1.1 = {
+	religion = orthodox
+}
+1152.1.1 = { b_yurevpolskiy = city }
+1187.1.1 = { b_radonezh = castle }
 1238.1.1 = { remove_settlement = b_yurevpolskiy } #Mongol invasion
 1238.1.1 = { remove_settlement = b_radonezh }
 1299.1.1 = { b_pokrov = temple } #Metropolitan moves to Vladimir

@@ -8,7 +8,7 @@
 1000232500 = {
 	name="Kourtikios"
 	dynasty=1000102809 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="armenian"
 	830.1.1 = {
 		birth="830.1.1"
@@ -60,7 +60,7 @@
 #The ruler of Kaysun and Germanikeia after the death of Philaretos (Vahram). First as a Seljuk vassal, later as a free prince. Collaborated heavily with the first crusade.
 1000232504 = {
 	name="Vasil"
-	dynasty=1000102902 
+	dynasty=1000102902
 	religion="miaphysite"
 	culture="armenian"
 	mother=1000232506
@@ -74,7 +74,7 @@
 #Vasil's nephew and adopted son. Was forced to renounce his lands by the Count of Edessa
 1000232505 = {
 	name="Vasil-Dgha"
-	dynasty=1000102902 
+	dynasty=1000102902
 	religion="miaphysite"
 	culture="armenian"
 	mother=1000232507
@@ -88,7 +88,7 @@
 #Placeholder Mother of Vasil and Bagrat. The Nobility came from the Mother's side of the family
 1000232506 = {
 	name="Rhuzukan"
-	dynasty=1000102902 
+	dynasty=1000102902
 	religion="miaphysite"
 	culture="armenian"
 	female=yes
@@ -102,7 +102,7 @@
 #Placeholder sister of Kogh-Vasil and mother of Vasil-Dgha
 1000232507 = {
 	name="Kata"
-	dynasty=1000102902 
+	dynasty=1000102902
 	religion="miaphysite"
 	culture="armenian"
 	female=yes
@@ -117,7 +117,7 @@
 #Vasil's brother who went into the service of Baldwin of Jerusalem who made him Lord of Ravendel. Was expelled alongside his nephew Vasil-Dgha
 1000232508 = {
 	name="Bagrat"
-	dynasty=1000102902 
+	dynasty=1000102902
 	religion="miaphysite"
 	culture="armenian"
 	mother=1000232506
@@ -147,11 +147,14 @@
 1000232510 = {
 	name="Elpidios"
 	dynasty=101224
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="armenian"
 	father=1000232511
 	1036.1.1 = {
 		birth="1036.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1091.1.1 = {
 		death="1091.1.1"
@@ -161,11 +164,14 @@
 1000232511 = {
 	name="Elpidios"
 	dynasty=101224
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="armenian"
 	father=1000232512
 	995.1.1 = {
 		birth="995.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1060.1.1 = {
 		death="1060.1.1"

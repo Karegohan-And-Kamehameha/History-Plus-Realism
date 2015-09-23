@@ -15,10 +15,12 @@ b_iuliopolis = temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 # The Seljuks take over Anatolia
 
 1097.8.26 = { culture = turkmen }

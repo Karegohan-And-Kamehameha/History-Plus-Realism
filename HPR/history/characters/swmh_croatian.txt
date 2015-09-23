@@ -4,13 +4,16 @@
 #Croatian character Range: 1000229200 - 1000229299
 ###########
 ### Karinjani Lapcani # family had been head of the Lapcani tribe
-1000229200 = { 
+1000229200 = {
 	name="Vinihi" # Vinihi Lapcanu
 	dynasty=1000101400 # Karinjani
-	religion=catholic
+	religion = "chalcedonian"
 	culture=croatian
 	1040.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1110.1.1={
 		death = yes
@@ -45,7 +48,7 @@
 #	name="Petar" # Knez of Knin, Cetina and Neretva?, Ban of Dalmatia 1089-1092, King of Croatia 1092-1097
 #	dynasty=101874
 #	martial=6
-#	diplomacy=5	
+#	diplomacy=5
 #        intrigue=4
 #	stewardship=4
 #	religion="catholic"
@@ -106,10 +109,13 @@
 1000229202 = {
 	name="Marjan" # Marjan Slavac(IV), Knez of Sidraškog, Ban of Neretva(Omis/Imotska), commander of Croatian naval forces in the campaign against the Venetians during 1073-1076(aka pirate in cheif)
 	dynasty=19029 # Kacic
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	1040.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1063.1.1={
 		add_spouse=8623 # Neda Krešimirova
@@ -145,7 +151,7 @@
 		death = yes
 	}
 }
-1000229201 = { 
+1000229201 = {
 	name="Nikola" # first Kacic known as such.
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -158,7 +164,7 @@
 		death = yes
 	}
 }
-1000229205 = { 
+1000229205 = {
 	name="Brecko"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -171,7 +177,7 @@
 		death = yes
 	}
 }
-1000229206 = { 
+1000229206 = {
 	name="Sebena"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -184,7 +190,7 @@
 		death = yes
 	}
 }
-1000229207 = { 
+1000229207 = {
 	name="Malduch"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -197,7 +203,7 @@
 		death = yes
 	}
 }
-1000229208 = { 
+1000229208 = {
 	name="Radoš"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -210,7 +216,7 @@
 		death = yes
 	}
 }
-1000229209 = { 
+1000229209 = {
 	name="Osor"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -224,7 +230,7 @@
 	}
 }
 ### Omis/Imotska gets taken over by the Subcic until Bosnia takes the principality and the Kacic family regain influence in 1326 now centerd on Makarska
-1000229210 = { 
+1000229210 = {
 	name="Zaljko"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -237,7 +243,7 @@
 		death = yes
 	}
 }
-1000229211 = { 
+1000229211 = {
 	name="Baran"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -250,7 +256,7 @@
 		death = yes
 	}
 }
-1000229212 = { 
+1000229212 = {
 	name="Vukic"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -263,7 +269,7 @@
 		death = yes
 	}
 }
-1000229213 = { 
+1000229213 = {
 	name="Andrijas"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -276,7 +282,7 @@
 		death = yes
 	}
 }
-1000229214 = { 
+1000229214 = {
 	name="Baran"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -289,7 +295,7 @@
 		death = yes
 	}
 }
-1000229215 = { 
+1000229215 = {
 	name="Vukasin"
 	dynasty=19029 # Kacic
 	religion=catholic
@@ -461,10 +467,13 @@
 1000229230 = {
 	name="Gojco" # Gojco ban of Croatia 1060-1069
 	dynasty=1000101402 # Mogorovic
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	1035.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.1.1={
 		death = yes
@@ -474,10 +483,13 @@
 1000229231 = {
 	name="Izana" # made up name, plays the role of the mysterious Ban of Bosnia
 	dynasty=1000101403 # Kukar
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	1040.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1097.1.1={
 		death = yes

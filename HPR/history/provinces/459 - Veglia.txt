@@ -1,4 +1,4 @@
-# 469 - Veglia 
+# 469 - Veglia
 
 # County Title
 title = c_veglia
@@ -17,10 +17,13 @@ b_osor = temple
 
 # Misc
 culture = dalmatian
-religion = catholic
+religion = chalcedonian
 
 # History
 
 1050.1.1 = { culture = croatian }
+1054.1.1 = {
+	religion = catholic
+}
 1146.1.1 = {b_vrbnik_krk = city }
 1146.1.1 = { trade_post = b_contarini }

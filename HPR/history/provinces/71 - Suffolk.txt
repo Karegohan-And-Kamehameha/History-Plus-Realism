@@ -22,13 +22,16 @@ b_bury_st_edmunds = temple
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
 869.1.1 = { culture = norse } # Fall of East Anglia
 869.1.1 = { religion = norse_pagan } # Fall of East Anglia
-879.1.1 = { religion = catholic } # Guthrum becomes Æþelstan
+879.1.1 = { religion = chalcedonian } # Guthrum becomes Æþelstan
 1002.11.13 = { culture = saxon } # St. Brice's Day
+1054.1.1 = {
+	religion = catholic
+}
 1078.1.1 = { b_eye = temple }
 1100.11.11 = { culture = english }
 1331.1.1 = { trade_post = b_vorrade }

@@ -18,8 +18,11 @@ b_egremont= castle
 
 # Misc
 culture = cumbric
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 #1068.1.1 = { culture = saxon } # held by Scotland and therefor not affected by the Harrying.
 1100.11.11 = { culture = english }

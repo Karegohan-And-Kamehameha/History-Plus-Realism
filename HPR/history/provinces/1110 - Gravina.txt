@@ -22,9 +22,12 @@ b_matera = city
 
 # Misc
 culture = langobardisch
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1099.1.1={ culture = southern_italian }
 

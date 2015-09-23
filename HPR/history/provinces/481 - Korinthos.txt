@@ -16,10 +16,13 @@ b_nauplion = castle
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = hills
 
 # History
+1054.1.1 = {
+	religion = orthodox
+}
 1137.1.1 = { trade_post = b_morosini }
 
 1204.8.1 = { b_argos = castle }

@@ -32,14 +32,15 @@ tribal_governments = {
 				controls_religion = yes
 				NOT = { religion_group = muslim }
 				NOT = { religion_group = pagan_group }
+				NOT = { religion = paulician }
 			}
 			is_patrician = no
 			mercenary = no
 			holy_order = no
 		}
-		
+
 		color = { 92 31 23 }
-		
+
 		allow_looting = yes
 		max_consorts = 3
 		ignores_de_jure_laws = yes
@@ -48,9 +49,9 @@ tribal_governments = {
 		can_build_temple = yes
 		can_build_tribal = yes
 		can_change_to_nomad_on_start = yes
-		
-		demesne_size = 2
+
+		demesne_size = 1
 		vassal_limit = -5
 	}
-	
+
 }

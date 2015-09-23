@@ -19,7 +19,10 @@ b_montsalvens = castle
 
 # Misc
 culture = arpitan
-religion = catholic
+religion = chalcedonian
 
 # History
 
+1054.1.1 = {
+	religion = catholic
+}

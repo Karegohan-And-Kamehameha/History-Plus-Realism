@@ -18,9 +18,12 @@ culture = russian
 religion = slavic_pagan
 
 # History
-988.1.1 = {religion = orthodox }
+988.1.1 = {religion = chalcedonian }
 990.1.1 = {b_lyubech = castle
 b_sedniv = temple
 b_brahin = city}
+1054.1.1 = {
+	religion = orthodox
+}
 1187.1.1 = { b_horodnya = city}
 

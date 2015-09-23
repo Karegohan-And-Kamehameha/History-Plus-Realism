@@ -16,10 +16,12 @@ b_kyrenia = castle
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
-1120.1.1 = { b_larnaca = city } 
+1054.1.1 = {
+	religion = orthodox
+}
+1120.1.1 = { b_larnaca = city }
 
 

@@ -23,10 +23,13 @@ terrain = farmlands
 1000.1.1 = {
 b_soeborg = castle
 b_kobenhavn = city
-b_kobenhavn = ct_port_1 } 
-1005.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
-1066.1.1 = {       
+b_kobenhavn = ct_port_1 }
+1005.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_ringsted = ca_keep_1
 	b_ringsted = ca_stable_1
 	b_ringsted = ca_militia_barracks_1

@@ -16,12 +16,15 @@ b_sittich = temple
 #b_kamnik = city #German = Stein
 #b_rudolfswert = city
 #b_merling = castle #karantanci = Metlika
-#b_weichselberg = castle 
+#b_weichselberg = castle
 #b_reifnitz = castle #karantanci = Ribnica
-#b_kostel = castle 
+#b_kostel = castle
 
 # Misc
 culture = karantanci
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}

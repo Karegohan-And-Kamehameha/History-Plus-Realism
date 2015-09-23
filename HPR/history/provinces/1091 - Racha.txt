@@ -13,10 +13,13 @@ b_nikortsminda = temple
 #b_tsageri = temple
 #b_oni = castle
 #b_gebi = castle
- 
+
 
 # Misc
 culture = georgian
-religion = orthodox
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = orthodox
+}

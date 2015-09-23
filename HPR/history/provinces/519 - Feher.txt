@@ -13,11 +13,14 @@ b_gyulafehervar = tribal
 
 # Misc
 culture = romanian
-religion = orthodox
+religion = chalcedonian
 
 # History
 
-985.1.1 = { b_gyulafehervar = castle } 
-1060.1.1 = { b_nagyenyed = city } 
-1200.1.1 = { b_maros = temple } 
-1300.1.1 = { b_vajdahunyadi = castle } 
+985.1.1 = { b_gyulafehervar = castle }
+1054.1.1 = {
+	religion = orthodox
+}
+1060.1.1 = { b_nagyenyed = city }
+1200.1.1 = { b_maros = temple }
+1300.1.1 = { b_vajdahunyadi = castle }

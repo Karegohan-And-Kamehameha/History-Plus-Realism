@@ -16,9 +16,11 @@ b_pican = temple
 
 # Misc
 culture = karantanci
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1110.1.1 = { trade_post = b_contarini }
 

@@ -20,10 +20,13 @@ b_malmesbury = temple
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1058.11.11 = { b_sarum = temple } # Bishopery moved from Ramsbury(since 909) to old Samrum
-1100.11.11 = { culture = english } 
+1100.11.11 = { culture = english }
 1220.1.1 = { remove_settlement = b_sarum } # Old Sarum population and bishopery moved to Salisbruy
-1220.11.11 = { b_salisbury = temple } 
+1220.11.11 = { b_salisbury = temple }

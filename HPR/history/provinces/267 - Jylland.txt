@@ -20,13 +20,16 @@ religion = norse_pagan
 
 # History
 867.1.1 = { b_skanderborg = tb_shipyard_1 }
-1000.1.1 = { religion = catholic } 
-1000.1.1 = { 
+1000.1.1 = { religion = chalcedonian }
+1000.1.1 = {
 b_skanderborg = castle
-b_randers = city 
+b_randers = city
 b_randers = ct_port_1 }
-1047.10.25 = { culture = danish } 
-1200.1.1 = { b_horsens = city 
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
+1200.1.1 = { b_horsens = city
         b_randers = ct_wall_1
 }
 1250.1.1 = {

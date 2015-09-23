@@ -11,7 +11,7 @@ namespace = Plus
 ### Papacy of Rome
 
 # Rome Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2200
 
 	hide_window = yes
@@ -23,6 +23,7 @@ character_event = {
 		is_theocracy = yes
 		NOT = { has_landed_title = d_pentarch_rome }
 		OR = {
+			religion = chalcedonian
 			religion = orthodox
 			religion = monothelite
 			religion = iconoclast
@@ -45,7 +46,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -57,10 +58,25 @@ character_event = {
 		}
 		d_pentarch_rome = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
-	}
 
-	option = {
-		name = OK
+		#for Chalcedonian Popes
+		if = {
+			limit = { religion = chalcedonian }
+			character_event = { id = Plus.2275 }
+		}
+		if = {
+			limit = {
+				religion = chalcedonian
+				k_papal_chalcedon = { has_holder = no }
+				NOT = { has_global_flag = patriarch_supreme_created }
+			}
+			any_liege = {
+				limit = { tier = EMPEROR }
+				save_event_target_as = new_liege
+			}
+			k_papal_chalcedon = { grant_title = ROOT }
+			set_defacto_liege = event_target:new_liege
+		}
 	}
 }
 
@@ -77,6 +93,7 @@ character_event = {
 			NOT = { has_landed_title = b_roma }
 			is_theocracy = no
 			NOR = {
+				religion = chalcedonian
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
@@ -93,20 +110,16 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_rome = { unsafe_destroy_landed_title = THIS }
-	}
-
-	option = {
-		name = OK
 	}
 }
 
 ### Patriarchate of Constantinople
 
 # Constantinople Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2202
 
 	hide_window = yes
@@ -118,6 +131,7 @@ character_event = {
 		is_theocracy = yes
 		NOT = { has_landed_title = d_pentarch_constantinople }
 		OR = {
+			religion = chalcedonian
 			religion = orthodox
 			religion = monothelite
 			religion = iconoclast
@@ -134,7 +148,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -146,6 +160,12 @@ character_event = {
 		}
 		d_pentarch_constantinople = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
+
+		#for Chalcedonian Patriarchs
+		if = {
+			limit = { religion = chalcedonian }
+			character_event = { id = Plus.2275 }
+		}
 	}
 
 	option = {
@@ -166,6 +186,7 @@ character_event = {
 			NOT = { has_landed_title = b_hagiasophia }
 			is_theocracy = no
 			NOR = {
+				religion = chalcedonian
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
@@ -176,7 +197,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_constantinople = { unsafe_destroy_landed_title = THIS }
 	}
@@ -213,7 +234,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		b_hagiasophia = { grant_title = ROOT }
 	}
@@ -226,7 +247,7 @@ character_event = {
 ### Papacy of Alexandria
 
 # Alexandria Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2205
 
 	hide_window = yes
@@ -238,6 +259,7 @@ character_event = {
 		is_theocracy = yes
 		NOT = { has_landed_title = d_pentarch_alexandria }
 		OR = {
+			religion = chalcedonian
 			religion = orthodox
 			religion = monothelite
 			religion = iconoclast
@@ -260,7 +282,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -272,6 +294,12 @@ character_event = {
 		}
 		d_pentarch_alexandria = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
+
+		#for Chalcedonian Popes
+		if = {
+			limit = { religion = chalcedonian }
+			character_event = { id = Plus.2275 }
+		}
 	}
 
 	option = {
@@ -292,6 +320,7 @@ character_event = {
 			NOT = { has_landed_title = b_alexandria }
 			is_theocracy = no
 			NOR = {
+				religion = chalcedonian
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
@@ -308,7 +337,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_alexandria = { unsafe_destroy_landed_title = THIS }
 	}
@@ -345,7 +374,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		b_alexandria = { grant_title = ROOT }
 	}
@@ -358,7 +387,7 @@ character_event = {
 ### Patriarchate of Antioch
 
 # Antioch Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2208
 
 	hide_window = yes
@@ -370,6 +399,7 @@ character_event = {
 		is_theocracy = yes
 		NOT = { has_landed_title = d_pentarch_antioch }
 		OR = {
+			religion = chalcedonian
 			religion = orthodox
 			religion = monothelite
 			religion = iconoclast
@@ -392,7 +422,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -404,6 +434,12 @@ character_event = {
 		}
 		d_pentarch_antioch = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
+
+		#for Chalcedonian Patriarchs
+		if = {
+			limit = { religion = chalcedonian }
+			character_event = { id = Plus.2275 }
+		}
 	}
 
 	option = {
@@ -424,6 +460,7 @@ character_event = {
 			NOT = { has_landed_title = b_antiocheia }
 			is_theocracy = no
 			NOR = {
+				religion = chalcedonian
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
@@ -440,7 +477,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_antioch = { unsafe_destroy_landed_title = THIS }
 	}
@@ -480,7 +517,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		b_antiocheia = { grant_title = ROOT }
 	}
@@ -493,7 +530,7 @@ character_event = {
 ### Patriarchate of Jerusalem
 
 # Jeusalem Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2211
 
 	hide_window = yes
@@ -505,6 +542,7 @@ character_event = {
 		is_theocracy = yes
 		NOT = { has_landed_title = d_pentarch_jerusalem }
 		OR = {
+			religion = chalcedonian
 			religion = orthodox
 			religion = monothelite
 			religion = iconoclast
@@ -521,7 +559,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -533,6 +571,12 @@ character_event = {
 		}
 		d_pentarch_jerusalem = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
+
+		#for Chalcedonian Patriarchs
+		if = {
+			limit = { religion = chalcedonian }
+			character_event = { id = Plus.2275 }
+		}
 	}
 
 	option = {
@@ -553,6 +597,7 @@ character_event = {
 			NOT = { has_landed_title = b_jerusalem }
 			is_theocracy = no
 			NOR = {
+				religion = chalcedonian
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
@@ -563,7 +608,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_jerusalem = { unsafe_destroy_landed_title = THIS }
 	}
@@ -589,11 +634,11 @@ character_event = {
 			has_landed_title = d_pentarch_constantinople
 			has_landed_title = d_pentarch_alexandria
 			has_landed_title = d_pentarch_antioch
-			has_landed_title = d_pentarch_jerusalem	
+			has_landed_title = d_pentarch_jerusalem
 			has_landed_title = d_latin_constantinople
 			has_landed_title = d_latin_alexandria
 			has_landed_title = d_latin_antioch
-			has_landed_title = d_latin_jerusalem				
+			has_landed_title = d_latin_jerusalem
 		}
 		NOT = { trait = rebel }
 		capital_holding = {
@@ -611,7 +656,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		capital_holding = {
 			dejure_liege_title = {
@@ -628,7 +673,7 @@ character_event = {
 ### Latin Patriarchate of Constantinople
 
 # Constantinople Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2214
 
 	hide_window = yes
@@ -653,7 +698,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -691,7 +736,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_latin_constantinople = { unsafe_destroy_landed_title = THIS }
 	}
@@ -700,7 +745,7 @@ character_event = {
 ### Latin Patriachate of Alexandria
 
 # Alexandria Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2216
 
 	hide_window = yes
@@ -728,7 +773,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -766,7 +811,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_latin_alexandria = { unsafe_destroy_landed_title = THIS }
 	}
@@ -775,7 +820,7 @@ character_event = {
 ### Latin Patriarchate of Antioch
 
 # Antioch Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2218
 
 	hide_window = yes
@@ -803,7 +848,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -841,7 +886,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_latin_antioch = { unsafe_destroy_landed_title = THIS }
 	}
@@ -850,7 +895,7 @@ character_event = {
 ### Patriarchate of Jerusalem
 
 # Jeusalem Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2220
 
 	hide_window = yes
@@ -878,7 +923,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -916,7 +961,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_latin_jerusalem = { unsafe_destroy_landed_title = THIS }
 	}
@@ -932,6 +977,7 @@ character_event = {
 
 	trigger = {
 		OR = {
+			has_landed_title = k_papal_chalcedon
 			has_landed_title = k_papal_state
 			has_landed_title = d_fraticelli
 		}
@@ -949,9 +995,16 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
-		b_roma = { grant_title = ROOT }
+		b_roma = { grant_title_no_opinion = ROOT }
+		if = {
+			limit = {
+				NOT = { has_landed_title = d_pentarch_rome }
+				religion = chalcedonian
+			}
+			d_pentarch_rome = { grant_title_no_opinion = ROOT }
+		}
 	}
 }
 
@@ -965,9 +1018,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2230
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		capital_holding = { location = { save_event_target_as = council_location } }
@@ -1026,7 +1079,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = schism_mending
@@ -1104,17 +1157,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2230
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2231 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -1366,10 +1419,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2232
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2233 }
@@ -1384,13 +1437,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2232
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = schism_mending
-		set_global_flag = schism_mended	
+		set_global_flag = schism_mended
 		event_target:mender_religion = {
 			event_target:target_religion = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -1411,7 +1464,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -1447,9 +1500,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2234
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		if = {
@@ -1477,7 +1530,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = enforcing_ephesus
@@ -1555,17 +1608,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2234
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2235 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -1817,10 +1870,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2236
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2237 }
@@ -1835,13 +1888,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2237
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = enforcing_ephesus
-		set_global_flag = ephesus_enforced	
+		set_global_flag = ephesus_enforced
 		event_target:mender_religion = {
 			event_target:target_religion = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -1862,7 +1915,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -1898,9 +1951,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2238
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		if = {
@@ -1943,7 +1996,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = enforcing_chalcedon
@@ -2021,17 +2074,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2238
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2239 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -2283,10 +2336,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2240
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2241 }
@@ -2301,13 +2354,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2241
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = enforcing_chalcedon
-		set_global_flag = chalcedon_enforced	
+		set_global_flag = chalcedon_enforced
 		event_target:mender_religion = {
 			event_target:target_religion1 = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -2333,7 +2386,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -2369,9 +2422,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2242
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		if = {
@@ -2412,7 +2465,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = repudiating_ephesus
@@ -2490,17 +2543,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2242
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2243 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -2752,10 +2805,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2244
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2245 }
@@ -2770,13 +2823,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2245
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = repudiating_ephesus
-		set_global_flag = ephesus_repudiated	
+		set_global_flag = ephesus_repudiated
 		event_target:mender_religion = {
 			event_target:target_religion = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -2797,7 +2850,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -2832,7 +2885,7 @@ narrative_event = {
 	title = EVTNAME_Plus_2230
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	desc = {
 		text = EVTDESC_Plus_2246
 		trigger = { event_target:target_religion2 = { is_alive = yes } }
@@ -2841,9 +2894,9 @@ narrative_event = {
 		text = EVTDESC_Plus_2246_no_second
 		trigger = { NOT = { event_target:target_religion2 = { is_alive = yes } } }
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		if = {
@@ -2926,7 +2979,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = repudiating_chalcedon
@@ -3004,17 +3057,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2246
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2247 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -3266,10 +3319,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2248
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2249 }
@@ -3284,13 +3337,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2249
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = repudiating_chalcedon
-		set_global_flag = chalcedon_repudiated	
+		set_global_flag = chalcedon_repudiated
 		event_target:mender_religion = {
 			event_target:target_religion1 = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -3316,7 +3369,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -3352,9 +3405,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2250
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		capital_holding = { location = { save_event_target_as = council_location } }
@@ -3381,7 +3434,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = uniting_christianity
@@ -3459,17 +3512,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2250
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2251 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -3721,10 +3774,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2252
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2253 }
@@ -3739,13 +3792,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2253
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = uniting_christianity
-		set_global_flag = christianity_united	
+		set_global_flag = christianity_united
 		event_target:mender_religion = {
 			event_target:target_religion = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -3766,7 +3819,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -3790,6 +3843,2319 @@ narrative_event = {
 			NOT = { religion = event_target:mender_religion }
 			NOT = { religion_group = christian }
 		}
+	}
+}
+
+################################################
+# CHALCEDONIAN EVENTS
+# Written by Rylock
+################################################
+
+### MAINTENANCE
+
+# Switch Catholic/Orthodox characters which appear before Schism
+character_event = {
+	id = Plus.2270
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	religion_group = christian
+
+	trigger = {
+		OR = {
+			religion = catholic
+			religion = orthodox
+		}
+		NOT = { has_global_flag = schism_happened }
+	}
+
+	immediate = {
+		religion = chalcedonian
+	}
+}
+
+# Switch Chalcedonian characters which appear after Schism
+character_event = {
+	id = Plus.2271
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	religion = chalcedonian
+
+	trigger = {
+		religion = chalcedonian
+		has_global_flag = schism_happened
+	}
+
+	immediate = {
+		if = {
+			limit = { independent = yes }
+			religion = catholic
+		}
+		if = {
+			limit = { independent = no }
+			liege = { reverse_religion = ROOT }
+		}
+	}
+}
+
+# Remove Papal title for non-Chalcedonians
+character_event = {
+	id = Plus.2272
+
+	hide_window = yes
+	only_playable = yes
+
+	trigger = {
+		has_landed_title = k_papal_chalcedon
+		OR = {
+			NOT = { religion = chalcedonian }
+			is_theocracy = no
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		k_papal_chalcedon = { unsafe_destroy_landed_title = THIS }
+	}
+}
+
+### GREEK/LATIN RITES
+
+# Choosing Latin/Greek Rites for Chalcedonian priests
+character_event = {
+	id = Plus.2275
+	desc = EVTDESC_Plus_2275
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	religion = chalcedonian
+
+	trigger = {
+		is_theocracy = yes
+		NOR = {
+			trait = greek_rites
+			trait = latin_rites
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_character_flag = chalcedonian_bishop
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2275 # Latin Rites
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_landed_title = d_pentarch_constantinople
+					liege = { has_landed_title = e_byzantium }
+					any_liege = { trait = greek_rites }
+					culture = greek
+				}
+				NOR = {
+					has_landed_title = k_papal_chalcedon
+					has_landed_title = d_pentarch_rome
+					any_liege = { trait = latin_rites }
+					culture = italian
+					culture = lombard
+				}
+			}
+			modifier = {
+				factor = 0.25
+				OR = {
+					culture_group = byzantine
+					culture_group = arabic
+					culture_group = altaic
+					culture_group = east_slavic
+					culture_group = south_slavic
+					culture_group = iranian
+				}
+			}
+			modifier = {
+				factor = 0.1
+				rightful_religious_head = ROOT
+				primary_title = { any_previous_holder = { trait = greek_rites } }
+			}
+			modifier = {
+				factor = 0.25
+				NOT = { rightful_religious_head = ROOT }
+				primary_title = { any_previous_holder = { trait = greek_rites } }
+			}
+			modifier = {
+				factor = 4
+				rightful_religious_head_scope = {
+					NOT = { character = ROOT }
+					trait = latin_rites
+				}
+			}
+			modifier = {
+				factor = 2
+				location = { region = world_europe_west }
+			}
+		}
+		add_trait = latin_rites
+		any_spouse = { remove_spouse = ROOT }
+	}
+	option = {
+		name = EVTOPTB_Plus_2275 # Greek Rites
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_landed_title = k_papal_chalcedon
+					has_landed_title = d_pentarch_rome
+					any_liege = { trait = latin_rites }
+					culture = italian
+					culture = lombard
+				}
+				NOR = {
+					has_landed_title = d_pentarch_constantinople
+					liege = { has_landed_title = e_byzantium }
+					any_liege = { trait = greek_rites }
+					culture = greek
+				}
+			}
+			modifier = {
+				factor = 0.25
+				OR = {
+					culture_group = latin
+					culture_group = iberian
+					culture_group = magyar
+					culture_group = west_slavic
+					culture_group = north_germanic
+					culture_group = central_germanic
+					culture_group = west_germanic
+					culture_group = celtic
+				}
+			}
+			modifier = {
+				factor = 0.1
+				rightful_religious_head = ROOT
+				primary_title = { any_previous_holder = { trait = latin_rites } }
+			}
+			modifier = {
+				factor = 0.25
+				NOT = { rightful_religious_head = ROOT }
+				primary_title = { any_previous_holder = { trait = latin_rites } }
+			}
+			modifier = {
+				factor = 4
+				rightful_religious_head_scope = {
+					NOT = { character = ROOT }
+					trait = latin_rites
+				}
+			}
+			modifier = {
+				factor = 4
+				trait = varangian
+			}
+			modifier = {
+				factor = 2
+				location = { region = world_europe_south_east }
+			}
+		}
+		add_trait = greek_rites
+	}
+}
+
+# Removing Latin/Greek Rites for non-priests
+character_event = {
+	id = Plus.2276
+
+	hide_window = yes
+
+	has_character_flag = chalcedonian_bishop
+	religion = chalcedonian
+
+	trigger = {
+		is_theocracy = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		clr_character_flag = chalcedonian_bishop
+		remove_trait = latin_rites
+		remove_trait = greek_rites
+	}
+}
+
+# Patriarch demands that a priest switch rites
+character_event = {
+	id = Plus.2277
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	desc = {
+		text = EVTDESC_Plus_2277_latin
+		trigger = { trait = greek_rites }
+	}
+	desc = {
+		text = EVTDESC_Plus_2277_greek
+		trigger = { trait = latin_rites }
+	}
+
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	religion = chalcedonian
+
+	trigger = {
+		religion_authority = 0.50
+		is_theocracy = yes
+		has_regent = no
+		rightful_religious_head_scope = {
+			has_regent = no
+			NOT = { character = ROOT }
+			NOT = { has_opinion_modifier = { who = ROOT modifier = refused_to_change_rite } }
+			OR = {
+				NOT = { opinion = { who = ROOT value = 0 } }
+				is_vassal_or_below = ROOT
+			}
+			OR = {
+				AND = {
+					trait = latin_rites
+					ROOT = { trait = greek_rites }
+				}
+				AND = {
+					trait = greek_rites
+					ROOT = { trait = latin_rites }
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			rightful_religious_head_scope = {
+				is_vassal_or_below = ROOT
+			}
+		}
+		modifier = {
+			factor = 0.8
+			rightful_religious_head_scope = {
+				NOT = { opinion = { who = ROOT value = -20 } }
+			}
+		}
+		modifier = {
+			factor = 0.8
+			rightful_religious_head_scope = {
+				NOT = { opinion = { who = ROOT value = -40 } }
+			}
+		}
+		modifier = {
+			factor = 0.8
+			rightful_religious_head_scope = {
+				NOT = { opinion = { who = ROOT value = -60 } }
+			}
+		}
+		modifier = {
+			factor = 0.8
+			rightful_religious_head_scope = {
+				NOT = { opinion = { who = ROOT value = -80 } }
+			}
+		}
+	}
+
+	immediate = {
+		rightful_religious_head_scope = { save_event_target_as = rightful_relhead }
+		religion_authority = {
+			modifier = greek-latin_conflict
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2277 # Refuse
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0.5
+				rightful_religious_head_scope = {
+					is_vassal_or_below = ROOT
+					NOT = { is_liege_of = ROOT }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				rightful_religious_head_scope = {
+					is_liege_of = ROOT
+				}
+			}
+			modifier = {
+				factor = 1.25
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value = 0 }
+				}
+			}
+			modifier = {
+				factor = 1.25
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value = 20 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value = 40 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value = 60 }
+				}
+			}
+			modifier = {
+				factor = 2
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value = 80 }
+				}
+			}
+		}
+		rightful_religious_head_scope = {
+			opinion = { who = ROOT modifier = refused_to_change_rite years = 10 }
+			prestige = -25
+		}
+		piety = -25
+	}
+	option = {
+		name = EVTOPTB_Plus_2277 # Agree
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 1.25
+				rightful_religious_head_scope = {
+					NOT = { reverse_opinion = { who = ROOT value = 0 } }
+				}
+			}
+			modifier = {
+				factor = 1.25
+				rightful_religious_head_scope = {
+					NOT = { reverse_opinion = { who = ROOT value = -20 } }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					NOT = { reverse_opinion = { who = ROOT value = -40 } }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					NOT = { reverse_opinion = { who = ROOT value = -60 } }
+				}
+			}
+			modifier = {
+				factor = 2
+				rightful_religious_head_scope = {
+					NOT = { reverse_opinion = { who = ROOT value = -80 } }
+				}
+			}
+		}
+		if = {
+			limit = { rightful_religious_head_scope = { trait = greek_rites } }
+			add_trait = greek_rites
+			rightful_religious_head_scope = {
+				any_independent_ruler = {
+					if = {
+						limit = { trait = latin_rites }
+						opinion = { who = PREV modifier = opinion_disappointed years = 10 }
+					}
+					any_realm_lord = {
+						if = {
+							limit = { trait = latin_rites }
+							opinion = { who = PREVPREV modifier = opinion_disappointed years = 10 }
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = { rightful_religious_head_scope = { trait = latin_rites } }
+			add_trait = latin_rites
+			rightful_religious_head_scope = {
+				any_independent_ruler = {
+					if = {
+						limit = { trait = greek_rites }
+						opinion = { who = PREV modifier = opinion_disappointed years = 10 }
+					}
+					any_realm_lord = {
+						if = {
+							limit = { trait = greek_rites }
+							opinion = { who = PREVPREV modifier = opinion_disappointed years = 10 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+### LEAD UP TO THE SCHISM
+
+# Pope anoints an Emperor as the new Roman Emperor
+narrative_event = {
+	id = Plus.2278
+	title = EVTNAME_Plus_2278
+	desc = EVTDESC_Plus_2278
+	picture = GFX_evt_found_hre
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	hide_from = yes
+	show_ROOT = yes
+	major = yes
+
+	option = {
+		name = EVTOPTA_Plus_2278
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = greek_rites }
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2278
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = latin_rites }
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2278
+		trigger = {
+			religion = chalcedonian
+			NOR = {
+				rightful_religious_head_scope = { trait = greek_rites }
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2278
+		trigger = {
+			NOT = { religion = chalcedonian }
+			religion_group = christian
+		}
+	}
+	option = {
+		name = EVTOPTD_Plus_2278
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# Pope-anointed Emperor wars with the Byzantine Empire
+narrative_event = {
+	id = Plus.2279
+	title = EVTNAME_Plus_2279
+	desc = EVTDESC_Plus_2279
+	picture = GFX_evt_melee
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+
+	only_playable = yes
+	religion = chalcedonian
+	has_character_flag = was_byzantine_emperor
+
+	trigger = {
+		has_landed_title = e_byzantium
+		e_byzantium = { is_primary_holder_title = yes }
+		is_heretic = no
+		OR = {
+			any_war = {
+				defender = { character = ROOT }
+				attacker = {
+					religion = ROOT
+					NOT = { trait = excommunicated }
+					trait = crowned_by_pope
+				}
+			}
+			any_war = {
+				attacker = { character = ROOT }
+				defender = {
+					religion = ROOT
+					NOT = { trait = excommunicated }
+					trait = crowned_by_pope
+				}
+			}
+		}
+		NOR = {
+			trait = excommunicated
+			has_global_flag = attacked_by_papal_emperor
+			has_global_flag = schism_happened
+			has_global_flag = patriarch_supreme_created
+		}
+	}
+
+	major_trigger = {
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: WAR BETWEEN BYZANTIUM AND POPE'S CHAMPION"
+		set_global_flag = attacked_by_papal_emperor
+		496 = { change_variable = { which = "schism_tracker" value = 1 } }
+		random_current_enemy = {
+			limit = { trait = crowned_by_pope }
+			save_event_target_as = papal_emperor
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2279
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = greek_rites }
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2279
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = latin_rites }
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2279
+		trigger = {
+			religion = chalcedonian
+			NOR = {
+				rightful_religious_head_scope = { trait = greek_rites }
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2279
+		trigger = {
+			NOT = { religion = chalcedonian }
+			religion_group = christian
+		}
+	}
+}
+
+# Rome adopts Filioque
+narrative_event = {
+	id = Plus.2280
+	title = EVTNAME_Plus_2280
+	desc = EVTDESC_Plus_2280
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	religion = chalcedonian
+	only_playable = yes
+
+	trigger = {
+		year = 900
+		has_landed_title = d_pentarch_rome
+		is_heretic = no
+		trait = latin_rites
+		NOR = {
+			religion_authority = 0.75
+			has_global_flag = filioque_adopted
+			has_global_flag = schism_happened
+			has_global_flag = patriarch_supreme_created
+		}
+	}
+
+	major_trigger = {
+		religion = chalcedonian
+	}
+
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.75
+			year = 950
+		}
+		modifier = {
+			factor = 0.5
+			year = 1000
+		}
+		modifier = {
+			factor = 0.5
+			year = 1025
+		}
+		modifier = {
+			factor = 0.25
+			year = 1050
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.45 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.40 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.35 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.30 }
+		}
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: FILIOQUE ADOPTED"
+		set_global_flag = filioque_adopted
+		496 = { change_variable = { which = "schism_tracker" value = 1 } }
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2280
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = greek_rites }
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2280
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = latin_rites }
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2280
+		trigger = {
+			religion = chalcedonian
+			NOR = {
+				rightful_religious_head_scope = { trait = greek_rites }
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+	}
+}
+
+# Jurisdictional dispute over the Balkans
+narrative_event = {
+	id = Plus.2281
+	title = EVTNAME_Plus_2281
+	desc = EVTDESC_Plus_2281
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	religion = chalcedonian
+	only_playable = yes
+
+	trigger = {
+		has_landed_title = d_pentarch_rome
+		is_heretic = no
+		d_pentarch_constantinople = {
+			holder_scope = {
+				trait = greek_rites
+				religion = ROOT
+			}
+		}
+		any_independent_ruler = {
+			religion = ROOT
+			lower_real_tier_than = EMPEROR
+			higher_real_tier_than = COUNT
+			capital_scope = {
+				religion = ROOT
+				NOT = { empire = { title = e_byzantium } }
+				kingdom = {
+					OR = {
+						title = k_bulgaria
+						title = k_serbia
+						title = k_croatia
+						title = k_wallachia
+					}
+				}
+			}
+		}
+		NOR = {
+			has_global_flag = papal_jurisdiction_dispute
+			has_global_flag = schism_happened
+			has_global_flag = patriarch_supreme_created
+		}
+	}
+
+	major_trigger = {
+		religion = chalcedonian
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			year = 950
+		}
+		modifier = {
+			factor = 0.5
+			year = 1000
+		}
+		modifier = {
+			factor = 0.5
+			year = 1050
+		}
+		modifier = {
+			factor = 1.25
+			religion_authority = 0.70
+		}
+		modifier = {
+			factor = 1.25
+			religion_authority = 0.80
+		}
+		modifier = {
+			factor = 1.25
+			religion_authority = 0.90
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.50 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.40 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.30 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.20 }
+		}
+	}
+
+	immediate = {
+		set_global_flag = papal_jurisdiction_dispute
+		496 = { change_variable = { which = "schism_tracker" value = 1 } }
+		d_pentarch_constantinople = {
+			holder_scope = { save_event_target_as = current_patriarch }
+		}
+		random_independent_ruler = {
+			limit = {
+				religion = ROOT
+				lower_real_tier_than = EMPEROR
+				higher_real_tier_than = COUNT
+				capital_scope = {
+					religion = ROOT
+					NOT = { empire = { title = e_byzantium } }
+					kingdom = {
+						OR = {
+							title = k_bulgaria
+							title = k_serbia
+							title = k_croatia
+							title = k_wallachia
+						}
+					}
+				}
+			}
+			save_event_target_as = jurisdiction_realm
+		}
+		log = "SCHISM LEAD-UP: PAPAL JURISDICTION DISPUTE OVER [jurisdiction_realm.GetName]"
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2281
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = greek_rites }
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2281
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = latin_rites }
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2281
+		trigger = {
+			religion = chalcedonian
+			NOR = {
+				rightful_religious_head_scope = { trait = greek_rites }
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+	}
+}
+
+# Conflict over the Eucharist
+narrative_event = {
+	id = Plus.2282
+	title = EVTNAME_Plus_2282
+	picture = GFX_evt_bishop
+	border = GFX_event_narrative_frame_religion
+
+	desc = {
+		text = EVTDESC_Plus_2282_greek
+		trigger = { ROOT = { trait = greek_rites } }
+	}
+	desc = {
+		text = EVTDESC_Plus_2282_latin
+		trigger = { ROOT = { trait = latin_rites } }
+	}
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	religion = chalcedonian
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+
+	trigger = {
+		year = 900
+		rightful_religious_head = ROOT
+		is_heretic = no
+		war = no
+		NOR = {
+			has_landed_title = d_pentarch_constantinople
+			has_landed_title = d_pentarch_rome
+		}
+		NOR = {
+			liege = { war = yes }
+			trait = excommunicated
+			trait = in_hiding
+			has_global_flag = eucharist_conflict
+			has_global_flag = schism_happened
+			has_global_flag = patriarch_supreme_created
+		}
+	}
+
+	major_trigger = {
+		religion = chalcedonian
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			year = 1000
+		}
+		modifier = {
+			factor = 0.5
+			year = 1025
+		}
+		modifier = {
+			factor = 0.5
+			year = 1050
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.45 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.40 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.35 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.30 }
+		}
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: CONFLICT OVER THE EUCHARIST"
+		set_global_flag = eucharist_conflict
+		496 = { change_variable = { which = "schism_tracker" value = 1 } }
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2282
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = greek_rites }
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2282
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = latin_rites }
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2282
+		trigger = {
+			religion = chalcedonian
+			NOR = {
+				rightful_religious_head_scope = { trait = greek_rites }
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+	}
+}
+
+# Wicked Pope or Patriarch
+narrative_event = {
+	id = Plus.2283
+	title = EVTNAME_Plus_2283
+	desc = EVTDESC_Plus_2283
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	religion = chalcedonian
+	only_playable = yes
+
+	trigger = {
+		OR = {
+			has_landed_title = d_pentarch_rome
+			has_landed_title = d_pentarch_constantinople
+		}
+		is_heretic = no
+		trait = bad_priest_christian
+		d_pentarch_rome = {
+			has_holder = yes
+			holder_scope = {
+				religion = ROOT
+				OR = {
+					character = ROOT
+					NOT = { trait = bad_priest_christian }
+				}
+			}
+		}
+		d_pentarch_constantinople = {
+			has_holder = yes
+			holder_scope = {
+				religion = ROOT
+				OR = {
+					character = ROOT
+					NOT = { trait = bad_priest_christian }
+				}
+			}
+		}
+		NOR = {
+			intrigue = 12
+			496 = { check_variable = { which = "schism_tracker" value = 4 } }
+			has_global_flag = wicked_pope_patriarch
+			has_global_flag = schism_happened
+			has_global_flag = patriarch_supreme_created
+		}
+	}
+
+	major_trigger = {
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 2
+			religion_authority = 0.70
+		}
+		modifier = {
+			factor = 2
+			religion_authority = 0.80
+		}
+		modifier = {
+			factor = 2
+			religion_authority = 0.90
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.50 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.45 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.40 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.35 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.30 }
+		}
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: [Root.GetTitledName] IS WICKED"
+		set_global_flag = wicked_pope_patriarch
+		496 = { change_variable = { which = "schism_tracker" value = 1 } }
+		if = {
+			limit = { has_landed_title = d_pentarch_rome }
+			d_pentarch_constantinople = {
+				holder_scope = { save_event_target_as = other_patriarch }
+			}
+		}
+		if = {
+			limit = { has_landed_title = d_pentarch_constantinople }
+			d_pentarch_rome = {
+				holder_scope = { save_event_target_as = other_patriarch }
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2283
+	}
+}
+
+# Call for Ecumenical Council refused
+narrative_event = {
+	id = Plus.2284
+	title = EVTNAME_Plus_2284
+	desc = EVTDESC_Plus_2284
+	picture = GFX_evt_rival_rulers
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	religion = chalcedonian
+	only_playable = yes
+
+	trigger = {
+		has_landed_title = d_pentarch_rome
+		is_heretic = no
+		war = no
+		year = 1000
+		496 = { is_variable_equal = { which = "schism_tracker" value = 3 } }
+		d_pentarch_constantinople = {
+			holder_scope = {
+				war = no
+				trait = greek_rites
+				religion = ROOT
+				NOT = { trait = excommunicated }
+				NOT = { trait = in_hiding }
+			}
+		}
+		NOR = {
+			trait = excommunicated
+			trait = in_hiding
+			has_global_flag = ecumenical_council_refused
+			has_global_flag = schism_happened
+			has_global_flag = patriarch_supreme_created
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.5
+			year = 1025
+		}
+		modifier = {
+			factor = 0.5
+			year = 1050
+		}
+		modifier = {
+			factor = 1.5
+			religion_authority = 0.70
+		}
+		modifier = {
+			factor = 1.5
+			religion_authority = 0.80
+		}
+		modifier = {
+			factor = 1.5
+			religion_authority = 0.90
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.50 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.45 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.40 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.35 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.30 }
+		}
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: CALL FOR ECUMENICAL COUNCIL REFUSED"
+		set_global_flag = ecumenical_council_refused
+		496 = { change_variable = { which = "schism_tracker" value = 1 } }
+		d_pentarch_constantinople = {
+			holder_scope = { save_event_target_as = current_patriarch }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2284
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = greek_rites }
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2284
+		trigger = {
+			religion = chalcedonian
+			rightful_religious_head_scope = { trait = latin_rites }
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2284
+		trigger = {
+			religion = chalcedonian
+			NOR = {
+				rightful_religious_head_scope = { trait = greek_rites }
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD_Plus_2284
+		trigger = {
+			NOT = { religion = chalcedonian }
+			religion_group = christian
+		}
+	}
+}
+
+### THE SCHISM OCCURS
+
+# Check for the Schism
+character_event = {
+	id = Plus.2285
+
+	hide_window = yes
+
+	only_playable = yes
+	religion = chalcedonian
+
+	trigger = {
+		year = 950
+		has_landed_title = d_pentarch_rome
+		is_heretic = no
+		trait = latin_rites
+		d_pentarch_constantinople = {
+			holder_scope = {
+				trait = greek_rites
+				religion = ROOT
+			}
+		}
+		496 = { check_variable = { which = "schism_tracker" value = 3.9 } }
+		NOR = {
+			has_global_flag = schism_happened
+			has_global_flag = schism_happening
+			has_global_flag = patriarch_supreme_created
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.5
+			year = 1000
+		}
+		modifier = {
+			factor = 0.5
+			year = 1050
+		}
+		modifier = {
+			factor = 0.5
+			year = 1100
+		}
+		modifier = {
+			factor = 0.5
+			496 = { check_variable = { which = "schism_tracker" value = 4.9 } }
+		}
+		modifier = {
+			factor = 0.5
+			496 = { check_variable = { which = "schism_tracker" value = 5.9 } }
+		}
+		modifier = {
+			factor = 0.5
+			496 = { check_variable = { which = "schism_tracker" value = 6.9 } }
+		}
+	}
+
+	immediate = {
+		set_global_flag = schism_happening
+		save_event_target_as = schism_pope
+		add_character_modifier = {
+			modifier = do_not_disturb
+			hidden = yes
+			duration = 5
+		}
+		d_pentarch_constantinople = {
+			holder_scope = {
+				save_event_target_as = current_patriarch
+				add_character_modifier = {
+					modifier = do_not_disturb
+					hidden = yes
+					duration = 5
+				}
+			}
+		}
+		top_liege = {
+			narrative_event = { id = Plus.2286 } #choose whether to convert
+			any_independent_ruler = {
+				limit = { NOT = { character = PREV } }
+				narrative_event = { id = Plus.2286 } #choose whether to convert
+			}
+		}
+		496 = {
+			province_event = { id = Plus.2287 days = 5 } # Actually convert all the religions
+		}
+	}
+}
+
+# Rulers informed - become Catholic or Orthodox?
+narrative_event = {
+	id = Plus.2286
+	title = EVTNAME_Plus_2286
+	desc = EVTDESC_Plus_2286
+	picture = GFX_evt_great_schism
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	immediate = {
+		any_vassal = {
+			limit = { is_playable = yes }
+			narrative_event = { id = Plus.2286 days = 1 } #conversion choice
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2286 #Become Catholic
+		trigger = {
+			religion = chalcedonian
+			NOR = {
+				trait = greek_rites
+				trait = latin_rites
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					rightful_religious_head_scope = { trait = greek_rites }
+					has_landed_title = e_byzantium
+				}
+			}
+			modifier = {
+				factor = 0.15
+				liege = { religion = orthodox }
+			}
+			modifier = {
+				factor = 0.25
+				NOT = { liege = { religion = orthodox } }
+				capital_scope = {
+					NOR = {
+						region = world_europe_west
+						region = world_europe_north
+						region = world_europe_south_italy
+						region = world_africa_west
+						region = custom_morocco
+						region = custom_algiers
+						region = custom_africa
+						region = custom_croatia
+						region = custom_poland
+						region = custom_carpathia
+					}
+				}
+			}
+			modifier = {
+				factor = 0.25
+				trait = varangian
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					any_liege = { trait = greek_rites }
+					culture = greek
+				}
+			}
+		}
+		religion = catholic
+		hidden_tooltip = {
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+					location = { religion = chalcedonian }
+				}
+				location = { set_province_flag = convert_to_catholic }
+			}
+			any_courtier = {
+				limit = {
+					religion = chalcedonian
+					is_ruler = no
+					NOT = { trait = greek_rites }
+					NOT = { trait = latin_rites }
+				}
+				religion = catholic
+			}
+			any_vassal = {
+				limit = {
+					religion = chalcedonian
+					is_playable = no
+				}
+				if = {
+					limit = {
+						NOT = { trait = greek_rites }
+						NOT = { trait = latin_rites }
+					}
+					religion = catholic
+				}
+				any_courtier = {
+					limit = {
+						religion = chalcedonian
+						NOT = { trait = greek_rites }
+						NOT = { trait = latin_rites }
+					}
+					religion = catholic
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2286 #Become Orthodox
+		trigger = {
+			religion = chalcedonian
+			NOR = {
+				trait = greek_rites
+				trait = latin_rites
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				rightful_religious_head_scope = { trait = latin_rites }
+				NOT = { has_landed_title = e_byzantium }
+			}
+			modifier = {
+				factor = 0.15
+				liege = { religion = catholic }
+			}
+			modifier = {
+				factor = 0.25
+				NOT = { liege = { religion = catholic } }
+				capital_scope = {
+					OR = {
+						region = world_europe_west
+						region = world_europe_north
+						region = world_europe_south_italy
+						region = world_africa_west
+						region = custom_morocco
+						region = custom_algiers
+						region = custom_africa
+						region = custom_croatia
+						region = custom_poland
+						region = custom_carpathia
+					}
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					any_liege = { trait = latin_rites }
+					culture = italian
+					culture = lombard
+				}
+			}
+		}
+		religion = orthodox
+		hidden_tooltip = {
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+					location = { religion = chalcedonian }
+				}
+				location = { set_province_flag = convert_to_orthodox }
+			}
+			any_courtier = {
+				limit = {
+					religion = chalcedonian
+					is_ruler = no
+					NOT = { trait = greek_rites }
+					NOT = { trait = latin_rites }
+				}
+				religion = orthodox
+			}
+			any_vassal = {
+				limit = {
+					religion = chalcedonian
+					is_playable = no
+				}
+				if = {
+					limit = {
+						NOT = { trait = greek_rites }
+						NOT = { trait = latin_rites }
+					}
+					religion = orthodox
+				}
+				any_courtier = {
+					limit = {
+						religion = chalcedonian
+						NOT = { trait = greek_rites }
+						NOT = { trait = latin_rites }
+					}
+					religion = orthodox
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2286 #This is of great concern...
+		trigger = {
+			religion = chalcedonian
+			OR = {
+				trait = greek_rites
+				trait = latin_rites
+			}
+		}
+		if = {
+			limit = { trait = latin_rites }
+			hidden_tooltip = {
+				any_demesne_title = {
+					limit = {
+						tier = COUNT
+						location = { religion = chalcedonian }
+					}
+					location = { set_province_flag = convert_to_catholic }
+				}
+				any_courtier = {
+					limit = {
+						religion = chalcedonian
+						is_ruler = no
+						NOT = { trait = greek_rites }
+						NOT = { trait = latin_rites }
+					}
+					religion = catholic
+				}
+				any_vassal = {
+					limit = {
+						religion = chalcedonian
+						is_playable = no
+					}
+					if = {
+						limit = {
+							NOT = { trait = greek_rites }
+							NOT = { trait = latin_rites }
+						}
+						religion = catholic
+					}
+					any_courtier = {
+						limit = {
+							religion = chalcedonian
+							NOT = { trait = greek_rites }
+							NOT = { trait = latin_rites }
+						}
+						religion = catholic
+					}
+				}
+			}
+		}
+		if = {
+			limit = { trait = greek_rites }
+			hidden_tooltip = {
+				any_demesne_title = {
+					limit = {
+						tier = COUNT
+						location = { religion = chalcedonian }
+					}
+					location = { set_province_flag = convert_to_orthodox }
+				}
+				any_courtier = {
+					limit = {
+						religion = chalcedonian
+						is_ruler = no
+						NOT = { trait = greek_rites }
+						NOT = { trait = latin_rites }
+					}
+					religion = orthodox
+				}
+				any_vassal = {
+					limit = {
+						religion = chalcedonian
+						is_playable = no
+					}
+					if = {
+						limit = {
+							NOT = { trait = greek_rites }
+							NOT = { trait = latin_rites }
+						}
+						religion = orthodox
+					}
+					any_courtier = {
+						limit = {
+							religion = chalcedonian
+							NOT = { trait = greek_rites }
+							NOT = { trait = latin_rites }
+						}
+						religion = orthodox
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD_Plus_2286 #Nothing to do with me
+		trigger = {
+			NOT = { religion = chalcedonian }
+		}
+		hidden_tooltip = {
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+					location = {
+						religion = chalcedonian
+						OR = {
+							region = world_europe_west
+							region = world_europe_north
+							region = world_europe_south_italy
+							region = world_africa_west
+							region = custom_morocco
+							region = custom_algiers
+							region = custom_africa
+							region = custom_croatia
+							region = custom_poland
+							region = custom_carpathia
+						}
+					}
+				}
+				location = { set_province_flag = convert_to_catholic }
+			}
+			any_courtier = {
+				limit = {
+					religion = chalcedonian
+					is_ruler = no
+					NOT = { trait = greek_rites }
+					NOT = { trait = latin_rites }
+					OR = {
+						rightful_religious_head_scope = { trait = latin_rites }
+						AND = {
+							NOT = { rightful_religious_head_scope = { trait = latin_rites } }
+							NOT = { rightful_religious_head_scope = { trait = greek_rites } }
+							location = {
+								OR = {
+									region = world_europe_west
+									region = world_europe_north
+									region = world_europe_south_italy
+									region = world_africa_west
+									region = custom_morocco
+									region = custom_algiers
+									region = custom_africa
+									region = custom_croatia
+									region = custom_poland
+									region = custom_carpathia
+								}
+							}
+						}
+					}
+				}
+				religion = catholic
+			}
+			any_vassal = {
+				limit = {
+					religion = chalcedonian
+					is_playable = no
+				}
+				if = {
+					limit = {
+						NOT = { trait = greek_rites }
+						NOT = { trait = latin_rites }
+					}
+					religion = catholic
+				}
+				if = {
+					limit = {
+						OR = {
+							rightful_religious_head_scope = { trait = latin_rites }
+							AND = {
+								NOT = { rightful_religious_head_scope = { trait = latin_rites } }
+								NOT = { rightful_religious_head_scope = { trait = greek_rites } }
+								location = {
+									OR = {
+										region = world_europe_west
+										region = world_europe_north
+										region = world_europe_south_italy
+										region = world_africa_west
+										region = custom_morocco
+										region = custom_algiers
+										region = custom_africa
+										region = custom_croatia
+										region = custom_poland
+										region = custom_carpathia
+									}
+								}
+							}
+						}
+					}
+					any_courtier = {
+						limit = {
+							religion = chalcedonian
+							NOT = { trait = greek_rites }
+							NOT = { trait = latin_rites }
+						}
+						religion = catholic
+					}
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+					location = {
+						religion = chalcedonian
+						NOR = {
+							region = world_europe_west
+							region = world_europe_north
+							region = world_europe_south_italy
+							region = world_africa_west
+							region = custom_morocco
+							region = custom_algiers
+							region = custom_africa
+							region = custom_croatia
+							region = custom_poland
+							region = custom_carpathia
+						}
+					}
+				}
+				location = { set_province_flag = convert_to_orthodox }
+			}
+			any_courtier = {
+				limit = {
+					religion = chalcedonian
+					is_ruler = no
+					NOT = { trait = greek_rites }
+					NOT = { trait = latin_rites }
+					OR = {
+						rightful_religious_head_scope = { trait = greek_rites }
+						AND = {
+							NOT = { rightful_religious_head_scope = { trait = latin_rites } }
+							NOT = { rightful_religious_head_scope = { trait = greek_rites } }
+							location = {
+								NOR = {
+									region = world_europe_west
+									region = world_europe_north
+									region = world_europe_south_italy
+									region = world_africa_west
+									region = custom_morocco
+									region = custom_algiers
+									region = custom_africa
+									region = custom_croatia
+									region = custom_poland
+									region = custom_carpathia
+								}
+							}
+						}
+					}
+				}
+				religion = orthodox
+			}
+			any_vassal = {
+				limit = {
+					religion = chalcedonian
+					is_playable = no
+				}
+				if = {
+					limit = {
+						NOT = { trait = greek_rites }
+						NOT = { trait = latin_rites }
+					}
+					religion = orthodox
+				}
+				if = {
+					limit = {
+						OR = {
+							rightful_religious_head_scope = { trait = greek_rites }
+							AND = {
+								NOT = { rightful_religious_head_scope = { trait = latin_rites } }
+								NOT = { rightful_religious_head_scope = { trait = greek_rites } }
+								location = {
+									NOR = {
+										region = world_europe_west
+										region = world_europe_north
+										region = world_europe_south_italy
+										region = world_africa_west
+										region = custom_morocco
+										region = custom_algiers
+										region = custom_africa
+										region = custom_croatia
+										region = custom_poland
+										region = custom_carpathia
+									}
+								}
+							}
+						}
+					}
+					any_courtier = {
+						limit = {
+							religion = chalcedonian
+							NOT = { trait = greek_rites }
+							NOT = { trait = latin_rites }
+						}
+						religion = orthodox
+					}
+				}
+			}
+		}
+	}
+}
+
+# Finish the Schism
+province_event = {
+	id = Plus.2287
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		log = "GREAT SCHISM HAPPENED"
+		clr_global_flag = schism_happening
+		clr_global_flag = attacked_by_papal_emperor
+		clr_global_flag = filioque_adopted
+		clr_global_flag = papal_jurisdiction_dispute
+		clr_global_flag = eucharist_conflict
+		clr_global_flag = wicked_pope_patriarch
+		clr_global_flag = ecumenical_council_refused
+		set_global_flag = schism_happened
+
+		# reset catholic/orthodox heresies
+		set_parent_religion = { religion = cathar parent = catholic }
+		set_parent_religion = { religion = dulcinian parent = catholic }
+		set_parent_religion = { religion = waldensian parent = catholic }
+		set_parent_religion = { religion = lollard parent = catholic }
+		set_parent_religion = { religion = adoptionist parent = catholic }
+		set_parent_religion = { religion = bogomilist parent = orthodox }
+		set_parent_religion = { religion = monothelite parent = orthodox }
+		set_parent_religion = { religion = iconoclast parent = orthodox }
+
+		#add new religion heads, destroy old titles
+		activate_title = { title = k_papal_state status = yes }
+		activate_title = { title = k_orthodox status = yes }
+		d_pentarch_rome = {
+			holder_scope = {
+				any_liege = {
+					limit = { tier = EMPEROR }
+					save_event_target_as = new_liege
+				}
+				religion = catholic
+				remove_trait = latin_rites
+				unsafe_destroy_landed_title = THIS
+				k_papal_state = { gain_title = PREV }
+				set_defacto_liege = event_target:new_liege
+			}
+		}
+		d_pentarch_constantinople = {
+			holder_scope = {
+				any_liege = {
+					limit = { tier = EMPEROR }
+					save_event_target_as = new_liege
+				}
+				religion = orthodox
+				remove_trait = greek_rites
+				k_orthodox = { gain_title = PREV }
+				set_defacto_liege = event_target:new_liege
+			}
+		}
+		k_papal_chalcedon = {
+			unsafe_destroy_landed_title = THIS
+			activate_title = { title = THIS status = no }
+		}
+
+		#convert provinces and remaining Chalcedonians
+		any_independent_ruler = {
+			if = {
+				limit = { trait = greek_rites }
+				remove_trait = greek_rites
+				religion = orthodox
+			}
+			if = {
+				limit = { trait = latin_rites }
+				remove_trait = latin_rites
+				religion = catholic
+			}
+			if = {
+				limit = { religion = chalcedonian }
+				religion = catholic
+			}
+			any_realm_character = {
+				limit = {
+					OR = {
+						trait = greek_rites
+						trait = latin_rites
+					}
+				}
+				if = {
+					limit = { trait = greek_rites }
+					remove_trait = greek_rites
+					religion = orthodox
+				}
+				if = {
+					limit = { trait = latin_rites }
+					remove_trait = latin_rites
+					religion = catholic
+				}
+			}
+			any_realm_character = {
+				limit = { religion = chalcedonian }
+				liege = { reverse_religion = PREV }
+			}
+			any_realm_province = {
+				if = {
+					limit = { has_province_flag = convert_to_catholic }
+					clr_province_flag = convert_to_catholic
+					if = {
+						limit = { religion = chalcedonian }
+						religion = catholic
+					}
+				}
+				if = {
+					limit = { has_province_flag = convert_to_orthodox }
+					clr_province_flag = convert_to_orthodox
+					if = {
+						limit = { religion = chalcedonian }
+						religion = orthodox
+					}
+				}
+			}
+
+			#adjust mercenaries
+			any_title = {
+				limit = {
+					mercenary = yes
+					capital_scope = { religion = orthodox }
+					holder_scope = { religion = chalcedonian }
+				}
+				religion = orthodox
+				holder_scope = {
+					religion = orthodox
+					any_courtier = { religion = orthodox }
+				}
+			}
+			any_title = {
+				limit = {
+					mercenary = yes
+					holder_scope = { religion = chalcedonian }
+				}
+				religion = catholic
+				holder_scope = {
+					religion = catholic
+					any_courtier = { religion = catholic }
+				}
+			}
+		}
+	}
+}
+
+### PATRIARCH SUPREME
+
+# Patriarch Supreme appointed
+narrative_event = {
+	id = Plus.2288
+	title = EVTNAME_Plus_2288
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+
+	desc = {
+		text = EVTDESC_Plus_2288_pope1
+		trigger = {
+			ROOT = { trait = latin_rites }
+			FROM = { NOT = { character = ROOT } }
+		}
+	}
+	desc = {
+		text = EVTDESC_Plus_2288_pope2
+		trigger = {
+			ROOT = { trait = latin_rites }
+			FROM = { character = ROOT }
+		}
+	}
+	desc = {
+		text = EVTDESC_Plus_2288_patriarch1
+		trigger = {
+			ROOT = { trait = greek_rites }
+			FROM = { NOT = { character = ROOT } }
+		}
+	}
+	desc = {
+		text = EVTDESC_Plus_2288_patriarch2
+		trigger = {
+			ROOT = { trait = greek_rites }
+			FROM = { character = ROOT }
+		}
+	}
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+	is_triggered_only = yes
+
+	immediate = {
+		log = "[Root.GetTitledName] has been appointed Supreme Patriarch"
+		k_papal_chalcedon = {
+			activate_title = { title = THIS status = no }
+			unsafe_destroy_landed_title = THIS
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Plus_2288
+		trigger = {
+			religion = chalcedonian
+		}
+	}
+	option = {
+		name = EVTOPTB_Plus_2288
+		trigger = {
+			religion_group = christian
+			NOT = { religion = chalcedonian }
+		}
+	}
+	option = {
+		name = EVTOPTC_Plus_2288
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# Relations between Greek/Latin realms
+character_event = {
+	id = Plus.2289
+
+	hide_window = yes
+	religion = chalcedonian
+	is_triggered_only = yes
+
+	trigger = {
+		independent = yes
+		religion = chalcedonian
+		OR = {
+			NOT = { has_character_flag = check_greek_latin }
+			had_character_flag = { flag = check_greek_latin days = 365 }
+		}
+		NOR = {
+			has_global_flag = schism_happened
+			has_global_flag = patriarch_supreme_created
+		}
+	}
+
+	immediate = {
+		set_character_flag = check_greek_latin
+		if = {
+			limit = { rightful_religious_head_scope = { trait = greek_rites } }
+			any_independent_ruler = {
+				limit = { rightful_religious_head_scope = { trait = latin_rites } }
+				if = {
+					limit = { NOT = { has_opinion_modifier = { who = ROOT modifier = greek_latin_relations } } }
+					opinion = { who = ROOT modifier = greek_latin_relations years = 100 }
+				}
+				if = {
+					limit = { NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = greek_latin_relations } } }
+					reverse_opinion = { who = ROOT modifier = greek_latin_relations years = 100 }
+				}
+			}
+			any_independent_ruler = {
+				limit = { rightful_religious_head_scope = { trait = greek_rites } }
+				if = {
+					limit = { has_opinion_modifier = { who = ROOT modifier = greek_latin_relations } }
+					remove_opinion = { who = ROOT modifier = greek_latin_relations }
+				}
+				if = {
+					limit = { reverse_has_opinion_modifier = { who = ROOT modifier = greek_latin_relations } }
+					reverse_remove_opinion = { who = ROOT modifier = greek_latin_relations }
+				}
+			}
+		}
+		if = {
+			limit = { rightful_religious_head_scope = { trait = latin_rites } }
+			any_independent_ruler = {
+				limit = { rightful_religious_head_scope = { trait = greek_rites } }
+				if = {
+					limit = { NOT = { has_opinion_modifier = { who = ROOT modifier = greek_latin_relations } } }
+					opinion = { who = ROOT modifier = greek_latin_relations years = 100 }
+				}
+				if = {
+					limit = { NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = greek_latin_relations } } }
+					reverse_opinion = { who = ROOT modifier = greek_latin_relations years = 100 }
+				}
+			}
+			any_independent_ruler = {
+				limit = { rightful_religious_head_scope = { trait = latin_rites } }
+				if = {
+					limit = { has_opinion_modifier = { who = ROOT modifier = greek_latin_relations } }
+					remove_opinion = { who = ROOT modifier = greek_latin_relations }
+				}
+				if = {
+					limit = { reverse_has_opinion_modifier = { who = ROOT modifier = greek_latin_relations } }
+					reverse_remove_opinion = { who = ROOT modifier = greek_latin_relations }
+				}
+			}
+		}
+	}
+}
+
+# Chalcedonian Pope/Patriarch dies
+character_event = {
+	id = Plus.2290
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_theocracy = yes
+		OR = {
+			has_landed_title = d_pentarch_rome
+			has_landed_title = d_pentarch_constantinople
+			has_landed_title = d_pentarch_jerusalem
+			has_landed_title = d_pentarch_antioch
+			has_landed_title = d_pentarch_alexandria
+		}
+		OR = {
+			NOT = { has_landed_title = k_papal_chalcedon }
+			NOT = {
+				chalc_cardinal = {
+					is_alive = yes
+					prisoner = no
+					NOT = { trait = incapable }
+				}
+			}
+		}
+		current_heir = {
+			ai = yes
+			NOT = { religion = ROOT }
+		}
+	}
+
+	immediate = {
+		current_heir = {
+			religion = ROOT
+		}
+	}
+}
+
+### CHALCEDONIAN CARDINALS
+
+# Notification that a vassal has been appointed Cardinal
+character_event = {
+	id = Plus.2291
+	desc = EVTDESC_Plus_2291
+	picture = GFX_evt_bishop
+
+	is_triggered_only = yes
+	notification = yes
+
+	option = {
+		name = OK
+	}
+}
+
+# Notification that a Cardinal has been appointed
+character_event = {
+	id = Plus.2292
+	desc = EVTDESC_Plus_2292
+	picture = GFX_evt_bishop
+
+	is_triggered_only = yes
+	notification = yes
+
+	option = {
+		name = OK
+	}
+}
+
+# Cardinal loses title
+character_event = {
+	id = Plus.2293
+
+	hide_window = yes
+	has_character_flag = is_chalcedonian_cardinal
+
+	trigger = {
+		OR = {
+			NOT = { trait = chalc_cardinal }
+			NOT = { religion = chalcedonian }
+			is_theocracy = no
+			is_ruler = no
+			trait = incapable
+			k_chalcedonian = { has_holder = yes }
+			AND = {
+				k_papal_chalcedon = { has_holder = yes }
+				NOT = { rightful_religious_head_scope = { has_landed_title = k_papal_chalcedon } }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		clr_character_flag = is_chalcedonian_cardinal
+		remove_special_character_title = CHALCEDONIAN_CARDINAL
+		remove_trait = chalc_cardinal
+	}
+}
+
+# Pope dies
+character_event = {
+	id = Plus.2294
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = k_papal_chalcedon
+		chalc_cardinal = {
+			is_alive = yes
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+	}
+
+	immediate = {
+		#save titles to be taken by the new pope
+		any_demesne_title = { set_title_flag = to_new_pope }
+
+		#pick successor randomly
+		chalc_cardinal = {
+			limit = {
+				is_alive = yes
+				prisoner = no
+				NOT = { trait = incapable }
+			}
+			save_event_target_as = new_pope
+		}
+		current_heir = { save_event_target_as = interim_pope }
+
+		#notify the player
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				religion = chalcedonian
+				rightful_religious_head = ROOT
+			}
+			character_event = { id = Plus.2296 days = 1 }
+		}
+
+		#fire the succession event
+		event_target:new_pope = {
+			character_event = { id = Plus.2295 days = 1 }
+		}
+	}
+}
+
+# Bounce event for new Pope
+character_event = {
+	id = Plus.2295
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		#step down from old position
+		any_demesne_title = { set_title_flag = former_pope_titles }
+		abdicate = yes
+
+		#remove cardinal status
+		clr_character_flag = is_chalcedonian_cardinal
+		remove_special_character_title = CHALCEDONIAN_CARDINAL
+		remove_trait = chalc_cardinal
+
+		#usurp the former pope's titles
+		any_title = {
+			limit = { has_title_flag = to_new_pope }
+			clr_title_flag = to_new_pope
+			grant_title_no_opinion = ROOT
+		}
+		set_government_type = theocracy_government
+
+		#remove claims to old titles
+		any_title = {
+			limit = { has_title_flag = former_pope_titles }
+			clr_title_flag = former_pope_titles
+			remove_claim = ROOT
+		}
+
+		#take the "interim" pope back
+		event_target:interim_pope = { move_character = ROOT }
+
+		#give the proper pope title
+		if = {
+			limit = { has_landed_title = d_pentarch_rome }
+			set_special_character_title = POPE
+			set_character_flag = has_title_pope
+		}
+
+		#give the pope the papal dynasty, if they have none
+		if = {
+			limit = { dynasty = none }
+			dynasty = 1000037003
+		}
+	}
+}
+
+# Notification that a new Pope has risen
+character_event = {
+	id = Plus.2296
+	desc = EVTDESC_Plus_2296
+	picture = GFX_evt_bishop
+
+	is_triggered_only = yes
+	notification = yes
+
+	option = {
+		name = OK
 	}
 }
 

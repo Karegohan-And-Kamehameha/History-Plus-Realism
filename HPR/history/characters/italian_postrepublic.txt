@@ -288,10 +288,13 @@
 	name="Ugo"
 	#placeholder
 	dynasty=23107
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death="1060.1.1"
@@ -304,11 +307,14 @@
 	name="Niccolo"
 	#placeholder
 	dynasty=23107
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	father=167281
 	1025.1.1 = {
 		birth="1025.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"
@@ -321,11 +327,14 @@
 	name="Oberto"
 	#placeholder
 	dynasty=23107
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	father=167281
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -335,7 +344,7 @@
 
 
 167284 = {
-	name="Ugo" 
+	name="Ugo"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -353,7 +362,7 @@
 
 167285 = {
 	name="Guglielmo"
-	#placeholder 
+	#placeholder
 	dynasty=23107
 	religion="catholic"
 	culture="ligurian"
@@ -369,7 +378,7 @@
 
 
 167286 = {
-	name="Ottone" 
+	name="Ottone"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -387,7 +396,7 @@
 
 
 167287 = {
-	name="Raimundo" 
+	name="Raimundo"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -405,7 +414,7 @@
 
 
 167288 = {
-	name="Francesco" 
+	name="Francesco"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -423,7 +432,7 @@
 
 
 167289 = {
-	name="Filippo" 
+	name="Filippo"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -439,7 +448,7 @@
 
 
 167290 = {
-	name="Ottone" 
+	name="Ottone"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -456,7 +465,7 @@
 
 
 167291 = {
-	name="Guido" 
+	name="Guido"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -473,7 +482,7 @@
 
 
 167292 = {
-	name="Constanza" 
+	name="Constanza"
 	#placeholder
 	dynasty=23107
 	female=yes
@@ -489,7 +498,7 @@
 }
 
 167293 = {
-	name="Filippo" 
+	name="Filippo"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -506,7 +515,7 @@
 
 
 167294 = {
-	name="Obizzo" 
+	name="Obizzo"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -521,7 +530,7 @@
 }
 
 167295 = {
-	name="Ugo" 
+	name="Ugo"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -538,7 +547,7 @@
 
 
 167296 = {
-	name="Claudia" 
+	name="Claudia"
 	#placeholder
 	dynasty=23107
 	female=yes
@@ -554,7 +563,7 @@
 }
 
 167297 = {
-	name="Oberto" 
+	name="Oberto"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -571,7 +580,7 @@
 
 
 167298 = {
-	name="Filippo" 
+	name="Filippo"
 	#placeholder
 	dynasty=23107
 	religion="catholic"
@@ -588,7 +597,7 @@
 
 167299 = {
 	name="Niccolo"
-	#placeholder 
+	#placeholder
 	dynasty=23107
 	religion="catholic"
 	culture="ligurian"
@@ -605,10 +614,13 @@
 170040 = {
 	name="Domenico"
 	dynasty=13027
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	1023.1.2 = {
 		birth="1023.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.2 = {
 		death="1060.1.2"
@@ -618,11 +630,14 @@
 170041 = {
 	name="Bono"
 	dynasty=13027
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=170040
 	1045.1.2 = {
 		birth="1045.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1112.1.2 = {
 		death="1112.1.2"
@@ -1276,10 +1291,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91350 # Obizzo Spinola
 	mother = 91352 # Béatrice, daughter of Margherita di Antiochia
-	
+
 	1245.1.1 = {
 		birth="1245.1.1" # unknown
 	}
@@ -1290,7 +1305,7 @@
 	1320.1.1 = {
 		death="1320.1.1"
 	}
-}	
+}
 
 91354 = {
 	name="Sbaralia" # Sbaralia Spinola
@@ -1298,10 +1313,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91353 # Corrado Spinola
 	mother = 167545 # Argentina Fieschi, d. of Opizzone Fieeschi and Simona.
-	
+
 	1265.1.1 = {
 		birth="1265.1.1" # unknown
 	}
@@ -1311,7 +1326,7 @@
               # death_reason = death_battle
          # }
 	}
-}	
+}
 
 91355 = {
 	name="Aloisia" # name unknown
@@ -1320,10 +1335,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father=463550 # Obizzo Spinola di Lucoli, doge of Genoa
 	mother=71188 # Violante di Saluzzo, d. of Tommaso I, marchese di Saluzzo and Aloisia di Ceva
-	
+
 	1295.1.1 = {
 		birth="1290.1.1"
 	}
@@ -1331,7 +1346,7 @@
 	1360.1.1 = {
 		death="1360.1.1"
 	}
-}	
+}
 
 91356 = {
 	name="Lucchesio" # Lucchesio Spinola
@@ -1339,16 +1354,16 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father=73430 # Gherardo Spinola
-	
+
 	1323.1.1 = {
 		birth="1323.1.1"
 	}
 	1390.1.1 = {
 		death="1390.1.1"
 	}
-}	
+}
 
 91357 = {
 	name="Guido" # Guido II Spinola, consul of Genoa in 1201
@@ -1356,17 +1371,17 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91345 # Oberto I Spinola, consul of Genoa
 	# Sybilla della Volta
-	
+
 	1165.1.1 = {
 		birth="1165.1.1"
 	}
 	1220.1.1 = {
 		death="1220.1.1" # after 1203, send in 1210 as ambassador in Pisa
 	}
-}	
+}
 
 91358 = {
 	name="Niccolò" # Niccolò Spinola
@@ -1374,16 +1389,16 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
-	father = 91357 # Guido II Spinola, consul of Genoa 
-	
+
+	father = 91357 # Guido II Spinola, consul of Genoa
+
 	1190.1.1 = {
 		birth="1190.1.1"
 	}
 	1258.1.1 = {
 		death="1258.1.1"
 	}
-}	
+}
 
 
 91359 = {
@@ -1392,9 +1407,9 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91358 # Niccolò Spinola
-	
+
 	1210.1.1 = {
 		birth="1210.1.1"
 	}
@@ -1404,15 +1419,15 @@
 	1270.1.1 = {
 		death="1270.1.1" # after 1258.11.26
 	}
-}	
+}
 
 91360 = {
 	name="Aldina" # Aldina
 	female = yes
-	
+
 	religion="catholic"
 	culture="ligurian"
-		
+
 	1210.1.1 = {
 		birth="1210.1.1"
 	}
@@ -1420,7 +1435,7 @@
 	1290.1.1 = {
 		death="1290.1.1"
 	}
-}	
+}
 
 91361 = {
 	name="Enrico" # Enrico Spinola
@@ -1428,21 +1443,21 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91358 # Niccolò Spinola
-	
+
 	1220.1.1 = {
 		birth="1220.1.1"
 	}
-	
+
 	1240.1.1 = {
 		add_spouse = 91364 # Simonetta
 	}
-	
+
 	1275.1.1 = {
 		death="1280.1.1" # after 1258.11.26
 	}
-}	
+}
 
 91362 = {
 	name="Bonifazio" # Bonifazio Spinola
@@ -1450,9 +1465,9 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91358 # Niccolò Spinola
-	
+
 	1230.1.1 = {
 		birth="1230.1.1"
 	}
@@ -1467,10 +1482,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91361 # Enrico Spinola
 	mother = 91364 # Simonetta
-	
+
 	1280.1.1 = {
 		birth="1280.1.1"
 	}
@@ -1483,11 +1498,11 @@
 91364 = {
 	name="Simonetta"
 	female = yes
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
-	
+
+
 	1220.1.1 = {
 		birth="1220.1.1"
 	}
@@ -1502,10 +1517,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91363 # Cristiano Spinola
 	# Aguigna de Mari
-	
+
 	1325.1.1 = {
 		birth="1325.1.1"
 	}
@@ -1521,9 +1536,9 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
-	father = 91357 # Guido II Spinola, consul of Genoa 
-	
+
+	father = 91357 # Guido II Spinola, consul of Genoa
+
 	1193.1.1 = {
 		birth="1193.1.1"
 	}
@@ -1531,7 +1546,7 @@
 	1268.1.1 = {
 		death="1268.1.1" # after 1223
 	}
-}	
+}
 
 91367 = {
 	name="Guido" # Guido
@@ -1539,18 +1554,18 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91366 # Giovanni Podesta
 	# Giacoba di San Genesio
-	
+
 	1220.1.1 = {
 		birth="1220.1.1"
 	}
-	
+
 	1284.1.1 = {
 		death="1284.1.1"
 	}
-}	
+}
 
 91368 = {
 	name="Giovanni" # Giovanni
@@ -1558,14 +1573,14 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91367 # Guido
 	# Constanza Scotti
-	
+
 	1240.1.1 = {
 		birth="1240.1.1"
 	}
-	
+
 	1300.1.1 = {
 		death="1300.1.1"
 	}
@@ -1577,10 +1592,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91368  # Giovanni
 	# Constanza Scotti
-	
+
 	1260.1.1 = {
 		birth="1260.1.1"
 	}
@@ -1588,7 +1603,7 @@
 	1320.1.1 = {
 		death="1320.1.1"
 	}
-}	
+}
 
 91370 = {
 	name="Luciano" # Luciano
@@ -1596,10 +1611,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91369 # Cipriano
 	# Constanza Scotti
-	
+
 	1280.1.1 = {
 		birth="1280.1.1"
 	}
@@ -1615,10 +1630,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91368  # Giovanni
 	# Constanza Scotti
-	
+
 	1265.1.1 = {
 		birth="1265.1.1"
 	}
@@ -1626,7 +1641,7 @@
 	1325.1.1 = {
 		death="1325.1.1"
 	}
-}	
+}
 
 91372 = {
 	name="Illario" # Illario
@@ -1634,10 +1649,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91371  # Bendiano
 	# Constanza Scotti
-	
+
 	1265.1.1 = {
 		birth="1265.1.1"
 	}
@@ -1653,10 +1668,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91367 # Guido
 	# Constanza Scotti
-	
+
 	1245.1.1 = {
 		birth="1245.1.1"
 	}
@@ -1664,7 +1679,7 @@
 	1305.1.1 = {
 		death="1305.1.1"
 	}
-}	
+}
 
 91374 = {
 	name="Giorgio" # Giorgio
@@ -1672,10 +1687,10 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91367 # Guido
 	# Constanza Scotti
-	
+
 	1250.1.1 = {
 		birth="1250.1.1"
 	}
@@ -1693,7 +1708,7 @@
 
 	religion="catholic"
 	culture="ligurian"
-	
+
 	1260.1.1 = {
 		birth="1260.1.1"
 	}
@@ -1706,12 +1721,12 @@
 91376 = {
 	name="Niccolò" # Niccolò
 	dynasty=50 # Spinola
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91367
-	
+
 	1244.1.1={
 		birth="1244.1.1"
 	}
@@ -1723,12 +1738,12 @@
 91377 = {
 	name="Antonio" # Antonio
 	dynasty=50 # Spinola
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91376 # Niccolò
-	
+
 	1267.1.1={
 		birth="1267.1.1"
 	}
@@ -1741,13 +1756,13 @@
 91378 = {
 	name="Segurano" # Segurano
 	dynasty=50 # Spinola
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91377 # Antonio
 	# Giovanna Savignone
-	
+
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1760,13 +1775,13 @@
 91379 = {
 	name="Lodovico" # Lodovico
 	dynasty=50 # Spinola
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91378 # Segurano
 	# Manfreda Roccotagliata
-	
+
 	1330.1.1={
 		birth="1330.1.1"
 	}
@@ -1780,13 +1795,13 @@
 	name="Corradina" # Corradina
 	dynasty=50 # Spinola
 	female = yes
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91345 # Oberto I Spinola, consul of Genoa
 	# Sybilla della Volta
-	
+
 	1175.1.1={
 		birth="1175.1.1"
 	}
@@ -1799,13 +1814,13 @@
 91381 = {
 	name="Ingo" # Ingo
 	dynasty=50 # Spinola
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91345 # Oberto I Spinola, consul of Genoa
 	# Sybilla della Volta
-	
+
 	1175.1.1={
 		birth="1175.1.1" # unknown
 	}
@@ -1818,13 +1833,13 @@
 91382 = {
 	name="Lanfranco" # Lanfranco
 	dynasty=50 # Spinola
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
+
 	father = 91345 # Oberto I Spinola, consul of Genoa
 	# Sybilla della Volta
-	
+
 	1200.1.1={
 		birth="1200.1.1" # unknown
 	}
@@ -1837,14 +1852,14 @@
 91456 = {
 	name="Ottobono" # Ottobono
 	dynasty=50 # Spinola
-	
+
 	religion="catholic"
 	culture="ligurian"
-	
+
 	# family ties invented
 	father = 91345 # Oberto I Spinola, consul of Genoa
 	# Sybilla della Volta
-	
+
 	1170.1.1={
 		birth="1170.1.1" # unknown
 	}
@@ -1939,11 +1954,14 @@
 	name="Jacopo"
 	#placeholder
 	dynasty=13026
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=20323
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1105.1.1 = {
 		death="1105.1.1"
@@ -1957,11 +1975,14 @@
 	name="Giovanni"
 	#placeholder
 	dynasty=13026
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=20323
 	1052.1.1 = {
 		birth="1052.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1110.1.1 = {
 		death="1110.1.1"
@@ -2665,7 +2686,7 @@
 	}
 	1280.1.1 = {
 		death="1280.1.1"
-	
+
 	}
 }
 
@@ -2683,7 +2704,7 @@
 	}
 	1296.12.14 = {
 		death="1296.12.14"
-	
+
 	}
 }
 
@@ -2701,7 +2722,7 @@
 	}
 	1300.1.1 = {
 		death="1300.1.1"
-	
+
 	}
 }
 
@@ -2912,7 +2933,7 @@
 167472 = {
 	name="Docibile"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	840.1.1 = {
 		birth="840.1.1"
@@ -2927,7 +2948,7 @@
 167473 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167472
 	860.1.1 = {
@@ -2943,7 +2964,7 @@
 167474 = {
 	name="Docibile"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167472
 	880.1.1 = {
@@ -2959,7 +2980,7 @@
 167475 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167474
 	910.1.1 = {
@@ -2975,7 +2996,7 @@
 167476 = {
 	name="Gregorio"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167474
 	933.1.1 = {
@@ -2991,7 +3012,7 @@
 167477 = {
 	name="Marino"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167474
 	930.1.1 = {
@@ -3007,7 +3028,7 @@
 167478 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167477
 	955.1.1 = {
@@ -3023,7 +3044,7 @@
 167479 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167478
 	980.1.1 = {
@@ -3039,7 +3060,7 @@
 167480 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167479
 	1010.1.1 = {
@@ -3055,7 +3076,7 @@
 167481 = {
 	name="Leone"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167474
 	935.1.1 = {
@@ -3072,7 +3093,7 @@
 167482 = {
 	name="Docibile"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	add_trait="bastard"
 	father=167481
@@ -3089,7 +3110,7 @@
 167483 = {
 	name="Leone"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167482
 	985.1.1 = {
@@ -3105,7 +3126,7 @@
 167484 = {
 	name="Ugo"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167482
 	990.1.1 = {
@@ -3121,11 +3142,14 @@
 167485 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167484
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.5.1 = {
 		death="1079.5.1"
@@ -3138,11 +3162,14 @@
 	name="Ugo"
 	#placeholder
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167485
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1 = {
 		death="1100.1.1"
@@ -3170,11 +3197,14 @@
 167488 = {
 	name="Docibile"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167483
 	1005.1.1 = {
 		birth="1005.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1056.10.1 = {
 		death="1056.10.1"
@@ -3186,11 +3216,14 @@
 167489 = {
 	name="Leone"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167488
 	1025.1.1 = {
 		birth="1025.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1064.4.1 = {
 		death="1064.4.1"
@@ -3263,7 +3296,7 @@
 167494 = {
 	name="Marino"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167477
 	960.1.1 = {
@@ -3279,11 +3312,14 @@
 167495 = {
 	name="Cresenzio"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167494
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.1.1 = {
 		death="1069.1.1"
@@ -3295,11 +3331,14 @@
 167496 = {
 	name="Cresenzio"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167495
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.1.1 = {
 		death="1069.1.1"
@@ -3311,11 +3350,14 @@
 167497 = {
 	name="Marino"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167495
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1121.1.1 = {
 		death="1121.1.1"
@@ -3373,11 +3415,14 @@
 167501 = {
 	name="Landolfo"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167488
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1064.10.1 = {
 		death="1064.10.1"
@@ -3405,11 +3450,14 @@
 167503 = {
 	name="Ranieri"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167483
 	1010.1.1 = {
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.5.1 = {
 		death="1070.5.1"
@@ -3422,11 +3470,14 @@
 167504 = {
 	name="Ranieri"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167503
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1125.1.1 = {
 		death="1125.1.1"
@@ -3441,7 +3492,7 @@
 	name="Dazio"
 	#placeholder
 	dynasty=9521 #Alliata
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	1000.1.1 = {
 		birth="1000.1.1"
@@ -3458,11 +3509,14 @@
 	name="Benedetto"
 	#placeholder
 	dynasty=9521 #Alliata
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167505
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"
@@ -3476,11 +3530,14 @@
 	name="Giacomo"
 	#placeholder
 	dynasty=9521 #Alliata
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167505
 	1035.1.1 = {
 		birth="1035.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -3976,12 +4033,15 @@
 167536 = {
 	name="Robaldo"
 	dynasty=13028
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="ligurian"
-	
+
 	1010.1.1 = {
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death="1060.1.1"
@@ -3991,12 +4051,15 @@
 167537 = {
 	name="Tedisio"
 	dynasty=13028
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="ligurian"
 	father=167536
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1128.1.1 = {
 		death="1128.1.1"
@@ -4007,7 +4070,7 @@
 167538 = {
 	name="Robaldo"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167537
@@ -4024,7 +4087,7 @@
 167539 = {
 	name="Tedisio"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167538
@@ -4041,7 +4104,7 @@
 167540 = {
 	name="Ugo"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167539
@@ -4059,7 +4122,7 @@
 167541 = {
 	name="Opizzone"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167540
@@ -4076,7 +4139,7 @@
 167542 = {
 	name="Tedisio"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167540
@@ -4093,7 +4156,7 @@
 167543 = {
 	name="Gerardo"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167538
@@ -4111,7 +4174,7 @@
 167544 = {
 	name="Enrico"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	add_trait="celibate"
@@ -4163,7 +4226,7 @@
 167547 = {
 	name="Tedisio"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167542
@@ -4211,7 +4274,7 @@
 
 
 167550 = {
-	name="Tedisio" 
+	name="Tedisio"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -4220,7 +4283,7 @@
 	1269.1.1 = {
 		birth="1269.1.1"
 	}
-	
+
 	1313.1.1 = {
 		death="1313.1.1"
 	}
@@ -4229,7 +4292,7 @@
 
 
 167551 = {
-	name="Leonardo" 
+	name="Leonardo"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -4238,7 +4301,7 @@
 	1270.1.1 = {
 		birth="1270.1.1"
 	}
-	
+
 	1291.5.9 = {
 		death="1391.5.9"
 	}
@@ -4248,7 +4311,7 @@
 
 
 167552 = {
-	name="Odoardo" 
+	name="Odoardo"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -4257,7 +4320,7 @@
 	1271.1.1 = {
 		birth="1271.1.1"
 	}
-	
+
 	1313.1.1 = {
 		death="1313.1.1"
 	}
@@ -4268,7 +4331,7 @@
 
 
 167553 = {
-	name="Manfredo" 
+	name="Manfredo"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -4277,7 +4340,7 @@
 	1272.1.1 = {
 		birth="1272.1.1"
 	}
-	
+
 	1291.5.9 = {
 		death="1291.5.9"
 	}
@@ -4288,7 +4351,7 @@
 167554 = {
 	name="Alberto"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=70924
@@ -4306,7 +4369,7 @@
 167555 = {
 	name="Federigo"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=70924
@@ -4340,7 +4403,7 @@
 167557 = {
 	name="Percivallio"
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=70924
@@ -4504,12 +4567,15 @@
 	name="Ugo"
 	#placeholder
 	dynasty=13028
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="ligurian"
 	father=167536
 	1052.1.1 = {
 		birth="1052.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1102.1.1 = {
 		death="1102.1.1"
@@ -4522,7 +4588,7 @@
 	name="Gerardo"
 	#placeholder
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167536
@@ -4540,7 +4606,7 @@
 	name="Oppizone"
 	#placeholder
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167566
@@ -4557,7 +4623,7 @@
 	name="Oberto"
 	#placeholder
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167568
@@ -4575,7 +4641,7 @@
 	name="Carlo"
 	#placeholder
 	dynasty=13028
-	
+
 	religion="catholic"
 	culture="ligurian"
 	father=167569
@@ -4784,10 +4850,13 @@
 	name="Ordelaffo"
 	#placeholder
 	dynasty=514
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	1015.1.1 = {
 		birth="1015.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death="1065.1.1"
@@ -4801,11 +4870,14 @@
 	name="Pietro"
 	#placeholder
 	dynasty=514
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=167583
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -4966,7 +5038,7 @@
 	name="Iacopo"
 	#placeholder
 	dynasty=516
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	970.1.1 = {
 		birth="970.1.1"
@@ -4980,11 +5052,14 @@
 	name="Iacopo"
 	#placeholder
 	dynasty=516
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=7800
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -4997,11 +5072,14 @@
 	name="Andrea"
 	#placeholder
 	dynasty=516
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=7800
 	1035.1.1 = {
 		birth="1035.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"
@@ -5014,11 +5092,14 @@
 	name="Carlo"
 	#placeholder
 	dynasty=516
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=7800
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -5236,11 +5317,14 @@
 	#placeholder
 	female=yes
 	dynasty=516
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=7800
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -5593,12 +5677,15 @@
 	name="Giovanni"
 	#placeholder
 	dynasty=13075
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=167668
 	mother=167669
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		add_spouse=167659
@@ -5735,7 +5822,7 @@
 182008 = {
 	name="Giovanni"
 	dynasty=13070
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="detached_priest"
 	940.1.1 = {
@@ -5749,7 +5836,7 @@
 	name="Lorenzo"
 	#placeholder
 	dynasty=13070
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=182008
 	970.1.1 = {
@@ -5763,11 +5850,14 @@
 	name="Pietro"
 	#placeholder
 	dynasty=13070
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=182009
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death="1060.1.1"
@@ -5777,11 +5867,14 @@
 	name="Domenico"
 	#placeholder
 	dynasty=13070
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	father=182010
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -5878,7 +5971,7 @@
 	}
 }
 182018 = {
-	name="Tomasina" 
+	name="Tomasina"
 	#husband = 98006 "Stephan The Posthumous"
 	#son = 98007 "king andrew III of hungary"
 	female=yes
@@ -6184,7 +6277,7 @@
 180000 = {
 	name="Ghisolfo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	900.1.1={
 		birth="900.1.1"
@@ -6197,7 +6290,7 @@
 	name="Gerardo"
 	# Gerardo I, Count of Volterra
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180000
 	932.1.1={
@@ -6211,7 +6304,7 @@
 	name="Gerardo"
 	# Gerardo II
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180001
 	954.1.1={
@@ -6228,7 +6321,7 @@
 	name="Tedice"
 	# Tedice I, Count of Volterra
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180001
 	963.1.1={
@@ -6245,7 +6338,7 @@
 	name="Ugo"
 	# Ugo I
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180003
 	mother=180180
@@ -6262,7 +6355,7 @@
 180005 = {
 	name="Rodolfo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180004
 	mother=180181
@@ -6277,7 +6370,7 @@
 	name="Guido"
 	# Guido I, Count of Forcoli
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180003
 	mother=180180
@@ -6295,12 +6388,15 @@
 	name="Guido"
 	# Guido II, Count of Forcoli
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180006
 	mother=180188
 	1036.1.1={
 		birth="1036.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1={
 		add_spouse=180502
@@ -6524,12 +6620,15 @@
 	name="Ugone"
 	# son of Guido I of Forcoli
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180006
 	mother=180188
 	1037.1.1={
 		birth="1037.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1068.1.1={
 		death="1068.1.1"
@@ -6539,7 +6638,7 @@
 	name="Tedice"
 	# Tedice II
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180003
 	mother=180180
@@ -6557,7 +6656,7 @@
 	name="Tedice"
 	# Tedice III, Count of Castagneto
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180022
 	mother=180182
@@ -6566,6 +6665,9 @@
 	}
 	1050.1.1={
 		add_spouse=180253
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1078.1.1={
 		death="1078.1.1"
@@ -8036,7 +8138,7 @@
 180135 = {
 	name="Ugo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180022
 	mother=180182
@@ -8046,21 +8148,27 @@
 	1045.1.1={
 		add_spouse=180201
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death="1078.1.1"
 	}
 }
 180136 = {
 	name="Ermingarde"
-	# wife of Ugo di Raineri 
+	# wife of Ugo di Raineri
 	female=yes
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180135
 	mother=180201
 	1046.1.1={
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1={
 		death="1100.1.1"
@@ -8069,12 +8177,15 @@
 180137 = {
 	name="Rodolfo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180003
 	mother=180180
 	994.1.1={
 		birth="994.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1059.1.1={
 		death="1059.1.1"
@@ -8084,7 +8195,7 @@
 	name="Ugo"
 	# Count of Suvereto
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180137
 	1025.1.1={
@@ -8092,6 +8203,9 @@
 	}
 	1043.1.1={
 		add_spouse=180193
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1077.1.1={
 		death="1077.1.1"
@@ -8101,12 +8215,15 @@
 	name="Ugo"
 	# Count of Suvereto
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180138
 	mother=180193
 	1047.1.1={
 		birth="1047.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1103.1.1={
 		death="1103.1.1"
@@ -8115,11 +8232,14 @@
 180140 = {
 	name="Rodolfo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180138
 	1052.1.1={
 		birth="1052.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1099.1.1={
 		death="1099.1.1"
@@ -8142,12 +8262,15 @@
 	name="Gerardo"
 	# Gerardo III
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180003
 	mother=180180
 	997.1.1={
 		birth="997.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.1={
 		death="1055.1.1"
@@ -8157,11 +8280,14 @@
 	name="Gerardo"
 	# Gerardo IV
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180142
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1056.1.1={
 		add_spouse=180507
@@ -8445,11 +8571,14 @@
 	# wife of Ildebrando <unknown>
 	female=yes
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180142
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1101.1.1={
 		death="1101.1.1"
@@ -8458,7 +8587,7 @@
 180163 = {
 	name="Enrico"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180003
 	mother=180180
@@ -8472,7 +8601,7 @@
 180164 = {
 	name="Rodolfo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180001
 	959.1.1={
@@ -8485,7 +8614,7 @@
 180165 = {
 	name="Ildebrando"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180164
 	983.1.1={
@@ -8498,7 +8627,7 @@
 180166 = {
 	name="Teutperto"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180164
 	987.1.1={
@@ -8511,7 +8640,7 @@
 180167 = {
 	name="Raineri"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180001
 	962.1.1={
@@ -8524,7 +8653,7 @@
 180168 = {
 	name="Guido"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180167
 	988.1.1={
@@ -8537,7 +8666,7 @@
 180169 = {
 	name="Ildebrando"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180001
 	964.1.1={
@@ -8551,7 +8680,7 @@
 	name="Gerardo"
 	# Count of Lucca
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180169
 	985.1.1={
@@ -8564,7 +8693,7 @@
 180171 = {
 	name="Rodolfo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180000
 	933.1.1={
@@ -8579,7 +8708,7 @@
 	# wife of Raineri di Fraolmi
 	female=yes
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180000
 	935.1.1={
@@ -8594,7 +8723,7 @@
 	# wife of Gerardo II della Gherardesca
 	female=yes
 	dynasty=1042019
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	953.1.1={
 		birth="953.1.1"
@@ -8608,7 +8737,7 @@
 	# wife of Tedice I
 	female=yes
 	dynasty=1042000
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	967.1.1={
 		birth="967.1.1"
@@ -8622,7 +8751,7 @@
 	# wife of Ugo I della Gherardesca
 	female=yes
 	dynasty=1042013
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	985.1.1={
 		birth="985.1.1"
@@ -8636,10 +8765,13 @@
 	# wife of Tedice II
 	female=yes
 	dynasty=1042020
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	1002.1.1={
 		birth="1002.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1063.1.1={
 		death="1063.1.1"
@@ -8721,7 +8853,7 @@
 	# wife of Guido I of Forcoli
 	female=yes
 	dynasty=1042011
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	997.1.1={
 		birth="997.1.1"
@@ -8834,11 +8966,14 @@
 	# wife of Ugo Visconti
 	female=yes
 	dynasty=9521
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167505
 	1038.1.1={
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1091.1.1={
 		death="1091.1.1"
@@ -8849,11 +8984,14 @@
 	# wife of Ildebrando Visconti
 	female=yes
 	dynasty=622
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=167484
 	1019.1.1={
 		birth="1019.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1074.1.1={
 		death="1074.1.1"
@@ -8935,11 +9073,14 @@
 170109 = {
 	name="Enrico"
 	dynasty=13027
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=170040
 	1047.1.2 = {
 		birth="1047.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1115.1.2 = {
 		death="1115.1.2"
@@ -8949,11 +9090,14 @@
 170110 = {
 	name="Vitale"
 	dynasty=13027
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=170040
 	1049.1.2 = {
 		birth="1049.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1110.1.2 = {
 		death="1110.1.2"
@@ -8963,7 +9107,7 @@
 163068 = {
 	name="Ambrosio"
 	dynasty=798
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	830.1.1 = {
 		birth="830.1.1"
@@ -8976,7 +9120,7 @@
 163069 = {
 	name="Odalrico"
 	dynasty=799
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	820.1.1 = {
 		birth="820.1.1"
@@ -8989,7 +9133,7 @@
 163070 = {
 	name="Adalberto"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	820.1.1 = {
 		birth="820.1.1"
@@ -9000,12 +9144,12 @@
 }
 
 91383 = {
-	name="Hardouin" #  Hardouin d'Hiémois 
+	name="Hardouin" #  Hardouin d'Hiémois
 	dynasty=680
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frankish"
-		
+
 	800.1.1={
 		birth="800.1.1" # unknown
 	}
@@ -9015,14 +9159,14 @@
 }
 
 91384 = {
-	name="Eudes" #  AKA Oddon 
-	dynasty=680 
-	
-	religion="catholic"
+	name="Eudes" #  AKA Oddon
+	dynasty=680
+
+	religion = "chalcedonian"
 	culture="frankish"
-	
+
 	father = 91383 #  Hardouin d'Hiémois
-	
+
 	820.1.1={
 		birth="820.1.1" # unknown
 	}
@@ -9030,17 +9174,17 @@
 		death="880.1.1" # unknown
 	}
 }
-	
+
 91385 = {
 	name="Ansgarde" #  Ansgarde de Bourgogne
 	female = yes
 	dynasty=680
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frankish"
-		
+
 	father = 91383 #  Hardouin d'Hiémois
-	
+
 	826.1.1={
 		birth="826.1.1" # unknown
 	}
@@ -9052,12 +9196,12 @@
 91392 = {
 	name="Manfred" #  AKA Mainfroide the Ist
 	dynasty=680
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frankish"
-		
+
 	#father = 91391   Ardouin III the Bald, marquese and count of Turin and of Auriate
-		
+
 	920.1.1={
 		birth="920.1.1" # unknown
 	}
@@ -9070,12 +9214,12 @@
 # 91400 = {
 	# name="Odalric" # marquis
 	# dynasty=680
-	
-	# religion="catholic"
+
+	# religion = "chalcedonian"
 	# culture="frankish"
-		
+
 	# father = 91399 #  Wido
-		
+
 	# 1000.1.1={
 		# birth="1000.1.1" # unknown
 	# }
@@ -9087,12 +9231,12 @@
 # 91401 = {
 	# name="Wido" # marquis of Romagna, spouse of Giulitta
 	# dynasty=680
-	
-	# religion="catholic"
+
+	# religion = "chalcedonian"
 	# culture="frankish"
-		
+
 	# father = 91399 #  Wido
-		
+
 	# 1010.1.1={
 		# birth="1010.1.1" # unknown
 	# }
@@ -9103,14 +9247,14 @@
 
 # 91402 = {
 	# name="Béatrice" # Béatrice of Romagne, wife of Oberto, count of Vado
-	# female = yes	
+	# female = yes
 	# dynasty=680
-	
+
 	# religion="catholic"
 	# culture="frankish"
-		
+
 	# father = 91400 #  Wido
-		
+
 	# 1000.1.1={
 		# birth="1000.1.1" # unknown
 	# }
@@ -9122,18 +9266,18 @@
 # 91403 = {
 	# name="Mandred" #  Mandred Olderic, marquis of Suze and Turin
 	# dynasty=680
-	
+
 	# religion="catholic"
 	# culture="frankish"
-		
+
 	# father = 91392 #  Manfred the Ist
-		
+
 	# 992.1.1={
-		# birth="992.1.1" 
+		# birth="992.1.1"
 	# }
 	# # spouse Berthe of Obertenghi familly, d. of Aubert count of Este.
 	# 1034.1.1={
-		# death="1034.1.1" 
+		# death="1034.1.1"
 	# }
 # }
 
@@ -9141,14 +9285,14 @@
 	# name="Adélaïde" #  Adélaïde de Suse, marquise of Suze, heir of Auriate, Turin, Ivrea and Aoste, spouse of Hermann IV of Souabe
 	# female = yes
 	# dynasty=13041 # Doria
-	
+
 	# religion="catholic"
 	# culture="frankish"
-		
+
 	# father = 91403 #  Mandred
-		
+
 	# 1020.1.1={
-		# birth="1020.1.1" 
+		# birth="1020.1.1"
 	# }
 	# # spouse Hermann IV of Souabe, Henri, marquis of Montferrat & Oddon of Maurienne and Chablais.
 	# 1091.12.27={
@@ -9159,14 +9303,14 @@
 # 91405 = {
 	# name="Arduin" #  name unknown, died young
 	# dynasty=13041 # Doria
-	
+
 	# religion="catholic"
 	# culture="frankish"
-		
+
 	# father = 91403 #  Mandred
-		
+
 	# 1030.1.1={
-		# birth="1030.1.1" 
+		# birth="1030.1.1"
 	# }
 	# 1040.1.1={
 		# death="1040.1.1" # died young
@@ -9177,12 +9321,12 @@
 	# name="Ermangarde" #  Ermangarde de Suze
 	# female = yes
 	# dynasty=13041 # Doria
-	
+
 	# religion="catholic"
 	# culture="frankish"
-		
+
 	# father = 91403 #  Mandred
-		
+
 	# 1025.1.1={
 		# birth="1025.1.1" # unknown
 	# }
@@ -9196,12 +9340,12 @@
 	# name="Berthe" #  Berthe de Suze
 	# female = yes
 	# dynasty=13041 # Doria
-	
+
 	# religion="catholic"
 	# culture="frankish"
-		
+
 	# father = 91403 #  Mandred
-		
+
 	# 1032.1.1={
 		# birth="1032.1.1" # unknown
 	# }
@@ -9212,14 +9356,14 @@
 # }
 
 91408 = { # invented characters
-	name="Ardouin" 
+	name="Ardouin"
 	dynasty=13041 # Doria
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frankish"
-		
+
 	#father = 91388 #  Ardouin II
-	
+
 	900.1.1={
 		birth="900.1.1" # unknown
 	}
@@ -9228,15 +9372,15 @@
 	}
 }
 
-91409 = { 
-	name="Arduin" # Arduino di Narbona 
+91409 = {
+	name="Arduin" # Arduino di Narbona
 	dynasty=13041 # Doria
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frankish"
-		
+
 	father = 91415 #  Ardouin
-	
+
 	980.1.1={
 		birth="980.1.1" # unknown, wikipedia say 941 but not really possible
 	}
@@ -9247,14 +9391,14 @@
 }
 
 91415 = { # invented characters
-	name="Ardouin" 
+	name="Ardouin"
 	dynasty=13041 # Doria
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frankish"
-		
+
 	father = 91408 #  Ardouin
-	
+
 	941.1.1={
 		birth="941.1.1" # unknown
 	}
@@ -9309,10 +9453,13 @@
 	# wife of Gerardo Visconti
 	female=yes
 	dynasty=1042026
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	1043.1.1={
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1106.1.1={
 		death="1106.1.1"
@@ -9323,10 +9470,13 @@
 	# wife of Pietro Visconti
 	female=yes
 	dynasty=1042024
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	1044.1.1={
 		birth="1044.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.1.1={
 		death="1079.1.1"
@@ -9378,14 +9528,16 @@
 
 167659 = {
 	name="Maria"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	1050.1.1 = {
 		birth="1050.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1100.1.1 = {
 		death="1100.1.1"
 	}
@@ -9393,14 +9545,14 @@
 
 167660 = {
 	name="Adelaisa"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1070.1.1 = {
 		birth="1070.1.1"
 	}
-	
+
 	1120.1.1 = {
 		death="1120.1.1"
 	}
@@ -9409,14 +9561,14 @@
 
 167661 = {
 	name="Isabella"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1110.1.1 = {
 		birth="1110.1.1"
 	}
-	
+
 	1170.1.1 = {
 		death="1170.1.1"
 	}
@@ -9424,14 +9576,14 @@
 
 167662 = {
 	name="Benedetta"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1155.1.1 = {
 		birth="1155.1.1"
 	}
-	
+
 	1205.1.1 = {
 		death="1205.1.1"
 	}
@@ -9441,14 +9593,14 @@
 
 167663 = {
 	name="Tiziana"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1185.1.1 = {
 		birth="1185.1.1"
 	}
-	
+
 	1245.1.1 = {
 		death="1245.1.1"
 	}
@@ -9458,14 +9610,14 @@
 
 167664 = {
 	name="Bona"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1220.1.1 = {
 		birth="1220.1.1"
 	}
-	
+
 	1280.1.1 = {
 		death="1280.1.1"
 	}
@@ -9475,14 +9627,14 @@
 
 167665 = {
 	name="Ambrosia"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1245.1.1 = {
 		birth="1245.1.1"
 	}
-	
+
 	1305.1.1 = {
 		death="1305.1.1"
 	}
@@ -9492,14 +9644,14 @@
 
 167666 = {
 	name="Fausta"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1275.1.1 = {
 		birth="1275.1.1"
 	}
-	
+
 	1340.1.1 = {
 		death="1340.1.1"
 	}
@@ -9509,14 +9661,14 @@
 
 167667 = {
 	name="Delinda"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1305.1.1 = {
 		birth="1305.1.1"
 	}
-	
+
 	1355.1.1 = {
 		death="1355.1.1"
 	}
@@ -9526,13 +9678,16 @@
 	name="Andrea"
 	#placeholder
 	dynasty=13075
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	1010.1.1 = {
 		birth="1010.1.1"
 	}
 	1035.1.1 = {
 		add_spouse=167669
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death="1065.1.1"
@@ -9542,14 +9697,16 @@
 
 167669 = {
 	name="Matilda"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	1015.1.1 = {
 		birth="1015.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1060.1.1 = {
 		death="1060.1.1"
 	}
@@ -9559,14 +9716,16 @@
 	name="Corrado"
 	#placeholder
 	dynasty=13075
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167668
 	mother=167669
 	1045.1.1 = {
 		birth="1045.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1095.1.1 = {
 		death="1095.1.1"
 	}
@@ -9579,14 +9738,16 @@
 	#placeholder
 	female=yes
 	dynasty=13075
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167668
 	mother=167669
 	1050.1.1 = {
 		birth="1050.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1105.1.1 = {
 		death="1105.1.1"
 	}
@@ -9603,7 +9764,7 @@
 	1075.1.1 = {
 		birth="1075.1.1"
 	}
-	
+
 	1130.1.1 = {
 		death="1130.1.1"
 	}
@@ -9633,14 +9794,14 @@
 
 167674 = {
 	name="Giulia"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="italian"
 	1080.1.1 = {
 		birth="1080.1.1"
 	}
-	
+
 	1130.1.1 = {
 		death="1130.1.1"
 	}
@@ -9660,7 +9821,7 @@
 	1102.1.1 = {
 		birth="1102.1.1"
 	}
-	
+
 	1152.1.1 = {
 		death="1152.1.1"
 	}
@@ -9680,7 +9841,7 @@
 	1106.1.1 = {
 		birth="1106.1.1"
 	}
-	
+
 	1160.1.1 = {
 		death="1160.1.1"
 	}
@@ -9699,7 +9860,7 @@
 	1110.1.1 = {
 		birth="1110.1.1"
 	}
-	
+
 	1170.1.1 = {
 		death="1170.1.1"
 	}
@@ -9718,7 +9879,7 @@
 	1108.1.1 = {
 		birth="1108.1.1"
 	}
-	
+
 	1170.1.1 = {
 		death="1170.1.1"
 	}
@@ -9737,7 +9898,7 @@
 	1132.1.1 = {
 		birth="1132.1.1"
 	}
-	
+
 	1190.1.1 = {
 		death="1190.1.1"
 	}
@@ -9756,7 +9917,7 @@
 	1135.1.1 = {
 		birth="1135.1.1"
 	}
-	
+
 	1188.1.1 = {
 		death="1188.1.1"
 	}
@@ -9775,7 +9936,7 @@
 	1138.1.1 = {
 		birth="1138.1.1"
 	}
-	
+
 	1200.1.1 = {
 		death="1200.1.1"
 	}
@@ -9793,7 +9954,7 @@
 	1176.1.1 = {
 		birth="1176.1.1"
 	}
-	
+
 	1226.1.1 = {
 		death="1226.1.1"
 	}
@@ -9813,7 +9974,7 @@
 	1178.1.1 = {
 		birth="1178.1.1"
 	}
-	
+
 	1230.1.1 = {
 		death="1230.1.1"
 	}
@@ -9901,7 +10062,7 @@
 	1244.1.1 = {
 		birth="1244.1.1"
 	}
-	
+
 	1300.1.1 = {
 		death="1300.1.1"
 	}
@@ -9920,7 +10081,7 @@
 	1252.1.1 = {
 		birth="1252.1.1"
 	}
-	
+
 	1315.1.1 = {
 		death="1315.1.1"
 	}
@@ -9937,7 +10098,7 @@
 	1274.1.1 = {
 		birth="1274.1.1"
 	}
-	
+
 	1320.1.1 = {
 		death="1320.1.1"
 	}
@@ -9956,7 +10117,7 @@
 	1280.1.1 = {
 		birth="1280.1.1"
 	}
-	
+
 	1330.1.1 = {
 		death="1330.1.1"
 	}
@@ -10010,7 +10171,7 @@
 	1326.1.1 = {
 		birth="1326.1.1"
 	}
-	
+
 	1376.1.1 = {
 		death="1376.1.1"
 	}
@@ -10030,7 +10191,7 @@
 	1328.1.1 = {
 		birth="1328.1.1"
 	}
-	
+
 	1378.1.1 = {
 		death="1378.1.1"
 	}
@@ -10049,7 +10210,7 @@
 	1328.1.1 = {
 		birth="1328.1.1"
 	}
-	
+
 	1380.1.1 = {
 		death="1380.1.1"
 	}

@@ -23,9 +23,12 @@ b_roselle = temple
 
 # Misc
 culture = tuscan
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = { trade_post = b_della_gherardesca }
 1285.1.1 = { trade_post = b_doria }
 

@@ -21,7 +21,7 @@ b_brno = castle
 
 # Misc
 culture = moravian
-religion = catholic
+religion = chalcedonian
 
 # History
 907.1.1 = {
@@ -32,4 +32,7 @@ religion = catholic
 907.1.1 = { capital = b_brno }
 920.1.1 = { b_zdar = temple }
 930.1.1 = { b_mikulov = city }
-	
+
+1054.1.1 = {
+	religion = catholic
+}

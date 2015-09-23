@@ -9,7 +9,7 @@ max_settlements = 4
 b_uhrusk = tribal
 b_kholm = temple
 #b_wlodawa = castle
-#b_hrubieszow = castle 
+#b_hrubieszow = castle
 
 # Misc
 culture = polish
@@ -17,5 +17,8 @@ religion = slavic_pagan
 
 # History
 989.1.1 = {culture = russian}
-1001.1.1 = {religion = orthodox}
+1001.1.1 = {religion = chalcedonian}
 1001.1.1 = {b_uhrusk = castle}
+1054.1.1 = {
+	religion = orthodox
+}

@@ -16,12 +16,15 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	add_trait="underhanded_rogue"
 	father=260
 	1037.1.2 = {
 		birth="1037.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1087.1.2 = {
 		death="1087.1.2"
@@ -31,8 +34,8 @@
 #Bishops of Langres, also comte de Tonnere 814-954
 ####
 1000226500 = {
-	name="Belto" # 790/820 
-	religion="catholic"
+	name="Belto" # 790/820
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	760.1.1 = {
@@ -44,7 +47,7 @@
 }
 1000226501 = {
 	name="Alberic" # 820/838
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	780.1.1 = {
@@ -56,7 +59,7 @@
 }
 1000226502 = {
 	name="Thibaut" # 838/856
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	800.1.1 = {
@@ -68,7 +71,7 @@
 }
 1000226503 = {
 	name="Isaac" # 859/880
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	839.1.1 = {
@@ -80,7 +83,7 @@
 }
 1000226504 = {
 	name="Gilon" # 880/891  Gilon de Tournus
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	853.1.1 = {
@@ -92,7 +95,7 @@
 }
 1000226505 = {
 	name="Thibaut" # 891/899
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	860.1.1 = {
@@ -104,7 +107,7 @@
 }
 1000226506 = {
 	name="Argrin" # 899/901 abdicated
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	870.1.1 = {
@@ -115,8 +118,8 @@
 	}
 }
 1000226507 = {
-	name="Garnier" # 901/922 
-	religion="catholic"
+	name="Garnier" # 901/922
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	869.1.1 = {
@@ -128,7 +131,7 @@
 }
 1000226508 = {
 	name="Gosselin" # 922/931 , Gosselin II comte de Bassigny(and Josselin)
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	880.1.1 = {
@@ -140,7 +143,7 @@
 }
 1000226509 = {
 	name="Lethéric" # 931-932 , died within the year
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	876.1.1 = {
@@ -151,8 +154,8 @@
 	}
 }
 1000226510 = {
-	name="Héric" # 932/948 
-	religion="catholic"
+	name="Héric" # 932/948
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	889.1.1 = {
@@ -164,7 +167,7 @@
 }
 1000226511 = {
 	name="Achard" # 948/969
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	905.1.1 = {
@@ -176,7 +179,7 @@
 }
 1000226512 = {
 	name="Vidric" # 969/980
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	923.1.1 = {
@@ -188,7 +191,7 @@
 }
 1000226513 = {
 	name="Brunon" # 980/1015, Brunon de Roucy
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
         dynasty=738
@@ -201,7 +204,7 @@
 }
 1000226514 = {
 	name="Lambert" # 1016/1031, Lambert de Bassigny
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	970.1.1 = {
@@ -213,7 +216,7 @@
 }
 1000226515 = {
 	name="Richard" # 1031-1032, died within the year
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	965.1.1 = {
@@ -225,7 +228,7 @@
 }
 1000226516 = {
 	name="Richard" # 1032/1049, Hugues de Breteuil
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	972.1.1 = {
@@ -237,11 +240,14 @@
 }
 1000226517 = {
 	name="Arduin" # 1049/1065, Arduin Renaud( his father Rainard was the count of Tonnerre 1002-1039)
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	1010.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death = yes
@@ -249,11 +255,14 @@
 }
 1000226518 = {
 	name="Hugues" # 1065/1085, Hugues Renaud( his father Milon III was the count 1039-1046)
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
         trait=detached_priest
 	1037.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death = yes

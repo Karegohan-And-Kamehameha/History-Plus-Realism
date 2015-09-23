@@ -12,9 +12,9 @@
 #####################################
 #House founder
 1000232951 = {
-	name="Paladen" 
+	name="Paladen"
 	dynasty=1000103023
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	830.1.1={
 		birth="830.1.1"
@@ -31,7 +31,7 @@
 	name="Alecuandra"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	838.1.1={
 		birth="838.1.1"
@@ -42,9 +42,9 @@
 }
 #House Leader in 888
 1000232953 = {
-	name="Basile" 
+	name="Basile"
 	dynasty=1000103023
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232951
         mother=1000232952
@@ -63,7 +63,7 @@
 	name="Giulia"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	877.1.1={
 		birth="877.1.1"
@@ -74,9 +74,9 @@
 }
 #House Leader 949
 1000232955 = {
-	name="Tuone" 
+	name="Tuone"
 	dynasty=1000103023
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232953
         mother=1000232954
@@ -89,9 +89,9 @@
 }
 #House Leader 992
 1000232956 = {
-	name="Ambroso" 
+	name="Ambroso"
 	dynasty=1000103023
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232955
 	950.1.1={
@@ -109,7 +109,7 @@
 	name="Cauleta"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	960.1.1={
 		birth="960.1.1"
@@ -123,7 +123,7 @@
 	name="Blanca"
 	female = yes
 	dynasty=1000103023
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232955
 	951.1.1={
@@ -135,9 +135,9 @@
 }
 #House Leader 1031
 1000232959 = {
-	name="Alepsandro" 
+	name="Alepsandro"
 	dynasty=1000103023
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232956
         mother=1000232957
@@ -146,6 +146,9 @@
 	}
 	1023.1.1={
 		add_spouse=1000232960
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1072.1.1={
 		death="1072.1.1"
@@ -156,10 +159,13 @@
 	name="Antunja"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	1000.1.1={
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1={
 		death="1070.1.1"
@@ -167,14 +173,17 @@
 }
 #House Leader 1072
 1000232961 = {
-	name="Joan" 
+	name="Joan"
 	dynasty=1000103023
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232959
         mother=1000232960
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1={
 		add_spouse=1000232962
@@ -188,10 +197,13 @@
 	name="Veronica"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1102.1.1={
 		death="1102.1.1"
@@ -199,14 +211,17 @@
 }
 #Brother of House Leader 1072
 1000232963 = {
-	name="Domienc" 
+	name="Domienc"
 	dynasty=1000103023
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232959
         mother=1000232960
 	1031.1.1={
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1={
 		death="1100.1.1"
@@ -214,7 +229,7 @@
 }
 #House Leader 1101
 1000232964 = {
-	name="Bunedec" 
+	name="Bunedec"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -246,7 +261,7 @@
 }
 #House Leader 1154
 1000232966 = {
-	name="Stanislau" 
+	name="Stanislau"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -278,7 +293,7 @@
 }
 #House Leader 1171
 1000232968 = {
-	name="Demetre" 
+	name="Demetre"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -310,7 +325,7 @@
 }
 #House Leader 1200
 1000232970 = {
-	name="Aliau" 
+	name="Aliau"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -342,7 +357,7 @@
 }
 #House Leader 1230
 1000232972 = {
-	name="Táibáro" 
+	name="Táibáro"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -374,7 +389,7 @@
 }
 #House Leader 1263
 1000232974 = {
-	name="Buartol" 
+	name="Buartol"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -406,7 +421,7 @@
 }
 #House Leader 1294
 1000232976 = {
-	name="Savino" 
+	name="Savino"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -438,7 +453,7 @@
 }
 #House Leader 1318
 1000232978 = {
-	name="Jacop" 
+	name="Jacop"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -453,7 +468,7 @@
 }
 #Son of House Leader 1318
 1000232979 = {
-	name="Andro" 
+	name="Andro"
 	dynasty=1000103023
 	religion="catholic"
 	culture="dalmatian"
@@ -473,9 +488,9 @@
 #####################################
 #House founder
 1000232982 = {
-	name="Buartol" 
+	name="Buartol"
 	dynasty=1000103025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	840.1.1={
 		birth="840.1.1"
@@ -492,7 +507,7 @@
 	name="Catriana"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	844.1.1={
 		birth="844.1.1"
@@ -503,9 +518,9 @@
 }
 #First house Leader 918
 1000232984 = {
-	name="Taumas" 
+	name="Taumas"
 	dynasty=1000103025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232982
 	mother=1000232983
@@ -524,7 +539,7 @@
 	name="Andreja"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	890.1.1={
 		birth="890.1.1"
@@ -535,9 +550,9 @@
 }
 #House leader 953
 1000232986 = {
-	name="Vittaur" 
+	name="Vittaur"
 	dynasty=1000103025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232984
 	mother=1000232985
@@ -556,7 +571,7 @@
 	name="Sofija"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	932.1.1={
 		birth="932.1.1"
@@ -567,9 +582,9 @@
 }
 #House leader 999
 1000232988 = {
-	name="Silvano" 
+	name="Silvano"
 	dynasty=1000103025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232986
 	mother=1000232987
@@ -588,7 +603,7 @@
 	name="Tatjana"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	968.1.1={
 		birth="968.1.1"
@@ -599,9 +614,9 @@
 }
 #House leader 1038
 1000232990 = {
-	name="Paladen" 
+	name="Paladen"
 	dynasty=1000103025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232988
 	mother=1000232989
@@ -610,6 +625,9 @@
 	}
 	1020.1.1={
 		add_spouse=1000232991
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1={
 		death="1065.1.1"
@@ -620,10 +638,13 @@
 	name="Luisa"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	995.1.1={
 		birth="995.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1={
 		death="1070.1.1"
@@ -631,14 +652,17 @@
 }
 #House leader 1065
 1000232992 = {
-	name="Domienc" 
+	name="Domienc"
 	dynasty=1000103025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000232990
 	mother=1000232991
 	1025.1.1={
 		birth="1025.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1058.1.1={
 		add_spouse=1000232993
@@ -652,10 +676,13 @@
 	name="Anna"
 	female = yes
 	dynasty=0
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	1037.1.1={
 		birth="1037.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1110.1.1={
 		death="1110.1.1"
@@ -663,7 +690,7 @@
 }
 #House leader 1104
 1000232994 = {
-	name="Jiolian" 
+	name="Jiolian"
 	dynasty=1000103025
 	religion="catholic"
 	culture="dalmatian"
@@ -695,7 +722,7 @@
 }
 #House leader 1144
 1000232996 = {
-	name="Marin" 
+	name="Marin"
 	dynasty=1000103025
 	religion="catholic"
 	culture="danish"
@@ -727,7 +754,7 @@
 }
 #House leader 1190
 1000232998 = {
-	name="Luca" 
+	name="Luca"
 	dynasty=1000103025
 	religion="catholic"
 	culture="dalmatian"
@@ -759,7 +786,7 @@
 }
 #House leader 1229
 1000233000 = {
-	name="Caunstantin" 
+	name="Caunstantin"
 	dynasty=1000103025
 	religion="catholic"
 	culture="dalmatian"
@@ -791,7 +818,7 @@
 }
 #House leader 1269
 1000233503 = {
-	name="Domienc" 
+	name="Domienc"
 	dynasty=1000103025
 	religion="catholic"
 	culture="dalmatian"
@@ -823,7 +850,7 @@
 }
 #House leader 1301
 1000233505 = {
-	name="Blais" 
+	name="Blais"
 	dynasty=1000103025
 	religion="catholic"
 	culture="dalmatian"
@@ -855,7 +882,7 @@
 }
 #Son of House leader 1301
 1000233507 = {
-	name="Frane" 
+	name="Frane"
 	dynasty=1000103025
 	religion="catholic"
 	culture="dalmatian"
@@ -879,7 +906,7 @@
 1000233508 = {
 	name="Aliau"
 	dynasty=1000103024
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	846.1.1={
 		birth="846.1.1"
@@ -896,7 +923,7 @@
 	name="Eudokia"
 	female = yes
 	dynasty=0
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	848.1.1={
 		birth="848.1.1"
@@ -909,7 +936,7 @@
 1000233510 = {
 	name="Puol"
 	dynasty=1000103024
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233508
 	mother=1000233509
@@ -928,7 +955,7 @@
 	name="Nicauleta"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	890.1.1={
 		birth="890.1.1"
@@ -941,7 +968,7 @@
 1000233512 = {
 	name="Jacop"
 	dynasty=1000103024
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233510
 	mother=1000233511
@@ -960,7 +987,7 @@
 	name="Eloisa"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	935.1.1={
 		birth="935.1.1"
@@ -973,7 +1000,7 @@
 1000233514 = {
 	name="Caunstantin"
 	dynasty=1000103024
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233512
 	mother=1000233513
@@ -992,7 +1019,7 @@
 	name="Theodora"
 	female = yes
 	dynasty=0
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	975.1.1={
 		birth="975.1.1"
@@ -1005,7 +1032,7 @@
 1000233516 = {
 	name="Teodoro"
 	dynasty=1000103024
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233514
 	mother=1000233515
@@ -1014,6 +1041,9 @@
 	}
         1032.1.1={
 		add_spouse=1000233517
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1088.1.1={
 		death="1088.1.1"
@@ -1024,10 +1054,13 @@
 	name="Lucija"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	1007.1.1={
 		birth="1007.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1084.1.1={
 		death="1084.1.1"
@@ -1037,12 +1070,15 @@
 1000233518 = {
 	name="Ludovico"
 	dynasty=1000103024
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233516
 	mother=1000233517
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
         1075.1.1={
 		add_spouse=1000233519
@@ -1056,10 +1092,13 @@
 	name="Saufija"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	1053.1.1={
 		birth="1053.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1121.1.1={
 		death="1121.1.1"
@@ -1251,7 +1290,7 @@
 1000233532 = {
 	name="Bunedec"
 	dynasty=1000103022
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	842.1.1={
 		birth="842.1.1"
@@ -1268,7 +1307,7 @@
 	name="Anna"
 	female = yes
 	dynasty=0
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	842.1.1={
 		birth="842.1.1"
@@ -1281,7 +1320,7 @@
 1000233534 = {
 	name="Clemiant"
 	dynasty=1000103022
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233532
 	mother=1000233533
@@ -1300,7 +1339,7 @@
 	name="Marija"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	890.1.1={
 		birth="890.1.1"
@@ -1313,7 +1352,7 @@
 1000233536 = {
 	name="Bunedec"
 	dynasty=1000103022
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=1000233534
 	mother=1000233535
@@ -1332,7 +1371,7 @@
 	name="Lucija"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	929.1.1={
 		birth="929.1.1"
@@ -1345,7 +1384,7 @@
 1000233538 = {
 	name="Cúsmas"
 	dynasty=1000103022
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233536
 	mother=1000233537
@@ -1364,7 +1403,7 @@
 	name="Maria"
 	female = yes
 	dynasty=0
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	963.1.1={
 		birth="963.1.1"
@@ -1377,7 +1416,7 @@
 1000233540 = {
 	name="Pitro"
 	dynasty=1000103022
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233538
 	mother=1000233539
@@ -1386,6 +1425,9 @@
 	}
         1033.1.1={
 		add_spouse=1000233541
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1077.1.1={
 		death="1077.1.1"
@@ -1396,10 +1438,13 @@
 	name="Antonella"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	1006.1.1={
 		birth="1006.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.1.1={
 		death="1079.1.1"
@@ -1409,12 +1454,15 @@
 1000233542 = {
 	name="Sergio"
 	dynasty=1000103022
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	father=1000233540
 	mother=1000233541
 	1031.1.1={
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
         1069.1.1={
 		add_spouse=1000233543
@@ -1428,10 +1476,13 @@
 	name="Bojana"
 	female = yes
 	dynasty=0
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="serbian"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1111.1.1={
 		death="1111.1.1"
@@ -1619,7 +1670,7 @@
 1000233554 = {
 	name="Matej"
 	dynasty=1000103059
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	841.1.1={
 		birth="841.1.1"
@@ -1636,7 +1687,7 @@
 	name="Vittaurja"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	842.1.1={
 		birth="842.1.1"
@@ -1649,7 +1700,7 @@
 1000233556 = {
 	name="Karlo"
 	dynasty=1000103059
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	father=1000233554
 	mother=1000233555
@@ -1668,7 +1719,7 @@
 	name="Antonija"
 	female = yes
 	dynasty=1000053180
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	893.1.1={
 		birth="893.1.1"
@@ -1680,8 +1731,8 @@
 #House Leader 959
 1000233558 = {
 	name="Stjepan"
-	dynasty=1000103059 
-	religion="catholic"
+	dynasty=1000103059
+	religion = "chalcedonian"
 	culture="croatian"
 	father=1000233556
 	mother=1000233557
@@ -1700,7 +1751,7 @@
 	name="Sofija"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	940.1.1={
 		birth="940.1.1"
@@ -1713,7 +1764,7 @@
 1000233560 = {
 	name="Gheorghe"
 	dynasty=1000103059
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	father=1000233558
 	mother=1000233559
@@ -1732,7 +1783,7 @@
 	name="Eudokia"
 	female = yes
 	dynasty=0
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	977.1.1={
 		birth="977.1.1"
@@ -1745,7 +1796,7 @@
 1000233563 = {
 	name="Ioan"
 	dynasty=1000103059
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="croatian"
 	father=1000233561
 	mother=1000233562
@@ -1754,6 +1805,9 @@
 	}
         1026.1.1={
 		add_spouse=1000233564
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1={
 		death="1070.1.1"
@@ -1764,10 +1818,13 @@
 	name="Tatjana"
 	female = yes
 	dynasty=0
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="serbian"
 	1010.1.1={
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1076.1.1={
 		death="1076.1.1"
@@ -1776,13 +1833,16 @@
 #House Leader 1070
 1000233565 = {
 	name="Fran"
-	dynasty=1000103059 
-	religion="catholic"
+	dynasty=1000103059
+	religion = "chalcedonian"
 	culture="croatian"
 	father=1000233563
 	mother=1000233564
 	1033.1.1={
 		birth="1033.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
         1064.1.1={
 		add_spouse=1000233566
@@ -1796,10 +1856,13 @@
 	name="Livia"
 	female = yes
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sicilian"
 	1049.1.1={
 		birth="1049.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1121.1.1={
 		death="1121.1.1"
@@ -1952,7 +2015,7 @@
 1000233577 = {
 	name="Caunstantin"
 	dynasty=1000103032
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	839.1.1={
 		birth="839.1.1"
@@ -1965,7 +2028,7 @@
 1000233596 = {
 	name="Taumas"
 	dynasty=1000103030
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	839.1.1={
 		birth="839.1.1"
@@ -1976,7 +2039,7 @@
 }
 1000233578 = {
 	name="Domienc"  #Dalmatian Mayor of Split
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	stewardship=8
 	837.1.1={
@@ -1988,7 +2051,7 @@
 }
 1000233579 = {
 	name="Ambroso"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	stewardship=8
   	father=1000233578
@@ -2001,7 +2064,7 @@
 }
 1000233580 = {
 	name="Eugáino"  #Dalmatian Bishop of Trogir
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	learning=8
 	837.1.1={
@@ -2013,7 +2076,7 @@
 }
 1000233581 = {
 	name="Bunedec"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	learning=8
   	father=1000233580
@@ -2026,7 +2089,7 @@
 }
 1000233582 = {
 	name="Vidual"  #Dalmatian Mayor of Cattaro
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	stewardship=8
 	837.1.1={
@@ -2038,7 +2101,7 @@
 }
 1000233583 = {
 	name="Frane"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	stewardship=8
   	father=1000233582
@@ -2051,7 +2114,7 @@
 }
 1000233584 = {
 	name="Arelo"  #Dalmatian Mayor of Rijeka
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	stewardship=8
 	837.1.1={
@@ -2063,7 +2126,7 @@
 }
 1000233585 = {
 	name="Damáno"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	stewardship=8
   	father=1000233584
@@ -2076,7 +2139,7 @@
 }
 1000233586 = {
 	name="Basile"  #Dalmatian Bishop of Sibenik
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	learning=8
 	837.1.1={
@@ -2088,7 +2151,7 @@
 }
 1000233587 = {
 	name="Andro"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
   	learning=8
   	father=1000233101
@@ -2103,10 +2166,13 @@
 1000233588 = {
 	name="Salvatore"
 	dynasty=1000103047
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1108.1.1={
 		death="1108.1.1"
@@ -2116,10 +2182,13 @@
 1000233589 = {
 	name="Sismaun"
 	dynasty=1000103048
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="dalmatian"
 	1041.1.1={
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1112.1.1={
 		death="1112.1.1"

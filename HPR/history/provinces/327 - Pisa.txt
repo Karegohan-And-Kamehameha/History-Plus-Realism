@@ -25,9 +25,11 @@ b_piombino = city
 
 # Misc
 culture = tuscan
-religion = catholic
-
-1066.1.1 = { 
+religion = chalcedonian
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_pisa = ct_wall_1
 	b_pisa = ct_port_1
 	b_pisa = ct_port_2

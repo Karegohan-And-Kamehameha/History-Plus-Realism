@@ -21,9 +21,12 @@ culture = norse
 religion = norse_pagan
 
 # History
-1000.1.1 = { b_sonderborg = castle } 
-1000.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
+1000.1.1 = { b_sonderborg = castle }
+1000.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = { b_tonder = city }
 1231.1.1 = { b_haderslev = castle }
 

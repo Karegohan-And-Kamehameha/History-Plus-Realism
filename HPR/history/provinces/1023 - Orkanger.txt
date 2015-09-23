@@ -15,7 +15,10 @@ culture = norse
 religion = norse_pagan
 
 # History
-998.1.1 = { religion = catholic } # Olav Tryggvason
-1015.1.1 = { b_gytting = castle 
+998.1.1 = { religion = chalcedonian } # Olav Tryggvason
+1015.1.1 = { b_gytting = castle
 b_melhus = castle} #Fat Olav
-1047.10.25 = { culture = norwegian } 
+1047.10.25 = { culture = norwegian }
+1054.1.1 = {
+	religion = catholic
+}

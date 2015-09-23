@@ -14,10 +14,12 @@ b_pyrgion = temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 1305.1.1 = { culture = turkish }
 1305.1.1 = { religion = sunni }
 1305.1.1 = { b_pyrgion = castle b_thyraia = city }

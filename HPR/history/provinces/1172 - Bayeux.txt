@@ -25,7 +25,7 @@ b_creully = castle
 
 # Misc
 culture = frankish
-religion = catholic
+religion = chalcedonian
 
 # History
 911.1.1 = { # Viking takeover
@@ -54,7 +54,9 @@ religion = catholic
 960.1.1 = {
 	culture = norman
 }
-
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = {
 	b_caen = ct_port_2
 	b_caen = ct_port_3

@@ -239,7 +239,7 @@
 	stewardship=4
 	religion="baltic_pagan"
 	culture="lithuanian"
-	father = 28017	
+	father = 28017
 	1100.1.1={
 		birth="1100.1.1"
 	}
@@ -291,7 +291,7 @@
 	religion="baltic_pagan"
 	culture="lithuanian"
 	trait="bastard"
-	father=82198 
+	father=82198
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -723,7 +723,7 @@
 	}
 }
 82140 = {
-	name="Palemon" 
+	name="Palemon"
 	dynasty=9116
 	religion="baltic_pagan"
 	culture="lithuanian"
@@ -752,7 +752,7 @@
 	}
 }
 82141 = {
-	name="Velnias" 
+	name="Velnias"
 	dynasty=9117
 	religion=baltic_pagan
 	culture=lithuanian
@@ -880,7 +880,7 @@
 
 }
 82149 = {
-	name="Bubilas" 
+	name="Bubilas"
 	dynasty=9117
 	religion="baltic_pagan"
 	culture="lithuanian"
@@ -894,7 +894,7 @@
 	}
 }
 82150 = {
-	name="Patelas" 
+	name="Patelas"
 	dynasty=9117
 	religion="baltic_pagan"
 	culture="lithuanian"
@@ -923,7 +923,7 @@
 	}
 }
 82152 = {
-	name="Kernius" 
+	name="Kernius"
 	dynasty=9116
 	religion="baltic_pagan"
 	culture="lithuanian"
@@ -1690,7 +1690,7 @@
 		birth=yes
 	}
 	1210.1.1={
-		death=yes 
+		death=yes
 	}
 
 
@@ -2293,7 +2293,7 @@
 	name="Netimeras"
 	father=82278
 	dynasty=9126
-	religion="catholic" #converted in 1009
+	religion = "chalcedonian" #converted in 1009
 	culture="lithuanian"
 	950.1.1={
 		birth="950.1.1"

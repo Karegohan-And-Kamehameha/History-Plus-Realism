@@ -25,9 +25,12 @@ religion = slavic_pagan
 
 # History
 
-883.1.1 = { religion = catholic }
+883.1.1 = { religion = chalcedonian }
 883.1.1 = { capital = b_praha }
 900.1.1 = {
       remove_settlement = b_levyhradec
       }
 910.1.1 = { b_boleslav = castle }
+1054.1.1 = {
+	religion = catholic
+}

@@ -16,7 +16,10 @@ culture = khazar
 religion = tengri_pagan
 
 # History
-861.1.1 = {religion = orthodox} # saint Cyril and the oak
+861.1.1 = {religion = chalcedonian} # saint Cyril and the oak
+1054.1.1 = {
+	religion = orthodox
+}
 1168.1.1 = { trade_post = b_grimaldi }
 # 4th Crusade: Under Venetian or Genovese rule
 

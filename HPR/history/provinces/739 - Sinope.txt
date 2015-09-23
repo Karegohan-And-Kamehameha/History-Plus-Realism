@@ -12,11 +12,13 @@ b_leontopolis = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
 
-
+1054.1.1 = {
+	religion = orthodox
+}
 
 1214.1.1 = { culture = turkmen }
 1214.1.1 = { religion = sunni }

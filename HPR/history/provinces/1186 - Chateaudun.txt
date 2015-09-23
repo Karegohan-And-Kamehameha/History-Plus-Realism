@@ -8,12 +8,15 @@ max_settlements = 3
 
 b_chateaudun = castle
 b_bonneval = temple
-#b_beaugency = city 
+#b_beaugency = city
 #b_meung = castle
 
 
 culture = frankish
-religion = catholic
+religion = chalcedonian
 
 # History
 
+1054.1.1 = {
+	religion = catholic
+}

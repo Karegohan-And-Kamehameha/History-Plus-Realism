@@ -13,10 +13,12 @@ b_philomelion = castle
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 1095.8.26 = { culture = turkmen }
 1095.8.26 = { religion = sunni }
 1100.8.26 = { remove_settlement = b_amorion }

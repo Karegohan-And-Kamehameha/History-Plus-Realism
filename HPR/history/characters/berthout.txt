@@ -7,10 +7,13 @@
 1000140000 = {
 	name="Berthout"
 	dynasty=7175
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="low_frankish"  # melted from: dutch
 	1046.1.1 = {
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"

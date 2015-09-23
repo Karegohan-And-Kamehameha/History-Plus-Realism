@@ -14,7 +14,7 @@ b_portella = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = mountain
 
 # History
@@ -32,7 +32,7 @@ terrain = mountain
 # Conquered by the Mamluks
 
 1268.1.1 = { culture = levantine_arabic }
-1268.1.1 = { religion = sunni } 
+1268.1.1 = { religion = sunni }
 
 
 

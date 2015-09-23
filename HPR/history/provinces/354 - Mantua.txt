@@ -22,9 +22,11 @@ b_mantua = city
 
 # Misc
 culture = italian
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1115.7.24 = { capital = b_mantua }
 1319.1.1 = { capital = b_redondesco }

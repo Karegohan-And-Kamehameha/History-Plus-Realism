@@ -20,7 +20,10 @@ b_campobasso = city
 
 # Misc
 culture = langobardisch
-religion = catholic
+religion = chalcedonian
 
 # History
 1000.1.1 = {culture = southern_italian }
+1054.1.1 = {
+	religion = catholic
+}

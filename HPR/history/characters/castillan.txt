@@ -5,13 +5,16 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="flamboyant_schemer"
 	father=106010
 	mother=1079
 	1042.1.1 = {
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1083.1.6 = {
 		death="1083.1.6"
@@ -25,11 +28,14 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="naive_appeaser"
 	1053.1.1 = {
 		birth="1053.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 	employer=106011
@@ -47,12 +53,15 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="charitable"
 	add_trait="flamboyant_schemer"
 	995.1.1 = {
 		birth="995.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=110500
@@ -69,7 +78,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="cynical"
 	add_trait="craven"
@@ -78,6 +87,9 @@
 	mother=70068
 	1041.1.1 = {
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1076.1.1 = {
 		add_spouse=106016
@@ -97,7 +109,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="tough_soldier"
 	father=108560
@@ -107,6 +119,9 @@
 	}
 	1040.1.1 = {
 		add_spouse=70068
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=106011
@@ -124,7 +139,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="wroth"
 	add_trait="cynical"
@@ -133,6 +148,9 @@
 	mother=70068
 	1043.1.1 = {
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -147,13 +165,16 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="amateurish_plotter"
 	father=106060
 	mother=70068
 	1046.1.1 = {
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1102.1.1 = {
 		death="1102.1.1"
@@ -167,7 +188,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="brave"
 	add_trait="tough_soldier"
@@ -175,6 +196,9 @@
 	mother=70068
 	1044.1.1 = {
 		birth="1044.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1091.8.9 = {
 		death="1091.8.9"
@@ -188,7 +212,7 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="diligent"
 	add_trait="patient"
@@ -199,6 +223,9 @@
 	mother=107511
 	1036.1.1={
 		birth="1036.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1={
 		add_claim = k_navarra
@@ -243,7 +270,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="chaste"
 	add_trait="cynical"
@@ -252,6 +279,9 @@
 	mother=107511
 	1039.1.1 = {
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1101.1.1 = {
 		death="1101.1.1"
@@ -265,7 +295,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="lustful"
 	add_trait="flamboyant_schemer"
@@ -281,6 +311,9 @@
 		capital=k_leon
 		give_nickname = nick_the_great
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1065.12.27 = {
 		death="1065.12.27"
 	}
@@ -293,7 +326,7 @@
 	diplomacy=8
 	intrigue=2
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="honest"
 	add_trait="wroth"
@@ -304,6 +337,9 @@
 	mother=107511
 	1042.1.1={
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.1.1={
 		add_claim = k_spanish_galicia
@@ -325,13 +361,16 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="temperate"
 	add_trait="skilled_tactician"
 	father=107580
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1077.1.1 = {
 		add_spouse = 107571
@@ -362,7 +401,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="envious"
 	add_trait="honest"
@@ -371,6 +410,9 @@
 	mother=70251
 	1015.1.1 = {
 		birth="1015.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death="1065.1.1"
@@ -384,7 +426,7 @@
 	diplomacy=6
 	intrigue=3
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="diligent"
 	add_trait="patient"
@@ -395,6 +437,9 @@
 	mother=107601
 	1043.1.1={
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1={
 		employer=107500
@@ -429,7 +474,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="honest"
 	add_trait="underhanded_rogue"
@@ -439,6 +484,9 @@
 	}
 	1040.1.1 = {
 		add_spouse=107601
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1058.1.1 = {
 		death="1058.1.1"
@@ -453,7 +501,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="craven"
 	add_trait="underhanded_rogue"
@@ -461,6 +509,9 @@
 	mother=107631
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death="1060.1.1"
@@ -474,7 +525,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="diligent"
 	add_trait="honest"
@@ -485,6 +536,9 @@
 	mother=107621
 	1007.1.1 = {
 		birth="1007.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1063.1.1 = {
 		death="1063.1.1"
@@ -498,7 +552,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="envious"
 	add_trait="gluttonous"
@@ -521,7 +575,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="slothful"
 	add_trait="wroth"
@@ -541,7 +595,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="amateurish_plotter"
 	1000.1.1 = {
@@ -549,6 +603,9 @@
 	}
 	1018.1.1 = {
 		add_spouse=107631
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1059.1.1 = {
 		death="1059.1.1"
@@ -562,7 +619,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="amateurish_plotter"
 	1000.1.1 = {
@@ -580,7 +637,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="patient"
 	add_trait="amateurish_plotter"
@@ -588,6 +645,9 @@
 	mother=70101
 	1037.1.1 = {
 		birth="1037.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		add_spouse=70102
@@ -604,7 +664,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="envious"
 	add_trait="patient"
@@ -626,7 +686,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="tough_soldier"
 	995.1.1 = {
@@ -650,14 +710,17 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="thrifty_clerk"
 	father=107642
 	mother=70099
-	
+
 	1046.1.1 = {
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=107640
@@ -736,7 +799,7 @@
 }
 
 107650 = {
-	name="Muña-Mayor" 
+	name="Muña-Mayor"
 	#AKA: Muña Mayor de Castilla
 	female=yes
 	dynasty=7012
@@ -744,7 +807,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="wroth"
 	add_trait="underhanded_rogue"
@@ -752,6 +815,9 @@
 	mother=107689
 	995.1.1 = {
 		birth="995.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.7.13 = {
 		death="1066.7.13"
@@ -765,7 +831,7 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="craven"
 	add_trait="flamboyant_schemer"
@@ -790,7 +856,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="honest"
 	add_trait="cynical"
@@ -813,7 +879,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="underhanded_rogue"
 	father=107680
@@ -837,7 +903,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="lustful"
 	add_trait="temperate"
@@ -861,7 +927,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="charismatic_negotiator"
 	father=107670
@@ -882,7 +948,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="chaste"
 	add_trait="brave"
@@ -904,7 +970,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="envious"
 	add_trait="flamboyant_schemer"
@@ -930,7 +996,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="proud"
 	add_trait="brave"
@@ -952,7 +1018,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="amateurish_plotter"
 	father=107680
@@ -972,7 +1038,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="slothful"
 	add_trait="tough_soldier"
@@ -992,7 +1058,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="diligent"
 	add_trait="arbitrary"
@@ -1000,6 +1066,9 @@
 	father=107685
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.1 = {
 		add_spouse=107687
@@ -1019,13 +1088,16 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="zealous"
 	add_trait="harelip"
 	add_trait="indulgent_wastrel"
 	1035.1.1 = {
 		birth="1035.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1082.1.1 = {
 		death="1082.1.1"
@@ -1061,7 +1133,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="cynical"
 	add_trait="underhanded_rogue"
@@ -1081,7 +1153,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="patient"
 	add_trait="deceitful"
@@ -1091,6 +1163,9 @@
 	mother=107511
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1067.11.7={
 		add_claim = k_spanish_galicia
@@ -1144,7 +1219,7 @@
 	diplomacy=6
 	intrigue=9
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="lustful"
 	add_trait="wroth"
@@ -1154,6 +1229,9 @@
 	mother=107511
 	1033.1.1 = {
 		birth="1033.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1103.11.13 = {
 		death="1103.11.13"
@@ -1168,13 +1246,16 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="flamboyant_schemer"
 	father=108530
 	mother=108531
 	1029.1.1 = {
 		birth="1029.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.1.1 = {
 		death="1079.1.1"
@@ -1189,7 +1270,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="skilled_tactician"
 	father=108550
@@ -1213,13 +1294,16 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="patient"
 	add_trait="skilled_tactician"
 	father=108530
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.1 = {
 		add_spouse=109630
@@ -1259,7 +1343,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="honest"
 	add_trait="skilled_tactician"
@@ -1283,7 +1367,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="stutter"
 	add_trait="thrifty_clerk"
@@ -1306,12 +1390,15 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="arbitrary"
 	add_trait="charismatic_negotiator"
 	982.1.1 = {
 		birth="982.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.1 = {
 		death="1055.1.1"
@@ -1321,8 +1408,8 @@
 109621 = {
 	name="Alduara"
 	female = yes
-	dynasty=1020119	
-	religion="catholic"
+	dynasty=1020119
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="humble"
 	add_trait="zealous"
@@ -1344,13 +1431,16 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="flamboyant_schemer"
 	father=110510
 	mother=1077
 	1042.1.1 = {
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		add_spouse=110501
@@ -1373,7 +1463,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="bastard"
 	add_trait="deceitful"
@@ -1387,6 +1477,9 @@
 	1036.8.22 = {
 		add_spouse=1077
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1063.5.8 = {
 		death="1063.5.8"
 	}
@@ -1399,13 +1492,16 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="scholarly_theologian"
 	father=110510
 	mother=1077
 	1046.1.1 = {
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.7.17 = {
 		death="1086.7.17"
@@ -1420,7 +1516,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="charitable"
 	add_trait="thrifty_clerk"
@@ -1428,6 +1524,9 @@
 	mother=1077
 	1037.1.1 = {
 		birth="1037.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death="1065.1.1"
@@ -1442,7 +1541,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="proud"
 	add_trait="underhanded_rogue"
@@ -1450,6 +1549,9 @@
 	mother=1077
 	1047.1.1 = {
 		birth="1047.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=110500
@@ -1467,7 +1569,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="patient"
 	add_trait="underhanded_rogue"
@@ -1475,6 +1577,9 @@
 	mother=1077
 	1048.1.1 = {
 		birth="1048.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1097.8.16 = {
 		death="1097.8.16"
@@ -1488,7 +1593,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="chaste"
 	add_trait="arbitrary"
@@ -1497,6 +1602,9 @@
 	father=110510
 	1042.1.1 = {
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=110500
@@ -1665,7 +1773,7 @@
 	trait="underhanded_rogue"
 	father=207500
 	mother=210511
-	
+
 	1138.1.1 = {
 		birth = yes
 	}
@@ -1689,7 +1797,7 @@
 	add_trait="charismatic_negotiator"
 	father=207500
 	mother=221529
-	
+
 	1155.1.1 = {
 		birth="1155.1.1"
 	}
@@ -3476,7 +3584,7 @@
 	add_trait="thrifty_clerk"
 	father=457540
 	mother=460611
-	
+
 	1254.11.5 = {
 		birth="1254.11.5"
 	}
@@ -3568,7 +3676,7 @@
 	add_trait="flamboyant_schemer"
 	father=457562
 	mother=71509
-	
+
 	1316.8.1 = {
 		birth="1316.8.1"
 	}
@@ -4814,7 +4922,7 @@
 	add_trait="indulgent_wastrel"
 	father=207510
 	mother=204512
-	
+
 	1187.5.28 = {
 		birth="1187.5.28"
 	}
@@ -4839,7 +4947,7 @@
 	add_trait="amateurish_plotter"
 	father=207510
 	mother=204512
-	
+
 	1202.1.1 = {
 		birth="1202.1.1"
 	}
@@ -4863,11 +4971,11 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="brave"
 	add_trait="tough_soldier"
-	
+
 	690.1.1 = {
 		birth="690.1.1"
 	}
@@ -4883,13 +4991,13 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="zealous"
 	add_trait="content"
 	add_trait="skilled_tactician"
 	father=70010
-	
+
 	715.1.1 = {
 		birth="715.1.1"
 	}
@@ -4912,7 +5020,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="gregarious"
 	add_trait="deceitful"
@@ -4940,7 +5048,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="humble"
 	add_trait="content"
@@ -4949,6 +5057,9 @@
 	mother=73044
 	1042.1.1={
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1082.1.1={
 		death="1082.1.1"
@@ -5058,14 +5169,17 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="shy"
 	add_trait="kind"
 	add_trait="indulgent_wastrel"
-	
+
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=107500
@@ -5083,7 +5197,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="fair"
 	add_trait="mystic"
@@ -5092,6 +5206,9 @@
 	mother=70039
 	1047.1.1 = {
 		birth="1047.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1108.3.31 = {
 		death="1108.3.31"
@@ -5105,7 +5222,7 @@
 	diplomacy=3
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="patient"
 	add_trait="duelist"
@@ -5114,6 +5231,9 @@
 	mother=70039
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1078.1.1 = {
 		death="1078.1.1"
@@ -5127,7 +5247,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="scholar"
 	add_trait="celibate"
@@ -5136,6 +5256,9 @@
 	mother=70039
 	1051.1.1 = {
 		birth="1051.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1101.1.1 = {
 		death="1101.1.1"
@@ -5153,14 +5276,17 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="slothful"
 	add_trait="slow"
 	add_trait="naive_appeaser"
-	
+
 	1032.1.1 = {
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.1.1 = {
 		death="1075.1.1"
@@ -5174,7 +5300,7 @@
 	diplomacy=3
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="humble"
 	add_trait="honest"
@@ -5183,6 +5309,9 @@
 	mother=70045
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.1.1 = {
 		death="1095.1.1"
@@ -5198,12 +5327,15 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="mystic"
 	add_trait="flamboyant_schemer"
 	1032.1.1 = {
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1093.1.1 = {
 		death="1093.1.1"
@@ -5218,7 +5350,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="humble"
 	add_trait="chaste"
@@ -5227,6 +5359,9 @@
 	mother=70048
 	1049.1.1 = {
 		birth="1049.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1 = {
 		death="1100.1.1"
@@ -5252,7 +5387,7 @@
 	add_trait="gregarious"
 	add_trait="flamboyant_schemer"
 	father=70053
-	
+
 	1058.1.1 = {
 		birth="1058.1.1"
 	}
@@ -5274,13 +5409,16 @@
 	diplomacy=3
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="gregarious"
 	add_trait="content"
 	add_trait="charismatic_negotiator"
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -5296,13 +5434,16 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="greedy"
 	add_trait="zealous"
 	add_trait="flamboyant_schemer"
 	1009.1.1 = {
 		birth="1009.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1064.1.1 = {
 		death="1064.1.1"
@@ -5317,16 +5458,19 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="just"
 	add_trait="honest"
 	add_trait="naive_appeaser"
 	father=108540
 	mother=70065
-	
+
 	1028.1.1 = {
 		birth="1028.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=70032
@@ -5344,16 +5488,19 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="patient"
 	add_trait="diligent"
 	add_trait="amateurish_plotter"
 	father=108540
 	mother=70065
-	
+
 	1031.1.1 = {
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=70032
@@ -5371,14 +5518,17 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="craven"
 	add_trait="gregarious"
 	add_trait="fortune_builder"
-	
+
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1072.5.1 = {
 		death="1072.5.1"
@@ -5397,13 +5547,16 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="mystic"
 	add_trait="charitable"
 	add_trait="underhanded_rogue"
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"
@@ -5418,16 +5571,19 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="charitable"
 	add_trait="gardener"
 	add_trait="flamboyant_schemer"
 	father=70076
 	mother=70077
-	
+
 	1048.1.1 = {
 		birth="1048.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1098.1.1 = {
 		death="1098.1.1"
@@ -5442,16 +5598,19 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="content"
 	add_trait="patient"
 	add_trait="indulgent_wastrel"
 	father=70076
 	mother=70077
-	
+
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1 = {
 		death="1100.1.1"
@@ -5466,16 +5625,19 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="envious"
 	add_trait="arbitrary"
 	add_trait="naive_appeaser"
 	father=108530
 	mother=108531
-	
+
 	1035.1.1 = {
 		birth="1035.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -5494,14 +5656,17 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="kind"
 	add_trait="fair"
 	add_trait="underhanded_rogue"
-	
+
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.4.23 = {
 		death="1075.4.23"
@@ -5522,7 +5687,7 @@
 	add_trait="misguided_warrior"
 	father=70094
 	mother=70095
-	
+
 	1056.1.1 = {
 		birth="1056.1.1"
 	}
@@ -5586,16 +5751,19 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="craven"
 	add_trait="chaste"
 	add_trait="indulgent_wastrel"
 	father=107642
 	mother=70099
-	
+
 	1045.1.1 = {
 		birth="1045.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=107640
@@ -5613,13 +5781,16 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="gardener"
 	add_trait="cynical"
 	add_trait="naive_appeaser"
 	1019.1.1 = {
 		birth="1019.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.9 = {
 		death="1066.1.9"
@@ -5634,14 +5805,17 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="just"
 	add_trait="humble"
 	add_trait="thrifty_clerk"
-	
+
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1113.6.13 = {
 		death="1113.6.13"
@@ -5662,7 +5836,7 @@
 	add_trait="fortune_builder"
 	father=107640
 	mother=70102
-	
+
 	1067.1.1 = {
 		birth="1067.1.1"
 	}
@@ -5726,7 +5900,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="diligent"
 	add_trait="brave"
@@ -5734,6 +5908,9 @@
 	father=70106
 	1043.1.1={
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1084.1.1={
 		add_spouse=70108
@@ -5832,7 +6009,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="poet"
 	add_trait="charitable"
@@ -5840,6 +6017,9 @@
 	father=107610
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1059.1.1 = {
 		add_spouse=70211
@@ -5859,13 +6039,16 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="diligent"
 	add_trait="fair"
 	add_trait="naive_appeaser"
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1={
 		death="1090.1.1"
@@ -5928,7 +6111,7 @@
 	add_trait="tough_soldier"
 	father=110500
 	mother=110501
-	
+
 	1068.1.1 = {
 		birth="1068.1.1"
 	}
@@ -6021,7 +6204,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="mystic"
 	add_trait="honest"
@@ -6045,12 +6228,12 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="drunkard"
 	add_trait="deceitful"
 	add_trait="thrifty_clerk"
-	
+
 	912.1.1 = {
 		birth="912.1.1"
 	}
@@ -6067,7 +6250,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="craven"
 	add_trait="fair"
@@ -6089,7 +6272,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="scholar"
 	add_trait="just"
@@ -6113,7 +6296,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="slothful"
 	add_trait="cynical"
@@ -6133,16 +6316,19 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="hedonist"
 	add_trait="lustful"
 	add_trait="tough_soldier"
 	father=70250
 	mother=70251
-	
+
 	1011.1.1 = {
 		birth="1011.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1057.1.1 = {
 		add_spouse=70253
@@ -6161,9 +6347,9 @@
 	name="Elvira"
 	female=yes
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=castillan
-	
+
 	1015.1.1={
 		birth=yes
 	}
@@ -6180,14 +6366,17 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="gregarious"
 	add_trait="kind"
 	add_trait="charismatic_negotiator"
-	
+
 	1029.1.1 = {
 		birth="1029.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1 = {
 		death="1089.1.1"
@@ -6202,16 +6391,19 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="honest"
 	add_trait="temperate"
 	add_trait="amateurish_plotter"
 	father=70252
 	mother=70253
-	
+
 	1032.1.1 = {
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1087.1.1 = {
 		death="1087.1.1"
@@ -6226,16 +6418,19 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="deceitful"
 	add_trait="envious"
 	add_trait="underhanded_rogue"
 	father=70252
 	mother=70253
-	
+
 	1034.1.1 = {
 		birth="1034.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1088.1.1 = {
 		death="1088.1.1"
@@ -6250,7 +6445,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="lisp"
 	add_trait="patient"
@@ -6259,6 +6454,9 @@
 	mother=70253
 	1036.1.1 = {
 		birth="1036.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -6273,7 +6471,7 @@
 	diplomacy=8
 	intrigue=3
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="chaste"
 	add_trait="scholar"
@@ -6282,6 +6480,9 @@
 	mother=70253
 	1038.1.1 = {
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1082.1.1 = {
 		death="1082.1.1"
@@ -6295,7 +6496,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="humble"
 	add_trait="craven"
@@ -6304,6 +6505,9 @@
 	mother=70253
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.1.1 = {
 		death="1095.1.1"
@@ -6317,16 +6521,19 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="hunter"
 	add_trait="patient"
 	add_trait="misguided_warrior"
 	father=70252
 	mother=70253
-	
+
 	1042.1.1 = {
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -6372,7 +6579,7 @@
 	add_trait="naive_appeaser"
 	father=70252
 	mother=70254
-	
+
 	1105.1.1 = {
 		birth="1050.1.1"
 	}
@@ -6395,7 +6602,7 @@
 	add_trait="misguided_warrior"
 	father=70252
 	mother=70254
-	
+
 	1099.1.1 = {
 		birth="1099.1.1"
 	}
@@ -6411,7 +6618,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="poet"
 	add_trait="lisp"
@@ -6420,6 +6627,9 @@
 	mother=70251
 	1013.1.1 = {
 		birth="1013.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		employer=108500
@@ -6436,7 +6646,7 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="diligent"
 	add_trait="proud"
@@ -6444,6 +6654,9 @@
 	father=107641
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1082.1.1 = {
 		death="1082.1.1"
@@ -6457,15 +6670,18 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="mystic"
 	add_trait="content"
 	add_trait="tough_soldier"
 	father=70265
-	
+
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1081.1.1 = {
 		death="1081.1.1"
@@ -6479,15 +6695,18 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="hedonist"
 	add_trait="homosexual"
 	add_trait="fortune_builder"
 	father=70265
-	
+
 	1032.1.1 = {
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.1.1 = {
 		death="1075.1.1"
@@ -6502,15 +6721,18 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="charitable"
 	add_trait="just"
 	add_trait="thrifty_clerk"
 	father=70265
-	
+
 	1034.1.1 = {
 		birth="1034.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -6524,7 +6746,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="gardener"
 	add_trait="brave"
@@ -6550,14 +6772,14 @@
 	diplomacy=3
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="gluttonous"
 	add_trait="drunkard"
 	add_trait="elusive_shadow"
 	father=70269
 	mother=54000
-	
+
 	952.1.1 = {
 		birth="952.1.1"
 	}
@@ -6573,13 +6795,13 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="envious"
 	add_trait="wroth"
 	add_trait="misguided_warrior"
 	father=70272
-	
+
 	905.1.1 = {
 		birth="905.1.1"
 	}
@@ -6598,12 +6820,12 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="patient"
 	add_trait="scholar"
 	add_trait="tough_soldier"
-	
+
 	886.1.1 = {
 		birth="886.1.1"
 	}
@@ -6620,14 +6842,14 @@
 	diplomacy=9
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="charitable"
 	add_trait="just"
 	add_trait="flamboyant_schemer"
 	father=70274
 	mother=54001
-	
+
 	906.1.1 = {
 		birth="906.1.1"
 	}
@@ -6643,14 +6865,14 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="ambitious"
 	add_trait="diligent"
 	add_trait="intricate_webweaver"
 	father=70276
 	mother=70299
-	
+
 	875.1.1 = {
 		birth="875.1.1"
 	}
@@ -6670,14 +6892,14 @@
 	diplomacy=6
 	intrigue=3
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="gardener"
 	add_trait="content"
 	add_trait="naive_appeaser"
 	father=70274
 	mother=54001
-	
+
 	905.1.1 = {
 		birth="905.1.1"
 	}
@@ -6693,13 +6915,13 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="wroth"
 	add_trait="brave"
 	add_trait="misguided_warrior"
 	father=70277
-	
+
 	848.1.1 = {
 		birth="848.1.1"
 	}
@@ -6718,7 +6940,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="craven"
 	add_trait="content"
@@ -6739,7 +6961,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="wroth"
 	add_trait="honest"
@@ -6761,12 +6983,12 @@
 	diplomacy=6
 	intrigue=3
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="poet"
 	add_trait="charitable"
 	add_trait="tough_soldier"
-	
+
 	785.1.1 = {
 		birth="785.1.1"
 	}
@@ -6783,13 +7005,13 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="mystic"
 	add_trait="depressed"
 	add_trait="indulgent_wastrel"
 	father=70300
-	
+
 	824.1.1 = {
 		birth="824.1.1"
 	}
@@ -6805,7 +7027,7 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="wroth"
 	add_trait="deceitful"
@@ -6831,12 +7053,12 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="kind"
 	add_trait="ill"
 	add_trait="misguided_warrior"
-	
+
 	838.1.1 = {
 		birth="838.1.1"
 	}
@@ -6893,10 +7115,13 @@
 71323 = {
 	name="Nuño"
 	dynasty=8738
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1067.1.1 = {
 		add_spouse=70040
@@ -10028,7 +10253,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="just"
 	add_trait="humble"
@@ -10036,6 +10261,9 @@
 	add_trait="mastermind_theologian"
 	1042.1.2 = {
 		birth="1042.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1092.1.2 = {
 		death="1092.1.2"
@@ -10049,12 +10277,15 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	add_trait="tough_soldier"
 	add_trait="diligent"
 	1045.1.2 = {
 		birth="1045.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		add_spouse=85028
@@ -12194,7 +12425,7 @@
 72488 = {
 	name="Pedro"
 	dynasty=12147
-	
+
 	religion="catholic"
 	culture="castillan"
 
@@ -15500,10 +15731,13 @@
 72706 = {
 	name="Gontroda"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1 = {
 		death="1100.1.1"
@@ -15761,10 +15995,13 @@
 72723 = {
 	name="Diego"
 	dynasty = 12159
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		add_spouse=72724
@@ -16612,10 +16849,13 @@
 72777 = {
 	name="Fruela"
 	dynasty = 278
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1 = {
 		add_spouse=72778
@@ -17526,10 +17766,13 @@
 72836 = {
 	name="Pelayo"
 	dynasty=8603
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1048.1.1 = {
 		birth="1048.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1072.1.1 = {
 		add_spouse=72837
@@ -18033,10 +18276,13 @@
 72868 = {
 	name="Nuño"
 	dynasty=12167
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.1.1 = {
 		add_spouse=72869
@@ -18049,10 +18295,13 @@
 72869 = {
 	name="Sancha"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1051.1.1 = {
 		birth="1051.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1111.1.1 = {
 		death="1111.1.1"
@@ -18417,13 +18666,16 @@
 72892 = {
 	name="Diego"
 	dynasty=12165
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1015.1.1 = {
 		birth="1015.1.1"
 	}
 	1038.1.1 = {
 		add_spouse=72893
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.8.10 = {
 		death="1069.8.10"
@@ -18433,10 +18685,13 @@
 72893 = {
 	name="María"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -18446,12 +18701,15 @@
 72894 = {
 	name="Fruela"
 	dynasty=12165
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=72892
 	mother=72893
 	1039.1.1 = {
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1087.9.11 = {
 		add_spouse=70135
@@ -18464,12 +18722,15 @@
 72895 = {
 	name="Antonino"
 	dynasty=12165
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=72892
 	mother=72893
 	1041.1.1 = {
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1078.4.5 = {
 		death="1078.4.5"
@@ -19408,10 +19669,13 @@
 72961 = {
 	name="Tello"
 	dynasty=7025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1012.1.1 = {
 		birth="1012.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		death="1066.1.1"
@@ -19421,11 +19685,14 @@
 72962 = {
 	name="Fernando"
 	dynasty=7025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=72961
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1112.1.1 = {
 		death="1112.1.1"
@@ -19528,11 +19795,14 @@
 72969 = {
 	name="Tello"
 	dynasty=7025
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=72961
 	1042.1.1 = {
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		add_spouse=72970
@@ -19545,10 +19815,13 @@
 72970 = {
 	name="Mayor"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1048.1.1 = {
 		birth="1048.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1111.12.21 = {
 		death="1111.12.21"
@@ -20525,7 +20798,7 @@
 73032 = {
 	name="Vermudo"
 	dynasty = 8779
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	976.1.1={
 		birth="976.1.1"
@@ -20538,7 +20811,7 @@
 73033 = {
 	name="Vela"
 	dynasty = 8779
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=73032
 	1005.1.1={
@@ -20552,7 +20825,7 @@
 73034 = {
 	name="Oveco"
 	dynasty = 8779
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=73032
 	1007.1.1={
@@ -20569,11 +20842,14 @@
 73035 = {
 	name="Vermudo"
 	dynasty = 8779
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=73034
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		add_spouse=73036
@@ -20586,10 +20862,13 @@
 73036 = {
 	name="Elvira"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1046.1.1={
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1111.1.1={
 		death="1111.1.1"
@@ -20656,12 +20935,15 @@
 73041 = {
 	name="Vermudo"
 	dynasty = 7003
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=73034
 	mother=73044
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.1 = {
 		add_spouse=73049
@@ -20674,12 +20956,15 @@
 73042 = {
 	name="Vela"
 	dynasty = 12112
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=73034
 	mother=73044
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1082.1.1 = {
 		add_spouse=73046
@@ -20692,12 +20977,15 @@
 73043 = {
 	name="Rodrigo"
 	dynasty = 8779
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	father=73034
 	mother=73044
 	1041.1.1={
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		add_spouse=73045
@@ -20710,10 +20998,13 @@
 73044 = {
 	name="Elvira"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1021.1.1={
 		birth="1021.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -20723,10 +21014,13 @@
 73045 = {
 	name="Toda"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1049.1.1={
 		birth="1049.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1101.1.1={
 		death="1101.1.1"
@@ -20780,10 +21074,13 @@
 73049 = {
 	name="Jimena"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.7.16={
 		death="1095.7.16"
@@ -21559,10 +21856,13 @@
 73099 = {
 	name="Muño"
 	dynasty = 7010
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 	1045.1.1={
 		birth="1045.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1098.1.20={
 		death="1098.1.20"
@@ -21791,7 +22091,7 @@
 	culture="castillan"
 	father=73102
 	mother=72574
-	
+
 	1189.3.1={
 		birth="1189.3.1"
 	}
@@ -22565,7 +22865,7 @@
 		employer=73157
 	}
 	1238.1.1 = {
-		employer=0	
+		employer=0
 	}
 	1240.1.1={
 		death="1240.1.1"
@@ -22597,7 +22897,7 @@
 		employer=73157
 	}
 	1238.1.1 = {
-		employer=73158	
+		employer=73158
 	}
 	1240.1.1 = {
 		employer=0
@@ -22629,7 +22929,7 @@
 		employer=73157
 	}
 	1238.1.1 = {
-		employer=73158	
+		employer=73158
 	}
 	1240.1.1 = {
 		employer=73159
@@ -23013,7 +23313,7 @@
 }
 
 142308 = {
-	name="Tello" 
+	name="Tello"
 	#Tel Perez de Menezes
 	dynasty=400 #de Menezes
 	religion="catholic"
@@ -23030,7 +23330,7 @@
 }
 
 142309 = {
-	name="Jimena" 
+	name="Jimena"
 	#Ximena Ordoñez
 	female = yes
 	religion="catholic"
@@ -23044,7 +23344,7 @@
 }
 
 142316 = {
-	name="Tello" 
+	name="Tello"
 	#Tel Alfonso de Menezes
 	dynasty=400 #de Menezes
 	religion="catholic"
@@ -23060,7 +23360,7 @@
 }
 
 142317 = {
-	name="Alfonso" 
+	name="Alfonso"
 	#Alfonso Tellez de Menezes
 	dynasty=400 #de Menezes
 	religion="catholic"
@@ -23079,7 +23379,7 @@
 }
 
 142318 = {
-	name="Mayor" 
+	name="Mayor"
 	#Mor Alfonso de Menezes
 	female = yes
 	dynasty=400 #de Menezes
@@ -23096,7 +23396,7 @@
 }
 
 142323 = {
-	name="Teresa" 
+	name="Teresa"
 	#Teresa Alfonso de Menezes
 	female = yes
 	dynasty=400 #de Menezes
@@ -23151,13 +23451,16 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="portuguese"
 	add_trait="honest"
 	add_trait="humble"
 	add_trait="fortune_builder"
 	1038.1.1={
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1={
 		add_spouse=109609
@@ -23192,7 +23495,7 @@
 	name="Teodomiro"
 	dynasty=12295
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	670.1.1 = {
@@ -23210,7 +23513,7 @@
 
 	father=73901
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	700.1.1 = {
@@ -23225,7 +23528,7 @@
 	name="Fruela"
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70017
@@ -23245,7 +23548,7 @@
 	name="Nuño"
 	dynasty=8779
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70017
@@ -23265,7 +23568,7 @@
 	name="Vermudo"
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70017
@@ -23286,7 +23589,7 @@
 	name="Odoario"
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70017
@@ -23307,7 +23610,7 @@
 	female=yes
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70017
@@ -23325,7 +23628,7 @@
 	name="Gatón"
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70015
@@ -23348,7 +23651,7 @@
 	name="Egilona"
 	female=yes
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	834.1.1 = {
@@ -23363,7 +23666,7 @@
 	name="Vermudo"
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73755
@@ -23381,7 +23684,7 @@
 	name="Savarico"
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73755
@@ -23400,7 +23703,7 @@
 	female=yes
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73755
@@ -23419,7 +23722,7 @@
 	female=yes
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73755
@@ -23437,7 +23740,7 @@
 	name="Paterna"
 	female=yes
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	826.1.1 = {
@@ -23453,7 +23756,7 @@
 	female=yes
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70015
@@ -23471,7 +23774,7 @@
 	name="Rodrigo"
 	dynasty=7012
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70015
@@ -23492,7 +23795,7 @@
 	name="Adosinda"
 	female=yes
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	844.1.1 = {
@@ -23507,7 +23810,7 @@
 	name="Diego"
 	dynasty=7012
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73763
@@ -23526,7 +23829,7 @@
 	female=yes
 	dynasty=7012
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73763
@@ -23545,7 +23848,7 @@
 	female=yes
 	dynasty=7012
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73765
@@ -23562,7 +23865,7 @@
 	name="Fernán"
 	dynasty=12286
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	870.1.1 = {
@@ -23580,7 +23883,7 @@
 	name="Gonzalo"
 	dynasty=7012
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73768
@@ -23598,7 +23901,7 @@
 	name="Hermenegildo"
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70116
@@ -23615,7 +23918,7 @@
 	name="Mauregato"
 	dynasty=8601
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73867
@@ -23632,7 +23935,7 @@
 	name="Alfonso"
 	dynasty=1020119
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73868
@@ -23652,7 +23955,7 @@
 	name="Gonzalo"
 	dynasty=1020119
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73869
@@ -23671,7 +23974,7 @@
 	female=yes
 	dynasty=1020119
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73870
@@ -23688,7 +23991,7 @@
 	name="Vimarano"
 	dynasty=8600
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=70003
@@ -23706,7 +24009,7 @@
 	name="Vermudo"
 	dynasty=8600
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73873
@@ -23723,7 +24026,7 @@
 	name="Pedro"
 	dynasty=8600
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73874
@@ -23740,7 +24043,7 @@
 	name="Hermenegildo"
 	dynasty=8600
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73875
@@ -23760,7 +24063,7 @@
 	name="Iberia"
 	female=yes
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	817.1.1 = {
@@ -23776,7 +24079,7 @@
 	female=yes
 	dynasty=8600
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73876
@@ -23794,7 +24097,7 @@
 	name="Vermudo"
 	dynasty=8779
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73751
@@ -23811,7 +24114,7 @@
 	name="Vela"
 	dynasty=8779
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73751
@@ -23828,7 +24131,7 @@
 	name="Vela"
 	dynasty=8779
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	father=73896
@@ -23845,7 +24148,7 @@
 	name="Julián"
 	dynasty=12312
 
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="castillan"
 
 	672.1.1={
@@ -23861,11 +24164,14 @@
 
 	father=200079
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=castillan
 
 	1000.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1057.8.11={
 		death = yes
@@ -23892,7 +24198,7 @@
 	name="Diego"
 	dynasty=8603
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=castillan
 
 	978.1.1={

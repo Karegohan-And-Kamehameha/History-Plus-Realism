@@ -15,5 +15,8 @@ culture = russian
 religion = slavic_pagan
 
 # History
-1015.1.1 = {religion = orthodox }
+1015.1.1 = {religion = chalcedonian }
 1015.1.1 = {b_kursk = castle }
+1054.1.1 = {
+	religion = orthodox
+}

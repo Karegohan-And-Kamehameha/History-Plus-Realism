@@ -24,9 +24,12 @@ b_monestariosantifaustineegiovita = temple
 
 # Misc
 culture = italian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1173.1.1 = { capital = b_brescia }
 1240.1.1 = { capital = b_sirmione }
 1281.1.1 = { capital = b_brescia }

@@ -19,9 +19,9 @@ culture = bulgarian
 religion = slavic_pagan
 
 # History
-888.1.1 = { religion = orthodox }
+888.1.1 = { religion = chalcedonian }
 1046.1.1 = { culture = pecheneg }
 1046.1.1 = { religion = tengri_pagan }
 1087.1.1 = { culture = bulgarian }
 1087.1.1 = { religion = orthodox }
-1187.1.1 = { b_kilifarevo = temple }  
+1187.1.1 = { b_kilifarevo = temple }

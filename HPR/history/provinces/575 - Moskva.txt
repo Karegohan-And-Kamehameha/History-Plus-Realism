@@ -19,11 +19,14 @@ religion = finnish_pagan
 # History
 1015.1.1 = {
 	culture = russian
-	religion = orthodox
+	religion = chalcedonian
 }
 1025.1.1 = {
 b_moskva = castle
 b_kasira = city
+}
+1054.1.1 = {
+	religion = orthodox
 }
 #1325.1.1 = { b_danilovmonestary = temple } #Metropolitan moves to Moscow
 #1337.1.1 = { b_peremyslmoskv = city }

@@ -14,11 +14,13 @@ b_torroellademontgri = city
 
 # Misc
 culture = catalan
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_castellodempuries = ca_town_1
 	b_castellodempuries = ca_keep_1
 	b_castellodempuries = ca_stable_1

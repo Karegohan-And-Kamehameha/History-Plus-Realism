@@ -634,6 +634,7 @@ character_event = {
 		location = {
 			any_province_character = {
 				is_adult = yes
+				NOT = { rightful_religious_head_scope = { character = PREV } }
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
@@ -916,6 +917,7 @@ character_event = {
 			random_province_character = {
 				limit = {
 					is_adult = yes
+					NOT = { rightful_religious_head_scope = { character = PREV } }
 					NOT = { character = ROOT }
 					NOT = { is_liege_of = ROOT }
 					NOT = { religion = ROOT }
@@ -2125,6 +2127,7 @@ character_event = {
 				NOT = { same_realm = ROOT }
 				controls_religion = no
 				at_location = ROOT
+				NOT = { rightful_religious_head_scope = { character = PREV } }
 			}
 		}
 	}
@@ -2138,6 +2141,7 @@ character_event = {
 		modifier = {
 			factor = 0.75
 			OR = {
+				religion = chalcedonian
 				religion = orthodox
 				religion = bogomilist
 				religion = monothelite
@@ -2151,6 +2155,7 @@ character_event = {
 		modifier = {
 			factor = 0.75
 			OR = {
+				religion = chalcedonian
 				religion = catholic
 				religion = cathar
 				religion = fraticelli
@@ -2396,6 +2401,7 @@ character_event = {
 		modifier = {
 			factor = 0.75
 			OR = {
+				religion = chalcedonian
 				religion = orthodox
 				religion = bogomilist
 				religion = monothelite
@@ -2409,6 +2415,7 @@ character_event = {
 		modifier = {
 			factor = 0.75
 			OR = {
+				religion = chalcedonian
 				religion = catholic
 				religion = cathar
 				religion = fraticelli
@@ -3094,7 +3101,6 @@ character_event = {
 
 	trigger = {
 		has_job_action = action_improve_rel_relations
-		religion = catholic
 		location = {
 			any_province_lord = {
 				is_theocracy = yes
@@ -3103,6 +3109,7 @@ character_event = {
 				religion = ROOT
 				NOT = { character = ROOT }
 				religion_head = {
+					is_alive = yes
 					NOT = { character = PREV }
 				}
 			}
@@ -3505,6 +3512,7 @@ character_event = {
 		has_job_action = action_advance_cul_tech
 		NOT = { trait = zealous }
 		controls_religion = no
+		NOT = { rightful_religious_head = ROOT }
 	}
 
 	mean_time_to_happen = {

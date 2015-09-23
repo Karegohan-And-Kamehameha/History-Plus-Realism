@@ -13,7 +13,10 @@ b_samobor = castle
 
 # Misc
 culture = croatian
-religion = catholic
+religion = chalcedonian
 
 # History
-1200.1.1 = { b_ozalj = city} 
+1054.1.1 = {
+	religion = catholic
+}
+1200.1.1 = { b_ozalj = city}

@@ -30,11 +30,13 @@ b_sestrilevanti = castle
 
 # Misc
 culture = ligurian
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_genoa = ct_wall_1
 	b_genoa = ct_wall_2
 	b_genoa = ct_port_1

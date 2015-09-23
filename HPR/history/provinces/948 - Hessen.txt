@@ -10,14 +10,17 @@ b_marburga = castle
 #b_lich = temple
 #b_gudensberg = castle
 #b_waldeck = castle
-			
+
 b_fulda = temple
 b_kassel = city
 #b_fritzlar =city
 
 # Misc
 culture = franconian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }

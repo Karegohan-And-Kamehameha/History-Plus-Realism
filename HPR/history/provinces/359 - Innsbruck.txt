@@ -12,7 +12,7 @@ b_lambach = temple
 b_schaunberg = castle
 #b_kremsmunster = temple # Kremsmünster
 #b_sanktflorian = temple
-#b_wilhering = temple 
+#b_wilhering = temple
 #b_enns = city
 #b_eferding = city
 #b_wels = city
@@ -23,7 +23,10 @@ b_schaunberg = castle
 
 # Misc
 culture = bavarian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }

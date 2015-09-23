@@ -19,9 +19,12 @@ terrain = forest
 
 # History
 1000.1.1 = { b_varberg = castle
-b_gedekaer = city } 
-1010.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
+b_gedekaer = city }
+1010.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 1191.1.1 = { b_aas = temple }
 #1280.1.1 = { b_hunehals = castle }
 

@@ -15,7 +15,7 @@ religion = tengri_pagan
 
 
 # History
-900.1.1 = { religion = orthodox culture = romanian }
+900.1.1 = { religion = chalcedonian culture = romanian }
 927.1.1 = { culture = pecheneg }
 927.1.1 = { religion = manichean }
 1125.1.1 = { culture = romanian }

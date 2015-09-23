@@ -1,5 +1,5 @@
 600.1.1={
-	liege = "k_papal_state"
+	liege = "k_papal_chalcedon"
 }
 #CJL78 - Conti di Aquino
 1000.1.1={

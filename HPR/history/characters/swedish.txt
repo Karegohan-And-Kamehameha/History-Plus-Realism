@@ -6,7 +6,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="gluttonous"
 	trait="legit_bastard"
@@ -14,6 +14,9 @@
 	father=100509 # Emund Slemme
 	1029.1.2={
 		birth="1029.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.1.2={
 		death="1079.1.2"
@@ -49,12 +52,15 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="zealous"
 	trait="amateurish_plotter"
 	1049.1.2={
 		birth="1049.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1099.1.2={
 		death="1099.1.2"
@@ -68,7 +74,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="cynical"
 	trait="flamboyant_schemer"
@@ -76,6 +82,9 @@
 	mother=100534
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1={
 		death="1080.1.1"
@@ -90,12 +99,15 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="envious"
 	trait="flamboyant_schemer"
 	1024.1.1={
 		birth="1024.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1074.1.1={
 		death="1074.1.1"
@@ -132,13 +144,16 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="greedy"
 	trait="humble"
 	trait="flamboyant_schemer"
 	1045.1.2={
 		birth="1045.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.1.2={
 		death="1095.1.2"
@@ -183,13 +198,16 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="honest"
 	trait="greedy"
 	trait="flamboyant_schemer"
 	1046.1.2={
 		birth="1046.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1096.1.2={
 		death="1096.1.2"
@@ -208,7 +226,7 @@
 	trait="diligent"
 	trait="underhanded_rogue"
 	father=100523
-	
+
 	1075.1.2={
 		birth="1075.1.2"
 	}
@@ -257,7 +275,7 @@
 	trait="trusting"
 	trait="thrifty_clerk"
 	father=100524 # Possibly
-	
+
 	1075.1.8={
 		birth="1075.1.8"
 	}
@@ -711,14 +729,17 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="humble"
 	trait="ill"
 	trait="fortune_builder"
 	1039.1.1={
 		birth="1039.1.1"
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1089.1.1={
 		death="1089.1.1"
 	}
@@ -731,12 +752,15 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="wroth"
 	trait="skilled_tactician"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -750,11 +774,14 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="scholarly_theologian"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -768,13 +795,16 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="lustful"
 	trait="patient"
 	trait="tough_soldier"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -788,11 +818,14 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="flamboyant_schemer"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -806,12 +839,15 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait="wroth"
 	trait="skilled_tactician"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -1158,7 +1194,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	trait=quick
 	trait=diligent
@@ -1167,6 +1203,9 @@
 	trait="fortune_builder"
 	1045.1.1={
 		birth="1045.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1061.1.1={
 		employer = 100522 # King Stenkil
@@ -1987,7 +2026,7 @@
 	1235.1.1={
 		add_spouse=450511
 	}
-	1261.1.1={	
+	1261.1.1={
 		add_spouse=31765
 	}
 	1266.10.21={
@@ -2262,7 +2301,7 @@
 }
 
 450607 = {
-	name="Valdemar" 
+	name="Valdemar"
 	# AKA: Valdemar Magnusson
 	dynasty=155
 	martial=4
@@ -4071,7 +4110,7 @@
 }
 
 33339 = {
-	name="Ingeborg" 
+	name="Ingeborg"
 	female=yes
 	dynasty=155
 	religion="catholic"
@@ -4087,7 +4126,7 @@
 }
 
 33340 = {
-	name="Gregers" 
+	name="Gregers"
 	dynasty=155
 	religion="catholic"
 	culture="swedish"
@@ -4176,7 +4215,7 @@
 		birth="960.1.1"
 	}
 	979.1.1={
-		religion="catholic"
+		religion = "chalcedonian"
 	}
 	1002.11.13={
 		death="1002.11.13"
@@ -4187,7 +4226,7 @@
 	name="Ingrid" #Ragnvaldsdotter
 	female = yes
 	dynasty=498
-	martial=4 
+	martial=4
 	diplomacy=7
 	intrigue=8
 	stewardship=4
@@ -4423,7 +4462,7 @@
 
 167377 = {
 	name="Sigrid"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=9517
 	religion="catholic"
@@ -4432,7 +4471,7 @@
 	1142.1.1 = {
 		birth="1142.1.1"
 	}
-	
+
 	1200.1.1 = {
 		death="1200.1.1"
 	}
@@ -4621,7 +4660,7 @@
 
 167630 = {
 	name="Ylva"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4635,7 +4674,7 @@
 
 167631 = {
 	name="Sara"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4650,7 +4689,7 @@
 
 167632 = {
 	name="Inga"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4666,7 +4705,7 @@
 
 167633 = {
 	name="Bothild"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4682,7 +4721,7 @@
 
 167634 = {
 	name="Holmfrid"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4698,7 +4737,7 @@
 
 167635 = {
 	name="Aleta"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4714,12 +4753,15 @@
 
 167636 = {
 	name="Asa"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1005.1.1 = {
 		birth="1005.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.1 = {
 		death="1055.1.1"
@@ -4730,12 +4772,15 @@
 
 167637 = {
 	name="Gunhild"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"
@@ -4745,12 +4790,15 @@
 
 167638 = {
 	name="Kristina"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1110.1.1 = {
 		death="1110.1.1"
@@ -4761,7 +4809,7 @@
 
 167639 = {
 	name="Rikissa"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4777,7 +4825,7 @@
 
 167640 = {
 	name="Ragnfrid"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4792,12 +4840,15 @@
 
 167641 = {
 	name="Ulvhilde"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1010.1.1 = {
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1 = {
 		death="1070.1.1"
@@ -4809,12 +4860,15 @@
 
 167642 = {
 	name="Ingegerd"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1110.1.1 = {
 		death="1110.1.1"
@@ -4825,7 +4879,7 @@
 
 167643 = {
 	name="Beata"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4841,7 +4895,7 @@
 
 167644 = {
 	name="Helena"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4857,12 +4911,15 @@
 
 167645 = {
 	name="Birgitta"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1025.1.1 = {
 		birth="1025.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"
@@ -4873,12 +4930,15 @@
 
 167646 = {
 	name="Alfhild"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1045.1.1 = {
 		birth="1045.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.1.1 = {
 		death="1095.1.1"
@@ -4889,7 +4949,7 @@
 
 167647 = {
 	name="Elisabet"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4905,7 +4965,7 @@
 
 167648 = {
 	name="Hafrid"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4919,12 +4979,15 @@
 
 167650 = {
 	name="Gurli"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1 = {
 		death="1070.1.1"
@@ -4935,12 +4998,15 @@
 
 167651 = {
 	name="Ylva"
-	#placeholder 
+	#placeholder
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -4950,7 +5016,7 @@
 
 167652 = {
 	name="Astrid"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4966,7 +5032,7 @@
 
 167653= {
 	name="Karin"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4982,7 +5048,7 @@
 
 167654= {
 	name="Alfridh"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -4998,7 +5064,7 @@
 
 167655= {
 	name="Sofia"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -5014,7 +5080,7 @@
 
 167656= {
 	name="Katarina"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -5030,7 +5096,7 @@
 
 167657= {
 	name="Linda"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -5045,7 +5111,7 @@
 
 167658= {
 	name="Inga"
-	#placeholder 
+	#placeholder
 	female=yes
 	religion="catholic"
 	culture="swedish"
@@ -5065,7 +5131,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	add_trait="legit_bastard"
 	add_trait="underhanded_rogue"
@@ -5073,6 +5139,9 @@
 	mother=100507
 	1009.1.2={
 		birth="1009.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1071.1.2={
 		death="1071.1.2"
@@ -5821,7 +5890,7 @@
 	1204.1.1 = {
 		birth = yes
 	}
-	
+
 	1288.1.1 = {
 		death = yes
 	}

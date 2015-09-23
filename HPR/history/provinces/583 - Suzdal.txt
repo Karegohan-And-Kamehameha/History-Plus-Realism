@@ -24,12 +24,15 @@ religion = finnish_pagan
 # History
 988.1.1 = {
 	culture = russian
-	religion = orthodox
+	religion = chalcedonian
 }
 988.1.1 = {
 b_suzstarodub = castle
 b_kidksa = temple
 b_gorokhovets = castle
+}
+1054.1.1 = {
+	religion = orthodox
 }
 1187.1.1 = { b_shuya = castle }
 

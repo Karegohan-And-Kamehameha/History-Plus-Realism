@@ -2,7 +2,7 @@
 
 910001 = {
 	name="Vedulphus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	515.1.1={
 		birth="515.1.1"
@@ -13,7 +13,7 @@
 }
 910002 = {
 	name="Gaugericus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	555.1.1={
 		birth="555.1.1"
@@ -24,7 +24,7 @@
 }
 910003 = {
 	name="Berthold"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	590.1.1={
 		birth="590.1.1"
@@ -35,7 +35,7 @@
 }
 910004 = {
 	name="Ablebert"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	599.1.1={
 		birth="599.1.1"
@@ -46,7 +46,7 @@
 }
 910005 = {
 	name="Autbert"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	600.1.1={
 		birth="600.1.1"
@@ -57,7 +57,7 @@
 }
 910006 = {
 	name="Vindicianus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	626.1.1={
 		birth="626.1.1"
@@ -68,7 +68,7 @@
 }
 910007 = {
 	name="Hildebert"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	640.1.1={
 		birth="640.1.1"
@@ -79,7 +79,7 @@
 }
 910008 = {
 	name="Hunuld"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	640.1.1={
 		birth="640.1.1"
@@ -90,7 +90,7 @@
 }
 910009 = {
 	name="Hadulf"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	660.1.1={
 		birth="660.1.1"
@@ -101,7 +101,7 @@
 }
 910010 = {
 	name="Treward"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	700.1.1={
 		birth="700.1.1"
@@ -112,7 +112,7 @@
 }
 910011 = {
 	name="Guntfrid"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	700.1.1={
 		birth="700.1.1"
@@ -123,7 +123,7 @@
 }
 910012 = {
 	name="Alberic"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	725.1.1={
 		birth="725.1.1"
@@ -134,7 +134,7 @@
 }
 910013 = {
 	name="Hildoard"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	770.1.1={
 		birth="770.1.1"
@@ -145,7 +145,7 @@
 }
 910014 = {
 	name="Halitgard"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	770.1.1={
 		birth="770.1.1"
@@ -156,7 +156,7 @@
 }
 910015 = {
 	name="Theodorik"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	800.1.1={
 		birth="800.1.1"
@@ -167,7 +167,7 @@
 }
 910016 = {
 	name="Jean"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	820.1.1={
 		birth="820.1.1"
@@ -178,7 +178,7 @@
 }
 910017 = {
 	name="Rothadius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	825.1.1={
 		birth="825.1.1"
@@ -189,7 +189,7 @@
 }
 910018 = {
 	name="Dodilo"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	845.1.1={
 		birth="845.1.1"
@@ -200,7 +200,7 @@
 }
 910019 = {
 	name="Stephan"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	880.1.1={
 		birth="880.1.1"
@@ -211,7 +211,7 @@
 }
 910020 = {
 	name="Folbert"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	900.1.1={
 		birth="900.1.1"
@@ -222,7 +222,7 @@
 }
 910021 = {
 	name="Berengar"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	900.1.1={
 		birth="900.1.1"
@@ -233,7 +233,7 @@
 }
 910022 = {
 	name="Ingelramn"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	910.1.1={
 		birth="910.1.1"
@@ -244,7 +244,7 @@
 }
 910023 = {
 	name="Ansbert"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	930.1.1={
 		birth="930.1.1"
@@ -255,7 +255,7 @@
 }
 910024 = {
 	name="Wibald"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	930.1.1={
 		birth="930.1.1"
@@ -266,7 +266,7 @@
 }
 910025 = {
 	name="Tetdo"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	930.1.1={
 		birth="930.1.1"
@@ -277,7 +277,7 @@
 }
 910026 = {
 	name="Rothard"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	930.1.1={
 		birth="930.1.1"
@@ -288,7 +288,7 @@
 }
 910027 = {
 	name="Herluin"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	950.1.1={
 		birth="950.1.1"
@@ -299,7 +299,7 @@
 }
 910028 = {
 	name="Gerard"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	980.1.1={
 		birth="980.1.1"
@@ -310,10 +310,13 @@
 }
 910029 = {
 	name="Lietbert"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	1010.1.1={
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1076.1.1={
 		death="1076.1.1"
@@ -321,10 +324,13 @@
 }
 910030 = {
 	name="Gerard"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1092.8.12={
 		death="1092.8.12"
@@ -332,10 +338,13 @@
 }
 910031 = {
 	name="Manasses"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1109.1.1={
 		death="1109.1.1"

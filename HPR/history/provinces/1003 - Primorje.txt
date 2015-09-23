@@ -17,10 +17,12 @@ b_kotor = city
 
 # Misc
 culture = serbian
-religion = catholic
+religion = chalcedonian
 
 # History
-980.1.1 = { religion = orthodox }
+1054.1.1 = {
+	religion = orthodox
+}
 1066.1.1 = { b_ulcinj = castle}
 1066.1.1 = { capital = b_ulcinj }
 1066.1.1 = { remove_settlement = b_kraljic_krajina } # Old Dukjlan court abadoned

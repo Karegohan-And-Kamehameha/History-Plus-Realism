@@ -27,5 +27,8 @@ terrain = mountain
 b_skansin = castle
 	b_skansin = ca_shipyard_1
 }
-1035.1.1 = { religion = catholic } 
-1047.10.25 = { culture = norwegian } 
+1035.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = norwegian }
+1054.1.1 = {
+	religion = catholic
+}

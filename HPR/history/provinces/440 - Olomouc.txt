@@ -19,7 +19,7 @@ b_olomouc = temple
 
 # Misc
 culture = moravian
-religion = catholic
+religion = chalcedonian
 
 # History
 907.1.1 = { capital = b_olomouc }
@@ -28,6 +28,9 @@ religion = catholic
       remove_settlement = b_staremesto
       }
 907.1.1 = { b_hradiste = city }
+1054.1.1 = {
+	religion = catholic
+}
 1063.1.1 = { b_kromeriz = temple }
 1063.1.1 = { b_ostrava = castle }
 1213.1.1 = { b_unicov = city }

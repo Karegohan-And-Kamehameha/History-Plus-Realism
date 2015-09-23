@@ -14,13 +14,15 @@ b_kukullovar = tribal
 
 # Misc
 culture = romanian
-religion = orthodox
+religion = chalcedonian
 
 
 # History
 895.1.1 = { culture = khazar }
 1000.1.1 = { b_kukullovar = castle }
-1000.1.1 = { religion = catholic }
 1000.1.1 = { b_kolozsvar = temple}
 1041.1.1 = { culture = szekely }
+1054.1.1 = {
+	religion = catholic
+}
 1100.1.1 = { b_torda = city }

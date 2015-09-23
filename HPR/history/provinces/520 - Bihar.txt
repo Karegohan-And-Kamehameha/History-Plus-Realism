@@ -22,9 +22,12 @@ religion = tengri_pagan
 895.1.1 = { culture = khazar }
 1000.1.1 = { b_nagyvarad = temple }
 1000.1.1 = { b_bihar = castle }
-1000.1.1 = { religion = catholic }
+1000.1.1 = { religion = chalcedonian }
 1041.1.1 = { culture = szekely }
 1041.1.1 = { b_krasznavar = castle }
+1054.1.1 = {
+	religion = catholic
+}
 1130.1.1 = { b_szekelyhid = city }
 1249.1.1 = { remove_settlement = b_krasznavar} # Krasna county seat moved.
 1249.1.1 = { b_valkovar = castle }

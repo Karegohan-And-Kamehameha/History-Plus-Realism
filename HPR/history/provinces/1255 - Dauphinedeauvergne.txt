@@ -15,7 +15,10 @@ b_labbeyblese = temple
 
 
 #Misc
-religion = catholic
+religion = chalcedonian
 culture = occitan
 
 # History
+1054.1.1 = {
+	religion = catholic
+}

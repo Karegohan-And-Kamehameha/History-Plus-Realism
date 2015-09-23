@@ -18,7 +18,7 @@ b_asenscastle_petrich = castle
 
 # Misc
 culture = bulgarian
-religion = orthodox #The Paulicians weren't deported to Philippopolis until after the sack of Tephrike and the end of the Paulician state in 873
+religion = chalcedonian #The Paulicians weren't deported to Philippopolis until after the sack of Tephrike and the end of the Paulician state in 873
 
 # History
 
@@ -26,7 +26,7 @@ religion = orthodox #The Paulicians weren't deported to Philippopolis until afte
 #4th crusade
 875.1.1 = { religion = paulician }
 1100.1.1 = { religion = bogomilist }
-1205.1.1 = { remove_settlement = b_asenscastle_petrich } 
+1205.1.1 = { remove_settlement = b_asenscastle_petrich }
 
 1337.1.1 = { b_perushtitsa = city }
 

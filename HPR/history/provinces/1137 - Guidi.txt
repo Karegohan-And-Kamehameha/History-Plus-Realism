@@ -23,8 +23,10 @@ b_castellodeltrebbio = castle
 
 # Misc
 culture = tuscan
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1155.1.1 = { b_poggibonsi = city }

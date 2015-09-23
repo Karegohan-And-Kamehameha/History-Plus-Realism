@@ -16,14 +16,14 @@ on_yearly_pulse = {
 		63106 # (Safety flag clearance check event)
 	}
 	random_events = {
-	
+
 		# Heretic Pride Events
 		75 = Plus.2003 # Adult Cathar becomes celibate
 		100 = Plus.2037 # Refugees arrive at a Waldensian ruler's capital
 		100 = Plus.2038 # Waldensian ruler is greedy
 		100 = Plus.2039 # Charitable Waldensian steward sees chance to help the poor
 		100 = Plus.2138 # # Bogomilist missionaries move into a neighboring realm
-		
+
 		# Imperial Decadence Events
 		50 = Plus.1855 # Emperor/Regent is Just
 		50 = Plus.1856 # Emperor/Regent is Arbitrary
@@ -41,7 +41,7 @@ on_yearly_pulse = {
 		50 = Plus.1868 # Emperor is a prisoner
 		50 = Plus.1869 # Emperor has a capable Steward
 		50 = Plus.1870 # Emperor has a lousy Steward
-		
+
 		# Lifestyle Events
 		50 = Plus.434 # Debate with a zealous courtier
 		50 = Plus.435 # Hunter
@@ -69,18 +69,18 @@ on_yearly_pulse = {
 		75 = Plus.457 # Wondering about rival
 		75 = Plus.458 # Thinking about the plot
 		75 = Plus.459 # Bookseller comes to court
-		
-		
+
+
 		# CK2+ Events
 		25 = Plus.730 # known murderer is excommunicated
 		25 = Plus.731 # known murderer goes nuts
 		25 = Plus.732 # paranoid murderer kills a courtier
 		250 = Plus.1370 # Unknown bastard decides whether to approach their true father
 		500 = GoPagan.150 # character has more than one sympathy trait
-		
+
 		#Holy Order Events
 		200 = ancrel.2573
-		
+
 		# Feudal Life Events
 		100 = 4000
 		100 = 4005
@@ -103,7 +103,7 @@ on_yearly_pulse = {
 		100 = 4150
 		100 = 4155
 		100 = 4175
-		
+
 		# Married Life Events
 		100 = 30000
 		100 = 30001
@@ -132,7 +132,7 @@ on_yearly_pulse = {
 		100 = 30100
 		100 = 30105
 		100 = 30110
-		
+
 		# Old Lover Events (Disabled in "Way of Life")
 		100 = 64000 # Confronts spouse about lover. Rivalries, lover lost.
 		100 = 64005 # Lover is ill. Give comfort.
@@ -143,7 +143,7 @@ on_yearly_pulse = {
 		100 = 64030 # Vacation with lover
 		100 = 64035 # Party/hunting/nothing with lover
 		100 = 64040 # Ruler confronts spouse about lover
-		
+
 		#Job Flavour Events
 		100 = 75010
 		100 = 75020
@@ -166,7 +166,7 @@ on_yearly_pulse = {
 		250 = 66000
 		250 = 66050
 		250 = 66100
-		
+
 		#Hedge Knights Events
 		50 = 71000
 		50 = 71006
@@ -174,7 +174,7 @@ on_yearly_pulse = {
 		50 = ancrel.154
 		50 = ancrel.1260
 		50 = ancrel.160
-		
+
 		#Rumours Events
 		10 = 69000
 		10 = 69003
@@ -197,7 +197,7 @@ on_yearly_pulse = {
 		10 = 69073
 		10 = 69100
 		10 = 69095
-		
+
 		#Court Events
 		100 = 73000
 		100 = 73001
@@ -210,10 +210,7 @@ on_yearly_pulse = {
 		100 = 73008
 		100 = 73009
 		100 = 73010
-		
-		#Religious Events
-		100 = 39230
-		
+
 		#Bastard Events
 		100 = 76000
 		100 = 76005
@@ -222,7 +219,7 @@ on_yearly_pulse = {
 		100 = 76030
 		100 = 76035
 		100 = 76040
-		
+
 		#Ward Events
 		100 = 78000
 		100 = 78005
@@ -232,17 +229,17 @@ on_yearly_pulse = {
 		100 = 78025
 		100 = 78030
 		100 = HL.10610
-		
+
 		#Various Events
 		100 = TOG.3403
 		100 = TOG.3401
 		100 = TOG.3402
-		
+
 		# Reincarnation: Memories of the previous life
 		1000 = RoI.10020
 		1000 = RoI.10021
 		1000 = RoI.10022
-		
+
 		# Indian guru events
 		100 = RoI.3100
 		100 = RoI.3101
@@ -262,18 +259,18 @@ on_yearly_pulse = {
 		500 = RoI.3200
 		500 = RoI.3300
 		100 = RoI.3400
-		
+
 		# Indian ascetics and yogis
 		20 = RoI.203
 		20 = RoI.206
 		20 = RoI.209
 		20 = RoI.193
-		
+
 		# Indian story events
 		20 = RoI.215
 		20 = RoI.20147
 		20 = RoI.20164
-		
+
 		# Indian minor events
 		100 = RoI.157
 		100 = RoI.158
@@ -286,7 +283,7 @@ on_yearly_pulse = {
 		100 = RoI.411
 		200 = RoI.412
 		500 = RoI.500
-		
+
 		# Indian low religious authority events
 		100 = RoI.3500
 		100 = RoI.3506
@@ -295,15 +292,15 @@ on_yearly_pulse = {
 		10 = RoI.3520
 		100 = RoI.3530
 		#100 = RoI.3536 #event commented out
-		
+
 		# Religious tolerance events
 		100 = RoI.400
-		
+
 		# Hero knight adventure events
 		#200 = CM.2010 #event does not exist
 		200 = CM.2020
 		#200 = CM.2100 #event does not exist
-		
+
 		# Effects of being in hiding
 		100 = CM.6100
 		100 = CM.6102
@@ -322,17 +319,17 @@ on_yearly_pulse = {
 		100 = CM.6128
 		100 = CM.6130
 		100 = CM.6132
-		
+
 		# Meddling mother events
 		100 = CM.1150
 		100 = CM.1160
 		100 = CM.1170
 		100 = CM.1180
 		100 = CM.1190
-		
+
 		# Other Charlemagne/Carloman
 		100 = CM.1130
-		
+
 		# Way of Life Theology focus
 		1000 = WoL.7000
 		1000 = WoL.7010
@@ -342,7 +339,7 @@ on_yearly_pulse = {
 		1000 = WoL.7050
 		1000 = WoL.7060
 		1000 = WoL.7070
-		
+
 		# Way of Life Hunting focus
 		2000 = WoL.5000 # Epic Hunt chain start
 		2000 = WoL.5200 # Receive hunting dog
@@ -351,7 +348,7 @@ on_yearly_pulse = {
 		1000 = WoL.5220 # Train your dog?
 		1000 = WoL.5230 # Bad dog kills other dog
 		1000 = WoL.5231 # Bad dog kills or wounds courtier
-		
+
 		# Horse Lords Mercenary Events
 		300 = HL.10100
 		300 = HL.10200
@@ -368,7 +365,7 @@ on_yearly_pulse = {
 		300 = HL.10510
 		300 = HL.10530
 		300 = HL.10600
-		
+
 		# Wolf's Blood events
 		100 = HL.1010 # Wolf Child found in woods
 		100 = HL.1020 # Child lost in woods and is rescued by wolves
@@ -376,7 +373,7 @@ on_yearly_pulse = {
 		#500 = HL.1300 # The Lost Cub
 		150 = HL.1400 # Werewolf first occurrence
 		1500 = HL.1401 # Werewolf subsequent occurrences
-		
+
 		300 = HL.1500 # Become cannibal
 		300 = HL.1510 # Howl at the moon
 		300 = HL.1520 # Hunter instinct strikes unexpectedly (and awkwardly) at court
@@ -389,16 +386,16 @@ on_yearly_pulse = {
 		300 = HL.1590 # Animal cruelty (cruel)
 		300 = HL.1610 # Rabid wolf (wroth)
 		300 = HL.1620 # Wolf-face (ugly)
-		300 = HL.1630 # Animal mind (lower learning trait level) 
+		300 = HL.1630 # Animal mind (lower learning trait level)
 		300 = HL.1640 # Really howl at the moon! (lunatic)
-		
+
 		# Horse Lords Horse Events
 		800 = HL.6010 # Ward can't ride yet
 		100 = HL.6020 # Dangerous river crossing - save spouse or favorite horse?
 		100 = HL.6030 # A loyal retinue warrior's family have lost their horses to sickness
 		100 = HL.6510 # Your horse gets bitten by another horse
 		100 = HL.6520 # Foreign portrait painter offers his services
-		
+
 		#Various Traits Events
 		50 = 65000
 		50 = 65001
@@ -537,8 +534,8 @@ on_yearly_pulse = {
 		50 = 3225
 		50 = 3230
 		50 = 3235
-		
-		
+
+
 		#Misc Traits, Paranoid, Honest,Gregagrious, Craven
 		50 = 3480
 		50 = 3485
@@ -556,13 +553,13 @@ on_yearly_pulse = {
 		50 = 3310
 		50 = 3315
 
-		
+
 		#Deceitful
 		50 = 3260
 		50 = 3261
 		50 = 3262
 		50 = 3263
-	
+
 
 		#Lifestyle events
 		100 = 3520
@@ -601,7 +598,7 @@ on_yearly_pulse = {
 		100 = 3685
 		100 = 3690
 		100 = 3700
-		
+
 		5000 = 0 # Chance of no yearly event
 	}
 }
@@ -615,7 +612,9 @@ on_bi_yearly_pulse = {
 		100000 = Plus.314 # Remove Loyalist trait
 		100000 = Plus.329 # Norman conquest of England cleanup - Victory: France loses claims
 		100000 = Plus.330 # Norman conquest of England cleanup - Loss: English provinces (back) to England
-		
+		100000 = Plus.2270 # Switch Catholic/Orthodox characters which appear before Schism
+		100000 = Plus.2271 # Switch Chalcedonian characters which appear after Schism
+
 		#Mid prio maintenance
 		10000 = Plus.305 # Remove Crowned by Pope if not the Kaiser
 		10000 = Plus.317 # AI Non-holy orders surrender baronies in different realms
@@ -625,7 +624,7 @@ on_bi_yearly_pulse = {
 		10000 = Plus.345 # Removes In Hiding trait from characters who no longer have someone to remove it
 		10000 = Plus.346 # Removes austerity modifier from non-AI characters
 		10000 = Plus.1603 # Remove support for heir opinion if he is neither heir nor liege
-		
+
 		#Low prio maintenance
 		1000 = Plus.300 # AI plot check
 		1000 = Plus.301 # Cancel AI plot if too few helpers and has taken too long
@@ -634,18 +633,17 @@ on_bi_yearly_pulse = {
 		1000 = Plus.310 # Copies empire's Crown Laws to de jure kingdoms
 		1000 = Plus.316 # Independent baron opinion modifiers
 		1000 = Plus.339 # Change Scarred trait on females
-		
+
 		#Low chance maintenance
 		100 = Plus.312 # AI spouse finder
 		100 = Plus.313 # Player councillor spouse finder
-		100 = Plus.547 # Pope demands return of Rome
-		
+
 		#Rare maintenance
 		20 = Plus.302 # Allow AI plotting
-		
+
 		#Very rare maintenance
 		10 = Plus.115 # Generate random claim on a neighbour
-		
+
 		100 = 0 # No maintenance event
 	}
 }
@@ -654,7 +652,7 @@ on_bi_yearly_pulse = {
 on_five_year_pulse = {
 	random_events = {
 		#----  misc traits needing revision below...
-		
+
 		#Heretic Pride events
 		50 = Plus.2114 # Bogomilist Formalization: Support Common Liturgy
 		50 = Plus.2115 # Bogomilist Formalization: Canonicalize Bible
@@ -671,54 +669,54 @@ on_five_year_pulse = {
 
 		#CK2Plus Events
 		5 = Plus.2027 # Catholic faithful consider the Fraticelli heresy
-		
+
 		#Brave
 		10 = 3320
 		10 = 3325
 		10 = 3330
 		10 = 3335
 		10 = 3740
-		
+
 		#Shy
 		10 = 3340
 		10 = 3345
 		10 = 3350
 		10 = 3355
-		
+
 		#Ambitious
 		10 = 3360
 		10 = 3365
 		10 = 3370
 		10 = 3375
 		10 = 3371
-		
+
 		#Content
 		10 = 3380
 		10 = 3385
 		10 = 3390
 		10 = 3395
 		10 = 3745
-		
+
 		#Arbitrary
 		10 = 3400
 		10 = 3405
 		10 = 3410
 		10 = 3415
 		10 = 3411
-		
+
 		#Just
 		10 = 3420
 		10 = 3425
 		10 = 3430
 		10 = 3435
-		
+
 		#Cynical
 		10 = 3440
 		10 = 3445
 		10 = 3450
-		10 = 3455	
-		10 = 3456		
-		
+		10 = 3455
+		10 = 3456
+
 		#Zealous
 		10 = 3460
 		10 = 3465
@@ -733,7 +731,7 @@ on_five_year_pulse = {
 		10 = 3505
 		10 = 3510
 		10 = 3515
-		
+
 		#Personality Traits
 		10 = 1000
 		10 = 1001
@@ -786,7 +784,7 @@ on_five_year_pulse = {
 		10 = 3264
 		10 = 3730
 		10 = 3735
-		
+
 		40 = 0
 	}
 }
@@ -799,7 +797,7 @@ on_decade_pulse = {
 on_yearly_childhood_pulse = {
 	random_events = {
 		# Childhood Personality Events
-		
+
 		#Age 6-16, aiming to get at least 4 traits before adult.
 		100 = 1500
 		100 = 1510
@@ -831,14 +829,14 @@ on_yearly_childhood_pulse = {
 		5000 = RoI.10010 # Acknowledged reincarnated child acquires trait from previous personality
 		500 = Plus.2000 # Cathar child gains chaste
 		500 = Plus.2040 # Waldensian child gains charitable
-		
+
 		#Toddler flavour events (age 2-5), not very common, but some will get them.
-		10 = 1900 
+		10 = 1900
 		10 = 1901
 		10 = 1902
 		10 = 1903
 		10 = 1904
-		
+
 		#Young children flavour events, (age 6-10), not very common, but some will get then..
 		20 = 1905
 		20 = 1906
@@ -848,7 +846,7 @@ on_yearly_childhood_pulse = {
 		20 = 1910
 		20 = 1911
 		20 = 1912
-		
+
 		#Youngsters flavour events (age 11-15), not very common, but some will get then..
 		50 = 1913
 		50 = 1914
@@ -873,7 +871,7 @@ on_yearly_childhood_pulse = {
 		50 = 1933
 		50 = 1934
 		50 = 1935
-		
+
 		1500 = 0
 	}
 }
@@ -904,12 +902,12 @@ on_combat_pulse = {
 		25 = HL.10300 # Gain Brave
 		20 = 272 # Gain Wroth
 		20 = 273 # Gain Patient
-		
+
 		30 = 96500 # Gain Combat Trait 1
 		15 = 96501 # Gain Combat Trait 2
 		15 = 96502 # Gain Combat Trait 3
 		15 = 96503 # Gain Combat Trait 4
-		
+
 		50 = TOG.3000 # Becomes Berserker
 		15 = TOG.3001 # Berserker Maimed
 		20 = TOG.3002 # Berserker Wounded
@@ -937,7 +935,7 @@ on_siege_pulse = {
 		75 = 62010
 		25 = 62014
 		75 = 62015
-		15 = 62011	
+		15 = 62011
 		15 = 62012
 		15 = 62013
 		100 = Plus.958 # Building sacked during siege
@@ -1141,7 +1139,7 @@ on_assassination_disc = {
 on_birth = {
 	events = {
 		300 # A Bastard is born
-		312 # The child of a consort is born		
+		312 # The child of a consort is born
 		318 # A Bastard is born, but is not recognized as such by the mother's spouse (cuckoo!)
 		TOG.3206 # Child Perceived to be Demon Born
 		706 # Full House achievement
@@ -1184,7 +1182,7 @@ on_pregnancy = {
  		401 # Pregnancy out of wedlock
  		402 # Pregnancy in matrimony, with another father!
  		410 # Pregnancy as consort
- 		412 # Pregnancy as consort, with another father!		
+ 		412 # Pregnancy as consort, with another father!
  	}
 }
 
@@ -1314,7 +1312,7 @@ on_death = {
 		WoL.6335 # Owner of Necronomicon dies...
 		722 # Until Death Do Us Part achievement check
 		HL.8001 # Sky Burial
-		HL.12		
+		HL.12
 		Plus.111 # Estates passed onto children
 		Plus.306 # Inherit Half of Dishonourable and Tyrant
 		Plus.321 # Remove Favored Son trait
@@ -1326,14 +1324,16 @@ on_death = {
 		Plus.1130 # Remove Disinherited trait
 		Plus.1213 # Ruler has died, the coronation is cancelled
 		Plus.1405 # Temple builder dies during the construction
-		FemRule.300 # Usurper husband dies but has no living sons by usurped wife
-		FemRule.303 # Usurped wife dies but has no living sons by usurper husband
+		#FemRule.300 # Usurper husband dies but has no living sons by usurped wife
+		#FemRule.303 # Usurped wife dies but has no living sons by usurper husband
 		Plus.348 # Viceroys pass on wealth to a relative
 		Plus.136 # Tanist titles give strong claims to non-inheriting children
 		Plus.138 # Feudal Elective titles gives strong non-inheritable claims to Pretenders
 		Plus.1610 # King/Emperor dies at low CA with possibly unsuitable heir
 		Plus.2019 # Lollard ruler dies while Bible is being translated
 		Plus.1960 # Shiite claimant passes on trait to heir
+		Plus.2290 # Pope/Patriarch dies
+		Plus.2294 # Chalcedonian Pope dies
 		GoPagan.276 # Yazidi ruler dies while holding the Peacock Festival
 	}
 	random_events = {
@@ -1692,7 +1692,7 @@ CALL_ALLY_INTERACTION_ACCEPT_EVENT = {
 
 CALL_ALLY_INTERACTION_DECLINE_EVENT = {
 	events = {
-		239 # Ally 
+		239 # Ally
 		41001 # Vassal
 	}
 }
@@ -2016,6 +2016,7 @@ on_create_title = {
 	events = {
 		CM.10021
 		CM.1501
+		Plus.2289 # Check relations between Greek and Latin Chalcedonian realms
 	}
 }
 
@@ -2025,6 +2026,7 @@ on_new_holder = {
 		HL.140 #Landless nomad gains a title.
 		60504 #Landless status clean-up for e_mongol_empire.
 		Plus.351 # Adds province chaos modifier
+		Plus.356 # Removes claims for dead rulers
 		Plus.1853 # Emperor inherits a second imperial title and must choose between them
 	}
 }
@@ -2036,6 +2038,7 @@ on_new_holder_inheritance = {
 		HL.140 #Landless nomad gains a title.
 		60504 #Landless status clean-up for e_mongol_empire.
 		Plus.341 # Check if overthrown ruler is re-inheriting
+		Plus.356 # Removes claims for dead rulers
 		Plus.1150 # Upon a new Carolingian emperor ascending to the throne
 		Plus.1320 # Upon a new Byzantine emperor ascending to the throne
 		Plus.1331 # Upon a former Byzantine emperor regaining the throne
@@ -2044,6 +2047,7 @@ on_new_holder_inheritance = {
 		Plus.1850 # Decadence check for imperial titles
 		Plus.1853 # Emperor inherits a second imperial title and must choose between them
 		Plus.1901 # Sunni Caliph gains title during Anarchy at Samarra
+		Plus.2289 # Check relations between Greek and Latin Chalcedonian realms
 	}
 }
 
@@ -2052,7 +2056,7 @@ on_new_holder_usurpation = {
 	events = {
 		HL.140 #Landless nomad gains a title.
 		CM.10022
-		60504 #Landless status clean-up for e_mongol_empire.		
+		60504 #Landless status clean-up for e_mongol_empire.
 		Plus.351 # Adds province chaos modifier
 		Plus.1150 # Upon a new Carolingian emperor ascending to the throne
 		Plus.1320 # Upon a new Byzantine emperor ascending to the throne
@@ -2060,6 +2064,7 @@ on_new_holder_usurpation = {
 		Plus.1850 # Decadence check for imperial titles
 		Plus.1853 # Emperor inherits a second imperial title and must choose between them
 		Plus.1901 # Sunni Caliph gains title during Anarchy at Samarra
+		Plus.2289 # Check relations between Greek and Latin Chalcedonian realms
 	}
 }
 
@@ -2178,14 +2183,14 @@ on_settlement_construction_completed = {
 	}
 }
 
-# ROOT = Starter, FROM = Target 
+# ROOT = Starter, FROM = Target
 on_feud_started = {
 	events = {
 		HL.6
 	}
 }
 
-# ROOT = Ender, FROM = Target 
+# ROOT = Ender, FROM = Target
 on_feud_ended = {
 }
 

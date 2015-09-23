@@ -21,7 +21,10 @@ religion = norse_pagan
 # History
 1000.1.1 = { b_stege = castle
 b_refshale = castle
-b_nykobing = city } 
-1010.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
+b_nykobing = city }
+1010.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 1200.1.1 = { b_nakskov = temple }

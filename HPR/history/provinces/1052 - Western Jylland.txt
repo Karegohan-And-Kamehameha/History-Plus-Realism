@@ -16,13 +16,15 @@ culture = norse
 religion = norse_pagan
 
 # History
-867.1.1 = { b_ringkoebing = ct_port_1 } 
+867.1.1 = { b_ringkoebing = ct_port_1 }
 1000.1.1 = { b_skive = castle
-b_holstebro = city } 
-1005.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
+b_holstebro = city }
+1005.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
 
-
+1054.1.1 = {
+	religion = catholic
+}
 
 
 

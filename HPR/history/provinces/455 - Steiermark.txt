@@ -22,10 +22,13 @@ b_stubing = castle #Stübing
 
 # Misc
 culture = karantanci
-religion = catholic
+religion = chalcedonian
 
 # History
 955.1.1 = { culture = bavarian }
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }
 
 

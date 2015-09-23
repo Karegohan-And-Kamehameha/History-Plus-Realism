@@ -19,16 +19,18 @@ b_vasvar = city
 #b_kabold = city
 #b_frakno = castle
 #b_ruszt = castle
-#b_karako = castle 
+#b_karako = castle
 #b_rohonc = temple
 #b_monyorokerek = temple
 
 
 # Misc
 culture = karantanci
-religion = catholic 
+religion = chalcedonian
 
 # History
 950.1.1 = { culture = hungarian }
 
-
+1054.1.1 = {
+	religion = catholic
+}

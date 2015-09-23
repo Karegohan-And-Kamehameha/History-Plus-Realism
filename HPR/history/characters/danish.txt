@@ -26,7 +26,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="lustful"
 	trait="craven"
@@ -49,6 +49,9 @@
 	1051.1.1={
 		remove_spouse=102516 # Gunhild Sveinsdatter
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1069.1.1={
 		add_spouse=102551 # Thora Torbergsdatter (Arnung)
 	}
@@ -65,7 +68,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="arbitrary"
 	trait="legit_bastard"
@@ -75,20 +78,23 @@
 	1052.1.1={
 		birth="1052.1.1"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1099.1.1={
 		death="1099.1.1"
 	}
 }
 
 101517 = {
-	name="Harald" 
+	name="Harald"
 	# Hein
 	dynasty=487
 	martial=6
 	diplomacy=8
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="legit_bastard"
 	trait="kind"
@@ -97,6 +103,9 @@
 	father=101515 #Svend Estridsson
 	1041.1.1={
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1057.1.1={
 		add_spouse=101518 #Margrete Asbjørnsdatter
@@ -114,7 +123,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="chaste"
 	trait="greedy"
@@ -122,6 +131,9 @@
 	father=101536 # Asbjørn Jarl Ulfson
 	1041.1.2={
 		birth="1041.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1091.1.2={
 		death="1091.1.2"
@@ -135,7 +147,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="ambitious"
 	trait="zealous"
@@ -144,6 +156,9 @@
 	father=101515 #Svend Estridsson
 	1043.1.1={
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1082.1.1={
 		add_spouse=369 # Adele of Flandres
@@ -163,7 +178,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="legit_bastard"
 	trait="cynical"
@@ -171,6 +186,9 @@
 	father=101515 # Svend Estridsson
 	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1071.1.1={
 		add_spouse=102535 # Ingegerd Haraldsdotter
@@ -204,7 +222,7 @@
 		add_spouse=101548 # Bodil Thrugotsdatter
 	}
 	1075.1.1={
-		give_nickname=nick_the_good	
+		give_nickname=nick_the_good
 	}
 	1103.7.10={
 		death="1103.7.10"
@@ -219,13 +237,16 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="legit_bastard"
 	trait="martial_cleric"
 	father=101515 #Svend Estridsson
 	1043.1.1={
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1092.1.2={
 		death="1092.1.2"
@@ -239,13 +260,16 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="legit_bastard"
 	trait="flamboyant_schemer"
 	father=101515 #Svend Estridsson
 	1049.1.1={
 		birth="1049.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.7.10={
 		death="1086.7.10"
@@ -260,13 +284,16 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="legit_bastard"
 	trait="flamboyant_schemer"
 	father=101515 #Svend Estridsson
-	1050.1.1={	
+	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1={
 		death="1100.1.1"
@@ -328,7 +355,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="legit_bastard"
 	trait="humble"
@@ -336,6 +363,9 @@
 	father=101515 # Svend Estridsson
 	1048.9.1={
 		birth="1048.9.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1={
 		death="1070.1.1"
@@ -350,7 +380,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="honest"
 	trait="legit_bastard"
@@ -358,6 +388,9 @@
 	father=101515 # Svend Estridsson
 	1041.1.1={
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1058.1.1={
 		death="1058.1.1"
@@ -405,7 +438,7 @@
 	}
 	1130.1.1={
 		add_spouse=200601 # Ulvhild Haakonardottir
-	} 
+	}
 	1134.6.25={
 		death="1134.6.25"
 	}
@@ -475,12 +508,15 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="scholarly_theologian"
 	father=101533 # Thorgil Sprakalegg
 	997.1.1={
 		birth="997.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1={
 		employer=122 # Harold Godwinson
@@ -501,7 +537,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="greedy"
 	trait="skilled_tactician"
@@ -509,6 +545,9 @@
 	mother=101509 # Estrid
 	1025.1.1={
 		birth="1025.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.1.1={
 		death="1086.1.1"
@@ -523,13 +562,16 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="temperate"
 	trait="thrifty_clerk"
 	father=101536 #Asbjørn Ulfsøn
 	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.1.1={
 		death="1086.1.1"
@@ -543,13 +585,16 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="greedy"
 	trait="martial_cleric"
 	father=101538
 	1040.1.2={
 		birth="1040.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.2={
 		death="1090.1.2"
@@ -563,7 +608,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="honest"
 	trait="fair"
@@ -575,6 +620,9 @@
 	}
 	1049.1.1={
 		add_spouse=101545 #Thorgunna Vagnsdatter
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.4.28={
 		death = yes
@@ -588,12 +636,15 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="greedy"
 	trait="flamboyant_schemer"
 	1026.1.2={
 		birth="1026.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1076.1.2={
 		death="1076.1.2"
@@ -1346,12 +1397,15 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="fortune_builder"
 	father=101538
 	1034.1.1={
 		birth="1034.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1={
 		add_spouse=101537 #Signe Asbjørnsdatter
@@ -1430,7 +1484,7 @@
 }
 
 201536 = {
-	name="Margrethe" 
+	name="Margrethe"
 	female = yes
 	dynasty=482
 	martial=5
@@ -1682,7 +1736,7 @@
 }
 
 201547 = {
-	name="Cæcilie" 
+	name="Cæcilie"
 	# AKA: Caecilie
 	female = yes
 	dynasty=482 #Hvide
@@ -1707,23 +1761,23 @@
 201548 = {
 	name="Valdemar"
 	dynasty=487
-	
+
 	religion="catholic"
 	culture="danish"
-	
+
 	trait="martial_cleric"
-	
+
 	father = 201508
-	
+
 	1157.1.1={
 		birth="1157.1.1"
 	}
-	
+
 	#Excommunicated by Pope Innocent III
 	1208.1.1={
 	trait="excommunicated"
 	}
-	
+
 	1220.1.1={
 	remove_trait="excommunicated"
 	}
@@ -1765,7 +1819,7 @@
 }
 
 30549 = {
-	name="Katerina" 
+	name="Katerina"
 	female=yes
 	dynasty=487
 	religion="catholic"
@@ -2216,7 +2270,7 @@
 	1218.1.1={
 		birth="1218.1.1"
 	}
-	1237.1.1={	
+	1237.1.1={
 		add_spouse=31765
 	}
 	1252.6.29={
@@ -2261,7 +2315,7 @@
 	}
 	1263.1.1={
 		add_spouse=30495
-	}	
+	}
 	1272.1.1={
 		death="1272.1.1"
 	}
@@ -2288,7 +2342,7 @@
 	}
 	1306.1.1={
 		add_spouse=451974
-	}	
+	}
 	1312.1.1={
 		death="1312.1.1"
 	}
@@ -2304,7 +2358,7 @@
 	religion="catholic"
 	culture="danish"
 	trait="tough_soldier"
-	add_claim = k_denmark	
+	add_claim = k_denmark
 	father=451528
 	mother=170012 #Elisabeth of Saxony
 	1288.1.1={
@@ -2527,7 +2581,7 @@
 }
 
 7687 = {
-	name="Sophie" 
+	name="Sophie"
 	female = yes
 	dynasty=487
 	religion="catholic"
@@ -2549,7 +2603,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=7
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="thrifty_clerk"
 	trait="charitable"
@@ -2557,13 +2611,16 @@
 	1035.1.2={
 		birth="1035.1.2"
 	}
+	1054.1.1 = {
+		religion = "orthodox"
+	}
 	1085.1.2={
 		death="1085.1.2"
 	}
 }
 
 31779 = {
-	name="Margrethe" 
+	name="Margrethe"
 	female=yes
 	dynasty=487
 	religion="catholic"
@@ -2611,7 +2668,7 @@
 }
 
 33273 = {
-	name="Abel" 
+	name="Abel"
 	dynasty=487
 	religion="catholic"
 	culture="danish"
@@ -2626,7 +2683,7 @@
 }
 
 33274 = {
-	name="Erik" 
+	name="Erik"
 	dynasty=487
 	religion="catholic"
 	culture="danish"
@@ -2641,7 +2698,7 @@
 }
 
 33275 = {
-	name="Margarete" 
+	name="Margarete"
 	female=yes
 	dynasty=487
 	religion="catholic"
@@ -2692,7 +2749,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="legit_bastard"
 	trait="zealous"
@@ -2701,6 +2758,9 @@
 	father=101515 #Svend Estridsson
 	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.1.1={
 		add_spouse=91008 #Florine de Bourgogne
@@ -2724,7 +2784,7 @@
 	trait="trusting"
 	father=151000 # Svend Thrugotsøn
 	1066.1.1 = {
-		birth="1066.1.1" 
+		birth="1066.1.1"
 	}
 	1137.5.5 = {
 		death="1137.5.5"
@@ -2742,7 +2802,7 @@
 	trait="content"
 	father=151002 # Christiern
 	1100.1.1 = {
-		birth="1100.1.1" 
+		birth="1100.1.1"
 	}
 	1181.1.1 = {
 		death="1181.1.1"
@@ -2756,7 +2816,7 @@
 	trait="scholarly_theologian"
 	trait="just"
 	1178.1.1 = {
-		birth="1178.1.1" 
+		birth="1178.1.1"
 	}
 	1228.7.10 = {
 		death="1228.7.10"
@@ -2773,7 +2833,7 @@
 	trait="ambitious"
 	trait="charitable"
 	1202.1.1 = {
-		birth="1202.1.1" 
+		birth="1202.1.1"
 	}
 	1252.12.15 = {
 		death="1252.12.15"
@@ -2792,7 +2852,7 @@
 	father=151005 # Erland Galen
 	mother=151004 # Cæcilie Herlufsdatter
 	1212.10.1 = {
-		birth="1212.10.1" 
+		birth="1212.10.1"
 	}
 	1274.2.18 = {
 		death="1274.2.18"
@@ -3002,13 +3062,16 @@
 151000 = {
 	name="Svend" #Thrugotsøn
 	dynasty=1025000
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	trait="fortune_builder"
 	father=101542 # Thrugot Fagerskind Ulfssøn
 	mother=101545 # Thorgunna Vagnsdatter
 	1050.1.1 = {
-		birth="1050.1.1" 
+		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.1.1 = {
 		death="1086.1.1"
@@ -3024,7 +3087,7 @@
 	trait="zealous"
 	father=151000 # Svend Thrugotsøn
 	1076.1.1 = {
-		birth="1076.1.1" 
+		birth="1076.1.1"
 	}
 	1153.3.30 = {
 		death="1153.3.30"
@@ -3040,7 +3103,7 @@
 	trait="wroth"
 	father=151000 # Svend Thrugotsøn
 	1070.1.1 = {
-		birth="1070.1.1" 
+		birth="1070.1.1"
 	}
 	1140.5.20 = {
 		death="1140.5.20"
@@ -3061,15 +3124,15 @@
 	1236.1.1={
 		death="1236.1.1"
 	}
-}	
+}
 
 151005 = {
-	name="Erland" 
+	name="Erland"
 	dynasty=760 #Galen
 	religion="catholic"
 	culture="danish"
 	1172.1.1 = {
-		birth="1172.1.1" 
+		birth="1172.1.1"
 	}
 	1196.1.1 = {
 		add_spouse=151004 #Cæcilie Herlufsdatter
@@ -3088,7 +3151,7 @@
 	father=151005 # Erland Galen
 	mother=151004 # Cæcilie Herlufsdatter
 	1212.1.1 = {
-		birth="1212.1.1" 
+		birth="1212.1.1"
 	}
 	1272.12.25 = {
 		death="1272.12.25"
@@ -3134,7 +3197,7 @@
 	father=151005 # Erland Galen
 	mother=151004 # Cæcilie Herlufsdatter
 	1220.1.1 = {
-		birth="1220.1.1" 
+		birth="1220.1.1"
 	}
 	1240.1.1 = {
 		add_spouse=151010 #Elisabeth Pedersdatter
@@ -3169,7 +3232,7 @@
 	father=151009 # Niels Erlandsen
 	mother=151010 # Elisabeth Pedersdatter
 	1260.1.1 = {
-		birth="1260.1.1" 
+		birth="1260.1.1"
 	}
 	1320.1.1 = {
 		death="1320.1.1"
@@ -3182,7 +3245,7 @@
 	culture="danish"
 	trait="misguided_warrior"
 	1153.1.1 = {
-		birth="1153.1.1" 
+		birth="1153.1.1"
 	}
 	1173.1.1 = {
 		add_spouse=201536 #Margarethe - this should be a matrilineal marrige
@@ -3201,7 +3264,7 @@
 	culture="danish"
 	trait="scholarly_theologian"
 	1084.1.1 = {
-		birth="1084.1.1" 
+		birth="1084.1.1"
 	}
 	1134.6.4 = {
 		death="1134.6.4"
@@ -3338,7 +3401,7 @@
 		death="1161.1.1"
 	}
 }
-	
+
 151024 = {
 	name="Skjalm" #Bang
 	dynasty=1025004 #Bang
@@ -3352,7 +3415,7 @@
 	1216.1.1 = {
 		death="1216.1.1"
 	}
-}	
+}
 
 151025 = {
 	name="Peder" #Bang
@@ -3371,7 +3434,7 @@
 }
 
 151026 = {
-	name="Stig" 
+	name="Stig"
 	religion="catholic"
 	culture="danish"
 	trait="detached_priest"
@@ -3384,7 +3447,7 @@
 }
 
 151027 = {
-	name="Ingvar" 
+	name="Ingvar"
 	religion="catholic"
 	culture="danish"
 	trait="detached_priest"
@@ -3412,7 +3475,7 @@
 }
 
 151029 = {
-	name="Oluf" 
+	name="Oluf"
 	religion="catholic"
 	culture="danish"
 	trait="martial_cleric"
@@ -3425,7 +3488,7 @@
 }
 
 151030 = {
-	name="Jens" #Hind	
+	name="Jens" #Hind
 	#AKA Johan Hind
 	religion="catholic"
 	culture="danish"
@@ -3724,7 +3787,7 @@
 }
 
 170022 = {
-	name="Peder" #Peder Strangesen 
+	name="Peder" #Peder Strangesen
 	dynasty=1025003 #Ulfeldt
 	religion="catholic"
 	culture="danish"
@@ -3759,12 +3822,12 @@
 168642 = {
 	name="Harald"
 	dynasty=9552
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=168641
 	1000.1.1 = {
 		birth = yes
-	}	
+	}
 	1042.1.1 = {
 		death = yes
 	}
@@ -3773,12 +3836,15 @@
 168643 = {
 	name="Torgils"
 	dynasty=9552
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=168642
 	1032.1.1 = {
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1069.1.1 = {
 		death = yes
 	}
@@ -3787,11 +3853,14 @@
 168644 = {
 	name="Hemming"
 	dynasty=9552
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=168642
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.1 = {
 		death = yes

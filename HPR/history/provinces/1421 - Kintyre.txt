@@ -18,5 +18,8 @@ terrain = hills
 867.1.1 = {
 	b_kinlochkilkerran = ca_shipyard_1
 }
-1015.1.1 = { religion = catholic } 
-1047.10.25 = { culture = norsegaelic } 
+1015.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = norsegaelic }
+1054.1.1 = {
+	religion = catholic
+}

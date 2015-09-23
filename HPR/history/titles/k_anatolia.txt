@@ -1,5 +1,5 @@
 100.1.1={
-	pentarch = b_hagiasophia
+	pentarch = d_pentarch_constantinople
 }
 1073.1.1=
 {

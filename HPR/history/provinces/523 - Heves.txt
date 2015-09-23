@@ -24,5 +24,8 @@ religion = tengri_pagan
 # History
 895.1.1 = { culture = hungarian }
 1000.1.1 = { b_heves = castle }
-1000.1.1 = { religion = catholic }
+1000.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = catholic
+}
 1239.1.1 = { culture = cuman }

@@ -16,10 +16,12 @@ b_tartas = city
 
 
 #Misc
-religion = catholic
+religion = chalcedonian
 culture = occitan
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1274.1.1 = { trade_post = b_embriaco }
 

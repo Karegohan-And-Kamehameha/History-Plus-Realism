@@ -14,7 +14,7 @@ b_granville = city
 
 # Misc
 culture = frankish
-religion = catholic
+religion = chalcedonian
 
 # History
 911.1.1 = { # Viking takeover
@@ -38,6 +38,8 @@ religion = catholic
 960.1.1 = {
 	culture = norman
 }
-
+1054.1.1 = {
+	religion = catholic
+}
 1100.11.11 = { culture = frankish }
 

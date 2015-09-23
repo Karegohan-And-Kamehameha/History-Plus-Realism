@@ -7,7 +7,7 @@
 ########################################
 #Sarir
 1000233401 = { # keeper of the throne mid 8th century
-	name="Abukhisro" 
+	name="Abukhisro"
         dynasty=1000100602 #Sarir, fictional, might have been an Awar
 	religion="tengri_pagan"
 	culture="caucasian_avar"
@@ -20,9 +20,9 @@
 }
 # Awar
 1000233402 = { # keeper of the throne second half of 9th century
-	name="Avaz" 
+	name="Avaz"
         dynasty=1000100603 # Awar
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="caucasian_avar"
 	840.1.1={
 		birth = yes
@@ -32,9 +32,9 @@
 	}
 }
 1000233403 = { # keeper of the throne 905, Bukht-Yisho(Jesus has saved) I, Shah of Phelan?
-	name="Bukht-Yisho" 
+	name="Bukht-Yisho"
         dynasty=1000100603 # Awar
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="caucasian_avar"
         father= 1000233402 # link fictional
 	870.1.1={
@@ -45,9 +45,9 @@
 	}
 }
 1000233404 = { # fictional
-	name="Avaz" 
+	name="Avaz"
         dynasty=1000100603 # Awar
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="caucasian_avar"
         father= 1000233403
 	920.1.1={
@@ -58,9 +58,9 @@
 	}
 }
 1000233405 = { # keeper of the throne 1025-1026, Bukht-Yisho II, grandfather of Fariburz of Shirvan
-	name="Bukht-Yisho" 
+	name="Bukht-Yisho"
         dynasty=1000100603 # Awar
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="caucasian_avar"
         father= 1000233404 #link fictional
 	965.1.1={
@@ -71,35 +71,41 @@
 	}
 }
 1000233406 = { # keeper of the gthrone ?-?, uncle of Fariburz of Shirvan
-	name="Firudzha" 
+	name="Firudzha"
         dynasty=1000100603 # Awar
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="caucasian_avar"
         father= 1000233405 #link fictional
 	1000.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1064.1.1={
 		death = yes
 	}
 }
 1000233407 = { # keeper of the throne 1065-?
-	name="Takho" 
+	name="Takho"
         dynasty=1000100603 # Awar
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="caucasian_avar"
         father= 1000233406
 	1040.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "orthodox"
+	}
 	1122.1.1={
 		death = yes
 	}
 }
-1000233493 = { # 
+1000233493 = { #
 	name="Sarah" # mother of Faribuz, daughter of Bukht-Yisho II
         dynasty=1000100603 # Awar
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="caucasian_avar"
         father= 1000233405
         female=yes
@@ -116,7 +122,7 @@
 }
 #####
 #Shamkhalate
-1000233444 = { # 
+1000233444 = { #
 	name="Badr" # Badr I 1295-1304
         dynasty=1000100613 # Shamkhal
 	religion="sunni"
@@ -128,7 +134,7 @@
 		death = yes
 	}
 }
-1000233445 = { # 
+1000233445 = { #
 	name="Akhsuvar" # Akhsuvar I 14th century
         dynasty=1000100613 # Shamkhal
 	religion="sunni"
@@ -144,7 +150,7 @@
 #####
 #Elteber's of Varach'an/V'hrarzan-shahs
 1000233408 = { # the Eltber of the caucasus huns late 7th century.
-	name="Alp" 
+	name="Alp"
 	religion="tengri_pagan"
 	culture="caucasian_avar"
 	dynasty=1000100601 #Qahtan
@@ -156,7 +162,7 @@
 	}
 }
 1000233409 = { # daughter of Alp, married the khazar chagan(not the other way around like Alan Brook misqoutes)
-	name="Naça" # name unknown 
+	name="Naça" # name unknown
 	dynasty=1000100601 #Qahtan
 	religion="tengri_pagan"
 	culture="caucasian_avar"
@@ -170,11 +176,11 @@
 	}
 }
 1000233410 = { # the T'arkhan of the caucasus huns early 8th century.
-	name="Awach'i" 
+	name="Awach'i"
 	religion="tengri_pagan"
 	culture="caucasian_avar"
         father=1000233408 # link fictional
-        mother=1000233409 
+        mother=1000233409
         dynasty=1000100601 #Qahtan
 	707.1.1={
 		birth = yes
@@ -183,7 +189,7 @@
 		death = yes
 	}
 }
-1000233464 = {  
+1000233464 = {
         dynasty=1000100601 #Qahtan
 	name="Anbal" # fictional
 	religion="tengri_pagan"
@@ -196,7 +202,7 @@
 		death = yes
 	}
 }
-1000233465 = {  
+1000233465 = {
         dynasty=1000100601 #Qahtan
 	name="Candak" # fictional
 	religion="tengri_pagan"
@@ -209,7 +215,7 @@
 		death = yes
 	}
 }
-1000233466 = {  
+1000233466 = {
         dynasty=1000100601 #Qahtan
 	name="Lashin" # fictional daughter
 	religion="tengri_pagan"
@@ -223,7 +229,7 @@
 		death = yes
 	}
 }
-1000233467 = {  
+1000233467 = {
         dynasty=1000100601 #Qahtan
 	name="Natia" # fictional daughter
 	religion="tengri_pagan"
@@ -238,11 +244,11 @@
 	}
 }
 #Salifan's of Qaytaq
-1000233468 = {  
+1000233468 = {
         dynasty=1000100619 # Khaydaq
 	name="Iveri" # fictional
 	religion="tengri_pagan"
-	culture="caucasian_avar"        
+	culture="caucasian_avar"
 	845.1.1={
 		birth = yes
 	}
@@ -253,10 +259,10 @@
 		death = yes
 	}
 }
-1000233469 = {  
+1000233469 = {
         dynasty=1000100619 # Khaydaq
 	name="Huddan" # fictional
-	religion="tengri_pagan" 
+	religion="tengri_pagan"
 	culture="caucasian_avar"
         father=1000233468
         mother=1000233466
@@ -273,10 +279,10 @@
 		death = yes
 	}
 }
-1000233470 = {  
+1000233470 = {
         dynasty=1000100619 # Khaydaq
 	name="Iveri" # fictional
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233469
 	920.1.1={
@@ -289,10 +295,10 @@
 		death = yes
 	}
 }
-1000233471 = {  
+1000233471 = {
         dynasty=1000100619 # Khaydaq
 	name="Beler" # fictional
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233470
 	955.1.1={
@@ -305,10 +311,10 @@
 		death = yes
 	}
 }
-1000233472 = {  
+1000233472 = {
         dynasty=1000100619 # Khaydaq
 	name="al-Sakban" # father of Piruz
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233471
 	990.1.1={
@@ -324,10 +330,10 @@
 		death = yes
 	}
 }
-1000233473 = {  
+1000233473 = {
         dynasty=1000100619 # Khaydaq
 	name="Piruz" # Piruz ibn al-Sakban, salifan 1068
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233472
 	1020.1.1={
@@ -337,10 +343,10 @@
 		death = yes
 	}
 }
-1000233474 = {  
+1000233474 = {
         dynasty=1000100619 # Khaydaq
 	name="Anbazuk" # fictional
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233473
 	1085.1.1={
@@ -350,10 +356,10 @@
 		death = yes
 	}
 }
-1000233475 = {  
+1000233475 = {
         dynasty=1000100619 # Khaydaq
 	name="Gokhar" # fictional
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233474
 	1100.1.1={
@@ -363,10 +369,10 @@
 		death = yes
 	}
 }
-1000233476 = {  
+1000233476 = {
         dynasty=1000100619 # Khaydaq
 	name="Aravat" # fictional
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233475
 	1130.1.1={
@@ -376,10 +382,10 @@
 		death = yes
 	}
 }
-1000233477 = {  
+1000233477 = {
         dynasty=1000100619 # Khaydaq
 	name="Barlah" # fictional
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233476
 	1160.1.1={
@@ -389,10 +395,10 @@
 		death = yes
 	}
 }
-1000233478 = {  
+1000233478 = {
         dynasty=1000100619 # Khaydaq
 	name="Hasqar" # fictional
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233477
 	1190.1.1={
@@ -402,10 +408,10 @@
 		death = yes
 	}
 }
-1000233479 = {  
+1000233479 = {
         dynasty=1000100619 # Khaydaq
 	name="Tsiala" # granddaughter(made daughter instead) of the Salifan, married al-Mansur
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233472
         female=yes
@@ -416,10 +422,10 @@
 		death = yes
 	}
 }
-1000233480 = {  
+1000233480 = {
         dynasty=1000100619 # Khaydaq
 	name="Kera" # fictional daughter of the Salifan to give Malik the necesarry link to the family.
-	religion="sunni" 
+	religion="sunni"
 	culture="caucasian_avar"
         father=1000233472
         female=yes
@@ -431,10 +437,10 @@
 	}
 }
 # Shands of Shandan, all fictional
-1000233481 = {  
+1000233481 = {
         dynasty=1000100620 # Shand
-	name="Shand" # fictional 
-	religion="tengri_pagan" 
+	name="Shand" # fictional
+	religion="tengri_pagan"
 	culture="caucasian_avar"
 	trait="zealous" # fiercly anti muslim
 	840.1.1={
@@ -447,10 +453,10 @@
 		death = yes
 	}
 }
-1000233482 = {  
+1000233482 = {
         dynasty=1000100620 # Shand
-	name="Gubaz" # fictional 
-	religion="tengri_pagan" 
+	name="Gubaz" # fictional
+	religion="tengri_pagan"
 	culture="caucasian_avar"
         father=1000233481
 	trait="zealous" # fiercly anti muslim
@@ -461,10 +467,10 @@
 		death = yes
 	}
 }
-1000233483 = {  
+1000233483 = {
         dynasty=1000100620 # Shand
-	name="Hasqar" # fictional 
-	religion="tengri_pagan" 
+	name="Hasqar" # fictional
+	religion="tengri_pagan"
 	culture="caucasian_avar"
 	trait="zealous" # fiercly anti muslim
         father=1000233482
@@ -475,10 +481,10 @@
 		death = yes
 	}
 }
-1000233484 = {  
+1000233484 = {
         dynasty=1000100620 # Shand
-	name="Kul" # fictional 
-	religion="tengri_pagan" 
+	name="Kul" # fictional
+	religion="tengri_pagan"
 	culture="caucasian_avar"
 	trait="zealous" # fiercly anti muslim
         father=1000233483
@@ -489,10 +495,10 @@
 		death = yes
 	}
 }
-1000233485 = {  
+1000233485 = {
         dynasty=1000100620 # Shand
-	name="Burikhan" # fictional 
-	religion="tengri_pagan" 
+	name="Burikhan" # fictional
+	religion="tengri_pagan"
 	culture="caucasian_avar"
 	trait="zealous" # fiercly anti muslim
         father=1000233484
@@ -503,10 +509,10 @@
 		death = yes
 	}
 }
-1000233486 = {  
+1000233486 = {
         dynasty=1000100620 # Shand
-	name="Kul" # fictional 
-	religion="tengri_pagan" 
+	name="Kul" # fictional
+	religion="tengri_pagan"
 	culture="caucasian_avar"
 	trait="zealous" # fiercly anti muslim
         father=1000233485
@@ -521,7 +527,7 @@
 #Alans, kings and cheiftans
 1000233411 = { # king of Alania 910
 	name="Æmbalan" #name unknown
-	religion="orthodox" # the king was christian
+	religion="chalcedonian" # the king was christian
 	culture="alan"
         dynasty=1000100604 # fictional
 	885.1.1={
@@ -534,7 +540,7 @@
 }
 1000233412 = { # daughter of the king of Alans in 930, wife of Ioseph(later chagan of Khazaria)
 	name="Tinatini" #name unknown
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="alan"
         dynasty=1000100604 # fictional
         female=yes
@@ -564,7 +570,7 @@
 }
 1000233419 = { # "Qachir-Ukula" Alan king or prince 1239.
 	dynasty=1000100618
-	name="Catchar" 
+	name="Catchar"
 	religion="orthodox"
 	culture="alan"
 	1190.1.1={
@@ -575,9 +581,9 @@
 	}
 }
 # fictional Alan chieftans of yegorlyk and Karatyak(the garnision of the main fort of the area were manned by Alan soldiers when under Khazars)
-1000233420 = { 
+1000233420 = {
         dynasty=1000100606
-	name="Chelakhsartag" 
+	name="Chelakhsartag"
 	religion="zoroastrian"
 	culture="alan"
 	840.1.1={
@@ -587,9 +593,9 @@
 		death = yes
 	}
 }
-1000233421 = { 
+1000233421 = {
         dynasty=1000100606
-	name="Anbal" 
+	name="Anbal"
 	religion="zoroastrian"
 	culture="alan"
         father=1000233420
@@ -600,9 +606,9 @@
 		death = yes
 	}
 }
-1000233422 = { 
+1000233422 = {
         dynasty=1000100606
-	name="Burikhan" 
+	name="Burikhan"
 	religion="zoroastrian"
 	culture="alan"
         father=1000233420
@@ -613,9 +619,9 @@
 		death = yes
 	}
 }
-1000233423 = { 
+1000233423 = {
         dynasty=1000100606
-	name="Chelakhsartag" 
+	name="Chelakhsartag"
 	religion="zoroastrian"
 	culture="alan"
         father=1000233421
@@ -626,9 +632,9 @@
 		death = yes
 	}
 }
-1000233424 = { 
+1000233424 = {
         dynasty=1000100606
-	name="Anbal" 
+	name="Anbal"
 	religion="zoroastrian"
 	culture="alan"
         father=1000233422
@@ -639,9 +645,9 @@
 		death = yes
 	}
 }
-1000233425 = { # 
+1000233425 = { #
         dynasty=1000100606
-	name="Burikhan" 
+	name="Burikhan"
 	religion="zoroastrian"
 	culture="alan"
         father=1000233424
@@ -652,9 +658,9 @@
 		death = yes
 	}
 }
-1000233446 = { # 
+1000233446 = { #
         dynasty=1000100606
-	name="Anbal" 
+	name="Anbal"
 	religion="zoroastrian"
 	culture="alan"
         father=1000233425
@@ -695,7 +701,7 @@
 		birth = yes
 	}
 	1022.1.1={
-		religion=orthodox
+		religion = "chalcedonian"
 	}
 	1022.1.1={
 		employer=618 # Mstislav Vladimirovich
@@ -718,7 +724,7 @@
 		birth = yes
 	}
 	1022.1.1={
-		religion=orthodox
+		religion = "chalcedonian"
 	}
 	1022.1.1={
 		name="Yury"
@@ -741,7 +747,7 @@
 		birth = yes
 	}
 	1022.1.1={
-		religion=orthodox
+		religion = "chalcedonian"
 	}
 	1022.1.1={
 		name="Roman"
@@ -755,14 +761,17 @@
         1036.1.2={
 	employer=20662 #Durgulel the great of Alania
         }
+        1054.1.1 = {
+		religion = "orthodox"
+	}
 	1085.1.1={
 		death = yes
 	}
 }
 1000233418 = { # wife of Roman, daughter of Mstislav Vladimirovich
-	name="Tatyana" 
+	name="Tatyana"
 	dynasty=705
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="russian"
         female=yes
         father=618 # Mstislav Vladimirovich
@@ -770,13 +779,16 @@
 	1018.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "orthodox"
+	}
 	1090.1.1={
 		death = yes
 	}
 }
 # Zygi rulers
 1000233440 = { # fictional
-	name="Kasog" 
+	name="Kasog"
 	religion="tengri_pagan"
 	culture="kasogi"
         dynasty=1000100609 # Zygi
@@ -788,7 +800,7 @@
 	}
 }
 1000233441 = { # fictional
-	name="Candak" 
+	name="Candak"
 	religion="tengri_pagan"
 	culture="kasogi"
         dynasty=1000100609 # Zygi
@@ -801,7 +813,7 @@
 	}
 }
 1000233442 = { # fictional
-	name="Dzæræs" 
+	name="Dzæræs"
 	religion="tengri_pagan"
 	culture="kasogi"
         dynasty=1000100609 # Zygi
@@ -814,7 +826,7 @@
 	}
 }
 1000233443 = { # fictional
-	name="Candak" 
+	name="Candak"
 	religion="tengri_pagan"
 	culture="kasogi"
         dynasty=1000100609 # Zyg
@@ -841,10 +853,10 @@
 }
 1000233427 = { # fictional brother of Rededya
         dynasty=1000100609 # Zygi
-	name="Dzæræs" 
+	name="Dzæræs"
 	religion="tengri_pagan"
 	culture="kasogi"
-        father=1000233426       
+        father=1000233426
 	980.1.1={
 		birth = yes
 	}
@@ -854,7 +866,7 @@
 }
 1000233428 = { # fictional
         dynasty=1000100609 # Zygi
-	name="Candak" 
+	name="Candak"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233427
@@ -867,7 +879,7 @@
 }
 1000233429 = { # fictional
         dynasty=1000100609 # Zygi
-	name="Kuluk" 
+	name="Kuluk"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233428
@@ -880,7 +892,7 @@
 }
 1000233430 = { # fictional
         dynasty=1000100609 # Zygi
-	name="Istor" 
+	name="Istor"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233429
@@ -893,7 +905,7 @@
 }
 1000233431 = { # fictional
         dynasty=1000100609 # Zygi
-	name="Burikhan" 
+	name="Burikhan"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233430
@@ -906,7 +918,7 @@
 }
 1000233432 = { # fictional
         dynasty=1000100609 # Zygi
-	name="Candak" 
+	name="Candak"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233431
@@ -919,7 +931,7 @@
 }
 1000233433 = { # fictional
         dynasty=1000100609 # Zygi
-	name="Kubal" 
+	name="Kubal"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233432
@@ -932,7 +944,7 @@
 }
 1000233434 = { # Tukar, king of circissia(not sure if east or west).
         dynasty=1000100609 # Zygi, fictional
-	name="Tukar" 
+	name="Tukar"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233433
@@ -940,12 +952,12 @@
 		birth = yes
 	}
 	1237.1.1={
-		death=yes # fell in battle against the mongols. 
+		death=yes # fell in battle against the mongols.
 	}
 }
 1000233435 = { # fictional
         dynasty=1000100609 # Zygi, fictional
-	name="Istor" 
+	name="Istor"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233434
@@ -958,7 +970,7 @@
 }
 1000233436 = { # fictional
         dynasty=1000100609 # Zygi, fictional
-	name="Tukar" 
+	name="Tukar"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233435
@@ -971,7 +983,7 @@
 }
 1000233437 = { # fictional
         dynasty=1000100609 # Zygi, fictional
-	name="Aghsartan" 
+	name="Aghsartan"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233436
@@ -984,7 +996,7 @@
 }
 1000233438 = { # Verzacht, king of circissia(west) in 1333.
         dynasty=1000100609 # fictional
-	name="Verzacht" 
+	name="Verzacht"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233437
@@ -999,7 +1011,7 @@
 	}
 }
 1000233439 = { # Petrezok, king of circissia(west) in 1471.
-	name="Petrezok" 
+	name="Petrezok"
 	religion="sunni"
 	culture="kasogi"
 	1440.1.1={
@@ -1010,9 +1022,9 @@
 	}
 }
 #fictional chieftans of the Papagi.
-1000233447 = { # 
+1000233447 = { #
         dynasty=1000100610
-	name="Djadaron" 
+	name="Djadaron"
 	religion="tengri_pagan"
 	culture="kasogi"
 	837.1.1={
@@ -1022,9 +1034,9 @@
 		death = yes
 	}
 }
-1000233448 = { # 
+1000233448 = { #
         dynasty=1000100610
-	name="Athom" 
+	name="Athom"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233447
@@ -1035,9 +1047,9 @@
 		death = yes
 	}
 }
-1000233449 = { # 
+1000233449 = { #
         dynasty=1000100610
-	name="Rosmag" 
+	name="Rosmag"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233448
@@ -1048,9 +1060,9 @@
 		death = yes
 	}
 }
-1000233450 = { # 
+1000233450 = { #
         dynasty=1000100610
-	name="Athom" 
+	name="Athom"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233449
@@ -1061,9 +1073,9 @@
 		death = yes
 	}
 }
-1000233451 = { # 
+1000233451 = { #
         dynasty=1000100610
-	name="Rosmag" 
+	name="Rosmag"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233450
@@ -1074,9 +1086,9 @@
 		death = yes
 	}
 }
-1000233452 = { # 
+1000233452 = { #
         dynasty=1000100610
-	name="Akhsar" 
+	name="Akhsar"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233451
@@ -1087,9 +1099,9 @@
 		death = yes
 	}
 }
-1000233453 = { # 
+1000233453 = { #
         dynasty=1000100610
-	name="Biræg" 
+	name="Biræg"
 	religion="tengri_pagan"
 	culture="kasogi"
         father=1000233452
@@ -1102,7 +1114,7 @@
 }
 ##########
 # Muslim Khasharima govenors of the lakz
-1000233454 = { 
+1000233454 = {
         dynasty=1000100617 # Khasharima
 	name="Sulam" # father of Khashram
 	religion="sunni"
@@ -1114,7 +1126,7 @@
 		death = yes
 	}
 }
-1000233455 = {  
+1000233455 = {
         dynasty=1000100617 #Khasharima
 	name="Khashram" # Khashram al-Sulami, arab govenor 737-?
 	religion="sunni"
@@ -1127,7 +1139,7 @@
 		death = yes
 	}
 }
-1000233456 = {  
+1000233456 = {
         dynasty=1000100617 #Khasharima
 	name="Muzaffaraddin" # fictional
 	religion="sunni"
@@ -1140,7 +1152,7 @@
 		death = yes
 	}
 }
-1000233457 = { # 
+1000233457 = { #
         dynasty=1000100617 #Khasharima
 	name="Fadl" # fictional
 	religion="sunni"
@@ -1153,7 +1165,7 @@
 		death = yes
 	}
 }
-1000233458 = {  
+1000233458 = {
         dynasty=1000100617 #Khasharima
 	name="Murad" # fictional
 	religion="sunni"
@@ -1166,7 +1178,7 @@
 		death = yes
 	}
 }
-1000233459 = {  
+1000233459 = {
         dynasty=1000100617 #Khasharima
 	name="Munab" # father of Ahmad
 	religion="sunni"
@@ -1179,7 +1191,7 @@
 		death = yes
 	}
 }
-1000233460 = {  
+1000233460 = {
         dynasty=1000100617 #Khasharima
 	name="Ahmad" # Ahmad ibn Munabbih, govenor 943
 	religion="sunni"
@@ -1192,7 +1204,7 @@
 		death = yes
 	}
 }
-1000233461 = {  
+1000233461 = {
         dynasty=1000100617 #Khasharima
 	name="Murad" # fictional
 	religion="sunni"
@@ -1205,7 +1217,7 @@
 		death = yes
 	}
 }
-1000233462 = {  
+1000233462 = {
         dynasty=1000100617 #Khasharima
 	name="Ahmad" # fictional
 	religion="sunni"
@@ -1218,7 +1230,7 @@
 		death = yes
 	}
 }
-1000233463 = {  
+1000233463 = {
         dynasty=1000100617 #Khasharima
 	name="Munab" # fictional
 	religion="sunni"
@@ -1233,7 +1245,7 @@
 }
 #####
 #Tabarsaran, heavliy intermarried with Derbent and Shirvan(shows in the names aswell), remeber to finish those links.
-1000233487 = {  
+1000233487 = {
         dynasty=1000100621
 	name="Tabarsar" # fictional
 	religion="sunni"
@@ -1245,7 +1257,7 @@
 		death = yes
 	}
 }
-1000233488 = {  
+1000233488 = {
         dynasty=1000100621
 	name="Yazid" # grandfather of Haytham
 	religion="sunni"
@@ -1258,7 +1270,7 @@
 		death = yes
 	}
 }
-1000233489 = {  
+1000233489 = {
         dynasty=1000100621
 	name="Muhammad" # Father of Haytham
 	religion="sunni"
@@ -1271,7 +1283,7 @@
 		death = yes
 	}
 }
-1000233490 = {  
+1000233490 = {
         dynasty=1000100621
 	name="Haytham" # Haytham ibn Muhammad shah in 939-948, nephew of Abdul Malik of Derbent
 	religion="sunni"
@@ -1285,7 +1297,7 @@
 		death = yes
 	}
 }
-1000233491 = {  
+1000233491 = {
         dynasty=1000100621
 	name="Muhammad" # Muhammad shah in 1025
 	religion="sunni"
@@ -1298,7 +1310,7 @@
 		death = yes
 	}
 }
-1000233492 = {  
+1000233492 = {
         dynasty=1000100621
 	name="Irsi" # Ersi/Irsi shah in 1065
 	religion="sunni"

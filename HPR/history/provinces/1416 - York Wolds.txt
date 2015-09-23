@@ -18,14 +18,17 @@ b_bridlington = city
 # Misc
 
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
 866.1.1 = { culture = norse } # Danes settle down
 866.1.1 = { religion = norse_pagan } # Danes settle down
-931.1.1 = { religion = catholic } # Wulfstan becomes Archbishop of York
-1047.10.25 = { culture = danish } 
+931.1.1 = { religion = chalcedonian } # Wulfstan becomes Archbishop of York
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 1070.1.1 = { culture = saxon } # Harrying of the north
 1070.1.1 = { remove_settlement = b_bridlington } # Harrying of the north
-1100.11.11 = { b_hull = city } 
-1100.11.11 = { culture = english } 
+1100.11.11 = { b_hull = city }
+1100.11.11 = { culture = english }

@@ -19,9 +19,12 @@ religion = norse_pagan
 # History
 1000.1.1 = { b_kalundborg = castle
 b_taarnborg = city
-b_soroe = temple} 
-1005.1.1 = { religion = catholic } 
+b_soroe = temple}
+1005.1.1 = { religion = chalcedonian }
 1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 #1142.1.1 = { b_sorø = temple }
 1170.1.1 = { b_antvorskov = temple }
 1190.1.1 = { b_skarsholm = castle }

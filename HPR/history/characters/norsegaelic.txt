@@ -6,7 +6,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="tough_soldier"
 	father=5790
@@ -26,7 +26,7 @@
 	diplomacy=4
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="tough_soldier"
 	father=131521
@@ -45,7 +45,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="tough_soldier"
 	father=131521
@@ -63,12 +63,15 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="tough_soldier"
 	father=131525
 	1039.1.2={
 		birth="1039.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1098.1.1={
 		death="1098.1.1"
@@ -82,7 +85,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="tough_soldier"
 	add_trait="bastard"
@@ -93,7 +96,10 @@
 	}
 	1040.1.1={
 		add_spouse=159290
-	} 
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1080.1.5={
 		death="1080.1.5"
 	}
@@ -106,7 +112,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="intricate_webweaver"
 	father=5790
@@ -128,7 +134,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="tough_soldier"
 	father=1025
@@ -152,13 +158,16 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="flamboyant_schemer"
 	father=1027
 	mother=1028
 	1018.1.1={
 		birth="1018.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.5={
 		death="1065.1.5"
@@ -172,7 +181,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="patient"
 	add_trait="charitable"
@@ -180,6 +189,9 @@
 	father=131523
 	1004.1.2={
 		birth="1004.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1074.1.1={
 		death="1074.1.1"
@@ -193,13 +205,16 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	add_trait="charitable"
 	add_trait="tough_soldier"
 	father=131524
 	1022.1.2={
 		birth="1022.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1072.1.1={
 		death="1072.1.1"
@@ -212,12 +227,15 @@
 	diplomacy=6
 	intrigue=3
 	stewardship=10
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	1040.1.1={
 		birth="1040.1.1"
 	}
-	1100.1.1={  
+	1054.1.1 = {
+		religion = "catholic"
+	}
+	1100.1.1={
 		death="1100.1.1"
 	}
 }
@@ -228,12 +246,15 @@
 	diplomacy=11
 	intrigue=9
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norsegaelic"
 	1035.1.1={
 		birth="1035.1.1"
 	}
-	1100.1.1={  
+	1054.1.1 = {
+		religion = "catholic"
+	}
+	1100.1.1={
 		death="1100.1.1"
 	}
 }

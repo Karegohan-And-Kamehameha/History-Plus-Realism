@@ -22,8 +22,11 @@ culture = russian
 religion = slavic_pagan
 
 # History
-988.1.1 = {religion = orthodox }
+988.1.1 = {religion = chalcedonian }
 988.1.1 = {b_mazyr = city
 b_petrykaw = temple
 b_rahachow = castle }
+1054.1.1 = {
+	religion = orthodox
+}
 1160.1.1 = { b_hlusk = castle }

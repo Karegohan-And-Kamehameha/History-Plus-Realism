@@ -30,7 +30,7 @@
 
 32227 = {
 	name="Mara Takla Haymanot"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=1000228961
@@ -50,7 +50,7 @@
 
 32228 = {
 	name="Tatadim"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32227
@@ -65,7 +65,7 @@
 
 32229 = {
 	name="Jan Seyum"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32228
@@ -79,7 +79,7 @@
 
 32230 = {
 	name="German Seyum"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32229
@@ -93,7 +93,7 @@
 
 32231 = {
 	name="Yemrehana Krestos"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32230
@@ -108,7 +108,7 @@
 
 32232 = {
 	name="Kedus Harbe"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32231
@@ -122,7 +122,7 @@
 
 32233 = {
 	name="Lalibela"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32232
@@ -135,7 +135,7 @@
 }
 32234 = {
 	name="Na'akuelo La'ab"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32233
@@ -148,7 +148,7 @@
 }
 32235 = {
 	name="Yetbarak"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32234
@@ -161,7 +161,7 @@
 }
 32236 = {
 	name="Mairari"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32235
@@ -174,7 +174,7 @@
 }
 32237 = {
 	name="Harbai"
-	dynasty=101793 
+	dynasty=101793
 	religion="miaphysite"
 	culture="ethiopian"
 	father=32236
@@ -564,7 +564,7 @@
 }
 
 93498 = {
-	name="Dhidhin" 
+	name="Dhidhin"
 	dynasty=7373
 	religion="sunni"
 	culture="ethiopian"
@@ -577,7 +577,7 @@
 }
 
 93499 = {
-	name="Hamar Gale" 
+	name="Hamar Gale"
 	dynasty=7373
 	religion="sunni"
 	culture="ethiopian"
@@ -591,7 +591,7 @@
 }
 
 93500= {
-	name="Ibrahim" 
+	name="Ibrahim"
 	dynasty=7373
 	religion="sunni"
 	culture="ethiopian"
@@ -605,7 +605,7 @@
 }
 
 93501= {
-	name="Omar" 
+	name="Omar"
 	dynasty=7373
 	religion="sunni"
 	culture="ethiopian"
@@ -652,7 +652,7 @@
 
 166186 = {
 	name="Frumentius"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="levantine_arabic" #assyrian
 	trait="scholarly_theologian"
 	305.1.1={
@@ -669,7 +669,7 @@
 
 166187 = {
 	name="Minas"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="ethiopian"
 	trait="scholarly_theologian"
 	311.1.1={
@@ -682,7 +682,7 @@
 
 166188 = {
 	name="Elyas"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="ethiopian"
 	trait="scholarly_theologian"
 	315.1.1={
@@ -695,7 +695,7 @@
 
 166189 = {
 	name="Abreham"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="ethiopian"
 	trait="scholarly_theologian"
 	352.1.1={
@@ -708,7 +708,7 @@
 
 166190 = {
 	name="Petros"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="ethiopian"
 	trait="scholarly_theologian"
 	387.1.1={
@@ -724,7 +724,7 @@
 
 166191 = {
 	name="Petros"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="ethiopian"
 	trait="scholarly_theologian"
 	405.1.1={
@@ -740,7 +740,7 @@
 
 166192 = {
 	name="Abba Afse"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="ethiopian"
 	trait="scholarly_theologian"
 	437.1.1={
@@ -2049,8 +2049,8 @@
 }
 
 # FreCharacters: 1000228998 - 1000228999
-145633 = { 
-	name="Nizam" 
+145633 = {
+	name="Nizam"
 	dynasty=1022240
 	religion="sunni"
 	culture="ethiopian"
@@ -2061,8 +2061,8 @@
 		death="899.1.1"
 	}
 }
-145634 = { 
-	name="Maya'ir" 
+145634 = {
+	name="Maya'ir"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2073,8 +2073,8 @@
 		death="1098.1.1"
 	}
 }
-145635 = { 
-	name="Harba'ir" 
+145635 = {
+	name="Harba'ir"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2086,8 +2086,8 @@
 		death="1121.1.1"
 	}
 }
-145636 = { 
-	name="Hisham" 
+145636 = {
+	name="Hisham"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2099,8 +2099,8 @@
 		death="1157.1.1"
 	}
 }
-145637 = { 
-	name="Malasma'i" 
+145637 = {
+	name="Malasma'i"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2112,8 +2112,8 @@
 		death="1183.8.24"
 	}
 }
-145638 = { 
-	name="Husein" 
+145638 = {
+	name="Husein"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2125,8 +2125,8 @@
 		death="1193.1.1"
 	}
 }
-145639 = { 
-	name="Abdallah" 
+145639 = {
+	name="Abdallah"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2138,8 +2138,8 @@
 		death="1235.1.1"
 	}
 }
-145640 = { 
-	name="Mahamed" 
+145640 = {
+	name="Mahamed"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2151,8 +2151,8 @@
 		death="1239.1.1"
 	}
 }
-145641 = { 
-	name="Malzarrah" 
+145641 = {
+	name="Malzarrah"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2164,8 +2164,8 @@
 		death="1252.1.1"
 	}
 }
-145768 = { 
-	name="Ganah" 
+145768 = {
+	name="Ganah"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2177,8 +2177,8 @@
 		death="1262.1.1"
 	}
 }
-145769 = { 
-	name="Giram-Gazi" 
+145769 = {
+	name="Giram-Gazi"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2190,8 +2190,8 @@
 		death="1269.1.1"
 	}
 }
-145770 = { 
-	name="Dilgamis" 
+145770 = {
+	name="Dilgamis"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2203,8 +2203,8 @@
 		death="1281.1.1"
 	}
 }
-145771 = { 
-	name="Dilmarrah" 
+145771 = {
+	name="Dilmarrah"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2216,8 +2216,8 @@
 		death="1283.1.1"
 	}
 }
-145772 = { 
-	name="Abdallah" 
+145772 = {
+	name="Abdallah"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2229,8 +2229,8 @@
 		death="1285.1.1"
 	}
 }
-145773 = { 
-	name="Mahamed" 
+145773 = {
+	name="Mahamed"
 	dynasty=1022241
 	religion="sunni"
 	culture="ethiopian"
@@ -2242,8 +2242,8 @@
 		death="1285.1.1"
 	}
 }
-145642 = { 
-	name="Phineas" 
+145642 = {
+	name="Phineas"
 	dynasty=1022242
 	religion="jewish"
 	culture="ethiopian"
@@ -2254,7 +2254,7 @@
 		death="774.1.1"
 	}
 }
-145643 = { 
+145643 = {
 	name="Gideon"
 	dynasty=1022242
 	religion="jewish"
@@ -2267,8 +2267,8 @@
 		death="817.1.1"
 	}
 }
-145644 = { 
-	name="Yacob" 
+145644 = {
+	name="Yacob"
 	dynasty=1022242
 	religion="jewish"
 	culture="ethiopian"
@@ -2280,7 +2280,7 @@
 		death="831.1.1"
 	}
 }
-145645 = { 
+145645 = {
 	name="Gideon"
 	dynasty=1022242
 	religion="jewish"
@@ -2293,8 +2293,8 @@
 		death="857.1.1"
 	}
 }
-145646 = { 
-	name="Dawit" 
+145646 = {
+	name="Dawit"
 	dynasty=1022242
 	religion="jewish"
 	culture="ethiopian"
@@ -2306,7 +2306,7 @@
 		death="889.1.1"
 	}
 }
-145647 = { 
+145647 = {
 	name="Gideon"
 	dynasty=1022242
 	religion="jewish"
@@ -2319,7 +2319,7 @@
 		death="918.1.1"
 	}
 }
-145648 = { 
+145648 = {
 	name="Kaleb"
 	dynasty=1022242
 	religion="jewish"
@@ -2332,7 +2332,7 @@
 		death="949.1.1"
 	}
 }
-145649 = { 
+145649 = {
 	name="Gideon"
 	dynasty=1022242
 	religion="jewish"
@@ -2345,7 +2345,7 @@
 		death="960.1.1"
 	}
 }
-145650 = { 
+145650 = {
 	name="Gudit"
 	female=yes
 	dynasty=1022242
@@ -2359,7 +2359,7 @@
 		death="1001.1.1"
 	}
 }
-145651 = { 
+145651 = {
 	name="Goshen"
 	dynasty=1022242
 	religion="jewish"
@@ -2372,7 +2372,7 @@
 		death="1008.1.1"
 	}
 }
-145652 = { 
+145652 = {
 	name="Joram"
 	dynasty=1022242
 	religion="jewish"
@@ -2385,7 +2385,7 @@
 		death="1119.1.1"
 	}
 }
-145653 = { 
+145653 = {
 	name="Eremias"
 	dynasty=1022242
 	religion="jewish"
@@ -2398,7 +2398,7 @@
 		death="1146.1.1"
 	}
 }
-145654 = { 
+145654 = {
 	name="Dawit"
 	dynasty=1022242
 	religion="jewish"
@@ -2411,7 +2411,7 @@
 		death="1053.1.1"
 	}
 }
-145655 = { 
+145655 = {
 	name="Dawit"
 	dynasty=1022242
 	religion="jewish"
@@ -2424,7 +2424,7 @@
 		death="1102.1.1"
 	}
 }
-145656 = { 
+145656 = {
 	name="Radi"
 	dynasty=1022242
 	religion="jewish"
@@ -2437,7 +2437,7 @@
 		death="1125.1.1"
 	}
 }
-145657 = { 
+145657 = {
 	name="Zadok"
 	dynasty=1022242
 	religion="jewish"
@@ -2450,7 +2450,7 @@
 		death="1166.1.1"
 	}
 }
-145658 = { 
+145658 = {
 	name="Azariah"
 	dynasty=1022242
 	religion="jewish"
@@ -2463,7 +2463,7 @@
 		death="1201.1.1"
 	}
 }
-145659 = { 
+145659 = {
 	name="Solomon"
 	dynasty=1022242
 	religion="jewish"
@@ -2476,7 +2476,7 @@
 		death="1237.1.1"
 	}
 }
-145660 = { 
+145660 = {
 	name="Ezana"
 	dynasty=1022242
 	religion="jewish"
@@ -2489,7 +2489,7 @@
 		death="1268.1.1"
 	}
 }
-145661 = { 
+145661 = {
 	name="Loua"
 	dynasty=1022242
 	religion="jewish"
@@ -2502,7 +2502,7 @@
 		death="1299.1.1"
 	}
 }
-145662 = { 
+145662 = {
 	name="Eliya"
 	dynasty=1022242
 	religion="jewish"
@@ -2515,7 +2515,7 @@
 		death="1321.1.1"
 	}
 }
-145663 = { 
+145663 = {
 	name="Dawit"
 	dynasty=1022242
 	religion="jewish"
@@ -2528,7 +2528,7 @@
 		death="1354.1.1"
 	}
 }
-145664 = { 
+145664 = {
 	name="Yacob"
 	dynasty=1022242
 	religion="jewish"
@@ -2541,7 +2541,7 @@
 		death="1378.1.1"
 	}
 }
-145665 = { 
+145665 = {
 	name="Rahad"
 	dynasty=1022243
 	religion="sunni"
@@ -2553,7 +2553,7 @@
 		death="909.1.1"
 	}
 }
-145666 = { 
+145666 = {
 	name="Zeyd"
 	dynasty=1022244
 	religion="sunni"
@@ -2565,7 +2565,7 @@
 		death="1085.1.1"
 	}
 }
-145667 = { 
+145667 = {
 	name="Talib"
 	dynasty=1022244
 	religion="sunni"
@@ -2578,7 +2578,7 @@
 		death="1101.1.1"
 	}
 }
-145668 = { 
+145668 = {
 	name="Hussayn"
 	dynasty=1022244
 	religion="sunni"
@@ -2591,7 +2591,7 @@
 		death="1153.1.1"
 	}
 }
-145669 = { 
+145669 = {
 	name="Alladin"
 	dynasty=1022244
 	religion="sunni"
@@ -2604,7 +2604,7 @@
 		death="1177.1.1"
 	}
 }
-145670 = { 
+145670 = {
 	name="Alim"
 	dynasty=1022244
 	religion="sunni"
@@ -2617,7 +2617,7 @@
 		death="1212.1.1"
 	}
 }
-145671 = { 
+145671 = {
 	name="Fadil"
 	dynasty=1022244
 	religion="sunni"
@@ -2630,7 +2630,7 @@
 		death="1247.1.1"
 	}
 }
-145672 = { 
+145672 = {
 	name="Muazir"
 	dynasty=1022244
 	religion="sunni"
@@ -2643,7 +2643,7 @@
 		death="1254.1.1"
 	}
 }
-145673 = { 
+145673 = {
 	name="Muzaffar"
 	dynasty=1022244
 	religion="sunni"
@@ -2656,7 +2656,7 @@
 		death="1276.1.1"
 	}
 }
-145674 = { 
+145674 = {
 	name="Muzaffaraddin"
 	dynasty=1022244
 	religion="sunni"
@@ -2669,7 +2669,7 @@
 		death="1287.1.1"
 	}
 }
-145675 = { 
+145675 = {
 	name="Muslihiddin"
 	dynasty=1022244
 	religion="sunni"
@@ -2682,7 +2682,7 @@
 		death="1298.1.1"
 	}
 }
-145676 = { 
+145676 = {
 	name="Mukhtar"
 	dynasty=1022244
 	religion="sunni"
@@ -2695,7 +2695,7 @@
 		death="1340.1.1"
 	}
 }
-145736 = { 
+145736 = {
 	name="Bekele"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2707,7 +2707,7 @@
 		death="1097.1.1"
 	}
 }
-145737 = { 
+145737 = {
 	name="Eremias"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2720,7 +2720,7 @@
 		death="1125.1.1"
 	}
 }
-145738 = { 
+145738 = {
 	name="Gabra"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2733,7 +2733,7 @@
 		death="1147.1.1"
 	}
 }
-145739 = { 
+145739 = {
 	name="Iskander"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2746,7 +2746,7 @@
 		death="1200.1.1"
 	}
 }
-145740 = { 
+145740 = {
 	name="Kafa"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2759,7 +2759,7 @@
 		death="1221.1.1"
 	}
 }
-145741 = { 
+145741 = {
 	name="Zula"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2772,7 +2772,7 @@
 		death="1258.1.1"
 	}
 }
-145742 = { 
+145742 = {
 	name="Teruworq"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2785,7 +2785,7 @@
 		death="1282.1.1"
 	}
 }
-145743 = { 
+145743 = {
 	name="Miruts"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2798,7 +2798,7 @@
 		death="1320.1.1"
 	}
 }
-145744 = { 
+145744 = {
 	name="Negash"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2811,7 +2811,7 @@
 		death="1333.1.1"
 	}
 }
-145745 = { 
+145745 = {
 	name="Mamo"
 	dynasty=1022257
 	religion="miaphysite"
@@ -2824,7 +2824,7 @@
 		death="1350.1.1"
 	}
 }
-145746 = { 
+145746 = {
 	name="Yohannas"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2836,7 +2836,7 @@
 		death="1074.1.1"
 	}
 }
-145747 = { 
+145747 = {
 	name="Tewodros"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2849,7 +2849,7 @@
 		death="1096.1.1"
 	}
 }
-145748 = { 
+145748 = {
 	name="Abai"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2862,7 +2862,7 @@
 		death="1116.1.1"
 	}
 }
-145749 = { 
+145749 = {
 	name="Gondar"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2875,7 +2875,7 @@
 		death="1159.1.1"
 	}
 }
-145750 = { 
+145750 = {
 	name="Ogbai"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2888,7 +2888,7 @@
 		death="1177.1.1"
 	}
 }
-145751 = { 
+145751 = {
 	name="Negus"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2901,7 +2901,7 @@
 		death="1223.1.1"
 	}
 }
-145752 = { 
+145752 = {
 	name="Loua"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2914,7 +2914,7 @@
 		death="1244.1.1"
 	}
 }
-145753 = { 
+145753 = {
 	name="Jima"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2927,7 +2927,7 @@
 		death="1276.1.1"
 	}
 }
-145754 = { 
+145754 = {
 	name="Ezana"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2940,7 +2940,7 @@
 		death="1335.1.1"
 	}
 }
-145755 = { 
+145755 = {
 	name="Yonas"
 	dynasty=1022258
 	religion="miaphysite"
@@ -2953,7 +2953,7 @@
 		death="1361.1.1"
 	}
 }
-145756 = { 
+145756 = {
 	name="Tariku"
 	dynasty=1022259
 	religion="miaphysite"
@@ -2965,7 +2965,7 @@
 		death="1116.1.1"
 	}
 }
-145757 = { 
+145757 = {
 	name="Iskinder"
 	dynasty=1022259
 	religion="miaphysite"
@@ -2978,7 +2978,7 @@
 		death="1049.1.1"
 	}
 }
-145758 = { 
+145758 = {
 	name="Gebre"
 	dynasty=1022259
 	religion="miaphysite"
@@ -2991,7 +2991,7 @@
 		death="1201.1.1"
 	}
 }
-145759 = { 
+145759 = {
 	name="Dawit"
 	dynasty=1022259
 	religion="miaphysite"
@@ -3004,7 +3004,7 @@
 		death="1212.1.1"
 	}
 }
-145760 = { 
+145760 = {
 	name="Oromo"
 	dynasty=1022259
 	religion="miaphysite"
@@ -3017,7 +3017,7 @@
 		death="1224.1.1"
 	}
 }
-145761 = { 
+145761 = {
 	name="Fethee"
 	dynasty=1022259
 	religion="miaphysite"
@@ -3030,7 +3030,7 @@
 		death="1229.1.1"
 	}
 }
-145762 = { 
+145762 = {
 	name="Demissie"
 	dynasty=1022259
 	religion="miaphysite"
@@ -3043,7 +3043,7 @@
 		death="1245.1.1"
 	}
 }
-145763 = { 
+145763 = {
 	name="Abebe"
 	dynasty=1022259
 	religion="miaphysite"
@@ -3056,7 +3056,7 @@
 		death="1289.1.1"
 	}
 }
-145764 = { 
+145764 = {
 	name="Benaim"
 	dynasty=101793
 	religion="miaphysite"
@@ -3069,7 +3069,7 @@
 		death="1308.1.1"
 	}
 }
-145765 = { 
+145765 = {
 	name="Tesfaye"
 	dynasty=101793
 	religion="miaphysite"
@@ -3082,7 +3082,7 @@
 		death="1344.1.1"
 	}
 }
-145766 = { 
+145766 = {
 	name="Merille"
 	dynasty=101793
 	religion="miaphysite"
@@ -3095,7 +3095,7 @@
 		death="1365.1.1"
 	}
 }
-145774 = { 
+145774 = {
 	name="Azmera"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3107,7 +3107,7 @@
 		death="1074.1.1"
 	}
 }
-145775 = { 
+145775 = {
 	name="Hagos"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3120,7 +3120,7 @@
 		death="1101.1.1"
 	}
 }
-145776 = { 
+145776 = {
 	name="Selassie"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3133,7 +3133,7 @@
 		death="1141.1.1"
 	}
 }
-145777 = { 
+145777 = {
 	name="Yacob"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3146,7 +3146,7 @@
 		death="1175.1.1"
 	}
 }
-145778 = { 
+145778 = {
 	name="Iyasu"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3159,7 +3159,7 @@
 		death="1198.1.1"
 	}
 }
-145779 = { 
+145779 = {
 	name="Negasi"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3172,7 +3172,7 @@
 		death="1239.1.1"
 	}
 }
-145780 = { 
+145780 = {
 	name="Fasilidas"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3185,7 +3185,7 @@
 		death="1256.1.1"
 	}
 }
-145781 = { 
+145781 = {
 	name="Tekle"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3198,7 +3198,7 @@
 		death="1287.1.1"
 	}
 }
-145782 = { 
+145782 = {
 	name="Kaleb"
 	dynasty=1022260
 	religion="miaphysite"
@@ -3211,7 +3211,7 @@
 		death="1331.1.1"
 	}
 }
-145783 = { 
+145783 = {
 	name="Berhanua"
 	dynasty=1022260
 	religion="miaphysite"

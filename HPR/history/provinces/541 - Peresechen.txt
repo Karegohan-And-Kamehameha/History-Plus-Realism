@@ -17,7 +17,10 @@ culture = russian
 religion = slavic_pagan
 
 # History
-988.1.1 = {religion = orthodox}
+988.1.1 = {religion = chalcedonian}
+1054.1.1 = {
+	religion = orthodox
+}
 1060.1.1 = { religion = tengri_pagan }
 1060.1.1 = { culture = oghuz }
 

@@ -1,6 +1,6 @@
 100.1.1=
 {
-	pentarch = b_roma
+	pentarch = d_pentarch_rome
 }
 565.1.1={
 	holder = 190124 #Alboin
@@ -171,7 +171,7 @@
 	holder=71902 #Arduino of Ivrea
 }
 1014.1.1={
-	holder = 1296 #Heinrich II 
+	holder = 1296 #Heinrich II
 }
 1024.7.13={
 	holder = 0 #Subsumed into HRE
@@ -184,16 +184,16 @@
 #	law = investiture_law_1
 #}
 #1039.6.4={
-#	holder = 1314 #Heinrich III 
+#	holder = 1314 #Heinrich III
 #}
-#1056.5.10 = {	
-#	holder = 1316 #Heinrich IV 
+#1056.5.10 = {
+#	holder = 1316 #Heinrich IV
 #}
-#1106.7.8 = { 
-#	holder = 7901 #Heinrich V 
+#1106.7.8 = {
+#	holder = 7901 #Heinrich V
 #}
 #
-#1125.8.24 = { 
+#1125.8.24 = {
 #	holder = 30219 #Lothar III von Supplingburg
 #}
 #1152.2.15 = {

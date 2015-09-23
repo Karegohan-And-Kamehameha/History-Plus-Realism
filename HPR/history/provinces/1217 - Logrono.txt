@@ -12,11 +12,13 @@ b_calahorra = temple
 
 # Misc
 culture = castillan
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_logronyo = ca_keep_1
 	b_logronyo = ca_wall_1
 }

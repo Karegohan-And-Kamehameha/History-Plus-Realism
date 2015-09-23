@@ -22,14 +22,17 @@ culture = norse
 religion = norse_pagan
 
 # History
-1008.1.1 = {religion = catholic}
+1008.1.1 = {religion = chalcedonian}
 1008.1.1 = {b_lacko = castle
-b_arneasborg = castle	
+b_arneasborg = castle
 b_skara = temple} # Skötkonung
-1047.10.25 = { culture = gothic } 
+1047.10.25 = { culture = gothic }
+1054.1.1 = {
+	religion = catholic
+}
 1060.8.2 = {religion = catholic}
 
-1066.1.1 = { 
+1066.1.1 = {
 	b_lacko = ca_keep_1
 	b_lacko = ca_stable_1
 	b_lacko = ca_militia_barracks_1

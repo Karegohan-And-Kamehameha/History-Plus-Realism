@@ -6,12 +6,15 @@ title = c_sangermano
 # Settlements
 max_settlements = 3
 
-b_aquino = castle 
+b_aquino = castle
 b_montecassino = temple
 b_pontecorvo = castle
 
 # Misc
 culture = central_italian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}

@@ -609,7 +609,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="fair"
 	trait="skilled_tactician"
@@ -618,6 +618,9 @@
 	mother=1437
 	1045.1.1={
 		birth="1045.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1={
 		add_spouse = 473
@@ -698,7 +701,7 @@
 	martial=8
 	diplomacy=7
 	intrigue=4
-	stewardship=6	
+	stewardship=6
 	religion="catholic"
 	culture="bohemian"
 	trait="lustful"
@@ -834,7 +837,7 @@
 		add_spouse = 501
 	}
 	883.1.1={
-		religion="catholic"
+		religion = "chalcedonian"
 
 	}
 	890.1.1={
@@ -861,7 +864,7 @@
 		birth="858.1.1"
 	}
 	883.1.1={
-		religion="catholic"
+		religion = "chalcedonian"
 
 	}
 	921.9.15={
@@ -877,7 +880,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="patient"
 	trait="deceitful"
@@ -886,10 +889,6 @@
 	mother=501
 	875.1.1={
 		birth="875.1.1"
-	}
-	883.1.1={
-		religion="catholic"
-
 	}
 	915.1.1={
 		death="915.1.1"
@@ -903,7 +902,7 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="humble"
 	trait="martial_cleric"
@@ -928,7 +927,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="temperate"
 	trait="skilled_tactician"
@@ -949,7 +948,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="diligent"
 	trait="cynical"
@@ -969,7 +968,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="lisp"
 	trait="kinslayer"
@@ -998,7 +997,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="proud"
 	trait="cynical"
@@ -1020,7 +1019,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="kind"
 	trait="just"
@@ -1050,7 +1049,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="patient"
 	trait="tough_soldier"
@@ -1075,7 +1074,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="honest"
 	trait="maimed"
@@ -1097,7 +1096,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="lustful"
 	trait="tough_soldier"
@@ -1139,7 +1138,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="deceitful"
 	trait="tough_soldier"
@@ -1150,6 +1149,9 @@
 	}
 	1030.1.10={
 		add_spouse = 1437
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.10={
 		death="1055.1.10"
@@ -1163,7 +1165,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="tough_soldier"
 	father=518
@@ -1173,6 +1175,9 @@
 	}
 	1050.1.1={
 		add_spouse = 532
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1061.1.1={
 		death="1061.1.1"
@@ -1186,7 +1191,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="just"
 	trait="diligent"
@@ -1196,6 +1201,9 @@
 	mother=1437
 	1032.1.1={
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1056.1.1={
 		add_spouse = 477
@@ -1216,7 +1224,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="charitable"
 	trait="proud"
@@ -1226,6 +1234,9 @@
 	mother=1437
 	1035.1.1={
 		birth="1035.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1={
 		add_spouse = 531
@@ -1243,7 +1254,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="arbitrary"
 	trait="slothful"
@@ -1253,6 +1264,9 @@
 	mother=1437
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.6.26={
 		death="1090.6.26"
@@ -2599,9 +2613,9 @@
 }
 
 96070 = {
-	name="Radim-Gaudentius" 
+	name="Radim-Gaudentius"
 	dynasty=9588
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="bastard"
 	trait="scholarly_theologian"
@@ -2612,7 +2626,7 @@
 	970.1.1={
 		birth="970.1.1"
 	}
-	
+
 	1020.1.1={
 		death="1020.1.1"
 	}
@@ -2652,7 +2666,7 @@
 	827.1.1={
 		birth="827.1.1"
 	}
-	
+
 	877.1.1={
 		death="877.1.1"
 	}
@@ -2669,7 +2683,7 @@
 	694.1.1={
 		birth="694.1.1"
 	}
-	
+
 	745.1.1={
 		death="745.1.1"
 	}
@@ -2684,7 +2698,7 @@
 	715.1.1={
 		birth="715.1.1"
 	}
-	
+
 	783.1.1={
 		death="783.1.1"
 	}
@@ -2699,7 +2713,7 @@
 	732.1.1={
 		birth="732.1.1"
 	}
-	
+
 	804.1.1={
 		death="804.1.1"
 	}
@@ -2714,7 +2728,7 @@
 	748.1.1={
 		birth="748.1.1"
 	}
-	
+
 	820.1.1={
 		death="820.1.1"
 	}
@@ -2729,7 +2743,7 @@
 	764.1.1={
 		birth="764.1.1"
 	}
-	
+
 	833.1.1={
 		death="833.1.1"
 	}
@@ -2744,7 +2758,7 @@
 	782.1.1={
 		birth="782.1.1"
 	}
-	
+
 	851.1.1={
 		death="851.1.1"
 	}
@@ -2796,7 +2810,7 @@
 	845.1.1={
 		birth="845.1.1"
 	}
-	
+
 	885.1.1={
 		death="885.1.1"
 	}
@@ -2811,7 +2825,7 @@
 	847.1.1={
 		birth="847.1.1"
 	}
-	
+
 	885.1.1={
 		death="885.1.1"
 	}
@@ -2827,7 +2841,7 @@
 	802.1.1={
 		birth="802.1.1"
 	}
-	
+
 	870.1.1={
 		death="870.1.1"
 	}
@@ -2843,7 +2857,7 @@
 	835.1.1={
 		birth="835.1.1"
 	}
-	
+
 	885.1.1={
 		death="885.1.1"
 	}
@@ -2858,7 +2872,7 @@
 		birth="850.1.1"
 	}
 	883.1.1={
-		religion="catholic"
+		religion = "chalcedonian"
 	}
 	910.1.1={
 		death="910.1.1"
@@ -2868,13 +2882,13 @@
 168358 = {
 	name="Vok"
 	dynasty=9588
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	father=168357
 	890.1.1={
 		birth="890.1.1"
 	}
-	
+
 	968.1.1={
 		death="968.1.1"
 	}
@@ -2883,7 +2897,7 @@
 168360 = {
 	name="Slavnik"
 	dynasty=9588
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	father=168358
 	920.1.1={
@@ -2903,14 +2917,14 @@
 	name="Strezislava"
 	female=yes
 	dynasty=506
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	father=504
 	mother=505
 	920.1.1={
 		birth="920.1.1"
 	}
-	
+
 	987.1.1={
 		death="987.1.1"
 	}
@@ -2920,7 +2934,7 @@
 168362 = {
 	name="Vojtech" #Saint Adalbert of Prague
 	dynasty=9588
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	trait="mastermind_theologian"
 	trait="celibate"
@@ -2934,7 +2948,7 @@
 	956.1.1={
 		birth="956.1.1"
 	}
-	
+
 	997.4.23={
 		death="997.4.23"
 	}
@@ -2943,16 +2957,16 @@
 
 
 168363 = {
-	name="Sobeslav" 
+	name="Sobeslav"
 	dynasty=9588
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	father=168360
 	mother=168361
 	952.1.1={
 		birth="952.1.1"
 	}
-	
+
 	1004.1.1={
 		death="1004.1.1"
 	}
@@ -2960,14 +2974,14 @@
 
 168580 = {
 	name="Slavomir"
-	#placeholder 
+	#placeholder
 	dynasty=9603
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	845.1.1 = {
 		birth = yes
 	}
-	
+
 	895.1.1 = {
 		death = yes
 	}
@@ -2977,21 +2991,21 @@
 
 168581 = {
 	name="Draslav"
-	#placeholder 
+	#placeholder
 	dynasty=9604
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="bohemian"
 	845.1.1 = {
 		birth = yes
 	}
-	
+
 	899.1.1 = {
 		death = yes
 	}
 }
 
 168617 = {
-	name="Diepold" 
+	name="Diepold"
 	dynasty=506
 	religion="slavic_pagan"
 	culture="bohemian"
@@ -3000,7 +3014,7 @@
 	825.1.1={
 		birth = yes
 	}
-	
+
 	865.1.1={
 		death = yes
 	}

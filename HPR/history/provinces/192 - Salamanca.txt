@@ -14,11 +14,13 @@ b_salamanca = castle
 
 # Misc
 culture = leonese
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_salamanca = ca_town_1
 	b_salamanca = ca_keep_1
 	b_salamanca = ca_stable_1

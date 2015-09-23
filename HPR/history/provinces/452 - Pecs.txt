@@ -32,8 +32,11 @@ religion = tengri_pagan
 # History
 895.1.1 = { culture = khazar }
 1000.1.1 = { b_tolna = castle }
-1000.1.1 = { religion = catholic }
+1000.1.1 = { religion = chalcedonian }
 1041.1.1 = { culture = szekely }
-1187.1.1 = { b_pecsvarad = castle } 
+1054.1.1 = {
+	religion = catholic
+}
+1187.1.1 = { b_pecsvarad = castle }
 1250.1.1 = { culture = hungarian }
 

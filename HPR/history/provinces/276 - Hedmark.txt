@@ -19,10 +19,12 @@ religion = norse_pagan
 
 # History
 1015.1.1 = { b_ringsaker = castle
-b_ringnes = castle} # Fat Olav 
-1025.1.1 = { religion = catholic } 
+b_ringnes = castle} # Fat Olav
+1025.1.1 = { religion = chalcedonian }
 1025.1.1 = { remove_settlement = b_flikkeshaug }
-1025.1.1 = { b_hamarhus = temple } 
+1025.1.1 = { b_hamarhus = temple }
 1047.10.25 = { culture = norwegian }
 
-
+1054.1.1 = {
+	religion = catholic
+}

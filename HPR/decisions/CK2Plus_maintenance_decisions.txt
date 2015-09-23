@@ -278,7 +278,7 @@ decisions = {
 
 	ai_maintenance = {
 		potential = {
-			has_landed_title = k_papal_state
+			has_landed_title = d_miaphysite
 			OR = {
 				NOT = { has_global_flag = maintenance_pulse }
 				had_global_flag = { flag = maintenance_pulse days = 365 }
@@ -347,7 +347,6 @@ decisions = {
 					is_titular = no
 					NOT = { empire = { always = yes } }
 				}
-				de_jure_liege = e_placeholder
 			}
 		}
 		ai_will_do = {
@@ -357,7 +356,7 @@ decisions = {
 
 	ai_faction_maintenance = {
 		potential = {
-			has_landed_title = k_papal_state
+			has_landed_title = d_miaphysite
 			OR = {
 				NOT = { has_global_flag = faction_maintenance_pulse }
 				had_global_flag = { flag = faction_maintenance_pulse days = 365 }

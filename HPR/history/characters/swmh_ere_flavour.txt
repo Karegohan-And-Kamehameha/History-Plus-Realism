@@ -77,7 +77,7 @@
 1000232904 = {
 	name="Konstantin"
 	dynasty=1000103002
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="serbian"
 	832.1.1 = {
 		birth="832.1.1"
@@ -105,7 +105,7 @@
 1000232906 = {
 	name="Mihai"
 	dynasty=1000103004
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="romanian"
 	834.1.1 = {
 		birth="834.1.1"
@@ -119,10 +119,13 @@
 1000232907 = {
 	name="Gheorghe"
 	dynasty=1000103004
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="romanian"
 	1038.1.1 = {
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -147,10 +150,13 @@
 1000232909 = {
 	name="Besnik"
 	dynasty=20071
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="arberian"
 	1038.1.1 = {
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -191,10 +197,13 @@
 1000232912 = {
 	name="Vasile"
 	dynasty=1000100532
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="romanian"
 	1044.1.1 = {
 		birth="1044.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1099.1.1 = {
 		death="1099.1.1"

@@ -19,7 +19,7 @@ narrative_event = {
 	border = GFX_event_narrative_frame_war
 
 	only_playable = yes
-	religion = catholic
+	religion = miaphysite
 
 	trigger = {
 		always = no
@@ -8968,11 +8968,11 @@ narrative_event = {
 	border = "GFX_event_narrative_frame_war"
 
 	only_playable = yes
+	religion = miaphysite
 
 	trigger = {
 		year = 1210
 		NOT = { year = 1218 }
-		religion = catholic
 		controls_religion = yes # Let it happen for the Pope. He's always around.
 		NOR = {
 			has_global_flag = il_khanate_arrival # Backwards compatibility

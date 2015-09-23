@@ -13,10 +13,12 @@ b_amarante = temple
 
 # Misc
 culture = portuguese
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = {
 	b_porto = ca_town_1
 	b_porto = ca_keep_1

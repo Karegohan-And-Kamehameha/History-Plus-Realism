@@ -19,8 +19,11 @@ religion = slavic_pagan
 
 # History
 989.1.1 = {culture = russian}
-989.1.1 = {religion = orthodox}
+989.1.1 = {religion = chalcedonian}
 1001.1.1 = {b_belz = castle
 b_lubaczow = temple}
+1054.1.1 = {
+	religion = orthodox
+}
 1170.1.1 = {b_szcerbrzeszyn = castle}
 1289.1.1 = { remove_settlement = b_cherven }

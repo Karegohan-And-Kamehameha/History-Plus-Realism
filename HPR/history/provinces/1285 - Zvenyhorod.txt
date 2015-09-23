@@ -19,10 +19,13 @@ culture = russian
 religion = slavic_pagan
 
 # History
-1000.1.1 = {religion = orthodox }
+1000.1.1 = {religion = chalcedonian }
 1000.1.1 = { b_zvenyhorod = castle
 b_pidhirtsi = temple
 b_peremyl = castle
 b_kremenets = castle }
+1054.1.1 = {
+	religion = orthodox
+}
 1240.1.1 = { b_lvov = city }
 #1240.1.1 = { name = "Lviv" }

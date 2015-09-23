@@ -1,5 +1,5 @@
 100.1.1={
-	pentarch = b_hagiasophia
+	pentarch = d_pentarch_constantinople
 }
 1205.3.1={
 	liege="e_latin_empire"
@@ -8,7 +8,7 @@
 	holder=31334 #Guillaume I
 }
 1210.1.1={
-	holder=31336 #Geoffory I 
+	holder=31336 #Geoffory I
 }
 1218.9.1={
 	holder=31337 #Geoffory II

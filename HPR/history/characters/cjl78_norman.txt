@@ -1,4 +1,4 @@
-#CJL78 Normans 
+#CJL78 Normans
 #In Capua: 1.000.167.000-1.000.167.009
 #In Apulia: 1.000.167.090-1.000.167.099
 
@@ -8,10 +8,13 @@
 1000167000 = {
 	name="Geoffrey"
 	dynasty=7182 #Ridel (aka Ridell or Ridello)
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1020.1.1 = {
 		birth="1020.1.1" #unknown
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.1.1 = {
 		death="1086.1.1"
@@ -21,11 +24,14 @@
 1000167001 = {
 	name="Reginald"
 	dynasty=7182 #Ridel (aka Ridell or Ridello)
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	father=1000167000
 	1040.1.1 = {
 		birth="1040.1.1" #unknown
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -48,10 +54,13 @@
 
 1000167003 = {
 	name="Lando"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1050.1.1 = {
 		birth="1050.1.1" #unknown
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1103.1.1 = {
 		death="1103.1.1" #unknown; overthrown in 1103
@@ -110,10 +119,13 @@
 1000167090 = {
 	name="Guimond"
 	dynasty=101705 #de Moulin/de Moulins
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1030.1.1 = {
 		birth="1030.1.1" #unknown
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1082.1.1 = {
 		death="1082.1.1"
@@ -123,11 +135,14 @@
 1000167091 = {
 	name="Rodulf"
 	dynasty=101705 #de Moulin/de Moulins
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	father=1000167090
 	1048.1.1 = {
 		birth="1048.1.1" #unknown
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1092.1.1 = {
 		death="1092.1.1"
@@ -137,11 +152,14 @@
 1000167092 = {
 	name="Robert"
 	dynasty=101705 #de Moulin/de Moulins
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	father=1000167090
 	1050.1.1 = {
 		birth="1050.1.1" #unknown
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1 = {
 		death="1100.1.1"

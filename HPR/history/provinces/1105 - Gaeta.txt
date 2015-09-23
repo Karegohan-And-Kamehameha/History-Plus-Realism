@@ -20,8 +20,11 @@ b_gaeta = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = orthodox
+}
 1060.1.1={ culture = langobardisch religion = catholic }
 1118.1.1={ culture = southern_italian }

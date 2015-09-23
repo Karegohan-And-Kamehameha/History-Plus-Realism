@@ -21,12 +21,15 @@ b_melton_mowbray = city
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
 880.1.1 = { culture = norse } # Danes settle down
 880.1.1 = { religion = norse_pagan } # Danes settle down
-918.1.1 = { religion = catholic } # Submitted to Wessex
+918.1.1 = { religion = chalcedonian } # Submitted to Wessex
 1002.11.13 = { culture = saxon } # St. Brice's Day
+1054.1.1 = {
+	religion = catholic
+}
 1100.11.11 = { culture = english }
 1258.1.1 = { b_belvoir_leicester = castle }

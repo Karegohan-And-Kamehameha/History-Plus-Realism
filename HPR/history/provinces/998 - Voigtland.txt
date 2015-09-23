@@ -19,10 +19,13 @@ culture = pommeranian
 religion = slavic_pagan
 
 # History
-883.1.1 = { religion = catholic }
-883.1.1 = { 
+883.1.1 = { religion = chalcedonian }
+883.1.1 = {
 b_weida = castle
 b_plauen = city
 b_greiz = castle }
 1000.1.1 = { culture = thuringian }
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }

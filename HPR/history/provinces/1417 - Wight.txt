@@ -11,6 +11,9 @@ b_carisbrooke = castle
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}

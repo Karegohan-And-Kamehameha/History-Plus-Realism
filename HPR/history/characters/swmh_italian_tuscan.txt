@@ -13,7 +13,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	add_trait="skilled_tactician"
 	add_trait="proud"
@@ -26,13 +26,13 @@
 }
 #(son of Teudegrimo, he died probably after 967 but in wiki they don't say in which year, no knowledge of direct heir for him)
 1000091001 = {
-	name="Ranieri" 
+	name="Ranieri"
 	dynasty=1042027
 	martial=5
 	diplomacy=3
 	intrigue=11
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	add_trait="greedy"
 	add_trait="underhanded_rogue"
@@ -41,7 +41,7 @@
 		birth="924.1.1"
 	}
 	967.1.1 = {
-		death="967.1.1" 
+		death="967.1.1"
 	}
 }
 # Guido 1 (son of Teudegrimo)
@@ -52,7 +52,7 @@
 	diplomacy=10
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	add_trait="flamboyant_schemer"
 	add_trait="proud"
@@ -64,15 +64,15 @@
 		death="980.1.1"
 	}
 }
-# Teudegrimo 2 (Son of Guido, the name of his wife was Guilla or Willa, marquise Teubaldo's daughter, while Teubaldo was son of marquise Bonifazio I Ripuario) 
+# Teudegrimo 2 (Son of Guido, the name of his wife was Guilla or Willa, marquise Teubaldo's daughter, while Teubaldo was son of marquise Bonifazio I Ripuario)
 1000091003 = {
-	name="Teudegrimo" 
+	name="Teudegrimo"
 	dynasty=1042027
 	martial=3
 	diplomacy=9
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
         father=1000091002
 	945.1.1 = {
@@ -84,13 +84,13 @@
 }
 # Guido 2(son of Teudegrimo II, his wife was countess Emilia, she died in 1029, he live after her death I presume)
 1000091004 = {
-	name="Guido" 
+	name="Guido"
 	dynasty=1042027
 	martial=3
 	diplomacy=9
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
         father=1000091003
 	960.1.1 = {
@@ -102,17 +102,20 @@
 }
 # Teudegrimo 3(son of Guido II)
 1000091005 = {
-	name="Teudegrimo" 
+	name="Teudegrimo"
 	dynasty=1042027
 	martial=7
 	diplomacy=8
 	intrigue=6
 	stewardship=9
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
         father=1000091004
 	975.1.1 = {
 		birth="975.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.1 = {
 		death="1055.1.1"
@@ -120,13 +123,13 @@
 }
 # Guido 3(son of Guido II, his wife was Adeletta, daughter of Ildebrando, probably an Aldobrandi family member)
 1000091006 = {
-	name="Guido" 
+	name="Guido"
 	dynasty=1042027
 	martial=5
 	diplomacy=7
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
         add_trait="patient"
         add_trait="thrifty_clerk"
@@ -145,7 +148,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
         father=1000091004
 	990.1.1 = {
@@ -163,7 +166,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=9
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
         add_trait="patient"
         add_trait="honest"
@@ -171,19 +174,22 @@
 	1012.1.1 = {
 		birth="1012.1.1"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1065.1.1 = {
 		death="1065.1.1"
 	}
 }
 # Guido 5(son of Guido IV, his wife was Ermellina di Mangona, they had 3 sons, one of them, Ruggieri, died young in 1097)
 1000091008 = {
-	name="Guido" 
+	name="Guido"
 	dynasty=1042027
 	martial=5
 	diplomacy=10
 	intrigue=6
 	stewardship=12
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	add_trait="skilled_tactician"
 	add_trait="diligent"
@@ -192,13 +198,16 @@
 	1035.1.1 = {
 		birth="1035.1.1"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1103.1.1 = {
 		death="1103.1.1"
 	}
 }
 #Guido Guerra 1 (son of Guido V, his wife was countess Imilia, Raniero Sinibaldo's daughter)
 1000091009 = {
-	name="Guido Guerra" 
+	name="Guido Guerra"
 	dynasty=1042027
 	martial=15
 	diplomacy=7
@@ -259,7 +268,7 @@
 }
 #Guido Guerra 3 (son of Guido Guerra II, the most powerful lord of Tuscany during his times, his wife was the beautiful Gualdrada, Bellincione Berti de' Ravignani's daughter, they had 5 sons)
 1000091012 = {
-	name="Guido Guerra" 
+	name="Guido Guerra"
 	dynasty=1042027
 	martial=5
 	diplomacy=6
@@ -325,7 +334,7 @@
 }
 #(son of Guido Guerra III, father of Di Romena branch)
 1000091015 = {
-	name="Aghinolfo" 
+	name="Aghinolfo"
 	dynasty=1042027
 	martial=5
 	diplomacy=6
@@ -345,7 +354,7 @@
 }
 #(son of Guido Guerra III, father of di Porciano branch)
 1000091016 = {
-	name="Teudegrimo" 
+	name="Teudegrimo"
 	dynasty=1042027
 	martial=5
 	diplomacy=6
@@ -440,7 +449,7 @@
         add_trait="ambitious"
         father=1000091014
 	1219.1.1 = {
-		birth="1219.1.1" 
+		birth="1219.1.1"
 	}
 	1263.1.1 = {
 		death="1263.1.1"
@@ -461,7 +470,7 @@
         add_trait="ambitious"
         father=1000091014
 	1221.1.1 = {
-		birth="1221.1.1" 
+		birth="1221.1.1"
 	}
 	1271.1.1 = {
 		death="1271.1.1"
@@ -488,7 +497,7 @@
 		death="1320.1.1"
 	}
 }
-#Guido# son of Teudegrimo, nephew of Guido Guerra III unknown date of birth and death 
+#Guido# son of Teudegrimo, nephew of Guido Guerra III unknown date of birth and death
 1000091024 = {
 	name="Guido"
 	dynasty=1042027
@@ -506,7 +515,7 @@
 		death="1300.1.1"
 	}
 }
-#Guido Francesco# son of Guido?, if so it would be nephew of Teudegrimo di Porciano, unknown date of birth 
+#Guido Francesco# son of Guido?, if so it would be nephew of Teudegrimo di Porciano, unknown date of birth
 1000091025 = {
 	name="Guido"
 	dynasty=1042027
@@ -524,7 +533,7 @@
 		death="1369.1.1"
 	}
 }
-#Antonio# son of Guido Francesco, nephew of Guido, unknown date of birth and death, by 1392 he was surely adult maybe 25 or nearly 30 years old, in 1400 he rebelled against Firenze siding himself for Milano, by 1402 he lost and was exiled, his lands were confiscated by the florentines 
+#Antonio# son of Guido Francesco, nephew of Guido, unknown date of birth and death, by 1392 he was surely adult maybe 25 or nearly 30 years old, in 1400 he rebelled against Firenze siding himself for Milano, by 1402 he lost and was exiled, his lands were confiscated by the florentines
 1000091026 = {
 	name="Antonio"
 	dynasty=1042027
@@ -542,7 +551,7 @@
 		death="1410.1.1"
 	}
 }
-#Guido d'Aghinolfo# son of Aghinolfo, nephew of Guido Guerra III, unknown date of birth and death 
+#Guido d'Aghinolfo# son of Aghinolfo, nephew of Guido Guerra III, unknown date of birth and death
 1000091027 = {
 	name="Guido d'Aghinolfo"
 	dynasty=1042027
@@ -560,7 +569,7 @@
 		death="1287.1.1"
 	}
 }
-#Alessandro# son of Aghinolfo, nephew of Guido Guerra III, unknown date of birth and death 
+#Alessandro# son of Aghinolfo, nephew of Guido Guerra III, unknown date of birth and death
 1000091028 = {
 	name="Alessandro"
 	dynasty=1042027
@@ -578,7 +587,7 @@
 		death="1295.1.1"
 	}
 }
-#Aghinolfo 2# son of Guido d'Aghinolfo maybe, nephew of Aghinolfo, unknown date of birth and death 
+#Aghinolfo 2# son of Guido d'Aghinolfo maybe, nephew of Aghinolfo, unknown date of birth and death
 1000091029 = {
 	name="Guido d'Aghinolfo"
 	dynasty=1042027
@@ -717,7 +726,7 @@
 	culture="tuscan"
         father=1000091020
 	1253.1.1 = {
-		birth="1253.1.1" 
+		birth="1253.1.1"
 	}
 	1304.1.1 = {
 		death="1304.1.1"
@@ -753,7 +762,7 @@
 	culture="tuscan"
         father=1000091021
 	1268.1.1 = {
-		birth="1268.1.1" 
+		birth="1268.1.1"
 	}
 	1347.1.1 = {
 		death="1347.1.1"

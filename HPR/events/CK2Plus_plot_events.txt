@@ -2916,7 +2916,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA_Plus_201" #This will not help my reputation...
-		religion_head = {
+		rightful_religious_head_scope = {
 			opinion = {
 				who = ROOT
 				modifier = devious_plotter
@@ -7516,7 +7516,10 @@ letter_event = {
 			}
 			modifier = {
 				factor = 0
-				controls_religion = yes
+				OR = {
+					controls_religion = yes
+					rightful_religious_head = ROOT
+				}
 			}
 			modifier = {
 				factor = 0

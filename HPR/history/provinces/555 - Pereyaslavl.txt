@@ -19,11 +19,14 @@ culture = russian
 religion = slavic_pagan
 
 # History
-988.1.1 = {religion = orthodox }
+988.1.1 = {religion = chalcedonian }
 988.1.1 = {b_pereyaslavl = castle
 b_nosivka = castle
 b_pryluky = city
 b_baryshivska = temple }
+1054.1.1 = {
+	religion = orthodox
+}
 1239.1.1 = { remove_settlement = b_baryshivska } #Mongol invasion
 1239.1.1 = { remove_settlement = b_nosivka }
 

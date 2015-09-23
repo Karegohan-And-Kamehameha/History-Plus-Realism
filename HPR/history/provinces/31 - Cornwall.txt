@@ -24,9 +24,12 @@ b_bodmin = temple
 
 # Misc
 culture = cornish
-religion = catholic
+religion = chalcedonian
 
 
 # History
 1000.1.1 = { b_restormel = castle }
+1054.1.1 = {
+	religion = catholic
+}
 1271.1.1 = { capital = b_restormel }

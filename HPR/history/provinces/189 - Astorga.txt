@@ -14,11 +14,13 @@ b_villafrancadelbierzo = city
 
 # Misc
 culture = leonese
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_ulver = ca_keep_1
 	b_ulver = ca_wall_1
 }

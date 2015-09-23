@@ -13,6 +13,9 @@ b_mortlach = temple
 
 # Misc
 culture = scottish
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}

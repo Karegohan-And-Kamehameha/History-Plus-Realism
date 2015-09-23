@@ -1,13 +1,13 @@
 30363 = {
 	name="Sitat"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=462171
-	
+
 	1325.1.1={
 		birth="1325.1.1"
 	}
@@ -18,14 +18,14 @@
 
 30364 = {
 	name="Sitat" #Count of Ostfriesland
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30365 #Enno
-	
+
 	1259.1.1={
 		birth="1259.1.1"
 	}
@@ -36,14 +36,14 @@
 
 30365 = {
 	name="Enno" #Count of Ostfriesland
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30366 #Sitat
-	
+
 	1223.1.1={
 		birth="1223.1.1"
 	}
@@ -54,13 +54,13 @@
 
 30366 = {
 	name="Sitat" #Count of Ostfriesland
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
-	
+
+
 	1199.1.1={
 		birth="1199.1.1"
 	}
@@ -71,14 +71,14 @@
 
 30367 = {
 	name="Merten"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30366 #Sitat
-	
+
 	1230.1.1={
 		birth="1230.1.1"
 	}
@@ -89,14 +89,14 @@
 
 30368 = {
 	name="Omptat"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30367 #Merten
-	
+
 	1263.1.1={
 		birth="1263.1.1"
 	}
@@ -107,14 +107,14 @@
 
 30369 = {
 	name="Merten"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30368 #Omptat
-	
+
 	1296.1.1={
 		birth="1296.1.1"
 	}
@@ -125,14 +125,14 @@
 
 30370 = {
 	name="Omptat"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30369 #Merten
-	
+
 	1320.1.1={
 		birth="1320.1.1"
 	}
@@ -143,14 +143,14 @@
 
 30371 = {
 	name="Olrik"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30369 #Merten
-	
+
 	1322.1.1={
 		birth="1322.1.1"
 	}
@@ -161,14 +161,14 @@
 
 30372 = {
 	name="Bojo"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30369 #Merten
-	
+
 	1326.1.1={
 		birth="1326.1.1"
 	}
@@ -181,12 +181,12 @@
 	name="Tiadeke"
 	female=yes
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30369 #Merten
-	
+
 	1332.1.1={
 		birth="1332.1.1"
 	}
@@ -197,21 +197,21 @@
 
 30374 = {
 	name="Idzerd"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30365 #Enno
-	
+
 	1265.1.1={
 		birth="1265.1.1"
 	}
 	1290.1.1={
 		add_spouse=30379 #Etta van Visquard
 	}
-	
+
 	1312.1.1={
 		death="1312.1.1"
 	}
@@ -219,22 +219,22 @@
 
 30375 = {
 	name="Enno"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30374 #Idzerd Cirksena
 	mother=30379 #Etta van Visquard
-	
+
 	1292.1.1={
 		birth="1292.1.1"
 	}
 	1320.1.1={
 		add_spouse=30380 #Adda van Groothusen
 	}
-	
+
 	1350.1.1={
 		death="1350.1.1"
 	}
@@ -242,15 +242,15 @@
 
 30376 = {
 	name="Sibrand"
-	
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30374 #Idzerd Cirksena
 	mother=30379 #Etta van Visquard
-	
+
 	1297.1.1={
 		birth="1297.1.1"
 	}
@@ -277,16 +277,16 @@
 
 30378 = {
 	name="Idzerd"
-	
-	
+
+
 	dynasty=7128 #Cirksena
-	
+
 	religion="catholic"
 	culture="frisian"
-	
+
 	father=30375 #Enno Cirksena
 	mother=30380 #Adda van Groothusen
-	
+
 	1323.1.1={
 		birth="1323.1.1"
 	}
@@ -325,7 +325,7 @@
 	culture="frisian"
 	trait="thrifty_clerk"
 	father=462171
-	
+
 	1330.1.1={
 		birth="1330.1.1"
 	}
@@ -383,7 +383,7 @@
 131727 = {
 	name="Aldgisl" # King of the Frisians
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	630.1.1 = {
 		birth="630.1.1"
@@ -396,7 +396,7 @@
 131728 = {
 	name="Aldgisl" # the second, King of the Frisians
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=131725
 	680.1.1 = {
@@ -410,7 +410,7 @@
 131729 = {
 	name="Gundebold" # King of the Frisians
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=131728
 	718.1.1 = {
@@ -424,7 +424,7 @@
 131730 = {
 	name="Radboud" # King of the Frisians
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=131728
 	720.1.1 = {
@@ -438,7 +438,7 @@
 168618 = {
 	name="Alfbad" #real name unknown
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=131727
 	657.1.1 = {
@@ -451,7 +451,7 @@
 168220 = {
 	name="Alfbad"
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=131726
 	725.1.1 = {
@@ -465,7 +465,7 @@
 168619 = {
 	name="Nordalah"
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=168220
 	760.1.1 = {
@@ -478,9 +478,9 @@
 
 
 168620 = {
-	name="Aldgisl" 
+	name="Aldgisl"
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=131730
 	742.1.1 = {
@@ -494,9 +494,9 @@
 
 
 168621 = {
-	name="Radboud" 
+	name="Radboud"
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=168620
 	765.1.1 = {
@@ -511,9 +511,9 @@
 
 168622 = {
 	name="Odrade"
-	female=yes 
+	female=yes
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=168620
 	775.1.1 = {
@@ -528,7 +528,7 @@
 	name="Conovella" #real name unknown
 	female=yes
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=168621
 	790.1.1 = {
@@ -545,14 +545,14 @@
 168626 = {
 	name="Radboud"
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=168625
 	mother=168623
 	810.1.1 = {
 		birth = yes
 	}
-	
+
 	850.1.1 = {
 		death = yes
 	}
@@ -561,13 +561,13 @@
 168627 = {
 	name="Waldger"
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=168626
 	830.1.1 = {
 		birth = yes
 	}
-	
+
 	865.1.1 = {
 		death = yes
 	}
@@ -576,7 +576,7 @@
 168628 = {
 	name="Radboud"
 	dynasty=246
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=168627
 	849.1.1 = {

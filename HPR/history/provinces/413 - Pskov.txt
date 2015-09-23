@@ -25,9 +25,12 @@ culture = ugricbaltic
 religion = finnish_pagan
 
 # History
-990.1.1 = {religion = orthodox }
+990.1.1 = {religion = chalcedonian }
 990.1.1 = {b_izborsk = castle
 b_pechory = temple }
+1054.1.1 = {
+	religion = orthodox
+}
 1150.1.1 = { culture = russian }
 1200.1.1 = { b_ostrovpskov = castle }
 1266.1.1 = { capital = b_pskov } #Pskov republic practically independent

@@ -17,8 +17,11 @@ terrain = forest
 
 # History
 1000.1.1 = { b_laholm = castle
-b_halmstad = temple } 
-1005.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
+b_halmstad = temple }
+1005.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 1250.1.1 = { trade_post = b_warendorp }
 1291.1.1 = { b_falkenberg = castle }

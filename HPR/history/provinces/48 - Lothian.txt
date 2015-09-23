@@ -14,13 +14,15 @@ b_abercorn = temple
 
 
 # Misc
-culture = scottish
-religion = catholic
+culture = saxon
+religion = chalcedonian
 
 # History
-700.1.1 = { culture = saxon } 
-1000.1.1 = { culture = scottish } 
-1066.1.1 = { 
+1000.1.1 = { culture = scottish }
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_dunbar = ca_keep_1
 	b_dunbar = ca_training_grounds_1
 	b_dunbar = ca_stable_1

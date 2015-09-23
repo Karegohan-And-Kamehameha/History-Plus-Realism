@@ -1,14 +1,14 @@
 ###############################################################
 #  SWMH Pecheneg Characters
 ###############################################################
-#Range: 1000231700 - 1000231859 
+#Range: 1000231700 - 1000231859
 ###############################################################
 #######################
 #Qangar Pecheneg tribes#
 #######################
 #Qangar, just to bind the later three tribes togther.
 1000231700 = { # fictional forfather.
-	name="Qang" 
+	name="Qang"
 	dynasty=1000100500 # Qangar
 	martial=6
 	diplomacy=6
@@ -27,7 +27,7 @@
 	}
 }
 1000231701 = {  #fictional.
-	name="Umay" 
+	name="Umay"
 	martial=6
 	diplomacy=6
 	intrigue=4
@@ -42,7 +42,7 @@
 		death = yes
 	}
 }
-1000231702 = { 
+1000231702 = {
 	name="Kügel" #fictional.
 	dynasty=1000100500 # Qangar
 	martial=6
@@ -410,7 +410,7 @@
 		add_spouse=1000231719
 	}
 	988.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
 	}
 	1010.1.1={
 		death = yes
@@ -425,7 +425,7 @@
 		birth = yes
 	}
 	988.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
 	}
 	1009.1.1={
 		death = yes
@@ -446,7 +446,7 @@
 		birth = yes
 	}
 	988.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
 	}
 	1003.1.1={
 		add_spouse=1000231721
@@ -474,7 +474,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=5
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="pecheneg"
         father=1000231720
         mother=1000231721
@@ -483,6 +483,9 @@
 	}
 	1050.1.1={
 		add_spouse=1000231723
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1087.6.1={
 		death = yes
@@ -503,13 +506,16 @@
 1000231724 = { # Fictional daughter
 	name="Sati"
 	dynasty=1000100501 # Yawdi-Ertim
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="pecheneg"
         father=1000231722
         mother=1000231723
         female=yes
 	1051.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1087.6.1={
 		death = yes
@@ -668,7 +674,7 @@
 		add_spouse=1000231735
 	}
 	991.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
 	}
 	1030.1.1={
 		death = yes
@@ -683,7 +689,7 @@
 		birth = yes
 	}
 	991.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
 	}
 	1034.1.1={
 		death = yes
@@ -692,7 +698,7 @@
 1000231736 = {
 	name="Kügel" # fictional
 	dynasty=1000100502 # Küerchi-Chur
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="pecheneg"
         father=1000231734
         mother=1000231735
@@ -701,6 +707,9 @@
 	}
 	1026.1.1={
 		add_spouse=1000231737
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1059.1.1={
 		death = yes
@@ -721,12 +730,15 @@
 1000231738 = {
 	name="Küchük" # fictional
 	dynasty=1000100502 # Küerchi-Chur
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="pecheneg"
         father=1000231736
         mother=1000231737
 	1029.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1094.1.1={
 		death = yes
@@ -818,7 +830,7 @@
         mother=1000231743
 	920.1.1={
 		birth = yes
-	}	
+	}
 939.1.1={
 	add_spouse=1000231743
 	}
@@ -961,7 +973,7 @@
 	trait="skilled_tactician"
 	religion="tengri_pagan"
 	culture="pecheneg"
-        father=1000231751 
+        father=1000231751
         mother=1000231753
 	1030.1.1={
 		birth = yes
@@ -976,13 +988,16 @@
 	trait="skilled_tactician"
 	religion="tengri_pagan"
 	culture="pecheneg"
-        father=1000231751 
+        father=1000231751
         mother=1000231753
 	1031.1.1={
 		birth = yes
 	}
 	1048.1.1={
-		religion="orthodox" # was baptised after his defeat
+		religion="chalcedonian" # was baptised after his defeat
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1095.1.1={
 		death = yes
@@ -992,13 +1007,16 @@
 	name="Irge" # fictional sister
 	dynasty=1000100503 # Qabuqsin-Yula
 	trait="skilled_tactician"
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="pecheneg"
-        father=1000231751 
+        father=1000231751
         mother=1000231753
         female=yes
 	1036.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1085.1.1={
 		death = yes
@@ -1010,7 +1028,7 @@
 	trait="skilled_tactician"
 	religion="orthodox"
 	culture="pecheneg"
-        father=1000231755 
+        father=1000231755
 	1070.1.1={
 		birth = yes
 	}
@@ -1021,12 +1039,15 @@
 1000231757 = {
 	name="Küchük" # Just known as Ouzas, the first name is a placeholder. Was an Uze Mercenary who was entrusted with important Military posts during the 1090'ies and the early 1100'ies
 	dynasty=1000102837
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="pecheneg"
 	trait="brave"
 	trait="skilled_tactician"
 	1053.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1105.1.1={
 		death = yes
@@ -1039,7 +1060,7 @@
 ###############
 1000231760 = { # Fictional
 	name="Tiraq"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
 	trait="skilled_tactician"
@@ -1067,7 +1088,7 @@
 }
 1000231762 = { # Was chief of Suru-Külbej at the time of the 893 expulsion from Yaik/Volga.
 	name="Ipoch"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         father=1000231760
@@ -1084,7 +1105,7 @@
 }
 1000231763 = { # Fictional sister
 	name="Mala"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         female=yes
@@ -1111,7 +1132,7 @@
 }
 1000231765 = { # Fictional
 	name="Tiraq"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
 	trait="skilled_tactician"
@@ -1141,7 +1162,7 @@
 }
 1000231767 = { # fictional
 	name="Ipoch"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         father=1000231765
@@ -1155,7 +1176,7 @@
 }
 1000231768 = { # fictional
 	name="Tiraq"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         father=1000231765
@@ -1169,7 +1190,7 @@
 }
 1000231769 = { # fictional
 	name="Tatus"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         father=1000231765
@@ -1186,7 +1207,7 @@
 }
 1000231770 = { # Fictional wife....sister.......toothbrush
 	name="Mala"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         female=yes
@@ -1201,7 +1222,7 @@
 }
 1000231771 = { # fictional
 	name="Tatus"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         father=1000231769
@@ -1230,7 +1251,7 @@
 }
 1000231773 = { # Fictional sister
 	name="Ilkay"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         female=yes
@@ -1245,7 +1266,7 @@
 }
 1000231774 = { # fictional
 	name="Tiraq"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         father=1000231771
@@ -1274,7 +1295,7 @@
 }
 1000231776 = { # father of Tiraq
 	name="Bilter"
-	dynasty=1000100504 # Suru-Külbej 
+	dynasty=1000100504 # Suru-Külbej
 	religion="tengri_pagan"
 	culture="pecheneg"
         father=1000231774
@@ -1302,13 +1323,13 @@
 	}
 }
 1000231778 = {
-	name="Tiraq" #Tyrach/Tirakha/Tiraq Khan from 1030ish, 
+	name="Tiraq" #Tyrach/Tirakha/Tiraq Khan from 1030ish,
 	dynasty=1000100504 # Suru-Külbej # since he converted to Islam he must have belonged to one of the easternmost tribes.
 	martial=3
 	diplomacy=6
 	intrigue=10
 	stewardship=9
-	trait="craven" 
+	trait="craven"
 	trait="greedy"
 	trait="slothful"
 	trait="skilled_tactician"
@@ -1326,7 +1347,10 @@
 		religion="sunni"
 	}
 	1048.1.1={
-		religion="orthodox" # was baptised after his defeat
+		religion="chalcedonian" # was baptised after his defeat
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1066.1.1 = {
 		# The Pecheneg Horde
@@ -1407,7 +1431,7 @@
 1000231756 = {
 	name="Tzegul" # Tzegul # Controlled Paristrion in 1086.
 	dynasty=1000100504 # Suru-Külbej
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="pecheneg"
         father=1000231778
         mother=1000231779
@@ -1416,6 +1440,9 @@
 	trait="skilled_tactician"
 	1034.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1065.1.1={
 		add_spouse=1000233213
@@ -1502,7 +1529,10 @@
 		birth="1039.1.1"
 	}
 	1048.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1064.1.1={
 		add_spouse=1000231781
@@ -1580,7 +1610,10 @@
 		birth = yes
 	}
 	1048.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1091.4.29={ # battle of Levounion
 		death=yes
@@ -1633,7 +1666,7 @@
 	}
 }
 1000231787 = {
-	name="Kazar" # fictional. 
+	name="Kazar" # fictional.
 	dynasty=1000100505 # Qara-Bay
 	religion="tengri_pagan"
 	culture="pecheneg"
@@ -1794,7 +1827,10 @@
 		birth = yes
 	}
 	1048.1.1={
-		religion="orthodox" # was baptised after his defeat
+		religion="chalcedonian" # was baptised after his defeat
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1060.1.1={
 		add_spouse=1000231798
@@ -1812,7 +1848,10 @@
 		birth = yes
 	}
 	1048.1.1={
-		religion="orthodox" # was baptised after his defeat
+		religion="chalcedonian" # was baptised after his defeat
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1084.1.1={
 		death = yes
@@ -2406,7 +2445,7 @@
 	1123.1.1={
 		death=yes # last invaion of the byzzies
 	}
-} 
+}
 1000231838 = { # Fictional sister
 	name="Gunduz"
 	dynasty=1000100507 # Yazi-Qapan
@@ -2421,7 +2460,7 @@
 	1123.1.1={
 		death = yes
 	}
-} 
+}
 #1000231839 spare
 ###########################
 #Bula-Chopan aka piebald horses # Controlled the Don Basin.
@@ -2667,7 +2706,7 @@
 #################################
 #Black cap tribe
 #################################
-#Berendi, the pecheneg black cap tribe. All characters fictional.  
+#Berendi, the pecheneg black cap tribe. All characters fictional.
 1000232000 = {
 	name="Osul" # fictional
 	dynasty=1000100512 #Berendiler
@@ -2826,7 +2865,7 @@
 	}
 	1045.1.1={
                 add_claim=k_pechenegs
-		religion="orthodox" # becomes archon of Patzinakia, and receive territory along the Danube north of Nis(aka Vidin, Branicevo and Tyrnovo) by the byzzies.
+		religion="chalcedonian" # becomes archon of Patzinakia, and receive territory along the Danube north of Nis(aka Vidin, Branicevo and Tyrnovo) by the byzzies.
 	}
 
 	1051.1.1={
@@ -2847,13 +2886,16 @@
 		birth = yes
 	}
 	1045.1.1={
-		religion="orthodox" 
+		religion="chalcedonian"
 	}
         1049.1.1={
         employer=468 # imprissoned and then expelled but to somewhere else than his brother, and unlike his brother no more is heard from him on the byzzie scene. Putting him in the Hungarian court seems a decenent solution.
         }
 	1051.1.1={ # Father murderd
                 add_claim=k_pechenegs
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
         1060.10.1={
         employer=470
@@ -2888,11 +2930,14 @@
 		birth = yes
 	}
 	1045.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
 	}
 	1051.1.1={ # father murderd by Pechenegs. Putting him in the byzzie court(since he had friends there).
 		employer=1726
                 add_claim=k_pechenegs
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1055.1.11={
 		employer=1719
@@ -2934,7 +2979,10 @@
 		birth = yes
 	}
 	1045.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1087.6.1={
 		death = yes
@@ -2953,7 +3001,10 @@
 		birth = yes
 	}
 	1045.1.1={
-		religion="orthodox"
+		religion="chalcedonian"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1087.6.1={
 		death = yes

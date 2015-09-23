@@ -17,8 +17,11 @@ b_chateaudeclermont = castle
 
 # Misc
 culture = arpitan
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1250.1.1 = { b_chateaudefallavier = castle }
 

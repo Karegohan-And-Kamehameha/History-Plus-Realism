@@ -8,11 +8,14 @@
 1000232600 = {
 	name="Grigor"
 	dynasty=101436
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="georgian"
 	father = 1000232602
 	1031.1.1 = {
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1086.1.1 = {
 		death="1086.1.1"
@@ -22,11 +25,14 @@
 1000232601 = {
 	name="Abas"
 	dynasty=101436
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="georgian"
 	father = 1000232602
 	1032.1.1 = {
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1071.1.1 = {
 		death="1071.1.1"
@@ -36,7 +42,7 @@
 1000232602 = {
 	name="Grigor"
 	dynasty=101436
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="georgian"
 	993.1.1 = {
 		birth="993.1.1"

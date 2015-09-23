@@ -13,10 +13,12 @@ b_polybotos = castle
 #b_temenothyrai = city
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 
 1185.1.1 = { culture = turkmen }
 1185.1.1 = { religion = sunni }

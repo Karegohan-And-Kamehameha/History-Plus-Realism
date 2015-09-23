@@ -13,14 +13,17 @@ b_akhiza = temple
 #b_vardzia = castle
 #b_doliskana = temple
 #b_gonio = castle
- 
+
 
 # Misc
 culture = georgian
-religion = orthodox
+religion = chalcedonian
 
 # History
-1320.1.1 = { 
-	culture = kurdish 
-	religion = sunni 
+1054.1.1 = {
+	religion = orthodox
+}
+1320.1.1 = {
+	culture = kurdish
+	religion = sunni
 }

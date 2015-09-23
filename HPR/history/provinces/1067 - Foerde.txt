@@ -21,7 +21,10 @@ religion = norse_pagan
 900.1.1 = { capital = b_berle }
 900.1.1 = { remove_settlement = b_aasmul }
 1015.1.1 = { b_berle = castle }# Fat Olav
-1024.1.1 = { religion = catholic }
+1024.1.1 = { religion = chalcedonian }
 1047.10.25 = { culture = norwegian }
-1267.1.1 = { b_audunborg = castle }  
+1054.1.1 = {
+	religion = catholic
+}
+1267.1.1 = { b_audunborg = castle }
 

@@ -17,10 +17,12 @@ b_brindas = castle
 
 # Misc
 culture = arpitan
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1202.11.28 = {
 	capital = b_stjeanbaptiste
 }

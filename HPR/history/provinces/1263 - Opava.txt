@@ -12,8 +12,10 @@ b_opava = castle
 
 # Misc
 culture = moravian
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1210.1.1 = { b_bruntal = city }

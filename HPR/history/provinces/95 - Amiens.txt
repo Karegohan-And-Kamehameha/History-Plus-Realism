@@ -13,7 +13,10 @@ b_amiens = city
 #b_nesle = castle
 
 culture = frankish
-religion = catholic
+religion = chalcedonian
 
 # History
 
+1054.1.1 = {
+	religion = catholic
+}

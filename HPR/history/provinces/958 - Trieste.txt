@@ -14,10 +14,13 @@ b_koper = temple
 
 # Misc
 culture = dalmatian
-religion = catholic
+religion = chalcedonian
 
 # History
-1077.1.1 = { capital = b_duino } 
+1054.1.1 = {
+	religion = catholic
+}
+1077.1.1 = { capital = b_duino }
 1077.1.1 = { b_duino = castle }
 1077.1.1 = { b_pula = city }
 1209.1.1 = { capital = b_koper } # To Aquileia

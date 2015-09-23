@@ -11,11 +11,14 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	add_trait="underhanded_rogue"
 	1029.1.1 = {
 		birth="1029.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -30,12 +33,15 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	add_trait="humble"
 	add_trait="tough_soldier"
 	1028.1.2 = {
 		birth="1028.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1074.1.1 = {
 		add_spouse=9812
@@ -50,10 +56,13 @@
 2022 = {
 	name="Anselmo"
 	dynasty=624
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1088.1.1 = {
 		death="1088.1.1"
@@ -74,7 +83,7 @@
 	add_trait="hunter"
 	add_trait="tough_soldier"
 	mother=70656
-	
+
 	1215.1.1 = {
 		birth="1215.1.1"
 	}
@@ -123,7 +132,7 @@
 	add_trait="brave"
 	add_trait="wroth"
 	add_trait="tough_soldier"
-	
+
 	1292.1.1 = {
 		birth="1292.1.1"
 	employer=70669
@@ -173,7 +182,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	add_trait="chaste"
 	add_trait="diligent"
@@ -188,6 +197,9 @@
 	add_trait="mastermind_theologian"
 	1022.1.1 = {
 		birth="1022.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1073.4.21 = {
 		name="Gregorius"
@@ -238,7 +250,7 @@
 	add_trait="slothful"
 	add_trait="content"
 	add_trait="scholarly_theologian"
-	
+
 	1100.1.1 = {
 		birth="1100.1.1"
 	}
@@ -303,12 +315,12 @@
 71817 = {
 	name="Lotario"
 	dynasty=8790
-	
+
 	religion="catholic"
 	culture="tuscan"
-	
+
 	father=71816
-	
+
 	1148.1.1 = {
 		birth="1148.1.1"
 	}
@@ -320,12 +332,12 @@
 	name="Beatrice"
 	dynasty=8790
 	female=yes
-	
+
 	religion="catholic"
 	culture="tuscan"
-	
+
 	father=71817
-	
+
 	1172.1.1 = {
 		birth="1172.1.1"
 	}
@@ -346,7 +358,7 @@
 	add_trait="deceitful"
 	add_trait="mastermind_theologian"
 	father=71817
-	
+
 	1170.1.1 = {
 		birth="1170.1.1"
 	}
@@ -596,10 +608,13 @@
 	# wife of Gerardo IV della Gherardesca, dynasty fictitious
 	female=yes
 	dynasty=1042033
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	1031.1.1={
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1={
 		death="1080.1.1"
@@ -710,7 +725,7 @@
 	add_trait="just"
 	add_trait="trusting"
 	add_trait="scholarly_theologian"
-	
+
 	1130.1.1 = {
 		birth="1130.1.1"
 	}
@@ -773,7 +788,7 @@
 	add_trait="diligent"
 	add_trait="temperate"
 	add_trait="mastermind_theologian"
-	
+
 	1105.1.1 = {
 		birth="1105.1.1"
 	}
@@ -938,7 +953,7 @@
 	add_trait="charitable"
 	add_trait="chaste"
 	add_trait="martial_cleric"
-	
+
 	1304.1.1 = {
 		birth="1304.1.1"
 	}
@@ -960,7 +975,7 @@
 	add_trait="brave"
 	add_trait="tough_soldier"
 	father=70808
-	
+
 	1262.1.1 = {
 		birth="1262.1.1"
 	}
@@ -981,7 +996,7 @@
 	add_trait="hunter"
 	add_trait="skilled_tactician"
 	father=70806
-	
+
 	1289.1.1 = {
 		birth="1289.1.1"
 	}
@@ -1001,7 +1016,7 @@
 	add_trait="just"
 	add_trait="humble"
 	add_trait="flamboyant_schemer"
-	
+
 	1237.1.1 = {
 		birth="1237.1.1"
 	}
@@ -1025,7 +1040,7 @@
 	add_trait="greedy"
 	add_trait="detached_priest"
 	father=70808
-	
+
 	1258.1.1 = {
 		birth="1258.1.1"
 	}
@@ -1046,7 +1061,7 @@
 	add_trait="lisp"
 	add_trait="indulgent_wastrel"
 	father=70808
-	
+
 	1291.1.1 = {
 		birth="1291.1.1"
 	}
@@ -1067,7 +1082,7 @@
 	add_trait="lustful"
 	add_trait="intricate_webweaver"
 	father=70810
-	
+
 	1312.1.1 = {
 		birth="1312.1.1"
 	}
@@ -1088,7 +1103,7 @@
 	add_trait="wroth"
 	add_trait="tough_soldier"
 	father=70810
-	
+
 	1314.1.1 = {
 		birth="1314.1.1"
 	}
@@ -1109,7 +1124,7 @@
 	add_trait="stutter"
 	add_trait="scholarly_theologian"
 	father=70812
-	
+
 	1330.1.1 = {
 		birth="1330.1.1"
 	}
@@ -1131,7 +1146,7 @@
 	add_trait="arbitrary"
 	add_trait="falconer"
 	add_trait="brilliant_strategist"
-	
+
 	1225.1.1 = {
 		birth="1225.1.1"
 	}
@@ -1400,10 +1415,13 @@
 180200 = {
 	name="Sicheri"
 	dynasty=1042014
-	religion="catholic"	
+	religion = "chalcedonian"
         culture="tuscan"
 	1003.1.1={
 		birth="1003.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.1={
 		death="1062.1.1"
@@ -1413,11 +1431,14 @@
 	name="Ermingarde"
 	female=yes
 	dynasty=1042014
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180200
 	1027.1.1={
 		birth="1027.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1083.1.1={
 		death="1083.1.1"
@@ -1426,7 +1447,7 @@
 180202 = {
 	name="Ildebrando"
 	dynasty=1042014
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180200
 	1023.1.1={
@@ -1435,6 +1456,9 @@
 	1039.1.1={
 		add_spouse=180301
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death="1078.1.1"
 	}
@@ -1442,12 +1466,15 @@
 180203 = {
 	name="Gerardo"
 	dynasty=1042014
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180202
 	mother=180301
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.1={
 		add_spouse=180500
@@ -1476,12 +1503,15 @@
 	name="Ugo"
 	# Viscount of Pisa circa 1082
 	dynasty=1042014
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180202
 	mother=180301
 	1041.1.1={
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1064.1.1={
 		add_spouse=180300
@@ -1557,12 +1587,15 @@
 	name="Pietro"
 	# Viscount of Pisa circa 1090
 	dynasty=1042014
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180202
 	mother=180301
 	1046.1.1={
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.1.1={
 		add_spouse=180501
@@ -1654,7 +1687,7 @@
 	name="Raineri"
 	# Marquis of Tuscany
 	dynasty=1042017
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	975.1.1={
 		birth="975.1.1"
@@ -1666,11 +1699,14 @@
 180252 = {
 	name="Uguccione"
 	dynasty=1042017
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180251
 	1003.1.1={
 		birth="1003.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	# married Berta <unknown>
 	1065.1.1={
@@ -1682,11 +1718,14 @@
 	# wife of Tedice III, Count of Castagneto
 	female=yes
 	dynasty=1042017
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180252
 	1031.1.1={
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.1.1={
 		death="1079.1.1"
@@ -1695,11 +1734,14 @@
 180254 = {
 	name="Arrigo"
 	dynasty=1042017
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180252
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1078.1.1={
 		death="1078.1.1"
@@ -1708,11 +1750,14 @@
 180255 = {
 	name="Raineri"
 	dynasty=1042017
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="tuscan"
 	father=180252
 	1028.1.1={
 		birth="1028.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1068.1.1={
 		death="1068.1.1"

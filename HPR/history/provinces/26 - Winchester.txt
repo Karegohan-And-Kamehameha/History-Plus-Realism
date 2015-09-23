@@ -22,12 +22,15 @@ b_andover = city
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1070.1.1 = { capital = b_wolvesey}
 1080.1.1 = { b_portchester = castle }
-1100.11.11 = { culture = english } 
+1100.11.11 = { culture = english }
 
 #Hugh Despencer, Earl of Winchester
 1322.1.1 = { capital = b_winchester }

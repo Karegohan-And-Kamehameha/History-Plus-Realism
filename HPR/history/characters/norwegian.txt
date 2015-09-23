@@ -6,7 +6,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norse"
 	trait="scholarly_theologian"
 	father=101543
@@ -14,7 +14,10 @@
 	1030.1.2={
 		birth="1030.1.2"
 	}
-1047.10.25={ culture = norwegian
+	1047.10.25={ culture = norwegian
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.2={
 		death="1085.1.2"
@@ -29,7 +32,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="charitable"
 	trait="temperate"
@@ -38,6 +41,9 @@
 	mother=102503
 	1024.1.2={
 		birth="1024.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1087.1.2={
 		death="1087.1.2"
@@ -51,7 +57,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="diligent"
 	trait="brave"
@@ -59,6 +65,9 @@
 	father=102522
 	1026.1.2={
 		birth="1026.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.2= {
 		add_spouse = 102530
@@ -120,7 +129,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="humble"
 	trait="hunchback"
@@ -129,6 +138,9 @@
 	mother=100512
 	1023.1.2={
 		birth="1023.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1071.5.24={
 		death="1071.5.24"
@@ -143,13 +155,16 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="just"
 	trait="flamboyant_schemer"
 	father=102529
 	1040.1.2={
 		birth="1040.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.2={
 		death="1090.1.2"
@@ -163,7 +178,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=4
-	religion=catholic
+	religion = "chalcedonian"
 	culture=norwegian
 	trait=ambitious
 	trait=cruel # wouldn't really be "Hårdråde" without :)
@@ -180,6 +195,9 @@
 	1044.1.2={
 		add_spouse=633
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1066.1.5={
 		add_claim = k_england
 		give_nickname = nick_haardraade
@@ -187,7 +205,7 @@
 
 	1066.9.14 = {
 		wealth = 250
-		
+
 		effect = {
 			spawn_unit = {
 				province = 57 # York
@@ -249,7 +267,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="greedy"
 	trait="honest"
@@ -261,6 +279,9 @@
 	mother=102551
 	1048.1.2={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.4.28={
 		death = yes
@@ -275,13 +296,16 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="thrifty_clerk"
 	father=102531
 	mother=633
 	1047.1.2={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.9.26={
 		death = yes
@@ -295,7 +319,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="charitable"
 	trait="kind"
@@ -306,6 +330,9 @@
 	mother=102551
 	1050.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1068.1.1={
 		add_spouse=101516
@@ -323,12 +350,15 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	father=102531
 	mother=633
 	1046.1.2={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1120.1.2={
 		death = yes
@@ -344,7 +374,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="lustful"
 	trait="just"
@@ -354,6 +384,9 @@
 	mother=633
 	1045.1.4={
 		birth="1045.1.4"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.4={
 		death="1100.1.4"
@@ -367,7 +400,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="zealous"
 	trait="hunchback"
@@ -377,6 +410,9 @@
 	mother=102505
 	1043.1.1={
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1076.1.1={
 		add_spouse=220035
@@ -393,7 +429,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="lustful"
 	trait="lisp"
@@ -403,6 +439,9 @@
 	mother=102505
 	1043.1.1={
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1058.1.1={
 		add_spouse=161327
@@ -420,11 +459,14 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="scholarly_theologian"
 	1038.1.2={
 		birth="1038.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1088.1.2={
 		death="1088.1.2"
@@ -438,7 +480,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norse"
 	trait="charitable"
 	trait="temperate"
@@ -451,6 +493,9 @@
 	}
 	1040.1.1={
 		add_spouse=102506
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.2={
 		death="1055.1.2"
@@ -465,7 +510,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="envious"
 	trait="fortune_builder"
@@ -473,6 +518,9 @@
 	mother=102566
 	1017.1.2={
 		birth="1017.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1067.1.2={
 		death="1067.1.2"
@@ -486,7 +534,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="patient"
 	trait="temperate"
@@ -494,6 +542,9 @@
 	father=102552
 	1040.1.2={
 		birth="1040.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.27={
 		add_spouse = 102557
@@ -511,7 +562,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="wroth"
 	trait="underhanded_rogue"
@@ -519,6 +570,9 @@
 	mother=102555
 	1029.1.27={
 		birth="1029.1.27"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.1.27={
 		death="1079.1.27"
@@ -554,7 +608,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="chaste"
 	trait="honest"
@@ -562,6 +616,9 @@
 	father=102561
 	1026.1.2={
 		birth="1026.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1076.1.2={
 		death="1076.1.2"
@@ -575,13 +632,16 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="craven"
 	trait="skilled_tactician"
 	father=102560
 	1021.1.2={
 		birth="1021.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1081.1.1={
 		death="1081.1.1"
@@ -619,7 +679,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="lustful"
 	trait="martial_cleric"
@@ -627,6 +687,9 @@
 	mother=102515
 	1025.1.2={
 		birth="1025.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1061.1.2={
 		add_spouse = 101522
@@ -644,7 +707,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="just"
 	trait="temperate"
@@ -654,6 +717,9 @@
 	mother=102515
 	1030.1.2={
 		birth="1030.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.2={
 		death="1080.1.2"
@@ -669,13 +735,16 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="scholarly_theologian"
 	father=102567
 	mother=102515
 	1034.1.2={
 		birth="1034.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1084.1.2={
 		death="1084.1.2"
@@ -708,13 +777,16 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="just"
 	trait="amateurish_plotter"
 	father=102573
 	1017.1.2={
 		birth="1017.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1067.1.1={
 		death="1067.1.1"
@@ -728,12 +800,15 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="patient"
 	trait="flamboyant_schemer"
 	1020.1.2={
 		birth="1020.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.2={
 		death="1070.1.2"
@@ -747,7 +822,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="cynical"
 	trait="lisp"
@@ -755,6 +830,9 @@
 	father=102575
 	1052.1.2={
 		birth="1052.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1102.1.2={
 		death="1102.1.2"
@@ -785,12 +863,15 @@
 144248 = {
 	name="Ogmund"
 	dynasty=455
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	father=102547
 	mother=102506
 	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1120.1.1={
 		death="1120.1.1"
@@ -814,11 +895,14 @@
 144632 = {
 	name="Teitur"
 	dynasty=101891
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	father = 20579
 	1041.1.1={
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1111.1.1={
 		death="1111.1.1"
@@ -880,12 +964,15 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="zealous"
 	trait="martial_cleric"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -899,11 +986,14 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="skilled_tactician"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -917,11 +1007,14 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="skilled_tactician"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -935,12 +1028,15 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="zealous"
 	trait="martial_cleric"
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"
@@ -2078,7 +2174,7 @@
 	1101.1.1={
 		add_spouse=200494 # Margareta Ingesdotter
 	}
-	
+
 	1103.1.25={
 		death="1103.1.25"
 	}
@@ -2245,12 +2341,15 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="diligent"
 	trait="flamboyant_schemer"
 	1006.1.1={
 		birth="1006.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.6.5={
 		death="1080.6.5"
@@ -2264,7 +2363,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="greedy"
 	trait="arbitrary"
@@ -2273,6 +2372,9 @@
 	trait="martial_cleric"
 	1038.1.1={
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1088.1.1={
 		death="1088.1.1"
@@ -2711,7 +2813,7 @@
 }
 
 222599 = {
-	name="Magnus" # Magnus The Blind IV of Norway 
+	name="Magnus" # Magnus The Blind IV of Norway
 	# AKA: Magnus Sigurdsson
 	dynasty=499
 	religion="catholic"
@@ -2759,7 +2861,7 @@
 	diplomacy=9
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="diligent"
 	trait="charismatic_negotiator"
@@ -2768,6 +2870,9 @@
 	}
 	1041.1.1={
 		add_spouse = 40611
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1={
 		death="1070.1.1"
@@ -2782,11 +2887,14 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="flamboyant_schemer"
 	1021.1.1={
 		birth="1021.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1071.1.1={
 		death="1071.1.1"
@@ -2801,7 +2909,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="lustful"
 	trait="tough_soldier"
@@ -2809,6 +2917,9 @@
 	mother=40611
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1={
 		death="1090.1.1"
@@ -2822,12 +2933,15 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="honest"
 	trait="tough_soldier"
 	1020.1.1={
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1064.1.2={
 		add_spouse=40614
@@ -2845,12 +2959,15 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="temperate"
 	trait="amateurish_plotter"
 	1049.1.1={
 		birth="1049.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1099.1.1={
 		death="1099.1.1"
@@ -2863,11 +2980,14 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="tough_soldier"
 	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1={
 		death="1100.1.1"
@@ -3735,7 +3855,7 @@
 
 452601 = {
 	name="Una"
-	# AKA: Una Guttormsdottir 
+	# AKA: Una Guttormsdottir
 	female = yes
 	martial=4
 	diplomacy=6
@@ -4089,12 +4209,15 @@
 	diplomacy=9
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="flamboyant_schemer"
 	father=5793
 	1051.1.2={
 		birth="1051.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1101.1.2={
 		death="1101.1.2"
@@ -4104,19 +4227,22 @@
 5788 = {
 	name="Gudrød"
 	# AKA: Gudrod 'Mearanach'
-	properties="ca0cad00000"	
+	properties="ca0cad00000"
 	dna="nviemerbzif"
 	dynasty=556
 	martial=7
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="underhanded_rogue"
 	father=5793
 	1049.1.2={
 		birth="1049.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.2={
 		add_spouse=102536
@@ -4179,7 +4305,7 @@
 
 6907 = {
 	name="Margaret"
-	female = yes 
+	female = yes
 	dynasty=499
 	martial=4
 	diplomacy=4
@@ -4322,7 +4448,7 @@
 }
 
 83240 = {
-	name="Torgil" 
+	name="Torgil"
 	dynasty=9213
 	martial=3
 	diplomacy=4
@@ -4340,7 +4466,7 @@
 }
 
 83241 = {
-	name="Ragnvald" 
+	name="Ragnvald"
 	dynasty=9213
 	martial=5
 	diplomacy=4
@@ -4376,7 +4502,7 @@
 }
 
 83243 = {
-	name="Ascall" 
+	name="Ascall"
 	dynasty=9213
 	martial=6
 	diplomacy=4
@@ -4394,16 +4520,19 @@
 }
 
 83244 = {
-	name="Ragnvald" 
+	name="Ragnvald"
 	dynasty=9213
 	martial=4
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	1041.1.1={
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1110.7.1={
 		death="1110.7.1"
@@ -4411,7 +4540,7 @@
 }
 
 83245 = {
-	name="Ottar" 
+	name="Ottar"
 	dynasty=9213
 	martial=4
 	diplomacy=5
@@ -4429,7 +4558,7 @@
 }
 
 83246 = {
-	name="Ottar" 
+	name="Ottar"
 	dynasty=9213
 	martial=7
 	diplomacy=4
@@ -4447,7 +4576,7 @@
 }
 
 83247 = {
-	name="Ottar" 
+	name="Ottar"
 	dynasty=9213
 	martial=7
 	diplomacy=4
@@ -4465,7 +4594,7 @@
 }
 
 83248 = {
-	name="Torfinn" 
+	name="Torfinn"
 	dynasty=9213
 	martial=6
 	diplomacy=4
@@ -4483,7 +4612,7 @@
 }
 
 83249 = {
-	name="Ragnvald" 
+	name="Ragnvald"
 	dynasty=9213
 	martial=7
 	diplomacy=4
@@ -4491,7 +4620,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="norwegian"
-	father=83241 
+	father=83241
 	1131.1.1={
 		birth="1131.1.1"
 	}
@@ -4502,12 +4631,15 @@
 
 151013 = {
 	name="Svend" #Nordmand
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	trait="quick"
 	trait="martial_cleric"
 	1038.1.1 = {
-		birth="1038.1.1" 
+		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1088.1.1 = {
 		death="1088.1.1"
@@ -4521,12 +4653,15 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	father=83366
 	mother=83369
 	1021.1.1={
 		birth="1021.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.7.1={
 		death="1090.7.1"
@@ -4590,11 +4725,14 @@
 143129 = {
 	name="Austmod"
 	dynasty=444
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	father = 102575
 	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1130.1.1={
 		death="1130.1.1"
@@ -4793,11 +4931,14 @@
 	name="Thora"
 	female=yes
 	dynasty=461
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	father=161326
 	1040.1.1={
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1={
 		death="1100.1.1"
@@ -4853,7 +4994,7 @@
 }
 
 170007 = {
-	name="Håkon" # Håkon the Young 
+	name="Håkon" # Håkon the Young
 	dynasty=499
 	religion="catholic"
 	culture="norwegian"
@@ -4874,7 +5015,7 @@
 }
 
 170008 = {
-	name="Sverre" # Son of Håkon the Young 
+	name="Sverre" # Son of Håkon the Young
 	dynasty=499
 	religion="catholic"
 	culture="norwegian"
@@ -4907,11 +5048,14 @@
 166050 = {
 	name="Bjolan"
 	dynasty=1040005
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	father=166047
 	1003.1.1={
 		birth="1003.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1068.1.1={
 		death="1068.1.1"
@@ -4967,12 +5111,15 @@
 	name="Ragna"
         female=yes
 	dynasty=455
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	father=102547
 	mother=102506
 	1052.1.1={
 		birth="1052.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1102.1.2={
 		death="1102.1.2"
@@ -5042,10 +5189,13 @@
 183910 = {
 	name="Svein"
 	dynasty=1030031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	1048.1.1={
 		birth="1048.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1068.1.1={
 		add_spouse=183905 #Ragna Hagalín

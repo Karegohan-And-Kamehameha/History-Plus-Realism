@@ -7,12 +7,15 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	add_trait="fortune_builder"
 	father=182009 #probably
 	1000.1.1={
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1={
 		employer=8622
@@ -25,7 +28,7 @@
 167806 = {
 	name="Vilfredo"
 	dynasty=9555
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	840.1.1={
 		birth="840.1.1"
@@ -42,7 +45,7 @@
 145211 = {
 	name="Pietro"
 	dynasty=1022143
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	800.1.1={
 		birth="800.1.1"
@@ -55,7 +58,7 @@
 145212 = {
 	name="Adhemar"
 	dynasty=1022143
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father = 145211
 	820.1.1={
@@ -72,7 +75,7 @@
 167893 = {
 	name="Rodolfo"
 	dynasty=9561
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167892
 	880.1.1={
@@ -86,7 +89,7 @@
 167896 = {
 	name="Bonifacio"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	760.1.1 = {
 		birth="760.1.1"
@@ -98,7 +101,7 @@
 167897 = {
 	name="Bonifacio"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167896
 	790.1.1 = {
@@ -114,7 +117,7 @@
 167898 = {
 	name="Berardo"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167896
 	792.1.1 = {
@@ -132,7 +135,7 @@
 	name="Richilda"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167896
 	785.1.1 = {
@@ -146,7 +149,7 @@
 167900 = {
 	name="Berardo"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167897
 	818.1.1 = {
@@ -160,7 +163,7 @@
 167902 = {
 	name="Adalberto"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=163070
 	mother=167901
@@ -170,7 +173,7 @@
 	898.1.1 = {
 		add_spouse=7920
 	}
-		
+
 	915.9.10 = {
 		death="915.9.10"
 	}
@@ -179,14 +182,14 @@
 167903 = {
 	name="Bonifacio"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=163070
 	mother=167901
 	865.1.1 = {
 		birth="865.1.1"
 	}
-	
+
 	894.1.1 = {
 		death="894.1.1"
 	}
@@ -196,14 +199,14 @@
 	name="Reginsinda"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=163070
 	mother=167901
 	866.1.1 = {
 		birth="866.1.1"
 	}
-	
+
 	916.1.1 = {
 		death="916.1.1"
 	}
@@ -212,7 +215,7 @@
 167905 = {
 	name="Guido"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167902
 	mother=7920
@@ -231,7 +234,7 @@
 167906 = {
 	name="Lamberto"
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167902
 	mother=7920
@@ -250,14 +253,14 @@
 	name="Ermengarde"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167902
 	mother=7920
 	904.1.1 = {
 		birth="904.1.1"
 	}
-	
+
 	932.2.28 = {
 		death="932.2.28"
 	}
@@ -267,14 +270,14 @@
 	name="Theodora"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167905
 	mother=7915
 	924.1.1 = {
 		birth="924.1.1"
 	}
-	
+
 	940.1.1 = {
 		death="940.1.1"
 	}
@@ -286,14 +289,14 @@
 	name="Berta"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167905
 	mother=7915
 	925.1.1 = {
 		birth="925.1.1"
 	}
-	
+
 	945.1.14 = {
 		death="945.1.14"
 	}
@@ -303,13 +306,13 @@
 
 167910 = {
 	name="Giovanni"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	add_trait="scholarly_theologian"
 	820.1.1 = {
 		birth="820.1.1"
 	}
-	
+
 	878.1.1 = {
 		death="878.1.1"
 	}
@@ -320,13 +323,13 @@
 167911 = {
 	name="Goffredo"
 	#placeholder
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	add_trait="scholarly_theologian"
 	830.1.1 = {
 		birth="830.1.1"
 	}
-	
+
 	880.1.1 = {
 		death="880.1.1"
 	}
@@ -338,12 +341,12 @@
 167912 = {
 	name="Everardo"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	840.1.1 = {
 		birth="840.1.1"
 	}
-	
+
 	895.1.1 = {
 		death="895.1.1"
 	}
@@ -354,13 +357,13 @@
 167913 = {
 	name="Sigifredo"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167912
 	860.1.1 = {
 		birth="860.1.1"
 	}
-	
+
 	904.6.23 = {
 		death="904.6.23"
 	}
@@ -371,13 +374,13 @@
 167914 = {
 	name="Wifredo"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167912
 	865.1.1 = {
 		birth="865.1.1"
 	}
-	
+
 	911.9.1 = {
 		death="911.1.1"
 	}
@@ -388,13 +391,13 @@
 167915 = {
 	name="Giselberto"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167914
 	890.1.1 = {
 		birth="890.1.1"
 	}
-	
+
 	945.3.29 = {
 		death="945.3.29"
 	}
@@ -405,13 +408,13 @@
 167916 = {
 	name="Lanfranco"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167915
 	890.1.1 = {
 		birth="890.1.1"
 	}
-	
+
 	955.8.6 = {
 		death="955.8.6"
 	}
@@ -422,13 +425,13 @@
 167917 = {
 	name="Riprando"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167916
 	910.1.1 = {
 		birth="910.1.1"
 	}
-	
+
 	965.1.1 = {
 		death="965.1.1"
 	}
@@ -439,13 +442,13 @@
 167918 = {
 	name="Lanfranco"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167917
 	930.1.1 = {
 		birth="930.1.1"
 	}
-	
+
 	981.10.15 = {
 		death="981.10.15"
 	}
@@ -456,13 +459,13 @@
 167919 = {
 	name="Gandolfo"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167917
 	935.1.1 = {
 		birth="935.1.1"
 	}
-	
+
 	988.5.26 = {
 		death="988.5.26"
 	}
@@ -474,13 +477,13 @@
 167920 = {
 	name="Giselberto"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167918
 	950.1.1 = {
 		birth="950.1.1"
 	}
-	
+
 	1010.10.10 = {
 		death="1010.10.10"
 	}
@@ -492,13 +495,13 @@
 167921 = {
 	name="Lanfranco"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167918
 	952.1.1 = {
 		birth="952.1.1"
 	}
-	
+
 	988.5.26 = {
 		death="988.5.26"
 	}
@@ -509,13 +512,13 @@
 167922 = {
 	name="Riprando"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167919
 	955.1.1 = {
 		birth="955.1.1"
 	}
-	
+
 	1010.12.4 = {
 		death="1010.12.4"
 	}
@@ -527,13 +530,13 @@
 167923 = {
 	name="Wiberto"
 	dynasty=9562
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167919
 	960.1.1 = {
 		birth="960.1.1"
 	}
-	
+
 	1010.12.4 = {
 		death="1010.12.4"
 	}
@@ -542,7 +545,7 @@
 167928 = {
 	name="Umberto"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=1106
 	mother=167929
@@ -560,13 +563,13 @@
 	name="Gisela"
 	female=yes
 	dynasty=12110
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=71901
 	882.1.1={
 		birth="882.1.1"
 	}
-	
+
 	915.1.1={
 		death="915.1.1"
 	}
@@ -576,7 +579,7 @@
 167930 = {
 	name="Anscario"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=1106
 	mother=167907
@@ -594,7 +597,7 @@
 167931 = {
 	name="Amedeo"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167930
 	938.1.1 = {
@@ -611,7 +614,7 @@
 167932 = {
 	name="Berengario"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167931
 	mother=167956
@@ -626,7 +629,7 @@
 167933 = {
 	name="Berengario"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167932
 	1000.1.1 = {
@@ -643,7 +646,7 @@
 	name="Guntilda"
 	female=yes
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167932
 	1002.1.1 = {
@@ -659,7 +662,7 @@
 167935 = {
 	name="Adalberto"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=1106
 	mother=167907
@@ -674,7 +677,7 @@
 167936 = {
 	name="Dado"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167935
 	940.1.1 = {
@@ -688,7 +691,7 @@
 167937 = {
 	name="Adalberto"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167935
 	942.1.1 = {
@@ -702,7 +705,7 @@
 167938 = {
 	name="Guiberto"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167936
 	960.1.1 = {
@@ -717,7 +720,7 @@
 167939 = {
 	name="Guiberto"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167938
 	990.1.1 = {
@@ -731,11 +734,14 @@
 167940 = {
 	name="Guido"
 	dynasty=8669
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167939
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1083.1.1= {
 		death="1083.1.1"
@@ -761,7 +767,7 @@
 167942 = {
 	name="Ardoino"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167936
 	965.1.1 = {
@@ -778,10 +784,10 @@
 167943 = {
 	name="Berta"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=70629
-	
+
 	975.1.1 = {
 		birth="975.1.1"
 	}
@@ -793,7 +799,7 @@
 167944 = {
 	name="Ottone"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=71902
 	mother=167943
@@ -808,7 +814,7 @@
 167945 = {
 	name="Ottone"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167944
 	1020.1.1 = {
@@ -822,7 +828,7 @@
 167946 = {
 	name="Ardicino"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=71902
 	mother=167943
@@ -837,11 +843,14 @@
 167947 = {
 	name="Ardoino"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167946
 	1025.1.1 = {
 		birth="1025.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.4.10 = {
 		death="1090.4.10"
@@ -851,11 +860,14 @@
 167948 = {
 	name="Eriprando"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167947
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.4.10 = {
 		death="1090.4.10"
@@ -865,11 +877,14 @@
 167949 = {
 	name="Amadeo"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167946
 	1027.1.1 = {
 		birth="1027.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1097.1.1 = {
 		death="1097.1.1"
@@ -879,7 +894,7 @@
 167950 = {
 	name="Guiberto"
 	dynasty=681
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=71902
 	mother=167943
@@ -894,7 +909,7 @@
 167951 = {
 	name="Rodolfo"
 	dynasty=9563
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	850.1.1 = {
 		birth="850.1.1"
@@ -907,13 +922,13 @@
 167955 = {
 	name="Ruggero"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167953
 	905.1.1 = {
 		birth="905.1.1"
 	}
-	
+
 	962.9.3 = {
 		death="962.9.3"
 	}
@@ -925,13 +940,13 @@
 	name="Guntilda"
 	female=yes
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167955
 	930.1.1 = {
 		birth="930.1.1"
 	}
-	
+
 	962.9.3 = {
 		death="962.9.3"
 	}
@@ -940,13 +955,13 @@
 167957 = {
 	name="Ardoino"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167953
 	903.1.1 = {
 		birth="903.1.1"
 	}
-	
+
 	976.4.4 = {
 		death="976.4.4"
 	}
@@ -956,13 +971,13 @@
 	name="Alsinda"
 	female=yes
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167957
 	930.1.1 = {
 		birth="930.1.1"
 	}
-	
+
 	1015.1.1 = {
 		death="1015.1.1"
 	}
@@ -972,13 +987,13 @@
 	name="Richilda"
 	female=yes
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167957
 	932.1.1 = {
 		birth="932.1.1"
 	}
-	
+
 	987.1.1 = {
 		death="987.1.1"
 	}
@@ -987,13 +1002,13 @@
 167960 = {
 	name="Ardoino"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167957
 	950.1.1 = {
 		birth="950.1.1"
 	}
-	
+
 	1029.1.1 = {
 		death="1029.1.1"
 	}
@@ -1002,13 +1017,13 @@
 167961 = {
 	name="Manfredo"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167957
 	948.1.1 = {
 		birth="948.1.1"
 	}
-	
+
 	1000.1.1 = {
 		death="1000.1.1"
 	}
@@ -1017,13 +1032,13 @@
 167962 = {
 	name="Ottone"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167957
 	952.1.1 = {
 		birth="952.1.1"
 	}
-	
+
 	998.1.19 = {
 		death="998.1.19"
 	}
@@ -1032,13 +1047,13 @@
 167963 = {
 	name="Ardoino"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167962
 	975.1.1 = {
 		birth="975.1.1"
 	}
-	
+
 	1014.1.1 = {
 		death="1014.1.1"
 	}
@@ -1047,13 +1062,13 @@
 167964 = {
 	name="Boso"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167963
 	995.1.1 = {
 		birth="995.1.1"
 	}
-	
+
 	1026.1.1 = {
 		death="1026.1.1"
 	}
@@ -1062,13 +1077,13 @@
 167965 = {
 	name="Wido"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167963
 	1000.1.1 = {
 		birth="1000.1.1"
 	}
-	
+
 	1040.1.1 = {
 		death="1040.1.1"
 	}
@@ -1077,13 +1092,13 @@
 167966 = {
 	name="Odalrico"
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167965
 	1020.1.1 = {
 		birth="1020.1.1"
 	}
-	
+
 	1040.10.20 = {
 		death="1040.10.20"
 	}
@@ -1093,13 +1108,15 @@
 	name="Beatrice"
 	female=yes
 	dynasty=680
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167966
 	1038.1.1 = {
 		birth="1038.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1065.8.29 = {
 		death="1065.8.29"
 	}
@@ -1109,7 +1126,7 @@
 167968 = {
 	name="Anterio"
 	dynasty=799
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=163069
 	840.1.1 = {
@@ -1125,7 +1142,7 @@
 167969 = {
 	name="Liudfredo"
 	dynasty=799
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167968
 	860.1.1 = {
@@ -1139,7 +1156,7 @@
 167970 = {
 	name="Gotefredo"
 	dynasty=799
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167968
 	865.1.1 = {
@@ -1153,7 +1170,7 @@
 167971 = {
 	name="Gausberto"
 	dynasty=799
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167970
 	890.1.1 = {
@@ -1167,7 +1184,7 @@
 167972 = {
 	name="Uberto"
 	dynasty=799
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167971
 	910.1.1 = {
@@ -1181,7 +1198,7 @@
 167973 = {
 	name="Adalberto"
 	dynasty=799
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=167972
 	930.1.1 = {
@@ -1195,7 +1212,7 @@
 167974 = {
 	name="Ermenulfo"
 	dynasty=9564
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	850.1.1 = {
 		birth="850.1.1"
@@ -1208,7 +1225,7 @@
 167975 = {
 	name="Maginfredo"
 	dynasty=9565
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	840.1.1 = {
 		birth="840.1.1"
@@ -1221,7 +1238,7 @@
 168002 = {
 	name="Martino"
 	dynasty=9567
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	845.1.1 = {
 		birth="845.1.1"
@@ -1237,7 +1254,7 @@
 168003 = {
 	name="Pietro"
 	dynasty=9567
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=168002
 	mother=167978
@@ -1260,7 +1277,7 @@
 	1076.1.1 = {
 		birth="1076.1.1"
 	}
-	
+
 	1099.1.1 = {
 		death="1099.1.1"
 	}
@@ -1268,7 +1285,7 @@
 168008 = {
 	name="Ansaldo"
 	#placeholder
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	845.1.1 = {
 		birth="845.1.1"
@@ -1281,7 +1298,7 @@
 168009 = {
 	name="Benedicto"
 	#placeholder
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	add_trait="martial_cleric"
 	835.1.1 = {
@@ -1295,7 +1312,7 @@
 168334 = {
 	name="Egilulf"
 	dynasty=100354
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	834.1.1={
 		birth="834.1.1"
@@ -1309,7 +1326,7 @@
 	name="Jacopo"
 	#placeholder
 	dynasty=100327
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	845.1.1 = {
 		birth="845.1.1"
@@ -1322,12 +1339,12 @@
 168416 = {
 	name=Urso
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	800.1.1={
 		birth = yes
 	}
-	
+
 	850.1.1={
 		death = yes
 	}
@@ -1337,13 +1354,13 @@
 168417 = {
 	name=Leone
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168416
 	830.1.1={
 		birth = yes
 	}
-	
+
 	880.1.1={
 		death = yes
 	}
@@ -1355,13 +1372,13 @@
 168418 = {
 	name=Mansone #Mansone I
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168417
 	850.1.1={
 		birth = yes
 	}
-	
+
 	914.1.1={
 		death = yes
 	}
@@ -1371,13 +1388,13 @@
 168419 = {
 	name=Mastalo #Mastalo I
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168418
 	880.1.1={
 		birth = yes
 	}
-	
+
 	954.6.29={
 		death = yes
 	}
@@ -1389,13 +1406,13 @@
 168420 = {
 	name=Constantino
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168418
 	890.1.1={
 		birth = yes
 	}
-	
+
 	960.1.1={
 		death = yes
 	}
@@ -1407,13 +1424,13 @@
 168421 = {
 	name=Leone #Leone I
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168419
 	900.1.1={
 		birth = yes
 	}
-	
+
 	931.6.25={
 		death = yes
 	}
@@ -1423,13 +1440,13 @@
 168422 = {
 	name=Giovanni #Giovanni I
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168419
 	902.1.1={
 		birth = yes
 	}
-	
+
 	947.7.26={
 		death = yes
 	}
@@ -1440,13 +1457,13 @@
 168423 = {
 	name=Mastalo #Mastalo II
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168422
 	935.1.1={
 		birth = yes
 	}
-	
+
 	958.1.1={
 		death = yes
 	}
@@ -1459,13 +1476,13 @@
 168424 = {
 	name=Mansone
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168420
 	910.1.1={
 		birth = yes
 	}
-	
+
 	960.1.1={
 		death = yes
 	}
@@ -1477,13 +1494,13 @@
 168425 = {
 	name=Leone
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168424
 	935.1.1={
 		birth = yes
 	}
-	
+
 	1010.1.1={
 		death = yes
 	}
@@ -1495,13 +1512,13 @@
 168426 = {
 	name=Constantino
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168425
 	975.1.1={
 		birth = yes
 	}
-	
+
 	1035.1.1={
 		death = yes
 	}
@@ -1513,7 +1530,7 @@
 168427 = {
 	name=Mansone
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168425
 	1005.1.1={
@@ -1522,7 +1539,10 @@
 
 	1035.1.1={
 		add_spouse=168429
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1075.1.1={
 		death = yes
 	}
@@ -1534,13 +1554,15 @@
 168428 = {
 	name=Mastalo
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168425
 	1010.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1077.1.1={
 		death = yes
 	}
@@ -1552,12 +1574,14 @@
 168429 = {
 	name=Maria
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	1015.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1075.1.1={
 		death = yes
 	}
@@ -1570,15 +1594,17 @@
 168430 = {
 	name=Leone
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168427
 	mother=168429
 	1040.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 
-		
 	1090.1.1={
 		death = yes
 	}
@@ -1590,15 +1616,17 @@
 168431 = {
 	name=Mansone
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168427
 	mother=168429
 	1042.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 
-		
 	1090.1.1={
 		death = yes
 	}
@@ -1610,15 +1638,17 @@
 168432 = {
 	name=Giovanni
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168427
 	mother=168429
 	1045.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 
-		
 	1095.1.1={
 		death = yes
 	}
@@ -1638,7 +1668,7 @@
 		birth = yes
 	}
 
-		
+
 	1100.1.1={
 		death = yes
 	}
@@ -1650,13 +1680,13 @@
 168434 = {
 	name=Sergio
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168416
 	835.1.1={
 		birth = yes
 	}
-	
+
 	885.1.1={
 		death = yes
 	}
@@ -1668,13 +1698,13 @@
 168435 = {
 	name=Anastasio
 	dynasty=9593
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168416
 	838.1.1={
 		birth = yes
 	}
-	
+
 	890.1.1={
 		death = yes
 	}
@@ -1686,12 +1716,12 @@
 168436 = {
 	name=Musco
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	830.1.1={
 		birth = yes
 	}
-	
+
 	890.1.1={
 		death = yes
 	}
@@ -1703,13 +1733,13 @@
 168437 = {
 	name=Sergio
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168436
 	848.1.1={
 		birth = yes
 	}
-	
+
 	910.1.1={
 		death = yes
 	}
@@ -1721,13 +1751,13 @@
 168438 = {
 	name=Musco
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168437
 	880.1.1={
 		birth = yes
 	}
-	
+
 	940.1.1={
 		death = yes
 	}
@@ -1739,13 +1769,13 @@
 168439 = {
 	name=Sergio #Sergio II
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168438
 	905.1.1={
 		birth = yes
 	}
-	
+
 	966.12.20={
 		death = yes
 	}
@@ -1757,13 +1787,13 @@
 168440 = {
 	name=Mansone #Mansone I
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168439
 	940.1.1={
 		birth = yes
 	}
-	
+
 	1004.1.1={
 		death = yes
 	}
@@ -1773,15 +1803,15 @@
 
 
 168441 = {
-	name=Giovanni 
+	name=Giovanni
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168439
 	945.1.1={
 		birth = yes
 	}
-	
+
 	1007.4.27={
 		death = yes
 	}
@@ -1794,13 +1824,13 @@
 168442 = {
 	name=Adelferio #Adelferio I
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168439
 	948.1.1={
 		birth = yes
 	}
-	
+
 	998.1.1={
 		death = yes
 	}
@@ -1812,13 +1842,13 @@
 168443 = {
 	name=Sergio
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168442
 	975.1.1={
 		birth = yes
 	}
-	
+
 	1028.1.1={
 		death = yes
 	}
@@ -1830,13 +1860,13 @@
 168444 = {
 	name=Mauro
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168442
 	980.1.1={
 		birth = yes
 	}
-	
+
 	1012.1.1={
 		death = yes
 	}
@@ -1849,13 +1879,13 @@
 168445 = {
 	name=Ademaro
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168442
 	982.1.1={
 		birth = yes
 	}
-	
+
 	1012.1.1={
 		death = yes
 	}
@@ -1868,13 +1898,13 @@
 168446 = {
 	name=Leone
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168439
 	950.1.1={
 		birth = yes
 	}
-	
+
 	992.1.1={
 		death = yes
 	}
@@ -1886,13 +1916,13 @@
 	name=Purpura
 	female=yes
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168446
 	975.1.1={
 		birth = yes
 	}
-	
+
 	1037.1.1={
 		death = yes
 	}
@@ -1905,13 +1935,13 @@
 168448 = {
 	name=Giovanni #Giovanni II
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168440
 	960.1.1={
 		birth = yes
 	}
-	
+
 	1006.6.1={
 		death = yes
 	}
@@ -1924,13 +1954,13 @@
 168449 = {
 	name=Marino
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168440
 	965.1.1={
 		birth = yes
 	}
-	
+
 	1011.1.1={
 		death = yes
 	}
@@ -1942,13 +1972,13 @@
 168450 = {
 	name=Sergio
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168440
 	970.1.1={
 		birth = yes
 	}
-	
+
 	1008.11.1={
 		death = yes
 	}
@@ -1961,13 +1991,13 @@
 168451 = {
 	name=Mansone
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168440
 	972.1.1={
 		birth = yes
 	}
-	
+
 	1021.1.1={
 		death = yes
 	}
@@ -1980,13 +2010,13 @@
 168452 = {
 	name=Landolfo
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168440
 	973.1.1={
 		birth = yes
 	}
-	
+
 	1008.1.1={
 		death = yes
 	}
@@ -1999,13 +2029,13 @@
 	name=Carda
 	female=yes
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168440
 	975.1.1={
 		birth = yes
 	}
-	
+
 	1009.1.1={
 		death = yes
 	}
@@ -2018,7 +2048,7 @@
 168454 = {
 	name=Sergio #Sergio III
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168448
 	983.1.1={
@@ -2027,7 +2057,7 @@
 
 	1012.1.1={
 		add_spouse=168496
-	}	
+	}
 	1028.1.1={
 		death = yes
 	}
@@ -2040,13 +2070,13 @@
 168455 = {
 	name=Marino
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168448
 	988.1.1={
 		birth = yes
 	}
-	
+
 	1038.1.1={
 		death = yes
 	}
@@ -2059,13 +2089,13 @@
 168456 = {
 	name=Arechis
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168448
 	990.1.1={
 		birth = yes
 	}
-	
+
 	1040.1.1={
 		death = yes
 	}
@@ -2077,13 +2107,15 @@
 168457 = {
 	name=Sergio
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168455
 	1015.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1079.6.10={
 		death = yes
 	}
@@ -2096,13 +2128,15 @@
 168458 = {
 	name=Sergio
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168457
 	1035.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1079.6.10={
 		death = yes
 	}
@@ -2114,13 +2148,15 @@
 168459 = {
 	name=Giovanni
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168457
 	1037.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1079.6.10={
 		death = yes
 	}
@@ -2133,13 +2169,15 @@
 168460 = {
 	name=Mansone
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168456
 	1015.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death = yes
 	}
@@ -2151,13 +2189,15 @@
 168461 = {
 	name=Arechis
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168460
 	1035.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death = yes
 	}
@@ -2169,13 +2209,15 @@
 168462 = {
 	name=Giovanni
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168460
 	1036.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death = yes
 	}
@@ -2188,13 +2230,15 @@
 	name=Aloara
 	female=yes
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168460
 	1037.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death = yes
 	}
@@ -2207,13 +2251,15 @@
 	name=Stefania
 	female=yes
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168460
 	1038.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death = yes
 	}
@@ -2226,13 +2272,15 @@
 	name=Regalia
 	female=yes
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168460
 	1039.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death = yes
 	}
@@ -2244,14 +2292,16 @@
 168466 = {
 	name=Giovanni #Giovanni III
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168454
 	mother=168496
 	1015.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1069.1.1={
 		death = yes
 	}
@@ -2264,7 +2314,7 @@
 168467 = {
 	name=Mansone #Mansone III
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168454
 	mother=168496
@@ -2276,7 +2326,7 @@
 		add_trait=blinded
 		give_nickname=nick_the_blind
 
-	}	
+	}
 	1053.1.1={
 		death = yes
 	}
@@ -2289,14 +2339,16 @@
 168468 = {
 	name=Roffrido
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168454
 	mother=168496
 	1019.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1058.1.1={
 		death = yes
 	}
@@ -2309,14 +2361,16 @@
 168469 = {
 	name=Atenolfo
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168454
 	mother=168496
 	1020.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1067.1.1={
 		death = yes
 	}
@@ -2329,14 +2383,16 @@
 168470 = {
 	name=Alberico
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168454
 	mother=168496
 	1025.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1094.1.1={
 		death = yes
 	}
@@ -2350,14 +2406,16 @@
 	name=Regalia
 	female=yes
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168454
 	mother=168496
 	1016.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1076.1.1={
 		death = yes
 	}
@@ -2370,13 +2428,15 @@
 168472 = {
 	name=Pandolfo
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168469
 	1040.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1090.1.1={
 		death = yes
 	}
@@ -2395,7 +2455,7 @@
 	1060.1.1={
 		birth = yes
 	}
-	
+
 	1100.1.1={
 		death = yes
 	}
@@ -2408,13 +2468,13 @@
 168474 = {
 	name=Guaimario #Guamario II
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168467
 	1035.1.1={
 		birth = yes
 	}
-	
+
 	1052.1.1={
 		death = yes
 	}
@@ -2426,13 +2486,15 @@
 168475 = {
 	name=Sergio #Sergio IV
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168466
 	1032.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1072.1.1={
 		death = yes
 	}
@@ -2444,13 +2506,15 @@
 168476 = {
 	name=Giovanni #Giovanni IV
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168475
 	1050.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1077.1.1={
 		death = yes
 	}
@@ -2462,13 +2526,13 @@
 168477 = {
 	name=Giovanni
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168436
 	849.1.1={
 		birth = yes
 	}
-	
+
 	899.1.1={
 		death = yes
 	}
@@ -2481,13 +2545,13 @@
 168478 = {
 	name=Adelferio
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168436
 	850.1.1={
 		birth = yes
 	}
-	
+
 	910.1.1={
 		death = yes
 	}
@@ -2500,12 +2564,12 @@
 168479 = {
 	name=Mauro
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	800.1.1={
 		birth = yes
 	}
-	
+
 	850.1.1={
 		death = yes
 	}
@@ -2519,13 +2583,13 @@
 168480 = {
 	name=Mauro
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168479
 	820.1.1={
 		birth = yes
 	}
-	
+
 	866.1.1={
 		death = yes
 	}
@@ -2537,13 +2601,13 @@
 168481 = {
 	name=Stefano
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168480
 	840.1.1={
 		birth = yes
 	}
-	
+
 	900.1.1={
 		death = yes
 	}
@@ -2555,13 +2619,13 @@
 168482 = {
 	name=Mauro
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168481
 	875.1.1={
 		birth = yes
 	}
-	
+
 	935.1.1={
 		death = yes
 	}
@@ -2573,13 +2637,13 @@
 168483 = {
 	name=Sergio
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168482
 	900.1.1={
 		birth = yes
 	}
-	
+
 	960.1.1={
 		death = yes
 	}
@@ -2592,13 +2656,13 @@
 168484 = {
 	name=Pandolfo
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168483
 	930.1.1={
 		birth = yes
 	}
-	
+
 	990.1.1={
 		death = yes
 	}
@@ -2611,13 +2675,13 @@
 168485 = {
 	name=Stefano
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168484
 	960.1.1={
 		birth = yes
 	}
-	
+
 	1020.1.1={
 		death = yes
 	}
@@ -2630,13 +2694,13 @@
 168486 = {
 	name=Mauro
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168485
 	990.1.1={
 		birth = yes
 	}
-	
+
 	1050.1.1={
 		death = yes
 	}
@@ -2648,7 +2712,7 @@
 168487 = {
 	name=Pandolfo
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168486
 	1020.1.1={
@@ -2657,7 +2721,10 @@
 
 	1038.1.1={
 		add_spouse=168488
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1080.1.1={
 		death = yes
 	}
@@ -2669,12 +2736,14 @@
 168488 = {
 	name=Gaita
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	1020.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1070.1.1={
 		death = yes
 	}
@@ -2686,15 +2755,17 @@
 168489 = {
 	name=Landolfo
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168487
 	mother=168488
 	1040.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 
-		
 	1080.1.1={
 		death = yes
 	}
@@ -2706,15 +2777,17 @@
 168490 = {
 	name=Mauro
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168487
 	mother=168488
 	1042.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 
-		
 	1080.1.1={
 		death = yes
 	}
@@ -2728,7 +2801,7 @@
 168491 = {
 	name=Pando
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168487
 	mother=168488
@@ -2736,7 +2809,9 @@
 		birth = yes
 	}
 
-		
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1080.1.1={
 		death = yes
 	}
@@ -2750,7 +2825,7 @@
 	name=Gemma
 	female=yes
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168487
 	mother=168488
@@ -2758,7 +2833,9 @@
 		birth = yes
 	}
 
-		
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1080.1.1={
 		death = yes
 	}
@@ -2770,13 +2847,13 @@
 168493 = {
 	name=Sico
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168479
 	825.1.1={
 		birth = yes
 	}
-	
+
 	875.1.1={
 		death = yes
 	}
@@ -2789,13 +2866,13 @@
 168494 = {
 	name=Adelferio
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168493
 	847.1.1={
 		birth = yes
 	}
-	
+
 	890.1.1={
 		death = yes
 	}
@@ -2808,13 +2885,13 @@
 	name=Marotta
 	female=yes
 	dynasty=9594
-	religion=catholic
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=168493
 	849.1.1={
 		birth = yes
 	}
-	
+
 	900.1.1={
 		death = yes
 	}
@@ -2825,7 +2902,7 @@
 	name="Maria"
 	female=yes
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	father=73324
 	980.1.1 = {
@@ -2841,13 +2918,15 @@
 168497 = {
 	name=Sergio
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture=southern_italian
 	father=168470
 	1045.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1102.1.1={
 		death = yes
 	}
@@ -2860,13 +2939,15 @@
 	name=Maria
 	female=yes
 	dynasty=9592
-	religion=catholic
+	religion = "chalcedonian"
 	culture=southern_italian
 	father=168470
 	1046.1.1={
 		birth = yes
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1102.1.1={
 		death = yes
 	}

@@ -20,8 +20,10 @@ b_fermo = city
 
 # Misc
 culture = southern_italian
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1167.1.1 = { trade_post = b_contarini }

@@ -13,10 +13,12 @@ b_maroneia = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
 
 # Catalan Company ravages the province
-
+1054.1.1 = {
+	religion = orthodox
+}
 1305.1.1 = { remove_settlement = b_maroneia }

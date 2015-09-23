@@ -23,14 +23,16 @@ culture = norse
 religion = norse_pagan
 
 # History
-867.1.1 = { b_borgholm = tb_shipyard_1 } 
-1022.1.7 = { 
+867.1.1 = { b_borgholm = tb_shipyard_1 }
+1022.1.7 = {
 b_borgholm = castle
 b_eketorp = castle
 b_hauldtorp = city
 b_borgholm = ca_shipyard_1 }
-1022.1.7 = {religion = catholic}
-1047.10.25 = { culture = gothic } 
-
+1022.1.7 = {religion = chalcedonian}
+1047.10.25 = { culture = gothic }
+1054.1.1 = {
+	religion = catholic
+}
 
 1227.1.1 = { trade_post = b_pat_luneburg }

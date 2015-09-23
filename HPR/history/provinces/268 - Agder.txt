@@ -17,10 +17,12 @@ religion = norse_pagan
 
 # History
 1000.1.1 = { b_tromoey = castle
-b_oddernes = city 
+b_oddernes = city
 b_liknes = castle } #to Denmark
-1010.1.1 = { religion = catholic } 
-1047.10.25 = { culture = norwegian } 
-
+1010.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = norwegian }
+1054.1.1 = {
+	religion = catholic
+}
 # History
 1282.1.1 = { trade_post = b_vorrade }

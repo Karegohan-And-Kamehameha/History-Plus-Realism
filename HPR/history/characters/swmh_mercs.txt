@@ -8,13 +8,16 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="english"
 	add_trait="weak"
 	add_trait="craven"
 	add_trait="naive_appeaser"
 	1036.11.1 = {
 		birth="1036.11.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1400.1.1 = {
 		death="1400.1.1"
@@ -27,7 +30,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="english"
 	add_trait="possessed"
         add_trait="zealous"
@@ -35,6 +38,9 @@
 	add_trait="misguided_warrior"
 	1036.11.1 = {
 		birth="1036.11.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1400.1.1 = {
 		death="1400.1.1"
@@ -47,7 +53,7 @@
 	diplomacy=2
 	intrigue=10
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="english"
 	add_trait="wroth"
         add_trait="greedy"
@@ -55,6 +61,9 @@
 	add_trait="fortune_builder"
 	950.11.1 = {
 		birth="950.11.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1400.1.1 = {
 		death="1400.1.1"
@@ -90,7 +99,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	add_trait="wroth"
         add_trait="proud"
@@ -99,6 +108,9 @@
 	add_trait="skilled_tactician"
 	1046.11.1 = {
 		birth="1046.11.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1400.1.1 = {
 		death="1400.1.1"

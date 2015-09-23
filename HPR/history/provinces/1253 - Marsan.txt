@@ -15,7 +15,10 @@ b_roquefort = city
 
 
 # Misc
-religion = catholic
+religion = chalcedonian
 culture = occitan
-# History 
+# History
 
+1054.1.1 = {
+	religion = catholic
+}

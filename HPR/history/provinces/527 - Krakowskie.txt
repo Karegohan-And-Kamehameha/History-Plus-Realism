@@ -22,8 +22,11 @@ culture = polish
 religion = slavic_pagan
 
 # History
-990.1.1 = { religion = catholic 
+990.1.1 = { religion = chalcedonian
 b_wawel = castle
 b_wojnicz = castle
+}
+1054.1.1 = {
+	religion = catholic
 }
 1187.1.1 = { b_kleparz = city }

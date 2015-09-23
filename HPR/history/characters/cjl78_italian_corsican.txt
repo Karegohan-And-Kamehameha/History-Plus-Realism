@@ -9,10 +9,13 @@
 1000167040 = {
 	name="Dionisio"
 	dynasty=0
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="corsican"
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1130.1.1 = {
 		death="1130.1.1"

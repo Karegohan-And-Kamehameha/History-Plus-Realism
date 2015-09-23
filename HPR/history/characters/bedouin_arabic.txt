@@ -1,4 +1,4 @@
-45108 = { 
+45108 = {
 	name="Hasan" # ibn Zayd (great-great-grandson of Hasan ibn Zayd, governor of Medina)
 	dynasty=7512 # Alavids of Tabaristan
 	religion="shiite"
@@ -2316,7 +2316,7 @@
 	trait="envious"
 	trait="lustful"
 	trait="indulgent_wastrel"
-	
+
 	847.1.1={
 		birth = yes
 	}
@@ -5910,7 +5910,7 @@
 }
 
 163016 = {
-	name="Adb Shams" 
+	name="Adb Shams"
 	dynasty=7296
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -6000,7 +6000,7 @@
 }
 
 163022 = {
-	name="Musa" 
+	name="Musa"
 	dynasty=589
 	religion="shiite"
 	culture="bedouin_arabic"
@@ -6015,7 +6015,7 @@
 }
 
 163023= {
-	name="Ali" 
+	name="Ali"
 	dynasty=589
 	religion="shiite"
 	culture="bedouin_arabic"
@@ -6030,7 +6030,7 @@
 }
 
 163024 = {
-	name="Muhammad" 
+	name="Muhammad"
 	dynasty=589
 	religion="shiite"
 	culture="bedouin_arabic"
@@ -6045,7 +6045,7 @@
 }
 
 163025 = {
-	name="Ali" 
+	name="Ali"
 	dynasty=589
 	religion="shiite"
 	culture="bedouin_arabic"
@@ -6060,7 +6060,7 @@
 }
 
 163026 = {
-	name="Hasan" 
+	name="Hasan"
 	dynasty=589
 	religion="shiite"
 	culture="bedouin_arabic"
@@ -6075,7 +6075,7 @@
 }
 
 163027 = {
-	name="Mahdi" 
+	name="Mahdi"
 	dynasty=589
 	religion="shiite"
 	culture="bedouin_arabic"
@@ -7041,7 +7041,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="bedouin_arabic"
-	
+
 	760.1.1={
 		birth="760.1.1" #Unknown
 	}
@@ -7059,7 +7059,7 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	father=159376
-	
+
 	780.1.1={
 		birth="780.1.1" #Unknown
 	}
@@ -7077,7 +7077,7 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	father=159376
-	
+
 	780.1.1={
 		birth="780.1.1" #Unknown
 	}
@@ -7096,7 +7096,7 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	father=155148
-	
+
 	850.1.1={
 		birth="850.1.1" #Unknown
 	}
@@ -7114,7 +7114,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159379
-	
+
 	880.1.1={
 		birth="880.1.1" #Unknown
 	}
@@ -7132,7 +7132,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159379
-	
+
 	920.1.1={
 		birth="920.1.1" #Unknown
 	}
@@ -7150,7 +7150,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159380
-	
+
 	950.1.1={
 		birth="950.1.1" #Unknown
 	}
@@ -7168,7 +7168,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159384
-	
+
 	920.1.1={
 		birth="920.1.1" #Unknown
 	}
@@ -7186,7 +7186,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159385
-	
+
 	890.1.1={
 		birth="890.1.1" #Unknown
 	}
@@ -7204,7 +7204,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159386
-	
+
 	860.1.1={
 		birth="860.1.1" #Unknown
 	}
@@ -7222,7 +7222,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159387
-	
+
 	830.1.1={
 		birth="830.1.1" #Unknown
 	}
@@ -7240,7 +7240,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159377
-	
+
 	800.1.1={
 		birth="800.1.1" #Unknown
 	}
@@ -7258,7 +7258,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159378
-	
+
 	810.1.1={
 		birth="810.1.1" #Unknown
 	}
@@ -7276,7 +7276,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159388
-	
+
 	840.1.1={
 		birth="840.1.1" #Unknown
 	}
@@ -7294,7 +7294,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159389
-	
+
 	880.1.1={
 		birth="880.1.1" #Unknown
 	}
@@ -7312,7 +7312,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159390
-	
+
 	920.1.1={
 		birth="920.1.1" #Unknown
 	}
@@ -7330,7 +7330,7 @@
 	religion="shiite"
 	culture="bedouin_arabic"
 	father=159391
-	
+
 	960.1.1={
 		birth=yes #Unknown
 	}
@@ -7354,7 +7354,7 @@
 }
 
 163098={
-	name="al-Aziz" 
+	name="al-Aziz"
 	dynasty = 809
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -7512,7 +7512,7 @@
 }
 
 163124 = {
-	name="Zayd" 
+	name="Zayd"
 	dynasty=7296
 	religion="shiite"
 	culture="bedouin_arabic"
@@ -8337,7 +8337,7 @@
 	}
 	899.1.1 = {
 		name="Samuel"
-		religion=catholic
+		religion = "chalcedonian"
 		culture=castillan
 	}
 	917.1.1 = {
@@ -9259,7 +9259,7 @@
 }
 
 163151={
-	name="Dulaf" 
+	name="Dulaf"
 	dynasty = 809
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9273,7 +9273,7 @@
 }
 
 163152={
-	name="Ahmad" 
+	name="Ahmad"
 	dynasty = 809
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9286,9 +9286,9 @@
 	}
 }
 
-163166 = { 
-	name="Muhammad" 
-	dynasty=7512 
+163166 = {
+	name="Muhammad"
+	dynasty=7512
 	religion="shiite"
 	culture="bedouin_arabic"
 	trait=sayyid
@@ -9301,8 +9301,8 @@
 	}
 }
 
-145596 = { 
-	name="Hnanisho" 
+145596 = {
+	name="Hnanisho"
 	dynasty=1022234
 	religion="nestorian"
 	culture="bedouin_arabic"
@@ -9315,8 +9315,8 @@
 	}
 }
 
-145597 = { 
-	name="Maremmeh" 
+145597 = {
+	name="Maremmeh"
 	dynasty=1022234
 	religion="nestorian"
 	culture="bedouin_arabic"
@@ -9329,7 +9329,7 @@
 	}
 }
 
-145598 = { 
+145598 = {
 	name="Theodosis"
 	dynasty=1022234
 	religion="nestorian"
@@ -9343,7 +9343,7 @@
 	}
 }
 
-145599 = { 
+145599 = {
 	name="Denha"
 	dynasty=1022234
 	religion="nestorian"
@@ -9357,7 +9357,7 @@
 	}
 }
 
-145600 = { 
+145600 = {
 	name="Yohannan"
 	dynasty=1022234
 	religion="nestorian"
@@ -9371,7 +9371,7 @@
 	}
 }
 
-145601 = { 
+145601 = {
 	name="Theodosis"
 	dynasty=1022234
 	religion="nestorian"
@@ -9385,7 +9385,7 @@
 	}
 }
 
-145602 = { 
+145602 = {
 	name="Surin"
 	dynasty=1022234
 	religion="nestorian"
@@ -9399,7 +9399,7 @@
 	}
 }
 
-145603 = { 
+145603 = {
 	name="Pethion"
 	dynasty=1022234
 	religion="nestorian"
@@ -9413,7 +9413,7 @@
 	}
 }
 
-145604 = { 
+145604 = {
 	name="Giwargis"
 	dynasty=1022234
 	religion="nestorian"
@@ -9427,7 +9427,7 @@
 	}
 }
 
-145605 = { 
+145605 = {
 	name="Pethion"
 	dynasty=1022234
 	religion="nestorian"
@@ -9441,7 +9441,7 @@
 	}
 }
 
-145606 = { 
+145606 = {
 	name="Theodosis"
 	dynasty=1022234
 	religion="nestorian"
@@ -9455,7 +9455,7 @@
 	}
 }
 
-145607 = { 
+145607 = {
 	name="Nikolas"
 	dynasty=1022234
 	religion="nestorian"
@@ -9468,7 +9468,7 @@
 	}
 }
 
-145608 = { 
+145608 = {
 	name="Abraham"
 	dynasty=1022235
 	religion="nestorian"
@@ -9482,7 +9482,7 @@
 	}
 }
 
-145609 = { 
+145609 = {
 	name="Gregoris"
 	dynasty=1022235
 	religion="nestorian"
@@ -9496,7 +9496,7 @@
 	}
 }
 
-145610 = { 
+145610 = {
 	name="Eliya"
 	dynasty=1022235
 	religion="nestorian"
@@ -9510,7 +9510,7 @@
 	}
 }
 
-145611 = { 
+145611 = {
 	name="Aba"
 	dynasty=1022235
 	religion="nestorian"
@@ -9524,7 +9524,7 @@
 	}
 }
 
-145612 = { 
+145612 = {
 	name="Abraham"
 	dynasty=1022235
 	religion="nestorian"
@@ -9538,7 +9538,7 @@
 	}
 }
 
-145613 = { 
+145613 = {
 	name="Maremmeh"
 	dynasty=1022235
 	religion="nestorian"
@@ -9552,7 +9552,7 @@
 	}
 }
 
-145614 = { 
+145614 = {
 	name="Eliya"
 	dynasty=1022235
 	religion="nestorian"
@@ -9566,7 +9566,7 @@
 	}
 }
 
-145615 = { 
+145615 = {
 	name="Abraham"
 	dynasty=1022235
 	religion="nestorian"
@@ -9579,7 +9579,7 @@
 	}
 }
 
-145616 = { 
+145616 = {
 	name="Nikolas"
 	dynasty=1022236
 	religion="nestorian"
@@ -9593,7 +9593,7 @@
 	}
 }
 
-145617 = { 
+145617 = {
 	name="Abraham"
 	dynasty=1022236
 	religion="nestorian"
@@ -9607,7 +9607,7 @@
 	}
 }
 
-145618 = { 
+145618 = {
 	name="Denha"
 	dynasty=1022236
 	religion="nestorian"
@@ -9689,7 +9689,7 @@
 }
 
 32892 = {
-	name="Umar" 
+	name="Umar"
 	dynasty=7273
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9702,7 +9702,7 @@
 	}
 }
 32943 = {
-	name="Ali" 
+	name="Ali"
 	dynasty=7273
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9715,7 +9715,7 @@
 	}
 }
 32944 = {
-	name="Haqq ad-Din" 
+	name="Haqq ad-Din"
 	dynasty=7273
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9728,7 +9728,7 @@
 	}
 }
 32947 = {
-	name="Ali" 
+	name="Ali"
 	dynasty=7273
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9741,7 +9741,7 @@
 	}
 }
 32945 = {
-	name="Sabr ad-Din" 
+	name="Sabr ad-Din"
 	dynasty=7273
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9754,7 +9754,7 @@
 	}
 }
 32946 = {
-	name="Jamal ad-Din" 
+	name="Jamal ad-Din"
 	dynasty=7273
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9767,7 +9767,7 @@
 	}
 }
 32948 = {
-	name="Ahmad ad-Din" 
+	name="Ahmad ad-Din"
 	dynasty=7273
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -9779,7 +9779,7 @@
 		death="1375.1.1"
 	}
 }
-145965 = { 
+145965 = {
 	name="Philemon"
 	dynasty=1022236
 	religion="nestorian"
@@ -9792,7 +9792,7 @@
 		death="789.1.1"
 	}
 }
-145966 = { 
+145966 = {
 	name="Athanasios"
 	dynasty=1022236
 	religion="nestorian"
@@ -9805,7 +9805,7 @@
 		death="822.1.1"
 	}
 }
-145967 = { 
+145967 = {
 	name="Epiphanios"
 	dynasty=1022236
 	religion="nestorian"
@@ -9917,7 +9917,7 @@
 73180={
 	name="Abd-al-Malik"
 	dynasty=599
-	
+
 	father=45005
 
 	religion=sunni
@@ -9954,7 +9954,7 @@
 	1144.1.1={
 		add_claim=d_valencia
 		add_claim=c_valencia
-		add_claim=c_castellon		
+		add_claim=c_castellon
 	}
 	1145.1.1={
 		remove_claim=d_valencia
@@ -9979,13 +9979,13 @@
 73216={
 	name="Abd-al-Yabbar"
 	dynasty=594
-	
+
 	father=3214
 	mother=73211
-	
+
 	religion=sunni
 	culture=bedouin_arabic
-	
+
 	1067.1.1={
 		birth = yes
 	}
@@ -10002,7 +10002,7 @@
 
 	religion=sunni
 	culture=bedouin_arabic
-	
+
 	983.1.1={
 		birth = yes
 	}
@@ -10061,7 +10061,7 @@
 	dynasty=597
 
 	father=73679
-	
+
 	trait=sayyid
 
 	religion=sunni
@@ -10079,7 +10079,7 @@
 	dynasty=597
 
 	father=73679
-	
+
 	trait=sayyid
 
 	religion=sunni
@@ -10097,7 +10097,7 @@
 	dynasty=597
 
 	father=73679
-	
+
 	trait=sayyid
 
 	religion=sunni
@@ -10428,7 +10428,7 @@
 }
 188608 = {
 	name="Jabir" # Jabir b Tubah, governor of Basra
-	dynasty=1042113 # Kilabid 
+	dynasty=1042113 # Kilabid
 	religion="sunni"
 	culture="bedouin_arabic"
 	725.1.1={
@@ -10440,7 +10440,7 @@
 }
 188609 = {
 	name="Muhammad" # Muhammad b Sulayman b Ali, governor of Kufa
-	dynasty=1042114 # Kufahyid 
+	dynasty=1042114 # Kufahyid
 	religion="sunni"
 	culture="bedouin_arabic"
 	729.1.1={
@@ -10451,8 +10451,8 @@
 	}
 }
 188624 = {
-	name="Hakim" 
-	dynasty=1042121 # Abd al-Qays 
+	name="Hakim"
+	dynasty=1042121 # Abd al-Qays
 	religion="sunni"
 	culture="bedouin_arabic"
 	711.1.1={
@@ -10464,7 +10464,7 @@
 }
 188625 = {
 	name="Aghlab" # fictitious
-	dynasty=1042121 # Abd al-Qays 
+	dynasty=1042121 # Abd al-Qays
 	religion="sunni"
 	culture="bedouin_arabic"
 	father=188624
@@ -10477,7 +10477,7 @@
 }
 188626 = {
 	name="Sulayman" # leader in Bahrain
-	dynasty=1042121 # Abd al-Qays 
+	dynasty=1042121 # Abd al-Qays
 	religion="sunni"
 	culture="bedouin_arabic"
 	father=188624
@@ -10490,7 +10490,7 @@
 }
 188627 = {
 	name="Ibrahim" # fictitious
-	dynasty=1042121 # Abd al-Qays 
+	dynasty=1042121 # Abd al-Qays
 	religion="sunni"
 	culture="bedouin_arabic"
 	father=188626
@@ -10503,7 +10503,7 @@
 }
 188610 = {
 	name="Muhammad" # Muhammad b Ibrahim, governor of Mecca
-	dynasty=1042115 # Ibrahimid 
+	dynasty=1042115 # Ibrahimid
 	religion="sunni"
 	culture="bedouin_arabic"
 	729.1.1={
@@ -10514,7 +10514,7 @@
 	}
 }
 188611 = {
-	name="Abbas" 
+	name="Abbas"
 	dynasty=101727
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -10930,7 +10930,7 @@
 }
 188605 = {
 	name="Uways" # fictitious governor of Makran
-	dynasty=1042133 
+	dynasty=1042133
 	religion="sunni"
 	culture="bedouin_arabic"
 	723.1.1={
@@ -10942,7 +10942,7 @@
 }
 188606 = {
 	name="Hisham" # fictitious governor of Kerman
-	dynasty=1042137 
+	dynasty=1042137
 	religion="sunni"
 	culture="bedouin_arabic"
 	729.1.1={
@@ -11805,7 +11805,7 @@
 }
 146132 = {
 	name="Muhammad"
-	dynasty=1022366 # Taglibid or al-Taglibi 
+	dynasty=1022366 # Taglibid or al-Taglibi
 	religion="sunni"
 	culture="bedouin_arabic"
 
@@ -11869,7 +11869,7 @@
 	}
 }
 188653 = {
-	name="Shu'ayb" 
+	name="Shu'ayb"
 	dynasty=1042122 # Banu Tamim
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -11922,7 +11922,7 @@
 }
 188683 = {
 	# general who fought al-Muqanna
-	name="Uqbah" 
+	name="Uqbah"
 	dynasty=1042150
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -11935,7 +11935,7 @@
 }
 188649 = {
 	name="Umarah" # governor of Ahwaz in 773
-	dynasty=1042139 # Hamzahbid 
+	dynasty=1042139 # Hamzahbid
 	religion="sunni"
 	culture="bedouin_arabic"
 	trait=fortune_builder
@@ -12099,7 +12099,7 @@
 	}
 }
 188697 = {
-	name="Abu-Dulaf" 
+	name="Abu-Dulaf"
 	dynasty=809 # Dulafid
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -12112,7 +12112,7 @@
 	}
 }
 188698 = {
-	name="Isa" 
+	name="Isa"
 	dynasty=809 # Dulafid
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -12125,7 +12125,7 @@
 	}
 }
 188699 = {
-	name="Edris" 
+	name="Edris"
 	dynasty=809 # Dulafid
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -12616,7 +12616,7 @@
 	}
 }
 188763 = {
-	name="al-Julanda"	
+	name="al-Julanda"
 	dynasty=1042181
 	religion="ibadi"
 	culture="bedouin_arabic"
@@ -12628,7 +12628,7 @@
 	}
 }
 194176 = {
-	name="Muhammad"	
+	name="Muhammad"
 	dynasty=1042181
 	religion="ibadi"
 	culture="bedouin_arabic"
@@ -12677,7 +12677,7 @@
 	}
 }
 32891 = {
-	name="Dunya-huz" 
+	name="Dunya-huz"
 	dynasty=7273
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -12758,7 +12758,7 @@
 45002={
 	name="Abd-al-Rahman"
 	dynasty=101607
-	
+
 	father = 45001
 
 	religion=sunni
@@ -12774,7 +12774,7 @@
 45025={
 	name="Abd-al-Aziz"
 	dynasty=569
-	
+
 	father=73226
 
 	religion=sunni
@@ -12790,7 +12790,7 @@
 45026={
 	name="Abd-al-Malik"
 	dynasty=569
-	
+
 	father=45025
 
 	religion=sunni
@@ -12828,12 +12828,12 @@
 	dynasty = 1051142
 	religion = sunni
 	culture = bedouin_arabic
-	
+
 	trait = brilliant_strategist
 	trait = diligent
 	trait = brave
 	trait = quick
-	
+
 	669.4.17 = {
 		birth = yes
 	}

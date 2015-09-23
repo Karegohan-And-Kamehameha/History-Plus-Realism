@@ -19,10 +19,13 @@ b_abingdon = temple
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1071.1.1 = { capital = b_wallingford } # d'Olliy
-1100.11.11 = { culture = english } 
-1121.11.11 = { b_reading = temple } 
+1100.11.11 = { culture = english }
+1121.11.11 = { b_reading = temple }
 1231.1.1 = { capital = b_windsor } # Wallingford to Cornwall

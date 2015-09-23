@@ -18,6 +18,8 @@ religion = norse_pagan
 # History
 1015.1.1 = { b_hoeyanger = castle
 b_aurland = castle} #Fat Olav
-1024.1.1 = { religion = catholic }
-1047.10.25 = { culture = norwegian } 
-
+1024.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = norwegian }
+1054.1.1 = {
+	religion = catholic
+}

@@ -8,7 +8,7 @@ max_settlements = 3
 
 b_gorlitz = tribal
 #b_raothenburg = castle
-#b_bautzen = city 
+#b_bautzen = city
 #b_zittau = castle
 
 # Misc
@@ -17,5 +17,8 @@ religion = slavic_pagan
 
 # History
 926.1.1 = { b_gorlitz = castle } # Geronen
-937.1.1 = { religion = catholic }
+937.1.1 = { religion = chalcedonian }
 #1220.1.1 = { culture = german }
+1054.1.1 = {
+	religion = catholic
+}

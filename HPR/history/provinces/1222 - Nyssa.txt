@@ -11,12 +11,14 @@ b_aspona = castle
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
 
 # The Seljuks take over Anatolia
-
+1054.1.1 = {
+	religion = orthodox
+}
 1097.8.26 = { culture = turkmen }
 1097.8.26 = { religion = sunni }
 1256.1.1 = { culture = turkish }

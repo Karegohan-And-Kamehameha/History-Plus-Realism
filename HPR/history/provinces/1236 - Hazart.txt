@@ -15,17 +15,19 @@ b_harimantiochia = temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
 
 
-# Mongol invasion 
+# Mongol invasion
 
 # Conquered by the Mamluks
-
+1054.1.1 = {
+	religion = orthodox
+}
 1268.1.1 = { culture = levantine_arabic }
-1268.1.1 = { religion = sunni } 
+1268.1.1 = { religion = sunni }
 
 
 

@@ -20,4 +20,7 @@ religion = slavic_pagan
 
 # History
 
-900.1.1 = { religion = orthodox } 
+900.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = orthodox
+}

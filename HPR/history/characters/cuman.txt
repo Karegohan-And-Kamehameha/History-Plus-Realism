@@ -21,10 +21,13 @@
 125092 = {
 	name="Anna" # Wife of Vsevolod of Kiev, mother of Rostislavl of Pereyaslavl
 	female=yes
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="cuman"
 	1050.1.2={
 		birth="1050.1.2"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1111.1.2={
 		death="1111.1.2"
@@ -36,7 +39,7 @@
 	female=yes
 	religion="tengri_pagan"
 	culture="cuman"
-        father=1000233105 
+        father=1000233105
         mother=1000233106
 	1184.1.2={
 		birth = yes

@@ -303,11 +303,14 @@
 1000232651 = {
 	name="Alexios"
 	dynasty=1000102843
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="turkmen"
 
 	1044.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1081.1.1={
 		culture="greek"

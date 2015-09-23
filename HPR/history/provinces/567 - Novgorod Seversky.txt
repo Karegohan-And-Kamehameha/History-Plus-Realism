@@ -18,11 +18,14 @@ culture = russian
 religion = slavic_pagan
 
 # History
-988.1.1 = {religion = orthodox }
+988.1.1 = {religion = chalcedonian }
 990.1.1 = {
 b_novgorodseversky = castle
 b_glukhov = city
 b_putyvl = castle
 b_sevsk = city }
+1054.1.1 = {
+	religion = orthodox
+}
 1187.1.1 = { b_sosnytsia = city }
 1239.1.1 = { remove_settlement = b_sosnytsia } #Mongol invasion

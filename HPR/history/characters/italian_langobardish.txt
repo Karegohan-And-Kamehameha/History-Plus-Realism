@@ -8,7 +8,7 @@
 73346 = {
 	name="Lando"
 	dynasty=12243
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1000167110
 	1018.1.1 = {
@@ -16,6 +16,9 @@
 	}
 	1041.1.1 = {
 		add_spouse=73345
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death="1065.1.1"
@@ -25,12 +28,15 @@
 73347 = {
 	name="Atenulf"
 	dynasty=12243
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73346
 	mother=73345
 	1042.1.1 = {
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1105.1.1 = {
 		death="1105.1.1"
@@ -40,12 +46,15 @@
 73348 = {
 	name="Landulf"
 	dynasty=12243
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73346
 	mother=73345
 	1043.1.1 = {
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1107.1.1 = {
 		death="1107.1.1"
@@ -55,12 +64,15 @@
 73349 = {
 	name="Pandulf"
 	dynasty=12243
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73346
 	mother=73345
 	1045.1.1 = {
 		birth="1045.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1108.1.1 = {
 		death="1108.1.1"
@@ -70,12 +82,15 @@
 73350 = {
 	name="Lando"
 	dynasty=12243
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73346
 	mother=73345
 	1046.1.1 = {
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1098.1.1 = {
 		death="1098.1.1"
@@ -133,10 +148,13 @@
 	female=yes
 	dynasty=7184
 	father=73354
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	1018.1.1 = {
 		birth="1018.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.12.1 = {
 		death="1070.12.1"
@@ -145,12 +163,15 @@
 73317 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73318
 	mother=73320
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1068.1.1 = {
 		add_spouse=73319
@@ -162,7 +183,7 @@
 73318 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73321
 	mother=73322
@@ -172,6 +193,9 @@
 	1038.1.1 = {
 		add_spouse=73320
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1077.12.18 = {
 		death="1077.12.18"
 	}
@@ -179,10 +203,13 @@
 73319 = {
 	name="Altruda"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1119.7.7 = {
 		death="1119.7.7"
@@ -191,10 +218,13 @@
 73320 = {
 	name="Maria"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.5.20 = {
 		death="1069.5.20"
@@ -203,7 +233,7 @@
 73321 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73323
 	995.1.1 = {
@@ -212,6 +242,9 @@
 	1016.1.1 = {
 		add_spouse=73322
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1059.1.1 = {
 		death="1059.1.1"
 	}
@@ -219,10 +252,13 @@
 73322 = {
 	name="Altruda"
 	female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.5.20 = {
 		death="1069.5.20"
@@ -231,7 +267,7 @@
 73323 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73324
 	978.1.1 = {
@@ -244,7 +280,7 @@
 73324 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73325
 	953.1.1 = {
@@ -257,7 +293,7 @@
 73325 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73328
 	930.1.1 = {
@@ -270,7 +306,7 @@
 73326 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73327
 	950.1.1 = {
@@ -283,7 +319,7 @@
 73327 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73328
 	927.1.1 = {
@@ -296,7 +332,7 @@
 73328 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73330
 	902.1.1 = {
@@ -309,7 +345,7 @@
 73329 = {
 	name="Atenulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73330
 	900.1.1 = {
@@ -322,7 +358,7 @@
 73330 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73331
 	872.1.1 = {
@@ -335,7 +371,7 @@
 73331 = {
 	name="Atenulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	847.1.1 = {
 		birth="847.1.1"
@@ -347,7 +383,7 @@
 73332 = {
 	name="Atenulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73331
 	874.1.1 = {
@@ -360,7 +396,7 @@
 73333 = {
 	name="Landenulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73327
 	956.1.1 = {
@@ -373,7 +409,7 @@
 73334 = {
 	name="Laidulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73327
 	957.1.1 = {
@@ -386,7 +422,7 @@
 73335 = {
 	name="Adhemar"
 	dynasty=12244
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	956.1.1 = {
 		birth="956.1.1"
@@ -398,7 +434,7 @@
 73336 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73325
 	952.1.1 = {
@@ -411,7 +447,7 @@
 73337 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73336
 	976.1.1 = {
@@ -424,7 +460,7 @@
 73338 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73324
 	977.1.1 = {
@@ -437,7 +473,7 @@
 73339 = {
 	name="Gisulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73327
 	959.1.1 = {
@@ -450,7 +486,7 @@
 73340 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73339
 	982.1.1 = {
@@ -463,7 +499,7 @@
 73341 = {
 	name="Ioann"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73340
 	1005.1.1 = {
@@ -476,11 +512,14 @@
 73342 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73338
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1057.1.1 = {
 		death="1057.1.1"
@@ -489,11 +528,14 @@
 73343 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73342
 	1022.1.1 = {
 		birth="1022.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1078.1.1 = {
 		death="1078.1.1"
@@ -503,11 +545,14 @@
 	name="Sichelgaita"
 	female=yes
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73343
 	1041.1.1 = {
 		birth="1041.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1098.1.1 = {
 		death="1098.1.1"
@@ -517,11 +562,14 @@
 	name="Adelgrima"
 	female=yes
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73342
 	1023.1.1 = {
 		birth="1023.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1105.1.1 = {
 		death="1105.1.1"
@@ -530,7 +578,7 @@
 73354 = {
 	name="Laidulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73338
 	1002.1.1 = {
@@ -543,7 +591,7 @@
 73355 = {
 	name="Pandulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73354
 	1022.1.1 = {
@@ -560,7 +608,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=73323
 	add_trait="humble"
@@ -568,6 +616,9 @@
 	add_trait="scholarly_theologian"
 	1026.1.1 = {
 		birth="1026.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.5.25 = {
 		name = "Victor"
@@ -602,7 +653,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	1010.1.1 = {
 		birth="1010.1.1"
@@ -612,7 +663,7 @@
 	}
 }
 ##############################################################################################
-#di Morra  
+#di Morra
 71812 = {
 	name="Alberto"
 	dynasty=13044
@@ -625,7 +676,7 @@
 	add_trait="trusting"
 	add_trait="scholar"
 	add_trait="detached_priest"
-	
+
 	1105.1.1 = {
 		birth="1105.1.1"
 	}
@@ -647,7 +698,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	add_trait="deceitful"
 	add_trait="lustful"
@@ -674,7 +725,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	add_trait="envious"
 	add_trait="cynical"
@@ -684,6 +735,9 @@
 	mother=30854
 	1035.1.1 = {
 		birth="1035.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1091.1.2 = {
 		death="1091.1.2"
@@ -698,7 +752,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	add_trait="brave"
 	add_trait="tough_soldier"
@@ -706,6 +760,9 @@
 	mother=30854
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.7.27 = {
 		death="1090.7.27"
@@ -720,7 +777,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	add_trait="honest"
 	add_trait="amateurish_plotter"
@@ -728,6 +785,9 @@
 	mother=1117
 	1032.1.1 = {
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1087.1.1 = {
 		death="1087.1.1"
@@ -742,12 +802,15 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	add_trait="flamboyant_schemer"
 	father=30856
 	1034.1.1 = {
 		birth="1034.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.1 = {
 		death="1085.1.1"
@@ -756,12 +819,15 @@
 30861 = {
 	name="Waimar"
 	dynasty=100336
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1116
 	mother=30854
 	1039.1.1 = {
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1076.1.1 = {
 		death="1076.1.1"
@@ -770,12 +836,15 @@
 30860 = {
 	name="Ioann"
 	dynasty=100336
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1116
 	mother=30854
 	1038.1.1 = {
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.1.1 = {
 		death="1095.1.1"
@@ -784,12 +853,15 @@
 30859 = {
 	name="Wido"
 	dynasty=100336
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1116
 	mother=30854
 	1037.1.1 = {
 		birth="1037.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.1.1 = {
 		death="1075.1.1"
@@ -799,12 +871,15 @@
 	name="Gatteclina"
 	female=yes
 	dynasty=100336
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1116
 	mother=30854
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1108.12.9 = {
 		death="1108.12.9"
@@ -814,11 +889,14 @@
 30856 = {
 	name="Wido"
 	dynasty=100336
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=30857
 	1012.1.1 = {
 		birth="1012.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1077.1.1 = {
 		death="1077.1.1"
@@ -828,7 +906,7 @@
 30857 = {
 	name="Waimar"
 	dynasty=100336
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	970.1.1 = {
 		birth="970.1.1"
@@ -841,12 +919,15 @@
 30858 = {
 	name="Landulf"
 	dynasty=100336
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1116
 	mother=30854
 	1036.1.1 = {
 		birth="1036.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.1.1 = {
 		death="1075.1.1"
@@ -873,10 +954,13 @@
 	name="Sichelgaita"
 	female=yes
 	dynasty=7186
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	1044.1.1 = {
 		birth="1044.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1101.9.1 = {
 		death="1101.9.1"
@@ -906,7 +990,7 @@
 145216 = {
 	name="Radelchis"
 	dynasty=804
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	790.1.1 = {
 		birth="790.1.1"
@@ -919,7 +1003,7 @@
 145217 = {
 	name="Radelgar"
 	dynasty=804
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 145216
 	818.1.1 = {
@@ -933,7 +1017,7 @@
 145218 = {
 	name="Guaifer"
 	dynasty=804
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 145217
 	840.1.1 = {
@@ -947,7 +1031,7 @@
 145219 = {
 	name="Radelchis"
 	dynasty=804
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163071
 	845.1.1 = {
@@ -961,7 +1045,7 @@
 145220 = {
 	name="Aiulf"
 	dynasty=804
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163071
 	847.1.1 = {
@@ -975,7 +1059,7 @@
 145221 = {
 	name="Ursus"
 	dynasty=804
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 145220
 	866.1.1 = {
@@ -988,7 +1072,7 @@
 163071 = {
 	name="Adelchis"
 	dynasty=804
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	820.1.1 = {
 		birth="820.1.1"
@@ -1002,7 +1086,7 @@
 163072 = {
 	name="Landenolf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163075
 	810.1.1 = {
@@ -1016,7 +1100,7 @@
 163073 = {
 	name="Landeolf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163072
 	846.1.1 = {
@@ -1030,7 +1114,7 @@
 163074 = {
 	name="Lando"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163072
 	845.1.1 = {
@@ -1044,7 +1128,7 @@
 163075 = {
 	name="Landolf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	780.1.1 = {
 		birth="780.1.1"
@@ -1057,7 +1141,7 @@
 163076 = {
 	name="Lando"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163075
 	798.1.1 = {
@@ -1070,7 +1154,7 @@
 145206 = {
 	name="Lando"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163076
 	820.1.1 = {
@@ -1083,7 +1167,7 @@
 163077 = {
 	name="Pando"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163075
 	799.1.1 = {
@@ -1097,7 +1181,7 @@
 163078 = {
 	name="Pandenolf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163077
 	830.1.1 = {
@@ -1111,7 +1195,7 @@
 163079 = {
 	name="Landulf"
 	dynasty=7184
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163075
 	801.1.1 = {
@@ -1126,7 +1210,7 @@
 163091 = {
 	name="Guaifer"
 	dynasty=805
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	830.1.1={
 		birth="830.1.1"
@@ -1138,7 +1222,7 @@
 145207 = {
 	name="Sico"
 	dynasty=805
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	758.1.1={
 		birth="758.1.1"
@@ -1151,7 +1235,7 @@
 145208 = {
 	name="Sicard"
 	dynasty=805
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 145207
 	790.1.1={
@@ -1165,7 +1249,7 @@
 145209 = {
 	name="Siconulf"
 	dynasty=805
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 145207
 	792.1.1={
@@ -1179,7 +1263,7 @@
 145210 = {
 	name="Sico"
 	dynasty=805
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 145209
 	837.1.1={
@@ -1194,7 +1278,7 @@
 145213 = {
 	name="Daufer"
 	dynasty=1022178
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	780.1.1={
 		birth="780.1.1"
@@ -1207,7 +1291,7 @@
 145214 = {
 	name="Daufer"
 	dynasty=1022178
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 145213
 	810.1.1={
@@ -1221,7 +1305,7 @@
 145215 = {
 	name="Guaimar"
 	dynasty=1022178
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father = 163091
 	855.1.1={

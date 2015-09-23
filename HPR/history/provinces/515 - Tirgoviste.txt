@@ -14,10 +14,12 @@ b_targoviste = tribal
 
 # Misc
 culture = romanian
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 1220.1.1 = { b_targoviste = castle
 b_campulung = city
 b_curteadearges = temple}

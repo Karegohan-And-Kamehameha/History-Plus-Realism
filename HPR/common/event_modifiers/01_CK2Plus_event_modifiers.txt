@@ -76,6 +76,21 @@ byzantium_orthodox = {
 	icon = 17
 }
 
+customs_house_1 = {
+	tax_income = 2
+	icon = 62
+}
+
+customs_house_2 = {
+	tax_income = 4
+	icon = 62
+}
+
+customs_house_3 = {
+	icon = 61
+	tax_income = 7
+}
+
 decadence_unrest = {
 	local_revolt_risk = 0.1
 	local_tax_modifier = -0.5
@@ -452,6 +467,11 @@ orthodox_ma = {
 	icon = 1
 }
 
+patriarch_in_constantinople = {
+	local_revolt_risk = -0.03
+	icon = 17
+}
+
 patron_addai = {
 	icon = 17
 	learning = 2
@@ -541,18 +561,6 @@ paulician_suppression = {
 	icon = 26
 }
 
-promised_riches = {
-	local_tax_modifier = 0.04
-	town_opinion = 5
-	tech_growth_modifier_economy = 0.04
-	icon = 10
-}
-
-promised_victory = {
-	land_morale = 0.1
-	icon = 13
-}
-
 peasant_obstructionism = {
 	local_revolt_risk = 0.01
 	icon = 32
@@ -610,8 +618,25 @@ plot_assisted_spying5 = {
 	icon = 5
 }
 
+pope_in_rome = {
+	local_revolt_risk = -0.03
+	icon = 8
+}
+
 potential_cadet = {
 	icon = 1
+}
+
+promised_riches = {
+	local_tax_modifier = 0.04
+	town_opinion = 5
+	tech_growth_modifier_economy = 0.04
+	icon = 10
+}
+
+promised_victory = {
+	land_morale = 0.1
+	icon = 13
 }
 
 province_chaos = {
@@ -842,11 +867,27 @@ third_temple_builder = {
 	icon = 12
 }
 
+toll_booth_1 = {
+	tax_income = 2
+	icon = 62
+}
+
+toll_booth_2 = {
+	tax_income = 4
+	icon = 62
+}
+
+toll_booth_3 = {
+	icon = 61
+	tax_income = 7
+}
+
 tournament_fight = {
 	icon = 13
 }
 
 trade_guild_hq = {
+	tax_income = 8
 	icon = 6
 }
 

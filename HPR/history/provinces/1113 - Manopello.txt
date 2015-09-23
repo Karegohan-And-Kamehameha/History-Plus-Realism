@@ -16,5 +16,8 @@ b_manopello = castle
 #b_castiglionemessermarino = city
 
 # Misc
-religion = catholic
+religion = chalcedonian
 culture = southern_italian
+1054.1.1 = {
+	religion = catholic
+}

@@ -11,15 +11,17 @@ b_mile = temple
 #b_olovac = city
 #b_mostre = temple #Theological university 1175
 
- 
+
 
 
 
 
 # Misc
 culture = bosnian
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1232.1.1= { religion = bogomilist } 
+1054.1.1 = {
+	religion = catholic
+}
+1232.1.1= { religion = bogomilist }

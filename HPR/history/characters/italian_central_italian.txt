@@ -13,12 +13,15 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="just"
 	add_trait="tough_soldier"
 	1039.1.1 = {
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.1.1 = {
 		death="1095.1.1"
@@ -36,9 +39,9 @@
 	add_trait="falconer"
 	add_trait="cynical"
 	add_trait="misguided_warrior"
-	
+
 	father=20330
-	
+
 	1060.1.1 = {
 		birth="1060.1.1"
 	}
@@ -59,7 +62,7 @@
 	add_trait="just"
 	add_trait="charismatic_negotiator"
 	father=70839
-	
+
 	1090.1.1 = {
 		birth="1090.1.1"
 	}
@@ -83,7 +86,7 @@
 	add_trait="ambitious"
 	add_trait="scholarly_theologian"
 	father=70840
-	
+
 	1110.1.1 = {
 		birth="1110.1.1"
 	}
@@ -108,7 +111,7 @@
 	add_trait="wroth"
 	add_trait="skilled_tactician"
 	father=70840
-	
+
 	1112.1.1 = {
 		birth="1112.1.1"
 	}
@@ -129,7 +132,7 @@
 	add_trait="slow"
 	add_trait="misguided_warrior"
 	father=70842
-	
+
 	1130.1.1 = {
 		birth="1130.1.1"
 	}
@@ -154,7 +157,7 @@
 	add_trait="naive_appeaser"
 	father=70843
 	mother=70844
-	
+
 	1151.1.1 = {
 		birth="1151.1.1"
 	}
@@ -207,7 +210,7 @@
 	add_trait="naive_appeaser"
 	father=70846
 	mother=70847
-	
+
 	1202.1.1 = {
 		birth="1202.1.1"
 	}
@@ -237,7 +240,7 @@
 	add_trait="mastermind_theologian"
 	father=70846
 	mother=70847
-	
+
 	1204.1.1 = {
 		birth="1204.1.1"
 	}
@@ -305,7 +308,7 @@
 	add_trait="charismatic_negotiator"
 	father=70846
 	mother=70847
-	
+
 	1210.1.1 = {
 		birth="1210.1.1"
 	}
@@ -326,7 +329,7 @@
 	add_trait="cynical"
 	add_trait="amateurish_plotter"
 	father=70854
-	
+
 	1231.1.1 = {
 		birth="1231.1.1"
 	}
@@ -347,7 +350,7 @@
 	add_trait="lustful"
 	add_trait="charismatic_negotiator"
 	father=70855
-	
+
 	1250.1.1 = {
 		birth="1250.1.1"
 	}
@@ -380,7 +383,7 @@
 	add_trait="quick"
 	add_trait="amateurish_plotter"
 	father=70855
-	
+
 	1255.1.1 = {
 		birth="1255.1.1"
 	}
@@ -402,7 +405,7 @@
 	add_trait="envious"
 	add_trait="flamboyant_schemer"
 	father=70855
-	
+
 	1260.1.1 = {
 		birth="1260.1.1"
 	}
@@ -431,13 +434,13 @@
 	1293.6.6 = {
 		add_spouse=70863 #Anastasia de Montfort
 	}
-	
+
 	1327.1.1 = {
 		death="1327.1.1"
 	}
 }
 70864 = {
-	name="Roberto" #	
+	name="Roberto" #
 	# AKA: Roberto Orsini
 	dynasty=2 #Orsini
 	martial=5
@@ -453,7 +456,7 @@
 	mother=70863
 	1295.1.1 = {
 		birth="1295.1.1"
-	}	
+	}
 	1330.1.1 = {
 		add_spouse= 70865 #Sveva del Balzo
 	}
@@ -462,7 +465,7 @@
 	}
 }
 70866 = {
-	name="Guido" #	
+	name="Guido" #
 	# AKA: Guido Orsini
 	dynasty=2 #Orsini
 	martial=5
@@ -484,7 +487,7 @@
 	}
 }
 70867 = {
-	name="Nicola" #	
+	name="Nicola" #
 	# AKA: Nicola Orsini
 	dynasty=2 #Orsini
 	martial=8
@@ -508,7 +511,7 @@
 70868 = {
 	name="Giacomo" #Ecclesiastical
 	# AKA: Giacomo Orsini
-	dynasty=2 #Orsini	
+	dynasty=2 #Orsini
 	martial=3
 	diplomacy=4
 	intrigue=3
@@ -528,9 +531,9 @@
 	}
 }
 70869 = {
-	name="Anastasia" #	
+	name="Anastasia" #
 	# AKA: Anastasia Orsini
-	female=yes	
+	female=yes
 	dynasty=2 #Orsini
 	martial=5
 	diplomacy=3
@@ -551,7 +554,7 @@
 	}
 }
 70870 = {
-	name="Giordano" #	
+	name="Giordano" #
 	# AKA: Giordano Orsini
 	dynasty=2 #Orsini
 	martial=8
@@ -573,7 +576,7 @@
 	}
 }
 70871 = {
-	name="Rinaldo" #	
+	name="Rinaldo" #
 	# AKA: Rinaldo Orsini
 	dynasty=2 #Orsini
 	martial=8
@@ -589,13 +592,13 @@
 	#mother?
 	1261.1.1 = {
 		birth="1261.1.1"
-	}	
+	}
 	1320.1.1 = {
 		death="1320.1.1"
 	}
 }
 70872 = {
-	name="Giordano" #	
+	name="Giordano" #
 	# AKA: Giordano Orsini
 	dynasty=2 #Orsini
 	martial=3
@@ -611,13 +614,13 @@
 	#mother?
 	1280.1.1 = {
 		birth="1280.1.1"
-	}	
+	}
 	1342.1.1 = {
 		death="1342.1.1"
 	}
 }
 70873 = {
-	name="Rinaldo" #	
+	name="Rinaldo" #
 	# AKA: Rinaldo Orsini
 	dynasty=2 #Orsini
 	martial=6
@@ -633,13 +636,13 @@
 	#mother?
 	1308.1.1 = {
 		birth="1308.1.1"
-	}	
+	}
 	1357.1.1 = {
 		death="1357.1.1"
 	}
 }
 70874 = {
-	name="Giordano" #	
+	name="Giordano" #
 	# AKA: Giordano Orsini
 	dynasty=2 #Orsini
 	martial=3
@@ -655,7 +658,7 @@
 	#mother
 	1330.1.1 = {
 		birth="1330.1.1"
-	}	
+	}
 	1351.1.1 = {
 		add_spouse=70869 #Anastasia Orsini
 	}
@@ -676,7 +679,7 @@
 	add_trait="zealous"
 	add_trait="skilled_tactician"
 	father=70855
-	
+
 	1263.1.1 = {
 		birth="1263.1.1"
 	}
@@ -697,9 +700,9 @@
 	add_trait="cynical"
 	add_trait="clubfooted"
 	add_trait="tough_soldier"
-	
+
 	father=478503
-	
+
 	1291.1.1 = {
 		birth="1291.1.1"
 	}
@@ -759,13 +762,13 @@
 	}
 	1299.1.1 = {
 		add_spouse=31340
-	}	
+	}
 	1303.4.7 = {
 		death="1303.4.7"
 	}
 }
 31439 = {
-	name="Theodoro" 
+	name="Theodoro"
 	dynasty=7215 #Orsini
 	religion="catholic"
 	culture="central_italian"
@@ -795,7 +798,7 @@
 	}
 }
 31437 = {
-	name="Guglielmo" 
+	name="Guglielmo"
 	dynasty=7215 #Orsini
 	religion="catholic"
 	culture="central_italian"
@@ -808,7 +811,7 @@
 	}
 }
 31438 = {
-	name="Agnese" 
+	name="Agnese"
 	female=yes
 	dynasty=7215 #Orsini
 	religion="catholic"
@@ -914,7 +917,7 @@
 	add_trait="shy"
 	add_trait="patient"
 	add_trait="charismatic_negotiator"
-	
+
 	1132.1.1 = {
 		birth="1132.1.1"
 	}
@@ -954,7 +957,7 @@
 	add_trait="paranoid"
 	add_trait="deceitful"
 	add_trait="scholarly_theologian"
-	
+
 	1235.1.1 = {
 		birth="1235.1.1"
 	}
@@ -978,7 +981,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -994,13 +997,13 @@
 
 7915 = {
 	name="Maria"
-	female=yes 
+	female=yes
 	dynasty=7051
 	martial=6
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -1074,7 +1077,7 @@
 	add_trait="just"
 	add_trait="stutter"
 	add_trait="underhanded_rogue"
-	
+
 	1293.1.1 = {
 		birth="1293.1.1"
 	}
@@ -1100,7 +1103,7 @@
 	add_trait="ambitious"
 	add_trait="quick"
 	add_trait="charismatic_negotiator"
-	
+
 	1211.1.1 = {
 		birth="1211.1.1"
 	}
@@ -1112,9 +1115,9 @@
 #Pierleoni
 
 70861 = {
-	name="Giocoma" #	
+	name="Giocoma" #
 	# AKA: Giocoma Pierleoni
-	female=yes	
+	female=yes
 	dynasty=8723 #Pierleoni
 	martial=5
 	diplomacy=8
@@ -1147,7 +1150,7 @@
 
 
 ##############################################################################################
-#Pio 
+#Pio
 
 70693 = {
 	name="Domenica"
@@ -1162,7 +1165,7 @@
 	add_trait="diligent"
 	add_trait="paranoid"
 	add_trait="charismatic_negotiator"
-	
+
 	1305.1.1 = {
 		birth="1305.1.1"
 	}
@@ -1197,7 +1200,7 @@
 
 
 ##############################################################################################
-#di Castello 
+#di Castello
 
 71805 = {
 	name="Guido"
@@ -1211,7 +1214,7 @@
 	add_trait="charitable"
 	add_trait="kind"
 	add_trait="scholarly_theologian"
-	
+
 	1071.1.1 = {
 		birth="1071.1.1"
 	}
@@ -1224,7 +1227,7 @@
 	}
 }
 ##############################################################################################
-#della Suburra 
+#della Suburra
 
 71808 = {
 	name="Corrado"
@@ -1238,7 +1241,7 @@
 	add_trait="patient"
 	add_trait="arbitrary"
 	add_trait="detached_priest"
-	
+
 	1073.1.1 = {
 		birth="1073.1.1"
 	}
@@ -1281,7 +1284,7 @@
 	add_trait="detached_priest"
 	father=71819
 	mother=71818
-	
+
 	1199.1.1 = {
 		birth="1199.1.1"
 	}
@@ -1310,7 +1313,7 @@
 	add_trait="honest"
 	add_trait="mastermind_theologian"
 	father=71801
-	
+
 	1070.1.1 = {
 		birth="1070.1.1"
 	}
@@ -1325,12 +1328,15 @@
 71801 = {
 	name="Pietro"
 	dynasty=13042
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="central_italian"
-	
+
 	1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1094.1.1 = {
 		death="1094.1.1"
@@ -1339,12 +1345,12 @@
 71802 = {
 	name="Oddone"
 	dynasty=13042
-	
+
 	religion="catholic"
 	culture="central_italian"
-	
+
 	father=71801
-	
+
 	1068.1.1 = {
 		birth="1068.1.1"
 	}
@@ -1355,13 +1361,13 @@
 71803 = {
 	name="Gregorio"
 	dynasty=13042
-	
+
 	religion="catholic"
 	culture="central_italian"
 	add_trait="detached_priest"
-	
+
 	father=71802
-	
+
 	1102.1.1 = {
 		birth="1102.1.1"
 	}
@@ -1372,13 +1378,13 @@
 71804 = {
 	name="Pietro"
 	dynasty=13042
-	
+
 	religion="catholic"
 	culture="central_italian"
 	add_trait="detached_priest"
-	
+
 	father=71801
-	
+
 	1072.1.1 = {
 		birth="1072.1.1"
 	}
@@ -1444,7 +1450,7 @@
 	add_trait="scholar"
 	add_trait="just"
 	add_trait="detached_priest"
-	
+
 	1148.1.1 = {
 		birth="1148.1.1"
 	}
@@ -1565,9 +1571,9 @@
 	}
 }
 70859 = {
-	name="Simonetta" #	
+	name="Simonetta" #
 	# AKA: Simonetta di Roma
-	female=yes	
+	female=yes
 	dynasty=100333 #Roma
 	martial=4
 	diplomacy=3
@@ -1580,7 +1586,7 @@
 	add_trait="paranoid"
 	1252.1.1 = {
 		birth="1252.1.1"
-	}	
+	}
 	1284.1.1 = {
 		death="1284.1.1"
 	}
@@ -1594,7 +1600,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -1617,7 +1623,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -1642,7 +1648,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -1664,7 +1670,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -1686,7 +1692,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -1708,7 +1714,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -1717,6 +1723,9 @@
 	father=7935
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1058.1.1 = {
 		death="1058.1.1"
@@ -1730,7 +1739,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -1739,6 +1748,9 @@
 	father=7936
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1108.1.1 = {
 		death="1058.1.1"
@@ -1791,7 +1803,7 @@
 	add_trait="just"
 	add_trait="ambitious"
 	add_trait="thrifty_clerk"
-	
+
 	1320.1.1 = {
 		birth="1320.1.1"
 	}
@@ -1845,10 +1857,13 @@
 73471 = {
 	name="Raniero"
 	dynasty=12250
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.1.1={
 		death="1086.1.1"
@@ -1892,10 +1907,13 @@
 #Holders of Ancona
 73492 = {
 	name="Giacinto"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	1024.1.1={
 		birth="1024.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.1.1={
 		death="1079.1.1"
@@ -1903,10 +1921,13 @@
 }
 73493 = {
 	name="Cosimo"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	1037.1.1={
 		birth="1037.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1099.1.1={
 		death="1099.1.1"
@@ -1998,10 +2019,13 @@
 #Holders of Urbino
 73604 = {
 	name="Mariano"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	1015.1.1={
 		birth="1015.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1072.1.1={
 		death="1072.1.1"
@@ -2010,10 +2034,13 @@
 
 73605 = {
 	name="Folco"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1089.1.1={
 		death="1089.1.1"

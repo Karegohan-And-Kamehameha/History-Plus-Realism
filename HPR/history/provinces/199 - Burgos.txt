@@ -15,10 +15,12 @@ b_castrojeriz = castle
 #b_silos = temple
 
 culture = castillan
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = {
 	b_burgos = ca_town_1
 	b_burgos = ca_town_2

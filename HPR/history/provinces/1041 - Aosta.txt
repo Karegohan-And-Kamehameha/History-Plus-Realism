@@ -18,9 +18,11 @@ b_verresaosta = city
 
 # Misc
 culture = arpitan
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1239.1.1 = { b_clyaosta = castle}
 1309.1.1 = { b_usselaosta = castle}

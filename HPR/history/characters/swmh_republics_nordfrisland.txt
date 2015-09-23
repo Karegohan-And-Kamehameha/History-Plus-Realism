@@ -1,7 +1,7 @@
 ##################################
-#North Frisian Republic #All Charcters and Dynasties are made up. 
+#North Frisian Republic #All Charcters and Dynasties are made up.
 #The republic starts(or rather it will when the mod gets updated for ToG) during Harald Klarks brief return as co king of Denmark in 819-824 where he brought serfs and warriors from Rüstringen(the county held as vassal of Emperor Ludwig during his years in exile), with him during his return home.
-#All republic families dies out in 1362 when Rungholt disapears into the sea during the great flood, and the republic comes to an end.The Duke of Slesvig was then allowed by the danish king to finally anex his de jure, except for a few small areas that contiuned to live directly under the Danish crown until 1864. 
+#All republic families dies out in 1362 when Rungholt disapears into the sea during the great flood, and the republic comes to an end.The Duke of Slesvig was then allowed by the danish king to finally anex his de jure, except for a few small areas that contiuned to live directly under the Danish crown until 1864.
 # COMPLETE ID RANGE for file: 1000144299-1000144468
 # 2 Danish and 3 Frisian dynaties, should more or less match the demographics of the ingame province during the timeline(it varied quite a lot though, and Danes might have outnumberd Frisians(Danes was the wast majority on the mainland(with a sizeable and increasing lowsaxon population also) while Frisians where predominate on the islands(the Islands vs mainland demographics pre 1362 is not known(but rungholt alone was very densely populated), after the greatflood it tilted massivle towards the mainlnand since most of the islands had disappeared and the population wiped out), but for sake of having the republic mainly frisian, its two danish families vs three frisian.
 ##################################
@@ -12,9 +12,9 @@
 #####################################
 #House founder
 1000144299 = {
-	name="Hardegon" 
+	name="Hardegon"
 	dynasty=1000053169
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	970.1.1={
 		birth="970.1.1"
@@ -31,10 +31,13 @@
 	name="Asfrid"
 	female = yes
 	dynasty=1000053174
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	985.1.1={
 		birth="985.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1={
 		death="1060.1.1"
@@ -42,9 +45,9 @@
 }
 #House Leader in 1040
 1000144301 = {
-	name="Ottar" 
+	name="Ottar"
 	dynasty=1000053169
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=1000144299
         mother=1000144300
@@ -53,6 +56,9 @@
 	}
 	1034.1.1={
 		add_spouse=1000144302
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1076.1.1={
 		death="1076.1.1"
@@ -63,10 +69,13 @@
 	name="Snæfrid"
 	female = yes
 	dynasty=1000053175
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norwegian"
 	1010.1.1={
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1081.1.1={
 		death="1081.1.1"
@@ -74,14 +83,17 @@
 }
 #Brother of House Leader 1040
 1000144323 = {
-	name="Ottar" 
+	name="Ottar"
 	dynasty=1000053169
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=1000144299
         mother=1000144300
 	1008.1.1={
 		birth="1008.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1083.1.1={
 		death="1083.1.1"
@@ -89,14 +101,17 @@
 }
 #House Leader 1076
 1000144303 = {
-	name="Heiligo" 
+	name="Heiligo"
 	dynasty=1000053169
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=1000144301
         mother=1000144302
 	1038.1.1={
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
         1073.1.1={
 		add_spouse=1000144304
@@ -109,11 +124,14 @@
 1000144304 = {
 	name="Yrsa"
 	female = yes
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="danish"
 	1050.1.1={
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1108.1.1={
 		death="1108.1.1"
@@ -124,12 +142,15 @@
 	name="Ragnhild"
 	female = yes
 	dynasty=1000053169
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=1000144301
         mother=1000144302
 	1043.1.1={
 		birth="1043.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1107.1.1={
 		death="1107.1.1"
@@ -137,7 +158,7 @@
 }
 #House Leader 1104
 1000144305 = {
-	name="Sigfred" 
+	name="Sigfred"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -157,7 +178,7 @@
 1000144306 = {
 	name="Gunhild"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1082.1.1={
@@ -169,7 +190,7 @@
 }
 #House Leader 1133
 1000144307 = {
-	name="Rurik" 
+	name="Rurik"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -189,7 +210,7 @@
 1000144308 = {
 	name="Inge"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1104.1.1={
@@ -201,7 +222,7 @@
 }
 #Brother of House Leader 1133
 1000144324 = {
-	name="Orm" 
+	name="Orm"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -216,7 +237,7 @@
 }
 #House Leader 1178
 1000144309 = {
-	name="Sigfred" 
+	name="Sigfred"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -236,7 +257,7 @@
 1000144310 = {
 	name="Margrete"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1127.1.1={
@@ -248,7 +269,7 @@
 }
 #House Leader 1198
 1000144311 = {
-	name="Niels" 
+	name="Niels"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -268,7 +289,7 @@
 1000144312 = {
 	name="Gudrun"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1163.1.1={
@@ -280,7 +301,7 @@
 }
 #House Leader 1234
 1000144313 = {
-	name="Asser" 
+	name="Asser"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -300,7 +321,7 @@
 1000144314 = {
 	name="Emma"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1187.1.1={
@@ -312,7 +333,7 @@
 }
 #House Leader 1269
 1000144315 = {
-	name="Esben" 
+	name="Esben"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -343,7 +364,7 @@
 }
 #House Leader 1298
 1000144317 = {
-	name="Halvor" 
+	name="Halvor"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -374,7 +395,7 @@
 }
 #House Leader 1335
 1000144319 = {
-	name="Ragner" 
+	name="Ragner"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -394,7 +415,7 @@
 1000144320 = {
 	name="Christine"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1286.1.1={
@@ -406,7 +427,7 @@
 }
 #Son of House Leader 1335
 1000144321 = {
-	name="Kristian" 
+	name="Kristian"
 	dynasty=1000053169
 	religion="catholic"
 	culture="danish"
@@ -426,7 +447,7 @@
 1000144322 = {
 	name="Birgit"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1314.1.1={
@@ -444,9 +465,9 @@
 #####################################
 #House founder
 1000144353 = {
-	name="Ragnvald" 
+	name="Ragnvald"
 	dynasty=1000053170
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	965.1.1={
 		birth="965.1.1"
@@ -463,7 +484,7 @@
 	name="Aud"
 	female = yes
 	dynasty=1000053176
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	968.1.1={
 		birth="968.1.1"
@@ -474,9 +495,9 @@
 }
 #First house Leader 1000
 1000144331 = {
-	name="Arnud" 
+	name="Arnud"
 	dynasty=1000053170
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=1000144353
         mother=1000144330
@@ -495,10 +516,13 @@
 	name="Gunhild"
 	female = yes
 	dynasty=1000053179
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swedish"
 	988.1.1={
 		birth="988.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1={
 		death="1060.1.1"
@@ -506,9 +530,9 @@
 }
 #House leader 1054
 1000144333 = {
-	name="Ratlof" 
+	name="Ratlof"
 	dynasty=1000053170
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=1000144331
         mother=1000144332
@@ -518,6 +542,9 @@
 	1037.1.1={
 		add_spouse=1000144334
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1088.1.1={
 		death="1088.1.1"
 	}
@@ -526,11 +553,14 @@
 1000144334 = {
 	name="Thyra"
 	female = yes
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="danish"
 	1018.1.1={
 		birth="1018.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1={
 		death="1090.1.1"
@@ -538,14 +568,17 @@
 }
 #House leader 1088
 1000144335 = {
-	name="Knuth" 
+	name="Knuth"
 	dynasty=1000053170
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="danish"
 	father=1000144333
         mother=1000144334
 	1038.1.1={
 		birth="1038.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.1.1={
 		add_spouse=1000144336
@@ -558,11 +591,14 @@
 1000144336 = {
 	name="Aslaug"
 	female = yes
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="norwegian"
 	1051.1.1={
 		birth="1051.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1123.1.1={
 		death="1123.1.1"
@@ -570,7 +606,7 @@
 }
 #House leader 1105
 1000144337 = {
-	name="Dir" 
+	name="Dir"
 	dynasty=1000053170
 	religion="catholic"
 	culture="danish"
@@ -590,7 +626,7 @@
 1000144338 = {
 	name="Thora"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1081.1.1={
@@ -602,7 +638,7 @@
 }
 #House leader 1155
 1000144339 = {
-	name="Ulrik" 
+	name="Ulrik"
 	dynasty=1000053170
 	religion="catholic"
 	culture="danish"
@@ -622,7 +658,7 @@
 1000144340 = {
 	name="Vibeke"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1106.1.1={
@@ -634,7 +670,7 @@
 }
 #House leader 1198
 1000144341 = {
-	name="Ratlof" 
+	name="Ratlof"
 	dynasty=1000053170
 	religion="catholic"
 	culture="danish"
@@ -654,7 +690,7 @@
 1000144342 = {
 	name="Ladgred"
 	female = yes
-	
+
 	religion="catholic"
 	culture="norwegian"
 	1156.1.1={
@@ -666,7 +702,7 @@
 }
 #House leader 1222
 1000144343 = {
-	name="Knuth" 
+	name="Knuth"
 	dynasty=1000053170
 	religion="catholic"
 	culture="danish"
@@ -686,7 +722,7 @@
 1000144344 = {
 	name="Tove"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1180.1.1={
@@ -698,7 +734,7 @@
 }
 #House leader 1266
 1000144345 = {
-	name="Ratlof" 
+	name="Ratlof"
 	dynasty=1000053170
 	religion="catholic"
 	culture="danish"
@@ -718,7 +754,7 @@
 1000144346 = {
 	name="Asfrid"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1223.1.1={
@@ -730,7 +766,7 @@
 }
 #House leader 1298
 1000144347 = {
-	name="Poul" 
+	name="Poul"
 	dynasty=1000053170
 	religion="catholic"
 	culture="danish"
@@ -750,7 +786,7 @@
 1000144348 = {
 	name="Kirsten"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1223.1.1={
@@ -762,7 +798,7 @@
 }
 #House leader 1317
 1000144349 = {
-	name="Niels" 
+	name="Niels"
 	dynasty=1000053170
 	religion="catholic"
 	culture="danish"
@@ -782,7 +818,7 @@
 1000144350 = {
 	name="Inge"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1280.1.1={
@@ -794,7 +830,7 @@
 }
 #Son of House leader 1317
 1000144351 = {
-	name="Jacob" 
+	name="Jacob"
 	dynasty=1000053170
 	religion="catholic"
 	culture="danish"
@@ -814,7 +850,7 @@
 1000144352 = {
 	name="Astrid"
 	female = yes
-	
+
 	religion="catholic"
 	culture="danish"
 	1300.1.1={
@@ -835,7 +871,7 @@
 1000144361 = {
 	name="Frethuhard"
 	dynasty=1000053171
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	984.1.1={
 		birth="984.1.1"
@@ -852,10 +888,13 @@
 	name="Brundonis"
 	female = yes
 	dynasty=1000053181
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	986.1.1={
 		birth="986.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1059.1.1={
 		death="1059.1.1"
@@ -865,7 +904,7 @@
 1000144363 = {
 	name="Eðelbern"
 	dynasty=1000053171
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=1000144361
 	mother=1000144362
@@ -874,6 +913,9 @@
 	}
         1034.1.1={
 		add_spouse=1000144364
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1={
 		death="1080.1.1"
@@ -884,10 +926,13 @@
 	name="Aafke"
 	female = yes
 	dynasty=1000053182
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	1010.1.1={
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1067.1.1={
 		death="1067.1.1"
@@ -897,12 +942,15 @@
 1000144365 = {
 	name="Blithulf"
 	dynasty=1000053171
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=1000144363
 	mother=1000144364
 	1036.1.1={
 		birth="1036.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
         1069.1.1={
 		add_spouse=1000144366
@@ -915,11 +963,14 @@
 1000144366 = {
 	name="Hadewidis"
 	female = yes
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frisian"
 	1049.1.1={
 		birth="1049.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1099.1.1={
 		death="1099.1.1"
@@ -947,7 +998,7 @@
 1000144368 = {
 	name="Brundonis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1080.1.1={
@@ -979,7 +1030,7 @@
 1000144370 = {
 	name="Aafke"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1110.1.1={
@@ -1011,7 +1062,7 @@
 1000144372 = {
 	name="Ælidis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1151.1.1={
@@ -1043,7 +1094,7 @@
 1000144374 = {
 	name="Gertruid"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1186.1.1={
@@ -1075,7 +1126,7 @@
 1000144376 = {
 	name="Siwa"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1214.1.1={
@@ -1107,7 +1158,7 @@
 1000144378 = {
 	name="Hadewidis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1242.1.1={
@@ -1139,7 +1190,7 @@
 1000144380 = {
 	name="Siwa"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1269.1.1={
@@ -1171,7 +1222,7 @@
 1000144382 = {
 	name="Ælidis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1298.1.1={
@@ -1191,7 +1242,7 @@
 1000144391 = {
 	name="Sibraht"
 	dynasty=1000053172
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	979.1.1={
 		birth="979.1.1"
@@ -1207,11 +1258,14 @@
 1000144392 = {
 	name="Athgardis"
 	female = yes
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frisian"
 	986.1.1={
 		birth="986.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1059.1.1={
 		death="1059.1.1"
@@ -1221,7 +1275,7 @@
 1000144393 = {
 	name="Esulf"
 	dynasty=1000053172
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=1000144391
 	mother=1000144392
@@ -1230,6 +1284,9 @@
 	}
         1037.1.1={
 		add_spouse=1000144394
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1={
 		death="1080.1.1"
@@ -1240,10 +1297,13 @@
 	name="Gertruid"
 	female = yes
 	dynasty=1000053183
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	1013.1.1={
 		birth="1013.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1083.1.1={
 		death="1083.1.1"
@@ -1253,12 +1313,15 @@
 1000144395 = {
 	name="Eðelwi"
 	dynasty=1000053172
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=1000144393
 	mother=1000144394
 	1044.1.1={
 		birth="1044.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
         1074.1.1={
 		add_spouse=1000144396
@@ -1271,11 +1334,14 @@
 1000144396 = {
 	name="Meynseth"
 	female = yes
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frisian"
 	1053.1.1={
 		birth="1053.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1130.1.1={
 		death="1130.1.1"
@@ -1303,7 +1369,7 @@
 1000144398 = {
 	name="Aafke"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1086.1.1={
@@ -1335,7 +1401,7 @@
 1000144400 = {
 	name="Wendelmodis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1123.1.1={
@@ -1367,7 +1433,7 @@
 1000144402 = {
 	name="Gertruid"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1166.1.1={
@@ -1399,7 +1465,7 @@
 1000144404 = {
 	name="Godeweris"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1192.1.1={
@@ -1431,7 +1497,7 @@
 1000144406 = {
 	name="Meynseth"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1236.1.1={
@@ -1463,7 +1529,7 @@
 1000144408 = {
 	name="Wendelmodis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1271.1.1={
@@ -1495,7 +1561,7 @@
 1000144410 = {
 	name="Aafke"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1302.1.1={
@@ -1518,13 +1584,16 @@
 1000144421 = {
 	name="Frethwi"
 	dynasty=1000053173
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	999.1.1={
 		birth="999.1.1"
 	}
         1019.1.1={
 		add_spouse=1000144422
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1064.1.1={
 		death="1064.1.1"
@@ -1534,11 +1603,14 @@
 1000144422 = {
 	name="Liudburgis"
 	female = yes
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frisian"
 	1002.1.1={
 		birth="1002.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1079.1.1={
 		death="1079.1.1"
@@ -1548,12 +1620,15 @@
 1000144423 = {
 	name="Meniko"
 	dynasty=1000053173
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	father=1000144421
 	mother=1000144422
 	1022.1.1={
 		birth="1022.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
         1059.1.1={
 		add_spouse=1000144424
@@ -1567,10 +1642,13 @@
 	name="Suaneka"
 	female = yes
 	dynasty=1000053180
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frisian"
 	1031.1.1={
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1104.1.1={
 		death="1104.1.1"
@@ -1579,7 +1657,7 @@
 #House Leader 1103
 1000144425 = {
 	name="Uulfnoth"
-	dynasty=1000053173 
+	dynasty=1000053173
 	religion="catholic"
 	culture="frisian"
 	father=1000144423
@@ -1598,7 +1676,7 @@
 1000144426 = {
 	name="Liudburgis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1079.1.1={
@@ -1630,7 +1708,7 @@
 1000144428 = {
 	name="Gertruid"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1121.1.1={
@@ -1662,7 +1740,7 @@
 1000144430 = {
 	name="Suaneka"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1153.1.1={
@@ -1675,7 +1753,7 @@
 #House Leader 1229
 1000144431 = {
 	name="Meniko"
-	dynasty=1000053173 
+	dynasty=1000053173
 	religion="catholic"
 	culture="frisian"
 	father=1000144429
@@ -1694,7 +1772,7 @@
 1000144432 = {
 	name="Liudburgis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1188.1.1={
@@ -1726,7 +1804,7 @@
 1000144434 = {
 	name="Athgardis"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1227.1.1={
@@ -1758,7 +1836,7 @@
 1000144436 = {
 	name="Suaneka"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1269.1.1={
@@ -1790,7 +1868,7 @@
 1000144438 = {
 	name="Siwa"
 	female = yes
-	
+
 	religion="catholic"
 	culture="frisian"
 	1309.1.1={

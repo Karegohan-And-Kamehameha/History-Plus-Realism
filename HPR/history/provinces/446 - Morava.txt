@@ -16,9 +16,12 @@ b_trebic = temple
 
 # Misc
 culture = moravian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 #1061.1.1 = { b_bitov = castle }
 1101.1.1 = { b_trebic = temple }
 #german colonization of southern parts

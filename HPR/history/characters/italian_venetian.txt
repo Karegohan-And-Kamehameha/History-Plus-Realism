@@ -10,12 +10,15 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="charismatic_negotiator"
-        father=167594	
+        father=167594
 	1008.1.1 = {
 		birth="1008.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1071.1.1 = {
 		death="1071.1.1"
@@ -46,12 +49,15 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="flamboyant_schemer"
 	father=70626
 	1025.1.1 = {
 		birth="1025.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1056.1.1 = {
 		add_spouse=71246
@@ -85,12 +91,12 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="hunter"
 	add_trait="brave"
 	add_trait="tough_soldier"
-	
+
 	995.1.1 = {
 		birth="995.1.1"
 	}
@@ -113,7 +119,7 @@
 	add_trait="indulgent_wastrel"
 	father=20352
 	mother=71246
-	
+
 	1057.1.1 = {
 		birth="1057.1.1"
 	}
@@ -296,14 +302,14 @@
 }
 ##counts of Euboeia 1204 - 1337
 31475 = {
-	name="Giberto" 
+	name="Giberto"
 	dynasty=68 #di Verona
 	religion="catholic"
 	culture="venetian"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
-	
+
 	1209.1.1 = {
 		death="1209.1.1"
 	}
@@ -459,13 +465,16 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="humble"
 	add_trait="thrifty_clerk"
         father=167583
 	1038.1.2 = {
 		birth="1038.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1095.1.2 = {
 		death="1095.1.2"
@@ -544,7 +553,7 @@
 	}
 }
 31424 = {
-	name="Marino" 
+	name="Marino"
 	dynasty=102020 #Sanudo
 	religion="catholic"
 	culture="venetian"
@@ -574,7 +583,7 @@
 	}
 }
 31426 = {
-	name="Marco" 
+	name="Marco"
 	dynasty=102020 #Sanudo
 	religion="catholic"
 	culture="venetian"
@@ -616,7 +625,7 @@
 	}
 }
 31429 = {
-	name="Marino" 
+	name="Marino"
 	dynasty=102020 #Sanudo
 	religion="catholic"
 	culture="venetian"
@@ -629,7 +638,7 @@
 	}
 }
 31430 = {
-	name="Marco" 
+	name="Marco"
 	dynasty=102020 #Sanudo
 	religion="catholic"
 	culture="venetian"
@@ -642,7 +651,7 @@
 	}
 }
 31431 = {
-	name="Pietro" 
+	name="Pietro"
 	dynasty=102020 #Sanudo
 	religion="catholic"
 	culture="venetian"
@@ -671,7 +680,7 @@
 ##############################################################################################
 # Ghisi
 31496 = {
-	name="Giorgio" 
+	name="Giorgio"
 	dynasty=7218 #Ghisi
 	religion="catholic"
 	culture="venetian"
@@ -686,7 +695,7 @@
 	}
 }
 31497 = {
-	name="Bartolomeo" 
+	name="Bartolomeo"
 	dynasty=7218 #Ghisi
 	religion="catholic"
 	culture="venetian"
@@ -728,10 +737,13 @@
 32133 = {
 	name="Vitale"
 	dynasty=7235
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	1040.1.2 = {
 		birth="1040.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1102.1.2 = {
 		death="1102.1.2"
@@ -799,25 +811,25 @@
 
 
 34879 = {
-	
+
          name="Conrado"
-	
+
          dynasty=7313
-	
+
          religion="catholic"
-	
+
          culture="venetian"
-	
+
          1290.1.1={
-		
+
                    birth="1290.1.1"
-	
+
          }
-	
+
          1339.1.1={
-		
+
                   death="1339.1.1"
-	
+
          }
 
 }
@@ -841,7 +853,7 @@
 	add_trait="humble"
 	add_trait="zealous"
 	add_trait="thrifty_clerk"
-	
+
 	1292.1.1 = {
 		birth="1292.1.1"
 	}
@@ -863,7 +875,7 @@
 	add_trait="deceitful"
 	add_trait="duelist"
 	add_trait="flamboyant_schemer"
-	
+
 	1240.1.1 = {
 		birth="1240.1.1"
 	}
@@ -949,7 +961,7 @@
 }
 ## counts of Samos (Chios) 1304 - 1337
 31449 = {
-	name="Fulcone" 
+	name="Fulcone"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -961,7 +973,7 @@
 	}
 }
 31450 = {
-	name="Manuele" 
+	name="Manuele"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -974,7 +986,7 @@
 	}
 }
 31451 = {
-	name="Lia" 
+	name="Lia"
 	female=yes
 	dynasty=8733 #Zaccaria
 	religion="catholic"
@@ -988,7 +1000,7 @@
 	}
 }
 31452 = {
-	name="Niccolino" 
+	name="Niccolino"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -1014,7 +1026,7 @@
 	}
 }
 31454 = {
-	name="Vinciguerra" 
+	name="Vinciguerra"
 	female=yes
 	dynasty=8733 #Zaccaria
 	religion="catholic"
@@ -1044,7 +1056,7 @@
 	}
 }
 31461 = {
-	name="Elania" 
+	name="Elania"
 	female=yes
 	dynasty=8733 #Zaccaria
 	religion="catholic"
@@ -1058,7 +1070,7 @@
 	}
 }
 31462 = {
-	name="Manuele" 
+	name="Manuele"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -1102,7 +1114,7 @@
 	}
 }
 31465 = {
-	name="Giovanni" 
+	name="Giovanni"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -1129,7 +1141,7 @@
 	}
 }
 31468 = {
-	name="Manuele" 
+	name="Manuele"
 	dynasty=8733 #Zaccaria
 	religion="catholic"
 	culture="venetian"
@@ -1213,7 +1225,7 @@
 	add_trait="poet"
 	add_trait="lisp"
 	add_trait="intricate_webweaver"
-	
+
 	1253.1.1 = {
 		birth="1253.1.1"
 	}
@@ -1573,7 +1585,7 @@
 	add_trait="arbitrary"
 	add_trait="brave"
 	add_trait="tough_soldier"
-	
+
 	1190.1.1 = {
 		birth="1190.1.1"
 	}
@@ -1597,7 +1609,7 @@
 	add_trait="diligent"
 	add_trait="amateurish_plotter"
 	father=70793
-	
+
 	1215.1.1 = {
 		birth="1215.1.1"
 	}
@@ -1619,7 +1631,7 @@
 	add_trait="brave"
 	add_trait="tough_soldier"
 	father=70794
-	
+
 	1236.1.1 = {
 		birth="1236.1.1"
 	}
@@ -1640,7 +1652,7 @@
 	add_trait="gardener"
 	add_trait="flamboyant_schemer"
 	father=70793
-	
+
 	1220.1.1 = {
 		birth="1220.1.1"
 	}
@@ -1661,7 +1673,7 @@
 	add_trait="brave"
 	add_trait="elusive_shadow"
 	father=70796
-	
+
 	1246.1.1 = {
 		birth="1246.1.1"
 	}
@@ -1682,7 +1694,7 @@
 	add_trait="kind"
 	add_trait="indulgent_wastrel"
 	father=70793
-	
+
 	1230.1.1 = {
 		birth="1230.1.1"
 	}
@@ -1708,7 +1720,7 @@
 	add_trait="midas_touched"
 	father=70798
 	mother=70799
-	
+
 	1270.1.1 = {
 		birth="1270.1.1"
 	}
@@ -1731,7 +1743,7 @@
 	add_trait="misguided_warrior"
 	father=70798
 	mother=70799
-	
+
 	1274.1.1 = {
 		birth="1274.1.1"
 	}
@@ -1780,7 +1792,7 @@
 	add_trait="flamboyant_schemer"
 	father=70798
 	mother=70799
-	
+
 	1285.1.1 = {
 		birth="1285.1.1"
 	}
@@ -1804,7 +1816,7 @@
 	add_trait="honest"
 	add_trait="brave"
 	add_trait="scholarly_theologian"
-	
+
 	1240.1.1 = {
 		birth="1240.1.1"
 	}
@@ -1943,7 +1955,7 @@
 	add_trait="fair"
 	add_trait="proud"
 	add_trait="tough_soldier"
-	
+
 	1175.1.1 = {
 		birth="1175.1.1"
 	}
@@ -1982,7 +1994,7 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="gluttonous"
 	add_trait="lisp"
@@ -2007,7 +2019,7 @@
 	diplomacy=3
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="humble"
 	add_trait="detached_priest"
@@ -2015,6 +2027,9 @@
 	mother=495
 	1015.1.1 = {
 		birth="1015.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1071.2.17 = {
 		death="1071.2.17"
@@ -2027,7 +2042,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="wroth"
 	add_trait="envious"
@@ -2049,7 +2064,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="honest"
 	add_trait="scholarly_theologian"
@@ -2057,6 +2072,9 @@
 	mother=541
 	991.1.2 = {
 		birth="991.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.2 = {
 		death="1062.1.2"
@@ -2069,7 +2087,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="just"
 	add_trait="zealous"
@@ -2088,7 +2106,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="temperate"
 	add_trait="humble"
@@ -2109,7 +2127,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="just"
 	add_trait="craven"
@@ -2130,7 +2148,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="proud"
 	add_trait="arbitrary"
@@ -2152,7 +2170,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="ill"
 	father=544
@@ -2173,12 +2191,15 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="greedy"
 	add_trait="martial_cleric"
 	1025.1.2 = {
 		birth="1025.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.1.2 = {
 		death="1075.1.2"
@@ -2194,7 +2215,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="humble"
 	add_trait="amateurish_plotter"
@@ -2259,7 +2280,7 @@
 	add_trait="drunkard"
 	add_trait="poet"
 	add_trait="amateurish_plotter"
-	
+
 	1292.1.1 = {
 		birth="1292.1.1"
 	}
@@ -2279,13 +2300,16 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="diligent"
 	add_trait="proud"
 	add_trait="mastermind_theologian"
 	1001.1.1 = {
 		birth="1001.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1068.1.1 = {
 		death="1068.1.1"
@@ -2298,14 +2322,17 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="venetian"
 	add_trait="poet"
 	add_trait="mystic"
 	add_trait="scholarly_theologian"
-	
+
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1084.1.1 = {
 		death="1084.1.1"
@@ -2316,7 +2343,7 @@
 184020={
 	name="Agnello"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	765.1.1={
 		birth=765.1.1
@@ -2331,7 +2358,7 @@
 184021={
 	name="Maria"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	766.1.1={
 		birth=766.1.1
@@ -2343,7 +2370,7 @@
 184022={
 	name="Giustiniano"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184020
 	mother=184021
@@ -2358,7 +2385,7 @@
 184023={
 	name="Giovanni"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184020
 	mother=184021
@@ -2373,7 +2400,7 @@
 184024={
 	name="Agnello"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184020
 	mother=184021
@@ -2390,7 +2417,7 @@
 184025={
 	name="Livia"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	783.1.1={
 		birth=783.1.1
@@ -2402,7 +2429,7 @@
 184026={
 	name="Orso"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184024
 	mother=184025
@@ -2422,7 +2449,7 @@
 184027={
 	name="Ippolita"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	801.1.1={
 		birth=801.1.1
@@ -2434,7 +2461,7 @@
 184028={
 	name="Giovanni"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184026
 	mother=184027
@@ -2451,7 +2478,7 @@
 184029={
 	name="Pietro"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184026
 	mother=184027
@@ -2466,7 +2493,7 @@
 184030={
 	name="Badoaro"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184026
 	mother=184027
@@ -2481,7 +2508,7 @@
 184031={
 	name="Orso"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184026
 	mother=184027
@@ -2499,7 +2526,7 @@
 184032={
 	name="Eudossia"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture=italian
 	828.1.1={
 		birth=828.1.1
@@ -2511,7 +2538,7 @@
 184033={
 	name="Agnello"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184026
 	mother=184027
@@ -2526,7 +2553,7 @@
 184081={
 	name="Orso"
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184031
 	mother=184032
@@ -2544,7 +2571,7 @@
 184082={
 	name="Francesca"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	845.1.1={
 		birth=845.1.1
@@ -2556,7 +2583,7 @@
 184059={
 	name="Pietro" #Badoer
 	dynasty=1042812
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184081
 	mother=184082
@@ -2573,7 +2600,7 @@
 184034={
 	name="Pietro" #0
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	780.1.1={
 		birth=780.1.1
@@ -2588,7 +2615,7 @@
 184035={
 	name="Bona"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	780.1.1={
 		birth=780.1.1
@@ -2600,7 +2627,7 @@
 184036={
 	name="Pietro" #1
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184034
 	mother=184035
@@ -2617,7 +2644,7 @@
 184037={
 	name="Claudia"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	828.1.1={
 		birth=828.1.1
@@ -2630,7 +2657,7 @@
 	name="Agnella"
 	dynasty=1042813
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184034
 	mother=184035
@@ -2645,7 +2672,7 @@
 184039={
 	name="Pietro" #1.5
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184036
 	mother=184037
@@ -2662,7 +2689,7 @@
 184040={
 	name="Agnese"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	843.1.1={
 		birth=843.1.1
@@ -2675,7 +2702,7 @@
 	name="Giuditta"
 	dynasty=1042813
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184039
 	mother=184040
@@ -2689,7 +2716,7 @@
 184042={
 	name="Pietro" #2
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184039
 	mother=184040
@@ -2707,7 +2734,7 @@
 	name="Arcielda"
 	#AKA Richielda
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	900.1.1={
 		birth=900.1.1
@@ -2719,7 +2746,7 @@
 184044={
 	name="Pietro" #3
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184039
 	mother=184040
@@ -2736,7 +2763,7 @@
 184045={
 	name="Giulia"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	920.1.1={
 		birth=920.1.1
@@ -2748,7 +2775,7 @@
 184046={
 	name="Domenigo"
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184039
 	mother=184040
@@ -2764,7 +2791,7 @@
 	female=yes
 	#May have been the original Juliet
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184039
 	mother=184040
@@ -2778,7 +2805,7 @@
 184048={
 	name="Pietro" #4
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184044
 	mother=184045
@@ -2799,7 +2826,7 @@
 184049={
 	name="Giovanna"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	945.1.1={
 		birth=945.1.1
@@ -2811,7 +2838,7 @@
 184050={
 	name="Vitale"
 	dynasty=1042813
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184048
 	mother=184049
@@ -2826,7 +2853,7 @@
 	name="Marina"
 	dynasty=1042813
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184048
 	mother=184049
@@ -2843,7 +2870,7 @@
 184053={
 	name="Domenico"
 	dynasty=1042810
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	820.1.1={
 		birth=820.1.1
@@ -2858,7 +2885,7 @@
 184054={
 	name="Pietro"
 	dynasty=1042810
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184053
 	mother=184038
@@ -2875,7 +2902,7 @@
 184055={
 	name="Violante"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	842.1.1={
 		birth=842.1.1
@@ -2887,7 +2914,7 @@
 184056={
 	name="Niccolò"
 	dynasty=1042810
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184054
 	mother=184055
@@ -2902,7 +2929,7 @@
 	name="Giacinta"
 	dynasty=1042810
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184054
 	mother=184055
@@ -2916,7 +2943,7 @@
 184058={
 	name="Valerio"
 	dynasty=1042810
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184054
 	mother=184055
@@ -2930,11 +2957,11 @@
 ##############################################################################################
 #
 #184059 is a Participazio
-#101562 Orseolo 
+#101562 Orseolo
 184060={
 	name="Jacopo"
 	dynasty=101562
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	820.1.1={
 		birth=820.1.1
@@ -2949,7 +2976,7 @@
 184061={
 	name="Bianca"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	822.1.1={
 		birth=822.1.1
@@ -2961,7 +2988,7 @@
 184062={
 	name="Tedaldo"
 	dynasty=101562
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184060
 	mother=184061
@@ -2978,7 +3005,7 @@
 184063={
 	name="Renata"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	822.1.1={
 		birth=822.1.1
@@ -2990,7 +3017,7 @@
 184064={
 	name="Marcello"
 	dynasty=101562
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184062
 	mother=184063
@@ -3007,7 +3034,7 @@
 184065={
 	name="Clotilde"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	822.1.1={
 		birth=822.1.1
@@ -3019,7 +3046,7 @@
 184066={
 	name="Marsiglio"
 	dynasty=101562
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184064
 	mother=184065
@@ -3036,7 +3063,7 @@
 184067={
 	name="Clotilde"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	905.1.1={
 		birth=905.1.1
@@ -3048,10 +3075,13 @@
 184072={
 	name="Alfonsina"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	996.1.2 = {
 		birth="996.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death="1053.1.1"
@@ -3060,12 +3090,15 @@
 184073={
 	name="Domenico"
 	dynasty=101562
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=542
 	mother=184072
 	1021.1.1 = {
 		birth="1021.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death="1065.1.1"
@@ -3075,7 +3108,7 @@
 184068={
 	name="Tribuno"
 	dynasty=1042811
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	957.1.1={
 		birth=957.1.1
@@ -3090,7 +3123,7 @@
 184069={
 	name="Maurizio"
 	dynasty=1042811
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	father=184068
 	mother=184051
@@ -3104,7 +3137,7 @@
 #Non-noble
 184070={
 	name="Pietro" #Barbolano
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	980.1.1={
 		birth=980.1.1
@@ -3114,9 +3147,9 @@
 	}
 }
 184071={
-	name="Domenico" 
+	name="Domenico"
 	dynasty=13071 #Flabonico
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	980.1.1={
 		birth=980.1.1
@@ -3132,7 +3165,7 @@
 184052={
 	name="Pietro"
 	dynasty=1042809
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian" #istrian
 	father=184074
 	mother=184075
@@ -3146,7 +3179,7 @@
 184074={
 	name="Ubaldo"
 	dynasty=1042809
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian" #istrian
 	780.1.1={
 		birth=780.1.1
@@ -3161,7 +3194,7 @@
 184075={
 	name="Giorgia"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	780.1.1={
 		birth=780.1.1
@@ -3173,7 +3206,7 @@
 184076={
 	name="Giacomo"
 	dynasty=1042809
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian" #istrian
 	father=184074
 	mother=184075
@@ -3190,7 +3223,7 @@
 184077={
 	name="Gerberga"
 	female=yes
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian"
 	806.1.1={
 		birth=806.1.1
@@ -3202,7 +3235,7 @@
 184078={
 	name="Francesco"
 	dynasty=1042809
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian" #istrian
 	father=184076
 	mother=184077
@@ -3216,7 +3249,7 @@
 184079={
 	name="Giovanni"
 	dynasty=1042809
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian" #istrian
 	father=184076
 	mother=184077
@@ -3230,7 +3263,7 @@
 184080={
 	name="Marco"
 	dynasty=1042809
-	religion=catholic
+	religion = "chalcedonian"
 	culture="venetian" #istrian
 	father=184076
 	mother=184077
@@ -3262,7 +3295,7 @@
 ##############################################################################################
 #Cornaro dynasty=13079
 ##############################################################################################
-#Foscaro dynasty=13082 
+#Foscaro dynasty=13082
 ##############################################################################################
 #Steno dynasty=13083
 ##############################################################################################
@@ -3276,4 +3309,4 @@
 ##############################################################################################
 #da Ponte dynasty=101836
 ##############################################################################################
-#da Promontorio dynasty=101837 
+#da Promontorio dynasty=101837

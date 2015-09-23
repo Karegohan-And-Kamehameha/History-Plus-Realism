@@ -13,9 +13,12 @@ b_brig = castle
 
 
 # Misc
-culture = arpitan 
-religion = catholic
+culture = arpitan
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1200.1.1 = { culture = german }
 

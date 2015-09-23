@@ -10,13 +10,15 @@ b_montfortlamaury = castle
 #b_epernon = castle
 #b_maitenon = castle
 #b_houdan = castle
-#b_treon = city 
+#b_treon = city
 #b_brezolles = temple
 
 culture = frankish
-religion = catholic
+religion = chalcedonian
 
 # History
 
-
+1054.1.1 = {
+	religion = catholic
+}
 

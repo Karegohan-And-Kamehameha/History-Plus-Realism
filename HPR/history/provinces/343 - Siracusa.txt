@@ -12,7 +12,7 @@ b_lentini = city
 
 #b_adranu = castle
 #b_ursino = castle
-#b_catania = temple 
+#b_catania = temple
 #b_paterno = city
 #b_centuripe = city
 #b_augusta = city
@@ -23,7 +23,7 @@ b_lentini = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = hills
 
 # History

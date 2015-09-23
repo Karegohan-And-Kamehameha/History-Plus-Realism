@@ -16,7 +16,7 @@ b_severin = tribal
 
 # Misc
 culture = romanian
-religion = orthodox
+religion = chalcedonian
 
 # History
 

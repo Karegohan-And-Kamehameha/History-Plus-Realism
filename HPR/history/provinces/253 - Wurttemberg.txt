@@ -18,9 +18,12 @@ b_calw = castle
 
 # Misc
 culture = swabian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1065.1.1 = { b_hirsau = temple }
 1170.1.1 = { culture = german }
 

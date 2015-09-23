@@ -23,9 +23,12 @@ b_benevento = city
 # Misc
 culture = langobardisch
 
-religion = catholic
+religion = chalcedonian
 
 # History
 866.1.1 = { capital = b_ariano }
 870.1.1 = { capital = b_apice }
+1054.1.1 = {
+	religion = catholic
+}
 1086.1.1={ culture = southern_italian }

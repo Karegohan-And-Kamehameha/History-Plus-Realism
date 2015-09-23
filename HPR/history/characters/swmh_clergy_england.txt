@@ -6,9 +6,9 @@
 #Archbishops of York
 ###########
 1000226000 = {
-	name="Ecgbert" #732-766 
-	# 
-	religion="catholic"
+	name="Ecgbert" #732-766
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	680.1.1 = {
@@ -20,8 +20,8 @@
 }
 1000226001 = {
 	name="Æthelbert" #767-780
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	700.1.1 = {
@@ -33,8 +33,8 @@
 }
 1000226002 = {
 	name="Eanbald" #780-796
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	730.1.1 = {
@@ -46,8 +46,8 @@
 }
 1000226003 = {
 	name="Eanbald" #796-808
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	738.1.1 = {
@@ -59,8 +59,8 @@
 }
 1000226004 = {
 	name="Wufsige" #808-837
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	759.1.1 = {
@@ -72,8 +72,8 @@
 }
 1000226005 = {
 	name="Wigmund" #837-854
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	780.1.1 = {
@@ -85,8 +85,8 @@
 }
 1000226006 = {
 	name="Wulfhere" #854-896
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	819.1.1 = {
@@ -98,8 +98,8 @@
 }
 1000226007 = {
 	name="Hrotheweard" #916-931
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	870.1.1 = {
@@ -111,8 +111,8 @@
 }
 1000226008 = {
 	name="Wulfstan"# 931-956
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	902.1.1 = {
@@ -124,8 +124,8 @@
 }
 1000226009 = {
 	name="Oscytel"# 958-971
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	923.1.1 = {
@@ -137,8 +137,8 @@
 }
 1000226010 = {
 	name="Edwald"# 971(resigned)
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	945.1.1 = {
@@ -150,8 +150,8 @@
 }
 1000226011 = {
 	name="Oswald"# 971-992
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	948.1.1 = {
@@ -163,8 +163,8 @@
 }
 1000226012 = {
 	name="Eadwulf"# 995-1002
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	956.1.1 = {
@@ -176,8 +176,8 @@
 }
 1000226013 = {
 	name="Wulfstan"# 1002-1023
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	966.1.1 = {
@@ -189,9 +189,9 @@
 }
 1000226014 = {
 	name="Ælfric"# Ælfric Puttoc 1023-1041 and 1042-1051
-	# 
+	#
         dynasty=1000100000
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	988.1.1 = {
@@ -203,12 +203,15 @@
 }
 1000226015 = {
 	name="Æthelric"# 1041-1042
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	990.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1059.1.1 = {
 		death = yes
@@ -216,25 +219,31 @@
 }
 1000226016 = {
 	name="Cynesige"# 1051-1060
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	993.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death = yes
 	}
 }
 1000226017 = {
-	name="Ealdred"# 1061-1069 
-	# 
-	religion="catholic"
+	name="Ealdred"# 1061-1069
+	#
+	religion = "chalcedonian"
 	culture="saxon"
 	trait="mastermind_theologian"
 	1009.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.9.11 = {
 		death = yes
@@ -242,13 +251,16 @@
 }
 1000226018 = {
 	name="Thomas"# 1070-1100
-	# 
+	#
         dynasty=1000100060
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	trait="mastermind_theologian"
 	1032.1.1 = {
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.11.18 = {
 		death="1100.11.18"
@@ -256,12 +268,15 @@
 }
 1000226019 = {
 	name="Gerad"# 1100-1108
-	# 
-	religion="catholic"
+	#
+	religion = "chalcedonian"
 	culture="english"
 	trait="mastermind_theologian"
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1108.5.21 = {
 		death = yes
@@ -269,7 +284,7 @@
 }
 1000226020 = {
 	name="Thomas"# 1109-1114
-	# 
+	#
         dynasty=1000100060 #Nephew of Thomas I
 	religion="catholic"
 	culture="english"
@@ -283,7 +298,7 @@
 }
 1000226021 = {
 	name="Thurstan"# 1119-1140
-	# 
+	#
 	religion="catholic"
 	culture="english"
 	trait="mastermind_theologian"
@@ -310,7 +325,7 @@
 #}
 1000226022 = {
 	name="Henry"# 1140
-	# 
+	#
         dynasty=94
 	religion="catholic"
 	culture="frankish"
@@ -324,7 +339,7 @@
 }
 1000226023 = {
 	name="William"# 1143-1147 and 1153-1154
-	# 
+	#
         dynasty=1000100150
 	religion="catholic"
 	culture="english"
@@ -338,7 +353,7 @@
 }
 1000226024 = {
 	name="Hilary"# 1147
-	# 
+	#
 	religion="catholic"
 	culture="english"
 	trait="mastermind_theologian"
@@ -351,7 +366,7 @@
 }
 1000226025 = {
 	name="Henry"# 1147-1153
-	# 
+	#
         dynasty=1000100151
 	religion="catholic"
 	culture="english"
@@ -365,7 +380,7 @@
 }
 1000226026 = {
 	name="Roger"# 1154-1181
-	# 
+	#
         dynasty=1000100061
 	religion="catholic"
 	culture="english"
@@ -403,7 +418,7 @@
 #}
 1000226027 = {
 	name="Simon"# 1215 # brother of Stephen Langton( 161335 ) the archbishop of Canterbury
-	# 
+	#
         dynasty=1000100152
 	religion="catholic"
 	culture="english"
@@ -418,7 +433,7 @@
 1000226028 = {
 	name="Walter"# 1216-1255
         dynasty=1000100153
-	martial=4 
+	martial=4
 	diplomacy=10
 	intrigue=11
 	stewardship=10

@@ -18,10 +18,13 @@ b_lodeve = temple
 
 
 #Misc
-religion = catholic
+religion = chalcedonian
 culture = occitan
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = { trade_post = b_grimaldi }
 1215.4.14  = { capital = b_maguelone}
 

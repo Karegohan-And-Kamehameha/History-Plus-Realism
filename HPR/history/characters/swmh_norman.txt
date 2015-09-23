@@ -7,10 +7,13 @@
 1000227350 = {
 	name="Walter"
 	dynasty=1000100062
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death = yes
@@ -20,10 +23,13 @@
 	name="Robert" #Highsheriff of Oxford and Berkshire 1071-1086
 	dynasty=1000100062
 	father=1000227350
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.10.14 = {
 		add_spouse=1000226303# Ealdgyth of Wallingford
@@ -36,10 +42,13 @@
 	name="Nigel" # 1120 lord of Oxford castle
 	dynasty=1000100062
 	father=1000227350
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.1 = {
 		culture=english
@@ -79,7 +88,7 @@
 		culture=english
 	}
         #married Edith Forne in 1120
-	1142.1.1 = { 
+	1142.1.1 = {
 		death=yes #beseiged by King Steven
 	}
 }
@@ -107,9 +116,9 @@
 	culture="english"
 	1126.1.1 = {
 		birth = yes
-	}  
+	}
         #Married Margery daughter of Humphry Bohun, Earl of Hereford.
-	1219.1.1 = { 
+	1219.1.1 = {
 		death=yes # died somtime after 1215
 	}
 }
@@ -129,10 +138,13 @@
 ########
 1000227358 = {
 	name="Edouard" # "Edwin", Highsheriff of Oxford 1068-1071
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.1.1 = {
 		death = yes
@@ -142,10 +154,13 @@
 1000227359 = {
 	name="Milo" # Miles Crispin, lord of Wallingford 1093-1107
 	dynasty=4012
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1084.1.1 = {
 		add_spouse=1000227353# Maud d'Oilly
@@ -180,10 +195,13 @@
 1000227361 = {
 	name="Hugh" #seignur of Lassy
 	dynasty=4037
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.3.27 = {
 		death = yes
@@ -195,7 +213,7 @@
 #	dynasty=4037
 #	religion="catholic"
 #	culture="norman"
-#       father=1000227361     
+#       father=1000227361
 #	1045.1.1 = {
 #		birth="1045.1.1"
 #	}
@@ -243,7 +261,7 @@
 	1100.1.1 = {
 		culture=english
 	}
-	1141.2.2 = { 
+	1141.2.2 = {
 		death=yes # falls in battle against King Stephen
 	}
 }
@@ -259,7 +277,7 @@
 	1100.1.1 = {
 		culture=english
 	}
-	1138.8.22 = { 
+	1138.8.22 = {
 		death=yes # falls at the battle of the standard
 	}
 }
@@ -298,10 +316,13 @@
 1000227366 = {
 	name="William" # William de Percy 1st baron of Topcliff, married Emma de Porte.
 	dynasty=1000100063
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1096.6.1 = {
 		death = yes
@@ -446,7 +467,7 @@
 	1228.1.1 = {
 		birth = yes
 	}
-	1273.1.2 = { 
+	1273.1.2 = {
 		death=yes # Died a couple of months earlier, 7 months before his son was born but that dosn't work for the title history.
 	}
 }
@@ -507,10 +528,13 @@
 1000227371 = {
 	name="Gerberot" # Gerberot de Cherbourg
 	dynasty=1000100065
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1087.9.9 = {
 		death = yes
@@ -519,9 +543,9 @@
 ####
 #d'Ivry/d'Bayeux
 1000227372 = {
-	name="Eperleng"  
+	name="Eperleng"
 	dynasty=532
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	900.1.1 = {
 		birth = yes
@@ -533,7 +557,7 @@
 1000227373 = {
 	name="Rodulf" # Rodulf/Raoul d'Ivry comte d'Ivry/Bayeux 1000ish(first recorded 1011)
 	dynasty=532
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227372
 	945.1.1 = {
@@ -546,7 +570,7 @@
 1000227374 = {
 	name="Hugues" # Hugo/Huges d'Ivry ,Bishop of Bayeux 1015-1059 possibly also comte d'Ivry/Bayeux.
 	dynasty=532
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227373
 	960.1.1 = {
@@ -557,11 +581,11 @@
 	}
 }
 ###
-# de Bellême 
+# de Bellême
 1000227375 = {
 	name="Yves" # Ives seignur de Bellême ?-1005.
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	935.1.1 = {
 		birth = yes
@@ -575,7 +599,7 @@
 }
 1000227376 = {
 	name="Godeheut" # Wife of Yves.
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         female=yes
 	940.1.1 = {
@@ -588,7 +612,7 @@
 1000227377 = {
 	name="Guillaume" # William seignur de Bellême 1005-1028.
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227375
         mother=1000227376
@@ -605,7 +629,7 @@
 1000227378 = {
 	name="Yves" # Abbot of Fleury.
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227375
         mother=1000227376
@@ -619,7 +643,7 @@
 1000227379 = {
 	name="Avesgaud" # Bishop of Le mans 997-1036
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227375
         mother=1000227376
@@ -633,7 +657,7 @@
 1000227380 = {
 	name="Hildeburg" # Wife of Aimon de Chateau-du-Loir
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227375
         mother=1000227376
@@ -648,7 +672,7 @@
 1000227381 = {
 	name="Godehilde"
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227375
         mother=1000227376
@@ -663,7 +687,7 @@
 1000227382 = {
 	name="Mathilde" # Mathilde d'Condé-sur-Noireau, wife of William
 	dynasty=1000100066
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         female=yes
 	964.1.1 = {
@@ -676,7 +700,7 @@
 1000227383 = {
 	name="Foulques" # Fulk son of William
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227377
         mother=1000227382
@@ -690,7 +714,7 @@
 1000227384 = {
 	name="Guérin" # Warin son of William, Segiur d'Domfront. Married Melisende vicomtess de Chateaudun
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227377
         mother=1000227382
@@ -704,26 +728,29 @@
 1000227385 = {
 	name="Robert" # Robert son of William, seignur de Bellême 1028-1035.
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227377
         mother=1000227382
 	988.1.1 = {
 		birth = yes
 	}
-	1035.1.1 = { 
+	1035.1.1 = {
 		death=yes # killed in captivity
 	}
 }
 1000227386 = {
 	name="Yves" # Ives son of William, bishop of Sées 1047-1071.
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227377
         mother=1000227382
 	993.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1071.1.1 = {
 		death = yes
@@ -756,7 +783,7 @@
 #}
 1000227387 = {
 	name="Arnulf" # Father of Hildeburg.
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	960.1.1 = {
 		birth = yes
@@ -767,21 +794,21 @@
 }
 1000227388 = {
 	name="Hildeburg" # Hildeburg first wife of Wiliam II Talvas.
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=1000227387
         female=yes
 	999.1.1 = {
 		birth = yes
 	}
-	1045.1.1 = { 
+	1045.1.1 = {
 		death=yes#Murderd by her husband
 	}
 }
 1000227390 = {
 	name="Arnulphe" # Arnulf first son of William II Talvas Segniur de Belleme 1047ish-1049ish
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=448
         mother=1000227388
@@ -812,7 +839,7 @@
 1000227391 = {
 	name="Oliver" # Oliver son of William II Talvas and a daughter of Ralf de Beaumont, Viscount of Le Mans
 	dynasty=709
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
         father=448
 	1046.1.1 = {
@@ -944,10 +971,13 @@
 1000227400 = {
 	name="Robert"  # A norman in Byzantine employ. Revolted in 1069, but by all accounts i can find his revolt was ended peacefully. He was present at Manzikert and died shortly thereafter presumeably from poison
 	dynasty=4012
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	1029.1.1 = {
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1071.12.1 = {
 		death = yes

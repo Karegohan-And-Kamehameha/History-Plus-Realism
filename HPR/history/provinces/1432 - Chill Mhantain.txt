@@ -15,10 +15,13 @@ b_wicklow = castle
 
 # Misc
 culture = norse
-religion = catholic
+religion = chalcedonian
 
 # History
 867.1.1 = {
 	b_wicklow = ca_shipyard_1
 }
 1047.10.25 = { culture = norsegaelic }
+1054.1.1 = {
+	religion = catholic
+}

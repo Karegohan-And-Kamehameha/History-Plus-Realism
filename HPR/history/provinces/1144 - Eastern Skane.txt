@@ -17,15 +17,18 @@ b_gyllebo = tribal
 culture = norse
 religion = norse_pagan
 
-# History 
-1000.1.1 = { 
+# History
+1000.1.1 = {
 b_gyllebo = castle
 b_oestra_tommarp = city
-b_dalby = temple } 
-1005.1.1 = { religion = catholic }
-1047.10.25 = { culture = danish } 
+b_dalby = temple }
+1005.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 1150.1.1 = { b_aahus = castle }
-1250.1.1 = { b_vae = city } 
+1250.1.1 = { b_vae = city }
 
 
 

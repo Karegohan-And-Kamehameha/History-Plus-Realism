@@ -16,11 +16,13 @@ b_vilareal = city
 
 # Misc
 culture = portuguese
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_braganza = ca_wall_1
 	b_braganza = ca_wall_2
 }

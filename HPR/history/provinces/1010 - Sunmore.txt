@@ -20,7 +20,9 @@ religion = norse_pagan
 1000.1.1 = { b_blindheim = city}
 1015.1.1 = { b_blindheim = castle
 b_giske = castle }#fat Olav
-1024.1.1 = { religion = catholic }
-1047.10.25 = { culture = norwegian } 
+1024.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = norwegian }
 
-
+1054.1.1 = {
+	religion = catholic
+}

@@ -23,7 +23,7 @@ succession_laws = {
 					culture_group = finno_ugric
 					culture_group = west_african
 					culture_group = mesoamerican
-					culture = anglonorse
+					culture = english_norse
 					culture = saxon
 					culture = nubian
 					culture = somali
@@ -101,7 +101,7 @@ succession_laws = {
 					culture_group = finno_ugric
 					culture_group = west_african
 					culture_group = mesoamerican
-					culture = anglonorse
+					culture = english_norse
 					culture = saxon
 					culture = nubian
 					culture = somali
@@ -200,8 +200,7 @@ succession_laws = {
 				OR = {
 					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
-					religion = hellenic_pagan
-					is_patrician = yes
+					is_tribal = no
 					has_global_flag = ancient_religions
 				}
 			}
@@ -266,7 +265,7 @@ succession_laws = {
 						OR = {
 							NOT = { religion_group = pagan_group }
 							is_reformed_religion = yes
-							religion = hellenic_pagan
+							is_tribal = no
 							has_global_flag = ancient_religions
 						}
 					}
@@ -334,7 +333,7 @@ succession_laws = {
 				OR = {
 					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
-					religion = hellenic_pagan
+					is_tribal = no
 					has_global_flag = ancient_religions
 				}
 			}
@@ -374,6 +373,7 @@ succession_laws = {
 				OR = {
 					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
+					is_tribal = no
 					religion = celtic_pagan
 					has_global_flag = ancient_religions
 				}
@@ -440,11 +440,9 @@ succession_laws = {
 					}
 				}
 				OR = {
-					AND = {
-						religion_group = pagan_group
-						is_reformed_religion = yes
-					}
 					NOT = { religion_group = pagan_group }
+					is_reformed_religion = yes
+					is_tribal = no
 					culture = mongol
 					has_global_flag = ancient_religions
 				}
@@ -554,8 +552,10 @@ succession_laws = {
 		potential = {
 			OR = {
 				title = k_papal_state
+				title = k_chalcedonian
 				title = d_celtic_pagan_reformed
 				title = d_hellenic_pagan
+				title = d_cathar
 				title = d_manichean
 			}
 		}
@@ -587,8 +587,10 @@ succession_laws = {
 	succ_open_elective = {
 		potential = {
 			NOT = { title = k_papal_state }
+			NOT = { title = k_chalcedonian }
 			NOT = { title = d_celtic_pagan_reformed }
 			NOT = { title = d_hellenic_pagan }
+			NOT = { title = d_cathar }
 			NOT = { title = d_manichean }
 			OR = {
 				is_primary_type_title = yes

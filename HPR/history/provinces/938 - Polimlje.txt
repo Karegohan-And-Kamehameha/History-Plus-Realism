@@ -10,8 +10,8 @@ b_brskovo = castle
 b_prijepolje = city
 #b_foca = city
 #b_mileseva = temple
- 
-b_berane = temple 
+
+b_berane = temple
 
 
 # Misc
@@ -20,7 +20,9 @@ religion = slavic_pagan
 
 # History
 
-880.1.1 = { religion = orthodox }
-
+880.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = orthodox
+}
 
 

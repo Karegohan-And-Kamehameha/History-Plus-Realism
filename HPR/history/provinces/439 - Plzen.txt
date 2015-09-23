@@ -22,5 +22,8 @@ religion = slavic_pagan
 
 # History
 
-883.1.1 = { religion = catholic }
+883.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = catholic
+}
 1126.1.6 = { b_primda = castle }

@@ -15,10 +15,12 @@ b_cangasdeonis = temple
 
 # Misc
 culture = leonese
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = {
 	b_oviedo = ca_town_1
 	b_oviedo = ca_keep_1

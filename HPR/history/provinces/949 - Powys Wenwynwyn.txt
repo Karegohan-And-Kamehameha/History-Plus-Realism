@@ -13,12 +13,14 @@ b_llanfyllin = temple
 
 # Misc
 culture = welsh
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_mathrafal = ca_keep_1
 	b_mathrafal = ca_training_grounds_1
 	b_mathrafal = ca_stable_1

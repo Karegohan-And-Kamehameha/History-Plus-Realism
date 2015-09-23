@@ -14,6 +14,8 @@ b_morlaix = city
 
 # Misc
 culture = breton
-religion = catholic
+religion = chalcedonian
 
-
+1054.1.1 = {
+	religion = catholic
+}

@@ -11,7 +11,7 @@ b_eivissa = castle
 
 # Misc
 culture = catalan
-religion = catholic
+religion = chalcedonian
 terrain = mountain
 
 # History

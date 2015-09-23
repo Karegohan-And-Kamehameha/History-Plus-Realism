@@ -22,7 +22,10 @@ b_carrara = city
 
 # Misc
 culture = tuscan
-religion = catholic
+religion = chalcedonian
 
 # History
 
+1054.1.1 = {
+	religion = catholic
+}

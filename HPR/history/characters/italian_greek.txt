@@ -3,15 +3,18 @@
 ###############################################################
 
 ##############################################################################################
-#di Napoli 
+#di Napoli
 30853 = {
 	name="Sichelgarda"
 	female=yes
 	dynasty=100334 #di Napoli
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	1031.1.1 = {
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1057.1.1 = {
 		death="1057.1.1"

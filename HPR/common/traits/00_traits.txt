@@ -430,6 +430,10 @@ maimed = {
 infirm = {
 	is_health = yes
 
+	opposites = {
+		agile
+	}
+
 	diplomacy = -4
 	intrigue = -4
 	stewardship = -4
@@ -664,6 +668,11 @@ homosexual = {
 clubfooted = {
 	birth = 50
 	inherit_chance = 25
+
+	opposites = {
+		agile
+	}
+
 	sex_appeal_opinion = -10
 
 	combat_rating = -1
@@ -864,6 +873,7 @@ slow = {
 		quick
 		genius
 		inbred
+		perceptive
 	}
 
 	sex_appeal_opinion = -10
@@ -893,6 +903,7 @@ imbecile = {
 		quick
 		genius
 		inbred
+		perceptive
 	}
 
 	combat_rating = -3
@@ -913,6 +924,10 @@ imbecile = {
 inbred = {
 	inbred = yes
 	inherit_chance = 25
+
+	opposites = {
+		fertile
+	}
 
 	sex_appeal_opinion = -30
 
@@ -974,6 +989,8 @@ weak = {
 
 	opposites =  {
 		strong
+		imposing
+		powerful_voice
 	}
 
 	combat_rating = -2

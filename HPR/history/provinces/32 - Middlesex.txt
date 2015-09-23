@@ -18,10 +18,13 @@ b_fullham = temple
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1078.1.1 = { b_tower_of_london = castle }
 1100.11.11 = { culture = english }
 

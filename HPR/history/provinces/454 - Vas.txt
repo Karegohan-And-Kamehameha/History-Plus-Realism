@@ -17,8 +17,11 @@ b_szentgrot = temple
 
 # Misc
 culture = karantanci
-religion = catholic
+religion = chalcedonian
 
 # History
 
 950.1.1 = { culture = hungarian }
+1054.1.1 = {
+	religion = catholic
+}

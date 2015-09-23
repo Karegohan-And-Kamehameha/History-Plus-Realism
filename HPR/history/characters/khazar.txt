@@ -126,7 +126,7 @@
 	father = 74007
 	culture="khazar"
 	religion="tengri_pagan"
-        mother=1000233409 
+        mother=1000233409
 	683.1.1={
 		birth="683.1.1"
 	}
@@ -268,7 +268,7 @@
 	father = 74016
 
 	culture="khazar"
-	religion="jewish" 
+	religion="jewish"
 
 	840.1.1={
 		birth="840.1.1"
@@ -441,7 +441,7 @@
 	father = 74025
 	mother = 173000
 	culture="khazar"
-	religion="jewish" 
+	religion="jewish"
 
 	855.1.1={
 		birth = yes
@@ -576,7 +576,7 @@
 	}
 	703.1.1={
 		name="Theodora"
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	711.1.1={
 		death = yes
@@ -865,7 +865,7 @@
 	father = 74016
 
 	culture="khazar"
-	religion="jewish" 
+	religion="jewish"
 
 	846.1.1={
 		birth = yes

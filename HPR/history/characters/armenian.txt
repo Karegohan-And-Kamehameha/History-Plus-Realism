@@ -39,7 +39,7 @@
 	1215.1.1={
 		add_spouse=30995 #Sybille de Lusignan
 	}
-	
+
 	1219.5.2={
 		death="1219.5.2"
 	}
@@ -175,11 +175,11 @@
 	1149.1.1={
 		add_spouse=232567 #Isabelle de Courtenay
 	}
-	
+
 	1164.1.1={
 		add_spouse=30992 #Mariam Rubenid
 	}
-	
+
 	1169.1.1={
 		death="1169.1.1"
 	}
@@ -267,7 +267,7 @@
 	}
 	1205.1.1={
 		add_spouse=223037
-	}	
+	}
 	1263.1.1={
 		death="1263.1.1"
 	}
@@ -907,7 +907,7 @@
 
 232583 = {
 	name="Grigor Dgha "
-	# AKA: Grigor Dgha 
+	# AKA: Grigor Dgha
 	dynasty=23002
 	martial=4
 	diplomacy=4
@@ -1213,7 +1213,7 @@
 	}
 }
 
-232771 = { 
+232771 = {
 	name="Takuhi Saven"
 	# AKA: Takuhi Saven; used to be 232598
 	female = yes
@@ -1236,7 +1236,7 @@
 	}
 }
 
-232758 = { 
+232758 = {
 	name="Sargis"
 	dynasty=1029018
 	martial=4
@@ -1257,7 +1257,7 @@
 	}
 }
 
-232759 = { 
+232759 = {
 	name="Zakare"
 	dynasty=1029018
 	martial=4
@@ -1277,7 +1277,7 @@
 	}
 }
 
-232760 = { 
+232760 = {
 	name="Ivane"
 	dynasty=1029018
 	religion="miaphysite"
@@ -1298,7 +1298,7 @@
 	}
 }
 
-232761 = { 
+232761 = {
 	name="Nana"
 	dynasty=1029018
 	female=yes
@@ -1339,12 +1339,12 @@
 	# AKA: Arda
 	female=yes
 	dynasty=190 #Rubenid
-	
+
 	religion="miaphysite"
 	culture="armenian"
-	
+
 	father=232564
-	
+
 	1082.1.1={
 		birth="1082.1.1"
 	}
@@ -1357,51 +1357,51 @@
 	name="Mariam" #real name unknown
 	female=yes
 	dynasty=190
-	
+
 	religion="miaphysite"
 	culture="armenian"
-	
+
 	father=223012
 	mother=223011
 	1104.1.1={
 		birth="1104.1.1"
 	}
-	
+
 	1130.1.1={
 		death="1130.1.1"
 	}
 }
 
 30991 = {
-	name="Tomas" 
+	name="Tomas"
 	dynasty=190
-	
+
 	religion="miaphysite"
 	culture="armenian"
-	
+
 	mother=30990
 	1126.1.1={
 		birth="1126.1.1"
 	}
-	
+
 	1165.1.1={
 		death="1165.1.1"
 	}
 }
 
 30992 = {
-	name="Mariam" 
+	name="Mariam"
 	female=yes
 	dynasty=190
-	
+
 	religion="miaphysite"
 	culture="armenian"
-	
+
 	father=30991
 	1143.1.1={
 		birth="1143.1.1"
 	}
-	
+
 	1168.1.1={
 		death="1168.1.1"
 	}
@@ -1427,16 +1427,16 @@
 	name="Doleta"
 	female=yes
 	dynasty=190
-	
+
 	religion="miaphysite"
 	culture="armenian"
-	
+
 	father=223010
 	mother=223029
 	1158.1.1={
 		birth="1158.1.1"
 	}
-	
+
 	1217.1.1={
 		death="1217.1.1"
 	}
@@ -1453,7 +1453,7 @@
 	1216.1.1={
 		birth="1216.1.1"
 	}
-	#1231 married Hethum I 
+	#1231 married Hethum I
 	1252.1.23={
 		death="1252.1.23"
 	}
@@ -1485,7 +1485,7 @@
 	1235.1.1={
 		birth="1235.1.1"
 	}
-	1290.1.1={ 
+	1290.1.1={
 		death="1290.1.1"
 	}
 }
@@ -2193,7 +2193,7 @@
 	809.1.1={
 		death="809.1.1"
 		name="Adanarse"
-		religion="orthodox"
+		religion = "chalcedonian"
 		culture="georgian"
 	}
 }
@@ -2215,7 +2215,7 @@
 		birth="765.1.1"
 	}
 	809.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 		culture="georgian"
 	}
 	826.1.29={
@@ -3057,7 +3057,7 @@
 	}
 	1265.1.1={
 		add_spouse=31851
-	}	
+	}
 	1289.1.1={
 		death="1289.1.1"
 	}
@@ -3166,7 +3166,7 @@
 	trait="scholar"
 	trait="thrifty_clerk"
 	father=41583
-	
+
 	990.1.1={
 		birth="990.1.1"
 	}
@@ -3274,7 +3274,7 @@
 	trait="proud"
 	trait="tough_soldier"
 	father=159874
-	
+
 	710.1.1={
 		birth="710.1.1"
 	}
@@ -3299,7 +3299,7 @@
 	trait="craven"
 	trait="naive_appeaser"
 	father=159874
-	
+
 	705.1.1={
 		birth="705.1.1"
 	}
@@ -3698,7 +3698,7 @@
 }
 
 31837 = {
-	name="Barseghk" 
+	name="Barseghk"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3712,7 +3712,7 @@
 	}
 }
 31838 = {
-	name="Levon" 
+	name="Levon"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3726,7 +3726,7 @@
 	}
 }
 31839 = {
-	name="Hripsimeh" 
+	name="Hripsimeh"
 	#AKA Margueritte
 	female=yes
 	dynasty=23003
@@ -3743,7 +3743,7 @@
 }
 
 31840 = {
-	name="Vassak" 
+	name="Vassak"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3756,7 +3756,7 @@
 	}
 }
 31841 = {
-	name="Licos" 
+	name="Licos"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3784,7 +3784,7 @@
 }
 
 31843 = {
-	name="Hethum" 
+	name="Hethum"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3797,7 +3797,7 @@
 	}
 }
 31845 = {
-	name="Gosdantin" 
+	name="Gosdantin"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3811,7 +3811,7 @@
 }
 
 31846 = {
-	name="Levon" 
+	name="Levon"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3878,7 +3878,7 @@
 }
 
 31851 = {
-	name="Kyranna" 
+	name="Kyranna"
 	female=yes
 	dynasty=23003
 	religion="miaphysite"
@@ -3895,7 +3895,7 @@
 }
 
 31852 = {
-	name="Alix" 
+	name="Alix"
 	female=yes
 	dynasty=23003
 	religion="miaphysite"
@@ -3913,7 +3913,7 @@
 
 31853 = {
 	name="Kyranna"
-	female=yes 
+	female=yes
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3957,7 +3957,7 @@
 }
 
 31856 = {
-	name="Raymond" 
+	name="Raymond"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -3991,14 +3991,14 @@
 	#converted to catholicism
 	1299.3.4={
 		religion="catholic"
-	} 
+	}
 	1307.11.7={
 		death="1307.11.7"
 	}
 }
 
 31859 = {
-	name="Thoros" 
+	name="Thoros"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4013,7 +4013,7 @@
 }
 
 31860 = {
-	name="Smbat" #king of Armenia 1296-1298 
+	name="Smbat" #king of Armenia 1296-1298
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4024,14 +4024,14 @@
 	}
 	1296.1.1={
 		trait="kinslayer"
-	} 
+	}
 	1311.1.1={
 		death="1311.1.1"
 	}
 }
 
 31861 = {
-	name="Theophanu" 
+	name="Theophanu"
 	female=yes
 	dynasty=23003
 	religion="miaphysite"
@@ -4046,7 +4046,7 @@
 	}
 }
 31862 = {
-	name="Nerses" 
+	name="Nerses"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4116,7 +4116,7 @@
 }
 
 31867 = {
-	name="Marie" 
+	name="Marie"
 	female=yes
 	dynasty=23003
 	religion="miaphysite"
@@ -4148,7 +4148,7 @@
 
 31869 = {
 	name="Alix"
-	female=yes 
+	female=yes
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4163,7 +4163,7 @@
 }
 
 31870 = {
-	name="Oshin" 
+	name="Oshin"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4178,7 +4178,7 @@
 }
 
 31871 = {
-	name="Zabel" 
+	name="Zabel"
 	female=yes
 	dynasty=23003
 	religion="miaphysite"
@@ -4210,7 +4210,7 @@
 }
 
 31873 = {
-	name="Gosdantin" 
+	name="Gosdantin"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4224,7 +4224,7 @@
 }
 
 31874 = {
-	name="Levon" 
+	name="Levon"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4238,7 +4238,7 @@
 }
 
 31875 = {
-	name="Hethum" 
+	name="Hethum"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4253,7 +4253,7 @@
 
 31877 = {
 	name="Zabel"
-	female=yes 
+	female=yes
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4281,7 +4281,7 @@
 }
 
 31879 = {
-	name="Gosdantin" #king of Armenia 1298-1299 
+	name="Gosdantin" #king of Armenia 1298-1299
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4296,7 +4296,7 @@
 }
 
 31880 = {
-	name="Baudouin" 
+	name="Baudouin"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4306,7 +4306,7 @@
 	}
 	1310.1.1={
 		add_spouse=31867
-	} 
+	}
 	1336.12.12={
 		death="1336.12.12"
 	}
@@ -4314,7 +4314,7 @@
 
 
 31882 = {
-	name="Hethum" 
+	name="Hethum"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4328,7 +4328,7 @@
 }
 
 31883 = {
-	name="Gosdantin" 
+	name="Gosdantin"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4343,7 +4343,7 @@
 }
 
 31884 = {
-	name="Eupheme" 
+	name="Eupheme"
 	female=yes
 	dynasty=23003
 	religion="miaphysite"
@@ -4359,7 +4359,7 @@
 }
 
 31885 = {
-	name="Geoffroy" 
+	name="Geoffroy"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4373,7 +4373,7 @@
 }
 
 31886 = {
-	name="Gosdantin" 
+	name="Gosdantin"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4387,7 +4387,7 @@
 }
 
 31887 = {
-	name="Vacahk" 
+	name="Vacahk"
 	dynasty=23003
 	religion="miaphysite"
 	culture="armenian"
@@ -4411,7 +4411,7 @@
 	}
 	1240.1.1={
 		add_spouse=31853
-	} 
+	}
 	1262.1.1={
 		death="1262.1.1"
 	}
@@ -4431,7 +4431,7 @@
 	}
 	1261.1.1={
 		add_spouse=31890
-	} 
+	}
 	1274.1.1={
 		death="1274.1.1"
 	}
@@ -4556,7 +4556,7 @@
 	trait="proud"
 	trait="deceitful"
 	trait="tough_soldier"
- 
+
 	670.1.1={
 	birth="670.1.1"
 	}
@@ -4569,7 +4569,7 @@
 	}
 }
 
-159206 = { 
+159206 = {
 	name="Shahanshah" #Shahanshah
 	dynasty=1029018
 	religion="miaphysite"
@@ -4582,7 +4582,7 @@
 		death="1260.1.1"
 	}
 }
-159209 = { 
+159209 = {
 	name="Khorishah"
 	dynasty=1029018
 	female=yes
@@ -4599,7 +4599,7 @@
 		death="1220.1.1"
 	}
 }
-159210 = { 
+159210 = {
 	name="Haykaz"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4612,7 +4612,7 @@
 		death="1150.1.1"
 	}
 }
-159211 = { 
+159211 = {
 	name="Hasan"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4622,13 +4622,13 @@
 		birth="1095.1.1"
 	}
 	1130.1.1={
-		add_spouse=159236 
+		add_spouse=159236
 	}
 	1182.1.1={
 		death="1182.1.1"
 	}
 }
-159212 = { 
+159212 = {
 	name="Vakhtank"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4645,7 +4645,7 @@
 		death="1214.1.1"
 	}
 }
-159213 = { 
+159213 = {
 	name="Grigor"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4659,7 +4659,7 @@
 		death="1230.1.1"
 	}
 }
-159214 = { 
+159214 = {
 	name="Haykaz"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4679,7 +4679,7 @@
 		death="1260.1.1"
 	}
 }
-159215 = { 
+159215 = {
 	name="Mamkan"
 	dynasty=1029025
 	religion="miaphysite"
@@ -4692,7 +4692,7 @@
 		death="1214.1.1"
 	}
 }
-159216 = { 
+159216 = {
 	name="Hripsime" #name unknown
 	dynasty=1029025
 	female=yes
@@ -4709,7 +4709,7 @@
 		death="1242.1.1"
 	}
 }
-159217 = { 
+159217 = {
 	name="Atabeg"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4723,7 +4723,7 @@
 		death="1310.1.1"
 	}
 }
-159218 = { 
+159218 = {
 	name="Rhuzukan"
 	dynasty=1029023
 	female=yes
@@ -4738,7 +4738,7 @@
 		death="1310.1.1"
 	}
 }
-159219 = { 
+159219 = {
 	name="Zakare"
 	dynasty=1029018
 	religion="miaphysite"
@@ -4751,7 +4751,7 @@
 		death="1170.1.1"
 	}
 }
-159220 = { 
+159220 = {
 	name="Zakare"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4766,7 +4766,7 @@
 	}
 }
 
-159221 = { 
+159221 = {
 	name="Ivane"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4780,7 +4780,7 @@
 		death="1265.1.1"
 	}
 }
-159222 = { 
+159222 = {
 	name="Vakhtank"
 	dynasty=1029023
 	religion="miaphysite"
@@ -4793,7 +4793,7 @@
 		death="1320.1.1"
 	}
 }
-159223 = { 
+159223 = {
 	name="Zakare" #
 	dynasty=1029018
 	religion="miaphysite"
@@ -4806,7 +4806,7 @@
 		death="1300.1.1"
 	}
 }
-159224 = { 
+159224 = {
 	name="Zakare" #
 	dynasty=1029018
 	religion="miaphysite"
@@ -4819,7 +4819,7 @@
 		death="1310.1.1"
 	}
 }
-159225 = { 
+159225 = {
 	name="Avag" #
 	dynasty=1029018
 	religion="miaphysite"
@@ -4832,7 +4832,7 @@
 		death="1310.1.1"
 	}
 }
-159226 = { 
+159226 = {
 	name="Sargis" #
 	dynasty=1029018
 	religion="miaphysite"
@@ -4845,7 +4845,7 @@
 		death="1315.1.1"
 	}
 }
-159227 = { 
+159227 = {
 	name="Artashir" #
 	dynasty=1029018
 	religion="miaphysite"
@@ -4858,7 +4858,7 @@
 		death="1320.1.1"
 	}
 }
-159228 = { 
+159228 = {
 	name="Ivane" #
 	dynasty=1029018
 	religion="miaphysite"
@@ -4871,7 +4871,7 @@
 		death="1320.1.1"
 	}
 }
-159229 = { 
+159229 = {
 	name="Hovhannes" # John VII, Catholicos of Caucasian Albania
 	dynasty=1029023
 	religion="miaphysite"
@@ -4885,7 +4885,7 @@
 		death="1310.1.1"
 	}
 }
-159230 = { 
+159230 = {
 	name="Hovhannes" # John VIII, Catholicos of Caucasian Albania
 	dynasty=1029023
 	religion="miaphysite"
@@ -4900,7 +4900,7 @@
 }
 
 159235 = {
-	name="Grigor" 
+	name="Grigor"
 	dynasty=1029025
 	religion="miaphysite"
 	culture="armenian"
@@ -4914,7 +4914,7 @@
 }
 
 159236 = {
-	name="Kata" 
+	name="Kata"
 	dynasty=1029025
 	female=yes
 	religion="miaphysite"
@@ -4924,14 +4924,14 @@
 		birth="1100.1.1"
 	}
 	1130.1.1={
-		add_spouse=159210 
+		add_spouse=159210
 	}
 	1160.1.1={
 		death="1160.1.1"
 	}
 }
 
-159237 = { 
+159237 = {
 	name="Sarkis"
 	dynasty=1029018
 	religion="miaphysite"
@@ -4945,7 +4945,7 @@
 	}
 }
 
-159238 = { 
+159238 = {
 	name="Zakare"
 	dynasty=1029018
 	religion="miaphysite"
@@ -4959,7 +4959,7 @@
 	}
 }
 
-159239 = { 
+159239 = {
 	name="Grigor"
 	dynasty=1029025
 	religion="miaphysite"
@@ -4973,7 +4973,7 @@
 	}
 }
 
-159240 = { 
+159240 = {
 	name="Shahandokht"
 	dynasty=1029025
 	female=yes
@@ -4991,7 +4991,7 @@
 	}
 }
 
-159241 = { 
+159241 = {
 	name="Senekerim Hovhannes"
 	dynasty=1029025
 	religion="miaphysite"
@@ -5005,7 +5005,7 @@
 	}
 }
 
-159242 = { 
+159242 = {
 	name="Senekerim"
 	dynasty=1029025
 	religion="miaphysite"
@@ -5243,7 +5243,7 @@
 	}
 }
 
-159259 = { 
+159259 = {
 	name="Vakhtank"
 	dynasty=1029023
 	religion="miaphysite"
@@ -5260,7 +5260,7 @@
 	}
 }
 
-159260 = { 
+159260 = {
 	name="Aboughamr"
 	dynasty=23002
 	religion="miaphysite"
@@ -5274,7 +5274,7 @@
 	}
 }
 
-159261 = { 
+159261 = {
 	name="Artak"
 	dynasty=23002
 	religion="miaphysite"
@@ -5289,7 +5289,7 @@
 	}
 }
 
-159262 = { 
+159262 = {
 	name="Vahram"
 	dynasty=23002
 	religion="miaphysite"
@@ -5435,7 +5435,7 @@
 }
 
 159284 = {
-	name="Gorandoukht" 
+	name="Gorandoukht"
 	female=yes
 	dynasty=190
 	religion="miaphysite"
@@ -5500,7 +5500,7 @@
 }
 
 159288 = {
-	name="Maria" 
+	name="Maria"
 	female = yes
 	dynasty=507
 	religion="miaphysite"
@@ -5519,7 +5519,7 @@
 }
 
 159289 = {
-	name="Gaday" 
+	name="Gaday"
 	female = yes
 	dynasty=101736
 	religion="miaphysite"
@@ -5571,7 +5571,7 @@
 	}
 	1025.1.1={
 		name="Maria"
-		religion="catholic"
+		religion = "chalcedonian"
 		culture="portuguese"
 		add_spouse=142587
 	}
@@ -5580,8 +5580,8 @@
 	}
 }
 
-159611 = { 
-	name="Varaz-Bagour" # 
+159611 = {
+	name="Varaz-Bagour" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"
@@ -5594,8 +5594,8 @@
 		death="455.1.1"
 	}
 }
-159612 = { 
-	name="Mihran" # 
+159612 = {
+	name="Mihran" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"
@@ -5607,8 +5607,8 @@
 		death="480.1.1"
 	}
 }
-159613 = { 
-	name="Armayel" # 
+159613 = {
+	name="Armayel" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"
@@ -5620,8 +5620,8 @@
 		death="510.1.1"
 	}
 }
-159614 = { 
-	name="Vard" # 
+159614 = {
+	name="Vard" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"
@@ -5633,7 +5633,7 @@
 		death="540.1.1"
 	}
 }
-159615 = { 
+159615 = {
 	name="Vardan" # I of Aghbania
 	dynasty=1029027
 	religion="miaphysite"
@@ -5649,7 +5649,7 @@
 		death="570.1.1"
 	}
 }
-159617 = { 
+159617 = {
 	name="Vard" # I
 	dynasty=1029027
 	religion="miaphysite"
@@ -5663,7 +5663,7 @@
 		death="600.1.1"
 	}
 }
-159618 = { 
+159618 = {
 	name="Varaz-Grigor" # I
 	dynasty=1029027
 	religion="miaphysite"
@@ -5676,7 +5676,7 @@
 		death="636.1.1"
 	}
 }
-159619 = { 
+159619 = {
 	name="Varaz-Peroz" # I
 	dynasty=1029027
 	religion="miaphysite"
@@ -5689,7 +5689,7 @@
 		death="668.1.1"
 	}
 }
-159620 = { 
+159620 = {
 	name="Varaz-Trdat" # I
 	dynasty=1029027
 	religion="miaphysite"
@@ -5704,7 +5704,7 @@
 }
 
 
-159627 = { 
+159627 = {
 	name="Vardan" # II
 	dynasty=1029027
 	religion="miaphysite"
@@ -5717,7 +5717,7 @@
 		death="710.1.1"
 	}
 }
-159628 = { 
+159628 = {
 	name="Gagik" # I
 	dynasty=1029027
 	religion="miaphysite"
@@ -5730,7 +5730,7 @@
 		death="740.1.1"
 	}
 }
-159629 = { 
+159629 = {
 	name="Nerseh" # I of Aghvank
 	dynasty=1029027
 	religion="miaphysite"
@@ -5743,7 +5743,7 @@
 		death="770.1.1"
 	}
 }
-159630 = { 
+159630 = {
 	name="Stepanos" # I of Aghvank
 	dynasty=1029027
 	religion="miaphysite"
@@ -5756,7 +5756,7 @@
 		death="821.1.1"
 	}
 }
-159631 = { 
+159631 = {
 	name="Varaz-Trdat" # II of Aghvank
 	dynasty=1029027
 	religion="miaphysite"
@@ -5769,7 +5769,7 @@
 		death="822.1.1"
 	}
 }
-159632 = { 
+159632 = {
 	name="Spram"
 	female=yes
 	dynasty=1029027
@@ -5788,8 +5788,8 @@
 }
 
 
-159616 = { 
-	name="Khanchik" # 
+159616 = {
+	name="Khanchik" #
 	female=yes
 	dynasty=100685
 	religion="miaphysite"
@@ -5807,8 +5807,8 @@
 }
 
 
-159621 = { 
-	name="Varazman" # 
+159621 = {
+	name="Varazman" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"
@@ -5820,8 +5820,8 @@
 		death="550.1.1"
 	}
 }
-159622 = { 
-	name="Vardan" # 
+159622 = {
+	name="Vardan" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"
@@ -5833,8 +5833,8 @@
 		death="580.1.1"
 	}
 }
-159623 = { 
-	name="Aramayel" # 
+159623 = {
+	name="Aramayel" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"
@@ -5846,8 +5846,8 @@
 		death="600.1.1"
 	}
 }
-159624 = { 
-	name="Varazman" # 
+159624 = {
+	name="Varazman" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"
@@ -5859,8 +5859,8 @@
 		death="630.1.1"
 	}
 }
-159625 = { 
-	name="Spram" #unhistorical name 
+159625 = {
+	name="Spram" #unhistorical name
 	female=yes
 	dynasty=1029027
 	religion="miaphysite"
@@ -5878,8 +5878,8 @@
 }
 
 
-159626 = { 
-	name="Zahrmihr" # 
+159626 = {
+	name="Zahrmihr" #
 	dynasty=1029025
 	religion="miaphysite"
 	culture="armenian"
@@ -5894,7 +5894,7 @@
 	}
 }
 
-159580 = { 
+159580 = {
 	name="Vachagan" # I of Aghvank
 	dynasty=100685
 	religion="zoroastrian"
@@ -5907,8 +5907,8 @@
 		death="300.8.29"
 	}
 }
-159581 = { 
-	name="Vache" # 
+159581 = {
+	name="Vache" #
 	dynasty=100685
 	religion="zoroastrian"
 	culture="armenian"
@@ -5920,8 +5920,8 @@
 		death="330.8.29"
 	}
 }
-159582 = { 
-	name="Urnayr" # 
+159582 = {
+	name="Urnayr" #
 	dynasty=100685
 	religion="miaphysite"
 	culture="armenian"
@@ -5933,7 +5933,7 @@
 		death="372.8.29"
 	}
 }
-159583 = { 
+159583 = {
 	name="Vachagan" # II
 	dynasty=100685
 	religion="miaphysite"
@@ -5946,7 +5946,7 @@
 		death="402.8.29"
 	}
 }
-159584 = { 
+159584 = {
 	name="Sargavan" #
 	dynasty=100685
 	religion="miaphysite"
@@ -5959,7 +5959,7 @@
 		death="432.8.29"
 	}
 }
-159585 = { 
+159585 = {
 	name="Mirhavan" #
 	dynasty=100685
 	religion="miaphysite"
@@ -5972,7 +5972,7 @@
 		death="435.8.29"
 	}
 }
-159586 = { 
+159586 = {
 	name="Satoy" #
 	dynasty=100685
 	religion="miaphysite"
@@ -5985,7 +5985,7 @@
 		death="440.8.29"
 	}
 }
-159587 = { 
+159587 = {
 	name="Asay" #
 	dynasty=100685
 	religion="miaphysite"
@@ -5998,7 +5998,7 @@
 		death="460.8.29"
 	}
 }
-159588 = { 
+159588 = {
 	name="Aswagen" #
 	dynasty=100685
 	religion="miaphysite"
@@ -6011,7 +6011,7 @@
 		death="465.8.29"
 	}
 }
-159589 = { 
+159589 = {
 	name="Vache" #
 	dynasty=100685
 	religion="miaphysite"
@@ -6024,7 +6024,7 @@
 		death="500.8.29"
 	}
 }
-159590 = { 
+159590 = {
 	name="Hazkert" # Yazdegerd
 	dynasty=100685
 	religion="miaphysite"
@@ -6037,7 +6037,7 @@
 		death="490.8.29"
 	}
 }
-159591 = { 
+159591 = {
 	name="Vachagan" # III the Pious
 	dynasty=100685
 	religion="miaphysite"
@@ -6050,7 +6050,7 @@
 		death="530.8.29"
 	}
 }
-159592 = { 
+159592 = {
 	name="Sargavanoush" #
 	female=yes
 	dynasty=100685
@@ -6065,7 +6065,7 @@
 	}
 }
 159558 = {
-	name="Kamsar" 
+	name="Kamsar"
 	dynasty=1029099
 	religion="zoroastrian"
 	culture="armenian"
@@ -6078,7 +6078,7 @@
 	}
 }
 159559 = {
-	name="Arshavir" 
+	name="Arshavir"
 	dynasty=1029099
 	religion="zoroastrian"
 	culture="armenian"
@@ -6091,7 +6091,7 @@
 	}
 }
 159560 = {
-	name="Spandarat" 
+	name="Spandarat"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6104,7 +6104,7 @@
 	}
 }
 159561 = {
-	name="Gavazon" 
+	name="Gavazon"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6117,7 +6117,7 @@
 	}
 }
 159562 = {
-	name="Hrahat" 
+	name="Hrahat"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6130,7 +6130,7 @@
 	}
 }
 159563 = {
-	name="Gavazon" 
+	name="Gavazon"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6143,7 +6143,7 @@
 	}
 }
 159564 = {
-	name="Arshavir" 
+	name="Arshavir"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6156,7 +6156,7 @@
 	}
 }
 159565 = {
-	name="Nerseh" 
+	name="Nerseh"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6169,7 +6169,7 @@
 	}
 }
 159566 = {
-	name="Gavazon" 
+	name="Gavazon"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6182,7 +6182,7 @@
 	}
 }
 159567 = {
-	name="Zaurak" 
+	name="Zaurak"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6195,7 +6195,7 @@
 	}
 }
 159568 = {
-	name="Euserk" 
+	name="Euserk"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6208,7 +6208,7 @@
 	}
 }
 159569 = {
-	name="Nerseh" 
+	name="Nerseh"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6221,7 +6221,7 @@
 	}
 }
 159570 = {
-	name="Vahan" 
+	name="Vahan"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6234,7 +6234,7 @@
 	}
 }
 159571 = {
-	name="Nerseh" 
+	name="Nerseh"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6247,7 +6247,7 @@
 	}
 }
 159572 = {
-	name="Hrahat" 
+	name="Hrahat"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6260,7 +6260,7 @@
 	}
 }
 159573 = {
-	name="Artavazd" 
+	name="Artavazd"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6273,7 +6273,7 @@
 	}
 }
 159574 = {
-	name="Nerseh" 
+	name="Nerseh"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6286,7 +6286,7 @@
 	}
 }
 159575 = {
-	name="Grigor" 
+	name="Grigor"
 	dynasty=1029099
 	religion="miaphysite"
 	culture="armenian"
@@ -6301,7 +6301,7 @@
 }
 
 159576 = {
-	name="Vassak" 
+	name="Vassak"
 	dynasty=23002
 	religion="miaphysite"
 	culture="armenian"
@@ -6314,7 +6314,7 @@
 	}
 }
 159577 = {
-	name="Aboughamr" 
+	name="Aboughamr"
 	dynasty=23002
 	religion="miaphysite"
 	culture="armenian"
@@ -6327,7 +6327,7 @@
 	}
 }
 159578 = {
-	name="Abirad" 
+	name="Abirad"
 	dynasty=23002
 	religion="miaphysite"
 	culture="armenian"
@@ -6769,7 +6769,7 @@
 }
 
 159930 = {
-	name="Shoushanig" 
+	name="Shoushanig"
 	female = yes
 	dynasty=1029099
 	religion="miaphysite"
@@ -6787,7 +6787,7 @@
 }
 
 159931 = {
-	name="Datevig" 
+	name="Datevig"
 	female = yes
 	dynasty=1029099
 	religion="miaphysite"
@@ -6797,7 +6797,7 @@
 		birth="545.1.1"
 	}
 	570.1.1={
-		add_spouse = 70455 
+		add_spouse = 70455
 	}
 	640.1.29={
 		death="640.1.29"
@@ -6860,7 +6860,7 @@
 	}
 }
 159874 = {
-	name="Hrahat"# 
+	name="Hrahat"#
 	dynasty=23006 # Mamikonian
 	religion="miaphysite"
 	culture="armenian"
@@ -6912,7 +6912,7 @@
 	}
 }
 159878 = {
-	name="Shapouh" # 
+	name="Shapouh" #
 	dynasty=23006 # Mamikonian
 	religion="miaphysite"
 	culture="armenian"
@@ -6964,7 +6964,7 @@
 	}
 }
 159883 = {
-	name="Samvel" # 
+	name="Samvel" #
 	dynasty=23006 # Mamikonian
 	religion="miaphysite"
 	culture="armenian"
@@ -6977,7 +6977,7 @@
 	}
 }
 159882 = {
-	name="Dzoyk" # 
+	name="Dzoyk" #
 	female = yes
 	dynasty=23006 # Mamikonian
 	religion="miaphysite"
@@ -6994,7 +6994,7 @@
 	}
 }
 159884 = {
-	name="Hripsime" # 
+	name="Hripsime" #
 	female = yes
 	dynasty=23006 # Mamikonian
 	religion="miaphysite"
@@ -7012,7 +7012,7 @@
 }
 
 159885 = {
-	name="Vache" 
+	name="Vache"
 	dynasty=101736
 	religion="zoroastrian"
 	culture="armenian"
@@ -7025,7 +7025,7 @@
 }
 
 159886 = {
-	name="Savasp" 
+	name="Savasp"
 	dynasty=101736
 	religion="zoroastrian"
 	culture="armenian"
@@ -7038,7 +7038,7 @@
 	}
 }
 159887 = {
-	name="Meruzhan" 
+	name="Meruzhan"
 	dynasty=101736
 	religion="zoroastrian"
 	culture="armenian"
@@ -7052,7 +7052,7 @@
 	}
 }
 159888 = {
-	name="Vache" 
+	name="Vache"
 	dynasty=101736
 	religion="miaphysite"
 	culture="armenian"
@@ -7065,7 +7065,7 @@
 	}
 }
 159889 = {
-	name="Vassak" 
+	name="Vassak"
 	dynasty=101736
 	religion="miaphysite"
 	culture="armenian"
@@ -7078,7 +7078,7 @@
 	}
 }
 159890 = {
-	name="Meruzhan" 
+	name="Meruzhan"
 	dynasty=101736
 	religion="miaphysite"
 	culture="armenian"
@@ -7091,7 +7091,7 @@
 	}
 }
 159891 = {
-	name="Mihrshapur" 
+	name="Mihrshapur"
 	dynasty=101736
 	religion="miaphysite"
 	culture="armenian"
@@ -7104,7 +7104,7 @@
 	}
 }
 159892 = {
-	name="Sahak" 
+	name="Sahak"
 	dynasty=101736
 	religion="miaphysite"
 	culture="armenian"
@@ -8160,7 +8160,7 @@
 145225 = {
 	name="Artavasdos"
 	dynasty=101199
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="armenian"
 	trait="envious"
 	trait="ambitious"
@@ -8177,7 +8177,7 @@
 	}
 }
 
-160036 = { 
+160036 = {
 	name="Juansher" # Javanshir
 	dynasty=1029027
 	religion="miaphysite"
@@ -8190,8 +8190,8 @@
 		death="700.1.1"
 	}
 }
-160037 = { 
-	name="Stepanos" # 
+160037 = {
+	name="Stepanos" #
 	dynasty=1029027
 	religion="miaphysite"
 	culture="armenian"

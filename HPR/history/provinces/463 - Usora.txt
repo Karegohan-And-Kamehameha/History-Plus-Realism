@@ -13,13 +13,15 @@ b_tolisa = city
 
 
 
- 
+
 
 # Misc
 culture = bosnian
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1232.1.1= { religion = bogomilist } 
-1300.1.1= { b_tesanj = castle } 
+1054.1.1 = {
+	religion = catholic
+}
+1232.1.1= { religion = bogomilist }
+1300.1.1= { b_tesanj = castle }

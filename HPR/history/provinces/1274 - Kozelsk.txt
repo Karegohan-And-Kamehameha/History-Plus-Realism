@@ -22,7 +22,10 @@ religion = finnish_pagan
 	culture = russian
 	religion = slavic_pagan
 }
-1025.1.1 = {religion = orthodox}
+1025.1.1 = {religion = chalcedonian}
 1025.1.1 = {b_kozelzk = castle
 b_belyov = castle
 b_bolkhov = temple}
+1054.1.1 = {
+	religion = orthodox
+}

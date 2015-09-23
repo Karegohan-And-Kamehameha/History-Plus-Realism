@@ -21,11 +21,13 @@ b_trancoso = castle
 
 # Misc
 culture = portuguese
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_trancoso = ca_town_1
 	b_trancoso = ca_keep_1
 	b_trancoso = ca_stable_1

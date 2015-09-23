@@ -20,12 +20,15 @@ religion = norse_pagan
 	b_tonsberg = tb_shipyard_1
 	b_skiringssal = ct_port_1
 	b_skiringssal = ct_marketplace_1
-} 
+}
 999.1.1 = { trade_post = b_odenbel }
-1000.1.1 = { 
+1000.1.1 = {
 b_tonsberg = castle
 b_tonsberg = ca_shipyard_1
 } #to Denmark
-1010.1.1 = { religion = catholic } 
+1010.1.1 = { religion = chalcedonian }
 1047.10.25 = { culture = norwegian }
 
+1054.1.1 = {
+	religion = catholic
+}

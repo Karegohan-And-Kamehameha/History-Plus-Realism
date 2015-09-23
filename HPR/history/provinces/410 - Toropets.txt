@@ -23,8 +23,11 @@ culture = russian
 religion = slavic_pagan
 
 # History
-995.1.1 = {religion = orthodox }
+995.1.1 = {religion = chalcedonian }
 995.1.1 = {
 b_toropets = castle
 b_klichen = temple
 b_molodytud = city}
+1054.1.1 = {
+	religion = orthodox
+}

@@ -15,10 +15,12 @@ b_luna = castle
 
 # Misc
 culture = leonese
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = {
 b_leon = ca_town_1
 b_leon = ca_town_2

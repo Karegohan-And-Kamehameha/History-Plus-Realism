@@ -23,7 +23,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	trait="lustful"
 	trait="wroth"
@@ -31,18 +31,20 @@
 	trait="tough_soldier"
 	father=100521
 	mother=100510
-	
+
 	1027.1.1={
 		birth="1027.1.1"
 	}
 	1045.1.1={
 		add_spouse=100514 # Maria af Munsö
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1066.1.1={
 		add_trait="pneumonic"
 	}
-	
+
 	1066.9.25={
 		death="1066.9.25"
 	}
@@ -55,7 +57,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	trait="patient"
 	trait="underhanded_rogue"
@@ -63,6 +65,9 @@
 	mother=100514
 	1047.1.2={
 		birth="1047.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1110.12.1={
 		death="1110.12.1"
@@ -76,7 +81,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	trait="kind"
 	trait="zealous"
@@ -85,6 +90,9 @@
 	mother=100514
 	1050.1.8={
 		birth="1050.1.8"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1100.1.8={
 		death="1100.1.8"
@@ -96,7 +104,7 @@
 	dynasty=498
 	martial=7
 	diplomacy=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	trait="wroth"
 	trait="tough_soldier"
@@ -104,6 +112,9 @@
 	mother=100514 # Speculation
 	1046.1.4={
 		birth="1046.1.4"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1067.12.20={
 		death="1067.12.20" # Died in a civil war against 100546 - Erik "Hedningen" ("The Heathen")
@@ -117,15 +128,18 @@
 	diplomacy=3
 	intrigue=5
 	stewardship=4
-	religion="catholic" # Possibly Norse Pagan
+	religion = "chalcedonian" # Possibly Norse Pagan
 	culture="gothic"
 	trait="cynical"
 	trait="legit_bastard"
 	trait="intricate_webweaver"
 	father=100522 # Stenkil - Speculation
-	# mother=100514 # Presumed to have been a Bastard of Stenkil's	
+	# mother=100514 # Presumed to have been a Bastard of Stenkil's
 	1048.6.2={
 		birth="1048.6.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.12.1={
 		death="1080.12.1"
@@ -186,7 +200,7 @@
 		birth="1100.1.1"
 	}
 	1134.6.25={
-		add_spouse=200601	
+		add_spouse=200601
 	}
 	1149.1.1={
 		add_spouse=221511 #Ryksa of Poland
@@ -308,7 +322,7 @@
 	1135.1.2={
 		birth="1135.1.2"
 	}
-	
+
 	1173.1.1={
 		death="1173.1.1"
 	}
@@ -512,7 +526,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	trait="hunchback"
 	trait="underhanded_rogue"
@@ -520,6 +534,9 @@
 	mother=100543
 	1030.1.1={
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1={
 		death="1080.1.1"
@@ -533,13 +550,16 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	trait="martial_cleric"
 	father=100538
 	mother=100535
 	1047.1.1={
 		birth="1047.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1={
 		add_spouse=167630
@@ -556,13 +576,16 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	trait="martial_cleric"
 	father=100538
 	mother=100535
 	1052.1.1={
 		birth="1052.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1102.1.1={
 		death="1102.1.1"
@@ -576,7 +599,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	trait="flamboyant_schemer"
 	1025.1.1={
@@ -584,6 +607,9 @@
 	}
 	1045.1.1={
 		add_spouse=100535
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.1.1={
 		death="1075.1.1"
@@ -612,7 +638,7 @@
 
 167300 = {
 	name="Audvald"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -631,7 +657,7 @@
 
 167301 = {
 	name="Likair"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -648,7 +674,7 @@
 
 167302 = {
 	name="Rodiaud"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=495
 	religion="catholic"
@@ -664,7 +690,7 @@
 
 167303 = {
 	name="Asbjörn"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -685,7 +711,7 @@
 
 167304 = {
 	name="Magnus"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -706,7 +732,7 @@
 
 167305 = {
 	name="Gyla"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=495
 	religion="catholic"
@@ -725,7 +751,7 @@
 
 167306 = {
 	name="Brynjolf"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -746,7 +772,7 @@
 
 167307 = {
 	name="Audvald"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -764,7 +790,7 @@
 
 167308 = {
 	name="Olaf"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -783,7 +809,7 @@
 167309 = {
 	name="Inga"
 	#placeholder
-	female=yes 
+	female=yes
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -801,7 +827,7 @@
 
 167310 = {
 	name="Magnus"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -822,7 +848,7 @@
 
 167311 = {
 	name="Tolir"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -841,7 +867,7 @@
 
 167312 = {
 	name="Rikissa"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=495
 	religion="catholic"
@@ -859,7 +885,7 @@
 
 167313 = {
 	name="Aleta"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=495
 	religion="catholic"
@@ -878,7 +904,7 @@
 
 167314 = {
 	name="Ingvar"
-	#placeholder 
+	#placeholder
 	dynasty=495
 	religion="catholic"
 	culture="gothic"
@@ -894,9 +920,9 @@
 
 167315 = {
 	name="Tjudmund"
-	#placeholder 
+	#placeholder
 	dynasty=9517
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	1000.1.1 = {
 		birth="1000.1.1"
@@ -911,9 +937,9 @@
 
 167316 = {
 	name="Kettil"
-	#placeholder 
+	#placeholder
 	dynasty=9517
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167315
 	mother=167636
@@ -923,6 +949,9 @@
 	1048.1.1={
 		add_spouse=167637
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1080.1.1 = {
 		death="1080.1.1"
 	}
@@ -930,15 +959,18 @@
 
 167317 = {
 	name="Ragnhild"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=9517
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167315
 	mother=167636
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"
@@ -947,14 +979,17 @@
 
 167318 = {
 	name="Tjudmund"
-	#placeholder 
+	#placeholder
 	dynasty=9517
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167316
 	mother=167637
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1116.1.1 = {
 		death="1116.1.1"
@@ -965,14 +1000,17 @@
 
 167319 = {
 	name="Niklas"
-	#placeholder 
+	#placeholder
 	dynasty=9517
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167316
 	mother=167637
 	1052.1.1 = {
 		birth="1052.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1074.1.1={
 		add_spouse=167638
@@ -985,7 +1023,7 @@
 
 167320 = {
 	name="Holmfrid"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=9517
 	religion="catholic"
@@ -1005,7 +1043,7 @@
 
 167321 = {
 	name="Maer"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=9517
 	religion="catholic"
@@ -1025,7 +1063,7 @@
 
 167322 = {
 	name="Jedvard"
-	#placeholder 
+	#placeholder
 	dynasty=9517
 	religion="catholic"
 	culture="gothic"
@@ -1046,7 +1084,7 @@
 
 167323 = {
 	name="Tjudmund"
-	#placeholder 
+	#placeholder
 	dynasty=9517
 	religion="catholic"
 	culture="gothic"
@@ -1058,7 +1096,7 @@
 	1138.1.1 = {
 		add_spouse=167639
 	}
-	
+
 	1175.1.1 = {
 		death="1175.1.1"
 	}
@@ -1069,7 +1107,7 @@
 
 167324 = {
 	name="Jedvard"
-	#placeholder 
+	#placeholder
 	dynasty=9517
 	religion="catholic"
 	culture="gothic"
@@ -1091,7 +1129,7 @@
 
 167325 = {
 	name="Niklas"
-	#placeholder 
+	#placeholder
 	dynasty=9517
 	religion="catholic"
 	culture="gothic"
@@ -1113,7 +1151,7 @@
 
 167326 = {
 	name="Tjudmund"
-	#placeholder 
+	#placeholder
 	dynasty=9517
 	religion="catholic"
 	culture="gothic"
@@ -1122,7 +1160,7 @@
 	1162.1.1 = {
 		birth="1162.1.1"
 	}
-	
+
 	1212.1.1 = {
 		death="1212.1.1"
 	}
@@ -1133,7 +1171,7 @@
 
 167327 = {
 	name="Halsten"
-	#placeholder 
+	#placeholder
 	dynasty=9517
 	religion="catholic"
 	culture="gothic"
@@ -1141,7 +1179,7 @@
 	1145.1.1 = {
 		birth="1145.1.1"
 	}
-	
+
 	1200.1.1 = {
 		death="1200.1.1"
 	}
@@ -1151,7 +1189,7 @@
 
 167328 = {
 	name="Aleta"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=9517
 	religion="catholic"
@@ -1160,7 +1198,7 @@
 	1165.1.1 = {
 		birth="1165.1.1"
 	}
-	
+
 	1215.1.1 = {
 		death="1215.1.1"
 	}
@@ -1170,7 +1208,7 @@
 
 167329 = {
 	name="Niklas"
-	#placeholder 
+	#placeholder
 	dynasty=9517
 	religion="catholic"
 	culture="gothic"
@@ -1178,7 +1216,7 @@
 	1166.1.1 = {
 		birth="1166.1.1"
 	}
-	
+
 	1216.1.1 = {
 		death="1216.1.1"
 	}
@@ -1191,15 +1229,18 @@
 
 167330 = {
 	name="Faste"
-	#placeholder 
+	#placeholder
 	dynasty=9518
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	1010.1.1 = {
 		birth="1010.1.1"
 	}
 	1028.1.1 = {
 		add_spouse=167641
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death="1060.1.1"
@@ -1210,9 +1251,9 @@
 
 167331 = {
 	name="Tolir"
-	#placeholder 
+	#placeholder
 	dynasty=9518
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167330
 	mother=167641
@@ -1221,6 +1262,9 @@
 	}
 	1048.1.1 = {
 		add_spouse=167317
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1098.1.1 = {
 		death="1098.1.1"
@@ -1231,16 +1275,18 @@
 
 167332 = {
 	name="Dag"
-	#placeholder 
+	#placeholder
 	dynasty=9518
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167330
 	mother=167641
 	1035.1.1 = {
 		birth="1035.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1090.1.1 = {
 		death="1090.1.1"
 	}
@@ -1251,16 +1297,18 @@
 
 167333 = {
 	name="Olaf"
-	#placeholder 
+	#placeholder
 	dynasty=9518
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167330
 	mother=167641
 	1040.1.1 = {
 		birth="1040.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1092.1.1 = {
 		death="1092.1.1"
 	}
@@ -1270,14 +1318,17 @@
 
 167334 = {
 	name="Arnfast"
-	#placeholder 
+	#placeholder
 	dynasty=9518
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167331
 	mother=167317
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1066.1.1 = {
 		add_spouse=167642
@@ -1292,7 +1343,7 @@
 
 167335 = {
 	name="Tjudmund"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1301,7 +1352,7 @@
 	1055.1.1 = {
 		birth="1055.1.1"
 	}
-	
+
 	1110.1.1 = {
 		death="1110.1.1"
 	}
@@ -1311,7 +1362,7 @@
 
 167336 = {
 	name="Sigtrygg"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1320,7 +1371,7 @@
 	1055.1.1 = {
 		birth="1055.1.1"
 	}
-	
+
 	1098.1.1 = {
 		death="1098.1.1"
 	}
@@ -1330,7 +1381,7 @@
 
 167337 = {
 	name="Emund"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1350,7 +1401,7 @@
 
 167338 = {
 	name="Faste"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1359,7 +1410,7 @@
 	1100.1.1 = {
 		birth="1100.1.1"
 	}
-	
+
 	1155.1.1 = {
 		death="1155.1.1"
 	}
@@ -1369,7 +1420,7 @@
 
 167339 = {
 	name="Arnfast"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1390,7 +1441,7 @@
 
 167340 = {
 	name="Sverker"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1413,7 +1464,7 @@
 
 167341 = {
 	name="Faste"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1422,7 +1473,7 @@
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
-	
+
 	1200.1.1 = {
 		death="1200.1.1"
 	}
@@ -1431,7 +1482,7 @@
 
 167378 = {
 	name="Dag"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1440,7 +1491,7 @@
 	1165.1.1 = {
 		birth="1165.1.1"
 	}
-	
+
 	1215.1.1 = {
 		death="1215.1.1"
 	}
@@ -1451,7 +1502,7 @@
 
 167379 = {
 	name="Tolir"
-	#placeholder 
+	#placeholder
 	dynasty=9518
 	religion="catholic"
 	culture="gothic"
@@ -1460,7 +1511,7 @@
 	1168.1.1 = {
 		birth="1168.1.1"
 	}
-	
+
 	1218.1.1 = {
 		death="1218.1.1"
 	}
@@ -1472,15 +1523,18 @@
 
 167342 = {
 	name="Håkan"
-	#placeholder 
+	#placeholder
 	dynasty=9519
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	1005.1.1 = {
 		birth="1005.1.1"
 	}
 	1028.1.1 = {
 		add_spouse=167649
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1055.1.1 = {
 		death="1055.1.1"
@@ -1490,9 +1544,9 @@
 
 167343 = {
 	name="Rörek"
-	#placeholder 
+	#placeholder
 	dynasty=9519
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167342
 	mother=167649
@@ -1501,6 +1555,9 @@
 	}
 	1050.1.1 = {
 		add_spouse=167650
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1 = {
 		death="1070.1.1"
@@ -1512,9 +1569,9 @@
 
 167344 = {
 	name="Sigurd"
-	#placeholder 
+	#placeholder
 	dynasty=9519
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167342
 	mother=167649
@@ -1523,6 +1580,9 @@
 	}
 	1050.1.1 = {
 		add_spouse=167651
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1080.1.1 = {
 		death="1080.1.1"
@@ -1534,16 +1594,19 @@
 
 167345 = {
 	name="Håkan"
-	#placeholder 
+	#placeholder
 	dynasty=9519
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167344
 	mother=167651
 	1052.1.1 = {
 		birth="1052.1.1"
 	}
-	1070.1.1 = {	
+	1054.1.1 = {
+		religion = "catholic"
+	}
+	1070.1.1 = {
 		add_spouse=167364
 	}
 	1090.1.1 = {
@@ -1556,7 +1619,7 @@
 
 167346 = {
 	name="Sven"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1565,7 +1628,7 @@
 	1056.1.1 = {
 		birth="1056.1.1"
 	}
-	1079.1.1 = {	
+	1079.1.1 = {
 		add_spouse=167653
 	}
 	1104.1.1 = {
@@ -1578,7 +1641,7 @@
 
 167347 = {
 	name="Öystein"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1587,7 +1650,7 @@
 	1060.1.1 = {
 		birth="1060.1.1"
 	}
-	
+
 	1118.1.1 = {
 		death="1118.1.1"
 	}
@@ -1598,7 +1661,7 @@
 
 167348 = {
 	name="Sigurd"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1607,7 +1670,7 @@
 	1072.1.1 = {
 		birth="1072.1.1"
 	}
-	1095.1.1 = {	
+	1095.1.1 = {
 		add_spouse=167652
 	}
 	1130.1.1 = {
@@ -1619,7 +1682,7 @@
 
 167349 = {
 	name="Asbjörn"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1628,7 +1691,7 @@
 	1080.1.1 = {
 		birth="1080.1.1"
 	}
-	1099.1.1 = {	
+	1099.1.1 = {
 		add_spouse=167654
 	}
 	1135.1.1 = {
@@ -1641,7 +1704,7 @@
 
 167350 = {
 	name="Ingeborg"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=9519
 	religion="catholic"
@@ -1650,7 +1713,7 @@
 	1085.1.1 = {
 		birth="1085.1.1"
 	}
-	
+
 	1135.1.1 = {
 		death="1135.1.1"
 	}
@@ -1661,7 +1724,7 @@
 
 167351 = {
 	name="Håkan"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1670,7 +1733,7 @@
 	1100.1.1 = {
 		birth="1100.1.1"
 	}
-	1124.1.1 = {	
+	1124.1.1 = {
 		add_spouse=167655
 	}
 	1160.1.1 = {
@@ -1682,7 +1745,7 @@
 
 167352 = {
 	name="Bengt"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1691,7 +1754,7 @@
 	1125.1.1 = {
 		birth="1125.1.1"
 	}
-	1149.1.1 = {	
+	1149.1.1 = {
 		add_spouse=167656
 	}
 	1178.1.1 = {
@@ -1703,7 +1766,7 @@
 
 167353 = {
 	name="Sigurd"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1712,7 +1775,7 @@
 	1130.1.1 = {
 		birth="1130.1.1"
 	}
-	
+
 	1200.1.1 = {
 		death="1200.1.1"
 	}
@@ -1722,7 +1785,7 @@
 
 167354 = {
 	name="Rörek"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1731,7 +1794,7 @@
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
-	
+
 	1200.1.1 = {
 		death="1200.1.1"
 	}
@@ -1741,7 +1804,7 @@
 
 167355 = {
 	name="Sämund"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1750,7 +1813,7 @@
 	1153.1.1 = {
 		birth="1153.1.1"
 	}
-	1169.1.1 = {	
+	1169.1.1 = {
 		add_spouse=167657
 	}
 	1203.1.1 = {
@@ -1762,7 +1825,7 @@
 
 167390 = {
 	name="Brigitta"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=9519
 	religion="catholic"
@@ -1772,17 +1835,17 @@
 	1170.1.1 = {
 		birth="1170.1.1"
 	}
-	
+
 	1220.1.1 = {
 		death="1220.1.1"
 	}
-}	
+}
 
 
 
 167356 = {
 	name="Håkan"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1803,7 +1866,7 @@
 
 167357 = {
 	name="Bror"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1825,7 +1888,7 @@
 
 167358 = {
 	name="Sigurd"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1834,7 +1897,7 @@
 	1168.1.1 = {
 		birth="1168.1.1"
 	}
-	
+
 	1220.1.1 = {
 		death="1220.1.1"
 	}
@@ -1844,7 +1907,7 @@
 
 167359 = {
 	name="Sigtrygg"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1853,7 +1916,7 @@
 	1170.1.1 = {
 		birth="1170.1.1"
 	}
-	
+
 	1220.1.1 = {
 		death="1220.1.1"
 	}
@@ -1863,7 +1926,7 @@
 
 167360 = {
 	name="Sigbjörn"
-	#placeholder 
+	#placeholder
 	dynasty=9519
 	religion="catholic"
 	culture="gothic"
@@ -1872,7 +1935,7 @@
 	1171.1.1 = {
 		birth="1171.1.1"
 	}
-	
+
 	1222.1.1 = {
 		death="1222.1.1"
 	}
@@ -1881,15 +1944,18 @@
 
 167361 = {
 	name="Knut"
-	#placeholder 
+	#placeholder
 	dynasty=9520
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	1020.1.1 = {
 		birth="1020.1.1"
 	}
 	1044.1.1 = {
 		add_spouse=167645
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1077.1.1 = {
 		death="1077.1.1"
@@ -1899,14 +1965,17 @@
 
 167362 = {
 	name="Dyre"
-	#placeholder 
+	#placeholder
 	dynasty=9520
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167361
 	mother=167645
 	1045.1.1 = {
 		birth="1045.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1063.1.1 = {
 		add_spouse=167646
@@ -1920,16 +1989,18 @@
 
 167363 = {
 	name="Folke"
-	#placeholder 
+	#placeholder
 	dynasty=9520
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167361
 	mother=167645
 	1048.1.1 = {
 		birth="1048.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1105.1.1 = {
 		death="1105.1.1"
 	}
@@ -1939,25 +2010,27 @@
 
 167364 = {
 	name="Inga"
-	#placeholder 
+	#placeholder
 	female=yes
 	dynasty=9520
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="gothic"
 	father=167361
 	mother=167645
 	1050.1.1 = {
 		birth="1050.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1105.1.1 = {
 		death="1105.1.1"
 	}
-}	
-	
+}
+
 167365 = {
 	name="Knut"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -1980,7 +2053,7 @@
 
 167366 = {
 	name="Erik"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -1988,7 +2061,7 @@
 	1070.1.1 = {
 		birth="1070.1.1"
 	}
-	
+
 	1120.1.1 = {
 		death="1120.1.1"
 	}
@@ -1999,7 +2072,7 @@
 
 167367 = {
 	name="Ulf"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2007,16 +2080,16 @@
 	1072.1.1 = {
 		birth="1072.1.1"
 	}
-	
+
 	1125.1.1 = {
 		death="1125.1.1"
 	}
-}	
+}
 
 
 167368 = {
 	name="Björn"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2037,7 +2110,7 @@
 
 167369 = {
 	name="Johan"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2046,7 +2119,7 @@
 	1089.1.1 = {
 		birth="1089.1.1"
 	}
-	
+
 	1140.1.1 = {
 		death="1140.1.1"
 	}
@@ -2055,7 +2128,7 @@
 
 167370 = {
 	name="Knut"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2064,7 +2137,7 @@
 	1110.1.1 = {
 		birth="1110.1.1"
 	}
-	
+
 	1160.1.1 = {
 		death="1160.1.1"
 	}
@@ -2074,7 +2147,7 @@
 
 167371 = {
 	name="Folke"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2083,17 +2156,17 @@
 	1115.1.1 = {
 		birth="1115.1.1"
 	}
-	
+
 	1170.1.1 = {
 		death="1170.1.1"
 	}
 }
-	
+
 
 
 167372 = {
 	name="Ragnvald"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2113,7 +2186,7 @@
 
 167373 = {
 	name="Knut"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2122,17 +2195,17 @@
 	1160.1.1 = {
 		birth="1160.1.1"
 	}
-	
+
 	1210.1.1 = {
 		death="1210.1.1"
 	}
-}		
-	
+}
+
 
 
 167374 = {
 	name="Folke"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2141,7 +2214,7 @@
 	1161.1.1 = {
 		birth="1161.1.1"
 	}
-	
+
 	1210.1.1 = {
 		death="1210.1.1"
 	}
@@ -2151,7 +2224,7 @@
 
 167375 = {
 	name="Björn"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2161,7 +2234,7 @@
 	1162.1.1 = {
 		birth="1162.1.1"
 	}
-	
+
 	1212.1.1 = {
 		death="1212.1.1"
 	}
@@ -2171,7 +2244,7 @@
 
 167376 = {
 	name="Johan"
-	#placeholder 
+	#placeholder
 	dynasty=9520
 	religion="catholic"
 	culture="gothic"
@@ -2181,7 +2254,7 @@
 	1162.1.1 = {
 		birth="1162.1.1"
 	}
-	
+
 	1215.1.1 = {
 		death="1215.1.1"
 	}

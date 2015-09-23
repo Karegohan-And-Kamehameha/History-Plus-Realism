@@ -1,4 +1,4 @@
-# 9 - Connacht 
+# 9 - Connacht
 
 # County Title
 title = c_connacht
@@ -18,10 +18,13 @@ b_lisnatreanduff = castle
 
 # Misc
 culture = irish
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
 
-#818.1.1 = { remove_settlement = b_mayo } #Turgeis 
+#818.1.1 = { remove_settlement = b_mayo } #Turgeis
+1054.1.1 = {
+	religion = catholic
+}
 1185.1.1 = { b_shrule = castle } # De Borgo

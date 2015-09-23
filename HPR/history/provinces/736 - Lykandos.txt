@@ -16,7 +16,7 @@ b_ariaramneia = castle
 # Misc
 terrain = mountain
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
 830.1.1 = { religion = paulician }

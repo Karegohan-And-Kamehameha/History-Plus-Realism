@@ -16,9 +16,12 @@ culture = prussian
 religion = baltic_pagan
 
 # History
-995.1.1 = {religion = orthodox }
+995.1.1 = {religion = chalcedonian }
 995.1.1 = {b_vyazma = castle
 b_rzhev = city}
+1054.1.1 = {
+	religion = orthodox
+}
 1148.1.1 = {culture = russian
 religion = slavic_pagan}
 

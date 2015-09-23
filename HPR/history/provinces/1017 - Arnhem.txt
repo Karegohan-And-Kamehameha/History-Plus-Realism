@@ -12,9 +12,12 @@ b_harderwijk = temple
 
 # Misc
 culture = low_frankish #northern parts could be low_saxon
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1150.1.1 = { culture = dutch }
 
 

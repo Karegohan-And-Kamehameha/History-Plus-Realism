@@ -9,10 +9,10 @@
 1000167110 = {
 	name="Atenulf" #Atenulf IV
 	dynasty=12243 #di Aquino
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	1000.1.1 = {
-		birth="1000.1.1" 
+		birth="1000.1.1"
 	}
 	1038.1.1 = {
 		death="1038.1.1"
@@ -22,11 +22,14 @@
 1000167111 = {
 	name="Atenulf" #Atenulf V
 	dynasty=12243 #di Aquino
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1000167110
 	1020.1.1 = {
-		birth="1020.1.1" 
+		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.1 = {
 		death="1062.1.1"
@@ -36,11 +39,14 @@
 1000167112 = {
 	name="Atenulf" #Atenulf II of Gaeta
 	dynasty=12243 #di Aquino
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1000167111
 	1040.1.1 = {
-		birth="1040.1.1" 
+		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.1 = {
 		add_claim="c_gaeta"
@@ -53,12 +59,15 @@
 1000167113 = {
 	name="Emilia"
 	dynasty=12243 #di Aquino
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=1000167111
 	female=yes
 	1040.1.1 = {
-		birth="1040.1.1" 
+		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		add_spouse=30858 #Landolf di Salerno
@@ -85,10 +94,10 @@
 	culture="langobardisch"
 	father=73350 #incomplete records after XI century
 	1070.1.1 = {
-		birth="1070.1.1" 
+		birth="1070.1.1"
 	}
 	1130.1.1 = {
-		death="1130.1.1" 
+		death="1130.1.1"
 	}
 }
 
@@ -99,10 +108,10 @@
 	culture="langobardisch"
 	father=1000167119 #incomplete records after XI century
 	1100.1.1 = {
-		birth="1100.1.1" 
+		birth="1100.1.1"
 	}
 	1170.1.1 = {
-		death="1170.1.1" 
+		death="1170.1.1"
 	}
 }
 
@@ -113,10 +122,10 @@
 	culture="langobardisch"
 	father=1000167120 #incomplete records after XI century
 	1130.1.1 = {
-		birth="1130.1.1" 
+		birth="1130.1.1"
 	}
 	1210.1.1 = {
-		death="1210.1.1" 
+		death="1210.1.1"
 	}
 }
 
@@ -127,23 +136,26 @@
 	culture="langobardisch"
 	father=1000167121 #incomplete records after XI century
 	1180.1.1 = {
-		birth="1180.1.1" 
+		birth="1180.1.1"
 	}
 	1251.1.1 = {
-		death="1251.1.1" 
+		death="1251.1.1"
 	}
 }
 #Byzantine Admiral during the late 11th and Early 12th Century. Of Italian origin, can't narrow it down more than that
 1000167123 = {
 	name="Landulf"
 	dynasty=1000035573
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 
 	1044.1.1 = {
-		birth="1044.1.1" 
+		birth="1044.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1111.1.1 = {
-		death="1111.1.1" 
+		death="1111.1.1"
 	}
 }

@@ -1,7 +1,7 @@
 # 313 - Bamberg
 
 # County Title
-title = c_bamberg 
+title = c_bamberg
 
 # Settlements
 max_settlements = 3
@@ -16,7 +16,10 @@ b_bamberg = temple
 
 # Misc
 culture = franconian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }

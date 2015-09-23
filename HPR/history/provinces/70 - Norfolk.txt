@@ -21,14 +21,16 @@ b_elmham = temple
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
 869.1.1 = { culture = norse } # Fall of East Anglia
 869.1.1 = { religion = norse_pagan } # Fall of East Anglia
-879.1.1 = { religion = catholic } # Guthrum becomes Æþelstan
+879.1.1 = { religion = chalcedonian } # Guthrum becomes Æþelstan
 950.1.1 = { b_lynn = city }
-1047.10.25 = { culture = danish } 
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 1070.1.1 = { culture = saxon } # Too fit with the Harrying of the north, in lack of a better date to do the switch
 1100.11.11 = { culture = english }
- 

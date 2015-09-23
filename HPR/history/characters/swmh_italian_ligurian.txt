@@ -24,7 +24,7 @@
 		death="1150.1.1"
 	}
 }
-#Giovanni was in Genova in year 1334, no date of birth or death avaiable# 
+#Giovanni was in Genova in year 1334, no date of birth or death avaiable#
 1000091066 = {
 	name="Giovanni"
 	dynasty=1000035294 #id taken from our ligurian dynasties#
@@ -89,7 +89,7 @@
 
 
 #Tartaro family aka Imperiale family, in 1378 the family ruled the whole Corsica
-#Giovanni il Tartaro was a genoese noble who lived in Caffa, as the place was inhabitated by Tatars he get the nickname of il Tartaro (the Tatar), in year 1100 he returned to Genova# 
+#Giovanni il Tartaro was a genoese noble who lived in Caffa, as the place was inhabitated by Tatars he get the nickname of il Tartaro (the Tatar), in year 1100 he returned to Genova#
 1000091069 = {
 	name="Giovanni"
 	dynasty=1000035298 #id taken from our ligurian dynasties#
@@ -168,7 +168,7 @@
 
 #Staglieno family, their origin trace back to the period of the late roman republic, the founding father was the magistrate Gaio Elio Staleno citated in 66 BC by Ciceron, no characters noted during CK2 timeframe, better leave them as casual generated characters#
 
-#Cattaneo family, they ruled Varazze, Masone, Tagliolo and Lerma as counts  
+#Cattaneo family, they ruled Varazze, Masone, Tagliolo and Lerma as counts
 #Conradus aka Corrado was the founding father of this family that once was called Della Volta, in year 938 he was alive but unknown birth or death date
 1000091073 = {
 	name="Corrado"
@@ -177,7 +177,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	add_trait="skilled_tactician"
 	add_trait="proud"
@@ -196,7 +196,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	add_trait="skilled_tactician"
 	add_trait="proud"
@@ -216,12 +216,15 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="ligurian"
 	add_trait="skilled_tactician"
 	add_trait="proud"
 	1005.1.1 = {
 		birth="1005.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death="1065.1.1"
@@ -247,7 +250,7 @@
 		death="1115.1.1"
 	}
 }
-#Ingo 2, he was the real ruler of Genova during his life, was elected consul many times, in 1147 he fought against moors in Almeria and was victorious, in 1161 he was consul and peace ambassador between Genova and the Emperor Frederick I, the Emperor himself give him the "dignità di Cattaneo" from that point on the family changed name from Della Volta to Cattaneo   
+#Ingo 2, he was the real ruler of Genova during his life, was elected consul many times, in 1147 he fought against moors in Almeria and was victorious, in 1161 he was consul and peace ambassador between Genova and the Emperor Frederick I, the Emperor himself give him the "dignità di Cattaneo" from that point on the family changed name from Della Volta to Cattaneo
 1000091077 = {
 	name="Ingo"
 	dynasty=1000035300 #id taken from our ligurian dynasties#
@@ -868,7 +871,7 @@
 	}
 }
 #Doria family
-#Arduino the first acknowledge Doria, he was a frankish lord who married Oria Della Volta (AKA Cattaneo family) 
+#Arduino the first acknowledge Doria, he was a frankish lord who married Oria Della Volta (AKA Cattaneo family)
 1000091140 = {
 	name="Arduino"
 	dynasty=13041 #id taken from vanilla file#
@@ -876,7 +879,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	add_trait="skilled_tactician"
 	add_trait="proud"

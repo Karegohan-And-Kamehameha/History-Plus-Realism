@@ -14,7 +14,7 @@ b_nazareth = temple
 #b_cavedesueth = city
 
 
-#b_mnttabor = temple 
+b_mnttabor = temple
 #b_hattin = city
 
 
@@ -22,9 +22,11 @@ b_nazareth = temple
 
 # Misc
 culture = levantine_arabic
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 
 1270.1.1 = { religion = sunni }

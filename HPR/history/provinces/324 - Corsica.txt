@@ -16,9 +16,11 @@ b_mariani = temple
 
 # Misc
 culture = corsican
-religion = catholic
+religion = chalcedonian
 terrain = mountain
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1077.1.1 = { trade_post = b_spinola }

@@ -16,9 +16,12 @@ b_furstenberg = castle
 
 # Misc
 culture = swabian
-religion = catholic
+religion = chalcedonian
 
 # History
-1086.1.1 = { b_sanktgeorgen = temple } 
+1054.1.1 = {
+	religion = catholic
+}
+1086.1.1 = { b_sanktgeorgen = temple }
 1170.1.1 = { culture = german }
 

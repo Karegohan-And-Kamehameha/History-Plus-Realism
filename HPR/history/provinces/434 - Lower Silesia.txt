@@ -19,11 +19,14 @@ culture = polish
 religion = slavic_pagan
 
 # History
-990.1.1 = { religion = catholic 
+990.1.1 = { religion = chalcedonian
 b_wroclaw = castle
 b_brzeg = city
 }
-#1165.1.1 = { remove_settlement = b_sleza } 
+1054.1.1 = {
+	religion = catholic
+}
+#1165.1.1 = { remove_settlement = b_sleza }
 #1165.1.1 = { b_ostrow_tumski = temple }
 1187.1.1 = { b_henrykow = temple }
 1260.1.1 = { culture = german } #German settlers

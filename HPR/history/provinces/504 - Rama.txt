@@ -10,16 +10,18 @@ b_prozor_rama = castle
 b_travnik = castle
 #b_bioski = city
 
- 
+
 
 
 
 
 # Misc
 culture = bosnian
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1232.1.1= { religion = bogomilist } 
-1232.1.1= { b_fojnica = temple } 
+1054.1.1 = {
+	religion = catholic
+}
+1232.1.1= { religion = bogomilist }
+1232.1.1= { b_fojnica = temple }

@@ -16,11 +16,14 @@ b_rheinfelden = city
 
 # Misc
 culture = swabian
-religion = catholic
+religion = chalcedonian
 
 # History
-1027.1.1= { b_muri = temple } 
-#1036.1.1= { b_lenzburg = castle } 
+1027.1.1= { b_muri = temple }
+#1036.1.1= { b_lenzburg = castle }
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }
 #1172.5.9 = { remove_settlement = b_lenzburg }
 

@@ -17,13 +17,16 @@ religion = norse_pagan
 terrain = farmlands
 
 # History
-1000.1.1 = { 
+1000.1.1 = {
 b_vordingborg = castle
 b_naestved = temple
-b_jungshoved = castle } 
-1005.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
-1066.1.1 = { 
+b_jungshoved = castle }
+1005.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_vordingborg = ca_keep_1
 	b_vordingborg = ca_stable_1
 	b_vordingborg = ca_militia_barracks_1

@@ -1,12 +1,12 @@
 #Alt Clut
 163104 = {
-	name="Artgal" 
-	dynasty=816 
+	name="Artgal"
+	dynasty=816
 	martial=6
 	diplomacy=3
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	trait="tough_soldier"
 	father=166444
@@ -17,7 +17,7 @@
 		death="872.1.1"
 	}
 }
-166441 = {  	
+166441 = {
 	name="Oucydd"
 	# AKA: Eochaid map Run
 	dynasty=816
@@ -25,7 +25,7 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166442
 	mother=166443
@@ -37,7 +37,7 @@
 	}
 }
 
-166442 = {  	
+166442 = {
 	name="Run"
 	# AKA: Run of Alt Clut
 	dynasty=816
@@ -45,7 +45,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=163104
 	827.1.1={
@@ -59,7 +59,7 @@
 	}
 }
 
-166444 = {  	
+166444 = {
 	name="Dumnagual"
 	# AKA: Dumnagual IV of Alt Clut
 	dynasty=816
@@ -67,7 +67,7 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166445
 	785.1.1={
@@ -78,7 +78,7 @@
 	}
 }
 
-166445 = {  	
+166445 = {
 	name="Rhydderch"
 	# AKA: Riderch II of Alt Clut
 	dynasty=816
@@ -86,7 +86,7 @@
 	diplomacy=4
 	intrigue=2
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166446
 	768.1.1={
@@ -97,7 +97,7 @@
 	}
 }
 
-166446 = {  	
+166446 = {
 	name="Ewein"
 	# AKA: Eugein II of Alt Clut
 	dynasty=816
@@ -105,7 +105,7 @@
 	diplomacy=3
 	intrigue=5
 	stewardship=2
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166447
 	750.1.1={
@@ -116,7 +116,7 @@
 	}
 }
 
-166447 = {  	
+166447 = {
 	name="Dumnagual"
 	# AKA: Dumnagual III of Alt Clut
 	dynasty=816
@@ -124,7 +124,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166448
 	728.1.1={
@@ -135,7 +135,7 @@
 	}
 }
 
-166448 = {  	
+166448 = {
 	name="Teudebur"
 	# AKA: Teudebur map Beli of Alt Clut
 	dynasty=816
@@ -143,7 +143,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166449
 	704.1.1={
@@ -154,7 +154,7 @@
 	}
 }
 
-166449 = {  	
+166449 = {
 	name="Beli"
 	# AKA: Beli II  map Elfin of Alt Clut
 	dynasty=816
@@ -162,7 +162,7 @@
 	diplomacy=4
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166451
 	678.1.1={
@@ -173,7 +173,7 @@
 	}
 }
 
-166450 = {  	
+166450 = {
 	name="Dumnagual"
 	# AKA: Dumnagual II  map Eugein of Alt Clut
 	dynasty=816
@@ -181,7 +181,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166453
 	640.1.1={
@@ -192,7 +192,7 @@
 	}
 }
 
-166451 = {  	
+166451 = {
 	name="Elfin"
 	# AKA: Elfin map Eugein of Alt Clut
 	dynasty=816
@@ -200,7 +200,7 @@
 	diplomacy=4
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166453
 	638.1.1={
@@ -211,7 +211,7 @@
 	}
 }
 
-166452 = {  	
+166452 = {
 	name="Guret"
 	# AKA: Guret map Eugein of Alt Clut
 	dynasty=816
@@ -219,7 +219,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166453
 	635.1.1={
@@ -230,7 +230,7 @@
 	}
 }
 
-166453 = {  	
+166453 = {
 	name="Ewein"
 	# AKA: Eugein I map Beli of Alt Clut
 	dynasty=816
@@ -238,7 +238,7 @@
 	diplomacy=6
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166454
 	611.1.1={
@@ -249,7 +249,7 @@
 	}
 }
 
-166454 = {  	
+166454 = {
 	name="Beli"
 	# AKA: Beli I map Neithon of Alt Clut
 	dynasty=816
@@ -257,7 +257,7 @@
 	diplomacy=4
 	intrigue=2
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166455
 	593.1.1={
@@ -268,7 +268,7 @@
 	}
 }
 
-166455 = {  	
+166455 = {
 	name="Neithon"
 	# AKA: Neithon map Guipno map Dumnagual Hen of Alt Clut
 	dynasty=816
@@ -276,7 +276,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166460
 	555.1.1={
@@ -287,7 +287,7 @@
 	}
 }
 
-166456 = {  	
+166456 = {
 	name="Custennin"
 	# AKA: St. Constantine map Riderch I Hael of Alt Clut
 	dynasty=816
@@ -295,7 +295,7 @@
 	diplomacy=8
 	intrigue=2
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166457
 	568.1.1={
@@ -307,7 +307,7 @@
 	}
 }
 
-166457 = {  	
+166457 = {
 	name="Rhydderch"
 	# AKA: Riderch I Hael map Tutagual of Alt Clut
 	dynasty=816
@@ -315,7 +315,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166458
 	529.1.1={
@@ -327,7 +327,7 @@
 	}
 }
 
-166458 = {  	
+166458 = {
 	name="Tutagual"
 	# AKA: Tutagual map Clinoch of Alt Clut
 	dynasty=816
@@ -335,7 +335,7 @@
 	diplomacy=3
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166459
 	492.1.1={
@@ -346,7 +346,7 @@
 	}
 }
 
-166459 = {  	
+166459 = {
 	name="Clinoch"
 	# AKA: Clinoch map Dumnagual Hen of Alt Clut
 	dynasty=816
@@ -354,7 +354,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166461
 	464.1.1={
@@ -365,7 +365,7 @@
 	}
 }
 
-166460 = {  	
+166460 = {
 	name="Guipno"
 	# AKA: Guipno map Dumnagual Hen of Alt Clut
 	dynasty=816
@@ -373,7 +373,7 @@
 	diplomacy=3
 	intrigue=5
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166461
 	506.1.1={
@@ -384,7 +384,7 @@
 	}
 }
 
-166461 = {  	
+166461 = {
 	name="Dumnagual"
 	# AKA: Dumnagual I Hen map Cinuit of Alt Clut
 	dynasty=816
@@ -392,7 +392,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166462
 	440.1.1={
@@ -404,7 +404,7 @@
 	}
 }
 
-166462 = {  	
+166462 = {
 	name="Cinuit"
 	# AKA: Cinuit map Ceretic Guletic of Alt Clut
 	dynasty=816
@@ -412,7 +412,7 @@
 	diplomacy=3
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166463
 	422.1.1={
@@ -423,7 +423,7 @@
 	}
 }
 
-166463 = {  	
+166463 = {
 	name="Ceretic Guletic"
 	# AKA: "Coroticus" Ceretic Guletic map Cynloyp of Alt Clut
 	dynasty=816
@@ -431,7 +431,7 @@
 	diplomacy=3
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	trait="tough_soldier"
 	father=166464
@@ -443,11 +443,11 @@
 	}
 }
 
-166464 = {  	
+166464 = {
 	name="Cynloyp"
 	# AKA: Cynloyp map Cinhil
 	dynasty=816
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166465
 	383.1.1={
@@ -458,11 +458,11 @@
 	}
 }
 
-166465 = {  	
+166465 = {
 	name="Cinhil"
 	# AKA: Cinhil map Cluim
 	dynasty=816
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166466
 	360.1.1={
@@ -473,11 +473,11 @@
 	}
 }
 
-166466 = {  	
+166466 = {
 	name="Cluim"
 	# AKA: Cluim
 	dynasty=816
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	333.1.1={
 		birth="333.1.1"
@@ -487,7 +487,7 @@
 	}
 }
 #Strathclyde
-166435 = {  	
+166435 = {
 	name="Addiena"
 	# AKA: daughter of Amdarch, raped by Cuilén mac Iduilb
 	female=yes
@@ -496,7 +496,7 @@
 	diplomacy=4
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166436
 	957.1.1={
@@ -507,7 +507,7 @@
 	}
 }
 
-166436 = {  	
+166436 = {
 	name="Rhydderch"
 	# AKA: Amdarch
 	dynasty=100047
@@ -515,7 +515,7 @@
 	diplomacy=2
 	intrigue=8
 	stewardship=2
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166437
 	940.1.1={
@@ -526,7 +526,7 @@
 	}
 }
 
-166437 = {  	
+166437 = {
 	name="Dyfnwal"
 	# AKA: Dyfnwal map Ywain
 	dynasty=100047
@@ -534,7 +534,7 @@
 	diplomacy=2
 	intrigue=8
 	stewardship=2
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166438
 	919.1.1={
@@ -545,7 +545,7 @@
 	}
 }
 
-166438 = {  	
+166438 = {
 	name="Owain"
 	# AKA: Ywain map Dyfnwal
 	dynasty=100047
@@ -553,7 +553,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166439
 	895.1.1={
@@ -564,7 +564,7 @@
 	}
 }
 
-166439 = {  	
+166439 = {
 	name="Dyfnwal"
 	# AKA: Dyfnwal map Dyfnwal
 	dynasty=100047
@@ -572,7 +572,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166440
 	878.1.1={
@@ -583,7 +583,7 @@
 	}
 }
 
-166440 = {  	
+166440 = {
 	name="Dyfnwal"
 	# AKA: Dyfnwal map Eochaid
 	dynasty=100047
@@ -591,7 +591,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="cumbric"
 	father=166441
 	861.1.1={

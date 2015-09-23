@@ -26,7 +26,10 @@ b_viseu = temple
 
 # Misc
 culture = portuguese
-religion = catholic
+religion = chalcedonian
 
 # History
 
+1054.1.1 = {
+	religion = catholic
+}

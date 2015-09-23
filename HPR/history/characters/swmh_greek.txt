@@ -137,7 +137,7 @@
 1000232104 = {
 	name="Prokopios"
 	dynasty=100475 #Placeholder Dynasty, his last name was not mentioned
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	835.1.1 = {
 		birth = yes
@@ -150,7 +150,7 @@
 1000232105 = {
 	name="Stephanos"
 	dynasty=1000102800 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	839.1.1 = {
 		birth = yes
@@ -162,8 +162,8 @@
 #The first mention of a Bryennios in a high post. Is mentioned on a seal from the late 9th century as a Strategos of Dalmatia
 1000232106 = {
 	name="Manuel" #Placeholder name, we only know his last name
-	dynasty=101079 
-	religion="orthodox"
+	dynasty=101079
+	religion="chalcedonian"
 	culture="greek"
 	842.1.1 = {
 		birth = yes
@@ -176,7 +176,7 @@
 1000232107 = {
 	name="Leon"
 	dynasty=101322
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	add_trait="tough_soldier"
 	846.1.1 = {
@@ -190,7 +190,7 @@
 1000232108 = {
 	name="Konstantinos"
 	dynasty=1000102801 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	823.1.1 = {
 		birth = yes
@@ -203,7 +203,7 @@
 1000232109 = {
 	name="Theophano"
 	dynasty=1000102801 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	female = yes
         father=1000232108
@@ -218,7 +218,7 @@
 1000232110 = {
 	name="Gregoras"
 	dynasty=1000102802 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	add_trait="tough_soldier"
 	852.1.1 = {
@@ -228,11 +228,11 @@
 		death = yes
 	}
 }
-#Served as Strategos of Hellas at one point during Basil's reign 
+#Served as Strategos of Hellas at one point during Basil's reign
 1000232111 = {
 	name="Romanos" #Placeholder first name. It is not known
 	dynasty=1000102803 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	839.1.1 = {
 		birth = yes
@@ -246,7 +246,7 @@
 1000232112 = {
 	name="Stylianos"
 	dynasty=1000102804 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="levantine_arabic"
 	831.1.1 = {
 		birth = yes
@@ -262,7 +262,7 @@
 1000232113 = {
 	name="Christopheros"
 	dynasty=1000102804 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232112
 	855.1.1 = {
@@ -276,7 +276,7 @@
 1000232114 = {
 	name="Zoe"
 	dynasty=1000102804 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	female = yes
         father=1000232112
@@ -291,7 +291,7 @@
 1000232115 = {
 	name="Theodoros"
 	dynasty=1000102805 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	845.1.1 = {
 		birth = yes
@@ -305,7 +305,7 @@
 	name="Konstantinos"
 	dynasty=100744
 	intrigue=7
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	808.1.1 = {
 		birth = yes
@@ -319,9 +319,9 @@
 	name="Thomas"
 	dynasty=100744
 	intrigue=6
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
-        father=1000232116 
+        father=1000232116
 	835.1.1 = {
 		birth = yes
 	}
@@ -333,7 +333,7 @@
 1000232118 = {
 	name="Ioannes"
 	dynasty=1000102806 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	831.1.1 = {
 		birth = yes
@@ -346,7 +346,7 @@
 1000232119 = {
 	name="Leon"
 	dynasty=1000102807 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	826.1.1 = {
 		birth = yes
@@ -359,7 +359,7 @@
 100023220 = {
 	name="Bardas"
 	dynasty=1000102807 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232119
 	850.1.1 = {
@@ -373,7 +373,7 @@
 1000232121 = {
 	name="David"
 	dynasty=1000102807 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232119
 	851.1.1 = {
@@ -388,7 +388,7 @@
 	name="Himerios"
 	dynasty=643
 	martial=9
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	add_trait="skilled_tactician"
 	851.1.1 = {
@@ -403,7 +403,7 @@
 	name="Basileios"
 	dynasty=1000102813 #id taken from our file#
 	martial=9
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="levantine_arabic"
 	add_trait="skilled_tactician"
         father=1000232124
@@ -421,7 +421,7 @@
 1000232124 = {
 	name="Christopheros"
 	dynasty=1000102813 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="levantine_arabic"
 	800.1.1 = {
 		birth = yes
@@ -437,7 +437,7 @@
 1000232125 = {
 	name="Barsanes"
 	dynasty=1000102813 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="levantine_arabic"
         father=1000232124
 	831.1.1 = {
@@ -455,7 +455,7 @@
 	name="Andreas"
 	dynasty=1000102812 #id taken from our file#
 	martial=9
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="pecheneg"
 	add_trait="skilled_tactician"
 	831.1.1 = {
@@ -473,7 +473,7 @@
 	name="Christopheros"
 	dynasty=1000102814 #id taken from our file#
 	martial=9
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	add_trait="skilled_tactician"
 	837.1.1 = {
@@ -487,7 +487,7 @@
 1000232128 = {
 	name="Konstantinos"
 	dynasty=1000102808 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	848.1.1 = {
 		birth = yes
@@ -500,7 +500,7 @@
 1000232129 = {
 	name="Theodoros"
 	dynasty=101506
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	825.1.1 = {
 		birth = yes
@@ -513,7 +513,7 @@
 1000232130 = {
 	name="Theodosios"
 	dynasty=101415
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	821.1.1 = {
 		birth = yes
@@ -526,7 +526,7 @@
 1000232131 = {
 	name="Alexios"
 	dynasty=101415
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232130
 	861.1.1 = {
@@ -540,7 +540,7 @@
 1000232132 = {
 	name="Prokopios"
 	dynasty=101349
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232133
 	837.1.1 = {
@@ -554,7 +554,7 @@
 1000232133 = {
 	name="Andronikos"
 	dynasty=101349
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	810.1.1 = {
 		birth = yes
@@ -567,7 +567,7 @@
 1000232134 = {
 	name="Georgios"
 	dynasty=101349
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232133
 	849.1.1 = {
@@ -581,7 +581,7 @@
 1000232135 = {
 	name="Ioannes"
 	dynasty=101226
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	830.1.1 = {
 		birth = yes
@@ -594,7 +594,7 @@
 1000232136 = {
 	name="Alexandros"
 	dynasty=1000102810 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	803.1.1 = {
 		birth = yes
@@ -607,7 +607,7 @@
 1000232137 = {
 	name="Nikolaos"
 	dynasty=1000102810 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232136
 	823.1.1 = {
@@ -621,7 +621,7 @@
 1000232138 = {
 	name="Paulos"
 	dynasty=1000102810 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232136
 	824.1.1 = {
@@ -635,7 +635,7 @@
 1000232139 = {
 	name="Konstantinos"
 	dynasty=1000102810 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232136
 	826.1.1 = {
@@ -649,7 +649,7 @@
 1000232140 = {
 	name="Ioannes"
 	dynasty=1000102810 #id taken from our file#
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
         father=1000232136
 	828.1.1 = {
@@ -663,8 +663,8 @@
 #Strategos of Anatolikon in 870. Leo the Wise's godfather
 1000232142 = {
 	name="Leon"
-	dynasty=101348 
-	religion="orthodox"
+	dynasty=101348
+	religion="chalcedonian"
 	culture="greek"
 	829.1.1 = {
 		birth = yes
@@ -677,7 +677,7 @@
 1000232143 = {
 	name="Adrianos"
 	dynasty=8661 #Placeholder dynasty
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	832.1.1 = {
 		birth = yes
@@ -690,7 +690,7 @@
 1000232144 = {
 	name="Leon"
 	dynasty=1000102820
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	851.1.1 = {
 		birth = yes
@@ -703,7 +703,7 @@
 1000232145 = {
 	name="Leon"
 	dynasty=1000102816
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	838.1.1 = {
 		birth = yes
@@ -716,7 +716,7 @@
 1000232146 = {
 	name="Arsenios" #Placeholder Name, we only know his last name
 	dynasty=1000102815
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	841.1.1 = {
 		birth = yes
@@ -729,7 +729,7 @@
 1000232147 = {
 	name="Leontios" #Placeholder Name, we only know his last name
 	dynasty=1000102817
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	839.1.1 = {
 		birth = yes
@@ -742,11 +742,14 @@
 1000232148 = {
 	name="Paulos"
 	dynasty=1000102819
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1030.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1071.1.1={
 		death = yes
@@ -756,11 +759,14 @@
 1000232149 = {
 	name="Basileios"
 	dynasty=20020
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1030.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1083.1.1={
 		death = yes
@@ -770,11 +776,14 @@
 1000232150 = {
 	name="Leon"
 	dynasty=101249
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1029.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1078.1.1={
 		death = yes
@@ -783,11 +792,14 @@
 1000232151 = {
 	name="Michael"
 	dynasty=101483
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1028.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1079.1.1={
 		death = yes
@@ -796,11 +808,14 @@
 1000232152 = {
 	name="Michael"
 	dynasty=1000102824
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1032.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1088.1.1={
 		death = yes
@@ -809,12 +824,15 @@
 1000232153 = {
 	name="Pothos"
 	dynasty=639
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=41310
 
 	1000.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1058.1.1={
 		death = yes
@@ -823,12 +841,15 @@
 1000232154 = {
 	name="Georgios"
 	dynasty=639
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=42003
 
 	1047.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1098.1.1={
 		death = yes
@@ -837,11 +858,14 @@
 1000232155 = {
 	name="Katakalon"
 	dynasty=100756
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1012.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1062.1.1={
 		death = yes
@@ -850,11 +874,14 @@
 1000232156 = {
 	name="Andronikos"
 	dynasty=1000102826
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1047.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1109.1.1={
 		death = yes
@@ -863,11 +890,14 @@
 1000232157 = {
 	name="Manuel"
 	dynasty=1000102821
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1050.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1113.1.1={
 		death = yes
@@ -876,11 +906,14 @@
 1000232158 = {
 	name="Michael"
 	dynasty=101294
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1011.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1055.1.1={
 		death = yes
@@ -889,11 +922,14 @@
 1000232159 = {
 	name="Leon"
 	dynasty=101294
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232158
 	1033.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1094.1.1={
 		death = yes
@@ -902,11 +938,14 @@
 1000232160 = {
 	name="Konstantinos"
 	dynasty=101294
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232159
 	1052.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1101.1.1={
 		death = yes
@@ -915,11 +954,14 @@
 1000232161 = {
 	name="Nikoulitzas"
 	dynasty=1000102822
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1012.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1071.1.1={
 		death = yes
@@ -928,11 +970,14 @@
 1000232162 = {
 	name="Georgios"
 	dynasty=101531
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1021.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1084.1.1={
 		death = yes
@@ -941,11 +986,14 @@
 1000232163 = {
 	name="Michael"
 	dynasty=101324
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1038.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1103.1.1={
 		death = yes
@@ -954,11 +1002,14 @@
 1000232164 = {
 	name="Michael"
 	dynasty=101145
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232167
 	1039.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1090.1.1={
 		death = yes
@@ -967,11 +1018,14 @@
 1000232165 = {
 	name="Andronikos"
 	dynasty=1000102823
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1039.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1094.1.1={
 		death = yes
@@ -980,7 +1034,7 @@
 1000232166 = {
 	name="Gregorios"
 	dynasty=101145
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	980.1.1={
@@ -993,11 +1047,14 @@
 1000232167 = {
 	name="Basileios"
 	dynasty=101145
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232166
 	1011.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1060.1.1={
 		death = yes
@@ -1006,11 +1063,14 @@
 1000232168 = {
 	name="Konstantinos"
 	dynasty=1000102825
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1037.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1085.1.1={
 		death = yes
@@ -1019,11 +1079,14 @@
 1000232169 = {
 	name="Leon"
 	dynasty=101070
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1036.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1090.1.1={
 		death = yes
@@ -1032,11 +1095,14 @@
 1000232170 = {
 	name="Konstantinos"
 	dynasty=101234
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1048.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1105.1.1={
 		death = yes
@@ -1045,11 +1111,14 @@
 1000232171 = {
 	name="Andronikos"
 	dynasty=101463
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1018.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1084.1.1={
 		death = yes
@@ -1058,11 +1127,14 @@
 1000232172 = {
 	name="Alexios"
 	dynasty=1000102827
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1025.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1093.1.1={
 		death = yes
@@ -1071,11 +1143,14 @@
 1000232173 = {
 	name="Petros"
 	dynasty=101366
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1014.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1072.1.1={
 		death = yes
@@ -1084,11 +1159,14 @@
 1000232174 = {
 	name="Nikolaos"
 	dynasty=101174
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1021.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1080.1.1={
 		death = yes
@@ -1097,11 +1175,14 @@
 1000232175 = {
 	name="Strategios"
 	dynasty=1000102828
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1048.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1105.1.1={
 		death = yes
@@ -1110,11 +1191,14 @@
 1000232176 = {
 	name="Petros"
 	dynasty=101281
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1023.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1080.1.1={
 		death = yes
@@ -1123,11 +1207,14 @@
 1000232177 = {
 	name="Gregoras"
 	dynasty=1000102822
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232161
 	1040.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1091.1.1={
 		death = yes
@@ -1136,11 +1223,14 @@
 1000232178 = {
 	name="Pankratios"
 	dynasty=1000102822
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232161
 	1041.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1094.1.1={
 		death = yes
@@ -1149,11 +1239,14 @@
 1000232179 = {
 	name="Nikephoros"
 	dynasty=101412
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1019.1.1={
 		birth="1019.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1070.1.1={
 		death="1070.1.1"
@@ -1162,11 +1255,14 @@
 1000232180 = {
 	name="Michael"
 	dynasty=101447
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1020.1.1={
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1072.1.1={
 		death="1072.1.1"
@@ -1175,11 +1271,14 @@
 1000232181 = {
 	name="Theodoros"
 	dynasty=101451
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1021.1.1={
 		birth="1021.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1073.1.1={
 		death="1073.1.1"
@@ -1188,11 +1287,14 @@
 1000232182 = {
 	name="Georgios"
 	dynasty=7304
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232189
 	1048.1.1={
 		birth="1048.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1099.1.1={
 		death="1099.1.1"
@@ -1201,11 +1303,14 @@
 1000232183 = {
 	name="Alexandros"
 	dynasty=7304
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232189
 	1046.1.1={
 		birth="1046.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1109.1.1={
 		death="1109.1.1"
@@ -1227,11 +1332,14 @@
 1000232185 = {
 	name="Konstantinos"
 	dynasty=101321
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1012.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1075.1.1={
 		death = yes
@@ -1240,11 +1348,14 @@
 1000232186 = {
 	name="Michael"
 	dynasty=101321
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232185
 	1032.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1085.1.1={
 		death = yes
@@ -1253,11 +1364,14 @@
 1000232187 = {
 	name="Niketas"
 	dynasty=101321
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232185
 	1034.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1096.1.1={
 		death = yes
@@ -1266,11 +1380,14 @@
 1000232188 = {
 	name="Nikephoros"
 	dynasty=101321
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232185
 	1040.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1115.1.1={
 		death = yes
@@ -1279,11 +1396,14 @@
 1000232189 = {
 	name="Ioannes"
 	dynasty=7304
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1017.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1065.1.1={
 		death = yes
@@ -1292,11 +1412,14 @@
 1000232190 = {
 	name="Leon"
 	dynasty=101451
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232191
 	1021.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1076.1.1={
 		death = yes
@@ -1305,7 +1428,7 @@
 1000232191 = {
 	name="Niketas"
 	dynasty=101451
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	982.1.1={
@@ -1319,11 +1442,14 @@
 	name="Eirene"
 	dynasty=101451
 	female=yes
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232190
 	1039.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1068.1.1={
 		death = yes
@@ -1332,11 +1458,14 @@
 1000232193 = {
 	name="Andronikos"
 	dynasty=1000102830
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1042.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1107.2.1={
 		death = yes
@@ -1345,11 +1474,14 @@
 1000232194 = {
 	name="Baasakios"
 	dynasty=1000102831
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1042.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1101.1.1={
 		death = yes
@@ -1358,11 +1490,14 @@
 1000232195 = {
 	name="Michael"
 	dynasty=1000102832
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1039.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1090.1.1={
 		death = yes
@@ -1371,11 +1506,14 @@
 1000232196 = {
 	name="Konstantinos"
 	dynasty=101434
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1048.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1102.1.1={
 		death = yes
@@ -1384,11 +1522,14 @@
 1000232197 = {
 	name="Alexandros"
 	dynasty=101095
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1044.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1109.1.1={
 		death = yes
@@ -1410,7 +1551,7 @@
 1000232199 = {
 	name="Leon"
 	dynasty=101119
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	999.1.1={
@@ -1423,11 +1564,14 @@
 1000232200 = {
 	name="Eugenios"
 	dynasty=101119
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232199
 	1020.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1079.1.1={
 		death = yes
@@ -1436,11 +1580,14 @@
 1000232201 = {
 	name="Michael"
 	dynasty=101119
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232200
 	1041.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1098.1.1={
 		death = yes
@@ -1514,7 +1661,7 @@
 1000232207 = {
 	name="Michael"
 	dynasty=101077
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	930.1.1={
@@ -1527,7 +1674,7 @@
 1000232208 = {
 	name="Konstantinos"
 	dynasty=101077
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232207
 	961.1.1={
@@ -1540,11 +1687,14 @@
 1000232209 = {
 	name="Michael"
 	dynasty=101077
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232208
 	992.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1060.1.1={
 		death = yes
@@ -1553,11 +1703,14 @@
 1000232210 = {
 	name="Theognoste"
 	dynasty=101077
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232208
 	995.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1073.1.1={
 		death = yes
@@ -1566,11 +1719,14 @@
 1000232211 = {
 	name="Theognoste"
 	dynasty=101077
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232210
 	1024.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1078.1.1={
 		death = yes
@@ -1579,11 +1735,14 @@
 1000232212 = {
 	name="Konstantinos"
 	dynasty=101077
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232211
 	1053.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1110.1.1={
 		death = yes
@@ -1592,11 +1751,14 @@
 1000232213 = {
 	name="Michael"
 	dynasty=101077
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232211
 	1050.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1101.1.1={
 		death = yes
@@ -1605,11 +1767,14 @@
 1000232214 = {
 	name="Theodoros"
 	dynasty=101249
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232150
 	1049.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1104.1.1={
 		death = yes
@@ -1618,11 +1783,14 @@
 1000232215 = {
 	name="Nikephoros"
 	dynasty=101187
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1041.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1084.1.1={
 		death = yes
@@ -1631,11 +1799,14 @@
 1000232216 = {
 	name="Andronikos"
 	dynasty=101320
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1041.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1099.1.1={
 		death = yes
@@ -1644,11 +1815,14 @@
 1000232217 = {
 	name="Nikephoros Exazenos"
 	dynasty=1000102833
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1052.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1110.1.1={
 		death = yes
@@ -1657,12 +1831,15 @@
 1000232218 = {
 	name="Michael"
 	dynasty=100756
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=1000232155
 
 	1050.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1116.1.1={
 		death = yes
@@ -1697,11 +1874,14 @@
 1000232221 = {
 	name="Nikolaos"
 	dynasty=1000102835
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1045.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1097.1.1={
 		death = yes
@@ -1724,11 +1904,14 @@
 1000232223 = {
 	name="Niketas"
 	dynasty=1000102836
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1048.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1099.1.1={
 		death = yes
@@ -1776,11 +1959,14 @@
 1000232227 = {
 	name="Andronikos"
 	dynasty=101510
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 	father=41536
 	1027.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1080.1.1={
 		death = yes
@@ -1816,7 +2002,7 @@
 1000232230 = {
 	name="Andronikos"
 	dynasty=510
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	988.1.1={
@@ -1973,11 +2159,14 @@
 1000232242 = {
 	name="Samuel"
 	dynasty=1022153
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1031.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1092.1.1={
 		death = yes
@@ -2290,11 +2479,14 @@
 1000232266 = {
 	name="Symeon"
 	dynasty=101370
-	religion="orthodox"
+	religion="chalcedonian"
 	culture="greek"
 
 	1027.1.1={
 		birth = yes
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1084.1.1={
 		death = yes

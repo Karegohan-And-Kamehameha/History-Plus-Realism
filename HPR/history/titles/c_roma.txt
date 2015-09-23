@@ -74,7 +74,7 @@
 254.3.5 = {
 	holder = 7795 # St Étienne Ier
 }
-257.8.2 = {	
+257.8.2 = {
 	holder = 7794 # St Sixte II
 }
 258.8.6 = {
@@ -113,7 +113,7 @@
 352.4.12 = {
 	holder = 7781 # 1er règne de Libère
 }
-355.1.1 = {  
+355.1.1 = {
 holder = 1000094002 # Anti pape Félix II
 }
 357.5.5 = {
@@ -170,7 +170,7 @@ holder = 7781 # 2° règne de Libère
 498.11.19 = {
 	holder = 7766 # 1er règne de St Symmaque
 }
-501.1.1 = {  
+501.1.1 = {
 	holder = 1000094029 # Anti Pape Laurent
 }
 506.1.1 = {
@@ -307,14 +307,14 @@ holder = 7781 # 2° règne de Libère
 	holder = 7895 # Étienne II
 }
 757.4.29 = {
-	liege = "k_papal_state"
+	liege = "k_papal_chalcedon"
 	holder = 7865
 }
 
 # Antipope  Constantin II : 1000094038
 # Antipope Philippe : 1000094039
 
-767.6.28 = { 
+767.6.28 = {
 	holder = 7864 # Étienne III
 }
 772.1.24 = {
@@ -395,7 +395,7 @@ holder = 7781 # 2° règne de Libère
 903.7.1 = {
 	holder = 7840 #  Léon V
 }
-903.9.15 = { 
+903.9.15 = {
 	holder = 1000094031 # Antipope Christophore
 }
 904.1.29 = {
@@ -515,6 +515,9 @@ holder = 1000094003  # Antipope Jean XVI
 1048.8.9 = {
 	holder = 1338 # St Léon IX
 }
+1054.1.1 = {
+liege = k_papal_state
+}
 1054.4.19 = {
 	holder = 7894 #  Victor II
 }
@@ -570,7 +573,7 @@ holder = 1000094003  # Antipope Jean XVI
 }
 1124.12.13 = {
 	holder = 2021 # Honorius II
-}	
+}
 1130.2.13 = {
 	holder = 71800 # Innocent II
 }
@@ -589,7 +592,7 @@ holder = 1000094003  # Antipope Jean XVI
 }
 1153.7.8 = {
 	holder = 71808 # Anastase IV
-}	
+}
 1154.12.3 = {
 	holder = 71809 # Adrien IV
 }

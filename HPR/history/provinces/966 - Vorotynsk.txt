@@ -9,14 +9,17 @@ max_settlements = 4
 b_vorotynsk = tribal
 #b_mosalsk = castle
 #b_meshchovsk = castle
-#b_serpeysk = castle 
+#b_serpeysk = castle
 
 # Misc
 culture = russian
 religion = slavic_pagan
 
 # History
-1025.1.1 = {religion = orthodox }
+1025.1.1 = {religion = chalcedonian }
 1025.1.1 = {b_vorotynsk = castle
 b_mosalsk = castle
 b_meshchovsk = castle }
+1054.1.1 = {
+	religion = orthodox
+}

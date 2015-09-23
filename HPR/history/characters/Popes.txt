@@ -1,6 +1,6 @@
 145292 = {
 	name="Simon"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -20,7 +20,7 @@
 
 145291 = {
 	name="Linos"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -45,7 +45,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -69,7 +69,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -92,7 +92,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -115,7 +115,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -138,7 +138,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -162,7 +162,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -185,7 +185,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -208,7 +208,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -231,7 +231,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -250,7 +250,7 @@
 
 7606 = {
 	name="Soterius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	120.1.1={
 		birth="120.1.1"
@@ -265,7 +265,7 @@
 
 7605 = {
 	name="Eleutherius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -284,7 +284,7 @@
 
 7604 = {
 	name="Victor"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -303,7 +303,7 @@
 
 7603 = {
 	name="Zephyrinus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -323,7 +323,7 @@
 
 7602 = {
 	name="Callistus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -343,7 +343,7 @@
 
 7601 = {
 	name="Urbanus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -362,7 +362,7 @@
 
 7600 = {
 	name="Pontianus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -382,7 +382,7 @@
 
 7799 = {
 	name="Anterus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -401,7 +401,7 @@
 
 7798 = {
 	name="Fabianus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -422,7 +422,7 @@
 
 7797 = {
 	name="Cornelius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -441,7 +441,7 @@
 
 7796 = {
 	name="Lucius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -461,7 +461,7 @@
 
 7795 = {
 	name="Stephanus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -481,7 +481,7 @@
 
 7794 = {
 	name="Sixtus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -500,7 +500,7 @@
 
 7793 = {
 	name="Dionysius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -521,7 +521,7 @@
 
 7792 = {
 	name="Felix"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -540,7 +540,7 @@
 
 7791 = {
 	name="Eutychianus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -559,7 +559,7 @@
 
 7790 = {
 	name="Gaius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -579,7 +579,7 @@
 
 7789 = {
 	name="Marcellinus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -598,7 +598,7 @@
 
 7787 = {
 	name="Marcellus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -617,7 +617,7 @@
 
 7786 = {
 	name="Eusebius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -636,7 +636,7 @@
 
 7785 = {
 	name="Miltiades"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -655,7 +655,7 @@
 
 7784 = {
 	name="Silvester"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -674,7 +674,7 @@
 
 7783 = {
 	name="Marcus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -694,7 +694,7 @@
 
 7782 = {
 	name="Iulius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -713,7 +713,7 @@
 
 7781 = {
 	name="Liberius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -732,7 +732,7 @@
 
 7780 = {
 	name="Damasus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -751,7 +751,7 @@
 
 7779 = {
 	name="Sicirius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -770,7 +770,7 @@
 
 7778 = {
 	name="Anastasius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -789,7 +789,7 @@
 
 7777 = {
 	name="Innocentius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -809,7 +809,7 @@
 
 7776 = {
 	name="Zosimus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -828,7 +828,7 @@
 
 7775 = {
 	name="Bonifatius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -847,7 +847,7 @@
 
 7774 = {
 	name="Coelestinus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -866,7 +866,7 @@
 
 7773 = {
 	name="Sixtus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -886,7 +886,7 @@
 
 7772 = {
 	name="Leo"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -907,7 +907,7 @@
 
 7771 = {
 	name="Hilarius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -927,7 +927,7 @@
 
 7770 = {
 	name="Simplicius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -946,7 +946,7 @@
 
 7769 = {
 	name="Felix"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -965,7 +965,7 @@
 
 7768 = {
 	name="Gelasius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -985,7 +985,7 @@
 
 7767 = {
 	name="Anastasius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1004,7 +1004,7 @@
 
 7766 = {
 	name="Symmachus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1023,7 +1023,7 @@
 
 7765 = {
 	name="Hormisdas"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1042,7 +1042,7 @@
 
 7763 = {
 	name="Ioannes"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1061,7 +1061,7 @@
 
 7762 = {
 	name="Felix"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1080,7 +1080,7 @@
 
 7761 = {
 	name="Bonifatius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="german"
 	trait="diligent"
 	trait="patient"
@@ -1099,7 +1099,7 @@
 
 7760 = {
 	name="Mercurius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1119,7 +1119,7 @@
 
 7759 = {
 	name="Agapito"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1138,7 +1138,7 @@
 
 7764 = {
 	name="Silverius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1158,7 +1158,7 @@
 
 7900 = {
 	name="Vigilius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1177,7 +1177,7 @@
 
 7899 = {
 	name="Pelagius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1196,7 +1196,7 @@
 
 7898 = {
 	name="Catelinus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1216,7 +1216,7 @@
 
 7897 = {
 	name="Benedictus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1235,7 +1235,7 @@
 
 7896 = {
 	name="Pelagius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1254,7 +1254,7 @@
 
 7893 = {
 	name="Gregorio"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1275,7 +1275,7 @@
 
 7892 = {
 	name="Sabinianus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1298,7 +1298,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1318,7 +1318,7 @@
 
 7890 = {
 	name="Bonifacio"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1338,7 +1338,7 @@
 
 7889 = {
 	name="Deodatus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1358,7 +1358,7 @@
 
 7888 = {
 	name="Bonifacio"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1377,7 +1377,7 @@
 
 7887 = {
 	name="Onorio"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1396,7 +1396,7 @@
 
 7886 = {
 	name="Severino"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1415,7 +1415,7 @@
 
 7885 = {
 	name="Ioannes"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1438,7 +1438,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1457,7 +1457,7 @@
 
 7883 = {
 	name="Martino"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1476,7 +1476,7 @@
 
 7882 = {
 	name="Eugenio"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1495,7 +1495,7 @@
 
 7881 = {
 	name="Vitalianus"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1514,7 +1514,7 @@
 
 7880 = {
 	name="Mauricius"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1537,7 +1537,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1560,7 +1560,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1579,7 +1579,7 @@
 
 7877 = {
 	name="Leo"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1598,7 +1598,7 @@
 
 7876 = {
 	name="Benedetto"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1621,7 +1621,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1644,7 +1644,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1667,7 +1667,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1690,7 +1690,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1713,7 +1713,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1736,7 +1736,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1759,7 +1759,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1779,7 +1779,7 @@
 
 7868 = {
 	name="Gregorio"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1802,7 +1802,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1825,7 +1825,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="greek"
 	trait="diligent"
 	trait="patient"
@@ -1848,7 +1848,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -1871,7 +1871,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -1894,7 +1894,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -1917,7 +1917,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -1940,7 +1940,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -1963,7 +1963,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -1986,7 +1986,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2010,7 +2010,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2034,7 +2034,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2057,7 +2057,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2080,7 +2080,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2103,7 +2103,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2126,7 +2126,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2149,7 +2149,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2173,7 +2173,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2196,7 +2196,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2219,7 +2219,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2242,7 +2242,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2264,7 +2264,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2287,7 +2287,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2310,7 +2310,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2333,7 +2333,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2356,7 +2356,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2379,7 +2379,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2403,7 +2403,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2426,7 +2426,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2449,7 +2449,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2472,7 +2472,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2492,7 +2492,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2515,7 +2515,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2538,7 +2538,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2563,7 +2563,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2586,7 +2586,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2612,7 +2612,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="bastard"
 	add_trait="patient"
@@ -2637,7 +2637,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2660,7 +2660,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2683,7 +2683,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2706,7 +2706,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2731,7 +2731,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -2757,7 +2757,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2780,7 +2780,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2803,7 +2803,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2827,7 +2827,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2851,7 +2851,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -2876,7 +2876,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2900,7 +2900,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2920,7 +2920,7 @@
 1318 = {
 	name="Bruno"
 	dynasty=651
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="franconian"  # melted from: german
 	martial=8
 	diplomacy=5
@@ -2947,7 +2947,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -2972,7 +2972,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -2996,7 +2996,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -3021,7 +3021,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -3046,7 +3046,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -3073,7 +3073,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -3099,7 +3099,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="central_italian"
 	add_trait="diligent"
 	add_trait="patient"
@@ -3113,6 +3113,9 @@
 	name= "Benedictus"
 	# AKA: Theophylactus
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1056.1.1 = {
 		death="1056.1.1"
 	}
@@ -3124,7 +3127,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -3137,6 +3140,9 @@
 	name="Silvester"
 	# AKA: Giovanni
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1062.1.1 = {
 		death="1062.1.1"
 	}
@@ -3148,7 +3154,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -3172,7 +3178,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="german"
 	trait="diligent"
 	trait="patient"
@@ -3196,7 +3202,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="german"
 	trait="diligent"
 	trait="patient"
@@ -3217,7 +3223,7 @@
 1338 = {
 	name="Bruno"
 	dynasty=664
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="swabian"  # melted from: german
 	# AKA: Leo
 	martial=8
@@ -3234,6 +3240,9 @@
 	1048.8.9 = {
 	name="Leo"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1054.4.19 = {
 		death="1054.4.19"
 	}
@@ -3246,7 +3255,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="german"
 	trait="diligent"
 	trait="patient"
@@ -3254,6 +3263,9 @@
 	trait="charismatic_negotiator"
 	1018.1.1 = {
 		birth="1018.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1054.4.19 = {
 	name="Victor"
@@ -3271,7 +3283,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="german"
 	trait="chaste"
 	trait="detached_priest"
@@ -3279,6 +3291,9 @@
 	mother=11033
 	1007.1.1 = {
 		birth="1007.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1057.8.3 = {
 	name="Stephanus"
@@ -3292,23 +3307,25 @@
 7940 = {
 	name="Gerard" #Nicolas II (pope), born Gérard l'Allobroge
 	#dynasty= #he is a commoner
-	
-	religion="catholic"
+
+	religion = "chalcedonian"
 	culture="frankish"
-	
+
 	trait="just"
 	trait="zealous"
 	trait="mastermind_theologian"
-	
+
 	995.1.1 = {
 		birth="995.1.1"
 	}
-	
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1058.3.29 = {
 	name="Nicolaus"
 	# AKA: Gerard
 	}
-	
+
 	1061.7.27 = {
 		death="1061.7.27"
 	}
@@ -3321,7 +3338,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="italian"
 	trait="diligent"
 	trait="charitable"
@@ -3335,6 +3352,9 @@
 	trait="mastermind_theologian"
 	1019.1.1 = {
 		birth="1019.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1061.9.30 = {
 	name="Alexander"

@@ -26,6 +26,7 @@ narrative_event = {
 	}
 	
 	immediate = {
+		set_character_flag = was_byzantine_emperor
 		if = {
 			limit = { is_ironman = no }
 			e_byzantium = { set_variable = { which = "imperial_decadence" value = 10 } }
@@ -73,6 +74,7 @@ narrative_event = {
 	}
 	
 	immediate = {
+		set_character_flag = was_byzantine_emperor
 		if = {
 			limit = { is_ironman = no }
 			e_byzantium = { set_variable = { which = "imperial_decadence" value = 30 } }
@@ -129,6 +131,7 @@ narrative_event = {
 	}
 	
 	immediate = {
+		set_character_flag = was_byzantine_emperor
 		if = {
 			limit = { is_ironman = no }
 			e_byzantium = { set_variable = { which = "imperial_decadence" value = 50 } }
@@ -185,6 +188,7 @@ narrative_event = {
 	}
 	
 	immediate = {
+		set_character_flag = was_byzantine_emperor
 		if = {
 			limit = { is_ironman = no }
 			e_byzantium = { set_variable = { which = "imperial_decadence" value = 70 } }
@@ -605,6 +609,7 @@ character_event = {
 			is_primary_holder_title = yes
 		}
 		OR = {
+			religion = chalcedonian
 			religion = orthodox
 			religion = bogomilist
 			religion = monothelite
@@ -618,6 +623,7 @@ character_event = {
 	}
 	
 	immediate = {
+		set_character_flag = was_byzantine_emperor
 		FROMFROM = {
 			if = {
 				limit = {
@@ -667,7 +673,7 @@ character_event = {
 				add_law = crown_authority_1
 			}
 		}
-		clr_character_flag = centralize_without_penaltie
+		clr_character_flag = centralize_without_penalties
 	}
 }
 
@@ -1610,9 +1616,12 @@ narrative_event = {
 		clr_character_flag = centralize_without_penalties
 		prestige = 200
 		piety = 100
-		add_trait = strong_basileus  
-		religion_authority = {
-			modifier = strong_emperor_byz
+		add_trait = strong_basileus
+		if = {
+			limit = { NOT = { religion = chalcedonian } }
+			religion_authority = {
+				modifier = strong_emperor_byz
+			}
 		}
 		hidden_tooltip = {
 			if = {
@@ -1658,9 +1667,12 @@ character_event = {
 	option = {
 		name = "EVTOPTA_Plus_1326" #OK
 		piety = 100
-		add_trait = weak_basileus		
-		religion_authority = {
-			modifier = weak_emperor_byz
+		add_trait = weak_basileus
+		if = {
+			limit = { NOT = { religion = chalcedonian } }
+			religion_authority = {
+				modifier = weak_emperor_byz
+			}
 		}
 		clr_character_flag = byzantium_had_centr_zero
 		clr_character_flag = byzantium_had_centr_three
@@ -1772,13 +1784,16 @@ character_event = {
 			}
 		}
 		hidden_tooltip = {
-			religion_authority = {
-				modifier = deposed_patriarch_byz
+			if = {
+				limit = { NOT = { religion = chalcedonian } }
+				religion_authority = {
+					modifier = deposed_patriarch_byz
+				}
 			}
 			any_vassal = {
 				limit = {
-					NOT = { has_landed_title = k_orthodox }
-					religion = orthodox
+					NOT = { has_landed_title = d_pentarch_constantinople }
+					religion = ROOT
 				}
 				opinion = {
 					who = ROOT
@@ -1795,12 +1810,12 @@ character_event = {
 					}
 					religion = ROOT
 					NOT = { character = FROM }
-					NOT = { has_landed_title = k_orthodox }
+					NOT = { has_landed_title = d_pentarch_constantinople }
 					NOT = { trait = excommunicated }
 				}
 				letter_event = { id = Plus.1323 } # Invitation to coronation
 			}
-			k_orthodox = {
+			d_pentarch_constantinople = {
 				holder_scope = {
 					character_event = { id = Plus.1324 }
 					opinion = {
@@ -2038,7 +2053,7 @@ character_event = {
 		clr_character_flag = byzantium_had_centr_three
 		clr_character_flag = byzantium_had_centr_four
 		clr_character_flag = during_the_coronation
-		k_orthodox = {
+		d_pentarch_constantinople = {
 			holder_scope = {
                set_character_flag = refused_to_coronate
 			}
@@ -2068,6 +2083,7 @@ character_event = {
 			is_primary_holder_title = yes
 		}
 		OR = {
+			religion = chalcedonian
 			religion = orthodox
 			religion = bogomilist
 			religion = monothelite

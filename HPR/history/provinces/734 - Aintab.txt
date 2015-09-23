@@ -14,11 +14,14 @@ b_aintab = city
 
 # Misc
 culture = armenian
-religion = orthodox
+religion = chalcedonian
 
 # History
-1177.1.1 = { 
-	culture = kurdish 
+1054.1.1 = {
+	religion = orthodox
+}
+1177.1.1 = {
+	culture = kurdish
 	religion = sunni
 }
 1320.1.1 = { culture = levantine_arabic }

@@ -22,11 +22,14 @@ b_lucca = city
 
 # Misc
 culture = tuscan
-religion = catholic
+religion = chalcedonian
 
 # History
 866.1.1 = { capital = b_fortezzadelleverrucole }
 870.1.1 = { capital = b_altopascio }
+1054.1.1 = {
+	religion = catholic
+}
 1072.1.1 = { trade_post = b_doria }
 1088.1.1 = { capital = b_lucca }
 1314.1.1 = { capital = b_fortezzadelleverrucole }

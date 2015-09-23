@@ -19,9 +19,12 @@ religion = finnish_pagan
 867.1.1 = {
 	b_staryaladoga = tb_shipyard_1
 }
-990.1.1 = {religion = orthodox 
+990.1.1 = {religion = chalcedonian
 culture = russian}
 990.1.1 = {
 b_staryaladoga = castle
 b_tikhvin = temple
 b_pikalyovo = city }
+1054.1.1 = {
+	religion = orthodox
+}

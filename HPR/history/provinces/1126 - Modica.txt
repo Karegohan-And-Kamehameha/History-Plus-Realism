@@ -27,7 +27,7 @@ b_noto = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = hills
 
 # History

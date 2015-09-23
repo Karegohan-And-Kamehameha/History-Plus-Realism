@@ -89,8 +89,11 @@
 #Archbishops
 1053.1.1=
 {
-liege=k_papal_state
+liege=k_papal_chalcedon
 holder=73472
+}
+1054.1.1 = {
+liege = k_papal_state
 }
 1069.1.1=
 {

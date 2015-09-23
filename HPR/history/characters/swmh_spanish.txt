@@ -9,7 +9,7 @@
 	name="Assur"
 	dynasty=405
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=leonese
 
 	856.1.1={
@@ -26,7 +26,7 @@
 
 	father=1000235001
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=leonese
 
 	877.1.1={
@@ -47,7 +47,7 @@
 	father=1000235002
 	mother=200075
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=leonese
 
 	915.1.1={

@@ -53,6 +53,7 @@ decisions = {
 					}
 				}
 			}
+			has_global_flag = schism_happened
 			NOR = {
 				has_global_flag = schism_mending
 				has_global_flag = schism_mended
@@ -156,6 +157,7 @@ decisions = {
 				real_tier = EMPEROR
 			}
 			OR = {
+				religion = chalcedonian
 				religion = catholic
 				religion = fraticelli
 				religion = cathar
@@ -180,7 +182,10 @@ decisions = {
 			}
 			#there must be a non-heretic religion head with whom to negotiate
 			d_nestorian = { holder_scope = { is_heretic = no } }
-			has_global_flag = schism_mended
+			OR = {
+				has_global_flag = schism_mended
+				NOT = { has_global_flag = shism_happened }
+			}
 			NOR = {
 				has_global_flag = ephesus_enforced
 				has_global_flag = enforcing_ephesus
@@ -285,6 +290,7 @@ decisions = {
 				real_tier = EMPEROR
 			}
 			OR = {
+				religion = chalcedonian
 				religion = catholic
 				religion = fraticelli
 				religion = cathar
@@ -311,7 +317,10 @@ decisions = {
 				d_apostolic = { holder_scope = { is_heretic = no } }
 				d_paulician = { holder_scope = { is_heretic = no } }
 			}
-			has_global_flag = schism_mended
+			OR = {
+				has_global_flag = schism_mended
+				NOT = { has_global_flag = schism_happened }
+			}
 			NOR = {
 				has_global_flag = chalcedon_enforced
 				has_global_flag = enforcing_chalcedon
@@ -437,6 +446,7 @@ decisions = {
 				has_global_flag = schism_mended
 				has_character_flag = schism_mender
 			}
+			has_global_flag = schism_happened
 		}
 		allow = {
 			custom_tooltip = {
@@ -550,6 +560,7 @@ decisions = {
 				has_global_flag = schism_mended
 				has_character_flag = schism_mender
 			}
+			has_global_flag = schism_happened
 		}
 		allow = {
 			custom_tooltip = {
@@ -752,6 +763,482 @@ decisions = {
 				OR = {
 					trait = cynical
 					trait = bad_priest_christian
+								}
+			}
+		}
+	}
+
+	# Chalcedonian Decisions
+
+	chalcedonian_rome_held = {
+		is_high_prio = yes
+		potential = {
+			has_landed_title = d_pentarch_rome
+			religion = chalcedonian
+			NOT = { religion_head = { always = yes } }
+		}
+		allow = {
+			333 = {
+				NOT = { has_province_modifier = pope_in_rome }
+				religion = chalcedonian
+			}
+		}
+		effect = {
+			religion_authority = {
+				modifier = pope_in_rome_MA
+	        }
+			333 = {
+				add_province_modifier = {
+					name = pope_in_rome
+					duration = 3650
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	chalcedonian_constantinople_held = {
+		is_high_prio = yes
+		potential = {
+			has_landed_title = d_pentarch_constantinople
+			religion = chalcedonian
+			NOT = { religion_head = { always = yes } }
+		}
+		allow = {
+			496 = {
+				NOT = { has_province_modifier = patriarch_in_constantinople }
+				religion = chalcedonian
+			}
+		}
+		effect = {
+			religion_authority = {
+				modifier = patriarch_in_constantinople_MA
+	        }
+			496 = {
+				add_province_modifier = {
+					name = patriarch_in_constantinople
+					duration = 3650
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	chalcedonian_patriarch_rome = {
+		is_high_prio = yes
+		icon_religion = catholic
+
+		potential = {
+			religion = chalcedonian
+			OR = {
+				higher_tier_than = DUKE
+				has_landed_title = d_pentarch_rome
+			}
+			d_pentarch_rome = {
+				has_holder = yes
+				holder_scope = {
+					religion = ROOT
+					trait = latin_rites
+				}
+			}
+			NOR = {
+				culture = greek
+				has_landed_title = e_byzantium
+				has_global_flag = schism_happened
+				has_global_flag = patriarch_supreme_created
+			}
+		}
+		allow = {
+			war = no
+			has_regent = no
+			independent = yes
+			piety = 1500
+			NOR = {
+				trait = bad_priest_christian
+				trait = excommunicated
+			}
+			OR = {
+				custom_tooltip = {
+					text = ROME_IS_YOUR_VASSAL
+					hidden_tooltip = {
+						any_vassal = { has_landed_title = d_pentarch_rome }
+					}
+				}
+				custom_tooltip = {
+					text = RELIGION_HEAD_IS_LATIN
+					hidden_tooltip = {
+						rightful_religious_head_scope = { trait = latin_rites }
+					}
+				}
+			}
+			OR = {
+				d_pentarch_constantinople = { has_holder = no }
+				custom_tooltip = {
+					text = ECUMENICAL_PATRIARCH_IS_LATIN
+					hidden_tooltip = {
+						d_pentarch_constantinople = { holder_scope = { trait = latin_rites } }
+					}
+				}
+				custom_tooltip = {
+					text = TWO_OTHER_LATIN_PATRIARCHS
+					hidden_tooltip = {
+						calc_true_if = {
+							amount = 2
+							d_pentarch_alexandria = { holder_scope = { trait = latin_rites } }
+							d_pentarch_antioch = { holder_scope = { trait = latin_rites } }
+							d_pentarch_jerusalem = { holder_scope = { trait = latin_rites } }
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			set_global_flag = patriarch_supreme_created
+			add_trait = paragon
+			prestige = 1000
+			custom_tooltip = {
+				text = ROME_BECOMES_PATRIARCH_SUPREME
+				hidden_tooltip = {
+					activate_title = { title = k_chalcedonian status = yes }
+					d_pentarch_rome = {
+						holder_scope = {
+							any_liege = {
+								limit = { tier = EMPEROR }
+								save_event_target_as = new_liege
+							}
+							k_chalcedonian = { gain_title = PREV }
+							set_defacto_liege = event_target:new_liege
+							if = {
+								limit = { NOT = { character = ROOT } }
+								add_friend = ROOT
+								piety = 250
+								prestige = 250
+							}
+							narrative_event = { id = Plus.2288 }
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	chalcedonian_patriarch_constantinople = {
+		is_high_prio = yes
+		icon_religion = orthodox
+
+		potential = {
+			religion = chalcedonian
+			OR = {
+				higher_tier_than = DUKE
+				has_landed_title = d_pentarch_constantinople
+			}
+			d_pentarch_constantinople = {
+				has_holder = yes
+				holder_scope = {
+					religion = ROOT
+					trait = greek_rites
+				}
+			}
+			NOR = {
+				culture = italian
+				culture = lombard
+				trait = crowned_by_pope
+				has_global_flag = schism_happened
+				has_global_flag = patriarch_supreme_created
+			}
+		}
+		allow = {
+			war = no
+			has_regent = no
+			independent = yes
+			piety = 1500
+			NOR = {
+				trait = bad_priest_christian
+				trait = excommunicated
+			}
+			OR = {
+				custom_tooltip = {
+					text = CONSTANTINOPLE_IS_YOUR_VASSAL
+					hidden_tooltip = {
+						any_vassal = { has_landed_title = d_pentarch_constantinople }
+					}
+				}
+				custom_tooltip = {
+					text = RELIGION_HEAD_IS_GREEK
+					hidden_tooltip = {
+						rightful_religious_head_scope = { trait = greek_rites }
+					}
+				}
+			}
+			OR = {
+				d_pentarch_rome = { has_holder = no }
+				custom_tooltip = {
+					text = PAPACY_IS_GREEK
+					hidden_tooltip = {
+						d_pentarch_rome = { holder_scope = { trait = greek_rites } }
+					}
+				}
+				custom_tooltip = {
+					text = TWO_OTHER_GREEK_PATRIARCHS
+					hidden_tooltip = {
+						calc_true_if = {
+							amount = 2
+							d_pentarch_alexandria = { holder_scope = { trait = greek_rites } }
+							d_pentarch_antioch = { holder_scope = { trait = greek_rites } }
+							d_pentarch_jerusalem = { holder_scope = { trait = greek_rites } }
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			set_global_flag = patriarch_supreme_created
+			add_trait = paragon
+			prestige = 1000
+			custom_tooltip = {
+				text = CONSTANTINOPLE_BECOMES_PATRIARCH_SUPREME
+				hidden_tooltip = {
+					activate_title = { title = k_chalcedonian status = yes }
+					d_pentarch_constantinople = {
+						holder_scope = {
+							any_liege = {
+								limit = { tier = EMPEROR }
+								save_event_target_as = new_liege
+							}
+							k_chalcedonian = { gain_title = PREV }
+							set_defacto_liege = event_target:new_liege
+							if = {
+								limit = { NOT = { character = ROOT } }
+								add_friend = ROOT
+								piety = 250
+								prestige = 250
+							}
+							narrative_event = { id = Plus.2288 }
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	chalcedonian_become_cardinal = {
+		is_high_prio = yes
+		potential = {
+			religion = chalcedonian
+			is_ruler = yes
+			is_female = no
+			is_theocracy = yes
+			k_papal_chalcedon = { has_holder = yes }
+			rightful_religious_head_scope = { has_landed_title = k_papal_chalcedon }
+			NOR = {
+				rightful_religious_head = ROOT
+				trait = bad_priest_christian
+				trait = chalc_cardinal
+				chalc_cardinal = {
+					is_alive = yes
+					count = 9
+				}
+			}
+		}
+		allow = {
+			piety = 0
+			has_regent = no
+			rightful_religious_head_scope = {
+				OR = {
+					AND = {
+						trait = latin_rites
+						ROOT = { trait = latin_rites }
+					}
+					AND = {
+						trait = greek_rites
+						ROOT = { trait = greek_rites }
+					}
+				}
+				is_within_diplo_range = ROOT
+				opinion = { who = ROOT value = 0 }
+				OR = {
+					NOT = { has_character_flag = cardinal_pick_timer }
+					had_character_flag = { flag = cardinal_pick_timer days = 180 }
+				}
+			}
+		}
+		effect = {
+			piety = 50
+			add_trait = chalc_cardinal
+			rightful_religious_head_scope = {
+				set_character_flag = cardinal_pick_timer
+				reverse_opinion = { who = ROOT modifier = opinion_pleased years = 5 }
+				save_event_target_as = current_pope
+			}
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					religion = chalcedonian
+					rightful_religious_head_scope = { has_landed_title = k_papal_chalcedon }
+					is_liege_of = ROOT
+				}
+				character_event = { id = Plus.2291 } # Notification to liege
+			}
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					religion = chalcedonian
+					rightful_religious_head_scope = { has_landed_title = k_papal_chalcedon }
+					NOT = { is_liege_of = ROOT }
+				}
+				character_event = { id = Plus.2292 } # Notification
+			}
+			set_special_character_title = CHALCEDONIAN_CARDINAL
+			set_character_flag = is_chalcedonian_cardinal
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+				always = yes
+			}
+			modifier = {
+				factor = 5
+				real_tier = COUNT
+			}
+			modifier = {
+				factor = 10
+				higher_real_tier_than = COUNT
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 1.5
+				trait = zealous
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					trait = theologian
+					trait = scholar
+					trait = schemer
+					trait = socializer
+				}
+			}
+			modifier = {
+				factor = 1.25
+				trait = proud
+			}
+			modifier = {
+				factor = 1.25
+				trait = diligent
+			}
+			modifier = {
+				factor = 1.25
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0.1
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 0.75
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.75
+				trait = shy
+			}
+			modifier = {
+				factor = 0.5
+				NOR = {
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			modifier = {
+				factor = 1.5
+				trait = scholarly_theologian
+			}
+			modifier = {
+				factor = 2
+				trait = mastermind_theologian
+			}
+			modifier = {
+				factor = 0.75
+				NOT = { piety = 50 }
+			}
+			modifier = {
+				factor = 1.1
+				piety = 100
+			}
+			modifier = {
+				factor = 1.1
+				piety = 200
+			}
+			modifier = {
+				factor = 1.1
+				piety = 300
+			}
+			modifier = {
+				factor = 1.1
+				piety = 400
+			}
+			modifier = {
+				factor = 1.1
+				piety = 500
+			}
+			modifier = {
+				factor = 0.75
+				rightful_religious_head_scope = {
+					distance = { who = ROOT value = 300 }
+				}
+			}
+			modifier = {
+				factor = 0.75
+				rightful_religious_head_scope = {
+					distance = { who = ROOT value = 500 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					opinion = { who = ROOT value = 20 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					opinion = { who = ROOT value = 40 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					opinion = { who = ROOT value = 60 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					opinion = { who = ROOT value = 80 }
 				}
 			}
 		}

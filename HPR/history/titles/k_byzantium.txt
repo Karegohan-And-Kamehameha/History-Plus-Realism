@@ -1,3 +1,9 @@
+100.1.1 = {
+	pentarch = d_pentarch_constantinople
+}
+244.2.11 = {
+de_jure_liege = e_byzantium
+}
 1204.8.1=
 {
 liege="e_latin_empire"

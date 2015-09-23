@@ -217,6 +217,12 @@ settlement_decisions = {
 					}
 				}
 			}
+			modifier = {
+				factor = 0
+				defacto_liege_title = {
+					title = c_roma
+				}
+			}
 		}
 	}
 
@@ -1296,6 +1302,7 @@ settlement_decisions = {
 												horse_archers = { 60 60 }
 											}
 											attrition = 1
+											cannot_inherit = yes
 											merge = yes
 										}
 									}
@@ -2048,6 +2055,7 @@ settlement_decisions = {
 											horse_archers = { 60 60 }
 										}
 										attrition = 1
+										cannot_inherit = yes
 										merge = yes
 									}
 								}

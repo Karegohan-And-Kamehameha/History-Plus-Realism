@@ -27,29 +27,32 @@ religion = norse_pagan
         b_lomma = ct_port_1
 	b_lund = tp_wall_1
 }
-1000.1.1 = { 
+1000.1.1 = {
 b_borgeby = castle
-b_trelleborg = castle	
+b_trelleborg = castle
         b_borgeby = ca_keep_1
 	b_borgeby = ca_militia_barracks_1
 	b_borgeby = ca_wall_1
 	b_lund = tp_monastery_1
 	b_lund = tp_wall_2
-} 
-1005.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
-1066.1.1 = { 
+}
+1005.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
         b_lomma = city
         b_lomma = ct_marketplace_1
         b_lomma = ct_wall_1
 	b_lomma = ct_port_1
-	b_lomma = ct_barracks_1 
+	b_lomma = ct_barracks_1
         b_skaneor = city
         b_skaneor = ct_marketplace_1
         b_skaneor = ct_marketplace_2
         b_skaneor = ct_wall_1
-	b_skaneor = ct_port_1   
-	b_skaneor = ct_port_2   
+	b_skaneor = ct_port_1
+	b_skaneor = ct_port_2
 }
 
 1104.1.1= { capital = b_lund }

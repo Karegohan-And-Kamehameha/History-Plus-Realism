@@ -16,9 +16,12 @@ b_petrela = city
 
 # Misc
 culture = arberian
-religion = orthodox
+religion = chalcedonian
 terrain = mountain
 
 # History
 
 1050.1.1 = { b_kruje = castle }
+1054.1.1 = {
+	religion = orthodox
+}

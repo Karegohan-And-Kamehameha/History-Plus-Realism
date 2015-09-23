@@ -24,9 +24,12 @@ b_banbury = city
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
-1066.10.14 = { b_hook_norton = castle } 
-1100.11.11 = { culture = english } 
+1054.1.1 = {
+	religion = catholic
+}
+1066.10.14 = { b_hook_norton = castle }
+1100.11.11 = { culture = english }
 

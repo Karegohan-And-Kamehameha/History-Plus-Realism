@@ -29,10 +29,13 @@ religion = slavic_pagan
 867.1.1 = {
 	b_novgorodkremlin = ca_shipyard_1
 }
-988.1.1 = {religion = orthodox }
+988.1.1 = {religion = chalcedonian }
 988.1.1 = {
 b_novgorodkremlin = castle
 b_sanktsophia = temple }
+1054.1.1 = {
+	religion = orthodox
+}
 1136.1.1 = { b_solcyn = city } #Novgorod republic founded
 1136.1.1 = { capital = b_novgorod }
 1150.1.1 = { b_yurievmonestary = temple }

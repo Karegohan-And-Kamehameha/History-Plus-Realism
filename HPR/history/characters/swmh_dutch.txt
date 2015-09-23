@@ -2,13 +2,16 @@
 1000140016 = {
 	name="Godschalk"
 	dynasty=101918
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="low_saxon"  # melted from: dutch
 	1025.1.1 = {
 		birth="1025.1.1"
 	}
 	1045.1.1 = {
 		add_spouse = 41721
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1063.1.1 = {
         add_trait="ill"

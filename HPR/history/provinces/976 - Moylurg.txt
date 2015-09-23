@@ -14,8 +14,11 @@ b_elphin = temple
 
 # Misc
 culture = irish
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
 
+1054.1.1 = {
+	religion = catholic
+}

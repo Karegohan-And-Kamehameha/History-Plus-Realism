@@ -13,11 +13,14 @@ b_kelatsminda = temple
 #b_bochorma = castle
 #b_kvetera = temple
 #b_gremi = castle
- 
+
 
 # Misc
 culture = georgian
-religion = orthodox
+religion = chalcedonian
 
 # History
 
+1054.1.1 = {
+	religion = orthodox
+}

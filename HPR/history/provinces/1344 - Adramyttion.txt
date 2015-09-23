@@ -14,11 +14,13 @@ b_antandros = temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = hills
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 1200.1.1 = { remove_settlement = b_antandros }
 
 1213.1.1 = { trade_post = b_dandolo }

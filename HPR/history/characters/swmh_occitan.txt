@@ -10,7 +10,7 @@
 1000227200 = {
 	name="Bello" # comte from 790
         dynasty=100213 # de Carcasonne
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="occitan"
 	755.1.1 = {
 		birth = yes
@@ -22,7 +22,7 @@
 1000227201 = {
 	name="Guisclafred" # comte from 810
         dynasty=100213
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="occitan"
         father=1000227200
 	778.1.1 = {
@@ -35,7 +35,7 @@
 1000227202 = {
 	name="Olibia" # comte from 821
         dynasty=100213
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="occitan"
         father=1000227200
 	781.1.1 = {
@@ -48,7 +48,7 @@
 #163063 = {
 #	name="Bernard" # comte 837-844? or just liege lord?
 #	dynasty=100217
-#	religion="catholic"
+#	religion = "chalcedonian"
 #	culture="frankish"
 #	father=168130
 #	796.1.1 = {
@@ -64,7 +64,7 @@
 1000227203 = {
 	name="Olibia" # comte of Carcasonne from 837 or 865-877
         dynasty=100213
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="occitan"
         father=1000227202
 	824.1.1 = {
@@ -74,14 +74,14 @@
 		death = yes
 	}
 }
-#127025 = { 
+#127025 = {
 #	name="Acfred"  # comte of Razès from 837 and Carcasonne from 877
 #	dynasty=100213
 #	martial=7
 #	diplomacy=6
 #	intrigue=6
 #	stewardship=7
-#	religion="catholic"
+#	religion = "chalcedonian"
 #	culture="occitan"
 #       father=1000227202# SWMH
 #	820.1.1 = {
@@ -97,7 +97,7 @@
 1000227204 = {
 	name="Bencion" # comte of Carcasonne from 906
         dynasty=100213
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="occitan"
         father=1000227203
 	855.1.1 = {
@@ -110,7 +110,7 @@
 1000227205 = {
 	name="Acfred" # comte of Razès from 906 and Carcasonne from 908
         dynasty=100213
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="occitan"
         father=1000227203
 	868.1.1 = {
@@ -124,7 +124,7 @@
 	name="Arsenda" # comtess of Razès from 934 married to Arnaud I de Comminges
         dynasty=100213
         female=yes
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="occitan"
         father=1000227205
 	908.1.1 = {

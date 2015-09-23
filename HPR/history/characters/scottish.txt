@@ -1,4 +1,4 @@
-972 = {  	
+972 = {
 	name="Donald"
 	# AKA: Domnall
 	dynasty=688
@@ -6,7 +6,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -19,7 +19,7 @@
 	}
 }
 
-974 = {  	
+974 = {
 	name="Malcolm"
 	# AKA: Mael Coluim
 	dynasty=688
@@ -27,7 +27,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="honest"
 	trait="temperate"
@@ -41,7 +41,7 @@
 	}
 }
 
-976 = {  	
+976 = {
 	name="Kenneth"
 	# AKA: Cinaed
 	dynasty=688
@@ -49,7 +49,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="just"
 	trait="brave"
@@ -63,14 +63,14 @@
 	}
 }
 
-978 = {  	
+978 = {
 	name="Duff"
 	dynasty=688
 	martial=8
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="honest"
 	trait="scholarly_theologian"
@@ -83,7 +83,7 @@
 	}
 }
 
-980 = {  	
+980 = {
 	name="Malcolm"
 	# AKA: Mael Coluim
 	dynasty=688
@@ -91,7 +91,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=9
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="wroth"
 	trait="skilled_tactician"
@@ -107,7 +107,7 @@
 	}
 }
 
-981 = {  	
+981 = {
 	name="Bethoc"
 	# AKA: Bethoc
 	female = yes
@@ -116,7 +116,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="clubfooted"
 	trait="flamboyant_schemer"
@@ -130,7 +130,7 @@
 	}
 }
 
-982 = {  	
+982 = {
 	name="Duncan"
 	# AKA: Donnchad
 	dynasty=1687
@@ -138,7 +138,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="deceitful"
 	trait="arbitrary"
@@ -157,7 +157,7 @@
 	}
 }
 
-986 = {  	
+986 = {
 	name="Donald"
 	# AKA: Domnall 'Ban'
 	dynasty=1687
@@ -165,7 +165,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="cynical"
 	trait="skilled_tactician"
@@ -174,23 +174,26 @@
 	1039.12.2={
 		birth="1039.12.2"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1099.2.2={
 		trait="blinded"
 		death="1099.2.2"
 	}
 }
 
-994 = {  	
+994 = {
 	name="Malmure"
 	# AKA: Mael Muire
 	dna="ivgnlisegyk"
-	properties="0eacdk00000"	
+	properties="0eacdk00000"
 	dynasty=100044
 	martial=8
 	diplomacy=7
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="kind"
 	trait="proud"
@@ -200,12 +203,15 @@
 	1039.1.1={
 		birth="1039.1.1"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1130.1.1={
 		death="1130.1.1"
 	}
 }
 
-988 = {  	
+988 = {
 	name="Duncan"
 	# AKA: Donnchad
 	dynasty=1687
@@ -226,7 +232,7 @@
 	}
 }
 
-992 = {  	
+992 = {
 	name="Donald"
 	dynasty=1687
 	martial=8
@@ -247,7 +253,7 @@
 	}
 }
 
-5995 = {  	
+5995 = {
 	name="Alice"
 	female = yes
 	dynasty=688
@@ -255,7 +261,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=980
 	mother=166128
@@ -267,7 +273,7 @@
 	}
 }
 
-5996 = {  	
+5996 = {
 	name="Macbeth"
 	# AKA: Mac Bethad
 	dynasty=554
@@ -275,19 +281,22 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=5998
 	mother=5997
 	1006.1.2={
 		birth="1006.1.2"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1057.1.2={
 		death="1057.1.2"
 	}
 }
 
-5997 = {  	
+5997 = {
 	name="Donada"
 	female = yes
 	dynasty=688
@@ -295,7 +304,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=980
 	mother=166128
@@ -307,14 +316,14 @@
 	}
 }
 
-5998 = {  	
+5998 = {
 	name="Findlay"
 	dynasty=554
 	martial=8
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=5999
 	970.1.1={
@@ -325,14 +334,14 @@
 	}
 }
 
-5999 = {  	
+5999 = {
 	name="Ruairi"
 	dynasty=554
 	martial=8
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83586 #Domnall mac Morggáin
 	955.1.1={
@@ -343,14 +352,14 @@
 	}
 }
 
-6000 = {  	
+6000 = {
 	name="Brice"
 	dynasty=554
 	martial=8
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=5999
 	975.1.1={
@@ -361,7 +370,7 @@
 	}
 }
 
-6001 = {  	
+6001 = {
 	name="Gruoch"
 	female = yes
 	dynasty=688
@@ -369,11 +378,14 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=6003
 	1010.1.2={
 		birth="1010.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1057.1.2={
 		death="1057.1.2"
@@ -381,14 +393,14 @@
 }
 
 
-6002 = {  	
+6002 = {
 	name="Gillecomgain"
 	dynasty=554
 	martial=8
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=6000
 	1003.1.1={
@@ -399,14 +411,14 @@
 	}
 }
 
-6003 = {  	
+6003 = {
 	name="Boite"
 	dynasty=688
 	martial=8
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=6004
 	990.1.2={
@@ -417,7 +429,7 @@
 	}
 }
 
-6004 = {  	
+6004 = {
 	name="Kenneth"
 	# AKA: Cinaed
 	dynasty=688
@@ -425,7 +437,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=978
 	962.1.2={
@@ -436,14 +448,14 @@
 	}
 }
 
-6005 = {  	
+6005 = {
 	name="Dubacan"
 	dynasty=20083
 	martial=8
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	1000.1.2={
 		birth="1000.1.2"
@@ -453,14 +465,14 @@
 	}
 }
 
-6006 = {  	
+6006 = {
 	name="Lulach"
 	dynasty=554
 	martial=8
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=6002
 	mother=6001
@@ -475,7 +487,7 @@
 	}
 }
 
-6007 = {  	
+6007 = {
 	name="Fenella"
 	female = yes
 	dynasty=20083
@@ -483,25 +495,28 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=6005
 	1030.1.2={
 		birth="1030.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1064.1.2={
 		death="1064.1.2"
 	}
 }
 
-6008 = {  	
+6008 = {
 	name="Malsnectan"
 	dynasty=554
 	martial=8
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="flamboyant_schemer"
 	father=6006
@@ -509,12 +524,15 @@
 	1048.1.2={
 		birth="1048.1.2"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1085.7.1={
 		death="1085.7.1"
 	}
 }
 
-6009 = {  	
+6009 = {
 	name="Gruoch"
 	female = yes
 	dynasty=554
@@ -522,7 +540,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="charismatic_negotiator"
 	father=6006
@@ -530,23 +548,29 @@
 	1049.1.2={
 		birth="1049.1.2"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1099.1.2={
 		death="1099.1.2"
 	}
 }
 
-6010 = {  	
+6010 = {
 	name="Hugh"
 	dynasty=3104
 	martial=5
 	diplomacy=5
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="thrifty_clerk"
 	1039.1.2={
 		birth="1039.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.2={
 		add_spouse = 6009
@@ -556,7 +580,7 @@
 	}
 }
 
-6012 = {  	
+6012 = {
 	name="Angus"
 	dynasty=3104
 	martial=5
@@ -575,7 +599,7 @@
 	}
 }
 
-6014 = {  	
+6014 = {
 	name="Malcolm"
 	dynasty=3104
 	martial=6
@@ -594,14 +618,14 @@
 	}
 }
 
-6016 = {  	
+6016 = {
 	name="Constantine"
 	dynasty=688
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -614,14 +638,14 @@
 	}
 }
 
-6018 = {  	
+6018 = {
 	name="Kenneth" #Cináed mac Ailpín
 	dynasty=688
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -634,14 +658,14 @@
 	}
 }
 
-6020 = {  	
+6020 = {
 	name="Alpin" #Alpín mac Echdach
 	dynasty=9223
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -657,14 +681,14 @@
 	}
 }
 
-6022 = {  	
+6022 = {
 	name="Donald"
 	dynasty=688
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -677,14 +701,14 @@
 	}
 }
 
-6024 = {  	
+6024 = {
 	name="Hugh"
 	dynasty=688
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -697,14 +721,14 @@
 	}
 }
 
-6026 = {  	
+6026 = {
 	name="Constantine"
 	dynasty=688
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -717,14 +741,14 @@
 	}
 }
 
-6028 = {  	
+6028 = {
 	name="Indulf"
 	dynasty=688
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -737,14 +761,14 @@
 	}
 }
 
-6030 = {  	
+6030 = {
 	name="Colin"
 	dynasty=688
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -757,14 +781,14 @@
 	}
 }
 
-6032 = {  	
+6032 = {
 	name="Constantine"
 	dynasty=688
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -777,9 +801,9 @@
 	}
 }
 
-7388 = {  	
+7388 = {
 	name="Bethoc"
-	female = yes 
+	female = yes
 	dynasty=1687
 	religion="catholic"
 	culture = "scottish"
@@ -807,7 +831,7 @@
 	}
 }
 
-7390 = {  	
+7390 = {
 	name="Matad"
 	dynasty=100044
 	religion="catholic"
@@ -821,7 +845,7 @@
 	}
 }
 
-7391 = {  	
+7391 = {
 	name="Angus"
 	dynasty=25046
 	martial=7
@@ -840,20 +864,23 @@
 	}
 }
 
-20071 = {  	
+20071 = {
 	name="Malpeder"
 	dynasty=20083
 	martial=8
 	diplomacy=5
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="craven"
 	trait="flamboyant_schemer"
 	father=6005
 	1039.1.1={
 		birth="1039.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1062.1.1={
 		add_spouse = 4071
@@ -863,7 +890,7 @@
 	}
 }
 
-20075 = {  	
+20075 = {
 	name="Martachus" #'Martachus'
 	dynasty=100042
 	martial=5
@@ -882,7 +909,7 @@
 	}
 }
 
-131001 = {  	
+131001 = {
 	name="Giric"
 	# AKA: Giric mac Cinaeda
 	dynasty=688
@@ -890,7 +917,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=2
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="just"
 	trait="proud"
@@ -903,16 +930,16 @@
 	}
 }
 
-131002 = {  	
+131002 = {
 	name="Duff"
 	dna="rfensjgfxid"
-	properties="0apcdk00000"	
+	properties="0apcdk00000"
 	dynasty=3121
 	martial=7
 	diplomacy=5
 	intrigue=7
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="skilled_tactician"
 	father=131001
@@ -922,12 +949,15 @@
 	1052.1.2={
 		add_spouse=131003
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1098.1.1={
 		death="1098.1.1"
 	}
 }
 
-131003 = {  	
+131003 = {
 	name="Der-Ilei"
 	# AKA: Der
 	female = yes
@@ -936,19 +966,22 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="cynical"
 	trait="underhanded_rogue"
 	1030.1.2={
 		birth="1030.1.2"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1080.1.2={
 		death="1080.1.2"
 	}
 }
 
-131004 = {  	
+131004 = {
 	name="Constantine"
 	# AKA: Causantin
 	dynasty=3121
@@ -970,32 +1003,35 @@
 }
 
 
-131006 = {  	
+131006 = {
 	name="Kenneth"
 	dynasty=20085
 	martial=6
 	diplomacy=3
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="tough_soldier"
 	1051.1.1={
 		birth="1051.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1101.1.1={
 		death="1101.1.1"
 	}
 }
 
-131101 = {  	
+131101 = {
 	name="Suibne"
 	dynasty=100045
 	martial=6
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="brave"
 	father=976
@@ -1007,14 +1043,14 @@
 	}
 }
 
-131102 = {  	
+131102 = {
 	name="Solam"
 	dynasty=100045
 	martial=4
 	diplomacy=5
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="arbitrary"
 	father=131101
@@ -1026,7 +1062,7 @@
 	}
 }
 
-131103 = {  	
+131103 = {
 	name="Giladuenan"
 	# AKA: Gilla Adamnain
 	dynasty=100045
@@ -1034,7 +1070,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="just"
 	father=131102
@@ -1046,7 +1082,7 @@
 	}
 }
 
-131104 = {  	
+131104 = {
 	name="Gilbride"
 	# AKA: Gilla Brigte
 	dynasty=100045
@@ -1054,19 +1090,22 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="tough_soldier"
 	father=131103
 	1042.1.2={
 		birth="1042.1.2"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1093.1.1={
 		death="1093.1.1"
 	}
 }
 
-131105 = {  	
+131105 = {
 	name="Fergus"
 	dynasty=100045
 	martial=3
@@ -1084,7 +1123,7 @@
 	}
 }
 
-131106 = {  	
+131106 = {
 	name="Somerled"
 	dynasty=100045
 	martial=3
@@ -1102,7 +1141,7 @@
 	}
 }
 
-131111 = {  	
+131111 = {
 	name="Malcolm"
 	# AKA: Non-Strathclyde 1066 start
 	dynasty=100047
@@ -1110,19 +1149,22 @@
 	diplomacy=1
 	intrigue=3
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="chaste"
 	father=166433
 	1025.1.2={
 		birth="1025.1.2"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1099.5.1={
 		death="1099.5.1"
 	}
 }
 
-202968 = {  	
+202968 = {
 	name="Edgar"
 	# AKA: Donnchad
 	dynasty=1687
@@ -1142,7 +1184,7 @@
 	}
 }
 
-202998 = {  	
+202998 = {
 	name="David"
 	# AKA: Dabid
 	dynasty=1687
@@ -1165,7 +1207,7 @@
 	}
 }
 
-202969 = {  	
+202969 = {
 	name="William"
 	dynasty=101901
 	martial=7
@@ -1184,7 +1226,7 @@
 	}
 }
 
-202971 = {  	
+202971 = {
 	name="Donald" #Domnall Mac Uilleim
 	dynasty=101901
 	martial=6
@@ -1209,7 +1251,7 @@
 }
 
 
-202972 = {  	
+202972 = {
 	name="Gruoch"
 	female = yes
 	dynasty=100040
@@ -1230,7 +1272,7 @@
 	}
 }
 
-202973 = {  	
+202973 = {
 	name="Godfrey"
 	dynasty=101901
 	martial=7
@@ -1253,7 +1295,7 @@
 	}
 }
 
-202974 = {  	
+202974 = {
 	name="Donald" #Domnall Bán
 	dynasty=101901
 	martial=6
@@ -1275,7 +1317,7 @@
 	}
 }
 
-202975 = {  	
+202975 = {
 	name="Gillespic"
 	dynasty=101901
 	martial=6
@@ -1295,7 +1337,7 @@
 	}
 }
 
-202976 = {  	
+202976 = {
 	name="Alice"
 	female = yes
 	dynasty=101901
@@ -1315,7 +1357,7 @@
 	}
 }
 
-202977 = {  	
+202977 = {
 	name="Duncan"
 	dynasty=3121
 	martial=8
@@ -1333,7 +1375,7 @@
 	}
 }
 
-202978 = {  	
+202978 = {
 	name="Gilmichael"
 	dynasty=3121
 	martial=8
@@ -1351,7 +1393,7 @@
 	}
 }
 
-202999 = {  	
+202999 = {
 	name="William"
 	# AKA: William 'the Lion'
 	dynasty=1687
@@ -1377,7 +1419,7 @@
 	}
 }
 
-203000 = {  	
+203000 = {
 	name="Malcolm"
 	# AKA: Mael Coluim 'Virgo'
 	dynasty=1687
@@ -1399,7 +1441,7 @@
 	}
 }
 
-203002 = {  	
+203002 = {
 	name="Ben-Rois"
 	female=yes
 	dynasty=3104
@@ -1441,7 +1483,7 @@
 	}
 }
 
-203006 = {  	
+203006 = {
 	name="Gilbert"
 	dynasty=100042
 	martial=4
@@ -1462,7 +1504,7 @@
 	}
 }
 
-203007 = {  	
+203007 = {
 	name="Gilbride"
 	dynasty=20083
 	martial=7
@@ -1487,7 +1529,7 @@
 	}
 }
 
-203008 = {  	
+203008 = {
 	name="Henry"
 	# AKA: einri
 	dynasty=689
@@ -1507,7 +1549,7 @@
 	}
 }
 
-203009 = {  	
+203009 = {
 	name="Angus"
 	dynasty=25046
 	martial=6
@@ -1529,7 +1571,7 @@
 	}
 }
 
-203010 = {  	
+203010 = {
 	name="Duncan"
 	dynasty=3121
 	martial=7
@@ -1551,7 +1593,7 @@
 	}
 }
 
-203012 = {  	
+203012 = {
 	name="Eva"
 	# AKA: eua
 	female = yes
@@ -1572,7 +1614,7 @@
 	}
 }
 
-203014 = {  	
+203014 = {
 	name="Patrick"
 	dynasty=370
 	martial=4
@@ -1595,7 +1637,7 @@
 	}
 }
 
-203015 = {  	
+203015 = {
 	name="Ada"
 	female = yes
 	dynasty=1687
@@ -1616,7 +1658,7 @@
 	}
 }
 
-203016 = {  	
+203016 = {
 	name="Patrick"
 	dynasty=370
 	martial=5
@@ -1635,7 +1677,7 @@
 	}
 }
 
-203021 = {  	
+203021 = {
 	name="Gilbride"
 	dynasty=20083
 	martial=7
@@ -1660,7 +1702,7 @@
 	}
 }
 
-203022 = {  	
+203022 = {
 	name="Duncan"
 	dynasty=20083
 	martial=6
@@ -1679,7 +1721,7 @@
 	}
 }
 
-203023 = {  	
+203023 = {
 	name="Bethoc"
 	female = yes
 	dynasty=20083
@@ -1698,7 +1740,7 @@
 	}
 }
 
-203032 = {  	
+203032 = {
 	name="Ela"
 	female = yes
 	dynasty=100046
@@ -1719,7 +1761,7 @@
 	}
 }
 
-203033 = {  	
+203033 = {
 	name="Malcolm"
 	# AKA: Mael Coluim
 	dynasty=3121
@@ -1740,7 +1782,7 @@
 	}
 }
 
-203034 = {  	
+203034 = {
 	name="Duncan"
 	dynasty=3121
 	martial=7
@@ -1760,7 +1802,7 @@
 	}
 }
 
-203059 = {  	
+203059 = {
 	name="Gillocher"
 	dynasty=100042
 	religion="catholic"
@@ -1776,7 +1818,7 @@
 	}
 }
 
-203060 = {  	
+203060 = {
 	name="Morgan"
 	# AKA: Morggan
 	dynasty=100042
@@ -1800,7 +1842,7 @@
 	}
 }
 
-203061 = {  	
+203061 = {
 	name="Ada-Agnes"
 	# AKA: Ada
 	female = yes
@@ -1823,7 +1865,7 @@
 	}
 }
 
-203062 = {  	
+203062 = {
 	name="Duncan"
 	dynasty=100042
 	martial=7
@@ -1846,7 +1888,7 @@
 	}
 }
 
-203063 = {  	
+203063 = {
 	name="Malcolm"
 	# AKA: Mael Coluim
 	dynasty=100042
@@ -1870,7 +1912,7 @@
 	}
 }
 
-203064 = {  	
+203064 = {
 	name="John"
 	# AKA: Eoin
 	dynasty=100042
@@ -1894,7 +1936,7 @@
 	}
 }
 
-203065 = {  	
+203065 = {
 	name="Duncan"
 	dynasty=100042
 	martial=5
@@ -1917,7 +1959,7 @@
 	}
 }
 
-203066 = {  	
+203066 = {
 	name="James"
 	dynasty=100042
 	martial=5
@@ -1938,7 +1980,7 @@
 	}
 }
 
-203070 = {  	
+203070 = {
 	name="Dubacan"
 	dynasty=20083
 	martial=7
@@ -1957,7 +1999,7 @@
 	}
 }
 
-203071 = {  	
+203071 = {
 	name="Adam"
 	dynasty=20083
 	martial=5
@@ -1980,7 +2022,7 @@
 	}
 }
 
-203072 = {  	
+203072 = {
 	name="Gilchrist"
 	dynasty=20083
 	martial=5
@@ -2003,7 +2045,7 @@
 	}
 }
 
-203073 = {  	
+203073 = {
 	name="William"
 	dynasty=20083
 	martial=7
@@ -2026,7 +2068,7 @@
 	}
 }
 
-203074 = {  	
+203074 = {
 	name="Angus"
 	dynasty=20083
 	martial=5
@@ -2049,7 +2091,7 @@
 	}
 }
 
-203076 = {  	
+203076 = {
 	name="Isabel"
 	female = yes
 	martial=7
@@ -2067,7 +2109,7 @@
 	}
 }
 
-203078 = {  	
+203078 = {
 	name="Mary"
 	# AKA: Maire
 	female = yes
@@ -2092,7 +2134,7 @@
 	}
 }
 
-203079 = {  	
+203079 = {
 	name="Hugh"
 	dynasty=20083
 	martial=5
@@ -2112,7 +2154,7 @@
 	}
 }
 
-203510 = {  	
+203510 = {
 	name="Margaret"
 	female = yes
 	dynasty=1687
@@ -2133,7 +2175,7 @@
 	}
 }
 
-203511 = {  	
+203511 = {
 	name="Henry"
 	dynasty=1687
 	martial=4
@@ -2145,7 +2187,7 @@
 	trait="patient"
 	trait="skilled_tactician"
 	father=202998
-	mother=199 
+	mother=199
 	1114.1.2={
 		birth="1114.1.2"
 	}
@@ -2157,7 +2199,7 @@
 	}
 }
 
-203512 = {  	
+203512 = {
 	name="Ada"
 	female = yes
 	dynasty=1687
@@ -2178,7 +2220,7 @@
 	}
 }
 
-203520 = {  	
+203520 = {
 	name="David"
 	dynasty=1687
 	martial=4
@@ -2195,15 +2237,15 @@
 	}
 	1190.8.26={
 		add_spouse=204681
-	} 
+	}
 	1219.7.17={
 		death="1219.7.17"
 	}
 }
 
-203543 = {  	
+203543 = {
 	name="Marjory"
-	female = yes 
+	female = yes
 	dynasty=371
 	martial=7
 	diplomacy=7
@@ -2221,7 +2263,7 @@
 	}
 }
 
-203546 = {  	
+203546 = {
 	name="Robert"
 	dynasty=3123
 	martial=5
@@ -2244,7 +2286,7 @@
 	}
 }
 
-203547 = {  	
+203547 = {
 	name="Robert"
 	dynasty=3123
 	martial=5
@@ -2266,7 +2308,7 @@
 	}
 }
 
-203548 = {  	
+203548 = {
 	name="Isabel"
 	female = yes
 	dynasty=1687
@@ -2287,7 +2329,7 @@
 	}
 }
 
-220019 = {  	
+220019 = {
 	name="Ranald"
 	# AKA: Ragnall mac Somhairlidh
 	dynasty=25046
@@ -2312,7 +2354,7 @@
 	}
 }
 
-220024 = {  	
+220024 = {
 	name="Affraic"
 	female = yes
 	dynasty=371
@@ -2332,7 +2374,7 @@
 	}
 }
 
-220027 = {  	
+220027 = {
 	name="Somerled"
 	dynasty=25046
 	martial=6
@@ -2352,7 +2394,7 @@
 	}
 }
 
-220028 = {  	
+220028 = {
 	name="Fiona"
 	female = yes
 	dynasty=100040
@@ -2372,7 +2414,7 @@
 	}
 }
 
-220030 = {  	
+220030 = {
 	name="Ruairi"
 	dynasty=25024
 	martial=6
@@ -2392,7 +2434,7 @@
 	}
 }
 
-220031 = {  	
+220031 = {
 	name="Donald"
 	dynasty=25046
 	martial=7
@@ -2412,7 +2454,7 @@
 	}
 }
 
-220032 = {  	
+220032 = {
 	name="Dugald"
 	dynasty=25046
 	martial=7
@@ -2431,7 +2473,7 @@
 	}
 }
 
-220038 = {  	
+220038 = {
 	name="Gormelia"
 	female = yes
 	dynasty=3114
@@ -2452,7 +2494,7 @@
 	}
 }
 
-220039 = {  	
+220039 = {
 	name="Affraic"
 	female = yes
 	dynasty=3121
@@ -2472,7 +2514,7 @@
 	}
 }
 
-220042 = {  	
+220042 = {
 	name="David"
 	dynasty=100044
 	martial=4
@@ -2492,7 +2534,7 @@
 	}
 }
 
-220043 = {  	
+220043 = {
 	name="John"
 	# AKA: Eoin
 	dynasty=100044
@@ -2513,7 +2555,7 @@
 	}
 }
 
-220044 = {  	
+220044 = {
 	name="Gunnhild"
 	female = yes
 	dynasty=100044
@@ -2534,7 +2576,7 @@
 	}
 }
 
-220047 = {  	
+220047 = {
 	name="Fiona"
 	female = yes
 	dynasty=101707
@@ -2554,8 +2596,8 @@
 	}
 }
 
-230521 = {  	
-	name="Margaret" 
+230521 = {
+	name="Margaret"
 	female = yes
 	dynasty=1687
 	martial=4
@@ -2575,9 +2617,9 @@
 	}
 }
 
-230522 = {  	
+230522 = {
 	name="Dervorgilla"
-	female = yes 
+	female = yes
 	dynasty=371
 	martial=7
 	diplomacy=7
@@ -2596,7 +2638,7 @@
 }
 
 
-230524 = {  	
+230524 = {
 	name="John"
 	dynasty=103
 	martial=7
@@ -2610,7 +2652,7 @@
 	1249.1.2={
 		birth="1249.1.2"
 	}
-	1281.2.9 = {  	
+	1281.2.9 = {
 		add_spouse = 230529
 	}
 	1314.11.25={
@@ -2618,7 +2660,7 @@
 	}
 }
 
-230530 = {  	
+230530 = {
 	name="Edward"
 	dynasty=103
 	martial=7
@@ -2637,7 +2679,7 @@
 	}
 }
 
-232678 = {  	
+232678 = {
 	name="Alexander"
 	# AKA: Alaxandair mac Mail Coluim
 	dynasty=1687
@@ -2662,7 +2704,7 @@
 		death="1124.1.14"
 	}
 }
-30912 = {  	
+30912 = {
 	name="Mary"
 	female = yes
 	dynasty=1687
@@ -2682,7 +2724,7 @@
 	}
 }
 
-332008 = {  	
+332008 = {
 	name="Henry"
 	dynasty=25048
 	martial=11
@@ -2700,7 +2742,7 @@
 	}
 }
 
-332009 = {  	
+332009 = {
 	name="Adam"
 	dynasty=25049
 	martial=2
@@ -2719,7 +2761,7 @@
 	}
 }
 
-332017 = {  	
+332017 = {
 	name="Robert"
 	dynasty=25052
 	martial=6
@@ -2739,7 +2781,7 @@
 	}
 }
 
-332020 = {  	
+332020 = {
 	name="David"
 	dynasty=25054
 	martial=7
@@ -2762,7 +2804,7 @@
 	}
 }
 
-332022 = {  	
+332022 = {
 	name="Thomas"
 	dynasty=25054
 	martial=4
@@ -2782,7 +2824,7 @@
 	}
 }
 
-332023 = {  	
+332023 = {
 	name="William"
 	dynasty=25054
 	martial=4
@@ -2802,7 +2844,7 @@
 	}
 }
 
-332024 = {  	
+332024 = {
 	name="Robert"
 	dynasty=25054
 	martial=4
@@ -2822,7 +2864,7 @@
 	}
 }
 
-332025 = {  	
+332025 = {
 	name="Walter"
 	dynasty=4024
 	martial=4
@@ -2840,7 +2882,7 @@
 	}
 }
 
-332032 = {  	
+332032 = {
 	name="Philip"
 	dynasty=25057
 	martial=5
@@ -2860,7 +2902,7 @@
 	}
 }
 
-332035 = {  	
+332035 = {
 	name="William"
 	dynasty=3122
 	martial=7
@@ -2883,7 +2925,7 @@
 	}
 }
 
-332036 = {  	
+332036 = {
 	name="Walter"
 	dynasty=25059
 	martial=3
@@ -2901,7 +2943,7 @@
 	}
 }
 
-420019 = {  	
+420019 = {
 	name="John"
 	dynasty=25046
 	martial=5
@@ -2920,7 +2962,7 @@
 	}
 }
 
-450820 = {  	
+450820 = {
 	name="Malise"
 	dynasty=9101
 	martial=8
@@ -2945,7 +2987,7 @@
 	}
 }
 
-450821 = {  	
+450821 = {
 	name="Malise"
 	dynasty=9101
 	martial=5
@@ -2968,7 +3010,7 @@
 	}
 }
 
-450822 = {  	
+450822 = {
 	name="Isabel"
 	female = yes
 	dynasty=124
@@ -2987,7 +3029,7 @@
 	}
 }
 
-450823 = {  	
+450823 = {
 	name="Joan"
 	female = yes
 	dynasty=123
@@ -3006,7 +3048,7 @@
 	}
 }
 
-450824 = {  	
+450824 = {
 	name="Maud"
 	female = yes
 	dynasty=9101
@@ -3028,7 +3070,7 @@
 	}
 }
 
-450825 = {  	
+450825 = {
 	name="Marjory"
 	female = yes
 	dynasty=100039
@@ -3050,7 +3092,7 @@
 	}
 }
 
-450826 = {  	
+450826 = {
 	name="Mary"
 	female = yes
 	dynasty=9101
@@ -3072,7 +3114,7 @@
 	}
 }
 
-450827 = {  	
+450827 = {
 	name="Agnes"
 	female = yes
 	dynasty=9101
@@ -3094,7 +3136,7 @@
 	}
 }
 
-450828 = {  	
+450828 = {
 	name="Isabel"
 	female = yes
 	dynasty=9101
@@ -3116,7 +3158,7 @@
 	}
 }
 
-453002 = {  	
+453002 = {
 	name="William"
 	dynasty=3145
 	martial=7
@@ -3136,7 +3178,7 @@
 	}
 }
 
-453003 = {  	
+453003 = {
 	name="William"
 	dynasty=100039
 	martial=6
@@ -3160,7 +3202,7 @@
 	}
 }
 
-453004 = {  	
+453004 = {
 	name="John"
 	dynasty=3146
 	martial=6
@@ -3185,7 +3227,7 @@
 	}
 }
 
-453006 = {  	
+453006 = {
 	name="Thomas"
 	dynasty=100042
 	martial=5
@@ -3205,7 +3247,7 @@
 	}
 }
 
-453007 = {  	
+453007 = {
 	name="Thomas"
 	dynasty=3134
 	martial=8
@@ -3225,7 +3267,7 @@
 	}
 }
 
-453008 = {  	
+453008 = {
 	name="David"
 	dynasty=3121
 	martial=5
@@ -3245,7 +3287,7 @@
 	}
 }
 
-453009 = {  	
+453009 = {
 	name="Colin"
 	dynasty=3128
 	martial=4
@@ -3271,7 +3313,7 @@
 	}
 }
 
-453010 = {  	
+453010 = {
 	name="Duncan"
 	dynasty=3121
 	martial=8
@@ -3297,7 +3339,7 @@
 	}
 }
 
-453014 = {  	
+453014 = {
 	name="Patrick"
 	dynasty=370
 	martial=5
@@ -3321,7 +3363,7 @@
 	}
 }
 
-453020 = {  	
+453020 = {
 	name="Donald"
 	dynasty=100042
 	martial=5
@@ -3344,7 +3386,7 @@
 	}
 }
 
-453021 = {  	
+453021 = {
 	name="Isabel"
 	female = yes
 	dynasty=3134
@@ -3365,7 +3407,7 @@
 	}
 }
 
-453022 = {  	
+453022 = {
 	name="Gartnait"
 	dynasty=100042
 	martial=6
@@ -3384,7 +3426,7 @@
 	}
 }
 
-453023 = {  	
+453023 = {
 	name="Donald"
 	dynasty=100042
 	martial=5
@@ -3404,7 +3446,7 @@
 	}
 }
 
-453024 = {  	
+453024 = {
 	name="Isabel"
 	female = yes
 	dynasty=100042
@@ -3424,7 +3466,7 @@
 	}
 }
 
-453025 = {  	
+453025 = {
 	name="Margaret"
 	female = yes
 	dynasty=100042
@@ -3444,7 +3486,7 @@
 	}
 }
 
-453026 = {  	
+453026 = {
 	name="Margaret"
 	female = yes
 	dynasty=100042
@@ -3465,7 +3507,7 @@
 	}
 }
 
-453027 = {  	
+453027 = {
 	name="John"
 	dynasty=3134
 	martial=5
@@ -3487,7 +3529,7 @@
 	}
 }
 
-453028 = {  	
+453028 = {
 	name="Alexander"
 	dynasty=3134
 	martial=5
@@ -3506,7 +3548,7 @@
 	}
 }
 
-453029 = {  	
+453029 = {
 	name="John"
 	dynasty=3134
 	martial=6
@@ -3526,7 +3568,7 @@
 	}
 }
 
-453030 = {  	
+453030 = {
 	name="Alexander"
 	dynasty=3134
 	martial=5
@@ -3545,7 +3587,7 @@
 	}
 }
 
-453031 = {  	
+453031 = {
 	name="Margaret"
 	# wife of John Stewart, 1st Earl of Angus
 	dynasty = 25014
@@ -3566,7 +3608,7 @@
 	}
 }
 
-453032 = {  	
+453032 = {
 	name="James"
 	dynasty=3134
 	martial=6
@@ -3586,7 +3628,7 @@
 	}
 }
 
-453033 = {  	
+453033 = {
 	name="Walter"
 	dynasty=3134
 	martial=6
@@ -3608,7 +3650,7 @@
 	}
 }
 
-453034 = {  	
+453034 = {
 	name="Robert"
 	dynasty=3134
 	martial=6
@@ -3632,7 +3674,7 @@
 	}
 }
 
-453035 = {  	
+453035 = {
 	name="Margaret"
 	# AKA: Margaret Mure
 	female = yes
@@ -3652,7 +3694,7 @@
 	}
 }
 
-453036 = {  	
+453036 = {
 	name="Margaret"
 	female = yes
 	dynasty=3134
@@ -3673,7 +3715,7 @@
 	}
 }
 
-453037 = {  	
+453037 = {
 	name="Kenneth"
 	dynasty=3145
 	martial=7
@@ -3694,7 +3736,7 @@
 	}
 }
 
-453038 = {  	
+453038 = {
 	name="John"
 	dynasty=3121
 	martial=7
@@ -3716,7 +3758,7 @@
 	}
 }
 
-453039 = {  	
+453039 = {
 	name="David"
 	dynasty=3121
 	martial=7
@@ -3736,7 +3778,7 @@
 	}
 }
 
-453040 = {  	
+453040 = {
 	name="Joan"
 	dynasty = 101600
 	female = yes
@@ -3757,7 +3799,7 @@
 	}
 }
 
-453041 = {  	
+453041 = {
 	name="David"
 	dynasty=3121
 	martial=7
@@ -3800,7 +3842,7 @@
 	}
 }
 
-453052 = {  	
+453052 = {
 	name="Hugh"
 	dynasty=100039
 	martial=6
@@ -3826,7 +3868,7 @@
 	}
 }
 
-453053 = {  	
+453053 = {
 	name="Maud"
 	female = yes
 	dynasty=100039
@@ -3848,7 +3890,7 @@
 	}
 }
 
-453054 = {  	
+453054 = {
 	name="Fiona"
 	# AKA: Mary Og
 	female = yes
@@ -3870,7 +3912,7 @@
 	}
 }
 
-453055 = {  	
+453055 = {
 	name="Angus"
 	# AKA: Aongas Og
 	dynasty=25046
@@ -3891,7 +3933,7 @@
 	}
 }
 
-453056 = {  	
+453056 = {
 	name="John"
 	# AKA: Iain Og
 	dynasty=25046
@@ -3912,7 +3954,7 @@
 	}
 }
 
-453057 = {  	
+453057 = {
 	name="Affraic"
 	female = yes
 	dynasty=100039
@@ -3934,7 +3976,7 @@
 	}
 }
 
-453058 = {  	
+453058 = {
 	name="Thomas"
 	dynasty=3146
 	martial=6
@@ -3957,7 +3999,7 @@
 	}
 }
 
-453059 = {  	
+453059 = {
 	name="Isabel"
 	female = yes
 	dynasty=3134
@@ -3979,7 +4021,7 @@
 	}
 }
 
-453060 = {  	
+453060 = {
 	name="Thomas"
 	dynasty=3146
 	martial=6
@@ -3997,7 +4039,7 @@
 	}
 }
 
-453061 = {  	
+453061 = {
 	name="Isabel"
 	female = yes
 	dynasty=3123
@@ -4019,7 +4061,7 @@
 	}
 }
 
-453062 = {  	
+453062 = {
 	name="Agnes"
 	female = yes
 	dynasty=3146
@@ -4042,7 +4084,7 @@
 	}
 }
 
-453063 = {  	
+453063 = {
 	name="Patrick"
 	# AKA: Patrick Blackbeard
 	dynasty=370
@@ -4067,7 +4109,7 @@
 	}
 }
 
-453064 = {  	
+453064 = {
 	name="Bride"
 	# AKA: Bridget Comyn
 	female = yes
@@ -4087,7 +4129,7 @@
 	}
 }
 
-453065 = {  	
+453065 = {
 	name="Duncan"
 	dynasty=3121
 	martial=6
@@ -4107,7 +4149,7 @@
 	}
 }
 
-453070 = {  	
+453070 = {
 	name="Margaret"
 	# AKA: Margaret Graham
 	female = yes
@@ -4127,7 +4169,7 @@
 	}
 }
 
-453071 = {  	
+453071 = {
 	name="Neil"
 	dynasty=3128
 	martial=5
@@ -4154,7 +4196,7 @@
 	}
 }
 
-453072 = {  	
+453072 = {
 	name="Margaret"
 	# AKA: Margaret Crawford
 	female = yes
@@ -4174,7 +4216,7 @@
 	}
 }
 
-453073 = {  	
+453073 = {
 	name="Mary"
 	female = yes
 	dynasty=3123
@@ -4196,7 +4238,7 @@
 	}
 }
 
-453074 = {  	
+453074 = {
 	name="Douglas"
 	dynasty=3128
 	martial=5
@@ -4217,7 +4259,7 @@
 	}
 }
 
-453075 = {  	
+453075 = {
 	name="Duncan"
 	dynasty=3128
 	martial=6
@@ -4239,7 +4281,7 @@
 	}
 }
 
-453076 = {  	
+453076 = {
 	name="Helena"
 	# AKA: Helena Mor
 	female = yes
@@ -4260,7 +4302,7 @@
 	}
 }
 
-453077 = {  	
+453077 = {
 	name="Dugald"
 	dynasty=3128
 	martial=5
@@ -4280,7 +4322,7 @@
 	}
 }
 
-453078 = {  	
+453078 = {
 	name="Archibald"
 	dynasty=3128
 	martial=5
@@ -4301,7 +4343,7 @@
 	}
 }
 
-453079 = {  	
+453079 = {
 	name="John"
 	dynasty=3128
 	martial=7
@@ -4322,7 +4364,7 @@
 	}
 }
 
-453080 = {  	
+453080 = {
 	name="Neil"
 	dynasty=3128
 	martial=5
@@ -4344,7 +4386,7 @@
 	}
 }
 
-453500 = {  	
+453500 = {
 	name="David"
 	dynasty=3123
 	martial=4
@@ -4365,7 +4407,7 @@
 	}
 }
 
-453501 = {  	
+453501 = {
 	name="Robert"
 	dynasty=3123
 	martial=5
@@ -4393,7 +4435,7 @@
 	}
 }
 
-453502 = {  	
+453502 = {
 	name="Elspeth"
 	female = yes
 	dynasty=4034
@@ -4414,7 +4456,7 @@
 	}
 }
 
-453503 = {  	
+453503 = {
 	name="Maud"
 	female = yes
 	dynasty=3123
@@ -4436,7 +4478,7 @@
 	}
 }
 
-453504 = {  	
+453504 = {
 	name="Marjory"
 	female = yes
 	dynasty=3123
@@ -4458,7 +4500,7 @@
 	}
 }
 
-453505 = {  	
+453505 = {
 	name="Margaret"
 	female = yes
 	dynasty=3123
@@ -4480,7 +4522,7 @@
 	}
 }
 
-453506 = {  	
+453506 = {
 	name="Margaret"
 	female = yes
 	dynasty=3123
@@ -4502,7 +4544,7 @@
 	}
 }
 
-453507 = {  	
+453507 = {
 	name="Neil"
 	# AKA: Niall of Carrick
 	dynasty=3123
@@ -4525,7 +4567,7 @@
 	}
 }
 
-453508 = {  	
+453508 = {
 	name="Christina"
 	# AKA: Christina of Carrick
 	female = yes
@@ -4548,7 +4590,7 @@
 	}
 }
 
-453509 = {  	
+453509 = {
 	name="Margaret"
 	female = yes
 	dynasty=3123
@@ -4570,7 +4612,7 @@
 	}
 }
 
-453510 = {  	
+453510 = {
 	name="Elspeth"
 	female = yes
 	dynasty=3123
@@ -4591,7 +4633,7 @@
 	}
 }
 
-453511 = {  	
+453511 = {
 	name="Neil"
 	dynasty=3123
 	martial=5
@@ -4613,7 +4655,7 @@
 	}
 }
 
-453512 = {  	
+453512 = {
 	name="Robert"
 	dynasty=3123
 	martial=5
@@ -4636,7 +4678,7 @@
 	}
 }
 
-453513 = {  	
+453513 = {
 	name="Christina"
 	female = yes
 	dynasty=3123
@@ -4661,7 +4703,7 @@
 	}
 }
 
-453514 = {  	
+453514 = {
 	name="Maud"
 	female = yes
 	dynasty=3123
@@ -4682,7 +4724,7 @@
 	}
 }
 
-453515 = {  	
+453515 = {
 	name="Edward"
 	dynasty=3123
 	martial=5
@@ -4706,7 +4748,7 @@
 	}
 }
 
-453516 = {  	
+453516 = {
 	name="Isabel"
 	female = yes
 	dynasty=3121
@@ -4727,7 +4769,7 @@
 	}
 }
 
-453517 = {  	
+453517 = {
 	name="Alexander"
 	dynasty=3123
 	martial=5
@@ -4750,7 +4792,7 @@
 	}
 }
 
-453518 = {  	
+453518 = {
 	name="Eleanor"
 	female = yes
 	dynasty=3125
@@ -4773,7 +4815,7 @@
 	}
 }
 
-453519 = {  	
+453519 = {
 	name="Eleanor"
 	female = yes
 	dynasty=3125
@@ -4794,7 +4836,7 @@
 	}
 }
 
-453520 = {  	
+453520 = {
 	name="Thomas"
 	dynasty=3123
 	martial=5
@@ -4817,7 +4859,7 @@
 	}
 }
 
-453521 = {  	
+453521 = {
 	name="Marjory"
 	# AKA: Marjorie Charteris
 	female = yes
@@ -4838,7 +4880,7 @@
 	}
 }
 
-453522 = {  	
+453522 = {
 	name="Thomas"
 	dynasty=3123
 	martial=6
@@ -4861,7 +4903,7 @@
 	}
 }
 
-453600 = {  	
+453600 = {
 	name="William"
 	dynasty=3125
 	martial=7
@@ -4887,7 +4929,7 @@
 	}
 }
 
-453601 = {  	
+453601 = {
 	name="Elspeth"
 	female = yes
 	dynasty=3134
@@ -4908,7 +4950,7 @@
 	}
 }
 
-453602 = {  	
+453602 = {
 	name="Jean"
 	# AKA: Jean Macrory
 	female=yes
@@ -4927,7 +4969,7 @@
 	}
 }
 
-453603 = {  	
+453603 = {
 	name="James"
 	dynasty=3125
 	martial=7
@@ -4949,7 +4991,7 @@
 	}
 }
 
-453605 = {  	
+453605 = {
 	name="William"
 	dynasty=3125
 	martial=7
@@ -4969,7 +5011,7 @@
 	}
 }
 
-453606 = {  	
+453606 = {
 	name="Archibald"
 	dynasty=3125
 	martial=7
@@ -4988,7 +5030,7 @@
 	}
 }
 
-453607 = {  	
+453607 = {
 	name="Hugh"
 	dynasty=3125
 	martial=5
@@ -5009,7 +5051,7 @@
 	}
 }
 
-453608 = {  	
+453608 = {
 	name="Archibald"
 	dynasty=3125
 	martial=6
@@ -5033,7 +5075,7 @@
 	}
 }
 
-453610 = {  	
+453610 = {
 	name="John"
 	dynasty=3125
 	martial=7
@@ -5054,7 +5096,7 @@
 	}
 }
 
-453611 = {  	
+453611 = {
 	name="William"
 	dynasty=3125
 	martial=6
@@ -5076,7 +5118,7 @@
 	}
 }
 
-454992 = {  	
+454992 = {
 	name="Christina"
 	female = yes
 	dynasty=3122
@@ -5098,7 +5140,7 @@
 	}
 }
 
-487060 = {  	
+487060 = {
 	name="Hugh"
 	dynasty=100039
 	martial=3
@@ -5119,7 +5161,7 @@
 	}
 }
 
-487061 = {  	
+487061 = {
 	name="Janet"
 	female = yes
 	dynasty=100039
@@ -5141,7 +5183,7 @@
 	}
 }
 
-6900 = {  	
+6900 = {
 	name="Alexander"
 	dynasty=1687
 	martial=8
@@ -5168,7 +5210,7 @@
 	}
 }
 
-6902 = {  	
+6902 = {
 	name="Alexander"
 	dynasty=1687
 	martial=8
@@ -5192,7 +5234,7 @@
 	}
 }
 
-6903 = {  	
+6903 = {
 	name="Margaret"
 	female = yes
 	dynasty=1687
@@ -5215,7 +5257,7 @@
 	}
 }
 
-70599 = {  	
+70599 = {
 	name="Andrew"
 	# AKA: Andreas 'the Apostle'
 	dynasty=8661
@@ -5223,7 +5265,7 @@
 	diplomacy=9
 	intrigue=9
 	stewardship=9
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="trusting"
 	trait="brave"
@@ -5237,7 +5279,7 @@
 	}
 }
 
-7289 = {  	
+7289 = {
 	name="William"
 	dynasty=3125
 	religion="catholic"
@@ -5251,7 +5293,7 @@
 	}
 }
 
-7279 = {  	
+7279 = {
 	name="Colin"
 	dynasty=3128
 	religion="catholic"
@@ -5264,7 +5306,7 @@
 	}
 }
 
-7290 = {  	
+7290 = {
 	name="Archibald"
 	dynasty=3125
 	religion="catholic"
@@ -5279,7 +5321,7 @@
 }
 
 
-7291 = {  	
+7291 = {
 	name="William"
 	dynasty=3125
 	religion="catholic"
@@ -5292,7 +5334,7 @@
 	}
 }
 
-7294 = {  	
+7294 = {
 	name="Alexander"
 	dynasty=101600
 	religion="catholic"
@@ -5306,7 +5348,7 @@
 	}
 }
 
-7295 = {  	
+7295 = {
 	name="John"
 	dynasty=101600
 	religion="catholic"
@@ -5321,7 +5363,7 @@
 }
 
 
-7296 = {  	
+7296 = {
 	name="Jean"
 	female = yes
 	dynasty=101600
@@ -5331,13 +5373,13 @@
 	1192.1.1={
 		birth="1192.1.1"
 	}
-	
+
 	1274.1.1={
 		death="1274.1.1"
 	}
 }
 
-7297 = {  	
+7297 = {
 	name="William"
 	dynasty=100039
 	religion="catholic"
@@ -5355,7 +5397,7 @@
 	}
 }
 
-7298 = {  	
+7298 = {
 	name="William"
 	dynasty=100039
 	religion="catholic"
@@ -5370,7 +5412,7 @@
 	}
 }
 
-7342 = {  	
+7342 = {
 	name="John"
 	dynasty = 101600
 	religion="catholic"
@@ -5385,7 +5427,7 @@
 	}
 }
 
-7343 = {  	
+7343 = {
 	name="Magnus"
 	dynasty=20083
 	religion="catholic"
@@ -5399,7 +5441,7 @@
 	}
 }
 
-7344 = {  	
+7344 = {
 	name="John"
 	dynasty=20083
 	religion="catholic"
@@ -5413,7 +5455,7 @@
 	}
 }
 
-7345 = {  	
+7345 = {
 	name="Maud"
 	female = yes
 	dynasty=20083
@@ -5428,7 +5470,7 @@
 	}
 }
 
-7346 = {  	
+7346 = {
 	name="Magnus"
 	dynasty=20083
 	religion="catholic"
@@ -5442,7 +5484,7 @@
 	}
 }
 
-7347 = {  	
+7347 = {
 	name="Gilbride"
 	dynasty=20083
 	religion="catholic"
@@ -5455,7 +5497,7 @@
 	}
 }
 
-7359 = {  	
+7359 = {
 	name="John"
 	dynasty=101600
 	religion="catholic"
@@ -5473,7 +5515,7 @@
 	}
 }
 
-7360 = {  	
+7360 = {
 	name="Eleanor"
 	female=yes
 	dynasty=103
@@ -5489,7 +5531,7 @@
 	}
 }
 
-7361 = {  	
+7361 = {
 	name="John"
 	dynasty=101600
 	religion="catholic"
@@ -5506,7 +5548,7 @@
 	}
 }
 
-7362 = {  	
+7362 = {
 	name="John"
 	dynasty=101600
 	religion="catholic"
@@ -5520,7 +5562,7 @@
 	}
 }
 
-7363 = {  	
+7363 = {
 	name="Alexander"
 	dynasty=101600
 	religion="catholic"
@@ -5535,7 +5577,7 @@
 	}
 }
 
-7364 = {  	
+7364 = {
 	name="Elspeth"
 	female = yes
 	dynasty=101600
@@ -5546,14 +5588,14 @@
 	1213.1.1={
 		birth="1213.1.1"
 	}
-	
+
 	1266.1.1={
 		death="1266.1.1"
 	}
 }
 
 
-7366 = {  	
+7366 = {
 	name="David"
 	dynasty=3121
 	religion="catholic"
@@ -5568,7 +5610,7 @@
 	}
 }
 
-7367 = {  	
+7367 = {
 	name="William"
 	dynasty=100042
 	religion="catholic"
@@ -5585,7 +5627,7 @@
 	}
 }
 
-7369 = {  	
+7369 = {
 	name="John"
 	dynasty=3121
 	religion="catholic"
@@ -5602,7 +5644,7 @@
 	}
 }
 
-7379 = {  	
+7379 = {
 	name="Ada"
 	female = yes
 	dynasty=1687
@@ -5618,7 +5660,7 @@
 	}
 }
 
-7383 = {  	
+7383 = {
 	name="Patrick"
 	dynasty=371
 	religion="catholic"
@@ -5633,7 +5675,7 @@
 	}
 }
 
-7384 = {  	
+7384 = {
 	name="Isabel"
 	female = yes
 	dynasty=100044
@@ -5648,7 +5690,7 @@
 	}
 }
 
-7385 = {  	
+7385 = {
 	name="Forflissa"
 	female = yes
 	dynasty=100044
@@ -5663,7 +5705,7 @@
 	}
 }
 
-7386 = {  	
+7386 = {
 	name="David"
 	dynasty=3121
 	religion="catholic"
@@ -5678,7 +5720,7 @@
 	}
 }
 
-7411 = {  	
+7411 = {
 	name="Henry"
 	dynasty=100044
 	religion="catholic"
@@ -5692,7 +5734,7 @@
 	}
 }
 
-7397 = {  	
+7397 = {
 	name="Thomas"
 	dynasty=3146
 	religion="catholic"
@@ -5709,7 +5751,7 @@
 	}
 }
 
-7398 = {  	
+7398 = {
 	name="Malcolm"
 	dynasty=3121
 	religion="catholic"
@@ -5724,7 +5766,7 @@
 }
 
 
-7399 = {  	
+7399 = {
 	name="Colban"
 	dynasty=3121
 	religion="catholic"
@@ -5738,7 +5780,7 @@
 	}
 }
 
-7459 = {  	
+7459 = {
 	name="John"
 	dynasty=1687
 	religion="catholic"
@@ -5753,7 +5795,7 @@
 	}
 }
 
-7616 = {  	
+7616 = {
 	name="Patrick"
 	# AKA: Patrik
 	dynasty=370
@@ -5777,7 +5819,7 @@
 	}
 }
 
-7617 = {  	
+7617 = {
 	name="Christiana"
 	female = yes
 	dynasty=3123
@@ -5798,25 +5840,28 @@
 	}
 }
 
-82011 = {  	
+82011 = {
 	name="Murdoch"
 	dynasty=9101
 	martial=7
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="temperate"
 	1030.1.2={
 		birth="1030.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1085.1.2={
 		death="1085.1.2"
 	}
 }
 
-82012 = {  	
+82012 = {
 	name="Gilchrist"
 	# AKA: Gille
 	dynasty=9101
@@ -5836,7 +5881,7 @@
 }
 
 
-82013 = {  	
+82013 = {
 	name="Malise"
 	# AKA: Mael
 	dynasty=9101
@@ -5857,7 +5902,7 @@
 	}
 }
 
-82014 = {  	
+82014 = {
 	name="Farquhar"
 	dynasty=9101
 	martial=5
@@ -5878,7 +5923,7 @@
 	}
 }
 
-82015 = {  	
+82015 = {
 	name="Eithne"
 	female = yes
 	dynasty=9102
@@ -5897,7 +5942,7 @@
 	}
 }
 
-82016 = {  	
+82016 = {
 	name="Gilbride"
 	dynasty=9101
 	martial=5
@@ -5920,7 +5965,7 @@
 	}
 }
 
-82017 = {  	
+82017 = {
 	name="Malise"
 	dynasty=9101
 	martial=7
@@ -5939,7 +5984,7 @@
 	}
 }
 
-82018 = {  	
+82018 = {
 	name="Gilchrist"
 	dynasty=9101
 	martial=5
@@ -5958,7 +6003,7 @@
 	}
 }
 
-82020 = {  	
+82020 = {
 	name="Gilchrist"
 	# AKA: Gille
 	dynasty=9101
@@ -5978,7 +6023,7 @@
 	}
 }
 
-82021 = {  	
+82021 = {
 	name="William"
 	dynasty=9101
 	martial=7
@@ -5997,7 +6042,7 @@
 	}
 }
 
-82022 = {  	
+82022 = {
 	name="Farquhar"
 	dynasty=9101
 	martial=5
@@ -6016,7 +6061,7 @@
 	}
 }
 
-82023 = {  	
+82023 = {
 	name="Robert"
 	dynasty=9101
 	martial=5
@@ -6035,7 +6080,7 @@
 	}
 }
 
-82024 = {  	
+82024 = {
 	name="Fergus"
 	dynasty=9101
 	martial=5
@@ -6054,7 +6099,7 @@
 	}
 }
 
-82025 = {  	
+82025 = {
 	name="Malise"
 	dynasty=9101
 	martial=6
@@ -6073,7 +6118,7 @@
 	}
 }
 
-82026 = {  	
+82026 = {
 	name="Gilbride"
 	# AKA: Gille
 	dynasty=9101
@@ -6093,7 +6138,7 @@
 	}
 }
 
-82027 = {  	
+82027 = {
 	name="Maud"
 	female = yes
 	dynasty=9101
@@ -6113,7 +6158,7 @@
 	}
 }
 
-82028 = {  	
+82028 = {
 	name="Cecilia"
 	female = yes
 	dynasty=9101
@@ -6133,7 +6178,7 @@
 	}
 }
 
-82029 = {  	
+82029 = {
 	name="Eithne"
 	female = yes
 	dynasty=9101
@@ -6153,7 +6198,7 @@
 	}
 }
 
-82030 = {  	
+82030 = {
 	name="Malise"
 	# AKA: Mael
 	dynasty=9101
@@ -6175,7 +6220,7 @@
 	}
 }
 
-82031 = {  	
+82031 = {
 	name="Hugh"
 	dynasty=9101
 	martial=6
@@ -6193,7 +6238,7 @@
 	}
 }
 
-82032 = {  	
+82032 = {
 	name="Gilbride"
 	# AKA: Gille
 	dynasty=9101
@@ -6212,7 +6257,7 @@
 	}
 }
 
-82033 = {  	
+82033 = {
 	name="Malise"
 	dynasty=9101
 	martial=4
@@ -6234,7 +6279,7 @@
 	}
 }
 
-82036 = {  	
+82036 = {
 	name="Maurice"
 	dynasty=9104
 	martial=8
@@ -6252,7 +6297,7 @@
 	}
 }
 
-82050 = {  	
+82050 = {
 	name="Gilmichael" #Domesday book landowner of Westmorland, captain of Gospatric who harassed Durham monks
 	# AKA: Gille
 	dynasty=9108
@@ -6260,19 +6305,22 @@
 	diplomacy=3
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="underhanded_rogue"
 	trait="drunkard"
 	1035.1.1={
 		birth="1035.1.1"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1092.12.31={
 		death="1092.12.31"
 	}
 }
 
-984 = {  	
+984 = {
 	name="Malcolm"
 	# AKA: Mael Coluim 'Canmore'
 	dynasty=1687
@@ -6280,7 +6328,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="wroth"
 	trait="cynical"
@@ -6289,6 +6337,9 @@
 	mother=193
 	1039.1.2={
 		birth="1039.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.2={
 		add_spouse = 102505
@@ -6301,14 +6352,14 @@
 	}
 }
 
-960 = {  	
+960 = {
 	name="Duncan"
 	dynasty=1687
 	martial=5
 	diplomacy=4
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="proud"
 	trait="martial_cleric"
@@ -6320,14 +6371,14 @@
 	}
 }
 
-962 = {  	
+962 = {
 	name="Crinan"
 	dynasty=1687
 	martial=5
 	diplomacy=7
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="charitable"
 	trait="deceitful"
@@ -6345,7 +6396,7 @@
 	}
 }
 
-964 = {  	
+964 = {
 	name="Maldred"
 	# AKA: Mael Doraid
 	dynasty=1687
@@ -6353,7 +6404,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="just"
 	trait="tough_soldier"
@@ -6364,6 +6415,9 @@
 	}
 	1018.1.2={
 		add_spouse = 189
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.2={
 		death="1060.1.2"
@@ -6457,7 +6511,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=11
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83432 #Eochaid Mugmedón
 	405.1.1={
@@ -6475,7 +6529,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83573 #Erc son of Eochaid Mugmedón
 	457.1.1={
@@ -6493,7 +6547,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83574 #Fergus Mór mac Eirc
 	487.1.1={
@@ -6511,7 +6565,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83575 #Domangart mac Fergusa Mór
 	512.1.1={
@@ -6529,7 +6583,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83576 #Gabrán mac Domangairt
 	550.1.1={
@@ -6550,7 +6604,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83577 #Áedán mac Gabráin
 	572.1.1={
@@ -6568,7 +6622,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83578 #Eochaid Buide
 	596.1.1={
@@ -6586,7 +6640,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83579 #Domnall Brecc
 	620.1.1={
@@ -6604,7 +6658,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83580
 	651.1.1={
@@ -6622,7 +6676,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83581
 	684.1.1={
@@ -6640,7 +6694,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83582
 	714.1.1={
@@ -6659,7 +6713,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83583 #Áed Find
 	754.1.1={
@@ -6677,7 +6731,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	900.1.1={
 		birth="900.1.1"
@@ -6694,7 +6748,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=83585
 	929.1.1={
@@ -6712,7 +6766,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=6000
 	1001.1.1={
@@ -6815,7 +6869,7 @@
 	}
 }
 
-144947 = {  	
+144947 = {
 	name="William"
 	dynasty=3123
 	religion="catholic"
@@ -6829,7 +6883,7 @@
 	}
 }
 
-144948 = {  	
+144948 = {
 	name="Robert"
 	dynasty=3123
 	religion="catholic"
@@ -7084,7 +7138,7 @@
 	}
 }
 
-161374 = {  	
+161374 = {
 	name="Ada"
 	female=yes
 	dynasty=103
@@ -7103,7 +7157,7 @@
 
 
 
-161375 = {  	
+161375 = {
 	name="William"
 	dynasty=3122
 	religion="catholic"
@@ -7118,7 +7172,7 @@
 
 
 
-161376 = {  	
+161376 = {
 	name="Walter"
 	dynasty=3122
 	religion="catholic"
@@ -7134,7 +7188,7 @@
 
 
 
-161377 = {  	
+161377 = {
 	name="William"
 	dynasty=3122
 	religion="catholic"
@@ -7151,7 +7205,7 @@
 
 
 
-161378 = {  	
+161378 = {
 	name="Walter"
 	dynasty=3122
 	religion="catholic"
@@ -7167,7 +7221,7 @@
 
 
 
-161379 = {  	
+161379 = {
 	name="William"
 	dynasty=3122
 	religion="catholic"
@@ -7181,7 +7235,7 @@
 	}
 }
 
-161380 = {  	
+161380 = {
 	name="David"
 	dynasty=3122
 	religion="catholic"
@@ -7197,7 +7251,7 @@
 
 
 
-161381 = {  	
+161381 = {
 	name="David"
 	dynasty=3122
 	religion="catholic"
@@ -7213,7 +7267,7 @@
 
 
 
-161382 = {  	
+161382 = {
 	name="Alexander"
 	dynasty=3122
 	religion="catholic"
@@ -7228,7 +7282,7 @@
 }
 
 
-161383 = {  	
+161383 = {
 	name="Hugh"
 	dynasty=103
 	religion="catholic"
@@ -7243,7 +7297,7 @@
 	}
 }
 
-161384 = {  	
+161384 = {
 	name="Alexander"
 	dynasty=103
 	religion="catholic"
@@ -7551,7 +7605,7 @@
 	diplomacy=2
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="tough_soldier"
 	father=166434
@@ -7571,13 +7625,16 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="gluttonous"
 	trait="tough_soldier"
 	father=5793
 	1053.1.2={
 		birth="1053.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1103.1.2={
 		death="1103.1.2"
@@ -7967,7 +8024,7 @@
 	}
 }
 
-161655 = {  	
+161655 = {
 	name="Agnes"
 	female=yes
 	dynasty=101600
@@ -7982,7 +8039,7 @@
 	}
 }
 
-161656 = {  	
+161656 = {
 	name="Mary"
 	female=yes
 	dynasty=9101
@@ -7998,7 +8055,7 @@
 	}
 }
 
-161657 = {  	
+161657 = {
 	name="Maud"
 	female=yes
 	dynasty=9101
@@ -8014,7 +8071,7 @@
 	}
 }
 
-161658 = {  	
+161658 = {
 	name="Gilbride"
 	dynasty=9101
 	religion="catholic"
@@ -8029,7 +8086,7 @@
 	}
 }
 
-161659 = {  	
+161659 = {
 	name="Robert"
 	dynasty=9101
 	religion="catholic"
@@ -8051,7 +8108,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="lustful"
 	trait="underhanded_rogue"
@@ -8059,6 +8116,9 @@
 	mother=189
 	1040.1.2={
 		birth="1040.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1059.1.2={
 		add_spouse = 967
@@ -8105,7 +8165,7 @@
 	}
 }
 
-167014 = {  	
+167014 = {
 	name="Edward"
 	dynasty=1687
 	religion="catholic"
@@ -8120,7 +8180,7 @@
 	}
 }
 
-167015 = {  	
+167015 = {
 	name="Edmund"
 	dynasty=1687
 	religion="catholic"
@@ -8135,7 +8195,7 @@
 	}
 }
 
-167016 = {  	
+167016 = {
 	name="Ethelred"
 	dynasty=1687
 	religion="catholic"
@@ -8153,7 +8213,7 @@
 	}
 }
 
-167017 = {  	
+167017 = {
 	name="Malcolm"
 	dynasty=1687
 	religion="catholic"
@@ -8169,7 +8229,7 @@
 	}
 }
 
-167018 = {  	
+167018 = {
 	name="Ladhmann"
 	dynasty=1687
 	religion="catholic"
@@ -8192,11 +8252,14 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	trait="flamboyant_schemer"
 	1042.1.2={
 		birth="1042.1.2"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1092.1.2={
 		death="1092.1.2"
@@ -8359,7 +8422,7 @@
 	}
 }
 
-166433 = {  	
+166433 = {
 	name="Malcolm"
 	# AKA: Mael Coluim II
 	dynasty=100047
@@ -8367,7 +8430,7 @@
 	diplomacy=1
 	intrigue=3
 	stewardship=3
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=131110
 	1001.1.1={
@@ -8378,7 +8441,7 @@
 	}
 }
 
-166434 = {  	
+166434 = {
 	name="Malcolm"
 	# AKA: Mael Coluim I
 	dynasty=100047
@@ -8386,7 +8449,7 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=4
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=166437
 	945.1.1={
@@ -8397,11 +8460,11 @@
 	}
 }
 
-166443 = {  	
+166443 = {
 	name="Morag" #Unnammed Daughter of Kenneth mac Alpin & wife of King Run of Alt Clut (Strathclyde)
 	female=yes
 	dynasty=688
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=6018
 	827.1.1={
@@ -8415,7 +8478,7 @@
 183511 = {
 	name="Drostan"
 	dynasty=1042641
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	805.1.2={
 		birth="805.1.2"
@@ -8428,7 +8491,7 @@
 183512 = {
 	name="Kenneth"
 	dynasty=1042641
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183511
 	835.1.2={
@@ -8442,7 +8505,7 @@
 183513 = {
 	name="Murdoch"
 	dynasty=1042641
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183511
 	837.1.2={
@@ -8456,7 +8519,7 @@
 183514 = {
 	name="Giric"
 	dynasty=1042642
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	795.1.2={
 		birth="795.1.2"
@@ -8469,7 +8532,7 @@
 183515 = {
 	name="Malbride"
 	dynasty=1042642
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183514
 	828.1.2={
@@ -8483,7 +8546,7 @@
 183516 = {
 	name="Donald"
 	dynasty=1042642
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183515
 	855.1.2={
@@ -8498,7 +8561,7 @@
 	name="Gormelia"
 	female=yes
 	dynasty=1042642
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183515
 	858.1.2={
@@ -8512,7 +8575,7 @@
 183518 = {
 	name="Malmure"
 	dynasty=1042643
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	815.1.2={
 		birth="815.1.2"
@@ -8525,7 +8588,7 @@
 183519 = {
 	name="Eochaid"
 	dynasty=1042643
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183518
 	836.1.2={
@@ -8539,7 +8602,7 @@
 183520 = {
 	name="Cormac"
 	dynasty=1042643
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183518
 	841.1.2={
@@ -8553,7 +8616,7 @@
 183521 = {
 	name="Morgan"
 	dynasty=1042644
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	830.1.2={
 		birth="830.1.2"
@@ -8567,7 +8630,7 @@
 	name="Dervorgilla"
 	female=yes
 	dynasty=1042644
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183521
 	854.1.2={
@@ -8582,7 +8645,7 @@
 	name="Morag"
 	female=yes
 	dynasty=1042644
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183521
 	855.1.2={
@@ -8597,7 +8660,7 @@
 	name="Bethoc"
 	female=yes
 	dynasty=1042644
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183521
 	858.1.2={
@@ -8611,7 +8674,7 @@
 183525 = {
 	name="Crinan"
 	dynasty=1042645
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	840.1.2={
 		birth="840.1.2"
@@ -8624,7 +8687,7 @@
 183526 = {
 	name="Gilchrist"
 	dynasty=1042645
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183525
 	863.1.2={
@@ -8638,7 +8701,7 @@
 183527 = {
 	name="Maldoven"
 	dynasty=1042645
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183525
 	865.1.2={
@@ -8652,7 +8715,7 @@
 183528 = {
 	name="Comgall"
 	dynasty=1042646
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	821.1.2={
 		birth="821.1.2"
@@ -8665,7 +8728,7 @@
 183529 = {
 	name="Malserf"
 	dynasty=1042646
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183528
 	844.1.2={
@@ -8679,7 +8742,7 @@
 183530 = {
 	name="Gilleblane"
 	dynasty=1042646
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=183529
 	865.1.2={
@@ -8690,11 +8753,11 @@
 	}
 }
 
-165002 = {  	
+165002 = {
 	name="Malmure" #Máel Muire ingen Cináeda mac Ailpín, Daughter of Kenneth mac Alpin
 	female=yes
 	dynasty=688
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="scottish"
 	father=6018
 	851.1.1={
@@ -8823,7 +8886,7 @@
 	religion="catholic"
 	culture="scottish"
 	father=83122 # he was possibly her brother
-	mother=83086 
+	mother=83086
 	1220.1.1={
 		birth = yes
 	}
@@ -8857,7 +8920,7 @@
 		death = yes
 	}
 }
-188924 = {  	
+188924 = {
 	name="Maura" # name made up, possibly didn't exist
 	female=yes
 	dynasty=3121
@@ -8871,7 +8934,7 @@
 		death = yes
 	}
 }
-188925 = {  	
+188925 = {
 	name="Walter" # Walter Ballioch
 	dynasty=3134
 	religion="catholic"
@@ -8885,8 +8948,8 @@
 		death = yes
 	}
 }
-188926 = {  	
-	name="John" 
+188926 = {
+	name="John"
 	dynasty=123 # de Menteith
 	religion="catholic"
 	culture="scottish"
@@ -8899,8 +8962,8 @@
 		death = yes
 	}
 }
-188927 = {  	
-	name="Alexander" 
+188927 = {
+	name="Alexander"
 	dynasty=123 # de Menteith
 	religion="catholic"
 	culture="scottish"
@@ -8916,8 +8979,8 @@
 		death = yes
 	}
 }
-188928 = {  	
-	name="Mary" 
+188928 = {
+	name="Mary"
 	female=yes
 	dynasty=123 # de Menteith
 	religion="catholic"
@@ -8933,8 +8996,8 @@
 		death = yes
 	}
 }
-188929 = {  	
-	name="Isabel" 
+188929 = {
+	name="Isabel"
 	female=yes
 	dynasty=123 # de Menteith
 	religion="catholic"
@@ -8947,7 +9010,7 @@
 		death = yes
 	}
 }
-188930 = {  	
+188930 = {
 	name="Murdoch" # II (the younger)
 	dynasty=123 # de Menteith
 	religion="catholic"
@@ -8960,7 +9023,7 @@
 		death = yes
 	}
 }
-188931 = {  	
+188931 = {
 	name="Murdoch" # I (the elder)
 	dynasty=123 # de Menteith
 	religion="catholic"
@@ -8973,7 +9036,7 @@
 		death = yes
 	}
 }
-188932 = {  	
+188932 = {
 	name="Gilchrist"
 	dynasty=123 # de Menteith
 	religion="catholic"
@@ -8985,7 +9048,7 @@
 		death = yes
 	}
 }
-188933 = {  	
+188933 = {
 	name="Agnes" # first wife of Malise IV of Strathearn
 	female=yes
 	religion="catholic"
@@ -9075,7 +9138,7 @@
 		death = yes
 	}
 }
-188940 = {  	
+188940 = {
 	name="Donald" # progenitor of Campbells of Loudon
 	dynasty=3128
 	religion="catholic"
@@ -9086,13 +9149,13 @@
 		birth = yes
 	}
 	1300.1.1={
-		add_spouse = 188952 
+		add_spouse = 188952
 	}
 	1329.1.1={
 		death = yes
 	}
 }
-188941 = {  	
+188941 = {
 	name="Duncan"
 	dynasty=3128
 	religion="catholic"
@@ -9106,7 +9169,7 @@
 		death = yes
 	}
 }
-188942 = {  	
+188942 = {
 	name="Andrew"
 	dynasty=3128
 	religion="catholic"
@@ -9119,7 +9182,7 @@
 		death = yes
 	}
 }
-188943 = {  	
+188943 = {
 	name="Dugald" # Laird of Menstrie in Clackmannanshire
 	dynasty=3128
 	religion="catholic"
@@ -9133,7 +9196,7 @@
 		death = yes
 	}
 }
-188944 = {  	
+188944 = {
 	name="John"
 	dynasty=3128
 	religion="catholic"
@@ -9146,8 +9209,8 @@
 		death = yes
 	}
 }
-188945 = {  	
-	name="Alan" 
+188945 = {
+	name="Alan"
 	dynasty=123 # de Menteith
 	religion="catholic"
 	culture="scottish"
@@ -9160,8 +9223,8 @@
 		death = yes
 	}
 }
-188946 = {  	
-	name="Murdoch" 
+188946 = {
+	name="Murdoch"
 	dynasty=123 # de Menteith
 	religion="catholic"
 	culture="scottish"
@@ -9174,7 +9237,7 @@
 		death = yes
 	}
 }
-188947 = {  	
+188947 = {
 	name="Maud" # or Matilda
 	female=yes
 	dynasty=9101 # of Strathearn
@@ -9188,7 +9251,7 @@
 		death = yes
 	}
 }
-188948 = {  	
+188948 = {
 	name="Mary" # the II
 	female=yes
 	dynasty=123 # de Menteith
@@ -9202,7 +9265,7 @@
 		death = yes
 	}
 }
-188949 = {  	
+188949 = {
 	name="Margaret"
 	female=yes
 	dynasty=214013 # Graham
@@ -9217,7 +9280,7 @@
 		death = yes
 	}
 }
-188950 = {  	
+188950 = {
 	name="John"
 	dynasty=214013 # Graham
 	religion="catholic"
@@ -9232,7 +9295,7 @@
 		death = yes
 	}
 }
-188951 = {  	
+188951 = {
 	name="Andrew"
 	dynasty=101601 # Crawford
 	religion="catholic"
@@ -9245,8 +9308,8 @@
 		death = yes
 	}
 }
-188952 = {  	
-	name="Susanna" 
+188952 = {
+	name="Susanna"
 	female = yes
 	dynasty=101601 # Crawford
 	religion="catholic"
@@ -9259,7 +9322,7 @@
 		death = yes
 	}
 }
-188953 = {  	
+188953 = {
 	name="Alan" # the II
 	dynasty=123 # de Menteith
 	religion="catholic"
@@ -9272,7 +9335,7 @@
 		death = yes
 	}
 }
-188954 = {  	
+188954 = {
 	name="Reginald"
 	dynasty=101601 # Crawford
 	religion="catholic"
@@ -9285,7 +9348,7 @@
 		death = yes
 	}
 }
-188955 = {  	
+188955 = {
 	name="Hugh" # Sheriff of Ayr
 	dynasty=101601 # Crawford
 	religion="catholic"
@@ -9298,7 +9361,7 @@
 		death = yes
 	}
 }
-188956 = {  	
+188956 = {
 	name="Margaret"
 	female=yes
 	dynasty=101601 # Crawford
@@ -9312,7 +9375,7 @@
 		death = yes
 	}
 }
-188957 = {  	
+188957 = {
 	name="Alan"
 	dynasty=3133 # Wallace
 	religion="catholic"
@@ -9327,7 +9390,7 @@
 		death = yes
 	}
 }
-188958 = {  	
+188958 = {
 	name="William"
 	dynasty=3133 # Wallace
 	religion="catholic"
@@ -9346,7 +9409,7 @@
 		death = yes
 	}
 }
-188959 = {  	
+188959 = {
 	name="Malcolm"
 	dynasty=3133 # Wallace
 	religion="catholic"
@@ -9360,7 +9423,7 @@
 		death = yes
 	}
 }
-188960 = {  	
+188960 = {
 	name="John"
 	dynasty=3133 # Wallace
 	religion="catholic"
@@ -9374,7 +9437,7 @@
 		death = yes
 	}
 }
-188961 = {  	
+188961 = {
 	name="Hugh" # Sheriff of Ayr
 	dynasty=101601 # Crawford
 	religion="catholic"
@@ -9388,7 +9451,7 @@
 		death = yes
 	}
 }
-188962 = {  	
+188962 = {
 	name="Reginald" # Sheriff of Ayr
 	dynasty=101601 # Crawford
 	religion="catholic"
@@ -9404,8 +9467,8 @@
 		death = yes
 	}
 }
-188963 = {  	
-	name="Margaret" 
+188963 = {
+	name="Margaret"
 	female=yes
 	dynasty=214014 # de Loudoun
 	religion="catholic"
@@ -9418,7 +9481,7 @@
 		death = yes
 	}
 }
-188964 = {  	
+188964 = {
 	name="Gaulterus"
 	dynasty=101601 # Crawford
 	religion="catholic"
@@ -9430,8 +9493,8 @@
 		death = yes
 	}
 }
-188965 = {  	
-	name="James" 
+188965 = {
+	name="James"
 	dynasty=214014 # de Loudoun
 	religion="catholic"
 	culture="scottish"
@@ -9443,8 +9506,8 @@
 		death = yes
 	}
 }
-188966 = {  	
-	name="Lambinus" 
+188966 = {
+	name="Lambinus"
 	dynasty=214014 # de Loudoun
 	religion="catholic"
 	culture="scottish"

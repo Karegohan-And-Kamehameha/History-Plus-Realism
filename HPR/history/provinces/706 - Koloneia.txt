@@ -15,16 +15,16 @@ culture = greek
 religion = paulician
 
 # History
-890.8.26 = { 
-	religion = orthodox 
+890.8.26 = {
+	religion = chalcedonian
 }
-1025.1.1 = { 
+1025.1.1 = {
 	culture = armenian
-	religion = miaphysite 
+	religion = miaphysite
 }
-1095.8.26 = { 
+1095.8.26 = {
 	culture = kurdish
-	religion = sunni 
+	religion = sunni
 }
 1190.1.1 = { culture = turkmen }
 1256.1.1 = { culture = turkish }

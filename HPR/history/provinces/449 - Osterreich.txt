@@ -6,7 +6,7 @@ title = c_osterreich
 # Settlements
 max_settlements = 6
 
-b_pochlarn = castle #(Pöchlarn; old capital of the East March) 
+b_pochlarn = castle #(Pöchlarn; old capital of the East March)
 b_wien = city
 b_melk = temple
 b_raabs = castle
@@ -22,9 +22,12 @@ b_raabs = castle
 
 # Misc
 culture = bavarian
-religion = catholic
+religion = chalcedonian
 
 # History
-1114.1.1 = { b_klosterneuburg = temple } 
+1054.1.1 = {
+	religion = catholic
+}
+1114.1.1 = { b_klosterneuburg = temple }
 1159.1.1 = { b_stpolten = city }
 1170.1.1 = { culture = german }

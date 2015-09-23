@@ -9,7 +9,7 @@ max_settlements = 5
 b_ilchester = castle
 b_taunton = city
 b_wells = temple # seat of the bishop to 1088, then moved to Bath abbey(but he was still bishop of Wells and abbot of Bath).
-b_bath = temple 
+b_bath = temple
 #b_somerton = city
 #b_bridgewater = = city
 #b_bruton = temple
@@ -23,10 +23,12 @@ b_bath = temple
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1100.11.11 = { culture = english }
 
 

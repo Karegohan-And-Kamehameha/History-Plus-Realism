@@ -14,10 +14,12 @@ b_baris = castle
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 1175.1.1 = { b_sublaion = castle }
 1180.1.1 = { remove_settlement = b_sublaion }
 1185.1.1 = { culture = turkmen }

@@ -17,9 +17,12 @@ b_strassburg = temple
 
 # Misc
 culture = swabian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }
 
 

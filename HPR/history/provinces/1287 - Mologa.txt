@@ -19,9 +19,12 @@ religion = finnish_pagan
 # History
 1015.1.1 = {
 	culture = russian
-	religion = orthodox
+	religion = chalcedonian
 }
 1015.1.1 = {
 b_mologa = castle
 b_vesyegonsk = city
+}
+1054.1.1 = {
+	religion = orthodox
 }

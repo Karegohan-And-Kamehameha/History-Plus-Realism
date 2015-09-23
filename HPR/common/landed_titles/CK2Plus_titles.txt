@@ -14,10 +14,9 @@
 e_karling = {
 	color = { 250 250 250 }
 	color2 = { 0 0 0 }
-	capital = 90 # Julich (Aachen)
 	culture = frankish
 	dynasty_title_names = no
-	religion = catholic
+	creation_requires_capital = no
 	short_name = yes
 
 	allow = {
@@ -32,6 +31,7 @@ e_karling = {
 			text = catholic_group_christian
 			hidden_tooltip = {
 				OR = {
+					religion = chalcedonian
 					religion = catholic
 					religion = cathar
 					religion = fraticelli
@@ -44,10 +44,6 @@ e_karling = {
 		OR = {
 			FROM = { has_holder = yes }
 			FROM = { is_titular = no }
-			ROOT = {
-				realm_size = 150
-				dynasty = 25061
-			}
 		}
 	}
 }
@@ -1372,7 +1368,6 @@ d_apostolic = {
 
 	title = "CATHOLICOS"
 	foa = "POPE_FOA"
-	location_ruler_title = yes
 
 	allow = {
 		always = no
@@ -3123,8 +3118,6 @@ d_baltic_transport_convoy = {
 		}
 	}
 
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -3163,8 +3156,6 @@ d_baltic_transport_fleet = {
 		}
 	}
 
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -3201,6 +3192,7 @@ d_band_of_the_broken_arrow = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 			religion = orthodox
+			rightful_religious_head_scope = { trait = greek_rites }
 			religion = monophysite
 		}
 	}
@@ -3240,11 +3232,9 @@ d_band_of_the_burning_sun = {
 		OR = {
 			religion = orthodox
 			religion = monophysite
+			rightful_religious_head_scope = { trait = greek_rites }
 		}
 	}
-
-	# Parent Religion
-	religion = orthodox
 
 	mercenary = yes
 
@@ -3283,9 +3273,6 @@ d_black_sea_merchant_convoy = {
 		}
 	}
 
-	# Parent Religion
-	religion = orthodox
-
 	mercenary = yes
 
 	strength_growth_per_century = 0.33
@@ -3315,11 +3302,11 @@ d_black_sea_band = {
 
 	# Hire Trigger
 	allow = {
-		religion = orthodox
+		OR = {
+			religion = orthodox
+			rightful_religious_head_scope = { trait = greek_rites }
+		}
 	}
-
-	# Parent Religion
-	religion = orthodox
 
 	mercenary = yes
 
@@ -3356,9 +3343,6 @@ d_brotherhood_of_the_shield = {
 			religion_group = jewish_group
 		}
 	}
-
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -3432,11 +3416,9 @@ d_dutch_legion = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
+		year = 1066
 	}
-
-	# Parent Religion
 	culture = dutch
-	religion = catholic
 
 	mercenary = yes
 
@@ -3659,9 +3641,6 @@ d_genovese_crossbow_contingent = {
 		}
 	}
 
-	# Parent Religion
-	religion = catholic
-
 	mercenary = yes
 
 	strength_growth_per_century = 0.33
@@ -3698,9 +3677,6 @@ d_genovese_transport_convoy = {
 			religion_group = muslim
 		}
 	}
-
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -3739,9 +3715,6 @@ d_genovese_transport_fleet = {
 		}
 	}
 
-	# Parent Religion
-	religion = catholic
-
 	mercenary = yes
 
 	strength_growth_per_century = 0.33
@@ -3776,9 +3749,6 @@ d_german_band = {
 			religion = german_pagan
 		}
 	}
-
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -3816,7 +3786,7 @@ d_ghanaian_band = {
 	}
 
 	# Parent Religion
-	religion = pagan
+	religion = west_african_pagan
 
 	mercenary = yes
 
@@ -3854,7 +3824,7 @@ d_ghanaian_company = {
 	}
 
 	# Parent Religion
-	religion = pagan
+	religion = west_african_pagan
 
 	mercenary = yes
 
@@ -3894,9 +3864,6 @@ d_greenshield_sellswords = {
 		}
 	}
 
-	# Parent Religion
-	religion = catholic
-
 	mercenary = yes
 
 	strength_growth_per_century = 0.33
@@ -3935,9 +3902,6 @@ d_guilded_daggers = {
 		}
 	}
 
-	# Parent Religion
-	religion = orthodox
-
 	mercenary = yes
 
 	strength_growth_per_century = 0.33
@@ -3971,11 +3935,9 @@ d_honorable_exiles = {
 			religion_group = pagan_group
 			religion_group = jewish_group
 			religion = orthodox
+			rightful_religious_head_scope = { trait = greek_rites }
 		}
 	}
-
-	# Parent Religion
-	religion = orthodox
 
 	mercenary = yes
 
@@ -4011,9 +3973,6 @@ d_humble_hedge_knights = {
 			religion_group = pagan_group
 		}
 	}
-
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -4087,9 +4046,6 @@ d_iberian_legion = {
 
 	dignity = 10
 
-	# Parent Religion
-	religion = catholic
-
 	title = "CONDOTTIERO"
 	foa = "CONDOTTIERO_FOA"
 
@@ -4118,9 +4074,6 @@ d_legendary_longbowmen = {
 			religion = celtic_pagan
 		}
 	}
-
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -4152,9 +4105,6 @@ d_legion_of_the_black_sea = {
 	allow = { # Hire Trigger
 		religion_group = christian
 	}
-
-	# Parent Religion
-	religion = orthodox
 
 	mercenary = yes
 
@@ -4188,11 +4138,9 @@ d_legion_of_the_burning_sun = {
 		OR = {
 			religion = orthodox
 			religion = monophysite
+			rightful_religious_head_scope = { trait = greek_rites }
 		}
 	}
-
-	# Parent Religion
-	religion = orthodox
 
 	mercenary = yes
 
@@ -4265,9 +4213,6 @@ d_lost_company = {
 			religion_group = jewish_group
 		}
 	}
-
-	# Parent Religion
-	religion = orthodox
 
 	mercenary = yes
 
@@ -4359,38 +4304,6 @@ d_nubian_company = {
 	mercenary_type = nubian_company_composition
 }
 
-d_papal_knights = {
-	color = { 130 173 70 }
-	color2 = { 255 255 255 }
-
-	capital = 333 # Rome
-
-	allow = {
-		has_landed_title = k_papal_state
-	}
-
-	culture = frankish
-	religion = catholic
-
-	mercenary = yes
-
-	title = "GRANDMASTER"
-	foa = "GRANDMASTER_FOA"
-
-	# Always exists
-	landless = yes
-
-	# Cannot be held as a secondary title
-	primary = yes
-
-	# Cannot be vassalized
-	independent = yes
-
-	strength_growth_per_century = 1.00
-
-	mercenary_type = papal_knights_composition
-}
-
 d_roaming_regiment = {
 	color = { 80 80 160 }
 	color2 = { 255 255 255 }
@@ -4406,9 +4319,6 @@ d_roaming_regiment = {
 			religion_group = muslim
 		}
 	}
-
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -4480,9 +4390,6 @@ d_rus_legion = {
 			religion_group = jewish_group
 		}
 	}
-
-	# Parent Religion
-	religion = orthodox
 
 	mercenary = yes
 
@@ -4631,9 +4538,6 @@ d_sons_of_ireland = {
 		}
 	}
 
-	# Parent Religion
-	religion = catholic
-
 	mercenary = yes
 
 	strength_growth_per_century = 0.33
@@ -4740,9 +4644,6 @@ d_venetian_transport_convoy = {
 		}
 	}
 
-	# Parent Religion
-	religion = catholic
-
 	mercenary = yes
 
 	strength_growth_per_century = 0.33
@@ -4781,9 +4682,6 @@ d_venetian_transport_fleet = {
 		}
 	}
 
-	# Parent Religion
-	religion = catholic
-
 	mercenary = yes
 
 	strength_growth_per_century = 0.33
@@ -4819,9 +4717,6 @@ d_ventura_company = {
 			religion_group = jewish_group
 		}
 	}
-
-	# Parent Religion
-	religion = catholic
 
 	mercenary = yes
 
@@ -5347,7 +5242,7 @@ d_pentarch_rome = {
 	color2 = { 220 220 0 }
 
 	capital = 333 # Rome
-	culture = italian
+	culture = roman
 
 	title_prefix = "PAPACY_OF"
 	title = "POPE"
@@ -5380,6 +5275,15 @@ d_pentarch_constantinople = {
 	pentarchy = yes
 
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	# Regnal names
+	male_names = {
+		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos
+		Eustathios Eustratios Euthymios Gabriel Gennadios Georgios Gerasimos Germanos Gregorios Ieremias
+		Ignatios Ioakeim Ioannes Ioseph Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon
+		Leontios Loukas Makarios Manuel Markos Matthaios Maximos Meletios Methodios Metrophanes Michael
+		Neophytos Nephon Nikephoros Niketas Nikolaos Pavlos Petros Photios Polykarpos Sergios Stephanos
+		Sophronios Theodoros Theodosios Theodotos Theophylaktos Thomas Timotheos
+	}
 }
 
 d_pentarch_alexandria = {
@@ -7256,7 +7160,10 @@ k_thessalonika = {
 			FROM = { is_titular = no }
 			ROOT = {
 				lower_tier_than = king
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = chalcedonian
+				}
 			}
 		}
 	}
@@ -7736,4 +7643,42 @@ d_raguse = {
 		war = no
 		is_republic = yes
 	}
+}
+
+### SPECIAL
+d_papal_knights = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 333 # Rome
+
+	allow = {
+		OR = {
+			has_landed_title = k_papal_state
+			AND = {
+				has_landed_title = d_pentarch_rome
+				k_papal_state = { has_holder = no }
+			}
+		}
+	}
+
+	culture = frankish
+
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Cannot be vassalized
+	independent = yes
+
+	strength_growth_per_century = 1.00
+
+	mercenary_type = papal_knights_composition
 }

@@ -18,10 +18,12 @@ culture = romanian
 religion = tengri_pagan
 
 # History
-900.1.1 = { religion = orthodox }
-1320.1.1 = { 
+900.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = orthodox
+}
+1320.1.1 = {
 b_roman = temple
 b_bacau = city
 b_neamt = castle }
 
- 

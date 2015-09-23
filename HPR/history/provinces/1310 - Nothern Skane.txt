@@ -19,12 +19,15 @@ terrain = hills
 1000.1.1 = {
 b_krapperup = castle
 b_helsingborg= city
-} 
-1005.1.1 = { religion = catholic } 
-1047.10.25 = { culture = danish } 
+}
+1005.1.1 = { religion = chalcedonian }
+1047.10.25 = { culture = danish }
+1054.1.1 = {
+	religion = catholic
+}
 1066.1.1 = {
 	b_krapperup = ca_keep_1
 	b_krapperup = ca_militia_barracks_1
-	b_krapperup = ca_wall_1   
+	b_krapperup = ca_wall_1
 }
-1250.1.1 = { b_tomarp = castle } 
+1250.1.1 = { b_tomarp = castle }

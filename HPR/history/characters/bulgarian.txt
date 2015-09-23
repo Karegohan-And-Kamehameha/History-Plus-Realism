@@ -5,12 +5,15 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=5
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="underhanded_rogue"
 	father=20486
 	1036.1.1={
 		birth="1036.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1093.1.1={
 		death="1093.1.1"
@@ -24,7 +27,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=6
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="craven"
 	trait="deceitful"
@@ -33,6 +36,9 @@
 	father=722
 	1012.1.1={
 		birth="1012.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1060.1.1={
 		death="1060.1.1"
@@ -83,7 +89,7 @@
 }
 
 217500 = {
-	name="Ivan" #Ivan I 
+	name="Ivan" #Ivan I
 	dynasty=185
 	martial=7
 	diplomacy=5
@@ -99,8 +105,8 @@
 	1160.1.1={
 		birth="1160.1.1"
 	}
-	
-	
+
+
 	1196.1.1={
 		death="1196.1.1"
 	}
@@ -149,8 +155,8 @@
 		add_claim = c_philippopolis
 		add_claim = c_adrianopolis
 		add_claim = c_thrake
-	} 
-	
+	}
+
 	1207.10.1={
 		death="1207.10.1"
 	}
@@ -322,7 +328,7 @@
 	culture="bulgarian"
 	trait="bastard"
 	father=31160
-	
+
 	1220.1.1={
 		birth="1220.1.1"
 	}
@@ -426,7 +432,7 @@
 }
 
 31169 = {
-	name="Aleksandr" 
+	name="Aleksandr"
 	# AKA: Aleksii
 	dynasty=185
 	religion="orthodox"
@@ -503,7 +509,7 @@
 }
 
 31185 = {
-	name="Micho" 
+	name="Micho"
 	dynasty=7202
 	religion="orthodox"
 	culture="bulgarian"
@@ -519,7 +525,7 @@
 }
 
 31186 = {
-	name="Tihomir" 
+	name="Tihomir"
 	dynasty=7203
 	religion="orthodox"
 	culture="bulgarian"
@@ -532,7 +538,7 @@
 }
 
 31187 = {
-	name="Konstandin" 
+	name="Konstandin"
 	dynasty=7203
 	religion="orthodox"
 	culture="bulgarian"
@@ -552,7 +558,7 @@
 }
 
 31188 = {
-	name="Mihail" 
+	name="Mihail"
 	dynasty=7203
 	religion="orthodox"
 	culture="bulgarian"
@@ -628,7 +634,7 @@
 	#married Efrosina ??
 	1320.1.1={
 		add_spouse=465515
-	} 
+	}
 	1322.1.1={
 		death="1322.1.1"
 	}
@@ -756,7 +762,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	father=728
 	982.1.2={
@@ -775,7 +781,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=6
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	father=720
 	980.1.1={
@@ -794,12 +800,15 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=6
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="thrifty_clerk"
 	father=730
 	999.1.1={
 		birth="999.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1060.1.1={
 		death="1060.1.1"
@@ -827,7 +836,7 @@
 	1275.1.1={
 		add_spouse=465526
 	}
-	
+
 	1303.1.1={
 		death="1303.1.1"
 	}
@@ -1144,10 +1153,10 @@
 	}
 	1324.1.1={
 	remove_spouse=468511
-	}	
+	}
 	1325.1.1={
 		add_spouse=465515
-	} 
+	}
 	1330.7.28={
 		death="1330.7.28"
 	}
@@ -1464,7 +1473,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=7
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="diligent"
 	trait="content"
@@ -1485,7 +1494,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="ambitious"
 	trait="proud"
@@ -1519,7 +1528,7 @@
 		add_spouse=168075
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	907.5.2={
 		death="907.5.2"
@@ -1544,10 +1553,10 @@
 		birth="845.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	889.1.1={
-		religion="tengri_pagan"	
+		religion="tengri_pagan"
 	}
 	893.1.1={
 		death="893.1.1"
@@ -1583,13 +1592,13 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=6
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="greedy"
 	trait="bastard"
 	trait="underhanded_rogue"
 	father=70382
-	
+
 	920.1.1={
 		birth="920.1.1"
 	}
@@ -1605,7 +1614,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=6
-	religion="tengri_pagan"	
+	religion="tengri_pagan"
 	culture="bulgarian"
 	trait="deceitful"
 	trait="kind"
@@ -1618,7 +1627,7 @@
 		birth="850.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	927.5.27={
 		death="927.5.27"
@@ -1632,7 +1641,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=5
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="wroth"
 	trait="patient"
@@ -1654,7 +1663,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=8
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="deceitful"
 	trait="amateurish_plotter"
@@ -1674,7 +1683,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=6
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="celibate"
 	trait="gluttonous"
@@ -1695,7 +1704,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=8
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="chaste"
 	trait="hunchback"
@@ -1717,7 +1726,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=6
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="zealous"
 	trait="tough_soldier"
@@ -1737,7 +1746,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=4
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="gluttonous"
 	trait="honest"
@@ -1745,6 +1754,9 @@
 	father=722
 	1010.1.1={
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1071.8.26={
 		death="1071.8.26"
@@ -1758,13 +1770,16 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="ill"
 	trait="tough_soldier"
 	father=724
 	1031.1.1={
 		birth="1031.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1066.1.1={
 		employer=724
@@ -1782,13 +1797,16 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=8
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="just"
 	trait="flamboyant_schemer"
 	father=724
 	1032.1.1={
 		birth="1032.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1065.1.1={
 		death="1065.1.1"
@@ -1802,7 +1820,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="diligent"
 	trait="wroth"
@@ -1810,6 +1828,9 @@
 	father=722
 	1013.1.1={
 		birth="1013.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1066.5.19={
 		death="1066.5.19"
@@ -1824,13 +1845,16 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=7
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="diligent"
 	trait="naive_appeaser"
 	father=726
 	1043.1.2={
 		birth="1043.1.2"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1118.1.1={
 		death="1118.1.1"
@@ -1844,7 +1868,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=8
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="just"
 	trait="skilled_tactician"
@@ -1865,12 +1889,15 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="scholarly_theologian"
 	father=722
 	1015.1.1={
 		birth="1015.1.1"
+	}
+	1054.1.1 = {
+		religion = "orthodox"
 	}
 	1061.1.1={
 		death="1061.1.1"
@@ -1885,7 +1912,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=6
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="brave"
 	trait="wroth"
@@ -1913,7 +1940,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	trait="cynical"
 	trait="proud"
@@ -1932,11 +1959,14 @@
 	name="Georgi"
 	dynasty=25200
 	trait="ambitious"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	1035.1.1={
 		birth="1035.1.1"
-	}	
+	}
+	1054.1.1 = {
+		religion = "orthodox"
+	}
 	1078.1.1={
 		death="1078.1.1"
 	}
@@ -1989,7 +2019,7 @@
 		birth="847.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	896.1.1={
 		death="896.1.1"
@@ -2007,7 +2037,7 @@
 		birth="848.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	896.1.1={
 		death="896.1.1"
@@ -2026,7 +2056,7 @@
 		birth="842.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	899.1.1={
 		death="899.1.1"
@@ -2044,7 +2074,7 @@
 		birth="827.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	877.1.1={
 		death="877.1.1"
@@ -2063,7 +2093,7 @@
 		birth="829.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	879.1.1={
 		death="879.1.1"
@@ -2073,7 +2103,7 @@
 168075 = {
 	name="Marija"
 	female=yes
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	825.1.1={
 		birth="825.1.1"
@@ -2094,7 +2124,7 @@
 		birth="835.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	885.1.1={
 		death="885.1.1"
@@ -2115,7 +2145,7 @@
 		birth="855.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	899.1.1={
 		death="899.1.1"
@@ -2134,7 +2164,7 @@
 		birth="852.1.1"
 	}
 	864.1.1={
-		religion="orthodox"
+		religion = "chalcedonian"
 	}
 	896.1.1={
 		death="896.1.1"
@@ -2198,7 +2228,7 @@
 	name="Zalan"
 	dynasty=9584
 	trait="intricate_webweaver"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	845.1.1 = {
 		birth="845.1.1"
@@ -2212,7 +2242,7 @@
 	name="Petar"
 	dynasty=9585
 	trait="charismatic_negotiator"
-	religion="orthodox"
+	religion = "chalcedonian"
 	culture="bulgarian"
 	850.1.1 = {
 		birth="850.1.1"

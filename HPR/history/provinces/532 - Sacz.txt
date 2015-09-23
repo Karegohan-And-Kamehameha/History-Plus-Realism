@@ -19,7 +19,10 @@ culture = polish
 religion = slavic_pagan
 
 # History
-999.7.1 = { religion = catholic 
+999.7.1 = { religion = chalcedonian
 b_sacz = castle
 b_biecz = castle}
+1054.1.1 = {
+	religion = catholic
+}
 1234.1.1 = { b_szczyrzycz = temple }

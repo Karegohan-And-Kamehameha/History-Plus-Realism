@@ -5,7 +5,7 @@ title = c_rosello
 
 # Settlements
 max_settlements = 4
-b_castellrossello = castle 
+b_castellrossello = castle
 b_elna = temple
 b_perpinya = city
 #b_cerdanya = castle
@@ -16,11 +16,14 @@ b_perpinya = city
 #b_cuixa = temple
 
 #Misc
-religion = catholic
+religion = chalcedonian
 culture = catalan
 
 # History
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_castellrossello = ca_keep_1
 	b_castellrossello = ca_wall_1
 	b_castellrossello = ca_stable_1

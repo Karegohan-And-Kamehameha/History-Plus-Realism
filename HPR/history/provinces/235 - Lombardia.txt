@@ -33,9 +33,12 @@ b_abbaziadichiaravalle = temple
 
 # Misc
 culture = italian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1193.12.25 = { capital = b_milano }
 1240.1.1 = { capital = b_lodi }
 1240.1.1 = { b_trezzosulladda = castle }

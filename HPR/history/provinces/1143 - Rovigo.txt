@@ -23,9 +23,12 @@ b_adria = temple
 
 # Misc
 culture = venetian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1115.7.24 = { capital = b_rovigo }
 1196.1.1 = { capital = b_este }
 1310.1.1 = { capital = b_adria }

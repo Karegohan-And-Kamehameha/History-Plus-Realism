@@ -14,11 +14,13 @@ b_iruna_de_oca = temple
 
 # Misc
 culture = basque
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_santa_cruz_de_campezo = ca_keep_1
 	b_santa_cruz_de_campezo = ca_wall_1
 }

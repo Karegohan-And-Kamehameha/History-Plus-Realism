@@ -9,7 +9,7 @@
 1000167060 = {
 	name="Gonario"
 	dynasty=1000064005 #di Torres
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sardinian"
 	1000.1.1 = {
 		birth="1000.1.1"
@@ -22,11 +22,14 @@
 1000167061 = {
 	name="Comita"
 	dynasty=1000064005 #di Torres
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sardinian"
 	father=1000167060
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death="1060.1.1"
@@ -36,11 +39,14 @@
 1000167062 = {
 	name="Barisone"
 	dynasty=1000064005 #di Torres
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sardinian"
 	father=1000167061
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1073.1.1 = {
 		death="1073.1.1"
@@ -50,11 +56,14 @@
 1000167063 = {
 	name="Andrew Tanca"
 	dynasty=1000064005 #di Torres
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sardinian"
 	father=1000167062
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1073.1.1 = {
 		death="1073.1.1"
@@ -195,7 +204,7 @@
 1000167073 = {
 	name="Manfredo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sardinian"
 	1000.1.1 = {
 		birth="1000.1.1"
@@ -208,11 +217,14 @@
 1000167074 = {
 	name="Ubaldo"
 	dynasty=13031
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sardinian"
 	father=1000167073
 	1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1065.1.1 = {
 		death="1065.1.1"
@@ -222,11 +234,14 @@
 1000167075 = {
 	name="Constantino"
 	dynasty=13031 #della Gherardesca
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sardinian"
 	father=1000167073
 	1030.1.1 = {
 		birth="1030.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.1.1 = {
 		death="1086.1.1"
@@ -236,11 +251,14 @@
 1000167076 = {
 	name="Saltaro"
 	dynasty=13031 #della Gherardesca
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="sardinian"
 	father=1000167075
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1086.1.1 = {
 		death="1086.1.1"

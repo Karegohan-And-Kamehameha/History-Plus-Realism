@@ -19,7 +19,7 @@ b_castrojanni = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = hills
 
 # History

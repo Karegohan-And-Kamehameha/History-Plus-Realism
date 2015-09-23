@@ -25,7 +25,10 @@ religion = slavic_pagan
 	b_meissen = temple
 }
 929.1.1 = { culture = thuringian }
-929.1.1 = { religion = catholic }
+929.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }
 # silver mines of Freiberg founded in 1186 (not listed)
 1186.1.1 = { b_radeburg = city }

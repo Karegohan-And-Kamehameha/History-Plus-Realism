@@ -7,17 +7,20 @@ title = c_sponheim
 max_settlements = 4
 b_sponheim = castle
 b_starkenburg = castle
-#b_alteburg= castle  
+#b_alteburg= castle
 #b_rheinfels = castle
 #b_enkirch = temple
-#b_grevenburg = castle  
+#b_grevenburg = castle
 
-b_kreuznach = city  
+b_kreuznach = city
 
 
 # Misc
 culture = franconian
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }

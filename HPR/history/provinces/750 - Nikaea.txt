@@ -16,10 +16,12 @@ b_leukai = castle
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 
 1331.1.1 = { culture = turkish }
 1331.1.1 = { religion = sunni }

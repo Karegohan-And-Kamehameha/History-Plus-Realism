@@ -17,9 +17,11 @@ b_zobor = temple
 
 # Misc
 culture = moravian
-religion = catholic
+religion = chalcedonian
 
 # History
 895.1.1 = { culture = khazar }
-1000.1.1 = { religion = catholic }
 1041.1.1 = { culture = moravian }
+1054.1.1 = {
+	religion = catholic
+}

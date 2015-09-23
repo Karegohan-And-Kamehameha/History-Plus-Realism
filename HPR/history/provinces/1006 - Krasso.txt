@@ -10,7 +10,10 @@ b_krasso = tribal
 
 # Misc
 culture = romanian
-religion = orthodox
+religion = chalcedonian
 
 # History
 985.1.1 = { b_krasso = castle }
+1054.1.1 = {
+	religion = orthodox
+}

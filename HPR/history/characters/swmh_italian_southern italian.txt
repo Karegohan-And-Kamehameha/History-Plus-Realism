@@ -10,7 +10,7 @@
 #
 ####################################################################
 
-#Pietro was a very importan man under Federico II rule, he was the great marshall of Sicily and tutor of Corrado, later he set himself against Manfredi and was assassinated  
+#Pietro was a very importan man under Federico II rule, he was the great marshall of Sicily and tutor of Corrado, later he set himself against Manfredi and was assassinated
 1000091142 = {
 	name="Pietro"
 	dynasty=1000035431 #id taken from our southern dynasties#
@@ -29,7 +29,7 @@
 		death="1257.1.1"
 	}
 }
-#Giordano was nephew of Pietro, they died in the same year as they revolted against Manfredi of Sicily, Manfredi punished Giordano by bliding him# 
+#Giordano was nephew of Pietro, they died in the same year as they revolted against Manfredi of Sicily, Manfredi punished Giordano by bliding him#
 1000091143 = {
 	name="Giordano"
 	dynasty=1000035431 #id taken from our southern dynasties#
@@ -76,7 +76,7 @@
 
 ##############################################################
 #
-# D'amico family, they originate from a Norman count 
+# D'amico family, they originate from a Norman count
 #
 ##############################################################
 
@@ -88,18 +88,21 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	add_trait="skilled_tactician"
 	add_trait="proud"
         1000.1.1 = {
 		birth="1000.1.1"
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1090.1.1 = {
 		death="1090.1.1"
 	}
 }
-#Pietro, son of Amico, count of Trani# 
+#Pietro, son of Amico, count of Trani#
 1000091146 = {
 	name="Pietro"
 	dynasty=1000035433 #id taken from our southern dynasties#
@@ -107,13 +110,16 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	add_trait="skilled_tactician"
 	add_trait="proud"
 	father=1000091145
         1020.1.1 = {
 		birth="1020.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1064.1.1 = {
 		death="1064.1.1"
@@ -127,13 +133,16 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	add_trait="skilled_tactician"
 	add_trait="proud"
 	father=1000091145
         1022.1.1 = {
 		birth="1022.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1060.1.1 = {
 		death="1060.1.1"
@@ -147,13 +156,16 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	add_trait="skilled_tactician"
 	add_trait="proud"
 	father=1000091146
         1040.1.1 = {
 		birth="1040.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1068.1.1 = {
 		death="1068.1.1"
@@ -220,14 +232,14 @@
 }
 #########################################################
 #
-# Dé Monti family id 1000035434, they were important in the later CK2 period, better keep them as casual characters 
+# Dé Monti family id 1000035434, they were important in the later CK2 period, better keep them as casual characters
 #
 #########################################################
 
 #########################################################
 #
 # Ligorio family id 1000035435, it's impossible to find reliable sources for this family apart for names
-#  
+#
 #########################################################
 
 #########################################################
@@ -241,7 +253,7 @@
 # Paladini family id 1000035437, they came in Apulia maybe from France
 #
 #########################################################
-#Roberto Paladini, the founder of this family, unknown origins, unknown birth and death, no heirs known, nothing at all 
+#Roberto Paladini, the founder of this family, unknown origins, unknown birth and death, no heirs known, nothing at all
 1000091152 = {
 	name="Roberto"
 	dynasty=1000035437 #id taken from our list#
@@ -279,12 +291,15 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	add_trait="skilled_tactician"
 	add_trait="proud"
 	1000.1.1 = {
 		birth="1000.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1070.1.1 = {
 		death="1070.1.1"
@@ -298,12 +313,15 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	add_trait="skilled_tactician"
 	add_trait="proud"
 	1005.1.1 = {
 		birth="1005.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.1.1 = {
 		death="1075.1.1"
@@ -317,13 +335,16 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	add_trait="skilled_tactician"
 	add_trait="proud"
 	father=1000091155
 	1025.1.1 = {
 		birth="1025.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1090.1.1 = {
 		death="1090.1.1"
@@ -337,12 +358,15 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="norman"
 	add_trait="skilled_tactician"
 	add_trait="proud"
 	1050.1.1 = {
 		birth="1050.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1120.1.1 = {
 		death="1120.1.1"
@@ -359,7 +383,7 @@
 # Pignatelli family id 1000035441, was an important family in a time after CK2
 #
 #########################################################
-#Lucio, the first Pignatelli known to history, no dates, no heirs known, nothing 
+#Lucio, the first Pignatelli known to history, no dates, no heirs known, nothing
 1000091153 = {
 	name="Lucio"
 	dynasty=1000035439 #id taken from our list#
@@ -378,7 +402,7 @@
 		death="1127.1.1"
 	}
 }
-#Rodolfo, maybe the son of Lucio? 
+#Rodolfo, maybe the son of Lucio?
 1000091154 = {
 	name="Rodolfo"
 	dynasty=1000035439 #id taken from our list#
@@ -411,7 +435,7 @@
 	diplomacy=7
 	intrigue=14
 	stewardship=8
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="southern_italian"
 	add_trait="charismatic_negotiator"
 	830.1.1 = {
@@ -429,7 +453,7 @@
 	diplomacy=6
 	intrigue=9
 	stewardship=14
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=1000226700
 	850.1.1 = {
@@ -443,7 +467,7 @@
 1000226702 = {
 	name="Docibilis"
 	dynasty=12244
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="southern_italian"
 	add_trait="charismatic_negotiator"
 	add_trait="proud"
@@ -459,7 +483,7 @@
 1000226703 = {
 	name="Rodolfo"
 	dynasty=12244
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="southern_italian"
 	father=1000226702
 	900.1.1 = {

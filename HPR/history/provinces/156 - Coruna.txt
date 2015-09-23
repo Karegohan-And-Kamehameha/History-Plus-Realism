@@ -12,11 +12,13 @@ b_cambre = temple
 
 # Misc
 culture = galician
-religion = catholic
+religion = chalcedonian
 
 # History
-
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_corunya = ca_town_1
 	b_corunya = ca_keep_1
 	b_corunya = ca_stable_1

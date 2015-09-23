@@ -23,10 +23,13 @@ b_saissac = castle
 
 
 #Misc
-religion = catholic
+religion = chalcedonian
 culture = occitan
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1150.1.1 = { religion = cathar }
 1187.1.1 = { b_lastours = castle }
 1244.3.16 = { religion = catholic}

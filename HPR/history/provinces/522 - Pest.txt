@@ -18,7 +18,10 @@ b_bakonybel = temple
 
 # Misc
 culture = moravian
-religion = catholic 
+religion = chalcedonian
 
 # History
 950.1.1 = { culture = hungarian }
+1054.1.1 = {
+	religion = catholic
+}

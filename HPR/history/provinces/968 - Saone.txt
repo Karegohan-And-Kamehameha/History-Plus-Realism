@@ -16,19 +16,21 @@ b_jabala = city
 
 # Misc
 culture = armenian
-religion = orthodox
+religion = chalcedonian
 
 # History
 
+1054.1.1 = {
+	religion = orthodox
+}
 
-
-# Mongol invasion 
+# Mongol invasion
 
 
 # Conquered by the Mamluks
 
 1268.1.1 = { culture = levantine_arabic }
-1268.1.1 = { religion = sunni } 
+1268.1.1 = { religion = sunni }
 
 
 

@@ -23,6 +23,9 @@ terrain = hills
 
 # History
 
-883.1.1 = { religion = catholic }
+883.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = catholic
+}
 #german colonists invited
 1254.1.1 = { culture = german }

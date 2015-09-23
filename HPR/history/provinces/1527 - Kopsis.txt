@@ -13,9 +13,12 @@ b_ihtiman = city
 
 # Misc
 culture = bulgarian
-religion = orthodox
+religion = chalcedonian
 
 # History
 
 875.1.1 = { religion = paulician }
+1054.1.1 = {
+	religion = orthodox
+}
 1100.1.1 = { religion = bogomilist }

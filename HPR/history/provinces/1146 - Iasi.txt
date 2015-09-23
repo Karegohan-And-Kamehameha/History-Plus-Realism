@@ -17,18 +17,17 @@ culture = russian
 religion = slavic_pagan
 
 # History
-988.1.1 = {religion = orthodox }
-1060.1.1 = { religion = tengri_pagan 
-#remove_settlement = b_orheimoldavia 
+988.1.1 = {religion = chalcedonian }
+1060.1.1 = { religion = tengri_pagan
+#remove_settlement = b_orheimoldavia
 }
 1060.1.1 = { culture = oghuz }
-1150.1.1 = {religion = orthodox 
+1150.1.1 = {religion = orthodox
 b_orheimoldavia = tribal }
 1150.1.1 = {culture = romanian }
 1320.1.1 = {b_iasimoldavia  = city
 b_orheimoldavia = castle }
 
 
- 
 
- 
+

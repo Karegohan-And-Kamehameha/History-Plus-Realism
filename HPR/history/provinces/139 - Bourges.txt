@@ -15,8 +15,10 @@ b_chateauroux = city
 #b_deols = temple
 
 #Misc
-religion = catholic
+religion = chalcedonian
 culture = frankish
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}

@@ -17,14 +17,12 @@ decisions = {
 				}
 			}
 			NOT = { has_character_flag = converted_religion }
-			NOT = {
-				AND = {
-					has_dlc = "Charlemagne"
-					has_landed_title = e_byzantium  # May instead renounce iconoclasm
-					has_landed_title = c_byzantion
-					religion = iconoclast
-					capital_scope = { religion = orthodox }
-				}
+			NAND = {
+				has_dlc = "Charlemagne"
+				has_landed_title = e_byzantium  # May instead renounce iconoclasm
+				has_landed_title = c_byzantion
+				religion = iconoclast
+				capital_scope = { religion = chalcedonian }
 			}
 		}
 		allow = {
@@ -124,7 +122,7 @@ decisions = {
 			factor = 0
 		}
 	}
-	
+
 	convert_to_roman = {
 		is_high_prio = yes
 		potential = {
@@ -227,7 +225,7 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0.2 # Slow it down a bit
 			}
@@ -292,7 +290,7 @@ decisions = {
 
 	gone_pagan_zoroastrian = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -308,6 +306,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -326,7 +325,7 @@ decisions = {
 				has_character_flag = gone_pagan
 			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -348,12 +347,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -380,10 +379,10 @@ decisions = {
 			}
 		}
 	}
-	
+
 	gone_pagan_celtic_norse = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -402,6 +401,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -420,7 +420,7 @@ decisions = {
 				has_character_flag = gone_pagan
 			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -442,12 +442,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -506,10 +506,10 @@ decisions = {
 			}
 		}
 	}
-	
+
 	gone_pagan_baltic_finnic = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -522,6 +522,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -540,7 +541,7 @@ decisions = {
 				has_character_flag = gone_pagan
 			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -562,12 +563,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }  
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -610,10 +611,10 @@ decisions = {
 			}
 		}
 	}
-	
+
 	gone_pagan_tengri = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -626,6 +627,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -642,9 +644,9 @@ decisions = {
 				has_character_modifier = voice_of_satan
 				has_character_modifier = do_not_disturb
 				has_character_flag = gone_pagan
-			}		
+			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -666,12 +668,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -706,11 +708,11 @@ decisions = {
 				}
 			}
 		}
-	}	
+	}
 
 	gone_pagan_slavic = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -724,6 +726,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -742,7 +745,7 @@ decisions = {
 				has_character_flag = gone_pagan
 			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -764,12 +767,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -799,7 +802,7 @@ decisions = {
 
 	gone_pagan_african = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -817,6 +820,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -835,7 +839,7 @@ decisions = {
 				has_character_flag = gone_pagan
 			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -857,12 +861,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }  
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-				
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -889,11 +893,11 @@ decisions = {
 					AND = {
 						any_demesne_province = {
 							OR = {
-								AND = {	
+								AND = {
 									religion = west_african_pagan
 									ROOT = { culture_group = west_african }
 								}
-								AND = {	
+								AND = {
 									religion = pagan
 									ROOT = { NOT = { culture_group = west_african } }
 								}
@@ -913,7 +917,7 @@ decisions = {
 
 	gone_pagan_egyptian = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -926,6 +930,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -942,9 +947,9 @@ decisions = {
 				has_character_modifier = voice_of_satan
 				has_character_modifier = do_not_disturb
 				has_character_flag = gone_pagan
-			}			
+			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -966,12 +971,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -998,10 +1003,10 @@ decisions = {
 			}
 		}
 	}
-	
+
 	gone_pagan_judaic = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -1011,6 +1016,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -1027,9 +1033,9 @@ decisions = {
 				has_character_modifier = voice_of_satan
 				has_character_modifier = do_not_disturb
 				has_character_flag = gone_pagan
-			}			
+			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -1051,12 +1057,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1082,11 +1088,11 @@ decisions = {
 				}
 			}
 		}
-	}	
-	
+	}
+
 	gone_pagan_hellenic = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -1103,6 +1109,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -1119,9 +1126,9 @@ decisions = {
 				has_character_modifier = voice_of_satan
 				has_character_modifier = do_not_disturb
 				has_character_flag = gone_pagan
-			}			
+			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -1143,12 +1150,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1178,7 +1185,7 @@ decisions = {
 
 	gone_pagan_zun = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				ai = yes
@@ -1191,6 +1198,7 @@ decisions = {
 			is_adult = yes
 			is_heretic = no
 			controls_religion = no
+			NOT = { rightful_religious_head = ROOT }
 			OR = {
 				is_ruler = no
 				NOT = { capital_holding = { holding_type = temple } }
@@ -1207,9 +1215,9 @@ decisions = {
 				has_character_modifier = voice_of_satan
 				has_character_modifier = do_not_disturb
 				has_character_flag = gone_pagan
-			}			
+			}
 		}
-		
+
 		allow = {
 			war = no
 			in_command = no
@@ -1231,12 +1239,12 @@ decisions = {
 				trait = incapable
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = gone_pagan
-			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE } 
+			character_event = { id = GoPagan.100 tooltip = CONSIDER_RELIGION_CHANGE }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1269,7 +1277,7 @@ targetted_decisions = {
 	attempt_conversion = {
 		filter = court
 		ai_target_filter = court
-		
+
 		from_potential = {
 			ai = yes
 			has_dlc = "Sons of Abraham"
@@ -1310,7 +1318,8 @@ targetted_decisions = {
 					personal_opinion = { who = FROM value = -25 }
 				}
 			}
-			NOT = {
+			NOR = {
+				rightful_religious_head = ROOT
 				religion = FROM
 				religion_authority = 0.8
 				is_rival = FROM

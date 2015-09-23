@@ -22,11 +22,14 @@ b_lydford = city
 
 # Misc
 culture = cornish
-religion = catholic
+religion = chalcedonian
 
 # History
 1050.1.1 = { remove_settlement = b_crediton } # bishop seat(909-1050) moved to Exeter and the town wasn't otherwise important.
 1050.1.1={ b_exeter = temple }
+1054.1.1 = {
+	religion = catholic
+}
 1068.1.1 = { remove_settlement = b_lydford } # Lydford sacked and the population moved
 1068.1.1={ b_rougemonten = castle }
 1200.1.1={ culture = english }

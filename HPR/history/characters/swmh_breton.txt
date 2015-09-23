@@ -4,10 +4,10 @@
 #Breton character Range: 1000227499 - 1000227549
 ###########
 ### Rennes
-1000227499 = { 
+1000227499 = {
 	name="Argentaela" # Name unknown, wife of Gurwant
 	dynasty=20124 # Breizh
-	religion=catholic
+	religion = "chalcedonian"
 	culture=breton
 	father=159649 #Erispoë
         female=yes

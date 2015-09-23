@@ -5,11 +5,14 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="galician"
 	trait="flamboyant_schemer"
 	1042.1.1 = {
 		birth="1042.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1083.1.6 = {
 		death="1083.1.6"

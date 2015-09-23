@@ -13,7 +13,7 @@ b_peel = temple
 
 # Misc
 culture = irish
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
@@ -21,7 +21,10 @@ terrain = hills
 	b_rushen = ca_shipyard_1
 }
 1047.10.25 = { culture = norsegaelic }
-1066.1.1 = { 
+1054.1.1 = {
+	religion = catholic
+}
+1066.1.1 = {
 	b_rushen = ca_keep_1
 	b_rushen = ca_training_grounds_1
 	b_rushen = ca_stable_1

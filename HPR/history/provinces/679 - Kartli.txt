@@ -12,11 +12,14 @@ b_svetitskhoveli = temple
 #b_mtskheta = castle
 #b_sioni = temple
 #b_bebristsikhe = castle
-#b_gori = castle 
+#b_gori = castle
 
 # Misc
 culture = georgian
-religion = orthodox
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = orthodox
+}
 1187.1.1 = { b_gori = castle }

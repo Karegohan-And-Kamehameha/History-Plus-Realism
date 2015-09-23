@@ -16,8 +16,11 @@ b_roth = city
 
 # Misc
 culture = franconian
-religion = catholic
+religion = chalcedonian
 
 # History
 ## Nuremburg was a Kaiserburg, inofficial capital
+1054.1.1 = {
+	religion = catholic
+}
 1170.1.1 = { culture = german }

@@ -20,7 +20,10 @@ b_puglianello = castle
 
 # Misc
 culture = langobardisch
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1118.1.1={ culture = southern_italian }

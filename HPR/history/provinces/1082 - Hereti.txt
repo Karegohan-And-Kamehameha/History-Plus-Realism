@@ -22,5 +22,8 @@ religion = miaphysite
 
 950.1.1 = {
 	culture = georgian
+	religion = chalcedonian
+}
+1054.1.1 = {
 	religion = orthodox
 }

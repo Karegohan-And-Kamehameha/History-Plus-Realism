@@ -16,10 +16,12 @@ b_wurzburg = temple
 
 # Misc
 culture = franconian
-religion = catholic
+religion = chalcedonian
 
 # History
-
+1054.1.1 = {
+	religion = catholic
+}
 1168.1.1 = {
 	capital = b_wurzburg
 }

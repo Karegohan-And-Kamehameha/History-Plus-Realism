@@ -20,11 +20,13 @@ b_catanzaro = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = hills
 
 # History
-
+1054.1.1 = {
+	religion = orthodox
+}
 1085.1.1={ culture = sicilian }
 1085.1.1={ religion = catholic }
 

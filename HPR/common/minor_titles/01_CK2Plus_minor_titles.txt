@@ -298,46 +298,6 @@ title_shapsheraz = {
 
 ### CELTIC TITLES
 
-title_court_druid = {
-	dignity = 0.2
-	grant_limit = 1
-	opinion_effect = 15
-
-	monthly_salary = 0.05
-	monthly_prestige = 0.01
-	monthly_piety = 0.01
-	
-	is_unique = yes
-	is_high_prio = yes
-	
-	allowed_to_hold = {
-		is_adult = yes		
-		is_ruler = no
-		OR = {
-			trait = druid
-			trait = bad_druid
-		}
-		OR = {
-			religion = celtic_pagan
-			religion = celtic_pagan_reformed
-		}		
-	}
-	
-	allowed_to_grant = {
-		OR = {
-			religion = celtic_pagan
-			religion = celtic_pagan_reformed
-		}
-	}
-	
-	gain_effect = {	
-	}
-	lose_effect = {	
-	}
-
-	message = yes
-}
-
 title_uchelwr = {
 	dignity = 0.075
 	grant_limit = 4
@@ -349,25 +309,19 @@ title_uchelwr = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-		is_adult = yes
-		tooltip = {
-			OR = {
-				is_female = no
-				can_hold_title = job_marshal
-			}
-		}
-		hidden_tooltip = {
-			OR = {
-				is_female = no
-				is_decision_allowed = check_marshal
-			}
-		}
+		tooltip = { can_hold_title = job_marshal }
+		hidden_tooltip = { is_decision_allowed = check_marshal }
 	}
 	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
+		}
+		OR = {
+			culture = welsh
+			culture = breton
+			culture = cornish
 		}
 		OR = {
 			religion = celtic_pagan
@@ -394,25 +348,19 @@ title_laoch = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-		is_adult = yes
-		tooltip = {
-			OR = {
-				is_female = no
-				can_hold_title = job_marshal
-			}
-		}
-		hidden_tooltip = {
-			OR = {
-				is_female = no
-				is_decision_allowed = check_marshal
-			}
-		}
+		tooltip = { can_hold_title = job_marshal }
+		hidden_tooltip = { is_decision_allowed = check_marshal }
 	}
 	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
+		}
+		NOR = {
+			culture = welsh
+			culture = breton
+			culture = cornish
 		}
 		OR = {
 			religion = celtic_pagan
@@ -451,6 +399,10 @@ title_royal_champion = {
 			trait = head3
 			trait = head4
 			trait = head5
+			trait = skilled_warrior
+			trait = skilled_tactician
+			trait = master_warrior
+			trait = brilliant_strategist
 		}
 	}
 	
@@ -534,8 +486,15 @@ title_court_bard = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-		is_adult = yes		
-		trait = poet
+		is_adult = yes
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+		OR = {
+			trait = poet
+			trait = gregarious
+		}
 	}
 	
 	allowed_to_grant = {
@@ -571,19 +530,8 @@ title_censor = {
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes
-		tooltip = {
-			OR = {
-				is_female = no
-				can_hold_title = job_treasurer
-			}
-		}
-		hidden_tooltip = {
-			OR = {
-				is_female = no
-				is_decision_allowed = check_treasurer
-			}
-		}
+		tooltip = { can_hold_title = job_treasurer }
+		hidden_tooltip = { is_decision_allowed = check_treasurer }
 		religion = hellenic_pagan
 	}
 	
@@ -619,19 +567,8 @@ title_aedile = {
 	is_unique = yes
 
 	allowed_to_hold = {
-		is_adult = yes
-		tooltip = {
-			OR = {
-				is_female = no
-				can_hold_title = job_treasurer
-			}
-		}
-		hidden_tooltip = {
-			OR = {
-				is_female = no
-				is_decision_allowed = check_treasurer
-			}
-		}
+		tooltip = { can_hold_title = job_treasurer }
+		hidden_tooltip = { is_decision_allowed = check_treasurer }
 		religion = hellenic_pagan
 	}
 	
@@ -664,7 +601,6 @@ title_magister_equitum = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-		is_adult = yes
 		tooltip = { can_hold_title = job_marshal }
 		hidden_tooltip = { is_decision_allowed = check_marshal }
 		OR = {

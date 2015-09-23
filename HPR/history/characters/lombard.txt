@@ -2,7 +2,7 @@
 190122 = {
 	name="Audoin"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	519.1.1={
 		birth = yes
@@ -18,7 +18,7 @@
 	name="Rodelinda"
 	female=yes
 	dynasty=1044032 #Theoderingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	520.1.1={
 		birth = yes
@@ -30,7 +30,7 @@
 190124 = {
 	name="Alboin"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190122
 	mother=190123
@@ -44,7 +44,7 @@
 190125 = {
 	name="Grasulf"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190122
 	mother=190123
@@ -58,7 +58,7 @@
 190126 = {
 	name="Gisulf"#duke of Friuli
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190125
 	559.1.1={
@@ -71,7 +71,7 @@
 190127 = {
 	name="Zotto" #duke of Benevento
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190125
 	560.1.1={
@@ -87,7 +87,7 @@
 190128 = {
 	name="Gisulf" #II duke of Friuli
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190126
 	578.1.1={
@@ -103,7 +103,7 @@
 190244 = {
 	name="Taso" #duke of Friuli
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190128
 	mother=190129
@@ -117,7 +117,7 @@
 190245 = {
 	name="Cacco"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190128
 	mother=190129
@@ -131,7 +131,7 @@
 190130 = {
 	name="Radoald"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190128
 	mother=190129
@@ -146,7 +146,7 @@
 	name="Appa" #wife of king of Alemanni
 	female=yes
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190128
 	mother=190129
@@ -160,7 +160,7 @@
 190133 = {
 	name="Grimoald" #king of langobardischs
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190128
 	mother=190129
@@ -178,7 +178,7 @@
 	name="Theodota" #daughter of Aripert II king of langobardischs
 	female=yes
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190181
 	634.1.1={
@@ -191,7 +191,7 @@
 190135 = {
 	name="Romuald"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190133
 	mother=190134
@@ -208,7 +208,7 @@
 190136 = {
 	name="Garibald"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190133
 	mother=190134
@@ -223,7 +223,7 @@
 	name="Theodrada" #daughter of Lupus of Friuli
 	female=yes
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190248
 	653.1.1={
@@ -236,7 +236,7 @@
 190138 = {
 	name="Grimoald"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190135
 	mother=190137
@@ -253,7 +253,7 @@
 190139 = {
 	name="Gisulf"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190135
 	mother=190137
@@ -271,7 +271,7 @@
 	name="Winperga"
 	female=yes
 	dynasty=1044036 #Lampertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	670.1.1={
 		birth = yes
@@ -283,7 +283,7 @@
 190141 = {
 	name="Romuald"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190139
 	mother=190140
@@ -307,7 +307,7 @@
 	name="Gumperga" #daughter of Aurona sister of King Liutprand
 	female=yes
 	dynasty=1044037 #Giselbertling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	684.1.1={
 		birth = yes
@@ -320,7 +320,7 @@
 	name="Ranigunda" #daughter of Duke Gaiduld of Brescia
 	female=yes
 	dynasty=1044038 #Gaiduldling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	709.1.1={
 		birth = yes
@@ -332,7 +332,7 @@
 190144 = {
 	name="Gisulf"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190141
 	mother=190142
@@ -350,7 +350,7 @@
 	name="Scauniperga"
 	female=yes
 	dynasty=1044039 #Waldulfingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	701.1.1={
 		birth = yes
@@ -362,7 +362,7 @@
 190146 = {
 	name="Liutprand"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190144
 	mother=190145
@@ -376,7 +376,7 @@
 190147 = {
 	name="Arechis"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190146
 	735.1.1={
@@ -393,7 +393,7 @@
 	name="Adelperga" #Daughter of Desiderius
 	female=yes
 	dynasty=1044053 #Alachisling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190347
 	mother=190340
@@ -407,7 +407,7 @@
 190149 = {
 	name="Romoald"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190147
 	mother=190148
@@ -421,7 +421,7 @@
 190150 = {
 	name="Grimoald"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190147
 	mother=190148
@@ -439,7 +439,7 @@
 	name="Scauniperga" #fictional
 	female=yes
 	dynasty=1044041 #Romoaldingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	750.1.1={
 		birth = yes
@@ -451,7 +451,7 @@
 190152 = {
 	name="Ilderic"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190150
 	mother=190151
@@ -465,7 +465,7 @@
 190153 = {
 	name="Arechis" #duke of Benevento
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190126
 	581.1.1={
@@ -478,7 +478,7 @@
 190154 = {
 	name="Aiulf"
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190153
 	601.1.1={
@@ -491,7 +491,7 @@
 190246 = {
 	name="Grasulf" #duke of Friuli
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190126
 	579.1.1={
@@ -504,7 +504,7 @@
 190247 = {
 	name="Ago" #duke of Friuli
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190246
 	599.1.1={
@@ -517,7 +517,7 @@
 190248 = {
 	name="Lupus" #duke of Friuli
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190247
 	620.1.1={
@@ -530,7 +530,7 @@
 190249 = {
 	name="Arnefrit" #duke of Friuli
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190248
 	638.1.1={
@@ -543,7 +543,7 @@
 190250 = {
 	name="Wechtar" #duke of Friuli
 	dynasty=1044059 #Wechtaringi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	636.1.1={
 		birth = yes
@@ -555,7 +555,7 @@
 190251 = {
 	name="Landar" #duke of Friuli
 	dynasty=1044059 #Wechtaringi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190250
 	652.1.1={
@@ -568,7 +568,7 @@
 190252 = {
 	name="Rodoald" #duke of Friuli
 	dynasty=1044059 #Wechtaringi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190251
 	668.1.1={
@@ -582,7 +582,7 @@
 	name="Landeburga" #wife of Ansfrid of Friuli
 	female=yes
 	dynasty=1044059 #Wechtaringi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190251
 	669.1.1={
@@ -595,7 +595,7 @@
 190254 = {
 	name="Ado" #duke of Friuli
 	dynasty=1044059 #Wechtaringi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190251
 	678.1.1={
@@ -608,7 +608,7 @@
 190255 = {
 	name="Ansfrid" #duke of Friuli
 	dynasty=1044060 #Ansfridingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	656.1.1={
 		birth = yes
@@ -623,7 +623,7 @@
 190256 = {
 	name="Ferdulf" #duke of Friuli
 	dynasty=1044060 #Ansfridingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190255
 	mother=190253
@@ -637,7 +637,7 @@
 190257 = {
 	name="Corvulus" #duke of Friuli
 	dynasty=1044060 #Ansfridingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190256
 	701.1.1={
@@ -650,7 +650,7 @@
 190258 = {
 	name="Ferdulf"
 	dynasty=1044060 #Ansfridingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190257
 	721.1.1={
@@ -663,7 +663,7 @@
 190259 = {
 	name="Munichis"
 	dynasty=1044052 #Munichingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	701.1.1={
 		birth = yes
@@ -675,7 +675,7 @@
 190260 = {
 	name="Anselm" #duke of Friuli
 	dynasty=1044052 #Munichingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190259
 	718.1.1={
@@ -688,7 +688,7 @@
 190261 = {
 	name="Munichis"
 	dynasty=1044052 #Munichingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190259
 	719.1.1={
@@ -701,7 +701,7 @@
 190262 = {
 	name="Peter" #duke of friuli
 	dynasty=1044052 #Munichingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190261
 	735.1.1={
@@ -714,7 +714,7 @@
 190263 = {
 	name="Ursus" #count of Padua
 	dynasty=1044052 #Munichingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190261
 	737.1.1={
@@ -727,7 +727,7 @@
 190264 = {
 	name="Hrodgaud"
 	dynasty=1044052 #Munichingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190261
 	740.1.1={
@@ -741,7 +741,7 @@
 	name="Gisaltruda" #wife of Aistulf king of langobardischs
 	female=yes
 	dynasty=1044052 #Munichingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190259
 	730.1.1={
@@ -754,7 +754,7 @@
 190155 = {
 	name="Falco"
 	dynasty=1044042 #Falco
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	743.1.1={
 		birth = yes
@@ -770,7 +770,7 @@
 	name="Waldrada" #fictional
 	female=yes
 	dynasty=1044043 #Walbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	747.1.1={
 		birth = yes
@@ -782,7 +782,7 @@
 190157 = {
 	name="Grimoald" #duke of Benevento
 	dynasty=1044042 #Falco
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190155
 	mother=190156
@@ -796,7 +796,7 @@
 190158 = {
 	name="Sicard" #fictional
 	dynasty=1044044 #Sicard
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	742.1.1={
 		birth = yes
@@ -812,7 +812,7 @@
 	name="Liutberga" #fictional
 	female=yes
 	dynasty=1044085 #Liutprandling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	740.1.1={
 		birth = yes
@@ -824,7 +824,7 @@
 190160 = {
 	name="Sico" #duke of Benevento
 	dynasty=1044044 #Sicard
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190158
 	mother=190159
@@ -838,7 +838,7 @@
 190161 = {
 	name="Sicard" #duke of Benevento
 	dynasty=1044044 #Sicard
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190160
 	779.1.1={
@@ -852,7 +852,7 @@
 	name="Itta" #marries Guy I of Spoletto
 	female=yes
 	dynasty=1044044 #Sicard
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190160
 	783.1.1={
@@ -865,7 +865,7 @@
 190163 = {
 	name="Siconulf" #duke of Salerno
 	dynasty=1044044 #Sicard
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190160
 	789.1.1={
@@ -878,7 +878,7 @@
 190164 = {
 	name="Sico" #duke of Salerno
 	dynasty=1044044 #Sicard
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190160
 	813.1.1={
@@ -892,7 +892,7 @@
 	name="Masane" #marries Cleph king of langobardischs
 	female=yes
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190122
 	mother=190123
@@ -907,7 +907,7 @@
 	name="Rodelinda" #marries Zotto of Benevento
 	female=yes
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190122
 	mother=190123
@@ -921,7 +921,7 @@
 190167 = {
 	name="Beleo"
 	dynasty=1044045 #Beleo
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	507.1.1={
 		birth = yes
@@ -933,7 +933,7 @@
 190168 = {
 	name="Cleph"
 	dynasty=1044045 #Beleo
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190167
 	523.1.1={
@@ -949,7 +949,7 @@
 190169 = {
 	name="Authari"
 	dynasty=1044045 #Beleo
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190168
 	556.1.1={
@@ -968,7 +968,7 @@
 190170 = {
 	name="Agilulf"
 	dynasty=1044045 #Beleo
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190168
 	559.1.1={
@@ -985,7 +985,7 @@
 	name="Gundeberga" #wife of Arioald king of langobardischs
 	female=yes
 	dynasty=1044045 #Beleo
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190170
 	mother=190171
@@ -999,7 +999,7 @@
 190173 = {
 	name="Adaloald"
 	dynasty=1044045 #Beleo
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190170
 	mother=190171
@@ -1013,7 +1013,7 @@
 190174 = {
 	name="Arioald"
 	dynasty=1044047 #Arioaldling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	578.1.1={
 		birth = yes
@@ -1028,7 +1028,7 @@
 190175 = {
 	name="Nanding"
 	dynasty=1044048 #Harodingian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	572.1.1={
 		birth = yes
@@ -1040,7 +1040,7 @@
 190176 = {
 	name="Rothari"
 	dynasty=1044048 #Harodingian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190175
 	599.1.1={
@@ -1053,7 +1053,7 @@
 190177 = {
 	name="Rodoald"
 	dynasty=1044048 #Harodingian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190176
 	620.1.1={
@@ -1066,7 +1066,7 @@
 190181 = {
 	name="Aripert" #king of langobardischs
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190180
 	609.1.1={
@@ -1079,7 +1079,7 @@
 190182 = {
 	name="Godepert" #king of langobardischs
 	dynasty=1044046 #Bavarae
-	religion="catholic" #arian
+	religion = "chalcedonian" #arian
 	culture="langobardisch"
 	father=190181
 	629.1.1={
@@ -1092,7 +1092,7 @@
 190183 = {
 	name="Raginpert" #king of langobardischs
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190182
 	653.1.1={
@@ -1105,7 +1105,7 @@
 190184 = {
 	name="Aripert" #king of langobardischs
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190183
 	672.1.1={
@@ -1118,7 +1118,7 @@
 190185 = {
 	name="Pectarit" #king of langobardischs
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190181
 	637.1.1={
@@ -1132,7 +1132,7 @@
 	name="Rodelinda"
 	female=yes
 	dynasty=1044049 #Pandulfingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	640.1.1={
 		birth = yes
@@ -1145,7 +1145,7 @@
 	name="Wigilinda" #marries Grimoald duke of Benevento
 	female=yes
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190185
 	mother=190186
@@ -1159,7 +1159,7 @@
 190188 = {
 	name="Cunipert" #king of langobardischs
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190185
 	mother=190186
@@ -1173,7 +1173,7 @@
 190189 = {
 	name="Liutpert" #king of langobardischs
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190188
 	689.1.1={
@@ -1187,7 +1187,7 @@
 	name="Ratberg" #marries Pemmo son of Billo
 	female=yes
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190184 #Aripert II of langobardischy
 	700.1.1={
@@ -1200,7 +1200,7 @@
 190193 = {
 	name="Ansprand"
 	dynasty=1044051 #Ansprandling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	652.1.1={
 		birth = yes
@@ -1215,7 +1215,7 @@
 190194 = {
 	name="Sigibert"
 	dynasty=1044051 #Ansprandling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190193
 	mother=190192
@@ -1230,7 +1230,7 @@
 	name="Aurona"
 	female=yes
 	dynasty=1044051 #Ansprandling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190193
 	mother=190192
@@ -1244,7 +1244,7 @@
 190196 = {
 	name="Liutprand"
 	dynasty=1044051 #Ansprandling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190193
 	mother=190192
@@ -1261,7 +1261,7 @@
 190198 = {
 	name="Hildeprand"
 	dynasty=1044051 #Ansprandling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190194
 	710.1.1={
@@ -1275,7 +1275,7 @@
 	name="Tasia" #maries Ratchis king of langobardischs
 	female=yes
 	dynasty=1044051 #Ansprandling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190194
 	711.1.1={
@@ -1289,7 +1289,7 @@
 	name="Ansia" #maries Desiderius king of langobardischs
 	female=yes
 	dynasty=1044051 #Ansprandling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190194
 	712.1.1={
@@ -1302,7 +1302,7 @@
 190341 = {
 	name="Billo"
 	dynasty=1044050 #Billoingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	658.1.1={
 		birth = yes
@@ -1314,7 +1314,7 @@
 190342 = {
 	name="Pemmo"
 	dynasty=1044050 #Billoingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190341
 	687.1.1={
@@ -1330,7 +1330,7 @@
 190343 = {
 	name="Ratchis" #king of langobardischs
 	dynasty=1044050 #Billoingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190342
 	mother=190191
@@ -1347,7 +1347,7 @@
 190331 = {
 	name="Aistulf" #king of langobardischs
 	dynasty=1044050 #Billoingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190342
 	mother=190191
@@ -1365,7 +1365,7 @@
 	name="Alahis"
 	dynasty=1044053 #Alachislings
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	685.1.1={
@@ -1382,7 +1382,7 @@
 
 	father=190345
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	701.1.1={
@@ -1398,7 +1398,7 @@
 
 	father=190346
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	717.1.1={
@@ -1415,7 +1415,7 @@
 	name="Gerberga" #marries Carloman of France
 	female=yes
 	dynasty=1044053 #Alachislings
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190347
 	mother=190340
@@ -1434,7 +1434,7 @@
 	father=190347
 	mother=190340
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	747.1.1={
@@ -1448,7 +1448,7 @@
 	name="Anselperga"
 	female=yes
 	dynasty=1044053 #Alachislings
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190347
 	mother=190340
@@ -1462,7 +1462,7 @@
 190353 = {
 	name="Adelchis"
 	dynasty=1044053 #Alachislings
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190347
 	mother=190340
@@ -1476,7 +1476,7 @@
 190354 = {
 	name="Alahis" #king of langobardischs
 	dynasty=1044054 #Sicardling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	654.1.1={
 		birth = yes
@@ -1488,7 +1488,7 @@
 190265 = {
 	name="Theodicus" #duke of Spoleto
 	dynasty=1044061 #Theodingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	727.1.1={
 		birth = yes
@@ -1504,7 +1504,7 @@
 	name="Giselberga" #wife of Theodicus
 	female=yes
 	dynasty=1044062 #Giselbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	731.1.1={
 		birth = yes
@@ -1516,7 +1516,7 @@
 190267 = {
 	name="Hildeprand" #duke of Spoleto
 	dynasty=1044061 #Theodingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190265
 	mother=190266
@@ -1530,7 +1530,7 @@
 190268 = {
 	name="Ursus" #count of Bologna (Persiceta)
 	dynasty=1044063 #Ursingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	721.1.1={
 		birth = yes
@@ -1542,7 +1542,7 @@
 190269 = {
 	name="John" #count of Bologna
 	dynasty=1044063 #Ursingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190268
 	740.1.1={
@@ -1555,7 +1555,7 @@
 190270 = {
 	name="Ursus" #count of Bologna
 	dynasty=1044063 #Ursingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190269
 	760.1.1={
@@ -1568,7 +1568,7 @@
 190271 = {
 	name="Ademaro" #count of Verona
 	dynasty=1044064 #Ademingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	701.1.1={
 		birth = yes
@@ -1580,7 +1580,7 @@
 190272 = {
 	name="Ademaro" #count of Verona
 	dynasty=1044064 #Ademingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190271
 	742.1.1={
@@ -1594,7 +1594,7 @@
 	name="Brunhilda" #wife of Ursus of Bologna
 	female=yes
 	dynasty=1044064 #Ademingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190269
 	743.1.1={
@@ -1607,7 +1607,7 @@
 190274 = {
 	name="Adalbert" #count of Genoa
 	dynasty=1044065 #Adalbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	725.1.1={
 		birth = yes
@@ -1619,7 +1619,7 @@
 190275 = {
 	name="Ademaro" #count of Genoa
 	dynasty=1044065 #Adalbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190274
 	742.1.1={
@@ -1633,7 +1633,7 @@
 	name="Adalberga" #wife of Alperto of Tuscany
 	female=yes
 	dynasty=1044065 #Adalbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190274
 	744.1.1={
@@ -1646,7 +1646,7 @@
 190277 = {
 	name="Peter" #count of Corsica
 	dynasty=1044065 #Adalbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190274
 	747.1.1={
@@ -1659,7 +1659,7 @@
 190278 = {
 	name="Walperto" #duke of Tuscany
 	dynasty=1044066 #Walpertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	702.1.1={
 		birth = yes
@@ -1671,7 +1671,7 @@
 190279 = {
 	name="Alperto" #duke of Tuscany
 	dynasty=1044066 #Walpertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190278
 	722.1.1={
@@ -1687,7 +1687,7 @@
 190280 = {
 	name="Tachiperto" #duke of Tuscany
 	dynasty=1044066 #Walpertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190278
 	743.1.1={
@@ -1701,7 +1701,7 @@
 	name="Tachiperga" #wife of Teuderic count of Ravenna
 	female=yes
 	dynasty=1044066 #Walpertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190278
 	745.1.1={
@@ -1714,7 +1714,7 @@
 190282 = {
 	name="Lupo" #count of Ferrara
 	dynasty=1044066 #Walpertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190278
 	727.1.1={
@@ -1727,7 +1727,7 @@
 190283 = {
 	name="Tachiperto" #count of Ancona and Urbino
 	dynasty=1044067 #Tachipertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	721.1.1={
 		birth = yes
@@ -1739,7 +1739,7 @@
 190284 = {
 	name="Lupo" #count of Ancona
 	dynasty=1044067 #Tachipertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190283
 	741.1.1={
@@ -1752,7 +1752,7 @@
 190285 = {
 	name="Halo" #count of Urbino
 	dynasty=1044067 #Tachipertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190283
 	747.1.1={
@@ -1766,7 +1766,7 @@
 	name="Hilciperga" #wife of Hilderic of Ravenna
 	female=yes
 	dynasty=1044067 #Tachipertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190283
 	753.1.1={
@@ -1779,7 +1779,7 @@
 190287 = {
 	name="Teuderic" #count of Ravenna
 	dynasty=1044068 #Teudericingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	743.1.1={
 		birth = yes
@@ -1794,7 +1794,7 @@
 190288 = {
 	name="Hilderic" #count of Ravenna
 	dynasty=1044068 #Teudericingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190287
 	mother=190281
@@ -1811,7 +1811,7 @@
 190289 = {
 	name="Daufer" #count of Salerno
 	dynasty=1044069 #Daufingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	743.1.1={
 		birth = yes
@@ -1823,7 +1823,7 @@
 190290 = {
 	name="Rotfrit" #count of Salerno
 	dynasty=1044069 #Daufingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190289
 	776.1.1={
@@ -1836,7 +1836,7 @@
 190291 = {
 	name="Adelchis" #count of Salerno
 	dynasty=1044069 #Daufingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190290
 	796.1.1={
@@ -1850,7 +1850,7 @@
 	name="Rotfreda" #wife of Landolf I of Capua
 	female=yes
 	dynasty=1044069 #Daufingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190290
 	797.1.1={
@@ -1863,7 +1863,7 @@
 190293 = {
 	name="Potelfrit"
 	dynasty=1044069 #Daufingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190289
 	778.1.1={
@@ -1877,7 +1877,7 @@
 	name="Potelfreda" #wife of Landendolf II of Capua
 	female=yes
 	dynasty=1044069 #Daufingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190293
 	804.1.1={
@@ -1890,7 +1890,7 @@
 190295 = {
 	name="Rodoald" #count of Consenza
 	dynasty=1044070 #Rodoingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	723.1.1={
 		birth = yes
@@ -1902,7 +1902,7 @@
 190296 = {
 	name="Radulhin" #count of Consenza
 	dynasty=1044070 #Rodoingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190295
 	740.1.1={
@@ -1915,7 +1915,7 @@
 190297 = {
 	name="Ermepert" #count of Constanza
 	dynasty=1044070 #Rodoingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190295
 	743.1.1={
@@ -1929,7 +1929,7 @@
 	name="Eufemia" #wife of Roderissus of Taranto
 	female=yes
 	dynasty=1044070 #Rodoingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190295
 	742.1.1={
@@ -1942,7 +1942,7 @@
 190299 = {
 	name="Roderissus" #count of Taranto
 	dynasty=1044086 #Roderissingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	745.1.1={
 		birth = yes
@@ -1957,7 +1957,7 @@
 190300 = {
 	name="Rodegar" #count of Taranto
 	dynasty=1044086 #Roderissingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190299
 	mother=190298
@@ -1971,7 +1971,7 @@
 190301 = {
 	name="Roderissus" #count of Taranto
 	dynasty=1044086 #Roderissingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190300
 	783.1.1={
@@ -1984,7 +1984,7 @@
 190302 = {
 	name="Framicus"
 	dynasty=1044086 #Roderissingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190299
 	mother=190298
@@ -1998,7 +1998,7 @@
 190303 = {
 	name="Gandulf" #count of Bari
 	dynasty=1044071 #Gandulfingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	721.1.1={
 		birth = yes
@@ -2010,7 +2010,7 @@
 190304 = {
 	name="Daufer" #count of Bari
 	dynasty=1044071 #Gandulfingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190303
 	763.1.1={
@@ -2023,7 +2023,7 @@
 190305 = {
 	name="Rodegar" #count of Bari
 	dynasty=1044071 #Gandulfingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190304
 	789.1.1={
@@ -2037,7 +2037,7 @@
 	name="Arnegisa" #wife of Maio of Aprutium
 	female=yes
 	dynasty=1044071 #Gandulfingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190303
 	741.1.1={
@@ -2051,7 +2051,7 @@
 	name="Radegisa" #wife of Paldo of Apulia
 	female=yes
 	dynasty=1044071 #Gandulfingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190303
 	743.1.1={
@@ -2064,7 +2064,7 @@
 190308 = {
 	name="Maio" #count of Aprutium
 	dynasty=1044072 #Maioingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	742.1.1={
 		birth = yes
@@ -2079,7 +2079,7 @@
 190309 = {
 	name="Maio" #count of Aprutium
 	dynasty=1044072 #Maioingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190308
 	mother=190306
@@ -2093,7 +2093,7 @@
 190310 = {
 	name="Paldo" #count of Apulia
 	dynasty=1044073 #Paldingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	746.1.1={
 		birth = yes
@@ -2108,7 +2108,7 @@
 190311 = {
 	name="Stefano" #count of Apulia
 	dynasty=1044073 #Paldingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190310
 	mother=190307
@@ -2122,7 +2122,7 @@
 190312 = {
 	name="Varbert" #count of Mantua
 	dynasty=1044074 #Varbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	736.1.1={
 		birth = yes
@@ -2138,7 +2138,7 @@
 	name="Richildis" #wife of Varbert of Mantua
 	female=yes
 	dynasty=1044074 #Varbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	735.1.1={
 		birth = yes
@@ -2150,7 +2150,7 @@
 190314 = {
 	name="Lambert" #count of Parma
 	dynasty=1044074 #Varbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190312
 	mother=190313
@@ -2164,7 +2164,7 @@
 190315 = {
 	name="Grimauld"
 	dynasty=1044074 #Varbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190312
 	mother=190313
@@ -2179,7 +2179,7 @@
 	name="Varberga"
 	female=yes
 	dynasty=1044074 #Varbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190312
 	mother=190313
@@ -2193,7 +2193,7 @@
 190317 = {
 	name="Billo"
 	dynasty=1044074 #Varbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190312
 	mother=190313
@@ -2207,7 +2207,7 @@
 190318 = {
 	name="Drogo"
 	dynasty=1044074 #Varbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190312
 	mother=190313
@@ -2221,7 +2221,7 @@
 190319 = {
 	name="Daufer"
 	dynasty=1044074 #Varbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190312
 	mother=190313
@@ -2235,7 +2235,7 @@
 190320 = {
 	name="Paldo" #count of Milan
 	dynasty=1044075 #Paldoling
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	746.1.1={
 		birth = yes
@@ -2247,7 +2247,7 @@
 190321 = {
 	name="Tato" #count of Trent
 	dynasty=1044076 #Tatingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	746.1.1={
 		birth = yes
@@ -2259,7 +2259,7 @@
 190322 = {
 	name="Lambert" #count of Modena
 	dynasty=1044077 #Lambertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	741.1.1={
 		birth = yes
@@ -2271,7 +2271,7 @@
 190323 = {
 	name="Engelbert" #count of Treviso
 	dynasty=1044078 #Engelbertingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	742.1.1={
 		birth = yes
@@ -2283,7 +2283,7 @@
 190324 = {
 	name="Liutfred" #count of Montferrat
 	dynasty=1044079 #Liutfredingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	737.1.1={
 		birth = yes
@@ -2295,7 +2295,7 @@
 190325 = {
 	name="Gaidoald" #count of Brescia
 	dynasty=1044080 #Gaidolaldingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	740.1.1={
 		birth = yes
@@ -2307,7 +2307,7 @@
 190326 = {
 	name="Taso" #count of Sienna
 	dynasty=1044081 #Tasingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	746.1.1={
 		birth = yes
@@ -2319,7 +2319,7 @@
 190328 = {
 	name="Peter" #count of Orvieto/Orbetello
 	dynasty=1044082 #Petringi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	737.1.1={
 		birth = yes
@@ -2331,7 +2331,7 @@
 190329 = {
 	name="Faroald" #count of Piombino
 	dynasty=1044083 #Faroaldingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	751.1.1={
 		birth = yes
@@ -2343,7 +2343,7 @@
 190330 = {
 	name="Liutprand" #duke of Susa
 	dynasty=1044084 #Liutprandingi
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	740.1.1={
 		birth = yes
@@ -2355,7 +2355,7 @@
 190332 = {
 	name="Pando" #count of Capua
 	dynasty=7184 #di Capua
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	740.1.1={
 		birth = yes
@@ -2370,12 +2370,12 @@
 
 	father=145215
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	881.1.1={
 		birth = yes
-	}	
+	}
 	946.1.1={
 		death = yes
 	}
@@ -2386,12 +2386,12 @@
 
 	father=200298
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	930.1.1={
 		birth = yes
-	}	
+	}
 	977.11.1={
 		death = yes
 	}
@@ -2402,12 +2402,12 @@
 
 	father=163091
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	860.1.1={
 		birth = yes
-	}	
+	}
 	928.1.1={
 		death = yes
 	}
@@ -2418,12 +2418,12 @@
 
 	father=200300
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	885.1.1={
 		birth = yes
-	}	
+	}
 	963.3.1={
 		death = yes
 	}
@@ -2434,12 +2434,12 @@
 
 	father=200301
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	916.1.1={
 		birth = yes
-	}	
+	}
 	980.3.1={
 		death = yes
 	}
@@ -2450,12 +2450,12 @@
 
 	father=200302
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	951.1.1={
 		birth = yes
-	}	
+	}
 	1019.6.1={
 		death = yes
 	}
@@ -2466,12 +2466,15 @@
 
 	father=200303
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	990.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1072.5.1={
 		death = yes
 	}
@@ -2482,12 +2485,15 @@
 
 	father=200304
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1006.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1079.8.1={
 		death = yes
 	}
@@ -2498,12 +2504,15 @@
 
 	father=200305
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1032.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1084.1.1={
 		death = yes
 	}
@@ -2514,12 +2523,12 @@
 
 	father=145215
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	884.1.1={
 		birth = yes
-	}	
+	}
 	940.4.1={
 		death = yes
 	}
@@ -2530,12 +2539,12 @@
 
 	father=200307
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	910.1.1={
 		birth = yes
-	}	
+	}
 	974.12.1={
 		death = yes
 	}
@@ -2546,12 +2555,12 @@
 
 	father=200308
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	937.1.1={
 		birth = yes
-	}	
+	}
 	991.5.1={
 		death = yes
 	}
@@ -2562,12 +2571,12 @@
 
 	father=200309
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	966.1.1={
 		birth = yes
-	}	
+	}
 	1027.1.1={
 		death = yes
 	}
@@ -2578,12 +2587,15 @@
 
 	father=200310
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1000.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1087.1.1={
 		death = yes
 	}
@@ -2594,12 +2606,15 @@
 
 	father=200310
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1002.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.1.1={
 		death = yes
 	}
@@ -2610,12 +2625,15 @@
 
 	father=200312
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1030.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1087.1.1={
 		death = yes
 	}
@@ -2626,12 +2644,15 @@
 
 	father=200310
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1004.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.2.1={
 		death = yes
 	}
@@ -2642,12 +2663,15 @@
 
 	father=200314
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1030.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1078.2.1={
 		death = yes
 	}
@@ -2663,7 +2687,7 @@
 
 	1058.1.1={
 		birth = yes
-	}	
+	}
 	1097.8.1={
 		death = yes
 	}
@@ -2674,12 +2698,12 @@
 
 	father=200307
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	914.1.1={
 		birth = yes
-	}	
+	}
 	981.5.1={
 		death = yes
 	}
@@ -2690,12 +2714,12 @@
 
 	father=200317
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	931.1.1={
 		birth = yes
-	}	
+	}
 	991.10.1={
 		death = yes
 	}
@@ -2706,12 +2730,12 @@
 
 	father=200318
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	961.1.1={
 		birth = yes
-	}	
+	}
 	1037.8.1={
 		death = yes
 	}
@@ -2722,12 +2746,12 @@
 
 	father=200319
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	987.1.1={
 		birth = yes
-	}	
+	}
 	1044.5.1={
 		death = yes
 	}
@@ -2738,12 +2762,15 @@
 
 	father=200320
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1010.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1068.4.1={
 		death = yes
 	}
@@ -2754,12 +2781,15 @@
 
 	father=200321
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1035.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1088.1.1={
 		death = yes
 	}
@@ -2770,12 +2800,15 @@
 
 	father=200322
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1038.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1090.1.1={
 		death = yes
 	}
@@ -2787,12 +2820,15 @@
 
 	father=30856
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1031.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1094.1.1={
 		death = yes
 	}
@@ -2803,15 +2839,18 @@
 
 	father=30856
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1032.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1080.1.1={
 		add_spouse=200326
-	}	
+	}
 	1091.10.1={
 		death = yes
 	}
@@ -2825,7 +2864,7 @@
 
 	1060.1.1={
 		birth = yes
-	}	
+	}
 	1118.1.1={
 		death = yes
 	}
@@ -2841,7 +2880,7 @@
 
 	1057.1.1={
 		birth = yes
-	}	
+	}
 	1091.10.1={
 		death = yes
 	}
@@ -2857,7 +2896,7 @@
 
 	1059.1.1={
 		birth = yes
-	}	
+	}
 	1114.3.1={
 		death = yes
 	}
@@ -2868,12 +2907,15 @@
 
 	father=30856
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1033.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1091.1.1={
 		death = yes
 	}
@@ -2889,7 +2931,7 @@
 
 	1058.1.1={
 		birth = yes
-	}	
+	}
 	1124.1.1={
 		death = yes
 	}
@@ -2900,7 +2942,7 @@
 
 	father=30857
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1014.1.1={
@@ -2908,7 +2950,7 @@
 	}
 	1040.1.1={
 		add_spouse=200334
-	}	
+	}
 	1052.6.3={
 		death = yes
 	}
@@ -2920,12 +2962,15 @@
 	father=200333
 	mother=200334
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1041.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1059.1.1={
 		add_spouse=73344
 	}
@@ -2945,7 +2990,7 @@
 
 	1060.1.1={
 		birth = yes
-	}	
+	}
 	1104.1.1={
 		death = yes
 	}
@@ -2961,7 +3006,7 @@
 
 	1084.1.1={
 		birth = yes
-	}	
+	}
 	1134.5.1={
 		death = yes
 	}
@@ -2977,7 +3022,7 @@
 
 	1110.1.1={
 		birth = yes
-	}	
+	}
 	1167.1.1={
 		death = yes
 	}
@@ -2993,7 +3038,7 @@
 
 	1133.1.1={
 		birth = yes
-	}	
+	}
 	1187.1.1={
 		death = yes
 	}
@@ -3009,7 +3054,7 @@
 
 	1086.1.1={
 		birth = yes
-	}	
+	}
 	1134.5.1={
 		death = yes
 	}
@@ -3026,7 +3071,7 @@
 
 	1088.1.1={
 		birth = yes
-	}	
+	}
 	1167.1.1={
 		death = yes
 	}
@@ -3043,7 +3088,7 @@
 
 	1062.1.1={
 		birth = yes
-	}	
+	}
 	1130.1.1={
 		death = yes
 	}
@@ -3059,7 +3104,7 @@
 
 	1084.1.1={
 		birth = yes
-	}	
+	}
 	1130.1.1={
 		death = yes
 	}
@@ -3075,7 +3120,7 @@
 
 	1086.1.1={
 		birth = yes
-	}	
+	}
 	1154.10.1={
 		death = yes
 	}
@@ -3091,7 +3136,7 @@
 
 	1088.1.1={
 		birth = yes
-	}	
+	}
 	1154.10.1={
 		death = yes
 	}
@@ -3108,7 +3153,7 @@
 
 	1090.1.1={
 		birth = yes
-	}	
+	}
 	1138.1.1={
 		death = yes
 	}
@@ -3125,7 +3170,7 @@
 
 	1064.1.1={
 		birth = yes
-	}	
+	}
 	1137.12.5={
 		death = yes
 	}
@@ -3141,7 +3186,7 @@
 
 	1090.1.1={
 		birth = yes
-	}	
+	}
 	1137.12.1={
 		death = yes
 	}
@@ -3158,7 +3203,7 @@
 
 	1068.1.1={
 		birth = yes
-	}	
+	}
 	1130.1.1={
 		death = yes
 	}
@@ -3170,12 +3215,15 @@
 	father=200333
 	mother=200334
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1043.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1075.1.1={
 		add_spouse=200732
 	}
@@ -3194,7 +3242,7 @@
 
 	1066.1.1={
 		birth = yes
-	}	
+	}
 	1096.1.1={
 		death = yes
 	}
@@ -3210,7 +3258,7 @@
 
 	1068.1.1={
 		birth = yes
-	}	
+	}
 	1132.1.1={
 		death = yes
 	}
@@ -3227,7 +3275,7 @@
 
 	1076.1.1={
 		birth = yes
-	}	
+	}
 	1134.1.1={
 		death = yes
 	}
@@ -3243,7 +3291,7 @@
 
 	1097.1.1={
 		birth = yes
-	}	
+	}
 	1119.1.1={
 		add_spouse=200357
 	}
@@ -3260,7 +3308,7 @@
 
 	1100.1.1={
 		birth = yes
-	}	
+	}
 	1156.10.3={
 		death = yes
 	}
@@ -3277,7 +3325,7 @@
 
 	1120.1.1={
 		birth = yes
-	}	
+	}
 	1170.1.1={
 		death = yes
 	}
@@ -3295,7 +3343,7 @@
 
 	1078.1.1={
 		birth = yes
-	}	
+	}
 	1120.1.1={
 		death = yes
 	}
@@ -3307,15 +3355,18 @@
 	father=200333
 	mother=200334
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1045.1.1={
 		birth = yes
 	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1070.1.1={
 		add_spouse=200392
-	}	
+	}
 	1100.1.1={
 		death = yes
 	}
@@ -3332,7 +3383,7 @@
 
 	1071.1.1={
 		birth = yes
-	}	
+	}
 	1137.1.1={
 		death = yes
 	}
@@ -3350,7 +3401,7 @@
 
 	1073.1.1={
 		birth = yes
-	}	
+	}
 	1134.10.1={
 		death = yes
 	}
@@ -3362,12 +3413,15 @@
 	father=200333
 	mother=200334
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1047.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1068.7.1={
 		death = yes
 	}
@@ -3380,12 +3434,15 @@
 	father=200333
 	mother=200334
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1049.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1086.5.1={
 		death = yes
 	}
@@ -3396,12 +3453,15 @@
 
 	father=73340
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1007.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1065.1.19={
 		death = yes
 	}
@@ -3412,12 +3472,15 @@
 
 	father=200367
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1031.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1086.7.1={
 		death = yes
 	}
@@ -3433,7 +3496,7 @@
 
 	1055.1.1={
 		birth = yes
-	}	
+	}
 	1123.6.1={
 		death = yes
 	}
@@ -3449,7 +3512,7 @@
 
 	1090.1.1={
 		birth = yes
-	}	
+	}
 	1140.1.1={
 		death = yes
 	}
@@ -3466,7 +3529,7 @@
 
 	1057.1.1={
 		birth = yes
-	}	
+	}
 	1104.11.1={
 		death = yes
 	}
@@ -3483,7 +3546,7 @@
 
 	1059.1.1={
 		birth = yes
-	}	
+	}
 	1119.1.1={
 		death = yes
 	}
@@ -3494,12 +3557,15 @@
 
 	father=200367
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1050.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1070.9.1={
 		death = yes
 	}
@@ -3510,12 +3576,12 @@
 
 	father=73339
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	984.1.1={
 		birth = yes
-	}	
+	}
 	1011.1.1={
 		death = yes
 	}
@@ -3526,12 +3592,15 @@
 
 	father=200374
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1006.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1065.1.19={
 		death = yes
 	}
@@ -3542,12 +3611,15 @@
 
 	father=200375
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1031.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1116.10.1={
 		death = yes
 	}
@@ -3563,7 +3635,7 @@
 
 	1055.1.1={
 		birth = yes
-	}	
+	}
 	1116.10.1={
 		death = yes
 	}
@@ -3574,12 +3646,15 @@
 
 	father=200374
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1007.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1065.1.19={
 		death = yes
 	}
@@ -3590,12 +3665,15 @@
 
 	father=200378
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1030.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1089.12.7={
 		death = yes
 	}
@@ -3611,7 +3689,7 @@
 
 	1054.1.1={
 		birth = yes
-	}	
+	}
 	1091.9.1={
 		death = yes
 	}
@@ -3627,7 +3705,7 @@
 
 	1077.1.1={
 		birth = yes
-	}	
+	}
 	1115.1.1={
 		death = yes
 	}
@@ -3643,7 +3721,7 @@
 
 	1079.1.1={
 		birth = yes
-	}	
+	}
 	1108.9.1={
 		death = yes
 	}
@@ -3659,7 +3737,7 @@
 
 	1081.1.1={
 		birth = yes
-	}	
+	}
 	1115.1.1={
 		death = yes
 	}
@@ -3675,7 +3753,7 @@
 
 	1083.1.1={
 		birth = yes
-	}	
+	}
 	1115.1.1={
 		death = yes
 	}
@@ -3691,7 +3769,7 @@
 
 	1056.1.1={
 		birth = yes
-	}	
+	}
 	1101.8.1={
 		death = yes
 	}
@@ -3707,7 +3785,7 @@
 
 	1079.1.1={
 		birth = yes
-	}	
+	}
 	1097.9.1={
 		death = yes
 	}
@@ -3723,7 +3801,7 @@
 
 	1081.1.1={
 		birth = yes
-	}	
+	}
 	1097.1.1={
 		death = yes
 	}
@@ -3734,12 +3812,12 @@
 
 	father=73332
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	935.1.1={
 		birth = yes
-	}	
+	}
 	1002.1.1={
 		death = yes
 	}
@@ -3750,12 +3828,12 @@
 
 	father=200388
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	963.1.1={
 		birth = yes
-	}	
+	}
 	1003.3.1={
 		death = yes
 	}
@@ -3766,12 +3844,15 @@
 
 	father=200389
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	987.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1069.1.1={
 		death = yes
 	}
@@ -3782,12 +3863,15 @@
 
 	father=200390
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1018.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1083.1.1={
 		death = yes
 	}
@@ -3799,12 +3883,15 @@
 
 	father=200391
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1045.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1100.1.1={
 		death = yes
 	}
@@ -3815,12 +3902,15 @@
 
 	father=200390
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1020.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1069.1.1={
 		death = yes
 	}
@@ -3832,12 +3922,15 @@
 
 	father=200393
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1050.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1069.1.1={
 		death = yes
 	}
@@ -3846,7 +3939,7 @@
 	name="Geila" #wife of Garibald II king of Bavaria
 	female=yes
 	dynasty=1044031 #Gausian
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190128
 	mother=190129
@@ -3861,7 +3954,7 @@
 	name="Regintrude" #marries Theodo II of Bavaria
 	female=yes
 	dynasty=1044046 #Bavarae
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190182
 	657.1.1={
@@ -3875,7 +3968,7 @@
 	name="Liutperga" #marries Tassilo IV of Bavaria
 	female=yes
 	dynasty=1044053 #Alachislings
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="langobardisch"
 	father=190347
 	mother=190340
@@ -3899,7 +3992,7 @@
 
 	1081.1.1={
 		birth = yes
-	}	
+	}
 	1143.2.1={
 		death = yes
 	}
@@ -3916,7 +4009,7 @@
 
 	1066.1.1={
 		birth = yes
-	}	
+	}
 	1119.1.1={
 		death = yes
 	}
@@ -3929,12 +4022,15 @@
 	father=200333
 	mother=200334
 
-	religion=catholic
+	religion = "chalcedonian"
 	culture=langobardisch
 
 	1051.1.1={
 		birth = yes
-	}	
+	}
+	1054.1.1 = {
+		religion = "catholic"
+	}
 	1101.1.1={
 		death = yes
 	}

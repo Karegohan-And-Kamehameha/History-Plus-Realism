@@ -19,9 +19,12 @@ b_maldon = city
 
 # Misc
 culture = saxon
-religion = catholic
+religion = chalcedonian
 
 # History
+1054.1.1 = {
+	religion = catholic
+}
 1070.1.1 = { b_pleshey = castle }
 1086.1.1 = { b_hedingham = castle }
 1086.1.1 = { b_rayleigh = castle }

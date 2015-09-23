@@ -49,10 +49,24 @@ province_event = {
 		}
 
 		NOT = { religion_authority = 0.9 }
+		had_global_flag = { flag = startup days = 1095 }
 	}
 
 	mean_time_to_happen = {
 		months = 9600 # 800 years
+		modifier = {
+			factor = 1.5
+			religion = chalcedonian
+			NOT = { year = 1000 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { year = 900 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { year = 800 }
+		}
 		modifier = {
 			factor = 1.5
 			religion_authority = 0.6
@@ -228,6 +242,7 @@ character_event = {
 
 		can_change_religion = yes
 		controls_religion = no
+		NOT = { rightful_religious_head = ROOT }
 
 		NOT = { religion_authority = 0.9 }
 
@@ -432,6 +447,7 @@ character_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = orthodox
 							religion = bogomilist
 							religion = monothelite
@@ -448,6 +464,7 @@ character_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = catholic
 							religion = cathar
 							religion = fraticelli
@@ -790,6 +807,7 @@ character_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = orthodox
 							religion = bogomilist
 							religion = monothelite
@@ -806,6 +824,7 @@ character_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = catholic
 							religion = cathar
 							religion = fraticelli
@@ -1736,6 +1755,7 @@ character_event = {
 				religion_group = pagan_group
 				FROM = {
 					OR = {
+						religion = chalcedonian
 						religion = orthodox
 						religion = bogomilist
 						religion = monothelite
@@ -1750,6 +1770,7 @@ character_event = {
 				religion_group = pagan_group
 				FROM = {
 					OR = {
+						religion = chalcedonian
  						religion = catholic
 						religion = cathar
 						religion = fraticelli
@@ -2106,6 +2127,7 @@ character_event = {
 				religion_group = pagan_group
 				FROM = {
 					OR = {
+						religion = chalcedonian
 						religion = orthodox
 						religion = bogomilist
 						religion = monothelite
@@ -2120,6 +2142,7 @@ character_event = {
 				religion_group = pagan_group
 				FROM = {
 					OR = {
+						religion = chalcedonian
  						religion = catholic
 						religion = cathar
 						religion = fraticelli
@@ -2371,6 +2394,7 @@ character_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = orthodox
 							religion = bogomilist
 							religion = monothelite
@@ -2387,6 +2411,7 @@ character_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = catholic
 							religion = cathar
 							religion = fraticelli
@@ -2954,6 +2979,7 @@ letter_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = orthodox
 							religion = bogomilist
 							religion = monothelite
@@ -2970,6 +2996,7 @@ letter_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = catholic
 							religion = cathar
 							religion = fraticelli
@@ -3312,6 +3339,7 @@ letter_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = orthodox
 							religion = bogomilist
 							religion = monothelite
@@ -3328,6 +3356,7 @@ letter_event = {
 					religion_group = pagan_group
 					ROOT = {
 						OR = {
+							religion = chalcedonian
 							religion = catholic
 							religion = cathar
 							religion = fraticelli
@@ -4457,12 +4486,13 @@ province_event = {
 			top_liege = {
 				is_parent_religion = ROOT
 				controls_religion = no
+				rightful_religious_head_scope = {
+					NOT = { character = PREV }
+					war = no
+					is_alive = yes
+					wealth = 100
+				}
 			}
-		}
-
-		parent_religion_head = {
-			character = yes # There is a head of the parent religion
-			wealth = 100
 		}
 
 		NOT = { has_province_modifier = theological_dialogue }
@@ -4473,20 +4503,24 @@ province_event = {
 		months = 1200
 		modifier = {
 			factor = 3.0 # Do not spam human players with this
-			parent_religion_head = {
-				ai = no
+			owner = {
+				top_liege = {
+					rightful_religious_head_scope = {
+						ai = no
+					}
+				}
 			}
 		}
 	}
 
 	immediate = {
-		parent_religion_head = {
-			character_event = { id = SoA.4101 }
+		owner = {
+			top_liege = {
+				rightful_religious_head_scope = {
+					character_event = { id = SoA.4101 }
+				}
+			}
 		}
-	}
-
-	option = {
-		name = OK
 	}
 }
 
@@ -4748,9 +4782,13 @@ province_event = {
 
 	immediate = {
 		remove_province_modifier = promised_to_clear_out_heresy
-		religion_head = {
-			character_event = {
-				id = SoA.4122
+		owner = {
+			top_liege = {
+				rightful_religious_head_scope = {
+					character_event = {
+						id = SoA.4122
+					}
+				}
 			}
 		}
 	}

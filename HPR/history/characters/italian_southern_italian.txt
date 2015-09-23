@@ -95,7 +95,7 @@
 	}
 	1311.1.1 = {
 		add_spouse=32540
-	}	
+	}
 	1335.9.22 = {
 		death="1335.9.22"
 	}
@@ -111,7 +111,7 @@
 	1312.1.1 = {
 		birth="1312.1.1"
 	}
-	
+
 	1381.5.23 = {
 		death="1381.5.23"
 	}
@@ -126,7 +126,7 @@
 	1314.1.1 = {
 		birth="1314.1.1"
 	}
-	
+
 	1375.3.20 = {
 		death="1375.3.20"
 	}
@@ -226,7 +226,7 @@
 31402 = {
 	name="Maria" #real name unknown
 	female=yes
-	dynasty=7188 
+	dynasty=7188
 	religion="catholic"
 	culture="southern_italian"
 	father=211532
@@ -308,7 +308,7 @@
 	add_trait="diligent"
 	add_trait="content"
 	add_trait="mastermind_theologian"
-	
+
 	1200.1.1 = {
 		birth="1200.1.1"
 	}
@@ -484,7 +484,7 @@
 	add_trait="ambitious"
 	add_trait="imbecile"
 	add_trait="amateurish_plotter"
-	
+
 	1311.1.1 = {
 		birth="1311.1.1"
 	}
@@ -511,7 +511,7 @@
 #Ruffo di Calabria
 70860 = {
 	name="Claretta"
-	female=yes	
+	female=yes
 	dynasty=13077
 	religion="catholic"
 	culture="southern_italian"
@@ -519,7 +519,7 @@
 	mother=32552
 	1268.1.1 = {
 		birth="1268.1.1"
-	}	
+	}
 	1299.1.1 = {
 		death="1299.1.1"
 	}
@@ -535,7 +535,7 @@
 	}
 	1229.1.1 = {
 		add_spouse=32546
-	}	
+	}
 	1260.1.1 = {
 		death="1260.1.1"
 	}
@@ -552,7 +552,7 @@
 	}
 	1264.1.1 = {
 		add_spouse=32552
-	}	
+	}
 	1302.1.1 = {
 		death="1302.1.1"
 	}
@@ -583,7 +583,7 @@
 	}
 }
 32550 = {
-	name="Giovanni" 
+	name="Giovanni"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -621,7 +621,7 @@
 	}
 	1290.1.1 = {
 		add_spouse=32554
-	}	
+	}
 	1334.1.1 = {
 		death="1334.1.1"
 	}
@@ -644,7 +644,7 @@
 	}
 }
 32557 = {
-	name="Antonia" 
+	name="Antonia"
 	female=yes
 	dynasty=13077 #Ruffo
 	religion="catholic"
@@ -659,7 +659,7 @@
 	}
 }
 32558 = {
-	name="Antonio" 
+	name="Antonio"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -703,7 +703,7 @@
 	}
 }
 32562 = {
-	name="Fulcone" 
+	name="Fulcone"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -780,7 +780,7 @@
 	}
 }
 32568 = {
-	name="Fulcone" 
+	name="Fulcone"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -794,7 +794,7 @@
 	}
 }
 32569 = {
-	name="Ruggero" 
+	name="Ruggero"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -816,16 +816,16 @@
 	mother=32566
 	1288.1.1 = {
 		birth="1288.1.1"
-	}	
+	}
 	1318.1.1 = {
 		add_spouse=32573
-	}		
+	}
 	1331.1.1 = {
 		add_spouse=32574
 	}
-	1332.1.1 = {	
+	1332.1.1 = {
 		add_trait="kinslayer"
-	}		
+	}
 	1361.12.8 = {
 		death="1361.12.8"
 	}
@@ -847,7 +847,7 @@
 	}
 }
 32575 = {
-	name="Enrico" 
+	name="Enrico"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -876,7 +876,7 @@
 	}
 }
 32577 = {
-	name="Carlo" 
+	name="Carlo"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -890,7 +890,7 @@
 	}
 }
 32578 = {
-	name="Margherita" 
+	name="Margherita"
 	female=yes
 	dynasty=13077 #Ruffo
 	religion="catholic"
@@ -905,7 +905,7 @@
 	}
 }
 32579 = {
-	name="Luisa" 
+	name="Luisa"
 	female=yes
 	dynasty=13077 #Ruffo
 	religion="catholic"
@@ -920,7 +920,7 @@
 	}
 }
 32580 = {
-	name="Fulcone" 
+	name="Fulcone"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -934,7 +934,7 @@
 	}
 }
 32581 = {
-	name="Ruggero" 
+	name="Ruggero"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -961,7 +961,7 @@
 	}
 }
 32583 = {
-	name="Giordano" 
+	name="Giordano"
 	dynasty=13077 #Ruffo
 	religion="catholic"
 	culture="southern_italian"
@@ -1047,11 +1047,14 @@
 #bishops of benevento
 73472 = {
 	name="Ulderit"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="southern_italian"
 	add_trait=detached_priest
 	1010.1.1={
 		birth="1010.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1069.1.1={
 		death="1069.1.1"
@@ -1059,11 +1062,14 @@
 }
 73473 = {
 	name="Milone"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="southern_italian"
 	add_trait=mastermind_theologian
 	1006.1.1={
 		birth="1006.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1075.1.1={
 		death="1075.1.1"
@@ -1071,11 +1077,14 @@
 }
 73474 = {
 	name="Rofrit"
-	religion="catholic"
+	religion = "chalcedonian"
 	culture="southern_italian"
 	add_trait=detached_priest
 	1034.1.1={
 		birth="1034.1.1"
+	}
+	1054.1.1 = {
+		religion = "catholic"
 	}
 	1107.1.1={
 		death="1107.1.1"

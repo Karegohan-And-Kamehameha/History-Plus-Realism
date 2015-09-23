@@ -21,7 +21,9 @@ religion = slavic_pagan
 # History
 
 892.1.1 = { culture = bulgarian }
-900.1.1 = { religion = orthodox }
+900.1.1 = { religion = chalcedonian }
+1054.1.1 = {
+	religion = orthodox
+}
 
 
- 
