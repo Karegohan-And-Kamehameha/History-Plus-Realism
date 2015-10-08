@@ -149,9 +149,9 @@ d_erzosterreich_adj;Österreichische;Österreichische;Österreichische;;Österreichi
 k_norman_england;England;England;England;;England;;;;;;;;;x
 k_norman_england_adj;English;English;English;;English;;;;;;;;;x
 d_kryvians;Krivichi;Krivichi;Krivichi;;Krivichi;;;;;;;;;x
-d_kryvians_adj;Krivichsky;Krivichsky;Krivichsky;;Krivichsky;;;;;;;;;x
+d_kryvians_adj;Krivichi;Krivichi;Krivichi;;Krivichi;;;;;;;;;x
 d_severians;Severiane;Severiane;Severiane;;Severiane;;;;;;;;;x
-d_severians_adj;Severiansky;Severiansky;Severiansky;;Severiansky;;;;;;;;;x
+d_severians_adj;Severiane;Severiane;Severiane;;Severiane;;;;;;;;;x
 d_lendians;Ledzianie;Ledzianie;Ledzianie;;Ledzianie;;;;;;;;;x
 d_lendians_adj;Ledzianie;Ledzianie;Ledzianie;;Ledzianie;;;;;;;;;x
 k_geats;Gautaríki;Gautaríki;Gautaríki;;Gautaríki;;;;;;;;;x
@@ -366,11 +366,11 @@ e_khazaria_adj_pahlavi;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_persian;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_tajik;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_daylamite;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
-e_khazaria_adj_soghdian;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
+e_khazaria_adj_sogdian;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_khwarezmi;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_kurdish;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_khalaj;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
-e_khazaria_adj_pashtun;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
+e_khazaria_adj_afghan;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_qufs;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_baloch;Xazarí;Xazarí;Xazarí;;Xazarí;;;;;;;;;x
 e_khazaria_adj_polish;Kozaran;Kozaran;Kozaran;;Kozaran;;;;;;;;;x
@@ -397,7 +397,7 @@ e_khazaria_adj_sicilian;Cassaro;Cassaro;Cassaro;;Cassaro;;;;;;;;;x
 #;;;;;;;;;;;;;;
 d_black_caps;Karakalpaklar;Karakalpaklar;Karakalpaklar;;Karakalpaklar;;;;;;;;;x
 d_black_caps_adj;Karakalpaklan;Karakalpaklan;Karakalpaklan;;Karakalpaklan;;;;;;;;;x
-d_black_caps_adj_russian;Chyornye Klobuksky;Chyornye Klobuksky;Chyornye Klobuksky;;Chyornye Klobuksky;;;;;;;;;x
+d_black_caps_adj_russian;Chyornye Klobuki;Chyornye Klobuki;Chyornye Klobuki;;Chyornye Klobuki;;;;;;;;;x
 #;;;;;;;;;;;;;;
 k_magyar;Hét Magyar;Hét Magyar;Hét Magyar;;Hét Magyar;;;;;;;;;x
 #;;;;;;;;;;;;;;
@@ -419,11 +419,11 @@ d_mordvins_adj_pahlavi;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_persian;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_tajik;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_daylamite;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
-d_mordvins_adj_soghdian;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
+d_mordvins_adj_sogdian;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_khwarezmi;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_kurdish;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_khalaj;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
-d_mordvins_adj_pashtun;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
+d_mordvins_adj_afghan;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_qufs;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_baloch;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_bashkir;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
@@ -433,7 +433,7 @@ d_mordvins_adj_turkmen;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_oghuz;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_mongol;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_kirghiz;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
-d_mordvins_adj_uighur;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
+d_mordvins_adj_uyghur;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_cuman;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_khazar;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
 d_mordvins_adj_pecheneg;Tuqshi;Tuqshi;Tuqshi;;Tuqshi;;;;;;;;;x
@@ -509,11 +509,11 @@ d_burtas_adj_pahlavi;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_persian;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_tajik;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_daylamite;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
-d_burtas_adj_soghdian;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
+d_burtas_adj_sogdian;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_khwarezmi;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_kurdish;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_khalaj;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
-d_burtas_adj_pashtun;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
+d_burtas_adj_afghan;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_qufs;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_baloch;Burdas;Burdas;Burdas;;Burdas;;;;;;;;;x
 d_burtas_adj_bashkir;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
@@ -524,7 +524,7 @@ d_burtas_adj_turkmen;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
 d_burtas_adj_oghuz;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
 d_burtas_adj_mongol;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
 d_burtas_adj_kirghiz;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
-d_burtas_adj_uighur;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
+d_burtas_adj_uyghur;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
 d_burtas_adj_cuman;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
 d_burtas_adj_khazar;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
 d_burtas_adj_pecheneg;Bortas;Bortas;Bortas;;Bortas;;;;;;;;;x
@@ -554,7 +554,7 @@ d_mordvins_erza_adj_kasogi;Irçian;Irçi;Irçi;;Irçi;;;;;;;;;x
 d_mordvins_erza_adj_oghuz;Irçian;Irçi;Irçi;;Irçi;;;;;;;;;x
 d_mordvins_erza_adj_mongol;Ïrzäian;Ïrzä;Ïrzä;;Ïrzä;;;;;;;;;x
 d_mordvins_erza_adj_kirghiz;Ïrzäian;Ïrzä;Ïrzä;;Ïrzä;;;;;;;;;x
-d_mordvins_erza_adj_uighur;Ïrzäian;Ïrzä;Ïrzä;;Ïrzä;;;;;;;;;x
+d_mordvins_erza_adj_uyghur;Ïrzäian;Ïrzä;Ïrzä;;Ïrzä;;;;;;;;;x
 d_mordvins_erza_adj_cuman;Ïrzäian;Ïrzä;Ïrzä;;Ïrzä;;;;;;;;;x
 d_mordvins_erza_adj_pecheneg;Irçian;Irçi;Irçi;;Irçi;;;;;;;;;x
 d_mordvins_erza_adj_karluk;Ïrzäian;Ïrzä;Ïrzä;;Ïrzä;;;;;;;;;x
@@ -583,7 +583,7 @@ d_maris_vetluga_adj_turkmen;Tepe Çirmeslarian;Tepe Çirmeslar;Tepe Çirmeslar;;Tep
 d_maris_vetluga_adj_oghuz;Tepe Çirmeslarian;Tepe Çirmeslar;Tepe Çirmeslar;;Tepe Çirmeslar;;;;;;;;;x
 d_maris_vetluga_adj_mongol;Tepe Çirmeslärian;Tepe Çirmeslär;Tepe Çirmeslär;;Tepe Çirmeslär;;;;;;;;;x
 d_maris_vetluga_adj_kirghiz;Tepe Çirmeslärian;Tepe Çirmeslär;Tepe Çirmeslär;;Tepe Çirmeslär;;;;;;;;;x
-d_maris_vetluga_adj_uighur;Tepe Çirmeslärian;Tepe Çirmeslär;Tepe Çirmeslär;;Tepe Çirmeslär;;;;;;;;;x
+d_maris_vetluga_adj_uyghur;Tepe Çirmeslärian;Tepe Çirmeslär;Tepe Çirmeslär;;Tepe Çirmeslär;;;;;;;;;x
 d_maris_vetluga_adj_cuman;Tepe Çirmeslärian;Tepe Çirmeslär;Tepe Çirmeslär;;Tepe Çirmeslär;;;;;;;;;x
 d_maris_vetluga_adj_khazar;Tuçi Sarmäslärian;Tuçi Sarmäslar;Tuçi Sarmäslar;;Tuçi Sarmäslar;;;;;;;;;x
 d_maris_vetluga_adj_pecheneg;Tepe Çirmeslarian;Tepe Çirmeslar;Tepe Çirmeslar;;Tepe Çirmeslar;;;;;;;;;x
@@ -610,7 +610,7 @@ d_maris_adj_turkmen;Çirmislarian;Çirmislar;Çirmislar;;Çirmislar;;;;;;;;;x
 d_maris_adj_oghuz;Çirmislarian;Çirmislar;Çirmislar;;Çirmislar;;;;;;;;;x
 d_maris_adj_mongol;Çirmeslärian;Çirmeslär;Çirmeslär;;Çirmeslär;;;;;;;;;x
 d_maris_adj_kirghiz;Çirmeslärian;Çirmeslar;Çirmeslar;;Çirmeslar;;;;;;;;;x
-d_maris_adj_uighur;Çirmeslärian;Çirmeslär;Çirmeslär;;Çirmeslär;;;;;;;;;x
+d_maris_adj_uyghur;Çirmeslärian;Çirmeslär;Çirmeslär;;Çirmeslär;;;;;;;;;x
 d_maris_adj_cuman;Çirmeslärian;Çirmeslär;Çirmeslär;;Çirmeslär;;;;;;;;;x
 d_maris_adj_khazar;Sarmäslärian;Sarmäslär;Sarmäslär;;Sarmäslär;;;;;;;;;x
 d_maris_adj_pecheneg;Çirmislarian;Çirmislar;Çirmislar;;Çirmislar;;;;;;;;;x

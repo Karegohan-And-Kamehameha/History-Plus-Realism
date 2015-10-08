@@ -74,7 +74,9 @@ From;To;Type;Through;Comment;;;;
 553;1280;major_river;1889;-1;-1;-1;-1;Lyubech-Iskorosten
 544;555;major_river;1890;-1;-1;-1;-1;Korsun-Pereyaslavl
 558;1288;major_river;1890;-1;-1;-1;-1;Lower Dneiper-Lubny
+544;1288;major_river;1890;-1;-1;-1;-1;Ros-Lubny
 563;1288;major_river;1890;-1;-1;-1;-1;Orel-Lubny
+558;557;major_river;1892;-1;-1;-1;-1;Dneiper-Lukomrie
 543;557;major_river;1892;-1;-1;-1;-1;Oleshye-Lukomrie
 412;410;major_river;1859;-1;-1;-1;-1;Torzhok-Toropets
 570;569;major_river;1859;-1;-1;-1;-1;Tver-Vyazma

@@ -158,6 +158,7 @@ narrative_event = {
 			holder_scope = {
 				random_child = {
 					limit = {
+						religion = ROOT
 						is_adult = yes
 						is_female = yes
 						is_married = no
@@ -1348,7 +1349,7 @@ character_event = {
 			}
 		}
 		NOR = {
-			has_global_flag = hre_formed
+			e_hre = { has_title_flag = hre_formed }
 			has_character_modifier = do_not_disturb
 		}
 	}
@@ -1400,7 +1401,7 @@ character_event = {
 			}
 		}
 		NOR = {
-			has_global_flag = hre_formed
+			e_hre = { has_title_flag = hre_formed }
 			has_character_modifier = do_not_disturb
 		}
 	}
@@ -2197,8 +2198,8 @@ character_event = {
 		war = no
 		higher_real_tier_than = DUKE
 		NOR = {
-			has_global_flag = hre_formed
-			has_global_flag = carolingian_empire_formed
+			e_hre = { has_title_flag = hre_formed }
+			e_karling = { has_title_flag = carolingian_empire_formed }
 			has_character_modifier = do_not_disturb
 		}
 		OR = {
@@ -2343,8 +2344,8 @@ character_event = {
 		war = no
 		higher_real_tier_than = DUKE
 		NOR = {
-			has_global_flag = hre_formed
-			has_global_flag = carolingian_empire_formed
+			e_hre = { has_title_flag = hre_formed }
+			e_karling = { has_title_flag = carolingian_empire_formed }
 			has_character_modifier = do_not_disturb
 		}
 		any_independent_ruler = {
@@ -2484,8 +2485,8 @@ character_event = {
 		war = no
 		higher_real_tier_than = DUKE
 		NOR = {
-			has_global_flag = hre_formed
-			has_global_flag = carolingian_empire_formed
+			e_hre = { has_title_flag = hre_formed }
+			e_karling = { has_title_flag = carolingian_empire_formed }
 			has_character_modifier = do_not_disturb
 		}
 		any_independent_ruler = {
@@ -2628,8 +2629,8 @@ character_event = {
 		war = no
 		higher_real_tier_than = DUKE
 		NOR = {
-			has_global_flag = hre_formed
-			has_global_flag = carolingian_empire_formed
+			e_hre = { has_title_flag = hre_formed }
+			e_karling = { has_title_flag = carolingian_empire_formed }
 			has_character_modifier = do_not_disturb
 		}
 		any_independent_ruler = {
@@ -2764,8 +2765,8 @@ character_event = {
 		higher_real_tier_than = DUKE
 		NOR = {
 			has_strong_claim = k_lombardy
-			has_global_flag = hre_formed
-			has_global_flag = carolingian_empire_formed
+			e_hre = { has_title_flag = hre_formed }
+			e_karling = { has_title_flag = carolingian_empire_formed }
 			has_character_modifier = do_not_disturb
 		}
 		OR = {
@@ -2912,8 +2913,8 @@ character_event = {
 		war = no
 		higher_real_tier_than = DUKE
 		NOR = {
-			has_global_flag = hre_formed
-			has_global_flag = carolingian_empire_formed
+			e_hre = { has_title_flag = hre_formed }
+			e_karling = { has_title_flag = carolingian_empire_formed }
 			has_character_modifier = do_not_disturb
 		}
 		any_independent_ruler = {
@@ -4543,7 +4544,7 @@ character_event = {
 		war = no
 		wealth = 0
 		higher_real_tier_than = DUKE
-		has_global_flag = carolingian_empire_fallen
+		e_karling = { has_title_flag = carolingian_empire_fallen }
 		rightful_religious_head_scope = {
 			NOT = { character = ROOT }
 			has_landed_title = k_papal_chalcedon
@@ -4555,7 +4556,7 @@ character_event = {
 		}
 		NOR = {
 			trait = content
-			has_global_flag = hre_formed
+			e_hre = { has_title_flag = hre_formed }
 			is_title_active = e_karling
 			has_character_flag = former_carolingian_emperor
 			has_character_modifier = do_not_disturb

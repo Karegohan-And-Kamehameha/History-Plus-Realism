@@ -17,7 +17,7 @@ b_varaksha = castle
 
 
 # Misc
-culture = soghdian
+culture = sogdian
 #religion = zoroastrian - for gameplay reasons switched to sunni
 religion = sunni
 terrain = steppe

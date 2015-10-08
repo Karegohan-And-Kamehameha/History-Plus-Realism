@@ -13,9 +13,9 @@ character_event = {
 	id = Plus.105
 	desc = "EVTDESC_Plus_105"
 	picture = GFX_evt_emissary
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EVTOPTA_Plus_105" #A minor estate
 		trigger = {
@@ -352,9 +352,9 @@ character_event = {
 	id = Plus.108
 	desc = "AI_EVENT"
 	picture = GFX_evt_council
-
+	
 	is_triggered_only = yes
-
+	
 	ai = yes
 	min_age = 16
 	capable_only = yes
@@ -456,9 +456,9 @@ character_event = {
 	id = Plus.109
 	desc = "EVTDESC_Plus_109"
 	picture = "GFX_evt_council"
-
+	
 	is_triggered_only = yes
-
+	
 	only_rulers = yes
 
 	trigger = {
@@ -521,7 +521,7 @@ character_event = {
 		remove_character_modifier = estates_4
 		remove_character_modifier = estates_5
 	}
-
+	
 	option = {
 		name = OK
 	}
@@ -533,7 +533,7 @@ character_event = {
 
 	hide_window = yes
 	is_triggered_only = yes
-
+	
 	trigger = {
 		ai = yes
 		is_ruler = no
@@ -580,7 +580,7 @@ character_event = {
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -715,14 +715,14 @@ character_event = {
 					OR = {
 						AND = {
 							ROOT = { liege = { has_law = agnatic_succession } }
-							is_female = no
+							is_female = no							
 						}
 						ROOT = { liege = { has_law = cognatic_succession } }
 						ROOT = { liege = { has_law = true_cognatic_succession } }
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -734,14 +734,14 @@ character_event = {
 					OR = {
 						AND = {
 							ROOT = { liege = { has_law = agnatic_succession } }
-							is_female = no
+							is_female = no							
 						}
 						ROOT = { liege = { has_law = cognatic_succession } }
 						ROOT = { liege = { has_law = true_cognatic_succession } }
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -754,20 +754,20 @@ character_event = {
 							OR = {
 								AND = {
 									ROOT = { liege = { has_law = agnatic_succession } }
-									is_female = no
+									is_female = no							
 								}
 								AND = {
 									ROOT = { liege = { has_law = cognatic_succession } }
-									is_female = no
+									is_female = no									
 								}
 								ROOT = { liege = { has_law = true_cognatic_succession } }
 								AND = {
 									ROOT = { liege = { has_law = enatic_cognatic_succession } }
-									is_female = yes
+									is_female = yes										
 								}
 								AND = {
 									ROOT = { liege = { has_law = enatic_succession } }
-									is_female = yes
+									is_female = yes							
 								}
 							}
 							NOR = {
@@ -868,14 +868,14 @@ character_event = {
 					OR = {
 						AND = {
 							ROOT = { liege = { has_law = agnatic_succession } }
-							is_female = no
+							is_female = no							
 						}
 						ROOT = { liege = { has_law = cognatic_succession } }
 						ROOT = { liege = { has_law = true_cognatic_succession } }
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -887,14 +887,14 @@ character_event = {
 					OR = {
 						AND = {
 							ROOT = { liege = { has_law = agnatic_succession } }
-							is_female = no
+							is_female = no							
 						}
 						ROOT = { liege = { has_law = cognatic_succession } }
 						ROOT = { liege = { has_law = true_cognatic_succession } }
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -907,20 +907,20 @@ character_event = {
 							OR = {
 								AND = {
 									ROOT = { liege = { has_law = agnatic_succession } }
-									is_female = no
+									is_female = no							
 								}
 								AND = {
 									ROOT = { liege = { has_law = cognatic_succession } }
-									is_female = no
+									is_female = no									
 								}
 								ROOT = { liege = { has_law = true_cognatic_succession } }
 								AND = {
 									ROOT = { liege = { has_law = enatic_cognatic_succession } }
-									is_female = yes
+									is_female = yes										
 								}
 								AND = {
 									ROOT = { liege = { has_law = enatic_succession } }
-									is_female = yes
+									is_female = yes							
 								}
 							}
 							NOR = {
@@ -1015,14 +1015,14 @@ character_event = {
 					OR = {
 						AND = {
 							ROOT = { liege = { has_law = agnatic_succession } }
-							is_female = no
+							is_female = no							
 						}
 						ROOT = { liege = { has_law = cognatic_succession } }
 						ROOT = { liege = { has_law = true_cognatic_succession } }
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -1034,14 +1034,14 @@ character_event = {
 					OR = {
 						AND = {
 							ROOT = { liege = { has_law = agnatic_succession } }
-							is_female = no
+							is_female = no							
 						}
 						ROOT = { liege = { has_law = cognatic_succession } }
 						ROOT = { liege = { has_law = true_cognatic_succession } }
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -1054,20 +1054,20 @@ character_event = {
 							OR = {
 								AND = {
 									ROOT = { liege = { has_law = agnatic_succession } }
-									is_female = no
+									is_female = no							
 								}
 								AND = {
 									ROOT = { liege = { has_law = cognatic_succession } }
-									is_female = no
+									is_female = no									
 								}
 								ROOT = { liege = { has_law = true_cognatic_succession } }
 								AND = {
 									ROOT = { liege = { has_law = enatic_cognatic_succession } }
-									is_female = yes
+									is_female = yes										
 								}
 								AND = {
 									ROOT = { liege = { has_law = enatic_succession } }
-									is_female = yes
+									is_female = yes							
 								}
 							}
 							NOR = {
@@ -1154,14 +1154,14 @@ character_event = {
 					OR = {
 						AND = {
 							ROOT = { liege = { has_law = agnatic_succession } }
-							is_female = no
+							is_female = no							
 						}
 						ROOT = { liege = { has_law = cognatic_succession } }
 						ROOT = { liege = { has_law = true_cognatic_succession } }
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -1173,14 +1173,14 @@ character_event = {
 					OR = {
 						AND = {
 							ROOT = { liege = { has_law = agnatic_succession } }
-							is_female = no
+							is_female = no							
 						}
 						ROOT = { liege = { has_law = cognatic_succession } }
 						ROOT = { liege = { has_law = true_cognatic_succession } }
 						ROOT = { liege = { has_law = enatic_cognatic_succession } }
 						AND = {
 							ROOT = { liege = { has_law = enatic_succession } }
-							is_female = yes
+							is_female = yes							
 						}
 					}
 					NOT = { trait = bastard }
@@ -1192,20 +1192,20 @@ character_event = {
 							OR = {
 								AND = {
 									ROOT = { liege = { has_law = agnatic_succession } }
-									is_female = no
+									is_female = no							
 								}
 								AND = {
 									ROOT = { liege = { has_law = cognatic_succession } }
-									is_female = no
+									is_female = no									
 								}
 								ROOT = { liege = { has_law = true_cognatic_succession } }
 								AND = {
 									ROOT = { liege = { has_law = enatic_cognatic_succession } }
-									is_female = yes
+									is_female = yes										
 								}
 								AND = {
 									ROOT = { liege = { has_law = enatic_succession } }
-									is_female = yes
+									is_female = yes							
 								}
 							}
 							is_older_than = PREV
@@ -1323,9 +1323,9 @@ character_event = {
 	id = Plus.115 #formerly 1000182425
 	desc = "EVTDESC_Plus_115"
 	picture = GFX_evt_emissary
-
+	
 	is_triggered_only = yes
-
+	
 	trigger = {
 		war = no
 		is_ruler = yes
@@ -1342,49 +1342,49 @@ character_event = {
 			}
 			any_demesne_title = {
 				location = {
-					duchy = {
-						OR = {
-							has_holder = no
-							holder_scope = {
-								religion_group = ROOT
-								OR = {
-									ROOT = { independent = yes }
-									same_realm = ROOT
-								}
-							}
-						}
-						NOR = {
-							holder_scope = {
-								OR = {
-									character = ROOT
-									is_liege_or_above = ROOT
-									is_vassal_or_below = ROOT
-								}
-							}
-							ROOT = { has_claim = PREV }
-						}
+					duchy = { 
+						OR = { 
+							has_holder = no 
+							holder_scope = { 
+								religion_group = ROOT 
+								OR = { 
+									ROOT = { independent = yes } 
+									same_realm = ROOT 
+								} 
+							} 
+						} 
+						NOR = { 
+							holder_scope = { 
+								OR = { 
+									character = ROOT 
+									is_liege_or_above = ROOT 
+									is_vassal_or_below = ROOT 
+								} 
+							} 
+							ROOT = { has_claim = PREV } 
+						} 
 					}
-					county = {
-						OR = {
-							has_holder = no
-							holder_scope = {
-								religion_group = ROOT
-								OR = {
+					county = { 
+						OR = { 
+							has_holder = no 
+							holder_scope = { 
+								religion_group = ROOT 
+								OR = { 
 									ROOT = { independent = yes }
-									same_realm = ROOT
-								}
-							}
-						}
-						NOR = {
-							holder_scope = {
-								OR = {
-									character = ROOT
-									is_liege_or_above = ROOT
-									is_vassal_or_below = ROOT
-								}
-							}
-							ROOT = { has_claim = PREV }
-						}
+									same_realm = ROOT 
+								} 
+							} 
+						} 
+						NOR = { 
+							holder_scope = { 
+								OR = { 
+									character = ROOT 
+									is_liege_or_above = ROOT 
+									is_vassal_or_below = ROOT 
+								} 
+							} 
+							ROOT = { has_claim = PREV } 
+						} 
 					}
 					any_neighbor_province = {
 						owner = {
@@ -1441,8 +1441,8 @@ character_event = {
 				tier = count
 				tier = duke
 			}
-			NOT = {
-				num_of_duke_titles = 3
+			NOT = { 
+				num_of_duke_titles = 3 
 			}
 		}
 		modifier = {
@@ -1501,49 +1501,49 @@ character_event = {
 				}
 				any_demesne_title = {
 					location = {
-						duchy = {
-							OR = {
-								has_holder = no
+						duchy = { 
+							OR = { 
+								has_holder = no 
 								holder_scope = {
-									religion_group = ROOT
-									OR = {
-										ROOT = { independent = yes }
-										same_realm = ROOT
-									}
-								}
-							}
-							NOR = {
-								holder_scope = {
-									OR = {
-										character = ROOT
-										is_liege_or_above = ROOT
-										is_vassal_or_below = ROOT
-									}
-								}
-								ROOT = { has_claim = PREV }
-							}
+									religion_group = ROOT 
+									OR = { 
+										ROOT = { independent = yes } 
+										same_realm = ROOT 
+									} 
+								} 
+							} 
+							NOR = { 
+								holder_scope = { 
+									OR = { 
+										character = ROOT 
+										is_liege_or_above = ROOT 
+										is_vassal_or_below = ROOT 
+									} 
+								} 
+								ROOT = { has_claim = PREV } 
+							} 
 						}
-						county = {
-							OR = {
-								has_holder = no
-								holder_scope = {
-									religion_group = ROOT
-									OR = {
-										ROOT = { independent = yes }
-										same_realm = ROOT
-									}
-								}
-							}
-							NOR = {
-								holder_scope = {
-									OR = {
-										character = ROOT
-										is_liege_or_above = ROOT
-										is_vassal_or_below = ROOT
-									}
-								}
-							ROOT = { has_claim = PREV }
-							}
+						county = { 
+							OR = { 
+								has_holder = no 
+								holder_scope = { 
+									religion_group = ROOT 
+									OR = { 
+										ROOT = { independent = yes } 
+										same_realm = ROOT 
+									} 
+								} 
+							} 
+							NOR = { 
+								holder_scope = { 
+									OR = { 
+										character = ROOT 
+										is_liege_or_above = ROOT 
+										is_vassal_or_below = ROOT 
+									} 
+								} 
+							ROOT = { has_claim = PREV } 
+							} 
 						}
 						any_neighbor_province = {
 							owner = {
@@ -1559,49 +1559,49 @@ character_event = {
 			random_demesne_title = {
 				limit = {
 					location = {
-						duchy = {
-							OR = {
-								has_holder = no
-								holder_scope = {
-									religion_group = ROOT
-									OR = {
-										ROOT = { independent = yes }
-										same_realm = ROOT
-									}
-								}
-							}
-							NOR = {
-								holder_scope = {
-									OR = {
-										character = ROOT
-										is_liege_or_above = ROOT
-										is_vassal_or_below = ROOT
-									}
-								}
-								ROOT = { has_claim = PREV }
-							}
+						duchy = { 
+							OR = { 
+								has_holder = no 
+								holder_scope = { 
+									religion_group = ROOT 
+									OR = { 
+										ROOT = { independent = yes } 
+										same_realm = ROOT 
+									} 
+								} 
+							} 
+							NOR = { 
+								holder_scope = { 
+									OR = { 
+										character = ROOT 
+										is_liege_or_above = ROOT 
+										is_vassal_or_below = ROOT 
+									} 
+								} 
+								ROOT = { has_claim = PREV } 
+							} 
 						}
-						county = {
-							OR = {
-								has_holder = no
-								holder_scope = {
-									religion_group = ROOT
-									OR = {
-										ROOT = { independent = yes }
-										same_realm = ROOT
-									}
-								}
-							}
-							NOR = {
-								holder_scope = {
-									OR = {
-										character = ROOT
-										is_liege_or_above = ROOT
-										is_vassal_or_below = ROOT
-									}
-								}
-								ROOT = { has_claim = PREV }
-							}
+						county = { 
+							OR = { 
+								has_holder = no 
+								holder_scope = { 
+									religion_group = ROOT 
+									OR = { 
+										ROOT = { independent = yes } 
+										same_realm = ROOT 
+									} 
+								} 
+							} 
+							NOR = { 
+								holder_scope = { 
+									OR = { 
+										character = ROOT 
+										is_liege_or_above = ROOT 
+										is_vassal_or_below = ROOT 
+									} 
+								} 
+								ROOT = { has_claim = PREV } 
+							} 
 						}
 						any_neighbor_province = {
 							owner = {
@@ -1674,9 +1674,9 @@ character_event = {
 	id = Plus.120
 	picture = "GFX_evt_recovery"
 	desc = "EVTDESC_Plus_120"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EVTOPTA_Plus_120" #Go ahead and abdicate
 		ai_chance = {
@@ -1735,7 +1735,7 @@ character_event = {
 		}
 		clr_character_flag = was_priest
 	}
-
+	
 	option = {
 		name = "EVTOPTB_Plus_120"  #Reconsider
 		clr_character_flag = considering_abdication
@@ -1750,9 +1750,9 @@ character_event = {
 	id = Plus.121
 	picture = GFX_evt_council
 	desc = "EVTDESC_Plus_121"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EVTOPTA_Plus_121"
 		opinion = {
@@ -1774,13 +1774,13 @@ character_event = {
 # Women who get sick have a chance of having fertility affected long-term
 character_event = {
 	id = Plus.125
-
+	
 	hide_window = yes
-
+	
 	min_age = 16
 	max_age = 45
 	only_women = yes
-
+	
 	trigger = {
 		OR = {
 			trait = ill
@@ -1792,7 +1792,7 @@ character_event = {
 		NOT = { has_character_modifier = barren }
 		NOT = { has_character_flag = is_barren }
 	}
-
+	
 	mean_time_to_happen = {
 		months = 600
 		modifier = {
@@ -1820,7 +1820,7 @@ character_event = {
 			age = 35
 		}
 	}
-
+	
 	immediate = {
 		random_list = {
 			30 = { }
@@ -1879,14 +1879,14 @@ character_event = {
 	id = Plus.126
 	picture = GFX_evt_recovery
 	desc = EVTDESC_Plus_126
-
+	
 	min_age = 16
 	max_age = 45
 	only_women = yes
 	prisoner = no
 	capable_only = yes
 	has_character_flag = is_barren
-
+	
 	trigger = {
 		has_character_modifier = barren
 		OR = {
@@ -1899,7 +1899,7 @@ character_event = {
 		}
 		NOT = { has_character_flag = knows_barren }
 	}
-
+	
 	mean_time_to_happen = {
 		months = 60
 		modifier = {
@@ -1937,7 +1937,7 @@ character_event = {
 	immediate = {
 		set_character_flag = knows_barren
 	}
-
+	
 	option = {
 		name = EVTOPTA_Plus_126 #I don't care about the risk
 		ai_chance = {
@@ -2131,13 +2131,13 @@ character_event = {
 	id = Plus.127
 	picture = GFX_evt_recovery
 	desc = EVTDESC_Plus_127
-
+	
 	only_men = yes
 	prisoner = no
 	capable_only = yes
 	only_rulers = yes
 	max_age = 75
-
+	
 	trigger = {
 		is_married = yes
 		fertility = 0.1
@@ -2153,7 +2153,7 @@ character_event = {
 			NOT = { has_character_flag = husband_knows_barren }
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -2191,7 +2191,7 @@ character_event = {
 			save_event_target_as = barren_wife
 		}
 	}
-
+	
 	option = {
 		name = EVTOPTA_Plus_127
 		random_spouse = {
@@ -2217,12 +2217,12 @@ character_event = {
 # Add barren modifier
 character_event = {
 	id = Plus.128
-
+	
 	hide_window = yes
-
+	
 	min_age = 16
 	has_character_flag = is_barren
-
+	
 	trigger = {
 		NOT = { has_character_modifier = barren }
 		is_pregnant = no
@@ -2231,11 +2231,11 @@ character_event = {
 			is_consort = yes
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}
-
+	
 	immediate = {
 		remove_character_modifier = infertile
 		add_character_modifier = {
@@ -2245,7 +2245,7 @@ character_event = {
 		}
 	}
 }
-
+		
 #######################################
 # VASSAL ASKS FOR KING TITLE
 # Written by Rylock
@@ -2256,12 +2256,12 @@ character_event = {
 	id = Plus.130
 	desc = EVTDESC_Plus_130
 	picture = GFX_evt_council
-
+	
 	only_playable = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-
+	
 	trigger = {
 		war = no
 		independent = no
@@ -2344,7 +2344,7 @@ character_event = {
 		}
 		NOT = { has_character_flag = demanded_king_title }
 	}
-
+	
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -2403,7 +2403,7 @@ character_event = {
 	immediate = {
 		set_character_flag = demanded_king_title
 	}
-
+	
 	option = {
 		name = EVTOPTA_Plus_130 # Make the demand
 		liege = {
@@ -2429,9 +2429,9 @@ character_event = {
 	id = Plus.131
 	desc = EVTDESC_Plus_131
 	picture = GFX_evt_emissary
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = EVTOPTA_Plus_131 # Give it to him
 		ai_chance = {
@@ -2502,13 +2502,13 @@ character_event = {
 					}
 				}
 			}
-			usurp_title_plus_barony_if_unlanded = FROM
+			grant_title = FROM
 			hidden_tooltip = {
 				remove_claim = ROOT
 				add_weak_pressed_claim = ROOT
 				if = {
-					limit = { tier = EMPEROR }
-					FROM = { set_defacto_liege = PREV }
+					limit = { ROOT = { tier = EMPEROR } }
+					FROM = { set_defacto_liege = ROOT }
 				}
 			}
 		}
@@ -2620,7 +2620,7 @@ character_event = {
 							add_claim = FROM
 						}
 					}
-					usurp_title_plus_barony_if_unlanded = PREVPREV
+					grant_title = PREVPREV
 					hidden_tooltip = {
 						remove_claim = ROOT
 						add_weak_pressed_claim = ROOT
@@ -2794,7 +2794,7 @@ character_event = {
 							add_claim = FROM
 						}
 					}
-					usurp_title_plus_barony_if_unlanded = PREVPREV
+					grant_title = PREVPREV
 					hidden_tooltip = {
 						remove_claim = ROOT
 						add_weak_pressed_claim = ROOT
@@ -2945,7 +2945,7 @@ character_event = {
 							add_claim = FROM
 						}
 					}
-					usurp_title_plus_barony_if_unlanded = PREVPREV
+					grant_title = PREVPREV
 					hidden_tooltip = {
 						remove_claim = ROOT
 						add_weak_pressed_claim = ROOT
@@ -3054,9 +3054,9 @@ character_event = {
 letter_event = {
 	id = Plus.132
 	desc = EVTDESC_Plus_132
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = EVTOPTA_Plus_132
 		opinion = {
@@ -3118,9 +3118,9 @@ letter_event = {
 letter_event = {
 	id = Plus.133
 	desc = EVTDESC_Plus_133
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = EVTOPTA_Plus_133
 		opinion = {
@@ -3142,12 +3142,12 @@ character_event = {
 	desc = EVTDESC_Plus_135
 	picture = GFX_evt_pope_feast
 	border = GFX_event_normal_frame_religion
-
+	
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-
+	
 	trigger = {
 		independent = no
 		OR = {
@@ -3174,15 +3174,15 @@ character_event = {
 			has_character_flag = took_sides_antipope
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		days = 10
 	}
-
+	
 	immediate = {
 		set_character_flag = took_sides_antipope
 	}
-
+	
 	option = {
 		name = EVTOPTA_Plus_135 # I support my liege
 		trigger = {
@@ -3476,10 +3476,10 @@ character_event = {
 # Ruler with Tanist succession dies without heir being a child
 character_event = {
 	id = Plus.136
-
+	
 	hide_window = yes
 	is_triggered_only = yes
-
+	
 	trigger = {
 		is_ruler = yes
 		num_of_children = 1
@@ -3488,7 +3488,7 @@ character_event = {
 			current_heir = { NOT = { is_child_of = ROOT } }
 		}
 	}
-
+	
 	immediate = {
 		any_demesne_title = {
 			limit = {
@@ -3571,10 +3571,10 @@ character_event = {
 # Child gets a strong claim to Tanist titles
 character_event = {
 	id = Plus.137
-
+	
 	hide_window = yes
 	is_triggered_only = yes
-
+	
 	immediate = {
 		set_character_flag = justified_claimant
 		event_target:rightful_tanist_title = { add_pressed_claim = ROOT }
@@ -3584,17 +3584,17 @@ character_event = {
 # Ruler with Feudal Elective succession dies
 character_event = {
 	id = Plus.138
-
+	
 	hide_window = yes
 	is_triggered_only = yes
-
+	
 	trigger = {
 		is_ruler = yes
 		any_demesne_title = {
 			has_law = succ_feudal_elective
 		}
 	}
-
+	
 	immediate = {
 		any_demesne_title = {
 			limit = {
@@ -3700,10 +3700,10 @@ character_event = {
 # Pretenders get a weak non-inheritable claim to Feudal Elective titles
 character_event = {
 	id = Plus.139
-
+	
 	hide_window = yes
 	is_triggered_only = yes
-
+	
 	immediate = {
 		set_character_flag = justified_claimant
 		if = {
@@ -3729,9 +3729,9 @@ character_event = {
 	id = Plus.140
 	desc = EVTDESC_Plus_140
 	picture = GFX_evt_quarrel
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = {
 			trigger = { FROMFROM = { is_female = yes } }
@@ -3769,7 +3769,7 @@ character_event = {
 	id = Plus.141
 	desc = EVTDESC_Plus_141
 	picture = GFX_evt_quarrel
-
+	
 	is_triggered_only = yes
 
 	option = {
@@ -3787,9 +3787,9 @@ character_event = {
 	id = Plus.142
 	desc = EVTDESC_Plus_142
 	picture = GFX_evt_recieve_letter
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = OK
 		hidden_tooltip = {
@@ -3821,9 +3821,9 @@ character_event = {
 	id = Plus.143
 	desc = EVTDESC_Plus_143
 	picture = GFX_evt_recieve_letter
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = OK
 		if = {
@@ -3854,9 +3854,9 @@ character_event = {
 	id = Plus.144
 	desc = EVTDESC_Plus_144
 	picture = GFX_evt_coronation
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = EVTOPTA_Plus_144
 	}
@@ -3867,9 +3867,9 @@ character_event = {
 	id = Plus.145
 	desc = EVTDESC_Plus_145
 	picture = GFX_evt_coronation
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = EVTOPTA_Plus_144
 	}
@@ -3880,9 +3880,9 @@ character_event = {
 	id = Plus.146
 	desc = EVTDESC_Plus_146
 	picture = GFX_evt_coronation
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = EVTOPTA_Plus_144
 	}
@@ -3891,7 +3891,7 @@ character_event = {
 ### Inherited kingdom is destroyed if no de jure land is controlled
 character_event = {
 	id = Plus.1750
-
+	
 	is_triggered_only = yes
 	hide_window = yes
 
@@ -3903,22 +3903,22 @@ character_event = {
 			is_landless_type_title = no
 		}
 	}
-
+	
 	immediate = {
 		character_event = { id = Plus.1751 days = 2 }
 	}
 }
-
+	
 character_event = {
 	id = Plus.1751
 	desc = EVTDESC_Plus_1751
 	title = EVTNAME_Plus_1751
 	picture = GFX_evt_coronation
 	border = GFX_event_normal_frame_religion
-
+	
 	is_triggered_only = yes
-	major = yes
-
+	major = yes	
+	
 	trigger = {
 		has_landed_title = FROMFROM
 		FROMFROM = { is_contested = no }
@@ -3939,7 +3939,7 @@ character_event = {
 			}
 		}
 	}
-
+	
 	major_trigger = {
 		OR = {
 			character = ROOT
@@ -3950,7 +3950,7 @@ character_event = {
 			NOT = { distance = { who = ROOT distance = 300 } }
 		}
 	}
-
+	
 	option = {
 		name = EVTOPTA_Plus_1751
 		log = "The [FromFrom.GetFullName] has been destroyed after being inherited by [Root.GetTitledName], who owns no land in [FromFrom.GetName]."
@@ -3962,3 +3962,18 @@ character_event = {
 		trigger = { NOT = { character = ROOT } }
 	}
 }
+
+### Warning event for ironman games
+character_event = {
+	id = Plus.1752
+	title = EVTNAME_Plus_1752
+	desc = EVTDESC_Plus_1752
+	picture = GFX_evt_book_carolingian_script
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Plus_1752
+	}
+}
+

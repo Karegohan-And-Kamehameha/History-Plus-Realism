@@ -15,7 +15,7 @@ b_kharashket = castle
 #b_tunket = temple
 
 # Misc
-culture = soghdian
+culture = sogdian
 religion = zoroastrian
 
 # History

@@ -6,7 +6,7 @@ title = c_semender
 # Settlements
 max_settlements = 5
 
-#b_semender = tribal
+b_semender = tribal
 b_balanjar = temple
 #b_buyanksk = city
 #b_enderi = castle

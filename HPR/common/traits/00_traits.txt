@@ -601,7 +601,7 @@ bastard = {
 		legit_bastard
 	}
 
-	customizer = no
+	customizer = yes
 
 	male_insult = INSULT_BASTARD
 	male_insult_adj = INSULT_BASEBORN
@@ -1364,11 +1364,11 @@ diligent = {
 	opposite_opinion = -20
 	same_opinion = 10
 
-	diplomacy = 1
-	intrigue = 1
-	stewardship = 1
-	martial = 1
-	learning = 1
+	diplomacy = 2
+	intrigue = 2
+	stewardship = 2
+	martial = 2
+	learning = 2
 
 
 	ai_zeal = 10
@@ -1622,11 +1622,11 @@ ambitious = {
 		humble
 	}
 
-	intrigue = 1
-	stewardship = 1
-	diplomacy = 1
-	martial = 1
-	learning = 1
+	intrigue = 2
+	stewardship = 2
+	diplomacy = 2
+	martial = 2
+	learning = 2
 
 	same_opinion = -10
 	ambition_opinion = -30 # Against those they want something from

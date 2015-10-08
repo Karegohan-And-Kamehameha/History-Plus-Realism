@@ -1,6 +1,6 @@
 ########################## Tajikization ##########################
 
-# Islamization of Soghdians etc.
+# Islamization of Sogdians etc.
 
 namespace = SWMH
 
@@ -8,14 +8,14 @@ character_event = {
 	id = SWMH.5
 	desc = "EVTDESCSWMH.5"
 	picture = GFX_evt_stone_church
-	
+
 	only_rulers = yes
 	only_independent = no
-	
+
 	trigger = {
 		year = 850
 		OR = {
-			culture = soghdian
+			culture = sogdian
 			culture = khwarezmi
 			culture = pahlavi
 		}
@@ -30,7 +30,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3 #900
 	}
@@ -41,7 +41,7 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				OR = {
-					culture = soghdian
+					culture = sogdian
 					culture = khwarezmi
 					culture = pahlavi
 				}
@@ -57,7 +57,7 @@ character_event = {
 	id = SWMH.6
 	desc = "EVTDESCSWMH.6"
 	picture = GFX_evt_stone_church
-	
+
 	trigger = {
 		year = 850
 		any_demesne_province = {
@@ -70,14 +70,14 @@ character_event = {
 				}
 			}
 			OR = {
-				culture = soghdian
+				culture = sogdian
 				culture = khwarezmi
 				culture = pahlavi
 			}
 			religion_group = muslim
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3  #300
 	}
@@ -87,7 +87,7 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				OR = {
-					culture = soghdian
+					culture = sogdian
 					culture = khwarezmi
 					culture = pahlavi
 				}
@@ -121,13 +121,13 @@ character_event = {
 		any_courtier = {
 			religion_group = muslim
 			OR = {
-				culture = soghdian
+				culture = sogdian
 				culture = khwarezmi
 				culture = pahlavi
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3 #300
 	}
@@ -137,7 +137,7 @@ character_event = {
 		random_courtier = {
 			limit = {
 				OR = {
-					culture = soghdian
+					culture = sogdian
 					culture = khwarezmi
 					culture = pahlavi
 				}
@@ -174,13 +174,13 @@ character_event = {
 		any_vassal = {
 			religion_group = muslim
 			OR = {
-				culture = soghdian
+				culture = sogdian
 				culture = khwarezmi
 				culture = pahlavi
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3 #300
 	}
@@ -190,7 +190,7 @@ character_event = {
 		random_vassal = {
 			limit = {
 				OR = {
-					culture = soghdian
+					culture = sogdian
 					culture = khwarezmi
 					culture = pahlavi
 				}
@@ -224,7 +224,7 @@ character_event = {
 #	id = SWMH.25
 #	desc = "EVTDESCSWMH.25"
 #	picture = GFX_evt_stone_church
-#	
+#
 #	trigger = {
 #		year = 651
 #  	religion_group = muslim
@@ -232,7 +232,7 @@ character_event = {
 #			culture = pahlavi
 #		}
 #	}
-#	
+#
 #	mean_time_to_happen = {
 #		months = 120
 #	}
@@ -255,7 +255,7 @@ character_event = {
 	id = SWMH.26
 	desc = "EVTDESCSWMH.26"
 	picture = GFX_evt_stone_church
-	
+
 	trigger = {
 		year = 651
 		any_demesne_province = {
@@ -263,7 +263,7 @@ character_event = {
 			religion_group = muslim
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
@@ -306,7 +306,7 @@ character_event = {
 			culture = pahlavi
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
@@ -352,7 +352,7 @@ character_event = {
 			culture = pahlavi
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
@@ -386,14 +386,14 @@ character_event = {
 	}
 }
 
-##################### Pashtunization of the Khalaj #####################
+##################### Afghanization of the Khalaj #####################
 
 # Islamization of the khalaj
 character_event = {
 	id = SWMH.30
 	desc = "EVTDESCSWMH.30"
 	picture = GFX_evt_stone_church
-	
+
 	trigger = {
 		year = 850
 		culture = khalaj
@@ -406,20 +406,20 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3 #900
 	}
 
 	option = {
 		name = "EVTOPTASWMH.30"
-		culture = pashtun
+		culture = afghan
 		random_demesne_province = {
 			limit = {
 				culture = khalaj
 				religion_group = muslim
 			}
-			culture = pashtun
+			culture = afghan
 		}
 	}
 }
@@ -429,7 +429,7 @@ character_event = {
 	id = SWMH.31
 	desc = "EVTDESCSWMH.31"
 	picture = GFX_evt_stone_church
-	
+
 	trigger = {
 		year = 850
 		any_demesne_province = {
@@ -443,7 +443,7 @@ character_event = {
 			religion_group = muslim
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3  #300
 	}
@@ -455,7 +455,7 @@ character_event = {
 				culture = khalaj
 				religion_group = muslim
 			}
-			culture = pashtun
+			culture = afghan
 		}
 	}
 }
@@ -468,7 +468,7 @@ character_event = {
 
 	trigger = {
 		year = 850
-		culture = pashtun
+		culture = afghan
 		independent = no
 		top_liege = {
 			primary_title = {
@@ -483,7 +483,7 @@ character_event = {
 			culture = khalaj
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3 #300
 	}
@@ -495,7 +495,7 @@ character_event = {
 				culture = khalaj
 				religion_group = muslim
 			}
-			culture = pashtun
+			culture = afghan
 			hidden_tooltip = {
 				character_event = { id = SWMH.34 days = 3 }
 			}
@@ -503,7 +503,7 @@ character_event = {
 	}
 }
 
-#Make my vassal speak Pashtun
+#Make my vassal speak Afghan
 character_event = {
 	id = SWMH.33
 	desc = "EVTDESCSWMH.33"
@@ -511,7 +511,7 @@ character_event = {
 
 	trigger = {
 		year = 850
-		culture = pashtun
+		culture = afghan
 		independent = no
 		top_liege = {
 			primary_title = {
@@ -526,7 +526,7 @@ character_event = {
 			culture = khalaj
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3 #300
 	}
@@ -538,7 +538,7 @@ character_event = {
 				culture = khalaj
 				religion_group = muslim
 			}
-			culture = pashtun
+			culture = afghan
 			hidden_tooltip = {
 				character_event = { id = SWMH.34 days = 3 }
 			}
@@ -546,7 +546,7 @@ character_event = {
 	}
 }
 
-# Let him speak Pashtun
+# Let him speak Afghan
 character_event = {
 	id = SWMH.34
 	desc = "EVTDESCSWMH.34"
@@ -556,6 +556,6 @@ character_event = {
 
 	option = {
 		name = "EVTOPTASWMH.34"
-		culture = pashtun
+		culture = afghan
 	}
 }

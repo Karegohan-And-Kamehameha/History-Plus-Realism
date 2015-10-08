@@ -20,4 +20,4 @@ religion = zun_pagan
 
 # History
 1050.1.1 = {	religion = sunni }
-1050.1.1 = {	culture = pashtun }
+1050.1.1 = {	culture = afghan }

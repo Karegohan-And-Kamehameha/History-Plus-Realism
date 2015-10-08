@@ -8,7 +8,7 @@
 #	realm_owned: all settlements in the same top realm as the AI
 #	dynasty_owned: all settlements owned by members of the same dynasty
 #	all: all settlements (Avoid if possible. VERY CPU-HEAVY!)
-#
+#	
 
 settlement_decisions = {
 
@@ -16,11 +16,11 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-
+		
 		from_potential = {
 			is_feudal = yes
 		}
-
+		
 		potential = {
 			holding_type = tribal
 			holder_scope = {
@@ -43,18 +43,18 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			hidden_tooltip = {
 				holder_scope = {
 					character_event = { id = Plus.352 days = 3 } #refill the levies
 				}
 			}
 		}
-
+		
 		revoke_allowed = {
 			always = no
 		}
-
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -64,11 +64,11 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-
+		
 		from_potential = {
 			is_republic = yes
 		}
-
+		
 		potential = {
 			holding_type = tribal
 			holder_scope = {
@@ -94,7 +94,7 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			hidden_tooltip = {
 				holder_scope = {
 					character_event = { id = Plus.352 days = 3 } #refill the levies
@@ -113,11 +113,11 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-
+		
 		from_potential = {
 			is_theocracy = yes
 		}
-
+		
 		potential = {
 			holding_type = tribal
 			holder_scope = {
@@ -131,7 +131,7 @@ settlement_decisions = {
 			}
 		}
 		effect = {
-			convert_to = temple
+			convert_to = TEMPLE
 			set_title_flag = refill_levy
 			hidden_tooltip = {
 				refill_holding_levy = yes
@@ -143,7 +143,7 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			hidden_tooltip = {
 				holder_scope = {
 					character_event = { id = Plus.352 days = 3 } #refill the levies
@@ -161,7 +161,7 @@ settlement_decisions = {
 	make_primary = {
 		filter = owned
 		ai_target_filter = owned
-
+		
 		potential = {
 			is_capital = no
 			holder_scope = {
@@ -181,7 +181,11 @@ settlement_decisions = {
 						is_nomadic = no
 					}
 					capital_scope = {
-						NOT = { province = PREVPREV }
+						NOT = {
+							any_province_holding = {
+								title = PREVPREVPREV
+							}
+						}
 					}
 				}
 			}
@@ -194,19 +198,19 @@ settlement_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-
+			
 			modifier = { # Not if this settlement is not allowed
 				factor = 0
 				NOT = { is_allowed_holding_type = FROM }
 			}
-
+			
 			modifier = { # Not if existing capital is preferred
 				factor = 0
 				defacto_liege_title = {
 					is_preferred_holding_type = FROM
 				}
 			}
-
+			
 			modifier = { # Not if this settlement is not preferred and another settlement is
 				factor = 0
 				NOT = { is_preferred_holding_type = FROM }
@@ -217,6 +221,7 @@ settlement_decisions = {
 					}
 				}
 			}
+			
 			modifier = {
 				factor = 0
 				defacto_liege_title = {
@@ -225,16 +230,16 @@ settlement_decisions = {
 			}
 		}
 	}
-
+	
 	revoke_primary = {
 		filter = owned
 		ai_target_filter = owned
-
+		
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
 		}
-
+		
 		potential = {
 			is_capital = yes
 			holder_scope = {
@@ -265,16 +270,20 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-
+		
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
 		}
-
+		
 		potential = {
 			NOT = { holding_type = nomad }
 			has_siege = no
 			controlled_by = FROM
+			OR = {
+				NOT = { owner = { character = FROM } }
+				has_any_building = yes
+			}
 		}
 		allow = {
 			location = {
@@ -285,27 +294,22 @@ settlement_decisions = {
 				}
 			}
 			OR = {
-				owner = {
-					character = FROM
-				}
+				owner = { character = FROM }
 				num_of_buildings = 4
 			}
-			OR = {
-				FROM = {
+			FROM = {
+				OR = {
 					independent = yes
-
-					custom_tooltip = {
+					custom_tooltip = { 
 						text = TT_NOT_SAME_REALM
 						hidden_tooltip = {
-							FROM = {
-								top_liege = {
-									PREVPREV = {
-										holder_scope = {
-											top_liege = {
-												NOT = { character = PREVPREVPREV }
-											}
+							top_liege = {
+								PREVPREV = {
+									holder_scope = {
+										top_liege = {
+											NOT = { character = PREVPREVPREV }
 										}
-									}
+									} 
 								}
 							}
 						}
@@ -316,78 +320,76 @@ settlement_decisions = {
 		effect = {
 			if = {
 				limit = { NOT = { holding_type = tribal } }
-				FROM = {
-					if = {
-						limit = {
-							location = {
-								owner = {
-									character = FROM
-								}
-							}
+				if = {
+					limit = {
+						location = {
+							owner = { character = FROM }
 						}
+					}
+					FROM = {
 						wealth = 50
-					}
-					if = {
-						limit = {
-							NOT = {
-								location = {
-									owner = {
-										character = FROM
-									}
-								}
-							}
+						random_list = {
+							10 = { military_techpoints = 10 }
+							10 = { economy_techpoints = 10 }
+							10 = { culture_techpoints = 10 }
 						}
-						wealth = 10
 					}
-					random_list = {
-						10 = { military_techpoints = 10 }
-						10 = { economy_techpoints = 10 }
-						10 = { culture_techpoints = 10 }
+				}
+				if = {
+					limit = {
+						location = {
+							owner = { NOT = { character = FROM } }
+						}
+					}
+					FROM = {
+						wealth = 10
+						random_list = {
+							10 = { military_techpoints = 10 }
+							10 = { economy_techpoints = 10 }
+							10 = { culture_techpoints = 10 }
+						}
 					}
 				}
 			}
 			if = {
 				limit = { holding_type = tribal }
-				FROM = {
-					if = {
-						limit = {
-							owner = {
-								character = FROM
-							}
-						}
+				if = {
+					limit = {
+						owner = { character = FROM }
+					}
+					FROM = {
 						wealth = 25
-					}
-					if = {
-						limit = {
-							NOT = {
-								owner = {
-									character = FROM
-								}
-							}
+						random_list = {
+							10 = { military_techpoints = 2 }
+							10 = { economy_techpoints = 2 }
+							10 = { culture_techpoints = 2 }
 						}
-						wealth = 5
 					}
-					random_list = {
-						10 = { military_techpoints = 2 }
-						10 = { economy_techpoints = 2 }
-						10 = { culture_techpoints = 2 }
+				}
+				if = {
+					limit = {
+						NOT = { owner = { character = FROM } }
+					}
+					FROM = {
+						wealth = 5
+						random_list = {
+							10 = { military_techpoints = 2 }
+							10 = { economy_techpoints = 2 }
+							10 = { culture_techpoints = 2 }
+						}
 					}
 				}
 			}
 
 			location = {
 				if = {
-					limit = {
+					limit = { 
 						any_province_holding = {
 							NOT = { holding_type = nomad }
 						}
 					}
 					if = {
-						limit = {
-							owner = {
-								character = FROM
-							}
-						}
+						limit = { owner = { character = FROM } }
 						add_province_modifier = {
 							modifier = burnt_the_land
 							years = 8
@@ -399,13 +401,7 @@ settlement_decisions = {
 						}
 					}
 					if = {
-						limit = {
-							NOT = {
-								owner = {
-									character = FROM
-								}
-							}
-						}
+						limit = { NOT = { owner = { character = FROM } } }
 						add_province_modifier = {
 							modifier = recently_burnt_the_land_not_owner
 							years = 10
@@ -418,59 +414,192 @@ settlement_decisions = {
 				text = "PILLAGE_DESTROY_BUILDINGS"
 				hidden_tooltip = {
 					if = {
-						limit = {
-							owner = {
-								character = FROM
-							}
-						}
+						limit = { owner = { character = FROM } }
 						destroy_random_building = THIS
 						destroy_random_building = THIS
 					}
 					if = {
-						limit = {
-							NOT = {
-								owner = {
-									character = FROM
-								}
-							}
-						}
+						limit = { NOT = { owner = { character = FROM } } }
 						destroy_random_building = THIS
 					}
 				}
 			}
-			if = {
-				limit = {
-					NOT = { has_any_building = yes }
-					owner = {
-						character = FROM
-					}
-				}
-				destroy_settlement = THIS
-			}
-		}
-		revoke_allowed = {
-			always = no
 		}
 		ai_will_do = {
 			factor = 1
-
+			
 			modifier = { # Only for tribal holdings
 				factor = 0
 				NOT = { holding_type = tribal }
 			}
+			modifier = {
+				factor = 0
+				owner = { same_realm = FROM }
+				NOT = { owner = { character = FROM } }
+			}
+			modifier = {
+				factor = 0
+				location = { kingdom = { title = k_carpathia } }
+				FROM = { culture = hungarian }
+			}
 		}
 	}
 
+	pillage_settlement_destroy = {
+		filter = owned
+		ai_target_filter = owned
+		is_high_prio = yes
+		
+		from_potential = {
+			is_nomadic = yes
+			has_dlc = "Horse Lords"
+		}
+		
+		potential = {
+			NOT = { holding_type = nomad }
+			has_siege = no
+			controlled_by = FROM
+			owner = { character = FROM }
+			NOT = { has_any_building = yes }
+		}
+		allow = {
+			location = {
+				NOT = { has_province_modifier = recently_burnt_the_land }
+				owner = { character = FROM }
+			}
+			OR = {
+				custom_tooltip = {
+					text = PROVINCE_SAME_RELIGION_CULTURE
+					hidden_tooltip = {
+						location = {
+							culture = FROM
+							religion = FROM
+						}
+					}
+				}
+				custom_tooltip = {
+					text = NOT_LAST_NON_NOMAD_HOLDING
+					hidden_tooltip = {
+						location = {
+							any_province_holding = {
+								NOT = { title = ROOT }
+								NOT = { holding_type = nomad }
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = { NOT = { holding_type = tribal } }
+				if = {
+					limit = {
+						location = {
+							owner = { character = FROM }
+						}
+					}
+					FROM = {
+						wealth = 50
+						random_list = {
+							10 = { military_techpoints = 10 }
+							10 = { economy_techpoints = 10 }
+							10 = { culture_techpoints = 10 }
+						}
+					}
+				}
+				if = {
+					limit = {
+						location = {
+							owner = { NOT = { character = FROM } }
+						}
+					}
+					FROM = {
+						wealth = 10
+						random_list = {
+							10 = { military_techpoints = 10 }
+							10 = { economy_techpoints = 10 }
+							10 = { culture_techpoints = 10 }
+						}
+					}
+				}
+			}
+			if = {
+				limit = { holding_type = tribal }
+				if = {
+					limit = {
+						owner = { character = FROM }
+					}
+					FROM = {
+						wealth = 25
+						random_list = {
+							10 = { military_techpoints = 2 }
+							10 = { economy_techpoints = 2 }
+							10 = { culture_techpoints = 2 }
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = { owner = { character = FROM } }
+					}
+					FROM = {
+						wealth = 5
+						random_list = {
+							10 = { military_techpoints = 2 }
+							10 = { economy_techpoints = 2 }
+							10 = { culture_techpoints = 2 }
+						}
+					}
+				}
+			}
+
+			location = {
+				if = {
+					limit = { 
+						any_province_holding = {
+							NOT = { holding_type = nomad }
+						}
+					}
+					add_province_modifier = {
+						modifier = burnt_the_land
+						years = 8
+						stacking = yes
+					}
+					add_province_modifier = {
+						modifier = recently_burnt_the_land
+						months = 6
+					}
+				}
+			}
+			
+			destroy_settlement = THIS
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = { # Only for tribal holdings
+				factor = 0
+				NOT = { holding_type = tribal }
+			}
+			modifier = {
+				factor = 0
+				location = { kingdom = { title = k_carpathia } }
+				FROM = { culture = hungarian }
+			}
+		}
+	}
+	
 	adopt_tribalism = {
 		filter = sub_realm_owned
 		ai_target_filter = sub_realm_owned
 		is_high_prio = yes
-
+		
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
 			is_landed = yes
-
+			
 			OR = {
 				ai = yes
 				AND = {
@@ -495,7 +624,7 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			NOT = {
 				any_vassal = {
 					any_demesne_title = { temporary = yes }
@@ -544,7 +673,7 @@ settlement_decisions = {
 				independent = yes
 				war = no
 			}
-
+			
 			OR = {
 				holding_type = tribal
 				AND = {
@@ -569,11 +698,12 @@ settlement_decisions = {
 					religion = FROM
 				}
 			}
-
+			
 			# Change name of Avaria to Hungary if relevant.
 			if = {
 				limit = {
 					FROM = { culture = hungarian }
+					location = { kingdom = { title = k_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				hidden_tooltip = {
@@ -582,19 +712,19 @@ settlement_decisions = {
 					}
 					d_esztergom = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_nyitra = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_ungvar = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_pest = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_transylvania = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_temes = {
 						de_jure_liege = k_hungary
 					}
@@ -631,7 +761,7 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			if = {
 				limit = {
 					location = {
@@ -645,39 +775,39 @@ settlement_decisions = {
 					duchy = { usurp_title = FROM }
 				}
 			}
-
+			
 			if = {
 				limit = { NOT = { holder = FROM } }
 				usurp_title = FROM
 			}
-
+			
 			if = {
 				limit = { is_capital = no }
 				make_capital_holding = yes
 			}
-
+			
 			FROM = {
 				capital = PREV
 			}
-
-			custom_tooltip = {
+			
+			custom_tooltip = { 
 				text = TT_BUILD_TRIBAL_HOLDINGS
 			}
-
+			
 			FROM = {
 				primary_title = {
 					ROOT = {
-						custom_tooltip = {
+						custom_tooltip = { 
 							text = TT_KHAN_INDEPENDENCE
 						}
 						most_prestigious_clan_vassal = {
-							custom_tooltip = {
+							custom_tooltip = { 
 								text = TT_NEW_KHAN
 							}
 						}
 					}
 				}
-
+		
 				if = {
 					limit = {
 						ai = no
@@ -687,9 +817,9 @@ settlement_decisions = {
 						picture = GFX_evt_tribal_lands
 					}
 				}
-
+			
 				set_government_type = tribal_government
-
+			
 				if = {
 					limit = {
 						higher_tier_than = count
@@ -698,7 +828,7 @@ settlement_decisions = {
 						add_law = tribal_organization_0
 					}
 				}
-
+			
 				any_playable_ruler = {
 					limit = {
 						NOT = { character = FROM }
@@ -713,26 +843,34 @@ settlement_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-
+			
 			modifier = {
 				factor = 0
 				NAND = {
 					FROM = { culture = hungarian }
+					location = { kingdom = { title = k_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 			}
+			modifier = {
+				factor = 0.5
+				NOT = { title = b_pest }
+				FROM = { culture = hungarian }
+				location = { kingdom = { title = k_carpathia } }
+				k_hungary = { has_holder = no }
+			}
 		}
 	}
-
+	
 	nomad_adopt_feudalism = {
 		filter = sub_realm_owned
 		ai_target_filter = sub_realm_owned
 		is_high_prio = yes
-
+		
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
-
+			
 			OR = {
 				ai = yes
 				AND = {
@@ -757,7 +895,7 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			NOT = {
 				any_vassal = {
 					any_demesne_title = { temporary = yes }
@@ -821,428 +959,19 @@ settlement_decisions = {
 			}
 
 			if = {
-				limit = {
-					FROM = {
-						population_and_manpower = 5000
-						any_realm_province = {
-							NOT = { culture = FROM }
-							num_of_settlements = 1
-							ROOT = {
-								location = {
-									NOT = { province = PREVPREV } # Another province, not the capital
-								}
-							}
-						}
-					}
-				}
+				limit = { FROM = { population_and_manpower = 5000 } }
 				custom_tooltip = { text = nomad_settle_conversion_tooltip }
 			}
-			hidden_tooltip = {
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 5000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 10000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 15000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 20000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 25000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 30000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 35000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 40000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 45000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 50000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 55000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 60000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 65000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 70000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 75000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 80000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 85000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 90000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 95000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
+
+			hidden_tooltip = { # Pre-settlement accounting
+				FROM = { character_event = { id = emf_nomad.0 } }
 			}
 
 			# Change name of Avaria to Hungary if relevant.
 			if = {
 				limit = {
 					FROM = { culture = hungarian }
+					location = { kingdom = { title = k_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				hidden_tooltip = {
@@ -1251,19 +980,19 @@ settlement_decisions = {
 					}
 					d_esztergom = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_nyitra = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_ungvar = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_pest = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_transylvania = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_temes = {
 						de_jure_liege = k_hungary
 					}
@@ -1284,30 +1013,9 @@ settlement_decisions = {
 					text = NOMAD_CONVERSION_TROOP_SPAWN
 					hidden_tooltip = {
 						location = {
-							FROM = {
-								any_realm_province = {
-									limit = {
-										NOT = {
-											any_province_holding = {
-												NOT = { holding_type = nomad }
-											}
-										}
-									}
-									FROM = {
-										spawn_unit = {
-											province = PREVPREVPREV
-											owner = THIS
-											troops = {
-												light_cavalry = { 140 140 }
-												horse_archers = { 60 60 }
-											}
-											attrition = 1
-											cannot_inherit = yes
-											merge = yes
-										}
-									}
-								}
-							}
+							save_event_target_as = emf_new_capital
+							FROM = { character_event = { id = emf_nomad.5 } }
+							clear_event_target = emf_new_capital
 						}
 					}
 				}
@@ -1349,33 +1057,33 @@ settlement_decisions = {
 					duchy = { usurp_title = FROM }
 				}
 			}
-
+			
 			if = {
 				limit = { NOT = { holder = FROM } }
 				usurp_title = FROM
 			}
-
+			
 			if = {
 				limit = { is_capital = no }
 				make_capital_holding = yes
 			}
-
+		
 			FROM = {
 				capital = PREV
-
+				
 				primary_title = {
 					FROM = {
-						custom_tooltip = {
+						custom_tooltip = { 
 							text = TT_KHAN_INDEPENDENCE
 						}
 						most_prestigious_clan_vassal = {
-							custom_tooltip = {
+							custom_tooltip = { 
 								text = TT_NEW_KHAN
 							}
 						}
 					}
 				}
-
+			
 				if = {
 					limit = {
 						NOT = { religion_group = muslim }
@@ -1412,14 +1120,20 @@ settlement_decisions = {
 					}
 					set_government_type = bogomilist_government
 				}
+				
+				hidden_tooltip = {
+					if = {
+						limit = {
+							higher_tier_than = king
+						}
+						primary_title = {
+							add_law = feudal_administration
+						}
+					}
 
-				if = {
-					limit = {
-						higher_tier_than = king
-					}
-					primary_title = {
-						add_law = feudal_administration
-					}
+					# Post-settlement effects / adjustments (incl. culture
+					# settlement and anti-border-gore measures) ...
+					character_event = { id = emf_nomad.1 }
 				}
 
 				any_playable_ruler = {
@@ -1431,14 +1145,14 @@ settlement_decisions = {
 				}
 			}
 		}
-
+		
 		revoke_allowed = {
 			always = no
 		}
-
+		
 		ai_will_do = {
 			factor = 1 # On average ca 1 year before taken
-
+			
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1455,7 +1169,72 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
+			modifier = {
+				factor = 0
+				NAND = {
+					title = b_pest
+					FROM = { culture = hungarian }
+					location = { kingdom = { title = k_carpathia } }
+					k_hungary = { has_holder = no }
+				}
+				FROM = {
+					trait = content
+					NOT = { num_of_subrealm_castles = 10 }
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				NAND = {
+					title = b_pest
+					FROM = { culture = hungarian }
+					location = { kingdom = { title = k_carpathia } }
+					k_hungary = { has_holder = no }
+				}
+				FROM = {
+					trait = ambitious
+					NOT = { num_of_subrealm_castles = 20 }
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				NAND = {
+					title = b_pest
+					FROM = { culture = hungarian }
+					location = { kingdom = { title = k_carpathia } }
+					k_hungary = { has_holder = no }
+				}
+				FROM = {
+					NOR = {
+						trait = content
+						trait = ambitious
+					}
+					NOT = { num_of_subrealm_castles = 15 }
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				NAND = {
+					title = b_pest
+					FROM = { culture = hungarian }
+					location = { kingdom = { title = k_carpathia } }
+					k_hungary = { has_holder = no }
+				}
+				NOT = {
+					FROM = {
+						holding_diff = {
+							first_type = castle
+							first_count_vassals = yes
+							second_type = none
+							value = 1.5
+						}
+					}
+				}
+			}
+			
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1470,12 +1249,12 @@ settlement_decisions = {
 			}
 		}
 	}
-
+	
 	nomad_adopt_republicanism = {
 		filter = sub_realm_owned
 		ai_target_filter = sub_realm_owned
 		is_high_prio = yes
-
+		
 		from_potential = {
 			is_nomadic = yes
 			is_female = no
@@ -1484,7 +1263,7 @@ settlement_decisions = {
 				has_dlc = "The Republic"
 			}
 			has_dlc = "Horse Lords"
-
+			
 			OR = {
 				ai = yes
 				AND = {
@@ -1509,14 +1288,14 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			NOT = {
 				any_vassal = {
 					any_demesne_title = { temporary = yes }
 				}
 			}
 		}
-
+		
 		potential = {
 			holding_type = city
 			OR = {
@@ -1555,7 +1334,7 @@ settlement_decisions = {
 				}
 			}
 			has_siege = no
-
+			
 			FROM = {
 				independent = yes
 				war = no
@@ -1577,429 +1356,21 @@ settlement_decisions = {
 					religion = FROM
 				}
 			}
+
 			if = {
-				limit = {
-					FROM = {
-						population_and_manpower = 5000
-						any_realm_province = {
-							NOT = { culture = FROM }
-							num_of_settlements = 1
-							ROOT = {
-								location = {
-									NOT = { province = PREVPREV } # Another province, not the capital
-								}
-							}
-						}
-					}
-				}
+				limit = { FROM = { population_and_manpower = 5000 } }
 				custom_tooltip = { text = nomad_settle_conversion_tooltip }
 			}
-			hidden_tooltip = {
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 5000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 10000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 15000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 20000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 25000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 30000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 35000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 40000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 45000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 50000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 55000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 60000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 65000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 70000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 75000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 80000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 85000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 90000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							population_and_manpower = 95000
-							any_realm_province = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-						}
-					}
-					FROM = {
-						random_realm_province = {
-							limit = {
-								NOT = { culture = FROM }
-								num_of_settlements = 1
-							}
-							culture = FROM
-							religion = FROM
-						}
-					}
-				}
-			}
 
+			hidden_tooltip = { # Pre-settlement accounting
+				FROM = { character_event = { id = emf_nomad.0 } }
+			}
+			
 			# Change name of Avaria to Hungary if relevant.
 			if = {
 				limit = {
 					FROM = { culture = hungarian }
+					location = { kingdom = { title = k_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				hidden_tooltip = {
@@ -2008,19 +1379,19 @@ settlement_decisions = {
 					}
 					d_esztergom = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_nyitra = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_ungvar = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_pest = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_transylvania = {
 						de_jure_liege = k_hungary
-					}
+					}	
 					d_temes = {
 						de_jure_liege = k_hungary
 					}
@@ -2031,36 +1402,15 @@ settlement_decisions = {
 					grant_title = FROM
 				}
 			}
-
+		
 			# Spawn event troops based on amount of empty holdings abandoned.
 			custom_tooltip = {
 				text = NOMAD_CONVERSION_TROOP_SPAWN
 				hidden_tooltip = {
 					location = {
-						FROM = {
-							any_realm_province = {
-								limit = {
-									NOT = {
-										any_province_holding = {
-											NOT = { holding_type = nomad }
-										}
-									}
-								}
-								FROM = {
-									spawn_unit = {
-										province = PREVPREVPREV
-										owner = THIS
-										troops = {
-											light_cavalry = { 140 140 }
-											horse_archers = { 60 60 }
-										}
-										attrition = 1
-										cannot_inherit = yes
-										merge = yes
-									}
-								}
-							}
-						}
+						save_event_target_as = emf_new_capital
+						FROM = { character_event = { id = emf_nomad.5 } }
+						clear_event_target = emf_new_capital
 					}
 				}
 			}
@@ -2087,7 +1437,7 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			if = {
 				limit = {
 					location = {
@@ -2101,34 +1451,34 @@ settlement_decisions = {
 					duchy = { usurp_title = FROM }
 				}
 			}
-
+			
 			if = {
 				limit = { NOT = { holder = FROM } }
-				usurp_title = FROM
+				usurp_title = FROM 
 			}
-
+			
 			if = {
 				limit = { is_capital = no }
 				make_capital_holding = yes
 			}
-
+		
 			FROM = {
 				capital = PREV
-
+				
 				primary_title = {
 					FROM = {
-						custom_tooltip = {
+						custom_tooltip = { 
 							text = TT_KHAN_INDEPENDENCE
 						}
 						most_prestigious_clan_vassal = {
-							custom_tooltip = {
+							custom_tooltip = { 
 								text = TT_NEW_KHAN
 							}
 						}
 					}
 				}
 			}
-
+			
 			hidden_tooltip = {
 				if = {
 					limit = {
@@ -2148,9 +1498,9 @@ settlement_decisions = {
 								base_title = THIS
 							}
 						}
-
+						
 						create_family_palace = yes
-
+						
 						if = {
 							limit = {
 								NOT = {
@@ -2160,7 +1510,7 @@ settlement_decisions = {
 									}
 								}
 							}
-
+							
 							any_unique_dynasty_vassal = { # gives random vassals a family palace
 								count = 4
 								limit = {
@@ -2173,37 +1523,17 @@ settlement_decisions = {
 									prisoner = no
 									NOT = { trait = incapable }
 									is_adult = yes
-									NOT = {
-										dynasty = none
+									NOT = { 
+										dynasty = none 
 									}
 								}
-
+								
 								if = {
 									limit = { is_tribal = yes }
-									hidden_tooltip = {
-										capital_holding = {
-											if = {
-												limit = { holding_type = tribal }
-												set_title_flag = refill_levy
-												convert_to = CITY
-												hidden_tooltip = {
-													refill_holding_levy = yes
-													location = {
-														add_province_modifier = {
-															name = new_buildings_timer
-															duration = 36500
-															hidden = yes
-														}
-													}
-												}
-											}
-										}
-										any_demesne_title = {
-											limit = {
-												tier = baron
-												holding_type = tribal
-												has_building = tb_market_town_4
-											}
+									
+									capital_holding = {
+										if = {
+											limit = { holding_type = tribal }
 											set_title_flag = refill_levy
 											convert_to = CITY
 											hidden_tooltip = {
@@ -2218,19 +1548,40 @@ settlement_decisions = {
 											}
 										}
 									}
-								}
+									any_demesne_title = {
+										limit = {
+											tier = baron
+											holding_type = tribal
+											has_building = tb_market_town_4
+										}
+										set_title_flag = refill_levy
+										convert_to = CITY
+										hidden_tooltip = {
+											refill_holding_levy = yes
+											location = {
+												add_province_modifier = {
+													name = new_buildings_timer
+													duration = 36500
+													hidden = yes
+												}
+											}
+										}
+									}
 
+									character_event = { id = Plus.352 days = 3 } # Refill levies
+								}
+								
 								create_family_palace = yes
 							}
 						}
-
+							
 						set_government_type = merchant_republic_government
 					}
 				}
 			}
-
+			
 			if = {
-				limit = {
+				limit = { 
 					capital_scope = {
 						port = yes
 					}
@@ -2240,7 +1591,7 @@ settlement_decisions = {
 				}
 			}
 			if = {
-				limit = {
+				limit = { 
 					capital_scope = {
 						port = no
 					}
@@ -2249,13 +1600,22 @@ settlement_decisions = {
 					set_government_type = republic_government
 				}
 			}
+			
+
+			hidden_tooltip = {
+				FROM = {
+					# Post-settlement effects / adjustments (incl. culture
+					# settlement and anti-border-gore measures) ...
+					character_event = { id = emf_nomad.1 }
+				}
+			}
 
 			FROM = {
 				chronicle = {
 					entry = CHRONICLE_NOMAD_FOUNDED_MERCHANT_REPUBLIC
 					picture = GFX_evt_busy_trading_dock_republic
 				}
-
+				
 				any_playable_ruler = {
 					limit = {
 						NOT = { character = FROM }
@@ -2272,7 +1632,7 @@ settlement_decisions = {
 
 		ai_will_do = {
 			factor = 0.5
-
+			
 			modifier = {
 				factor = 0
 				FROM = {
@@ -2289,7 +1649,7 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			modifier = {
 				factor = 0
 				FROM = {
@@ -2297,7 +1657,7 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_cities = 10 }
 				}
 			}
-
+			
 			modifier = {
 				factor = 0
 				FROM = {
@@ -2305,7 +1665,7 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_cities = 20 }
 				}
 			}
-
+			
 			modifier = {
 				factor = 0
 				FROM = {
@@ -2316,7 +1676,7 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_cities = 15 }
 				}
 			}
-
+			
 			modifier = {
 				factor = 0
 				FROM = {
@@ -2328,14 +1688,14 @@ settlement_decisions = {
 					}
 				}
 			}
-
+			
 			modifier = {
 				factor = 2.0
 				FROM = {
 					stewardship = 10
 				}
 			}
-
+			
 			modifier = {
 				factor = 0
 				FROM = {
@@ -2350,5 +1710,5 @@ settlement_decisions = {
 			}
 		}
 	}
-
+	
 }

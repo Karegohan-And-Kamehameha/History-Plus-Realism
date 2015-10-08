@@ -1,8 +1,45 @@
 targetted_decisions = {
+	ruler_designer_customize = {
+		filter = all
+		ai_target_filter = self
+		
+		from_potential = {
+			ai = no
+			trait = customize_ruler
+			NOR = {
+				has_character_flag = customizing_ruler
+				e_placeholder = { had_title_flag = { flag = startup days = 15 } }
+			}
+		}
+		potential = {
+			NOR = {
+				dynasty = FROM
+				dynasty = none
+			}
+		}
+		allow = {
+			culture = FROM
+		}
+		effect = {
+			FROM = {
+				set_character_flag = customizing_ruler
+				if = {
+					limit = { trait = bastard }
+					character_event = { id = Plus.991 tooltip = CUSTOMIZE_RULER_BASTARD }
+					break = yes
+				}
+				character_event = { id = Plus.991 tooltip = CUSTOMIZE_RULER_CHECK }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 	abdicate_rule = {
 		filter = self
 		ai_target_filter = self
-
+		
 		potential = {
 			is_ruler = yes
 			has_regent = no
@@ -17,7 +54,7 @@ targetted_decisions = {
 				has_character_modifier = do_not_disturb
 			}
 		}
-
+		
 		allow = {
 			war = no
 			NOT = {
@@ -27,12 +64,12 @@ targetted_decisions = {
 				trait = possessed
 			}
 		}
-
+		
 		effect = {
 			set_character_flag = considering_abdication
 			character_event = { id = Plus.120 tooltip = consider_abdication }
 		}
-
+		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -100,7 +137,7 @@ targetted_decisions = {
 	disinherit_child = {
 		filter = dynasty
 		ai_target_filter = dynasty
-
+		
 		from_potential = {
 			is_ruler = yes
 			is_playable = yes
@@ -272,7 +309,7 @@ targetted_decisions = {
 	reconcile_child = {
 		filter = dynasty
 		ai_target_filter = dynasty
-
+		
 		from_potential = {
 			is_ruler = yes
 			is_playable = yes
@@ -365,7 +402,7 @@ targetted_decisions = {
 	grant_estate = {
 		filter = sub_realm
 		ai_target_filter = sub_realm
-
+		
 		from_potential = {
 			ai = no
 			wealth = 50
@@ -394,11 +431,11 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
-
+	
 	pardon = {
 		filter = sub_realm
 		ai_target_filter = sub_realm
-
+		
 		from_potential = {
 			ai = no
 		}
@@ -520,7 +557,7 @@ targetted_decisions = {
 	swear_to_heir = {
 		filter = vassals
 		ai_target_filter = vassals
-
+		
 		from_potential = {
 			is_ruler = yes
 			is_feudal = yes
@@ -669,8 +706,8 @@ targetted_decisions = {
 			}
 		}
 	}
-
-	request_holy_war = {
+	
+	request_holy_war = {	
 		from_potential = {
 			ai = no
 			is_nomadic = no
@@ -731,10 +768,10 @@ targetted_decisions = {
 					}
 				}
 				any_realm_province = {
-					FROM = {
+					FROM = { 
 						any_realm_province = {
 							NOT = {
-								distance = {
+								distance = { 
 									where = PREVPREV
 									value = 125
 								}
@@ -746,8 +783,8 @@ targetted_decisions = {
 			NOT = {
 				same_realm = FROM
 				has_character_modifier = holy_truce_timer
-				has_character_modifier = crusade_block_timer
-			}
+				has_character_modifier = crusade_block_timer 
+			}			
 		}
 		allow = {
 			FROM = {
@@ -966,7 +1003,7 @@ targetted_decisions = {
 			}
 		}
 	}
-
+	
 	demand_conversion_vassal = {
 		filter = vassals
 		ai_target_filter = vassals
@@ -1155,11 +1192,11 @@ targetted_decisions = {
 			}
 		}
 	}
-
+	
 	ai_divorce = {
 		filter = spouse
 		ai_target_filter = spouse
-
+		
 		from_potential = {
 			ai = yes
 			is_married = yes
@@ -1401,7 +1438,7 @@ targetted_decisions = {
 	theocracy_banish_heretic = {
 		filter = court
 		ai_target_filter = court
-
+		
 		from_potential = {
 			is_ruler = yes
 			is_theocracy = yes
@@ -1473,7 +1510,7 @@ targetted_decisions = {
 decisions = {
 	imperial_coronation = {
 		is_high_prio = yes
-
+		
 		potential = {
 			OR = {
 				trait = uncrowned
@@ -1489,7 +1526,7 @@ decisions = {
 			real_tier = EMPEROR
 			has_horde_culture = no
 			is_nomadic = no
-			NOT = {
+			NOR = {
 				AND = {
 					has_landed_title = e_byzantium
 					e_byzantium = { is_primary_holder_title = yes }
@@ -1507,7 +1544,6 @@ decisions = {
 				}
 				has_landed_title = e_hre
 				has_landed_title = e_karling
-				has_character_modifier = do_not_disturb
 				has_character_flag = planning_coronation
 			}
 		}
@@ -1528,6 +1564,13 @@ decisions = {
 						prisoner = no
 						NOT = { trait = incapable }
 					}
+				}
+			}
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+				hidden_tooltip = {
+					NOT = { has_character_modifier = do_not_disturb }
+					NOT = { trait = in_hiding }
 				}
 			}
 		}
@@ -1548,10 +1591,10 @@ decisions = {
 			factor = 1
 		}
 	}
-
+	
 	royal_coronation = {
 		is_high_prio = yes
-
+		
 		potential = {
 			trait = uncrowned
 			is_feudal = yes
@@ -1561,10 +1604,7 @@ decisions = {
 			has_horde_culture = no
 			is_nomadic = no
 			primary_title = { is_vice_royalty = no }
-			NOT = {
-				has_character_modifier = do_not_disturb
-				has_character_flag = planning_coronation
-			}
+			NOT = { has_character_flag = planning_coronation }
 		}
 		allow = {
 			war = no
@@ -1583,6 +1623,13 @@ decisions = {
 						prisoner = no
 						NOT = { trait = incapable }
 					}
+				}
+			}
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+				hidden_tooltip = {
+					NOT = { has_character_modifier = do_not_disturb }
+					NOT = { trait = in_hiding }
 				}
 			}
 		}
@@ -1735,9 +1782,155 @@ decisions = {
 		}
 	}
 
+	reclaim_titles_divorce = {
+		is_high_prio = yes
+		potential = {
+			has_character_flag = usurped_by_husband
+			OR = {
+				any_independent_ruler = {
+					has_character_flag = usurped_my_wife
+					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_divorced }
+					NOT = { any_spouse = { character = ROOT } }
+					ROOT = {
+						any_claim = {
+							ROOT = { has_strong_claim = PREV }
+							holder_scope = { character = PREVPREVPREV }
+						}
+					}
+				}
+				any_independent_ruler = {
+					any_vassal = {
+						has_character_flag = usurped_my_wife
+						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_divorced }
+						NOT = { any_spouse = { character = ROOT } }
+						ROOT = {
+							any_claim = {
+								ROOT = { has_strong_claim = PREV }
+								holder_scope = { character = PREVPREVPREV }
+							}
+						}
+					}
+				}
+			}		
+		}
+		allow = {
+			prisoner = no
+			NOT = {
+				trait = excommunicated
+				trait = incapable
+			}
+		}
+		effect = {
+			clr_character_flag = usurped_by_husband
+			random_independent_ruler = {
+				limit = {
+					has_character_flag = usurped_my_wife
+					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_divorced }
+					NOT = { any_spouse = { character = ROOT } }
+					ROOT = {
+						any_claim = {
+							ROOT = { has_strong_claim = PREV }
+							holder_scope = { character = PREVPREVPREV }
+						}
+					}
+				}
+				clr_character_flag = usurped_my_wife
+				character_event = { id = FemRule.310 tooltip = REGAIN_TITLES_DIVORCE }
+			}
+			any_independent_ruler = {
+				limit = {
+					any_vassal = {
+						has_character_flag = usurped_my_wife
+						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_divorced }
+						NOT = { any_spouse = { character = ROOT } }
+						ROOT = {
+							any_claim = {
+								ROOT = { has_strong_claim = PREV }
+								holder_scope = { character = PREVPREVPREV }
+							}
+						}
+					}
+				}
+				random_vassal = {
+					limit = {
+						has_character_flag = usurped_my_wife
+						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_divorced }
+						NOT = { any_spouse = { character = ROOT } }
+						ROOT = {
+							any_claim = {
+								ROOT = { has_strong_claim = PREV }
+								holder_scope = { character = PREVPREVPREV }
+							}
+						}
+					}
+					clr_character_flag = usurped_my_wife
+					character_event = { id = FemRule.310 tooltip = REGAIN_TITLES_DIVORCE }
+				}
+			}
+		}
+	}
+
+	usurp_husband = {
+		is_high_prio = yes
+		
+		potential = {
+			is_female = yes
+			has_character_flag = usurped_by_husband
+			spouse = { has_character_flag = usurped_my_wife }
+		}
+		
+		allow = {
+			any_claim = {
+				holder_scope = {
+					NOT = {
+						is_child_of = ROOT
+						has_character_flag = usurped_my_wife
+					}
+					any_liege = {
+						has_character_flag = usurped_my_wife
+						spouse = { character = ROOT }
+						ROOT = { has_strong_claim = PREVPREVPREV }
+					}
+				}
+			}
+		}	
+		
+		effect = {
+			any_claim = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							is_child_of = ROOT
+							spouse = { character = ROOT }
+						}
+						any_liege = {
+							has_character_flag = usurped_my_wife
+							spouse = { character = ROOT }
+							ROOT = { has_strong_claim = PREVPREVPREV }
+						}
+					}
+				}
+				hidden_tooltip = {
+					holder_scope = { set_character_flag = wife_regained_title }
+				}
+				usurp_title_plus_barony_if_unlanded = ROOT
+				any_claimant = {
+					limit = { has_character_flag = wife_regained_title }
+					clr_character_flag = wife_regained_title
+					PREV = { remove_claim = PREV }
+				}
+			}
+			hidden_tooltip = {
+				spouse = {
+					letter_event = { id = FemRule.312 }
+				}
+			}
+		}
+	}
+	
 	request_important_prisoners = {
 		is_high_prio = yes
-
+		
 		potential = {
 			is_ruler = yes
 			higher_tier_than = BARON
@@ -1752,12 +1945,12 @@ decisions = {
 				}
 			}
 		}
-
+		
 		allow = {
 			prisoner = no
 			prestige = 0
 		}
-
+		
 		effect = {
 			any_realm_lord = {
 				limit = {
@@ -1783,7 +1976,7 @@ decisions = {
 				}
 			}
 		}
-
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1856,7 +2049,7 @@ decisions = {
 			factor = 1
 		}
 	}
-
+	
 	take_loan = {
 		potential = {
 			ai = no
@@ -1866,7 +2059,7 @@ decisions = {
 				is_patrician = yes
 			}
 			NOT = { has_character_flag = offended_moneylenders }
-			NOR = {
+			NOR = { 
 				has_character_modifier = loan_50_hidden
 				has_character_modifier = loan_100_hidden
 				has_character_modifier = loan_200_hidden
@@ -1898,7 +2091,7 @@ decisions = {
 						duration = -1
 						inherit = yes
 						hidden = yes
-					}
+					}	
 				}
 			}
 			#100g loan
@@ -1919,7 +2112,7 @@ decisions = {
 						duration = -1
 						inherit = yes
 						hidden = yes
-					}
+					}	
 				}
 			}
 			#200g loan
@@ -1940,7 +2133,7 @@ decisions = {
 						duration = -1
 						inherit = yes
 						hidden = yes
-					}
+					}	
 				}
 			}
 			#400g loan
@@ -1961,7 +2154,7 @@ decisions = {
 						duration = -1
 						inherit = yes
 						hidden = yes
-					}
+					}	
 				}
 			}
 			#600g loan
@@ -1982,7 +2175,7 @@ decisions = {
 						duration = -1
 						inherit = yes
 						hidden = yes
-					}
+					}	
 				}
 			}
 			#800g loan
@@ -2003,7 +2196,7 @@ decisions = {
 						duration = -1
 						inherit = yes
 						hidden = yes
-					}
+					}	
 				}
 			}
 			#1000g loan
@@ -2023,7 +2216,7 @@ decisions = {
 						duration = -1
 						inherit = yes
 						hidden = yes
-					}
+					}	
 				}
 			}
 			custom_tooltip = {
@@ -2038,7 +2231,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	repay_loan_50 = {
 		potential = {
 			ai = no
@@ -2067,7 +2260,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	repay_loan_100 = {
 		potential = {
 			ai = no
@@ -2087,7 +2280,7 @@ decisions = {
 			if = {
 				limit = { NOT = { has_character_modifier = borrowed_from_jews } }
 				clr_character_flag = loan_taken
-			}
+			}			
 		}
 		revoke_allowed = {
 			always = no
@@ -2096,7 +2289,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	repay_loan_200 = {
 		potential = {
 			ai = no
@@ -2116,7 +2309,7 @@ decisions = {
 			if = {
 				limit = { NOT = { has_character_modifier = borrowed_from_jews } }
 				clr_character_flag = loan_taken
-			}
+			}			
 		}
 		revoke_allowed = {
 			always = no
@@ -2125,7 +2318,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	repay_loan_400 = {
 		potential = {
 			ai = no
@@ -2145,7 +2338,7 @@ decisions = {
 			if = {
 				limit = { NOT = { has_character_modifier = borrowed_from_jews } }
 				clr_character_flag = loan_taken
-			}
+			}			
 		}
 		revoke_allowed = {
 			always = no
@@ -2154,7 +2347,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	repay_loan_600 = {
 		potential = {
 			ai = no
@@ -2174,7 +2367,7 @@ decisions = {
 			if = {
 				limit = { NOT = { has_character_modifier = borrowed_from_jews } }
 				clr_character_flag = loan_taken
-			}
+			}			
 		}
 		revoke_allowed = {
 			always = no
@@ -2183,7 +2376,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	repay_loan_800 = {
 		potential = {
 			ai = no
@@ -2203,7 +2396,7 @@ decisions = {
 			if = {
 				limit = { NOT = { has_character_modifier = borrowed_from_jews } }
 				clr_character_flag = loan_taken
-			}
+			}			
 		}
 		revoke_allowed = {
 			always = no
@@ -2212,7 +2405,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	repay_loan_1000 = {
 		potential = {
 			ai = no
@@ -2232,7 +2425,7 @@ decisions = {
 			if = {
 				limit = { NOT = { has_character_modifier = borrowed_from_jews } }
 				clr_character_flag = loan_taken
-			}
+			}			
 		}
 		revoke_allowed = {
 			always = no
@@ -2241,7 +2434,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	ai_take_loan = {
 		potential = {
 			ai = yes
@@ -2352,7 +2545,7 @@ decisions = {
 			factor = 1
 		}
 	}
-
+	
 	ai_repay_loan = {
 		potential = {
 			ai = yes
@@ -2421,8 +2614,8 @@ decisions = {
 						add_trait = kshatriya
 						character_event = { id = RoI.30121 }
 					}
-				}
-			}
+				}				
+			}				
 			add_character_modifier = {
 				name = employment_timer
 				duration = 30
@@ -2478,8 +2671,8 @@ decisions = {
 						add_trait = kshatriya
 						character_event = { id = RoI.30121 }
 					}
-				}
-			}
+				}				
+			}				
 			add_character_modifier = {
 				name = employment_timer
 				duration = 30
@@ -2597,7 +2790,7 @@ decisions = {
 						}
 					}
 					set_character_flag = yehudi_check
-					if = {
+					if = { 
 						limit = {
 							OR = {
 								religion = celtic_pagan
@@ -2666,7 +2859,7 @@ decisions = {
 			}
 		}
 	}
-
+	
 	employ_steward = {
 		potential = {
 			demesne_size = 1
@@ -2734,7 +2927,7 @@ decisions = {
 			}
 		}
 	}
-
+	
 	present_debutante = {
 		potential = {
 			is_ruler = yes
@@ -2808,7 +3001,7 @@ decisions = {
 			}
 		}
 	}
-
+	
 	ransom_nonvassal = {
 		potential = {
 			ai = no
@@ -2818,11 +3011,11 @@ decisions = {
 				host = { character = ROOT }
 			}
 		}
-
+		
 		allow = {
 			NOT = { has_character_modifier = ransom_timer }
 		}
-
+		
 		effect = {
 			add_character_modifier = {
 				name = ransom_timer
@@ -2839,7 +3032,7 @@ decisions = {
 			}
 		}
 	}
-
+	
 	ransom_all = {
 		potential = {
 			ai = no
@@ -2848,11 +3041,11 @@ decisions = {
 				host = { character = ROOT }
 			}
 		}
-
+		
 		allow = {
 			NOT = { has_character_modifier = ransom_timer }
 		}
-
+		
 		effect = {
 			add_character_modifier = {
 				name = ransom_timer
@@ -2892,7 +3085,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	nhv_restart = {
 		potential = {
 			has_character_modifier = nhv_explained
@@ -3001,10 +3194,10 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	nhv_dist_all = { # Vassalize All
 		potential = {
-			has_character_modifier = nhv_explained
+			has_character_modifier = nhv_explained	
 			NOT = { has_character_modifier = nhv_shut_off }
 		}
 		allow = {
@@ -3053,15 +3246,15 @@ decisions = {
 				}
 				custom_tooltip = { text = nhv_barony_dist2 }
 			}
-			hidden_tooltip = {
-				character_event = { id = Plus.974 }
+			hidden_tooltip = {		
+				character_event = { id = Plus.974 }	
 			}
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
-
+	
 	nhv_dist_barons = { # Vassalize All Barons
 		potential = {
 			has_character_modifier = nhv_explained
@@ -3098,8 +3291,8 @@ decisions = {
 				}
 				custom_tooltip = { text = nhv_barony_dist3 }
 			}
-			hidden_tooltip = {
-				character_event = { id = Plus.975 }
+			hidden_tooltip = {		
+				character_event = { id = Plus.975 }	
 			}
 		}
 		ai_will_do = {
@@ -3135,7 +3328,7 @@ decisions = {
 			factor = 0
 		}
 	}
-
+	
 	seek_ancient_knowledge = {
 		potential = {
 			is_playable = yes
@@ -3154,7 +3347,7 @@ decisions = {
 				has_character_flag = seeks_pagan_knowledge
 			}
 		}
-
+		
 		allow = {
 			war = no
 			has_regent = no
@@ -3174,19 +3367,19 @@ decisions = {
 				}
 			}
 		}
-
+		
 		effect = {
 			set_character_flag = seeks_pagan_knowledge
 			piety = -25
 			custom_tooltip = { text = PURSUE_PAGAN_KNOWLEDGE }
 		}
-
+		
 		ai_will_do = {
 			factor = 0
 		}
 	}
 
-	ai_request_holy_war = {
+	ai_request_holy_war = {	
 		potential = {
 			ai = yes
 			is_nomadic = no
@@ -3278,10 +3471,10 @@ decisions = {
 					}
 					any_realm_province = {
 						has_province_flag = contingent_territory
-						ROOT = {
+						ROOT = { 
 							any_realm_province = {
 								NOT = {
-									distance = {
+									distance = { 
 										where = PREVPREV
 										value = 125
 									}
@@ -3344,10 +3537,10 @@ decisions = {
 						}
 						any_realm_province = {
 							has_province_flag = contingent_territory
-							ROOT = {
+							ROOT = { 
 								any_realm_province = {
 									NOT = {
-										distance = {
+										distance = { 
 											where = PREVPREV
 											value = 125
 										}
@@ -3397,7 +3590,7 @@ decisions = {
 
 	claim_caliphate = {
 		is_high_prio = yes
-
+		
 		potential = {
 			religion_group = muslim
 			is_feudal = yes
@@ -3502,10 +3695,10 @@ decisions = {
 			}
 		}
 	}
-
+	
 	call_up_republic = {
 		is_high_prio = yes
-
+		
 		potential = {
 			is_merchant_republic = yes
 			ai = no

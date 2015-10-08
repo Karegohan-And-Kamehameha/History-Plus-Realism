@@ -1711,7 +1711,7 @@ faction_pretender = {
 		# claimant must be the same religion for religious head titles
 		OR = {
 			controls_religion = no
-			new_character = { religion = PREV }
+			new_character = { ROOT = { holder_scope = { religion = PREVPREV } } }
 		}
 		new_character = {
 			is_alive = yes
@@ -1809,6 +1809,13 @@ faction_pretender = {
 					controls_religion = yes
 					rightful_religious_head_scope = { character = PREV }
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			holder_scope = {
+				independent = no
+				NOT = { same_realm = FROM }
 			}
 		}
 		modifier = {
@@ -3001,6 +3008,15 @@ faction_pretender = {
 		modifier = {
 			factor = 0
 			preparing_invasion = yes
+		}
+		modifier = {
+			factor = 0
+			FROMFROM = {
+				holder_scope = {
+					independent = no
+					NOT = { same_realm = ROOT }
+				}
+			}
 		}
 		modifier = {
 			factor = 3.0
@@ -5327,7 +5343,7 @@ faction_overthrow = {
 		modifier = {
 			factor = 1.5
 			NOT = { 
-				ROOT = { 
+				holder_scope = { 
 					clan_title = {
 						FROM = { 
 							clan_title = {
@@ -5341,7 +5357,7 @@ faction_overthrow = {
 		modifier = {
 			factor = 2.0
 			NOT = { 
-				ROOT = { 
+				holder_scope = { 
 					clan_title = {
 						FROM = { 
 							clan_title = {
@@ -5355,7 +5371,7 @@ faction_overthrow = {
 		modifier = {
 			factor = 4.0
 			NOT = { 
-				ROOT = { 
+				holder_scope = { 
 					clan_title = {
 						FROM = { 
 							clan_title = {
@@ -5368,7 +5384,7 @@ faction_overthrow = {
 		}
 		modifier = {
 			factor = 0.25
-			ROOT = { 
+			holder_scope = { 
 				clan_title = {
 					FROM = { 
 						clan_title = {
@@ -5380,7 +5396,7 @@ faction_overthrow = {
 		}
 		modifier = {
 			factor = 0.05
-			ROOT = { 
+			holder_scope = { 
 				clan_title = {
 					FROM = { 
 						clan_title = {
@@ -5392,7 +5408,7 @@ faction_overthrow = {
 		}
 		modifier = {
 			factor = 0.01
-			ROOT = { 
+			holder_scope = { 
 				clan_title = {
 					FROM = { 
 						clan_title = {

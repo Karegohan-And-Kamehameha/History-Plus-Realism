@@ -39,41 +39,6 @@ d_socotra = {
 	dignity = 10
 }
 # TITULAR SWMH
-k_ireland_titular = { # Tara
-	color = { 161 51 177 }
-	color2 = { 255 255 255 }
-	capital = 975 # Brega
-	culture = irish
-	religion = catholic
-	allow = {
-		# Only allow it to be usurped when already held, and otherwise it must
-		# have become de jure to create it.
-		FROM = {
-			or = {
-				is_titular = no
-				has_holder = yes
-			}
-		}
-	}
-}
-d_lowerbrittany = { # Breizh Izel
-	color = { 148 148 116 }
-	color2 = { 255 255 255 }
-	capital = 105 # Gwened # Vannes
-	culture = breton
-	allow = {
-		independent = yes
-		not = {
-			has_landed_title = d_brittany
-			any_demesne_title = {
-				or = {
-					tier = king
-					tier = emperor
-				}
-			}
-		}
-	}
-}
 e_ulm = { # Ulm
 	color = { 110 110 110 }
 	capital = 252 # Ulm # ULM
@@ -88,6 +53,9 @@ e_ulm = { # Ulm
 			has_landed_title = c_ferrara
 			any_vassal = { has_landed_title = c_ferrara }
 		}
+	war = no
+		has_regent = no
+		realm_size = 120
 	}
 }
 e_khazaria = { # Qasarstan
@@ -111,10 +79,10 @@ e_khazaria = { # Qasarstan
 	tajik = "Xazarstбn"
 	daylamite = "Xazarstбn"
 	khalaj = "Xazarstбn"
-	soghdian = "Xazarstбn"
+	sogdian = "Xazarstбn"
 	khwarezmi = "Xazarstбn"
 	kurdish = "Xazarstбn"
-	pashtun = "Xazarstбn"
+	afghan = "Xazarstбn"
 	qufs = "Xazarstбn"
 	baloch = "Xazarstбn"
 	alan = "Chazaria"
@@ -156,7 +124,9 @@ e_khazaria = { # Qasarstan
 			religion = tengri_pagan_reformed
 		}
 		has_landed_title = k_khazaria
-		independent = yes
+		war = no
+		has_regent = no
+		realm_size = 120
 	}
 } # end e_khazaria
 e_khitan = { # Kara Khitai
@@ -227,60 +197,43 @@ e_kaleva = { # Kalevala
 		culture_group = finno_ugric
 		has_landed_title = k_finland
 		has_landed_title = k_terra
-		independent = yes
+		war = no
+		has_regent = no
+		realm_size = 120
 	}
 }
-k_geats = { # Gautarнki
+k_geats = { # Gautar勛i
 	color = { 208 191 99 }
-	capital = 293 # Цstergцtland
+	capital = 293 # ﾖstergland
 	allow = {
+		independent = yes
 		or = {
 			and = {
 				has_landed_title = d_vastergotland
 				has_landed_title = d_ostergotland
+				lower_real_tier_than = king
 			}
-			independent = yes
-			not = {
-				any_demesne_title = {
-					or = {
-						tier = king
-						tier = emperor
+			and = {
+				d_vastergotland = {
+					holder_scope = {
+						or = {
+							character = ROOT
+							is_liege_or_above = ROOT
+						}
 					}
 				}
-			}
-			and = {
-				has_landed_title = k_denmark
-				or = {
-					has_landed_title = d_vastergotland
-					any_vassal = { has_landed_title = d_vastergotland }
+				d_ostergotland = {
+					holder_scope = {
+						or = {
+							character = ROOT
+							is_liege_or_above = ROOT
+						}
+					}
 				}
 				or = {
-					has_landed_title = d_ostergotland
-					any_vassal = { has_landed_title = d_ostergotland }
-				}
-				prestige = 1500
-			}
-			and = {
-				has_landed_title = k_sweden
-				or = {
-					has_landed_title = d_vastergotland
-					any_vassal = { has_landed_title = d_vastergotland }
-				}
-				or = {
-					has_landed_title = d_ostergotland
-					any_vassal = { has_landed_title = d_ostergotland }
-				}
-				prestige = 1500
-			}
-			and = {
-				has_landed_title = k_norway
-				or = {
-					has_landed_title = d_vastergotland
-					any_vassal = { has_landed_title = d_vastergotland }
-				}
-				or = {
-					has_landed_title = d_ostergotland
-					any_vassal = { has_landed_title = d_ostergotland }
+					has_landed_title = k_denmark
+					has_landed_title = k_sweden
+					has_landed_title = k_norway
 				}
 				prestige = 1500
 			}
@@ -353,7 +306,7 @@ d_lauenburg = { # Sachsen-Lauenburg
 			has_landed_title = c_lauenburg
 			any_vassal = { has_landed_title = c_lauenburg }
 		}
-		not = { any_demesne_title = { tier = emperor } }
+		not = { tier = emperor }
 	}
 }
 d_sangermano = { # Terra Sancti Benedicti
@@ -590,18 +543,6 @@ k_armenia_minor = { # Mikrб Armenia
 		religion_group = christian
 	}
 }
-k_bagratid_grand_principality = { # Hayk
-	color = { 117 178 81 }
-	culture = armenian
-	capital = 681 # Ani
-	title = ISHKHAN
-	foa = ISHKHAN_FOA
-	title_prefix = ISHKHAN_OF
-	allow = {
-		culture = armenian
-		religion_group = christian
-	}
-}
 d_pagania = { # Neretljani
 	color = { 114 230 1 }
 	capital = 1330 # Omis
@@ -692,7 +633,8 @@ e_wendish_empire = { # Wendish Empire
 		independent = yes
 		ruled_years = 5
 		war = no
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 	}
 }
 # Ireland

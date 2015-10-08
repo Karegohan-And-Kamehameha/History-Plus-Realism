@@ -1,7 +1,7 @@
 
 # Republic od Dahlak
 1057.1.1 = {
-  liege="d_dahlak"
+  #liege="d_dahlak"
   holder=1000229604
 }
 1093.6.6={

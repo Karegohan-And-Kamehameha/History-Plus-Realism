@@ -161,6 +161,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_customize_ruler"
+		texturefile = "gfx/new_traits/abdicated.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_deaf"
 		texturefile = "gfx/new_traits/deaf.tga"
 		noOfFrames = 1
@@ -400,21 +407,21 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_trait_exalted2"
-		texturefile = "gfx/new_traits/exalted1.tga"
+		texturefile = "gfx/new_traits/exalted2.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_exalted3"
-		texturefile = "gfx/new_traits/exalted1.tga"
+		texturefile = "gfx/new_traits/exalted3.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_exalted4"
-		texturefile = "gfx/new_traits/exalted1.tga"
+		texturefile = "gfx/new_traits/exalted4.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -658,6 +665,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_martyr"
+		texturefile = "gfx/new_traits/martyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_master_warrior"
 		texturefile = "gfx/new_traits/master_warrior.tga"
 		noOfFrames = 1
@@ -674,6 +688,62 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_messalian_master"
 		texturefile = "gfx/new_traits/perfect_messalian.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minus_1_age"
+		texturefile = "gfx/new_traits/minus1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minus_2_age"
+		texturefile = "gfx/new_traits/minus2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minus_4_age"
+		texturefile = "gfx/new_traits/minus4.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minus_8_age"
+		texturefile = "gfx/new_traits/minus8.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minus_12_age"
+		texturefile = "gfx/new_traits/minus12.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minus_16_age"
+		texturefile = "gfx/new_traits/minus16.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minus_20_age"
+		texturefile = "gfx/new_traits/minus20.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minus_50_age"
+		texturefile = "gfx/new_traits/minus50.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -810,6 +880,13 @@ spriteTypes = {
 		noOfFrames = 1
  		norefcount = yes
  		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_saint"
+		texturefile = "gfx/new_traits/saint.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_sandaliati"

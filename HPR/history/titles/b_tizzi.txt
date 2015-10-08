@@ -1,6 +1,6 @@
 
 1066.1.1={
-holding_dynasty = 1000101554 # Tizzi - makes this a FAMILY_PALACE type Holding
+holding_dynasty = 1000101555 # Tizzi - makes this a FAMILY_PALACE type Holding
 	liege="d_dahlak"
 	holder=1000229640
 }

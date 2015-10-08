@@ -19,7 +19,7 @@ religion = chalcedonian
 terrain = mountain
 
 # History
-
+860.1.1 = { trade_post = b_caboga }
 
 #foundation of the bishopric of Kefalonia
 

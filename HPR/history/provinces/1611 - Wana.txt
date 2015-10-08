@@ -13,4 +13,4 @@ religion = hindu
 
 # History
 960.1.1 = {	religion = sunni }
-980.1.1 = {	culture = pashtun }
+980.1.1 = {	culture = afghan }

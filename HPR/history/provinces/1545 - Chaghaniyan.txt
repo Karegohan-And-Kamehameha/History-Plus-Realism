@@ -14,7 +14,7 @@ b_darzangi = temple
 #b_hamvaran = city
 
 # Misc
-culture = soghdian
+culture = sogdian
 religion = buddhist
 
 # History

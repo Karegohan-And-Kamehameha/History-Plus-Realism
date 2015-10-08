@@ -13,7 +13,7 @@ b_aqsu = tribal
 # b_jam = city
 
 # Misc
-culture = uighur
+culture = uyghur
 religion = buddhist
 
 # History

@@ -5,7 +5,7 @@ title = c_ustyurt
 
 # Settlements
 max_settlements = 1
-#b_ustyurt = tribal
+b_ustyurt = tribal
 
 # Misc
 culture = khwarezmi
@@ -14,6 +14,6 @@ religion = zoroastrian
 # History
 
 900.1.1 = { culture = oghuz }
-1050.1.1 = { religion = sunni } 
+1050.1.1 = { religion = sunni }
 1221.1.1 = { culture = turkmen }
 

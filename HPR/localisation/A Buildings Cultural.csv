@@ -273,7 +273,7 @@ ca_culture_group_arabic_1_desc;Camels make adaptable and sturdy mounts, especial
 ca_culture_group_horse_arabic_1_desc;At the pinnacle of Arab cavalry tradition is Furusiyya. The code demands strict training in the use of lance, sword, bow and above else, horsemanship, all of which a true Faris must master.;At the pinnacle of Arab cavalry tradition is Furusiyya. The code demands strict training in the use of lance, sword, bow and above else, horsemanship, all of which a true Faris must master.;At the pinnacle of Arab cavalry tradition is Furusiyya. The code demands strict training in the use of lance, sword, bow and above else, horsemanship, all of which a true Faris must master.;;At the pinnacle of Arab cavalry tradition is Furusiyya. The code demands strict training in the use of lance, sword, bow and above else, horsemanship, all of which a true Faris must master.;;;;;;;;;x
 #;;;;;;;;;;;;;;
 ##### Persian;;;;;;;;;;;;;;
-ca_culture_group_persian_1_desc;Renowned for their ferocity, the heavily armed Kwarzim cavalry is a force to be reckoned with.;Renowned for their ferocity, the heavily armed Kwarzim cavalry is a force to be reckoned with.;Renowned for their ferocity, the heavily armed Kwarzim cavalry is a force to be reckoned with.;;Renowned for their ferocity, the heavily armed Kwarzim cavalry is a force to be reckoned with.;;;;;;;;;x
+ca_culture_group_persian_1_desc;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;;;;;;;;;x
 #;;;;;;;;;;;;;;
 ##### Altaic;;;;;;;;;;;;;;
 ca_culture_group_altaic_1_desc;The feared horse archers of the Asiatic Steppes are trained here. These highly mobile horsemen frequently outmaneuver their opponents, and are some of the finest warriors the world has ever seen.;Les redoutables archers à cheval des steppes asiatiques sont entraînés ici. Ces cavaliers très mobiles déjouent fréquemment les tactiques de leurs adversaires. Ils sont parmi les meilleurs guerriers que le monde ait jamais vus.;Die gefürchteten, berittenen Bogenschützen der asiatischen Steppe werden hier ausgebildet. Diese hochbeweglichen Reiter manövrieren ihre Gegner häufig aus und gehören zu den besten Kämpfern, die die Welt je gesehen hat.;;Los temidos arqueros a caballo de las estepas asiáticas entrenan aquí. Estos jinetes de gran movilidad con frecuencia superan a sus oponentes y se cuentan entre los mejores guerreros que se han visto jamás.;;;;;;;;;x
@@ -286,41 +286,41 @@ ca_culture_group_desert_nomad_2;Bedouin tribe;Tribu Bédouine;Beduinen-Stamm;;Tri
 ca_culture_group_desert_nomad_1_desc;Bedouin tribesmen were nomads living on the shores of the desert with their herds. They were wild and dangerous opponents on the field, but if they united under the tribal cohesion, 'asabiyya, they could be used as a dangerous tool against enemies.;Tribus bédouines étaient des adversaires sauvages et dangereux sur le terrain, mais si ils se sont unis sous la cohésion tribale, 'asabiyya, ils pourraient être utilisés comme outil dangereux contre des ennemis.;Beduinen-Stammesangehörigen waren wilde und gefährliche Gegner auf dem Feld, aber wenn sie unter der Stammes Zusammenhalt, Asabiyya vereint, konnten sie als gefährliches Werkzeug gegen Feinde eingesetzt werden. ;;Miembros de una tribu de beduinos eran opositores salvajes y peligrosos en el campo, pero si se unen bajo la cohesión tribal, asabiyya, podrían ser utilizados como herramienta peligrosa contra los enemigos.;;;;;;;;;x
 ca_culture_group_desert_nomad_2_desc;Bedouin tribesmen were nomads living on the shores of the desert with their herds. They were wild and dangerous opponents on the field, but if they united under the tribal cohesion, 'asabiyya, they could be used as a dangerous tool against enemies.;Tribus bédouines étaient des adversaires sauvages et dangereux sur le terrain, mais si ils se sont unis sous la cohésion tribale, 'asabiyya, ils pourraient être utilisés comme outil dangereux contre des ennemis.;Beduinen-Stammesangehörigen waren wilde und gefährliche Gegner auf dem Feld, aber wenn sie unter der Stammes Zusammenhalt, Asabiyya vereint, konnten sie als gefährliches Werkzeug gegen Feinde eingesetzt werden.;;Miembros de una tribu de beduinos eran opositores salvajes y peligrosos en el campo, pero si se unen bajo la cohesión tribal, asabiyya, podrían ser utilizados como herramienta peligrosa contra los enemigos.;;;;;;;;;x
 ##### Iranian group;;;;;;;;;;;;;;
-ca_persian_1;Zhayedán Training Ground;Terrain d'entraînement des zhayedan;Zhayedán-Übungsgelände;;Campo de entrenamiento de zhayedan;;;;;;;;;x
-ca_persian_2;Zhayedán Training Ground;Terrain d'entraînement des zhayedan;Zhayedán-Übungsgelände;;Campo de entrenamiento de zhayedan;;;;;;;;;x
-ca_persian_3;Zhayedán Training Ground;Terrain d'entraînement des zhayedan;Zhayedán-Übungsgelände;;Campo de entrenamiento de zhayedan;;;;;;;;;x
-ca_persian_4;Zhayedán Training Ground;Terrain d'entraînement des zhayedan;Zhayedán-Übungsgelände;;Campo de entrenamiento de zhayedan;;;;;;;;;x
-ca_persian_1_desc;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;;;;;;;;;x
+ca_culture_persian_1;Zhayedán Training Ground;Terrain d'entraînement des zhayedan;Zhayedán-Übungsgelände;;Campo de entrenamiento de zhayedan;;;;;;;;;x
+ca_culture_persian_2;Zhayedán Training Ground;Terrain d'entraînement des zhayedan;Zhayedán-Übungsgelände;;Campo de entrenamiento de zhayedan;;;;;;;;;x
+ca_culture_persian_3;Zhayedán Training Ground;Terrain d'entraînement des zhayedan;Zhayedán-Übungsgelände;;Campo de entrenamiento de zhayedan;;;;;;;;;x
+ca_culture_persian_4;Zhayedán Training Ground;Terrain d'entraînement des zhayedan;Zhayedán-Übungsgelände;;Campo de entrenamiento de zhayedan;;;;;;;;;x
+ca_culture_persian_1_desc;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;;;;;;;;;x
 #;;;;;;;;;;;;;;
-ca_khwarezmian_1;Khwarezmiyya Training Ground;Terrain d'entraînement des khwarezmiyya;Khwarezmiyya-Übungsgelände;;Campo de entrenamiento de khwarezmiyya;;;;;;;;;x
-ca_khwarezmian_2;Khwarezmiyya Training Ground;Terrain d'entraînement des khwarezmiyya;Khwarezmiyya-Übungsgelände;;Campo de entrenamiento de khwarezmiyya;;;;;;;;;x
-ca_khwarezmian_3;Khwarezmiyya Training Ground;Terrain d'entraînement des khwarezmiyya;Khwarezmiyya-Übungsgelände;;Campo de entrenamiento de khwarezmiyya;;;;;;;;;x
-ca_khwarezmian_4;Khwarezmiyya Training Ground;Terrain d'entraînement des khwarezmiyya;Khwarezmiyya-Übungsgelände;;Campo de entrenamiento de khwarezmiyya;;;;;;;;;x
-ca_khwarezmian_1_desc;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;;;;;;;;;x
+ca_culture_khwarezmian_1;Khwarezmiyya Training Ground;Terrain d'entraînement des khwarezmiyya;Khwarezmiyya-Übungsgelände;;Campo de entrenamiento de khwarezmiyya;;;;;;;;;x
+ca_culture_khwarezmian_2;Khwarezmiyya Training Ground;Terrain d'entraînement des khwarezmiyya;Khwarezmiyya-Übungsgelände;;Campo de entrenamiento de khwarezmiyya;;;;;;;;;x
+ca_culture_khwarezmian_3;Khwarezmiyya Training Ground;Terrain d'entraînement des khwarezmiyya;Khwarezmiyya-Übungsgelände;;Campo de entrenamiento de khwarezmiyya;;;;;;;;;x
+ca_culture_khwarezmian_4;Khwarezmiyya Training Ground;Terrain d'entraînement des khwarezmiyya;Khwarezmiyya-Übungsgelände;;Campo de entrenamiento de khwarezmiyya;;;;;;;;;x
+ca_culture_khwarezmian_1_desc;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;;Renowned for their ferocity, the heavily armed Kwarzim cavalry are a force to be reckoned with.;;;;;;;;;x
 #;;;;;;;;;;;;;;
-ca_daylamite_1;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
-ca_daylamite_2;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
-ca_daylamite_3;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
-ca_daylamite_4;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
-ca_daylamite_1_desc;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
+ca_culture_daylamite_1;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
+ca_culture_daylamite_2;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
+ca_culture_daylamite_3;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
+ca_culture_daylamite_4;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
+ca_culture_daylamite_1_desc;Daylamite Training Ground;Terrain d'entraînement des daylamites;Daylamische-Übungsgelände*;;Campo de entrenamiento dos Dailamitas;;;;;;;;;x
 #;;;;;;;;;;;;;;
-ca_scythian_1;Ghulamiyya Training Ground;Terrain d'entraînement des ghoulams;Ghulamiyya-Übungsgelände;;Campo de entrenamiento de ghulamiyya;;;;;;;;;x
-ca_scythian_2;Ghulamiyya Training Ground;Terrain d'entraînement des ghoulams;Ghulamiyya-Übungsgelände;;Campo de entrenamiento de ghulamiyya;;;;;;;;;x
-ca_scythian_3;Ghulamiyya Training Ground;Terrain d'entraînement des ghoulams;Ghulamiyya-Übungsgelände;;Campo de entrenamiento de ghulamiyya;;;;;;;;;x
-ca_scythian_4;Ghulamiyya Training Ground;Terrain d'entraînement des ghoulams;Ghulamiyya-Übungsgelände;;Campo de entrenamiento de ghulamiyya;;;;;;;;;x
-ca_scythian_1_desc;Renowned for their ferocity, the heavily armed East Iranian cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed East Iranian cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed East Iranian cavalry are a force to be reckoned with.;;Renowned for their ferocity, the heavily armed East Iranian cavalry are a force to be reckoned with.;;;;;;;;;x
+ca_culture_scythian_1;Ghulamiyya Training Ground;Terrain d'entraînement des ghoulams;Ghulamiyya-Übungsgelände;;Campo de entrenamiento de ghulamiyya;;;;;;;;;x
+ca_culture_scythian_2;Ghulamiyya Training Ground;Terrain d'entraînement des ghoulams;Ghulamiyya-Übungsgelände;;Campo de entrenamiento de ghulamiyya;;;;;;;;;x
+ca_culture_scythian_3;Ghulamiyya Training Ground;Terrain d'entraînement des ghoulams;Ghulamiyya-Übungsgelände;;Campo de entrenamiento de ghulamiyya;;;;;;;;;x
+ca_culture_scythian_4;Ghulamiyya Training Ground;Terrain d'entraînement des ghoulams;Ghulamiyya-Übungsgelände;;Campo de entrenamiento de ghulamiyya;;;;;;;;;x
+ca_culture_scythian_1_desc;Renowned for their ferocity, the heavily armed East Iranian cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed East Iranian cavalry are a force to be reckoned with.;Renowned for their ferocity, the heavily armed East Iranian cavalry are a force to be reckoned with.;;Renowned for their ferocity, the heavily armed East Iranian cavalry are a force to be reckoned with.;;;;;;;;;x
 #;;;;;;;;;;;;;;
-ca_kurdish_1;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
-ca_kurdish_2;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
-ca_kurdish_3;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
-ca_kurdish_4;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
-ca_kurdish_1_desc;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
+ca_culture_kurdish_1;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
+ca_culture_kurdish_2;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
+ca_culture_kurdish_3;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
+ca_culture_kurdish_4;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
+ca_culture_kurdish_1_desc;Kurdish Training Ground;Terrain d'entraînement des Kurds;Kurdische-Übungsgelände*;;Campo de entrenamiento dos Kurdos;;;;;;;;;x
 #;;;;;;;;;;;;;;
-ca_soghdian_1;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
-ca_soghdian_2;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
-ca_soghdian_3;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
-ca_soghdian_4;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
-ca_soghdian_1_desc;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
+ca_culture_sogdian_1;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
+ca_culture_sogdian_2;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
+ca_culture_sogdian_3;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
+ca_culture_sogdian_4;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
+ca_culture_sogdian_1_desc;Soghdian Training Ground;Terrain d'entraînement des Soghdians;Soghdische-Übungsgelände*;;Campo de entrenamiento dos Sogdianos;;;;;;;;;x
 #;;;;;;;;;;;;;;
 tb_culture_group_altaic_nomad_1;Ordu;Ordu;Ordu;;Ordu;;;;;;;;;x
 tb_culture_group_altaic_nomad_2;Ordu;Ordu;Ordu;;Ordu;;;;;;;;;x

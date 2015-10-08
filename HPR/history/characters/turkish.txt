@@ -2426,10 +2426,107 @@
 		decadence = -25
 	}
 	1066.9.14 = {
-		raise_levies = {
-			location=667 # Tabriz
-			force_mult=1.0
-		}
+		effect = {
+			random_realm_province = {
+				limit = {
+					any_neighbor_province = {
+						owner = {
+							top_liege = {
+								has_landed_title = e_byzantium
+							}
+						}
+					}
+				}
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 0.2
+						disband_on_peace = yes
+					}
+				}
+			}
+			random_realm_province = {
+				limit = {
+					any_neighbor_province = {
+						owner = {
+							top_liege = {
+								has_landed_title = e_byzantium
+							}
+						}
+					}
+				}
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 0.18
+						disband_on_peace = yes
+					}
+				}
+			}
+			random_realm_province = {
+				limit = {
+					any_neighbor_province = {
+						owner = {
+							top_liege = {
+								has_landed_title = e_byzantium
+							}
+						}
+					}
+				}
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 0.16
+						disband_on_peace = yes
+					}
+				}
+			}
+			random_realm_province = {
+				limit = {
+					any_neighbor_province = {
+						owner = {
+							top_liege = {
+								has_landed_title = e_byzantium
+							}
+						}
+					}
+				}
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 0.15
+						disband_on_peace = yes
+					}
+				}
+			}
+			random_realm_province = {
+				limit = {
+					any_neighbor_province = {
+						owner = {
+							top_liege = {
+								has_landed_title = e_byzantium
+							}
+						}
+					}
+				}
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 0.14
+						disband_on_peace = yes
+					}
+				}
+			}
 	}
 	1072.11.1={
 		death = yes
@@ -2583,7 +2680,7 @@
 	}
 	1085.1.1={
 		add_spouse=34263
-	} 
+	}
 	1107.1.1={
 		death="1107.1.1"
 	}
@@ -2605,7 +2702,7 @@
 	}
 	1130.1.1={
 		add_spouse=34210
-	} 
+	}
 	1155.4.1={
 		death="1155.4.1"
 	}
@@ -3523,10 +3620,10 @@
 71843 = {
 	name="Khaima"
 	female=yes
-	
+
 	religion="sunni"
 	culture="turkish"
-	
+
 	1240.1.1={
 		birth="1240.1.1"
 	}
@@ -4260,7 +4357,7 @@
 }
 
 32930 = {
-	name="Aybak" 
+	name="Aybak"
 	dynasty=7268
 	religion="sunni"
 	culture="turkish"
@@ -4269,14 +4366,14 @@
 	}
 	1250.1.1={
 		add_spouse=32928
-	} 
+	}
 	1257.1.1={
 		death="1257.1.1"
 	}
 }
 
 32931 = {
-	name="al-Mansour Ali" 
+	name="al-Mansour Ali"
 	dynasty=7268
 	religion="sunni"
 	culture="turkish"
@@ -4290,7 +4387,7 @@
 }
 
 32932 = {
-	name="Qutuz" 
+	name="Qutuz"
 	dynasty=7269
 	religion="sunni"
 	culture="turkish"
@@ -5090,7 +5187,7 @@
 }
 
 34233 = {
-	name="Moghis" 
+	name="Moghis"
 	dynasty=613
 	religion="sunni"
 	culture="turkish"
@@ -5103,7 +5200,7 @@
 	}
 	1219.1.1={
 		religion="orthodox"
-	} 
+	}
 	1230.1.1={
 		death="1230.1.1"
 	}
@@ -5715,7 +5812,7 @@
 }
 
 93087 = {
-	name="Qochar" 
+	name="Qochar"
 	dynasty=7328
 	religion="sunni"
 	culture="turkish"
@@ -5728,7 +5825,7 @@
 }
 
 93088 = {
-	name="Ekinchi" 
+	name="Ekinchi"
 	dynasty=7328
 	religion="sunni"
 	culture="turkish"
@@ -5900,7 +5997,7 @@
 }
 
 93123 = {
-	name="Ilyas" 
+	name="Ilyas"
 	dynasty=613
 	religion="sunni"
 	culture="turkish"
@@ -6066,7 +6163,7 @@
 		death="1170.1.1"
 	}
 }
- 
+
 93211= {
 	name="Surkhab"
 	dynasty=7334
@@ -6319,7 +6416,7 @@
 	}
 }
 93241 = {
-	name="Boz-Aba" 
+	name="Boz-Aba"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6332,7 +6429,7 @@
 }
 
 93242 = {
-	name="Sunghur" 
+	name="Sunghur"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6346,7 +6443,7 @@
 }
 
 93243 = {
-	name="Muzaffar ad-Din Zangi" 
+	name="Muzaffar ad-Din Zangi"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6360,7 +6457,7 @@
 }
 
 93244 = {
-	name="Dakla" 
+	name="Dakla"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6375,7 +6472,7 @@
 
 
 93245 = {
-	name="Toghril" 
+	name="Toghril"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6391,7 +6488,7 @@
 
 
 93246 = {
-	name="Saad" 
+	name="Saad"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6405,7 +6502,7 @@
 }
 
 93247 = {
-	name="Abu-Bakr Qutlugh" 
+	name="Abu-Bakr Qutlugh"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6419,7 +6516,7 @@
 }
 
 93248 = {
-	name="Saad" 
+	name="Saad"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6433,7 +6530,7 @@
 }
 
 93249 = {
-	name="Muhammad Adud ad-Din" 
+	name="Muhammad Adud ad-Din"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6447,7 +6544,7 @@
 }
 
 93250 = {
-	name="Muhammad" 
+	name="Muhammad"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6461,7 +6558,7 @@
 }
 
 93251 = {
-	name="Seljuk" 
+	name="Seljuk"
 	dynasty=7335
 	religion="sunni"
 	culture="turkish"
@@ -6475,7 +6572,7 @@
 }
 
 93252 = {
-	name="Abisha Hadud" 
+	name="Abisha Hadud"
 	female=yes
 	dynasty=7335
 	religion="sunni"
@@ -7185,7 +7282,7 @@
 	837.1.1={
 		birth = yes
 	}
-	
+
 	867.1.1 = {
 		# Boost the initial strength of the Pechenegs
 		effect = {
@@ -7252,11 +7349,11 @@
 				attrition = 0.5
                                 earmark = start_troops
 			}
-                   			
+
                    }
 		}
 	}
-	
+
 	891.1.1={
 		death = yes
 	}
@@ -8683,7 +8780,7 @@
 }
 188682 = {
 	# general who defeated al-Muqanna
-	name="Sa'id" 
+	name="Sa'id"
 	dynasty=1042149
 	religion="sunni"
 	culture="turkish"

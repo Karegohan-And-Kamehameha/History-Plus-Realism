@@ -555,8 +555,8 @@
 	trait="martial_cleric"
 	father=100538
 	mother=100535
-	1047.1.1={
-		birth="1047.1.1"
+	1041.1.1={
+		birth=yes
 	}
 	1054.1.1 = {
 		religion = "catholic"
@@ -565,7 +565,7 @@
 		add_spouse=167630
 	}
 	1100.1.1={
-		death="1100.1.1"
+		death=yes
 	}
 }
 
@@ -581,14 +581,14 @@
 	trait="martial_cleric"
 	father=100538
 	mother=100535
-	1052.1.1={
-		birth="1052.1.1"
+	1043.1.1={
+		birth=yes
 	}
 	1054.1.1 = {
 		religion = "catholic"
 	}
 	1102.1.1={
-		death="1102.1.1"
+		death=yes
 	}
 }
 
@@ -602,10 +602,10 @@
 	religion = "chalcedonian"
 	culture="gothic"
 	trait="flamboyant_schemer"
-	1025.1.1={
+	1020.1.1={
 		birth="1025.1.1"
 	}
-	1045.1.1={
+	1040.1.1={
 		add_spouse=100535
 	}
 	1054.1.1 = {

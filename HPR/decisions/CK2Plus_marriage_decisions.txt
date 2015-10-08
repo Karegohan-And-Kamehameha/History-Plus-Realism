@@ -2,6 +2,7 @@ decisions = {
 	marry_close = { #Marry a close relative
 		potential = {
 			ai = yes
+			has_character_flag = ai_spouse_finder
 			OR = {
 				religion = zoroastrian
 				religion = zurvanist
@@ -9,148 +10,54 @@ decisions = {
 				religion = hellenic_pagan
 				religion = egyptian_pagan
 			}
-			is_married = no
-			is_betrothed = no
-			can_marry = yes
-			is_adult = yes
-			fertility = 0.01
+			NOT = { has_character_flag = checked_close_marriage }
+			NOT = { dynasty = none }
 			OR = {
-				NOT = { age = 40 }
-				is_female = no
-			}
-			OR = {
-				is_female = no
-				is_ruler = yes
-				is_primary_heir = yes
-			}
-			OR = {
-				is_ruler = yes
-				father_even_if_dead = { higher_tier_than = BARON }
-				mother_even_if_dead = { higher_tier_than = BARON }
-				any_close_relative = { higher_tier_than = COUNT }
-			}
-			any_dynasty_member = {
-				ai = yes
-				is_close_relative = ROOT
-				is_within_diplo_range = ROOT
-				can_marry = ROOT
-				religion = ROOT
-				is_adult = yes
-				is_married = no
-				is_betrothed = no
-				is_consort = no
-				fertility = 0.01
-				prisoner = no
-				in_command = no
-				is_pregnant = no
-				is_ill = no
-				NOR = {
-					trait = incapable
-					trait = in_hiding
-				}
-				OR = {
-					NOT = { age = 30 }
-					is_female = no
-				}
-				OR = {
-					AND = {
-						NOT = { age = 25 }
-						fertility = 0.30
-					}
-					NOR = {
-						age = 40
-						age_diff = { who = ROOT years = 3 }
-						ROOT = { age_diff = { who = PREV years = 10 } }
-					}
-				}
-				OR = {
-					is_ruler = yes
-					liege = { ai = no }
-					NOT = { liege = { is_close_relative = ROOT } }
-					age = 20
-				}
-				OR = {
-					is_ruler = yes
-					NOT = {
-						liege = {
-							ai = no
-							OR = {
-								is_close_relative = PREV
-								dynasty = PREV
-							}
-						}
-					}
-				}
+				father_even_if_dead = { always = yes }
+				mother_even_if_dead = { always = yes }
 			}
 		}
 		allow = {
-			is_ill = no
-			in_command = no
-			prisoner = no
-			is_pregnant = no
-			NOR = {
-				trait = incapable
-				trait = in_hiding
-				has_character_modifier = do_not_disturb
+			OR = {
+				is_married = no
+				AND = {
+					has_polygamy = yes
+					NOT = { num_of_spouses = 2 }
+					real_tier = COUNT
+				}
+				AND = {
+					has_polygamy = yes
+					NOT = { num_of_spouses = 3 }
+					OR = {
+						real_tier = DUKE
+						has_minor_title = title_prince
+					}
+				}
+				AND = {
+					has_polygamy = yes
+					NOT = { num_of_spouses = 4 }
+					higher_real_tier_than = DUKE
+				}
 			}
 		}
 		effect = {
+			set_character_flag = checked_close_marriage
 			random_dynasty_member = {
 				limit = {
 					ai = yes
 					is_close_relative = ROOT
-					is_within_diplo_range = ROOT
-					can_marry = ROOT
-					religion = ROOT
-					is_adult = yes
-					is_married = no
-					is_betrothed = no
-					is_consort = no
-					fertility = 0.01
-					prisoner = no
-					in_command = no
-					is_pregnant = no
-					is_ill = no
-					NOR = {
-						trait = incapable
-						trait = in_hiding
-					}
-					OR = {
-						NOT = { age = 30 }
-						is_female = no
-					}
-					OR = {
-						AND = {
-							NOT = { age = 25 }
-							fertility = 0.30
-						}
-						NOR = {
-							age = 40
-							age_diff = { who = ROOT years = 3 }
-							ROOT = { age_diff = { who = PREV years = 10 } }
-						}
-					}
-					OR = {
-						is_ruler = yes
-						liege = { ai = no }
-						NOT = { liege = { is_close_relative = ROOT } }
-						age = 20
-					}
-					OR = {
-						is_ruler = yes
-						NOT = {
-							liege = {
-								ai = no
-								OR = {
-									is_close_relative = PREV
-									dynasty = PREV
-								}
-							}
-						}
-					}
+					can_marry_trigger = yes
 				}
 				log = "[This.GetTitledName] marries [Root.GetTitledName] (Close Marriage)"
 				add_spouse = ROOT
+				ROOT = {
+					clr_character_flag = ai_spouse_finder
+					clr_character_flag = checked_avuncular1
+					clr_character_flag = checked_avuncular2
+					clr_character_flag = checked_cousin
+					clr_character_flag = checked_paternal_cousin
+					clr_character_flag = checked_close_marriage
+				}
 				break = yes
 			}
 		}
@@ -176,6 +83,19 @@ decisions = {
 					higher_real_tier_than = COUNT
 					any_close_relative = { higher_real_tier_than = COUNT }
 				}
+			}
+			modifier = {
+				factor = 1.25
+				NOT = {
+					any_child = {
+						is_female = no
+						NOT = { trait = bastard }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { age = 25 }
 			}
 			modifier = {
 				factor = 0
@@ -205,7 +125,16 @@ decisions = {
 	marry_avuncular_1 = { #Marry niece or nephew
 		potential = {
 			ai = yes
+			has_character_flag = ai_spouse_finder
 			NOT = { religion_group = muslim }
+			NOT = { has_character_flag = checked_avuncular1 }
+			NOT = { dynasty = none }
+			OR = {
+				father_even_if_dead = { always = yes }
+				mother_even_if_dead = { always = yes }
+			}
+		}
+		allow = {
 			OR = {
 				is_married = no
 				AND = {
@@ -227,235 +156,152 @@ decisions = {
 					higher_real_tier_than = DUKE
 				}
 			}
-			is_betrothed = no
-			can_marry = yes
-			is_adult = yes
-			fertility = 0.01
-			OR = {
-				NOT = { age = 40 }
-				is_female = no
-			}
-			OR = {
-				is_female = no
-				is_ruler = yes
-				is_primary_heir = yes
-			}
-			OR = {
-				is_ruler = yes
-				father_even_if_dead = { higher_tier_than = BARON }
-				mother_even_if_dead = { higher_tier_than = BARON }
-				any_close_relative = { higher_tier_than = COUNT }
-			}			
-			any_opinion_modifier_target = {
-				OR = {
-					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_niece_fix }
-					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_nephew_fix }
-				}
-				ai = yes
-				can_marry = ROOT
-				religion = ROOT
-				is_within_diplo_range = ROOT
-				is_adult = yes
-				is_married = no
-				is_betrothed = no
-				is_consort = no
-				fertility = 0.01
-				prisoner = no
-				in_command = no
-				is_pregnant = no
-				is_ill = no
-				NOR = {
-					trait = incapable
-					trait = in_hiding
-				}
-				OR = {
-					NOT = { age = 30 }
-					is_female = no
-				}
-				OR = {
-					AND = {
-						NOT = { age = 25 }
-						fertility = 0.30
-					}
-					NOR = {
-						age = 40
-						age_diff = { who = ROOT years = 3 }
-						ROOT = { age_diff = { who = PREV years = 10 } }
-					}
-				}
-				OR = {
-					is_ruler = yes
-					liege = { ai = no }
-					NOT = { liege = { is_close_relative = ROOT } }
-					age = 20
-				}
-				OR = {
-					same_realm = ROOT
-					father = { same_realm = PREV }
-					religion = ROOT
-				}
-				OR = {
-					is_ruler = yes
-					NOT = {
-						liege = {
-							ai = no
-							OR = {
-								is_close_relative = PREV
-								dynasty = PREV
-							}
-						}
-					}
-				}
-			}
-		}
-		allow = {
-			is_ill = no
-			in_command = no
-			prisoner = no
-			is_pregnant = no
-			NOR = {
-				trait = incapable
-				trait = in_hiding
-				has_character_modifier = do_not_disturb
-			}
 		}
 		effect = {
+			set_character_flag = checked_avuncular1
 			#prefer the child of my brother
-			random_opinion_modifier_target = {
+			top_liege = {
+				random_realm_character = {
+					limit = {
+						ai = yes
+						NOT = { is_child_of = ROOT }
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { character = PREVPREV } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { character = PREVPREV } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
+			}
+			random_independent_ruler = {
 				limit = {
-					OR = {
-						father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { character = PREVPREV } } } }
-						father_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { character = PREVPREV } } } }
-					}
-					OR = {
-						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_niece_fix }
-						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_nephew_fix }
-					}
-					ai = yes
-					can_marry = ROOT
-					religion = ROOT
-					is_within_diplo_range = ROOT
-					is_adult = yes
-					is_married = no
-					is_betrothed = no
-					is_consort = no
-					fertility = 0.01
-					prisoner = no
-					in_command = no
-					is_pregnant = no
-					is_ill = no
-					NOR = {
-						trait = incapable
-						trait = in_hiding
-					}
-					OR = {
-						NOT = { age = 30 }
-						is_female = no
-					}
-					OR = {
-						AND = {
-							NOT = { age = 25 }
-							fertility = 0.30
+					any_realm_character = {
+						ai = yes
+						NOT = { is_child_of = ROOT }
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
 						}
-						NOR = {
-							age = 40
-							age_diff = { who = ROOT years = 3 }
-							ROOT = { age_diff = { who = PREV years = 10 } }
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { character = PREVPREV } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { character = PREVPREV } } } }
 						}
-					}
-					OR = {
-						is_ruler = yes
-						liege = { ai = no }
-						NOT = { liege = { is_close_relative = ROOT } }
-						age = 20
-					}
-					OR = {
-						same_realm = ROOT
-						father = { same_realm = PREV }
-						religion = ROOT
-					}
-					OR = {
-						is_ruler = yes
-						NOT = {
-							liege = {
-								ai = no
-								OR = {
-									is_close_relative = PREV
-									dynasty = PREV
-								}
-							}
-						}
+						can_marry_trigger = yes
 					}
 				}
-				log = "[This.GetTitledName] marries [Root.GetTitledName] (Avuncular1 Marriage)"
-				add_spouse = ROOT
-				break = yes
+				random_realm_character = {
+					limit = {
+						ai = yes
+						NOT = { is_child_of = ROOT }
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { character = PREVPREV } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { character = PREVPREV } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
 			}
 			#then marry them to any niece/nephew
-			random_opinion_modifier_target = {
+			top_liege = {
+				random_realm_character = {
+					limit = {
+						ai = yes
+						NOT = { is_child_of = ROOT }
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						OR = {
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { character = PREVPREV } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { character = PREVPREV } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
+			}
+			random_independent_ruler = {
 				limit = {
-					OR = {
-						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_niece_fix }
-						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_nephew_fix }
-					}
-					ai = yes
-					can_marry = ROOT
-					religion = ROOT
-					is_within_diplo_range = ROOT
-					is_adult = yes
-					is_married = no
-					is_betrothed = no
-					is_consort = no
-					fertility = 0.01
-					prisoner = no
-					in_command = no
-					is_pregnant = no
-					is_ill = no
-					NOR = {
-						trait = incapable
-						trait = in_hiding
-					}
-					OR = {
-						NOT = { age = 30 }
-						is_female = no
-					}
-					OR = {
-						AND = {
-							NOT = { age = 25 }
-							fertility = 0.30
+					any_realm_character = {
+						ai = yes
+						NOT = { is_child_of = ROOT }
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
 						}
-						NOR = {
-							age = 40
-							age_diff = { who = ROOT years = 3 }
-							ROOT = { age_diff = { who = PREV years = 10 } }
+						OR = {
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { character = PREVPREV } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { character = PREVPREV } } } }
 						}
-					}
-					OR = {
-						is_ruler = yes
-						liege = { ai = no }
-						NOT = { liege = { is_close_relative = ROOT } }
-						age = 20
-					}
-					OR = {
-						same_realm = ROOT
-						father = { same_realm = PREV }
-						religion = ROOT
-					}
-					OR = {
-						is_ruler = yes
-						NOT = {
-							liege = {
-								ai = no
-								OR = {
-									is_close_relative = PREV
-									dynasty = PREV
-								}
-							}
-						}
+						can_marry_trigger = yes
 					}
 				}
-				log = "[This.GetTitledName] marries [Root.GetTitledName] (Avuncular1 Marriage)"
-				add_spouse = ROOT
+				random_realm_character = {
+					limit = {
+						ai = yes
+						NOT = { is_child_of = ROOT }
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						OR = {
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { character = PREVPREV } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { character = PREVPREV } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
 			}
 		}
 		ai_will_do = { 
@@ -499,6 +345,19 @@ decisions = {
 				factor = 0.5
 				religion = messalian
 			}
+			modifier = {
+				factor = 1.25
+				NOT = {
+					any_child = {
+						is_female = no
+						NOT = { trait = bastard }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { age = 25 }
+			}
 		}
 	}
 
@@ -506,7 +365,16 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			ai = yes
+			has_character_flag = ai_spouse_finder
 			NOT = { religion_group = muslim }
+			NOT = { has_character_flag = checked_avuncular2 }
+			NOT = { dynasty = none }
+			OR = {
+				father_even_if_dead = { always = yes }
+				mother_even_if_dead = { always = yes }
+			}
+		}
+		allow = {
 			OR = {
 				is_married = no
 				AND = {
@@ -528,235 +396,170 @@ decisions = {
 					higher_real_tier_than = DUKE
 				}
 			}
-			is_betrothed = no
-			can_marry = yes
-			is_adult = yes
-			fertility = 0.01
-			OR = {
-				NOT = { age = 40 }
-				is_female = no
-			}
-			OR = {
-				is_female = no
-				is_ruler = yes
-				is_primary_heir = yes
-			}
-			OR = {
-				is_ruler = yes
-				father_even_if_dead = { higher_tier_than = BARON }
-				mother_even_if_dead = { higher_tier_than = BARON }
-				any_close_relative = { higher_tier_than = COUNT }
-			}			
-			any_opinion_modifier_target = {
-				OR = {
-					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_aunt_fix }
-					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_uncle_fix }
-				}
-				ai = yes
-				can_marry = ROOT
-				religion = ROOT
-				is_within_diplo_range = ROOT
-				is_adult = yes
-				is_married = no
-				is_betrothed = no
-				is_consort = no
-				fertility = 0.01
-				prisoner = no
-				in_command = no
-				is_pregnant = no
-				is_ill = no
-				NOR = {
-					trait = incapable
-					trait = in_hiding
-				}
-				OR = {
-					NOT = { age = 30 }
-					is_female = no
-				}
-				OR = {
-					AND = {
-						NOT = { age = 25 }
-						fertility = 0.30
-					}
-					NOR = {
-						age = 40
-						age_diff = { who = ROOT years = 3 }
-						ROOT = { age_diff = { who = PREV years = 10 } }
-					}
-				}
-				OR = {
-					is_ruler = yes
-					liege = { ai = no }
-					NOT = { liege = { is_close_relative = ROOT } }
-					age = 20
-				}
-				OR = {
-					same_realm = ROOT
-					father = { same_realm = PREV }
-					religion = ROOT
-				}
-				OR = {
-					is_ruler = yes
-					NOT = {
-						liege = {
-							ai = no
-							OR = {
-								is_close_relative = PREV
-								dynasty = PREV
-							}
-						}
-					}
-				}
-			}
-		}
-		allow = {
-			is_ill = no
-			in_command = no
-			prisoner = no
-			is_pregnant = no
-			NOR = {
-				trait = incapable
-				trait = in_hiding
-				has_character_modifier = do_not_disturb
-			}
 		}
 		effect = {
+			set_character_flag = checked_avuncular2
 			#prefer my father's brother/sister
-			random_opinion_modifier_target = {
-				limit = {
-					OR = {
-						father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } }
-						mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } }
-					}
-					OR = {
-						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_aunt_fix }
-						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_uncle_fix }
-					}
-					ai = yes
-					can_marry = ROOT
-					religion = ROOT
-					is_within_diplo_range = ROOT
-					is_adult = yes
-					is_married = no
-					is_betrothed = no
-					is_consort = no
-					fertility = 0.01
-					prisoner = no
-					in_command = no
-					is_pregnant = no
-					is_ill = no
-					NOR = {
-						trait = incapable
-						trait = in_hiding
-					}
-					OR = {
-						NOT = { age = 30 }
-						is_female = no
-					}
-					OR = {
-						AND = {
-							NOT = { age = 25 }
-							fertility = 0.30
+			top_liege = {
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
 						}
 						NOR = {
-							age = 40
-							age_diff = { who = ROOT years = 3 }
-							ROOT = { age_diff = { who = PREV years = 10 } }
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
 						}
-					}
-					OR = {
-						is_ruler = yes
-						liege = { ai = no }
-						NOT = { liege = { is_close_relative = ROOT } }
-						age = 20
-					}
-					OR = {
-						same_realm = ROOT
-						father = { same_realm = PREV }
-						religion = ROOT
-					}
-					OR = {
-						is_ruler = yes
-						NOT = {
-							liege = {
-								ai = no
-								OR = {
-									is_close_relative = PREV
-									dynasty = PREV
-								}
-							}
+						OR = {
+							father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } }
+							mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } }
 						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
+			}
+			random_independent_ruler = {
+				limit = {
+					any_realm_character = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } }
+							mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } }
+						}
+						can_marry_trigger = yes
 					}
 				}
-				log = "[This.GetTitledName] marries [Root.GetTitledName] (Avuncular2 Marriage)"
-				add_spouse = ROOT
-				break = yes
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } }
+							mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
 			}
 			#failing that, any aunt/uncle will do
-			random_opinion_modifier_target = {
-				limit = {
-					OR = {
-						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_aunt_fix }
-						reverse_has_opinion_modifier = { who = ROOT modifier = opinion_uncle_fix }
-					}
-					ai = yes
-					can_marry = ROOT
-					religion = ROOT
-					is_within_diplo_range = ROOT
-					is_adult = yes
-					is_married = no
-					is_betrothed = no
-					is_consort = no
-					fertility = 0.01
-					prisoner = no
-					in_command = no
-					is_pregnant = no
-					is_ill = no
-					NOR = {
-						trait = incapable
-						trait = in_hiding
-					}
-					OR = {
-						NOT = { age = 30 }
-						is_female = no
-					}
-					OR = {
-						AND = {
-							NOT = { age = 25 }
-							fertility = 0.30
+			top_liege = {
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
 						}
 						NOR = {
-							age = 40
-							age_diff = { who = ROOT years = 3 }
-							ROOT = { age_diff = { who = PREV years = 10 } }
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
 						}
-					}
-					OR = {
-						is_ruler = yes
-						liege = { ai = no }
-						NOT = { liege = { is_close_relative = ROOT } }
-						age = 20
-					}
-					OR = {
-						same_realm = ROOT
-						father = { same_realm = PREV }
-						religion = ROOT
-					}
-					OR = {
-						is_ruler = yes
-						NOT = {
-							liege = {
-								ai = no
-								OR = {
-									is_close_relative = PREV
-									dynasty = PREV
-								}
-							}
+						OR = {
+							father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } }
+							mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } }
 						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
+			}
+			random_independent_ruler = {
+				limit = {
+					any_realm_character = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } }
+							mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } }
+						}
+						can_marry_trigger = yes
 					}
 				}
-				log = "[This.GetTitledName] marries [Root.GetTitledName] (Avuncular2 Marriage)"
-				add_spouse = ROOT
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } }
+							mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
 			}
 		}
 		ai_will_do = { 
@@ -800,12 +603,34 @@ decisions = {
 				factor = 0.2
 				religion = messalian
 			}
+			modifier = {
+				factor = 1.25
+				NOT = {
+					any_child = {
+						is_female = no
+						NOT = { trait = bastard }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { age = 25 }
+			}
 		}
 	}
 
 	marry_cousin = { #Make cousin marriage more common.
 		potential = {
 			ai = yes
+			has_character_flag = ai_spouse_finder
+			NOT = { has_character_flag = checked_cousin }
+			NOT = { dynasty = none }
+			OR = {
+				father_even_if_dead = { always = yes }
+				mother_even_if_dead = { always = yes }
+			}
+		}
+		allow = {
 			OR = {
 				is_married = no
 				AND = {
@@ -827,228 +652,182 @@ decisions = {
 					higher_real_tier_than = DUKE
 				}
 			}
-			is_betrothed = no
-			can_marry = yes
-			is_adult = yes
-			fertility = 0.01
-			OR = {
-				NOT = { age = 40 }
-				is_female = no
-			}
-			OR = {
-				is_female = no
-				is_ruler = yes
-				is_primary_heir = yes
-			}
-			OR = {
-				is_ruler = yes
-				father_even_if_dead = { higher_tier_than = BARON }
-				mother_even_if_dead = { higher_tier_than = BARON }
-				any_close_relative = { higher_tier_than = COUNT }
-			}			
-			any_opinion_modifier_target = {
-				reverse_has_opinion_modifier = { who = ROOT modifier = opinion_cousin }
-				ai = yes
-				can_marry = ROOT
-				religion = ROOT
-				is_within_diplo_range = ROOT
-				is_adult = yes
-				is_married = no
-				is_betrothed = no
-				is_consort = no
-				fertility = 0.01
-				prisoner = no
-				in_command = no
-				is_pregnant = no
-				is_ill = no
-				NOR = {
-					trait = incapable
-					trait = in_hiding
-				}
-				OR = {
-					NOT = { age = 30 }
-					is_female = no
-				}
-				OR = {
-					AND = {
-						NOT = { age = 25 }
-						fertility = 0.30
-					}
-					NOR = {
-						age = 40
-						age_diff = { who = ROOT years = 3 }
-						ROOT = { age_diff = { who = PREV years = 10 } }
-					}
-				}
-				OR = {
-					is_ruler = yes
-					liege = { ai = no }
-					NOT = { liege = { is_close_relative = ROOT } }
-					age = 20
-				}
-				OR = {
-					same_realm = ROOT
-					father = { same_realm = PREV }
-					religion = ROOT
-				}
-				OR = {
-					is_ruler = yes
-					NOT = {
-						liege = {
-							ai = no
-							OR = {
-								is_close_relative = PREV
-								dynasty = PREV
-							}
-						}
-					}
-				}
-			}
-		}
-		allow = {
-			is_ill = no
-			in_command = no
-			prisoner = no
-			is_pregnant = no
-			NOR = {
-				trait = incapable
-				trait = in_hiding
-				has_character_modifier = do_not_disturb
-			}
 		}
 		effect = {
+			set_character_flag = checked_cousin
 			#prefer my father's side of the family
-			random_opinion_modifier_target = {
-				limit = {
-					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_cousin }
-					OR = {
-						father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
-						father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
-						mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
-						mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
-					}
-					ai = yes
-					can_marry = ROOT
-					religion = ROOT
-					is_within_diplo_range = ROOT
-					is_adult = yes
-					is_married = no
-					is_betrothed = no
-					is_consort = no
-					fertility = 0.01
-					prisoner = no
-					in_command = no
-					is_pregnant = no
-					is_ill = no
-					NOR = {
-						trait = incapable
-						trait = in_hiding
-					}
-					OR = {
-						NOT = { age = 30 }
-						is_female = no
-					}
-					OR = {
-						AND = {
-							NOT = { age = 25 }
-							fertility = 0.30
+			top_liege = {
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
 						}
 						NOR = {
-							age = 40
-							age_diff = { who = ROOT years = 3 }
-							ROOT = { age_diff = { who = PREV years = 10 } }
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
 						}
-					}
-					OR = {
-						is_ruler = yes
-						liege = { ai = no }
-						NOT = { liege = { is_close_relative = ROOT } }
-						age = 20
-					}
-					OR = {
-						same_realm = ROOT
-						father = { same_realm = PREV }
-						religion = ROOT
-					}
-					OR = {
-						is_ruler = yes
-						NOT = {
-							liege = {
-								ai = no
-								OR = {
-									is_close_relative = PREV
-									dynasty = PREV
-								}
-							}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
 						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
+			}
+			random_independent_ruler = {
+				limit = {
+					any_realm_character = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+						}
+						can_marry_trigger = yes
 					}
 				}
-				log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
-				add_spouse = ROOT
-				break = yes
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
 			}
 			#failing that, my mother's side will do
-			random_opinion_modifier_target = {
-				limit = {
-					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_cousin }
-					ai = yes
-					can_marry = ROOT
-					religion = ROOT
-					is_within_diplo_range = ROOT
-					is_adult = yes
-					is_married = no
-					is_betrothed = no
-					is_consort = no
-					fertility = 0.01
-					prisoner = no
-					in_command = no
-					is_pregnant = no
-					is_ill = no
-					NOR = {
-						trait = incapable
-						trait = in_hiding
-					}
-					OR = {
-						NOT = { age = 30 }
-						is_female = no
-					}
-					OR = {
-						AND = {
-							NOT = { age = 25 }
-							fertility = 0.30
+			top_liege = {
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
 						}
 						NOR = {
-							age = 40
-							age_diff = { who = ROOT years = 3 }
-							ROOT = { age_diff = { who = PREV years = 10 } }
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
 						}
-					}
-					OR = {
-						is_ruler = yes
-						liege = { ai = no }
-						NOT = { liege = { is_close_relative = ROOT } }
-						age = 20
-					}
-					OR = {
-						same_realm = ROOT
-						father = { same_realm = PREV }
-						religion = ROOT
-					}
-					OR = {
-						is_ruler = yes
-						NOT = {
-							liege = {
-								ai = no
-								OR = {
-									is_close_relative = PREV
-									dynasty = PREV
-								}
-							}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
 						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
+			}
+			random_independent_ruler = {
+				limit = {
+					any_realm_character = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+						}
+						can_marry_trigger = yes
 					}
 				}
-				log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
-				add_spouse = ROOT
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { mother_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { mother_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
 			}
 		}
 		ai_will_do = { 
@@ -1083,6 +862,19 @@ decisions = {
 					}
 				}
 			}
+			modifier = {
+				factor = 1.25
+				NOT = {
+					any_child = {
+						is_female = no
+						NOT = { trait = bastard }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { age = 25 }
+			}
 		}
 	}
 
@@ -1090,7 +882,16 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			ai = yes
+			has_character_flag = ai_spouse_finder
 			religion_group = muslim
+			NOT = { has_character_flag = checked_paternal_cousin }
+			NOT = { dynasty = none }
+			OR = {
+				father_even_if_dead = { always = yes }
+				mother_even_if_dead = { always = yes }
+			}
+		}
+		allow = {
 			OR = {
 				is_married = no
 				AND = {
@@ -1112,169 +913,94 @@ decisions = {
 					higher_real_tier_than = DUKE
 				}
 			}
-			is_betrothed = no
-			can_marry = yes
-			is_adult = yes
-			fertility = 0.01
-			OR = {
-				NOT = { age = 40 }
-				is_female = no
-			}
-			OR = {
-				is_female = no
-				is_ruler = yes
-				is_primary_heir = yes
-			}
-			OR = {
-				is_ruler = yes
-				father_even_if_dead = { higher_tier_than = BARON }
-				mother_even_if_dead = { higher_tier_than = BARON }
-				any_close_relative = { higher_tier_than = COUNT }
-			}			
-			any_opinion_modifier_target = {
-				reverse_has_opinion_modifier = { who = ROOT modifier = opinion_cousin }
-				OR = {
-					father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
-					father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
-					mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
-					mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
-				}
-				ai = yes
-				can_marry = ROOT
-				religion = ROOT
-				is_within_diplo_range = ROOT
-				is_adult = yes
-				is_married = no
-				is_betrothed = no
-				is_consort = no
-				fertility = 0.01
-				prisoner = no
-				in_command = no
-				is_pregnant = no
-				is_ill = no
-				NOR = {
-					trait = incapable
-					trait = in_hiding
-				}
-				OR = {
-					NOT = { age = 30 }
-					is_female = no
-				}
-				OR = {
-					AND = {
-						NOT = { age = 25 }
-						fertility = 0.30
-					}
-					NOR = {
-						age = 40
-						age_diff = { who = ROOT years = 3 }
-						ROOT = { age_diff = { who = PREV years = 10 } }
-					}
-				}
-				OR = {
-					is_ruler = yes
-					liege = { ai = no }
-					NOT = { liege = { is_close_relative = ROOT } }
-					age = 20
-				}
-				OR = {
-					same_realm = ROOT
-					father = { same_realm = PREV }
-					religion = ROOT
-				}
-				OR = {
-					is_ruler = yes
-					NOT = {
-						liege = {
-							ai = no
-							OR = {
-								is_close_relative = PREV
-								dynasty = PREV
-							}
-						}
-					}
-				}
-			}
-		}
-		allow = {
-			is_ill = no
-			in_command = no
-			prisoner = no
-			is_pregnant = no
-			NOR = {
-				trait = incapable
-				trait = in_hiding
-				has_character_modifier = do_not_disturb
-			}
 		}
 		effect = {
-			random_opinion_modifier_target = {
-				limit = {
-					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_cousin }
-					OR = {
-						father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
-						father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
-						mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
-						mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
-					}
-					ai = yes
-					can_marry = ROOT
-					religion = ROOT
-					is_within_diplo_range = ROOT
-					is_adult = yes
-					is_married = no
-					is_betrothed = no
-					is_consort = no
-					fertility = 0.01
-					prisoner = no
-					in_command = no
-					is_pregnant = no
-					is_ill = no
-					NOR = {
-						trait = incapable
-						trait = in_hiding
-					}
-					OR = {
-						NOT = { age = 30 }
-						is_female = no
-					}
-					OR = {
-						AND = {
-							NOT = { age = 25 }
-							fertility = 0.30
+			set_character_flag = checked_paternal_cousin
+			top_liege = {
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
 						}
 						NOR = {
-							age = 40
-							age_diff = { who = ROOT years = 3 }
-							ROOT = { age_diff = { who = PREV years = 10 } }
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
 						}
-					}
-					OR = {
-						is_ruler = yes
-						liege = { ai = no }
-						NOT = { liege = { is_close_relative = ROOT } }
-						age = 20
-					}
-					OR = {
-						same_realm = ROOT
-						father = { same_realm = PREV }
-						religion = ROOT
-					}
-					OR = {
-						is_ruler = yes
-						NOT = {
-							liege = {
-								ai = no
-								OR = {
-									is_close_relative = PREV
-									dynasty = PREV
-								}
-							}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
 						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
+			}
+			random_independent_ruler = {
+				limit = {
+					any_realm_character = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+						}
+						can_marry_trigger = yes
 					}
 				}
-				log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
-				add_spouse = ROOT
+				random_realm_character = {
+					limit = {
+						ai = yes
+						OR = {
+							father_even_if_dead = { always = yes }
+							mother_even_if_dead = { always = yes }
+						}
+						NOR = {
+							father_even_if_dead = { is_father = ROOT }
+							mother_even_if_dead = { is_mother = ROOT }
+						}
+						OR = {
+							father_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							father_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { father_even_if_dead = { ROOT = { father_even_if_dead = { father_even_if_dead = { character = PREVPREVPREV } } } } }
+							mother_even_if_dead = { mother_even_if_dead = { ROOT = { father_even_if_dead = { mother_even_if_dead = { character = PREVPREVPREV } } } } }
+						}
+						can_marry_trigger = yes
+					}
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Cousin Marriage)"
+					add_spouse = ROOT
+					ROOT = {
+						clr_character_flag = ai_spouse_finder
+						clr_character_flag = checked_avuncular1
+						clr_character_flag = checked_avuncular2
+						clr_character_flag = checked_cousin
+						clr_character_flag = checked_paternal_cousin
+						clr_character_flag = checked_close_marriage
+					}
+					break = yes
+				}
 			}
 		}
 		ai_will_do = { 
@@ -1303,6 +1029,1016 @@ decisions = {
 						dynasty = ROOT
 					}
 				}
+			}
+			modifier = {
+				factor = 1.25
+				NOT = {
+					any_child = {
+						is_female = no
+						NOT = { trait = bastard }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { age = 25 }
+			}
+		}
+	}
+
+	marry_nobility = { #Marry any non-commoner
+		potential = {
+			ai = yes
+			has_character_flag = ai_spouse_finder
+			OR = {
+				had_character_flag = { flag = ai_spouse_finder days = 90 }
+				has_character_flag = start_of_game_character
+			}
+		}
+		allow = {
+			OR = {
+				is_married = no
+				AND = {
+					has_polygamy = yes
+					NOT = { num_of_spouses = 2 }
+					real_tier = COUNT
+				}
+				AND = {
+					has_polygamy = yes
+					NOT = { num_of_spouses = 3 }
+					OR = {
+						real_tier = DUKE
+						has_minor_title = title_prince
+					}
+				}
+				AND = {
+					has_polygamy = yes
+					NOT = { num_of_spouses = 4 }
+					higher_real_tier_than = DUKE
+				}
+			}
+		}
+		effect = {
+			clr_character_flag = ai_spouse_finder
+			clr_character_flag = checked_avuncular1
+			clr_character_flag = checked_avuncular2
+			clr_character_flag = checked_cousin
+			clr_character_flag = checked_paternal_cousin
+			clr_character_flag = checked_close_marriage
+			if = {
+				limit = { is_female = no }
+				top_liege = {
+					# first find someone with a claim I want
+					random_realm_character = {
+						limit = {
+							ROOT = {
+								is_ruler = yes
+								NOT = { trait = content }
+								NOT = { trait = humble }
+							}
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.35
+							any_claim = {
+								NOT = { claimed_by = ROOT }
+								OR = {
+									AND = {
+										NOT = { lower_tier_than = ROOT }
+										holder_scope = { same_realm = ROOT }
+									}
+									holder_scope = { is_vassal_or_below = ROOT }
+									location = { ROOT = { capital_scope = { NOT = { distance = { where = PREVPREV value = 100 } } } } }
+									capital_scope = { ROOT = { capital_scope = { NOT = { distance = { where = PREVPREV value = 100 } } } } }
+								}
+							}				
+							NOR = {
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - has claim)"
+						add_spouse = ROOT
+						break = yes
+					}
+					# then find someone of good stats
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							culture_group = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 12
+								stewardship = 12
+							}
+							NOR = {
+								age = 20
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - good stats)"
+						add_spouse = ROOT
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 12
+								stewardship = 12
+							}
+							NOR = {
+								age = 20
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - good stats)"
+						add_spouse = ROOT
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							culture_group = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 12
+								stewardship = 12
+							}
+							NOR = {
+								age = 30
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								is_older_than = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - good stats)"
+						add_spouse = ROOT
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 12
+								stewardship = 12
+							}
+							NOR = {
+								age = 30
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								is_older_than = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - good stats)"
+						add_spouse = ROOT
+						break = yes
+					}
+					# then look for someone at least decent
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							culture_group = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 8
+								stewardship = 8
+								martial = 8
+								trait = fair
+								trait = quick
+								trait = genius
+								trait = strong
+							}
+							NOR = {
+								age = 20
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - decent stats)"
+						add_spouse = ROOT
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 8
+								stewardship = 8
+								martial = 8
+								trait = fair
+								trait = quick
+								trait = genius
+								trait = strong
+							}
+							NOR = {
+								age = 20
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - decent stats)"
+						add_spouse = ROOT
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							culture_group = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 8
+								stewardship = 8
+								martial = 8
+								trait = fair
+								trait = quick
+								trait = genius
+								trait = strong
+							}
+							NOR = {
+								age = 30
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								is_older_than = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - decent stats)"
+						add_spouse = ROOT
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 8
+								stewardship = 8
+								martial = 8
+								trait = fair
+								trait = quick
+								trait = genius
+								trait = strong
+							}
+							NOR = {
+								age = 30
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								is_older_than = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - decent stats)"
+						add_spouse = ROOT
+						break = yes
+					}
+					# then look for someone attractive
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.33
+							OR = {
+								trait = fair
+								trait = fertile
+								trait = melodious_voice
+								trait = beauty
+							}
+							NOR = {
+								age = 25
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - attractive)"
+						add_spouse = ROOT
+						break = yes
+					}				
+					# then settle for someone available
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							culture_group = ROOT
+							fertility = 0.33
+							NOR = {
+								age = 20
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - available)"
+						add_spouse = ROOT
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.33
+							NOR = {
+								age = 20
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - available)"
+						add_spouse = ROOT
+						break = yes
+					}
+				}
+				# failing that, a new character will do
+				create_character = {
+					random_traits = yes
+					dynasty = random
+					female = yes
+					age = 17
+					culture = ROOT
+					religion = ROOT
+				}
+				new_character = {
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - new character)"
+					add_spouse = ROOT
+					if = {
+						limit = { religion_group = indian_group }
+						add_trait = kshatriya
+						character_event = { id = RoI.30121 }
+					}
+				}
+				break = yes
+			}
+			if = {
+				limit = { is_female = yes }
+				top_liege = {
+					# first find someone of good stats
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							culture_group = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 12
+								stewardship = 12
+								martial = 12
+							}
+							NOR = {
+								age = 50
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - good stats)"
+						if = {
+							limit = {
+								NOR = {
+									father_even_if_dead = { higher_tier_than = ROOT }
+									mother_even_if_dead = { higher_tier_than = ROOT }
+								}
+								ROOT = {
+									NOR = {
+										religion_group = muslim
+										religion = yazidi
+										trait = slow
+										trait = imbecile
+										trait = humble
+										trait = content
+									}
+									OR = {
+										trait = ambitious
+										trait = proud
+										trait = brave
+										stewardship = 10
+										trait = quick
+										trait = genius
+										trait = greedy
+									}
+								}
+							}
+							add_spouse_matrilineal = ROOT
+							break = yes
+						}
+						if = {
+							limit = {
+								OR = {
+									father_even_if_dead = { higher_tier_than = ROOT }
+									mother_even_if_dead = { higher_tier_than = ROOT }
+									ROOT = {
+										OR = {
+											religion_group = muslim
+											religion = yazidi
+											trait = slow
+											trait = imbecile
+											trait = humble
+											trait = content
+											NOR = {
+												trait = ambitious
+												trait = proud
+												trait = brave
+												stewardship = 10
+												trait = quick
+												trait = genius
+												trait = greedy
+											}
+										}
+									}
+								}
+							}
+							add_spouse = ROOT
+						}
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 12
+								stewardship = 12
+								martial = 12
+							}
+							NOR = {
+								age = 50
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - good stats)"
+						if = {
+							limit = {
+								NOR = {
+									father_even_if_dead = { higher_tier_than = ROOT }
+									mother_even_if_dead = { higher_tier_than = ROOT }
+								}
+								ROOT = {
+									NOR = {
+										religion_group = muslim
+										religion = yazidi
+										trait = slow
+										trait = imbecile
+										trait = humble
+										trait = content
+									}
+									OR = {
+										trait = ambitious
+										trait = proud
+										trait = brave
+										stewardship = 10
+										trait = quick
+										trait = genius
+										trait = greedy
+									}
+								}
+							}
+							add_spouse_matrilineal = ROOT
+							break = yes
+						}
+						if = {
+							limit = {
+								OR = {
+									father_even_if_dead = { higher_tier_than = ROOT }
+									mother_even_if_dead = { higher_tier_than = ROOT }
+									ROOT = {
+										OR = {
+											religion_group = muslim
+											religion = yazidi
+											trait = slow
+											trait = imbecile
+											trait = humble
+											trait = content
+											NOR = {
+												trait = ambitious
+												trait = proud
+												trait = brave
+												stewardship = 10
+												trait = quick
+												trait = genius
+												trait = greedy
+											}
+										}
+									}
+								}
+							}
+							add_spouse = ROOT
+						}
+						break = yes
+					}
+					# then look for someone at least decent
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							culture_group = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 8
+								stewardship = 8
+								martial = 8
+								trait = fair
+								trait = quick
+								trait = genius
+								trait = strong
+							}
+							NOR = {
+								age = 50
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - decent stats)"
+						if = {
+							limit = {
+								NOR = {
+									father_even_if_dead = { higher_tier_than = ROOT }
+									mother_even_if_dead = { higher_tier_than = ROOT }
+								}
+								ROOT = {
+									NOR = {
+										religion_group = muslim
+										religion = yazidi
+										trait = slow
+										trait = imbecile
+										trait = humble
+										trait = content
+									}
+									OR = {
+										trait = ambitious
+										trait = proud
+										trait = brave
+										stewardship = 10
+										trait = quick
+										trait = genius
+										trait = greedy
+									}
+								}
+							}
+							add_spouse_matrilineal = ROOT
+							break = yes
+						}
+						if = {
+							limit = {
+								OR = {
+									father_even_if_dead = { higher_tier_than = ROOT }
+									mother_even_if_dead = { higher_tier_than = ROOT }
+									ROOT = {
+										OR = {
+											religion_group = muslim
+											religion = yazidi
+											trait = slow
+											trait = imbecile
+											trait = humble
+											trait = content
+											NOR = {
+												trait = ambitious
+												trait = proud
+												trait = brave
+												stewardship = 10
+												trait = quick
+												trait = genius
+												trait = greedy
+											}
+										}
+									}
+								}
+							}
+							add_spouse = ROOT
+						}
+						break = yes
+					}
+					random_realm_character = {
+						limit = {
+							is_adult = yes
+							prisoner = no
+							is_married = no
+							is_betrothed = no
+							is_consort = no
+							can_marry = ROOT
+							is_female = yes
+							is_ruler = no
+							religion = ROOT
+							fertility = 0.33
+							OR = {
+								diplomacy = 8
+								stewardship = 8
+								martial = 8
+								trait = fair
+								trait = quick
+								trait = genius
+								trait = strong
+							}
+							NOR = {
+								age = 50
+								dynasty = none
+								trait = eunuch
+								trait = celibate
+								trait = infirm
+								trait = incapable
+								is_close_relative = ROOT
+								liege = { ai = no }
+								any_liege = { is_close_relative = PREV }
+								any_liege = { is_lover = PREV }
+								any_heir_title = { always = yes }
+								any_pretender_title = { always = yes }
+							}
+						}
+						log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - decent stats)"
+						if = {
+							limit = {
+								NOR = {
+									father_even_if_dead = { higher_tier_than = ROOT }
+									mother_even_if_dead = { higher_tier_than = ROOT }
+								}
+								ROOT = {
+									NOR = {
+										religion_group = muslim
+										religion = yazidi
+										trait = slow
+										trait = imbecile
+										trait = humble
+										trait = content
+									}
+									OR = {
+										trait = ambitious
+										trait = proud
+										trait = brave
+										stewardship = 10
+										trait = quick
+										trait = genius
+										trait = greedy
+									}
+								}
+							}
+							add_spouse_matrilineal = ROOT
+							break = yes
+						}
+						if = {
+							limit = {
+								OR = {
+									father_even_if_dead = { higher_tier_than = ROOT }
+									mother_even_if_dead = { higher_tier_than = ROOT }
+									ROOT = {
+										OR = {
+											religion_group = muslim
+											religion = yazidi
+											trait = slow
+											trait = imbecile
+											trait = humble
+											trait = content
+											NOR = {
+												trait = ambitious
+												trait = proud
+												trait = brave
+												stewardship = 10
+												trait = quick
+												trait = genius
+												trait = greedy
+											}
+										}
+									}
+								}
+							}
+							add_spouse = ROOT
+						}
+						break = yes
+					}	
+				}
+				# failing that, a new character will do
+				create_character = {
+					random_traits = yes
+					dynasty = random
+					female = no
+					age = 20
+					culture = ROOT
+					religion = ROOT
+				}
+				new_character = {
+					log = "[This.GetTitledName] marries [Root.GetTitledName] (Spouse Finder - new character)"
+					if = {
+						limit = {
+							NOR = {
+								father_even_if_dead = { higher_tier_than = ROOT }
+								mother_even_if_dead = { higher_tier_than = ROOT }
+							}
+							ROOT = {
+								NOR = {
+									religion_group = muslim
+									religion = yazidi
+									trait = slow
+									trait = imbecile
+									trait = humble
+									trait = content
+								}
+								OR = {
+									trait = ambitious
+									trait = proud
+									trait = brave
+									stewardship = 10
+									trait = quick
+									trait = genius
+									trait = greedy
+								}
+							}
+						}
+						add_spouse_matrilineal = ROOT
+						if = {
+							limit = { religion_group = indian_group }
+							add_trait = kshatriya
+							character_event = { id = RoI.30121 }
+						}
+						break = yes
+					}
+					if = {
+						limit = {
+							OR = {
+								father_even_if_dead = { higher_tier_than = ROOT }
+								mother_even_if_dead = { higher_tier_than = ROOT }
+								ROOT = {
+									OR = {
+										religion_group = muslim
+										religion = yazidi
+										trait = slow
+										trait = imbecile
+										trait = humble
+										trait = content
+										NOR = {
+											trait = ambitious
+											trait = proud
+											trait = brave
+											stewardship = 10
+											trait = quick
+											trait = genius
+											trait = greedy
+										}
+									}
+								}
+							}
+						}
+						add_spouse = ROOT
+					}
+					if = {
+						limit = { religion_group = indian_group }
+						add_trait = kshatriya
+						character_event = { id = RoI.30121 }
+					}
+				}
+				break = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
 			}
 		}
 	}

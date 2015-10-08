@@ -258,7 +258,7 @@
 		give_nickname= "nick_the_strong"
 	}
 	1072.10.7={
-		death="1072.10.7"
+		death = { death_reason = death_murder_unknown }
 	}
 }
 

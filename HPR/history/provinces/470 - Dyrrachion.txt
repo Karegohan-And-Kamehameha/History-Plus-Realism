@@ -19,7 +19,7 @@ religion = chalcedonian
 terrain = mountain
 
 # History
+860.1.1 = { trade_post = b_de_gundula }
 1054.1.1 = {
 	religion = orthodox
 }
-1082.1.1 = { trade_post = b_faliero }

@@ -9,7 +9,7 @@ b_sokh = castle
 b_marghinan = temple
 
 # Misc
-culture = soghdian
+culture = sogdian
 religion = zoroastrian
 
 # History

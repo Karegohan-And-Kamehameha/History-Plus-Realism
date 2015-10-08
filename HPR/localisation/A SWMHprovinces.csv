@@ -396,9 +396,9 @@ PROV578;Kolomna;Kolomna;Kolomna;;Kolomna;;;;;;;;;x
 PROV577;Pronsk;Pronsk;Pronsk;;Pronsk;;;;;;;;;x
 PROV581;Murom;Murom;Murom;;Murom;;;;;;;;;x
 PROV575;Moskva;Moskva;Moskva;;Moskva;;;;;;;;;x
-PROV587;Mozajsk;Mozajsk;Mozajsk;;Mozajsk;;;;;;;;;x
+PROV587;Mozhajsk;Mozhajsk;Mozhajsk;;Mozhajsk;;;;;;;;;x
 PROV419;Polotsk;Polotsk;Polotsk;;Polotsk;;;;;;;;;x
-PROV417;Vitebesk;Vitebesk;Vitebesk;;Vitebesk;;;;;;;;;x
+PROV417;Vitebsk;Vitebsk;Vitebsk;;Vitebsk;;;;;;;;;x
 PROV550;Minsk;Minsk;Minsk;;Minsk;;;;;;;;;x
 PROV547;Kiev;Kiev;Kiev;;Kiev;;;;;;;;;x
 PROV544;Ros’;Ros’;Ros’;;Ros’;;;;;;;;;x
@@ -531,7 +531,7 @@ PROV802;Iskandarîya;Iskandarîya;Iskandarîya;;Iskandarîya;;;;;;;;;x
 PROV803;Sîwa;Sîwa;Sîwa;;Sîwa;;;;;;;;;x
 PROV804;Sullum;Sullum;Sullum;;Sullum;;;;;;;;;x
 PROV805;Tubrúk;Tubrúk;Tubrúk;;Tubrúk;;;;;;;;;x
-PROV806;;;;;;;;;;;;;;x
+#PROV806;;;;;;;;;;;;;;x
 PROV807;Awjîla;Awjîla;Awjîla;;Awjîla;;;;;;;;;x
 PROV808;Barqa;Barqa;Barqa;;Barqa;;;;;;;;;x
 ########################################;;;;;;;;;;;;;;

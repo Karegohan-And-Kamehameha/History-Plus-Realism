@@ -12,7 +12,7 @@ b_andijan = temple
 #b_kend-i-badam = city
 
 # Misc
-culture = soghdian
+culture = sogdian
 religion = zoroastrian
 
 # History

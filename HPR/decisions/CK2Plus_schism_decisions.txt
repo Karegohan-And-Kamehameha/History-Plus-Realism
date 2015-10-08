@@ -53,7 +53,7 @@ decisions = {
 					}
 				}
 			}
-			has_global_flag = schism_happened
+			k_papal_state = { has_title_flag = schism_happened }
 			NOR = {
 				has_global_flag = schism_mending
 				has_global_flag = schism_mended
@@ -183,8 +183,17 @@ decisions = {
 			#there must be a non-heretic religion head with whom to negotiate
 			d_nestorian = { holder_scope = { is_heretic = no } }
 			OR = {
+				AND = {
+					OR = {
+						religion = miaphysite
+						religion = monophysite
+						religion = apostolic
+						religion = paulician
+					}
+					has_global_flag = chalcedon_repudiated
+				}
 				has_global_flag = schism_mended
-				NOT = { has_global_flag = shism_happened }
+				NOT = { k_papal_state = { has_title_flag = schism_happened } }
 			}
 			NOR = {
 				has_global_flag = ephesus_enforced
@@ -318,8 +327,12 @@ decisions = {
 				d_paulician = { holder_scope = { is_heretic = no } }
 			}
 			OR = {
+				AND = {
+					religion = nestorian
+					has_global_flag = ephesus_repudiated
+				}
 				has_global_flag = schism_mended
-				NOT = { has_global_flag = schism_happened }
+				NOT = { k_papal_state = { has_title_flag = schism_happened } }
 			}
 			NOR = {
 				has_global_flag = chalcedon_enforced
@@ -446,7 +459,7 @@ decisions = {
 				has_global_flag = schism_mended
 				has_character_flag = schism_mender
 			}
-			has_global_flag = schism_happened
+			k_papal_state = { has_title_flag = schism_happened }
 		}
 		allow = {
 			custom_tooltip = {
@@ -560,7 +573,7 @@ decisions = {
 				has_global_flag = schism_mended
 				has_character_flag = schism_mender
 			}
-			has_global_flag = schism_happened
+			k_papal_state = { has_title_flag = schism_happened }
 		}
 		allow = {
 			custom_tooltip = {
@@ -848,7 +861,7 @@ decisions = {
 			NOR = {
 				culture = greek
 				has_landed_title = e_byzantium
-				has_global_flag = schism_happened
+				k_papal_state = { has_title_flag = schism_happened }
 				has_global_flag = patriarch_supreme_created
 			}
 		}
@@ -950,7 +963,7 @@ decisions = {
 				culture = italian
 				culture = lombard
 				trait = crowned_by_pope
-				has_global_flag = schism_happened
+				k_papal_state = { has_title_flag = schism_happened }
 				has_global_flag = patriarch_supreme_created
 			}
 		}
@@ -1041,6 +1054,7 @@ decisions = {
 			k_papal_chalcedon = { has_holder = yes }
 			rightful_religious_head_scope = { has_landed_title = k_papal_chalcedon }
 			NOR = {
+				any_demesne_title = { temporary = yes }
 				rightful_religious_head = ROOT
 				trait = bad_priest_christian
 				trait = chalc_cardinal
@@ -1109,11 +1123,11 @@ decisions = {
 			}
 			modifier = {
 				factor = 5
-				real_tier = COUNT
+				tier = COUNT
 			}
 			modifier = {
 				factor = 10
-				higher_real_tier_than = COUNT
+				higher_tier_than = COUNT
 			}
 			modifier = {
 				factor = 2
@@ -1124,7 +1138,7 @@ decisions = {
 				trait = zealous
 			}
 			modifier = {
-				factor = 1.5
+				factor = 1.25
 				OR = {
 					trait = theologian
 					trait = scholar
@@ -1165,7 +1179,7 @@ decisions = {
 				trait = shy
 			}
 			modifier = {
-				factor = 0.5
+				factor = 0.75
 				NOR = {
 					trait = detached_priest
 					trait = martial_cleric
@@ -1174,11 +1188,11 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.5
+				factor = 1.25
 				trait = scholarly_theologian
 			}
 			modifier = {
-				factor = 2
+				factor = 1.5
 				trait = mastermind_theologian
 			}
 			modifier = {

@@ -10,7 +10,7 @@ b_kasan = city
 b_nasrabad = temple
 
 # Misc
-culture = soghdian
+culture = sogdian
 religion = zoroastrian
 
 # History

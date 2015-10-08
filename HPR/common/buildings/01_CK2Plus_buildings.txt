@@ -438,11 +438,9 @@ trade_post = {
 						province = 155 # Asturias de Oviedo
 						province = 149 # Bordeaux
 						province = 141 # Poitiers
-						province = 100 # Avranches
 						province = 78 # Brugge
 						province = 32 # London
 						province = 26 # Winchester
-						province = 100 # Avranches
 						province = 43 # Moray
 						province = 57 # York/Deira
 						province = 52 # Northumberland/Northumbria
@@ -677,8 +675,7 @@ trade_post = {
 		upgrades_from = tr_amber_road_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}
@@ -782,8 +779,7 @@ trade_post = {
 		upgrades_from = tr_balkan_road_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}
@@ -887,8 +883,7 @@ trade_post = {
 		upgrades_from = tr_french_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}
@@ -992,8 +987,7 @@ trade_post = {
 		upgrades_from = tr_iberian_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}
@@ -1097,8 +1091,7 @@ trade_post = {
 		upgrades_from = tr_british_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}
@@ -1202,8 +1195,7 @@ trade_post = {
 		upgrades_from = tr_atlantic_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}
@@ -1307,8 +1299,7 @@ trade_post = {
 		upgrades_from = tr_baltic_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}
@@ -1412,8 +1403,7 @@ trade_post = {
 		upgrades_from = tr_mediterranean_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}
@@ -1517,8 +1507,7 @@ trade_post = {
 		upgrades_from = tr_salt_road_trade_guild_2
 		ai_creation_factor = 95
 
-		tax_income = 8
-		trade_route_value = 4	# Affects your cut of the trade route income
+		trade_route_value = 12	# Affects your cut of the trade route income
 
 		extra_tech_building_start = 8
 	}

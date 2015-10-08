@@ -116,12 +116,12 @@ afar;Afar;Afar;Afar;;Afar;;;;;;;;;x
 ########################################;;;;;;;;;;;;;;
 khorasani;Khorasani;Khorasani;Khorasani;;Khorasani;;;;;;;;;x
 khwarezmi;Khwarezmi;Khwarezmi;Khwarezmi;;Khwarezmi;;;;;;;;;x
-soghdian;Soghdian;Soghdian;Soghdian;;Soghdian;;;;;;;;;x
+sogdian;Soghdian;Soghdian;Soghdian;;Soghdian;;;;;;;;;x
 saka;Saka;Saka;Saka;;Saka;;;;;;;;;x
 tokharian;Tokharí;Tokharí;Tokharí;;Tokharí;;;;;;;;;x
 daylamite;Daylamí;Daylamí;Daylamí;;Daylamí;;;;;;;;;x
-pashtun;Pashto;Pashto;Pashto;;Pashto;;;;;;;;;x
-uighur;Uighur;Uighur;Uighur;;Uighur;;;;;;;;;x
+afghan;Pashto;Pashto;Pashto;;Pashto;;;;;;;;;x
+uyghur;Uighur;Uighur;Uighur;;Uighur;;;;;;;;;x
 qirghiz;Qirghiz;Qirghiz;Qirghiz;;Qirghiz;;;;;;;;;x
 tajik;Tajik;Tajik;Tajik;;Tajik;;;;;;;;;x
 cuman;Qipçaq;Qipçaq;Qipçaq;;Qipçaq;;;;;;;;;x
@@ -158,3 +158,9 @@ romanian;Rumân;Rumân;Rumân;;Rumân;;;;;;;;;x
 #;;;;;;;;;;;;;;
 sinic;Sinic;Sinic;Sinic;;Sinic;;;;;;;;;x
 khitan;Qidun'i;Qidun'i;Qidun'i;;Qidun'i;;;;;;;;;x
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+#to be removed;;;;;;;;;;;;;;
+pashtun;Outdated Pashto;Outdated Pashto;Outdated Pashto;;Outdated Pashto;;;;;;;;;x
+uighur;Outdated Uighur;Outdated Uighur;Outdated Uighur;;Outdated Uighur;;;;;;;;;x
+soghdian;Outdated Soghdian;Outdated Soghdian;Outdated Soghdian;;Outdated Soghdian;;;;;;;;;x

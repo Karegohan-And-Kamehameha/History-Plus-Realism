@@ -1570,7 +1570,7 @@ c_ibelin_adj_greek;Iamnian;Iamnia;Iamnian;;Iamnian;;;;;;;;;x
 c_ibelin_adj;Orlando Bloom!!;Orlando Bloom!!;Orlando Bloom!!;;Orlando Bloom!!;;;;;;;;;x
 ##;Galilee;;;;;;;;;;;;;
 c_beirut_adj_greek;Berytan;Berytos;Berytan;;Berytan;;;;;;;;;x
-c_safad_adj_greek;Panean;Paneas;Panean;;Panean;;;;;;;;;x
+c_safed_adj_greek;Panean;Paneas;Panean;;Panean;;;;;;;;;x
 ##;Edessa;;;;;;;;;;;;;
 c_edessa_adj_bedouin_arabic;Ruhan;Ar-Ruha;Ruhan;;Ruhan;;;;;;;;;x
 c_edessa_adj_maghreb_arabic;Ruhan;Ar-Ruha;Ruhan;;Ruhan;;;;;;;;;x
@@ -3360,7 +3360,7 @@ c_sarkel_adj_karluk;Sharkilan;Sharkilan;Sharkilan;;Sharkilan;;;;;;;;;x
 c_sarkel_adj_mongol;Sharkilan;Sharkilan;Sharkilan;;Sharkilan;;;;;;;;;x
 c_sarkel_adj_cuman;Sharkilan;Sharkilan;Sharkilan;;Sharkilan;;;;;;;;;x
 c_sarkel_adj_kirghiz;Sharkilan;Sharkilan;Sharkilan;;Sharkilan;;;;;;;;;x
-c_sarkel_adj_uighur;Sharkilan;Sharkilan;Sharkilan;;Sharkilan;;;;;;;;;x
+c_sarkel_adj_uyghur;Sharkilan;Sharkilan;Sharkilan;;Sharkilan;;;;;;;;;x
 c_sarkel_adj_turkish;Sharkilan;Sharkilan;Sharkilan;;Sharkilan;;;;;;;;;x
 c_sarkel_adj_bolghar;Sharkilan;Sharkilan;Sharkilan;;Sharkilan;;;;;;;;;x
 #;;;;;;;;;;;;;;
@@ -3457,7 +3457,7 @@ c_lower_don_adj_karluk;Erel'ian;Erel'ian;Erel'ian;;Erel'ian;;;;;;;;;x
 c_lower_don_adj_mongol;Erel'ian;Erel'ian;Erel'ian;;Erel'ian;;;;;;;;;x
 c_lower_don_adj_cuman;Erel'ian;Erel'ian;Erel'ian;;Erel'ian;;;;;;;;;x
 c_lower_don_adj_kirghiz;Erel'ian;Erel'ian;Erel'ian;;Erel'ian;;;;;;;;;x
-c_lower_don_adj_uighur;Erel'ian;Erel'ian;Erel'ian;;Erel'ian;;;;;;;;;x
+c_lower_don_adj_uyghur;Erel'ian;Erel'ian;Erel'ian;;Erel'ian;;;;;;;;;x
 c_lower_don_adj_turkish;Erel'ian;Erel'ian;Erel'ian;;Erel'ian;;;;;;;;;x
 c_lower_don_adj_bolghar;Erel'ian;Erel'ian;Erel'ian;;Erel'ian;;;;;;;;;x
 #;;;;;;;;;;;;;;
@@ -3503,7 +3503,7 @@ c_oleshye_adj_karluk;Aq-Suian;Aq-Suian;Aq-Suian;;Aq-Suian;;;;;;;;;x
 c_oleshye_adj_mongol;Aq-Suian;Aq-Suian;Aq-Suian;;Aq-Suian;;;;;;;;;x
 c_oleshye_adj_cuman;Aq-Suian;Aq-Suian;Aq-Suian;;Aq-Suian;;;;;;;;;x
 c_oleshye_adj_kirghiz;Aq-Suian;Aq-Suian;Aq-Suian;;Aq-Suian;;;;;;;;;x
-c_oleshye_adj_uighur;Aq-Suian;Aq-Suian;Aq-Suian;;Aq-Suian;;;;;;;;;x
+c_oleshye_adj_uyghur;Aq-Suian;Aq-Suian;Aq-Suian;;Aq-Suian;;;;;;;;;x
 c_oleshye_adj_turkish;Ak-Suian;Ak-Suian;Ak-Suian;;Ak-Suian;;;;;;;;;x
 c_oleshye_adj_bolghar;Aq-Suian;Aq-Suian;Aq-Suian;;Aq-Suian;;;;;;;;;x
 #;;;;;;;;;;;;;;
@@ -3568,7 +3568,7 @@ c_theodosia_adj_karluk;Sudaqan;Sudaqan;Sudaqan;;Sudaqan;;;;;;;;;x
 c_theodosia_adj_mongol;Kefean;Kefean;Kefean;;Kefean;;;;;;;;;x
 c_theodosia_adj_cuman;Kefean;Kefean;Kefean;;Kefean;;;;;;;;;x
 c_theodosia_adj_kirghiz;Kefean;Kefean;Kefean;;Kefean;;;;;;;;;x
-c_theodosia_adj_uighur;Kefean;Kefean;Kefean;;Kefean;;;;;;;;;x
+c_theodosia_adj_uyghur;Kefean;Kefean;Kefean;;Kefean;;;;;;;;;x
 c_theodosia_adj_turkish;Kefean;Kefean;Kefean;;Kefean;;;;;;;;;x
 c_theodosia_adj_bolghar;Sudaqan;Sudaqan;Sudaqan;;Sudaqan;;;;;;;;;x
 c_theodosia_adj_polish;Kaffan;Kaffan;Kaffan;;Kaffan;;;;;;;;;x
@@ -3645,7 +3645,7 @@ c_tmutarakan_adj_avar;Samkarshan;Samkarshan;Samkarshan;;Samkarshan;;;;;;;;;x
 c_tmutarakan_adj_mongol;Matrikan;Matrikan;Matrikan;;Matrikan;;;;;;;;;x
 c_tmutarakan_adj_cuman;Matrikan;Matrikan;Matrikan;;Matrikan;;;;;;;;;x
 c_tmutarakan_adj_kirghiz;Matrikan;Matrikan;Matrikan;;Matrikan;;;;;;;;;x
-c_tmutarakan_adj_uighur;Matrikan;Matrikan;Matrikan;;Matrikan;;;;;;;;;x
+c_tmutarakan_adj_uyghur;Matrikan;Matrikan;Matrikan;;Matrikan;;;;;;;;;x
 c_tmutarakan_adj_bolghar;Samkarshan;Samkarshan;Samkarshan;;Samkarshan;;;;;;;;;x
 c_tmutarakan_adj_sicilian_greek;Tamatarxan;Tamatarxan;Tamatarxan;;Tamatarxan;;;;;;;;;x
 c_tmutarakan_adj_arberian;Tamatarxan;Tamatarxan;Tamatarxan;;Tamatarxan;;;;;;;;;x
@@ -3807,7 +3807,7 @@ c_itil_adj_oghuz;Idilian;Idilian;Idilian;;Idilian;;;;;;;;;x
 c_itil_adj_mongol;Ejilian;Ejilian;Ejilian;;Ejilian;;;;;;;;;x
 c_itil_adj_kirghiz;Edilian;Edilian;Edilian;;Edilian;;;;;;;;;x
 c_itil_adj_cuman;Edilian;Edilian;Edilian;;Edilian;;;;;;;;;x
-c_itil_adj_uighur;Ejilian;Ejilian;Ejilian;;Ejilian;;;;;;;;;x
+c_itil_adj_uyghur;Ejilian;Ejilian;Ejilian;;Ejilian;;;;;;;;;x
 c_itil_adj_khitan;Sari-Suian;Sari-Suian;Sari-Suian;;Sari-Suian;;;;;;;;;x
 c_itil_adj_levantine_arabic;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_maghreb_arabic;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
@@ -3824,11 +3824,11 @@ c_itil_adj_pahlavi;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_persian;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_tajik;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_daylamite;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
-c_itil_adj_soghdian;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
+c_itil_adj_sogdian;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_khwarezmi;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_kurdish;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_khalaj;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
-c_itil_adj_pashtun;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
+c_itil_adj_afghan;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_qufs;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_baloch;Atilian;Atilian;Atilian;;Atilian;;;;;;;;;x
 c_itil_adj_sicilian_greek;Atelian;Atelian;Atelian;;Atelian;;;;;;;;;x
@@ -3867,11 +3867,11 @@ c_semender_adj_pahlavi;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;
 c_semender_adj_persian;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
 c_semender_adj_tajik;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
 c_semender_adj_daylamite;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
-c_semender_adj_soghdian;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
+c_semender_adj_sogdian;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
 c_semender_adj_khwarezmi;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
 c_semender_adj_kurdish;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
 c_semender_adj_khalaj;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
-c_semender_adj_pashtun;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
+c_semender_adj_afghan;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
 c_semender_adj_qufs;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
 c_semender_adj_baloch;Samandarian;Samandarian;Samandarian;;Samandarian;;;;;;;;;x
 c_semender_adj_sicilian_greek;Zabenderian;Zabenderian;Zabenderian;;Zabenderian;;;;;;;;;x
@@ -3898,11 +3898,11 @@ c_saray_adj_pahlavi;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_persian;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_tajik;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_daylamite;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
-c_saray_adj_soghdian;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
+c_saray_adj_sogdian;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_khwarezmi;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_kurdish;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_khalaj;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
-c_saray_adj_pashtun;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
+c_saray_adj_afghan;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_qufs;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_baloch;Saraian;Saraian;Saraian;;Saraian;;;;;;;;;x
 c_saray_adj_khazar;Akhtuban;Akhtuban;Akhtuban;;Akhtuban;;;;;;;;;x
@@ -3923,11 +3923,11 @@ c_alania_adj_pahlavi;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_persian;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_tajik;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_daylamite;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
-c_alania_adj_soghdian;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
+c_alania_adj_sogdian;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_khwarezmi;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_kurdish;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_khalaj;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
-c_alania_adj_pashtun;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
+c_alania_adj_afghan;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_qufs;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_baloch;Al-Lanian;Al-Lanian;Al-Lanian;;Al-Lanian;;;;;;;;;x
 c_alania_adj_bashkir;As;As;As;;As;;;;;;;;;x
@@ -3937,7 +3937,7 @@ c_alania_adj_turkmen;As;As;As;;As;;;;;;;;;x
 c_alania_adj_oghuz;As;As;As;;As;;;;;;;;;x
 c_alania_adj_mongol;As;As;As;;As;;;;;;;;;x
 c_alania_adj_kirghiz;As;As;As;;As;;;;;;;;;x
-c_alania_adj_uighur;As;As;As;;As;;;;;;;;;x
+c_alania_adj_uyghur;As;As;As;;As;;;;;;;;;x
 c_alania_adj_cuman;As;As;As;;As;;;;;;;;;x
 c_alania_adj_khazar;As;As;As;;As;;;;;;;;;x
 c_alania_adj_pecheneg;As;As;As;;As;;;;;;;;;x
@@ -3996,7 +3996,7 @@ c_kasogs_adj_occitan;Cherkis;Cherkis;Cherkis;;Cherkis;;;;;;;;;x
 c_kasogs_adj_arpitan;Cherkis;Cherkis;Cherkis;;Cherkis;;;;;;;;;x
 c_kasogs_adj_mongol;Tcherkezian;Tcherkezian;Tcherkezian;;Tcherkezian;;;;;;;;;x
 c_kasogs_adj_kirghiz;Tcherkezian;Tcherkezian;Tcherkezian;;Tcherkezian;;;;;;;;;x
-c_kasogs_adj_uighur;Tcherkezian;Tcherkezian;Tcherkezian;;Tcherkezian;;;;;;;;;x
+c_kasogs_adj_uyghur;Tcherkezian;Tcherkezian;Tcherkezian;;Tcherkezian;;;;;;;;;x
 c_kasogs_adj_khitan;Tcherkezian;Tcherkezian;Tcherkezian;;Tcherkezian;;;;;;;;;x
 c_kasogs_adj_levantine_arabic;Sircasaan;Sircasaan;Sircasaan;;Sircasaan;;;;;;;;;x
 c_kasogs_adj_maghreb_arabic;Sircasaan;Sircasaan;Sircasaan;;Sircasaan;;;;;;;;;x
@@ -4059,7 +4059,7 @@ c_desht-i-kipchak_adj_turkmen;Esenian;Esen;Esen;;Esen;;;;;;;;;x
 c_desht-i-kipchak_adj_oghuz;Esenian;Esen;Esen;;Esen;;;;;;;;;x
 c_desht-i-kipchak_adj_mongol;Esenian;Esen;Esen;;Esen;;;;;;;;;x
 c_desht-i-kipchak_adj_kirghiz;Esenian;Esen;Esen;;Esen;;;;;;;;;x
-c_desht-i-kipchak_adj_uighur;Esenian;Esen;Esen;;Esen;;;;;;;;;x
+c_desht-i-kipchak_adj_uyghur;Esenian;Esen;Esen;;Esen;;;;;;;;;x
 c_desht-i-kipchak_adj_cuman;Esenian;Esen;Esen;;Esen;;;;;;;;;x
 c_desht-i-kipchak_adj_khazar;Esenian;Esen;Esen;;Esen;;;;;;;;;x
 c_desht-i-kipchak_adj_pecheneg;Esenian;Esen;Esen;;Esen;;;;;;;;;x
@@ -4076,7 +4076,7 @@ c_syrt_adj_turkmen;Töp Sirtian;Töp Sirt;Töp Sirt;;Töp Sirt;;;;;;;;;x
 c_syrt_adj_oghuz;Töp Sirtian;Töp Sirt;Töp Sirt;;Töp Sirt;;;;;;;;;x
 c_syrt_adj_mongol;Töp Sirtian;Töp Sirt;Töp Sirt;;Töp Sirt;;;;;;;;;x
 c_syrt_adj_kirghiz;Töp Sirtian;Töp Sirt;Töp Sirt;;Töp Sirt;;;;;;;;;x
-c_syrt_adj_uighur;Töp Sirtian;Töp Sirt;Töp Sirt;;Töp Sirt;;;;;;;;;x
+c_syrt_adj_uyghur;Töp Sirtian;Töp Sirt;Töp Sirt;;Töp Sirt;;;;;;;;;x
 c_syrt_adj_cuman;Töp Sirtian;Töp Sirt;Töp Sirt;;Töp Sirt;;;;;;;;;x
 c_syrt_adj_khazar;Tëp Särtian;Tëp Särt;Tëp Särt;;Tëp Särt;;;;;;;;;x
 c_syrt_adj_pecheneg;Töp Sirtian;Töp Sirt;Töp Sirt;;Töp Sirt;;;;;;;;;x
@@ -4092,7 +4092,7 @@ c_uzens_adj_turkmen;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
 c_uzens_adj_oghuz;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
 c_uzens_adj_mongol;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
 c_uzens_adj_kirghiz;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
-c_uzens_adj_uighur;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
+c_uzens_adj_uyghur;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
 c_uzens_adj_cuman;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
 c_uzens_adj_khazar;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
 c_uzens_adj_pecheneg;Qaraösenian;Qaraösen;Qaraösen;;Qaraösen;;;;;;;;;x
@@ -4122,7 +4122,7 @@ c_mordva_adj_turkmen;Mukshian;Mukshi;Mukshi;;Mukshi;;;;;;;;;x
 c_mordva_adj_oghuz;Mukshian;Mukshi;Mukshi;;Mukshi;;;;;;;;;x
 c_mordva_adj_mongol;Muqshian;Muqshi;Muqshi;;Muqshi;;;;;;;;;x
 c_mordva_adj_kirghiz;Muqshian;Muqshi;Muqshi;;Muqshi;;;;;;;;;x
-c_mordva_adj_uighur;Muqshian;Muqshi;Muqshi;;Muqshi;;;;;;;;;x
+c_mordva_adj_uyghur;Muqshian;Muqshi;Muqshi;;Muqshi;;;;;;;;;x
 c_mordva_adj_cuman;Muqshian;Muqshi;Muqshi;;Muqshi;;;;;;;;;x
 c_mordva_adj_khazar;Mäqshän;Mäqshä;Mäqshä;;Mäqshä;;;;;;;;;x
 c_mordva_adj_pecheneg;Mukshian;Mukshi;Mukshi;;Mukshi;;;;;;;;;x
@@ -4152,7 +4152,7 @@ c_burtasy_adj_turkmen;Barishian;Barish;Barish;;Barish;;;;;;;;;x
 c_burtasy_adj_oghuz;Barishian;Barish;Barish;;Barish;;;;;;;;;x
 c_burtasy_adj_mongol;Barishian;Barish;Barish;;Barish;;;;;;;;;x
 c_burtasy_adj_kirghiz;Barishian;Barish;Barish;;Barish;;;;;;;;;x
-c_burtasy_adj_uighur;Barishian;Barish;Barish;;Barish;;;;;;;;;x
+c_burtasy_adj_uyghur;Barishian;Barish;Barish;;Barish;;;;;;;;;x
 c_burtasy_adj_cuman;Barishian;Barish;Barish;;Barish;;;;;;;;;x
 c_burtasy_adj_khazar;Barishian;Barish;Barish;;Barish;;;;;;;;;x
 c_burtasy_adj_pecheneg;Barishian;Barish;Barish;;Barish;;;;;;;;;x
@@ -4172,7 +4172,7 @@ c_khopyor_adj_turkmen;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
 c_khopyor_adj_oghuz;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
 c_khopyor_adj_mongol;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
 c_khopyor_adj_kirghiz;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
-c_khopyor_adj_uighur;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
+c_khopyor_adj_uyghur;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
 c_khopyor_adj_cuman;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
 c_khopyor_adj_khazar;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
 c_khopyor_adj_pecheneg;Khopërian;Khopër;Khopër;;Khopër;;;;;;;;;x
@@ -4199,7 +4199,7 @@ c_chuvash_adj_turkmen;Sarian;Siri;Siri;;Siri;;;;;;;;;x
 c_chuvash_adj_oghuz;Sarian;Siri;Siri;;Siri;;;;;;;;;x
 c_chuvash_adj_mongol;Sarian;Siri;Siri;;Siri;;;;;;;;;x
 c_chuvash_adj_kirghiz;Sarian;Siri;Siri;;Siri;;;;;;;;;x
-c_chuvash_adj_uighur;Sarian;Siri;Siri;;Siri;;;;;;;;;x
+c_chuvash_adj_uyghur;Sarian;Siri;Siri;;Siri;;;;;;;;;x
 c_chuvash_adj_cuman;Sarian;Siri;Siri;;Siri;;;;;;;;;x
 c_chuvash_adj_khazar;Särian;Sär;Sär;;Sär;;;;;;;;;x
 c_chuvash_adj_pecheneg;Sarian;Siri;Siri;;Siri;;;;;;;;;x
@@ -4320,11 +4320,11 @@ c_tyumen_adj_pahlavi;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 c_tyumen_adj_persian;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 c_tyumen_adj_tajik;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 c_tyumen_adj_daylamite;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
-c_tyumen_adj_soghdian;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
+c_tyumen_adj_sogdian;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 c_tyumen_adj_khwarezmi;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 c_tyumen_adj_kurdish;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 c_tyumen_adj_khalaj;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
-c_tyumen_adj_pashtun;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
+c_tyumen_adj_afghan;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 c_tyumen_adj_qufs;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 c_tyumen_adj_baloch;Suwarian;Suwar;Suwar;;Suwar;;;;;;;;;x
 #;;;;;;;;;;;;;;
@@ -4347,7 +4347,7 @@ c_kokshaga_adj_turkmen;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
 c_kokshaga_adj_oghuz;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
 c_kokshaga_adj_mongol;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
 c_kokshaga_adj_kirghiz;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
-c_kokshaga_adj_uighur;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
+c_kokshaga_adj_uyghur;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
 c_kokshaga_adj_cuman;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
 c_kokshaga_adj_khazar;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
 c_kokshaga_adj_pecheneg;Kakšan;Kakša;Kakša;;Kakša;;;;;;;;;x
@@ -4385,7 +4385,7 @@ c_merya_adj_turkmen;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
 c_merya_adj_oghuz;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
 c_merya_adj_mongol;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
 c_merya_adj_kirghiz;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
-c_merya_adj_uighur;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
+c_merya_adj_uyghur;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
 c_merya_adj_cuman;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
 c_merya_adj_khazar;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
 c_merya_adj_pecheneg;Shushman;Shushma;Shushma;;Shushma;;;;;;;;;x
@@ -4401,7 +4401,7 @@ c_hlynov_adj_turkmen;Noqratan;Noqrat;Noqrat;;Noqrat;;;;;;;;;x
 c_hlynov_adj_oghuz;Noqratan;Noqrat;Noqrat;;Noqrat;;;;;;;;;x
 c_hlynov_adj_mongol;Noqratan;Noqrat;Noqrat;;Noqrat;;;;;;;;;x
 c_hlynov_adj_kirghiz;Noqratan;Noqrat;Noqrat;;Noqrat;;;;;;;;;x
-c_hlynov_adj_uighur;Noqratan;Noqrat;Noqrat;;Noqrat;;;;;;;;;x
+c_hlynov_adj_uyghur;Noqratan;Noqrat;Noqrat;;Noqrat;;;;;;;;;x
 c_hlynov_adj_cuman;Noqratan;Noqrat;Noqrat;;Noqrat;;;;;;;;;x
 c_hlynov_adj_khazar;Nukhratan;Nukhrat;Nukhrat;;Nukhrat;;;;;;;;;x
 c_hlynov_adj_pecheneg;Noqratan;Noqrat;Noqrat;;Noqrat;;;;;;;;;x
@@ -4429,7 +4429,7 @@ c_votyaki_adj_turkmen;Ijian;Ij;Ij;;Ij;;;;;;;;;x
 c_votyaki_adj_oghuz;Ijian;Ij;Ij;;Ij;;;;;;;;;x
 c_votyaki_adj_mongol;Ijian;Ij;Ij;;Ij;;;;;;;;;x
 c_votyaki_adj_kirghiz;Ijian;Ij;Ij;;Ij;;;;;;;;;x
-c_votyaki_adj_uighur;Ijian;Ij;Ij;;Ij;;;;;;;;;x
+c_votyaki_adj_uyghur;Ijian;Ij;Ij;;Ij;;;;;;;;;x
 c_votyaki_adj_cuman;Ijian;Ij;Ij;;Ij;;;;;;;;;x
 c_votyaki_adj_khazar;Ijian;Ij;Ij;;Ij;;;;;;;;;x
 c_votyaki_adj_pecheneg;Ijian;Ij;Ij;;Ij;;;;;;;;;x
@@ -4468,7 +4468,7 @@ c_ural_adj_turkmen;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
 c_ural_adj_oghuz;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
 c_ural_adj_mongol;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
 c_ural_adj_kirghiz;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
-c_ural_adj_uighur;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
+c_ural_adj_uyghur;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
 c_ural_adj_cuman;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
 c_ural_adj_khazar;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
 c_ural_adj_pecheneg;Çusovayan;Çusovaya;Çusovaya;;Çusovaya;;;;;;;;;x
@@ -4508,7 +4508,7 @@ c_zyriane_adj_turkmen;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
 c_zyriane_adj_oghuz;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
 c_zyriane_adj_mongol;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
 c_zyriane_adj_kirghiz;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
-c_zyriane_adj_uighur;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
+c_zyriane_adj_uyghur;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
 c_zyriane_adj_cuman;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
 c_zyriane_adj_khazar;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
 c_zyriane_adj_pecheneg;Viçegdan;Viçegda;Viçegda;;Viçegda;;;;;;;;;x
@@ -4612,7 +4612,7 @@ c_lekia_adj_oghuz;Lezgistanish;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
 c_lekia_adj_mongol;Lezgistan;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
 c_lekia_adj_kirghiz;Lezgistan;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
 c_lekia_adj_cuman;Lezgistan;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
-c_lekia_adj_uighur;Lezgistan;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
+c_lekia_adj_uyghur;Lezgistan;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
 c_lekia_adj_karluk;Lezgistan;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
 c_lekia_adj_khitan;Lezgistan;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
 c_lekia_adj_bolghar;Lezgistan;Lezgistan;Lezgistan;;Lezgistan;;;;;;;;;x
@@ -4633,11 +4633,11 @@ c_lekia_adj_pahlavi;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 c_lekia_adj_persian;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 c_lekia_adj_tajik;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 c_lekia_adj_daylamite;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
-c_lekia_adj_soghdian;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
+c_lekia_adj_sogdian;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 c_lekia_adj_khwarezmi;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 c_lekia_adj_kurdish;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 c_lekia_adj_khalaj;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
-c_lekia_adj_pashtun;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
+c_lekia_adj_afghan;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 c_lekia_adj_qufs;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 c_lekia_adj_baloch;al-Lakzan;al-Lakza;al-Lakza;;al-Lakza;;;;;;;;;x
 ##Hungary;;;;;;;;;;;;;;

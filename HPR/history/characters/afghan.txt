@@ -5,10 +5,10 @@
 # vanilla characters
 
 175060 = {
-	name=Kallar # Founder of the Hindu Shahi dynasty 
+	name=Kallar # Founder of the Hindu Shahi dynasty
 	dynasty=1043006
 	religion=hindu
-	culture=pashtun
+	culture=afghan
 	trait=brahmin # Well documented as a Brahmin
   father=1000231301
 	841.1.1={
@@ -23,7 +23,7 @@
 	name="Hasan"
 	dynasty=12334
 	religion="sunni"
-	culture="pashtun"
+	culture="afghan"
 
 	1285.1.1={
 		birth = yes
@@ -43,7 +43,7 @@
 	name="Mohammed"
 	dynasty=12334
 	religion="sunni"
-	culture="pashtun"
+	culture="afghan"
 	father=74723
 	mother=74725
 
@@ -59,7 +59,7 @@
 	name="Ubaidah"
 	female=yes
 	religion="sunni"
-	culture="pashtun"
+	culture="afghan"
 
 	1295.1.1={
 		birth = yes
@@ -73,7 +73,7 @@
 	name="Nezam" # Fictional
 	dynasty=1041119
 	religion="sunni"
-	culture="pashtun"
+	culture="afghan"
 	834.1.1={
 		birth = yes
 	}
@@ -92,7 +92,7 @@
 	name="Kabak" # semi-historical
 	dynasty=1000102300
 	religion="zun_pagan"
-	culture="pashtun"
+	culture="afghan"
 	837.1.1={
 		birth="837.1.1"
 	}
@@ -108,7 +108,7 @@
 	name="Bhima"  # fantasy father of Kallar
 	dynasty=1043006
 	religion=hindu
-	culture=pashtun
+	culture=afghan
 	819.1.1={
 		birth = yes
 	}
@@ -121,7 +121,7 @@
   female=yes
 	dynasty=1043006
 	religion=hindu
-	culture=pashtun
+	culture=afghan
   father=1000231301
 	840.1.1={
 		birth = yes

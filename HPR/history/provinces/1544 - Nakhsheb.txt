@@ -15,7 +15,7 @@ b_nawqad-kureysh = castle
 
 
 # Misc
-culture = soghdian
+culture = sogdian
 religion = sunni
 terrain = steppe
 

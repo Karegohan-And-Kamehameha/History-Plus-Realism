@@ -6,9 +6,9 @@ character_event = {
 	id = SWMH.0
 	desc = "EVTDESCSWMH.0"
 	picture = GFX_evt_stone_church
-	
+
 	only_independent = yes
-	
+
 	trigger = {
 		year = 901
 		OR = {
@@ -16,7 +16,7 @@ character_event = {
 			culture = karluk
 			culture = cuman
 		}
-		
+
 		any_demesne_province = {
 			kingdom = {
 				OR = {
@@ -32,12 +32,12 @@ character_event = {
 				culture = persian
 				culture = khorasani
 				culture = tajik
-				culture = soghdian
+				culture = sogdian
 				culture = khalaj
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1200
 		modifier = {
@@ -89,7 +89,7 @@ character_event = {
 					culture = persian
 					culture = khorasani
 					culture = tajik
-					culture = soghdian
+					culture = sogdian
 					culture = khalaj
 				}
 			}
@@ -103,7 +103,7 @@ character_event = {
 	id = SWMH.1
 	desc = "EVTDESCSWMH.1"
 	picture = GFX_evt_stone_church
-	
+
 	trigger = {
 		year = 940
 		culture = turkmen
@@ -122,14 +122,14 @@ character_event = {
 				culture = persian
 				culture = khorasani
 				culture = tajik
-				culture = soghdian
+				culture = sogdian
 				culture = oghuz
 				culture = karluk
 				culture = cuman
  			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 720
 	}
@@ -152,7 +152,7 @@ character_event = {
 					culture = persian
 					culture = khorasani
 					culture = tajik
-					culture = soghdian
+					culture = sogdian
 					culture = oghuz
 					culture = karluk
 					culture = cuman
@@ -190,14 +190,14 @@ character_event = {
 				culture = persian
 				culture = khorasani
 				culture = tajik
-				culture = soghdian
+				culture = sogdian
 				culture = oghuz
 				culture = karluk
 				culture = cuman
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
@@ -206,12 +206,12 @@ character_event = {
 		name = "EVTOPTASWMH.2"
 		random_courtier = {
 			limit = {
-				OR = {	
+				OR = {
 					culture = pahlavi
 					culture = persian
 					culture = khorasani
 					culture = tajik
-					culture = soghdian
+					culture = sogdian
 					culture = oghuz
 					culture = karluk
 					culture = cuman
@@ -252,14 +252,14 @@ character_event = {
 				culture = persian
 				culture = khorasani
 				culture = tajik
-				culture = soghdian
+				culture = sogdian
 				culture = oghuz
 				culture = karluk
 				culture = cuman
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 720
 	}
@@ -268,12 +268,12 @@ character_event = {
 		name = "EVTOPTASWMH.3"
 		random_vassal = {
 			limit = {
-				OR = {	
+				OR = {
 					culture = pahlavi
 					culture = persian
 					culture = khorasani
 					culture = tajik
-					culture = soghdian
+					culture = sogdian
 					culture = oghuz
 					culture = karluk
 					culture = cuman

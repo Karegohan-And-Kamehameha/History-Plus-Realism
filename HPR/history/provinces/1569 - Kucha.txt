@@ -14,8 +14,8 @@ b_bal = city
 #b_kukuchi = castle
 
 # Misc
-culture = uighur
+culture = uyghur
 religion = buddhist
 
 # History
-915.1.1 = {	culture = uighur }
+915.1.1 = {	culture = uyghur }

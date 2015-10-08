@@ -7,12 +7,12 @@ title = c_vendome
 max_settlements = 5
 b_vendome = castle
 b_lavardin = city
-b_stavit = temple
-
+b_cloyes = temple
 #b_chateaurenault = city
 #b_freteval = castle
 #b_montoire = castle
 #b_montmirail = castle
+#b_stavit = temple
 
 culture = old_frankish
 religion = chalcedonian

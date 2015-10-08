@@ -16,6 +16,7 @@ culture = croatian
 religion = chalcedonian
 
 # History
+860.1.1 = { trade_post = b_zamanjic }
 1054.1.1 = {
 	religion = catholic
 }

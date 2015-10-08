@@ -12,7 +12,7 @@ b_dizak_ustrushana = temple
 
 
 # Misc
-culture = soghdian
+culture = sogdian
 religion = zoroastrian
 
 # History

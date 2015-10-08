@@ -49,7 +49,7 @@ province_event = {
 		}
 
 		NOT = { religion_authority = 0.9 }
-		had_global_flag = { flag = startup days = 1095 }
+		e_placeholder = { had_title_flag = { flag = startup days = 1095 } }
 	}
 
 	mean_time_to_happen = {
@@ -1998,6 +1998,81 @@ character_event = {
 			random = {
 				chance = 50
 				add_trait = sympathy_indian
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = { religion_group = FROM }
+				if = {
+					limit = {
+						is_ruler = yes
+						lower_tier_than = DUKE
+					}
+					FROM = { piety = 25 }
+				}
+				if = {
+					limit = {
+						is_ruler = yes
+						tier = DUKE
+					}
+					FROM = { piety = 50 }
+				}
+				if = {
+					limit = {
+						is_ruler = yes
+						higher_tier_than = DUKE
+					}
+					FROM = { piety = 100 }
+				}
+			}
+			if = {
+				limit = { NOT = { religion_group = FROM } }
+				if = {
+					limit = {
+						is_ruler = yes
+						lower_tier_than = DUKE
+					}
+					FROM = { piety = 50 }
+				}
+				if = {
+					limit = {
+						is_ruler = yes
+						tier = DUKE
+					}
+					FROM = {
+						piety = 100
+						if = {
+							limit = { has_nickname = no }
+							random_list = {
+								30 = {}
+								20 = { give_nickname = nick_the_preacher }
+								10 = { give_nickname = nick_the_proselytizer }
+								10 = { give_nickname = nick_the_pious }
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						is_ruler = yes
+						higher_tier_than = DUKE
+					}
+					set_character_flag = king_converted
+					FROM = {
+						if = {
+							limit = { has_nickname = no }
+							random_list = {
+								10 = {}
+								20 = { give_nickname = nick_the_preacher }
+								20 = { give_nickname = nick_the_proselytizer }
+								10 = { give_nickname = nick_the_pious }
+								5 = { give_nickname = nick_the_illuminator }
+							}
+						}
+						piety = 200
+						set_character_flag = converted_king
+					}
+				}
 			}
 		}
 		religion = FROM

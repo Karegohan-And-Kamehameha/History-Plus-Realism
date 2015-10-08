@@ -19,4 +19,4 @@ religion = buddhist
 
 # History
 987.1.1 = {	religion = sunni }
-1007.1.1 = {	culture = pashtun }
+1007.1.1 = {	culture = afghan }

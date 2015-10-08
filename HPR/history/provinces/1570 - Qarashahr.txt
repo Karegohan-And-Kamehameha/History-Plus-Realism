@@ -7,13 +7,13 @@ title = c_qarashahr
 max_settlements = 5
 b_qocho = castle
 b_qarashahr = city
-b_korla = castle 
+b_korla = castle
 b_ushak-tal = temple
 
 #b_charchi = castle
 
 # Misc
-culture = uighur
+culture = uyghur
 religion = buddhist
 
 # History

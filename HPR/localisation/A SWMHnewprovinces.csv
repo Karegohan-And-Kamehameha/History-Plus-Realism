@@ -117,7 +117,7 @@ PROV1021;Arlon;Arlon;Arlon;;Arlon;;;;;x;;;;
 PROV1022;Valenciennes;Valenciennes;Valenciennes;;Valenciennes;;;;;x;;;;
 PROV1023;Orkdœlafylki;Orkdœlafylki;Orkdœlafylki;;Orkdœlafylki;;;;;x;;;;
 PROV1024;Cambrai;Cambrai;Cambrai;;Cambrai;;;;;x;;;;
-PROV1025;Reynoldsburgh;Reynoldsburgh;Reynoldsburgh;;Reynoldsburgh;;;;;x;;;;
+PROV1025;Rendsburg;Rendsburg;Rendsburg;;Rendsburg;;;;;x;;;;
 PROV1026;Aachen;Aachen;Aachen;;Aachen;;;;;x;;;;
 PROV1027;Væstær Syaland;Væstær Syaland;Væstær Syaland;;Væstær Syaland;;;;;x;;;;
 PROV1028;Pont-á-Mousson;Pont-á-Mousson;Pont-á-Mousson;;Pont-á-Mousson;;;;;x;;;;
@@ -823,7 +823,7 @@ PROV1727;Strait of Gibraltar;Détroit de Gibraltar;Straße von Gibraltar;;Estrecho
 PROV1728;Saimaa;Saimaa;Saimaa;;Saimaa;;;;;;;;;x
 PROV1729;Lake Balaton;Lake Balaton;Lake Balaton;;Lake Balaton;;;;;;;;;x
 PROV1730;Oulujärvi;Oulujärvi;Oulujärvi;;Oulujärvi;;;;;;;;;x
-PROV1731;Ladoga Lake;Lac Ladoga;Ladogasee;;Lago Ladoga;;;;;;;;;x
+PROV1731;Lake Ladoga;Lac Ladoga;Ladogasee;;Lago Ladoga;;;;;;;;;x
 PROV1732;Mälaren;Mälaren;Mälaren;;Mälaren;;;;;;;;;x
 PROV1733;Faroya;Faroya;Faroya;;Faroya;;;;;;;;;x
 PROV1734;Hjälmaren;Hjälmaren;Hjälmaren;;Hjälmaren;;;;;;;;;x
@@ -938,7 +938,7 @@ PROV1842;Persian Gulf;Persian Gulf;Persian Gulf;;Persian Gulf;;;;;;;;;x
 PROV1843;Persian Gulf;Persian Gulf;Persian Gulf;;Persian Gulf;;;;;;;;;x
 PROV1844;Arabian Sea;Arabian Sea;Arabian Sea;;Arabian Sea;;;;;;;;;x
 PROV1845;Gulf of Khambhat;Gulf of Khambhat;Gulf of Khambhat;;Gulf of Khambhat;;;;;;;;;x
-PROV1846;Gulf of Kuchch;Gulf of Kuchch;Gulf of Kuchch;;Gulf of Kuchch;;;;;;;;;x
+PROV1846;Gulf of Kutch;Gulf of Kutch;Gulf of Kutch;;Gulf of Kutch;;;;;;;;;x
 PROV1847;Coast of Malabar;Coast of Malabar;Coast of Malabar;;Coast of Malabar;;;;;;;;;x
 PROV1848;Indus Delta;Indus Delta;Indus Delta;;Indus Delta;;;;;;;;;x
 PROV1849;Svir;Svir;Svir;;Svir;;;;;;;;;x
@@ -1028,11 +1028,11 @@ PROV1932;Maas;Maas;Maas;;Maas;;;;;;;;;x
 PROV1933;Maas;Maas;Maas;;Maas;;;;;;;;;x
 PROV1934;Maas;Maas;Maas;;Maas;;;;;;;;;x
 PROV1935;Ran of Kutch;Ran of Kutch;Ran of Kutch;;Ran of Kutch;;;;;;;;;x
-PROV1936;Indus A;Indus A;Indus A;;Indus A;;;;;;;;;x
-PROV1937;Indus B;Indus B;Indus B;;Indus B;;;;;;;;;x
-PROV1938;Redsea;Redsea;Redsea;;Redsea;;;;;;;;;x
-PROV1939;Redsea;Redsea;Redsea;;Redsea;;;;;;;;;x
-PROV1940;Redsea;Redsea;Redsea;;Redsea;;;;;;;;;x
+PROV1936;Indus;Indus;Indus;;Indus;;;;;;;;;x
+PROV1937;Indus;Indus;Indus;;Indus;;;;;;;;;x
+PROV1938;Red Sea;Red Sea;Red Sea;;Red Sea;;;;;;;;;x
+PROV1939;Red Sea;Red Sea;Red Sea;;Red Sea;;;;;;;;;x
+PROV1940;Red Sea;Red Sea;Red Sea;;Red Sea;;;;;;;;;x
 PROV1941;Gulf of Aden;Gulf of Aden;Gulf of Aden;;Gulf of Aden;;;;;;;;;x
 PROV1942;Coast of Somailia;Coast of Somailia;Coast of Somailia;;Coast of Somailia;;;;;;;;;x
 PROV1943;Coast of Yemen;Coast of Yemen;Coast of Yemen;;Coast of Yemen;;;;;;;;;x
@@ -1047,3 +1047,4 @@ PROV806;Libyan desert;Libyan desert;Libyan desert;;Libyan desert;;;;;x;;;;
 PROV1951;Badiyat ash-sham;Badiyat ash-sham;Badiyat ash-sham;;Badiyat ash-sham;;;;;x;;;;
 PROV1952;Ténéré;Ténéré;Ténéré;;Ténéré;;;;;x;;;;
 PROV1953;Tanezrouft;Tanezrouft;Tanezrouft;;Tanezrouft;;;;;x;;;;
+PROV1954;An Nafud;An Nafud;An Nafud;;An Nafud;;;;;x;;;;

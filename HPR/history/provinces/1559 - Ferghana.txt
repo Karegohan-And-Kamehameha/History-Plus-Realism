@@ -12,7 +12,7 @@ b_qubaferghana = temple
 #b_naqad = castle
 
 # Misc
-culture = soghdian
+culture = sogdian
 religion = zoroastrian
 
 # History
