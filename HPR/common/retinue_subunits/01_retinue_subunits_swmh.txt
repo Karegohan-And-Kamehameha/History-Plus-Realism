@@ -1083,7 +1083,7 @@ RETTYPE_CUL_DAYLAMITE =
 	is_nomadic = no
 		OR = {
         culture = daylamite
-        culture = pashtun
+        culture = afghan
         culture = qufs
         }
         }

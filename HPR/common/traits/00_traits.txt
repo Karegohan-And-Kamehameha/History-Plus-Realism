@@ -925,10 +925,6 @@ inbred = {
 	inbred = yes
 	inherit_chance = 25
 
-	opposites = {
-		fertile
-	}
-
 	sex_appeal_opinion = -30
 
 	combat_rating = -2
@@ -951,6 +947,7 @@ inbred = {
 		fair
 		beauty
 		strong
+		fertile
 	}
 
 	male_insult = INSULT_ABOMINATION

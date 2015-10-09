@@ -8,11 +8,11 @@
 ######################################
 1000102100 = {
 	name="Ál-e Karákana"
-	culture = soghdian
+	culture = sogdian
 }
 1000102101 = {
 	name="Ál Abi'l-Sáj"
-	culture = soghdian
+	culture = sogdian
 }
 
 

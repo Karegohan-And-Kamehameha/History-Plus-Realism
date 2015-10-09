@@ -177,10 +177,7 @@ character_event = { # Provincia Mesopotamia
 
 	immediate = {
 		activate_title = { title = k_roman_mesopotamia status = yes }
-		d_tigris = { de_jure_liege = k_roman_mesopotamia }
-		d_kermanshah = { de_jure_liege = k_roman_mesopotamia }
-		d_basra = { de_jure_liege = k_roman_mesopotamia }
-		d_baghdad = { de_jure_liege = k_roman_mesopotamia }
+		d_amida = { de_jure_liege = k_roman_mesopotamia }
 		d_mosul = { de_jure_liege = k_roman_mesopotamia }
 		d_diyareast = { de_jure_liege = k_roman_mesopotamia }
 		d_jazira = { de_jure_liege = k_roman_mesopotamia }
@@ -196,9 +193,6 @@ character_event = { #Provincia Italia
 
 	immediate = {
 		activate_title = { title = k_roma status = yes }
-		d_carinthia = { de_jure_liege = k_roma }
-		d_istria = { de_jure_liege = k_roma }
-		d_aquileia = { de_jure_liege = k_roma }
 		d_lombardia = { de_jure_liege = k_roma }
 		d_como = { de_jure_liege = k_roma }
 		d_verona = { de_jure_liege = k_roma }
@@ -218,7 +212,8 @@ character_event = { #Provincia Italia
 		d_urbino = { de_jure_liege = k_roma }
 		d_spoleto = { de_jure_liege = k_roma }
 		d_latium = { de_jure_liege = k_roma }
-		d_venice = { de_jure_liege = k_roma }
+		d_corsica = { de_jure_liege = k_roma }
+		d_sardinia = { de_jure_liege = k_roma }
 		d_benevento = { de_jure_liege = k_roma }
 		d_napoli = { de_jure_liege = k_roma }
 		d_capua = { de_jure_liege = k_roma }
@@ -228,7 +223,12 @@ character_event = { #Provincia Italia
 		d_salerno = { de_jure_liege = k_roma }
 		d_alvito = { de_jure_liege = k_roma }
 		d_calabria = { de_jure_liege = k_roma }
-		d_corsica = { de_jure_liege = k_roma }
+		d_sicily = { de_jure_liege = k_roma }
+		d_venice = { de_jure_liege = k_roma }
+		d_tyrol = { de_jure_liege = k_roma }
+		d_carinthia = { de_jure_liege = k_roma }
+		d_istria = { de_jure_liege = k_roma }
+		d_aquileia = { de_jure_liege = k_roma }
 		if = {
 			limit = { has_global_flag = sicilia }
 			d_sicily = {
@@ -254,22 +254,12 @@ character_event = {# Provincia Viennensis
 		activate_title = { title = k_viennensis status = yes }
 		d_aquitaine = { de_jure_liege = k_viennensis }
 		d_toulouse = { de_jure_liege = k_viennensis }
-		d_gevaudan = { de_jure_liege = k_viennensis }
-		d_foix = { de_jure_liege = k_viennensis }
-		d_septimania = { de_jure_liege = k_viennensis }
 		d_gascogne = { de_jure_liege = k_viennensis }
 		d_poitou = { de_jure_liege = k_viennensis }
 		d_auvergne = { de_jure_liege = k_viennensis }
-		d_limousin = { de_jure_liege = k_viennensis }
 		d_bourbon = { de_jure_liege = k_viennensis }
-		d_brittany = { de_jure_liege = k_viennensis }
 		d_dauphine = { de_jure_liege = k_viennensis }
 		d_provence = { de_jure_liege = k_viennensis }
-		d_lyon = { de_jure_liege = k_viennensis }
-		d_arles = { de_jure_liege = k_viennensis }
-		d_brabant = { de_jure_liege = k_viennensis }
-		d_hainaut = { de_jure_liege = k_viennensis }
-		d_flanders = { de_jure_liege = k_viennensis }
 	}
 }
 
@@ -281,22 +271,16 @@ character_event = {# Provincia Syria Palaestina
 
 	immediate ={
 		activate_title = { title = k_syria_palaestina status = yes }
+		d_edessa = { de_jure_liege = k_syria_palaestina }
+		d_antioch = { de_jure_liege = k_syria_palaestina }
 		d_aleppo = { de_jure_liege = k_syria_palaestina }
+		d_tripoli = { de_jure_liege = k_syria_palaestina }
 		d_homs = { de_jure_liege = k_syria_palaestina }
 		d_damascus = { de_jure_liege = k_syria_palaestina }
-		d_jordan = { de_jure_liege = k_syria_palaestina }
-		d_syria = { de_jure_liege = k_syria_palaestina }
-		d_antioch = { de_jure_liege = k_syria_palaestina }
-		d_tripoli = { de_jure_liege = k_syria_palaestina }
-		d_oultrejourdain = { de_jure_liege = k_syria_palaestina }
+		d_galilee = { de_jure_liege = k_syria_palaestina }
+		d_acre = { de_jure_liege = k_syria_palaestina }
 		d_jerusalem = { de_jure_liege = k_syria_palaestina }
 		d_ascalon = { de_jure_liege = k_syria_palaestina }
-		d_acre = { de_jure_liege = k_syria_palaestina }
-		d_galilee = { de_jure_liege = k_syria_palaestina }
-		d_edessa = { de_jure_liege = k_syria_palaestina }
-		d_seleukeia = { de_jure_liege = k_syria_palaestina }
-		d_cyprus = { de_jure_liege = k_syria_palaestina }
-		d_armenia_minor = { de_jure_liege = k_syria_palaestina }
 		activate_title = { title = k_jerusalem status = no }
 	}
 }
@@ -344,11 +328,6 @@ character_event = {# Provincia Aegyptus
 		d_cairo = { de_jure_liege = k_aegyptus }
 		d_alwahat = { de_jure_liege = k_aegyptus }
 		d_aswan = { de_jure_liege = k_aegyptus }
-		d_sinai = { de_jure_liege = k_aegyptus }
-		d_nubia = { de_jure_liege = k_aegyptus }
-		d_alodia = { de_jure_liege = k_aegyptus }
-		d_nobatia = { de_jure_liege = k_aegyptus }
-		d_elatrun = { de_jure_liege = k_aegyptus }
 		if = {
 			limit = { has_global_flag = cyrenaica }
 			d_cyrenaica = { de_jure_liege = k_aegyptus }
@@ -409,32 +388,46 @@ character_event = {# Provincia Gallia
 
 	immediate = {
 		activate_title = { title = k_gallia status = yes }
-		d_blois = { de_jure_liege = k_gallia }
-		d_artois = { de_jure_liege = k_gallia }
-		d_brittany = { de_jure_liege = k_gallia }
-		d_berry = { de_jure_liege = k_gallia }
-		d_anjou = { de_jure_liege = k_gallia }
-		d_archreims = { de_jure_liege = k_gallia }
-		d_nevers = { de_jure_liege = k_gallia }
-		d_rethel = { de_jure_liege = k_gallia }
-		d_normandy = { de_jure_liege = k_gallia }
-		d_orleans = { de_jure_liege = k_gallia }
-		d_champagne = { de_jure_liege = k_gallia }
-		d_valois = { de_jure_liege = k_gallia }
-		d_burgundy = { de_jure_liege = k_gallia }
-		d_upper_burgundy = { de_jure_liege = k_gallia }
-		d_savoie = { de_jure_liege = k_gallia }
-		d_brabant = { de_jure_liege = k_gallia }
-		d_flanders = { de_jure_liege = k_gallia }
+		d_trier = { de_jure_liege = k_gallia }
 		d_luxembourg = { de_jure_liege = k_gallia }
 		d_upper_lorraine = { de_jure_liege = k_gallia }
-		d_lower_lorraine = { de_jure_liege = k_gallia }
-		d_alsace = { de_jure_liege = k_gallia }
 		d_barleduc = { de_jure_liege = k_gallia }
-		d_liege = { de_jure_liege = k_gallia }
-		d_kleve = { de_jure_liege = k_gallia }
+		d_hainaut = { de_jure_liege = k_gallia }
+		d_limburg = { de_jure_liege = k_gallia }
+		d_savoie = { de_jure_liege = k_gallia }
+		d_aosta = { de_jure_liege = k_gallia }
+		d_arles = { de_jure_liege = k_gallia }
+		d_provence = { de_jure_liege = k_gallia }
+		d_lyon = { de_jure_liege = k_gallia }
+		d_dauphine = { de_jure_liege = k_gallia }
+		d_basel = { de_jure_liege = k_gallia }
+		d_upper_burgundy = { de_jure_liege = k_gallia }
+		d_brittany = { de_jure_liege = k_gallia }
+		d_flanders = { de_jure_liege = k_gallia }
+		d_artois = { de_jure_liege = k_gallia }
+		d_burgundy = { de_jure_liege = k_gallia }
+		d_bourbon = { de_jure_liege = k_gallia }
+		d_anjou = { de_jure_liege = k_gallia }
+		d_normandy = { de_jure_liege = k_gallia }
 		d_alencon = { de_jure_liege = k_gallia }
-		d_koln = { de_jure_liege = k_gallia }
+		d_orleans = { de_jure_liege = k_gallia }
+		d_blois = { de_jure_liege = k_gallia }
+		d_berry = { de_jure_liege = k_gallia }
+		d_nevers = { de_jure_liege = k_gallia }
+		d_archreims = { de_jure_liege = k_gallia }
+		d_champagne = { de_jure_liege = k_gallia }
+		d_rethel = { de_jure_liege = k_gallia }
+		d_valois = { de_jure_liege = k_gallia }
+		d_toulouse = { de_jure_liege = k_gallia }
+		d_gevaudan = { de_jure_liege = k_gallia }
+		d_foix = { de_jure_liege = k_gallia }
+		d_septimania = { de_jure_liege = k_gallia }
+		d_gascogne = { de_jure_liege = k_gallia }
+		d_aquitaine = { de_jure_liege = k_gallia }
+		d_auvergne = { de_jure_liege = k_gallia }
+		d_poitou = { de_jure_liege = k_gallia }
+		d_limousin = { de_jure_liege = k_gallia }
+		d_channel_islands = { de_jure_liege = k_gallia }
 	}
 }
 
@@ -446,63 +439,56 @@ character_event = {# Provincia Germania
 
 	immediate = {
 		activate_title = { title = k_germania status = yes }
-		d_upper_burgundy = { de_jure_liege = k_germania }
-		d_savoie = { de_jure_liege = k_germania }
-		d_aosta = { de_jure_liege = k_germania }
-		d_basel = { de_jure_liege = k_germania }
+		d_brabant = { de_jure_liege = k_germania }
+		d_liege = { de_jure_liege = k_germania }
 		d_holland = { de_jure_liege = k_germania }
 		d_utrecht = { de_jure_liege = k_germania }
 		d_gelre = { de_jure_liege = k_germania }
 		d_frisia = { de_jure_liege = k_germania }
-		d_trier = { de_jure_liege = k_germania }
-		d_pfalz = { de_jure_liege = k_germania }
-		d_limburg = { de_jure_liege = k_germania }
+		d_koln = { de_jure_liege = k_germania }
 		d_berg = { de_jure_liege = k_germania }
+		d_baden = { de_jure_liege = k_germania }
+		d_alsace = { de_jure_liege = k_germania }
+		d_teck = { de_jure_liege = k_germania }
 		d_angria = { de_jure_liege = k_germania }
 		d_oldenburg = { de_jure_liege = k_germania }
 		d_osnabruck = { de_jure_liege = k_germania }
 		d_bishopmunster = { de_jure_liege = k_germania }
 		d_bremen = { de_jure_liege = k_germania }
+		d_holstein = { de_jure_liege = k_germania }
 		d_magdeburg = { de_jure_liege = k_germania }
 		d_saxewittenberg = { de_jure_liege = k_germania }
+		d_meissen = { de_jure_liege = k_germania }
 		d_altmark = { de_jure_liege = k_germania }
-		d_niederbayern = { de_jure_liege = k_germania }
-		d_oberbayern = { de_jure_liege = k_germania }
-		d_osterreich = { de_jure_liege = k_germania }
-		d_tyrol = { de_jure_liege = k_germania }
-		d_salzburg = { de_jure_liege = k_germania }
 		d_brunswick = { de_jure_liege = k_germania }
-		d_thuringia = { de_jure_liege = k_germania }
-		d_bamberg = { de_jure_liege = k_germania }
-		d_nuremberg = { de_jure_liege = k_germania }
 		d_rheinfranken = { de_jure_liege = k_germania }
 		d_wurzburg = { de_jure_liege = k_germania }
 		d_mainz = { de_jure_liege = k_germania }
-		d_baden = { de_jure_liege = k_germania }
+		d_thuringia = { de_jure_liege = k_germania }
 		d_hessen = { de_jure_liege = k_germania }
-		d_styria = { de_jure_liege = k_germania }
+		d_niederbayern = { de_jure_liege = k_germania }
+		d_bamberg = { de_jure_liege = k_germania }
+		d_nuremberg = { de_jure_liege = k_germania }
+		d_bohemia = { de_jure_liege = k_germania }
+		d_moravia = { de_jure_liege = k_germania }
+		d_sjaelland = { de_jure_liege = k_germania }
+		d_jylland = { de_jure_liege = k_germania }
+		d_slesvig = { de_jure_liege = k_germania }
 		d_mecklemburg = { de_jure_liege = k_germania }
+		d_pomeralia = { de_jure_liege = k_germania }
 		d_lubeck = { de_jure_liege = k_germania }
-		d_holstein = { de_jure_liege = k_germania }
-		d_pommerania = { de_jure_liege = k_germania }
 		d_lubusz = { de_jure_liege = k_germania }
+		d_pommerania = { de_jure_liege = k_germania }
 		d_rugen = { de_jure_liege = k_germania }
 		d_brandenburg = { de_jure_liege = k_germania }
 		d_lausitz = { de_jure_liege = k_germania }
-		d_meissen = { de_jure_liege = k_germania }
-		d_bohemia = { de_jure_liege = k_germania }
-		d_moravia = { de_jure_liege = k_germania }
-		d_teck = { de_jure_liege = k_germania }
-		d_augsburg = { de_jure_liege = k_germania }
-		d_burgau = { de_jure_liege = k_germania }
-		d_zahringen = { de_jure_liege = k_germania }
-		d_chur = { de_jure_liege = k_germania }
-		d_swiss = { de_jure_liege = k_germania }
-		d_franconia = { de_jure_liege = k_germania }
-		d_swabia = { de_jure_liege = k_germania }
-		d_lower_lorraine = { de_jure_liege = k_germania }
-		d_bavaria = { de_jure_liege = k_germania }
-		d_saxony = { de_jure_liege = k_germania }
+		d_mazovia = { de_jure_liege = k_germania }
+		d_greater_poland = { de_jure_liege = k_germania }
+		d_silesia = { de_jure_liege = k_germania }
+		d_lesser_poland = { de_jure_liege = k_germania }
+		d_kuyavia = { de_jure_liege = k_germania }
+		d_sieradzko-leczyckie = { de_jure_liege = k_germania }
+		d_nyitra = { de_jure_liege = k_germania }
 	}
 }
 
@@ -516,23 +502,19 @@ character_event = {# Provincia Britannia
 		activate_title = { title = k_britannia status = yes }
 		d_somerset = { de_jure_liege = k_britannia }
 		d_canterbury = { de_jure_liege = k_britannia }
+		d_cornwall = { de_jure_liege = k_britannia }
 		d_hereford = { de_jure_liege = k_britannia }
 		d_bedford = { de_jure_liege = k_britannia }
 		d_essex = { de_jure_liege = k_britannia }
 		d_norfolk = { de_jure_liege = k_britannia }
 		d_fivebouroughs = { de_jure_liege = k_britannia }
 		d_york = { de_jure_liege = k_britannia }
-		d_northumberland = { de_jure_liege = k_britannia }
 		d_lancaster = { de_jure_liege = k_britannia }
+		d_northumberland = { de_jure_liege = k_britannia }
 		d_gwynedd = { de_jure_liege = k_britannia }
 		d_deheubarth = { de_jure_liege = k_britannia }
 		d_powys = { de_jure_liege = k_britannia }
 		d_morgannwg = { de_jure_liege = k_britannia }
-		d_cornwall = { de_jure_liege = k_britannia }
-		d_channel_islands = { de_jure_liege = k_britannia }
-		d_gloucester = { de_jure_liege = k_britannia }
-		d_oxford = { de_jure_liege = k_britannia }
-		d_chester = { de_jure_liege = k_britannia }
 	}
 }
 
@@ -544,6 +526,21 @@ character_event = {# Provincia Hispania
 
 	immediate = {
 		activate_title = { title = k_hispania status = yes }
+		d_castilla = { de_jure_liege = k_hispania }
+		d_segovia = { de_jure_liege = k_hispania }
+		d_najera = { de_jure_liege = k_hispania }
+		d_navarra = { de_jure_liege = k_hispania }
+		d_galicia = { de_jure_liege = k_hispania }
+		d_leon = { de_jure_liege = k_hispania }
+		d_salamanca = { de_jure_liege = k_hispania }
+		d_aragon = { de_jure_liege = k_hispania }
+		d_zaragoza = { de_jure_liege = k_hispania }
+		d_barcelona = { de_jure_liege = k_hispania }
+		d_catalunya_nova = { de_jure_liege = k_hispania }
+		d_teruel = { de_jure_liege = k_hispania }
+		d_ribatejo = { de_jure_liege = k_hispania }
+		d_beira = { de_jure_liege = k_hispania }
+		d_porto = { de_jure_liege = k_hispania }
 		d_beja = { de_jure_liege = k_hispania }
 		d_algarve = { de_jure_liege = k_hispania }
 		d_badajoz = { de_jure_liege = k_hispania }
@@ -553,29 +550,6 @@ character_event = {# Provincia Hispania
 		d_cordoba = { de_jure_liege = k_hispania }
 		d_la_mancha = { de_jure_liege = k_hispania }
 		d_valencia = { de_jure_liege = k_hispania }
-		d_aragon = { de_jure_liege = k_hispania }
-		d_zaragoza = { de_jure_liege = k_hispania }
-		d_barcelona = { de_jure_liege = k_hispania }
-		d_catalunya_nova = { de_jure_liege = k_hispania }
-		d_teruel = { de_jure_liege = k_hispania }
-		d_gandia = { de_jure_liege = k_hispania }
-		d_cardona = { de_jure_liege = k_hispania }
-		d_asturias = { de_jure_liege = k_hispania }
-		d_castilla = { de_jure_liege = k_hispania }
-		d_segovia = { de_jure_liege = k_hispania }
-		d_najera = { de_jure_liege = k_hispania }
-		d_alba_de_tormes = { de_jure_liege = k_hispania }
-		d_medina_sidonia = { de_jure_liege = k_hispania }
-		d_alburquerque = { de_jure_liege = k_hispania }
-		d_medinaceli = { de_jure_liege = k_hispania }
-		d_infantado = { de_jure_liege = k_hispania }
-		d_navarra = { de_jure_liege = k_hispania }
-		d_ribatejo = { de_jure_liege = k_hispania }
-		d_beira = { de_jure_liege = k_hispania }
-		d_porto = { de_jure_liege = k_hispania }
-		d_galicia = { de_jure_liege = k_hispania }
-		d_leon = { de_jure_liege = k_hispania }
-		d_salamanca = { de_jure_liege = k_hispania }
 		d_murcia = { de_jure_liege = k_hispania }
 		d_mallorca = { de_jure_liege = k_hispania }
 	}
@@ -594,8 +568,9 @@ character_event = {# Provincia Caledonia
 		d_albany = { de_jure_liege = k_caledonia }
 		d_moray = { de_jure_liege = k_caledonia }
 		d_aberdeen = { de_jure_liege = k_caledonia }
-		d_sutherland = { de_jure_liege = k_caledonia }
+		d_highlands = { de_jure_liege = k_caledonia }
 		d_strathclyde = { de_jure_liege = k_caledonia }
+		d_hebrides = { de_jure_liege = k_caledonia }
 	}
 }
 
@@ -607,16 +582,16 @@ character_event = {# Provincia Hibernia
 
 	immediate = {
 		activate_title = { title = k_hibernia status = yes }
+		d_oneill = { de_jure_liege = k_hibernia }
 		d_ulster = { de_jure_liege = k_hibernia }
+		d_airgialla = { de_jure_liege = k_hibernia }
+		d_breifne = { de_jure_liege = k_hibernia }
 		d_connacht = { de_jure_liege = k_hibernia }
 		d_meath = { de_jure_liege = k_hibernia }
-		d_leinster = { de_jure_liege = k_hibernia }
-		d_munster = { de_jure_liege = k_hibernia }
-		d_breifne = { de_jure_liege = k_hibernia }
 		d_thomond = { de_jure_liege = k_hibernia }
 		d_ossory = { de_jure_liege = k_hibernia }
-		d_oneill = { de_jure_liege = k_hibernia }
-		d_airgialla = { de_jure_liege = k_hibernia }
+		d_leinster = { de_jure_liege = k_hibernia }
+		d_munster = { de_jure_liege = k_hibernia }
 	}
 }
 

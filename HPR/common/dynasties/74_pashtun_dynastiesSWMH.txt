@@ -11,6 +11,6 @@
 
 1000102300 = {
 	name="Zunbils"
-	culture = pashtun
+	culture = afghan
 }
 

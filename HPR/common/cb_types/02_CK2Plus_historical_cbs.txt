@@ -257,8 +257,8 @@ aghlabid_867 = {
 
 #This is a duplicate of the CK2+ Invasion CB, with the ability to call allies removed.  Used for historical Invasions like 1066 William/Harald attacking England.
 invasion_nc = {
-	name = CB_NAME_INVASION_NO_CALLS
-	war_name = WAR_NAME_INVASION_NO_CALLS
+	name = CB_NAME_INVASION
+	war_name = WAR_NAME_INVASION
 	sprite = 7
 	truce_days = 3650
 	hostile_against_others = yes

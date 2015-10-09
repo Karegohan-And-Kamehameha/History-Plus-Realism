@@ -175,13 +175,13 @@ ca_culture_khwarezmian_1 = {
 	}
 
 
-#Iranian mountainers / Daylamites and Pashtun
+#Iranian mountainers / Daylamites and Afghan
 ca_culture_daylamite_1 = {
 		desc = ca_culture_daylamite_1_desc
 		potential = {
 			FROM = { OR = {
 					culture = daylamite
-					culture = pashtun
+					culture = afghan
 					culture = qufs
 				}
       }
@@ -203,7 +203,7 @@ ca_culture_daylamite_1 = {
 		potential = {
 			FROM = { OR = {
 					culture = daylamite
-					culture = pashtun
+					culture = afghan
 					culture = qufs
 				}
       }
@@ -225,7 +225,7 @@ ca_culture_daylamite_1 = {
 		potential = {
 			FROM = { OR = {
 					culture = daylamite
-					culture = pashtun
+					culture = afghan
 					culture = qufs
 				}
       }
@@ -247,7 +247,7 @@ ca_culture_daylamite_1 = {
 		potential = {
 			FROM = { OR = {
 					culture = daylamite
-					culture = pashtun
+					culture = afghan
 					culture = qufs
 				}
       }

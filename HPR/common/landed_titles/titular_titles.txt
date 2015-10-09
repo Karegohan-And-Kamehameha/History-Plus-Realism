@@ -47,13 +47,16 @@ e_ulm = { # Ulm
 	short_name = yes
 	allow = {
 		has_landed_title = c_ulm
-		independent = yes
 		prestige = 2000
-		or = {
-			has_landed_title = c_ferrara
-			any_vassal = { has_landed_title = c_ferrara }
+		c_ferrara = {
+			holder_scope = {
+				or = {
+					character = ROOT
+					is_liege_or_above = ROOT
+				}
+			}
 		}
-	war = no
+		war = no
 		has_regent = no
 		realm_size = 120
 	}
@@ -61,8 +64,8 @@ e_ulm = { # Ulm
 e_khazaria = { # Qasarstan
 	color = { 200 157 81 }
 	capital = 620 # Itil
-	mongol = "X–¥z–¥rstan"
-	kirghiz = "X–¥z–¥rstan"
+	mongol = "X‰z‰rstan"
+	kirghiz = "X‰z‰rstan"
 	bedouin_arabic = "Khazarstan"
 	maghreb_arabic = "Khazarstan"
 	levantine_arabic = "Khazarstan"
@@ -74,17 +77,17 @@ e_khazaria = { # Qasarstan
 	tuareg = "Khazarstan"
 	masmuda = "Khazarstan"
 	zanata = "Khazarstan"
-	pahlavi = "Xazarst–±n"
-	persian = "Xazarst–±n"
-	tajik = "Xazarst–±n"
-	daylamite = "Xazarst–±n"
-	khalaj = "Xazarst–±n"
-	sogdian = "Xazarst–±n"
-	khwarezmi = "Xazarst–±n"
-	kurdish = "Xazarst–±n"
-	afghan = "Xazarst–±n"
-	qufs = "Xazarst–±n"
-	baloch = "Xazarst–±n"
+	pahlavi = "Xazarst·n"
+	persian = "Xazarst·n"
+	tajik = "Xazarst·n"
+	daylamite = "Xazarst·n"
+	khalaj = "Xazarst·n"
+	sogdian = "Xazarst·n"
+	khwarezmi = "Xazarst·n"
+	kurdish = "Xazarst·n"
+	afghan = "Xazarst·n"
+	qufs = "Xazarst·n"
+	baloch = "Xazarst·n"
 	alan = "Chazaria"
 	sicilian_greek = "Chazaria"
 	arberian = "Chazaria"
@@ -151,10 +154,10 @@ k_cuman = { # Kumanlar # Non wild Cumans
 	culture = cuman
 	allow = { always = no }
 }
-k_pechenegs = { # Be–∑eneklar
+k_pechenegs = { # BeÁeneklar
 	color = { 79 116 79 }
 	color2 = { 255 255 255 }
-	capital = 618 # Saray-J—åk # Little Sarai
+	capital = 618 # Saray-J¸k # Little Sarai
 	dynasty_title_names = no
 	culture = pecheneg
 	allow = { always = no }
@@ -179,7 +182,7 @@ d_black_caps = { # Karakalpaklar
 	color = { 189 121 13 }
 	color2 = { 255 255 255 }
 	dynasty_title_names = no
-	capital = 544 # Ros‚Äô
+	capital = 544 # Rosí
 	russian = "Chyornye Klobuki"
 	persian = "Qaum-i Kulah-i Siyahan"
 	culture = oghuz
@@ -202,9 +205,9 @@ e_kaleva = { # Kalevala
 		realm_size = 120
 	}
 }
-k_geats = { # GautarÂãõi
+k_geats = { # GautarÌki
 	color = { 208 191 99 }
-	capital = 293 # ÔæñstergÓíúland
+	capital = 293 # ÷stergˆtland
 	allow = {
 		independent = yes
 		or = {
@@ -242,10 +245,14 @@ k_geats = { # GautarÂãõi
 } # end k_geats
 e_germany = {
 	color = { 160 95 95 }
+
+
 	color2 = { 220 220 20 }
-	capital = 314 # N„Éªnberg
+
+	capital = 314 # Nurnberg
 	creation_requires_capital = no
 	culture = german
+
 	short_name = yes
 	allow = {
 		is_title_active = FROM
@@ -288,7 +295,7 @@ e_germany = {
 k_avaria = { # Avaria
 	color = { 250 120 90 } # Only for the CoA
 	culture = avar
-	capital = 444 # Visegr–±d # Esztergom
+	capital = 444 # Visegr·d # Esztergom
 	allow = { always = no }
 }
 k_lombardy = { # Lombardy
@@ -302,9 +309,13 @@ d_lauenburg = { # Sachsen-Lauenburg
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
-		or = {
-			has_landed_title = c_lauenburg
-			any_vassal = { has_landed_title = c_lauenburg }
+		c_lauenburg = {
+			holder_scope = {
+				or = {
+					character = ROOT
+					is_liege_or_above = ROOT
+				}
+			}
 		}
 		not = { tier = emperor }
 	}
@@ -380,10 +391,10 @@ k_duklja = { # Duklja
 		not = { tier = emperor }
 	}
 }
-k_austria = { # –¶sterreich
+k_austria = { # ÷sterreich
 	color = { 188 0 7 }
 	culture = german
-	capital = 449 # –¶sterreich
+	capital = 449 # ÷sterreich
 	title = ADA
 	foa = ADA_FOA
 	title_prefix = ADA_OF
@@ -394,35 +405,20 @@ k_austria = { # –¶sterreich
 		has_landed_title = d_carinthia
 	}
 }
-d_smaland = { # Sm–µland
+d_smaland = { # SmÂland
 	color = { 88 138 70 }
-	capital = 298 # Njudung # Sm–µland
-	norse = "Sm–±land"
+	capital = 298 # Njudung # SmÂland
+	norse = "Sm·land"
 	allow = {
 		or = {
 			has_landed_title = c_smaland
-			any_vassal = { has_landed_title = c_smaland }
-		}
-		or = {
 			has_landed_title = c_tjust
-			any_vassal = { has_landed_title = c_tjust }
-		}
-		or = {
 			has_landed_title = c_finnveden
-			any_vassal = { has_landed_title = c_finnveden }
 		}
-		independent = yes
-		not = {
-			any_demesne_title = {
-				or = {
-					tier = king
-					tier = emperor
-				}
-			}
-		}
+		lower_tier_than = king
 	}
 }
-e_occitania = { # Occit–∞nia
+e_occitania = { # Occit‡nia
 	color = { 230 0 70 }
 	color2 = { 255 255 255 }
 	capital = 214 # Tolosa # Toulouse
@@ -435,6 +431,9 @@ e_occitania = { # Occit–∞nia
 			culture = catalan
 		}
 		religion_group = christian
+		war = no
+		has_regent = no
+		realm_size = 120
 		independent = yes
 		or = {
 			has_landed_title = d_toulouse
@@ -481,19 +480,11 @@ k_flanders = { # Vlaanderen
 			has_landed_title = c_lille
 			has_landed_title = c_tournai
 		}
-		independent = yes
-		not = {
-			any_demesne_title = {
-				or = {
-					tier = king
-					tier = emperor
-				}
-			}
-		}
+		lower_tier_than = king
 	}
 }
 # ARKO
-d_narbonne = { # Narbona # titre port–π par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la c—Ñte mais sans succ–∏s.
+d_narbonne = { # Narbona # titre portÈ par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la cÙte mais sans succËs. # Oh, obviously, yeah, +1.
 	color = { 0 20 188 }
 	color2 = { 255 255 255 }
 	capital = 214 # Tolosa # Toulouse
@@ -534,13 +525,19 @@ d_paulicians = { # Paulikianoi
 #		religion_group = christian
 #	}
 #}
-k_armenia_minor = { # Mikr–± Armenia
+k_armenia_minor = { # Mikr· Armenia
 	color = { 14 30 131 }
 	culture = armenian
 	capital = 735 # Marash # Teluch
 	allow = {
 		culture = armenian
 		religion_group = christian
+		FROM = {
+			or = {
+				has_holder = yes
+				is_titular = no
+			}
+		}
 	}
 }
 d_pagania = { # Neretljani
@@ -556,7 +553,7 @@ d_pagania = { # Neretljani
 }
 d_rhodos = { # Rhodos
 	color = { 144 230 19 }
-	capital = 483 # Dodek–±nisa # Rhodos
+	capital = 483 # Dodek·nisa # Rhodos
 	title = CAESAR
 	foa = CAESAR_FOA
 	title_prefix = CAESAR_OF
@@ -588,7 +585,7 @@ d_dahlak = { # Dahlak
 		is_republic = yes
 	}
 }
-d_siraf = { # Sir–±f
+d_siraf = { # Sir·f
 	color = { 40 200 200 }
 	capital = 1594 # Irahistan # Siraf
 	allow = {
@@ -604,9 +601,9 @@ e_wendish_empire = { # Wendish Empire
 	color = { 65 25 125 }
 	capital = 441 # Boruy # Brno
 	short_name = yes
-	bohemian = "Velk–π Czechy"
-	moravian = "Velk–± Morava"
-	polish = "Wi–∫ksza Polska"
+	bohemian = "VelkÈ Czechy"
+	moravian = "Velk· Morava"
+	polish = "WiÍksza Polska"
 	pommeranian = "Vendia"
 	karantanci = "Vendia"
 	croatian = "Vendia"
@@ -621,16 +618,13 @@ e_wendish_empire = { # Wendish Empire
 			culture = karantanci
 			culture = croatian
 		}
-		and = {
-			has_landed_title = k_moravia
-			or = {
-				has_landed_title = k_poland
-				has_landed_title = k_pomerania
-				has_landed_title = k_bohemia
-				has_landed_title = k_hungary
-			}
+		has_landed_title = k_moravia
+		or = {
+			has_landed_title = k_poland
+			has_landed_title = k_pomerania
+			has_landed_title = k_bohemia
+			has_landed_title = k_hungary
 		}
-		independent = yes
 		ruled_years = 5
 		war = no
 		has_regent = no
@@ -641,13 +635,13 @@ e_wendish_empire = { # Wendish Empire
 d_breifne = { # Breifne
 	color = { 54 135 39 }
 	color2 = { 136 0 21 }
-	irish = "Br–πifne"
-	scottish = "Br–πifne"
-	norsegaelic = "Br–πifne"
-	welsh = "Br–πifne"
-	cumbric = "Br–πifne"
-	cornish = "Br–πifne"
-	breton = "Br–πifne"
+	irish = "BrÈifne"
+	scottish = "BrÈifne"
+	norsegaelic = "BrÈifne"
+	welsh = "BrÈifne"
+	cumbric = "BrÈifne"
+	cornish = "BrÈifne"
+	breton = "BrÈifne"
 	saxon = "Breffny"
 	anglonorse = "Breffny"
 	norse = "Breffny"
@@ -686,24 +680,24 @@ d_oneill = { # O'Neill
 	color = { 70 106 21 }
 	color2 = { 255 255 255 }
 	capital = 4 # Tyrone
-	irish = "U–Ω N–πill"
-	scottish = "U–Ω N–πill"
-	norsegaelic = "U–Ω N–πill"
-	cornish = "U–Ω N–πill"
-	breton = "U–Ω N–πill"
-	cumbric = "U–Ω N–πill"
-	welsh = "U–Ω N–πill"
+	irish = "UÌ NÈill"
+	scottish = "UÌ NÈill"
+	norsegaelic = "UÌ NÈill"
+	cornish = "UÌ NÈill"
+	breton = "UÌ NÈill"
+	cumbric = "UÌ NÈill"
+	welsh = "UÌ NÈill"
 }
-d_airgialla = { # Airg–Ωalla
+d_airgialla = { # AirgÌalla
 	color = { 30 180 20 }
 	color2 = { 251 140 17 }
-	irish = "Airg–Ωalla"
+	irish = "AirgÌalla"
 	scottish = "Oirialla"
-	norsegaelic = "Airg–Ωalla"
-	welsh = "Airg–Ωalla"
-	cornish = "Airg–Ωalla"
-	breton = "Airg–Ωalla"
-	cumbric = "Airg–Ωalla"
+	norsegaelic = "AirgÌalla"
+	welsh = "AirgÌalla"
+	cornish = "AirgÌalla"
+	breton = "AirgÌalla"
+	cumbric = "AirgÌalla"
 	saxon = "Oriel"
 	anglonorse = "Oriel"
 	english = "Oriel"

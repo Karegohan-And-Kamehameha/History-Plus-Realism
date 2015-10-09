@@ -8,9 +8,9 @@ namespace = Plus
 
 province_event = { # Amber Road Trade Headquarters established
 	id = Plus.2400
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = amber_road_hq_established
@@ -52,9 +52,9 @@ province_event = { # Amber Road Trade Headquarters established
 
 province_event = { # Atlantic Trade Headquarters established
 	id = Plus.2401
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = atlantic_trade_hq_established
@@ -63,7 +63,7 @@ province_event = { # Atlantic Trade Headquarters established
 		trade_post_has_building = tr_atlantic_trade_guild_1
 		NOT = {
 			has_province_modifier = trade_guild_hq # Can't have more than 1 HQ per province
-		}		
+		}
 	}
 
 	mean_time_to_happen = {
@@ -96,9 +96,9 @@ province_event = { # Atlantic Trade Headquarters established
 
 province_event = { # Balkan Road Trade Headquarters established
 	id = Plus.2402
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = balkan_road_trade_hq_established
@@ -107,7 +107,7 @@ province_event = { # Balkan Road Trade Headquarters established
 		trade_post_has_building = tr_balkan_road_trade_guild_1
 		NOT = {
 			has_province_modifier = trade_guild_hq # Can't have more than 1 HQ per province
-		}		
+		}
 	}
 
 	mean_time_to_happen = {
@@ -140,9 +140,9 @@ province_event = { # Balkan Road Trade Headquarters established
 
 province_event = { # Baltic Trade Headquarters established
 	id = Plus.2403
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = baltic_trade_hq_established
@@ -151,7 +151,7 @@ province_event = { # Baltic Trade Headquarters established
 		trade_post_has_building = tr_baltic_trade_guild_1
 		NOT = {
 			has_province_modifier = trade_guild_hq # Can't have more than 1 HQ per province
-		}		
+		}
 	}
 
 	mean_time_to_happen = {
@@ -184,9 +184,9 @@ province_event = { # Baltic Trade Headquarters established
 
 province_event = { # British Trade Headquarters established
 	id = Plus.2404
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = british_trade_hq_established
@@ -195,7 +195,7 @@ province_event = { # British Trade Headquarters established
 		trade_post_has_building = tr_british_trade_guild_1
 		NOT = {
 			has_province_modifier = trade_guild_hq # Can't have more than 1 HQ per province
-		}		
+		}
 	}
 
 	mean_time_to_happen = {
@@ -228,9 +228,9 @@ province_event = { # British Trade Headquarters established
 
 province_event = { # French Trade Headquarters established
 	id = Plus.2405
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = french_trade_hq_established
@@ -239,7 +239,7 @@ province_event = { # French Trade Headquarters established
 		trade_post_has_building = tr_french_trade_guild_1
 		NOT = {
 			has_province_modifier = trade_guild_hq # Can't have more than 1 HQ per province
-		}		
+		}
 	}
 
 	mean_time_to_happen = {
@@ -272,9 +272,9 @@ province_event = { # French Trade Headquarters established
 
 province_event = { # Iberian Trade Headquarters established
 	id = Plus.2406
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = iberian_trade_hq_established
@@ -283,7 +283,7 @@ province_event = { # Iberian Trade Headquarters established
 		trade_post_has_building = tr_iberian_trade_guild_1
 		NOT = {
 			has_province_modifier = trade_guild_hq # Can't have more than 1 HQ per province
-		}		
+		}
 	}
 
 	mean_time_to_happen = {
@@ -316,9 +316,9 @@ province_event = { # Iberian Trade Headquarters established
 
 province_event = { # Mediterranean Trade Headquarters established
 	id = Plus.2407
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = mediterranean_trade_hq_established
@@ -327,7 +327,7 @@ province_event = { # Mediterranean Trade Headquarters established
 		trade_post_has_building = tr_mediterranean_trade_guild_1
 		NOT = {
 			has_province_modifier = trade_guild_hq # Can't have more than 1 HQ per province
-		}		
+		}
 	}
 
 	mean_time_to_happen = {
@@ -360,9 +360,9 @@ province_event = { # Mediterranean Trade Headquarters established
 
 province_event = { # Salt Road Trade Headquarters established
 	id = Plus.2408
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = salt_road_trade_hq_established
@@ -371,7 +371,7 @@ province_event = { # Salt Road Trade Headquarters established
 		trade_post_has_building = tr_salt_road_trade_guild_1
 		NOT = {
 			has_province_modifier = trade_guild_hq # Can't have more than 1 HQ per province
-		}		
+		}
 	}
 
 	mean_time_to_happen = {
@@ -461,7 +461,7 @@ character_event = {
 	picture = GFX_evt_throne_room
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_2420"
 		clr_character_flag = trade_hq_informed
@@ -470,12 +470,12 @@ character_event = {
 
 province_event = { # Remove this event on next save breaking patch. If you see this and are unsure, this means after 4.01
 	id = Plus.2430 # Clears out no longer needed modifiers
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		OR = {
-			trade_route = silk_road	
+			trade_route = silk_road
 			trade_route = mediterranean_trade
 			trade_route = amber_road
 			trade_route = balkan_road
@@ -485,9 +485,8 @@ province_event = { # Remove this event on next save breaking patch. If you see t
 			trade_route = atlantic_trade
 			trade_route = british_trade
 			trade_route = baltic_sea
-			trade_route = timbuktu_trade
 		}
-		NOT = { has_province_flag = clear_defunct_mods }		
+		NOT = { has_province_flag = clear_defunct_mods }
 	}
 
 	mean_time_to_happen = {
@@ -531,6 +530,6 @@ province_event = { # Remove this event on next save breaking patch. If you see t
 				has_province_modifier = customs_house_3
 			}
 			remove_province_modifier = customs_house_3
-		}		
+		}
 	}
 }

@@ -13,6 +13,10 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 The music mod is now available for download at<br> https://mega.nz/#!lld0FKDQ!ymzHRK5N2tPyyPz9v7DG7si0TiTYSjWCcav7v52w-aI <br>
 
 <b>Changelog:</b><br>
+<b>v0.7.2:</b><br>
+-Fixed a regression that messed up the encoding of localised province names.<br>
+-Fixed the Roman Empire borders and de jure provinces.<br>
+-Fixed over 100 smaller bugs.<br>
 <b>v0.7.1:</b><br>
 -Updated CK2+ to v4.0.1.2.<br>
 -Updated SWMH to v2.902.<br>
@@ -109,5 +113,4 @@ Fear is currently accumulated through acts of cruelty, such as torturing, blindi
 -Clean up unused scripts and assets.<br>
 
 <b>Known issues:</b><br>
--Roman Empire restoration events are a bit of a mess, with provinces not always accurately placed within Roman province borders and variations between files.<br>
 -Sometimes imprisoned characters have their opinion modifier triggered twice.<br>

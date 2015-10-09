@@ -365,12 +365,12 @@ d_bula_chopan = { # Bula Chopan # aka piebald horses
 	allow = { always = no }
 }
 ######################################
-# Uighur
+# Uyghur
 ######################################
-d_uighurs = { # Uighurs
+d_uyghurs = { # Uyghurs
 	color = { 113 91 255 }
 	#tribe = yes
-	culture = uighur
+	culture = uyghur
 	capital = 1570 # Qarashahr
 	title = Idiqut
 	foa = Idiqut_FOA
@@ -626,7 +626,7 @@ d_kabars = { # Qabarlar
 ######################################
 d_zunbil = { # Zunbils
 	color = { 255 150 81 }
-	culture = pashtun
+	culture = afghan
 	capital = 852 # Zamindavar
 }
 d_shabankara = { # Shabankara
@@ -700,7 +700,7 @@ d_maris = { # Vice Mari
 	cuman = "Çirmeslär"
 	kirghiz = "Çirmeslär"
 	bolghar = "Sarmäslar"
-	uighur = "Çirmeslär"
+	uyghur = "Çirmeslär"
 	turkish = "Çirmislar"
 	culture = mordvin
 	title = HIGH_CHIEF
@@ -725,7 +725,7 @@ d_maris_vetluga = { # Vütla Mari
 	cuman = "Tepe Çirmeslär"
 	kirghiz = "Tepe Çirmeslär"
 	bolghar = "Tuçi Sarmäslar"
-	uighur = "Tepe Çirmeslär"
+	uyghur = "Tepe Çirmeslär"
 	turkish = "Tepe Çirmislar"
 	russian = "Gornyye Cheremis"
 	polish = "Gornyye Cheremis"
@@ -770,7 +770,7 @@ d_mordvins_erza = { # Erzyät
 	cuman = "Ïrzälär"
 	kirghiz = "Ïrzälär"
 	bolghar = "Irçëlar"
-	uighur = "Ïrzälär"
+	uyghur = "Ïrzälär"
 	turkish = "Irçilar"
 	allow = { always = no }
 }
@@ -783,10 +783,10 @@ d_mordvins = { # Mokshet
 	tajik = "Tuqshi"
 	daylamite = "Tuqshi"
 	khalaj = "Tuqshi"
-	soghdian = "Tuqshi"
+	sogdian = "Tuqshi"
 	khwarezmi = "Tuqshi"
 	kurdish = "Tuqshi"
-	pashtun = "Tuqshi"
+	afghan = "Tuqshi"
 	qufs = "Tuqshi"
 	baloch = "Tuqshi"
 	bedouin_arabic = "Tuqshi"
@@ -812,7 +812,7 @@ d_mordvins = { # Mokshet
 	cuman = "Tuqšilar"
 	kirghiz = "Tuqšilär"
 	bolghar = "Tuqšilar"
-	uighur = "Tuqšilar"
+	uyghur = "Tuqšilar"
 	turkish = "Tuqšilar"
 	alan = "Mordia"
 	sicilian_greek = "Mordia"
@@ -879,10 +879,10 @@ d_burtas = { # Burtas
 	tajik = "Burdas"
 	daylamite = "Burdas"
 	khalaj = "Burdas"
-	soghdian = "Burdas"
+	sogdian = "Burdas"
 	khwarezmi = "Burdas"
 	kurdish = "Burdas"
-	pashtun = "Burdas"
+	afghan = "Burdas"
 	qufs = "Burdas"
 	baloch = "Burdas"
 	bedouin_arabic = "Burdas"
@@ -908,7 +908,7 @@ d_burtas = { # Burtas
 	cuman = "Bortaslär"
 	kirghiz = "Bortaslär"
 	bolghar = "Bortaslar"
-	uighur = "Bortaslar"
+	uyghur = "Bortaslar"
 	turkish = "Bortaslar"
 	russian = "Burtasy"
 	polish = "Burtasy"

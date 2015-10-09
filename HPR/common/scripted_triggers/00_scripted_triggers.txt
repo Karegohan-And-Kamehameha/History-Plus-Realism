@@ -1,5 +1,5 @@
 #	Example:
-# 
+#
 #	example_trigger = {
 #		year = 1066
 #		num_of_spouses = 2
@@ -22,9 +22,8 @@ allowed_custom_titles_trigger = {
 			title = k_andalusia
 			title = k_arabia
 			title = k_austria
-			title = k_bengal
 			title = k_bulgaria
-			title = k_carpathia
+			title = e_carpathia
 			title = k_croatia
 			title = k_cuman
 			title = k_georgia
@@ -39,7 +38,6 @@ allowed_custom_titles_trigger = {
 			title = k_italy
 			title = k_germany
 			title = k_byzantium
-			title = k_north_sea
 			title = k_ottoman
 			title = d_osterreich
 			title = d_bavaria
@@ -409,7 +407,7 @@ repudiate_chalcedon_religion_trigger = {
 				}
 			}
 		}
-			
+
 	}
 }
 

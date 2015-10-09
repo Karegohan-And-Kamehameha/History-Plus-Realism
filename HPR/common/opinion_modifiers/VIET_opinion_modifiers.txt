@@ -1,9 +1,6 @@
 opinion_interest_in_music = {
 	opinion = 30
 }
-opinion_thankful = {
-	opinion = 10
-}
 opinion_helped_family_member = {
 	opinion = 40
 }
@@ -18,12 +15,6 @@ opinion_respectful_of_jewish_customs = {
 }
 opinion_fought_for_independence = {
 	opinion = -50
-}
-opinion_patron = {
-	opinion = 30
-}
-opinion_new_courtier = {
-	opinion = 10
 }
 opinion_amused = {
 	opinion = 5
@@ -174,9 +165,6 @@ viet_opinion_dismiss_minority = {
 }
 viet_opinion_accepted_arameans_first = {
 	opinion = -15
-}
-viet_opinion_refused_arameans = {
-	opinion = 10
 }
 viet_opinion_accepted_arameans_again = {
 	opinion = -10

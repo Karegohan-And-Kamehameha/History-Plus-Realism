@@ -10,13 +10,13 @@
 #	dynasty: all members of the same dynasty
 #	rivals: your rivals plus any character you have an opinion modifier with 'crime = yes' set (the same set of characters the 'is_foe' trigger evaluates)
 #	all: all living characters (Avoid if possible. VERY CPU-HEAVY!)
-#	
+#
 
 targetted_decisions = {
 
 	break_up_with_lover = {
 		ai_target_filter = court
-		
+
 		from_potential = {
 			has_dlc = "Way of Life"
 			has_lover = yes
@@ -64,7 +64,7 @@ targetted_decisions = {
 
 	seduce_decision = {
 		ai_target_filter = realm
-	
+
 		from_potential = {
 			is_marriage_adult = yes
 			prisoner = no
@@ -127,7 +127,7 @@ targetted_decisions = {
 					mother_even_if_dead = { is_child_of = ROOT }
 					father_even_if_dead = { is_child_of = ROOT }
 				}
-			}		
+			}
 			OR = {
 				AND = {
 					FROM = { NOT = { trait = homosexual } }
@@ -231,7 +231,7 @@ targetted_decisions = {
 						break = yes
 					}
 					if = {
-						limit = { 
+						limit = {
 							age_diff = {
 								who = ROOT
 								years = 25
@@ -478,11 +478,11 @@ targetted_decisions = {
 			}
 		}
 	}
-	
+
 	stop_seduce_decision = {
 		filter = self
 		ai_target_filter = self
-	
+
 		potential = {
 			ai = no
 			is_marriage_adult = yes
@@ -490,7 +490,7 @@ targetted_decisions = {
 			has_character_flag = seduction_confirmed
 			has_any_opinion_modifier = opinion_seducing
 		}
-		
+
 		effect = {
 			random_opinion_modifier_target = {
 				limit = {
@@ -505,19 +505,19 @@ targetted_decisions = {
 				ROOT = { character_event = { id = WoL.118 tooltip = stop_seduce_decision_tt } }
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	stop_seduce_decision_target = {
 		ai_target_filter = realm
-	
+
 		from_potential = {
 			ai = no
 			is_marriage_adult = yes
@@ -525,7 +525,7 @@ targetted_decisions = {
 			has_character_flag = seduction_confirmed
 			has_any_opinion_modifier = opinion_seducing
 		}
-		
+
 		potential = {
 			FROM = {
 				has_opinion_modifier = {
@@ -534,27 +534,27 @@ targetted_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			save_event_target_as = target_seduced
 			hidden_tooltip = {
 				FROM = { character_event = { id = WoL.118 } }
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	decision_spy_on = {
 		filter = realm
 		ai_target_filter = realm
-		
+
 		from_potential = {
 			has_focus = focus_intrigue
 			has_regent = no
@@ -626,7 +626,7 @@ targetted_decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
@@ -672,14 +672,14 @@ targetted_decisions = {
 	stop_spy_on_decision = {
 		filter = self
 		ai_target_filter = self
-	
+
 		potential = {
 			ai = no
 			has_focus = focus_intrigue
 			has_character_flag = spy_on_confirmed
 			has_any_opinion_modifier = opinion_spying_on
 		}
-		
+
 		effect = {
 			random_opinion_modifier_target = {
 				limit = {
@@ -694,26 +694,26 @@ targetted_decisions = {
 				ROOT = { character_event = { id = WoL.2069 tooltip = stop_spy_on_decision_tt } }
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	stop_spy_on_decision_target = {
 		ai_target_filter = realm
-	
+
 		from_potential = {
 			ai = no
 			has_focus = focus_intrigue
 			has_character_flag = spy_on_confirmed
 			has_any_opinion_modifier = opinion_spying_on
 		}
-		
+
 		potential = {
 			FROM = {
 				has_opinion_modifier = {
@@ -722,29 +722,29 @@ targetted_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			save_event_target_as = target_spy_on
 			hidden_tooltip = {
 				FROM = { character_event = { id = WoL.2069 } }
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	decision_break_free = {
 		is_high_prio = yes
-	
+
 		filter = sub_realm
 		ai_target_filter = dynasty
-		
+
 		from_potential = {
 			has_focus = focus_intrigue
 			NOT = { trait = incapable }
@@ -752,7 +752,7 @@ targetted_decisions = {
 			NOT = { has_any_opinion_modifier = opinion_breaking_out }
 			NOT = { has_any_opinion_modifier = opinion_spying_on }
 		}
-		
+
 		potential = {
 			NOT = { character = FROM }
 			OR = {
@@ -776,12 +776,12 @@ targetted_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			NOT = { trait = incapable }
 			NOT = { has_character_modifier = failed_escape }
 		}
-		
+
 		effect = {
 			hidden_tooltip = {
 				FROM = {
@@ -802,11 +802,11 @@ targetted_decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1 		# 1 = 100% chance every month (for each allowed target!)
 			modifier = {
@@ -849,7 +849,7 @@ targetted_decisions = {
 
 	invite_to_party = {
 		ai_target_filter = realm
-		
+
 		from_potential = {
 			is_playable = yes
 			has_focus = focus_carousing
@@ -966,10 +966,10 @@ targetted_decisions = {
 
 	duel_decision = {
 		is_high_prio = yes
-		
+
 		filter = rivals
 		ai_target_filter = rivals
-		
+
 		from_potential = {
 			is_adult = yes
 			prisoner = no
@@ -996,7 +996,7 @@ targetted_decisions = {
 				religion = tondrakian
 			}
 		}
-		
+
 		potential = {
 			is_adult = yes
 			prisoner = no
@@ -1008,19 +1008,17 @@ targetted_decisions = {
 			is_ill = no
 			NOT = { trait = incapable }
 		}
-		
+
 		allow = {
 			FROM = { ### Valid reason for duel
 				OR = {
 					is_foe = ROOT
 					custom_tooltip = {
 						text = duel_tooltip_excommunicated
-						AND = {
-							trait = zealous
-							ROOT = { 
-								trait = excommunicated
-								religion = ROOT
-							}
+						trait = zealous
+						ROOT = {
+							trait = excommunicated
+							religion = ROOT
 						}
 					}
 					AND = {
@@ -1040,7 +1038,7 @@ targetted_decisions = {
 					NOT = {
 						has_opinion_modifier = { who = FROM modifier = opinion_fought_duel }
 					}
-					FROM = { 
+					FROM = {
 						NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_fought_duel } }
 					}
 				}
@@ -1086,7 +1084,7 @@ targetted_decisions = {
 			ROOT = {
 				custom_tooltip = {
 					text = duel_tooltip_sickness
-					hidden_tooltip = {				
+					hidden_tooltip = {
 						NOT = {
 							OR = {
 								trait = incapable
@@ -1129,9 +1127,9 @@ targetted_decisions = {
 			}
 			is_within_diplo_range = ROOT # CPU HEAVY!
 		}
-		
+
 		effect = {
-			if = { 
+			if = {
 				limit = {
 					OR = {
 						age = 50
@@ -1139,7 +1137,7 @@ targetted_decisions = {
 						trait = maimed
 					}
 				}
-				custom_tooltip = { 
+				custom_tooltip = {
 					text = dishonorable_duel_tooltip
 					hidden_tooltip = {
 						FROM = {
@@ -1183,7 +1181,7 @@ targetted_decisions = {
 				character_event = { id = WoL.11000 }
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}

@@ -2164,7 +2164,6 @@ character_event = {
 					capital_scope = {
 						OR = {
 							region = custom_persia
-							region = custom_afghanistan
 							region = custom_baluchistan
 							region = custom_byzantium
 							region = custom_arabia
@@ -2175,8 +2174,6 @@ character_event = {
 							region = custom_azerbaijan
 							region = custom_nikaea
 							region = custom_trebizond
-							region = world_india_bengal
-							region = world_india_deccan
 							region = world_india_rajastan
 							duchy = { title = d_merv }
 							duchy = { title = d_ustyurt }
@@ -2192,7 +2189,6 @@ character_event = {
 						capital_scope = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -2203,8 +2199,6 @@ character_event = {
 								region = custom_azerbaijan
 								region = custom_nikaea
 								region = custom_trebizond
-								region = world_india_bengal
-								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
 								duchy = { title = d_ustyurt }
@@ -2515,7 +2509,6 @@ character_event = {
 					capital_scope = {
 						OR = {
 							region = custom_persia
-							region = custom_afghanistan
 							region = custom_baluchistan
 							region = custom_byzantium
 							region = custom_arabia
@@ -2526,8 +2519,6 @@ character_event = {
 							region = custom_azerbaijan
 							region = custom_nikaea
 							region = custom_trebizond
-							region = world_india_bengal
-							region = world_india_deccan
 							region = world_india_rajastan
 							duchy = { title = d_merv }
 							duchy = { title = d_ustyurt }
@@ -2543,7 +2534,6 @@ character_event = {
 						capital_scope = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -2554,8 +2544,6 @@ character_event = {
 								region = custom_azerbaijan
 								region = custom_nikaea
 								region = custom_trebizond
-								region = world_india_bengal
-								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
 								duchy = { title = d_ustyurt }
@@ -2788,7 +2776,6 @@ character_event = {
 						location = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -2799,8 +2786,6 @@ character_event = {
 								region = custom_azerbaijan
 								region = custom_nikaea
 								region = custom_trebizond
-								region = world_india_bengal
-								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
 								duchy = { title = d_ustyurt }
@@ -2809,7 +2794,6 @@ character_event = {
 						capital_scope = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -2820,8 +2804,6 @@ character_event = {
 								region = custom_azerbaijan
 								region = custom_nikaea
 								region = custom_trebizond
-								region = world_india_bengal
-								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
 								duchy = { title = d_ustyurt }
@@ -2976,7 +2958,6 @@ character_event = {
 							location = {
 								OR = {
 									region = custom_persia
-									region = custom_afghanistan
 									region = custom_baluchistan
 									region = custom_byzantium
 									region = custom_arabia
@@ -2987,8 +2968,6 @@ character_event = {
 									region = custom_azerbaijan
 									region = custom_nikaea
 									region = custom_trebizond
-									region = world_india_bengal
-									region = world_india_deccan
 									region = world_india_rajastan
 									duchy = { title = d_merv }
 									duchy = { title = d_ustyurt }
@@ -2997,7 +2976,6 @@ character_event = {
 							capital_scope = {
 								OR = {
 									region = custom_persia
-									region = custom_afghanistan
 									region = custom_baluchistan
 									region = custom_byzantium
 									region = custom_arabia
@@ -3008,8 +2986,6 @@ character_event = {
 									region = custom_azerbaijan
 									region = custom_nikaea
 									region = custom_trebizond
-									region = world_india_bengal
-									region = world_india_deccan
 									region = world_india_rajastan
 									duchy = { title = d_merv }
 									duchy = { title = d_ustyurt }
@@ -3088,7 +3064,6 @@ character_event = {
 						location = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -3099,8 +3074,6 @@ character_event = {
 								region = custom_azerbaijan
 								region = custom_nikaea
 								region = custom_trebizond
-								region = world_india_bengal
-								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
 								duchy = { title = d_ustyurt }
@@ -3109,7 +3082,6 @@ character_event = {
 						capital_scope = {
 							OR = {
 								region = custom_persia
-								region = custom_afghanistan
 								region = custom_baluchistan
 								region = custom_byzantium
 								region = custom_arabia
@@ -3120,8 +3092,6 @@ character_event = {
 								region = custom_azerbaijan
 								region = custom_nikaea
 								region = custom_trebizond
-								region = world_india_bengal
-								region = world_india_deccan
 								region = world_india_rajastan
 								duchy = { title = d_merv }
 								duchy = { title = d_ustyurt }
@@ -3207,7 +3177,6 @@ character_event = {
 					capital_scope = {
 						OR = {
 							region = custom_persia
-							region = custom_afghanistan
 							region = custom_baluchistan
 							region = custom_byzantium
 							region = custom_arabia
@@ -3218,8 +3187,6 @@ character_event = {
 							region = custom_azerbaijan
 							region = custom_nikaea
 							region = custom_trebizond
-							region = world_india_bengal
-							region = world_india_deccan
 							region = world_india_rajastan
 							duchy = { title = d_merv }
 							duchy = { title = d_ustyurt }
@@ -7020,7 +6987,6 @@ character_event = {
 						OR = {
 							region = custom_persia
 							region = custom_baluchistan
-							region = custom_afghanistan
 							region = custom_khwarizm
 							region = custom_mesopotamia
 							region = custom_azerbaijan
@@ -7091,7 +7057,6 @@ character_event = {
 							OR = {
 								region = custom_persia
 								region = custom_baluchistan
-								region = custom_afghanistan
 								region = custom_mesopotamia
 								region = custom_azerbaijan
 								region = custom_armenia
@@ -7155,7 +7120,6 @@ character_event = {
 							OR = {
 								region = custom_persia
 								region = custom_baluchistan
-								region = custom_afghanistan
 								region = custom_mesopotamia
 								region = custom_azerbaijan
 								region = custom_armenia
@@ -7220,7 +7184,6 @@ character_event = {
 			OR = {
 				region = custom_persia
 				region = custom_baluchistan
-				region = custom_afghanistan
 				region = custom_khwarizm
 				region = custom_mesopotamia
 			}

@@ -35,22 +35,16 @@ narrative_event = {
 			has_landed_title = e_byzantium
 			has_landed_title = e_roman_empire
 		}
-		completely_controls = d_aleppo ### WARNING: completely_controls is a very demanding trigger.
+		completely_controls = d_edessa ### WARNING: completely_controls is a very demanding trigger.
+		completely_controls = d_antioch
+		completely_controls = d_aleppo
+		completely_controls = d_tripoli
 		completely_controls = d_homs
 		completely_controls = d_damascus
-		completely_controls = d_jordan
-		completely_controls = d_syria
-		completely_controls = d_antioch
-		completely_controls = d_tripoli
-		completely_controls = d_oultrejourdain
+		completely_controls = d_galilee
+		completely_controls = d_acre
 		completely_controls = d_jerusalem
 		completely_controls = d_ascalon
-		completely_controls = d_acre
-		completely_controls = d_galilee
-		completely_controls = d_edessa
-		completely_controls = d_seleukeia
-		completely_controls = d_cyprus
-		completely_controls = d_armenia_minor
 	}
 
 	mean_time_to_happen = {
@@ -87,16 +81,11 @@ narrative_event = {
 			religion_group = christian
 			religion = hellenic_pagan
 		}
+		completely_controls = d_aswan
+		completely_controls = d_alwahat
 		completely_controls = d_alexandria
 		completely_controls = d_damietta
 		completely_controls = d_cairo
-		completely_controls = d_alwahat
-		completely_controls = d_aswan
-		completely_controls = d_sinai
-		completely_controls = d_nubia
-		completely_controls = d_alodia
-		completely_controls = d_nobatia
-		completely_controls = d_elatrun
 	}
 
 	mean_time_to_happen = {
@@ -830,6 +819,7 @@ narrative_event = {
 		completely_controls = d_lothian
 		completely_controls = d_moray
 		completely_controls = d_aberdeen
+		completely_controls = d_highlands
 		completely_controls = d_strathclyde
 		completely_controls = d_hebrides
 	}

@@ -155,7 +155,7 @@ custom_lithuania = {
 }
 custom_livonia = { #Terra
 	duchies = {
-		d_livonia d_talava d_courland d_zemigalia d_lettigale d_esthonia d_dorpat d_osel_wiek d_esthonia
+		d_livonia d_talava d_courland d_zemigalia d_lettigale d_esthonia d_dorpat d_osel_wiek
 	}
 }
 custom_muscovy = { #Vladimir

@@ -12,11 +12,11 @@ laws = {
 			OR = {
 				has_law = centralization_1
 				AND = {
-					NOT = {	has_law = centralization_0 }
-					NOT = {	has_law = centralization_1 }
-					NOT = {	has_law = centralization_2 }
-					NOT = {	has_law = centralization_3 }
-					NOT = {	has_law = centralization_4 }
+					NOT = {has_law = centralization_0 }
+					NOT = {has_law = centralization_1 }
+					NOT = {has_law = centralization_2 }
+					NOT = {has_law = centralization_3 }
+					NOT = {has_law = centralization_4 }
 				}
 			}
 		}
@@ -247,9 +247,7 @@ laws = {
 		allow = {
 			has_law = centralization_3
 			OR = {
-				OR = {
-					has_law = tribal_organization_4
-				}
+				has_law = tribal_organization_4
 				holder_scope = {
 					is_tribal = no
 				}
@@ -374,9 +372,7 @@ laws = {
 			set_allow_free_infidel_revokation = no
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_1
-					}
+					has_law = tribal_organization_1
 				}
 				custom_tooltip = {
 					text = disables_centralization_1
@@ -384,9 +380,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_2
-					}
+					has_law = tribal_organization_2
 				}
 				custom_tooltip = {
 					text = disables_centralization_2
@@ -394,9 +388,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_3
-					}
+					has_law = tribal_organization_3
 				}
 				custom_tooltip = {
 					text = disables_centralization_3
@@ -410,9 +402,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_centralization_4
@@ -422,9 +412,7 @@ laws = {
 			set_tribal_vassal_tax_income = no
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_tribal_levy_laws
@@ -568,9 +556,7 @@ laws = {
 			set_allow_title_revokation = yes
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_0
-					}
+					has_law = tribal_organization_0
 				}
 				custom_tooltip = {
 					text = enables_centralization_1
@@ -578,9 +564,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_2
-					}
+					has_law = tribal_organization_2
 				}
 				custom_tooltip = {
 					text = disables_centralization_2
@@ -588,9 +572,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_3
-					}
+					has_law = tribal_organization_3
 				}
 				custom_tooltip = {
 					text = disables_centralization_3
@@ -604,9 +586,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_centralization_4
@@ -617,9 +597,7 @@ laws = {
 			set_tribal_vassal_tax_income = no
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_tribal_levy_laws
@@ -774,9 +752,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_3
-					}
+					has_law = tribal_organization_3
 				}
 				custom_tooltip = {
 					text = disables_centralization_3
@@ -790,9 +766,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_centralization_4
@@ -802,9 +776,7 @@ laws = {
 			set_tribal_vassal_tax_income = no
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_tribal_levy_laws
@@ -928,9 +900,7 @@ laws = {
 				revoke_law = tribal_organization_4
 				if = {
 					limit = {
-						OR = {
-							has_law = centralization_4
-						}
+						has_law = centralization_4
 					}
 					add_law = centralization_3
 				}
@@ -963,9 +933,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_centralization_4
@@ -973,9 +941,7 @@ laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disallows_change_government
@@ -1184,15 +1150,12 @@ laws = {
 			factor = 2
 			modifier = {
 				factor = 0
-
 				has_law = vice_royalty_2
 			}
 			modifier = {
 				factor = 0
-				AND = {
-					has_law = vice_royalty_0
-					over_vassal_limit = -5
-				}
+				has_law = vice_royalty_0
+				over_vassal_limit = -5
 			}
 		}
 		ai_will_revoke = {
@@ -1228,18 +1191,13 @@ laws = {
 			factor = 3
 			modifier = {
 				factor = 0
-
-				AND = {
 					has_law = vice_royalty_0
 					over_vassal_limit = -10
-				}
 			}
 			modifier = {
 				factor = 0
-				AND = {
-					has_law = vice_royalty_1
-					over_vassal_limit = -5
-				}
+				has_law = vice_royalty_1
+				over_vassal_limit = -5
 			}
 		}
 		ai_will_revoke = {

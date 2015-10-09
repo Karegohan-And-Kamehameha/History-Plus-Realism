@@ -65,7 +65,7 @@
 		birth="850.1.1"
 	}
 	884.1.1={
-		religion = "chalcedonian"
+		religion="chalcedonian"
 	}
 	891.1.1={
 		death="891.1.1"
@@ -82,7 +82,7 @@
 		birth="852.1.1"
 	}
 	884.1.1={
-		religion = "chalcedonian"
+		religion="chalcedonian"
 	}
 	909.1.1={
 		death="909.1.1"
@@ -133,14 +133,14 @@
 
 168576 = {
 	name = "Isbul"
-	#placeholder
+	#placeholder 
 	dynasty = 9602
 	religion = "tengri_pagan"
 	culture = "avar"
 	800.1.1 = {
 		birth = yes
 	}
-
+	
 	850.1.1 = {
 		death = yes
 	}
@@ -148,7 +148,7 @@
 
 168577 = {
 	name = "Apskhih"
-	#placeholder
+	#placeholder 
 	dynasty = 9602
 	religion = "tengri_pagan"
 	culture = "avar"
@@ -156,7 +156,7 @@
 	830.1.1 = {
 		birth = yes
 	}
-
+	
 	880.1.1 = {
 		death = yes
 	}
@@ -167,7 +167,7 @@
 168578 = {
 	name = "Sarä"
 	female = yes
-	#placeholder
+	#placeholder 
 	dynasty = 9602
 	religion = "tengri_pagan"
 	culture = "avar"
@@ -175,7 +175,7 @@
 	842.1.1 = {
 		birth = yes
 	}
-
+	
 	890.1.1 = {
 		death = yes
 	}
@@ -184,7 +184,7 @@
 168579 = {
 	name = "Gulay"
 	female = yes
-	#placeholder
+	#placeholder 
 	dynasty = 9602
 	religion = "tengri_pagan"
 	culture = "avar"
@@ -192,7 +192,7 @@
 	844.1.1 = {
 		birth = yes
 	}
-
+	
 	892.1.1 = {
 		death = yes
 	}
@@ -250,7 +250,7 @@
 		birth=yes
 	}
 	797.1.1={
-		religion = "chalcedonian"
+		religion="chalcedonian"
 		name="Theodorus"
 	}
 	814.1.1={
@@ -268,7 +268,7 @@
 		birth=yes
 	}
 	797.1.1={
-		religion = "chalcedonian"
+		religion="chalcedonian"
 		name="Abraham"
 	}
 	829.1.1={
@@ -279,7 +279,7 @@
 146142 = {
 	name="Isaac"
 	dynasty=1022368
-	religion = "chalcedonian"
+	religion="chalcedonian"
 	culture="avar"
 	father=146141
 	799.1.1={

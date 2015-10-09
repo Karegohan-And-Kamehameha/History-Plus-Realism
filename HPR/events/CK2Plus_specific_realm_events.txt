@@ -26,7 +26,7 @@ character_event = {
 				}
 				add_law = succ_primogeniture
 			}
-		}     
+		}
         hidden_tooltip = {
 			k_england = {
 				set_coa = k_englandnorman
@@ -81,7 +81,7 @@ character_event = {
 				add_law = succ_gavelkind
 			}
 		}
-        hidden_tooltip = {  
+        hidden_tooltip = {
 			k_england = {
 				set_coa = k_englandnorwegian
 			}
@@ -95,7 +95,7 @@ character_event = {
 	desc = "EVTDESC_Plus_543"
 	picture = "GFX_evt_crusaders"
 	border = GFX_event_normal_frame_war
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -315,9 +315,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_504
 	picture = GFX_evt_heretic
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		trigger = {
 			religion_group = christian
@@ -329,17 +329,17 @@ narrative_event = {
 			NOT = { religion_group = christian }
 		}
 		name = EVTOPTA_Plus_504
-	}	
+	}
 }
 
 # The pope has found his champions
 character_event = {
 	id = Plus.505 #formerly 1000182649
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -347,7 +347,7 @@ character_event = {
 			}
 			random_list = {
 				50 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = italian
@@ -369,7 +369,7 @@ character_event = {
 					}
 				}
 				40 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = norse
@@ -391,7 +391,7 @@ character_event = {
 					}
 				}
 				3 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = croatian
@@ -413,7 +413,7 @@ character_event = {
 					}
 				}
 				2 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = serbian
@@ -435,7 +435,7 @@ character_event = {
 					}
 				}
 				5 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = greek
@@ -464,7 +464,7 @@ character_event = {
 			}
 			random_list = {
 				50 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = italian
@@ -486,7 +486,7 @@ character_event = {
 					}
 				}
 				40 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = norman
@@ -508,7 +508,7 @@ character_event = {
 					}
 				}
 				3 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = croatian
@@ -530,7 +530,7 @@ character_event = {
 					}
 				}
 				2 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = serbian
@@ -552,7 +552,7 @@ character_event = {
 					}
 				}
 				5 = {
-					create_character = {	
+					create_character = {
 						random_traits = no
 						religion = ROOT
 						culture = greek
@@ -573,7 +573,7 @@ character_event = {
 						}
 					}
 				}
-			}			
+			}
 		}
 		new_character = {
 			opinion = {
@@ -586,7 +586,7 @@ character_event = {
 					who = PREV
 					modifier = my_champion
 					months = 360
-				}			
+				}
 			}
 			if = {
 				limit = {
@@ -599,7 +599,7 @@ character_event = {
 						}
 					}
 				}
-				add_pressed_claim = "d_benevento"				
+				add_pressed_claim = "d_benevento"
 			}
 			if = {
 				limit = {
@@ -612,7 +612,7 @@ character_event = {
 						}
 					}
 				}
-				add_pressed_claim = "d_apulia"				
+				add_pressed_claim = "d_apulia"
 			}
 			if = {
 				limit = {
@@ -625,7 +625,7 @@ character_event = {
 						}
 					}
 				}
-				add_pressed_claim = "d_capua"				
+				add_pressed_claim = "d_capua"
 			}
 			b_tivoli = {
 				gain_title = PREV # Temporarily give them a castle so they won't go republic or theocracy if they win against one of those
@@ -661,7 +661,7 @@ character_event = {
 				earmark = claimant_adventure
 				cannot_inherit = yes
 			}
-			character_event = { id = Plus.506 } 
+			character_event = { id = Plus.506 }
 		}
 	}
 }
@@ -669,11 +669,11 @@ character_event = {
 # The champions head out
 character_event = {
 	id = Plus.506 #formerly 1000182650
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		ROOT = {
 			# Create some decent commander characters
@@ -695,7 +695,7 @@ character_event = {
 			}
 			create_random_soldier = {
 				random_traits = yes
-				dynasty = culture	
+				dynasty = culture
 				religion = ROOT
 				culture = THIS
 				female = no
@@ -708,7 +708,7 @@ character_event = {
 				culture = THIS
 				female = no
 				age = 29
-			}			
+			}
 			random_claim = {
 				holder_scope = {
 					reverse_war = {
@@ -733,7 +733,7 @@ character_event = {
 								attrition = 0.25
 								earmark = claimant_adventure
 								cannot_inherit = yes
-							}						
+							}
 						}
 					}
 				}
@@ -744,27 +744,27 @@ character_event = {
 				limit = { religion_group = christian }
 				if = {
 					limit = { ROOT = { culture = italian } }
-					narrative_event = { id = Plus.509 } 
+					narrative_event = { id = Plus.509 }
 				}
 				if = {
 					limit = { ROOT = { culture = norse } }
-					narrative_event = { id = Plus.511 } 
-				}	
+					narrative_event = { id = Plus.511 }
+				}
 				if = {
 					limit = { ROOT = { culture = norman } }
-					narrative_event = { id = Plus.512 } 
+					narrative_event = { id = Plus.512 }
 				}
 				if = {
 					limit = { ROOT = { culture = croatian } }
-					narrative_event = { id = Plus.513 } 
+					narrative_event = { id = Plus.513 }
 				}
 				if = {
 					limit = { ROOT = { culture = serbian } }
-					narrative_event = { id = Plus.514 } 
-				}	
+					narrative_event = { id = Plus.514 }
+				}
 				if = {
 					limit = { ROOT = { culture = greek } }
-					narrative_event = { id = Plus.515 } 
+					narrative_event = { id = Plus.515 }
 				}
 			}
 		}
@@ -772,12 +772,12 @@ character_event = {
 }
 
 # The pope helps on the offensive!
-character_event = { 
+character_event = {
 	id = Plus.507 #formerly 1000182687
-	
+
 	is_triggered_only = yes
 	hide_window = yes
- 
+
 	immediate = {
 		religion_head = {
 			join_attacker_wars = FROM
@@ -786,33 +786,33 @@ character_event = {
 }
 
 # The pope helps on the defensive!
-character_event = { 
+character_event = {
 	id = Plus.508 #formerly 1000182688
-	
+
 	hide_window = yes
-	
+
 	only_playable = yes
 	min_age = 16
 	only_men = yes
-	
+
 	trigger = {
 		has_global_flag = italian_reconquest_started
 		has_character_modifier = italian_reconquest
-		NOR = { 
+		NOR = {
 			has_global_flag = italian_rec_success
 			has_global_flag = italian_rec_failure
 		}
-		war = yes		
+		war = yes
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
- 
+
 	immediate = {
 		religion_head = {
 			join_defender_wars = ROOT
@@ -821,121 +821,121 @@ character_event = {
 }
 
 # The Champions head out, Italian (Narrative event)
-narrative_event = { 
+narrative_event = {
 	id = Plus.509 #formerly 1000182689
 	title = EVTNAME_Plus_509
 	desc = EVTDESC_Plus_509
 	picture = GFX_evt_pope
-	border = GFX_event_narrative_frame_diplomacy	
-	
+	border = GFX_event_narrative_frame_diplomacy
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_509
 	}
 }
 
 # The King of Sicily is Crowned
-narrative_event = { 
+narrative_event = {
 	id = Plus.510 #formerly 1000182690
 	title = EVTNAME_Plus_510
 	desc = EVTDESC_Plus_510
 	picture = GFX_evt_pope
-	border = GFX_event_narrative_frame_diplomacy	
-	
+	border = GFX_event_narrative_frame_diplomacy
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_509
 	}
 }
 
 # The Champions head out, Norse (Narrative event)
-narrative_event = { 
+narrative_event = {
 	id = Plus.511 #formerly 1000182691
 	title = EVTNAME_Plus_509
 	desc = EVTDESC_Plus_511
 	picture = GFX_evt_pope
-	border = GFX_event_narrative_frame_diplomacy	
-	
+	border = GFX_event_narrative_frame_diplomacy
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_509
 	}
 }
 
 # The Champions head out, Norman (Narrative event)
-narrative_event = { 
+narrative_event = {
 	id = Plus.512 #formerly 1000182692
 	title = EVTNAME_Plus_509
 	desc = EVTDESC_Plus_512
 	picture = GFX_evt_pope
-	border = GFX_event_narrative_frame_diplomacy	
-	
+	border = GFX_event_narrative_frame_diplomacy
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_509
 	}
 }
 
 # The Champions head out, Croatian (Narrative event)
-narrative_event = { 
+narrative_event = {
 	id = Plus.513 #formerly 1000182693
 	title = EVTNAME_Plus_509
 	desc = EVTDESC_Plus_513
 	picture = GFX_evt_pope
 	border = GFX_event_narrative_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_509
 	}
 }
 
 # The Champions head out, Serbian (Narrative event)
-narrative_event = { 
+narrative_event = {
 	id = Plus.514 #formerly 1000182694
 	title = EVTNAME_Plus_509
 	desc = EVTDESC_Plus_514
 	picture = GFX_evt_pope
-	border = GFX_event_narrative_frame_diplomacy	
-	
+	border = GFX_event_narrative_frame_diplomacy
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_509
 	}
 }
 
 # The Champions head out, Greek (Narrative event)
-narrative_event = { 
+narrative_event = {
 	id = Plus.515 #formerly 1000182695
 	title = EVTNAME_Plus_509
 	desc = EVTDESC_Plus_515
 	picture = GFX_evt_pope
 	border = GFX_event_narrative_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_509
 	}
 }
 
 # The King of Sicily is Crowned (Recipient)
-narrative_event = { 
+narrative_event = {
 	id = Plus.516 #formerly 1000182696
 	title = EVTNAME_Plus_516
 	desc = EVTDESC_Plus_516
 	picture = GFX_evt_pope
 	border = GFX_event_narrative_frame_diplomacy
-	sound = church_bells	
-	
+	sound = church_bells
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_516
 		hidden_tooltip = {
@@ -945,16 +945,16 @@ narrative_event = {
 }
 
 # The Invasion Fails
-narrative_event = { 
+narrative_event = {
 	id = Plus.517 #formerly 1000182697
 	title = EVTNAME_Plus_517
 	desc = EVTDESC_Plus_517
 	picture = GFX_evt_rome_falls
 	border = GFX_event_narrative_frame_diplomacy
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	option = {
 		trigger = {
 			religion_group = christian
@@ -970,33 +970,33 @@ narrative_event = {
 }
 
 # Maintenance Check for Failed Invasion (landless or vassal invaders)
-character_event = { 
+character_event = {
 	id = Plus.518 #formerly 1000182698
-	
+
 	hide_window = yes
-	
+
 	min_age = 16
 	only_men = yes
-	
+
 	trigger = {
 		has_global_flag = italian_reconquest_started
 		has_global_flag = first_war_success
 		has_character_modifier = italian_reconquest
-		NOR = { 
+		NOR = {
 			has_global_flag = italian_rec_success
 			has_global_flag = italian_rec_failure
 		}
-		war = no	
+		war = no
 		OR = {
 			independent = no
 			is_ruler = no
 		}
 	}
-	
+
 	mean_time_to_happen = {
-		days = 1	
+		days = 1
 	}
-	
+
 	immediate = {
 		remove_character_modifier = italian_reconquest
 		religion_head = {
@@ -1011,16 +1011,16 @@ character_event = {
 }
 
 # Maintenance Check, Start the invasion
-character_event = { 
+character_event = {
 	id = Plus.519 #formerly 1000182699
-	
+
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	only_men = yes
 	religion = catholic
-	
+
 	trigger = {
 		has_global_flag = italian_reconquest_planning
 		NOT = { has_global_flag = italian_reconquest_started }
@@ -1152,14 +1152,14 @@ character_event = {
 						has_character_modifier = holy_truce_timer
 					}
 				}
-			}			
+			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 	}
-	
+
 	immediate = {
 		remove_character_modifier = italian_reconquest_pope
 		set_global_flag = italian_reconquest_started
@@ -1175,9 +1175,9 @@ province_event = {
 	title = "EVTNAME_Plus_520"
 	desc = "EVTDESC_Plus_520"
 	picture = GFX_evt_council
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		470 = {
 			NOT = { culture = arberian }
@@ -1185,18 +1185,18 @@ province_event = {
 		province_id = 470
 		year = 1000
 	}
-	
+
 	mean_time_to_happen = {
 		months = 550
 	}
-	
+
 	immediate = {
 		culture = arberian
 		c_dyrrachion = {
 			holder_scope = { character_event = { id = Plus.521 } }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA55000"
 	}
@@ -1209,14 +1209,14 @@ character_event = {
 	desc = EVTDESC_Plus_521
 	picture = GFX_evt_stone_church
 	border = GFX_event_normal_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_521"
 		prestige = 50
 	}
-	
+
 	option = {
 		name = "EVTOPTB_Plus_521"
 		culture = arberian
@@ -1228,12 +1228,12 @@ character_event = {
 narrative_event = {
 	id = Plus.522 #formerly 1000183183
 	title = "EVTNAME_Plus_522"
-	desc = "EVTDESC_Plus_522"	
+	desc = "EVTDESC_Plus_522"
 	picture = GFX_evt_albania
 	border = GFX_event_narrative_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_522"
 		k_albania = { grant_title = ROOT }
@@ -1256,12 +1256,12 @@ narrative_event = {
 narrative_event = {
 	id = Plus.523
 	title = "EVTNAME_Plus_523"
-	desc = "EVTDESC_Plus_523"	
+	desc = "EVTDESC_Plus_523"
 	picture = GFX_evt_albania
 	border = GFX_event_narrative_frame_diplomacy
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_Plus_523"
 	}
@@ -1305,7 +1305,7 @@ character_event = {
 	id = Plus.535
 	desc = "EVTDESC_Plus_535"
 	picture = GFX_evt_throne_room
-	
+
 	only_playable = yes
 
 	trigger = {
@@ -1317,7 +1317,7 @@ character_event = {
 			has_global_flag = byz_bul
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -1341,7 +1341,7 @@ character_event = {
 	id = Plus.536
 	desc = "EVTDESC_Plus_536"
 	picture = GFX_evt_throne_room
-	
+
 	only_playable = yes
 	only_independent = yes
 
@@ -1352,7 +1352,7 @@ character_event = {
 		has_global_flag = byz_bul_prev
 		NOT = { has_global_flag = byz_bul }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -1480,7 +1480,7 @@ character_event = {
 	desc = "EVTDESC_Plus_537"
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
-	
+
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
@@ -1511,7 +1511,6 @@ character_event = {
 		set_global_flag = sigfrid_arrived
 		create_random_priest = {
 			random_traits = no
-			dynasty = 1000124226
 			name = "Siegfried"
 			culture = norse
 			religion = chalcedonian
@@ -1543,7 +1542,7 @@ character_event = {
 	desc = "EVTDESC_Plus_538"
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
-	
+
 	only_playable = yes
 	religion_group = pagan_group
 
@@ -1563,7 +1562,7 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 40
 
@@ -1676,7 +1675,7 @@ character_event = {
 			limit = { has_character_flag = sigfrid_of_sweden }
 			clr_character_flag = sigfrid_of_sweden
 			add_rival = ROOT
-		}		
+		}
 		any_courtier = {
 			limit = {
 				religion = chalcedonian
@@ -1711,7 +1710,7 @@ character_event = {
 	id = Plus.545
 
 	hide_window = yes
-	
+
 	min_age = 16
 	prisoner = no
 	capable_only = yes
@@ -1907,12 +1906,12 @@ character_event = {
 # Rightful religion head is declared war upon by a member of their own religion
 character_event = {
 	id = Plus.548
-	
+
 	hide_window = yes
-	
+
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			controls_religion = yes
@@ -1928,11 +1927,11 @@ character_event = {
 			NOT = { trait = excommunicated }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 7
 	}
-	
+
 	immediate = {
 		random_current_enemy = {
 			limit = {
@@ -1955,7 +1954,7 @@ character_event = {
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_549
 		tooltip = { add_trait = excommunicated }
@@ -1983,13 +1982,13 @@ character_event = {
 	desc = EVTDESC_Plus_550
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_war
-	
+
 	only_playable = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		war = no
 		demesne_size = 1
@@ -1999,7 +1998,7 @@ character_event = {
 		}
 		rightful_religious_head_scope = {
 			war = yes
-			is_primary_war_defender = yes	
+			is_primary_war_defender = yes
 			OR = {
 				controls_religion = yes
 				ROOT = { NOT = { religion_head = { always = yes } } }
@@ -2059,7 +2058,7 @@ character_event = {
 			had_character_flag = { flag = helped_religious_head days = 1825 }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3
 		modifier = {
@@ -2144,7 +2143,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		set_character_flag = helped_religious_head
 		rightful_religious_head_scope = {
@@ -2192,7 +2191,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_550 #We will defend the Pope
 		trigger = {
@@ -2704,7 +2703,7 @@ character_event = {
 			modifier = {
 				factor = 0.75
 				NOT = { event_target:relhead_enemy = { reverse_opinion = { who = ROOT value = -75 } } }
-			}		
+			}
 		}
 		piety = -25
 		event_target:rightful_relhead = {
@@ -2722,11 +2721,11 @@ narrative_event = {
 	desc = EVTDESC_Plus_553
 	picture = GFX_evt_blood_eagle
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	hide_from = yes
-	
+
 	option = {
 		name = EXCELLENT
 		hidden_tooltip = {
@@ -2748,9 +2747,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_554
 	picture = GFX_evt_blood_eagle
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_554
 		trigger = {
@@ -2778,11 +2777,11 @@ narrative_event = {
 	desc = EVTDESC_Plus_555
 	picture = GFX_evt_blood_eagle
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	hide_from = yes
-	
+
 	option = {
 		name = EXCELLENT
 		hidden_tooltip = {
@@ -2804,9 +2803,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_556
 	picture = GFX_evt_blood_eagle
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_554
 		trigger = {
@@ -2816,7 +2815,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_Plus_554
 		trigger = {
@@ -2847,7 +2846,7 @@ character_event = {
 		OR = {
 			NOT = { culture = basque }
 			AND = {
-				tier = KING			
+				tier = KING
 				primary_title = {
 					NOT = { title = k_navarra }
 				}
@@ -2878,8 +2877,8 @@ character_event = {
 			}
 			152 = {
 				set_name=""
-			}			
-		}		
+			}
+		}
 	}
 }
 
@@ -2892,11 +2891,11 @@ narrative_event = {
 	desc = EVTDESC_Plus_560
 	picture = GFX_evt_blood_eagle
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	hide_from = yes
-	
+
 	option = {
 		name = EXCELLENT
 		hidden_tooltip = {
@@ -2918,9 +2917,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_561
 	picture = GFX_evt_blood_eagle
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_561
 		trigger = {
@@ -2930,7 +2929,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_Plus_554
 		trigger = {
@@ -2950,10 +2949,10 @@ character_event = {
 	desc = EVTDESC_Plus_562
 	picture = GFX_evt_imam
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	major_trigger = {
 		OR = {
 			character = FROM
@@ -2963,7 +2962,7 @@ character_event = {
 			same_realm = FROM
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_562 # How dare he!
 		trigger = { character = ROOT }
@@ -3108,10 +3107,10 @@ character_event = {
 	id = Plus.563
 	desc = EVTDESC_Plus_563
 	picture = GFX_evt_throne_room
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	major_trigger = {
 		OR = {
 			has_landed_title = k_ireland
@@ -3119,7 +3118,7 @@ character_event = {
 		}
 		NOT = { character = FROM }
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_563
 		trigger = { has_landed_title = k_ireland }

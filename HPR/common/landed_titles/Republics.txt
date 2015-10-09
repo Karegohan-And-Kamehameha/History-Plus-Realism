@@ -193,7 +193,7 @@ b_caetani = {
 	culture = tuscan
 	religion = catholic
 }
-# LÜBECK:
+# L?ECK:
 b_bardewik = {
 	culture = low_german
 	religion = catholic

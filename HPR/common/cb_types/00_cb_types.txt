@@ -2948,8 +2948,6 @@ tribal_invasion = {
 						region = custom_perm
 						region = custom_volga
 						region = custom_rus
-						region = world_india_bengal
-						region = world_india_deccan
 						region = world_india_rajastan
 					}
 				}
@@ -3044,8 +3042,6 @@ tribal_invasion = {
 						region = custom_jerusalem
 						region = custom_egypt
 						region = custom_africa
-						region = world_india_bengal
-						region = world_india_deccan
 						region = world_india_rajastan
 					}
 				}
@@ -3068,8 +3064,6 @@ tribal_invasion = {
 				capital_scope = {
 					NOR = {
 						region = custom_baluchistan
-						region = world_india_bengal
-						region = world_india_deccan
 						region = world_india_rajastan
 					}
 				}
@@ -3986,19 +3980,15 @@ holy_war = {
 				custom_tooltip = {
 					text = HOLY_WAR_REGULAR
 					hidden_tooltip = {
-						AND = {
-							piety = 100
-							NOT = { has_character_modifier = holy_war_timer }
-						}
+						piety = 100
+						NOT = { has_character_modifier = holy_war_timer }
 					}
 				}
 				custom_tooltip = {
 					text = HOLY_WAR_KHARIJITE
 					hidden_tooltip = {
-						AND = {
-							piety = 100
-							religion = kharijite
-						}
+						piety = 100
+						religion = kharijite
 					}
 				}
 				piety = 250
@@ -4145,11 +4135,7 @@ holy_war = {
 				NOT = { religion_group = indian_group }
 				PREV = {
 					capital_scope = {
-						OR = {
-							region = world_india_deccan
-							region = world_india_bengal
-							region = world_india_rajastan
-						}
+						region = world_india_rajastan
 					}
 				}
 				piety = 300
@@ -4719,8 +4705,6 @@ holy_war = {
 						region = custom_perm
 						region = custom_volga
 						region = custom_rus
-						region = world_india_bengal
-						region = world_india_deccan
 						region = world_india_rajastan
 					}
 				}
@@ -4755,8 +4739,6 @@ holy_war = {
 						region = custom_jerusalem
 						region = custom_egypt
 						region = custom_africa
-						region = world_india_bengal
-						region = world_india_deccan
 						region = world_india_rajastan
 					}
 				}
@@ -4779,8 +4761,6 @@ holy_war = {
 				capital_scope = {
 					NOR = {
 						region = custom_baluchistan
-						region = world_india_bengal
-						region = world_india_deccan
 						region = world_india_rajastan
 					}
 				}
@@ -9087,12 +9067,10 @@ pagan_subjugation = {
 			#not already a defender in a subjugation war
 			NOT = {
 				any_war = {
-					AND = {
-						defender = { character = PREVPREV }
-						OR = {
-							using_cb = pagan_subjugation
-							using_cb = nomad_subjugation
-						}
+					defender = { character = PREVPREV }
+					OR = {
+						using_cb = pagan_subjugation
+						using_cb = nomad_subjugation
 					}
 				}
 			}
@@ -10185,7 +10163,6 @@ liberation_revolt = {
 			prestige = -200
 			hidden_tooltip = {
 				disband_event_forces = nationalist_rebels
-				disband_event_forces = nationalist_rebels_1
 			}
 			if = {
 				limit = { NOT = { has_character_flag = began_revolt } }
@@ -10281,7 +10258,6 @@ liberation_revolt = {
 			prestige = -200
 			hidden_tooltip = {
 				disband_event_forces = nationalist_rebels
-				disband_event_forces = nationalist_rebels_1
 			}
 			if = {
 				limit = { NOT = { has_character_flag = began_revolt } }
@@ -14904,12 +14880,10 @@ nomad_subjugation = {
 			is_nomadic = no # Nomads cannot be subjugated
 			NOT = {
 				any_war = {
-					AND = {
-						defender = { character = PREVPREV }
-						OR = {
-							using_cb = nomad_subjugation
-							using_cb = pagan_subjugation
-						}
+					defender = { character = PREVPREV }
+					OR = {
+						using_cb = nomad_subjugation
+						using_cb = pagan_subjugation
 					}
 				}
 			}
@@ -15459,13 +15433,11 @@ nomad_expansion = {
 				}
 				location = {
 					any_neighbor_province = {
-						AND = {
-							has_owner = yes
-							owner = {
-								OR = {
-									character = ROOT
-									is_liege_or_above = ROOT
-								}
+						has_owner = yes
+						owner = {
+							OR = {
+								character = ROOT
+								is_liege_or_above = ROOT
 							}
 						}
 					}

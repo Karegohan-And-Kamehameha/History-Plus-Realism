@@ -4,7 +4,7 @@ casus_belli = {
 	actor = 159137
 	recipient = 70382
 	casus_belli = magyar_invasion
-	landed_title = k_carpathia
+	landed_title = k_hungary
 	date = 867.1.1
 }
 

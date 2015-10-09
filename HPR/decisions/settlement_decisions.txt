@@ -8,7 +8,7 @@
 #	realm_owned: all settlements in the same top realm as the AI
 #	dynasty_owned: all settlements owned by members of the same dynasty
 #	all: all settlements (Avoid if possible. VERY CPU-HEAVY!)
-#	
+#
 
 settlement_decisions = {
 
@@ -16,11 +16,11 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-		
+
 		from_potential = {
 			is_feudal = yes
 		}
-		
+
 		potential = {
 			holding_type = tribal
 			holder_scope = {
@@ -43,18 +43,18 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			hidden_tooltip = {
 				holder_scope = {
 					character_event = { id = Plus.352 days = 3 } #refill the levies
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -64,11 +64,11 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-		
+
 		from_potential = {
 			is_republic = yes
 		}
-		
+
 		potential = {
 			holding_type = tribal
 			holder_scope = {
@@ -94,7 +94,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			hidden_tooltip = {
 				holder_scope = {
 					character_event = { id = Plus.352 days = 3 } #refill the levies
@@ -113,11 +113,11 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-		
+
 		from_potential = {
 			is_theocracy = yes
 		}
-		
+
 		potential = {
 			holding_type = tribal
 			holder_scope = {
@@ -131,7 +131,7 @@ settlement_decisions = {
 			}
 		}
 		effect = {
-			convert_to = TEMPLE
+			convert_to = temple
 			set_title_flag = refill_levy
 			hidden_tooltip = {
 				refill_holding_levy = yes
@@ -143,7 +143,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			hidden_tooltip = {
 				holder_scope = {
 					character_event = { id = Plus.352 days = 3 } #refill the levies
@@ -161,7 +161,7 @@ settlement_decisions = {
 	make_primary = {
 		filter = owned
 		ai_target_filter = owned
-		
+
 		potential = {
 			is_capital = no
 			holder_scope = {
@@ -198,19 +198,19 @@ settlement_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = { # Not if this settlement is not allowed
 				factor = 0
 				NOT = { is_allowed_holding_type = FROM }
 			}
-			
+
 			modifier = { # Not if existing capital is preferred
 				factor = 0
 				defacto_liege_title = {
 					is_preferred_holding_type = FROM
 				}
 			}
-			
+
 			modifier = { # Not if this settlement is not preferred and another settlement is
 				factor = 0
 				NOT = { is_preferred_holding_type = FROM }
@@ -221,7 +221,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				defacto_liege_title = {
@@ -230,16 +230,16 @@ settlement_decisions = {
 			}
 		}
 	}
-	
+
 	revoke_primary = {
 		filter = owned
 		ai_target_filter = owned
-		
+
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
 		}
-		
+
 		potential = {
 			is_capital = yes
 			holder_scope = {
@@ -270,12 +270,12 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-		
+
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
 		}
-		
+
 		potential = {
 			NOT = { holding_type = nomad }
 			has_siege = no
@@ -300,7 +300,7 @@ settlement_decisions = {
 			FROM = {
 				OR = {
 					independent = yes
-					custom_tooltip = { 
+					custom_tooltip = {
 						text = TT_NOT_SAME_REALM
 						hidden_tooltip = {
 							top_liege = {
@@ -309,7 +309,7 @@ settlement_decisions = {
 										top_liege = {
 											NOT = { character = PREVPREVPREV }
 										}
-									} 
+									}
 								}
 							}
 						}
@@ -383,7 +383,7 @@ settlement_decisions = {
 
 			location = {
 				if = {
-					limit = { 
+					limit = {
 						any_province_holding = {
 							NOT = { holding_type = nomad }
 						}
@@ -427,7 +427,7 @@ settlement_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = { # Only for tribal holdings
 				factor = 0
 				NOT = { holding_type = tribal }
@@ -439,7 +439,7 @@ settlement_decisions = {
 			}
 			modifier = {
 				factor = 0
-				location = { kingdom = { title = k_carpathia } }
+				location = { empire = { title = e_carpathia } }
 				FROM = { culture = hungarian }
 			}
 		}
@@ -449,12 +449,12 @@ settlement_decisions = {
 		filter = owned
 		ai_target_filter = owned
 		is_high_prio = yes
-		
+
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
 		}
-		
+
 		potential = {
 			NOT = { holding_type = nomad }
 			has_siege = no
@@ -556,7 +556,7 @@ settlement_decisions = {
 
 			location = {
 				if = {
-					limit = { 
+					limit = {
 						any_province_holding = {
 							NOT = { holding_type = nomad }
 						}
@@ -572,34 +572,34 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			destroy_settlement = THIS
 		}
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = { # Only for tribal holdings
 				factor = 0
 				NOT = { holding_type = tribal }
 			}
 			modifier = {
 				factor = 0
-				location = { kingdom = { title = k_carpathia } }
+				location = { empire = { title = e_carpathia } }
 				FROM = { culture = hungarian }
 			}
 		}
 	}
-	
+
 	adopt_tribalism = {
 		filter = sub_realm_owned
 		ai_target_filter = sub_realm_owned
 		is_high_prio = yes
-		
+
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
 			is_landed = yes
-			
+
 			OR = {
 				ai = yes
 				AND = {
@@ -624,7 +624,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			NOT = {
 				any_vassal = {
 					any_demesne_title = { temporary = yes }
@@ -673,7 +673,7 @@ settlement_decisions = {
 				independent = yes
 				war = no
 			}
-			
+
 			OR = {
 				holding_type = tribal
 				AND = {
@@ -698,12 +698,12 @@ settlement_decisions = {
 					religion = FROM
 				}
 			}
-			
+
 			# Change name of Avaria to Hungary if relevant.
 			if = {
 				limit = {
 					FROM = { culture = hungarian }
-					location = { kingdom = { title = k_carpathia } }
+					location = { empire = { title = e_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				hidden_tooltip = {
@@ -712,19 +712,19 @@ settlement_decisions = {
 					}
 					d_esztergom = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_nyitra = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_ungvar = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_pest = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_transylvania = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_temes = {
 						de_jure_liege = k_hungary
 					}
@@ -761,7 +761,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			if = {
 				limit = {
 					location = {
@@ -775,39 +775,39 @@ settlement_decisions = {
 					duchy = { usurp_title = FROM }
 				}
 			}
-			
+
 			if = {
 				limit = { NOT = { holder = FROM } }
 				usurp_title = FROM
 			}
-			
+
 			if = {
 				limit = { is_capital = no }
 				make_capital_holding = yes
 			}
-			
+
 			FROM = {
 				capital = PREV
 			}
-			
-			custom_tooltip = { 
+
+			custom_tooltip = {
 				text = TT_BUILD_TRIBAL_HOLDINGS
 			}
-			
+
 			FROM = {
 				primary_title = {
 					ROOT = {
-						custom_tooltip = { 
+						custom_tooltip = {
 							text = TT_KHAN_INDEPENDENCE
 						}
 						most_prestigious_clan_vassal = {
-							custom_tooltip = { 
+							custom_tooltip = {
 								text = TT_NEW_KHAN
 							}
 						}
 					}
 				}
-		
+
 				if = {
 					limit = {
 						ai = no
@@ -817,9 +817,9 @@ settlement_decisions = {
 						picture = GFX_evt_tribal_lands
 					}
 				}
-			
+
 				set_government_type = tribal_government
-			
+
 				if = {
 					limit = {
 						higher_tier_than = count
@@ -828,7 +828,7 @@ settlement_decisions = {
 						add_law = tribal_organization_0
 					}
 				}
-			
+
 				any_playable_ruler = {
 					limit = {
 						NOT = { character = FROM }
@@ -843,34 +843,34 @@ settlement_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				NAND = {
 					FROM = { culture = hungarian }
-					location = { kingdom = { title = k_carpathia } }
+					location = { empire = { title = e_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 			}
 			modifier = {
 				factor = 0.5
-				NOT = { title = b_pest }
+				NOT = { title = b_esztergom }
 				FROM = { culture = hungarian }
-				location = { kingdom = { title = k_carpathia } }
+				location = { empire = { title = e_carpathia } }
 				k_hungary = { has_holder = no }
 			}
 		}
 	}
-	
+
 	nomad_adopt_feudalism = {
 		filter = sub_realm_owned
 		ai_target_filter = sub_realm_owned
 		is_high_prio = yes
-		
+
 		from_potential = {
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
-			
+
 			OR = {
 				ai = yes
 				AND = {
@@ -895,7 +895,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			NOT = {
 				any_vassal = {
 					any_demesne_title = { temporary = yes }
@@ -971,7 +971,7 @@ settlement_decisions = {
 			if = {
 				limit = {
 					FROM = { culture = hungarian }
-					location = { kingdom = { title = k_carpathia } }
+					location = { empire = { title = e_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				hidden_tooltip = {
@@ -980,19 +980,19 @@ settlement_decisions = {
 					}
 					d_esztergom = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_nyitra = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_ungvar = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_pest = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_transylvania = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_temes = {
 						de_jure_liege = k_hungary
 					}
@@ -1057,33 +1057,33 @@ settlement_decisions = {
 					duchy = { usurp_title = FROM }
 				}
 			}
-			
+
 			if = {
 				limit = { NOT = { holder = FROM } }
 				usurp_title = FROM
 			}
-			
+
 			if = {
 				limit = { is_capital = no }
 				make_capital_holding = yes
 			}
-		
+
 			FROM = {
 				capital = PREV
-				
+
 				primary_title = {
 					FROM = {
-						custom_tooltip = { 
+						custom_tooltip = {
 							text = TT_KHAN_INDEPENDENCE
 						}
 						most_prestigious_clan_vassal = {
-							custom_tooltip = { 
+							custom_tooltip = {
 								text = TT_NEW_KHAN
 							}
 						}
 					}
 				}
-			
+
 				if = {
 					limit = {
 						NOT = { religion_group = muslim }
@@ -1120,7 +1120,7 @@ settlement_decisions = {
 					}
 					set_government_type = bogomilist_government
 				}
-				
+
 				hidden_tooltip = {
 					if = {
 						limit = {
@@ -1145,14 +1145,14 @@ settlement_decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1 # On average ca 1 year before taken
-			
+
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1169,13 +1169,13 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				NAND = {
-					title = b_pest
+					title = b_esztergom
 					FROM = { culture = hungarian }
-					location = { kingdom = { title = k_carpathia } }
+					location = { empire = { title = e_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				FROM = {
@@ -1183,13 +1183,13 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_castles = 10 }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				NAND = {
-					title = b_pest
+					title = b_esztergom
 					FROM = { culture = hungarian }
-					location = { kingdom = { title = k_carpathia } }
+					location = { empire = { title =e_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				FROM = {
@@ -1197,13 +1197,13 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_castles = 20 }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				NAND = {
-					title = b_pest
+					title = b_esztergom
 					FROM = { culture = hungarian }
-					location = { kingdom = { title = k_carpathia } }
+					location = { empire = { title = e_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				FROM = {
@@ -1214,13 +1214,13 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_castles = 15 }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				NAND = {
-					title = b_pest
+					title = b_esztergom
 					FROM = { culture = hungarian }
-					location = { kingdom = { title = k_carpathia } }
+					location = { empire = { title = e_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				NOT = {
@@ -1234,7 +1234,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1249,12 +1249,12 @@ settlement_decisions = {
 			}
 		}
 	}
-	
+
 	nomad_adopt_republicanism = {
 		filter = sub_realm_owned
 		ai_target_filter = sub_realm_owned
 		is_high_prio = yes
-		
+
 		from_potential = {
 			is_nomadic = yes
 			is_female = no
@@ -1263,7 +1263,7 @@ settlement_decisions = {
 				has_dlc = "The Republic"
 			}
 			has_dlc = "Horse Lords"
-			
+
 			OR = {
 				ai = yes
 				AND = {
@@ -1288,14 +1288,14 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			NOT = {
 				any_vassal = {
 					any_demesne_title = { temporary = yes }
 				}
 			}
 		}
-		
+
 		potential = {
 			holding_type = city
 			OR = {
@@ -1334,7 +1334,7 @@ settlement_decisions = {
 				}
 			}
 			has_siege = no
-			
+
 			FROM = {
 				independent = yes
 				war = no
@@ -1365,12 +1365,12 @@ settlement_decisions = {
 			hidden_tooltip = { # Pre-settlement accounting
 				FROM = { character_event = { id = emf_nomad.0 } }
 			}
-			
+
 			# Change name of Avaria to Hungary if relevant.
 			if = {
 				limit = {
 					FROM = { culture = hungarian }
-					location = { kingdom = { title = k_carpathia } }
+					location = { empire = { title = e_carpathia } }
 					k_hungary = { has_holder = no }
 				}
 				hidden_tooltip = {
@@ -1379,19 +1379,19 @@ settlement_decisions = {
 					}
 					d_esztergom = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_nyitra = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_ungvar = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_pest = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_transylvania = {
 						de_jure_liege = k_hungary
-					}	
+					}
 					d_temes = {
 						de_jure_liege = k_hungary
 					}
@@ -1402,7 +1402,7 @@ settlement_decisions = {
 					grant_title = FROM
 				}
 			}
-		
+
 			# Spawn event troops based on amount of empty holdings abandoned.
 			custom_tooltip = {
 				text = NOMAD_CONVERSION_TROOP_SPAWN
@@ -1437,7 +1437,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			if = {
 				limit = {
 					location = {
@@ -1451,34 +1451,34 @@ settlement_decisions = {
 					duchy = { usurp_title = FROM }
 				}
 			}
-			
+
 			if = {
 				limit = { NOT = { holder = FROM } }
-				usurp_title = FROM 
+				usurp_title = FROM
 			}
-			
+
 			if = {
 				limit = { is_capital = no }
 				make_capital_holding = yes
 			}
-		
+
 			FROM = {
 				capital = PREV
-				
+
 				primary_title = {
 					FROM = {
-						custom_tooltip = { 
+						custom_tooltip = {
 							text = TT_KHAN_INDEPENDENCE
 						}
 						most_prestigious_clan_vassal = {
-							custom_tooltip = { 
+							custom_tooltip = {
 								text = TT_NEW_KHAN
 							}
 						}
 					}
 				}
 			}
-			
+
 			hidden_tooltip = {
 				if = {
 					limit = {
@@ -1498,9 +1498,9 @@ settlement_decisions = {
 								base_title = THIS
 							}
 						}
-						
+
 						create_family_palace = yes
-						
+
 						if = {
 							limit = {
 								NOT = {
@@ -1510,7 +1510,7 @@ settlement_decisions = {
 									}
 								}
 							}
-							
+
 							any_unique_dynasty_vassal = { # gives random vassals a family palace
 								count = 4
 								limit = {
@@ -1523,14 +1523,14 @@ settlement_decisions = {
 									prisoner = no
 									NOT = { trait = incapable }
 									is_adult = yes
-									NOT = { 
-										dynasty = none 
+									NOT = {
+										dynasty = none
 									}
 								}
-								
+
 								if = {
 									limit = { is_tribal = yes }
-									
+
 									capital_holding = {
 										if = {
 											limit = { holding_type = tribal }
@@ -1570,18 +1570,18 @@ settlement_decisions = {
 
 									character_event = { id = Plus.352 days = 3 } # Refill levies
 								}
-								
+
 								create_family_palace = yes
 							}
 						}
-							
+
 						set_government_type = merchant_republic_government
 					}
 				}
 			}
-			
+
 			if = {
-				limit = { 
+				limit = {
 					capital_scope = {
 						port = yes
 					}
@@ -1591,7 +1591,7 @@ settlement_decisions = {
 				}
 			}
 			if = {
-				limit = { 
+				limit = {
 					capital_scope = {
 						port = no
 					}
@@ -1600,7 +1600,7 @@ settlement_decisions = {
 					set_government_type = republic_government
 				}
 			}
-			
+
 
 			hidden_tooltip = {
 				FROM = {
@@ -1615,7 +1615,7 @@ settlement_decisions = {
 					entry = CHRONICLE_NOMAD_FOUNDED_MERCHANT_REPUBLIC
 					picture = GFX_evt_busy_trading_dock_republic
 				}
-				
+
 				any_playable_ruler = {
 					limit = {
 						NOT = { character = FROM }
@@ -1632,7 +1632,7 @@ settlement_decisions = {
 
 		ai_will_do = {
 			factor = 0.5
-			
+
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1649,7 +1649,7 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1657,7 +1657,7 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_cities = 10 }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1665,7 +1665,7 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_cities = 20 }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1676,7 +1676,7 @@ settlement_decisions = {
 					NOT = { num_of_subrealm_cities = 15 }
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1688,14 +1688,14 @@ settlement_decisions = {
 					}
 				}
 			}
-			
+
 			modifier = {
 				factor = 2.0
 				FROM = {
 					stewardship = 10
 				}
 			}
-			
+
 			modifier = {
 				factor = 0
 				FROM = {
@@ -1710,5 +1710,5 @@ settlement_decisions = {
 			}
 		}
 	}
-	
+
 }

@@ -1,5 +1,5 @@
 decisions = {
-	
+
 	feast_0 = {
 		potential = {
 			is_ruler = yes
@@ -26,9 +26,9 @@ decisions = {
 				religion = pagan
 				religion = aztec
 				AND = {
-					OR = { 
-						religion = tengri_pagan 
-						religion = tengri_pagan_reformed 
+					OR = {
+						religion = tengri_pagan
+						religion = tengri_pagan_reformed
 					}
 					NOR = {
 						has_landed_title = e_il-khanate
@@ -37,7 +37,7 @@ decisions = {
 						has_landed_title = e_mongol_empire
 					}
 				}
-			}			
+			}
 			NOR = {
 				trait = in_hiding
 				religion = manichean
@@ -102,7 +102,7 @@ decisions = {
 					trait = greedy
 					trait = paranoid
 				}
-			}	
+			}
 			modifier = {
 				factor = 0
 				has_character_flag = held_recent_feast
@@ -119,7 +119,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	summer_fair_0 = {
 		potential = {
 			is_ruler = yes
@@ -206,7 +206,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	hold_grand_hunt = {
 		potential = {
 			is_ruler = yes
@@ -218,8 +218,8 @@ decisions = {
 				religion_group = pagan_group
 				religion_group = zoroastrian_group
 				religion = aztec
-				religion = tengri_pagan 
-				religion = tengri_pagan_reformed 				
+				religion = tengri_pagan
+				religion = tengri_pagan_reformed
 			}
 			NOR = {
 				religion = cathar
@@ -247,7 +247,7 @@ decisions = {
 		effect = {
 			scaled_wealth = -0.5
 			set_character_flag = planning_grand_hunt
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				character_event = { id = 36080  }
 			}
 		}
@@ -273,7 +273,7 @@ decisions = {
 				factor = 0
 				is_female = no
 				trait = craven
-			}			
+			}
 			modifier = {
 				factor = 0
 				NOR = {
@@ -312,7 +312,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	hold_tiger_hunt = {
 		potential = {
 			has_dlc = "Rajas of India"
@@ -358,7 +358,7 @@ decisions = {
 			modifier = {
 				factor = 0.1
 				always = yes
-			}			
+			}
 			modifier = {
 				factor = 0
 				month = 10
@@ -370,7 +370,7 @@ decisions = {
 			modifier = {
 				factor = 0
 				trait = craven
-			}			
+			}
 			modifier = {
 				factor = 0
 				NOT = {
@@ -392,10 +392,10 @@ decisions = {
 			modifier = {
 				factor = 0
 				has_character_modifier = ai_austerity
-			}			
+			}
 		}
 	}
-	
+
 	choose_hindu_patron_deity = {
 		potential = {
 			has_dlc = "Rajas of India"
@@ -435,7 +435,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	catholic_pilgrimage = {
 		potential = {
 			has_dlc = "Sons of Abraham"
@@ -485,7 +485,7 @@ decisions = {
 			custom_tooltip = {
 				text = PREPARE_FOR_PILGRIMAGE
 				hidden_tooltip = {
-					character_event = { 
+					character_event = {
 						id = SoA.5000
 					}
 				}
@@ -495,7 +495,7 @@ decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 1		
+			factor = 1
 			modifier = {
 				factor = 0
 				NOT = { has_character_flag = will_go_on_pilgrimage }
@@ -544,7 +544,7 @@ decisions = {
 		effect = {
 			log = "[Root.GetTitledName] is going on hajj"
 			scaled_wealth = -1.0
-			clr_character_flag = promise_hajj		
+			clr_character_flag = promise_hajj
 			if = {
 				limit = {
 					trait = decadent
@@ -554,7 +554,7 @@ decisions = {
 			custom_tooltip = {
 				text = PREPARE_FOR_HAJJ
 				hidden_tooltip = {
-					letter_event = { 
+					letter_event = {
 						id = 86000
 					}
 				}
@@ -590,7 +590,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	observe_ramadan = {
 		potential = {
 			is_ruler = yes
@@ -675,7 +675,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	commission_runestone = {
 		potential = {
 			has_dlc = "The Old Gods"
@@ -693,7 +693,7 @@ decisions = {
 		effect = {
 			wealth = -100
 			set_character_flag = commissioned_runestone
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				character_event = { id = TOG.500 }
 			}
 		}
@@ -720,7 +720,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	hold_nerge = {
 		potential = {
 			has_dlc = "The Old Gods"
@@ -756,8 +756,8 @@ decisions = {
 			set_character_flag = planning_nerge
 			custom_tooltip = {
 				text = prepare_nerge
-				hidden_tooltip = { 
-					character_event = { id = TOG.100 } 
+				hidden_tooltip = {
+					character_event = { id = TOG.100 }
 				}
 			}
 		}
@@ -796,8 +796,8 @@ decisions = {
 				has_character_modifier = ai_austerity
 			}
 		}
-	}	
-	
+	}
+
 	hold_blot = {
 		potential = {
 			has_dlc = "The Old Gods"
@@ -843,8 +843,8 @@ decisions = {
 			set_character_flag = planning_blot
 			custom_tooltip = {
 				text = prepare_blot
-				hidden_tooltip = { 
-					character_event = { id = TOG.600 } 
+				hidden_tooltip = {
+					character_event = { id = TOG.600 }
 				}
 			}
 		}
@@ -881,8 +881,8 @@ decisions = {
 				has_character_modifier = ai_austerity
 			}
 		}
-	}	
-	
+	}
+
 	hold_ukon_juhla = {
 		potential = {
 			has_dlc = "The Old Gods"
@@ -914,8 +914,8 @@ decisions = {
 			set_character_flag = planning_ukon_juhla
 			custom_tooltip = {
 				text = prepare_ukon_juhla
-				hidden_tooltip = { 
-					character_event = { id = TOG.700 } 
+				hidden_tooltip = {
+					character_event = { id = TOG.700 }
 				}
 			}
 		}
@@ -955,7 +955,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	hold_uzgavenes = {
 		potential = {
 			has_dlc = "The Old Gods"
@@ -987,8 +987,8 @@ decisions = {
 			set_character_flag = planning_uzgavenes
 			custom_tooltip = {
 				text = prepare_uzgavenes
-				hidden_tooltip = { 
-					character_event = { id = TOG.750 } 
+				hidden_tooltip = {
+					character_event = { id = TOG.750 }
 				}
 			}
 		}
@@ -1028,7 +1028,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	hold_jarilo = {
 		potential = {
 			has_dlc = "The Old Gods"
@@ -1060,8 +1060,8 @@ decisions = {
 			set_character_flag = planning_jarilo
 			custom_tooltip = {
 				text = prepare_jarilo
-				hidden_tooltip = { 
-					character_event = { id = TOG.800 } 
+				hidden_tooltip = {
+					character_event = { id = TOG.800 }
 				}
 			}
 		}
@@ -1080,7 +1080,7 @@ decisions = {
 					NOT = { month = 4 }
 					month = 7
 				}
-			}			
+			}
 			modifier = {
 				factor = 0
 				NOT = {
@@ -1101,7 +1101,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	celebrate_passover = {
 		potential = {
 			has_dlc = "Sons of Abraham"
@@ -1130,8 +1130,8 @@ decisions = {
 			set_character_flag = planning_passover
 			custom_tooltip = {
 				text = passover_celebrations
-				hidden_tooltip = { 
-					character_event = { id = SoA.500 } 
+				hidden_tooltip = {
+					character_event = { id = SoA.500 }
 				}
 			}
 		}
@@ -1170,8 +1170,8 @@ decisions = {
 				has_character_modifier = ai_austerity
 			}
 		}
-	}	
-	
+	}
+
 	borrow_money_jews = {
 		potential = {
 			has_dlc = "Sons of Abraham"
@@ -1204,7 +1204,7 @@ decisions = {
 				has_character_flag = pogrom
 			}
 		}
-		
+
 		allow = {
 			has_regent = no
 			NOR = {
@@ -1213,7 +1213,7 @@ decisions = {
 				top_liege = { has_character_modifier = expelled_jewish }
 			}
 		}
-		
+
 		effect = {
 			set_character_flag = loan_taken
 			add_character_modifier = {
@@ -1229,16 +1229,16 @@ decisions = {
 			}
 			wealth = 300
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	repay_money_jews = {
 		potential = {
 			has_dlc = "Sons of Abraham"
@@ -1246,11 +1246,11 @@ decisions = {
 			has_character_modifier = borrowed_from_jews
 			has_character_modifier = loan_timer_jews
 		}
-		
+
 		allow = {
 			wealth = 350
 		}
-		
+
 		effect = {
 			remove_character_modifier = borrowed_from_jews
 			remove_character_modifier = loan_timer_jews
@@ -1268,11 +1268,11 @@ decisions = {
 			}
 			wealth = -350
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
@@ -1292,7 +1292,7 @@ decisions = {
 			has_dlc = "Rajas of India"
 			NOT = { trait = kshatriya }
 		}
-		
+
 		allow = {
 			OR = {
 				trait = brahmin
@@ -1320,7 +1320,7 @@ decisions = {
 				limit = { NOT = { trait = brahmin } }
 				piety = -200
 			}
-			
+
 			prestige = 50
 			add_trait = kshatriya
 			any_spouse = {
@@ -1366,7 +1366,7 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
@@ -1446,7 +1446,7 @@ decisions = {
 			modifier = {
 				factor = 0.5
 				NOT = { diplomacy = 10 }
-			}	
+			}
 			modifier = {
 				factor = 0
 				NOT = { age = 30 }
@@ -1525,7 +1525,7 @@ decisions = {
 			modifier = {
 				factor = 0.5
 				NOT = { diplomacy = 10 }
-			}	
+			}
 			modifier = {
 				factor = 0
 				NOT = { age = 30 }
@@ -1604,7 +1604,7 @@ decisions = {
 			modifier = {
 				factor = 0.5
 				NOT = { diplomacy = 10 }
-			}	
+			}
 			modifier = {
 				factor = 0
 				NOT = { age = 30 }
@@ -1630,7 +1630,7 @@ decisions = {
 			religion = hindu
 			OR = {
 				has_character_modifier = patron_kali
-				capital_scope = { region = world_india_bengal }
+				capital_scope = { region = world_india_rajastan }
 			}
 			NOT = {
 				trait = in_hiding
@@ -1687,7 +1687,7 @@ decisions = {
 			modifier = {
 				factor = 0.5
 				NOT = { diplomacy = 10 }
-			}	
+			}
 			modifier = {
 				factor = 0
 				NOT = { age = 30 }
@@ -1734,7 +1734,7 @@ decisions = {
 			modifier = {
 				factor = 0.1
 				always = yes
-			}			
+			}
 			modifier = {
 				factor = 0
 				trait = cynical
@@ -1749,7 +1749,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	hold_zun_feast = {
 		potential = {
 			has_dlc = "Charlemagne"
@@ -1817,10 +1817,10 @@ decisions = {
 			modifier = {
 				factor = 0
 				NOT = { age = 30 }
-			}			
+			}
 		}
 	}
-	
+
 	come_out_of_hiding_siege = {
 		is_high_prio = yes
 
@@ -1889,7 +1889,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	# Build an observatory (learning focus)
 	build_observatory = {
 		potential = {
@@ -1949,7 +1949,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	# Sky burial
 	sky_burial_decision = {
 		is_high_prio = yes

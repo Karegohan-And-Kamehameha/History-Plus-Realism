@@ -7016,7 +7016,7 @@ k_swiss = {
 
 k_wurttemberg = {
 	color = { 252 224 101 }
-	capital = 253 #Württemberg
+	capital = 253 #WÃ¼rttemberg
 	culture = german
 	dignity = 10
 	allow = {
@@ -7524,13 +7524,13 @@ k_yugoslavia= {
 # Swedish
 k_scania = {
 	color = { 0 255 234 }
-	capital = 303 # Skåne
+	capital = 303 # SkÄºne
 	culture = swedish
 
-	swedish = "Skåne"
-	danish = "Skåne"
-	norwegian = "Skåne"
-	norse = "Skåne"
+	swedish = "SkÄºne"
+	danish = "SkÄºne"
+	norwegian = "SkÄºne"
+	norse = "SkÄºne"
 
 	dignity = 10
 	allow = {
