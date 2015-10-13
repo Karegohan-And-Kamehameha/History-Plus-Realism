@@ -13,6 +13,8 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 The music mod is now available for download at<br> https://mega.nz/#!lld0FKDQ!ymzHRK5N2tPyyPz9v7DG7si0TiTYSjWCcav7v52w-aI <br>
 
 <b>Changelog:</b><br>
+<b>v0.7.2.1:</b><br>
+-Hotfix for a crash in v0.7.2<br>
 <b>v0.7.2:</b><br>
 -Fixed a regression that messed up the encoding of localised province names.<br>
 -Fixed the Roman Empire borders and de jure provinces.<br>
