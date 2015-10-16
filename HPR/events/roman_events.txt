@@ -819,7 +819,10 @@ narrative_event = {
 		completely_controls = d_lothian
 		completely_controls = d_moray
 		completely_controls = d_aberdeen
-		completely_controls = d_highlands
+		completely_controls = d_sutherland
+		completely_controls = d_ellan_vannin
+		completely_controls = d_orkney
+		completely_controls = d_western_isles
 		completely_controls = d_strathclyde
 		completely_controls = d_hebrides
 	}

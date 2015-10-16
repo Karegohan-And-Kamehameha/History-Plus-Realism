@@ -1,0 +1,47 @@
+namespace = HPR
+character_event = {#Trespasser escapes capture
+	id = HPR.1
+	desc = "HPR1_desc"
+	picture = "GFX_evt_burning_house"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "OK"
+	}
+}
+
+character_event = {#Trespasser is captured
+	id = HPR.2
+	desc = "HPR2_desc"
+	picture = "GFX_evt_into_the_dungeon"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "OK"
+	}
+}
+character_event = {#Trespasser escapes capture
+	id = HPR.3
+	desc = "HPR3_desc"
+	picture = "GFX_evt_burning_house"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "OK"
+	}
+}
+
+character_event = {#Trespasser is captured
+	id = HPR.4
+	desc = "HPR4_desc"
+	picture = "GFX_evt_into_the_dungeon"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "OK"
+	}
+}

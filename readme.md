@@ -13,6 +13,10 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 The music mod is now available for download at<br> https://mega.nz/#!lld0FKDQ!ymzHRK5N2tPyyPz9v7DG7si0TiTYSjWCcav7v52w-aI <br>
 
 <b>Changelog:</b><br>
+<b>v0.7.3:</b><br>
+-Branching education from Rebels and Warmongers mod integrated.<br>
+-Added a targetted decision that allows capturing of trespassing commanders.<br>
+-Misc. bugfixes.<br>
 <b>v0.7.2.1:</b><br>
 -Hotfix for a crash in v0.7.2<br>
 <b>v0.7.2:</b><br>
@@ -87,25 +91,27 @@ Initial release.<br>
 
 <b>HPR Feature List:</b><br>
 -CK2+ base mechanics and flavors.<br>
+-SWMH Map.<br>
 -Centralization law system from EMF.<br>
+-ARKO interface.<br>
+-ARKO armories.<br>
+-VIET events.<br>
+-Friends & Foes personality traits.<br>
+-Jus Uxoris spouse title usurpation mechanics.<br>
+-Rebels and Warmongers branching education mechanics.<br>
+-A unique map visual, pieced together from several different mods.<br>
+-Better Looking Garbs mod portraits.<br>
+-Dorimi music pack.<br>
+-Songs from the four corners music pack.<br>
 -Negative tax modifier on buildings from EMF and rebalanced tax of buildings, but no levy modifier. The logic behind this is that buildings require maintanence, hence the tax penalty. The levy modifier was not logical and destroyed the balance by giving rulers with many buildings too many levies, de facto creating a regular army way before it started to exist historically.<br>
 -Lower bonuses for tech advancements, EMF-like.<br>
 -Historical age of marriage: 12 for girls and 14 for boys.<br>
 -Dramatically increased number of stillbirths and infant deaths for historical accuracy. Also decreased the average life span of characters by ~10 years, before the change many characters used to live long into their 60s and even 70s, which is ahistorical. Some characters will still survive till that age, but it will be a lot less common. This doesn't mean characters in their 40s will all suddenly start to die for no reason, it just means that the world has become a lot more deadly and staying in good health matters.<br>
--Warscore with an emphasis on battles and sieges of capitals and contested territory.<br>
--ARKO interface.<br>
--ARKO armories.<br>
--Viet events.<br>
--SWMH Map.<br>
--Friends & Foes personality traits.<br>
--A unique map view, pieced together from several different mods.<br>
--Better Looking Garbs mod portraits.<br>
--Dorimi music pack.<br>
--Songs from the four corners music pack.<br>
 -Fear mechanics that are unique to this mod and work in a way similar to the tyrrany system from CK2+, except striking fear in the hearts of men works in a positive way, making them respect you more. Oderint dum metuant.<br>
 Fear is currently accumulated through acts of cruelty, such as torturing, blinding and castrating prisoners, as well as executing nobles after capturing them in a siege and as a result of some other events.<br>
--Jus Uxoris spouse title usurpation mechanics.<br>
+-Trespasser capturing mechanics, that allow you (and the ai) to attemt to capture commanders that are leading troops through your territory, imprison them and possibly hold them for ransom, while not allied or at war with them. The success rate is based on your intrigue and will lower the target's opinion of you in case of failure. This is similar to the famous historical event, when Richard Lionheart was captured and imprisoned by Duke Leopold and later transferred into custody of the HRE Emperor Henry VI.<br>
 -More detailed focuses with various penalties and bonuses.<br>
+-Warscore with an emphasis on battles and sieges of capitals and contested territory.<br>
 -Various other small tweaks and changes.<br>
 
 <b>TODO:</b><br>

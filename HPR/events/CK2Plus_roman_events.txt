@@ -568,7 +568,10 @@ character_event = {# Provincia Caledonia
 		d_albany = { de_jure_liege = k_caledonia }
 		d_moray = { de_jure_liege = k_caledonia }
 		d_aberdeen = { de_jure_liege = k_caledonia }
-		d_highlands = { de_jure_liege = k_caledonia }
+		d_sutherland = { de_jure_liege = k_caledonia }
+		d_ellan_vannin = { de_jure_liege = k_caledonia }
+		d_orkney = { de_jure_liege = k_caledonia }
+		d_western_isles = { de_jure_liege = k_caledonia }
 		d_strathclyde = { de_jure_liege = k_caledonia }
 		d_hebrides = { de_jure_liege = k_caledonia }
 	}

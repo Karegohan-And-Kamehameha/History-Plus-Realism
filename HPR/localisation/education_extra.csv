@@ -1,0 +1,297 @@
+EVTOPTA1500B;And of course, I give them to the poor.;;;;;;;;;;;;;x
+SPANKING101;Give [From.GetHerHim] a good spanking!;;;;;;;;;;;;;x
+IRONICP;Give [From.GetHerHim] an ironic punishment...;;;;;;;;;;;;;x
+EVTOPTA1510B;I will live a healthy life style!;;;;;;;;;;;;;x
+EATUP101;You have to eat up so you will grow up nice and strong!;;;;;;;;;;;;;x
+EXERCISE101;You have to enjoy life! What about exercising instead?;;;;;;;;;;;;;x
+EDC_NO_GLUT;[GetFromFromRelation] is no longer a glutton you once knew. [FromFrom.GetTitledFirstName] has learned to control [FromFrom.GetHerHis] appetite.;;;;;;;;;;;;;x
+EDC_NO_GLUTA;More food for me!;;;;;;;;;;;;;x
+EDC_NO_GLUTB;Good!;;;;;;;;;;;;;x
+EDC_NO_TEMP;[FromFrom.GetTitledFirstName] has troubling control [FromFrom.GetHerHis] appetite.;;;;;;;;;;;;;x
+EDC_NO_TEMPA;As long as it's not too serious.;;;;;;;;;;;;;x
+EDC_I_STRONG;I see, to be a strong person, I need to follow a healthy eating habit.;;;;;;;;;;;;;x
+EDC_I_STRONGA;Me no small eater! I strong!;;;;;;;;;;;;;x
+EDC_U_STRONG;One needs to follow a healthy eating habit to be a strong individual.;;;;;;;;;;;;;x
+EDC_U_STRONGA;I am so proud!;;;;;;;;;;;;;x
+
+CHORES101;Hmmm... I will let you play with 'em if you do all your chores...;;;;;;;;;;;;;x
+TOO_SHY;I am too shy to say anything.;;;;;;;;;;;;;x
+REALITY101;Giving stuff away will make you poor.;;;;;;;;;;;;;x
+GREED101;You have to learn how to manage your finances!;;;;;;;;;;;;;x
+FRIENDS101;Making friends is so easy!;;;;;;;;;;;;;x
+EDC_NO_GREED;Although not exactly charitable, [FromFrom.GetTitledFirstName] is no longer selfish.;;;;;;;;;;;;;x
+EDC_NO_GREEDA;Sharing is caring I suppose.;;;;;;;;;;;;;x
+EDC_NO_CHARITY;"I am no charity case", [FromFrom.GetTitledFirstName] says...;;;;;;;;;;;;;x
+EDC_NO_CHARITYA;No harm done.... I think.;;;;;;;;;;;;;x
+EDC_I_QUICK;I see now, you cannot be a good ruler if you give everything away.;;;;;;;;;;;;;x
+EDC_I_QUICKA;I am smarter than I thought!;;;;;;;;;;;;;x
+EDC_U_QUICK;One is left with nothing if everything has left.;;;;;;;;;;;;;x
+EDC_U_QUICKA;[FromFrom.GetTitledFirstName] is quite smart, I think.;;;;;;;;;;;;;x
+EDC_TODAY;To...to...today junior!;;;;;;;;;;;;;x
+GIVE_COURAGE;I will show you courage!;;;;;;;;;;;;;x
+
+ADVENTURE101;Time to go on an adventure instead!;;;;;;;;;;;;;x
+SHOW_DILIGENCE;I will show you how to be diligent.;;;;;;;;;;;;;x
+LOOK_ENVIOUS;Point to a child who is clearly smarter.;;;;;;;;;;;;;x
+RIGHT_THING;Because it is the right thing to do!;;;;;;;;;;;;;x
+TAKE_SHORTCUTS;Teach [From.GetHerHim] how to take shortcuts!;;;;;;;;;;;;;x
+GENIUS_KID;You already know how to do these, don't you?;;;;;;;;;;;;;x
+EDC_I_SMART;This is too easy... I want to be challenged.;;;;;;;;;;;;;x
+EDC_I_SMARTA;Maybe there will be challenges in adulthood.;;;;;;;;;;;;;x
+EDC_U_SMART;[FromFrom.GetTitledFirstName] seem to know answer to everything.;;;;;;;;;;;;;x
+EDC_U_SMARTA;[FromFrom.GetTitledFirstName] is so gifted!;;;;;;;;;;;;;x
+EDC_SLOTH;You went back that night to make [FromFrom.GetTitledFirstName] finish [FromFrom.GetHerHis] homework.;;;;;;;;;;;;;x
+EDC_SLOTHA;Oh... You are studying?;;;;;;;;;;;;;x
+
+EDC_AMB_KID;One day, I will have it ALL!;;;;;;;;;;;;;x
+EDC_KIND_KID;Hello to you, too!;;;;;;;;;;;;;x
+EDC_ENVY;[FromFrom.GetTitledFirstName] has become an individual - no longer envious of others.;;;;;;;;;;;;;x
+EDC_ENVYA;I envy [FromFrom.GetHerHim].;;;;;;;;;;;;;x
+BE_PROUD;You have what these kids do not have, class.;;;;;;;;;;;;;x
+CRUEL_IS_GOOD;There are things that cannot be solved with kindness.;;;;;;;;;;;;;x
+TRUST_EVERYONE;Yes all people are good, trust everyone.;;;;;;;;;;;;;x
+DESERVE_JUSTICE;They will get what they deserve, no more and no less.;;;;;;;;;;;;;x
+
+EDC_NO_WROTH;[FromFrom.GetTitledFirstName] likes playing with other kids rather than fighting them.;;;;;;;;;;;;;x
+EDC_NO_WROTHA;Do not let the dark side consume you.;;;;;;;;;;;;;x
+EDC_HURT;You could get hurt from fighting.;;;;;;;;;;;;;x
+EDC_POKE;Poke [From.GetHerHim] until [From.GetSheHe] breaks.;;;;;;;;;;;;;x
+EDC_NO_PAT;[FromFrom.GetTitledFirstName] is a patient no more.;;;;;;;;;;;;;x
+EDC_NO_PATA;No more waiting. The right time is now!;;;;;;;;;;;;;x
+
+EDC_NOTHING_MORE;I am content.;;;;;;;;;;;;;x
+EDC_SHARE;Maybe I should share my fortune with other children.;;;;;;;;;;;;;x
+EDC_NO_PROUD;[FromFrom.GetTitledFirstName] seems less like a snob!;;;;;;;;;;;;;x
+EDC_NO_PROUDA;A Karling no more!;;;;;;;;;;;;;x
+EDC_NO_PROUDB;Is [FromFrom.GetSheHe] really a Karling?;;;;;;;;;;;;;x
+EDC_KARLING;You are a Karling.;;;;;;;;;;;;;x
+WHAT_ENVY;What about the kids who have more than you?;;;;;;;;;;;;;x
+EDC_ZEAL_HUM;Everything was given to you by [From.Religion.GetRandomGodName].;;;;;;;;;;;;;x
+
+EDC_EVIL_PROUD;Maybe, I am just better than everyone.;;;;;;;;;;;;;x
+
+EDC_ZEAL_WROTH;I will smash them all!;;;;;;;;;;;;;x
+EDC_ZEAL_ENVY;Why do they occupy our ancestral lands?;;;;;;;;;;;;;x
+
+EDC_NOT_NICE;Torturing others brings me pleasure.;;;;;;;;;;;;;x
+
+EDC_HUMBLE_CRAVEN;There are things I cannot yet do.;;;;;;;;;;;;;x
+
+EDC_BRAVE_SHY;Rather this than a fancy dinner party.;;;;;;;;;;;;;x
+
+
+EDC_CONTENT_SHY;That is the way I am.;;;;;;;;;;;;;x
+
+I_LOVE_DINNER_PARTIES;Now how about some food?;;;;;;;;;;;;;x
+I_WILL_WAIT;Now we play the waiting game.;;;;;;;;;;;;;x
+
+GREAT_BEING_KID;It is great being a kid, I get to muck around all day.;;;;;;;;;;;;;x
+
+I_SMASH;I smash things!;;;;;;;;;;;;;x
+
+BRUTAL_HONESTY;Religion is a collection of made up stories.;;;;;;;;;;;;;x
+
+WHY_BORN_THIS_WAY;Why was I born this way?;;;;;;;;;;;;;x
+
+EDC_SAD_CHILD;[From.GetTitledFirstName] seems really upset about something.;;;;;;;;;;;;;x
+EDC_SAD_CHILDA;Give [From.GetTitledFirstName] a warm hug.;;;;;;;;;;;;;x
+EDC_SAD_CHILDB;I think [From.GetTitledFirstName] needs time alone.;;;;;;;;;;;;;x
+
+EDC_HAPPY_CHILD;Out of the blue, my [From.GetTitledFirstName] gave me a hug.;;;;;;;;;;;;;x
+EDC_HAPPY_CHILDA;I see now. I hurt others because they hurt me.;;;;;;;;;;;;;x
+
+EDC_NO_DECEIT;[FromFrom.GetTitledFirstName] may not be always truthful but at least [FromFrom.GetSheHe] is no longer a compulsive liar.;;;;;;;;;;;;;x
+EDC_NO_DECEITA;No more lying!;;;;;;;;;;;;;x
+
+EDC_NO_GOD;It is all made up!;;;;;;;;;;;;;x
+THINK_FOR_YOURSELF;You should draw your own conclusions.;;;;;;;;;;;;;x
+
+EDC_DILIGENT;You went back that night to make [FromFrom.GetTitledFirstName] finish [FromFrom.GetHerHis] homework.;;;;;;;;;;;;;x
+EDC_DILIGENTA;As expected... Sound asleep.;;;;;;;;;;;;;x
+
+EDC_I_DUMB;I do not understand what my [From.GetTitledFirstName] is saying.;;;;;;;;;;;;;x
+EDC_I_DUMBA;I really don't get it.;;;;;;;;;;;;;x
+EDC_U_DUMB;[FromFrom.GetTitledFirstName] seems to be on the slow side.;;;;;;;;;;;;;x
+EDC_U_DUMBA;Not everyone can be helped.;;;;;;;;;;;;;x
+
+EDC_NO_ZEAL;[FromFrom.GetTitledFirstName] enjoys playing with other children from various backgrounds.;;;;;;;;;;;;;x
+EDC_NO_ZEALA;Hate only leads to hate.;;;;;;;;;;;;;x
+
+EDC_HUMB_HONESTY;Truth hurts others.;;;;;;;;;;;;;x
+EDC_REASON;Have a chat with [From.GetHerHim].;;;;;;;;;;;;;x
+
+EDC_GIVEUP;Let [From.GetHerHim] be.;;;;;;;;;;;;;x
+
+EDC_ENVY_GUARD;Aren't you afraid that you are going to make enemies?;;;;;;;;;;;;;x
+
+EDC_AMB_MARTIAL;Work harder, sky is not the limit!;;;;;;;;;;;;;x
+
+EDC_GET2KNOW;Religion is not the enemy, it is the hatred in it.;;;;;;;;;;;;;x
+
+EDC_NO_CRUEL;[FromFrom.GetTitledFirstName] stopped torturing small animals. More importantly, [FromFrom.GetTitledFirstName] seem to get a long better with other children and courtiers.;;;;;;;;;;;;;x
+EDC_NO_CRUELA;Life is no longer cruel.;;;;;;;;;;;;;x
+
+HEY_NO_MORE;Hey! I said, no more!;;;;;;;;;;;;;x
+
+
+
+
+
+
+
+
+
+BRC_NO;Sometimes I feel so alone, I cannot handle it.;;;;;;;;;;;;;x
+BRC_NO_A;I am misguided.;;;;;;;;;;;;;x
+
+BRC_NA;While I was relaxing, I heard children chattering about. Purely out of curiosity, I approach them - not to eavesdrop on their conversation.\nThey are talking about me! How I always act all high and mighty around other noble children.;;;;;;;;;;;;;x
+BRC_NA_A;Oh, they will pay.;;;;;;;;;;;;;x
+BRC_NA_B;Well, the mighty [Root.GetTitledFirstName] has arrived!;;;;;;;;;;;;;x
+
+BRC_UR;I see now, I can get other people to do what I want by tricking them.;;;;;;;;;;;;;x
+BRC_UR_A;Call me "Rogue".;;;;;;;;;;;;;x
+BRC_UR_B;Hey! Hey! Anyone want to plot with me?;;;;;;;;;;;;;x
+
+BRC_CN;With my charm, I talked a noble out of rebelling against their liege.;;;;;;;;;;;;;x
+BRC_CN_A;But I can't talk that girl out of that swing.;;;;;;;;;;;;;x
+
+BRC_GE;Diplomacy is my second nature - I can persuade the toughest nanny to do my bidding, convince a lion to mate with a cat and ....;;;;;;;;;;;;;x
+BRC_GE_A;...sway an Englishman into silence.;;;;;;;;;;;;;x
+BRC_GE_B;...encourage a Frenchman to never surrender.;;;;;;;;;;;;;x
+
+BRC_IW;Today, I set a trap for a snobby noble child who was spreading rumours about my friends.;;;;;;;;;;;;;x
+BRC_IW_A;Do not worry - the hole is only 4 metres deep.;;;;;;;;;;;;;x
+
+BRC_ES;Nobody noticed when I casually walked out of my room last night. I am able to blend into the shadows even in broad day light.;;;;;;;;;;;;;x
+BRC_ES_A;I am the darkness and I am the night.;;;;;;;;;;;;;x
+
+BRC_IWZ;I am going to buy this, buy this and buy this!;;;;;;;;;;;;;x
+BRC_IWZ_A;Wow that is cheap, too!;;;;;;;;;;;;;x
+
+BRC_TC;Okay, I remember what happened last time. I am only going to buy what I need. You know what? I am not even going to buy what I need.;;;;;;;;;;;;;x
+BRC_TC_A;I have all these money saved up!;;;;;;;;;;;;;x
+
+
+BRC_FB;Okay, okay! It was a bad idea to not save up my money by not buying much needed pen and paper. You have to use money to make money.;;;;;;;;;;;;;
+BRC_FB_A;I will be a fortunellionaire in no time!;;;;;;;;;;;;;x
+
+
+BRC_MT;I have built my fortune - 10 ducats and counting - at the tender age of 12. Now I look to the future where I will rule the world with my golden fist;;;;;;;;;;;;;
+BRC_MT_A;Everything I touch will be in awe.;;;;;;;;;;;;;x
+
+
+BRC_TJ;I understand now.\nI am not good at anything.\nI am not bad at everything;;;;;;;;;;;;;
+BRC_TJ_A;I guess I could be a language teacher.;;;;;;;;;;;;;x
+
+
+BRC_DP;I get bored easily whenever I receive lectures about religion.;;;;;;;;;;;;;
+BRC_DP_A;At least, it is more interesting than alchemy.;;;;;;;;;;;;;x
+
+BRC_DC;I can read and write better than most of - so called - nobles of the court.;;;;;;;;;;;;;
+BRC_DC_A;Theology is so boring though!;;;;;;;;;;;;;x
+
+BRC_ST;I try to persuade a courtier to take interest in theology. He seemed very disinterested.\nHow can I blame him? Just few years ago, I acted the exact same way.;;;;;;;;;;;;;
+BRC_ST_A;Theology is my calling.;;;;;;;;;;;;;x
+
+BRC_MTH;Theology is not about any deity. I believe theology is about understanding the development of human social infrastructure and how different religions live in that infrastructure like a living organism. Perhaps one could also view theology as a collection of theories of religion within the context of human history.;;;;;;;;;;;;;
+BRC_MTH_A;I pondered as I waited for my cake.;;;;;;;;;;;;;x
+
+
+BRC_MW;I got beaten up by bunch of kids. They looked like they were lowborn children. I will become stronger.;;;;;;;;;;;;;
+BRC_MW_A;Strength is the key to power.;;;;;;;;;;;;;x
+
+
+BRC_TS;I got into a fight. It was three on one. One kid attack me from the rear, I grabbed him and tossed him in the mud. Second kid came from the side, I kicked him and pushed him into the river. The third one tried to tackle me down, I gave him an one-two punch.;;;;;;;;;;;;;
+BRC_TS_A;Those two year olds did not stand a chance.;;;;;;;;;;;;;x
+
+
+BRC_STC;I got into a fight again but this time I had company - my right-hand man, code name Lion and my left-hand henchman, code name Wolf. I ordered Lion to cut off the enemies and instructed Wolf to chase the runaways. My foes did not stand a chance.;;;;;;;;;;;;;
+BRC_STC_A;Not one shall leave.;;;;;;;;;;;;;x
+
+
+BRC_BS;I got tired of fighting toddlers, I need a real challenge. I gathered around thirty children from [Root.Location.GetName] to conquer a nearby province. We had two cities under our control but then it was dinner time so we went back home.;;;;;;;;;;;;;
+BRC_BS_A;Yum!;;;;;;;;;;;;;x
+
+BRC_NF;I defeated a soldier with a short blade. The training was finally paying off. I could glide through the air like a blade. I no longer need a shield to shield me.;;;;;;;;;;;;;
+BRC_NF_A;I am becoming a warrior.;;;;;;;;;;;;;x
+
+BRC_IWR;Any weapon in my hand becomes an extension of me. I do not need an armour because my wit protects me. My place is on the battlefield - that is where I am immortal.;;;;;;;;;;;;;
+BRC_IWR_A;I am the warrior.;;;;;;;;;;;;;x
+
+
+BECOMES_NA;[From.GetTitledFirstName] became a Naive Appeaser.;;;;;;;;;;;;;x
+BECOMES_NA_A;OK;;;;;;;;;;;;;x
+
+BECOMES_UR;[From.GetTitledFirstName] became an Underhanded Rogue.;;;;;;;;;;;;;x
+BECOMES_UR_A;OK;;;;;;;;;;;;;x
+
+BECOMES_CN;[From.GetTitledFirstName] became a Charismatic Negotiator.;;;;;;;;;;;;;x
+BECOMES_CN_A;GREAT;;;;;;;;;;;;;x
+
+BECOMES_GE;[From.GetTitledFirstName] became a Grey Eminence.;;;;;;;;;;;;;x
+BECOMES_GE_A;EXCELLENT;;;;;;;;;;;;;x
+
+
+BECOMES_AP;[From.GetTitledFirstName] became an Amateurish Plotter.;;;;;;;;;;;;;x
+BECOMES_AP_A;OK;;;;;;;;;;;;;x
+
+BECOMES_FS;[From.GetTitledFirstName] became a Flamboyant Schemer.;;;;;;;;;;;;;x
+BECOMES_FS_A;OK;;;;;;;;;;;;;x
+
+BECOMES_IW;[From.GetTitledFirstName] became an Intricate Webweaver.;;;;;;;;;;;;;x
+BECOMES_IW_A;GREAT;;;;;;;;;;;;;x
+
+BECOMES_ES;[From.GetTitledFirstName] became an Elusive Shadow.;;;;;;;;;;;;;x
+BECOMES_ES_A;EXCELLENT;;;;;;;;;;;;;x
+
+BECOMES_IWZ;[From.GetTitledFirstName] became an Indulgent Wastrel.;;;;;;;;;;;;;x
+BECOMES_IWZ_A;OK;;;;;;;;;;;;;x
+
+BECOMES_TC;[From.GetTitledFirstName] became a Thrifty Clerk.;;;;;;;;;;;;;x
+BECOMES_TC_A;OK;;;;;;;;;;;;;x
+
+BECOMES_FB;[From.GetTitledFirstName] became a Fortune Builder.;;;;;;;;;;;;;x
+BECOMES_FB_A;GREAT;;;;;;;;;;;;;x
+
+BECOMES_MT;[From.GetTitledFirstName] became a Midas Touched.;;;;;;;;;;;;;x
+BECOMES_MT_A;EXCELLENT;;;;;;;;;;;;;x
+
+BECOMES_TJ;[From.GetTitledFirstName] became a Mediocre Jack.;;;;;;;;;;;;;x
+BECOMES_TJ_A;GREAT;;;;;;;;;;;;;x
+
+
+BECOMES_DP;[From.GetTitledFirstName] became a Detached Priest.;;;;;;;;;;;;;x
+BECOMES_DP_A;OK;;;;;;;;;;;;;x
+
+BECOMES_DC;[From.GetTitledFirstName] became a Dutiful Cleric.;;;;;;;;;;;;;x
+BECOMES_DC_A;OK;;;;;;;;;;;;;x
+
+BECOMES_ST;[From.GetTitledFirstName] became a Scholarly Theologian.;;;;;;;;;;;;;x
+BECOMES_ST_A;GREAT;;;;;;;;;;;;;x
+
+BECOMES_MTH;[From.GetTitledFirstName] became a Master Theologian.;;;;;;;;;;;;;x
+BECOMES_MTH_A;EXCELLENT;;;;;;;;;;;;;x
+
+
+BECOMES_MW;[From.GetTitledFirstName] became a Misguided Warrior.;;;;;;;;;;;;;x
+BECOMES_MW_A;OK;;;;;;;;;;;;;x
+
+BECOMES_TS;[From.GetTitledFirstName] became a Tough Soldier.;;;;;;;;;;;;;x
+BECOMES_TS_A;OK;;;;;;;;;;;;;x
+
+BECOMES_STC;[From.GetTitledFirstName] became a Skilled Tactician.;;;;;;;;;;;;;x
+BECOMES_STC_A;GREAT;;;;;;;;;;;;;x
+
+BECOMES_BS;[From.GetTitledFirstName] became a Brilliant Strategist.;;;;;;;;;;;;;x
+BECOMES_BS_A;EXCELLENT;;;;;;;;;;;;;x
+
+
+BECOMES_NF;[From.GetTitledFirstName] became a Nimble Fighter.;;;;;;;;;;;;;x
+BECOMES_NF_A;GREAT;;;;;;;;;;;;;x
+
+BECOMES_IWR;[From.GetTitledFirstName] became a Immortal Warlord.;;;;;;;;;;;;;x
+BECOMES_IWR_A;EXCELLENT;;;;;;;;;;;;;x
+
+
+
+BRC_ADULTHOOD;[From.GetTitledFirstName] is now of legal age.;;;;;;;;;;;;;x

@@ -1,0 +1,194 @@
+targetted_decisions = {
+	capture_trespassing_commander = {
+		is_high_prio = yes
+		filter = all
+		ai_target_filter = all
+		from_potential = {
+			OR = {
+				is_ruler = yes
+				is_patrician = yes
+			}
+			independent = yes
+			intrigue = 5
+			NOT = {
+				pays_tribute_to = ROOT
+			}
+		}
+		potential = {
+			in_command = yes
+			location = {
+				OR = {
+				 	owner = { character = FROM }
+				 	owner = {same_realm = FROM}
+				}
+			}
+			NOR = {
+				war_with = FROM
+				is_allied_with = FROM
+				pays_tribute_to = FROM
+				same_realm = FROM
+				is_liege_or_above = FROM
+				is_vassal_or_below = FROM
+			}
+			NOT = {
+				has_opinion_modifier = {
+				who = FROM
+				modifier = opinion_attempted_capture
+				}
+			}
+		}
+
+		allow = {
+			FROM = { has_regent = no }
+		}
+
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						intrigue = 5
+						NOT = {intrigue = 10}
+					}
+				}
+				random_list = {
+					30 = {
+						ROOT = {imprison = FROM}
+						ROOT = { character_event = { id = HPR.2 } }
+						FROM = { character_event = { id = HPR.4 } }
+					}
+					70 = {
+						ROOT = {
+							opinion = {
+								modifier = opinion_attempted_capture
+								who = FROM
+								months = 120
+							}
+						}
+						ROOT = { character_event = { id = HPR.1 } }
+						FROM = { character_event = { id = HPR.3 } }
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						intrigue = 10
+						NOT = {intrigue = 15}
+					}
+				}
+				random_list = {
+					50 = {
+						ROOT = {imprison = FROM}
+						FROM = { character_event = { id = HPR.2 } }
+						FROM = { character_event = { id = HPR.4 } }
+					}
+					50 = {
+						ROOT = {
+							opinion = {
+								modifier = opinion_attempted_capture
+								who = FROM
+								months = 120
+							}
+						}
+						FROM = { character_event = { id = HPR.1 } }
+						FROM = { character_event = { id = HPR.3 } }
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						intrigue = 15
+						NOT = {intrigue = 20}
+					}
+				}
+				random_list = {
+					70 = {
+						ROOT = {imprison = FROM}
+						FROM = { character_event = { id = HPR.2 } }
+						FROM = { character_event = { id = HPR.4 } }
+					}
+					30 = {
+						ROOT = {
+							opinion = {
+								modifier = opinion_attempted_capture
+								who = FROM
+								months = 120
+							}
+						}
+						FROM = { character_event = { id = HPR.1 } }
+						FROM = { character_event = { id = HPR.3 } }
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						intrigue = 20
+					}
+				}
+				random_list = {
+					90 = {
+						ROOT = {imprison = FROM}
+						FROM = { character_event = { id = HPR.2 } }
+						FROM = { character_event = { id = HPR.4 } }
+					}
+					10 = {
+						ROOT = {
+							opinion = {
+								modifier = opinion_attempted_capture
+								who = FROM
+								months = 120
+							}
+						}
+						FROM = { character_event = { id = HPR.1 } }
+						FROM = { character_event = { id = HPR.3 } }
+					}
+				}
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 2
+				intrigue = 10
+			}
+			modifier = {
+				factor = 2
+				intrigue = 15
+			}
+			modifier = {
+				factor = 2
+				intrigue = 20
+			}
+			modifier = {
+				factor = 5
+				NOT = {opinion = { who = ROOT value = 0 } }
+			}
+			modifier = {
+				factor = 20
+				is_foe = ROOT
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = deceitful
+					trait = greedy
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = honest
+					trait = charitable
+				}
+			}
+		}
+	}
+}

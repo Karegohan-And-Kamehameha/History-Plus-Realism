@@ -1,0 +1,3 @@
+opinion_attempted_capture = {
+	opinion = -50
+}

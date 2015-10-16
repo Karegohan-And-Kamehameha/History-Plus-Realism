@@ -1,0 +1,3833 @@
+namespace = BRC
+character_event = {
+	id = BRC.100
+	desc = BRC_NO
+	picture = "GFX_evt_beheading"
+
+	min_age = 7
+	max_age = 15
+
+	hide_window = yes
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	trigger = {
+		has_guardian = no
+		is_landed = no
+		liege = {
+			ai = yes
+		}
+
+		liege = {
+			any_courtier = {
+				NOT = {
+					any_ward = {
+						age = 6
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		liege = {
+			random_courtier = {
+				limit = {
+					NOT = {
+						any_ward = {
+							age = 6
+						}
+					}
+				}
+				ROOT = {
+					set_guardian = PREV
+				}
+			}
+		}
+	}
+
+	option = {
+		name = OK
+	}
+
+}
+
+
+
+
+character_event = {
+	id = BRC.800
+	desc = BRC_NO
+	picture = "GFX_evt_beheading"
+
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		liege = {
+			if = {
+				limit = {
+					dynasty = ROOT
+					NOT = {character = ROOT}
+					NOT = {is_father = ROOT}
+					NOT = {is_mother = ROOT}
+				}
+				character_event = {
+					id = BRC.850
+					days = 3
+				}
+			}
+		}
+
+		father = {
+			character_event = {
+				id = BRC.850
+				days = 3
+			}
+		}
+
+		mother = {
+			character_event = {
+				id = BRC.850
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = OK
+	}
+
+}
+
+
+character_event = {
+	id = BRC.5100
+
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		has_guardian = yes
+		guardian = {
+			is_abroad = no
+			is_republic = yes
+		}
+	}
+	immediate = {
+		set_character_flag = ctkd
+	}
+}
+
+character_event = {
+	id = BRC.5200
+
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		has_guardian = yes
+		guardian = {
+			is_abroad = no
+			is_theocracy = yes
+		}
+	}
+	immediate = {
+		set_character_flag = tplk
+	}
+}
+
+
+character_event = {
+	id = BRC.5001
+
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		has_character_flag = ctkd
+	}
+	immediate = {
+		add_trait = grew_up_city
+		clr_character_flag = tplk
+		clr_character_flag = ctkd
+	}
+}
+
+
+character_event = {
+	id = BRC.5002
+
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		has_character_flag = tplk
+	}
+	immediate = {
+		add_trait = grew_up_temple
+		clr_character_flag = tplk
+		clr_character_flag = ctkd
+	}
+}
+
+
+character_event = {
+	id = BRC.850
+	desc = BRC_ADULTHOOD
+	picture = "GFX_evt_guardian"
+
+	is_triggered_only = yes
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		if = {
+			limit = {
+				FROM = {trait = naive_appeaser}
+			}
+			tooltip = {
+				FROM = {add_trait = naive_appeaser}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = underhanded_rogue}
+			}
+			tooltip = {
+				FROM = {add_trait = underhanded_rogue}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = charismatic_negotiator}
+			}
+			tooltip = {
+				FROM = {add_trait = charismatic_negotiator}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = grey_eminence}
+			}
+			tooltip = {
+				FROM = {add_trait = grey_eminence}
+			}
+		}
+
+		if = {
+			limit = {
+				FROM = {trait = amateurish_plotter}
+			}
+			tooltip = {
+				FROM = {add_trait = amateurish_plotter}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = flamboyant_schemer}
+			}
+			tooltip = {
+				FROM = {add_trait = flamboyant_schemer}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = intricate_webweaver}
+			}
+			tooltip = {
+				FROM = {add_trait = intricate_webweaver}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = elusive_shadow}
+			}
+			tooltip = {
+				FROM = {add_trait = elusive_shadow}
+			}
+		}
+
+
+		if = {
+			limit = {
+				FROM = {trait = indulgent_wastrel}
+			}
+			tooltip = {
+				FROM = {add_trait = indulgent_wastrel}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = thrifty_clerk}
+			}
+			tooltip = {
+				FROM = {add_trait = thrifty_clerk}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = fortune_builder}
+			}
+			tooltip = {
+				FROM = {add_trait = fortune_builder}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = midas_touched}
+			}
+			tooltip = {
+				FROM = {add_trait = midas_touched}
+			}
+		}
+
+
+		if = {
+			limit = {
+				FROM = {trait = misguided_warrior}
+			}
+			tooltip = {
+				FROM = {add_trait = misguided_warrior}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = tough_soldier}
+			}
+			tooltip = {
+				FROM = {add_trait = tough_soldier}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = skilled_tactician}
+			}
+			tooltip = {
+				FROM = {add_trait = skilled_tactician}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = brilliant_strategist}
+			}
+			tooltip = {
+				FROM = {add_trait = brilliant_strategist}
+			}
+		}
+
+		if = {
+			limit = {
+				FROM = {trait = detached_priest}
+			}
+			tooltip = {
+				FROM = {add_trait = detached_priest}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = martial_cleric}
+			}
+			tooltip = {
+				FROM = {add_trait = martial_cleric}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = scholarly_theologian}
+			}
+			tooltip = {
+				FROM = {add_trait = scholarly_theologian}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = mastermind_theologian}
+			}
+			tooltip = {
+				FROM = {add_trait = mastermind_theologian}
+			}
+		}
+
+		if = {
+			limit = {
+				FROM = {trait = nimble_fighter}
+			}
+			tooltip = {
+				FROM = {add_trait = nimble_fighter}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = immortal_warlord}
+			}
+			tooltip = {
+				FROM = {add_trait = immortal_warlord}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {trait = jack_of_all_trades}
+			}
+			tooltip = {
+				FROM = {add_trait = jack_of_all_trades}
+			}
+		}
+
+		name = OK
+	}
+
+}
+
+
+
+
+
+character_event = {
+	id = BRC.200
+	#desc = WPN200
+	#picture = "GFX_evt_large_army"
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {has_global_flag = education_enabled}
+		religion = miaphysite
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	immediate = {
+		set_global_flag = education_enabled
+
+		any_independent_ruler = {
+			any_realm_character = {
+				limit = {
+					is_adult = no
+					age = 6
+					NOT = {has_character_modifier = gedu}
+					OR = {
+						character = 6448
+						character = 6442
+					}
+
+				}
+				if = {
+					limit = {
+						character = 6442
+					}
+
+					change_martial = 3
+					add_trait = tough_soldier
+					add_trait = kind
+					add_trait = brave
+					add_trait = just
+					set_character_flag = h_cmd
+					if = {
+						limit = {
+							NOT = {has_character_flag = wpn}
+						}
+						set_character_flag = wpn
+					}
+					add_character_modifier = {
+						name = gedu
+						days = 3650
+						hidden = yes
+					}
+				}
+				if = {
+					limit = {
+						character = 6448
+					}
+					add_trait = brilliant_strategist
+
+					set_character_flag = h_cmd
+
+					change_martial = 5
+					change_diplomacy = 5
+
+
+					if = {
+						limit = {
+							NOT = {has_character_flag = wpn}
+						}
+						set_character_flag = wpn
+					}
+					add_character_modifier = {
+						name = gedu
+						days = 3650
+						hidden = yes
+					}
+				}
+			}
+			any_realm_character = {
+				limit = {
+					is_adult = no
+					age = 6
+					NOT = {has_character_modifier = gedu}
+				}
+				add_character_modifier = {
+					name = gedu
+					days = 3650
+					hidden = yes
+				}
+				random_list = {
+					10 = {
+						modifier = {
+							is_female = yes
+							factor = 0.5
+						}
+						add_trait = misguided_warrior
+					}
+					20 = {
+						modifier = {
+							is_female = yes
+							factor = 0.5
+						}
+						modifier = {
+							NOT = {age = 9}
+							factor = 0
+						}
+						add_trait = tough_soldier
+					}
+					10 = {
+						modifier = {
+							is_female = yes
+							factor = 0.5
+						}
+						modifier = {
+							NOT = {age = 11}
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0.5
+						}
+						add_trait = skilled_tactician
+					}
+					5 = {
+						modifier = {
+							is_female = yes
+							factor = 0.5
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0
+						}
+						add_trait = brilliant_strategist
+					}
+					5 = {
+						add_trait = detached_priest
+					}
+					10 = {
+						modifier = {
+							is_female = no
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 9}
+							factor = 0
+						}
+						add_trait = martial_cleric
+					}
+					5 = {
+						modifier = {
+							is_female = no
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 11}
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0.5
+						}
+						add_trait = scholarly_theologian
+					}
+					3 = {
+						modifier = {
+							is_female = no
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0
+						}
+						add_trait = mastermind_theologian
+					}
+					5 = {
+						modifier = {
+							is_female = yes
+							factor = 2
+						}
+						add_trait = amateurish_plotter
+					}
+					10 = {
+						modifier = {
+							is_female = yes
+							factor = 2
+						}
+						modifier = {
+							NOT = {age = 9}
+							factor = 0
+						}
+						add_trait = flamboyant_schemer
+					}
+					5 = {
+						modifier = {
+							is_female = yes
+							factor = 2
+						}
+						modifier = {
+							NOT = {age = 11}
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0.5
+						}
+						add_trait = intricate_webweaver
+					}
+					3 = {
+						modifier = {
+							is_female = yes
+							factor = 2
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0
+						}
+						add_trait = elusive_shadow
+					}
+					10 = {
+
+						add_trait = indulgent_wastrel
+					}
+					20 = {
+						modifier = {
+							NOT = {age = 9}
+							factor = 0
+						}
+
+						add_trait = thrifty_clerk
+					}
+					10 = {
+						modifier = {
+							NOT = {age = 11}
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0.5
+						}
+						add_trait = fortune_builder
+					}
+					5 = {
+						modifier = {
+							NOT = {age = 13}
+							factor = 0
+						}
+						add_trait = midas_touched
+					}
+					10 = {
+						add_trait = naive_appeaser
+					}
+					20 = {
+						modifier = {
+							NOT = {age = 9}
+							factor = 0
+						}
+						add_trait = underhanded_rogue
+					}
+					10 = {
+						modifier = {
+							NOT = {age = 11}
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0.5
+						}
+						add_trait = charismatic_negotiator
+					}
+					5 = {
+						modifier = {
+							NOT = {age = 13}
+							factor = 0
+						}
+						add_trait = grey_eminence
+					}
+					5 = {
+						modifier = {
+							NOT = {age = 11}
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0.5
+						}
+						add_trait = jack_of_all_trades
+					}
+					10 = {
+						modifier = {
+							NOT = {age = 11}
+							factor = 0
+						}
+						modifier = {
+							NOT = {age = 13}
+							factor = 0.5
+						}
+						add_trait = nimble_fighter
+					}
+					5 = {
+						modifier = {
+							NOT = {age = 13}
+							factor = 0
+						}
+						add_trait = immortal_warlord
+					}
+				}
+
+
+
+			}
+		}
+
+	}
+
+	option = {
+
+
+	}
+
+}
+
+
+
+character_event = {
+	id = BRC.900
+	desc = BRC_NO
+	picture = "GFX_evt_beheading"
+
+	#is_triggered_only = yes
+
+	min_age = 15
+	max_age = 15
+
+
+	trigger = {
+		NOT = {
+			has_character_modifier = gedu
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = gedu
+			days = 1095
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "BRC_NO_A"
+		random_list = {
+			10 = {
+				add_trait = naive_appeaser
+			}
+			10 = {
+				add_trait = misguided_warrior
+			}
+			10 = {
+				add_trait = indulgent_wastrel
+			}
+			10 = {
+				add_trait = amateurish_plotter
+			}
+			10 = {
+				add_trait = detached_priest
+			}
+		}
+	}
+
+}
+
+
+
+
+
+character_event = { #0-NA 1000
+	id = BRC.1000
+	desc = BRC_NA
+	picture = "GFX_evt_child_talking"
+
+
+	capable_only = yes
+	min_age = 6
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		NOT = {
+			has_character_modifier = gedu
+		}
+		guardian = {
+			OR = {
+				trait = jack_of_all_trades
+				trait = grey_eminence
+				trait = charismatic_negotiator
+				trait = underhanded_rogue
+				trait = naive_appeaser
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 8.0
+			guardian = { NOT = {diplomacy = 5}}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 12}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { diplomacy = 15}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { diplomacy = 20}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { diplomacy = 25}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { diplomacy = 30}
+		}
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = gedu
+			days = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "BRC_NA_B"
+		add_trait = naive_appeaser
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2000
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3000
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3000
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3000
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+character_event = { #0-AP 1100
+	id = BRC.1100
+	desc = BRC_NA
+	picture = "GFX_evt_child_bully"
+
+	capable_only = yes
+
+	min_age = 6
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		NOT = {
+			has_character_modifier = gedu
+		}
+		guardian = {
+			OR = {
+				trait = jack_of_all_trades
+				trait = amateurish_plotter
+				trait = flamboyant_schemer
+				trait = intricate_webweaver
+				trait = elusive_shadow
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 8.0
+			guardian = { NOT = {intrigue = 5}}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 12}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { intrigue = 15}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { intrigue = 20}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { intrigue = 25}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { intrigue = 30}
+		}
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = gedu
+			days = 3650
+			hidden = yes
+		}
+	}
+
+
+
+	option = {
+		name = "BRC_NA_A"
+		add_trait = amateurish_plotter
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2100
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3100
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3100
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3100
+					days = 3
+				}
+			}
+		}
+	}
+
+
+}
+
+character_event = { #NAorAP-UR 1001
+	id = BRC.1001
+	desc = BRC_UR
+	picture = "GFX_evt_child_talking"
+
+	capable_only = yes
+
+	min_age = 8
+	max_age = 15
+
+	trigger = {
+		OR = {
+			trait = naive_appeaser
+			trait = amateurish_plotter
+		}
+		has_guardian = yes
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_UR_A"
+		if = {
+			limit = {trait = naive_appeaser}
+			remove_trait = naive_appeaser
+		}
+		if = {
+			limit = {trait = amateurish_plotter}
+			remove_trait = amateurish_plotter
+		}
+		add_trait = underhanded_rogue
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2001
+					days = 3
+				}
+			}
+
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3001
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3001
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3001
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+character_event = { #AP-FS 1101
+	id = BRC.1101
+	desc = BRC_UR
+	picture = "GFX_evt_child_bully"
+
+	capable_only = yes
+
+	min_age = 8
+	max_age = 15
+
+	trigger = {
+		trait = amateurish_plotter
+		has_guardian = yes
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 15}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 20}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 25}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_UR_B"
+		remove_trait = amateurish_plotter
+		add_trait = flamboyant_schemer
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2101
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3101
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3101
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3101
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+
+character_event = { #UR-CN 1002
+	id = BRC.1002
+	desc = BRC_CN
+	picture = "GFX_evt_child_talking"
+
+	capable_only = yes
+
+	min_age = 10
+	max_age = 15
+
+	trigger = {
+		trait = underhanded_rogue
+		has_guardian = yes
+	}
+
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_CN_A"
+
+		remove_trait = underhanded_rogue
+		add_trait = charismatic_negotiator
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2002
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3002
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3002
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3002
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+character_event = { #FS-IW 1102
+	id = BRC.1102
+	desc = BRC_IW
+	picture = "GFX_evt_child_bully"
+
+	capable_only = yes
+
+	min_age = 10
+	max_age = 15
+
+	trigger = {
+		trait = flamboyant_schemer
+		has_guardian = yes
+	}
+
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { intrigue = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { intrigue = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { intrigue = 30}
+		}
+	}
+
+
+
+	option = {
+		name = "BRC_IW_A"
+		remove_trait = flamboyant_schemer
+		add_trait = intricate_webweaver
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2102
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3102
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3102
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3102
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+
+
+character_event = { #CN-GE 1003
+	id = BRC.1003
+	desc = BRC_GE
+	picture = "GFX_evt_child_talking"
+
+	capable_only = yes
+
+	min_age = 13
+	max_age = 15
+
+	trigger = {
+		trait = charismatic_negotiator
+		has_guardian = yes
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { diplomacy = 30}
+		}
+	}
+
+	option = {
+		trigger = {
+			NOT = {culture = english}
+		}
+		ai_chance = {
+			factor = 1
+		}
+		name = "BRC_GE_A"
+
+		remove_trait = charismatic_negotiator
+		add_trait = grey_eminence
+		random = {
+			chance = 1
+			add_trait = honest
+		}
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2003
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3003
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3003
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3003
+					days = 3
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "BRC_GE_B"
+		ai_chance = {
+			factor = 1
+		}
+		trigger = {
+			NOT = {
+				culture = frankish
+				culture = old_frankish
+			}
+		}
+		remove_trait = charismatic_negotiator
+		add_trait = grey_eminence
+		random = {
+			chance = 1
+			add_trait = deceitful
+		} #haha I was bored! -hooni 'thx for reading'
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2003
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3003
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3003
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3003
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+
+character_event = { #IW-ES 1103
+	id = BRC.1103
+	desc = BRC_ES
+	picture = "GFX_evt_child_bully"
+
+	capable_only = yes
+
+	min_age = 13
+	max_age = 15
+
+	trigger = {
+		trait = intricate_webweaver
+		has_guardian = yes
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { intrigue = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { intrigue = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { intrigue = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { intrigue = 30}
+		}
+	}
+
+
+
+	option = {
+		name = "BRC_ES_A"
+		remove_trait = intricate_webweaver
+		add_trait = elusive_shadow
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2103
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3103
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3103
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3103
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+
+
+character_event = {#0-IWZ 1200
+	id = BRC.1200
+	desc = BRC_IWZ
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 6
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		NOT = {
+			has_character_modifier = gedu
+		}
+		guardian = {
+			OR = {
+				trait = jack_of_all_trades
+				trait = indulgent_wastrel
+				trait = thrifty_clerk
+				trait = fortune_builder
+				trait = midas_touched
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 8.0
+			guardian = { NOT = { stewardship = 5}}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 12}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { stewardship = 15}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { stewardship = 20}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { stewardship = 25}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { stewardship = 30}
+		}
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = gedu
+			days = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "BRC_IWZ_A"
+		add_trait = indulgent_wastrel
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2200
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3200
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3200
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3200
+					days = 3
+				}
+			}
+		}
+	}
+
+
+}
+
+
+character_event = {#IWZ or DP -TC 1201
+	id = BRC.1201
+	desc = BRC_TC
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 8
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		OR = {
+			trait = indulgent_wastrel
+			trait = detached_priest
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_TC_A"
+		if = {
+			limit = {
+				trait = indulgent_wastrel
+			}
+			remove_trait = indulgent_wastrel
+		}
+		if = {
+			limit = {
+				trait = detached_priest
+			}
+			remove_trait = detached_priest
+		}
+		add_trait = thrifty_clerk
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2201
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3201
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3201
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3201
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+
+character_event = {#TC - FB 1202
+	id = BRC.1202
+	desc = BRC_FB
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 10
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+
+		trait = thrifty_clerk
+
+	}
+
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_FB_A"
+
+		remove_trait = thrifty_clerk
+
+
+		add_trait = fortune_builder
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2202
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3202
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3202
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3202
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+character_event = {#FB-MT 1203
+	id = BRC.1203
+	desc = BRC_MT
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 13
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		trait = fortune_builder
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 8}
+		}
+
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { stewardship = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { stewardship = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_MT_A"
+		remove_trait = fortune_builder
+		add_trait = midas_touched
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2203
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3203
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3203
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3203
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+
+character_event = {#TC or UR-TJ 1212
+	id = BRC.1212
+	desc = BRC_TJ
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 10
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		OR = {
+			trait = thrifty_clerk
+			trait = underhanded_rogue
+		}
+		guardian = {
+			diplomacy = 8
+			stewardship = 8
+		}
+
+		NOT = {
+			guardian = {
+				diplomacy = 15
+				stewardship = 15
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			guardian = { diplomacy = 12}
+			guardian = { stewardship = 12}
+		}
+	}
+
+	option = {
+		name = "BRC_TJ_A"
+		if = {
+			limit = {
+				trait = underhanded_rogue
+			}
+			remove_trait = underhanded_rogue
+		}
+		if = {
+			limit = {
+				trait = thrifty_clerk
+			}
+			remove_trait = thrifty_clerk
+		}
+		add_trait = jack_of_all_trades
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2212
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3212
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3212
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3212
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+character_event = {#0-DP 1300
+	id = BRC.1300
+	desc = BRC_DP
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 6
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		NOT = {
+			has_character_modifier = gedu
+		}
+		guardian = {
+			OR = {
+				trait = jack_of_all_trades
+				is_priest = yes
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 4.0
+			guardian = {
+				is_priest = no
+			}
+		}
+		modifier = {
+			factor = 8.0
+			guardian = { NOT = { learning = 5}}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 12}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { learning = 15}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { learning = 20}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { learning = 25}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { learning = 30}
+		}
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = gedu
+			days = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "BRC_DP_A"
+		add_trait = detached_priest
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2300
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3300
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3300
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3300
+					days = 3
+				}
+			}
+		}
+	}
+
+
+}
+
+
+character_event = {#DP-DC 1301
+	id = BRC.1301
+	desc = BRC_DC
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 8
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		trait = detached_priest
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_DC_A"
+		remove_trait = detached_priest
+		add_trait = martial_cleric
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2301
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3301
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3301
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3301
+					days = 3
+				}
+			}
+		}
+
+	}
+
+}
+
+
+
+
+
+character_event = {#DC-ST 1302
+	id = BRC.1302
+	desc = BRC_ST
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 10
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		trait = martial_cleric
+	}
+
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_ST_A"
+		remove_trait = martial_cleric
+		add_trait = scholarly_theologian
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2302
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3302
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3302
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3302
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+character_event = {#ST-MTH 1303
+	id = BRC.1303
+	desc = BRC_MTH
+	picture = "GFX_evt_child_reading"
+
+	capable_only = yes
+
+	min_age = 13
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		trait = scholarly_theologian
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { learning = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { learning = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_MTH_A"
+		remove_trait = scholarly_theologian
+		add_trait = mastermind_theologian
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2303
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3303
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3303
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3303
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+character_event = {#0-MW 1400
+	id = BRC.1400
+	desc = BRC_MW
+	picture = "GFX_evt_child_sword"
+
+	capable_only = yes
+
+	min_age = 6
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		NOT = {
+			has_character_modifier = gedu
+		}
+		guardian = {
+			OR = {
+				trait = jack_of_all_trades
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
+				trait = misguided_warrior
+				trait = nimble_fighter
+				trait = immortal_warlord
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 4.0
+			guardian = {
+				NOT = {
+					martial = 15
+					trait = tough_soldier
+					trait = skilled_tactician
+					trait = brilliant_strategist
+					trait = misguided_warrior
+					trait = nimble_fighter
+					trait = immortal_warlord
+				}
+			}
+		}
+		modifier = {
+			factor = 8.0
+			guardian = { NOT = { martial = 5}}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 12}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { martial = 15}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { martial = 20}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { martial = 25}
+		}
+		modifier = {
+			factor = 0.25
+			guardian = { martial = 30}
+		}
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = gedu
+			days = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "BRC_MW_A"
+		add_trait = misguided_warrior
+
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2400
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3400
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3400
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3400
+					days = 3
+				}
+			}
+		}
+	}
+
+
+}
+
+
+character_event = {#MW or DP -TS 1401
+	id = BRC.1401
+	desc = BRC_TS
+	picture = "GFX_evt_child_sword"
+
+	capable_only = yes
+
+	min_age = 8
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		OR = {
+			trait = misguided_warrior
+			trait = detached_priest
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_TS_A"
+		if = {
+			limit = {
+				trait = misguided_warrior
+			}
+			remove_trait = misguided_warrior
+		}
+		if = {
+			limit = {
+				trait = detached_priest
+			}
+			remove_trait = detached_priest
+		}
+		add_trait = tough_soldier
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2401
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3401
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3401
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3401
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+
+character_event = {#TS-STC 1402
+	id = BRC.1402
+	desc = BRC_STC
+	picture = "GFX_evt_child_sword"
+
+	capable_only = yes
+
+	min_age = 10
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+
+		trait = tough_soldier
+	}
+
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_STC_A"
+		remove_trait = tough_soldier
+		add_trait = skilled_tactician
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2402
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3402
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3402
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3402
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+character_event = {#STC-BS 1403
+	id = BRC.1403
+	desc = BRC_BS
+	picture = "GFX_evt_child_sword"
+
+	capable_only = yes
+
+	min_age = 13
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		trait = skilled_tactician
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 8}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 12}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { martial = 15}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 20}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 25}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { martial = 30}
+		}
+	}
+
+	option = {
+		name = "BRC_BS_A"
+		remove_trait = skilled_tactician
+		add_trait = brilliant_strategist
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2403
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3403
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3403
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3403
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+
+character_event = {#TS-NF 1502
+	id = BRC.1502
+	desc = BRC_NF
+	picture = "GFX_evt_child_sword"
+
+	capable_only = yes
+
+	min_age = 10
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		trait = tough_soldier
+	}
+
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			guardian = { combat_rating = 4}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { combat_rating = 5}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { combat_rating = 6}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { combat_rating = 7}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { combat_rating = 8}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { combat_rating = 9}
+		}
+	}
+
+	option = {
+		name = "BRC_NF_A"
+		remove_trait = tough_soldier
+		add_trait = nimble_fighter
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2502
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3502
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3502
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3502
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+character_event = {#NF-IWR 1502
+	id = BRC.1503
+	desc = BRC_IWR
+	picture = "GFX_evt_child_sword"
+
+	capable_only = yes
+
+	min_age = 13
+	max_age = 15
+
+	trigger = {
+		has_guardian = yes
+		trait = nimble_fighter
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		modifier = {
+			factor = 0.5
+			guardian = { combat_rating = 4}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { combat_rating = 5}
+		}
+		modifier = {
+			factor = 0.5
+			guardian = { combat_rating = 6}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { combat_rating = 7}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { combat_rating = 8}
+		}
+		modifier = {
+			factor = 0.8
+			guardian = { combat_rating = 9}
+		}
+	}
+
+	option = {
+		name = "BRC_IWR_A"
+		remove_trait = nimble_fighter
+		add_trait = immortal_warlord
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = BRC.2503
+					days = 3
+				}
+			}
+			liege = {
+				if = {
+					limit = {
+						dynasty = ROOT
+						NOT = {is_father = ROOT}
+						NOT = {is_mother = ROOT}
+					}
+					character_event = {
+						id = BRC.3503
+						days = 3
+					}
+				}
+			}
+			father = {
+				character_event = {
+					id = BRC.3503
+					days = 3
+				}
+			}
+			mother = {
+				character_event = {
+					id = BRC.3503
+					days = 3
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+character_event = {
+	id = BRC.2000
+	desc = "BECOMES_NA"
+	picture = "GFX_evt_child_talking"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_NA_A"
+		tooltip = {
+			FROM = {add_trait = naive_appeaser}
+		}
+	}
+
+}
+
+character_event = {
+	id = BRC.2001
+	desc = "BECOMES_UR"
+	picture = "GFX_evt_child_talking"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_UR_A"
+		tooltip = {
+			FROM = {add_trait = underhanded_rogue}
+		}
+	}
+
+}
+
+character_event = {
+	id = BRC.2002
+	desc = "BECOMES_CN"
+	picture = "GFX_evt_child_talking"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_CN_A"
+		tooltip = {
+			FROM = {add_trait = charismatic_negotiator}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2003
+	desc = "BECOMES_GE"
+	picture = "GFX_evt_child_talking"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_GE_A"
+		tooltip = {
+			FROM = {add_trait = grey_eminence}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2100
+	desc = "BECOMES_AP"
+	picture = "GFX_evt_child_bully"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_AP_A"
+		tooltip = {
+			FROM = {add_trait = amateurish_plotter}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2101
+	desc = "BECOMES_FS"
+	picture = "GFX_evt_child_bully"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_FS_A"
+		tooltip = {
+			FROM = {add_trait = flamboyant_schemer}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2102
+	desc = "BECOMES_IW"
+	picture = "GFX_evt_child_bully"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_IW_A"
+		tooltip = {
+			FROM = {add_trait = intricate_webweaver}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2103
+	desc = "BECOMES_ES"
+	picture = "GFX_evt_child_bully"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_ES_A"
+		tooltip = {
+			FROM = {add_trait = elusive_shadow}
+		}
+	}
+
+}
+
+###
+
+character_event = {
+	id = BRC.2200
+	desc = "BECOMES_IWZ"
+	picture = "GFX_evt_child_reading"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_IWZ_A"
+		tooltip = {
+			FROM = {add_trait = indulgent_wastrel}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2201
+	desc = "BECOMES_TC"
+	picture = "GFX_evt_child_reading"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_TC_A"
+		tooltip = {
+			FROM = {add_trait = thrifty_clerk}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2202
+	desc = "BECOMES_FB"
+	picture = "GFX_evt_child_reading"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_FB_A"
+		tooltip = {
+			FROM = {add_trait = fortune_builder}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2203
+	desc = "BECOMES_MT"
+	picture = "GFX_evt_child_reading"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_MT_A"
+		tooltip = {
+			FROM = {add_trait = midas_touched}
+		}
+	}
+
+}
+
+character_event = {
+	id = BRC.2212
+	desc = "BECOMES_TJ"
+	picture = "GFX_evt_child_talking"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_TJ_A"
+		tooltip = {
+			FROM = {add_trait = jack_of_all_trades}
+		}
+	}
+
+}
+
+
+
+
+character_event = {
+	id = BRC.2300
+	desc = "BECOMES_DP"
+	picture = "GFX_evt_child_reading"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_DP_A"
+		tooltip = {
+			FROM = {add_trait = detached_priest}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2301
+	desc = "BECOMES_DC"
+	picture = "GFX_evt_child_reading"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_DC_A"
+		tooltip = {
+			FROM = {add_trait = martial_cleric}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2302
+	desc = "BECOMES_ST"
+	picture = "GFX_evt_child_reading"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_ST_A"
+		tooltip = {
+			FROM = {add_trait = scholarly_theologian}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2303
+	desc = "BECOMES_MTH"
+	picture = "GFX_evt_child_reading"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_MTH_A"
+		tooltip = {
+			FROM = {add_trait = mastermind_theologian}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+character_event = {
+	id = BRC.2400
+	desc = "BECOMES_MW"
+	picture = "GFX_evt_child_sword"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_MW_A"
+		tooltip = {
+			FROM = {add_trait = misguided_warrior}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2401
+	desc = "BECOMES_TS"
+	picture = "GFX_evt_child_sword"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_TS_A"
+		tooltip = {
+			FROM = {add_trait = tough_soldier}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2402
+	desc = "BECOMES_STC"
+	picture = "GFX_evt_child_sword"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_STC_A"
+		tooltip = {
+			FROM = {add_trait = skilled_tactician}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2403
+	desc = "BECOMES_BS"
+	picture = "GFX_evt_child_sword"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_BS_A"
+		tooltip = {
+			FROM = {add_trait = brilliant_strategist}
+		}
+	}
+
+}
+
+
+
+character_event = {
+	id = BRC.2502
+	desc = "BECOMES_NF"
+	picture = "GFX_evt_child_sword"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_NF_A"
+		tooltip = {
+			FROM = {add_trait = nimble_fighter}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.2503
+	desc = "BECOMES_IWR"
+	picture = "GFX_evt_child_sword"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_IWR_A"
+		tooltip = {
+			FROM = {add_trait = immortal_warlord}
+		}
+	}
+
+}
+
+
+
+
+
+character_event = {
+	id = BRC.3000
+	desc = "BECOMES_NA"
+	picture = "GFX_evt_child_talking"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_NA_A"
+		tooltip = {
+			FROM = {add_trait = naive_appeaser}
+		}
+	}
+
+}
+
+character_event = {
+	id = BRC.3001
+	desc = "BECOMES_UR"
+	picture = "GFX_evt_child_talking"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_UR_A"
+		tooltip = {
+			FROM = {add_trait = underhanded_rogue}
+		}
+	}
+
+}
+
+character_event = {
+	id = BRC.3002
+	desc = "BECOMES_CN"
+	picture = "GFX_evt_child_talking"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_CN_A"
+		tooltip = {
+			FROM = {add_trait = charismatic_negotiator}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3003
+	desc = "BECOMES_GE"
+	picture = "GFX_evt_child_talking"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_GE_A"
+		tooltip = {
+			FROM = {add_trait = grey_eminence}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3100
+	desc = "BECOMES_AP"
+	picture = "GFX_evt_child_bully"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_AP_A"
+		tooltip = {
+			FROM = {add_trait = amateurish_plotter}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3101
+	desc = "BECOMES_FS"
+	picture = "GFX_evt_child_bully"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_FS_A"
+		tooltip = {
+			FROM = {add_trait = flamboyant_schemer}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3102
+	desc = "BECOMES_IW"
+	picture = "GFX_evt_child_bully"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_IW_A"
+		tooltip = {
+			FROM = {add_trait = intricate_webweaver}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3103
+	desc = "BECOMES_ES"
+	picture = "GFX_evt_child_bully"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_ES_A"
+		tooltip = {
+			FROM = {add_trait = elusive_shadow}
+		}
+	}
+
+}
+
+###
+
+character_event = {
+	id = BRC.3200
+	desc = "BECOMES_IWZ"
+	picture = "GFX_evt_child_reading"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_IWZ_A"
+		tooltip = {
+			FROM = {add_trait = indulgent_wastrel}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3201
+	desc = "BECOMES_TC"
+	picture = "GFX_evt_child_reading"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_TC_A"
+		tooltip = {
+			FROM = {add_trait = thrifty_clerk}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3202
+	desc = "BECOMES_FB"
+	picture = "GFX_evt_child_reading"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_FB_A"
+		tooltip = {
+			FROM = {add_trait = fortune_builder}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3203
+	desc = "BECOMES_MT"
+	picture = "GFX_evt_child_reading"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_MT_A"
+		tooltip = {
+			FROM = {add_trait = midas_touched}
+		}
+	}
+
+}
+
+character_event = {
+	id = BRC.3212
+	desc = "BECOMES_TJ"
+	picture = "GFX_evt_child_talking"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_TJ_A"
+		tooltip = {
+			FROM = {add_trait = jack_of_all_trades}
+		}
+	}
+
+}
+
+
+
+
+character_event = {
+	id = BRC.3300
+	desc = "BECOMES_DP"
+	picture = "GFX_evt_child_reading"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_DP_A"
+		tooltip = {
+			FROM = {add_trait = detached_priest}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3301
+	desc = "BECOMES_DC"
+	picture = "GFX_evt_child_reading"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_DC_A"
+		tooltip = {
+			FROM = {add_trait = martial_cleric}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3302
+	desc = "BECOMES_ST"
+	picture = "GFX_evt_child_reading"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_ST_A"
+		tooltip = {
+			FROM = {add_trait = scholarly_theologian}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3303
+	desc = "BECOMES_MTH"
+	picture = "GFX_evt_child_reading"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_MTH_A"
+		tooltip = {
+			FROM = {add_trait = mastermind_theologian}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+character_event = {
+	id = BRC.3400
+	desc = "BECOMES_MW"
+	picture = "GFX_evt_child_sword"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_MW_A"
+		tooltip = {
+			FROM = {add_trait = misguided_warrior}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3401
+	desc = "BECOMES_TS"
+	picture = "GFX_evt_child_sword"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_TS_A"
+		tooltip = {
+			FROM = {add_trait = tough_soldier}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3402
+	desc = "BECOMES_STC"
+	picture = "GFX_evt_child_sword"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_STC_A"
+		tooltip = {
+			FROM = {add_trait = skilled_tactician}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3403
+	desc = "BECOMES_BS"
+	picture = "GFX_evt_child_sword"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_BS_A"
+		tooltip = {
+			FROM = {add_trait = brilliant_strategist}
+		}
+	}
+
+}
+
+
+
+character_event = {
+	id = BRC.3502
+	desc = "BECOMES_NF"
+	picture = "GFX_evt_child_sword"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_NF_A"
+		tooltip = {
+			FROM = {add_trait = nimble_fighter}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = BRC.3503
+	desc = "BECOMES_IWR"
+	picture = "GFX_evt_child_sword"
+
+	notification = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "BECOMES_IWR_A"
+		tooltip = {
+			FROM = {add_trait = immortal_warlord}
+		}
+	}
+
+}

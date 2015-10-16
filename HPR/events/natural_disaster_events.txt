@@ -344,7 +344,7 @@ province_event = {
 			#kingdom = { title = k_candia }
 			duchy = { title = d_iceland }
 			duchy = { title = d_krete }
-			duchy = { title = d_laayoune }
+			kingdom = { title = k_sahara }
 			county = { title = c_canarias }
 		}
 	}
@@ -367,7 +367,7 @@ province_event = {
 					#kingdom = { title = k_candia }
 					duchy = { title = d_iceland }
 					duchy = { title = d_krete }
-					duchy = { title = d_laayoune }
+					kingdom = { title = k_sahara }
 					county = { title = c_canarias }
 				}
 			}

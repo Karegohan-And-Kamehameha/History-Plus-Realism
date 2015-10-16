@@ -3,3 +3,11 @@ VIETmisc.2511.tooltip;AAAARRRRGGGGHHHHHH;;;;;;;;;;;;;x
 invasion_nc_desc;§Y$CLAIMANT$§! has been granted the right to invade the §Y$TITLE$§!. If successful, the titles to all currently occupied holdings will be seized.;§Y$CLAIMANT$§! a dйsormais le droit d’envahir le §Y$TITLE$§!. En cas de rйussite, les titres de toutes les fiefs actuellement occupйes seront saisis.;§Y$CLAIMANT$§! bekam das Recht zur Invasion fьr den Titel §Y$TITLE$§! gewдhrt. Im Erfolgsfall werden die Titel sдmtlicher derzeit besetzter Besitztьmer konfisziert.;;A §Y$CLAIMANT$§! se le ha concedido el derecho de invadir el §Y$TITLE$§!. Si triunfa se apoderarб de los tнtulos de todas las posesiones actualmente ocupadas.;;;;;;;;;x
 lollard_revoke_temple_short;Revoke Temple;Revoke Temple;Revoke Temple;;Revoke Temple;;;;;;;;x
 swmh_region_gothic;Gothic region;;;;;;;;;;;;;x
+capture_trespassing_commander;Capture trespassing commander;;;;;;;;;;;;;x
+capture_trespassing_commander_short;Capture trespasser;;;;;;;;;;;;;x
+capture_trespassing_commander_desc;Attempt to capture the commander of troops, that are trespassing in our lands.;;;;;;;;;;;;;x
+opinion_attempted_capture;Tried to capture me;;;;;;;;;;;;;x
+HPR2_desc;While marching through foreign lands, I have been captured by their lord and am now their prisoner.;;;;;;;;;;;;;x
+HPR1_desc;The lord of the lands I'm marching through has tried to capture me, but I have successfully escaped their pathetic attempt.;;;;;;;;;;;;;x
+HPR3_desc;The filthy trespasser has eluded our scouts and escaped our attemt to capture them.;;;;;;;;;;;;;x
+HPR4_desc;The filthy trespasser that was marching through our lands has been captured by our scouts and is now in my dungeon.;;;;;;;;;;;;;x

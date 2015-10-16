@@ -1,0 +1,14 @@
+nimble_fighter;Nimble Fighter;;;;;;;;;;;;;x
+nimble_fighter_desc;The Nimble Fighter is a capable and proficient fighter.;;;;;;;;;;;;;x
+
+immortal_warlord;Immortal Warlord;;;;;;;;;;;;;x
+immortal_warlord_desc;The Immortal Warlord is believed to be un-killable on the battlefield.;;;;;;;;;;;;;x
+
+jack_of_all_trades;Simple Jack;;;;;;;;;;;;;x
+jack_of_all_trades_desc;The Simple Jack is jack of all trades and master of none.;;;;;;;;;;;;;x
+
+grew_up_city;Raised in a City;;;;;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+grew_up_city_desc;This character was raised in a city - this character is especially mindful of various monetary situations of many.;;;;;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+grew_up_temple;Raised in a Temple;;;;;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+grew_up_temple_desc;This character was raised in a temple - this character knows the difference between virtues and sins. However, following said virtues still may prove to be difficult.;;;;;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

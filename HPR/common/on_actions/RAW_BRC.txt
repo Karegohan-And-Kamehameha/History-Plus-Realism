@@ -1,0 +1,20 @@
+on_startup = {
+	events = {
+		BRC.200
+	}
+}
+# For characters 2 to 16 years old
+on_yearly_childhood_pulse = {
+	random_events = {
+		# Childhood Personality Events
+		125 = BRC.5100
+		125 = BRC.5200
+	}
+}
+# character
+on_adulthood = {
+	events = {
+		BRC.5001
+		BRC.5002
+	}
+}
