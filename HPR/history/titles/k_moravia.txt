@@ -25,5 +25,5 @@
 907.7.4={
 	holder = 0
 	# Paradox history script bugs -> can't use de_jure_liege = 0
-	de_jure_liege = e_null
+	de_jure_liege = e_placeholder
 }

@@ -18,15 +18,15 @@ character_event = {
 	desc = EVTDESC_WOL_11000
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
 				OR = {
 					NOT = { has_character_modifier = declined_prestige_duel_timer }
-					NOT = { 
+					NOT = {
 						AND = {
 							is_female = no
 							event_target:challenger = { is_female = yes }
@@ -61,7 +61,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11000
 		ai_chance = {
@@ -105,8 +105,8 @@ character_event = {
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		if = {
-			limit = { 
-				FROMFROM = { 
+			limit = {
+				FROMFROM = {
 					has_opinion_modifier = { who = ROOT modifier = grievously_offended }
 				}
 			}
@@ -133,7 +133,7 @@ character_event = {
 		if = {
 			limit = { has_character_flag = punish_declining }
 			if = {
-				limit = { 
+				limit = {
 					NOT = { trait = craven }
 					NOT = { trait = brave }
 				}
@@ -180,7 +180,7 @@ character_event = {
 	desc = EVTDESC_WOL_11001
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	immediate = {
 		if = {
 			limit = { NOT = { has_character_modifier = recent_duel_timer } }
@@ -216,16 +216,16 @@ character_event = {
 			modifier = opinion_fought_duel
 			who = event_target:opponent
 			years = 150
-		}		
-		event_target:opponent = {			
+		}
+		event_target:opponent = {
 			opinion = {
 				modifier = opinion_fought_duel
 				who = ROOT
 				years = 150
-			}			
+			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11001
 		e_rebels = { holder_scope = { character_event = { id = DuelEngine.0 } } }
@@ -239,7 +239,7 @@ character_event = {
 	desc = EVTDESC_WOL_11002
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11002
 	}
@@ -250,7 +250,7 @@ character_event = {
 	id = WoL.11003
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		if = {
 			limit = { NOT = { has_character_modifier = recent_duel_timer } }
@@ -280,8 +280,8 @@ character_event = {
 			modifier = opinion_fought_duel
 			who = event_target:opponent
 			years = 150
-		}		
-		event_target:opponent = {			
+		}
+		event_target:opponent = {
 			opinion = {
 				modifier = opinion_fought_duel
 				who = ROOT
@@ -299,7 +299,7 @@ character_event = {
 	id = WoL.11004
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -319,7 +319,7 @@ character_event = {
 	id = WoL.11005
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 #		log = "WoL.11005: [Root.GetBestName] challenged [From.GetBestName] on a duel"
 		random_list = {
@@ -362,7 +362,7 @@ character_event = {
 						modifier = recent_duel_victory
 						months = 12
 					}
-					long_character_event = { id = WoL.11011 } 
+					long_character_event = { id = WoL.11011 }
 				}
 			}
 			200 = { # challenger win
@@ -433,7 +433,7 @@ character_event = {
 				}
 				### effects
 				random_list = {
-					70 = {						
+					70 = {
 						add_character_modifier = {
 							modifier = recent_duel_victory
 							months = 12
@@ -508,7 +508,7 @@ character_event = {
 								modifier = recent_duel_victory
 								months = 12
 							}
-							long_character_event = { id = WoL.11006  } 
+							long_character_event = { id = WoL.11006  }
 						}
 					}
 					30 = {
@@ -522,7 +522,7 @@ character_event = {
 								months = 12
 							}
 							set_character_flag = duel_maim
-							long_character_event = { id = WoL.11006  } 
+							long_character_event = { id = WoL.11006  }
 						}
 					}
 				}
@@ -538,7 +538,7 @@ long_character_event = {
 	picture = GFX_evt_melee
 	border = GFX_event_long_frame_war
 	title = duel_title
-	
+
 	desc = {
 		text = EVTDESCA_WOL_11006 # Maiming opponent
 		trigger = {
@@ -571,7 +571,7 @@ long_character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11006
 		trigger = {
@@ -600,7 +600,7 @@ long_character_event = {
 					}
 				}
 			}
-		}		
+		}
 		if = {
 			limit = { NOT = { event_target:challenger = { character = ROOT } } }
 			tooltip = {
@@ -623,7 +623,7 @@ long_character_event = {
 		}
 		hidden_tooltip = { character_event = { id = 720 } } # Bring it On achievement check event
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11006
 		trigger = {
@@ -677,7 +677,7 @@ long_character_event = {
 		}
 		hidden_tooltip = { character_event = { id = 720 } } # Bring it On achievement check event
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11006
 		ai_chance = {
@@ -806,7 +806,7 @@ long_character_event = {
 	picture = GFX_evt_melee
 	border = GFX_event_long_frame_war
 	title = duel_title
-	
+
 	desc = {
 		text = EVTDESCA_WOL_11007
 		trigger = {
@@ -819,13 +819,13 @@ long_character_event = {
 		text = EVTDESCB_WOL_11007
 		trigger = {
 			FROM = {
-				NOT = { 
+				NOT = {
 					has_character_flag = duel_maim
 				}
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11007
 
@@ -861,7 +861,7 @@ long_character_event = {
 	picture = GFX_evt_melee
 	border = GFX_event_long_frame_war
 	title = duel_title
-	
+
 	immediate = {
 		if = {
 			limit = { multiplayer = yes }
@@ -871,7 +871,7 @@ long_character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_6303
 		hidden_tooltip = {
@@ -908,7 +908,7 @@ long_character_event = {
 	desc = {
 		text = EVTDESCA_WOL_11009 # Challenger desc
 		trigger = {
-			event_target:challenger = { character = ROOT } 
+			event_target:challenger = { character = ROOT }
 		}
 	}
 	desc = {
@@ -917,7 +917,7 @@ long_character_event = {
 			NOT = { event_target:challenger = { character = ROOT } }
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { multiplayer = yes }
@@ -951,7 +951,7 @@ long_character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_CM_6303
 		if = {
@@ -1038,7 +1038,7 @@ long_character_event = {
 			NOT = { event_target:challenger = { character = ROOT } }
 		}
 	}
-	
+
 	option = {
 		trigger = { event_target:challenger = { character = ROOT } }
 		name = EVTOPTA_WOL_11011
@@ -1085,7 +1085,7 @@ long_character_event = {
 		}
 		hidden_tooltip = { character_event = { id = 720 } } # Bring it On achievement check event
 	}
-	
+
 	option = {
 		trigger = { NOT = { event_target:challenger = { character = ROOT } } }
 		name = EVTOPTA_WOL_11011
@@ -1142,7 +1142,7 @@ long_character_event = {
 	picture = GFX_evt_melee
 	border = GFX_event_long_frame_war
 	title = duel_title
-	
+
 	immediate = {
 		if = {
 			limit = { has_nickname = no }
@@ -1156,7 +1156,7 @@ long_character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11012
 		if = {
@@ -1182,13 +1182,13 @@ character_event = {
 	desc = EVTDESC_WOL_11013
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	trigger = {
 		NOT = {
 			is_rival = FROMFROM
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11013
 		add_rival = FROMFROM
@@ -1198,7 +1198,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11013
 		ai_chance = {
@@ -1214,7 +1214,7 @@ character_event = {
 	desc = EVTDESC_WOL_11014
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11014
 		trigger = {
@@ -1222,7 +1222,7 @@ character_event = {
 		}
 		add_rival = FROM
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11014
 		trigger = {
@@ -1238,11 +1238,11 @@ character_event = {
 character_event = {
 	id = WoL.11100
 	hide_window = yes
-	
+
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_focus = focus_war
 		NOT = { trait = incapable }
@@ -1250,11 +1250,11 @@ character_event = {
 		NOT = { has_character_modifier = do_not_disturb}
 		in_command = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		random_list = {
 			30 = {
@@ -1302,7 +1302,7 @@ character_event = {
 						}
 						has_character_flag = sparring_partner
 					}
-					factor = 0	
+					factor = 0
 				}
 				random_friend = {
 					limit = { has_character_flag = sparring_partner }
@@ -1326,9 +1326,7 @@ character_event = {
 			}
 			30 = {
 				modifier = {
-					OR = { 
-						has_character_modifier = wargame_timer
-					}
+					has_character_modifier = wargame_timer
 					factor = 0
 				}
 				character_event = { id = WoL.11115 }
@@ -1344,7 +1342,7 @@ character_event = {
 	desc = EVTDESC_WOL_11101
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11101
 		custom_tooltip = {
@@ -1368,14 +1366,14 @@ character_event = {
 	desc = EVTDESC_WOL_11102
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11102
 		random_courtier = {
 			limit = {
 				NOT = {
 					OR = {
-						character = ROOT 
+						character = ROOT
 						trait = incapable
 						trait = infirm
 					}
@@ -1401,7 +1399,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11102
 		random = {
@@ -1418,7 +1416,7 @@ character_event = {
 	desc = EVTDESC_WOL_11103
 	picture = GFX_evt_son_asking_father
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11103
 		hidden_tooltip = {
@@ -1452,7 +1450,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11103
 	}
@@ -1465,7 +1463,7 @@ character_event = {
 	desc = EVTDESC_WOL_11104
 	picture = GFX_evt_son_asking_father
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11104
 		random_courtier = {
@@ -1496,7 +1494,7 @@ character_event = {
 	id = WoL.11105
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_list = {
 			30 = { # win
@@ -1536,7 +1534,7 @@ character_event = {
 	desc = EVTDESC_WOL_11107
 	picture = GFX_evt_son_asking_father
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11107
 		prestige = 50
@@ -1551,7 +1549,7 @@ character_event = {
 	id = WoL.11108
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		FROM = {
 			character_event = { id = WoL.11109 }
@@ -1566,7 +1564,7 @@ character_event = {
 	desc = EVTDESC_WOL_11109
 	picture = GFX_evt_son_asking_father
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11109
 		FROM = { prestige = 50 }
@@ -1584,11 +1582,11 @@ character_event = {
 	desc = EVTDESC_WOL_11110
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11110
 		random_realm_character = {
-			limit = { 
+			limit = {
 				ai = yes
 				is_female = no
 				is_adult = yes
@@ -1614,7 +1612,7 @@ character_event = {
 			set_character_flag = sparring_partner
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11110
 	}
@@ -1627,7 +1625,7 @@ character_event = {
 	desc = EVTDESC_WOL_11111
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11111
 		add_character_modifier = {
@@ -1647,14 +1645,14 @@ character_event = {
 	desc = EVTDESC_WOL_11112
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	immediate = {
 		random = {
 			chance = 50
 			set_character_flag = sparring_injured
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11112
 		trigger = { has_character_flag = sparring_injured }
@@ -1664,7 +1662,7 @@ character_event = {
 		}
 		clr_character_flag = sparring_injured
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11112
 		trigger = { NOT = { has_character_flag = sparring_injured } }
@@ -1684,7 +1682,7 @@ character_event = {
 	id = WoL.11113
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		FROM = {
 			character_event = { id = WoL.11111 }
@@ -1697,7 +1695,7 @@ character_event = {
 	id = WoL.11114
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		FROM = {
 			character_event = { id = WoL.11112 }
@@ -1712,9 +1710,9 @@ character_event = {
 	desc = EVTDESC_WOL_11115
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_WOL_11115
 		hidden_tooltip = {
@@ -1837,7 +1835,7 @@ character_event = {
 			event_target:attacker = { clr_character_flag = selected }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11115
 	}
@@ -1848,7 +1846,7 @@ character_event = {
 	id = WoL.11116
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -1870,9 +1868,9 @@ character_event = {
 	desc = EVTDESC_WOL_11117
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_WOL_11117
 		remove_character_modifier = wargame_timer
@@ -1885,9 +1883,9 @@ character_event = {
 	desc = EVTDESC_WOL_11118
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_WOL_11118
 		hidden_tooltip = {
@@ -1908,9 +1906,9 @@ character_event = {
 	desc = EVTDESC_WOL_11120
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_WOL_11120
 		hidden_tooltip = {
@@ -1924,7 +1922,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11120
 		hidden_tooltip = {
@@ -1944,9 +1942,9 @@ character_event = {
 	id = WoL.11121
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_good_advice
@@ -1959,7 +1957,7 @@ character_event = {
 		}
 		text = EVTDESC_WOL_11121_BAD
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = {
@@ -1993,7 +1991,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11121
 		if = {
@@ -2013,7 +2011,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11121
 		if = {
@@ -2033,7 +2031,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11121
 		if = {
@@ -2064,16 +2062,16 @@ character_event = {
 		hidden_tooltip = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
-	}	
+	}
 }
 
 character_event = {
 	id = WoL.11122
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_good_advice
@@ -2086,7 +2084,7 @@ character_event = {
 		}
 		text = EVTDESC_WOL_11122_BAD
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = {
@@ -2120,7 +2118,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11122
 		if = {
@@ -2140,7 +2138,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11122
 		if = {
@@ -2172,7 +2170,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11122
 		if = {
@@ -2198,9 +2196,9 @@ character_event = {
 	id = WoL.11123
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_good_advice
@@ -2213,7 +2211,7 @@ character_event = {
 		}
 		text = EVTDESC_WOL_11123_BAD
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = {
@@ -2247,7 +2245,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11123
 		if = {
@@ -2279,7 +2277,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11123
 		if = {
@@ -2299,7 +2297,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11123
 		if = {
@@ -2325,9 +2323,9 @@ character_event = {
 	id = WoL.11124
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_good_advice
@@ -2340,7 +2338,7 @@ character_event = {
 		}
 		text = EVTDESC_WOL_11124_BAD
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = {
@@ -2374,7 +2372,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11124
 		if = {
@@ -2394,7 +2392,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11124
 		if = {
@@ -2414,7 +2412,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11124
 		if = {
@@ -2453,9 +2451,9 @@ character_event = {
 	desc = EVTDESC_WOL_11130
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_WOL_11130
 		hidden_tooltip = {
@@ -2469,7 +2467,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11130
 		hidden_tooltip = {
@@ -2489,9 +2487,9 @@ character_event = {
 	id = WoL.11131
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_good_advice
@@ -2504,7 +2502,7 @@ character_event = {
 		}
 		text = EVTDESC_WOL_11131_BAD
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = {
@@ -2538,7 +2536,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11131
 		if = {
@@ -2570,7 +2568,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11131
 		if = {
@@ -2590,7 +2588,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11131
 		if = {
@@ -2616,9 +2614,9 @@ character_event = {
 	id = WoL.11132
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_good_advice
@@ -2631,7 +2629,7 @@ character_event = {
 		}
 		text = EVTDESC_WOL_11132_BAD
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = {
@@ -2665,7 +2663,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11132
 		if = {
@@ -2685,7 +2683,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11132
 		if = {
@@ -2717,7 +2715,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11132
 		if = {
@@ -2743,9 +2741,9 @@ character_event = {
 	id = WoL.11133
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_good_advice
@@ -2758,7 +2756,7 @@ character_event = {
 		}
 		text = EVTDESC_WOL_11133_BAD
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = {
@@ -2792,7 +2790,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11133
 		if = {
@@ -2824,7 +2822,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11133
 		if = {
@@ -2844,7 +2842,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11133
 		if = {
@@ -2870,9 +2868,9 @@ character_event = {
 	id = WoL.11134
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_good_advice
@@ -2885,7 +2883,7 @@ character_event = {
 		}
 		text = EVTDESC_WOL_11134_BAD
 	}
-	
+
 	immediate = {
 		random_list = {
 			50 = {
@@ -2919,7 +2917,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11134
 		if = {
@@ -2951,7 +2949,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11134
 		if = {
@@ -2971,7 +2969,7 @@ character_event = {
 			character_event = { id = WoL.11140 days = 3 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_WOL_11134
 		if = {
@@ -2997,100 +2995,100 @@ character_event = {
 	id = WoL.11140
 	picture = GFX_evt_war_planning
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_win1
 		}
 		text = EVTDESC_WOL_11140_WIN1
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_win2
 		}
 		text = EVTDESC_WOL_11140_WIN2
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_win3
 		}
 		text = EVTDESC_WOL_11140_WIN3
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_win4
 		}
 		text = EVTDESC_WOL_11140_WIN4
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_win5
 		}
 		text = EVTDESC_WOL_11140_WIN5
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_loss1
 		}
 		text = EVTDESC_WOL_11140_LOSS1
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_loss2
 		}
 		text = EVTDESC_WOL_11140_LOSS2
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_loss3
 		}
 		text = EVTDESC_WOL_11140_LOSS3
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_loss4
 		}
 		text = EVTDESC_WOL_11140_LOSS4
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_loss5
 		}
 		text = EVTDESC_WOL_11140_LOSS5
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_loss6
 		}
 		text = EVTDESC_WOL_11140_LOSS6
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_loss7
 		}
 		text = EVTDESC_WOL_11140_LOSS7
 	}
-	
+
 	desc = {
 		trigger = {
 			has_character_flag = wargame_loss8
 		}
 		text = EVTDESC_WOL_11140_LOSS8
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11140
 		trigger = {
@@ -3111,7 +3109,7 @@ character_event = {
 			character_event = { id = WoL.11149 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11140
 		trigger = {
@@ -3145,7 +3143,7 @@ character_event = {
 			character_event = { id = WoL.11149 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11140
 		trigger = {
@@ -3164,7 +3162,7 @@ character_event = {
 			character_event = { id = WoL.11149 }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTD_WOL_11140
 		trigger = {
@@ -3190,7 +3188,7 @@ character_event = {
 	id = WoL.11149
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		clr_character_flag = wargame_win1
 		clr_character_flag = wargame_win2
@@ -3215,7 +3213,7 @@ character_event = {
 	id = WoL.11200
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		random_list = {
 			20 = {
@@ -3281,7 +3279,7 @@ character_event = {
 	desc = EVTDESC_WOL_11201 ### Add more culture specific weapon descriptions
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	trigger = {
 		NOT = {
 			OR = {
@@ -3291,7 +3289,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11201
 		if = {
@@ -3326,12 +3324,12 @@ character_event = {
 	desc = EVTDESC_WOL_11202
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	trigger = {
 		has_character_modifier = wol_great_warrior
 		NOT = { lifestyle_traits = 1 }
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11202
 		hidden_tooltip = {
@@ -3339,7 +3337,7 @@ character_event = {
 		}
 		add_trait = duelist
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11202
 		prestige = 10
@@ -3354,7 +3352,7 @@ character_event = {
 	desc = EVTDESC_WOL_11203
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11203
 		prestige = 100
@@ -3368,7 +3366,7 @@ character_event = {
 	desc = EVTDESC_WOL_11204
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11204
 		if = {
@@ -3393,7 +3391,7 @@ character_event = {
 	desc = EVTDESC_WOL_11205
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_war
-	
+
 	option = {
 		name = EVTOPTA_WOL_11205
 		if = {
@@ -3426,16 +3424,16 @@ character_event = {
 	desc = {
 		text = EVTDESCB_WOL_11206
 		trigger = {
-			trait = weak 
+			trait = weak
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_WOL_11206
 		trigger = {	NOT = { trait = weak } }
 		add_trait = strong
 	}
-	
+
 	option = {
 		name = EVTOPTB_WOL_11206
 		trigger = { trait = weak }

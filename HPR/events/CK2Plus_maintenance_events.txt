@@ -3338,7 +3338,6 @@ character_event = { # Byzantium is reclaimed by an Orthodox/Hellenic ruler
 	culture_group = byzantine
 
 	trigger = {
-		NOT = { has_global_flag = shattered_realm }
 		war = no
 		OR = {
 			religion = chalcedonian
@@ -3394,6 +3393,7 @@ character_event = { # Convert Latin Empire to Byzantine Empire if the holder is 
 			religion = chalcedonian
 			religion = catholic
 			religion = cathar
+			religion = dulcinian
 			religion = fraticelli
 			religion = waldensian
 			religion = lollard
@@ -3555,6 +3555,7 @@ character_event = { # Byzantium Auto-Destroy Mechanic. Destroys Byzantium if the
 						religion = chalcedonian
 						religion = catholic
 						religion = cathar
+						religion = dulcinian
 						religion = fraticelli
 						religion = waldensian
 						religion = lollard
@@ -3594,6 +3595,7 @@ character_event = { # Byzantium Auto-Destroy Mechanic. Destroys Byzantium if the
 					religion = chalcedonian
 					religion = catholic
 					religion = cathar
+					religion = dulcinian
 					religion = fraticelli
 					religion = waldensian
 					religion = lollard
@@ -3958,6 +3960,7 @@ character_event = { # HRE Auto-Destroy Mechanic. Destroys the HRE if the ruler i
 			religion = chalcedonian
 			religion = catholic
 			religion = cathar
+			religion = dulcinian
 			religion = fraticelli
 			religion = waldensian
 			religion = lollard
@@ -4482,6 +4485,7 @@ character_event = { # Secondary Startup event
 
 			# set catholic/orthodox heresies to chalcedonian
 			set_parent_religion = { religion = cathar parent = chalcedonian }
+			set_parent_religion = { religion = dulcinian parent = chalcedonian }
 			set_parent_religion = { religion = waldensian parent = chalcedonian }
 			set_parent_religion = { religion = lollard parent = chalcedonian }
 			set_parent_religion = { religion = adoptionist parent = chalcedonian }

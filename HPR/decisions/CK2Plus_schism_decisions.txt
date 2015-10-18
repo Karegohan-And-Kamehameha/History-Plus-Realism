@@ -16,6 +16,7 @@ decisions = {
 				religion = catholic
 				religion = fraticelli
 				religion = cathar
+				religion = dulcinian
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
@@ -33,6 +34,7 @@ decisions = {
 						religion = catholic
 						religion = fraticelli
 						religion = cathar
+						religion = dulcinian
 					}
 					OR = {
 						k_orthodox = { holder_scope = { is_heretic = no } }
@@ -50,6 +52,7 @@ decisions = {
 						k_papal_state = { holder_scope = { is_heretic = no } }
 						d_fraticelli = { holder_scope = { is_heretic = no } }
 						d_cathar = { holder_scope = { is_heretic = no } }
+						d_dulcinian = { holder_scope = { is_heretic = no } }
 					}
 				}
 			}
@@ -161,6 +164,7 @@ decisions = {
 				religion = catholic
 				religion = fraticelli
 				religion = cathar
+				religion = dulcinian
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
@@ -303,6 +307,7 @@ decisions = {
 				religion = catholic
 				religion = fraticelli
 				religion = cathar
+				religion = dulcinian
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
@@ -689,6 +694,7 @@ decisions = {
 				k_papal_state = { holder_scope = { is_heretic = no } }
 				d_fraticelli = { holder_scope = { is_heretic = no } }
 				d_cathar = { holder_scope = { is_heretic = no } }
+				d_dulcinian = { holder_scope = { is_heretic = no } }
 			}
 			NOR = {
 				has_global_flag = christianity_united

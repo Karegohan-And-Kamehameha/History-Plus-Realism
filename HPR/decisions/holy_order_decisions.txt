@@ -17,6 +17,7 @@ decisions = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -27,7 +28,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_knights_templar
 			NOT = { has_character_modifier = expelled_d_knights_templar }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_knights_templar = {
@@ -40,22 +41,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_knights_templar = {
 					holder_scope = {
@@ -71,16 +72,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	expel_the_knights_hospitaler = {
 		potential = {
 			ai = no
@@ -88,6 +89,7 @@ decisions = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -98,7 +100,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_knights_hospitaler
 			NOT = { has_character_modifier = expelled_d_knights_hospitaler }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_knights_hospitaler = {
@@ -111,22 +113,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_knights_hospitaler = {
 					holder_scope = {
@@ -142,16 +144,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	expel_the_teutonic_order = {
 		potential = {
 			ai = no
@@ -159,6 +161,7 @@ decisions = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -169,7 +172,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_teutonic_order
 			NOT = { has_character_modifier = expelled_d_teutonic_order }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_teutonic_order = {
@@ -182,22 +185,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				add_character_modifier = {
 					name = expelled_d_teutonic_order
@@ -213,16 +216,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	expel_the_jomsvikings = {
 		potential = {
 			ai = no
@@ -234,7 +237,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_jomsvikings
 			NOT = { has_character_modifier = expelled_d_jomsvikings }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_jomsvikings = {
@@ -247,22 +250,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_jomsvikings = {
 					holder_scope = {
@@ -278,16 +281,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	expel_the_braedralag = {
 		potential = {
 			ai = no
@@ -299,7 +302,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_braedralag
 			NOT = { has_character_modifier = expelled_d_braedralag }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_braedralag = {
@@ -312,22 +315,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_braedralag = {
 					holder_scope = {
@@ -343,16 +346,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	expel_the_harii = {
 		potential = {
 			ai = no
@@ -364,7 +367,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_harii
 			NOT = { has_character_modifier = expelled_d_harii }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_harii = {
@@ -377,22 +380,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_harii = {
 					holder_scope = {
@@ -408,16 +411,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	expel_the_assassins = {
 		potential = {
 			ai = no
@@ -433,7 +436,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_hashshashin
 			NOT = { has_character_modifier = expelled_d_hashshashin }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_hashshashin = {
@@ -446,22 +449,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_hashshashin = {
 					holder_scope = {
@@ -470,7 +473,7 @@ decisions = {
 						}
 					}
 				}
-				
+
 				add_character_modifier = {
 					name = expelled_d_hashshashin
 					duration = -1
@@ -478,22 +481,23 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_knights_templar = {
 		potential = {
 			OR = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -529,9 +533,9 @@ decisions = {
 					NOT = { culture_group = west_slavic }
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
-			
+
 			d_knights_templar = {
 				holder_scope = {
 					liege = {
@@ -540,14 +544,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -555,7 +559,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_knights_templar = {
 					holder_scope = {
@@ -565,15 +569,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -599,13 +603,14 @@ decisions = {
 			}
 		}
 	}
-	
+
 	donate_money_to_knights_hospitaler = {
 		potential = {
 			OR = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -641,9 +646,9 @@ decisions = {
 					NOT = { culture_group = west_slavic }
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
-			
+
 			d_knights_hospitaler = {
 				holder_scope = {
 					liege = {
@@ -652,14 +657,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -667,7 +672,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_knights_hospitaler = {
 					holder_scope = {
@@ -677,15 +682,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -711,13 +716,14 @@ decisions = {
 			}
 		}
 	}
-	
+
 	donate_money_to_teutonic_order = {
 		potential = {
 			OR = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -751,9 +757,9 @@ decisions = {
 				culture_group = south_slavic
 				culture_group = west_slavic
 			}
-			
+
 			has_dlc = "Sons of Abraham"
-			
+
 			d_teutonic_order = {
 				holder_scope = {
 					liege = {
@@ -762,14 +768,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -777,7 +783,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_teutonic_order = {
 					holder_scope = {
@@ -787,15 +793,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -821,7 +827,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	donate_money_to_jomsvikings = {
 		potential = {
 			OR = {
@@ -843,14 +849,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -858,7 +864,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_jomsvikings = {
 					holder_scope = {
@@ -868,15 +874,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -895,7 +901,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	donate_money_to_braedralag = {
 		potential = {
 			OR = {
@@ -917,14 +923,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -932,7 +938,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_braedralag = {
 					holder_scope = {
@@ -942,15 +948,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -969,7 +975,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	donate_money_to_harii = {
 		potential = {
 			OR = {
@@ -991,14 +997,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -1006,7 +1012,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_harii = {
 					holder_scope = {
@@ -1016,15 +1022,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1043,7 +1049,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	donate_money_to_assassins = {
 		potential = {
 			OR = {
@@ -1069,14 +1075,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -1084,7 +1090,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_hashshashin = {
 					holder_scope = {
@@ -1094,7 +1100,7 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
@@ -1102,7 +1108,7 @@ decisions = {
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1121,7 +1127,7 @@ decisions = {
 			}
 		}
 	}
-		
+
 	donate_money_to_ansar = {
 		potential = {
 			OR = {
@@ -1145,14 +1151,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -1160,7 +1166,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_ansar = {
 					holder_scope = {
@@ -1170,7 +1176,7 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
@@ -1178,7 +1184,7 @@ decisions = {
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1197,7 +1203,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_the_ansar = {
 		potential = {
 			ai = no
@@ -1223,22 +1229,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_ansar = {
 					holder_scope = {
@@ -1247,7 +1253,7 @@ decisions = {
 						}
 					}
 				}
-				
+
 				add_character_modifier = {
 					name = expelled_d_ansar
 					duration = -1
@@ -1255,16 +1261,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_haruriyyah = {
 		potential = {
 			OR = {
@@ -1274,13 +1280,13 @@ decisions = {
 			is_heretic = no
 			is_title_active = d_haruriyyah
 			has_dlc = "Charlemagne"
-			
-			NOR = { 
-				has_character_modifier = expelled_d_haruriyyah 
+
+			NOR = {
+				has_character_modifier = expelled_d_haruriyyah
 				has_character_modifier = donated_to_holy_order
 				has_landed_title = d_haruriyyah
 			}
-			
+
 			d_haruriyyah = {
 				holder_scope = {
 					liege = {
@@ -1289,14 +1295,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -1304,7 +1310,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_haruriyyah = {
 					holder_scope = {
@@ -1314,7 +1320,7 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 300
 		}
@@ -1322,7 +1328,7 @@ decisions = {
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1337,7 +1343,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_the_haruriyyah = {
 		potential = {
 			ai = no
@@ -1350,7 +1356,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_haruriyyah
 			NOT = { has_character_modifier = expelled_d_haruriyyah }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_haruriyyah = {
@@ -1363,22 +1369,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Charlemagne"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_haruriyyah = {
 					holder_scope = {
@@ -1387,7 +1393,7 @@ decisions = {
 						}
 					}
 				}
-				
+
 				add_character_modifier = {
 					name = expelled_d_haruriyyah
 					duration = -1
@@ -1395,24 +1401,25 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	vassalize_knights_templar = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -1436,13 +1443,13 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 			has_regent = no
 			independent = yes
 		}
-		
+
 		effect = {
 			hidden_tooltip = {
 				d_knights_templar = {
@@ -1454,24 +1461,25 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	vassalize_knights_hospitaler = {
 		is_high_prio = yes
-		
+
 		potential = {
 			OR = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -1495,13 +1503,13 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 			has_regent = no
 			independent = yes
 		}
-		
+
 		effect = {
 			hidden_tooltip = {
 				d_knights_hospitaler = {
@@ -1513,16 +1521,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	expel_the_holy_sepulchre = {
 		potential = {
 			ai = no
@@ -1537,7 +1545,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_holy_sepulchre
 			NOT = { has_character_modifier = expelled_d_holy_sepulchre }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_holy_sepulchre = {
@@ -1550,22 +1558,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_holy_sepulchre = {
 					holder_scope = {
@@ -1581,16 +1589,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_holy_sepulchre = {
 		potential = {
 			OR = {
@@ -1600,7 +1608,7 @@ decisions = {
 				religion = iconoclast
 			}
 			is_heretic = no
-			
+
 			is_title_active = d_holy_sepulchre
 			NOR = {
 				has_character_modifier = donated_to_holy_order
@@ -1614,17 +1622,17 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -1632,7 +1640,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_holy_sepulchre = {
 					holder_scope = {
@@ -1642,15 +1650,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1675,7 +1683,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_d_saint_anthony = {
 		potential = {
 			ai = no
@@ -1688,7 +1696,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_saint_anthony
 			NOT = { has_character_modifier = expelled_d_saint_anthony }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_saint_anthony = {
@@ -1701,22 +1709,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_saint_anthony = {
 					holder_scope = {
@@ -1732,16 +1740,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_saint_anthony = {
 		potential = {
 			OR = {
@@ -1749,7 +1757,7 @@ decisions = {
 				religion = monophysite
 			}
 			is_heretic = no
-			
+
 			is_title_active = d_saint_anthony
 			NOR = {
 				has_character_modifier = donated_to_holy_order
@@ -1763,17 +1771,17 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -1781,7 +1789,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_saint_anthony = {
 					holder_scope = {
@@ -1791,15 +1799,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1822,7 +1830,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_immortals = {
 		potential = {
 			ai = no
@@ -1836,7 +1844,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_immortals
 			NOT = { has_character_modifier = expelled_d_immortals }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_immortals = {
@@ -1849,22 +1857,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_immortals = {
 					holder_scope = {
@@ -1880,16 +1888,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_the_immortals = {
 		potential = {
 			OR = {
@@ -1898,7 +1906,7 @@ decisions = {
 				religion = zurvanist
 			}
 			is_heretic = no
-			
+
 			is_title_active = d_immortals
 
 			NOR = {
@@ -1906,9 +1914,9 @@ decisions = {
 				has_character_modifier = expelled_d_immortals
 				has_landed_title = d_immortals
 			}
-			
+
 			has_dlc = "Sons of Abraham"
-			
+
 			d_immortals = {
 				holder_scope = {
 					liege = {
@@ -1917,14 +1925,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -1932,7 +1940,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_immortals = {
 					holder_scope = {
@@ -1942,15 +1950,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1974,7 +1982,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_zealots = {
 		potential = {
 			ai = no
@@ -1988,7 +1996,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_zealots
 			NOT = { has_character_modifier = expelled_d_zealots }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_zealots = {
@@ -2001,22 +2009,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_zealots = {
 					holder_scope = {
@@ -2032,16 +2040,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_the_zealots = {
 		potential = {
 			OR = {
@@ -2050,7 +2058,7 @@ decisions = {
 				religion = karaite
 			}
 			is_heretic = no
-			
+
 			is_title_active = d_zealots
 			NOR = {
 				has_character_modifier = donated_to_holy_order
@@ -2066,14 +2074,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -2081,7 +2089,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_zealots = {
 					holder_scope = {
@@ -2091,15 +2099,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2123,7 +2131,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_sky_lords = {
 		potential = {
 			ai = no
@@ -2132,7 +2140,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_sky_lords
 			NOT = { has_character_modifier = expelled_d_sky_lords }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_sky_lords = {
@@ -2145,22 +2153,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_sky_lords = {
 					holder_scope = {
@@ -2176,22 +2184,22 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_sky_lords = {
 		potential = {
 			religion = tengri_pagan_reformed
-			
+
 			is_title_active = d_sky_lords
-	
+
 			has_dlc = "Sons of Abraham"
 			NOR = {
 				has_character_modifier = donated_to_holy_order
@@ -2206,14 +2214,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -2221,7 +2229,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_sky_lords = {
 					holder_scope = {
@@ -2231,15 +2239,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2259,7 +2267,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_spirit_guardians = {
 		potential = {
 			ai = no
@@ -2268,7 +2276,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_spirit_guardians
 			NOT = { has_character_modifier = expelled_d_spirit_guardians }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_spirit_guardians = {
@@ -2281,22 +2289,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_spirit_guardians = {
 					holder_scope = {
@@ -2312,20 +2320,20 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_spirit_guardians = {
 		potential = {
 			religion = west_african_pagan_reformed
-			
+
 			is_title_active = d_spirit_guardians
 			has_dlc = "Sons of Abraham"
 			NOR = {
@@ -2341,14 +2349,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -2356,7 +2364,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_spirit_guardians = {
 					holder_scope = {
@@ -2366,15 +2374,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2394,7 +2402,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_warriors_perun = {
 		potential = {
 			ai = no
@@ -2403,7 +2411,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_warriors_perun
 			NOT = { has_character_modifier = expelled_d_warriors_perun }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_warriors_perun = {
@@ -2416,22 +2424,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_warriors_perun = {
 					holder_scope = {
@@ -2447,29 +2455,29 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_warriors_perun = {
 		potential = {
 			religion = slavic_pagan_reformed
-			
+
 			is_title_active = d_warriors_perun
-			
+
 			NOR = {
 				has_character_modifier = donated_to_holy_order
 				has_character_modifier = expelled_d_warriors_perun
 				has_landed_title = d_warriors_perun
 			}
 			has_dlc = "Sons of Abraham"
-			
+
 			d_warriors_perun = {
 				holder_scope = {
 					liege = {
@@ -2478,14 +2486,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -2493,7 +2501,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_warriors_perun = {
 					holder_scope = {
@@ -2503,15 +2511,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2531,7 +2539,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_chosen_perkunas = {
 		potential = {
 			ai = no
@@ -2540,7 +2548,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_chosen_perkunas
 			NOT = { has_character_modifier = expelled_d_chosen_perkunas }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_chosen_perkunas = {
@@ -2553,22 +2561,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_chosen_perkunas = {
 					holder_scope = {
@@ -2584,22 +2592,22 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_chosen_perkunas = {
 		potential = {
 			religion = baltic_pagan_reformed
-			
+
 			is_title_active = d_chosen_perkunas
-	
+
 			has_dlc = "Sons of Abraham"
 			NOR = {
 				has_character_modifier = donated_to_holy_order
@@ -2614,14 +2622,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -2629,7 +2637,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_chosen_perkunas = {
 					holder_scope = {
@@ -2639,15 +2647,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2667,7 +2675,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_sons_kaleva = {
 		potential = {
 			ai = no
@@ -2676,7 +2684,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_sons_kaleva
 			NOT = { has_character_modifier = expelled_d_sons_kaleva }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_chosen_perkunas = {
@@ -2689,22 +2697,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_sons_kaleva = {
 					holder_scope = {
@@ -2720,22 +2728,22 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_sons_kaleva = {
 		potential = {
 			religion = finnish_pagan_reformed
-			
+
 			is_title_active = d_sons_kaleva
-		
+
 			has_dlc = "Sons of Abraham"
 			NOR = {
 				has_character_modifier = donated_to_holy_order
@@ -2750,14 +2758,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -2765,7 +2773,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_sons_kaleva = {
 					holder_scope = {
@@ -2775,15 +2783,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2803,7 +2811,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_huitzilopochtli = {
 		potential = {
 			ai = no
@@ -2812,7 +2820,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_huitzilopochtli
 			NOT = { has_character_modifier = expelled_d_huitzilopochtli }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_huitzilopochtli = {
@@ -2825,22 +2833,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_huitzilopochtli = {
 					holder_scope = {
@@ -2856,20 +2864,20 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_huitzilopochtli = {
 		potential = {
 			religion = aztec
-			
+
 			is_title_active = d_huitzilopochtli
 			has_dlc = "Sons of Abraham"
 			NOR = {
@@ -2885,14 +2893,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -2900,7 +2908,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_huitzilopochtli = {
 					holder_scope = {
@@ -2910,15 +2918,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2938,7 +2946,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_knights_santiago = {
 		potential = {
 			ai = no
@@ -2946,6 +2954,7 @@ decisions = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -2956,7 +2965,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_knights_santiago
 			NOT = { has_character_modifier = expelled_d_knights_santiago }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_knights_santiago = {
@@ -2969,22 +2978,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_knights_santiago = {
 					holder_scope = {
@@ -3000,31 +3009,32 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_knights_santiago = {
 		potential = {
 			OR = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
 				religion = adoptionist
 			}
 			is_heretic = no
-			
+
 			is_title_active = d_knights_santiago
-			
+
 			NOR = {
 				has_character_modifier = donated_to_holy_order
 				has_character_modifier = expelled_d_knights_santiago
@@ -3051,9 +3061,9 @@ decisions = {
 				culture = maghreb_arabic
 				culture = occitan
 			}
-			
+
 			has_dlc = "Sons of Abraham"
-			
+
 			d_knights_santiago = {
 				holder_scope = {
 					liege = {
@@ -3062,14 +3072,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -3077,7 +3087,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_knights_santiago = {
 					holder_scope = {
@@ -3087,15 +3097,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3121,7 +3131,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_knights_calatrava = {
 		potential = {
 			ai = no
@@ -3129,6 +3139,7 @@ decisions = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -3139,7 +3150,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_knights_calatrava
 			NOT = { has_character_modifier = expelled_d_knights_calatrava }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_knights_calatrava = {
@@ -3152,22 +3163,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_knights_calatrava = {
 					holder_scope = {
@@ -3183,22 +3194,23 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_knights_calatrava = {
 		potential = {
 			OR = {
 				religion = chalcedonian
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard
@@ -3206,7 +3218,7 @@ decisions = {
 			}
 			is_heretic = no
 			is_title_active = d_knights_calatrava
-			
+
 
 			NOR = {
 				has_character_modifier = donated_to_holy_order
@@ -3234,9 +3246,9 @@ decisions = {
 				culture = maghreb_arabic
 				culture = occitan
 			}
-			
+
 			has_dlc = "Sons of Abraham"
-			
+
 			d_knights_calatrava = {
 				holder_scope = {
 					liege = {
@@ -3245,14 +3257,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -3260,7 +3272,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_knights_calatrava = {
 					holder_scope = {
@@ -3270,15 +3282,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 150
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3304,7 +3316,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_order_of_addai = {
 		potential = {
 			ai = no
@@ -3317,7 +3329,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_saint_addai
 			NOT = { has_character_modifier = expelled_d_saint_addai }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_saint_addai = {
@@ -3330,22 +3342,22 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_saint_addai = {
 					holder_scope = {
@@ -3361,16 +3373,16 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
+
 	donate_money_to_order_of_addai = {
 		potential = {
 			OR = {
@@ -3378,15 +3390,15 @@ decisions = {
 				religion = messalian
 			}
 			is_heretic = no
-			
+
 			is_title_active = d_saint_addai
-			
-			NOR = { 
+
+			NOR = {
 				has_character_modifier = donated_to_holy_order
-				has_character_modifier = expelled_d_saint_addai 
+				has_character_modifier = expelled_d_saint_addai
 				has_landed_title = d_saint_addai
 			}
-			
+
 			d_saint_addai = {
 				holder_scope = {
 					liege = {
@@ -3394,17 +3406,17 @@ decisions = {
 					}
 				}
 			}
-			
+
 			has_dlc = "Sons of Abraham"
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -3412,7 +3424,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_saint_addai = {
 					holder_scope = {
@@ -3422,15 +3434,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 300
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3453,7 +3465,7 @@ decisions = {
 			}
 		}
 	}
-	
+
 	expel_zun_warriors = {
 		potential = {
 			ai = no
@@ -3462,7 +3474,7 @@ decisions = {
 			independent = yes
 			is_title_active = d_zun_warriors
 			NOT = { has_character_modifier = expelled_d_zun_warriors }
-			
+
 			any_realm_province = {
 				any_province_lord = {
 					d_zun_warriors = {
@@ -3477,19 +3489,19 @@ decisions = {
 			}
 			has_dlc = "Charlemagne"
 		}
-		
+
 		allow = {
 			piety = 1000
 		}
-		
+
 		effect = {
 			piety = -1000
-			
+
 			religion_authority = {
 				modifier = holy_order_expelled
 				years = 20
 			}
-			
+
 			hidden_tooltip = {
 				d_zun_warriors = {
 					holder_scope = {
@@ -3505,11 +3517,11 @@ decisions = {
 				}
 			}
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
@@ -3517,17 +3529,17 @@ decisions = {
 	donate_money_to_zun_warriors = {
 		potential = {
 			religion = zun_pagan_reformed
-			
+
 			is_title_active = d_zun_warriors
-			
+
 			has_dlc = "Charlemagne"
-			
-			NOR = { 
+
+			NOR = {
 				has_character_modifier = donated_to_holy_order
-				has_character_modifier = expelled_d_zun_warriors 
+				has_character_modifier = expelled_d_zun_warriors
 				has_landed_title = d_zun_warriors
 			}
-			
+
 			d_zun_warriors = {
 				holder_scope = {
 					liege = {
@@ -3536,14 +3548,14 @@ decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			wealth = 300
 		}
-		
+
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					NOT = { has_character_modifier = donated_to_holy_order }
 				}
 				add_character_modifier = {
@@ -3551,7 +3563,7 @@ decisions = {
 					duration = -1
 				}
 			}
-			
+
 			hidden_tooltip = {
 				d_zun_warriors = {
 					holder_scope = {
@@ -3561,15 +3573,15 @@ decisions = {
 					}
 				}
 			}
-			
+
 			wealth = -300
 			piety = 300
 		}
-		
+
 		revoke_allowed = {
 			always = no
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {

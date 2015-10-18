@@ -274,6 +274,7 @@ e_germany = {
 						religion = chalcedonian
 						religion = catholic
 						religion = cathar
+						religion = dulcinian
 						religion = fraticelli
 						religion = waldensian
 						religion = lollard

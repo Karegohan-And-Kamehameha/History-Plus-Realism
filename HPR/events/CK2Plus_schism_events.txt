@@ -11,7 +11,7 @@ namespace = Plus
 ### Papacy of Rome
 
 # Rome Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2200
 
 	hide_window = yes
@@ -46,7 +46,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -58,7 +58,7 @@ character_event = {
 		}
 		d_pentarch_rome = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
-		
+
 		#for Chalcedonian Popes
 		if = {
 			limit = { religion = chalcedonian }
@@ -110,7 +110,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_rome = { unsafe_destroy_landed_title = THIS }
 	}
@@ -119,7 +119,7 @@ character_event = {
 ### Patriarchate of Constantinople
 
 # Constantinople Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2202
 
 	hide_window = yes
@@ -148,7 +148,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -160,7 +160,7 @@ character_event = {
 		}
 		d_pentarch_constantinople = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
-		
+
 		#for Chalcedonian Patriarchs
 		if = {
 			limit = { religion = chalcedonian }
@@ -197,7 +197,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_constantinople = { unsafe_destroy_landed_title = THIS }
 	}
@@ -235,7 +235,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		b_hagiasophia = {
 			holder_scope = {
@@ -257,7 +257,7 @@ character_event = {
 ### Papacy of Alexandria
 
 # Alexandria Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2205
 
 	hide_window = yes
@@ -292,7 +292,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -304,7 +304,7 @@ character_event = {
 		}
 		d_pentarch_alexandria = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
-		
+
 		#for Chalcedonian Popes
 		if = {
 			limit = { religion = chalcedonian }
@@ -347,7 +347,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_alexandria = { unsafe_destroy_landed_title = THIS }
 	}
@@ -385,7 +385,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		b_alexandria = {
 			holder_scope = {
@@ -411,7 +411,7 @@ character_event = {
 ### Patriarchate of Antioch
 
 # Antioch Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2208
 
 	hide_window = yes
@@ -446,7 +446,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -458,7 +458,7 @@ character_event = {
 		}
 		d_pentarch_antioch = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
-		
+
 		#for Chalcedonian Patriarchs
 		if = {
 			limit = { religion = chalcedonian }
@@ -501,7 +501,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_antioch = { unsafe_destroy_landed_title = THIS }
 	}
@@ -543,7 +543,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		b_antiocheia = {
 			holder_scope = {
@@ -565,7 +565,7 @@ character_event = {
 ### Patriarchate of Jerusalem
 
 # Jerusalem Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2211
 
 	hide_window = yes
@@ -594,7 +594,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -606,7 +606,7 @@ character_event = {
 		}
 		d_pentarch_jerusalem = { grant_title = ROOT }
 		set_defacto_liege = event_target:new_liege
-		
+
 		#for Chalcedonian Patriarchs
 		if = {
 			limit = { religion = chalcedonian }
@@ -643,7 +643,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_pentarch_jerusalem = { unsafe_destroy_landed_title = THIS }
 	}
@@ -669,11 +669,11 @@ character_event = {
 			has_landed_title = d_pentarch_constantinople
 			has_landed_title = d_pentarch_alexandria
 			has_landed_title = d_pentarch_antioch
-			has_landed_title = d_pentarch_jerusalem	
+			has_landed_title = d_pentarch_jerusalem
 			has_landed_title = d_latin_constantinople
 			has_landed_title = d_latin_alexandria
 			has_landed_title = d_latin_antioch
-			has_landed_title = d_latin_jerusalem				
+			has_landed_title = d_latin_jerusalem
 		}
 		NOT = { trait = rebel }
 		capital_holding = {
@@ -691,7 +691,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		capital_holding = {
 			dejure_liege_title = {
@@ -708,7 +708,7 @@ character_event = {
 ### Latin Patriarchate of Constantinople
 
 # Constantinople Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2214
 
 	hide_window = yes
@@ -733,7 +733,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -771,7 +771,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_latin_constantinople = { unsafe_destroy_landed_title = THIS }
 	}
@@ -780,7 +780,7 @@ character_event = {
 ### Latin Patriachate of Alexandria
 
 # Alexandria Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2216
 
 	hide_window = yes
@@ -808,7 +808,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -846,7 +846,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_latin_alexandria = { unsafe_destroy_landed_title = THIS }
 	}
@@ -855,7 +855,7 @@ character_event = {
 ### Latin Patriarchate of Antioch
 
 # Antioch Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2218
 
 	hide_window = yes
@@ -883,7 +883,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -921,7 +921,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_latin_antioch = { unsafe_destroy_landed_title = THIS }
 	}
@@ -930,7 +930,7 @@ character_event = {
 ### Patriarchate of Jerusalem
 
 # Jeusalem Re-Established
-character_event = { 
+character_event = {
 	id = Plus.2220
 
 	hide_window = yes
@@ -958,7 +958,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		any_liege = {
 			limit = { tier = EMPEROR }
@@ -996,7 +996,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		d_latin_jerusalem = { unsafe_destroy_landed_title = THIS }
 	}
@@ -1032,7 +1032,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		b_roma = {
 			holder_scope = {
@@ -1045,7 +1045,7 @@ character_event = {
 		b_roma = { grant_title_no_opinion = ROOT }
 		set_defacto_liege = event_target:new_liege
 		if = {
-			limit = { 
+			limit = {
 				NOT = { has_landed_title = d_pentarch_rome }
 				religion = chalcedonian
 			}
@@ -1065,9 +1065,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2230
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		capital_holding = { location = { save_event_target_as = council_location } }
@@ -1077,6 +1077,7 @@ narrative_event = {
 					religion = catholic
 					religion = fraticelli
 					religion = cathar
+					religion = dulcinian
 				}
 			}
 			any_title = {
@@ -1108,6 +1109,7 @@ narrative_event = {
 						title = k_papal_state
 						title = d_fraticelli
 						title = d_cathar
+						title = d_dulcinian
 					}
 					has_holder = yes
 					holder_scope = { is_heretic = no }
@@ -1126,7 +1128,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = schism_mending
@@ -1204,17 +1206,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2230
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2231 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -1466,10 +1468,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2232
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2233 }
@@ -1484,13 +1486,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2232
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = schism_mending
-		set_global_flag = schism_mended	
+		set_global_flag = schism_mended
 		event_target:mender_religion = {
 			event_target:target_religion = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -1511,7 +1513,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -1547,9 +1549,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2234
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		if = {
@@ -1577,7 +1579,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = enforcing_ephesus
@@ -1655,17 +1657,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2234
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2235 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -1917,10 +1919,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2236
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2237 }
@@ -1935,13 +1937,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2237
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = enforcing_ephesus
-		set_global_flag = ephesus_enforced	
+		set_global_flag = ephesus_enforced
 		event_target:mender_religion = {
 			event_target:target_religion = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -1962,7 +1964,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -1998,9 +2000,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2238
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		if = {
@@ -2043,7 +2045,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = enforcing_chalcedon
@@ -2121,17 +2123,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2238
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2239 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -2383,10 +2385,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2240
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2241 }
@@ -2401,13 +2403,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2241
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = enforcing_chalcedon
-		set_global_flag = chalcedon_enforced	
+		set_global_flag = chalcedon_enforced
 		event_target:mender_religion = {
 			event_target:target_religion1 = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -2433,7 +2435,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -2469,9 +2471,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2242
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		if = {
@@ -2512,7 +2514,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = repudiating_ephesus
@@ -2590,17 +2592,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2242
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2243 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -2852,10 +2854,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2244
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2245 }
@@ -2870,13 +2872,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2245
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = repudiating_ephesus
-		set_global_flag = ephesus_repudiated	
+		set_global_flag = ephesus_repudiated
 		event_target:mender_religion = {
 			event_target:target_religion = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -2897,7 +2899,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -2932,7 +2934,7 @@ narrative_event = {
 	title = EVTNAME_Plus_2230
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	desc = {
 		text = EVTDESC_Plus_2246
 		trigger = { event_target:target_religion2 = { is_alive = yes } }
@@ -2941,9 +2943,9 @@ narrative_event = {
 		text = EVTDESC_Plus_2246_no_second
 		trigger = { NOT = { event_target:target_religion2 = { is_alive = yes } } }
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		if = {
@@ -3026,7 +3028,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = repudiating_chalcedon
@@ -3104,17 +3106,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2246
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2247 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -3366,10 +3368,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2248
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2249 }
@@ -3384,13 +3386,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2249
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = repudiating_chalcedon
-		set_global_flag = chalcedon_repudiated	
+		set_global_flag = chalcedon_repudiated
 		event_target:mender_religion = {
 			event_target:target_religion1 = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -3416,7 +3418,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -3452,9 +3454,9 @@ narrative_event = {
 	desc = EVTDESC_Plus_2250
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		save_event_target_as = council_holder
 		capital_holding = { location = { save_event_target_as = council_location } }
@@ -3463,6 +3465,7 @@ narrative_event = {
 				OR = {
 					title = k_papal_state
 					title = d_cathar
+					title = d_dulcinian
 					title = d_fraticelli
 				}
 				has_holder = yes
@@ -3481,7 +3484,7 @@ narrative_event = {
 			save_event_target_as = mender_religion
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2230
 		set_global_flag = uniting_christianity
@@ -3559,17 +3562,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2250
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2251 days = 1 random = 4 } #choose whether to convert
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2231 # Convert
 		trigger = {
@@ -3821,10 +3824,10 @@ narrative_event = {
 # Province bounce event
 province_event = {
 	id = Plus.2252
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		owner = {
 			narrative_event = { id = Plus.2253 }
@@ -3839,13 +3842,13 @@ narrative_event = {
 	desc = EVTDESC_Plus_2253
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	immediate = {
 		clr_global_flag = uniting_christianity
-		set_global_flag = christianity_united	
+		set_global_flag = christianity_united
 		event_target:mender_religion = {
 			event_target:target_religion = {
 				set_parent_religion = { religion = THIS parent = PREV }
@@ -3866,7 +3869,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2232
 		trigger = { religion = event_target:mender_religion }
@@ -3903,12 +3906,12 @@ narrative_event = {
 # Switch Catholic/Orthodox characters which appear before Schism
 character_event = {
 	id = Plus.2270
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = catholic
@@ -3916,26 +3919,26 @@ character_event = {
 		}
 		NOT = { k_papal_state = { has_title_flag = schism_happened } }
 	}
-	
+
 	immediate = {
 		religion = chalcedonian
 	}
 }
-	
+
 # Switch Chalcedonian characters which appear after Schism
 character_event = {
 	id = Plus.2271
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	religion = chalcedonian
-	
+
 	trigger = {
 		religion = chalcedonian
 		k_papal_state = { has_title_flag = schism_happened }
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { independent = yes }
@@ -3951,10 +3954,10 @@ character_event = {
 # Remove Papal title for non-Chalcedonians
 character_event = {
 	id = Plus.2272
-	
+
 	hide_window = yes
 	only_playable = yes
-	
+
 	trigger = {
 		has_landed_title = k_papal_chalcedon
 		OR = {
@@ -3962,11 +3965,11 @@ character_event = {
 			is_theocracy = no
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		k_papal_chalcedon = { unsafe_destroy_landed_title = THIS }
 	}
@@ -3980,12 +3983,12 @@ character_event = {
 	desc = EVTDESC_Plus_2275
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	religion = chalcedonian
-	
+
 	trigger = {
 		is_theocracy = yes
 		NOR = {
@@ -3993,15 +3996,15 @@ character_event = {
 			trait = latin_rites
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		set_character_flag = chalcedonian_bishop
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2275 # Latin Rites
 		trigger = {
@@ -4138,20 +4141,20 @@ character_event = {
 # Removing Latin/Greek Rites for non-priests
 character_event = {
 	id = Plus.2276
-	
+
 	hide_window = yes
-	
+
 	has_character_flag = chalcedonian_bishop
 	religion = chalcedonian
-	
+
 	trigger = {
 		is_theocracy = no
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		clr_character_flag = chalcedonian_bishop
 		remove_trait = latin_rites
@@ -4164,7 +4167,7 @@ character_event = {
 	id = Plus.2277
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	desc = {
 		text = EVTDESC_Plus_2277_latin
 		trigger = { trait = greek_rites }
@@ -4173,13 +4176,13 @@ character_event = {
 		text = EVTDESC_Plus_2277_greek
 		trigger = { trait = latin_rites }
 	}
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	religion = chalcedonian
-	
+
 	trigger = {
 		religion_authority = 0.50
 		is_theocracy = yes
@@ -4208,7 +4211,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -4242,7 +4245,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		rightful_religious_head_scope = { save_event_target_as = rightful_relhead }
 		if = {
@@ -4252,7 +4255,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2277 # Refuse
 		ai_chance = {
@@ -4390,12 +4393,12 @@ narrative_event = {
 	desc = EVTDESC_Plus_2278
 	picture = GFX_evt_found_hre
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
 	show_ROOT = yes
 	major = yes
-	
+
 	option = {
 		name = EVTOPTA_Plus_2278
 		trigger = {
@@ -4442,14 +4445,14 @@ narrative_event = {
 	desc = EVTDESC_Plus_2279
 	picture = GFX_evt_melee
 	border = GFX_event_narrative_frame_religion
-	
+
 	major = yes
 	hide_from = yes
-	
+
 	only_playable = yes
 	religion = chalcedonian
 	has_character_flag = was_byzantine_emperor
-	
+
 	trigger = {
 		has_landed_title = e_byzantium
 		e_byzantium = { is_primary_holder_title = yes }
@@ -4479,15 +4482,15 @@ narrative_event = {
 			has_global_flag = patriarch_supreme_created
 		}
 	}
-	
+
 	major_trigger = {
 		religion_group = christian
 	}
-	
+
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	immediate = {
 		log = "SCHISM LEAD-UP: WAR BETWEEN BYZANTIUM AND POPE'S CHAMPION"
 		set_global_flag = attacked_by_papal_emperor
@@ -4497,7 +4500,7 @@ narrative_event = {
 			save_event_target_as = papal_emperor
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2279
 		trigger = {
@@ -4538,14 +4541,14 @@ narrative_event = {
 	desc = EVTDESC_Plus_2280
 	picture = GFX_evt_pope
 	border = GFX_event_narrative_frame_religion
-	
+
 	major = yes
 	hide_from = yes
 	show_ROOT = yes
-	
+
 	religion = chalcedonian
 	only_playable = yes
-	
+
 	trigger = {
 		year = 900
 		has_landed_title = d_pentarch_rome
@@ -4558,11 +4561,11 @@ narrative_event = {
 			has_global_flag = patriarch_supreme_created
 		}
 	}
-	
+
 	major_trigger = {
 		religion = chalcedonian
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -4598,13 +4601,13 @@ narrative_event = {
 			NOT = { religion_authority = 0.30 }
 		}
 	}
-	
+
 	immediate = {
 		log = "SCHISM LEAD-UP: FILIOQUE ADOPTED"
 		set_global_flag = filioque_adopted
 		496 = { change_variable = { which = "schism_tracker" value = 1 } }
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2280
 		trigger = {
@@ -4638,14 +4641,14 @@ narrative_event = {
 	desc = EVTDESC_Plus_2281
 	picture = GFX_evt_pope
 	border = GFX_event_narrative_frame_religion
-	
+
 	major = yes
 	hide_from = yes
 	show_ROOT = yes
-	
+
 	religion = chalcedonian
 	only_playable = yes
-	
+
 	trigger = {
 		has_landed_title = d_pentarch_rome
 		is_heretic = no
@@ -4678,11 +4681,11 @@ narrative_event = {
 			has_global_flag = patriarch_supreme_created
 		}
 	}
-	
+
 	major_trigger = {
 		religion = chalcedonian
 	}
-	
+
 	mean_time_to_happen = {
 		years = 50
 		modifier = {
@@ -4726,7 +4729,7 @@ narrative_event = {
 			NOT = { religion_authority = 0.20 }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = papal_jurisdiction_dispute
 		496 = { change_variable = { which = "schism_tracker" value = 1 } }
@@ -4755,7 +4758,7 @@ narrative_event = {
 		}
 		log = "SCHISM LEAD-UP: PAPAL JURISDICTION DISPUTE OVER [jurisdiction_realm.GetName]"
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2281
 		trigger = {
@@ -4788,7 +4791,7 @@ narrative_event = {
 	title = EVTNAME_Plus_2282
 	picture = GFX_evt_bishop
 	border = GFX_event_narrative_frame_religion
-	
+
 	desc = {
 		text = EVTDESC_Plus_2282_greek
 		trigger = { ROOT = { trait = greek_rites } }
@@ -4797,16 +4800,16 @@ narrative_event = {
 		text = EVTDESC_Plus_2282_latin
 		trigger = { ROOT = { trait = latin_rites } }
 	}
-	
+
 	major = yes
 	hide_from = yes
 	show_ROOT = yes
-	
+
 	religion = chalcedonian
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
-	
+
 	trigger = {
 		year = 900
 		rightful_religious_head = ROOT
@@ -4825,11 +4828,11 @@ narrative_event = {
 			has_global_flag = patriarch_supreme_created
 		}
 	}
-	
+
 	major_trigger = {
 		religion = chalcedonian
 	}
-	
+
 	mean_time_to_happen = {
 		years = 50
 		modifier = {
@@ -4861,13 +4864,13 @@ narrative_event = {
 			NOT = { religion_authority = 0.30 }
 		}
 	}
-	
+
 	immediate = {
 		log = "SCHISM LEAD-UP: CONFLICT OVER THE EUCHARIST"
 		set_global_flag = eucharist_conflict
 		496 = { change_variable = { which = "schism_tracker" value = 1 } }
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2282
 		trigger = {
@@ -4901,14 +4904,14 @@ narrative_event = {
 	desc = EVTDESC_Plus_2283
 	picture = GFX_evt_pope
 	border = GFX_event_narrative_frame_religion
-	
+
 	major = yes
 	hide_from = yes
 	show_ROOT = yes
-	
+
 	religion = chalcedonian
 	only_playable = yes
-	
+
 	trigger = {
 		OR = {
 			has_landed_title = d_pentarch_rome
@@ -4944,11 +4947,11 @@ narrative_event = {
 			has_global_flag = patriarch_supreme_created
 		}
 	}
-	
+
 	major_trigger = {
 		religion_group = christian
 	}
-	
+
 	mean_time_to_happen = {
 		years = 10
 		modifier = {
@@ -4984,7 +4987,7 @@ narrative_event = {
 			NOT = { religion_authority = 0.30 }
 		}
 	}
-	
+
 	immediate = {
 		log = "SCHISM LEAD-UP: [Root.GetTitledName] IS WICKED"
 		set_global_flag = wicked_pope_patriarch
@@ -5002,12 +5005,12 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2283
 	}
 }
-	
+
 # Call for Ecumenical Council refused
 narrative_event = {
 	id = Plus.2284
@@ -5015,14 +5018,14 @@ narrative_event = {
 	desc = EVTDESC_Plus_2284
 	picture = GFX_evt_rival_rulers
 	border = GFX_event_narrative_frame_religion
-	
+
 	major = yes
 	hide_from = yes
 	show_ROOT = yes
-	
+
 	religion = chalcedonian
 	only_playable = yes
-	
+
 	trigger = {
 		has_landed_title = d_pentarch_rome
 		is_heretic = no
@@ -5046,7 +5049,7 @@ narrative_event = {
 			has_global_flag = patriarch_supreme_created
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 25
 		modifier = {
@@ -5090,7 +5093,7 @@ narrative_event = {
 			NOT = { religion_authority = 0.30 }
 		}
 	}
-	
+
 	immediate = {
 		log = "SCHISM LEAD-UP: CALL FOR ECUMENICAL COUNCIL REFUSED"
 		set_global_flag = ecumenical_council_refused
@@ -5099,7 +5102,7 @@ narrative_event = {
 			holder_scope = { save_event_target_as = current_patriarch }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2284
 		trigger = {
@@ -5138,12 +5141,12 @@ narrative_event = {
 # Check for the Schism
 character_event = {
 	id = Plus.2285
-	
+
 	hide_window = yes
-	
+
 	only_playable = yes
 	religion = chalcedonian
-	
+
 	trigger = {
 		year = 950
 		has_landed_title = d_pentarch_rome
@@ -5162,7 +5165,7 @@ character_event = {
 			has_global_flag = patriarch_supreme_created
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -5176,7 +5179,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			year = 1100
-		}	
+		}
 		modifier = {
 			factor = 0.5
 			496 = { check_variable = { which = "schism_tracker" value = 4.9 } }
@@ -5190,7 +5193,7 @@ character_event = {
 			496 = { check_variable = { which = "schism_tracker" value = 6.9 } }
 		}
 	}
-	
+
 	immediate = {
 		set_global_flag = schism_happening
 		save_event_target_as = schism_pope
@@ -5229,17 +5232,17 @@ narrative_event = {
 	desc = EVTDESC_Plus_2286
 	picture = GFX_evt_great_schism
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 	hide_from = yes
-	
+
 	immediate = {
 		any_vassal = {
 			limit = { is_playable = yes }
 			narrative_event = { id = Plus.2286 days = 1 } #conversion choice
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2286 #Become Catholic
 		trigger = {
@@ -5722,10 +5725,10 @@ narrative_event = {
 # Finish the Schism
 province_event = {
 	id = Plus.2287
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		log = "GREAT SCHISM HAPPENED"
 		clr_global_flag = schism_happening
@@ -5736,16 +5739,17 @@ province_event = {
 		clr_global_flag = wicked_pope_patriarch
 		clr_global_flag = ecumenical_council_refused
 		k_papal_state = { set_title_flag = schism_happened }
-		
+
 		# reset catholic/orthodox heresies
 		set_parent_religion = { religion = cathar parent = catholic }
+		set_parent_religion = { religion = dulcinian parent = catholic }
 		set_parent_religion = { religion = waldensian parent = catholic }
 		set_parent_religion = { religion = lollard parent = catholic }
 		set_parent_religion = { religion = adoptionist parent = catholic }
 		set_parent_religion = { religion = bogomilist parent = orthodox }
 		set_parent_religion = { religion = monothelite parent = orthodox }
 		set_parent_religion = { religion = iconoclast parent = orthodox }
-		
+
 		# reset catholic/orthodox holy orders
 		if = {
 			limit = { d_knights_calatrava = { has_holder = yes } }
@@ -5807,7 +5811,7 @@ province_event = {
 				}
 			}
 		}
-		
+
 		#add new religion heads, destroy old titles
 		activate_title = { title = k_papal_state status = yes }
 		activate_title = { title = k_orthodox status = yes }
@@ -5840,7 +5844,7 @@ province_event = {
 			unsafe_destroy_landed_title = THIS
 			activate_title = { title = THIS status = no }
 		}
-		
+
 		#convert provinces and remaining Chalcedonians
 		any_independent_ruler = {
 			if = {
@@ -5897,7 +5901,7 @@ province_event = {
 					}
 				}
 			}
-			
+
 			#adjust mercenaries
 			any_title = {
 				limit = {
@@ -5934,7 +5938,7 @@ narrative_event = {
 	title = EVTNAME_Plus_2288
 	picture = GFX_evt_pope
 	border = GFX_event_narrative_frame_religion
-	
+
 	desc = {
 		text = EVTDESC_Plus_2288_pope1
 		trigger = {
@@ -5963,12 +5967,12 @@ narrative_event = {
 			FROM = { character = ROOT }
 		}
 	}
-	
+
 	major = yes
 	hide_from = yes
-	show_ROOT = yes	
+	show_ROOT = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		log = "[Root.GetTitledName] has been appointed Supreme Patriarch"
 		k_papal_chalcedon = {
@@ -5977,7 +5981,7 @@ narrative_event = {
 			unsafe_destroy_landed_title = THIS
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_Plus_2288
 		trigger = {
@@ -6002,11 +6006,11 @@ narrative_event = {
 # Relations between Greek/Latin realms
 character_event = {
 	id = Plus.2289
-	
+
 	hide_window = yes
 	religion = chalcedonian
 	is_triggered_only = yes
-	
+
 	trigger = {
 		independent = yes
 		religion = chalcedonian
@@ -6019,7 +6023,7 @@ character_event = {
 			has_global_flag = patriarch_supreme_created
 		}
 	}
-	
+
 	immediate = {
 		set_character_flag = check_greek_latin
 		if = {
@@ -6074,14 +6078,14 @@ character_event = {
 		}
 	}
 }
-	
+
 # Chalcedonian Pope/Patriarch dies
 character_event = {
 	id = Plus.2290
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_theocracy = yes
 		OR = {
@@ -6106,7 +6110,7 @@ character_event = {
 			NOT = { religion = ROOT }
 		}
 	}
-	
+
 	immediate = {
 		current_heir = {
 			religion = ROOT
@@ -6121,7 +6125,7 @@ character_event = {
 	id = Plus.2291
 	desc = EVTDESC_Plus_2291
 	picture = GFX_evt_bishop
-	
+
 	is_triggered_only = yes
 	notification = yes
 
@@ -6135,7 +6139,7 @@ character_event = {
 	id = Plus.2292
 	desc = EVTDESC_Plus_2292
 	picture = GFX_evt_bishop
-	
+
 	is_triggered_only = yes
 	notification = yes
 
@@ -6147,10 +6151,10 @@ character_event = {
 # Cardinal loses title
 character_event = {
 	id = Plus.2293
-	
+
 	hide_window = yes
 	has_character_flag = is_chalcedonian_cardinal
-	
+
 	trigger = {
 		OR = {
 			NOT = { trait = chalc_cardinal }
@@ -6165,11 +6169,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		clr_character_flag = is_chalcedonian_cardinal
 		remove_special_character_title = CHALCEDONIAN_CARDINAL
@@ -6180,10 +6184,10 @@ character_event = {
 # Pope dies
 character_event = {
 	id = Plus.2294
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_landed_title = k_papal_chalcedon
 		chalc_cardinal = {
@@ -6192,11 +6196,11 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	immediate = {
 		#save titles to be taken by the new pope
 		any_demesne_title = { set_title_flag = to_new_pope }
-		
+
 		#pick successor randomly
 		chalc_cardinal = {
 			limit = {
@@ -6207,7 +6211,7 @@ character_event = {
 			save_event_target_as = new_pope
 		}
 		current_heir = { save_event_target_as = interim_pope }
-		
+
 		#notify the player
 		any_playable_ruler = {
 			limit = {
@@ -6217,7 +6221,7 @@ character_event = {
 			}
 			character_event = { id = Plus.2296 days = 1 }
 		}
-		
+
 		#fire the succession event
 		event_target:new_pope = {
 			character_event = { id = Plus.2295 days = 1 }
@@ -6228,15 +6232,15 @@ character_event = {
 # Bounce event for new Pope
 character_event = {
 	id = Plus.2295
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		#step down from old position
 		any_demesne_title = { set_title_flag = former_pope_titles }
 		abdicate = yes
-		
+
 		#remove cardinal status
 		clr_character_flag = is_chalcedonian_cardinal
 		remove_special_character_title = CHALCEDONIAN_CARDINAL
@@ -6253,24 +6257,24 @@ character_event = {
 			limit = { has_landed_title = c_roma }
 			c_roma = { ROOT = { capital = PREV } }
 		}
-		
+
 		#remove claims to old titles
 		any_title = {
 			limit = { has_title_flag = former_pope_titles }
 			clr_title_flag = former_pope_titles
 			remove_claim = ROOT
 		}
-		
+
 		#take the "interim" pope back
 		event_target:interim_pope = { move_character = ROOT }
-		
+
 		#give the proper pope title
 		if = {
 			limit = { has_landed_title = d_pentarch_rome }
 			set_special_character_title = POPE
 			set_character_flag = has_title_pope
 		}
-		
+
 		#give the pope the papal dynasty, if they have none
 		if = {
 			limit = { dynasty = none }
@@ -6278,13 +6282,13 @@ character_event = {
 		}
 	}
 }
-	
+
 # Notification that a new Pope has risen
 character_event = {
 	id = Plus.2296
 	desc = EVTDESC_Plus_2296
 	picture = GFX_evt_bishop
-	
+
 	is_triggered_only = yes
 	notification = yes
 

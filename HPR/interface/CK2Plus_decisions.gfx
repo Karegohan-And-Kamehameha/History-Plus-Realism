@@ -116,16 +116,16 @@ spriteTypes = {
 		texturefile = "gfx\\new_decisions\\decision_icon_bogomilist.dds"
 	}
 	spriteType = {
-		name = "GFX_create_cathar_papacy" 
-		texturefile = "gfx\\new_decisions\\decision_icon_cathar_heresy.dds" 
+		name = "GFX_create_cathar_papacy"
+		texturefile = "gfx\\new_decisions\\decision_icon_cathar_heresy.dds"
 	}
 	spriteType = {
-		name = "GFX_create_iconoclast_patriarch" 
-		texturefile = "gfx\\interface\\decision_icon_create_iconoclast_patriarchy.dds" 
+		name = "GFX_create_iconoclast_patriarch"
+		texturefile = "gfx\\interface\\decision_icon_create_iconoclast_patriarchy.dds"
 	}
 	spriteType = {
-		name = "GFX_create_kingdomofalbania" 
-		texturefile = "gfx\\new_decisions\\decision_icon_create_albania.dds" 
+		name = "GFX_create_kingdomofalbania"
+		texturefile = "gfx\\new_decisions\\decision_icon_create_albania.dds"
 	}
 	spriteType = {
 		name = "GFX_disinherit_child"
@@ -170,7 +170,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_employ_chancellor"
 		texturefile = "gfx\\new_decisions\\decision_icon_employ_diplomat.dds"
-	}	
+	}
 	spriteType = {
 		name = "GFX_employ_marshal"
 		texturefile = "gfx\\new_decisions\\decision_icon_employ_marshal.dds"
@@ -562,11 +562,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_organise_herculeans"
 		texturefile = "gfx\\new_decisions\\decision_icon_heracles.dds"
-	}	
+	}
 	spriteType = {
 		name = "GFX_organise_sacred_band"
 		texturefile = "gfx\\new_decisions\\decision_icon_heracles.dds"
-	}	
+	}
 	spriteType = {
 		name = "GFX_organise_jomsvikings"
 		texturefile = "gfx\\new_decisions\\decision_icon_berserker.dds"
@@ -680,14 +680,6 @@ spriteTypes = {
 		texturefile = "gfx\\new_decisions\\decision_icon_gone_pagan.dds"
 	}
 	spriteType = {
-		name = "GFX_shattered_realm"
-		texturefile = "gfx\\interface\\decision_icon_adopt_feudalism.dds"
-	}
-	spriteType = {
-		name = "GFX_shattered_realm_custom"
-		texturefile = "gfx\\interface\\decision_icon_adopt_feudalism.dds"
-	}	
-	spriteType = {
 		name = "GFX_sicily_regained"
 		texturefile = "gfx\\new_decisions\\faction_princely.dds"
 	}
@@ -783,7 +775,7 @@ spriteTypes = {
 		name = "GFX_yazidi_renounce_heresy"
 		texturefile = "gfx\\new_decisions\\decision_icon_yazidi.dds"
 	}
-	
+
 	### GOVERNMENTS
 	spriteType = {
 		name = "GFX_icon_bogomilist_government"

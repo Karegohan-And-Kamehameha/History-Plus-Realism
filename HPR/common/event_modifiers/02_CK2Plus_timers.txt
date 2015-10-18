@@ -59,7 +59,7 @@ crusade_block_timer = {
 	icon = 1
 }
 
-crusade_timer = { 
+crusade_timer = {
 	icon = 1
 }
 
@@ -95,8 +95,8 @@ held_bema_feast_timer = {
 	icon = 1
 }
 
-held_divination_timer = { 
-	icon = 1 
+held_divination_timer = {
+	icon = 1
 }
 
 heresy_in_province_timer = {
@@ -107,7 +107,7 @@ holding_epic_tournament = {
 	icon = 7
 }
 
-holy_truce_timer = { 
+holy_truce_timer = {
 	icon = 16
 	global_revolt_risk = -0.1
 }
@@ -172,8 +172,8 @@ raise_tribal_units_timer = {
 	icon = 1
 }
 
-ransom_timer = { 
-	icon = 1 
+ransom_timer = {
+	icon = 1
 }
 
 recruit_faction_target_timer = {
@@ -229,13 +229,5 @@ wants_crusade_fief_timer = {
 }
 
 waylit_cd = {
-	icon = 1
-}
-
-shattered_realm_mod = {
-	icon = 1
-}
-
-shattered_realm_cb_timer = {
 	icon = 1
 }

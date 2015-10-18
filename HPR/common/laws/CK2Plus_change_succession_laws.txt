@@ -35,7 +35,7 @@ succession_laws = {
 				}
 				in_revolt = no
 			}
-			rebel = no			
+			rebel = no
 			is_primary_type_title = no
 			is_vice_royalty = no
 			OR = {
@@ -56,7 +56,7 @@ succession_laws = {
 			}
 			NOT = { has_law = succ_gavelkind }
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -95,7 +95,7 @@ succession_laws = {
 						}
 					}
 				}
-			}		
+			}
 		}
 		allow = {
 			OR = {
@@ -184,10 +184,10 @@ succession_laws = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -207,7 +207,7 @@ succession_laws = {
 					}
 					character_event = { id = Plus.604 days = 1 }
 				}
-				
+
 				#actually change the law
 				add_law = succ_gavelkind
 
@@ -215,7 +215,7 @@ succession_laws = {
 					#current heir is unhappy (they have to share) if they were the previous heir
 					event_target:changed_title = {
 						current_heir = {
-							if = { 
+							if = {
 								limit = { has_character_flag = former_heir }
 								opinion = {
 									who = PREVPREV
@@ -281,7 +281,7 @@ succession_laws = {
 			factor = 0
 		}
 	}
-	
+
 	succ_institute_elective_gavelkind = {
 		child_opinion = 25
 		dynasty_opinion = 10
@@ -311,7 +311,7 @@ succession_laws = {
 				}
 				in_revolt = no
 			}
-			rebel = no			
+			rebel = no
 			is_primary_type_title = no
 			is_vice_royalty = no
 			OR = {
@@ -328,9 +328,9 @@ succession_laws = {
 			}
 			NOT = { has_law = succ_elective_gavelkind }
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
-			holder_scope = { ai = no }		
+			holder_scope = { ai = no }
 		}
 		allow = {
 			OR = {
@@ -423,10 +423,10 @@ succession_laws = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -449,7 +449,7 @@ succession_laws = {
 
 				#actually change the law
 				add_law = succ_elective_gavelkind
-				
+
 				holder_scope = {
 					#legitimate children are happy
 					any_child = {
@@ -488,7 +488,7 @@ succession_laws = {
 							modifier = opinion_good_succ_law_change
 							months = 240
 						}
-					}					
+					}
 					#vassals are slightly upset
 					any_vassal = {
 						limit = {
@@ -561,7 +561,7 @@ succession_laws = {
 					NOT = {
 						in_revolt = yes
 						succ_law_title = {
-							title = PREV
+							title = PREVPREV
 						}
 					}
 				}
@@ -571,7 +571,7 @@ succession_laws = {
 					is_tribal = no
 					has_global_flag = ancient_religions
 				}
-			}		
+			}
 			OR = {
 				AND = {
 					tier = baron
@@ -600,7 +600,7 @@ succession_laws = {
 			}
 			NOT = { has_law = succ_seniority }
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -717,10 +717,10 @@ succession_laws = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -819,14 +819,14 @@ succession_laws = {
 		oldest_child_opinion = 30
 		youngest_child_opinion = -30
 		child_opinion = -20
-		
+
 		potential = {
 			holder_scope = {
 				NOT = { religion_group = muslim }
 				NOT = { religion = celtic_pagan }
 				is_merchant_republic = no
 				is_patrician = no
-			}	
+			}
 			OR = {
 				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
 					any_demesne_title = {
@@ -859,7 +859,7 @@ succession_laws = {
 						holder_scope = { is_feudal = yes }
 					}
 				}
-			}			
+			}
 			NOT = { has_law = succ_primogeniture }
 			OR = {
 				NOT = { has_law = succ_elective_gavelkind }
@@ -874,7 +874,7 @@ succession_laws = {
 				is_titular = yes
 			}
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -1093,10 +1093,10 @@ succession_laws = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -1116,7 +1116,7 @@ succession_laws = {
 					}
 					character_event = { id = Plus.604 days = 1 }
 				}
-				
+
 				#actually change the law
 				add_law = succ_primogeniture
 
@@ -1240,7 +1240,7 @@ succession_laws = {
 				is_titular = yes
 			}
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -1367,10 +1367,10 @@ succession_laws = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -1555,7 +1555,7 @@ succession_laws = {
 				is_titular = yes
 			}
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -1675,10 +1675,10 @@ succession_laws = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -1811,7 +1811,7 @@ succession_laws = {
 		oldest_child_opinion = -30
 		child_opinion = -20
 		dynasty_opinion = -5
-		
+
 		potential = {
 			holder_scope = {
 				OR = {
@@ -1865,7 +1865,7 @@ succession_laws = {
 			}
 			NOT = { has_law = succ_ultimogeniture }
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -1966,10 +1966,10 @@ succession_laws = {
 						set_title_flag = former_ultimogeniture
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -2111,7 +2111,7 @@ succession_laws = {
 				in_revolt = no
 				NOT = { has_character_flag = voting_on_succession_law }
 			}
-			rebel = no		
+			rebel = no
 			is_primary_type_title = no
 			is_vice_royalty = no
 			OR = {
@@ -2125,7 +2125,7 @@ succession_laws = {
 			}
 			is_titular = no
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -2306,7 +2306,7 @@ succession_laws = {
 			}
 			is_titular = no
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -2421,14 +2421,14 @@ succession_laws = {
 		oldest_child_opinion = 30
 		youngest_child_opinion = -30
 		child_opinion = -20
-		
+
 		potential = {
 			holder_scope = {
 				NOT = { religion_group = muslim }
 				NOT = { religion = celtic_pagan }
 				is_merchant_republic = no
 				is_patrician = no
-			}	
+			}
 			OR = {
 				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
 					any_demesne_title = {
@@ -2469,7 +2469,7 @@ succession_laws = {
 			}
 			is_titular = no
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -2728,7 +2728,7 @@ succession_laws = {
 				has_law = succ_feudal_elective
 			}
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -2833,9 +2833,9 @@ succession_laws = {
 		}
 		ai_will_revoke = {
 			factor = 0
-		}		
+		}
 	}
-	
+
 	succ_elective_to_feudal_elective = {
 		oldest_child_opinion = -30
 		child_opinion = -20
@@ -2881,7 +2881,7 @@ succession_laws = {
 				has_law = succ_tanistry
 			}
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# ai restrictions
 			OR = {
 				holder_scope = { ai = no }
@@ -2992,7 +2992,7 @@ succession_laws = {
 		}
 		ai_will_revoke = {
 			factor = 0
-		}		
+		}
 	}
 }
 
@@ -3030,7 +3030,7 @@ gender_laws = {
 				has_law = true_cognatic_succession
 			}
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# AI restrictions on usage
 			OR = {
 				holder_scope = { ai = no }
@@ -3208,7 +3208,7 @@ gender_laws = {
 					limit = { has_law = agnatic_succession }
 					holder_scope = { set_character_flag = coming_from_agnatic }
 				}
-				
+
 				#set flag so we know what the former law was
 				if = {
 					limit = { is_primary_holder_title = yes }
@@ -3224,10 +3224,10 @@ gender_laws = {
 						set_title_flag = former_true_cognatic_succession
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -3445,7 +3445,7 @@ gender_laws = {
 			factor = 0
 		}
 	}
-	
+
 	institute_agnatic_succession = {
 		female_dynasty_opinion = -10
 		male_dynasty_opinion = 10
@@ -3454,7 +3454,7 @@ gender_laws = {
 			is_vice_royalty = no
 			has_law = cognatic_succession
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# AI restrictions on usage
 			OR = {
 				holder_scope = { ai = no }
@@ -3554,10 +3554,10 @@ gender_laws = {
 						set_title_flag = former_true_cognatic_succession
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -3694,7 +3694,7 @@ gender_laws = {
 			factor = 0
 		}
 	}
-	
+
 	institute_true_cognatic_succession = {
 		male_dynasty_opinion = -10
 		female_dynasty_opinion = 10
@@ -3724,7 +3724,7 @@ gender_laws = {
 				has_law = enatic_cognatic_succession
 			}
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# AI restrictions on usage
 			OR = {
 				holder_scope = { ai = no }
@@ -3794,7 +3794,7 @@ gender_laws = {
 								is_female = no
 								NOT = { is_older_than = PREV }
 								any_heir_title = { title = PREVPREVPREVPREV }
-								NOR = { 
+								NOR = {
 									diplomacy = 15
 									martial = 15
 									trait = genius
@@ -3846,7 +3846,7 @@ gender_laws = {
 					is_primary_holder_title = yes
 					has_law = cognatic_succession
 					holder_scope = { is_feminist_trigger = yes }
-				}				
+				}
 				# ruler is learned and believes in equality
 				AND = {
 					is_primary_holder_title = yes
@@ -3931,7 +3931,7 @@ gender_laws = {
 					limit = { has_law = enatic_cognatic_succession }
 					holder_scope = { set_character_flag = coming_from_enatic_cognatic }
 				}
-				
+
 				#set flag so we know what the former law was
 				if = {
 					limit = { is_primary_holder_title = yes }
@@ -3947,10 +3947,10 @@ gender_laws = {
 						set_title_flag = former_agnatic_succession
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -4168,7 +4168,7 @@ gender_laws = {
 			factor = 0
 		}
 	}
-	
+
 	institute_enatic_succession = {
 		male_dynasty_opinion = -20
 		female_dynasty_opinion = 20
@@ -4272,10 +4272,10 @@ gender_laws = {
 						set_title_flag = former_true_cognatic_succession
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {
@@ -4295,10 +4295,10 @@ gender_laws = {
 					}
 					character_event = { id = Plus.604 days = 1 }
 				}
-				
+
 				#actually change the law
 				add_law = enatic_succession
-				
+
 				holder_scope = {
 					#legitimate female children are pleased
 					any_child = {
@@ -4412,7 +4412,7 @@ gender_laws = {
 			factor = 0
 		}
 	}
-	
+
 	institute_enatic_cognatic_succession = {
 		male_dynasty_opinion = -15
 		female_dynasty_opinion = 10
@@ -4441,7 +4441,7 @@ gender_laws = {
 			}
 			NOT = { has_law = enatic_cognatic_succession }
 			e_placeholder = { has_title_flag = startup }
-			
+
 			# AI restrictions on usage
 			OR = {
 				holder_scope = { ai = no }
@@ -4473,7 +4473,7 @@ gender_laws = {
 								is_female = no
 								is_older_than = PREV
 								any_heir_title = { title = PREVPREVPREVPREV }
-								NOR = { 
+								NOR = {
 									diplomacy = 10
 									martial = 10
 									trait = genius
@@ -4550,7 +4550,7 @@ gender_laws = {
 					limit = { has_law = enatic_succession }
 					holder_scope = { set_character_flag = coming_from_enatic }
 				}
-				
+
 				#set flag so we know what the former law was
 				if = {
 					limit = { is_primary_holder_title = yes }
@@ -4570,10 +4570,10 @@ gender_laws = {
 						set_title_flag = former_true_cognatic_succession
 					}
 				}
-				
+
 				set_title_flag = title_to_change
 				save_event_target_as = changed_title
-				
+
 				#set opinion changes for heirs and pretenders
 				current_heir = { set_character_flag = former_heir }
 				holder_scope = {

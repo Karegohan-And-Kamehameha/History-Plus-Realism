@@ -10,7 +10,7 @@
 #	dynasty: all members of the same dynasty
 #	rivals: your rivals plus any character you have an opinion modifier with 'crime = yes' set (the same set of characters the 'is_foe' trigger evaluates)
 #	all: all living characters (Avoid if possible. VERY CPU-HEAVY!)
-#	
+#
 
 # Written by Henrik "Groogy" Hansson
 
@@ -19,7 +19,7 @@ targetted_decisions = {
 	create_mercenary_company = {
 		filter = home_court
 		ai_target_filter = home_court
-		
+
 		from_potential = {
 			has_dlc = "Horse Lords"
 			is_ruler = yes
@@ -123,7 +123,7 @@ targetted_decisions = {
 						}
 					}
 				}
-				
+
 				ROOT = {
 					set_defacto_liege = THIS
 				}
@@ -179,13 +179,13 @@ targetted_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { martial = 4 }
-			}			
-			
+			}
+
 			modifier = {
 				factor = 0.5
 				NOT = { martial = 8 }
 			}
-			
+
 			modifier = {
 				factor = 2
 				martial = 10
@@ -241,7 +241,7 @@ targetted_decisions = {
 	dissolve_mercenary_company = {
 		filter = dynasty
 		ai_target_filter = dynasty
-		
+
 		from_potential = {
 			has_dlc = "Horse Lords"
 		}
@@ -281,7 +281,7 @@ targetted_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0.01
 			}
@@ -366,7 +366,7 @@ decisions = {
 			wealth = -25
 			primary_title = {
 				change_title_army_size = 0.05 # Increase of percentage
-	
+
 				band_creator = {
 					if = {
 						limit = { is_alive = yes }
@@ -398,7 +398,7 @@ decisions = {
 				factor = 2
 				trait = proud
 			}
-			
+
 			modifier = {
 				factor = 2
 				trait = ambitious
@@ -522,13 +522,6 @@ decisions = {
 			modifier = {
 				factor = 5
 				wealth = 1600
-			}
-			
-			modifier = {
-				factor = 0.1
-				band_creator = {
-					is_alive = no
-				}
 			}
 		}
 	}

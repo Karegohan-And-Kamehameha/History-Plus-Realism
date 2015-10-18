@@ -3,5 +3,5 @@
 }
 966.1.1 = {
 	# Paradox history script bugs -> can't use de_jure_liege = 0
-	de_jure_liege = e_null
+	de_jure_liege = e_placeholder
 }

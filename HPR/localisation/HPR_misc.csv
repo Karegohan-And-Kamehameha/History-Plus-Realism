@@ -11,3 +11,149 @@ HPR2_desc;While marching through foreign lands, I have been captured by their lo
 HPR1_desc;The lord of the lands I'm marching through has tried to capture me, but I have successfully escaped their pathetic attempt.;;;;;;;;;;;;;x
 HPR3_desc;The filthy trespasser has eluded our scouts and escaped our attemt to capture them.;;;;;;;;;;;;;x
 HPR4_desc;The filthy trespasser that was marching through our lands has been captured by our scouts and is now in my dungeon.;;;;;;;;;;;;;x
+italian_reconquest_desc;The lost territory in Italy must be reclaimed! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!.;The lost territory in Italy must be reclaimed! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!.;The lost territory in Italy must be reclaimed! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!.;;The lost territory in Italy must be reclaimed! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!.;;;;;;;;;x,,,,,,,
+d_dulcinian;The Dulcinian Patriarchy;The Dulcinian Patriarchy;The Dulcinian Patriarchy;;The Dulcinian Patriarchy;;;;;;;;x
+d_dulcinian_adj;Patriarchal;Patriarchal;Patriarchal;;Patriarchal;;;;;;;;x
+dulcinian;Dulcinian;Dulcinian;Dulcinian;;Dulcinian;;;;;;;;;x
+CHRONICLE_HELD_NERGE;[Root.GetTitledName] held a great Nurge.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+CHRONICLE_RUNESTONE_POSSESSED;[Root.GetTitledName] raised a runestone for the glory of [Root.GetRandomEvilGodName];;;;;;;;;;;;x;;
+Lord;Lord;;;;;;;;;;;;;x
+DULCINIAN_MATRIARCH;Dulcinian Matriarch;Dulcinian Matriarch;Dulcinian Matriarch;;Dulcinian Matriarch;;;;;;;;;x
+DULCINIAN_PATRIARCH;Dulcinian Patriarch;Dulcinian Patriarch;Dulcinian Patriarch;;Dulcinian Patriarch;;;;;;;;;x
+k_plantagenet;Plantagenet;;;;;;;;;;;;;x
+k_plantagenet_adj;Plantagenetan;;;;;;;;;;;;;x
+k_brandenburg_adj;Brandenburgian;;;;;;;;;;;;;x
+d_wolftails_adj;Wolftailsian;;;;;;;;;;;;;x
+d_promethean_pagan_adj;Academician;Academician;Academician;;Academician;;;;;;;;x
+d_zun_pagan_reformed_adj;Zunist;;;;;;;;;;;;;x;;
+c_tahoua_adj;Tahouan;;;;;;;;;;;;;x
+c_jungaria_adj;Jungarian;;;;;;;;;;;;;x
+c_zaysan_adj;Zaysanan;;;;;;;;;;;;;x
+c_emil_adj;Emilan;;;;;;;;;;;;;x
+c_ayaguz_adj;Ayaguzan;;;;;;;;;;;;;x
+c_qarashahr_adj;Qarashahran;;;;;;;;;;;;;x
+c_kucha_adj;Kuchan;;;;;;;;;;;;;x
+c_aqsu_adj;Aqsun;;;;;;;;;;;;;x
+c_kashgar_adj;Kashgaran;;;;;;;;;;;;;x
+c_naryn_adj;Narynan;;;;;;;;;;;;;x
+c_talas_adj;Talasan;;;;;;;;;;;;;x
+b_chigil;Chigil;;;;;;;;;;;;;x
+c_balasaghnun_adj;Balasaghnunan;;;;;;;;;;;;;x
+c_barskhan_adj;Barskhanan;;;;;;;;;;;;;x
+b_karakol;Karakol;;;;;;;;;;;;;x
+c_almaliq_adj;Almaliqan;;;;;;;;;;;;;x
+c_yeti-su_adj;Yeti-suan;;;;;;;;;;;;;x
+c_sighnaq_adj;Sighnaqan;;;;;;;;;;;;;x
+c_jand_adj;Jandan;;;;;;;;;;;;;x
+c_irgiz_adj;Irgizan;;;;;;;;;;;;;x
+c_sarisu_adj;Sarisuan;;;;;;;;;;;;;x
+c_karasu_adj;Karasuan;;;;;;;;;;;;;x
+c_buzachi_adj;Buzachian;;;;;;;;;;;;;x
+c_ustyurt_adj;Ustyurtan;;;;;;;;;;;;;x
+b_sanamayn;Sanamayn;;;;;;;;;;;;;x
+b_schuf;Schuf;;;;;;;;;;;;;x
+k_kosala_adj;Kosali;;;;;;;;;;;;;x
+d_jejakabhukti_adj;Jejakabhukti;;;;;;;;;;;;;x
+d_saryupara_adj;Saryupari;;;;;;;;;;;;;x
+d_kanyakubja_adj;Kanyakubji;;;;;;;;;;;;;x
+k_malwa_adj;Malwi;;;;;;;;;;;;;x
+d_anupa_adj;Anupi;;;;;;;;;;;;;x
+d_akara_dasarna_adj;Akara Dasarni;;;;;;;;;;;;;x
+d_dadhipadra_adj;Dadhipadri;;;;;;;;;;;;;x
+k_rajputana_adj;Rajputani;;;;;;;;;;;;;x
+d_ajmer_adj;Ajmeri;;;;;;;;;;;;;x
+c_gwalior_adj;Gwaliori;;;;;;;;;;;;;x
+d_medapata_adj;Medapati;;;;;;;;;;;;;x
+d_stravani_adj;Stravani;;;;;;;;;;;;;x
+d_jangladesh_adj;Jangladeshi;;;;;;;;;;;;;x
+d_maru_adj;Marun;;;;;;;;;;;;;x
+k_gujarat_adj;Gujarati;;;;;;;;;;;;;x
+d_lata_adj;Latan;;;;;;;;;;;;;x
+d_saurashtra_adj;Saurashtri;;;;;;;;;;;;;x
+d_anartta_adj;Anarttan;;;;;;;;;;;;;x
+d_gurjara_mandala_adj;Gurjara Mandali;;;;;;;;;;;;;x
+k_delhi_adj;Delhiite;;;;;;;;;;;;;x
+d_vodamayutja_adj;Vodamayutji;;;;;;;;;;;;;x
+d_mathura_adj;Mathuri;;;;;;;;;;;;;x
+d_haritanaka_adj;Haritanaki;;;;;;;;;;;;;x
+d_kuru_adj;Kuruan;;;;;;;;;;;;;x
+k_punjab_adj;Punjabi;;;;;;;;;;;;;x
+d_gandhara_adj;Gandhari;;;;;;;;;;;;;x
+d_lahore_adj;Lahorese;;;;;;;;;;;;;x
+d_multan_adj;Multani;;;;;;;;;;;;;x
+k_sindh_adj;Sindhi;;;;;;;;;;;;;x
+d_bhakkar_adj;Bhakkari;;;;;;;;;;;;;x
+d_sauvira_adj;Sauviri;;;;;;;;;;;;;x
+c_talekan_adj;Talekani;;;;;;;;;;;;;x
+c_chaghaniyan_adj;Changhaniyani;;;;;;;;;;;;;x
+c_rasht_adj;Rashtan;;;;;;;;;;;;;x
+c_vakhan_adj;Vakhani;;;;;;;;;;;;;x
+c_badakhshan_adj;Badakhshani;;;;;;;;;;;;;x
+c_lamghan_adj;Lamghani;;;;;;;;;;;;;x
+c_harazasp_adj;Harazaspan;;;;;;;;;;;;;x
+c_uzboy_adj;Uzboyan;;;;;;;;;;;;;x
+c_kath_adj;Kathan;;;;;;;;;;;;;x
+c_kerder_adj;Kerderi;;;;;;;;;;;;;x
+c_shash_adj;Shashi;;;;;;;;;;;;;x
+c_ferghana_adj;Ferghani;;;;;;;;;;;;;x
+c_khaylam_adj;Khaylami;;;;;;;;;;;;;x
+c_aval_adj;Avali;;;;;;;;;;;;;x
+c_khojand_adj;Khojandi;;;;;;;;;;;;;x
+c_panjikend_adj;Panjikendi;;;;;;;;;;;;;x
+c_ustrushana_adj;Ustrushani;;;;;;;;;;;;;x
+c_nakhsheb_adj;Nakhsheban;;;;;;;;;;;;;x
+c_samarqand_adj;Samarqandi;;;;;;;;;;;;;x
+c_turan_adj;Turani;;;;;;;;;;;;;x
+c_pandjgur_adj;Pandjguri;;;;;;;;;;;;;x
+c_mashkel_adj;Mashkelan;;;;;;;;;;;;;x
+c_rukhadj_adj;Rukhadji;;;;;;;;;;;;;x
+c_zamindavar_adj;Zamindavari;;;;;;;;;;;;;x
+c_farah_adj;Farahan;;;;;;;;;;;;;x
+c_tokharestan_adj;Tokharestani;;;;;;;;;;;;;x
+c_rivsharan_adj;Rivsharani;;;;;;;;;;;;;x
+c_ganj-rustaq_adj;Ganj-Rustaqan;;;;;;;;;;;;;x
+c_ghor_adj;Ghoran;;;;;;;;;;;;;x
+c_gharchistan_adj;Gharchistani;;;;;;;;;;;;;x
+c_badghis_adj;Badhisan;;;;;;;;;;;;;x
+c_amol_adj;Amoli;;;;;;;;;;;;;x
+c_guzgan_adj;Guzgani;;;;;;;;;;;;;x
+c_sarakhs_adj;Sarakhsi;;;;;;;;;;;;;x
+c_bakharz_adj;Bakharzi;;;;;;;;;;;;;x
+c_farava_adj;Faravan;;;;;;;;;;;;;x
+c_abivard_adj;Abivardi;;;;;;;;;;;;;x
+c_arghiyan_adj;Arghiyani;;;;;;;;;;;;;x
+b_akhor_dishistan;Akhor Dishistani;;;;;;;;;;;;;x
+c_zanjan_adj;Zanjani;;;;;;;;;;;;;x
+c_kharraqan_adj;Krarraqani;;;;;;;;;;;;;x
+c_ruyan_adj;Ruyani;;;;;;;;;;;;;x
+c_idhaj_adj;Idhaji;;;;;;;;;;;;;x
+c_ahwaz_adj;Ahwazi;;;;;;;;;;;;;x
+c_mafaza_adj;Mafazan;;;;;;;;;;;;;x
+b_nain;Nain;;;;;;;;;;;;;x
+c_jiruft_adj;Jirufti;;;;;;;;;;;;;x
+c_darabjird_adj;Darabjirdan;;;;;;;;;;;;;x
+c_arrajan_adj;Arrajani;;;;;;;;;;;;;x
+c_mandistan_adj;Mandistani;;;;;;;;;;;;;x
+c_siraf_adj;Sirafi;;;;;;;;;;;;;x
+c_larestan_adj;Larestani;;;;;;;;;;;;;x
+c_biyar_adj;Biyaran;;;;;;;;;;;;;x
+c_kumis_adj;Kumisan;;;;;;;;;;;;;x
+c_igharayn_adj;Igharayni;;;;;;;;;;;;;x
+b_bati_kaba;Bati Kaba;;;;;;;;;;;;;x
+b_annan;Annan;;;;;;;;;;;;;x
+c_tweedale_adj;Tweedalean;;;;;;;;;;;;;x
+b_adel;Adel;;;;;;;;;;;;;x
+c_zaila_adj;Zailan;;;;;;;;;;;;;x
+b_lakka;Lakka;;;;;;;;;;;;;x
+c_burzenland_adj;Burzenlandan;;;;;;;;;;;;;x
+b_torcsvar;Torcsvar;;;;;;;;;;;;;x
+b_capriana_moldova;Capriana Moldova;;;;;;;;;;;;;x
+b_borgarvirki;Borgarvirki;;;;;;;;;;;;;x
+b_mokhbud;Mokhbud;;;;;;;;;;;;;x
+c_theodoro_adj;Theodoroan;;;;;;;;;;;;;x
+c_laranda_adj;Larandan;;;;;;;;;;;;;x
+b_talas_anatolia;Talas Anatolia;
+d_socotra_adj;Socotran;;;;;;;;;;;;;x
+RETTYPE_CUL_ORDU;Nomadic Horse Archers;;;;;;;;;;;;;x
+RETTYPE_CUL_DAYLAMITE;Daylamite Pikemen;;;;;;;;;;;;;x
+Khorramdin_Rebellion;Khorramdin Rebellion;;;;;;;;;;;;;x

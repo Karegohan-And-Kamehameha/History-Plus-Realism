@@ -11,10 +11,10 @@ namespace = PlusFaction
 # Main faction maintenance event
 character_event = {
 	id = PlusFaction.200
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_nomadic = no
 		higher_tier_than = COUNT
@@ -39,7 +39,7 @@ character_event = {
 		set_variable = { which = "faction_mood_prosperity" value = 0 }
 		set_variable = { which = "faction_mood_glory" value = 0 }
 		set_variable = { which = "faction_mood_tradition" value = 0 }
-		
+
 		#count the number of votes in each faction
 		any_vassal = {
 			if = {
@@ -173,7 +173,7 @@ character_event = {
 			set_variable = { which = "faction_mood_increase" value = 0 }
 			set_variable = { which = "faction_mood_decrease" value = 0 }
 		}
-		
+
 		#make any one-time adjustments to faction opinions
 		any_vassal = {
 			limit = {
@@ -373,7 +373,7 @@ character_event = {
 			set_variable = { which = "faction_mood_increase" value = 0 }
 			set_variable = { which = "faction_mood_decrease" value = 0 }
 		}
-		
+
 		#for the annual faction maintenance, add in any yearly faction opinion modifiers & calculate faction leader popularity
 		if = {
 			limit = { has_character_flag = annual_faction_maintenance }
@@ -536,7 +536,7 @@ character_event = {
 						}
 					}
 					opinion = { who = ROOT modifier = faction_disapprove_CA multiplier = 2 months = 14 }
-				}				
+				}
 				any_vassal = {
 					limit = {
 						OR = {
@@ -741,7 +741,7 @@ character_event = {
 					}
 					opinion = { who = ROOT modifier = faction_approve_TO multiplier = 2 months = 14 }
 				}
-			}							
+			}
 
 			#feudal/city/temple/iqta tax
 			any_vassal = {
@@ -994,7 +994,7 @@ character_event = {
 					opinion = { who = ROOT modifier = faction_approve_council_term months = 14 }
 				}
 			}
-			
+
 			#councillors
 			any_vassal = {
 				remove_opinion = { who = ROOT modifier = faction_approve_council }
@@ -1725,7 +1725,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		#evaluate faction moods
 		any_vassal = {
 			limit = {
@@ -1904,7 +1904,7 @@ character_event = {
 						has_character_flag = faction_court_happy
 						has_character_flag = faction_court_unhappy
 						has_character_flag = faction_court_angry
-					}	
+					}
 				}
 				clr_character_flag = faction_court_happy
 				clr_character_flag = faction_court_unhappy
@@ -1919,7 +1919,7 @@ character_event = {
 					}
 					character_event = { id = PlusFaction.201 days = 1 }
 				}
-			}				
+			}
 			if = {
 				limit = {
 					check_variable = { which = "faction_mood_court" value = 37.5 }
@@ -1997,7 +1997,7 @@ character_event = {
 						has_character_flag = faction_prosperity_happy
 						has_character_flag = faction_prosperity_unhappy
 						has_character_flag = faction_prosperity_angry
-					}	
+					}
 				}
 				clr_character_flag = faction_prosperity_happy
 				clr_character_flag = faction_prosperity_unhappy
@@ -2090,7 +2090,7 @@ character_event = {
 						has_character_flag = faction_glory_happy
 						has_character_flag = faction_glory_unhappy
 						has_character_flag = faction_glory_angry
-					}	
+					}
 				}
 				clr_character_flag = faction_glory_happy
 				clr_character_flag = faction_glory_unhappy
@@ -2183,7 +2183,7 @@ character_event = {
 						has_character_flag = faction_tradition_happy
 						has_character_flag = faction_tradition_unhappy
 						has_character_flag = faction_tradition_angry
-					}	
+					}
 				}
 				clr_character_flag = faction_tradition_happy
 				clr_character_flag = faction_tradition_unhappy
@@ -2239,18 +2239,18 @@ character_event = {
 				}
 			}
 		}
-	}			
+	}
 }
 
 # Notification of court faction mood change
 character_event = {
 	id = PlusFaction.201
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
 	notification = yes
 	hide_from = yes
-	
+
 	desc = {
 		text = EVTDESC_PlusFaction_201_Happy
 		trigger = {
@@ -2281,7 +2281,7 @@ character_event = {
 			FROM = { has_character_flag = faction_court_angry }
 		}
 	}
-	
+
 	option = {
 		name = "OK"
 	}
@@ -2291,11 +2291,11 @@ character_event = {
 character_event = {
 	id = PlusFaction.202
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
 	notification = yes
 	hide_from = yes
-	
+
 	desc = {
 		text = EVTDESC_PlusFaction_202_Happy
 		trigger = {
@@ -2326,7 +2326,7 @@ character_event = {
 			FROM = { has_character_flag = faction_prosperity_angry }
 		}
 	}
-	
+
 	option = {
 		name = "OK"
 	}
@@ -2336,11 +2336,11 @@ character_event = {
 character_event = {
 	id = PlusFaction.203
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
 	notification = yes
 	hide_from = yes
-	
+
 	desc = {
 		text = EVTDESC_PlusFaction_203_Happy
 		trigger = {
@@ -2371,7 +2371,7 @@ character_event = {
 			FROM = { has_character_flag = faction_glory_angry }
 		}
 	}
-	
+
 	option = {
 		name = "OK"
 	}
@@ -2381,11 +2381,11 @@ character_event = {
 character_event = {
 	id = PlusFaction.204
 	picture = GFX_evt_council
-	
+
 	is_triggered_only = yes
 	notification = yes
 	hide_from = yes
-	
+
 	desc = {
 		text = EVTDESC_PlusFaction_204_Happy
 		trigger = {
@@ -2416,7 +2416,7 @@ character_event = {
 			FROM = { has_character_flag = faction_tradition_angry }
 		}
 	}
-	
+
 	option = {
 		name = "OK"
 	}
@@ -2428,7 +2428,7 @@ character_event = {
 
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_ruler = yes
 	}
@@ -2634,10 +2634,10 @@ character_event = {
 # Faction pleased due to granted title
 character_event = {
 	id = PlusFaction.212
-	
+
 	is_triggered_only = yes
 	hide_window = yes
-	
+
 	immediate = {
 		FROM = {
 			save_event_target_as = new_title

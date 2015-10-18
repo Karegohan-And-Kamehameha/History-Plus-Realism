@@ -1,7 +1,7 @@
 
 ###########################################
 #                                         #
-# SoA minor religious events              #             
+# SoA minor religious events              #
 #                                         #
 # ID SoA.5200-SoA.5399                    #
 #                                         #
@@ -28,7 +28,7 @@ character_event = {
 	min_age = 16
 	only_rulers = yes
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		war = yes
@@ -38,11 +38,11 @@ character_event = {
 			has_character_modifier = owns_relic
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10000
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5200
 		add_character_modifier = {
@@ -78,7 +78,7 @@ character_event = {
 			has_character_modifier = owns_relic
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5000
 	}
@@ -123,7 +123,7 @@ character_event = {
 			has_character_modifier = owns_relic
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5000
 	}
@@ -145,7 +145,7 @@ character_event = {
 	desc = EVTDESC_SoA_5203
 	picture = GFX_evt_bad_news
 	border = GFX_event_normal_frame_religion
-	
+
 	religion_group = christian
 
 	trigger = {
@@ -158,7 +158,7 @@ character_event = {
 		has_character_modifier = owns_relic
 		NOT = { religion = waldensian }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2500
 	}
@@ -175,7 +175,7 @@ character_event = {
 	desc = EVTDESC_SoA_5204
 	picture = GFX_evt_burning_house
 	border = GFX_event_normal_frame_religion
-	
+
 	religion_group = christian
 
 	trigger = {
@@ -187,7 +187,7 @@ character_event = {
 		}
 		has_character_modifier = owns_relic
 	}
-	
+
 	mean_time_to_happen = {
 		months = 50
 	}
@@ -204,7 +204,7 @@ character_event = {
 	desc = EVTDESC_SoA_5205
 	picture = GFX_evt_son_asking_father
 	border = GFX_event_normal_frame_religion
-	
+
 	religion_group = christian
 
 	trigger = {
@@ -212,7 +212,7 @@ character_event = {
 		has_character_modifier = owns_relic
 		NOT = { religion = waldensian }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10000
 	}
@@ -249,14 +249,14 @@ character_event = {
 
 	min_age = 16
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		trait = ill
 		has_character_modifier = owns_relic
 		NOT = { religion = waldensian }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 250
 	}
@@ -305,7 +305,7 @@ character_event = {
 	desc = EVTDESC_SoA_5207
 	picture = GFX_evt_stone_church
 	border = GFX_event_normal_frame_religion
-	
+
 	religion_group = christian
 
 	trigger = {
@@ -315,7 +315,7 @@ character_event = {
 		has_character_modifier = owns_relic
 		NOT = { religion = waldensian }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 250
 	}
@@ -352,7 +352,7 @@ character_event = {
 	ai = no
 	min_age = 16
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		is_heretic = no
@@ -423,7 +423,7 @@ character_event = {
 		has_character_modifier = owns_relic
 		NOT = { religion = waldensian }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3000
 	}
@@ -461,7 +461,7 @@ character_event = {
 	id = SoA.5229
 	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
-	
+
 	desc = {
 		text = EVTDESC_SoA_5229
 		trigger = {
@@ -487,7 +487,7 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5229
 		trigger = { NOT = { religion_group = christian } }
@@ -556,7 +556,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2500
 	}
@@ -609,7 +609,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2500
 	}
@@ -646,7 +646,7 @@ character_event = {
 	desc = EVTDESC_SoA_5212
 	picture = GFX_evt_monastery_monks
 	border = GFX_event_normal_frame_religion
-	
+
 	only_playable = yes
 	religion_group = christian
 
@@ -655,7 +655,7 @@ character_event = {
 		trait = ill
 		piety = 1
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1000
 	}
@@ -686,12 +686,12 @@ character_event = {
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		NOT = { trait = blinded }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5000
 	}
@@ -716,12 +716,12 @@ character_event = {
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		NOT = { trait = blinded }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 4000
 	}
@@ -737,7 +737,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB_SoA_5214
-		
+
 	}
 }
 
@@ -751,11 +751,11 @@ character_event = {
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 	}
-	
+
 	mean_time_to_happen = {
 		months = 4000
 	}
@@ -926,7 +926,7 @@ character_event = {
 
 	min_age = 16
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		scaled_wealth = 0.1
@@ -935,7 +935,7 @@ character_event = {
 	mean_time_to_happen = {
 		months = 2000
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5219
 		wealth = -30
@@ -962,12 +962,12 @@ character_event = {
 
 	min_age = 16
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		is_heretic = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5000
 		modifier = {
@@ -1012,12 +1012,12 @@ character_event = {
 
 	min_age = 16
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		is_heretic = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5000
 		modifier = {
@@ -1087,7 +1087,7 @@ character_event = {
 			trait = homosexual
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1000
 			modifier = {
@@ -1172,12 +1172,12 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		trait = possessed
 	}
-	
+
 	mean_time_to_happen = {
 		months = 400
 	}
@@ -1244,7 +1244,7 @@ character_event = {
 	id = SoA.5300
 
 	hide_window = yes
-	
+
 	religion_group = christian
 
 	trigger = {
@@ -1253,7 +1253,7 @@ character_event = {
 		NOT = { diplomacy = 3 }
 		is_priest = yes
 		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_christian }		
+		NOT = { trait = bad_priest_christian }
 		OR = {
 			trait = cynical
 			trait = lustful
@@ -1313,7 +1313,7 @@ character_event = {
 
 	min_age = 16
 	religion_group = muslim
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
@@ -1327,7 +1327,7 @@ character_event = {
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
 		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_muslim }		
+		NOT = { trait = bad_priest_muslim }
 		OR = {
 			trait = cynical
 			trait = lustful
@@ -1387,7 +1387,7 @@ character_event = {
 
 	min_age = 16
 	religion_group = pagan_group
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
@@ -1401,7 +1401,7 @@ character_event = {
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
 		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_norse }		
+		NOT = { trait = bad_priest_norse }
 		OR = {
 			trait = cynical
 			trait = gluttonous
@@ -1472,7 +1472,7 @@ character_event = {
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
 		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_tengri }		
+		NOT = { trait = bad_priest_tengri }
 		OR = {
 			trait = cynical
 			trait = lunatic
@@ -1536,7 +1536,7 @@ character_event = {
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
 		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_zoroastrian }		
+		NOT = { trait = bad_priest_zoroastrian }
 		OR = {
 			trait = cynical
 			trait = arbitrary
@@ -1598,7 +1598,7 @@ character_event = {
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
 		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_aztec }		
+		NOT = { trait = bad_priest_aztec }
 		OR = {
 			trait = cynical
 			trait = craven
@@ -1699,7 +1699,7 @@ narrative_event = {
 	border = GFX_event_narrative_frame_religion
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5307
 	}
@@ -1708,7 +1708,7 @@ narrative_event = {
 # Wicked Pope or Patriarch!
 character_event = {
 	id = SoA.5311
-	
+
 	hide_window = yes
 	religion_group = christian
 
@@ -1724,6 +1724,7 @@ character_event = {
 			has_landed_title = d_monothelite
 			has_landed_title = d_fraticelli
 			has_landed_title = d_cathar
+			has_landed_title = d_dulcinian
 			has_landed_title = d_iconoclast
 			has_landed_title = d_bogomilist
 			has_landed_title = d_paulician
@@ -1760,7 +1761,7 @@ character_event = {
 	desc = EVTDESC_SoA_5312
 	picture = GFX_evt_pope_feast
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -1771,7 +1772,7 @@ character_event = {
 # Wicked Caliph!
 character_event = {
 	id = SoA.5313
-	
+
 	hide_window = yes
 	religion_group = muslim
 
@@ -1817,7 +1818,7 @@ character_event = {
 	desc = EVTDESC_SoA_5314
 	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -1828,7 +1829,7 @@ character_event = {
 # Unworthy Fylkir!
 character_event = {
 	id = SoA.5315
-	
+
 	hide_window = yes
 	religion_group = pagan_group
 
@@ -1867,7 +1868,7 @@ character_event = {
 	desc = EVTDESC_SoA_5316
 	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -1878,7 +1879,7 @@ character_event = {
 # Unworthy Head Priest! (Tengri)
 character_event = {
 	id = SoA.5317
-	
+
 	hide_window = yes
 	religion_group = pagan_group
 
@@ -1928,7 +1929,7 @@ character_event = {
 # Immoral Moabadan-Moabad!
 character_event = {
 	id = SoA.5319
-	
+
 	hide_window = yes
 	religion_group = zoroastrian_group
 
@@ -1967,7 +1968,7 @@ character_event = {
 	desc = EVTDESC_SoA_5320
 	picture = GFX_evt_marriage_zoroastrian_group
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -1978,7 +1979,7 @@ character_event = {
 # Unworthy Head Priest! (Aztec)
 character_event = {
 	id = SoA.5321
-	
+
 	hide_window = yes
 	religion = aztec
 
@@ -2017,7 +2018,7 @@ character_event = {
 	desc = EVTDESC_SoA_5322
 	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2052,17 +2053,18 @@ character_event = {
 		OR = {
 			religion = catholic
 			religion = cathar
+			religion = dulcinian
 			religion = fraticelli
 			religion = waldensian
 			religion = lollard
 			religion = adoptionist
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		piety = 50
 		prestige = 25
@@ -2098,7 +2100,7 @@ narrative_event = {
 		}
 		wealth = 200
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -2106,7 +2108,7 @@ narrative_event = {
 			has_focus = focus_theology
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5341
 		ai_chance = {
@@ -2158,7 +2160,7 @@ narrative_event = {
 	only_capable = yes
 	min_age = 16
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		year = 950
@@ -2185,7 +2187,7 @@ narrative_event = {
 		NOT = { has_character_modifier = do_not_disturb }
 		NOT = { trait = in_hiding }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -2302,11 +2304,11 @@ character_event = {
 			religion = iconoclast
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		piety = 50
 		prestige = 25
@@ -2343,7 +2345,7 @@ narrative_event = {
 		}
 		wealth = 200
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -2351,7 +2353,7 @@ narrative_event = {
 			has_focus = focus_theology
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5345
 		ai_chance = {
@@ -2394,7 +2396,7 @@ narrative_event = {
 	only_men = yes
 	min_age = 16
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		year = 885
@@ -2420,7 +2422,7 @@ narrative_event = {
 			value = 300	# Not too far away
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -2454,7 +2456,7 @@ narrative_event = {
 	border = GFX_event_narrative_frame_religion
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5347
 		random = {
@@ -2507,7 +2509,7 @@ character_event = {
 	prisoner = no
 	min_age = 16
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		year = 1000
@@ -2523,7 +2525,7 @@ character_event = {
 		}
 		NOT = { has_global_flag = jeanne_darc_spawned }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3000
 	}
@@ -2586,7 +2588,7 @@ character_event = {
 	id = SoA.5351
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -2619,7 +2621,7 @@ narrative_event = {
 	border = GFX_event_narrative_frame_religion
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5353
 		custom_tooltip = { text = jeanne_arrives_message }
@@ -2636,7 +2638,7 @@ character_event = {
 	id = SoA.5354
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -2644,15 +2646,15 @@ character_event = {
 			limit = { is_alive = yes }
 			FROM = { narrative_event = { id = SoA.5355 } }
 		}
-	}	
+	}
 }
-	
+
 narrative_event = {
 	id = SoA.5355
 	title = EVTNAME_SoA_5355
 	desc = EVTDESC_SoA_5355
 	picture = GFX_evt_scandal
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2691,7 +2693,7 @@ narrative_event = {
 		any_courtier = {
 			limit = { has_character_flag = is_jeanne_darc }
 			hidden_tooltip = { character_event = { id = SoA.5356 days = 90 random = 60 } }
-		}		
+		}
 	}
 	option = {
 		name = EVTOPTC_SoA_5355
@@ -2709,9 +2711,9 @@ narrative_event = {
 # Jeanne d'Arc approaches liege to talk of God and life
 character_event = {
 	id = SoA.5356
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -2727,7 +2729,7 @@ narrative_event = {
 	desc = EVTDESC_SoA_5357
 	picture = GFX_evt_daughter_asking_father
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2870,9 +2872,9 @@ narrative_event = {
 # Peasants like Jeanne
 character_event = {
 	id = SoA.5363
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -2887,7 +2889,7 @@ narrative_event = {
 	title = EVTNAME_SoA_5364
 	desc = EVTDESC_SoA_5364
 	picture = GFX_evt_stone_church
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2906,9 +2908,9 @@ narrative_event = {
 # Jeanne comes with advice to liege
 character_event = {
 	id = SoA.5365
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -2923,7 +2925,7 @@ narrative_event = {
 	title = EVTNAME_SoA_5366
 	desc = EVTDESC_SoA_5366
 	picture = GFX_evt_throne_room
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2977,9 +2979,9 @@ narrative_event = {
 # Jeanne d'Arc - Church reacts
 character_event = {
 	id = SoA.5367
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -2995,7 +2997,7 @@ narrative_event = {
 	desc = EVTDESC_SoA_5368
 	picture = GFX_evt_courtiers_talking
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -3051,9 +3053,9 @@ narrative_event = {
 # Jeanne d'Arc - Jeanne's ways affect liege
 character_event = {
 	id = SoA.5369
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3069,7 +3071,7 @@ narrative_event = {
 	desc = EVTDESC_SoA_5370
 	picture = GFX_evt_princess_byzantine
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -3106,9 +3108,9 @@ narrative_event = {
 # Jeanne d'Arc - Nobles complain again - issue of low birth
 character_event = {
 	id = SoA.5371
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3138,7 +3140,7 @@ narrative_event = {
 	title = EVTNAME_SoA_5373
 	desc = EVTDESC_SoA_5373
 	picture = GFX_evt_courtiers_talking
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -3215,11 +3217,11 @@ narrative_event = {
 # If Jeanne d'Arc marries
 character_event = {
 	id = SoA.5380
-	
+
 	hide_window = yes
 
 	ai = no
-	
+
 	trigger = {
 		has_global_flag = jeanne_darc_spawned
 		NOT = { has_global_flag = jeanne_darc_married }
@@ -3228,7 +3230,7 @@ character_event = {
 			is_married = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -3243,9 +3245,9 @@ character_event = {
 
 character_event = {
 	id = SoA.5381
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3262,7 +3264,7 @@ narrative_event = {
 	picture = GFX_evt_marriage
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5382
 		set_global_flag = jeanne_darc_married
@@ -3280,11 +3282,11 @@ narrative_event = {
 # If Jeanne d'Arc has a child
 character_event = {
 	id = SoA.5383
-	
+
 	hide_window = yes
 
 	ai = no
-	
+
 	trigger = {
 		has_global_flag = jeanne_darc_spawned
 		NOT = { has_global_flag = jeanne_darc_mother }
@@ -3293,7 +3295,7 @@ character_event = {
 			num_of_children = 1
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -3308,9 +3310,9 @@ character_event = {
 
 character_event = {
 	id = SoA.5384
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3327,7 +3329,7 @@ narrative_event = {
 	picture = GFX_evt_birth
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5385
 		set_global_flag = jeanne_darc_mother
@@ -3343,9 +3345,9 @@ narrative_event = {
 # Trial of Jeanne d'Arc begins
 character_event = {
 	id = SoA.5390
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3361,9 +3363,9 @@ narrative_event = {
 	desc = EVTDESC_SoA_5391
 	picture = GFX_evt_scandal
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5391
 		hidden_tooltip = {
@@ -3377,9 +3379,9 @@ narrative_event = {
 
 character_event = {
 	id = SoA.5450
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3396,9 +3398,9 @@ narrative_event = {
 	desc = EVTDESC_SoA_5392
 	picture = GFX_evt_into_the_dungeon
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5392
 		any_courtier = {
@@ -3419,9 +3421,9 @@ narrative_event = {
 
 character_event = {
 	id = SoA.5393
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3451,9 +3453,9 @@ narrative_event = {
 	desc = EVTDESC_SoA_5394
 	picture = GFX_evt_riots_byzantine
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5394
 		any_courtier = {
@@ -3474,9 +3476,9 @@ narrative_event = {
 	desc = EVTDESC_SoA_5395
 	picture = GFX_evt_monastery_nuns
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5395
 		any_courtier = {
@@ -3493,9 +3495,9 @@ narrative_event = {
 # Stormy times over for Jeanne d'Arc
 character_event = {
 	id = SoA.5396
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3531,9 +3533,9 @@ narrative_event = {
 	desc = EVTDESC_SoA_5398
 	picture = GFX_evt_princess_byzantine
 	border = GFX_event_narrative_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5398
 	}
@@ -3553,11 +3555,11 @@ narrative_event = {
 	desc = EVTDESC_SoA_5400
 	picture = GFX_evt_burning_house
 	border = GFX_event_narrative_frame_war
-	
+
 	is_triggered_only = yes
 
 	only_rulers = yes
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		any_war = {
@@ -3573,7 +3575,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5400
 		if = {
@@ -3631,10 +3633,10 @@ narrative_event = {
 	desc = EVTDESC_SoA_5401
 	picture = GFX_evt_peasants
 	border = GFX_event_narrative_frame_war
-	
+
 	only_rulers = yes
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
@@ -3666,11 +3668,11 @@ narrative_event = {
 	mean_time_to_happen = {
 		months = 1000
 	}
-	
+
 	immediate = {
 		set_global_flag = shepherds_crusade
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5401
 		trigger = {
@@ -3678,7 +3680,7 @@ narrative_event = {
 		}
 		wealth = -500
 	}
-	
+
 	option = {
 		name = EVTOPTC_SoA_5401
 		set_global_flag = shepherds_crusade_active
@@ -3688,9 +3690,9 @@ narrative_event = {
 
 province_event = {
 	id = SoA.5405
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
@@ -3775,14 +3777,14 @@ character_event = {
 	id = SoA.5402
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
 
 	immediate = {
 		any_war = {
 			limit = {
 				attacker = { character = ROOT }
-			}		
+			}
 			end_war = invalid
 		}
 		death = {
@@ -3800,9 +3802,9 @@ character_event = {
 	id = SoA.5403
 	desc = EVTDESC_SoA_5403
 	picture = GFX_evt_stone_church
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5403
 	}
@@ -3812,11 +3814,11 @@ character_event = {
 # Siege winner unit owner in the 'new_character' scope, lost holding title in FROM, local character in ROOT.
 character_event = {
 	id = SoA.5406
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		OR = {
 			religion_group = jewish_group
@@ -3827,7 +3829,7 @@ character_event = {
 			has_character_flag = shepherds_crusade_leader
 		}
 	}
-	
+
 	immediate = {
 		random = {
 			chance = 50
@@ -3854,9 +3856,9 @@ character_event = {
 	desc = EVTDESC_SoA_5409
 	picture = GFX_evt_beheading
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SoA_5409
 	}
@@ -3879,7 +3881,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		trait = sympathy_christendom
@@ -3891,11 +3893,11 @@ character_event = {
 			NOT = { is_friend = ROOT }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5410
 		random_realm_character = {
@@ -3921,7 +3923,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		trait = sympathy_islam
@@ -3933,11 +3935,11 @@ character_event = {
 			NOT = { is_friend = ROOT }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5411
 		random_realm_character = {
@@ -3962,7 +3964,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		trait = sympathy_pagans
@@ -3974,11 +3976,11 @@ character_event = {
 			NOT = { is_friend = ROOT }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5412
 		random_realm_character = {
@@ -4003,7 +4005,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		trait = sympathy_zoroastrianism
@@ -4015,11 +4017,11 @@ character_event = {
 			NOT = { is_friend = ROOT }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5413
 		random_realm_character = {
@@ -4044,7 +4046,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		trait = sympathy_judaism
@@ -4056,11 +4058,11 @@ character_event = {
 			NOT = { is_friend = ROOT }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5414
 		random_realm_character = {
@@ -4085,7 +4087,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		trait = zealous
@@ -4099,11 +4101,11 @@ character_event = {
 			NOT = { is_friend = ROOT }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5420
 		hidden_tooltip = {
@@ -4139,11 +4141,11 @@ character_event = {
 	trigger = {
 		NOT = { trait = zealous }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1200
 	}
-	
+
 	option = {
 		name = EVTOPTA_SoA_5425
 		if = {

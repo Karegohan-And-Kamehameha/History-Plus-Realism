@@ -115,7 +115,7 @@ d_bektashi = { # Bektashi Order
 	independent = yes
 	# Extra income due to donations, etc
 	monthly_income = 6 # (Must be an integer between 1 and 512)
-	mercenary_type = bektashi_composition
+	mercenary_type = ansar_composition
 }
 d_haruriyyah = { # Haruriyyah
 	color = { 150 200 80 }
@@ -11306,6 +11306,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				color = { 139 200 52 }
 				color2 = { 255 255 255 }
 				holy_site = apostolic
+				holy_site = dulcinian
 				oghuz = "Atanâ"
 				turkmen = "Atanâ"
 				turkish = "Atanâ"
@@ -22383,6 +22384,7 @@ e_arabia = { # Arabian Empire
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = apostolic
+				holy_site = dulcinian
 				holy_site = paulician
 				holy_site = nestorian
 				b_alexandria = {  }
@@ -49705,8 +49707,15 @@ e_rajastan = { # Rajastan
 	}
 } # end e_rajastan
 # All landed kingdom titles that have no de jure empire must go
-# into e_null, a clever solution to Paradox bugs.
+# into e_placeholder, a clever solution to Paradox bugs.
 	# Must be defined before k_armenia
+e_placeholder = {
+	color = { 20 20 20 }
+	creation_requires_capital = no
+	short_name = yes
+	culture = roman
+	allow = { always = no }
+
 	k_bagratid_grand_principality = { # Hayk
 		color = { 117 178 81 }
 		culture = armenian
@@ -50037,6 +50046,7 @@ e_rajastan = { # Rajastan
 				color = { 165 194 47 }
 				color2 = { 255 255 255 }
 				holy_site = apostolic
+				holy_site = dulcinian
 				greek = "Doúbios"
 				oghuz = "Erivan"
 				turkmen = "Erivan"
@@ -50714,6 +50724,7 @@ e_rajastan = { # Rajastan
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = apostolic
+				holy_site = dulcinian
 				holy_site = nestorian
 				holy_site = pagan
 				holy_site = yazidi
@@ -51646,6 +51657,7 @@ e_rajastan = { # Rajastan
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = apostolic
+				holy_site = dulcinian
 				holy_site = nestorian
 				holy_site = druze
 				b_antiocheia = {
@@ -63178,6 +63190,7 @@ e_rajastan = { # Rajastan
 			}
 		}
 	} # end k_hausaland
+}
 # TITULAR DUCHIES
 d_the_isles = { # Man
 	color = { 10 48 243 }

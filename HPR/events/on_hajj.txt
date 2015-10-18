@@ -13,9 +13,9 @@ letter_event = {
 	id = 86000
 	desc = "EVTDESC86000"
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86000"
 		piety = 5
@@ -27,7 +27,7 @@ letter_event = {
 				hidden = yes
 			}
 			character_event = { id = 86100 days = 12 }
-		}	
+		}
 	}
 }
 
@@ -46,7 +46,7 @@ character_event = {
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = preparing_hajj
-	
+
 	trigger = {
 		any_courtier = {
 			is_female = no
@@ -76,12 +76,12 @@ character_event = {
 			has_character_flag = hajj_company
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 24
-	}	
+	}
 
-	immediate = {	
+	immediate = {
 		random_courtier = {
 			limit = {
 				is_female = no
@@ -98,7 +98,7 @@ character_event = {
 		}
 		set_character_flag = hajj_company
 	}
-	
+
 	option = {
 		name = "EVTOPTA86001"
 		ai_chance = {
@@ -121,14 +121,14 @@ character_event = {
 			limit = { has_character_flag = invite_to_hajj }
 			clr_character_flag = invite_to_hajj
 			add_trait = on_hajj
-			opinion = { 
+			opinion = {
 				modifier = opinion_bring_on_hajj
 				who = ROOT
 			}
-			reverse_opinion = { 
+			reverse_opinion = {
 				modifier = opinion_bring_on_hajj
 				who = ROOT
-			}			
+			}
 			hidden_tooltip = {
 				character_event = { id = 86100 days = 3 }
 			}
@@ -141,7 +141,7 @@ character_event = {
 		random_courtier = {
 			limit = { has_character_flag = invite_to_hajj }
 			clr_character_flag = invite_to_hajj
-		}	
+		}
 	}
 }
 
@@ -152,11 +152,11 @@ character_event = {
 	desc = "EVTDESC86010"
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = preparing_hajj
-	
+
 	trigger = {
 		NOT = { has_character_flag = hajj_company }
 		liege = {
@@ -173,15 +173,15 @@ character_event = {
 			NOT = {	has_character_modifier = do_not_disturb }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 24
-	}	
+	}
 
 	immediate = {
 		set_character_flag = hajj_company
 	}
-	
+
 	option = {
 		name = "EVTOPTA86010"
 		ai_chance = {
@@ -194,15 +194,15 @@ character_event = {
 				factor = 5
 				trait = zealous
 			}
-		}		
+		}
 		liege = {
 			letter_event = { id = 86011 days = 1 random = 2 tooltip = EVTTOOLTIP86011 }
 			set_character_flag = asked_on_hajj
-		}	
+		}
 	}
 	option = {
 		name = "EVTOPTB86010"
-		piety = -5		
+		piety = -5
 	}
 }
 
@@ -211,18 +211,18 @@ letter_event = {
 	id = 86011
 	desc = "EVTDESC86011"
 	border = GFX_event_letter_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		war = no
 		NOT = { trait = on_hajj }
 		NOT = { trait = hajjaj }
 		NOT = { has_character_flag = preparing_hajj }
 	}
-	
+
 	option = {
 		name = "EVTOPTA86011"
 		ai_chance = {
@@ -235,11 +235,11 @@ letter_event = {
 				factor = 20
 				trait = zealous
 			}
-		}	
-		reverse_opinion = { 
+		}
+		reverse_opinion = {
 			who = FROM
 			modifier = opinion_bring_on_hajj
-		}		
+		}
 		FROM = {
 			letter_event = { id = 86012 days = 1 random = 2 tooltip = EVTTOOLTIP86012 }
 		}
@@ -256,10 +256,10 @@ letter_event = {
 		}
 		piety = -25
 		clr_character_flag = asked_on_hajj
-		reverse_opinion = { 
+		reverse_opinion = {
 			modifier = opinion_declined_hajj
 			who = FROM
-		}		
+		}
 	}
 }
 
@@ -268,16 +268,16 @@ letter_event = {
 	id = 86012
 	desc = "EVTDESC86012"
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86012"
-		reverse_opinion = { 
+		reverse_opinion = {
 			modifier = opinion_bring_on_hajj
 			who = FROM
 		}
-		prestige = 25		
+		prestige = 25
 	}
 }
 
@@ -286,12 +286,12 @@ letter_event = {
 	id = 86013
 	desc = "EVTDESC86013"
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86013"
-		reverse_opinion = { 
+		reverse_opinion = {
 			who = FROM
 			modifier = opinion_attepmt_hajj
 		}
@@ -305,11 +305,11 @@ character_event = {
 	desc = "EVTDESC86015"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = preparing_hajj
-	
+
 	trigger = {
 		liege = {
 			trait = hajjaj
@@ -319,27 +319,27 @@ character_event = {
 		NOT = {	at_location = 719 }  #no danger when near mecca already :)
 		NOT = { has_character_flag = hajj_company }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 24
-	}	
-	
+	}
+
 	immediate = {
 		set_character_flag = hajj_company
 	}
-	
+
 	option = {
 		name = "EVTOPTA86015"
 		scaled_wealth = -0.20
 		set_character_flag = hajj_bring_guards
-			
+
 	}
-	
+
 	option = {
 		name = "EVTOPTB86015"
 		prestige = -10
 		set_character_flag = hajj_travel_lightly
-	
+
 	}
 }
 
@@ -354,7 +354,7 @@ character_event = {
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = preparing_hajj
-	
+
 	trigger = {
 		NOT = { has_character_flag = hajj_company }
 		any_child = {
@@ -371,15 +371,15 @@ character_event = {
 			NOT = {	has_character_modifier = do_not_disturb }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 24
 	}
-	
+
 	immediate = {
 		set_character_flag = hajj_company
 	}
-	
+
 	option = {
 		name = "EVTOPTA86020"
 		scaled_wealth = -0.1
@@ -398,21 +398,21 @@ character_event = {
 				NOT = {	has_character_modifier = do_not_disturb }
 			}
 			add_trait = on_hajj
-			opinion = { 
+			opinion = {
 				modifier = opinion_bring_on_hajj
 				who = ROOT
 			}
-			reverse_opinion = { 
+			reverse_opinion = {
 				modifier = opinion_bring_on_hajj
 				who = ROOT
-			}			
+			}
 			hidden_tooltip = {
 				character_event = { id = 86100 days = 3 }
 			}
-		}		
-			
+		}
+
 	}
-	
+
 	option = {
 		name = "EVTOPTB86020"
 		random_child = {
@@ -429,7 +429,7 @@ character_event = {
 				religion_group = muslim
 				NOT = {	has_character_modifier = do_not_disturb }
 			}
-			opinion = { 
+			opinion = {
 				modifier = opinion_refused_hajj
 				who = ROOT
 			}
@@ -445,12 +445,12 @@ character_event = {
 	desc = "EVTDESC86100"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 	}
-	
+
 	option = {
 		name = "EVTOPTA86100"
 		clr_character_flag = preparing_hajj
@@ -484,7 +484,7 @@ character_event = {
 					10 = {  character_event = { id = 86820 days = 2 random = 8 } }
 				}
 			}
-	
+
 			random_list = {
 				10 = {  character_event = { id = 86150 days = 10 random = 10 } }
 				10 = {  character_event = { id = 86160 days = 10 random = 10 } }
@@ -506,16 +506,16 @@ character_event = {
 	desc = "EVTDESC86101"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	only_rulers = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86101" #attempt avoid
 		trigger = {
@@ -524,7 +524,7 @@ character_event = {
 		random = {
 			chance = 20
 			character_event = { id = 86102 tooltip = EVTTOOLTIP86102 }
-			
+
 		}
 	}
 	option = {
@@ -536,7 +536,7 @@ character_event = {
 			chance = 50
 			character_event = { id = 86102 tooltip = EVTTOOLTIP86102 }
 		}
-	}	
+	}
 	option = {
 		name = "EVTOPTB86101"
 		trigger = {
@@ -556,7 +556,7 @@ character_event = {
 			chance = 5
 			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
-		}		
+		}
 	}
 }
 
@@ -566,9 +566,9 @@ character_event = {
 	desc = "EVTDESC86102"
 	picture = GFX_evt_bandits
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86102"
 		trigger = {
@@ -594,7 +594,7 @@ character_event = {
 			chance = 25
 			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
-		}		
+		}
 	}
 	option = {
 		name = "EVTOPTB86102"
@@ -607,11 +607,11 @@ character_event = {
 			chance = 25
 			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
-		}		
+		}
 	}
-	
+
 	option = {
-		name = "EVTOPTB86102" #fight	
+		name = "EVTOPTB86102" #fight
 		trigger = {
 			NOT = { martial = 14 }
 			NOT = { has_character_flag = hajj_bring_guards }
@@ -620,8 +620,8 @@ character_event = {
 			chance = 50
 			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
-		}		
-	}	
+		}
+	}
 	option = {
 		name = "EVTOPTC86102"
 		trigger = {
@@ -638,15 +638,15 @@ character_event = {
 	desc = "EVTDESC86105"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86105"
 		piety = 5
@@ -659,16 +659,16 @@ character_event = {
 	desc = "EVTDESC86110"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	only_rulers = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86110"
 		prestige = -25
@@ -690,16 +690,16 @@ character_event = {
 	desc = "EVTDESC86150"
 	picture = GFX_evt_peasants
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	only_rulers = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86150"
 		piety = -20
@@ -711,19 +711,19 @@ character_event = {
 			chance = 33
 			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
-		}		
+		}
 		on_hajj = {
 			limit = {
 				prisoner = no
 				NOT = { has_character_flag = hajj_bring_guards }
 			}
-			opinion = { 
+			opinion = {
 				modifier = opinion_hajj_saved_from_bandit
 				who = ROOT
 			}
 			hidden_tooltip = { character_event = { id = 86151 } }
 		}
-	}	
+	}
 }
 
 #Saved from bandits by fellow pilgrims
@@ -732,12 +732,12 @@ character_event = {
 	desc = "EVTDESC86151"
 	picture = GFX_evt_peasants
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86151"
-		reverse_opinion = { 
+		reverse_opinion = {
 			modifier = opinion_hajj_saving_on_hajj
 			who = FROM
 		}
@@ -750,9 +750,9 @@ character_event = {
 	desc = "EVTDESC86160"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -763,7 +763,7 @@ character_event = {
 			NOT = { has_character_flag = hajj_arrived_in_mecca }
 		}
 	}
-	
+
 	immediate = {
 		random_playable_ruler = {
 			limit = {
@@ -775,7 +775,7 @@ character_event = {
 			set_character_flag = hajj_rival
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA86160" #Attack him!
 		piety = -10
@@ -784,14 +784,14 @@ character_event = {
 				prisoner = no
 				has_character_flag = hajj_rival
 			}
-			opinion = { 
+			opinion = {
 				modifier = opinion_hajj_attempt_murder
 				who = ROOT
 			}
-			character_event = { id = 86161 tooltip = "EVTTOOLTIP86161" } 
+			character_event = { id = 86161 tooltip = "EVTTOOLTIP86161" }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB86160" #Attempt befriend
 		on_hajj = {
@@ -799,7 +799,7 @@ character_event = {
 				prisoner = no
 				has_character_flag = hajj_rival
 			}
-			character_event = { id = 86165 tooltip = "EVTTOOLTIP86165" } 
+			character_event = { id = 86165 tooltip = "EVTTOOLTIP86165" }
 		}
 	}
 	option = {
@@ -814,14 +814,14 @@ character_event = {
 	desc = "EVTDESC86161"
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86161"
 		tooltip_info = martial
 		trigger = {
-			martial = FROM 
+			martial = FROM
 		}
 		random_list = {
 			80 = {
@@ -853,9 +853,9 @@ character_event = {
 				hidden_tooltip = { character_event = {	id = 38281 } }
 				hidden_tooltip = { FROM = { character_event = { id = 86163 } } }
 			}
-		}		
+		}
 	}
-	
+
 	option = {
 		name = "EVTOPTC86161"
 		trigger = {
@@ -879,9 +879,9 @@ character_event = {
 	desc = "EVTDESC86162"
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86162"
 		add_trait = wounded
@@ -894,9 +894,9 @@ character_event = {
 	desc = "EVTDESC86163"
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86163"
 		prestige = 5
@@ -909,9 +909,9 @@ character_event = {
 	desc = "EVTDESC86164"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86164"
 		prestige = -5
@@ -924,13 +924,13 @@ character_event = {
 	desc = "EVTDESC86165"
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86165"
 		FROM = { character_event = { id = 86166 tooltip = EVTTOOLTIP86166 } }
-		reverse_opinion = { 
+		reverse_opinion = {
 			who = FROM
 			modifier = opinion_hajj_rivalry_mended
 		}
@@ -947,14 +947,14 @@ character_event = {
 	desc = "EVTDESC86166"
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86166"
-		reverse_opinion = { 
+		reverse_opinion = {
 			who = FROM
 			modifier = opinion_hajj_rivalry_mended
 		}
@@ -966,9 +966,9 @@ letter_event = {
 	id = 86167
 	desc = "EVTDESC86167"
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA86167"
 		prestige = -5
@@ -981,15 +981,15 @@ character_event = {
 	desc = "EVTDESC86170"
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86170"
 		trigger = {
@@ -1011,38 +1011,38 @@ character_event = {
 			remove_trait = drunkard
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB86170"
 		trigger = {
 			NOT = { trait = drunkard }
 			NOT = { trait = gluttonous }
-		}	
+		}
 		piety = 20
 	}
 }
-	
+
 #Lost in the desert
 character_event = {
 	id = 86180
 	desc = "EVTDESC86180"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86180"
 		health = -1
 		prestige = 25
 	}
-	
+
 	option = {
 		name = "EVTOPTB86180"
 		random = {
@@ -1053,8 +1053,8 @@ character_event = {
 					id = 38250 #Notify Trusting
 				}
 			}
-		}		
-		
+		}
+
 	}
 }
 
@@ -1066,15 +1066,15 @@ character_event = {
 	desc = "EVTDESC86300"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_tooltip = {
 			character_event = { id = 86500 days = 10 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA86300"
 		custom_tooltip = {
@@ -1091,7 +1091,7 @@ character_event = {
 					10 = {  character_event = { id = 86400 } }
 					10 = {  character_event = { id = 86410 } }
 				}
-			}		
+			}
 		}
 		scaled_wealth = -0.1
 	}
@@ -1107,22 +1107,22 @@ character_event = {
 	desc = "EVTDESC86320"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86320"
 		tooltip_info = greedy
 		trigger = {
 			trait = greedy
 		}
-		remove_trait = greedy		
+		remove_trait = greedy
 	}
 	option = {
 		name = "EVTOPTB86320"
@@ -1131,7 +1131,7 @@ character_event = {
 		}
 		scaled_wealth = 0.1
 	}
-}		
+}
 
 #Hadith - Protect from laziness, cowardice etc
 character_event = {
@@ -1139,22 +1139,22 @@ character_event = {
 	desc = "EVTDESC86330"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86330"
 		tooltip_info = slothful
 		trigger = {
 			trait = slothful
 		}
-		remove_trait = slothful			
+		remove_trait = slothful
 	}
 
 	option = {
@@ -1164,7 +1164,7 @@ character_event = {
 		}
 		prestige = 25
 	}
-}		
+}
 
 #Hadith - Envy
 character_event = {
@@ -1172,31 +1172,31 @@ character_event = {
 	desc = "EVTDESC86340"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86340"
 		tooltip_info = envious
 		trigger = {
 			trait = envious
 		}
-		remove_trait = envious				
+		remove_trait = envious
 	}
 	option = {
 		name = "EVTOPTB86340"
 		trigger = {
 			NOT = { trait = envious }
-		}	
-		piety = 15	
-	}	
-}		
+		}
+		piety = 15
+	}
+}
 
 #Hadith - Truth
 character_event = {
@@ -1204,31 +1204,31 @@ character_event = {
 	desc = "EVTDESC86350"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86350"
 		tooltip_info = deceitful
 		trigger = {
 			trait = deceitful
 		}
-		remove_trait = deceitful				
-		
+		remove_trait = deceitful
+
 	}
 
 	option = {
 		name = "EVTOPTB86350"
 		trigger = {
 			NOT = { trait = deceitful }
-		}	
-		change_diplomacy = 1		
+		}
+		change_diplomacy = 1
 	}
 }
 
@@ -1238,29 +1238,29 @@ character_event = {
 	desc = "EVTDESC86360"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86360"
 		tooltip_info = craven
 		trigger = {
 			trait = craven
 		}
-		remove_trait = craven		
+		remove_trait = craven
 	}
 	option = {
 		name = "EVTOPTB86360"
 		trigger = {
 			NOT = { trait = craven }
-		}	
-		change_martial = 1		
+		}
+		change_martial = 1
 	}
 }
 
@@ -1270,30 +1270,30 @@ character_event = {
 	desc = "EVTDESC86380"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86380"
 		tooltip_info = arbitrary
 		trigger = {
 			trait = arbitrary
 		}
-		remove_trait = arbitrary				
+		remove_trait = arbitrary
 	}
 	option = {
 		name = "EVTOPTB86380"
 		trigger = {
 			NOT = { trait = arbitrary }
 		}
-		change_diplomacy = 1			
-	}	
+		change_diplomacy = 1
+	}
 }
 
 #Hadith - Next world
@@ -1302,22 +1302,22 @@ character_event = {
 	desc = "EVTDESC86390"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86390"
 		tooltip_info = hedonist
 		trigger = {
 			trait = hedonist
 		}
-		remove_trait = hedonist		
+		remove_trait = hedonist
 	}
 	option = {
 		name = "EVTOPTB86390"
@@ -1334,15 +1334,15 @@ character_event = {
 	desc = "EVTDESC86400"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86400"
 		tooltip_info = cynical
@@ -1351,7 +1351,7 @@ character_event = {
 		}
 		remove_trait = cynical
 	}
-	
+
 	option = {
 		name = "EVTOPTB86400"
 		trigger = {
@@ -1367,15 +1367,15 @@ character_event = {
 	desc = "EVTDESC86410"
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86410"
 		tooltip_info = wroth
@@ -1392,21 +1392,21 @@ character_event = {
 		}
 		change_stewardship = 1
 	}
-}		
+}
 
 
 ##########################################################################
 # Arrival at Mecca
-##########################################################################				
+##########################################################################
 
-#Hidden gateway event				
+#Hidden gateway event
 character_event = {
 	id = 86500
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_character_flag = hajj_arrived_in_mecca
 		random_list = {
@@ -1422,19 +1422,19 @@ character_event = {
 	desc = "EVTDESC86510"
 	picture = GFX_evt_carriage
 	border = GFX_event_normal_frame_religion
-	
+
 	hide_from = yes
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
-	
-	
+
+
+
 	option = {
 		name = "EVTOPTA86510"
 		on_hajj = {
@@ -1443,18 +1443,18 @@ character_event = {
 				has_character_flag = hajj_arrived_in_mecca
 			}
 			character_event = { id = 86511 tooltip = EVTTOOLTIP86511 }
-			
-			opinion = { 
+
+			opinion = {
 				who = ROOT
 				modifier = opinion_helped_wudu
 			}
-		
+
 		}
 		piety = 10
 		hidden_tooltip = {
 			character_event = { id = 86550 days = 2 }
 		}
-	}	
+	}
 }
 
 #Impurity in water
@@ -1463,22 +1463,22 @@ character_event = {
 	desc = "EVTDESC86511"
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86511"
 		piety = 10
-		reverse_opinion = { 
+		reverse_opinion = {
 			who = FROM
 			modifier = opinion_helped_wudu
-		}		
+		}
 	}
 }
 
@@ -1488,21 +1488,21 @@ character_event = {
 	desc = "EVTDESC86520"
 	picture = GFX_evt_kaaba
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86520"
 		piety = 10
 		hidden_tooltip = {
 			character_event = { id = 86550 days = 2 }
-		}		
+		}
 	}
 }
 
@@ -1512,18 +1512,18 @@ character_event = {
 	desc = "EVTDESC86550"
 	picture = GFX_evt_kaaba
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	immediate = {
-		
-	}	
+
+	}
 	option = {
 		name = "EVTOPTA86550"
 		trigger = { NOT = { trait = humble } }
@@ -1541,9 +1541,9 @@ character_event = {
 		piety = 25
 		hidden_tooltip = {
 			character_event = { id = 86551 days = 1 }
-		}	
-		
-		
+		}
+
+
 	}
 	option = {
 		name = "EVTOPTB86550"
@@ -1554,29 +1554,29 @@ character_event = {
 			hidden_tooltip = { character_event = {	id = 38260 } }
 		}
 		piety = 25
-		
+
 		hidden_tooltip = {
 			character_event = { id = 86551 days = 1 }
-		}	
-	}	
+		}
+	}
 }
 
 
-#Hidden gateway event				
+#Hidden gateway event
 character_event = {
 	id = 86551
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		random_list = {
 			10 = {  character_event = { id = 86600  days = 1} }
 			10 = {  character_event = { id = 86610  days = 1 } }
 			10 = {  character_event = { id = 86620  days = 1 } }
 			10 = {  character_event = { id = 86630  days = 1 } }
-		
+
 		}
 		if = {
 			limit = {
@@ -1611,15 +1611,15 @@ character_event = {
 	desc = "EVTDESC86600"
 	picture = GFX_evt_kaaba
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86600"
 		set_character_flag = on_home_from_hajj
@@ -1628,22 +1628,22 @@ character_event = {
 		health = 1
 	}
 }
-	
+
 # Wuquf at Mount Ararat
 character_event = {
 	id = 86610
 	desc = "EVTDESC86610"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86610"
 		set_character_flag = on_home_from_hajj
@@ -1651,22 +1651,22 @@ character_event = {
 		piety = 50
 	}
 }
-	
+
 # Ramy al-Jamarat  (Stoning the Devil)
 character_event = {
 	id = 86620
 	desc = "EVTDESC86620"
 	picture = GFX_evt_kaaba
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86620"
 		set_character_flag = on_home_from_hajj
@@ -1689,24 +1689,24 @@ character_event = {
 		if = {
 			limit = { trait = stressed }
 			remove_trait = stressed
-		}	
+		}
 		if = {
 			limit = { trait = depressed }
 			remove_trait = depressed
-		}	
-		piety = 15		
+		}
+		piety = 15
 	}
 }
-	
+
 #Eid al-Adha
 character_event = {
 	id = 86630
 	desc = "EVTDESC86630"
 	picture = GFX_evt_kaaba
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -1726,7 +1726,7 @@ character_event = {
 		clr_character_flag = hajj_arrived_in_mecca
 		scaled_wealth = -0.05
 		piety = 10
-	}	
+	}
 }
 
 ##########################################################################
@@ -1739,21 +1739,21 @@ character_event = {
 	desc = "EVTDESC86700"
 	picture = GFX_evt_mongols
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = on_home_from_hajj
-	
+
 	trigger = {
 		trait = on_hajj
 		NOT = { has_character_flag = hajj_bring_guards }
 		NOT = { has_character_flag = hajj_home_event }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
-	}	
-	
+	}
+
 	immediate = {
 		set_character_flag = hajj_home_event
 	}
@@ -1765,8 +1765,8 @@ character_event = {
 			chance = 33
 			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
-		}		
-		
+		}
+
 	}
 	option = {
 		name = "EVTOPTB86700"
@@ -1783,21 +1783,21 @@ character_event = {
 	desc = "EVTDESC86701"
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = on_home_from_hajj
-	
+
 	trigger = {
 		trait = on_hajj
 		has_character_flag = hajj_bring_guards
 		NOT = { has_character_flag = hajj_home_event }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
-	}	
-	
+	}
+
 	immediate = {
 		set_character_flag = hajj_home_event
 	}
@@ -1814,20 +1814,20 @@ character_event = {
 	desc = "EVTDESC86720"
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = on_home_from_hajj
-	
+
 	trigger = {
 		trait = on_hajj
 		NOT = { has_character_flag = hajj_home_event }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
-	}	
-	
+	}
+
 	immediate = {
 		set_character_flag = hajj_home_event
 	}
@@ -1841,7 +1841,7 @@ character_event = {
 		name = "EVTOPTB86720"
 		piety = -10
 		on_hajj = {
-			opinion = { 
+			opinion = {
 				who = ROOT
 				modifier = opinion_hajj_not_helpin
 			}
@@ -1857,14 +1857,14 @@ character_event = {
 	desc = "EVTDESC86800"
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		clr_character_flag = on_home_from_hajj
 		clr_character_flag = hajj_company
 		if = {
-			limit = { 
+			limit = {
 				ai = no
 				NOT = { has_character_flag = achievement_to_mecca }
 			}
@@ -1902,7 +1902,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	religion_group = muslim
-	
+
 	trigger = {
 		war = no
 		NOT = { trait = hajjaj }
@@ -1917,9 +1917,9 @@ character_event = {
 			age = 30
 			trait = hajjaj
 		}
-		NOT = { any_war = { religion_group = christian } }
+		NOT = { any_current_enemy = { religion_group = christian } }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -1935,14 +1935,14 @@ character_event = {
 		name = "EVTOPTA86900"
 		set_character_flag = promise_hajj
 		job_spiritual = {
-			opinion = { 
+			opinion = {
 				who = ROOT
 				modifier = opinion_hajj_promised
 				years = 5
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB86900"
 		trigger = {
@@ -1955,13 +1955,13 @@ character_event = {
 		}
 		set_character_flag = promise_jihad
 		job_spiritual = {
-			opinion = { 
+			opinion = {
 				who = ROOT
 				modifier = opinion_jihad_promised
 				years = 5
 			}
-		}		
-	}	
+		}
+	}
 	option = {
 		name = "EVTOPTC86900"
 		piety = -10
@@ -1975,33 +1975,32 @@ character_event = {
 	desc = "EVTDESC86901"
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	only_men = yes
 	min_age = 30
 	capable_only = yes
 	only_rulers = yes
 	prisoner = no
 	religion_group = muslim
-	
+
 	trigger = {
 		war = no
 		has_character_flag = promise_hajj
 		any_demesne_title = {
 			is_occupied = no
 		}
-		prisoner = no		
+		prisoner = no
 		job_spiritual = { learning = 1 }
 		NOT = { trait = hajjaj }
 		NOT = { trait = mujahid }
 		NOT = { trait = on_hajj }
-		NOT = {	has_character_flag = preparing_hajj }
-		any_independent_ruler = { }
+		NOT = {has_character_flag = preparing_hajj }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "EVTOPTA86901"
 		piety = -25
@@ -2014,7 +2013,7 @@ character_event = {
 	desc = "EVTDESC86902"
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
-	
+
 	only_men = yes
 	min_age = 30
 	capable_only = yes
@@ -2022,26 +2021,26 @@ character_event = {
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = promise_jihad
-	
+
 	trigger = {
 		war = no
-		prisoner = no		
+		prisoner = no
 		NOT = { trait = mujahid }
 		job_spiritual = { learning = 1 }
-		
+
 		any_independent_ruler = {
 			religion_group = christian
 			any_realm_province = {
 				religion_group = muslim
 			}
 		}
-	
+
 	}
 
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "EVTOPTA86902"
 		piety = -25
@@ -2051,7 +2050,7 @@ character_event = {
 #hidden clear up event.
 character_event = {
 	id = 86903
-	
+
 	only_men = yes
 	min_age = 30
 	capable_only = yes
@@ -2059,35 +2058,35 @@ character_event = {
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = promise_jihad
-	
+
 	trigger = {
 		war = yes
-		any_war = { 
+		any_war = {
 			any_attacker = {
 				is_primary_war_attacker = yes
 				character = ROOT
 			}
 			any_defender = {
 				is_primary_war_defender = yes
-				religion_group = christian 
+				religion_group = christian
 			}
 		}
 	}
-	
+
 	hide_window = yes
 	mean_time_to_happen = {
 		days = 1
-	}	
+	}
 	immediate = {
 		clr_character_flag = promise_jihad
 	}
 }
 
 #############################
-# Additional flavour events # 
+# Additional flavour events #
 #############################
 
-### Far Journey 
+### Far Journey
 
 # Shipwrecked
 character_event = {
@@ -2095,15 +2094,15 @@ character_event = {
 	desc = "EVTDESC86810"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = { # Shares food
 		name = "EVTOPTA86810"
 		character_event = { id = 86811 tooltip = EVTTOOLTIP86811 }
@@ -2120,15 +2119,15 @@ character_event = {
 	desc = "EVTDESC86811"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86811"
 		piety = 25
@@ -2142,15 +2141,15 @@ character_event = {
 	desc = "EVTDESC86812"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86812"
 		piety = -25
@@ -2163,15 +2162,15 @@ character_event = {
 	desc = "EVTDESC86815"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86815"
 		character_event = { id = 86816 tooltip = EVTTOOLTIP86816 }
@@ -2193,15 +2192,15 @@ character_event = {
 	desc = "EVTDESC86816"
 	picture = GFX_evt_melee_arabic
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86816"
 		prestige = 15
@@ -2214,15 +2213,15 @@ character_event = {
 	desc = "EVTDESC86817"
 	picture = GFX_evt_kraken
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86817"
 		prestige = -15
@@ -2235,15 +2234,15 @@ character_event = {
 	desc = "EVTDESC86820"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86820"
 		prestige = 10
@@ -2258,15 +2257,15 @@ character_event = {
 	desc = "EVTDESC86825"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86825"
 		trigger = {
@@ -2311,15 +2310,15 @@ character_event = {
 	desc = "EVTDESC86826"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86826"
 		piety = 15
@@ -2332,15 +2331,15 @@ character_event = {
 	desc = "EVTDESC86827"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86827"
 		piety = -15
@@ -2353,15 +2352,15 @@ character_event = {
 	desc = "EVTDESC86830"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86830"
 		random = {
@@ -2385,15 +2384,15 @@ character_event = {
 	desc = "EVTDESC86835"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86835"
 		piety = 25
@@ -2411,15 +2410,15 @@ character_event = {
 	desc = "EVTDESC86840"
 	picture = GFX_evt_carriage_arabic
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86840"
 		piety = 10
@@ -2432,9 +2431,9 @@ character_event = {
 	desc = "EVTDESC86845"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -2443,7 +2442,7 @@ character_event = {
 		NOT = { has_global_flag = assassins_scatter }
 		NOT = { has_global_flag = assassins_destroyed }
 	}
-	
+
 	option = {
 		name = "EVTOPTA86845"
 		character_event = { id = 86846 tooltip = EVTTOOLTIP86846 }
@@ -2466,15 +2465,15 @@ character_event = {
 	desc = "EVTDESC86846"
 	picture = GFX_evt_melee_arabic
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86846"
 		piety = 10
@@ -2489,24 +2488,24 @@ character_event = {
 	desc = "EVTDESC86850"
 	picture = GFX_evt_pale_rider
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = on_home_from_hajj
-	
+
 	trigger = {
 		trait = on_hajj
 		NOT = { has_character_flag = hajj_home_event }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
-	}	
-	
+	}
+
 	immediate = {
 		set_character_flag = hajj_home_event
 	}
-	
+
 	option = {
 		name = "EVTOPTA86850"
 		piety = 10
@@ -2519,24 +2518,24 @@ character_event = {
 	desc = "EVTDESC86855"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = on_home_from_hajj
-	
+
 	trigger = {
 		trait = on_hajj
 		NOT = { has_character_flag = hajj_home_event }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
-	}	
-	
+	}
+
 	immediate = {
 		set_character_flag = hajj_home_event
 	}
-	
+
 	option = {
 		name = "EVTOPTA86855"
 		piety = 10
@@ -2549,24 +2548,24 @@ character_event = {
 	desc = "EVTDESC86860"
 	picture = GFX_evt_desert
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = on_home_from_hajj
-	
+
 	trigger = {
 		trait = on_hajj
 		NOT = { has_character_flag = hajj_home_event }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
-	}	
-	
+	}
+
 	immediate = {
 		set_character_flag = hajj_home_event
 	}
-	
+
 	option = {
 		name = "EVTOPTA86860"
 		piety = 15
@@ -2584,25 +2583,25 @@ character_event = {
 	desc = "EVTDESC86865"
 	picture = GFX_evt_melee_arabic
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
 	religion_group = muslim
 	has_character_flag = on_home_from_hajj
-	
+
 	trigger = {
 		has_character_flag = saved_assassin
 		trait = on_hajj
 		NOT = { has_character_flag = hajj_home_event }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 15
 	}
-	
+
 	immediate = {
 		set_character_flag = hajj_home_event
 	}
-	
+
 	option = {
 		name = "EVTOPTA86865"
 		character_event = { id = 86866 tooltip = EVTTOOLTIP86866 }
@@ -2615,15 +2614,15 @@ character_event = {
 	desc = "EVTDESC86866"
 	picture = GFX_evt_melee_arabic
 	border = GFX_event_normal_frame_religion
-	
+
 	prisoner = no
-	
+
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
 	}
-	
+
 	option = {
 		name = "EVTOPTA86866"
 		prestige = 20

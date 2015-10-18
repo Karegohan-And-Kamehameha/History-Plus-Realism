@@ -51,7 +51,7 @@ atlantic_trade = {
 		1740 1783 1738 78
 	}
 	path = {	# French Leon-Cornwall-Bangor Fawr-Isle of Man-Innse Gall-Fife-Northumberland-Moray
-		1740 1741 64 1797 45 1765 1765 1766
+		1740 1741 64 1797 45 1765 1766
 	}
 	path = {	# Orkney-Moray
 		1765 40 41 43

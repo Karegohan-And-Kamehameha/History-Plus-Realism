@@ -29,66 +29,67 @@ technology = {
 		d_auvergne
 		d_bourbon
 		d_brittany
+		d_lowerbrittany
 		d_provence
 		d_savoie
 		d_dauphine
 		d_upper_burgundy
-    d_utrecht       
-    d_frisia        
-    d_trier         
-    d_pfalz         
-    d_barleduc      
-    d_liege         
-    d_hainaut       
-    d_limburg       
-    d_oldenburg     
-    d_osnabruck     
-    d_bishopmunster 
-    d_bremen        
-    d_magdeburg     
-    d_saxewittenberg
-    d_altmark       
-    d_rheinfranken  
-    d_wurzburg      
-    d_mainz         
-    d_berg          
-    d_niederbayern  
-    d_bamberg       
-    d_nuremberg     
-    d_oberbayern    
-    d_salzburg      
-    d_styria        
-    d_istria        
-    d_aquileia      
-    d_chur          
-    d_zahringen     
-    d_teck          
-    d_burgau
-    d_arles        
-    d_lyon         
-    d_basel        
-    d_artois       
-    d_alencon      
-    d_blois        
-    d_nevers               
-    d_archreims    
-    d_rethel       
-    d_gevaudan     
-    d_foix         
-    d_septimania   
-    d_limousin   
-    d_angria  
-    d_hessen
-    d_augsburg
-    d_baden
-	}  
-    
+		d_utrecht
+		d_frisia
+		d_trier
+		d_pfalz
+		d_barleduc
+		d_liege
+		d_hainaut
+		d_limburg
+		d_oldenburg
+		d_osnabruck
+		d_bishopmunster
+		d_bremen
+		d_magdeburg
+		d_saxewittenberg
+		d_altmark
+		d_rheinfranken
+		d_wurzburg
+		d_mainz
+		d_berg
+		d_niederbayern
+		d_bamberg
+		d_nuremberg
+		d_oberbayern
+		d_salzburg
+		d_styria
+		d_istria
+		d_aquileia
+		d_chur
+		d_zahringen
+		d_teck
+		d_burgau
+		d_arles
+		d_lyon
+		d_basel
+		d_artois
+		d_alencon
+		d_blois
+		d_nevers
+		d_archreims
+		d_rethel
+		d_gevaudan
+		d_foix
+		d_septimania
+		d_limousin
+		d_angria
+		d_hessen
+		d_augsburg
+		d_baden
+	}
+
 	769 = {
 		military = 0.5
 		economy = 1.0
 		culture = 1.0
-	}  
-		  
+	}
+
 	1337 = {
 		military = 5.0
 		economy = 5.0
@@ -121,27 +122,28 @@ technology = {
 		d_spoleto
 		d_latium
 		d_sardinia
-    d_como      
-    d_parma     
-    d_monferrato
-    d_savona    
-    d_mantua    
-    d_lucca     
-    d_ravenna   
-    d_urbino    
-    d_corsica   
-    d_napoli    
-    d_loritello 
-    d_tarent    
-    d_alvito    
-    d_aosta     
-	}  
+		d_como
+		d_parma
+		d_monferrato
+		d_savona
+		d_mantua
+		d_lucca
+		d_ravenna
+		d_urbino
+		d_corsica
+		d_napoli
+		d_loritello
+		d_tarent
+		d_alvito
+		d_aosta
+		d_amalfi
+	}
 	769 = {
 		military = 0.5
 		economy = 1.0
 		culture = 1.0
 	}
-		
+
 	1337 = {
 		military = 5.0
 		economy = 5.0
@@ -177,15 +179,15 @@ technology = {
 		d_leinster
 		d_munster
 		d_lothian
-    d_essex          
-    d_fivebouroughs  
-    d_channel_islands
-    d_morgannwg           
-    d_aberdeen       
-    d_sutherland     
-    d_strathclyde    
-    d_ellan_vannin   
-    d_hebrides       
+		d_essex
+		d_fivebouroughs
+		d_channel_islands
+		d_morgannwg
+		d_aberdeen
+		d_sutherland
+		d_strathclyde
+		d_ellan_vannin
+		d_hebrides
 	}
 
 	769 = {
@@ -193,7 +195,7 @@ technology = {
 		economy = 1.0
 		culture = 1.0
 	}
-		
+
 	1337 = {
 		military = 5.0
 		economy = 5.0
@@ -216,15 +218,22 @@ technology = {
 		d_leon
 		d_galicia
 		d_porto
-    d_segovia       
-    d_najera        
-    d_salamanca     
-    d_zaragoza      
-    d_catalunya_nova
-    d_teruel        
-    d_ribatejo      
-    d_beira         
-    d_la_mancha     
+		d_segovia
+		d_najera
+		d_alba_de_tormes
+		d_alburquerque
+		d_medina_sidonia
+		d_salamanca
+		d_zaragoza
+		d_catalunya_nova
+		d_teruel
+		d_cardona
+		d_gandia
+		d_infantado
+		d_medinaceli
+		d_ribatejo
+		d_beira
+		d_la_mancha
 	}
 
 	769 = {
@@ -232,7 +241,7 @@ technology = {
 		economy = 1.0
 		culture = 1.0
 	}
-		
+
 	1337 = {
 		military = 5.0
 		economy = 5.0
@@ -262,7 +271,7 @@ technology = {
 		economy = 1.3
 		culture = 1.3
 	}
-		
+
 	1337 = {
 		military = 5.0
 		economy = 5.0

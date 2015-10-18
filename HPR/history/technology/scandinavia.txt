@@ -20,35 +20,36 @@ technology = {
 		d_karelia
 		d_finland
 		d_esthonia
-    d_halland    
-    d_jylland    
-    d_bornholm   
-    d_halsingland
-    d_gotland    
-    d_viipuri    
-    d_ingria     
-    d_opplandene 
-    d_more       
-    d_halogaland 
-    d_faereyar       
+		d_halland
+		d_jylland
+		d_bornholm
+		d_nordfrisland
+		d_halsingland
+		d_gotland
+		d_viipuri
+		d_ingria
+		d_opplandene
+		d_more
+		d_halogaland
+		d_faereyar
 	}
 
 	769 = {
 		military = 0.1
 		economy = 0.1
 		culture = 0.1
-		
+
 		TECH_NAVAL = 0.1
 	}
-	
+
 	867 = {
 		military = 1.0
 		economy = 0.6
 		culture = 0.6
-		
+
 		TECH_NAVAL = 2.0
-	}	
-	
+	}
+
 	1337 = {
 		military = 3.5
 		economy = 3.5

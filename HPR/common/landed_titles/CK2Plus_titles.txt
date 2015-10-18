@@ -11,14 +11,6 @@
 
 # Special
 
-e_placeholder = {
-	color = { 20 20 20 }
-	creation_requires_capital = no
-	short_name = yes
-	culture = roman
-	allow = { always = no }
-}
-
 e_karling = {
 	color = { 250 250 250 }
 	color2 = { 0 0 0 }
@@ -42,6 +34,7 @@ e_karling = {
 					religion = chalcedonian
 					religion = catholic
 					religion = cathar
+					religion = dulcinian
 					religion = fraticelli
 					religion = waldensian
 					religion = lollard
@@ -1588,6 +1581,33 @@ d_cathar = {
 			add_trait = perfecti
 		}
 	}
+}
+
+d_dulcinian = {
+	color = { 237 154 227 }
+	color2 = { 230 220 108 }
+	capital = 1046 # Novara
+
+	allow = {
+		always = no # Only by special decision
+	}
+
+	# Always exists
+	landless = yes
+	primary = yes
+	dignity = 100
+
+	title = "DULCINIAN_PATRIARCH"
+	title_female = "DULCINIAN_MATRIARCH"
+	foa = "POPE_FOA"
+	short_name = yes
+
+	religion = dulcinian
+
+	# Controls a religion
+	controls_religion = dulcinian
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 
 d_celtic_pagan_reformed = {

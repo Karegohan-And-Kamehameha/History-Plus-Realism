@@ -1843,6 +1843,7 @@ decisions = {
 			OR = {
 				religion = catholic
 				religion = cathar
+				religion = dulcinian
 				religion = fraticelli
 				religion = waldensian
 				religion = lollard

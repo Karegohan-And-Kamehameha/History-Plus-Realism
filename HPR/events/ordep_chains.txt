@@ -510,42 +510,6 @@ character_event = {
 	}
 }
 
-#You think about ancient history - Gaulish Version
-narrative_event = {
-	id = ordepchains.1015
-	title = ordepchains.1015.title
-	desc = ordepchains.1015.desc
-	picture = GFX_evt_pagan
-	is_triggered_only = yes
-	option = {
-		name = ordepchains.1015.a
-		hidden_tooltip = {
-			random_list = {
-				20 = { }
-				20 = { add_trait = proud }
-				20 = { add_trait = wroth }
-				20 = { add_trait = ambitious }
-				20 = { add_trait = diligent }
-			}
-		}
-	}
-	option = {
-		name = ordepchains.1015.b
-		hidden_tooltip = {
-			add_trait = sympathy_pagans
-		}
-	}
-	option = {
-		name = ordepchains.1015.c
-		trigger = {
-			trait = zealous
-		}
-		hidden_tooltip = {
-			piety = 25
-		}
-	}
-}
-
 #And you find some ruins - Minoan version
 narrative_event = {
 	id = ordepchains.1016

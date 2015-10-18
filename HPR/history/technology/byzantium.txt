@@ -29,43 +29,43 @@ technology = {
 		d_kartli
 		d_derbent
 		d_abkhazia
-    d_strymon          
-    d_seleukeia        
-    d_ohrid            
-    d_hum              
-    d_ragusa           
-    d_suenik           
-    d_vaspurakan       
-    d_tao              
-    d_oltenia          
-    d_basarabia               
-    d_csanad           
-    d_bacs             
-    d_syrmia           
-    d_krk              
-    d_dalmatian_islands
-    d_kakheti
-    d_albania
-    d_neopatras
-    d_cephalonia
-    d_boukellarion
-    d_opsikon
-    d_optimatoi
-    d_cappadocia
-    d_sebasteia
-    d_lykandos
-    d_lori
-    d_melitene
-    d_amida
-    d_taron    
+		d_strymon
+		d_seleukeia
+		d_ohrid
+		d_hum
+		d_ragusa
+		d_suenik
+		d_vaspurakan
+		d_tao
+		d_oltenia
+		d_basarabia
+		d_csanad
+		d_bacs
+		d_syrmia
+		d_krk
+		d_dalmatian_islands
+		d_kakheti
+		d_albania
+		d_neopatras
+		d_cephalonia
+		d_boukellarion
+		d_opsikon
+		d_optimatoi
+		d_cappadocia
+		d_sebasteia
+		d_lykandos
+		d_lori
+		d_melitene
+		d_amida
+		d_taron
 	}
-	
+
 	769 = {
 		military = 1.2
 		economy = 1.5
 		culture = 1.5
 	}
-		
+
 	1337 = {
 		military = 4.5
 		economy = 4.5
@@ -82,18 +82,18 @@ technology = {
 		military = 1.2
 		economy = 1.5
 		culture = 1.5
-		
+
 		TECH_FORTIFICATIONS_CONSTRUCTION = 3.0
 		TECH_CASTLE_CONSTRUCTION = 2.0
 		TECH_TEMPLE_CONSTRUCTION = 2.0
 		TECH_LEGALISM = 2.0
 	}
-		
+
 	1337 = {
 		military = 4.5
 		economy = 4.5
 		culture = 4.5
-		
+
 		TECH_FORTIFICATIONS_CONSTRUCTION = 4.5
 		TECH_CASTLE_CONSTRUCTION = 4.5
 		TECH_TEMPLE_CONSTRUCTION = 4.5

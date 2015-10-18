@@ -1104,6 +1104,78 @@ decisions = {
 		}
 	}
 
+	# Pagans can convert to the Dulcinian faith if their wife or a concubine is Dulcinian
+	convert_to_spouse_dulcinian = {
+
+		icon_religion = dulcinian
+
+		potential = {
+			ai = no
+			is_playable = yes
+			religion_group = pagan_group
+			controls_religion = no
+			not = { rightful_religious_head = root }
+			NOT = { trait = zealous }
+			OR = {
+				any_spouse = {
+					religion = dulcinian
+					hidden_tooltip = {
+						is_alive = yes
+					}
+				}
+				any_consort = {
+					religion = dulcinian
+					hidden_tooltip = {
+						is_alive = yes
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = -500
+			religion_authority = {
+				modifier = ruler_converted_from
+			}
+
+			if = {
+				limit = {
+					trait = cynical
+				}
+				random = {
+					chance = 60
+					add_trait = sympathy_pagans
+				}
+			}
+			if = {
+				limit = {
+					NOT = { trait = cynical }
+				}
+				random = {
+					chance = 50
+					add_trait = sympathy_pagans
+				}
+			}
+
+			religion = dulcinian
+
+			hidden_tooltip = {
+				religion_authority = {
+					modifier = ruler_converted_to
+				}
+			}
+			piety = 200
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 	# Pagans can convert to the Fraticelli faith if their wife or a concubine is Fraticelli
 	convert_to_spouse_fraticelli = {
 

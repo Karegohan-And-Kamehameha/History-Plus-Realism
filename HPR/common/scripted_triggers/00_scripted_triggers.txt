@@ -290,6 +290,7 @@ holy_order_not_expelled_trigger = {
 is_feminist_trigger = {
 	OR = {
 		religion = cathar
+		religion = dulcinian
 		religion = bogomilist
 		religion = messalian
 		religion = egyptian_pagan
@@ -309,6 +310,7 @@ mend_schism_religion_trigger = {
 				religion = catholic
 				religion = fraticelli
 				religion = cathar
+				religion = dulcinian
 			}
 			event_target:mender_religion = {
 				OR = {
@@ -329,6 +331,7 @@ mend_schism_religion_trigger = {
 					religion = catholic
 					religion = fraticelli
 					religion = cathar
+					religion = dulcinian
 				}
 			}
 		}
@@ -339,6 +342,7 @@ not_is_feminist_trigger = {
 	NOT = {
 		OR = {
 			religion = cathar
+			religion = dulcinian
 			religion = bogomilist
 			religion = messalian
 			religion = egyptian_pagan
@@ -455,6 +459,7 @@ unite_christianity_religion_trigger = {
 		religion = catholic
 		religion = fraticelli
 		religion = cathar
+		religion = dulcinian
 	}
 }
 
@@ -483,6 +488,10 @@ wrong_religion_head_trigger = {
 		AND = {
 			title = d_cathar
 			ROOT = { NOT =  { religion = cathar } }
+		}
+		AND = {
+			title = d_dulcinian
+			ROOT = { NOT =  { religion = dulcinian } }
 		}
 		AND = {
 			title = d_cathar

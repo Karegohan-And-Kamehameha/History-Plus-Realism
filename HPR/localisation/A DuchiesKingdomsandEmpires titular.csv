@@ -103,7 +103,7 @@ b_bardewik;Bardewik;Bardewik;Bardewik;;Bardewik;;;;;;;;;x
 d_ugandians;Ugandilased;Ugandilased;Ugandilased;;Ugandilased;;;;;;;;;x
 d_ugandians_adj;Ugandian;Ugandian;Ugandian;;Ugandian;;;;;;;;;x
 d_oseelians;Saarlased;Saarlased;Saarlased;;Saarlased;;;;;;;;;x
-d_oeelians_adj;Saarlanian;Saarlanian;Saarlanian;;Saarlanian;;;;;;;;;x
+d_oseelians_adj;Saarlanian;Saarlanian;Saarlanian;;Saarlanian;;;;;;;;;x
 d_vironians;Virulased;Virulased;Virulased;;Virulased;;;;;;;;;x
 d_vironians_adj;Virulanian;Virulanian;Virulanian;;Virulanian;;;;;;;;;x
 d_rotalians;Läänelased;Läänelased;Läänelased;;Läänelased;;;;;;;;;x
@@ -284,8 +284,8 @@ d_siraf_adj;Siráfí;Siráfí;Siráfí;;Siráfí;;;;;;;;;x
 d_livonian_brothers_of_the_sword;Schwertbrüderorden;Schwertbrüderorden;Schwertbrüderorden;;Schwertbrüderorden;;;;;;;;;x
 d_livonian_brothers_of_the_sword_adj;Schwertbrüderische;Schwertbrüderische;Schwertbrüderische;;Schwertbrüderische;;;;;;;;;x
 #;;;;;;;;;;;;;;
-d_uighurs;Uighurs;Uighurs;Uighurs;;Uighurs;;;;;;;;;x
-d_uighurs_adj;Uighur;Uighur;Uighur;;Uighur;;;;;;;;;x
+d_uyghurs;Uighurs;Uighurs;Uighurs;;Uighurs;;;;;;;;;x
+d_uyghurs_adj;Uighur;Uighur;Uighur;;Uighur;;;;;;;;;x
 d_oghuz;Oghuz;Oghuz;Oghuz;;Oghuz;;;;;;;;;x
 d_oghuz_adj;Oghuz;Oghuz;Oghuz;;Oghuz;;;;;;;;;x
 d_yaghma;Yaghma;Yaghma;Yaghma;;Yaghma;;;;;;;;;x

@@ -450,7 +450,7 @@ character_event = {
 }
 
 # increase in trade
-character_event = {
+province_event = {
 	id = HL.5005
 	desc = EVTDESC_HL_5005
 	picture = GFX_evt_chinese_emissary

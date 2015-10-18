@@ -36,7 +36,7 @@ character_event = {
 			spouse = {
 				is_alive = yes
 				is_abroad = no
-				trait = syphilitic 
+				trait = syphilitic
 			}
 		}
 		OR = {
@@ -212,7 +212,7 @@ character_event = {
 	id = 6020
 	picture = GFX_evt_lunatic
 	border = GFX_event_normal_frame_religion
-	
+
 	desc = {
 		text = EVTDESC6020
 		trigger = {
@@ -255,9 +255,9 @@ character_event = {
 		text = EVTDESC6020_COMA
 		trigger = { trait = incapable }
 	}
-	
+
 	min_age = 10
-	
+
 	trigger = {
 		NOT = {
 			trait = lunatic
@@ -268,10 +268,10 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 48000 # once in 4000 years on average
-		
+
 		modifier = {
 			factor = 0.003 # 12 years on average
 			OR = {
@@ -335,7 +335,7 @@ character_event = {
 			trait = drunkard
 		}
 	}
-	
+
 	option = {
 		name = {
 			text = EVTOPTA6020
@@ -379,9 +379,9 @@ character_event = {
 			text = EVTOPTA6020_COMA
 			trigger = { trait = incapable }
 		}
-		
+
 		add_trait = lunatic
-		
+
 		if = {
 			limit = { trait = depressed }
 			remove_trait = depressed
@@ -403,9 +403,9 @@ character_event = {
 	desc = EVTDESC6021
 	picture = GFX_evt_recovery
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
-	
+
 	trigger = {
 		health = 4
 		trait = lunatic
@@ -416,7 +416,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12000
 		modifier = {
@@ -424,7 +424,7 @@ character_event = {
 			health = 6
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA6021
 		remove_trait = lunatic
@@ -434,7 +434,7 @@ character_event = {
 ### Remove Lunatic - Muslim ###
 character_event = {
 	id = 6022
-	desc = EVTDESC6022
+	desc = EVTDESC6021
 	picture = GFX_evt_recovery
 
 	min_age = 10
@@ -465,7 +465,7 @@ character_event = {
 	id = 6030
 	picture = GFX_evt_lunatic
 	border = GFX_event_normal_frame_religion
-	
+
 	desc = {
 		text = EVTDESC6030
 		trigger = { NOT = { religion_group = muslim } }
@@ -474,36 +474,36 @@ character_event = {
 		text = EVTDESC6030_MUS
 		trigger = { religion_group = muslim }
 	}
-	
+
 	min_age = 10
-	
+
 	trigger = {
 		NOT = { trait = possessed }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 15000
-		
+
 		modifier = {
 			factor = 0.9
 			NOT = {
 				prestige = 20
-			} 
+			}
 		}
-		
+
 		modifier = {
 			factor = 0.9
 			NOT = {
 				piety = 10
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.9
 			trait = zealous
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA6030
 		trigger = { NOT = { religion_group = muslim } }
@@ -521,7 +521,7 @@ character_event = {
 	id = 6031
 	picture = GFX_evt_recovery
 	border = GFX_event_normal_frame_religion
-	
+
 	desc = {
 		text = EVTDESC6031
 		trigger = { religion_group = christian }
@@ -537,28 +537,28 @@ character_event = {
 			NOT = { religion_group = christian }
 		}
 	}
-	
+
 	min_age = 10
-	
+
 	trigger = {
 		health = 4
 		trait = possessed
 	}
-	
+
 	mean_time_to_happen = {
 		months = 15000
-		
+
 		modifier = {
 			factor = 0.9
 			prestige = 20
 		}
-		
+
 		modifier = {
 			factor = 0.9
 			piety = 10
 		}
 	}
-	
+
 	immediate = {
 		remove_character_modifier = voice_of_satan
 		remove_character_modifier = voice_of_jesus
@@ -568,13 +568,13 @@ character_event = {
 		clr_character_flag = demon_child_fake
 		clr_character_flag = child_exorcism
 	}
-	
+
 	option = {
 		name = EVTOPTA6031
 		trigger = { religion_group = christian }
 		remove_trait = possessed
 	}
-	
+
 	option = {
 		name = EVTOPTA6031_ALL
 		trigger = { NOT = { religion_group = christian } }
@@ -588,9 +588,9 @@ character_event = {
 	desc = EVTDESC6040
 	picture = GFX_evt_bad_news
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 16
-	
+
 	trigger = {
 		OR = {
 			is_ruler = yes
@@ -601,26 +601,26 @@ character_event = {
 		NOT = { trait = incapable }
 		NOT = { trait = infirm }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
-		
+
 		modifier = {
 			factor = 0.75
 			trait = diligent
 		}
-		
+
 		modifier = {
 			factor = 0.8
 			in_command = yes
 		}
-		
+
 		modifier = {
 			factor = 10.0
 			trait = slothful
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA6040
 		add_trait = stressed
@@ -703,7 +703,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			NOT = { age = 20 }
-			mother_even_if_dead = { is_alive = no } 
+			mother_even_if_dead = { is_alive = no }
 		}
 		modifier = {
 			factor = 0.75
@@ -954,17 +954,17 @@ character_event = {
 	desc = EVTDESC6062
 	picture = GFX_evt_child_play
 	border = GFX_event_normal_frame_religion
-	
+
 	max_age = 7
-	
+
 	trigger = {
 		trait = sickly
 		age = 2
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
-		
+
 		modifier = {
 			factor = 0.5
 			age = 3
@@ -978,7 +978,7 @@ character_event = {
 			age = 5
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA6062
 		remove_trait = sickly
@@ -2102,12 +2102,12 @@ character_event = {
 	desc = EVTDESC6117
 	picture = GFX_evt_recovery
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 16
 	max_age = 50
 	prisoner = no
 	capable_only = yes
-	
+
 	trigger = {
 		check_variable = { which = "health_lost" value = 0.1 }
 		is_ill = no
@@ -2117,7 +2117,7 @@ character_event = {
 			trait = wounded
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 		modifier = {
@@ -2277,7 +2277,7 @@ character_event = {
 			martial = 20
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA6117
 		if = {
@@ -2303,7 +2303,7 @@ character_event = {
 	desc = EVTDESC6200
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -2429,10 +2429,10 @@ character_event = {
 	desc = EVTDESC6202
 	picture = GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 16
 	only_capable = yes
-	
+
 	trigger = {
 		trait = possessed
 		has_character_modifier = voice_of_jesus
@@ -2455,7 +2455,7 @@ character_event = {
 	desc = EVTDESC6203
 	picture = GFX_evt_comet
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2487,7 +2487,7 @@ character_event = {
 	desc = EVTDESC6204
 	picture = GFX_evt_brothel_scene
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2517,7 +2517,7 @@ character_event = {
 	desc = EVTDESC6205
 	picture =  GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2546,7 +2546,7 @@ character_event = {
 	desc = EVTDESC6206
 	picture = GFX_evt_banquet_hall_feast
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2572,7 +2572,7 @@ character_event = {
 	desc = EVTDESC6207
 	picture =  GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2601,7 +2601,7 @@ character_event = {
 	desc = EVTDESC6208
 	picture = GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2627,7 +2627,7 @@ character_event = {
 	desc = EVTDESC6209
 	picture =  GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2656,7 +2656,7 @@ character_event = {
 	desc = EVTDESC6210
 	picture = GFX_evt_illness
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2682,7 +2682,7 @@ character_event = {
 	desc = EVTDESC6211
 	picture =  GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2711,7 +2711,7 @@ character_event = {
 	desc = EVTDESC6212
 	picture = GFX_evt_illness
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2737,7 +2737,7 @@ character_event = {
 	desc = EVTDESC6213
 	picture =  GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2766,7 +2766,7 @@ character_event = {
 	desc = EVTDESC6214
 	picture = GFX_evt_illness
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2792,7 +2792,7 @@ character_event = {
 	desc = EVTDESC6215
 	picture = GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2821,7 +2821,7 @@ character_event = {
 	desc = EVTDESC6216
 	picture = GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2847,7 +2847,7 @@ character_event = {
 	desc = EVTDESC6217
 	picture = GFX_evt_garden
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2876,7 +2876,7 @@ character_event = {
 	desc = EVTDESC6218
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2916,7 +2916,7 @@ character_event = {
 	desc = EVTDESC6219
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2948,7 +2948,7 @@ character_event = {
 	desc = EVTDESC6220
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -2973,7 +2973,7 @@ character_event = {
 	desc = EVTDESC6221
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -3005,7 +3005,7 @@ character_event = {
 	desc = EVTDESC6222
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 16
 
@@ -3030,7 +3030,7 @@ character_event = {
 	desc = EVTDESC6223
 	picture = GFX_evt_whispers
 	border = GFX_event_normal_frame_religion
-	
+
 	only_capable = yes
 	min_age = 10
 
@@ -3148,7 +3148,7 @@ character_event = {
 	desc = EVTDESC6225
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3176,7 +3176,7 @@ character_event = {
 	desc = EVTDESC6226
 	picture = GFX_evt_scandal
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3207,7 +3207,7 @@ character_event = {
 	desc = EVTDESC6227
 	picture = GFX_evt_brothel
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3233,7 +3233,7 @@ character_event = {
 	desc = EVTDESC6228
 	picture = GFX_evt_brothel
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3262,7 +3262,7 @@ character_event = {
 	desc = EVTDESC6229
 	picture = GFX_evt_quarrel
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3288,7 +3288,7 @@ character_event = {
 	desc = EVTDESC6230
 	picture = GFX_evt_quarrel
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3317,7 +3317,7 @@ character_event = {
 	desc = EVTDESC6231
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3343,7 +3343,7 @@ character_event = {
 	desc = EVTDESC6232
 	picture = GFX_evt_shadow
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3372,7 +3372,7 @@ character_event = {
 	desc = EVTDESC6233
 	picture = GFX_evt_quarrel
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3398,7 +3398,7 @@ character_event = {
 	desc = EVTDESC6234
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3427,7 +3427,7 @@ character_event = {
 	desc = EVTDESC6235
 	picture = GFX_evt_quarrel
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3453,7 +3453,7 @@ character_event = {
 	desc = EVTDESC6236
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3482,7 +3482,7 @@ character_event = {
 	desc = EVTDESC6237
 	picture = GFX_evt_quarrel
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3508,7 +3508,7 @@ character_event = {
 	desc = EVTDESC6238
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3537,7 +3537,7 @@ character_event = {
 	desc = EVTDESC6239
 	picture = GFX_evt_illness
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 
@@ -3563,7 +3563,7 @@ character_event = {
 	desc = EVTDESC6240
 	picture = GFX_evt_illness
 	border = GFX_event_normal_frame_religion
-	
+
 	min_age = 10
 	only_capable = yes
 

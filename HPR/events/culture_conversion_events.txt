@@ -7,9 +7,9 @@
 # Province culture changes
 province_event = {
 	id = 55000
-	
+
 	hide_window = yes
-	
+
 	trigger = {
 		owner = {
 			NOT = {
@@ -28,7 +28,7 @@ province_event = {
 				AND = {
 					ROOT = {
 						culture = saxon
-						region = custom_england  
+						region = custom_england
 					}
 					OR = {
 						culture_group = north_germanic
@@ -403,7 +403,7 @@ province_event = {
 					culture_group = east_african
 				}
 			}
-		}		
+		}
 	}
 
 	immediate = {
@@ -439,7 +439,7 @@ character_event = {
 	id = 55001
 	desc = "EVTDESC55001"
 	picture = GFX_evt_throne_room
-	
+
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -459,6 +459,7 @@ character_event = {
 							religion = chalcedonian
 							religion = catholic
 							religion = cathar
+							religion = dulcinian
 							religion = fraticelli
 							religion = waldensian
 							religion = lollard
@@ -479,6 +480,7 @@ character_event = {
 							religion = chalcedonian
 							religion = catholic
 							religion = cathar
+							religion = dulcinian
 							religion = fraticelli
 							religion = waldensian
 							religion = lollard
@@ -769,7 +771,7 @@ character_event = {
 	id = 55100
 	desc = EVTDESC55100
 	picture = GFX_evt_courier
-	
+
 	desc = {
 		text = EVTDESC55100
 		trigger = {
@@ -800,9 +802,9 @@ character_event = {
 			FROM = { government = theocracy_government }
 		}
 	}
-	
+
 	notification = yes
-	
+
 	is_triggered_only = yes
 
 	option = {

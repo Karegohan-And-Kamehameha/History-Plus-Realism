@@ -12,13 +12,13 @@ character_event = {
 	id = 73000
 	desc = EVTDESC73000
 	picture = GFX_evt_monk
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
-	
+
 	trigger = {
 		NOT = { trait = proud }
 		NOT = { trait = humble }
@@ -111,9 +111,9 @@ character_event = {
 			factor = 0.5
 			trait = has_small_pox
 		}
-	
+
 	}
-	
+
 	option = {
 		name = EVTOPTA73000 #Give him patronage
 		trigger = {
@@ -171,14 +171,14 @@ character_event = {
 	id = 73001
 	desc = EVTDESC73001
 	picture = GFX_evt_courtiers_talking
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		is_married = yes
 		spouse = {
@@ -206,7 +206,7 @@ character_event = {
 			trait = gregarious
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA73001 # Help her, by getting her more to read.
 		trigger = {
@@ -293,14 +293,14 @@ character_event = {
 	desc = EVTDESC73002
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		in_command = no
 		is_heretic = no
@@ -367,14 +367,14 @@ character_event = {
 	id = 73003
 	desc = EVTDESC73003
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		war = no
 		in_command = no
@@ -471,13 +471,13 @@ character_event = {
 	id = 73004
 	desc = EVTDESC73004
 	picture = GFX_evt_monk
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
-	
+
 	trigger = {
 		in_command = no
 		father_even_if_dead = {
@@ -497,7 +497,7 @@ character_event = {
 			trait = shy
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA73004 #This will be grand in the main hall
 		trigger = {
@@ -535,13 +535,13 @@ character_event = {
 	id = 73005
 	desc = EVTDESC73005
 	picture = GFX_evt_courtiers_talking
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
-	
+
 	trigger = {
 		in_command = no
 		OR = {
@@ -683,13 +683,13 @@ character_event = {
 	desc = EVTDESC73006
 	picture = GFX_evt_pregnancy
 	border = GFX_event_normal_frame_intrigue
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
-	
+
 	trigger = {
 		any_child = {
 			is_married = no
@@ -810,12 +810,12 @@ character_event = {
 	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
 	only_men = yes
-	
+
 	trigger = {
 		in_command = no
 		is_married = yes
@@ -851,7 +851,7 @@ character_event = {
 		}
 
 	}
-	
+
 	option = {
 		name = EVTOPTA73007 #My money is your money, darling
 		trigger = {
@@ -913,17 +913,17 @@ character_event = {
 	id = 73008
 	desc = EVTDESC73008
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
-	
+
 	trigger = {
 		capital_scope = { TECH_NOBLE_CUSTOMS = 4 }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -961,13 +961,13 @@ character_event = {
 	id = 73009
 	desc = EVTDESC73009
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	prisoner = no
-	
+
 	trigger = {
 		war = yes
 		any_current_enemy = {
@@ -1114,20 +1114,21 @@ character_event = {
 	id = 73010
 	desc = EVTDESC73010
 	picture = GFX_evt_library
-	
+
 	min_age = 55
 	only_playable = yes
 	prisoner = no
 	capable_only = yes
 	religion_group = christian
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		year = 1415
 		OR = {
 			religion = catholic
 			religion = cathar
+			religion = dulcinian
 			religion = fraticelli
 			religion = waldensian
 			religion = lollard
@@ -1135,7 +1136,7 @@ character_event = {
 		}
 		NOT = { has_character_flag = ars_moriendi }
 	}
-	
+
 	weight_multiplier = {
 		days = 1
 		modifier = {
@@ -1154,8 +1155,8 @@ character_event = {
 			factor = 5.0
 			trait = zealous
 		}
-		
-		
+
+
 		modifier = {
 			factor = 1.25
 			trait = stressed
@@ -1233,11 +1234,11 @@ character_event = {
 			trait = has_small_pox
 		}
 	}
-	
+
 	immediate = {
 		set_character_flag = ars_moriendi
 	}
-	
+
 	option = {
 		name = EVTOPTA73011 #I am avoiding tempration.
 		trigger = {
@@ -1349,7 +1350,7 @@ character_event = {
 	desc = EVTDESC73200	#I want to be marshal, I am better...
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_war
-	
+
 	capable_only = yes
 	prisoner = no
 	min_age = 16
@@ -1398,7 +1399,7 @@ character_event = {
 			has_opinion_modifier = { who = ROOT modifier = opinion_fired_from_council }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -1406,12 +1407,12 @@ character_event = {
 			trait = ambitious
 		}
 	}
-	
+
 	immediate = {
 		set_character_flag = asked_for_job
 		liege = {  set_character_flag = asked_marshal_petition }
 	}
-	
+
 	option = {
 		name = EVTOPTA73200
 		liege = { letter_event = { id = 73201 tooltip = EVTTOOLTIP73201 } }
@@ -1429,7 +1430,7 @@ character_event = {
 letter_event = {
 	id = 73201
 	desc = EVTDESC73201
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -1507,7 +1508,7 @@ letter_event = {
 letter_event = {
 	id = 73202
 	desc = EVTDESC73202
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -1521,7 +1522,7 @@ letter_event = {
 			50 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB73202
 		trigger = {
@@ -1538,10 +1539,10 @@ character_event = {
 	desc = EVTDESC73203
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_war
-	
+
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -1572,7 +1573,7 @@ letter_event = {
 	id = 73204
 	desc = EVTDESC73204
 	border = GFX_event_letter_frame_war
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -1627,7 +1628,7 @@ character_event = {
 	desc = EVTDESC73210	#I want to be spymaster, I am better...
 	picture = GFX_evt_spymaster
 	border = GFX_event_normal_frame_intrigue
-	
+
 	only_men = yes
 	min_age = 16
 	capable_only = yes
@@ -1677,7 +1678,7 @@ character_event = {
 			has_opinion_modifier = { who = ROOT modifier = opinion_fired_from_council }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -1689,7 +1690,7 @@ character_event = {
 		set_character_flag = asked_for_job
 		liege = {  set_character_flag = asked_spymaster_petition }
 	}
-	
+
 	option = {
 		name = EVTOPTA73210
 		liege = { letter_event = { id = 73211 tooltip = EVTTOOLTIP73211 } }
@@ -1707,12 +1708,12 @@ character_event = {
 letter_event = {
 	id = 73211
 	desc = EVTDESC73211
-	
+
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA73211
 		ai_chance = {
@@ -1734,7 +1735,7 @@ letter_event = {
 		clr_character_flag = asked_spymaster_petition
 	}
 	option = {
-		name = EVTOPTB73211 
+		name = EVTOPTB73211
 		trigger = {
 			job_spymaster = {
 				NOT = { trait = stressed }
@@ -1788,10 +1789,10 @@ letter_event = {
 letter_event = {
 	id = 73212
 	desc = EVTDESC73212
-	
+
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -1806,7 +1807,7 @@ letter_event = {
 		}
 	}
 	option = {
-		name = EVTOPTB73212 
+		name = EVTOPTB73212
 		trigger = {
 			NOT = { trait = ambitious }
 			NOT = { trait = proud }
@@ -1820,10 +1821,10 @@ character_event = {
 	id = 73213
 	desc = EVTDESC73213
 	picture = GFX_evt_spymaster
-	
+
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -1853,7 +1854,7 @@ character_event = {
 letter_event = {
 	id = 73214
 	desc = EVTDESC73214
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -1968,7 +1969,7 @@ character_event = {
 		set_character_flag = asked_for_job
 		liege = {  set_character_flag = asked_treasurer_petition }
 	}
-	
+
 	option = {
 		name = EVTOPTA73220
 		liege = { letter_event = { id = 73221 tooltip = EVTTOOLTIP73221 } }
@@ -1986,7 +1987,7 @@ character_event = {
 letter_event = {
 	id = 73221
 	desc = EVTDESC73221
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2007,10 +2008,10 @@ letter_event = {
 			remove_opinion = { who = ROOT modifier = opinion_fired_from_council }
 			give_job_title = job_treasurer
 		}
-		clr_character_flag = asked_treasurer_petition		
+		clr_character_flag = asked_treasurer_petition
 	}
 	option = {
-		name = EVTOPTB73221 
+		name = EVTOPTB73221
 		trigger = {
 			job_treasurer = {
 				NOT = { trait = stressed }
@@ -2064,7 +2065,7 @@ letter_event = {
 letter_event = {
 	id = 73222
 	desc = EVTDESC73222
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -2093,10 +2094,10 @@ character_event = {
 	id = 73223
 	desc = EVTDESC73223
 	picture = GFX_evt_spymaster
-	
+
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -2128,7 +2129,7 @@ character_event = {
 letter_event = {
 	id = 73224
 	desc = EVTDESC73224
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2239,9 +2240,9 @@ character_event = {
 			has_opinion_modifier = { who = ROOT modifier = opinion_fired_from_council }
 		}
 	}
-	
+
 	mean_time_to_happen = {
-		months = 6	
+		months = 6
 		modifier = {
 			factor = 0.25
 			trait = ambitious
@@ -2251,7 +2252,7 @@ character_event = {
 		set_character_flag = asked_for_job
 		liege = {  set_character_flag = asked_lord_spiritual_petition }
 	}
-	
+
 	option = {
 		name = EVTOPTA73230
 		liege = { letter_event = { id = 73231 tooltip = EVTTOOLTIP73231 } }
@@ -2269,7 +2270,7 @@ character_event = {
 letter_event = {
 	id = 73231
 	desc = EVTDESC73231
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2291,7 +2292,7 @@ letter_event = {
 			give_job_title = job_spiritual
 		}
 		clr_character_flag = asked_lord_spiritual_petition
-		
+
 	}
 	option = {
 		name = EVTOPTB73231
@@ -2348,7 +2349,7 @@ letter_event = {
 letter_event = {
 	id = 73232
 	desc = EVTDESC73232
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -2377,12 +2378,12 @@ character_event = {
 	id = 73233
 	desc = EVTDESC73233
 	picture = GFX_evt_spymaster
-	
+
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		liege = { NOT = { has_character_flag = lifetime_appointments } }
 		liege = { primary_title = { NOT = { has_law = council_privileges_1 } } }
@@ -2413,7 +2414,7 @@ letter_event = {
 	desc = EVTDESC73234
 
 	is_triggered_only = yes
-	
+
 
 	option = {
 		name = EVTOPTA73234
@@ -2467,7 +2468,7 @@ character_event = {
 	id = 73240
 	desc = EVTDESC73240	#I want to be Chancellor, I am better...
 	picture = GFX_evt_spymaster
-	
+
 	capable_only = yes
 	prisoner = no
 	min_age = 16
@@ -2517,7 +2518,7 @@ character_event = {
 			has_opinion_modifier = { who = ROOT modifier = opinion_fired_from_council }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -2529,7 +2530,7 @@ character_event = {
 		set_character_flag = asked_for_job
 		liege = {  set_character_flag = asked_chancellor_petition }
 	}
-	
+
 	option = {
 		name = EVTOPTA73240
 		liege = { letter_event = { id = 73241 tooltip = EVTTOOLTIP73241 } }
@@ -2547,7 +2548,7 @@ character_event = {
 letter_event = {
 	id = 73241
 	desc = EVTDESC73241
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -2569,7 +2570,7 @@ letter_event = {
 			give_job_title = job_chancellor
 		}
 		clr_character_flag = asked_chancellor_petition
-		
+
 	}
 	option = {
 		name = EVTOPTB73241
@@ -2626,7 +2627,7 @@ letter_event = {
 letter_event = {
 	id = 73242
 	desc = EVTDESC73242
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -2655,10 +2656,10 @@ character_event = {
 	id = 73243
 	desc = EVTDESC73243
 	picture = GFX_evt_spymaster
-	
+
 	prisoner = no
 	capable_only = yes
-	
+
 	is_triggered_only = yes
 
 	trigger = {
@@ -2678,7 +2679,7 @@ character_event = {
 		}
 		prisoner = no
 	}
-	
+
 	option = {
 		name = EVTOPTA73243
 		liege = { letter_event = { id = 73244 tooltip = EVTTOOLTIP73244 } }
@@ -2689,7 +2690,7 @@ character_event = {
 letter_event = {
 	id = 73244
 	desc = EVTDESC73244
-	
+
 	is_triggered_only = yes
 
 	option = {

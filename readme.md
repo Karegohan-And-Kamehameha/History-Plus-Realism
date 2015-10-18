@@ -4,8 +4,8 @@ This mod is based on both of them and the goal of this mod is to implement the b
 HPR has been made by me for my personal use and is unlikely to be actively maintained in the future. It also goes against the rules of Paradoxplaza forums and is therefore not published there. The very notion of having to ask for permission to use mod files in other mods sickens me, this obviously means, that you are free to use any of the changes I've made to the game and it's modifications in your own projects. All credit for the original mods used in HPR goes to their authors.
 
 <b>Requirements and recommendations:</b><br>
--Crusader Kings 2 with all DLC except sunset invasion.<br>
--A computer that can handle SWMH map.<br>
+-Crusader Kings 2 with all DLC.<br>
+-A powerfull CPU that can handle SWMH map with all the other stuff on top.<br>
 -High resolution display to support ARKO interface.<br>
 -For a better visual experience it is recommended to turn off trees and rivers.<br>
 -All other mods are not compatable.<br>
@@ -13,6 +13,13 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 The music mod is now available for download at<br> https://mega.nz/#!lld0FKDQ!ymzHRK5N2tPyyPz9v7DG7si0TiTYSjWCcav7v52w-aI <br>
 
 <b>Changelog:</b><br>
+<b>v0.7.4:</b><br>
+-Dulcinian is now a proper heresy with a religious head and holy sites. It is now a fun mix of Apostolic and Cathar heresies with the ability to raid, which is unique for Catholic heresies and is based on their historical raid on Sesia Valley.<br>
+-Shattered Realm removed. Ahistorical and was causing CTD if selected.<br>
+-e_placeholder now correctly occupies all lands without a de jure empire and has replaced e_null from SWMH where relevant.<br>
+-Fixed encoding of character names. And appearances of a few cultures, while I was at it.<br>
+-Sunset invasion events removed. The DLC can now be safely enabled for graphical resources that might be potencially used in the future.<br>
+-Fixed hundreds of smaller bugs.<br>
 <b>v0.7.3:</b><br>
 -Branching education from Rebels and Warmongers mod integrated.<br>
 -Added a targetted decision that allows capturing of trespassing commanders.<br>
@@ -122,3 +129,4 @@ Fear is currently accumulated through acts of cruelty, such as torturing, blindi
 
 <b>Known issues:</b><br>
 -Sometimes imprisoned characters have their opinion modifier triggered twice.<br>
+-The EU4 converter is not changed from CK2+, untested and probably doesn't work as intended.<br>

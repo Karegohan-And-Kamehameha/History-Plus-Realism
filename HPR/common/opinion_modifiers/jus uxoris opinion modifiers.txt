@@ -1,3 +1,0 @@
-husband_usurped_me = {
-	opinion = -30
-}
