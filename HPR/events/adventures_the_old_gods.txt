@@ -15,14 +15,14 @@ namespace = TOG
 # An ambitious landless claimant begins to plan an adventure for the title
 character_event = {
 	id = TOG.1200
-	
+
 	hide_window = yes
-	
+
 	min_age = 16
 	max_age = 50
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
 		is_ruler = no
@@ -81,7 +81,7 @@ character_event = {
 					ROOT = { trait = ambitious }
 					NOT = { has_law = agnatic_succession }
 				}
-			}		
+			}
 			holder_scope = {
 				independent = yes
 				demesne_size = 1
@@ -115,7 +115,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 50
 		modifier = {
@@ -225,7 +225,7 @@ character_event = {
 			NOT = { diplomacy = 7 }
 		}
 	}
-	
+
 	immediate = {
 		random_claim = {
 			limit = {
@@ -253,7 +253,7 @@ character_event = {
 						ROOT = { trait = ambitious }
 						NOT = { has_law = agnatic_succession }
 					}
-				}		
+				}
 				holder_scope = {
 					independent = yes
 					demesne_size = 1
@@ -356,9 +356,9 @@ character_event = {
 	desc = EVTDESC_TOG_1201
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_TOG_1201"
 		opinion = {
@@ -419,10 +419,10 @@ character_event = {
 # Ping event for the targeted ruler
 character_event = {
 	id = TOG.1230
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		random_realm_character = {
 			limit = {
@@ -460,17 +460,17 @@ character_event = {
 # Adventurer seeks a court to begin recruiting in
 character_event = {
 	id = TOG.1231
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_alive = yes
 		prisoner = no
 		NOT = { trait = incapable }
 		has_character_modifier = planning_claimant_adventure
 	}
-	
+
 	immediate = {
 		remove_character_modifier = do_not_disturb
 		#first ask from their liege, if possible
@@ -1217,13 +1217,13 @@ character_event = {
 	id = TOG.1232
 	desc = EVTDESC_TOG_1232
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROM = { remove_character_modifier = do_not_disturb }
 	}
-	
+
 	option = {
 		name = "EVTOPTA_TOG_1232" # I will give him my full support
 		trigger = {
@@ -1426,7 +1426,7 @@ character_event = {
 			}
 			wealth = -150
 			FROM = { wealth = 150 }
-		}		
+		}
 		reverse_opinion = { who = FROM modifier = backed_adventurer years = 20 }
 		reverse_opinion = { who = FROMFROM modifier = supported_adventurer_against_me multiplier = 2 years = 10 }
 		FROM = { custom_tooltip = { text = ADVENTURER_RECRUITS_FROM_MY_LANDS } }
@@ -1499,7 +1499,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 120 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -1513,7 +1513,7 @@ character_event = {
 					limit = { FROM = { NOT = { wealth = 1000 } } }
 					FROMFROM = { character_event = { id = TOG.1230 days = 135 random = 15 } }
 				}
-			}			
+			}
 			if = {
 				limit = {
 					realm_size = 100
@@ -1535,7 +1535,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 180 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -1708,7 +1708,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 60 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -1745,7 +1745,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 120 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -1759,7 +1759,7 @@ character_event = {
 					limit = { FROM = { NOT = { wealth = 1000 } } }
 					FROMFROM = { character_event = { id = TOG.1230 days = 135 random = 15 } }
 				}
-			}			
+			}
 			if = {
 				limit = {
 					realm_size = 100
@@ -1781,7 +1781,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 180 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -1898,7 +1898,7 @@ character_event = {
 					is_rival = FROMFROM
 					is_friend = FROM
 				}
-			}	
+			}
 		}
 		if = {
 			limit = { trait = kind }
@@ -2020,13 +2020,13 @@ character_event = {
 	id = TOG.1233
 	desc = EVTDESC_TOG_1233
 	picture = GFX_evt_emissary
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROM = { remove_character_modifier = do_not_disturb }
 	}
-	
+
 	option = {
 		name = "EVTOPTA_TOG_1232" # I will give him my full support
 		trigger = {
@@ -2229,7 +2229,7 @@ character_event = {
 			}
 			wealth = -150
 			FROM = { wealth = 150 }
-		}		
+		}
 		reverse_opinion = { who = FROM modifier = backed_adventurer years = 20 }
 		reverse_opinion = { who = FROMFROM modifier = supported_adventurer_against_me multiplier = 2 years = 10 }
 		FROM = { custom_tooltip = { text = ADVENTURER_RECRUITS_FROM_MY_LANDS } }
@@ -2273,7 +2273,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 60 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -2310,7 +2310,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 120 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -2324,7 +2324,7 @@ character_event = {
 					limit = { FROM = { NOT = { wealth = 1000 } } }
 					FROMFROM = { character_event = { id = TOG.1230 days = 135 random = 15 } }
 				}
-			}			
+			}
 			if = {
 				limit = {
 					realm_size = 100
@@ -2346,7 +2346,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 180 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -2361,7 +2361,7 @@ character_event = {
 					FROMFROM = { character_event = { id = TOG.1230 days = 195 random = 15 } }
 				}
 			}
-		}		
+		}
 	}
 	option = {
 		name = "EVTOPTB_TOG_1232" # He may raise support in my lands
@@ -2527,7 +2527,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 60 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -2564,7 +2564,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 120 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -2578,7 +2578,7 @@ character_event = {
 					limit = { FROM = { NOT = { wealth = 1000 } } }
 					FROMFROM = { character_event = { id = TOG.1230 days = 135 random = 15 } }
 				}
-			}			
+			}
 			if = {
 				limit = {
 					realm_size = 100
@@ -2600,7 +2600,7 @@ character_event = {
 						}
 					}
 					letter_event = { id = TOG.1234 days = 15 random = 180 }
-				}			
+				}
 				# Adventurer recruits from each province in the realm
 				any_realm_province = {
 					limit = {
@@ -2721,7 +2721,7 @@ character_event = {
 					is_rival = FROMFROM
 					is_friend = FROM
 				}
-			}	
+			}
 		}
 		if = {
 			limit = { trait = kind }
@@ -2841,10 +2841,10 @@ character_event = {
 letter_event = {
 	id = TOG.1234
 	desc = EVTDESC_TOG_1234
-	
+
 	is_triggered_only = yes
 	show_from_from = yes
-	
+
 	trigger = {
 		FROMFROM = {
 			is_alive = yes
@@ -2853,7 +2853,7 @@ letter_event = {
 			has_character_modifier = planning_claimant_adventure
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_TOG_1234 # Agree
 		trigger = { wealth = 10 }
@@ -3073,10 +3073,10 @@ letter_event = {
 # Adventurer recruits from a province in the realm
 province_event = {
 	id = TOG.1235
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROMFROM = {
 			is_alive = yes
@@ -3085,7 +3085,7 @@ province_event = {
 			has_character_modifier = planning_claimant_adventure
 		}
 	}
-	
+
 	immediate = {
 		add_province_modifier = {
 			name = adventurer_recruited
@@ -3243,13 +3243,13 @@ province_event = {
 # Adventurer seeks support in the targeted liege's realm
 character_event = {
 	id = TOG.1254
-	
+
 	hide_window = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_character_modifier = planning_claimant_adventure
 		NOT = { wealth = 1000 }
@@ -3286,7 +3286,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 20
 		modifier = {
@@ -3314,7 +3314,7 @@ character_event = {
 			wealth = 700
 		}
 	}
-	
+
 	immediate = {
 		random_claim = {
 			limit = {
@@ -3362,10 +3362,10 @@ character_event = {
 letter_event = {
 	id = TOG.1236
 	desc = EVTDESC_TOG_1236
-	
+
 	is_triggered_only = yes
 	show_from_from = yes
-	
+
 	trigger = {
 		FROM = {
 			is_alive = yes
@@ -3374,7 +3374,7 @@ letter_event = {
 			has_character_modifier = planning_claimant_adventure
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_TOG_1234 # Agree
 		trigger = { wealth = 10 }
@@ -3644,10 +3644,10 @@ character_event = {
 	desc = EVTDESC_TOG_1237
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 	show_from_from = yes
-	
+
 	trigger = {
 		ai = no
 		FROMFROM = {
@@ -3657,7 +3657,7 @@ character_event = {
 			has_character_modifier = planning_claimant_adventure
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_TOG_1237
 	}
@@ -3675,10 +3675,10 @@ character_event = {
 	desc = EVTDESC_TOG_1238
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
 	show_from_from = yes
-	
+
 	trigger = {
 		ai = no
 		FROMFROM = {
@@ -3688,7 +3688,7 @@ character_event = {
 			has_character_modifier = planning_claimant_adventure
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_TOG_1238
 	}
@@ -3706,9 +3706,9 @@ character_event = {
 	desc = EVTDESC_TOG_1239
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1239
 		opinion = { who = FROM modifier = supported_adventurer_against_me multiplier = 2 years = 10 }
@@ -3720,10 +3720,10 @@ character_event = {
 	id = TOG.1240
 	desc = EVTDESC_TOG_1240
 	picture = GFX_evt_bandits
-	
+
 	is_triggered_only = yes
 	show_from_from = yes
-	
+
 	option = {
 		name = CURSES
 	}
@@ -3734,10 +3734,10 @@ character_event = {
 	id = TOG.1241
 	desc = EVTDESC_TOG_1241
 	picture = GFX_evt_bandits
-	
+
 	is_triggered_only = yes
 	show_from_from = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -3747,9 +3747,9 @@ character_event = {
 letter_event = {
 	id = TOG.1242
 	desc = EVTDESC_TOG_1242
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1242 # Pay the ransom
 		ai_chance = {
@@ -3829,9 +3829,9 @@ letter_event = {
 letter_event = {
 	id = TOG.1243
 	desc = EVTDESC_TOG_1243
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 		wealth = 50
@@ -3843,9 +3843,9 @@ letter_event = {
 letter_event = {
 	id = TOG.1244
 	desc = EVTDESC_TOG_1244
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1244 # Let him go
 		FROMFROMFROM = {
@@ -3864,13 +3864,13 @@ letter_event = {
 # When adventurer is idle, send him off to a new realm (if possible}
 character_event = {
 	id = TOG.1245
-	
+
 	hide_window = yes
-	
+
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_character_modifier = planning_claimant_adventure
 		NOT = { has_character_modifier = do_not_disturb }
@@ -3885,7 +3885,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 30
 		modifier = {
@@ -3901,9 +3901,9 @@ character_event = {
 			wealth = 800
 		}
 	}
-	
+
 	immediate = {
-		add_character_modifier = { name = do_not_disturb duration = 7 hidden = yes }		
+		add_character_modifier = { name = do_not_disturb duration = 7 hidden = yes }
 		random_claim = {
 			limit = {
 				holder_scope = {
@@ -3928,7 +3928,7 @@ character_event = {
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1246
 	}
@@ -3942,7 +3942,7 @@ character_event = {
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1247
 	}
@@ -3956,7 +3956,7 @@ character_event = {
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1248
 	}
@@ -3970,7 +3970,7 @@ character_event = {
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1249
 	}
@@ -3979,10 +3979,10 @@ character_event = {
 # Adventurer begins their war against the targeted ruler
 character_event = {
 	id = TOG.1202
-	
+
 	hide_window = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -4507,7 +4507,7 @@ character_event = {
 									}
 								}
 								if = {
-									limit = { 
+									limit = {
 										diplomacy = 10
 										martial = 10
 										OR = {
@@ -4622,7 +4622,7 @@ character_event = {
 				}
 				move_character = ROOT
 			}
-		}			
+		}
 		# Create a fleet, just to be sure
 		spawn_fleet = {
 			province = closest # closest sea zone
@@ -4877,13 +4877,13 @@ character_event = {
 	desc = EVTDESC_TOG_1203
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { is_ruler = yes } # The DoW worked and the adventurer has a temporary title
 	}
-	
+
 	immediate = {
 		FROM = {
 			add_trait = adventurer
@@ -4901,7 +4901,7 @@ character_event = {
 			clr_character_flag = not_interested_in_movements
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA_TOG_1203"
 	}
@@ -4912,11 +4912,11 @@ character_event = {
 	desc = EVTDESC_TOG_1204
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_TOG_1203"
 	}
@@ -4928,7 +4928,7 @@ letter_event = {
 	desc = EVTDESC_TOG_1250
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1250 #Join the war
 		ai_chance = {
@@ -4958,7 +4958,7 @@ letter_event = {
 			liege = { letter_event = { id = TOG.1252 days = 1 } }
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_TOG_1250 #Refuse
 		ai_chance = {
@@ -5015,7 +5015,7 @@ letter_event = {
 	desc = EVTDESC_TOG_1251
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_TOG_1251
 		reverse_opinion = { who = FROMFROM modifier = opinion_very_grateful years = 10 }
@@ -5023,8 +5023,8 @@ letter_event = {
 		hidden_tooltip = {
 			opinion = { who = FROMFROM modifier = opinion_fought_for_claimant years = 10 }
 		}
-	}	
-}	
+	}
+}
 
 # Liege informed that claimant faction has joined the adventurer's side
 letter_event = {
@@ -5032,10 +5032,10 @@ letter_event = {
 	desc = EVTDESC_TOG_1252
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = CURSES
-	}	
+	}
 }
 
 # Armies disbanded after five years of peace
@@ -5043,9 +5043,9 @@ character_event = {
 	id = TOG.1253
 	desc = EVTDESC_TOG_1253
 	picture = GFX_evt_crusaders
-	
+
 	only_rulers = yes
-	
+
 	trigger = {
 		war = no
 		has_earmarked_regiments = claimant_adventure
@@ -5054,11 +5054,11 @@ character_event = {
 			NOT = { has_character_flag = claimant_adventurer }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {
 		name = EVTOPTA_TOG_1253
 		clr_character_flag = claimant_adventurer
@@ -5071,21 +5071,21 @@ character_event = {
 # An ambitious character with no inheritance begins to plan an adventure for a foreign title
 character_event = {
 	id = TOG.1210
-	
+
 	hide_window = yes # Only fires for unplayable landless characters
-	
+
 	min_age = 16
 	max_age = 50
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	
+
 	trigger = {
 		has_dlc = "The Old Gods"
-		
+
 		is_ruler = no
 		is_ill = no
-		
+
 		health = 4
 		OR = {
 			martial = 8
@@ -5102,7 +5102,7 @@ character_event = {
 			trait = viking
 			prestige = 500
 		}
-		
+
 		NOR = {
 			trait = content
 			trait = craven
@@ -5123,14 +5123,13 @@ character_event = {
 			any_spouse = { is_ruler = yes }
 			any_heir_title = { always = yes }
 		}
-		
+
 		OR = { # Only these for now
 			culture_group = north_germanic
 			culture_group = west_germanic
 			culture_group = altaic
-			culture = norman
-			culture = frankish
-			culture = breton
+			culture_group = latin
+			culture_group = celtic
 			culture = catalan
 			AND = {
 				culture = hungarian
@@ -5139,7 +5138,7 @@ character_event = {
 			has_character_flag = demon_child_non_pagan
 			trait = changeling
 		}
-		
+
 		# Handled by event HL.100
 		NAND = {
 			has_dlc = "Horse Lords"
@@ -5154,7 +5153,7 @@ character_event = {
 				religion = norse_pagan_reformed
 			}
 		}
-		
+
 		# Handled by event TOG.1200
 		NOT = {
 			any_claim = {
@@ -5176,7 +5175,7 @@ character_event = {
 						ROOT = { trait = ambitious }
 						NOT = { has_law = agnatic_succession }
 					}
-				}		
+				}
 				holder_scope = {
 					independent = yes
 					demesne_size = 1
@@ -5203,7 +5202,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		OR = {
 			martial = 16
 			father_even_if_dead = {
@@ -5229,10 +5228,10 @@ character_event = {
 				}
 			}
 		}
-		
+
 		NOT = { has_character_modifier = planning_duchy_adventure }
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -5321,7 +5320,7 @@ character_event = {
 			any_liege = { ai = no }
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = { trait = in_hiding	}
@@ -5846,14 +5845,14 @@ character_event = {
 				save_event_target_as = adventure_target_province
 			}
 		}
-		
+
 		# Stop it here if nothing's found
 		if = {
 			limit = { NOT = { has_character_flag = found_target_province } }
 			set_character_flag = potential_adventurer
 			break = yes
 		}
-		
+
 		# Fire the event
 		clr_character_flag = found_target_province
 		event_target:adventure_target_province = {
@@ -5889,9 +5888,9 @@ character_event = {
 	desc = EVTDESC_TOG_1211
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -5899,7 +5898,7 @@ character_event = {
 			months = 24
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_TOG_1211
 	}
@@ -5909,10 +5908,10 @@ character_event = {
 # (Temporary title created and a war declared)
 character_event = {
 	id = TOG.1212
-	
+
 	hide_window = yes # Only fires for unplayable landless characters
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_ruler = no
 		prisoner = no
@@ -5921,10 +5920,10 @@ character_event = {
 			any_heir_title = { always = yes }
 		}
 	}
-	
+
 	immediate = {
 		remove_character_modifier = do_not_disturb
-		
+
 		# check if the target is not applicable
 		if = {
 			limit = {
@@ -5960,17 +5959,17 @@ character_event = {
 			character_event = { id = TOG.1210 }
 			break = yes
 		}
-		
+
 		# target is good, so start the war
 		wealth = 500
-		
+
 		liege = {
 			character_event = {
 				id = TOG.1213
 				days = 1
 			}
 		}
-		
+
 		liege = {
 			capital_scope = {
 				event_target:adventure_target_province = {
@@ -5988,9 +5987,9 @@ character_event = {
 									ruler = "LORD"
 									ruler_female = "LADY"
 								}
-								
+
 								set_character_flag = duchy_adventurer
-								
+
 								spawn_unit = {
 									province = PREVPREVPREVPREV
 									home = PREVPREVPREVPREV
@@ -6074,7 +6073,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		# Create some decent commander characters
 		create_random_soldier = {
 			random_traits = yes
@@ -6100,7 +6099,7 @@ character_event = {
 			female = no
 			age = 25
 		}
-		
+
 		if  = {
 			limit = { is_seafarer = yes }
 			# Create a fleet, just to be sure
@@ -6121,13 +6120,13 @@ character_event = {
 	desc = EVTDESC_TOG_1213
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		FROM = { is_ruler = yes } # The DoW worked and the adventurer has a temporary title
 	}
-	
+
 	immediate = {
 		FROM = {
 			add_trait = adventurer
@@ -6138,7 +6137,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA_TOG_1203"
 	}
@@ -6149,11 +6148,11 @@ character_event = {
 	desc = EVTDESC_TOG_1214
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_war
-	
+
 	show_from_from = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA_TOG_1203"
 	}

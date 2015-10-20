@@ -23,7 +23,7 @@ baltic_sea = {
 		1772 262
 	}
 	path = {	# Bergenshus
-		1773 1760 274
+		1773 1759 274
 	}
 	path = {	# Akershus
 		1774 272

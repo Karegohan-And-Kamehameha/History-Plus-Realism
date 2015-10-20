@@ -1,0 +1,43 @@
+trade_protected = {
+	trade_route_wealth = 5
+	tradevalue = 5
+	levy_size = -0.05
+	icon = 13
+}
+
+trade_unprotected = {
+	trade_route_wealth = -10
+	tradevalue = -10
+	icon = 24
+}
+
+trade_abolished_black_market = {
+	trade_route_wealth = 10
+	town_opinion = 10
+	icon = 4
+}
+
+trade_tax_black_market = {
+	trade_route_wealth = -10
+	trade_route_value = 10
+	town_opinion = -10
+	icon = 24
+}
+
+trade_merchants_upset = {
+	trade_route_wealth = -20
+	trade_route_value = -5
+	icon = 24
+}
+
+trade_harsh_winter = {
+	trade_route_value = -7.5
+	icon = 24
+}
+
+surge_of_traders = {
+	tradevalue = 5
+	trade_route_value = 2
+	trade_route_wealth = 5
+	icon = 18
+}

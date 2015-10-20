@@ -1,0 +1,78 @@
+title_mastertrader = {
+	is_high_prio = yes
+
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 15
+	revoke_allowed = yes
+	realm_in_name = yes
+	show_as_title = yes
+
+	monthly_salary = 0.05
+	monthly_prestige = 0.005
+
+	allowed_to_hold = {
+		is_adult = yes
+		prisoner = no
+		is_councillor = no
+		OR = {
+			is_landed = no
+			primary_title = { holding_type = city }
+		}
+		OR = {
+			is_female = no
+			is_ruler = yes
+			AND = {
+				culture = basque
+				liege = {
+					culture = basque
+					NOT = { has_law = agnatic_succession }
+				}
+			}
+			AND = {
+				is_feminist_trigger = yes
+				liege = { is_feminist_trigger = yes }
+			}
+			liege = {
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+			AND = {
+				independent = yes
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+		}
+	}
+
+	allowed_to_grant = {
+		any_demesne_province = {
+			OR = {
+				trade_route = silk_road
+				trade_route = mediterranean_trade
+				trade_route = amber_road
+				trade_route = balkan_road
+				trade_route = salt_road
+				trade_route = french_trade
+				trade_route = iberian_trade
+				trade_route = atlantic_trade
+				trade_route = british_trade
+				trade_route = baltic_sea
+			}
+		}
+	}
+
+	gain_effect = {
+	}
+
+	lose_effect = {
+	}
+
+	message = yes
+}

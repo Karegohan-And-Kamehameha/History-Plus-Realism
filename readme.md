@@ -10,9 +10,20 @@ HPR has been made by me for my personal use and is unlikely to be actively maint
 -For a better visual experience it is recommended to turn off trees and rivers.<br>
 -All other mods are not compatable.<br>
 
-The music mod is now available for download at<br> https://mega.nz/#!lld0FKDQ!ymzHRK5N2tPyyPz9v7DG7si0TiTYSjWCcav7v52w-aI <br>
+The music mod is now available for download at<br> https://mega.nz/#!8wVCFabT!l0x9fMp-CQ6mF7p6S6JJ2SwN6ny6huFE0NzE5zIhL-0 <br>
 
 <b>Changelog:</b><br>
+<b>v0.8:</b><br>
+-Validator settings relevant to the mod are now included with it.<br>
+-EMF Combat Tactics, tweaked and debugged, with cherrypicked culture specific tactics from CK2+.<br>
+-EMF Cultural buildings (without the retinue bonus)<br>
+-Trade routes fixed to best fit the map. Dozens of locations added to the paths, hopefully eliminating "flying caravans". This might not be the most historically accurate solution, but it's the most logical one.<br>
+-Trade++ mod integrated (partial, debugged and modified to best fit CK2+ trade routes).<br>
+-AGOT music added.<br>
+-Cleaned up unused music files.<br>
+-Changed how the map looks a bit (smaller highlight thickness, rivers highlighted).<br>
+-Fixed CK2+ cultural conversion events to properly account for SWMH cultures.<br>
+-Misc. Bugfixes.<br>
 <b>v0.7.4:</b><br>
 -Dulcinian is now a proper heresy with a religious head and holy sites. It is now a fun mix of Apostolic and Cathar heresies with the ability to raid, which is unique for Catholic heresies and is based on their historical raid on Sesia Valley.<br>
 -Shattered Realm removed. Ahistorical and was causing CTD if selected.<br>
@@ -99,7 +110,7 @@ Initial release.<br>
 <b>HPR Feature List:</b><br>
 -CK2+ base mechanics and flavors.<br>
 -SWMH Map.<br>
--Centralization law system from EMF.<br>
+-EMF elements, such as the centalization law system, cultural buildings, combat tactics, et cetera.<br>
 -ARKO interface.<br>
 -ARKO armories.<br>
 -VIET events.<br>
@@ -120,12 +131,6 @@ Fear is currently accumulated through acts of cruelty, such as torturing, blindi
 -More detailed focuses with various penalties and bonuses.<br>
 -Warscore with an emphasis on battles and sieges of capitals and contested territory.<br>
 -Various other small tweaks and changes.<br>
-
-<b>TODO:</b><br>
--General balance tweaks.<br>
--Tweaking more numbers for historical accuracy.<br>
--Testing and debugging.<br>
--Clean up unused scripts and assets.<br>
 
 <b>Known issues:</b><br>
 -Sometimes imprisoned characters have their opinion modifier triggered twice.<br>

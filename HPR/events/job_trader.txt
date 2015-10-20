@@ -1,0 +1,192 @@
+namespace = masteroftrade
+
+# 1 Trader upsets merchants
+character_event = {
+	id = masteroftrade.1
+	title = "EVTNAMEmasteroftrade.1"
+	desc = "EVTDESCmasteroftrade.1"
+	picture = GFX_evt_carriage
+	border = GFX_event_normal_frame_economy
+
+	capable_only = yes
+	prisoner = no
+	only_men = yes
+	min_age = 16
+
+	trigger = {
+		has_minor_title = title_mastertrader
+	}
+
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.75
+			NOT = { stewardship = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { stewardship = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { stewardship = 4 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { stewardship = 5 }
+		}
+		modifier = {
+			factor = 1.25
+			stewardship = 10
+		}
+		modifier = {
+			factor = 1.25
+			stewardship = 11
+		}
+		modifier = {
+			factor = 1.25
+			stewardship = 12
+		}
+		modifier = {
+			factor = 1.25
+			stewardship = 13
+		}
+	}
+
+	option = {
+		name = "EVTOPTAmasteroftrade.2"
+		liege = { letter_event = { id = masteroftrade.2 days = 7 } }
+	}
+}
+
+letter_event = {
+	id = masteroftrade.2
+	desc = "EVTDESCmasteroftrade.2"
+	border = GFX_event_letter_frame_economy
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTAmasteroftrade.2"
+			random_demesne_province = {
+				limit = {
+					OR = {
+						trade_route = silk_road
+						trade_route = mediterranean_trade
+						trade_route = amber_road
+						trade_route = balkan_road
+						trade_route = salt_road
+						trade_route = french_trade
+						trade_route = iberian_trade
+						trade_route = atlantic_trade
+						trade_route = british_trade
+						trade_route = baltic_sea
+					}
+				}
+				add_province_modifier = {
+					name = trade_merchants_upset
+					duration = 730
+				}
+			}
+	}
+}
+
+# 2 Merchants request more protection
+character_event = {
+	id = masteroftrade.3
+	title = "EVTNAMEmasteroftrade.3"
+	desc = "EVTDESCmasteroftrade.3"
+	picture = GFX_evt_carriage
+	border = GFX_event_normal_frame_economy
+
+	capable_only = yes
+	prisoner = no
+	only_men = yes
+	min_age = 16
+
+	trigger = {
+		has_minor_title = title_mastertrader
+	}
+
+	mean_time_to_happen = {
+		months = 240
+
+		modifier = {
+			factor = 1.25
+			NOT = { stewardship = 2 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { stewardship = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { stewardship = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { stewardship = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 10
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 11
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 12
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 13
+		}
+	}
+
+	option = {
+		name = "EVTOPTAmasteroftrade.3"
+		liege = { letter_event = { id = masteroftrade.4 days = 7 } }
+	}
+}
+
+letter_event = {
+	id = masteroftrade.4
+	desc = "EVTDESCmasteroftrade.4"
+	border = GFX_event_letter_frame_economy
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTAmasteroftrade.4"
+			random_demesne_province = {
+				limit = {
+					OR = {
+						trade_route = silk_road
+						trade_route = mediterranean_trade
+						trade_route = amber_road
+						trade_route = balkan_road
+						trade_route = salt_road
+						trade_route = french_trade
+						trade_route = iberian_trade
+						trade_route = atlantic_trade
+						trade_route = british_trade
+						trade_route = baltic_sea
+					}
+				}
+				add_province_modifier = {
+					name = trade_protected
+					duration = 730
+				}
+			}
+	}
+
+	option = {
+		name = "EVTOPTBmasteroftrade.4"
+		holder_scope = {
+			add_trait = arbitrary
+		}
+	}
+}

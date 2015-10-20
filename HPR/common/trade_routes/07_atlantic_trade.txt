@@ -18,7 +18,7 @@ atlantic_trade = {
 		841 1726 1754
 	}
 	path = {	# Marrakech-Atlantic-Tangiers
-		843 844 953
+		843 844 842 1361 841
 	}
 	path = {	# Cadiz-Atlantic-Faro-Lisboa-Santiago-Oviedo-Bordeaux-Nantes
 		165 1754 1753 1743 1787 1747 1788 106 107 141
@@ -89,7 +89,7 @@ atlantic_trade = {
 		1763 1771
 	}
 	path = {	# Shetland-Bergenshus, Part 2 Split into 2 parts for more obvious directional cue
-		1771 1760 274
+		1771 1759 274
 	}
 	path = {	# Fife-York-Brugge
 		1767 1768 1769 78

@@ -2477,7 +2477,7 @@ finno_ugric = {
 
 		modifier = default_culture_modifier
 	}
-        samoyed = {
+	samoyed = {
 		graphical_cultures = { siberiangfx }
 
 			color = { 0.3 0.4 0.75 }

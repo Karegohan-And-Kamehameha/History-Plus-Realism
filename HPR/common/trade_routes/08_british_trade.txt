@@ -20,6 +20,6 @@ british_trade = {
 		1411 1412 68 62 1409 59
 	}
 	path = {	# Bedford-Cambridge-Lincoln-York-Fife
-		32 72 1411 61 57 56 51 48 46 43
+		32 72 1411 61 57 964 56 51 48 46 43
 	}
 }

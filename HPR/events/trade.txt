@@ -1,0 +1,439 @@
+namespace = trade
+
+province_event = {	# Bandits have been seen
+	id = trade.1
+	desc = EVTDESCtrade.1
+	picture = GFX_evt_bandits
+	border = GFX_event_normal_frame_economy
+	trigger = {
+		has_trade_post = yes
+		OR = {
+			trade_route = silk_road
+			trade_route = mediterranean_trade
+			trade_route = amber_road
+			trade_route = balkan_road
+			trade_route = salt_road
+			trade_route = french_trade
+			trade_route = iberian_trade
+			trade_route = atlantic_trade
+			trade_route = british_trade
+			trade_route = baltic_sea
+		}
+		NOT = {
+			has_province_modifier = trade_protected
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				NOR = {
+					stewardship = 8
+					diplomacy = 8
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			holder_scope = {
+				NOR = {
+					stewardship = 5
+					diplomacy = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				trait = greedy
+			}
+		}
+		modifier = {
+			factor = 0.85
+			holder_scope = {
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 0.85
+			holder_scope = {
+				trait = cruel
+			}
+		}
+		modifier = {
+			factor = 1.15
+			holder_scope = {
+				trait = just
+			}
+		}
+		modifier = {
+			factor = 1.1
+			holder_scope = {
+				trait = kind
+			}
+		}
+		modifier = {
+			factor = 1.25
+			holder_scope = {
+				trait = charitable
+			}
+		}
+	}
+
+	option = {	# send a military force to patrol the route
+		name = EVTOPTAtrade.1
+		holder_scope = {
+			wealth = -50
+		}
+		add_province_modifier = {
+			modifier = trade_protected
+			months = 180
+		}
+	}
+
+	option = {	# Do nothing
+		name = EVTOPTBtrade.1
+		holder_scope = {
+			add_trait = arbitrary
+		}
+		add_province_modifier = {
+			modifier = trade_unprotected
+		}
+	}
+}
+
+province_event = {	# Goods stolen
+	id = trade.2
+	desc = EVTDESCtrade.2
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_economy
+	trigger = {
+		has_trade_post = yes
+		OR = {
+			trade_route = silk_road
+			trade_route = mediterranean_trade
+			trade_route = amber_road
+			trade_route = balkan_road
+			trade_route = salt_road
+			trade_route = french_trade
+			trade_route = iberian_trade
+			trade_route = atlantic_trade
+			trade_route = british_trade
+			trade_route = baltic_sea
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 40
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				trait = greedy
+			}
+		}
+		modifier = {
+			factor = 0.85
+			holder_scope = {
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 0.85
+			holder_scope = {
+				trait = cruel
+			}
+		}
+		modifier = {
+			factor = 1.15
+			holder_scope = {
+				trait = just
+			}
+		}
+		modifier = {
+			factor = 1.1
+			holder_scope = {
+				trait = kind
+			}
+		}
+		modifier = {
+			factor = 1.25
+			holder_scope = {
+				trait = charitable
+			}
+		}
+	}
+
+	option = {	# Help the poor guy
+		name = EVTOPTAtrade.2
+		holder_scope = {
+			wealth = -50
+			piety = 10
+			add_trait = kind
+		}
+	}
+
+	option = {	# Ignore him
+		name = EVTOPTBtrade.2
+		holder_scope = {
+			prestige = -20
+			piety = -20
+		}
+	}
+
+	option = {	# Confiscate everything
+		name = EVTOPTCtrade.2
+		holder_scope = {
+			wealth = 100
+			piety = -20
+			add_trait = greedy
+		}
+	}
+}
+
+province_event = {	# Black market
+	id = trade.3
+	desc = EVTDESCtrade.3
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_economy
+	trigger = {
+		has_trade_post = yes
+		OR = {
+			trade_route = silk_road
+			trade_route = mediterranean_trade
+			trade_route = amber_road
+			trade_route = balkan_road
+			trade_route = salt_road
+			trade_route = french_trade
+			trade_route = iberian_trade
+			trade_route = atlantic_trade
+			trade_route = british_trade
+			trade_route = baltic_sea
+		}
+		NOT = {
+			has_province_modifier = trade_abolished_black_market
+		}
+		NOT = {
+			has_province_modifier = trade_tax_black_market
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				NOR = {
+					stewardship = 8
+					diplomacy = 8
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			holder_scope = {
+				NOR = {
+					stewardship = 5
+					diplomacy = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				trait = greedy
+			}
+		}
+		modifier = {
+			factor = 0.85
+			holder_scope = {
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 0.85
+			holder_scope = {
+				trait = cruel
+			}
+		}
+		modifier = {
+			factor = 1.15
+			holder_scope = {
+				trait = just
+			}
+		}
+		modifier = {
+			factor = 1.1
+			holder_scope = {
+				trait = kind
+			}
+		}
+		modifier = {
+			factor = 1.25
+			holder_scope = {
+				trait = charitable
+			}
+		}
+	}
+
+	option = {	# Abolish the market
+		name = EVTOPTAtrade.3
+		holder_scope = {
+			prestige = 20
+		}
+		add_province_modifier = {
+			modifier = trade_abolished_black_market
+			months = 180
+		}
+	}
+
+	option = {	# Do nothing
+		name = EVTOPTBtrade.3
+		holder_scope = {
+			prestige = -20
+			add_trait = arbitrary
+		}
+	}
+
+	option = {	# Tax it
+		name = EVTOPTCtrade.3
+		holder_scope = {
+			piety = -20
+			add_trait = greedy
+		}
+		add_province_modifier = {
+			modifier = trade_tax_black_market
+			months = 180
+		}
+	}
+}
+
+province_event = {	# Surge of traders
+	id = trade.4
+	desc = EVTDESCtrade.4
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_economy
+	trigger = {
+		has_trade_post = yes
+		OR = {
+			trade_route = silk_road
+			trade_route = mediterranean_trade
+			trade_route = amber_road
+			trade_route = balkan_road
+			trade_route = salt_road
+			trade_route = french_trade
+			trade_route = iberian_trade
+			trade_route = atlantic_trade
+			trade_route = british_trade
+			trade_route = baltic_sea
+		}
+		NOT = {
+			has_province_modifier = trade_tax_black_market
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 20
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				NOR = {
+					stewardship = 8
+					diplomacy = 8
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			holder_scope = {
+				NOR = {
+					stewardship = 5
+					diplomacy = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				trait = greedy
+			}
+		}
+		modifier = {
+			factor = 0.85
+			holder_scope = {
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 0.85
+			holder_scope = {
+				trait = cruel
+			}
+		}
+		modifier = {
+			factor = 1.15
+			holder_scope = {
+				trait = just
+			}
+		}
+		modifier = {
+			factor = 1.1
+			holder_scope = {
+				trait = kind
+			}
+		}
+		modifier = {
+			factor = 1.25
+			holder_scope = {
+				trait = charitable
+			}
+		}
+	}
+
+	option = {	# Abolish the market
+		name = EVTOPTAtrade.4
+		holder_scope = {
+			prestige = 5
+		}
+		add_province_modifier = {
+			modifier = surge_of_traders
+			months = 12
+		}
+	}
+}
+
+province_event = {	# Surge of traders
+	id = trade.5
+	desc = EVTDESCtrade.5
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_economy
+	trigger = {
+		OR = {
+			trade_route = silk_road
+			trade_route = mediterranean_trade
+			trade_route = amber_road
+			trade_route = balkan_road
+			trade_route = salt_road
+			trade_route = french_trade
+			trade_route = iberian_trade
+			trade_route = atlantic_trade
+			trade_route = british_trade
+			trade_route = baltic_sea
+		}
+		has_trade_post = yes
+		is_winter = yes
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {	# Abolish the market
+		name = EVTOPTAtrade.5
+		add_province_modifier = {
+			modifier = trade_harsh_winter
+			months = 4
+		}
+	}
+}

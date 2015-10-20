@@ -14,13 +14,13 @@ iberian_trade = {
 	}
 
 	path = {	# Bearn-Navara-Viscaya-Oviedo-Santiago
-		208 152 153 154 155 156 157
+		208 152 1203 153 154 155 1190 156 157
 	}
 	path = {	# Santiago-Coimbra-Castelo Branco-Caceres-Cordoba
-		157 158 159 187 193 195 184 181
+		157 1212 158 1213 159 187 193 194 184 183 181
 	}
 	path = {	# Barcelona-Lleida-Zaragoza-Calatayud-Guadalajara-Toledo-Cordoba
-		204 203 202 175 176 1201 197 196 181
+		204 203 1207 202 175 176 1201 197 196 181
 	}
 	path = {	# Cordoba-Cadiz
 		181 182 165
